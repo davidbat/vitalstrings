@@ -1,0 +1,227 @@
+id: 2-54.0.r64/0
+type: file
+pred: 2-54.0.r63/0
+count: 3
+text: 62 0 59 845 e4dcb1a3619ac3533f7c1ea48405bc4d fcca6dd17f05285ef0f5218374f4feccb61ab546 63-1s/_2
+props: 54 3681 30 0 4160c74de5f4e580dc15660c798ff9fc
+cpath: /code/dump-nuggets.pl
+copyroot: 0 /
+
+PLAIN
+K 15
+dump-nuggets.pl
+V 17
+file 2-54.0.r64/0
+K 13
+dump-query.pl
+V 20
+file 4-54.0.r54/4373
+K 8
+dump.dbd
+V 20
+file 5-54.0.r54/3963
+K 13
+extract_vs.sh
+V 19
+file 1-58.0.r61/272
+K 15
+iUnits-0058.tsv
+V 20
+file 6-54.0.r54/4140
+K 9
+query.txt
+V 20
+file 7-54.0.r54/4613
+END
+ENDREP
+id: 0-54.0.r64/530
+type: dir
+pred: 0-54.0.r63/532
+count: 7
+text: 64 254 263 263 c9dd95465cb60067ec5240c43540fad6
+cpath: /code
+copyroot: 0 /
+
+PLAIN
+K 28
+1C2-E-SAMPLE-0001.IUnits.tsv
+V 20
+file 0-19.0.r45/4814
+K 33
+1C2-E-SAMPLE-0001.IUnits_only.txt
+V 20
+file 0-55.0.r55/8431
+K 28
+1C2-E-SAMPLE-0002.IUnits.tsv
+V 20
+file 3-19.0.r45/5033
+K 33
+1C2-E-SAMPLE-0002.IUnits_only.txt
+V 20
+file 2-55.0.r55/8633
+K 28
+1C2-E-SAMPLE-0003.IUnits.tsv
+V 19
+file 5-19.0.r30/945
+K 33
+1C2-E-SAMPLE-0003.IUnits_only.txt
+V 20
+file 3-55.0.r55/8836
+K 28
+1C2-E-SAMPLE-0004.IUnits.tsv
+V 20
+file 7-19.0.r45/5253
+K 33
+1C2-E-SAMPLE-0004.IUnits_only.txt
+V 20
+file 4-55.0.r55/9039
+K 28
+1C2-E-SAMPLE-0005.IUnits.tsv
+V 20
+file 9-19.0.r45/5473
+K 33
+1C2-E-SAMPLE-0005.IUnits_only.txt
+V 20
+file 5-55.0.r55/9242
+K 28
+1C2-E-SAMPLE-0006.IUnits.tsv
+V 20
+file b-19.0.r45/5694
+K 33
+1C2-E-SAMPLE-0006.IUnits_only.txt
+V 20
+file 6-55.0.r55/9445
+K 28
+1C2-E-SAMPLE-0007.IUnits.tsv
+V 20
+file d-19.0.r45/5915
+K 33
+1C2-E-SAMPLE-0007.IUnits_only.txt
+V 20
+file 7-55.0.r55/9648
+K 28
+1C2-E-SAMPLE-0008.IUnits.tsv
+V 19
+file f-19.0.r31/783
+K 33
+1C2-E-SAMPLE-0008.IUnits_only.txt
+V 20
+file 8-55.0.r55/9851
+K 28
+1C2-E-SAMPLE-0009.IUnits.tsv
+V 20
+file h-19.0.r24/2110
+K 33
+1C2-E-SAMPLE-0009.IUnits_only.txt
+V 21
+file 9-55.0.r55/10053
+K 28
+1C2-E-SAMPLE-0010.IUnits.tsv
+V 20
+file j-19.0.r24/2328
+K 33
+1C2-E-SAMPLE-0010.IUnits_only.txt
+V 21
+file a-55.0.r55/10256
+K 28
+1C2-E-SAMPLE-0011.IUnits.tsv
+V 20
+file l-19.0.r25/2496
+K 33
+1C2-E-SAMPLE-0011.IUnits_only.txt
+V 21
+file b-55.0.r55/10457
+K 28
+1C2-E-SAMPLE-0012.IUnits.tsv
+V 20
+file n-19.0.r25/2713
+K 33
+1C2-E-SAMPLE-0012.IUnits_only.txt
+V 21
+file c-55.0.r55/10661
+K 28
+1C2-E-SAMPLE-0013.IUnits.tsv
+V 18
+file p-19.0.r29/69
+K 33
+1C2-E-SAMPLE-0013.IUnits_only.txt
+V 21
+file d-55.0.r55/10864
+K 28
+1C2-E-SAMPLE-0014.IUnits.tsv
+V 20
+file r-19.0.r28/1861
+K 33
+1C2-E-SAMPLE-0014.IUnits_only.txt
+V 21
+file e-55.0.r55/11068
+K 28
+1C2-E-SAMPLE-0015.IUnits.tsv
+V 19
+file t-19.0.r23/998
+K 33
+1C2-E-SAMPLE-0015.IUnits_only.txt
+V 21
+file f-55.0.r55/11272
+K 28
+1C2-E-SAMPLE-0016.IUnits.tsv
+V 20
+file v-19.0.r23/1212
+K 33
+1C2-E-SAMPLE-0016.IUnits_only.txt
+V 21
+file g-55.0.r55/11475
+K 16
+1C2-E-SAMPLE.tsv
+V 20
+file 0-17.0.r44/6266
+K 14
+1C2-E-TEST.tsv
+V 20
+file 0-34.0.r53/3129
+K 13
+1CLICK-1(OLD)
+V 21
+dir 0-7.0.r7/12150454
+K 4
+code
+V 18
+dir 0-54.0.r64/530
+K 4
+data
+V 21
+dir b-7.0.r7/12154295
+K 6
+design
+V 20
+dir 0-56.0.r56/16741
+K 5
+notes
+V 21
+dir h-7.0.r7/12153513
+K 11
+queries.txt
+V 19
+file 0-1.0.r21/7834
+K 6
+slides
+V 22
+dir 13-7.0.r7/12148902
+K 16
+vitalstringscode
+V 23
+dir 0-57.0.r57/56156660
+END
+ENDREP
+id: 0.0.r64/3106
+type: dir
+pred: 0.0.r63/3108
+count: 64
+text: 64 671 2422 2422 210814e757a3f39bd97f2b97bebed4e5
+cpath: /
+copyroot: 0 /
+
+2-54.0.t63-1s modify-file true false /code/dump-nuggets.pl
+
+
+3106 3242
