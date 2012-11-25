@@ -1,0 +1,20 @@
+_2.0.t74-23 add-file true false /vitalstringscode/stanfordparser/joda-time.jar
+
+_2.0.t74-23 modify-file false true /vitalstringscode/stanfordparser/joda-time.jar
+
+_4.0.t74-23 add-file true false /vitalstringscode/stanfordparser/stanford-corenlp-2012-07-06-models.jar
+
+_4.0.t74-23 modify-file false true /vitalstringscode/stanfordparser/stanford-corenlp-2012-07-06-models.jar
+
+_5.0.t74-23 add-file true false /vitalstringscode/stanfordparser/stanford-corenlp-2012-07-09.jar
+
+_5.0.t74-23 modify-file false true /vitalstringscode/stanfordparser/stanford-corenlp-2012-07-09.jar
+
+_6.0.t74-23 add-file true false /vitalstringscode/stanfordparser/xom.jar
+
+_6.0.t74-23 modify-file false true /vitalstringscode/stanfordparser/xom.jar
+
+_2.0.t74-23 modify-file true false /vitalstringscode/stanfordparser/joda-time.jar
+
+_4.0.t74-23 modify-file true false /vitalstringscode/stanfordparser/stanford-corenlp-2012-07-06-models.jar
+
