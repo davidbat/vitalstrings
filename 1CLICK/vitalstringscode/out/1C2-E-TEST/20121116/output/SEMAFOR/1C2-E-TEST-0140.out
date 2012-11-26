@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 20:01:25 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>Today , Indian Beach is a popular spot for Oregon Coast surfers .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Natural_features">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="19" name="Target" start="15"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="19" name="Locale" start="15"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="101" name="Target">
+                      <labels>
+                        <label ID="10101" end="4" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2" frameName="Relational_natural_features">
+                  <layers>
+                    <layer ID="201" name="Target">
+                      <labels>
+                        <label ID="20101" end="54" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="202" name="FE">
+                      <labels>
+                        <label ID="20201" end="54" name="Focal_feature" start="50"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3" frameName="Desirability">
+                  <layers>
+                    <layer ID="301" name="Target">
+                      <labels>
+                        <label ID="30101" end="32" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="302" name="FE">
+                      <labels>
+                        <label ID="30201" end="37" name="Evaluee" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="4" frameName="Locale">
+                  <layers>
+                    <layer ID="401" name="Target">
+                      <labels>
+                        <label ID="40101" end="37" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="402" name="FE">
+                      <labels>
+                        <label ID="40201" end="37" name="Locale" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>Cannon Beach is one of the Oregon Coast 's most popular destinations , offering both adventure and relaxation .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Natural_features">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="11" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="11" name="Locale" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="18" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="67" name="Entity" start="20"/>
+                        <label ID="1010202" end="18" name="Number" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Stimulus_focus">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="108" name="Target" start="99"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="108" name="Stimulus" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Relational_natural_features">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="38" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels>
+                        <label ID="1030201" end="38" name="Focal_feature" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Weapon">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels>
+                        <label ID="1040201" end="5" name="Weapon" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="105" frameName="Offering">
+                  <layers>
+                    <layer ID="10501" name="Target">
+                      <labels>
+                        <label ID="1050101" end="78" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10502" name="FE">
+                      <labels>
+                        <label ID="1050201" end="108" name="Theme" start="80"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="106" frameName="Desirability">
+                  <layers>
+                    <layer ID="10601" name="Target">
+                      <labels>
+                        <label ID="1060101" end="54" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10602" name="FE">
+                      <labels>
+                        <label ID="1060201" end="67" name="Evaluee" start="56"/>
+                        <label ID="1060202" end="46" name="Degree" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="107" frameName="Quantity">
+                  <layers>
+                    <layer ID="10701" name="Target">
+                      <labels>
+                        <label ID="1070101" end="83" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10702" name="FE">
+                      <labels>
+                        <label ID="1070201" end="83" name="Quantity" start="80"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>Cannon Beach with Haystack rock in the distance from Ecola State Park .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="68" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="68" name="Locale" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Political_locales">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="63" name="Target" start="59"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="63" name="Locale" start="59"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Natural_features">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="11" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="11" name="Locale" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="203" frameName="Range">
+                  <layers>
+                    <layer ID="20301" name="Target">
+                      <labels>
+                        <label ID="2030101" end="46" name="Target" start="39"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20302" name="FE">
+                      <labels>
+                        <label ID="2030201" end="46" name="Distance" start="39"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="204" frameName="Weapon">
+                  <layers>
+                    <layer ID="20401" name="Target">
+                      <labels>
+                        <label ID="2040101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20402" name="FE">
+                      <labels>
+                        <label ID="2040201" end="5" name="Weapon" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>Cannon Beach , Oregon is a very popularÃ&#130;Â travel destination .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Natural_features">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="11" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="11" name="Locale" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Weapon">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="5" name="Weapon" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Desirability">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="48" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="60" name="Evaluee" start="50"/>
+                        <label ID="3020202" end="30" name="Degree" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="303" frameName="Degree">
+                  <layers>
+                    <layer ID="30301" name="Target">
+                      <labels>
+                        <label ID="3030101" end="30" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30302" name="FE">
+                      <labels>
+                        <label ID="3030201" end="48" name="Gradable_attribute" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>Ecola Point , near Ecola State Park , has a viewpoint and picnic area , where you can see the whole panorama of Cannon Beach , Haystack Rock and the Coast Range .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Locale">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="68" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="68" name="Locale" start="65"/>
+                        <label ID="4000202" end="63" name="Descriptor" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="34" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="34" name="Locale" start="31"/>
+                        <label ID="4010202" end="29" name="Name" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Natural_features">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="123" name="Target" start="119"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="123" name="Locale" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Political_locales">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels>
+                        <label ID="4030201" end="29" name="Locale" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="404" frameName="Capability">
+                  <layers>
+                    <layer ID="40401" name="Target">
+                      <labels>
+                        <label ID="4040101" end="84" name="Target" start="82"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40402" name="FE">
+                      <labels>
+                        <label ID="4040201" end="80" name="Entity" start="78"/>
+                        <label ID="4040202" end="159" name="Event" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="405" frameName="Relational_natural_features">
+                  <layers>
+                    <layer ID="40501" name="Target">
+                      <labels>
+                        <label ID="4050101" end="153" name="Target" start="149"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40502" name="FE">
+                      <labels>
+                        <label ID="4050201" end="153" name="Focal_feature" start="149"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="406" frameName="Range">
+                  <layers>
+                    <layer ID="40601" name="Target">
+                      <labels>
+                        <label ID="4060101" end="159" name="Target" start="155"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40602" name="FE">
+                      <labels>
+                        <label ID="4060201" end="153" name="Distance" start="149"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="407" frameName="Possession">
+                  <layers>
+                    <layer ID="40701" name="Target">
+                      <labels>
+                        <label ID="4070101" end="40" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40702" name="FE">
+                      <labels>
+                        <label ID="4070201" end="159" name="Possession" start="42"/>
+                        <label ID="4070202" end="34" name="Owner" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="408" frameName="Weapon">
+                  <layers>
+                    <layer ID="40801" name="Target">
+                      <labels>
+                        <label ID="4080101" end="117" name="Target" start="112"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40802" name="FE">
+                      <labels>
+                        <label ID="4080201" end="117" name="Weapon" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="409" frameName="Social_event">
+                  <layers>
+                    <layer ID="40901" name="Target">
+                      <labels>
+                        <label ID="4090101" end="63" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40902" name="FE">
+                      <labels>
+                        <label ID="4090201" end="63" name="Social_event" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="410" frameName="Opinion">
+                  <layers>
+                    <layer ID="41001" name="Target">
+                      <labels>
+                        <label ID="4100101" end="52" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="411" frameName="Adducing">
+                  <layers>
+                    <layer ID="41101" name="Target">
+                      <labels>
+                        <label ID="4110101" end="10" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41102" name="FE">
+                      <labels>
+                        <label ID="4110201" end="4" name="Speaker" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="412" frameName="Ranked_expectation">
+                  <layers>
+                    <layer ID="41201" name="Target">
+                      <labels>
+                        <label ID="4120101" end="98" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41202" name="FE">
+                      <labels>
+                        <label ID="4120201" end="107" name="Entity" start="100"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="413" frameName="Grasp">
+                  <layers>
+                    <layer ID="41301" name="Target">
+                      <labels>
+                        <label ID="4130101" end="88" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41302" name="FE">
+                      <labels>
+                        <label ID="4130201" end="80" name="Cognizer" start="78"/>
+                        <label ID="4130202" end="159" name="Phenomenon" start="90"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="414" frameName="Locative_relation">
+                  <layers>
+                    <layer ID="41401" name="Target">
+                      <labels>
+                        <label ID="4140101" end="76" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41402" name="FE">
+                      <labels>
+                        <label ID="4140201" end="76" name="Ground" start="72"/>
+                        <label ID="4140202" end="80" name="Figure" start="78"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>A two mile trail connects Ecola point to horseshoe shaped Indian Beach , and a six mile trail leads on to Tillamook Head .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Natural_features">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="69" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="69" name="Locale" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Leadership">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="119" name="Target" start="116"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="119" name="Leader" start="116"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="81" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="86" name="Entity" start="83"/>
+                        <label ID="5020202" end="81" name="Number" start="79"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="4" name="Target" start="2"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="9" name="Entity" start="6"/>
+                        <label ID="5030202" end="4" name="Number" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Roadways">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="15" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="15" name="Roadway" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="505" frameName="Causation">
+                  <layers>
+                    <layer ID="50501" name="Target">
+                      <labels>
+                        <label ID="5050101" end="98" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50502" name="FE">
+                      <labels>
+                        <label ID="5050201" end="69" name="Effect" start="32"/>
+                        <label ID="5050202" end="92" name="Cause" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="506" frameName="Shapes">
+                  <layers>
+                    <layer ID="50601" name="Target">
+                      <labels>
+                        <label ID="5060101" end="56" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="507" frameName="Attaching">
+                  <layers>
+                    <layer ID="50701" name="Target">
+                      <labels>
+                        <label ID="5070101" end="24" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50702" name="FE">
+                      <labels>
+                        <label ID="5070201" end="15" name="Item" start="0"/>
+                        <label ID="5070202" end="69" name="Goal" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="508" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="50801" name="Target">
+                      <labels>
+                        <label ID="5080101" end="86" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50802" name="FE">
+                      <labels>
+                        <label ID="5080201" end="86" name="Unit" start="83"/>
+                        <label ID="5080202" end="81" name="Count" start="79"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="509" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="50901" name="Target">
+                      <labels>
+                        <label ID="5090101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50902" name="FE">
+                      <labels>
+                        <label ID="5090201" end="9" name="Unit" start="6"/>
+                        <label ID="5090202" end="4" name="Count" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="510" frameName="Roadways">
+                  <layers>
+                    <layer ID="51001" name="Target">
+                      <labels>
+                        <label ID="5100101" end="92" name="Target" start="88"/>
+                      </labels>
+                    </layer>
+                    <layer ID="51002" name="FE">
+                      <labels>
+                        <label ID="5100201" end="92" name="Roadway" start="88"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="511" frameName="Locale">
+                  <layers>
+                    <layer ID="51101" name="Target">
+                      <labels>
+                        <label ID="5110101" end="36" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="51102" name="FE">
+                      <labels>
+                        <label ID="5110201" end="36" name="Locale" start="32"/>
+                        <label ID="5110202" end="30" name="Descriptor" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Haystack Rock at Cannon Beach is in the Oregon Islands National Wildlife Refuge and is home to gulls and puffins .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Natural_features">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="53" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="53" name="Locale" start="47"/>
+                        <label ID="6000202" end="45" name="Name" start="40"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Weapon">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="22" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="22" name="Weapon" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Natural_features">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="28" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="28" name="Locale" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="603" frameName="Buildings">
+                  <layers>
+                    <layer ID="60301" name="Target">
+                      <labels>
+                        <label ID="6030101" end="90" name="Target" start="87"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60302" name="FE">
+                      <labels>
+                        <label ID="6030201" end="90" name="Building" start="87"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="604" frameName="Political_locales">
+                  <layers>
+                    <layer ID="60401" name="Target">
+                      <labels>
+                        <label ID="6040101" end="62" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60402" name="FE">
+                      <labels>
+                        <label ID="6040201" end="62" name="Locale" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

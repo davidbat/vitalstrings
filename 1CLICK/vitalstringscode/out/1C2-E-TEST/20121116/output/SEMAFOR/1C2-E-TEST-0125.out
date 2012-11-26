@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 17:10:00 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>222 Mason St , San Francisco , CA 94102 .</text>
+              <annotationSets/>
+            </sentence>
+            <sentence ID="1">
+              <text>222 Mason St , San Francisco CA 94102 Phone Number : -LRB- 415 -RRB- 296-9056 .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Quantity">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="49" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="49" name="Quantity" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Contacting">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="42" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>Starbucks Coffee Co San Francisco Intl Airpor San Francisco , CA 94128 650-615-0944 .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Food">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>Starbucks Coffee Co 442 Geary St San Francisco , CA 94102-1223 415-922-9086 .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Food">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>Starbucks Coffee Co 222 Mason St San Francisco , CA 94102-2115 415-296-9056 .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Food">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>Starbucks Coffee Co 780 Market St San Francisco , CA 94102-2514 415-677-4493 .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Food">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Starbucks Coffee Co 1455 Market St San Francisco , CA 94103-1308 415-621-1173 .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Food">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>Starbucks Coffee Co 901 Market St # 107 San Francisco , CA 94103-1705 415-979-0418 .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Food">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>Starbucks Coffee Co 1298 Howard St San Francisco , CA 94103-2712 415-565-7385 .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Food">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>Starbucks Coffee Co 730 Howard St San Francisco , CA 94103-3119 415-541-9962 .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Food">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>Starbucks Coffee Co 555 California St San Francisco , CA 94104-1502 415-788-8670 .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Food">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>Starbucks Coffee Co 200 Pine St San Francisco , CA 94104-2704 415-397-7741 .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Desiring">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="27" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="18" name="Experiencer" start="17"/>
+                        <label ID="11010202" end="44" name="Event" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="22" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="22" name="Number" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1103" frameName="Food">
+                  <layers>
+                    <layer ID="110301" name="Target">
+                      <labels>
+                        <label ID="11030101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110302" name="FE">
+                      <labels>
+                        <label ID="11030201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>Starbucks Coffee Co 15 Sutter St San Francisco , CA 94104-4901 415-433-9615 .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="21" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="28" name="Entity" start="23"/>
+                        <label ID="12000202" end="21" name="Number" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Food">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Starbucks Coffee Co 1 Market Plz San Francisco , CA 94105-1420 415-543-6345 .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Food">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>Starbucks Coffee Co 100 Spear St San Francisco , CA 94105-1522 415-495-7040 .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Food">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels>
+                        <label ID="14000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="22" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="28" name="Entity" start="24"/>
+                        <label ID="14010202" end="22" name="Number" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Cause_harm">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="28" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels>
+                        <label ID="14020201" end="45" name="Victim" start="30"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1403" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="140301" name="Target">
+                      <labels>
+                        <label ID="14030101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>Starbucks Coffee Co 123 Mission St San Francisco , CA 94105-1551 415-543-1510 .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Food">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels>
+                        <label ID="15000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Using">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="30" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels>
+                        <label ID="15010201" end="47" name="Instrument" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1502" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="150201" name="Target">
+                      <labels>
+                        <label ID="15020101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>Starbucks Coffee Co 2 Harrison St San Francisco , CA 94105-1672 415-512-7005 .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Food">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>Starbucks Coffee Co 50 Beale St San Francisco , CA 94105-1813 415-512-1545 .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="21" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels>
+                        <label ID="17000201" end="27" name="Entity" start="23"/>
+                        <label ID="17000202" end="21" name="Number" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Food">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels>
+                        <label ID="17010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1702" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="170201" name="Target">
+                      <labels>
+                        <label ID="17020101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>Starbucks Coffee Co 333 Market St San Francisco , CA 94105-2102 415-543-4786 .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Food">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>Starbucks Coffee Co 455 Market St San Francisco , CA 94105-2420 415-243-9792 .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Food">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels>
+                        <label ID="19000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>Starbucks Coffee Co 36 2nd St San Francisco , CA 94105-3440 415-227-1665 .</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Food">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>Starbucks Coffee Co 1401 Van Ness Ave San Francisco , CA 94109-4607 415-474-7095 .</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Vehicle">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="27" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="27" name="Vehicle" start="25"/>
+                        <label ID="21000202" end="23" name="Possessor" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Food">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels>
+                        <label ID="21010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>Starbucks Coffee Co 151 Union St San Francisco , CA 94111-1218 415-391-3025 .</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Organization">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="28" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="28" name="Organization" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Food">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels>
+                        <label ID="22020201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>Starbucks Coffee Co 565 Clay St San Francisco , CA 94111-3029 415-834-0578 .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Food">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="24">
+              <text>Starbucks Coffee Co 27 Drumm St San Francisco , CA 94111-4805 415-392-3825 .</text>
+              <annotationSets>
+                <annotationSet ID="2400" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="240001" name="Target">
+                      <labels>
+                        <label ID="24000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2401" frameName="Food">
+                  <layers>
+                    <layer ID="240101" name="Target">
+                      <labels>
+                        <label ID="24010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240102" name="FE">
+                      <labels>
+                        <label ID="24010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="25">
+              <text>Starbucks Coffee Co 398 Market St San Francisco , CA 94111-5305 415-788-5856 .</text>
+              <annotationSets>
+                <annotationSet ID="2500" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="250001" name="Target">
+                      <labels>
+                        <label ID="25000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2501" frameName="Food">
+                  <layers>
+                    <layer ID="250101" name="Target">
+                      <labels>
+                        <label ID="25010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250102" name="FE">
+                      <labels>
+                        <label ID="25010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="26">
+              <text>Starbucks Coffee Co 2018 Market St San Francisco , CA 94114-1314 415-431-5561 .</text>
+              <annotationSets>
+                <annotationSet ID="2600" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="260001" name="Target">
+                      <labels>
+                        <label ID="26000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2601" frameName="Food">
+                  <layers>
+                    <layer ID="260101" name="Target">
+                      <labels>
+                        <label ID="26010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260102" name="FE">
+                      <labels>
+                        <label ID="26010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="27">
+              <text>Starbucks Coffee Co 1799 Fulton St San Francisco , CA 94117-1202 415-474-8930 .</text>
+              <annotationSets>
+                <annotationSet ID="2700" frameName="Food">
+                  <layers>
+                    <layer ID="270001" name="Target">
+                      <labels>
+                        <label ID="27000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270002" name="FE">
+                      <labels>
+                        <label ID="27000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2701" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="270101" name="Target">
+                      <labels>
+                        <label ID="27010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="28">
+              <text>Starbucks Coffee Co 1800 Irving St San Francisco , CA 94122-1818 415-242-7970 .</text>
+              <annotationSets>
+                <annotationSet ID="2800" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="280001" name="Target">
+                      <labels>
+                        <label ID="28000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2801" frameName="Food">
+                  <layers>
+                    <layer ID="280101" name="Target">
+                      <labels>
+                        <label ID="28010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280102" name="FE">
+                      <labels>
+                        <label ID="28010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="29">
+              <text>Starbucks Coffee Co 1555 Burke Ave San Francisco , CA 94124-1442 415-824-1469 .</text>
+              <annotationSets>
+                <annotationSet ID="2900" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="290001" name="Target">
+                      <labels>
+                        <label ID="29000101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2901" frameName="Food">
+                  <layers>
+                    <layer ID="290101" name="Target">
+                      <labels>
+                        <label ID="29010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290102" name="FE">
+                      <labels>
+                        <label ID="29010201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="30">
+              <text>Starbucks Coffee Co 100 W Portal Ave San Francisco , CA 94127-1306 415-664-8370 .</text>
+              <annotationSets>
+                <annotationSet ID="3000" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="300001" name="Target">
+                      <labels>
+                        <label ID="30000101" end="22" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300002" name="FE">
+                      <labels>
+                        <label ID="30000201" end="24" name="Entity" start="24"/>
+                        <label ID="30000202" end="22" name="Number" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3001" frameName="Simultaneity">
+                  <layers>
+                    <layer ID="300101" name="Target">
+                      <labels>
+                        <label ID="30010101" end="18" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3002" frameName="Food">
+                  <layers>
+                    <layer ID="300201" name="Target">
+                      <labels>
+                        <label ID="30020101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300202" name="FE">
+                      <labels>
+                        <label ID="30020201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="31">
+              <text>Starbucks Coffee on Market St , San Francisco , CA .</text>
+              <annotationSets>
+                <annotationSet ID="3100" frameName="Food">
+                  <layers>
+                    <layer ID="310001" name="Target">
+                      <labels>
+                        <label ID="31000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="310002" name="FE">
+                      <labels>
+                        <label ID="31000201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="32">
+              <text>Starbucks Coffee on Market St in San Francisco , CA is in the Beach California section -LRB- s -RRB- Limited-Service Restaurants. The map of Starbucks Coffee shows the approximate location in San Francisco , but you should call them at phone number -LRB- 415 -RRB- 243-9792 to verify their address is 455 Market Street , San Francisco , California 94105-2420 and to get hours and driving directions .</text>
+              <annotationSets>
+                <annotationSet ID="3200" frameName="Food">
+                  <layers>
+                    <layer ID="320001" name="Target">
+                      <labels>
+                        <label ID="32000101" end="156" name="Target" start="151"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320002" name="FE">
+                      <labels>
+                        <label ID="32000201" end="156" name="Food" start="151"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3201" frameName="Natural_features">
+                  <layers>
+                    <layer ID="320101" name="Target">
+                      <labels>
+                        <label ID="32010101" end="66" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320102" name="FE">
+                      <labels>
+                        <label ID="32010201" end="66" name="Locale" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3202" frameName="Verification">
+                  <layers>
+                    <layer ID="320201" name="Target">
+                      <labels>
+                        <label ID="32020101" end="282" name="Target" start="277"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320202" name="FE">
+                      <labels>
+                        <label ID="32020201" end="357" name="Unconfirmed_content" start="284"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3203" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="320301" name="Target">
+                      <labels>
+                        <label ID="32030101" end="374" name="Target" start="370"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320302" name="FE">
+                      <labels>
+                        <label ID="32030201" end="374" name="Unit" start="370"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3204" frameName="Quantity">
+                  <layers>
+                    <layer ID="320401" name="Target">
+                      <labels>
+                        <label ID="32040101" end="247" name="Target" start="242"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320402" name="FE">
+                      <labels>
+                        <label ID="32040201" end="247" name="Quantity" start="242"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3205" frameName="Getting">
+                  <layers>
+                    <layer ID="320501" name="Target">
+                      <labels>
+                        <label ID="32050101" end="368" name="Target" start="366"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320502" name="FE">
+                      <labels>
+                        <label ID="32050201" end="397" name="Theme" start="370"/>
+                        <label ID="32050202" end="214" name="Recipient" start="212"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3206" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="320601" name="Target">
+                      <labels>
+                        <label ID="32060101" end="128" name="Target" start="117"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320602" name="FE">
+                      <labels>
+                        <label ID="32060201" end="128" name="Locale" start="117"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3207" frameName="Food">
+                  <layers>
+                    <layer ID="320701" name="Target">
+                      <labels>
+                        <label ID="32070101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320702" name="FE">
+                      <labels>
+                        <label ID="32070201" end="15" name="Food" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3208" frameName="Operate_vehicle">
+                  <layers>
+                    <layer ID="320801" name="Target">
+                      <labels>
+                        <label ID="32080101" end="386" name="Target" start="380"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3209" frameName="Locale">
+                  <layers>
+                    <layer ID="320901" name="Target">
+                      <labels>
+                        <label ID="32090101" end="187" name="Target" start="180"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320902" name="FE">
+                      <labels>
+                        <label ID="32090201" end="187" name="Locale" start="180"/>
+                        <label ID="32090202" end="204" name="Relative_location" start="189"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3210" frameName="Evidence">
+                  <layers>
+                    <layer ID="321001" name="Target">
+                      <labels>
+                        <label ID="32100101" end="162" name="Target" start="158"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321002" name="FE">
+                      <labels>
+                        <label ID="32100201" end="204" name="Proposition" start="164"/>
+                        <label ID="32100202" end="156" name="Support" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3211" frameName="Contacting">
+                  <layers>
+                    <layer ID="321101" name="Target">
+                      <labels>
+                        <label ID="32110101" end="240" name="Target" start="236"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3212" frameName="Part_whole">
+                  <layers>
+                    <layer ID="321201" name="Target">
+                      <labels>
+                        <label ID="32120101" end="85" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321202" name="FE">
+                      <labels>
+                        <label ID="32120201" end="85" name="Part" start="79"/>
+                        <label ID="32120202" end="77" name="Part_Prop" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3213" frameName="Desirable_event">
+                  <layers>
+                    <layer ID="321301" name="Target">
+                      <labels>
+                        <label ID="32130101" end="221" name="Target" start="216"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321302" name="FE">
+                      <labels>
+                        <label ID="32130201" end="214" name="State_of_affairs" start="212"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3214" frameName="Speak_on_topic">
+                  <layers>
+                    <layer ID="321401" name="Target">
+                      <labels>
+                        <label ID="32140101" end="296" name="Target" start="290"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3215" frameName="Contacting">
+                  <layers>
+                    <layer ID="321501" name="Target">
+                      <labels>
+                        <label ID="32150101" end="226" name="Target" start="223"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321502" name="FE">
+                      <labels>
+                        <label ID="32150201" end="214" name="Communicator" start="212"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3216" frameName="Roadways">
+                  <layers>
+                    <layer ID="321601" name="Target">
+                      <labels>
+                        <label ID="32160101" end="317" name="Target" start="312"/>
+                      </labels>
+                    </layer>
+                    <layer ID="321602" name="FE">
+                      <labels>
+                        <label ID="32160201" end="310" name="Name" start="305"/>
+                        <label ID="32160202" end="317" name="Roadway" start="312"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

@@ -1,0 +1,521 @@
+1C2-E-TEST-0184-10.20	What determines a body of waterÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s salinity is not whether itÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s called an ocean, sea, or lake but rather how fast salts are added and water is evaporated.
+1C2-E-TEST-0184-10.20/001	body
+1C2-E-TEST-0184-10.20/002	waterã cents
+1C2-E-TEST-0184-10.20/003	¬
+1C2-E-TEST-0184-10.20/004	â cents	DEP=1C2-E-TEST-0184-10.20005
+1C2-E-TEST-0184-10.20/005	salinity
+1C2-E-TEST-0184-10.20/006	itã cents
+1C2-E-TEST-0184-10.20/007	¬	DEP=1C2-E-TEST-0184-10.20015
+1C2-E-TEST-0184-10.20/008	â cents	DEP=1C2-E-TEST-0184-10.20007
+1C2-E-TEST-0184-10.20/009	sea
+1C2-E-TEST-0184-10.20/010	lake
+1C2-E-TEST-0184-10.20/011	salts	DEP=1C2-E-TEST-0184-10.20018
+1C2-E-TEST-0184-10.20/012	water	DEP=1C2-E-TEST-0184-10.20019
+1C2-E-TEST-0184-10.20/013	determines	DEP=1C2-E-TEST-0184-10.20005
+1C2-E-TEST-0184-10.20/014	s	DEP=1C2-E-TEST-0184-10.20005
+1C2-E-TEST-0184-10.20/015	s	DEP=1C2-E-TEST-0184-10.20016
+1C2-E-TEST-0184-10.20/016	called
+1C2-E-TEST-0184-10.20/017	fast	DEP=1C2-E-TEST-0184-10.20018
+1C2-E-TEST-0184-10.20/018	added
+1C2-E-TEST-0184-10.20/019	evaporated	DEP=1C2-E-TEST-0184-10.20005
+1C2-E-TEST-0184-10.22	Water evaporates from the ocean and moves land-ward to rain down onto rivers.
+1C2-E-TEST-0184-10.22/001	water	DEP=1C2-E-TEST-0184-10.22003
+1C2-E-TEST-0184-10.22/002	rivers
+1C2-E-TEST-0184-10.22/003	evaporates
+1C2-E-TEST-0184-10.22/004	moves	DEP=1C2-E-TEST-0184-10.22003
+1C2-E-TEST-0184-10.22/005	land-ward	DEP=1C2-E-TEST-0184-10.22004
+1C2-E-TEST-0184-10.22/006	rain	DEP=1C2-E-TEST-0184-10.22005
+1C2-E-TEST-0184-10.6	Some parts of the ocean have more salt than others, most lakes and rivers taste fresh, and the Dead Sea is so salty it can barely support life.
+1C2-E-TEST-0184-10.6/001	parts
+1C2-E-TEST-0184-10.6/002	lakes rivers
+1C2-E-TEST-0184-10.6/003	dead sea
+1C2-E-TEST-0184-10.6/004	life	DEP=1C2-E-TEST-0184-10.6008
+1C2-E-TEST-0184-10.6/005	salt
+1C2-E-TEST-0184-10.6/006	fresh
+1C2-E-TEST-0184-10.6/007	barely	DEP=1C2-E-TEST-0184-10.6008
+1C2-E-TEST-0184-10.6/008	support
+1C2-E-TEST-0184-11.9	There are also some places in the ocean floor where salty gases and minerals from within the Earth get released into the ocean! ÃÂÃÂ 
+1C2-E-TEST-0184-11.9/001	places
+1C2-E-TEST-0184-11.9/002	floor
+1C2-E-TEST-0184-11.9/003	gases minerals
+1C2-E-TEST-0184-11.9/004	earth
+1C2-E-TEST-0184-11.9/005	released	DEP=1C2-E-TEST-0184-11.9007
+1C2-E-TEST-0184-11.9/006	ã	DEP=1C2-E-TEST-0184-11.9007
+1C2-E-TEST-0184-11.9/007	â
+1C2-E-TEST-0184-147.29	In time the salt dissolved, and today the ocean is salty.
+1C2-E-TEST-0184-147.29/001	time
+1C2-E-TEST-0184-147.29/002	salt	DEP=1C2-E-TEST-0184-147.29003
+1C2-E-TEST-0184-147.29/003	dissolved
+1C2-E-TEST-0184-147.29/004	today
+1C2-E-TEST-0184-159.15	The water in the oceans has more salt then river water.
+1C2-E-TEST-0184-159.15/001	water
+1C2-E-TEST-0184-159.15/002	oceans
+1C2-E-TEST-0184-159.15/003	salt
+1C2-E-TEST-0184-159.15/004	river water
+1C2-E-TEST-0184-187.6	One commonly held belief is that the salt in sea water is from land run off, coming via the rivers to the sea.
+1C2-E-TEST-0184-187.6/001	salt
+1C2-E-TEST-0184-187.6/002	sea water
+1C2-E-TEST-0184-187.6/003	land
+1C2-E-TEST-0184-187.6/004	rivers
+1C2-E-TEST-0184-187.6/005	sea
+1C2-E-TEST-0184-187.6/006	commonly	DEP=1C2-E-TEST-0184-187.6007
+1C2-E-TEST-0184-187.6/007	held	DEP=1C2-E-TEST-0184-187.6008
+1C2-E-TEST-0184-187.6/008	belief
+1C2-E-TEST-0184-187.6/009	run
+1C2-E-TEST-0184-187.6/010	coming	DEP=1C2-E-TEST-0184-187.6009
+1C2-E-TEST-0184-187.7	However if this were the case, then surely the seas would get more and more salty?ÃÂ  In fact scientists have proven that the salt concentration in the sea has remained the same for over 200 million years.
+1C2-E-TEST-0184-187.7/001	case
+1C2-E-TEST-0184-187.7/002	seas
+1C2-E-TEST-0184-187.7/003	â	DEP=1C2-E-TEST-0184-187.7008
+1C2-E-TEST-0184-187.7/004	fact scientists
+1C2-E-TEST-0184-187.7/005	salt concentration	DEP=1C2-E-TEST-0184-187.7009
+1C2-E-TEST-0184-187.7/006	sea
+1C2-E-TEST-0184-187.7/007	surely	DEP=1C2-E-TEST-0184-187.7001
+1C2-E-TEST-0184-187.7/008	proven
+1C2-E-TEST-0184-187.7/009	remained	DEP=1C2-E-TEST-0184-187.7008
+1C2-E-TEST-0184-187.7/010	200	DEP=1C2-E-TEST-0184-187.7011
+1C2-E-TEST-0184-187.7/011	million	DEP=1C2-E-TEST-0184-187.7012
+1C2-E-TEST-0184-187.7/012	years
+1C2-E-TEST-0184-187.8	If we compare the different solutes dissolved in sea water to river water, we find very different percentages, river water only contains a small amount of chlorine and sodium (about 5% each), but a lot of bicarbonate, calcium and sulphate ions, 35%, 20% and 12% respectively.ÃÂ  The sea as we know is mostly chlorine (55%) and sodium (31%), and only 0.4% bicarbonate, 1% calcium and 8% sulphate.
+1C2-E-TEST-0184-187.8/001	different solutes
+1C2-E-TEST-0184-187.8/002	sea water
+1C2-E-TEST-0184-187.8/003	river water
+1C2-E-TEST-0184-187.8/004	river water	DEP=1C2-E-TEST-0184-187.8021
+1C2-E-TEST-0184-187.8/005	small amount	DEP=1C2-E-TEST-0184-187.8022
+1C2-E-TEST-0184-187.8/006	chlorine sodium
+1C2-E-TEST-0184-187.8/007	5 %
+1C2-E-TEST-0184-187.8/008	lot	DEP=1C2-E-TEST-0184-187.8005
+1C2-E-TEST-0184-187.8/009	bicarbonate calcium sulphate	DEP=1C2-E-TEST-0184-187.8023
+1C2-E-TEST-0184-187.8/010	35 %	DEP=1C2-E-TEST-0184-187.8023
+1C2-E-TEST-0184-187.8/011	20 %	DEP=1C2-E-TEST-0184-187.8023
+1C2-E-TEST-0184-187.8/012	12 %	DEP=1C2-E-TEST-0184-187.8023
+1C2-E-TEST-0184-187.8/013	â	DEP=1C2-E-TEST-0184-187.8004
+1C2-E-TEST-0184-187.8/014	sea	DEP=1C2-E-TEST-0184-187.8013
+1C2-E-TEST-0184-187.8/015	chlorine
+1C2-E-TEST-0184-187.8/016	55 %	DEP=1C2-E-TEST-0184-187.8015
+1C2-E-TEST-0184-187.8/017	sodium	DEP=1C2-E-TEST-0184-187.8015
+1C2-E-TEST-0184-187.8/018	31 %	DEP=1C2-E-TEST-0184-187.8017
+1C2-E-TEST-0184-187.8/019	dissolved	DEP=1C2-E-TEST-0184-187.8001
+1C2-E-TEST-0184-187.8/020	different	DEP=1C2-E-TEST-0184-187.8021
+1C2-E-TEST-0184-187.8/021	percentages
+1C2-E-TEST-0184-187.8/022	contains	DEP=1C2-E-TEST-0184-187.8004
+1C2-E-TEST-0184-187.8/023	ions
+1C2-E-TEST-0184-187.8/024	respectively	DEP=1C2-E-TEST-0184-187.8022
+1C2-E-TEST-0184-187.8/025	0.4	DEP=1C2-E-TEST-0184-187.8026
+1C2-E-TEST-0184-187.8/026	%	DEP=1C2-E-TEST-0184-187.8027
+1C2-E-TEST-0184-187.8/027	bicarbonate	DEP=1C2-E-TEST-0184-187.8015
+1C2-E-TEST-0184-187.8/028	1	DEP=1C2-E-TEST-0184-187.8029
+1C2-E-TEST-0184-187.8/029	%	DEP=1C2-E-TEST-0184-187.8030
+1C2-E-TEST-0184-187.8/030	calcium	DEP=1C2-E-TEST-0184-187.8027
+1C2-E-TEST-0184-187.8/031	8	DEP=1C2-E-TEST-0184-187.8032
+1C2-E-TEST-0184-187.8/032	%	DEP=1C2-E-TEST-0184-187.8033
+1C2-E-TEST-0184-187.8/033	sulphate	DEP=1C2-E-TEST-0184-187.8027
+1C2-E-TEST-0184-2.7	The rain that falls on the land contains some dissolved carbon dioxide from the surrounding air. This causes the rainwater to be slightly acidic due to carbonic acid (which forms from carbon dioxide and water).
+1C2-E-TEST-0184-2.7/001	rain	DEP=1C2-E-TEST-0184-2.7008
+1C2-E-TEST-0184-2.7/002	land
+1C2-E-TEST-0184-2.7/003	dissolved carbon dioxide	DEP=1C2-E-TEST-0184-2.7007
+1C2-E-TEST-0184-2.7/004	surrounding air
+1C2-E-TEST-0184-2.7/005	carbon dioxide water
+1C2-E-TEST-0184-2.7/006	falls	DEP=1C2-E-TEST-0184-2.7001
+1C2-E-TEST-0184-2.7/007	contains	DEP=1C2-E-TEST-0184-2.7008
+1C2-E-TEST-0184-2.7/008	causes
+1C2-E-TEST-0184-2.7/009	rainwater	DEP=1C2-E-TEST-0184-2.7012
+1C2-E-TEST-0184-2.7/010	slightly	DEP=1C2-E-TEST-0184-2.7011
+1C2-E-TEST-0184-2.7/011	acidic	DEP=1C2-E-TEST-0184-2.7009
+1C2-E-TEST-0184-2.7/012	due	DEP=1C2-E-TEST-0184-2.7008
+1C2-E-TEST-0184-2.7/013	carbonic	DEP=1C2-E-TEST-0184-2.7014
+1C2-E-TEST-0184-2.7/014	acid
+1C2-E-TEST-0184-2.7/015	forms	DEP=1C2-E-TEST-0184-2.7014
+1C2-E-TEST-0184-24.13	Salt in the ocean comes from rocks on land.
+1C2-E-TEST-0184-24.13/001	salt	DEP=1C2-E-TEST-0184-24.13004
+1C2-E-TEST-0184-24.13/002	rocks
+1C2-E-TEST-0184-24.13/003	land
+1C2-E-TEST-0184-24.13/004	comes
+1C2-E-TEST-0184-24.15	The rain that falls on the land contains some dissolved carbon dioxide from the surrounding air.
+1C2-E-TEST-0184-24.15/001	rain	DEP=1C2-E-TEST-0184-24.15006
+1C2-E-TEST-0184-24.15/002	land
+1C2-E-TEST-0184-24.15/003	carbon dioxide	DEP=1C2-E-TEST-0184-24.15007
+1C2-E-TEST-0184-24.15/004	surrounding air
+1C2-E-TEST-0184-24.15/005	falls	DEP=1C2-E-TEST-0184-24.15001
+1C2-E-TEST-0184-24.15/006	contains
+1C2-E-TEST-0184-24.15/007	dissolved
+1C2-E-TEST-0184-24.17	The rain erodes the rock and the acid breaks down the rocks and carries it along in a dissolved state as ions.
+1C2-E-TEST-0184-24.17/001	rain	DEP=1C2-E-TEST-0184-24.17007
+1C2-E-TEST-0184-24.17/002	rock	DEP=1C2-E-TEST-0184-24.17007
+1C2-E-TEST-0184-24.17/003	acid breaks	DEP=1C2-E-TEST-0184-24.17002
+1C2-E-TEST-0184-24.17/004	rocks
+1C2-E-TEST-0184-24.17/005	dissolved state
+1C2-E-TEST-0184-24.17/006	ions
+1C2-E-TEST-0184-24.17/007	erodes
+1C2-E-TEST-0184-24.17/008	carries	DEP=1C2-E-TEST-0184-24.17007
+1C2-E-TEST-0184-24.19	Many of the dissolved ions are used by organisms in the ocean and are removed from the water.
+1C2-E-TEST-0184-24.19/001	dissolved ions
+1C2-E-TEST-0184-24.19/002	organisms
+1C2-E-TEST-0184-24.19/003	water
+1C2-E-TEST-0184-24.19/004	removed
+1C2-E-TEST-0184-24.22	The USGS goes on to explain that, "By some estimates, if the salt in the ocean could be removed and spread evenly over the Earth's land surface it would form a layer more than 500 feet (166 m) thick, about the height of a 40-story office building."
+1C2-E-TEST-0184-24.22/001	usgs	DEP=1C2-E-TEST-0184-24.22009
+1C2-E-TEST-0184-24.22/002	estimates
+1C2-E-TEST-0184-24.22/003	salt	DEP=1C2-E-TEST-0184-24.22011
+1C2-E-TEST-0184-24.22/004	earth	DEP=1C2-E-TEST-0184-24.22015
+1C2-E-TEST-0184-24.22/005	layer	DEP=1C2-E-TEST-0184-24.22016
+1C2-E-TEST-0184-24.22/006	166 m	DEP=1C2-E-TEST-0184-24.22005
+1C2-E-TEST-0184-24.22/007	height
+1C2-E-TEST-0184-24.22/008	40-story office building
+1C2-E-TEST-0184-24.22/009	goes
+1C2-E-TEST-0184-24.22/010	explain	DEP=1C2-E-TEST-0184-24.22009
+1C2-E-TEST-0184-24.22/011	removed	DEP=1C2-E-TEST-0184-24.22002
+1C2-E-TEST-0184-24.22/012	spread	DEP=1C2-E-TEST-0184-24.22011
+1C2-E-TEST-0184-24.22/013	evenly	DEP=1C2-E-TEST-0184-24.22011
+1C2-E-TEST-0184-24.22/014	land	DEP=1C2-E-TEST-0184-24.22015
+1C2-E-TEST-0184-24.22/015	surface
+1C2-E-TEST-0184-24.22/016	form	DEP=1C2-E-TEST-0184-24.22010
+1C2-E-TEST-0184-24.22/017	500	DEP=1C2-E-TEST-0184-24.22018
+1C2-E-TEST-0184-24.22/018	feet	DEP=1C2-E-TEST-0184-24.22005
+1C2-E-TEST-0184-24.22/019	thick	DEP=1C2-E-TEST-0184-24.22016
+1C2-E-TEST-0184-29.12	Throughout the world, rivers carry an estimated 4 billion tons of dissolved salts to the ocean annually.
+1C2-E-TEST-0184-29.12/001	world
+1C2-E-TEST-0184-29.12/002	rivers
+1C2-E-TEST-0184-29.12/003	dissolved salts
+1C2-E-TEST-0184-29.12/004	estimated	DEP=1C2-E-TEST-0184-29.12007
+1C2-E-TEST-0184-29.12/005	4	DEP=1C2-E-TEST-0184-29.12006
+1C2-E-TEST-0184-29.12/006	billion	DEP=1C2-E-TEST-0184-29.12007
+1C2-E-TEST-0184-29.12/007	tons
+1C2-E-TEST-0184-29.12/008	annually
+1C2-E-TEST-0184-29.13	About the same tonnage of salt from the ocean water probably is deposited as sediment on the ocean bottom, and thus, yearly gains may offset yearly losses.
+1C2-E-TEST-0184-29.13/001	tonnage
+1C2-E-TEST-0184-29.13/002	salt
+1C2-E-TEST-0184-29.13/003	water	DEP=1C2-E-TEST-0184-29.13009
+1C2-E-TEST-0184-29.13/004	sediment
+1C2-E-TEST-0184-29.13/005	bottom
+1C2-E-TEST-0184-29.13/006	yearly gains	DEP=1C2-E-TEST-0184-29.13010
+1C2-E-TEST-0184-29.13/007	yearly losses	DEP=1C2-E-TEST-0184-29.13010
+1C2-E-TEST-0184-29.13/008	probably	DEP=1C2-E-TEST-0184-29.13009
+1C2-E-TEST-0184-29.13/009	deposited
+1C2-E-TEST-0184-29.13/010	offset	DEP=1C2-E-TEST-0184-29.13009
+1C2-E-TEST-0184-29.15	Past accumulations of dissolved and suspended solids in the sea do not explain completely why the ocean is salty.
+1C2-E-TEST-0184-29.15/001	past accumulations	DEP=1C2-E-TEST-0184-29.15005
+1C2-E-TEST-0184-29.15/002	dissolved suspended	DEP=1C2-E-TEST-0184-29.15004
+1C2-E-TEST-0184-29.15/003	sea
+1C2-E-TEST-0184-29.15/004	solids
+1C2-E-TEST-0184-29.15/005	explain
+1C2-E-TEST-0184-29.15/006	completely	DEP=1C2-E-TEST-0184-29.15005
+1C2-E-TEST-0184-29.16	Salts become concentrated in the sea because the SunÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s heat distills or vaporizes almost pure water from the surface of the sea and leaves the salts behind.
+1C2-E-TEST-0184-29.16/001	salts	DEP=1C2-E-TEST-0184-29.16011
+1C2-E-TEST-0184-29.16/002	sea
+1C2-E-TEST-0184-29.16/003	sunã cents
+1C2-E-TEST-0184-29.16/004	¬
+1C2-E-TEST-0184-29.16/005	â cents	DEP=1C2-E-TEST-0184-29.16012
+1C2-E-TEST-0184-29.16/006	s heat	DEP=1C2-E-TEST-0184-29.16005
+1C2-E-TEST-0184-29.16/007	pure water	DEP=1C2-E-TEST-0184-29.16012
+1C2-E-TEST-0184-29.16/008	surface
+1C2-E-TEST-0184-29.16/009	sea
+1C2-E-TEST-0184-29.16/010	salts	DEP=1C2-E-TEST-0184-29.16014
+1C2-E-TEST-0184-29.16/011	concentrated
+1C2-E-TEST-0184-29.16/012	distills	DEP=1C2-E-TEST-0184-29.16004
+1C2-E-TEST-0184-29.16/013	vaporizes	DEP=1C2-E-TEST-0184-29.16012
+1C2-E-TEST-0184-29.16/014	leaves
+1C2-E-TEST-0184-29.17	This process is part of the continual exchange of water between the Earth and the atmosphere that is called the hydrologic cycle.
+1C2-E-TEST-0184-29.17/001	process	DEP=1C2-E-TEST-0184-29.17002
+1C2-E-TEST-0184-29.17/002	part
+1C2-E-TEST-0184-29.17/003	continual exchange
+1C2-E-TEST-0184-29.17/004	water
+1C2-E-TEST-0184-29.17/005	earth
+1C2-E-TEST-0184-29.17/006	atmosphere	DEP=1C2-E-TEST-0184-29.17003
+1C2-E-TEST-0184-29.17/007	hydrologic cycle	DEP=1C2-E-TEST-0184-29.17008
+1C2-E-TEST-0184-29.17/008	called	DEP=1C2-E-TEST-0184-29.17006
+1C2-E-TEST-0184-29.21	Evaporation from both the land and the ocean again causes water to return to the atmosphere as vapor and the cycle starts anew.
+1C2-E-TEST-0184-29.21/001	evaporation	DEP=1C2-E-TEST-0184-29.21007
+1C2-E-TEST-0184-29.21/002	land
+1C2-E-TEST-0184-29.21/003	water	DEP=1C2-E-TEST-0184-29.21007
+1C2-E-TEST-0184-29.21/004	atmosphere
+1C2-E-TEST-0184-29.21/005	vapor	DEP=1C2-E-TEST-0184-29.21009
+1C2-E-TEST-0184-29.21/006	cycle	DEP=1C2-E-TEST-0184-29.21005
+1C2-E-TEST-0184-29.21/007	causes
+1C2-E-TEST-0184-29.21/008	return	DEP=1C2-E-TEST-0184-29.21007
+1C2-E-TEST-0184-29.21/009	starts	DEP=1C2-E-TEST-0184-29.21008
+1C2-E-TEST-0184-29.21/010	anew	DEP=1C2-E-TEST-0184-29.21009
+1C2-E-TEST-0184-29.22	The ocean, then, is not fresh like river water because of the huge accumulation of salts by evaporation and the contribution of raw salts from the land.
+1C2-E-TEST-0184-29.22/001	river water
+1C2-E-TEST-0184-29.22/002	huge accumulation
+1C2-E-TEST-0184-29.22/003	salts
+1C2-E-TEST-0184-29.22/004	evaporation
+1C2-E-TEST-0184-29.22/005	contribution	DEP=1C2-E-TEST-0184-29.22003
+1C2-E-TEST-0184-29.22/006	raw salts
+1C2-E-TEST-0184-29.22/007	land
+1C2-E-TEST-0184-29.22/008	fresh
+1C2-E-TEST-0184-4.4	Around 3.5% of ocean water is comprised of salts, depending on where in the world one is; equatorial waters tend to be saltier, while northern waters are slowly becoming more fresh.
+1C2-E-TEST-0184-4.4/001	3.5 %
+1C2-E-TEST-0184-4.4/002	water	DEP=1C2-E-TEST-0184-4.4007
+1C2-E-TEST-0184-4.4/003	salts
+1C2-E-TEST-0184-4.4/004	world
+1C2-E-TEST-0184-4.4/005	equatorial waters
+1C2-E-TEST-0184-4.4/006	northern waters
+1C2-E-TEST-0184-4.4/007	comprised
+1C2-E-TEST-0184-4.4/008	depending	DEP=1C2-E-TEST-0184-4.4007
+1C2-E-TEST-0184-4.4/009	saltier
+1C2-E-TEST-0184-4.4/010	slowly
+1C2-E-TEST-0184-4.4/011	fresh
+1C2-E-TEST-0184-4.8	The ocean floor is also constantly renewing itself, another way to make the ocean salty, as seafloor spreading releases even more dissolved minerals into the water, in the form of emissions from hydrothermal vents and cracks in the seafloor.
+1C2-E-TEST-0184-4.8/001	floor	DEP=1C2-E-TEST-0184-4.8011
+1C2-E-TEST-0184-4.8/002	way	DEP=1C2-E-TEST-0184-4.8011
+1C2-E-TEST-0184-4.8/003	seafloor spreading	DEP=1C2-E-TEST-0184-4.8013
+1C2-E-TEST-0184-4.8/004	minerals	DEP=1C2-E-TEST-0184-4.8014
+1C2-E-TEST-0184-4.8/005	water
+1C2-E-TEST-0184-4.8/006	form
+1C2-E-TEST-0184-4.8/007	emissions
+1C2-E-TEST-0184-4.8/008	hydrothermal vents cracks
+1C2-E-TEST-0184-4.8/009	seafloor
+1C2-E-TEST-0184-4.8/010	constantly	DEP=1C2-E-TEST-0184-4.8011
+1C2-E-TEST-0184-4.8/011	renewing
+1C2-E-TEST-0184-4.8/012	make	DEP=1C2-E-TEST-0184-4.8002
+1C2-E-TEST-0184-4.8/013	releases	DEP=1C2-E-TEST-0184-4.8012
+1C2-E-TEST-0184-4.8/014	dissolved
+1C2-E-TEST-0184-41.10	As time goes on the sun's heat distils or vaporizes almost pure water from the surface of the sea, and this leaves the salts and minerals behind.
+1C2-E-TEST-0184-41.10/001	time
+1C2-E-TEST-0184-41.10/002	sun	DEP=1C2-E-TEST-0184-41.10009
+1C2-E-TEST-0184-41.10/003	pure water	DEP=1C2-E-TEST-0184-41.10010
+1C2-E-TEST-0184-41.10/004	surface
+1C2-E-TEST-0184-41.10/005	sea
+1C2-E-TEST-0184-41.10/006	salts minerals	DEP=1C2-E-TEST-0184-41.10011
+1C2-E-TEST-0184-41.10/007	goes
+1C2-E-TEST-0184-41.10/008	heat	DEP=1C2-E-TEST-0184-41.10009
+1C2-E-TEST-0184-41.10/009	distils
+1C2-E-TEST-0184-41.10/010	vaporizes	DEP=1C2-E-TEST-0184-41.10007
+1C2-E-TEST-0184-41.10/011	leaves	DEP=1C2-E-TEST-0184-41.10007
+1C2-E-TEST-0184-41.11	The water returns to the ocean, via rivers or rain washing down even more salt which becomes ever more concentrated.
+1C2-E-TEST-0184-41.11/001	water returns
+1C2-E-TEST-0184-41.11/002	rivers rain
+1C2-E-TEST-0184-41.11/003	washing	DEP=1C2-E-TEST-0184-41.11001
+1C2-E-TEST-0184-41.11/004	salt	DEP=1C2-E-TEST-0184-41.11003
+1C2-E-TEST-0184-41.11/005	concentrated	DEP=1C2-E-TEST-0184-41.11004
+1C2-E-TEST-0184-41.7	The saltiness in our oceans is the result of millions of years of minerals leaching and dissolving from the stones and rocks found within the earth.
+1C2-E-TEST-0184-41.7/001	saltiness	DEP=1C2-E-TEST-0184-41.7003
+1C2-E-TEST-0184-41.7/002	oceans
+1C2-E-TEST-0184-41.7/003	result
+1C2-E-TEST-0184-41.7/004	millions
+1C2-E-TEST-0184-41.7/005	years
+1C2-E-TEST-0184-41.7/006	minerals
+1C2-E-TEST-0184-41.7/007	stones rocks
+1C2-E-TEST-0184-41.7/008	earth
+1C2-E-TEST-0184-41.7/009	leaching	DEP=1C2-E-TEST-0184-41.7006
+1C2-E-TEST-0184-41.7/010	dissolving	DEP=1C2-E-TEST-0184-41.7009
+1C2-E-TEST-0184-41.7/011	found	DEP=1C2-E-TEST-0184-41.7007
+1C2-E-TEST-0184-41.8	While the largest proportion of dissolved salts comes from our rivers, a good quantity of these salts are dissolved from rocks and sediments below the ocean floor, and released through volcanic vents.
+1C2-E-TEST-0184-41.8/001	largest proportion	DEP=1C2-E-TEST-0184-41.8009
+1C2-E-TEST-0184-41.8/002	dissolved salts
+1C2-E-TEST-0184-41.8/003	rivers
+1C2-E-TEST-0184-41.8/004	good quantity	DEP=1C2-E-TEST-0184-41.8010
+1C2-E-TEST-0184-41.8/005	salts
+1C2-E-TEST-0184-41.8/006	rocks sediments
+1C2-E-TEST-0184-41.8/007	floor
+1C2-E-TEST-0184-41.8/008	volcanic vents
+1C2-E-TEST-0184-41.8/009	comes	DEP=1C2-E-TEST-0184-41.8010
+1C2-E-TEST-0184-41.8/010	dissolved
+1C2-E-TEST-0184-41.8/011	released	DEP=1C2-E-TEST-0184-41.8010
+1C2-E-TEST-0184-41.9	To a lesser degree the weather is also a contributing factor as rain also deposits mineral particles into the oceans.
+1C2-E-TEST-0184-41.9/001	lesser degree
+1C2-E-TEST-0184-41.9/002	weather	DEP=1C2-E-TEST-0184-41.9003
+1C2-E-TEST-0184-41.9/003	contributing factor
+1C2-E-TEST-0184-41.9/004	rain	DEP=1C2-E-TEST-0184-41.9007
+1C2-E-TEST-0184-41.9/005	mineral particles	DEP=1C2-E-TEST-0184-41.9007
+1C2-E-TEST-0184-41.9/006	oceans
+1C2-E-TEST-0184-41.9/007	deposits	DEP=1C2-E-TEST-0184-41.9003
+1C2-E-TEST-0184-5.10	Rain water, or precipitation, is slightly acidic due to dissolved compounds.
+1C2-E-TEST-0184-5.10/001	rain water	DEP=1C2-E-TEST-0184-5.10005
+1C2-E-TEST-0184-5.10/002	precipitation	DEP=1C2-E-TEST-0184-5.10001
+1C2-E-TEST-0184-5.10/003	dissolved compounds
+1C2-E-TEST-0184-5.10/004	slightly	DEP=1C2-E-TEST-0184-5.10005
+1C2-E-TEST-0184-5.10/005	acidic
+1C2-E-TEST-0184-5.10/006	due	DEP=1C2-E-TEST-0184-5.10005
+1C2-E-TEST-0184-5.14	The salt(s) then flow down rivers and streams to their final destination in the oceans, where they remain.
+1C2-E-TEST-0184-5.14/001	salt	DEP=1C2-E-TEST-0184-5.14006
+1C2-E-TEST-0184-5.14/002	rivers streams	DEP=1C2-E-TEST-0184-5.14006
+1C2-E-TEST-0184-5.14/003	final destination
+1C2-E-TEST-0184-5.14/004	oceans
+1C2-E-TEST-0184-5.14/005	s	DEP=1C2-E-TEST-0184-5.14001
+1C2-E-TEST-0184-5.14/006	flow
+1C2-E-TEST-0184-5.15	Over the course of millions of years, this salt has accumulated to be a substantial component of the oceans.
+1C2-E-TEST-0184-5.15/001	course
+1C2-E-TEST-0184-5.15/002	millions
+1C2-E-TEST-0184-5.15/003	years
+1C2-E-TEST-0184-5.15/004	salt	DEP=1C2-E-TEST-0184-5.15007
+1C2-E-TEST-0184-5.15/005	substantial component	DEP=1C2-E-TEST-0184-5.15007
+1C2-E-TEST-0184-5.15/006	oceans
+1C2-E-TEST-0184-5.15/007	accumulated
+1C2-E-TEST-0184-5.5	The weather is also responsible, to a lesser degree, as the rain deposits mineral particles into the oceans.
+1C2-E-TEST-0184-5.5/001	weather	DEP=1C2-E-TEST-0184-5.5005
+1C2-E-TEST-0184-5.5/002	lesser degree
+1C2-E-TEST-0184-5.5/003	rain deposits	DEP=1C2-E-TEST-0184-5.5006
+1C2-E-TEST-0184-5.5/004	oceans
+1C2-E-TEST-0184-5.5/005	responsible
+1C2-E-TEST-0184-5.5/006	mineral	DEP=1C2-E-TEST-0184-5.5007
+1C2-E-TEST-0184-5.5/007	particles
+1C2-E-TEST-0184-57.4	The prehistoric seas must have been only slightly salty, but over thousands of years, rain has slowly eroded the rocks that make up Earth's crust.
+1C2-E-TEST-0184-57.4/001	prehistoric seas
+1C2-E-TEST-0184-57.4/002	thousands
+1C2-E-TEST-0184-57.4/003	years
+1C2-E-TEST-0184-57.4/004	rain	DEP=1C2-E-TEST-0184-57.4009
+1C2-E-TEST-0184-57.4/005	rocks	DEP=1C2-E-TEST-0184-57.4009
+1C2-E-TEST-0184-57.4/006	earth	DEP=1C2-E-TEST-0184-57.4010
+1C2-E-TEST-0184-57.4/007	slightly
+1C2-E-TEST-0184-57.4/008	slowly	DEP=1C2-E-TEST-0184-57.4009
+1C2-E-TEST-0184-57.4/009	eroded
+1C2-E-TEST-0184-57.4/010	crust
+1C2-E-TEST-0184-95.16	These droplets fall to earth as rain (precipitation). Ã¢ÂÂ¢ Ã¢ÂÂ¢The rain runs into streams and rivers, which eventually flow into lakes or the sea and the cycle begins all over again.
+1C2-E-TEST-0184-95.16/001	droplets
+1C2-E-TEST-0184-95.16/002	earth
+1C2-E-TEST-0184-95.16/003	rain
+1C2-E-TEST-0184-95.16/004	precipitation	DEP=1C2-E-TEST-0184-95.16001
+1C2-E-TEST-0184-95.16/005	â	DEP=1C2-E-TEST-0184-95.16001
+1C2-E-TEST-0184-95.16/006	rain	DEP=1C2-E-TEST-0184-95.16013
+1C2-E-TEST-0184-95.16/007	streams rivers
+1C2-E-TEST-0184-95.16/008	lakes
+1C2-E-TEST-0184-95.16/009	sea	DEP=1C2-E-TEST-0184-95.16008
+1C2-E-TEST-0184-95.16/010	cycle	DEP=1C2-E-TEST-0184-95.16015
+1C2-E-TEST-0184-95.16/011	cents
+1C2-E-TEST-0184-95.16/012	cents
+1C2-E-TEST-0184-95.16/013	runs
+1C2-E-TEST-0184-95.16/014	eventually
+1C2-E-TEST-0184-95.16/015	begins	DEP=1C2-E-TEST-0184-95.16013
+1C2-E-TEST-0184-95.31	ThatÃ¢ÂÂs not to say you canÃ¢ÂÂt get saltier seas Ã¢ÂÂ like the Dead Sea Ã¢ÂÂ these are just bodies of water cut off from the main ocean and in which more water is evaporating than being returned by rivers, so the water becomes more concentrated.
+1C2-E-TEST-0184-95.31/001	thatâ
+1C2-E-TEST-0184-95.31/002	t	DEP=1C2-E-TEST-0184-95.31013
+1C2-E-TEST-0184-95.31/003	saltier seas	DEP=1C2-E-TEST-0184-95.31015
+1C2-E-TEST-0184-95.31/004	dead sea
+1C2-E-TEST-0184-95.31/005	bodies	DEP=1C2-E-TEST-0184-95.31015
+1C2-E-TEST-0184-95.31/006	water
+1C2-E-TEST-0184-95.31/007	main
+1C2-E-TEST-0184-95.31/008	water	DEP=1C2-E-TEST-0184-95.31017
+1C2-E-TEST-0184-95.31/009	rivers
+1C2-E-TEST-0184-95.31/010	water	DEP=1C2-E-TEST-0184-95.31019
+1C2-E-TEST-0184-95.31/011	s
+1C2-E-TEST-0184-95.31/012	say
+1C2-E-TEST-0184-95.31/013	canâ	DEP=1C2-E-TEST-0184-95.31012
+1C2-E-TEST-0184-95.31/014	â	DEP=1C2-E-TEST-0184-95.31015
+1C2-E-TEST-0184-95.31/015	â	DEP=1C2-E-TEST-0184-95.31013
+1C2-E-TEST-0184-95.31/016	cut	DEP=1C2-E-TEST-0184-95.31006
+1C2-E-TEST-0184-95.31/017	evaporating	DEP=1C2-E-TEST-0184-95.31005
+1C2-E-TEST-0184-95.31/018	returned
+1C2-E-TEST-0184-95.31/019	concentrated	DEP=1C2-E-TEST-0184-95.31017
+1C2-E-TEST-0184-95.35	The salt in our oceans is the result of millions of years of minerals leaching and dissolving from the solid earth.
+1C2-E-TEST-0184-95.35/001	salt	DEP=1C2-E-TEST-0184-95.35003
+1C2-E-TEST-0184-95.35/002	oceans
+1C2-E-TEST-0184-95.35/003	result
+1C2-E-TEST-0184-95.35/004	millions
+1C2-E-TEST-0184-95.35/005	years
+1C2-E-TEST-0184-95.35/006	minerals
+1C2-E-TEST-0184-95.35/007	solid earth
+1C2-E-TEST-0184-95.35/008	leaching	DEP=1C2-E-TEST-0184-95.35006
+1C2-E-TEST-0184-95.35/009	dissolving	DEP=1C2-E-TEST-0184-95.35008
+1C2-E-TEST-0184-95.36	The major portion comes from rivers, while a good quantity of the salts are dissolved from rocks and sediments below the ocean floor, through volcanic vents.
+1C2-E-TEST-0184-95.36/001	major portion	DEP=1C2-E-TEST-0184-95.36008
+1C2-E-TEST-0184-95.36/002	rivers
+1C2-E-TEST-0184-95.36/003	good quantity	DEP=1C2-E-TEST-0184-95.36009
+1C2-E-TEST-0184-95.36/004	salts
+1C2-E-TEST-0184-95.36/005	rocks sediments
+1C2-E-TEST-0184-95.36/006	floor
+1C2-E-TEST-0184-95.36/007	volcanic vents
+1C2-E-TEST-0184-95.36/008	comes
+1C2-E-TEST-0184-95.36/009	dissolved	DEP=1C2-E-TEST-0184-95.36008
+1C2-E-TEST-0184-95.37	The weather is also responsible, to a lesser degree, as the rain deposits mineral particles into the oceans.
+1C2-E-TEST-0184-95.37/001	weather	DEP=1C2-E-TEST-0184-95.37005
+1C2-E-TEST-0184-95.37/002	lesser degree
+1C2-E-TEST-0184-95.37/003	rain deposits	DEP=1C2-E-TEST-0184-95.37006
+1C2-E-TEST-0184-95.37/004	oceans
+1C2-E-TEST-0184-95.37/005	responsible
+1C2-E-TEST-0184-95.37/006	mineral	DEP=1C2-E-TEST-0184-95.37007
+1C2-E-TEST-0184-95.37/007	particles
+1C2-E-TEST-0184-95.38	The sun's heat distills or vaporizes almost pure water from the surface of the sea, leaving the salts and minerals behind.
+1C2-E-TEST-0184-95.38/001	sun	DEP=1C2-E-TEST-0184-95.38006
+1C2-E-TEST-0184-95.38/002	pure water	DEP=1C2-E-TEST-0184-95.38008
+1C2-E-TEST-0184-95.38/003	surface
+1C2-E-TEST-0184-95.38/004	sea
+1C2-E-TEST-0184-95.38/005	salts minerals	DEP=1C2-E-TEST-0184-95.38009
+1C2-E-TEST-0184-95.38/006	heat	DEP=1C2-E-TEST-0184-95.38007
+1C2-E-TEST-0184-95.38/007	distills
+1C2-E-TEST-0184-95.38/008	vaporizes	DEP=1C2-E-TEST-0184-95.38007
+1C2-E-TEST-0184-95.38/009	leaving	DEP=1C2-E-TEST-0184-95.38008
+1C2-E-TEST-0184-95.39	The water returns to the ocean, via rivers or precipitation, to wash down more salt, which becomes ever more concentrated.
+1C2-E-TEST-0184-95.39/001	water returns
+1C2-E-TEST-0184-95.39/002	rivers precipitation
+1C2-E-TEST-0184-95.39/003	salt	DEP=1C2-E-TEST-0184-95.39004
+1C2-E-TEST-0184-95.39/004	wash	DEP=1C2-E-TEST-0184-95.39001
+1C2-E-TEST-0184-95.39/005	concentrated	DEP=1C2-E-TEST-0184-95.39003
+1C2-E-TEST-0184-95.42	Answer II Rain water, or precipitation, is slightly acidic due to dissolved compounds.
+1C2-E-TEST-0184-95.42/001	answer ii rain water	DEP=1C2-E-TEST-0184-95.42005
+1C2-E-TEST-0184-95.42/002	precipitation	DEP=1C2-E-TEST-0184-95.42001
+1C2-E-TEST-0184-95.42/003	dissolved compounds
+1C2-E-TEST-0184-95.42/004	slightly	DEP=1C2-E-TEST-0184-95.42005
+1C2-E-TEST-0184-95.42/005	acidic
+1C2-E-TEST-0184-95.42/006	due	DEP=1C2-E-TEST-0184-95.42005
+1C2-E-TEST-0184-95.43	When this acidic water beats down on the land and rocks, they end up dissolving the minerals in the rocks and return them to the water.
+1C2-E-TEST-0184-95.43/001	acidic water	DEP=1C2-E-TEST-0184-95.43007
+1C2-E-TEST-0184-95.43/002	land
+1C2-E-TEST-0184-95.43/003	rocks	DEP=1C2-E-TEST-0184-95.43002
+1C2-E-TEST-0184-95.43/004	minerals	DEP=1C2-E-TEST-0184-95.43008
+1C2-E-TEST-0184-95.43/005	rocks
+1C2-E-TEST-0184-95.43/006	water
+1C2-E-TEST-0184-95.43/007	beats
+1C2-E-TEST-0184-95.43/008	dissolving
+1C2-E-TEST-0184-95.43/009	return
+1C2-E-TEST-0184-95.46	The salt(s) then flow down rivers and streams to their final destination in the oceans, where they remain.
+1C2-E-TEST-0184-95.46/001	salt	DEP=1C2-E-TEST-0184-95.46006
+1C2-E-TEST-0184-95.46/002	rivers streams	DEP=1C2-E-TEST-0184-95.46006
+1C2-E-TEST-0184-95.46/003	final destination
+1C2-E-TEST-0184-95.46/004	oceans
+1C2-E-TEST-0184-95.46/005	s	DEP=1C2-E-TEST-0184-95.46001
+1C2-E-TEST-0184-95.46/006	flow
+1C2-E-TEST-0184-95.47	Over the course of millions of years, this salt has accumulated to be a substantial component of the oceans.
+1C2-E-TEST-0184-95.47/001	course
+1C2-E-TEST-0184-95.47/002	millions
+1C2-E-TEST-0184-95.47/003	years
+1C2-E-TEST-0184-95.47/004	salt	DEP=1C2-E-TEST-0184-95.47007
+1C2-E-TEST-0184-95.47/005	substantial component	DEP=1C2-E-TEST-0184-95.47007
+1C2-E-TEST-0184-95.47/006	oceans
+1C2-E-TEST-0184-95.47/007	accumulated
+1C2-E-TEST-0184-95.70	The concentrations of salts are indeed recycled back into the earth as a plate subducts under another.
+1C2-E-TEST-0184-95.70/001	concentrations	DEP=1C2-E-TEST-0184-95.70005
+1C2-E-TEST-0184-95.70/002	salts
+1C2-E-TEST-0184-95.70/003	earth
+1C2-E-TEST-0184-95.70/004	plate subducts
+1C2-E-TEST-0184-95.70/005	recycled
+1C2-E-TEST-0184-95.70/006	back	DEP=1C2-E-TEST-0184-95.70005
+1C2-E-TEST-0184-95.74	Clanad(16:03 on Sat 28/Oct/06) Clanad Until about twenty years ago, theory suggested that, over millions of years, dissolved mineral that flowed into the oceans from rivers and streams, was responsible for the saltiness.
+1C2-E-TEST-0184-95.74/001	clanad	DEP=1C2-E-TEST-0184-95.74017
+1C2-E-TEST-0184-95.74/002	16:03	DEP=1C2-E-TEST-0184-95.74001
+1C2-E-TEST-0184-95.74/003	sat 28\/oct\/06
+1C2-E-TEST-0184-95.74/004	clanad	DEP=1C2-E-TEST-0184-95.74014
+1C2-E-TEST-0184-95.74/005	twenty years	DEP=1C2-E-TEST-0184-95.74013
+1C2-E-TEST-0184-95.74/006	theory	DEP=1C2-E-TEST-0184-95.74014
+1C2-E-TEST-0184-95.74/007	millions
+1C2-E-TEST-0184-95.74/008	years
+1C2-E-TEST-0184-95.74/009	mineral	DEP=1C2-E-TEST-0184-95.74015
+1C2-E-TEST-0184-95.74/010	oceans
+1C2-E-TEST-0184-95.74/011	rivers streams
+1C2-E-TEST-0184-95.74/012	saltiness
+1C2-E-TEST-0184-95.74/013	ago
+1C2-E-TEST-0184-95.74/014	suggested	DEP=1C2-E-TEST-0184-95.74017
+1C2-E-TEST-0184-95.74/015	dissolved	DEP=1C2-E-TEST-0184-95.74008
+1C2-E-TEST-0184-95.74/016	flowed	DEP=1C2-E-TEST-0184-95.74009
+1C2-E-TEST-0184-95.74/017	responsible
+1C2-E-TEST-0184-95.82	It's also believed that under sea volcanos contribute significantly to the saline content...
+1C2-E-TEST-0184-95.82/001	sea
+1C2-E-TEST-0184-95.82/002	volcanos
+1C2-E-TEST-0184-95.82/003	saline content
+1C2-E-TEST-0184-95.82/004	's	DEP=1C2-E-TEST-0184-95.82005
+1C2-E-TEST-0184-95.82/005	believed
+1C2-E-TEST-0184-95.82/006	significantly
+1C2-E-TEST-0184-95.86	Salt naturally occurs in soil and rocks, on land and under the sea.
+1C2-E-TEST-0184-95.86/001	salt	DEP=1C2-E-TEST-0184-95.86006
+1C2-E-TEST-0184-95.86/002	soil rocks
+1C2-E-TEST-0184-95.86/003	land
+1C2-E-TEST-0184-95.86/004	sea
+1C2-E-TEST-0184-95.86/005	naturally	DEP=1C2-E-TEST-0184-95.86006
+1C2-E-TEST-0184-95.86/006	occurs
+1C2-E-TEST-0184-95.87	It washes into the ocean in rivers and comes up in vents from below the ocean bottom.
+1C2-E-TEST-0184-95.87/001	rivers
+1C2-E-TEST-0184-95.87/002	vents
+1C2-E-TEST-0184-95.87/003	bottom
+1C2-E-TEST-0184-95.87/004	washes
+1C2-E-TEST-0184-95.87/005	comes	DEP=1C2-E-TEST-0184-95.87004

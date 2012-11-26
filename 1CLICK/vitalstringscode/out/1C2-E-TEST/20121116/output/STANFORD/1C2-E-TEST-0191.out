@@ -1,0 +1,352 @@
+1C2-E-TEST-0191-1.10	The nuclei of these heavy elements split releasing energy and more neutrons to continue the process of splitting other nuclei.
+1C2-E-TEST-0191-1.10/001	nuclei	DEP=1C2-E-TEST-0191-1.10006
+1C2-E-TEST-0191-1.10/002	heavy elements
+1C2-E-TEST-0191-1.10/003	energy	DEP=1C2-E-TEST-0191-1.10008
+1C2-E-TEST-0191-1.10/004	process	DEP=1C2-E-TEST-0191-1.10009
+1C2-E-TEST-0191-1.10/005	splitting nuclei
+1C2-E-TEST-0191-1.10/006	split
+1C2-E-TEST-0191-1.10/007	releasing	DEP=1C2-E-TEST-0191-1.10006
+1C2-E-TEST-0191-1.10/008	neutrons	DEP=1C2-E-TEST-0191-1.10009
+1C2-E-TEST-0191-1.10/009	continue	DEP=1C2-E-TEST-0191-1.10007
+1C2-E-TEST-0191-112.6	The most frequently used elements to produce nuclear fission are uranium and plutonium .
+1C2-E-TEST-0191-112.6/001	elements
+1C2-E-TEST-0191-112.6/002	nuclear
+1C2-E-TEST-0191-112.6/003	uranium plutonium
+1C2-E-TEST-0191-112.6/004	frequently
+1C2-E-TEST-0191-112.6/005	produce
+1C2-E-TEST-0191-168.203	No chain reaction was produced, but the fusion neutrons had sufficient energy to cause fission of the uranium nuclei and thus added to the explosive yield and also to the radioactivity of the bomb residues.
+1C2-E-TEST-0191-168.203/001	chain reaction	DEP=1C2-E-TEST-0191-168.203007
+1C2-E-TEST-0191-168.203/002	neutrons
+1C2-E-TEST-0191-168.203/003	uranium nuclei
+1C2-E-TEST-0191-168.203/004	explosive yield
+1C2-E-TEST-0191-168.203/005	radioactivity
+1C2-E-TEST-0191-168.203/006	bomb residues
+1C2-E-TEST-0191-168.203/007	produced
+1C2-E-TEST-0191-168.203/008	sufficient	DEP=1C2-E-TEST-0191-168.203009
+1C2-E-TEST-0191-168.203/009	energy
+1C2-E-TEST-0191-168.203/010	cause	DEP=1C2-E-TEST-0191-168.203009
+1C2-E-TEST-0191-168.203/011	added
+1C2-E-TEST-0191-168.27	In other words, energy can be released by the nuclear fission , or splitting, of a single massive nucleus into two smaller fragments.
+1C2-E-TEST-0191-168.27/001	words
+1C2-E-TEST-0191-168.27/002	energy	DEP=1C2-E-TEST-0191-168.27007
+1C2-E-TEST-0191-168.27/003	nuclear
+1C2-E-TEST-0191-168.27/004	splitting
+1C2-E-TEST-0191-168.27/005	single massive nucleus
+1C2-E-TEST-0191-168.27/006	two smaller fragments
+1C2-E-TEST-0191-168.27/007	released
+1C2-E-TEST-0191-168.66	Nuclear energy is also released when the fission of a heavy nucleus such as
+1C2-E-TEST-0191-168.66/001	nuclear energy	DEP=1C2-E-TEST-0191-168.66003
+1C2-E-TEST-0191-168.66/002	heavy nucleus
+1C2-E-TEST-0191-168.66/003	released
+1C2-E-TEST-0191-168.69	A nuclear fission reaction releases 10 million times as much energy as is released in a typical chemical reaction.
+1C2-E-TEST-0191-168.69/001	nuclear reaction	DEP=1C2-E-TEST-0191-168.69003
+1C2-E-TEST-0191-168.69/002	typical chemical reaction
+1C2-E-TEST-0191-168.69/003	releases
+1C2-E-TEST-0191-168.69/004	10	DEP=1C2-E-TEST-0191-168.69005
+1C2-E-TEST-0191-168.69/005	million	DEP=1C2-E-TEST-0191-168.69006
+1C2-E-TEST-0191-168.69/006	times
+1C2-E-TEST-0191-168.69/007	energy	DEP=1C2-E-TEST-0191-168.69003
+1C2-E-TEST-0191-168.69/008	released	DEP=1C2-E-TEST-0191-168.69003
+1C2-E-TEST-0191-168.71	The fission process initiated by the absorption of one neutron in uranium-235 releases about 2.5 neutrons, on the average, from the split nuclei.
+1C2-E-TEST-0191-168.71/001	process	DEP=1C2-E-TEST-0191-168.71008
+1C2-E-TEST-0191-168.71/002	absorption
+1C2-E-TEST-0191-168.71/003	neutron
+1C2-E-TEST-0191-168.71/004	uranium-235 releases
+1C2-E-TEST-0191-168.71/005	2.5 neutrons
+1C2-E-TEST-0191-168.71/006	average
+1C2-E-TEST-0191-168.71/007	split nuclei
+1C2-E-TEST-0191-168.71/008	initiated
+1C2-E-TEST-0191-171.133	Pure fission weapons were the first nuclear weapons built and the only type ever used in warfare.
+1C2-E-TEST-0191-171.133/001	pure weapons	DEP=1C2-E-TEST-0191-171.133002
+1C2-E-TEST-0191-171.133/002	nuclear weapons
+1C2-E-TEST-0191-171.133/003	type	DEP=1C2-E-TEST-0191-171.133002
+1C2-E-TEST-0191-171.133/004	warfare
+1C2-E-TEST-0191-171.133/005	built	DEP=1C2-E-TEST-0191-171.133002
+1C2-E-TEST-0191-171.173	[edit] Nuclear reactions Nuclear fission splits the heaviest of atoms to form lighter atoms.
+1C2-E-TEST-0191-171.173/001	edit	DEP=1C2-E-TEST-0191-171.173007
+1C2-E-TEST-0191-171.173/002	nuclear reactions	DEP=1C2-E-TEST-0191-171.173001
+1C2-E-TEST-0191-171.173/003	nuclear
+1C2-E-TEST-0191-171.173/004	heaviest	DEP=1C2-E-TEST-0191-171.173008
+1C2-E-TEST-0191-171.173/005	atoms
+1C2-E-TEST-0191-171.173/006	lighter atoms	DEP=1C2-E-TEST-0191-171.173008
+1C2-E-TEST-0191-171.173/007	splits
+1C2-E-TEST-0191-171.173/008	form	DEP=1C2-E-TEST-0191-171.173007
+1C2-E-TEST-0191-171.179	[edit] Fission Fission can be self-sustaining because fission produces more neutrons of the speed required to cause new fissions.
+1C2-E-TEST-0191-171.179/001	neutrons	DEP=1C2-E-TEST-0191-171.179006
+1C2-E-TEST-0191-171.179/002	speed
+1C2-E-TEST-0191-171.179/003	new fissions	DEP=1C2-E-TEST-0191-171.179008
+1C2-E-TEST-0191-171.179/004	edit	DEP=1C2-E-TEST-0191-171.179005
+1C2-E-TEST-0191-171.179/005	self-sustaining
+1C2-E-TEST-0191-171.179/006	produces	DEP=1C2-E-TEST-0191-171.179005
+1C2-E-TEST-0191-171.179/007	required	DEP=1C2-E-TEST-0191-171.179002
+1C2-E-TEST-0191-171.179/008	cause	DEP=1C2-E-TEST-0191-171.179007
+1C2-E-TEST-0191-171.212	Fission is thus necessary to start fusion, to sustain fusion, and to optimize the extraction of useful energy from fusion (by making more fission).
+1C2-E-TEST-0191-171.212/001	extraction	DEP=1C2-E-TEST-0191-171.212006
+1C2-E-TEST-0191-171.212/002	useful energy
+1C2-E-TEST-0191-171.212/003	necessary
+1C2-E-TEST-0191-171.212/004	start	DEP=1C2-E-TEST-0191-171.212003
+1C2-E-TEST-0191-171.212/005	sustain	DEP=1C2-E-TEST-0191-171.212004
+1C2-E-TEST-0191-171.212/006	optimize	DEP=1C2-E-TEST-0191-171.212004
+1C2-E-TEST-0191-171.212/007	making
+1C2-E-TEST-0191-171.44	The first are weapons which produce their explosive energy through nuclear fission reactions alone.
+1C2-E-TEST-0191-171.44/001	weapons
+1C2-E-TEST-0191-171.44/002	explosive energy
+1C2-E-TEST-0191-171.44/003	nuclear reactions
+1C2-E-TEST-0191-171.52	Historically they have been called hydrogen bombs (or H-bombs), as they rely on fusion reactions between isotopes of hydrogen (deuterium and tritium), though all such weapons derive a significantÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂand sometimes a majorityÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂof their energy from fission reactions (including fission reactions stimulated by fusion reactions).
+1C2-E-TEST-0191-171.52/001	historically	DEP=1C2-E-TEST-0191-171.52017
+1C2-E-TEST-0191-171.52/002	hydrogen bombs	DEP=1C2-E-TEST-0191-171.52017
+1C2-E-TEST-0191-171.52/003	h-bombs	DEP=1C2-E-TEST-0191-171.52002
+1C2-E-TEST-0191-171.52/004	reactions
+1C2-E-TEST-0191-171.52/005	isotopes
+1C2-E-TEST-0191-171.52/006	hydrogen
+1C2-E-TEST-0191-171.52/007	deuterium	DEP=1C2-E-TEST-0191-171.52006
+1C2-E-TEST-0191-171.52/008	tritium	DEP=1C2-E-TEST-0191-171.52007
+1C2-E-TEST-0191-171.52/009	weapons
+1C2-E-TEST-0191-171.52/010	significantã cents
+1C2-E-TEST-0191-171.52/011	majorityã cents
+1C2-E-TEST-0191-171.52/012	¬ â
+1C2-E-TEST-0191-171.52/013	energy
+1C2-E-TEST-0191-171.52/014	reactions
+1C2-E-TEST-0191-171.52/015	reactions
+1C2-E-TEST-0191-171.52/016	reactions
+1C2-E-TEST-0191-171.52/017	called
+1C2-E-TEST-0191-171.52/018	¬	DEP=1C2-E-TEST-0191-171.52019
+1C2-E-TEST-0191-171.52/019	â
+1C2-E-TEST-0191-171.52/020	stimulated	DEP=1C2-E-TEST-0191-171.52015
+1C2-E-TEST-0191-171.65	For example, a boosted fission weapon is a fission bomb which increases its explosive yield through a small amount of fusion reactions, but it is not a fusion bomb.
+1C2-E-TEST-0191-171.65/001	example
+1C2-E-TEST-0191-171.65/002	boosted weapon	DEP=1C2-E-TEST-0191-171.65003
+1C2-E-TEST-0191-171.65/003	bomb
+1C2-E-TEST-0191-171.65/004	explosive yield	DEP=1C2-E-TEST-0191-171.65008
+1C2-E-TEST-0191-171.65/005	small amount
+1C2-E-TEST-0191-171.65/006	reactions
+1C2-E-TEST-0191-171.65/007	bomb	DEP=1C2-E-TEST-0191-171.65003
+1C2-E-TEST-0191-171.65/008	increases	DEP=1C2-E-TEST-0191-171.65003
+1C2-E-TEST-0191-182.10	Fusion bombs work because the energy release does not have to be controlled ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ so they create the energy to start the fusion reaction with a nuclear fission explosive.
+1C2-E-TEST-0191-182.10/001	bombs
+1C2-E-TEST-0191-182.10/002	energy release
+1C2-E-TEST-0191-182.10/003	ã cents
+1C2-E-TEST-0191-182.10/004	¬ â
+1C2-E-TEST-0191-182.10/005	energy	DEP=1C2-E-TEST-0191-182.10009
+1C2-E-TEST-0191-182.10/006	reaction	DEP=1C2-E-TEST-0191-182.10009
+1C2-E-TEST-0191-182.10/007	nuclear explosive
+1C2-E-TEST-0191-182.10/008	controlled
+1C2-E-TEST-0191-182.10/009	start
+1C2-E-TEST-0191-182.9	The problem with fusion reactions is that they require more energy to create the reaction than they release from the fusion reaction ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ in other words, any fusion reactor built currently has a negative efficiency.
+1C2-E-TEST-0191-182.9/001	problem
+1C2-E-TEST-0191-182.9/002	reactions
+1C2-E-TEST-0191-182.9/003	reaction	DEP=1C2-E-TEST-0191-182.9011
+1C2-E-TEST-0191-182.9/004	reaction
+1C2-E-TEST-0191-182.9/005	ã cents
+1C2-E-TEST-0191-182.9/006	¬ â
+1C2-E-TEST-0191-182.9/007	words
+1C2-E-TEST-0191-182.9/008	reactor	DEP=1C2-E-TEST-0191-182.9007
+1C2-E-TEST-0191-182.9/009	negative efficiency
+1C2-E-TEST-0191-182.9/010	energy
+1C2-E-TEST-0191-182.9/011	create	DEP=1C2-E-TEST-0191-182.9010
+1C2-E-TEST-0191-182.9/012	built	DEP=1C2-E-TEST-0191-182.9008
+1C2-E-TEST-0191-182.9/013	currently	DEP=1C2-E-TEST-0191-182.9012
+1C2-E-TEST-0191-184.31	An important fusion reaction for practical energy generation is that between deuterium and tritium (the D-T fusion reaction).
+1C2-E-TEST-0191-184.31/001	important reaction
+1C2-E-TEST-0191-184.31/002	practical energy generation
+1C2-E-TEST-0191-184.31/003	deuterium tritium
+1C2-E-TEST-0191-184.31/004	d-t
+1C2-E-TEST-0191-184.31/005	reaction	DEP=1C2-E-TEST-0191-184.31004
+1C2-E-TEST-0191-184.42	Energy is released in a nuclear reaction if the total mass of the resultant particles is less than the mass of the initial reactants.
+1C2-E-TEST-0191-184.42/001	energy	DEP=1C2-E-TEST-0191-184.42007
+1C2-E-TEST-0191-184.42/002	nuclear reaction
+1C2-E-TEST-0191-184.42/003	total mass
+1C2-E-TEST-0191-184.42/004	resultant particles
+1C2-E-TEST-0191-184.42/005	mass
+1C2-E-TEST-0191-184.42/006	initial reactants
+1C2-E-TEST-0191-184.42/007	released
+1C2-E-TEST-0191-191.75	These fission reactions would also produce more neutrons, thereby assisting further fission reactions in the blanket.
+1C2-E-TEST-0191-191.75/001	reactions	DEP=1C2-E-TEST-0191-191.75005
+1C2-E-TEST-0191-191.75/002	neutrons	DEP=1C2-E-TEST-0191-191.75005
+1C2-E-TEST-0191-191.75/003	reactions	DEP=1C2-E-TEST-0191-191.75006
+1C2-E-TEST-0191-191.75/004	blanket
+1C2-E-TEST-0191-191.75/005	produce
+1C2-E-TEST-0191-191.75/006	assisting	DEP=1C2-E-TEST-0191-191.75005
+1C2-E-TEST-0191-215.23	1.46 Although two to three neutrons are produced in the fission reaction for every nucleus that undergoes fission, not all of these neutrons are available for causing further fissions.
+1C2-E-TEST-0191-215.23/001	1.46	DEP=1C2-E-TEST-0191-215.23009
+1C2-E-TEST-0191-215.23/002	reaction
+1C2-E-TEST-0191-215.23/003	nucleus
+1C2-E-TEST-0191-215.23/004	neutrons
+1C2-E-TEST-0191-215.23/005	fissions	DEP=1C2-E-TEST-0191-215.23012
+1C2-E-TEST-0191-215.23/006	two	DEP=1C2-E-TEST-0191-215.23007
+1C2-E-TEST-0191-215.23/007	three	DEP=1C2-E-TEST-0191-215.23008
+1C2-E-TEST-0191-215.23/008	neutrons	DEP=1C2-E-TEST-0191-215.23009
+1C2-E-TEST-0191-215.23/009	produced	DEP=1C2-E-TEST-0191-215.23011
+1C2-E-TEST-0191-215.23/010	undergoes	DEP=1C2-E-TEST-0191-215.23003
+1C2-E-TEST-0191-215.23/011	available
+1C2-E-TEST-0191-215.23/012	causing
+1C2-E-TEST-0191-215.56	It is necessary, therefore, that before detonation, a nuclear weapon should contain no piece of fissionable material that is as large as the critical mass for the given conditions.
+1C2-E-TEST-0191-215.56/001	detonation
+1C2-E-TEST-0191-215.56/002	nuclear weapon	DEP=1C2-E-TEST-0191-215.56008
+1C2-E-TEST-0191-215.56/003	piece	DEP=1C2-E-TEST-0191-215.56008
+1C2-E-TEST-0191-215.56/004	fissionable material
+1C2-E-TEST-0191-215.56/005	critical mass
+1C2-E-TEST-0191-215.56/006	given conditions
+1C2-E-TEST-0191-215.56/007	necessary
+1C2-E-TEST-0191-215.56/008	contain	DEP=1C2-E-TEST-0191-215.56007
+1C2-E-TEST-0191-215.56/009	large	DEP=1C2-E-TEST-0191-215.56003
+1C2-E-TEST-0191-215.76	Suppose that a certain number of neutrons are present initially and that these are captured by fissionable nuclei; then, in the fission process other neutrons are released.
+1C2-E-TEST-0191-215.76/001	number	DEP=1C2-E-TEST-0191-215.76006
+1C2-E-TEST-0191-215.76/002	neutrons
+1C2-E-TEST-0191-215.76/003	fissionable nuclei
+1C2-E-TEST-0191-215.76/004	process
+1C2-E-TEST-0191-215.76/005	suppose	DEP=1C2-E-TEST-0191-215.76010
+1C2-E-TEST-0191-215.76/006	present	DEP=1C2-E-TEST-0191-215.76005
+1C2-E-TEST-0191-215.76/007	initially	DEP=1C2-E-TEST-0191-215.76006
+1C2-E-TEST-0191-215.76/008	captured	DEP=1C2-E-TEST-0191-215.76006
+1C2-E-TEST-0191-215.76/009	neutrons	DEP=1C2-E-TEST-0191-215.76010
+1C2-E-TEST-0191-215.76/010	released
+1C2-E-TEST-0191-24.12	Fission can be self-sustaining because it produces more neutrons of the speed required to cause new fissions.
+1C2-E-TEST-0191-24.12/001	neutrons	DEP=1C2-E-TEST-0191-24.12005
+1C2-E-TEST-0191-24.12/002	speed
+1C2-E-TEST-0191-24.12/003	new fissions	DEP=1C2-E-TEST-0191-24.12007
+1C2-E-TEST-0191-24.12/004	self-sustaining
+1C2-E-TEST-0191-24.12/005	produces	DEP=1C2-E-TEST-0191-24.12004
+1C2-E-TEST-0191-24.12/006	required	DEP=1C2-E-TEST-0191-24.12002
+1C2-E-TEST-0191-24.12/007	cause	DEP=1C2-E-TEST-0191-24.12006
+1C2-E-TEST-0191-24.2	Nuclear fission splits heavier atoms to form lighter atoms.
+1C2-E-TEST-0191-24.2/001	nuclear
+1C2-E-TEST-0191-24.2/002	lighter atoms	DEP=1C2-E-TEST-0191-24.2006
+1C2-E-TEST-0191-24.2/003	splits
+1C2-E-TEST-0191-24.2/004	heavier	DEP=1C2-E-TEST-0191-24.2005
+1C2-E-TEST-0191-24.2/005	atoms	DEP=1C2-E-TEST-0191-24.2003
+1C2-E-TEST-0191-24.2/006	form	DEP=1C2-E-TEST-0191-24.2005
+1C2-E-TEST-0191-24.345	The stages of a nuclear weapon are not fission, fusion, and fission.
+1C2-E-TEST-0191-24.345/001	stages
+1C2-E-TEST-0191-24.345/002	nuclear weapon
+1C2-E-TEST-0191-24.40	It cannot sustain a chain reaction, because its own fission neutrons are not powerful enough to cause more U-238 fission.
+1C2-E-TEST-0191-24.40/001	chain reaction	DEP=1C2-E-TEST-0191-24.40004
+1C2-E-TEST-0191-24.40/002	neutrons
+1C2-E-TEST-0191-24.40/003	u-238
+1C2-E-TEST-0191-24.40/004	sustain
+1C2-E-TEST-0191-24.40/005	powerful
+1C2-E-TEST-0191-24.40/006	cause
+1C2-E-TEST-0191-240.219	Fusion reactions, also called thermonuclear reactions, are reactions between the nuclei of certain isotopes of light elements.
+1C2-E-TEST-0191-240.219/001	reactions	DEP=1C2-E-TEST-0191-240.219003
+1C2-E-TEST-0191-240.219/002	thermonuclear reactions	DEP=1C2-E-TEST-0191-240.219007
+1C2-E-TEST-0191-240.219/003	reactions
+1C2-E-TEST-0191-240.219/004	nuclei
+1C2-E-TEST-0191-240.219/005	isotopes
+1C2-E-TEST-0191-240.219/006	light elements
+1C2-E-TEST-0191-240.219/007	called	DEP=1C2-E-TEST-0191-240.219001
+1C2-E-TEST-0191-240.256	The high energy neutrons produced by this reaction are thus used to "boost" fission bombs.
+1C2-E-TEST-0191-240.256/001	high energy neutrons
+1C2-E-TEST-0191-240.256/002	reaction
+1C2-E-TEST-0191-240.256/003	bombs	DEP=1C2-E-TEST-0191-240.256005
+1C2-E-TEST-0191-240.256/004	produced	DEP=1C2-E-TEST-0191-240.256001
+1C2-E-TEST-0191-240.256/005	boost
+1C2-E-TEST-0191-240.3	Nuclear fission occurs when the nuclei of certain isotopes of very heavy elements, isotopes of uranium and plutonium for example, capture neutrons.
+1C2-E-TEST-0191-240.3/001	nuclear
+1C2-E-TEST-0191-240.3/002	nuclei	DEP=1C2-E-TEST-0191-240.3008
+1C2-E-TEST-0191-240.3/003	isotopes
+1C2-E-TEST-0191-240.3/004	isotopes	DEP=1C2-E-TEST-0191-240.3010
+1C2-E-TEST-0191-240.3/005	uranium plutonium
+1C2-E-TEST-0191-240.3/006	example
+1C2-E-TEST-0191-240.3/007	capture neutrons	DEP=1C2-E-TEST-0191-240.3006
+1C2-E-TEST-0191-240.3/008	occurs
+1C2-E-TEST-0191-240.3/009	heavy	DEP=1C2-E-TEST-0191-240.3010
+1C2-E-TEST-0191-240.3/010	elements
+1C2-E-TEST-0191-240.30	Generally though, slow-fissionable isotopes are more fissionable than fast-fissionable isotopes for neutrons of all energies.
+1C2-E-TEST-0191-240.30/001	slow-fissionable isotopes	DEP=1C2-E-TEST-0191-240.30006
+1C2-E-TEST-0191-240.30/002	fast-fissionable isotopes
+1C2-E-TEST-0191-240.30/003	neutrons
+1C2-E-TEST-0191-240.30/004	energies
+1C2-E-TEST-0191-240.30/005	generally	DEP=1C2-E-TEST-0191-240.30006
+1C2-E-TEST-0191-240.30/006	fissionable
+1C2-E-TEST-0191-38.107	However, one neutron does collide with an atom of uranium-235, which then fissions and releases two neutrons and some binding energy.
+1C2-E-TEST-0191-38.107/001	neutron	DEP=1C2-E-TEST-0191-38.107007
+1C2-E-TEST-0191-38.107/002	atom
+1C2-E-TEST-0191-38.107/003	uranium-235
+1C2-E-TEST-0191-38.107/004	fissions	DEP=1C2-E-TEST-0191-38.107003
+1C2-E-TEST-0191-38.107/005	two neutrons	DEP=1C2-E-TEST-0191-38.107008
+1C2-E-TEST-0191-38.107/006	binding energy	DEP=1C2-E-TEST-0191-38.107005
+1C2-E-TEST-0191-38.107/007	collide
+1C2-E-TEST-0191-38.107/008	releases	DEP=1C2-E-TEST-0191-38.107004
+1C2-E-TEST-0191-38.155	One class of nuclear weapon , a fission bomb (not to be confused with the fusion bomb ), otherwise known as an atomic bomb or atom bomb, is a fission reactor designed to liberate as much energy as possible as rapidly as possible, before the released energy causes the reactor to explode (and the chain reaction to stop).
+1C2-E-TEST-0191-38.155/001	class	DEP=1C2-E-TEST-0191-38.155007
+1C2-E-TEST-0191-38.155/002	nuclear weapon
+1C2-E-TEST-0191-38.155/003	bomb	DEP=1C2-E-TEST-0191-38.155002
+1C2-E-TEST-0191-38.155/004	bomb
+1C2-E-TEST-0191-38.155/005	atomic bomb
+1C2-E-TEST-0191-38.155/006	atom bomb	DEP=1C2-E-TEST-0191-38.155005
+1C2-E-TEST-0191-38.155/007	reactor
+1C2-E-TEST-0191-38.155/008	energy
+1C2-E-TEST-0191-38.155/009	chain reaction	DEP=1C2-E-TEST-0191-38.155007
+1C2-E-TEST-0191-38.155/010	confused	DEP=1C2-E-TEST-0191-38.155002
+1C2-E-TEST-0191-38.155/011	known	DEP=1C2-E-TEST-0191-38.155001
+1C2-E-TEST-0191-38.155/012	designed	DEP=1C2-E-TEST-0191-38.155007
+1C2-E-TEST-0191-38.155/013	liberate	DEP=1C2-E-TEST-0191-38.155012
+1C2-E-TEST-0191-38.155/014	possible
+1C2-E-TEST-0191-38.155/015	rapidly
+1C2-E-TEST-0191-38.155/016	possible
+1C2-E-TEST-0191-38.155/017	released	DEP=1C2-E-TEST-0191-38.155018
+1C2-E-TEST-0191-38.155/018	energy	DEP=1C2-E-TEST-0191-38.155019
+1C2-E-TEST-0191-38.155/019	causes	DEP=1C2-E-TEST-0191-38.155015
+1C2-E-TEST-0191-38.155/020	reactor	DEP=1C2-E-TEST-0191-38.155019
+1C2-E-TEST-0191-38.155/021	explode	DEP=1C2-E-TEST-0191-38.155020
+1C2-E-TEST-0191-38.155/022	stop	DEP=1C2-E-TEST-0191-38.155009
+1C2-E-TEST-0191-38.161	A nuclear bomb is designed to release all its energy at once, while a reactor is designed to generate a steady supply of useful power.
+1C2-E-TEST-0191-38.161/001	nuclear bomb	DEP=1C2-E-TEST-0191-38.161006
+1C2-E-TEST-0191-38.161/002	energy	DEP=1C2-E-TEST-0191-38.161007
+1C2-E-TEST-0191-38.161/003	reactor	DEP=1C2-E-TEST-0191-38.161008
+1C2-E-TEST-0191-38.161/004	steady supply	DEP=1C2-E-TEST-0191-38.161009
+1C2-E-TEST-0191-38.161/005	useful power
+1C2-E-TEST-0191-38.161/006	designed
+1C2-E-TEST-0191-38.161/007	release	DEP=1C2-E-TEST-0191-38.161006
+1C2-E-TEST-0191-38.161/008	designed	DEP=1C2-E-TEST-0191-38.161007
+1C2-E-TEST-0191-38.161/009	generate	DEP=1C2-E-TEST-0191-38.161008
+1C2-E-TEST-0191-38.22	A similar process occurs in fissionable isotopes (such as uranium-238), but in order to fission, these isotopes require additional energy provided by fast neutrons (such as produced by nuclear fusion in thermonuclear weapons ).
+1C2-E-TEST-0191-38.22/001	similar process	DEP=1C2-E-TEST-0191-38.22011
+1C2-E-TEST-0191-38.22/002	fissionable isotopes
+1C2-E-TEST-0191-38.22/003	uranium-238
+1C2-E-TEST-0191-38.22/004	order
+1C2-E-TEST-0191-38.22/005	isotopes
+1C2-E-TEST-0191-38.22/006	additional energy
+1C2-E-TEST-0191-38.22/007	fast neutrons
+1C2-E-TEST-0191-38.22/008	produced
+1C2-E-TEST-0191-38.22/009	nuclear
+1C2-E-TEST-0191-38.22/010	thermonuclear weapons
+1C2-E-TEST-0191-38.22/011	occurs
+1C2-E-TEST-0191-38.22/012	provided	DEP=1C2-E-TEST-0191-38.22006
+1C2-E-TEST-0191-38.244	With the news of fission neutrons from uranium fission, SzilÃÂÃÂ¡rd immediately understood the possibility of a nuclear chain reaction using uranium.
+1C2-E-TEST-0191-38.244/001	news
+1C2-E-TEST-0191-38.244/002	neutrons
+1C2-E-TEST-0191-38.244/003	uranium
+1C2-E-TEST-0191-38.244/004	szilã â	DEP=1C2-E-TEST-0191-38.244010
+1C2-E-TEST-0191-38.244/005	¡ rd	DEP=1C2-E-TEST-0191-38.244009
+1C2-E-TEST-0191-38.244/006	possibility	DEP=1C2-E-TEST-0191-38.244010
+1C2-E-TEST-0191-38.244/007	nuclear chain reaction
+1C2-E-TEST-0191-38.244/008	uranium
+1C2-E-TEST-0191-38.244/009	immediately	DEP=1C2-E-TEST-0191-38.244010
+1C2-E-TEST-0191-38.244/010	understood
+1C2-E-TEST-0191-38.46	As noted above, the subgroup of fissionable elements that may be fissioned with their own fission neutrons, are termed fissile .
+1C2-E-TEST-0191-38.46/001	subgroup	DEP=1C2-E-TEST-0191-38.46007
+1C2-E-TEST-0191-38.46/002	fissionable elements
+1C2-E-TEST-0191-38.46/003	neutrons
+1C2-E-TEST-0191-38.46/004	fissile	DEP=1C2-E-TEST-0191-38.46007
+1C2-E-TEST-0191-38.46/005	noted	DEP=1C2-E-TEST-0191-38.46007
+1C2-E-TEST-0191-38.46/006	fissioned	DEP=1C2-E-TEST-0191-38.46002
+1C2-E-TEST-0191-38.46/007	termed
+1C2-E-TEST-0191-49.20	The amount of fissionable material necessary for the chain reaction to sustain itself is called the critical mass.
+1C2-E-TEST-0191-49.20/001	amount	DEP=1C2-E-TEST-0191-49.20007
+1C2-E-TEST-0191-49.20/002	fissionable material
+1C2-E-TEST-0191-49.20/003	chain reaction
+1C2-E-TEST-0191-49.20/004	critical mass	DEP=1C2-E-TEST-0191-49.20007
+1C2-E-TEST-0191-49.20/005	necessary	DEP=1C2-E-TEST-0191-49.20002
+1C2-E-TEST-0191-49.20/006	sustain	DEP=1C2-E-TEST-0191-49.20005
+1C2-E-TEST-0191-49.20/007	called
+1C2-E-TEST-0191-5.3	Nuclear fission is the process used in the production of nuclear power.
+1C2-E-TEST-0191-5.3/001	nuclear
+1C2-E-TEST-0191-5.3/002	process
+1C2-E-TEST-0191-5.3/003	production
+1C2-E-TEST-0191-5.3/004	nuclear power
+1C2-E-TEST-0191-5.8	While the hydrogen bomb relies on fusion, fusion has not yet been used in the production of nuclear power.
+1C2-E-TEST-0191-5.8/001	hydrogen bomb	DEP=1C2-E-TEST-0191-5.8004
+1C2-E-TEST-0191-5.8/002	production
+1C2-E-TEST-0191-5.8/003	nuclear power
+1C2-E-TEST-0191-5.8/004	relies

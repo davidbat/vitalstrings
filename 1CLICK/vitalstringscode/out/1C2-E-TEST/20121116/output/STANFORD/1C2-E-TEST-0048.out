@@ -1,0 +1,527 @@
+1C2-E-TEST-0048-129.2	Nancy Patricia D'Alesandro Pelosi (born March 26, 1940) is the Speaker of the United States House of Representatives.
+1C2-E-TEST-0048-129.2/001	patricia d'alesandro
+1C2-E-TEST-0048-129.2/002	speaker
+1C2-E-TEST-0048-129.2/003	united states house
+1C2-E-TEST-0048-129.2/004	representatives
+1C2-E-TEST-0048-129.2/005	born
+1C2-E-TEST-0048-129.2/006	march	DEP=1C2-E-TEST-0048-129.2005
+1C2-E-TEST-0048-129.2/007	26	DEP=1C2-E-TEST-0048-129.2006
+1C2-E-TEST-0048-129.2/008	1940	DEP=1C2-E-TEST-0048-129.2006
+1C2-E-TEST-0048-129.3	A Democrat, she is the first woman to lead a major political party in either house of Congress and became the first female Speaker of the House on January 4, 2007.
+1C2-E-TEST-0048-129.3/001	democrat	DEP=1C2-E-TEST-0048-129.3002
+1C2-E-TEST-0048-129.3/002	woman
+1C2-E-TEST-0048-129.3/003	major political party	DEP=1C2-E-TEST-0048-129.3009
+1C2-E-TEST-0048-129.3/004	house
+1C2-E-TEST-0048-129.3/005	congress
+1C2-E-TEST-0048-129.3/006	female speaker	DEP=1C2-E-TEST-0048-129.3002
+1C2-E-TEST-0048-129.3/007	house
+1C2-E-TEST-0048-129.3/008	january 4 2007
+1C2-E-TEST-0048-129.3/009	lead	DEP=1C2-E-TEST-0048-129.3002
+1C2-E-TEST-0048-191.106	An Israeli spokeswoman said Pelosi would convey ÃÂ¢Ã¢ÂÂ¬ÃÂthat Israel is willing to talk if they (Syria) would openly take steps to stop supporting terrorismÃÂ¢Ã¢ÂÂ¬ÃÂ in order to be ÃÂ¢Ã¢ÂÂ¬ÃÂa partner for negotiationsÃÂ¢Ã¢ÂÂ¬ÃÂ.
+1C2-E-TEST-0048-191.106/001	israeli spokeswoman
+1C2-E-TEST-0048-191.106/002	ã cents	DEP=1C2-E-TEST-0048-191.106014
+1C2-E-TEST-0048-191.106/003	â ¬ å	DEP=1C2-E-TEST-0048-191.106002
+1C2-E-TEST-0048-191.106/004	israel	DEP=1C2-E-TEST-0048-191.106015
+1C2-E-TEST-0048-191.106/005	syria
+1C2-E-TEST-0048-191.106/006	steps	DEP=1C2-E-TEST-0048-191.106019
+1C2-E-TEST-0048-191.106/007	terrorismã cents
+1C2-E-TEST-0048-191.106/008	¬ â
+1C2-E-TEST-0048-191.106/009	ã cents
+1C2-E-TEST-0048-191.106/010	¬ å
+1C2-E-TEST-0048-191.106/011	partner
+1C2-E-TEST-0048-191.106/012	negotiationsã cents
+1C2-E-TEST-0048-191.106/013	¬ â
+1C2-E-TEST-0048-191.106/014	convey
+1C2-E-TEST-0048-191.106/015	willing	DEP=1C2-E-TEST-0048-191.106014
+1C2-E-TEST-0048-191.106/016	talk	DEP=1C2-E-TEST-0048-191.106015
+1C2-E-TEST-0048-191.106/017	openly	DEP=1C2-E-TEST-0048-191.106018
+1C2-E-TEST-0048-191.106/018	take	DEP=1C2-E-TEST-0048-191.106016
+1C2-E-TEST-0048-191.106/019	stop	DEP=1C2-E-TEST-0048-191.106018
+1C2-E-TEST-0048-191.106/020	supporting	DEP=1C2-E-TEST-0048-191.106019
+1C2-E-TEST-0048-191.106/021	order	DEP=1C2-E-TEST-0048-191.106009
+1C2-E-TEST-0048-191.13	After moving to San Francisco, Pelosi worked her way up in Democratic politics.
+1C2-E-TEST-0048-191.13/001	san francisco
+1C2-E-TEST-0048-191.13/002	way	DEP=1C2-E-TEST-0048-191.13005
+1C2-E-TEST-0048-191.13/003	democratic politics
+1C2-E-TEST-0048-191.13/004	moving
+1C2-E-TEST-0048-191.13/005	worked
+1C2-E-TEST-0048-191.182	Speaker Pelosi has voted to increase Medicare and Medicaid benefits.
+1C2-E-TEST-0048-191.182/001	speaker
+1C2-E-TEST-0048-191.182/002	medicare medicaid	DEP=1C2-E-TEST-0048-191.182005
+1C2-E-TEST-0048-191.182/003	voted
+1C2-E-TEST-0048-191.182/004	increase	DEP=1C2-E-TEST-0048-191.182003
+1C2-E-TEST-0048-191.182/005	benefits	DEP=1C2-E-TEST-0048-191.182004
+1C2-E-TEST-0048-191.186	In 2002, Pelosi opposed the Iraq Resolution authorizing President Bush to use military force against Iraq, while stating that Iraq, like ÃÂ¢Ã¢ÂÂ¬ÃÂother countries of concernÃÂ¢Ã¢ÂÂ¬ÃÂ, had WMDÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s.
+1C2-E-TEST-0048-191.186/001	2002
+1C2-E-TEST-0048-191.186/002	iraq resolution	DEP=1C2-E-TEST-0048-191.186014
+1C2-E-TEST-0048-191.186/003	president bush
+1C2-E-TEST-0048-191.186/004	military force
+1C2-E-TEST-0048-191.186/005	iraq
+1C2-E-TEST-0048-191.186/006	iraq
+1C2-E-TEST-0048-191.186/007	ã cents
+1C2-E-TEST-0048-191.186/008	â ¬ å
+1C2-E-TEST-0048-191.186/009	countries
+1C2-E-TEST-0048-191.186/010	concernã cents
+1C2-E-TEST-0048-191.186/011	¬ â
+1C2-E-TEST-0048-191.186/012	wmdã cents â ¬
+1C2-E-TEST-0048-191.186/013	â cents	DEP=1C2-E-TEST-0048-191.186012
+1C2-E-TEST-0048-191.186/014	opposed
+1C2-E-TEST-0048-191.186/015	authorizing	DEP=1C2-E-TEST-0048-191.186014
+1C2-E-TEST-0048-191.186/016	stating
+1C2-E-TEST-0048-191.20	Pelosi has five children: Nancy Corinne, Christine, Jacqueline, Paul, and Alexandra, as well as seven grandchildren.
+1C2-E-TEST-0048-191.20/001	five children
+1C2-E-TEST-0048-191.20/002	corinne christine jacqueline paul	DEP=1C2-E-TEST-0048-191.20001
+1C2-E-TEST-0048-191.20/003	alexandra	DEP=1C2-E-TEST-0048-191.20002
+1C2-E-TEST-0048-191.20/004	seven grandchildren	DEP=1C2-E-TEST-0048-191.20001
+1C2-E-TEST-0048-191.210	Pelosi introduced the Honest Leadership and Open Government Act to Congress.
+1C2-E-TEST-0048-191.210/001	honest leadership	DEP=1C2-E-TEST-0048-191.210004
+1C2-E-TEST-0048-191.210/002	open government act	DEP=1C2-E-TEST-0048-191.210001
+1C2-E-TEST-0048-191.210/003	congress
+1C2-E-TEST-0048-191.210/004	introduced
+1C2-E-TEST-0048-191.215	Pelosi and House Minority Whip (now Majority Leader) Steny Hoyer meeting with President George W. Bush on November 9, 2006In regard to Representative Charles RangelÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s (D-NY) plan to introduce legislation that would reinstate the draft, Pelosi stated that she did not support such legislation.
+1C2-E-TEST-0048-191.215/001	house
+1C2-E-TEST-0048-191.215/002	majority leader	DEP=1C2-E-TEST-0048-191.215014
+1C2-E-TEST-0048-191.215/003	steny hoyer meeting
+1C2-E-TEST-0048-191.215/004	president george w. bush
+1C2-E-TEST-0048-191.215/005	november 9
+1C2-E-TEST-0048-191.215/006	2006in regard	DEP=1C2-E-TEST-0048-191.215005
+1C2-E-TEST-0048-191.215/007	representative charles rangelã cents
+1C2-E-TEST-0048-191.215/008	¬
+1C2-E-TEST-0048-191.215/009	d-ny	DEP=1C2-E-TEST-0048-191.215017
+1C2-E-TEST-0048-191.215/010	legislation	DEP=1C2-E-TEST-0048-191.215019
+1C2-E-TEST-0048-191.215/011	draft	DEP=1C2-E-TEST-0048-191.215020
+1C2-E-TEST-0048-191.215/012	legislation	DEP=1C2-E-TEST-0048-191.215023
+1C2-E-TEST-0048-191.215/013	minority	DEP=1C2-E-TEST-0048-191.215014
+1C2-E-TEST-0048-191.215/014	whip
+1C2-E-TEST-0048-191.215/015	â	DEP=1C2-E-TEST-0048-191.215016
+1C2-E-TEST-0048-191.215/016	cents	DEP=1C2-E-TEST-0048-191.215017
+1C2-E-TEST-0048-191.215/017	s	DEP=1C2-E-TEST-0048-191.215018
+1C2-E-TEST-0048-191.215/018	plan	DEP=1C2-E-TEST-0048-191.215008
+1C2-E-TEST-0048-191.215/019	introduce	DEP=1C2-E-TEST-0048-191.215018
+1C2-E-TEST-0048-191.215/020	reinstate	DEP=1C2-E-TEST-0048-191.215010
+1C2-E-TEST-0048-191.215/021	stated
+1C2-E-TEST-0048-191.215/022	did	DEP=1C2-E-TEST-0048-191.215023
+1C2-E-TEST-0048-191.215/023	support	DEP=1C2-E-TEST-0048-191.215021
+1C2-E-TEST-0048-191.238	Pelosi opposed the welfare reform proposed by then-President Bush as well as reforms proposed and passed under President Clinton.
+1C2-E-TEST-0048-191.238/001	welfare reform	DEP=1C2-E-TEST-0048-191.238005
+1C2-E-TEST-0048-191.238/002	then-president bush
+1C2-E-TEST-0048-191.238/003	reforms	DEP=1C2-E-TEST-0048-191.238001
+1C2-E-TEST-0048-191.238/004	president clinton
+1C2-E-TEST-0048-191.238/005	opposed
+1C2-E-TEST-0048-191.238/006	proposed	DEP=1C2-E-TEST-0048-191.238001
+1C2-E-TEST-0048-191.238/007	proposed	DEP=1C2-E-TEST-0048-191.238003
+1C2-E-TEST-0048-191.238/008	passed	DEP=1C2-E-TEST-0048-191.238007
+1C2-E-TEST-0048-191.243	PelosiÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s only close race so far has been the special election to succeed Sala BurtonÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s seat after her death in February 1987.
+1C2-E-TEST-0048-191.243/001	pelosiã cents
+1C2-E-TEST-0048-191.243/002	¬	DEP=1C2-E-TEST-0048-191.243012
+1C2-E-TEST-0048-191.243/003	â cents	DEP=1C2-E-TEST-0048-191.243002
+1C2-E-TEST-0048-191.243/004	race	DEP=1C2-E-TEST-0048-191.243014
+1C2-E-TEST-0048-191.243/005	sala burtonã cents
+1C2-E-TEST-0048-191.243/006	¬	DEP=1C2-E-TEST-0048-191.243008
+1C2-E-TEST-0048-191.243/007	â cents	DEP=1C2-E-TEST-0048-191.243006
+1C2-E-TEST-0048-191.243/008	seat
+1C2-E-TEST-0048-191.243/009	death
+1C2-E-TEST-0048-191.243/010	february 1987
+1C2-E-TEST-0048-191.243/011	s	DEP=1C2-E-TEST-0048-191.243012
+1C2-E-TEST-0048-191.243/012	close
+1C2-E-TEST-0048-191.243/013	special	DEP=1C2-E-TEST-0048-191.243014
+1C2-E-TEST-0048-191.243/014	election	DEP=1C2-E-TEST-0048-191.243012
+1C2-E-TEST-0048-191.243/015	succeed	DEP=1C2-E-TEST-0048-191.243014
+1C2-E-TEST-0048-191.243/016	s	DEP=1C2-E-TEST-0048-191.243008
+1C2-E-TEST-0048-191.40	In the House, she served on the Appropriations and Intelligence Committees, and was the ranking Democrat on the Intelligence Committee until her election as Minority Leader.
+1C2-E-TEST-0048-191.40/001	house
+1C2-E-TEST-0048-191.40/002	appropriations
+1C2-E-TEST-0048-191.40/003	intelligence committees	DEP=1C2-E-TEST-0048-191.40002
+1C2-E-TEST-0048-191.40/004	ranking democrat	DEP=1C2-E-TEST-0048-191.40008
+1C2-E-TEST-0048-191.40/005	intelligence committee
+1C2-E-TEST-0048-191.40/006	election
+1C2-E-TEST-0048-191.40/007	minority leader
+1C2-E-TEST-0048-191.40/008	served
+1C2-E-TEST-0048-191.42	In 2001, Pelosi was elected the House Minority Whip, second-in-command to Minority Leader Dick Gephardt of Missouri.
+1C2-E-TEST-0048-191.42/001	2001
+1C2-E-TEST-0048-191.42/002	house minority whip	DEP=1C2-E-TEST-0048-191.42006
+1C2-E-TEST-0048-191.42/003	second-in-command	DEP=1C2-E-TEST-0048-191.42002
+1C2-E-TEST-0048-191.42/004	minority leader dick gephardt
+1C2-E-TEST-0048-191.42/005	missouri
+1C2-E-TEST-0048-191.42/006	elected
+1C2-E-TEST-0048-191.49	In the wake of George W. BushÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s reelection in 2004, several leading House Democrats believed that Democrats should pursue impeachment proceedings against the president.
+1C2-E-TEST-0048-191.49/001	wake
+1C2-E-TEST-0048-191.49/002	george w. bushã
+1C2-E-TEST-0048-191.49/003	cents
+1C2-E-TEST-0048-191.49/004	¬	DEP=1C2-E-TEST-0048-191.49006
+1C2-E-TEST-0048-191.49/005	â cents	DEP=1C2-E-TEST-0048-191.49004
+1C2-E-TEST-0048-191.49/006	reelection
+1C2-E-TEST-0048-191.49/007	2004
+1C2-E-TEST-0048-191.49/008	leading
+1C2-E-TEST-0048-191.49/009	house democrats	DEP=1C2-E-TEST-0048-191.49014
+1C2-E-TEST-0048-191.49/010	democrats	DEP=1C2-E-TEST-0048-191.49015
+1C2-E-TEST-0048-191.49/011	impeachment proceedings	DEP=1C2-E-TEST-0048-191.49015
+1C2-E-TEST-0048-191.49/012	president
+1C2-E-TEST-0048-191.49/013	s	DEP=1C2-E-TEST-0048-191.49006
+1C2-E-TEST-0048-191.49/014	believed
+1C2-E-TEST-0048-191.49/015	pursue	DEP=1C2-E-TEST-0048-191.49014
+1C2-E-TEST-0048-191.59	Pelosi supported her longtime friend, John Murtha of Pennsylvania, for the position of House Majority Leader, the second-ranking post in the House Democratic caucus.
+1C2-E-TEST-0048-191.59/001	longtime friend	DEP=1C2-E-TEST-0048-191.59008
+1C2-E-TEST-0048-191.59/002	john murtha	DEP=1C2-E-TEST-0048-191.59001
+1C2-E-TEST-0048-191.59/003	pennsylvania
+1C2-E-TEST-0048-191.59/004	position
+1C2-E-TEST-0048-191.59/005	house majority leader
+1C2-E-TEST-0048-191.59/006	second-ranking post	DEP=1C2-E-TEST-0048-191.59005
+1C2-E-TEST-0048-191.59/007	house democratic caucus
+1C2-E-TEST-0048-191.59/008	supported
+1C2-E-TEST-0048-191.62	On January 3, Pelosi defeated Republican John Boehner of Ohio with 233 votes compared to his 202 votes in the election for Speaker of the House.
+1C2-E-TEST-0048-191.62/001	january 3
+1C2-E-TEST-0048-191.62/002	republican john boehner	DEP=1C2-E-TEST-0048-191.62009
+1C2-E-TEST-0048-191.62/003	ohio
+1C2-E-TEST-0048-191.62/004	233 votes
+1C2-E-TEST-0048-191.62/005	202 votes
+1C2-E-TEST-0048-191.62/006	election
+1C2-E-TEST-0048-191.62/007	speaker
+1C2-E-TEST-0048-191.62/008	house
+1C2-E-TEST-0048-191.62/009	defeated
+1C2-E-TEST-0048-191.62/010	compared	DEP=1C2-E-TEST-0048-191.62004
+1C2-E-TEST-0048-191.64	Pelosi with Vice President Dick Cheney behind President George W. Bush at the 2007 State of the Union Address making history as the first woman to sit behind the podium at such an address.
+1C2-E-TEST-0048-191.64/001	vice president dick cheney
+1C2-E-TEST-0048-191.64/002	president george w. bush
+1C2-E-TEST-0048-191.64/003	2007 state
+1C2-E-TEST-0048-191.64/004	union address
+1C2-E-TEST-0048-191.64/005	history	DEP=1C2-E-TEST-0048-191.64009
+1C2-E-TEST-0048-191.64/006	woman
+1C2-E-TEST-0048-191.64/007	podium
+1C2-E-TEST-0048-191.64/008	address
+1C2-E-TEST-0048-191.64/009	making
+1C2-E-TEST-0048-191.64/010	sit	DEP=1C2-E-TEST-0048-191.64009
+1C2-E-TEST-0048-191.9	Pelosi graduated from Institute of Notre Dame, a Catholic all-girls high school in Baltimore, and from Trinity College (now Trinity Washington University) in Washington, D.C. in 1962.
+1C2-E-TEST-0048-191.9/001	institute
+1C2-E-TEST-0048-191.9/002	notre dame
+1C2-E-TEST-0048-191.9/003	catholic all-girls	DEP=1C2-E-TEST-0048-191.9010
+1C2-E-TEST-0048-191.9/004	baltimore
+1C2-E-TEST-0048-191.9/005	trinity college
+1C2-E-TEST-0048-191.9/006	trinity washington university	DEP=1C2-E-TEST-0048-191.9005
+1C2-E-TEST-0048-191.9/007	washington d.c.
+1C2-E-TEST-0048-191.9/008	1962
+1C2-E-TEST-0048-191.9/009	graduated
+1C2-E-TEST-0048-191.9/010	high	DEP=1C2-E-TEST-0048-191.9011
+1C2-E-TEST-0048-191.9/011	school	DEP=1C2-E-TEST-0048-191.9002
+1C2-E-TEST-0048-202.14	Nancy Pelosi has represented the 8th Congressional District of California in the House of Representatives in 1987.
+1C2-E-TEST-0048-202.14/001	8th congressional district	DEP=1C2-E-TEST-0048-202.14006
+1C2-E-TEST-0048-202.14/002	california
+1C2-E-TEST-0048-202.14/003	house
+1C2-E-TEST-0048-202.14/004	representatives
+1C2-E-TEST-0048-202.14/005	1987
+1C2-E-TEST-0048-202.14/006	represented
+1C2-E-TEST-0048-202.15	Nancy graduated from Trinity College in Washington, D.C. in 1962.
+1C2-E-TEST-0048-202.15/001	trinity college
+1C2-E-TEST-0048-202.15/002	washington d.c.
+1C2-E-TEST-0048-202.15/003	1962
+1C2-E-TEST-0048-202.15/004	graduated
+1C2-E-TEST-0048-202.16	Nancy married Paul Pelosi and they moved to PaulÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s hometown San Francisco, California. Nancy and Paul have five children: Nancy Corinne, Christine, Jacqueline, Paul and Alexandra, and six grandchildren.
+1C2-E-TEST-0048-202.16/001	paul
+1C2-E-TEST-0048-202.16/002	paulã cents
+1C2-E-TEST-0048-202.16/003	¬
+1C2-E-TEST-0048-202.16/004	â cents	DEP=1C2-E-TEST-0048-202.16005
+1C2-E-TEST-0048-202.16/005	hometown	DEP=1C2-E-TEST-0048-202.16003
+1C2-E-TEST-0048-202.16/006	san francisco
+1C2-E-TEST-0048-202.16/007	california	DEP=1C2-E-TEST-0048-202.16006
+1C2-E-TEST-0048-202.16/008	paul
+1C2-E-TEST-0048-202.16/009	five children
+1C2-E-TEST-0048-202.16/010	corinne	DEP=1C2-E-TEST-0048-202.16007
+1C2-E-TEST-0048-202.16/011	christine jacqueline paul alexandra	DEP=1C2-E-TEST-0048-202.16010
+1C2-E-TEST-0048-202.16/012	six grandchildren	DEP=1C2-E-TEST-0048-202.16010
+1C2-E-TEST-0048-202.16/013	married
+1C2-E-TEST-0048-202.16/014	moved	DEP=1C2-E-TEST-0048-202.16013
+1C2-E-TEST-0048-202.16/015	s	DEP=1C2-E-TEST-0048-202.16005
+1C2-E-TEST-0048-202.3	Nancy Pelosi was born on March 26, 1940 in Baltimore Maryland.
+1C2-E-TEST-0048-202.3/001	march 26 1940
+1C2-E-TEST-0048-202.3/002	baltimore maryland
+1C2-E-TEST-0048-202.3/003	born
+1C2-E-TEST-0048-202.8	Nancy became Speaker of the House of Representatives on January 4, 2007.
+1C2-E-TEST-0048-202.8/001	speaker
+1C2-E-TEST-0048-202.8/002	house
+1C2-E-TEST-0048-202.8/003	representatives
+1C2-E-TEST-0048-202.8/004	january 4 2007
+1C2-E-TEST-0048-23.203	Minority Leader Pelosi introduced The Honest Leadership and Open Government Act of 2006 on January 20, 2006, in the wake of numerous guilty pleas by and indictments of lobbyists and members of Congress.
+1C2-E-TEST-0048-23.203/001	minority leader
+1C2-E-TEST-0048-23.203/002	honest leadership	DEP=1C2-E-TEST-0048-23.203011
+1C2-E-TEST-0048-23.203/003	open government act	DEP=1C2-E-TEST-0048-23.203002
+1C2-E-TEST-0048-23.203/004	2006
+1C2-E-TEST-0048-23.203/005	january 20 2006
+1C2-E-TEST-0048-23.203/006	wake
+1C2-E-TEST-0048-23.203/007	numerous guilty pleas
+1C2-E-TEST-0048-23.203/008	indictments	DEP=1C2-E-TEST-0048-23.203007
+1C2-E-TEST-0048-23.203/009	lobbyists members
+1C2-E-TEST-0048-23.203/010	congress
+1C2-E-TEST-0048-23.203/011	introduced
+1C2-E-TEST-0048-23.253	In statements she made to the Washington Post in early 2006, then-House Minority Leader Pelosi left open the possibility that if Democrats took over the House after the November 2006 elections, their planned investigations into the Bush administration could lead to impeachment.
+1C2-E-TEST-0048-23.253/001	statements
+1C2-E-TEST-0048-23.253/002	washington post
+1C2-E-TEST-0048-23.253/003	early 2006
+1C2-E-TEST-0048-23.253/004	then-house minority leader
+1C2-E-TEST-0048-23.253/005	possibility	DEP=1C2-E-TEST-0048-23.253013
+1C2-E-TEST-0048-23.253/006	democrats	DEP=1C2-E-TEST-0048-23.253015
+1C2-E-TEST-0048-23.253/007	house	DEP=1C2-E-TEST-0048-23.253015
+1C2-E-TEST-0048-23.253/008	november 2006 elections
+1C2-E-TEST-0048-23.253/009	planned investigations	DEP=1C2-E-TEST-0048-23.253016
+1C2-E-TEST-0048-23.253/010	bush administration
+1C2-E-TEST-0048-23.253/011	impeachment
+1C2-E-TEST-0048-23.253/012	made	DEP=1C2-E-TEST-0048-23.253013
+1C2-E-TEST-0048-23.253/013	left
+1C2-E-TEST-0048-23.253/014	open	DEP=1C2-E-TEST-0048-23.253013
+1C2-E-TEST-0048-23.253/015	took	DEP=1C2-E-TEST-0048-23.253016
+1C2-E-TEST-0048-23.253/016	lead	DEP=1C2-E-TEST-0048-23.253013
+1C2-E-TEST-0048-23.263	Pelosi attended Trinity College (now Trinity University) in Washington, DC.
+1C2-E-TEST-0048-23.263/001	trinity college	DEP=1C2-E-TEST-0048-23.263004
+1C2-E-TEST-0048-23.263/002	trinity university	DEP=1C2-E-TEST-0048-23.263001
+1C2-E-TEST-0048-23.263/003	washington dc
+1C2-E-TEST-0048-23.263/004	attended
+1C2-E-TEST-0048-23.264	She married and moved to San Francisco where she became involved in Democratic politics, working her way up to becoming party chairwoman for Northern California.
+1C2-E-TEST-0048-23.264/001	san francisco
+1C2-E-TEST-0048-23.264/002	democratic politics
+1C2-E-TEST-0048-23.264/003	way	DEP=1C2-E-TEST-0048-23.264009
+1C2-E-TEST-0048-23.264/004	party chairwoman
+1C2-E-TEST-0048-23.264/005	northern california
+1C2-E-TEST-0048-23.264/006	married
+1C2-E-TEST-0048-23.264/007	moved	DEP=1C2-E-TEST-0048-23.264006
+1C2-E-TEST-0048-23.264/008	involved	DEP=1C2-E-TEST-0048-23.264001
+1C2-E-TEST-0048-23.264/009	working	DEP=1C2-E-TEST-0048-23.264002
+1C2-E-TEST-0048-23.268	Besides a San Francisco Bay area large portfolio of jointly owned real estate, he also has millions of dollars worth of shares in publicly traded companies such as Microsoft, Amazon.com and AT&T. [47] The Pelosi family of San Francisco is politically well-connected.
+1C2-E-TEST-0048-23.268/001	san francisco bay area large portfolio
+1C2-E-TEST-0048-23.268/002	millions
+1C2-E-TEST-0048-23.268/003	dollars worth
+1C2-E-TEST-0048-23.268/004	shares
+1C2-E-TEST-0048-23.268/005	microsoft
+1C2-E-TEST-0048-23.268/006	amazon.com	DEP=1C2-E-TEST-0048-23.268005
+1C2-E-TEST-0048-23.268/007	at&t	DEP=1C2-E-TEST-0048-23.268005
+1C2-E-TEST-0048-23.268/008	47	DEP=1C2-E-TEST-0048-23.268007
+1C2-E-TEST-0048-23.268/009	family	DEP=1C2-E-TEST-0048-23.268019
+1C2-E-TEST-0048-23.268/010	san francisco
+1C2-E-TEST-0048-23.268/011	jointly	DEP=1C2-E-TEST-0048-23.268012
+1C2-E-TEST-0048-23.268/012	owned	DEP=1C2-E-TEST-0048-23.268014
+1C2-E-TEST-0048-23.268/013	real	DEP=1C2-E-TEST-0048-23.268014
+1C2-E-TEST-0048-23.268/014	estate
+1C2-E-TEST-0048-23.268/015	publicly	DEP=1C2-E-TEST-0048-23.268016
+1C2-E-TEST-0048-23.268/016	traded	DEP=1C2-E-TEST-0048-23.268017
+1C2-E-TEST-0048-23.268/017	companies
+1C2-E-TEST-0048-23.268/018	politically	DEP=1C2-E-TEST-0048-23.268019
+1C2-E-TEST-0048-23.268/019	well-connected	DEP=1C2-E-TEST-0048-23.268007
+1C2-E-TEST-0048-23.271	Pelosi won in a special election to succeed Sala Burton and took office on June 2, 1987.
+1C2-E-TEST-0048-23.271/001	special election
+1C2-E-TEST-0048-23.271/002	sala burton	DEP=1C2-E-TEST-0048-23.271006
+1C2-E-TEST-0048-23.271/003	office	DEP=1C2-E-TEST-0048-23.271007
+1C2-E-TEST-0048-23.271/004	june 2 1987
+1C2-E-TEST-0048-23.271/005	won
+1C2-E-TEST-0048-23.271/006	succeed	DEP=1C2-E-TEST-0048-23.271005
+1C2-E-TEST-0048-23.271/007	took	DEP=1C2-E-TEST-0048-23.271005
+1C2-E-TEST-0048-23.273	She has never faced a credible Republican opponent, which is not surprising since Republicans only make up 13 percent of registered voters in the district.
+1C2-E-TEST-0048-23.273/001	credible republican opponent	DEP=1C2-E-TEST-0048-23.273006
+1C2-E-TEST-0048-23.273/002	republicans
+1C2-E-TEST-0048-23.273/003	13 percent
+1C2-E-TEST-0048-23.273/004	registered voters
+1C2-E-TEST-0048-23.273/005	district
+1C2-E-TEST-0048-23.273/006	faced
+1C2-E-TEST-0048-23.273/007	surprising	DEP=1C2-E-TEST-0048-23.273001
+1C2-E-TEST-0048-23.275	In 2001, she defeated Steny Hoyer to become the House Minority Whip , serving as second-in-command to Minority Leader Dick Gephardt of Missouri.
+1C2-E-TEST-0048-23.275/001	2001
+1C2-E-TEST-0048-23.275/002	steny hoyer	DEP=1C2-E-TEST-0048-23.275003
+1C2-E-TEST-0048-23.275/003	house minority whip	DEP=1C2-E-TEST-0048-23.275007
+1C2-E-TEST-0048-23.275/004	second-in-command
+1C2-E-TEST-0048-23.275/005	minority leader dick gephardt
+1C2-E-TEST-0048-23.275/006	missouri
+1C2-E-TEST-0048-23.275/007	defeated
+1C2-E-TEST-0048-23.275/008	serving	DEP=1C2-E-TEST-0048-23.275007
+1C2-E-TEST-0048-23.283	By way of her victory Pelosi made history by becoming the first woman to lead a party in Congress.
+1C2-E-TEST-0048-23.283/001	way
+1C2-E-TEST-0048-23.283/002	victory
+1C2-E-TEST-0048-23.283/003	history	DEP=1C2-E-TEST-0048-23.283007
+1C2-E-TEST-0048-23.283/004	woman
+1C2-E-TEST-0048-23.283/005	party	DEP=1C2-E-TEST-0048-23.283008
+1C2-E-TEST-0048-23.283/006	congress
+1C2-E-TEST-0048-23.283/007	made
+1C2-E-TEST-0048-23.283/008	lead
+1C2-E-TEST-0048-23.5	Pelosi (D-Calif.) stated that she, along with Majority Leader Harry Reid (D-Nev.), ÃÂ¢Ã¢ÂÂ¬ÃÂinformed the president that they were opposed to increasing troop levels.ÃÂ¢Ã¢ÂÂ¬ÃÂ
+1C2-E-TEST-0048-23.5/001	d-calif
+1C2-E-TEST-0048-23.5/002	majority leader harry reid
+1C2-E-TEST-0048-23.5/003	d-nev	DEP=1C2-E-TEST-0048-23.5002
+1C2-E-TEST-0048-23.5/004	ã cents
+1C2-E-TEST-0048-23.5/005	¬ å	DEP=1C2-E-TEST-0048-23.5011
+1C2-E-TEST-0048-23.5/006	president	DEP=1C2-E-TEST-0048-23.5011
+1C2-E-TEST-0048-23.5/007	increasing troop levels
+1C2-E-TEST-0048-23.5/008	ã cents
+1C2-E-TEST-0048-23.5/009	¬ â
+1C2-E-TEST-0048-23.5/010	stated
+1C2-E-TEST-0048-23.5/011	informed
+1C2-E-TEST-0048-23.5/012	opposed	DEP=1C2-E-TEST-0048-23.5011
+1C2-E-TEST-0048-23.59	Like most House Democrats, Pelosi opposed the resolution authorizing Bush to use military force against Iraq.
+1C2-E-TEST-0048-23.59/001	house democrats
+1C2-E-TEST-0048-23.59/002	resolution	DEP=1C2-E-TEST-0048-23.59006
+1C2-E-TEST-0048-23.59/003	bush
+1C2-E-TEST-0048-23.59/004	military force
+1C2-E-TEST-0048-23.59/005	iraq
+1C2-E-TEST-0048-23.59/006	opposed
+1C2-E-TEST-0048-23.59/007	authorizing	DEP=1C2-E-TEST-0048-23.59006
+1C2-E-TEST-0048-23.6	Both Pelosi and Reid expressed their disapproval in a letter to Bush on January 5, 2007, several days before the Bush's speech announcing the "surge" but after its content was leaked to the public.
+1C2-E-TEST-0048-23.6/001	reid
+1C2-E-TEST-0048-23.6/002	disapproval	DEP=1C2-E-TEST-0048-23.6010
+1C2-E-TEST-0048-23.6/003	letter
+1C2-E-TEST-0048-23.6/004	bush
+1C2-E-TEST-0048-23.6/005	january 5 2007
+1C2-E-TEST-0048-23.6/006	bush	DEP=1C2-E-TEST-0048-23.6012
+1C2-E-TEST-0048-23.6/007	surge	DEP=1C2-E-TEST-0048-23.6013
+1C2-E-TEST-0048-23.6/008	content	DEP=1C2-E-TEST-0048-23.6014
+1C2-E-TEST-0048-23.6/009	public
+1C2-E-TEST-0048-23.6/010	expressed
+1C2-E-TEST-0048-23.6/011	days	DEP=1C2-E-TEST-0048-23.6010
+1C2-E-TEST-0048-23.6/012	speech
+1C2-E-TEST-0048-23.6/013	announcing	DEP=1C2-E-TEST-0048-23.6012
+1C2-E-TEST-0048-23.6/014	leaked	DEP=1C2-E-TEST-0048-23.6013
+1C2-E-TEST-0048-23.86	Pelosi's office confirmed Thursday that the San Francisco Democrat, who was elected House minority leader in November, obtained the $1 million for the USF center, without requiring [her longtime adviser and campaign treasurer, former Lt. Gov. Leo T.]
+1C2-E-TEST-0048-23.86/001	san francisco democrat	DEP=1C2-E-TEST-0048-23.86012
+1C2-E-TEST-0048-23.86/002	house minority leader	DEP=1C2-E-TEST-0048-23.86011
+1C2-E-TEST-0048-23.86/003	november
+1C2-E-TEST-0048-23.86/004	usf center
+1C2-E-TEST-0048-23.86/005	longtime	DEP=1C2-E-TEST-0048-23.86015
+1C2-E-TEST-0048-23.86/006	adviser campaign	DEP=1C2-E-TEST-0048-23.86016
+1C2-E-TEST-0048-23.86/007	former lt. gov. leo t.	DEP=1C2-E-TEST-0048-23.86005
+1C2-E-TEST-0048-23.86/008	office	DEP=1C2-E-TEST-0048-23.86009
+1C2-E-TEST-0048-23.86/009	confirmed
+1C2-E-TEST-0048-23.86/010	thursday	DEP=1C2-E-TEST-0048-23.86009
+1C2-E-TEST-0048-23.86/011	elected	DEP=1C2-E-TEST-0048-23.86001
+1C2-E-TEST-0048-23.86/012	obtained	DEP=1C2-E-TEST-0048-23.86009
+1C2-E-TEST-0048-23.86/013	1
+1C2-E-TEST-0048-23.86/014	million
+1C2-E-TEST-0048-23.86/015	requiring
+1C2-E-TEST-0048-23.86/016	treasurer	DEP=1C2-E-TEST-0048-23.86005
+1C2-E-TEST-0048-23.96	With Pelosi ascending to the Speakership, Rep. Steny Hoyer (Md.), then minority whip, appeared to be the most likely candidate for the position.
+1C2-E-TEST-0048-23.96/001	speakership
+1C2-E-TEST-0048-23.96/002	rep. steny hoyer	DEP=1C2-E-TEST-0048-23.96007
+1C2-E-TEST-0048-23.96/003	md.	DEP=1C2-E-TEST-0048-23.96002
+1C2-E-TEST-0048-23.96/004	minority whip	DEP=1C2-E-TEST-0048-23.96002
+1C2-E-TEST-0048-23.96/005	position
+1C2-E-TEST-0048-23.96/006	ascending
+1C2-E-TEST-0048-23.96/007	appeared
+1C2-E-TEST-0048-23.96/008	likely	DEP=1C2-E-TEST-0048-23.96009
+1C2-E-TEST-0048-23.96/009	candidate	DEP=1C2-E-TEST-0048-23.96007
+1C2-E-TEST-0048-31.12	She and her husband, Paul Pelosi, who is from San Francisco, have five children: Nancy Corinne, Christine, Jacqueline, Paul and Alexandra, and five grandchildren.
+1C2-E-TEST-0048-31.12/001	husband
+1C2-E-TEST-0048-31.12/002	paul
+1C2-E-TEST-0048-31.12/003	san francisco
+1C2-E-TEST-0048-31.12/004	five children
+1C2-E-TEST-0048-31.12/005	corinne christine jacqueline paul alexandra	DEP=1C2-E-TEST-0048-31.12004
+1C2-E-TEST-0048-31.12/006	five grandchildren	DEP=1C2-E-TEST-0048-31.12004
+1C2-E-TEST-0048-31.4	She represents the 8th district of California , which is part of the city of San Francisco .
+1C2-E-TEST-0048-31.4/001	8th district	DEP=1C2-E-TEST-0048-31.4006
+1C2-E-TEST-0048-31.4/002	california
+1C2-E-TEST-0048-31.4/003	part	DEP=1C2-E-TEST-0048-31.4002
+1C2-E-TEST-0048-31.4/004	city
+1C2-E-TEST-0048-31.4/005	san francisco
+1C2-E-TEST-0048-31.4/006	represents
+1C2-E-TEST-0048-31.7	She is the first woman to lead a major party in the United States Congress .
+1C2-E-TEST-0048-31.7/001	major party	DEP=1C2-E-TEST-0048-31.7004
+1C2-E-TEST-0048-31.7/002	united states congress
+1C2-E-TEST-0048-31.7/003	woman
+1C2-E-TEST-0048-31.7/004	lead	DEP=1C2-E-TEST-0048-31.7003
+1C2-E-TEST-0048-39.1	Nancy Pelosi, a Democratic Congresswoman, is the Speaker of the U.S. House of Representatives .
+1C2-E-TEST-0048-39.1/001	democratic congresswoman
+1C2-E-TEST-0048-39.1/002	speaker
+1C2-E-TEST-0048-39.1/003	u.s. house
+1C2-E-TEST-0048-39.1/004	representatives
+1C2-E-TEST-0048-39.16	Pelosi was born on March 26, 1940 in Baltimore, Maryland.
+1C2-E-TEST-0048-39.16/001	march 26 1940
+1C2-E-TEST-0048-39.16/002	baltimore maryland
+1C2-E-TEST-0048-39.16/003	born
+1C2-E-TEST-0048-39.18	In 1962, Pelosi graduated from Trinity College in Washington, D.C.
+1C2-E-TEST-0048-39.18/001	1962
+1C2-E-TEST-0048-39.18/002	trinity college
+1C2-E-TEST-0048-39.18/003	washington d.c.
+1C2-E-TEST-0048-39.18/004	graduated
+1C2-E-TEST-0048-39.2	Before becoming the speaker, Pelosi was the House Minority Whip and Minority Leader.
+1C2-E-TEST-0048-39.2/001	speaker
+1C2-E-TEST-0048-39.2/002	house minority whip
+1C2-E-TEST-0048-39.2/003	minority leader	DEP=1C2-E-TEST-0048-39.2002
+1C2-E-TEST-0048-39.22	Pelosi became involved with Democratic Party at an early age and rose up in the party ranks, serving as a California representative to the Democratic National Committee from 1976 to 1996.
+1C2-E-TEST-0048-39.22/001	democratic party
+1C2-E-TEST-0048-39.22/002	early age
+1C2-E-TEST-0048-39.22/003	party ranks
+1C2-E-TEST-0048-39.22/004	california representative
+1C2-E-TEST-0048-39.22/005	democratic national committee
+1C2-E-TEST-0048-39.22/006	1976 1996
+1C2-E-TEST-0048-39.22/007	involved
+1C2-E-TEST-0048-39.22/008	rose	DEP=1C2-E-TEST-0048-39.22007
+1C2-E-TEST-0048-39.22/009	serving	DEP=1C2-E-TEST-0048-39.22008
+1C2-E-TEST-0048-39.24	She won her first election for CaliforniaÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Eighth District in 1987 and made her way to a public office.
+1C2-E-TEST-0048-39.24/001	election
+1C2-E-TEST-0048-39.24/002	californiaã cents
+1C2-E-TEST-0048-39.24/003	¬	DEP=1C2-E-TEST-0048-39.24005
+1C2-E-TEST-0048-39.24/004	â cents	DEP=1C2-E-TEST-0048-39.24003
+1C2-E-TEST-0048-39.24/005	eighth district
+1C2-E-TEST-0048-39.24/006	1987
+1C2-E-TEST-0048-39.24/007	way	DEP=1C2-E-TEST-0048-39.24011
+1C2-E-TEST-0048-39.24/008	public office
+1C2-E-TEST-0048-39.24/009	won
+1C2-E-TEST-0048-39.24/010	s	DEP=1C2-E-TEST-0048-39.24005
+1C2-E-TEST-0048-39.24/011	made	DEP=1C2-E-TEST-0048-39.24009
+1C2-E-TEST-0048-39.32	Her daughter, Christine Pelosi, is a political activist and chairs the California Democratic Party Platform Committee.
+1C2-E-TEST-0048-39.32/001	daughter	DEP=1C2-E-TEST-0048-39.32003
+1C2-E-TEST-0048-39.32/002	christine
+1C2-E-TEST-0048-39.32/003	political activist
+1C2-E-TEST-0048-39.32/004	california democratic party platform committee	DEP=1C2-E-TEST-0048-39.32005
+1C2-E-TEST-0048-39.32/005	chairs	DEP=1C2-E-TEST-0048-39.32003
+1C2-E-TEST-0048-39.35	When Pelosi became the Speaker of the House of Representatives, she and the new majority Democratic Party set about a number of reforms in the "first hundred" business hours.
+1C2-E-TEST-0048-39.35/001	speaker	DEP=1C2-E-TEST-0048-39.35009
+1C2-E-TEST-0048-39.35/002	house
+1C2-E-TEST-0048-39.35/003	representatives
+1C2-E-TEST-0048-39.35/004	new majority	DEP=1C2-E-TEST-0048-39.35003
+1C2-E-TEST-0048-39.35/005	democratic party	DEP=1C2-E-TEST-0048-39.35009
+1C2-E-TEST-0048-39.35/006	number
+1C2-E-TEST-0048-39.35/007	reforms
+1C2-E-TEST-0048-39.35/008	hundred business
+1C2-E-TEST-0048-39.35/009	set
+1C2-E-TEST-0048-39.35/010	hours	DEP=1C2-E-TEST-0048-39.35009
+1C2-E-TEST-0048-39.4	Pelosi was re-elected as Speaker of the House on January 6, 2009.
+1C2-E-TEST-0048-39.4/001	speaker
+1C2-E-TEST-0048-39.4/002	house
+1C2-E-TEST-0048-39.4/003	january 6 2009
+1C2-E-TEST-0048-39.4/004	re-elected
+1C2-E-TEST-0048-39.40	Pelosi also advocates for civil rights such as gay marriage .
+1C2-E-TEST-0048-39.40/001	civil rights
+1C2-E-TEST-0048-39.40/002	gay marriage
+1C2-E-TEST-0048-39.40/003	advocates
+1C2-E-TEST-0048-4.10	They had five children: Nancy Corinne, Christine, Jacqueline, Paul, and Alexandra.
+1C2-E-TEST-0048-4.10/001	five children
+1C2-E-TEST-0048-4.10/002	corinne christine jacqueline paul	DEP=1C2-E-TEST-0048-4.10001
+1C2-E-TEST-0048-4.10/003	alexandra	DEP=1C2-E-TEST-0048-4.10002
+1C2-E-TEST-0048-4.13	Pelosi rose up in the party ranks, serving as a California representative to the Democratic National Committee from 1976 to 1996.
+1C2-E-TEST-0048-4.13/001	party ranks
+1C2-E-TEST-0048-4.13/002	california representative
+1C2-E-TEST-0048-4.13/003	democratic national committee
+1C2-E-TEST-0048-4.13/004	1976 1996
+1C2-E-TEST-0048-4.13/005	rose
+1C2-E-TEST-0048-4.13/006	serving	DEP=1C2-E-TEST-0048-4.13005
+1C2-E-TEST-0048-4.18	Pelosi has been a strong supporter of increased funding for health research and for other health care and housing programs and initiatives.
+1C2-E-TEST-0048-4.18/001	strong supporter
+1C2-E-TEST-0048-4.18/002	increased funding
+1C2-E-TEST-0048-4.18/003	health research
+1C2-E-TEST-0048-4.18/004	health care
+1C2-E-TEST-0048-4.18/005	housing programs	DEP=1C2-E-TEST-0048-4.18004
+1C2-E-TEST-0048-4.18/006	initiatives	DEP=1C2-E-TEST-0048-4.18004
+1C2-E-TEST-0048-4.21	In 2002, Pelosi was selected to be the Democratic Leader of the House of Representatives, making her the first woman in history to do so.
+1C2-E-TEST-0048-4.21/001	2002
+1C2-E-TEST-0048-4.21/002	democratic leader	DEP=1C2-E-TEST-0048-4.21007
+1C2-E-TEST-0048-4.21/003	house
+1C2-E-TEST-0048-4.21/004	representatives
+1C2-E-TEST-0048-4.21/005	woman	DEP=1C2-E-TEST-0048-4.21008
+1C2-E-TEST-0048-4.21/006	history
+1C2-E-TEST-0048-4.21/007	selected
+1C2-E-TEST-0048-4.21/008	making	DEP=1C2-E-TEST-0048-4.21002
+1C2-E-TEST-0048-4.3	Born Nancy D'Alesandro on March 26, 1940, in Baltimore, Maryland.
+1C2-E-TEST-0048-4.3/001	born d'alesandro
+1C2-E-TEST-0048-4.3/002	march 26 1940
+1C2-E-TEST-0048-4.3/003	baltimore maryland
+1C2-E-TEST-0048-4.35	Pelosi remained Speaker until November 2010, when Republicans gained control of the House.
+1C2-E-TEST-0048-4.35/001	speaker
+1C2-E-TEST-0048-4.35/002	november 2010
+1C2-E-TEST-0048-4.35/003	republicans	DEP=1C2-E-TEST-0048-4.35007
+1C2-E-TEST-0048-4.35/004	control	DEP=1C2-E-TEST-0048-4.35007
+1C2-E-TEST-0048-4.35/005	house
+1C2-E-TEST-0048-4.35/006	remained	DEP=1C2-E-TEST-0048-4.35001
+1C2-E-TEST-0048-4.35/007	gained	DEP=1C2-E-TEST-0048-4.35001

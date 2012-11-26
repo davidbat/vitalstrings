@@ -1,0 +1,388 @@
+1C2-E-TEST-0004-1.125	Dr.ÃÂÃÂ Dre also produced " How We Do ", a 2005 hit single from rapper The Game from his album The Documentary.
+1C2-E-TEST-0004-1.125/001	dr. ã â
+1C2-E-TEST-0004-1.125/002	2005 hit	DEP=1C2-E-TEST-0004-1.125008
+1C2-E-TEST-0004-1.125/003	rapper
+1C2-E-TEST-0004-1.125/004	game	DEP=1C2-E-TEST-0004-1.125003
+1C2-E-TEST-0004-1.125/005	album
+1C2-E-TEST-0004-1.125/006	documentary	DEP=1C2-E-TEST-0004-1.125004
+1C2-E-TEST-0004-1.125/007	produced
+1C2-E-TEST-0004-1.125/008	single	DEP=1C2-E-TEST-0004-1.125007
+1C2-E-TEST-0004-1.191	Dr.ÃÂÃÂ Dre has said that his primary instrument in the studio is the Akai MPC3000 , a drum machine and sampler, and that he often uses as many as four or five to produce a single recording.
+1C2-E-TEST-0004-1.191/001	dr. ã â
+1C2-E-TEST-0004-1.191/002	primary instrument	DEP=1C2-E-TEST-0004-1.191004
+1C2-E-TEST-0004-1.191/003	studio
+1C2-E-TEST-0004-1.191/004	akai mpc3000
+1C2-E-TEST-0004-1.191/005	machine sampler	DEP=1C2-E-TEST-0004-1.191008
+1C2-E-TEST-0004-1.191/006	four five
+1C2-E-TEST-0004-1.191/007	single recording	DEP=1C2-E-TEST-0004-1.191010
+1C2-E-TEST-0004-1.191/008	drum
+1C2-E-TEST-0004-1.191/009	uses	DEP=1C2-E-TEST-0004-1.191004
+1C2-E-TEST-0004-1.191/010	produce	DEP=1C2-E-TEST-0004-1.191009
+1C2-E-TEST-0004-1.227	Current collaborator Mike Elizondo , when speaking about his work with Young, describes their recording process as a collaborative effort involving several musicians.
+1C2-E-TEST-0004-1.227/001	current collaborator mike elizondo	DEP=1C2-E-TEST-0004-1.227008
+1C2-E-TEST-0004-1.227/002	work
+1C2-E-TEST-0004-1.227/003	young
+1C2-E-TEST-0004-1.227/004	recording process	DEP=1C2-E-TEST-0004-1.227008
+1C2-E-TEST-0004-1.227/005	collaborative effort
+1C2-E-TEST-0004-1.227/006	musicians	DEP=1C2-E-TEST-0004-1.227009
+1C2-E-TEST-0004-1.227/007	speaking	DEP=1C2-E-TEST-0004-1.227001
+1C2-E-TEST-0004-1.227/008	describes
+1C2-E-TEST-0004-1.227/009	involving	DEP=1C2-E-TEST-0004-1.227005
+1C2-E-TEST-0004-1.235	Every Dre track begins the same way, with Dre behind a drum machine in a room full of trusted musicians.
+1C2-E-TEST-0004-1.235/001	track	DEP=1C2-E-TEST-0004-1.235007
+1C2-E-TEST-0004-1.235/002	way	DEP=1C2-E-TEST-0004-1.235007
+1C2-E-TEST-0004-1.235/003	machine
+1C2-E-TEST-0004-1.235/004	room
+1C2-E-TEST-0004-1.235/005	full
+1C2-E-TEST-0004-1.235/006	trusted musicians
+1C2-E-TEST-0004-1.235/007	begins
+1C2-E-TEST-0004-1.62	Besides working on his own material, Dr.ÃÂÃÂ Dre produced Snoop Dogg's debut album Doggystyle , which became the first debut album for an artist to debut at number one on the Billboard 200 album charts.
+1C2-E-TEST-0004-1.62/001	material
+1C2-E-TEST-0004-1.62/002	dr. ã â
+1C2-E-TEST-0004-1.62/003	snoop dogg	DEP=1C2-E-TEST-0004-1.62013
+1C2-E-TEST-0004-1.62/004	doggystyle	DEP=1C2-E-TEST-0004-1.62011
+1C2-E-TEST-0004-1.62/005	debut album	DEP=1C2-E-TEST-0004-1.62004
+1C2-E-TEST-0004-1.62/006	artist
+1C2-E-TEST-0004-1.62/007	debut
+1C2-E-TEST-0004-1.62/008	number
+1C2-E-TEST-0004-1.62/009	billboard 200 album charts
+1C2-E-TEST-0004-1.62/010	working
+1C2-E-TEST-0004-1.62/011	produced
+1C2-E-TEST-0004-1.62/012	debut	DEP=1C2-E-TEST-0004-1.62013
+1C2-E-TEST-0004-1.62/013	album	DEP=1C2-E-TEST-0004-1.62011
+1C2-E-TEST-0004-12.10	In 2011, his final solo studio album, Detox, is set to be released following much delay and speculation. Early life The first child of Verna and Theodore Young, Dr. Dre was born as AndrÃÂ© Romelle Young on February 18, 1965.
+1C2-E-TEST-0004-12.10/001	2011
+1C2-E-TEST-0004-12.10/002	final solo	DEP=1C2-E-TEST-0004-12.10001
+1C2-E-TEST-0004-12.10/003	studio album	DEP=1C2-E-TEST-0004-12.10012
+1C2-E-TEST-0004-12.10/004	detox	DEP=1C2-E-TEST-0004-12.10003
+1C2-E-TEST-0004-12.10/005	delay speculation	DEP=1C2-E-TEST-0004-12.10014
+1C2-E-TEST-0004-12.10/006	early life	DEP=1C2-E-TEST-0004-12.10002
+1C2-E-TEST-0004-12.10/007	child	DEP=1C2-E-TEST-0004-12.10006
+1C2-E-TEST-0004-12.10/008	verna theodore	DEP=1C2-E-TEST-0004-12.10015
+1C2-E-TEST-0004-12.10/009	dr.
+1C2-E-TEST-0004-12.10/010	andrã © romelle young
+1C2-E-TEST-0004-12.10/011	february 18 1965
+1C2-E-TEST-0004-12.10/012	set	DEP=1C2-E-TEST-0004-12.10002
+1C2-E-TEST-0004-12.10/013	released	DEP=1C2-E-TEST-0004-12.10012
+1C2-E-TEST-0004-12.10/014	following	DEP=1C2-E-TEST-0004-12.10013
+1C2-E-TEST-0004-12.10/015	young
+1C2-E-TEST-0004-12.10/016	born
+1C2-E-TEST-0004-12.12	Young's middle name, "Romelle", came from Theodore Young's unsigned, amateur R&B singing group The Romells.
+1C2-E-TEST-0004-12.12/001	young	DEP=1C2-E-TEST-0004-12.12006
+1C2-E-TEST-0004-12.12/002	romelle	DEP=1C2-E-TEST-0004-12.12006
+1C2-E-TEST-0004-12.12/003	theodore young	DEP=1C2-E-TEST-0004-12.12012
+1C2-E-TEST-0004-12.12/004	romells	DEP=1C2-E-TEST-0004-12.12012
+1C2-E-TEST-0004-12.12/005	middle	DEP=1C2-E-TEST-0004-12.12006
+1C2-E-TEST-0004-12.12/006	name	DEP=1C2-E-TEST-0004-12.12007
+1C2-E-TEST-0004-12.12/007	came
+1C2-E-TEST-0004-12.12/008	unsigned	DEP=1C2-E-TEST-0004-12.12009
+1C2-E-TEST-0004-12.12/009	amateur	DEP=1C2-E-TEST-0004-12.12012
+1C2-E-TEST-0004-12.12/010	r&b	DEP=1C2-E-TEST-0004-12.12012
+1C2-E-TEST-0004-12.12/011	singing	DEP=1C2-E-TEST-0004-12.12012
+1C2-E-TEST-0004-12.12/012	group
+1C2-E-TEST-0004-12.20	Thus, he became a DJ in the club, initially under the name "Dr. J" based on the nickname for Julius Erving, his favorite basketball player.
+1C2-E-TEST-0004-12.20/001	dj
+1C2-E-TEST-0004-12.20/002	club
+1C2-E-TEST-0004-12.20/003	name dr. j
+1C2-E-TEST-0004-12.20/004	nickname
+1C2-E-TEST-0004-12.20/005	julius erving
+1C2-E-TEST-0004-12.20/006	favorite basketball player	DEP=1C2-E-TEST-0004-12.20005
+1C2-E-TEST-0004-12.20/007	initially	DEP=1C2-E-TEST-0004-12.20001
+1C2-E-TEST-0004-12.20/008	based	DEP=1C2-E-TEST-0004-12.20001
+1C2-E-TEST-0004-12.65	So I'd be on the keyboards, and Mike [Elizondo] was on the bass guitar, and Dr. Dre was on the drum machine".[81] Current collaborator Mike Elizondo, when speaking about his work with Young, describes their recording process as a collaborative effort involving several musicians.
+1C2-E-TEST-0004-12.65/001	keyboards
+1C2-E-TEST-0004-12.65/002	mike
+1C2-E-TEST-0004-12.65/003	elizondo	DEP=1C2-E-TEST-0004-12.65002
+1C2-E-TEST-0004-12.65/004	bass guitar
+1C2-E-TEST-0004-12.65/005	dr.
+1C2-E-TEST-0004-12.65/006	machine
+1C2-E-TEST-0004-12.65/007	81	DEP=1C2-E-TEST-0004-12.65015
+1C2-E-TEST-0004-12.65/008	mike elizondo	DEP=1C2-E-TEST-0004-12.65015
+1C2-E-TEST-0004-12.65/009	work
+1C2-E-TEST-0004-12.65/010	young
+1C2-E-TEST-0004-12.65/011	recording process	DEP=1C2-E-TEST-0004-12.65017
+1C2-E-TEST-0004-12.65/012	collaborative effort
+1C2-E-TEST-0004-12.65/013	musicians	DEP=1C2-E-TEST-0004-12.65018
+1C2-E-TEST-0004-12.65/014	current	DEP=1C2-E-TEST-0004-12.65015
+1C2-E-TEST-0004-12.65/015	collaborator
+1C2-E-TEST-0004-12.65/016	speaking	DEP=1C2-E-TEST-0004-12.65017
+1C2-E-TEST-0004-12.65/017	describes
+1C2-E-TEST-0004-12.65/018	involving	DEP=1C2-E-TEST-0004-12.65012
+1C2-E-TEST-0004-12.72	"My greatest talent," Dre says, "is knowing exactly what I want to hear."[72] Although Snoop Dogg retains working relationships with Warren G and Daz, who are alleged to be uncredited contributors on the hit albums The Chronic and Doggystyle, he states that Dr. Dre is capable of making beats without the help of collaborators.[83] It should be noted that Dr. Dre's prominent studio collaborators, including Scott Storch, Elizondo, Mark Batson and Dawaun Parker, have shared co-writing, instrumental, and more recently co-production credits on the songs where he is credited as the producer. It is also widely acknowledged that most of Dr. Dre's raps are written for him by others, though he retains ultimate control over his lyrics and the themes of his songs.
+1C2-E-TEST-0004-12.72/001	greatest talent	DEP=1C2-E-TEST-0004-12.72030
+1C2-E-TEST-0004-12.72/002	snoop dogg	DEP=1C2-E-TEST-0004-12.72034
+1C2-E-TEST-0004-12.72/003	relationships	DEP=1C2-E-TEST-0004-12.72035
+1C2-E-TEST-0004-12.72/004	warren g
+1C2-E-TEST-0004-12.72/005	daz	DEP=1C2-E-TEST-0004-12.72004
+1C2-E-TEST-0004-12.72/006	contributors	DEP=1C2-E-TEST-0004-12.72037
+1C2-E-TEST-0004-12.72/007	hit albums
+1C2-E-TEST-0004-12.72/008	chronic	DEP=1C2-E-TEST-0004-12.72038
+1C2-E-TEST-0004-12.72/009	doggystyle	DEP=1C2-E-TEST-0004-12.72008
+1C2-E-TEST-0004-12.72/010	dr.
+1C2-E-TEST-0004-12.72/011	beats	DEP=1C2-E-TEST-0004-12.72040
+1C2-E-TEST-0004-12.72/012	help
+1C2-E-TEST-0004-12.72/013	collaborators
+1C2-E-TEST-0004-12.72/014	83	DEP=1C2-E-TEST-0004-12.72003
+1C2-E-TEST-0004-12.72/015	dr.
+1C2-E-TEST-0004-12.72/016	scott storch
+1C2-E-TEST-0004-12.72/017	elizondo	DEP=1C2-E-TEST-0004-12.72016
+1C2-E-TEST-0004-12.72/018	mark batson	DEP=1C2-E-TEST-0004-12.72016
+1C2-E-TEST-0004-12.72/019	dawaun parker	DEP=1C2-E-TEST-0004-12.72016
+1C2-E-TEST-0004-12.72/020	co-writing	DEP=1C2-E-TEST-0004-12.72045
+1C2-E-TEST-0004-12.72/021	co-production credits	DEP=1C2-E-TEST-0004-12.72020
+1C2-E-TEST-0004-12.72/022	songs
+1C2-E-TEST-0004-12.72/023	producer
+1C2-E-TEST-0004-12.72/024	dr.
+1C2-E-TEST-0004-12.72/025	ultimate control	DEP=1C2-E-TEST-0004-12.72053
+1C2-E-TEST-0004-12.72/026	lyrics
+1C2-E-TEST-0004-12.72/027	themes	DEP=1C2-E-TEST-0004-12.72025
+1C2-E-TEST-0004-12.72/028	songs
+1C2-E-TEST-0004-12.72/029	says	DEP=1C2-E-TEST-0004-12.72030
+1C2-E-TEST-0004-12.72/030	knowing
+1C2-E-TEST-0004-12.72/031	exactly
+1C2-E-TEST-0004-12.72/032	hear
+1C2-E-TEST-0004-12.72/033	72	DEP=1C2-E-TEST-0004-12.72041
+1C2-E-TEST-0004-12.72/034	retains	DEP=1C2-E-TEST-0004-12.72041
+1C2-E-TEST-0004-12.72/035	working	DEP=1C2-E-TEST-0004-12.72034
+1C2-E-TEST-0004-12.72/036	alleged	DEP=1C2-E-TEST-0004-12.72004
+1C2-E-TEST-0004-12.72/037	uncredited	DEP=1C2-E-TEST-0004-12.72036
+1C2-E-TEST-0004-12.72/038	states	DEP=1C2-E-TEST-0004-12.72037
+1C2-E-TEST-0004-12.72/039	capable	DEP=1C2-E-TEST-0004-12.72038
+1C2-E-TEST-0004-12.72/040	making
+1C2-E-TEST-0004-12.72/041	noted	DEP=1C2-E-TEST-0004-12.72049
+1C2-E-TEST-0004-12.72/042	prominent	DEP=1C2-E-TEST-0004-12.72044
+1C2-E-TEST-0004-12.72/043	studio	DEP=1C2-E-TEST-0004-12.72044
+1C2-E-TEST-0004-12.72/044	collaborators	DEP=1C2-E-TEST-0004-12.72045
+1C2-E-TEST-0004-12.72/045	shared	DEP=1C2-E-TEST-0004-12.72041
+1C2-E-TEST-0004-12.72/046	instrumental	DEP=1C2-E-TEST-0004-12.72020
+1C2-E-TEST-0004-12.72/047	recently	DEP=1C2-E-TEST-0004-12.72020
+1C2-E-TEST-0004-12.72/048	credited	DEP=1C2-E-TEST-0004-12.72021
+1C2-E-TEST-0004-12.72/049	widely	DEP=1C2-E-TEST-0004-12.72030
+1C2-E-TEST-0004-12.72/050	acknowledged	DEP=1C2-E-TEST-0004-12.72049
+1C2-E-TEST-0004-12.72/051	raps
+1C2-E-TEST-0004-12.72/052	written	DEP=1C2-E-TEST-0004-12.72050
+1C2-E-TEST-0004-12.72/053	retains	DEP=1C2-E-TEST-0004-12.72049
+1C2-E-TEST-0004-136.7	The release will be his first since 1999's '2001' album and Dre has indicated it will be his last full album.
+1C2-E-TEST-0004-136.7/001	release
+1C2-E-TEST-0004-136.7/002	1999
+1C2-E-TEST-0004-136.7/003	2001
+1C2-E-TEST-0004-136.7/004	album	DEP=1C2-E-TEST-0004-136.7006
+1C2-E-TEST-0004-136.7/005	full album	DEP=1C2-E-TEST-0004-136.7006
+1C2-E-TEST-0004-136.7/006	indicated	DEP=1C2-E-TEST-0004-136.7003
+1C2-E-TEST-0004-159.124	Dr.ÃÂÃÂ Dre also produced "How We Do", a 2005 hit single from rapper The Game from his album The Documentary.
+1C2-E-TEST-0004-159.124/001	dr. ã â
+1C2-E-TEST-0004-159.124/002	2005 hit	DEP=1C2-E-TEST-0004-159.124007
+1C2-E-TEST-0004-159.124/003	rapper
+1C2-E-TEST-0004-159.124/004	game	DEP=1C2-E-TEST-0004-159.124002
+1C2-E-TEST-0004-159.124/005	album
+1C2-E-TEST-0004-159.124/006	documentary	DEP=1C2-E-TEST-0004-159.124002
+1C2-E-TEST-0004-159.124/007	produced
+1C2-E-TEST-0004-159.124/008	single	DEP=1C2-E-TEST-0004-159.124002
+1C2-E-TEST-0004-159.178	In 2001 he told Time magazine, "I may hear something I like on an old record that may inspire me, but I'd rather use musicians to re-create the sound or elaborate on it.
+1C2-E-TEST-0004-159.178/001	2001
+1C2-E-TEST-0004-159.178/002	time magazine	DEP=1C2-E-TEST-0004-159.178006
+1C2-E-TEST-0004-159.178/003	old record
+1C2-E-TEST-0004-159.178/004	musicians	DEP=1C2-E-TEST-0004-159.178009
+1C2-E-TEST-0004-159.178/005	sound	DEP=1C2-E-TEST-0004-159.178009
+1C2-E-TEST-0004-159.178/006	told	DEP=1C2-E-TEST-0004-159.178007
+1C2-E-TEST-0004-159.178/007	hear
+1C2-E-TEST-0004-159.178/008	inspire	DEP=1C2-E-TEST-0004-159.178003
+1C2-E-TEST-0004-159.178/009	re-create
+1C2-E-TEST-0004-159.178/010	elaborate	DEP=1C2-E-TEST-0004-159.178009
+1C2-E-TEST-0004-159.185	Dr.ÃÂÃÂ Dre also told Scratch magazine in a 2004 interview that he has been studying piano and music theory formally, and that a major goal is to accumulate enough musical theory to score movies.
+1C2-E-TEST-0004-159.185/001	dr. ã â
+1C2-E-TEST-0004-159.185/002	scratch magazine	DEP=1C2-E-TEST-0004-159.185008
+1C2-E-TEST-0004-159.185/003	2004 interview
+1C2-E-TEST-0004-159.185/004	piano music	DEP=1C2-E-TEST-0004-159.185010
+1C2-E-TEST-0004-159.185/005	major goal
+1C2-E-TEST-0004-159.185/006	musical theory	DEP=1C2-E-TEST-0004-159.185012
+1C2-E-TEST-0004-159.185/007	movies	DEP=1C2-E-TEST-0004-159.185013
+1C2-E-TEST-0004-159.185/008	told
+1C2-E-TEST-0004-159.185/009	studying	DEP=1C2-E-TEST-0004-159.185008
+1C2-E-TEST-0004-159.185/010	theory	DEP=1C2-E-TEST-0004-159.185009
+1C2-E-TEST-0004-159.185/011	formally	DEP=1C2-E-TEST-0004-159.185009
+1C2-E-TEST-0004-159.185/012	accumulate
+1C2-E-TEST-0004-159.185/013	score	DEP=1C2-E-TEST-0004-159.185012
+1C2-E-TEST-0004-159.193	To date, none have released full-length albums on Aftermath and have apparently ended their relationships with the label and Dr.ÃÂÃÂ Dre.
+1C2-E-TEST-0004-159.193/001	date
+1C2-E-TEST-0004-159.193/002	full-length albums	DEP=1C2-E-TEST-0004-159.193007
+1C2-E-TEST-0004-159.193/003	aftermath
+1C2-E-TEST-0004-159.193/004	relationships	DEP=1C2-E-TEST-0004-159.193009
+1C2-E-TEST-0004-159.193/005	label
+1C2-E-TEST-0004-159.193/006	dr. ã â
+1C2-E-TEST-0004-159.193/007	released
+1C2-E-TEST-0004-159.193/008	apparently	DEP=1C2-E-TEST-0004-159.193009
+1C2-E-TEST-0004-159.193/009	ended	DEP=1C2-E-TEST-0004-159.193007
+1C2-E-TEST-0004-159.203	Current collaborator Mike Elizondo, when speaking about his work with Young, describes their recording process as a collaborative effort involving several musicians.
+1C2-E-TEST-0004-159.203/001	current collaborator mike elizondo	DEP=1C2-E-TEST-0004-159.203008
+1C2-E-TEST-0004-159.203/002	work
+1C2-E-TEST-0004-159.203/003	young
+1C2-E-TEST-0004-159.203/004	recording process	DEP=1C2-E-TEST-0004-159.203008
+1C2-E-TEST-0004-159.203/005	collaborative effort
+1C2-E-TEST-0004-159.203/006	musicians	DEP=1C2-E-TEST-0004-159.203009
+1C2-E-TEST-0004-159.203/007	speaking	DEP=1C2-E-TEST-0004-159.203001
+1C2-E-TEST-0004-159.203/008	describes
+1C2-E-TEST-0004-159.203/009	involving	DEP=1C2-E-TEST-0004-159.203005
+1C2-E-TEST-0004-159.206	This account is essentially confirmed by Eminem in his book Angry Blonde, stating that the tune for the song was composed by a studio bassist and keyboardist while Dr.ÃÂÃÂ Dre was out of the studio but later programmed the song's beat after returning.
+1C2-E-TEST-0004-159.206/001	account	DEP=1C2-E-TEST-0004-159.206012
+1C2-E-TEST-0004-159.206/002	eminem
+1C2-E-TEST-0004-159.206/003	book angry blonde
+1C2-E-TEST-0004-159.206/004	tune	DEP=1C2-E-TEST-0004-159.206014
+1C2-E-TEST-0004-159.206/005	song
+1C2-E-TEST-0004-159.206/006	studio bassist
+1C2-E-TEST-0004-159.206/007	keyboardist	DEP=1C2-E-TEST-0004-159.206006
+1C2-E-TEST-0004-159.206/008	dr. ã â
+1C2-E-TEST-0004-159.206/009	studio
+1C2-E-TEST-0004-159.206/010	song	DEP=1C2-E-TEST-0004-159.206017
+1C2-E-TEST-0004-159.206/011	essentially	DEP=1C2-E-TEST-0004-159.206012
+1C2-E-TEST-0004-159.206/012	confirmed
+1C2-E-TEST-0004-159.206/013	stating	DEP=1C2-E-TEST-0004-159.206003
+1C2-E-TEST-0004-159.206/014	composed	DEP=1C2-E-TEST-0004-159.206013
+1C2-E-TEST-0004-159.206/015	later	DEP=1C2-E-TEST-0004-159.206016
+1C2-E-TEST-0004-159.206/016	programmed
+1C2-E-TEST-0004-159.206/017	beat	DEP=1C2-E-TEST-0004-159.206016
+1C2-E-TEST-0004-159.206/018	returning
+1C2-E-TEST-0004-159.209	Although Young studies piano and musical theory, he serves as more of a conductor than a musician himself, as Josh Tyrangiel of Time magazine has noted:
+1C2-E-TEST-0004-159.209/001	young studies	DEP=1C2-E-TEST-0004-159.209008
+1C2-E-TEST-0004-159.209/002	piano musical	DEP=1C2-E-TEST-0004-159.209007
+1C2-E-TEST-0004-159.209/003	conductor
+1C2-E-TEST-0004-159.209/004	musician
+1C2-E-TEST-0004-159.209/005	josh tyrangiel	DEP=1C2-E-TEST-0004-159.209009
+1C2-E-TEST-0004-159.209/006	time magazine
+1C2-E-TEST-0004-159.209/007	theory	DEP=1C2-E-TEST-0004-159.209001
+1C2-E-TEST-0004-159.209/008	serves
+1C2-E-TEST-0004-159.209/009	noted	DEP=1C2-E-TEST-0004-159.209003
+1C2-E-TEST-0004-159.210	Every Dre track begins the same way, with Dre behind a drum machine in a room full of trusted musicians.
+1C2-E-TEST-0004-159.210/001	track	DEP=1C2-E-TEST-0004-159.210007
+1C2-E-TEST-0004-159.210/002	way	DEP=1C2-E-TEST-0004-159.210007
+1C2-E-TEST-0004-159.210/003	machine
+1C2-E-TEST-0004-159.210/004	room
+1C2-E-TEST-0004-159.210/005	full
+1C2-E-TEST-0004-159.210/006	trusted musicians
+1C2-E-TEST-0004-159.210/007	begins
+1C2-E-TEST-0004-159.35	Thus, he became a DJ in the club, initially under the name "Dr. J", based on the nickname of Julius Erving, his favorite basketball player.
+1C2-E-TEST-0004-159.35/001	dj
+1C2-E-TEST-0004-159.35/002	club
+1C2-E-TEST-0004-159.35/003	name dr. j
+1C2-E-TEST-0004-159.35/004	nickname
+1C2-E-TEST-0004-159.35/005	julius erving
+1C2-E-TEST-0004-159.35/006	favorite basketball player	DEP=1C2-E-TEST-0004-159.35005
+1C2-E-TEST-0004-159.35/007	initially	DEP=1C2-E-TEST-0004-159.35002
+1C2-E-TEST-0004-159.35/008	based	DEP=1C2-E-TEST-0004-159.35001
+1C2-E-TEST-0004-159.37	He later joined the musical group World Class Wreckin' Cru under the independent Kru-Cut Records in 1984.
+1C2-E-TEST-0004-159.37/001	musical group	DEP=1C2-E-TEST-0004-159.37006
+1C2-E-TEST-0004-159.37/002	world class wreckin	DEP=1C2-E-TEST-0004-159.37007
+1C2-E-TEST-0004-159.37/003	independent kru-cut records
+1C2-E-TEST-0004-159.37/004	1984
+1C2-E-TEST-0004-159.37/005	later	DEP=1C2-E-TEST-0004-159.37006
+1C2-E-TEST-0004-159.37/006	joined
+1C2-E-TEST-0004-159.37/007	cru
+1C2-E-TEST-0004-159.39	Dr.ÃÂÃÂ Dre and DJ Yella also performed mixes for local radio station KDAY, boosting ratings for its afternoon rush-hour show The Traffic Jam.
+1C2-E-TEST-0004-159.39/001	dr. ã â
+1C2-E-TEST-0004-159.39/002	dj yella
+1C2-E-TEST-0004-159.39/003	local radio station kday
+1C2-E-TEST-0004-159.39/004	ratings	DEP=1C2-E-TEST-0004-159.39009
+1C2-E-TEST-0004-159.39/005	afternoon rush-hour show
+1C2-E-TEST-0004-159.39/006	traffic jam	DEP=1C2-E-TEST-0004-159.39008
+1C2-E-TEST-0004-159.39/007	performed	DEP=1C2-E-TEST-0004-159.39008
+1C2-E-TEST-0004-159.39/008	mixes
+1C2-E-TEST-0004-159.39/009	boosting	DEP=1C2-E-TEST-0004-159.39008
+1C2-E-TEST-0004-159.44	After brief attendance at a radio broadcasting school, he relocated to the residence of his father and residence of his grandparents before returning to his mother's house.
+1C2-E-TEST-0004-159.44/001	brief attendance
+1C2-E-TEST-0004-159.44/002	radio broadcasting school
+1C2-E-TEST-0004-159.44/003	residence
+1C2-E-TEST-0004-159.44/004	father residence
+1C2-E-TEST-0004-159.44/005	grandparents
+1C2-E-TEST-0004-159.44/006	mother	DEP=1C2-E-TEST-0004-159.44009
+1C2-E-TEST-0004-159.44/007	relocated
+1C2-E-TEST-0004-159.44/008	returning
+1C2-E-TEST-0004-159.44/009	house
+1C2-E-TEST-0004-159.45	He later dropped out of Chester to focus on performing at the Eve's After Dark nightclub.
+1C2-E-TEST-0004-159.45/001	chester
+1C2-E-TEST-0004-159.45/002	eve	DEP=1C2-E-TEST-0004-159.45008
+1C2-E-TEST-0004-159.45/003	later	DEP=1C2-E-TEST-0004-159.45004
+1C2-E-TEST-0004-159.45/004	dropped
+1C2-E-TEST-0004-159.45/005	focus	DEP=1C2-E-TEST-0004-159.45004
+1C2-E-TEST-0004-159.45/006	performing
+1C2-E-TEST-0004-159.45/007	dark	DEP=1C2-E-TEST-0004-159.45008
+1C2-E-TEST-0004-159.45/008	nightclub
+1C2-E-TEST-0004-159.54	Propelled by the hit "Fuck tha Police", the group's first full album Straight Outta Compton became a major success, despite an almost complete absence of radio airplay or major concert tours.
+1C2-E-TEST-0004-159.54/001	hit
+1C2-E-TEST-0004-159.54/002	fuck tha police	DEP=1C2-E-TEST-0004-159.54008
+1C2-E-TEST-0004-159.54/003	group	DEP=1C2-E-TEST-0004-159.54010
+1C2-E-TEST-0004-159.54/004	straight outta compton	DEP=1C2-E-TEST-0004-159.54005
+1C2-E-TEST-0004-159.54/005	major success
+1C2-E-TEST-0004-159.54/006	radio airplay
+1C2-E-TEST-0004-159.54/007	major concert tours	DEP=1C2-E-TEST-0004-159.54006
+1C2-E-TEST-0004-159.54/008	propelled	DEP=1C2-E-TEST-0004-159.54005
+1C2-E-TEST-0004-159.54/009	full	DEP=1C2-E-TEST-0004-159.54010
+1C2-E-TEST-0004-159.54/010	album	DEP=1C2-E-TEST-0004-159.54002
+1C2-E-TEST-0004-159.54/011	complete	DEP=1C2-E-TEST-0004-159.54012
+1C2-E-TEST-0004-159.54/012	absence
+1C2-E-TEST-0004-159.68	Young ushered in a new style of rap, both in terms of musical style and lyrical content.
+1C2-E-TEST-0004-159.68/001	young	DEP=1C2-E-TEST-0004-159.68007
+1C2-E-TEST-0004-159.68/002	new style
+1C2-E-TEST-0004-159.68/003	rap
+1C2-E-TEST-0004-159.68/004	terms
+1C2-E-TEST-0004-159.68/005	musical style
+1C2-E-TEST-0004-159.68/006	lyrical content	DEP=1C2-E-TEST-0004-159.68005
+1C2-E-TEST-0004-159.68/007	ushered
+1C2-E-TEST-0004-159.71	For that year, Billboard magazine also ranked Dr.ÃÂÃÂ Dre as the eighth best-selling musical artist, The Chronic as the sixth best-selling album, and "Nuthin' but a 'G' Thang" as the 11th best-selling single.
+1C2-E-TEST-0004-159.71/001	billboard magazine	DEP=1C2-E-TEST-0004-159.71009
+1C2-E-TEST-0004-159.71/002	dr. ã â
+1C2-E-TEST-0004-159.71/003	eighth best-selling musical artist
+1C2-E-TEST-0004-159.71/004	chronic
+1C2-E-TEST-0004-159.71/005	sixth best-selling album
+1C2-E-TEST-0004-159.71/006	nuthin
+1C2-E-TEST-0004-159.71/007	g thang
+1C2-E-TEST-0004-159.71/008	11th best-selling single
+1C2-E-TEST-0004-159.71/009	ranked
+1C2-E-TEST-0004-159.72	Besides working on his own material, Dr.ÃÂÃÂ Dre produced Snoop Dogg's debut album Doggystyle, which became the first debut album for an artist to debut at number one on the Billboard 200 album charts.
+1C2-E-TEST-0004-159.72/001	material
+1C2-E-TEST-0004-159.72/002	dr. ã â
+1C2-E-TEST-0004-159.72/003	snoop dogg	DEP=1C2-E-TEST-0004-159.72013
+1C2-E-TEST-0004-159.72/004	doggystyle	DEP=1C2-E-TEST-0004-159.72011
+1C2-E-TEST-0004-159.72/005	debut album	DEP=1C2-E-TEST-0004-159.72004
+1C2-E-TEST-0004-159.72/006	artist
+1C2-E-TEST-0004-159.72/007	debut
+1C2-E-TEST-0004-159.72/008	number
+1C2-E-TEST-0004-159.72/009	billboard 200 album charts
+1C2-E-TEST-0004-159.72/010	working
+1C2-E-TEST-0004-159.72/011	produced
+1C2-E-TEST-0004-159.72/012	debut	DEP=1C2-E-TEST-0004-159.72013
+1C2-E-TEST-0004-159.72/013	album	DEP=1C2-E-TEST-0004-159.72011
+1C2-E-TEST-0004-159.74	He collaborated with fellow N.W.A member Ice Cube for the song "Natural Born Killaz" in 1995.
+1C2-E-TEST-0004-159.74/001	fellow n.w.a member ice cube
+1C2-E-TEST-0004-159.74/002	song	DEP=1C2-E-TEST-0004-159.74007
+1C2-E-TEST-0004-159.74/003	1995
+1C2-E-TEST-0004-159.74/004	collaborated
+1C2-E-TEST-0004-159.74/005	natural	DEP=1C2-E-TEST-0004-159.74007
+1C2-E-TEST-0004-159.74/006	born	DEP=1C2-E-TEST-0004-159.74007
+1C2-E-TEST-0004-159.74/007	killaz
+1C2-E-TEST-0004-159.76	In 1995, just as Death Row Records was signing rapper 2Pac and positioning him as their major star, Young left the label amidst a contract dispute and growing concerns that label boss Suge Knight was corrupt, financially dishonest and out of control.
+1C2-E-TEST-0004-159.76/001	1995
+1C2-E-TEST-0004-159.76/002	death row records	DEP=1C2-E-TEST-0004-159.76011
+1C2-E-TEST-0004-159.76/003	rapper 2pac	DEP=1C2-E-TEST-0004-159.76011
+1C2-E-TEST-0004-159.76/004	major star
+1C2-E-TEST-0004-159.76/005	young	DEP=1C2-E-TEST-0004-159.76013
+1C2-E-TEST-0004-159.76/006	label	DEP=1C2-E-TEST-0004-159.76013
+1C2-E-TEST-0004-159.76/007	contract dispute
+1C2-E-TEST-0004-159.76/008	growing concerns	DEP=1C2-E-TEST-0004-159.76007
+1C2-E-TEST-0004-159.76/009	label boss suge knight	DEP=1C2-E-TEST-0004-159.76014
+1C2-E-TEST-0004-159.76/010	control
+1C2-E-TEST-0004-159.76/011	signing	DEP=1C2-E-TEST-0004-159.76013
+1C2-E-TEST-0004-159.76/012	positioning	DEP=1C2-E-TEST-0004-159.76011
+1C2-E-TEST-0004-159.76/013	left
+1C2-E-TEST-0004-159.76/014	corrupt	DEP=1C2-E-TEST-0004-159.76013
+1C2-E-TEST-0004-159.76/015	financially	DEP=1C2-E-TEST-0004-159.76016
+1C2-E-TEST-0004-159.76/016	dishonest	DEP=1C2-E-TEST-0004-159.76014
+1C2-E-TEST-0004-159.97	The album featured numerous collaborators, including Devin the Dude, Hittman, Snoop Dogg, Xzibit, Nate Dogg and Eminem.
+1C2-E-TEST-0004-159.97/001	album	DEP=1C2-E-TEST-0004-159.97009
+1C2-E-TEST-0004-159.97/002	numerous collaborators	DEP=1C2-E-TEST-0004-159.97009
+1C2-E-TEST-0004-159.97/003	devin dude
+1C2-E-TEST-0004-159.97/004	hittman	DEP=1C2-E-TEST-0004-159.97003
+1C2-E-TEST-0004-159.97/005	snoop dogg	DEP=1C2-E-TEST-0004-159.97003
+1C2-E-TEST-0004-159.97/006	xzibit	DEP=1C2-E-TEST-0004-159.97003
+1C2-E-TEST-0004-159.97/007	nate dogg	DEP=1C2-E-TEST-0004-159.97003
+1C2-E-TEST-0004-159.97/008	eminem	DEP=1C2-E-TEST-0004-159.97003
+1C2-E-TEST-0004-159.97/009	featured

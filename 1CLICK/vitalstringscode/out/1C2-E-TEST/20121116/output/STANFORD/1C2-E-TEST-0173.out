@@ -1,0 +1,346 @@
+1C2-E-TEST-0173-1.2	Electronic Ink is an international business system Design consultancy dedicated to improving the way people interact with technology, environments and one another.
+1C2-E-TEST-0173-1.2/001	international business system design consultancy
+1C2-E-TEST-0173-1.2/002	way people	DEP=1C2-E-TEST-0173-1.2006
+1C2-E-TEST-0173-1.2/003	technology
+1C2-E-TEST-0173-1.2/004	environments	DEP=1C2-E-TEST-0173-1.2003
+1C2-E-TEST-0173-1.2/005	dedicated	DEP=1C2-E-TEST-0173-1.2001
+1C2-E-TEST-0173-1.2/006	improving
+1C2-E-TEST-0173-104.19	Its low-level power consumption is also making E Ink popular in cell phones and watches.
+1C2-E-TEST-0173-104.19/001	low-level power consumption	DEP=1C2-E-TEST-0173-104.19004
+1C2-E-TEST-0173-104.19/002	e
+1C2-E-TEST-0173-104.19/003	cell phones watches
+1C2-E-TEST-0173-104.19/004	making
+1C2-E-TEST-0173-104.19/005	popular	DEP=1C2-E-TEST-0173-104.19004
+1C2-E-TEST-0173-104.25	Inside these "microcapsules" float even tinier black and white particles; the black particles are negatively charged while the white particles are positively charged.
+1C2-E-TEST-0173-104.25/001	microcapsules	DEP=1C2-E-TEST-0173-104.25005
+1C2-E-TEST-0173-104.25/002	white particles	DEP=1C2-E-TEST-0173-104.25007
+1C2-E-TEST-0173-104.25/003	black particles	DEP=1C2-E-TEST-0173-104.25009
+1C2-E-TEST-0173-104.25/004	white particles	DEP=1C2-E-TEST-0173-104.25011
+1C2-E-TEST-0173-104.25/005	float
+1C2-E-TEST-0173-104.25/006	tinier	DEP=1C2-E-TEST-0173-104.25007
+1C2-E-TEST-0173-104.25/007	black	DEP=1C2-E-TEST-0173-104.25005
+1C2-E-TEST-0173-104.25/008	negatively	DEP=1C2-E-TEST-0173-104.25009
+1C2-E-TEST-0173-104.25/009	charged
+1C2-E-TEST-0173-104.25/010	positively	DEP=1C2-E-TEST-0173-104.25011
+1C2-E-TEST-0173-104.25/011	charged	DEP=1C2-E-TEST-0173-104.25009
+1C2-E-TEST-0173-104.27	For instance, when a negative electric field is applied, the white particles rise to the top, while the black particles are pulled to the bottom of the spheres.
+1C2-E-TEST-0173-104.27/001	instance
+1C2-E-TEST-0173-104.27/002	negative electric field	DEP=1C2-E-TEST-0173-104.27008
+1C2-E-TEST-0173-104.27/003	white particles
+1C2-E-TEST-0173-104.27/004	top
+1C2-E-TEST-0173-104.27/005	black particles	DEP=1C2-E-TEST-0173-104.27009
+1C2-E-TEST-0173-104.27/006	bottom
+1C2-E-TEST-0173-104.27/007	spheres
+1C2-E-TEST-0173-104.27/008	applied
+1C2-E-TEST-0173-104.27/009	pulled
+1C2-E-TEST-0173-104.30	BENEFITS: The E-Ink technology is reflective, so it uses almost no power; even large displays will use a minimum amount of electricity.
+1C2-E-TEST-0173-104.30/001	benefits
+1C2-E-TEST-0173-104.30/002	e-ink technology	DEP=1C2-E-TEST-0173-104.30007
+1C2-E-TEST-0173-104.30/003	power	DEP=1C2-E-TEST-0173-104.30008
+1C2-E-TEST-0173-104.30/004	large displays
+1C2-E-TEST-0173-104.30/005	minimum amount
+1C2-E-TEST-0173-104.30/006	electricity
+1C2-E-TEST-0173-104.30/007	reflective	DEP=1C2-E-TEST-0173-104.30001
+1C2-E-TEST-0173-104.30/008	uses	DEP=1C2-E-TEST-0173-104.30007
+1C2-E-TEST-0173-133.41	*The microcapsule of this electronic ink display is "VizplexÃÂ¢Ã¢ÂÂÃÂ¢ Imaging Film" by E-Ink Corporation.
+1C2-E-TEST-0173-133.41/001	microcapsule	DEP=1C2-E-TEST-0173-133.41007
+1C2-E-TEST-0173-133.41/002	display
+1C2-E-TEST-0173-133.41/003	cents
+1C2-E-TEST-0173-133.41/004	â cents	DEP=1C2-E-TEST-0173-133.41009
+1C2-E-TEST-0173-133.41/005	e-ink corporation
+1C2-E-TEST-0173-133.41/006	\*	DEP=1C2-E-TEST-0173-133.41007
+1C2-E-TEST-0173-133.41/007	vizplexã
+1C2-E-TEST-0173-133.41/008	imaging	DEP=1C2-E-TEST-0173-133.41009
+1C2-E-TEST-0173-133.41/009	film
+1C2-E-TEST-0173-133.5	In addition, it required a very low level of power while having a virtually unlimited size of display.
+1C2-E-TEST-0173-133.5/001	addition
+1C2-E-TEST-0173-133.5/002	power
+1C2-E-TEST-0173-133.5/003	display
+1C2-E-TEST-0173-133.5/004	required
+1C2-E-TEST-0173-133.5/005	low	DEP=1C2-E-TEST-0173-133.5006
+1C2-E-TEST-0173-133.5/006	level	DEP=1C2-E-TEST-0173-133.5004
+1C2-E-TEST-0173-133.5/007	having
+1C2-E-TEST-0173-133.5/008	virtually	DEP=1C2-E-TEST-0173-133.5009
+1C2-E-TEST-0173-133.5/009	unlimited	DEP=1C2-E-TEST-0173-133.5010
+1C2-E-TEST-0173-133.5/010	size	DEP=1C2-E-TEST-0173-133.5007
+1C2-E-TEST-0173-143.10	Applying a negative electrical field causes the white particles to come to the surface.
+1C2-E-TEST-0173-143.10/001	negative electrical field	DEP=1C2-E-TEST-0173-143.10004
+1C2-E-TEST-0173-143.10/002	white particles	DEP=1C2-E-TEST-0173-143.10006
+1C2-E-TEST-0173-143.10/003	surface
+1C2-E-TEST-0173-143.10/004	applying	DEP=1C2-E-TEST-0173-143.10005
+1C2-E-TEST-0173-143.10/005	causes
+1C2-E-TEST-0173-143.10/006	come	DEP=1C2-E-TEST-0173-143.10005
+1C2-E-TEST-0173-143.11	Conversely, applying a positive electrical field causes the black particles to come to the surface.
+1C2-E-TEST-0173-143.11/001	positive electrical field	DEP=1C2-E-TEST-0173-143.11005
+1C2-E-TEST-0173-143.11/002	black particles	DEP=1C2-E-TEST-0173-143.11007
+1C2-E-TEST-0173-143.11/003	surface
+1C2-E-TEST-0173-143.11/004	conversely	DEP=1C2-E-TEST-0173-143.11005
+1C2-E-TEST-0173-143.11/005	applying
+1C2-E-TEST-0173-143.11/006	causes	DEP=1C2-E-TEST-0173-143.11005
+1C2-E-TEST-0173-143.11/007	come	DEP=1C2-E-TEST-0173-143.11006
+1C2-E-TEST-0173-143.13	E Ink displays are especially popular due to their resemblance to printed paper.
+1C2-E-TEST-0173-143.13/001	e displays	DEP=1C2-E-TEST-0173-143.13005
+1C2-E-TEST-0173-143.13/002	resemblance
+1C2-E-TEST-0173-143.13/003	printed paper
+1C2-E-TEST-0173-143.13/004	especially	DEP=1C2-E-TEST-0173-143.13005
+1C2-E-TEST-0173-143.13/005	popular
+1C2-E-TEST-0173-143.13/006	due
+1C2-E-TEST-0173-322.22	There are also white particles in between (they do not move) and so white can be displayed.
+1C2-E-TEST-0173-322.22/001	white particles
+1C2-E-TEST-0173-322.22/002	white	DEP=1C2-E-TEST-0173-322.22004
+1C2-E-TEST-0173-322.22/003	move
+1C2-E-TEST-0173-322.22/004	displayed
+1C2-E-TEST-0173-64.10	To form an E Ink electronic display, the ink is printed onto a sheet of plastic film that is laminated to a layer of circuitry.
+1C2-E-TEST-0173-64.10/001	e display	DEP=1C2-E-TEST-0173-64.10006
+1C2-E-TEST-0173-64.10/002	sheet
+1C2-E-TEST-0173-64.10/003	plastic film
+1C2-E-TEST-0173-64.10/004	layer
+1C2-E-TEST-0173-64.10/005	circuitry
+1C2-E-TEST-0173-64.10/006	form	DEP=1C2-E-TEST-0173-64.10007
+1C2-E-TEST-0173-64.10/007	printed
+1C2-E-TEST-0173-64.10/008	laminated	DEP=1C2-E-TEST-0173-64.10002
+1C2-E-TEST-0173-64.12	These microcapsules are suspended in a liquid "carrier medium" allowing them to be printed using existing screen printing processes onto virtually any surface, including glass, plastic, fabric and even paper.
+1C2-E-TEST-0173-64.12/001	microcapsules	DEP=1C2-E-TEST-0173-64.12009
+1C2-E-TEST-0173-64.12/002	liquid carrier medium
+1C2-E-TEST-0173-64.12/003	existing screen printing processes
+1C2-E-TEST-0173-64.12/004	virtually surface
+1C2-E-TEST-0173-64.12/005	glass
+1C2-E-TEST-0173-64.12/006	plastic	DEP=1C2-E-TEST-0173-64.12005
+1C2-E-TEST-0173-64.12/007	fabric	DEP=1C2-E-TEST-0173-64.12005
+1C2-E-TEST-0173-64.12/008	paper	DEP=1C2-E-TEST-0173-64.12005
+1C2-E-TEST-0173-64.12/009	suspended
+1C2-E-TEST-0173-64.12/010	allowing	DEP=1C2-E-TEST-0173-64.12002
+1C2-E-TEST-0173-64.12/011	printed	DEP=1C2-E-TEST-0173-64.12010
+1C2-E-TEST-0173-64.13	Ultimately electronic ink will permit most any surface to become a display, bringing information out of the confines of traditional devices and into the world around us.
+1C2-E-TEST-0173-64.13/001	display	DEP=1C2-E-TEST-0173-64.13008
+1C2-E-TEST-0173-64.13/002	information	DEP=1C2-E-TEST-0173-64.13009
+1C2-E-TEST-0173-64.13/003	confines
+1C2-E-TEST-0173-64.13/004	traditional devices
+1C2-E-TEST-0173-64.13/005	world
+1C2-E-TEST-0173-64.13/006	ultimately	DEP=1C2-E-TEST-0173-64.13007
+1C2-E-TEST-0173-64.13/007	permit
+1C2-E-TEST-0173-64.13/008	surface	DEP=1C2-E-TEST-0173-64.13007
+1C2-E-TEST-0173-64.13/009	bringing	DEP=1C2-E-TEST-0173-64.13001
+1C2-E-TEST-0173-64.3	Revolutionary in concept, electronic ink is a fusion of chemistry, physics and electronics to create this new material.
+1C2-E-TEST-0173-64.3/001	revolutionary	DEP=1C2-E-TEST-0173-64.3003
+1C2-E-TEST-0173-64.3/002	concept
+1C2-E-TEST-0173-64.3/003	fusion
+1C2-E-TEST-0173-64.3/004	chemistry physics electronics
+1C2-E-TEST-0173-64.3/005	new material	DEP=1C2-E-TEST-0173-64.3006
+1C2-E-TEST-0173-64.3/006	create	DEP=1C2-E-TEST-0173-64.3003
+1C2-E-TEST-0173-64.5	In one incarnation, each microcapsule contains positively charged white particles and negatively charged black particles suspended in a clear fluid.
+1C2-E-TEST-0173-64.5/001	incarnation
+1C2-E-TEST-0173-64.5/002	microcapsule	DEP=1C2-E-TEST-0173-64.5006
+1C2-E-TEST-0173-64.5/003	white particles	DEP=1C2-E-TEST-0173-64.5008
+1C2-E-TEST-0173-64.5/004	black particles	DEP=1C2-E-TEST-0173-64.5010
+1C2-E-TEST-0173-64.5/005	clear fluid
+1C2-E-TEST-0173-64.5/006	contains
+1C2-E-TEST-0173-64.5/007	positively	DEP=1C2-E-TEST-0173-64.5008
+1C2-E-TEST-0173-64.5/008	charged	DEP=1C2-E-TEST-0173-64.5006
+1C2-E-TEST-0173-64.5/009	negatively	DEP=1C2-E-TEST-0173-64.5008
+1C2-E-TEST-0173-64.5/010	charged	DEP=1C2-E-TEST-0173-64.5008
+1C2-E-TEST-0173-64.5/011	suspended	DEP=1C2-E-TEST-0173-64.5004
+1C2-E-TEST-0173-7.12	To form a smart ink display, the ink is coated onto a sheet of plastic film that is laminated to a layer of circuitry.
+1C2-E-TEST-0173-7.12/001	smart display	DEP=1C2-E-TEST-0173-7.12006
+1C2-E-TEST-0173-7.12/002	sheet
+1C2-E-TEST-0173-7.12/003	plastic film
+1C2-E-TEST-0173-7.12/004	layer
+1C2-E-TEST-0173-7.12/005	circuitry
+1C2-E-TEST-0173-7.12/006	form	DEP=1C2-E-TEST-0173-7.12007
+1C2-E-TEST-0173-7.12/007	coated
+1C2-E-TEST-0173-7.12/008	laminated	DEP=1C2-E-TEST-0173-7.12002
+1C2-E-TEST-0173-7.13	The circuitry forms a pattern of pixels that can then be controlled by a display driver.
+1C2-E-TEST-0173-7.13/001	pattern	DEP=1C2-E-TEST-0173-7.13005
+1C2-E-TEST-0173-7.13/002	pixels
+1C2-E-TEST-0173-7.13/003	display driver
+1C2-E-TEST-0173-7.13/004	circuitry	DEP=1C2-E-TEST-0173-7.13005
+1C2-E-TEST-0173-7.13/005	forms
+1C2-E-TEST-0173-7.13/006	controlled	DEP=1C2-E-TEST-0173-7.13002
+1C2-E-TEST-0173-7.14	The microcapsules are suspended in a liquid "carrier medium" allowing them to be coated using existing coating processes.
+1C2-E-TEST-0173-7.14/001	microcapsules	DEP=1C2-E-TEST-0173-7.14004
+1C2-E-TEST-0173-7.14/002	liquid carrier medium
+1C2-E-TEST-0173-7.14/003	existing coating processes
+1C2-E-TEST-0173-7.14/004	suspended
+1C2-E-TEST-0173-7.14/005	allowing	DEP=1C2-E-TEST-0173-7.14002
+1C2-E-TEST-0173-7.14/006	coated	DEP=1C2-E-TEST-0173-7.14005
+1C2-E-TEST-0173-7.15	The final laminate can be applied onto virtually any surface, including glass, plastic, fabric and even paper.
+1C2-E-TEST-0173-7.15/001	final laminate	DEP=1C2-E-TEST-0173-7.15007
+1C2-E-TEST-0173-7.15/002	virtually surface
+1C2-E-TEST-0173-7.15/003	glass
+1C2-E-TEST-0173-7.15/004	plastic	DEP=1C2-E-TEST-0173-7.15003
+1C2-E-TEST-0173-7.15/005	fabric	DEP=1C2-E-TEST-0173-7.15003
+1C2-E-TEST-0173-7.15/006	paper	DEP=1C2-E-TEST-0173-7.15003
+1C2-E-TEST-0173-7.15/007	applied
+1C2-E-TEST-0173-7.3	E Ink is the creator of electronic ink ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ the optical component of a film used in Electronic Paper Displays.
+1C2-E-TEST-0173-7.3/001	e
+1C2-E-TEST-0173-7.3/002	creator
+1C2-E-TEST-0173-7.3/003	ã cents
+1C2-E-TEST-0173-7.3/004	¬	DEP=1C2-E-TEST-0173-7.3007
+1C2-E-TEST-0173-7.3/005	film
+1C2-E-TEST-0173-7.3/006	paper displays
+1C2-E-TEST-0173-7.3/007	â
+1C2-E-TEST-0173-7.3/008	optical	DEP=1C2-E-TEST-0173-7.3009
+1C2-E-TEST-0173-7.3/009	component
+1C2-E-TEST-0173-7.9	When a positive or negative electric field is applied, corresponding particles move to the top of the microcapsule where they become visible to the user.
+1C2-E-TEST-0173-7.9/001	particles	DEP=1C2-E-TEST-0173-7.9010
+1C2-E-TEST-0173-7.9/002	top
+1C2-E-TEST-0173-7.9/003	microcapsule
+1C2-E-TEST-0173-7.9/004	user
+1C2-E-TEST-0173-7.9/005	positive	DEP=1C2-E-TEST-0173-7.9008
+1C2-E-TEST-0173-7.9/006	negative	DEP=1C2-E-TEST-0173-7.9005
+1C2-E-TEST-0173-7.9/007	electric	DEP=1C2-E-TEST-0173-7.9008
+1C2-E-TEST-0173-7.9/008	field	DEP=1C2-E-TEST-0173-7.9009
+1C2-E-TEST-0173-7.9/009	applied	DEP=1C2-E-TEST-0173-7.9011
+1C2-E-TEST-0173-7.9/010	corresponding	DEP=1C2-E-TEST-0173-7.9009
+1C2-E-TEST-0173-7.9/011	move
+1C2-E-TEST-0173-7.9/012	visible	DEP=1C2-E-TEST-0173-7.9011
+1C2-E-TEST-0173-79.21	Because the white particles are positively charged and the black particles are negatively charged, they can be easily separated by applying a charge from behind the screen with an electrode.
+1C2-E-TEST-0173-79.21/001	white particles	DEP=1C2-E-TEST-0173-79.21007
+1C2-E-TEST-0173-79.21/002	black particles	DEP=1C2-E-TEST-0173-79.21009
+1C2-E-TEST-0173-79.21/003	charge	DEP=1C2-E-TEST-0173-79.21012
+1C2-E-TEST-0173-79.21/004	screen
+1C2-E-TEST-0173-79.21/005	electrode
+1C2-E-TEST-0173-79.21/006	positively	DEP=1C2-E-TEST-0173-79.21007
+1C2-E-TEST-0173-79.21/007	charged	DEP=1C2-E-TEST-0173-79.21011
+1C2-E-TEST-0173-79.21/008	negatively	DEP=1C2-E-TEST-0173-79.21009
+1C2-E-TEST-0173-79.21/009	charged	DEP=1C2-E-TEST-0173-79.21007
+1C2-E-TEST-0173-79.21/010	easily	DEP=1C2-E-TEST-0173-79.21011
+1C2-E-TEST-0173-79.21/011	separated
+1C2-E-TEST-0173-79.21/012	applying
+1C2-E-TEST-0173-79.31	Although Seiko and E Ink demonstrated the prototype together in 2005 , it didnÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢t become a commercial reality until 2006, and even then rumor has it that less than 500 were ever made, all priced at 262,500 yen ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ the modern equivalent of $2,700.
+1C2-E-TEST-0173-79.31/001	seiko e
+1C2-E-TEST-0173-79.31/002	prototype	DEP=1C2-E-TEST-0173-79.31013
+1C2-E-TEST-0173-79.31/003	2005
+1C2-E-TEST-0173-79.31/004	didnã cents
+1C2-E-TEST-0173-79.31/005	¬
+1C2-E-TEST-0173-79.31/006	â cents t	DEP=1C2-E-TEST-0173-79.31007
+1C2-E-TEST-0173-79.31/007	commercial reality	DEP=1C2-E-TEST-0173-79.31005
+1C2-E-TEST-0173-79.31/008	2006
+1C2-E-TEST-0173-79.31/009	rumor
+1C2-E-TEST-0173-79.31/010	262,500 yen ã cents
+1C2-E-TEST-0173-79.31/011	¬	DEP=1C2-E-TEST-0173-79.31017
+1C2-E-TEST-0173-79.31/012	2,700
+1C2-E-TEST-0173-79.31/013	demonstrated
+1C2-E-TEST-0173-79.31/014	500	DEP=1C2-E-TEST-0173-79.31015
+1C2-E-TEST-0173-79.31/015	made
+1C2-E-TEST-0173-79.31/016	priced
+1C2-E-TEST-0173-79.31/017	â
+1C2-E-TEST-0173-79.31/018	modern	DEP=1C2-E-TEST-0173-79.31019
+1C2-E-TEST-0173-79.31/019	equivalent
+1C2-E-TEST-0173-79.32	In 2007, the company showed off a newer version catering to ladies , which wrapped entirely around the wrist and could be set to ÃÂ¢Ã¢ÂÂ¬ÃÂefficiencyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ for quick time telling, or ÃÂ¢Ã¢ÂÂ¬ÃÂmysteryÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ for a more elegant, interperative telling of the time.
+1C2-E-TEST-0173-79.32/001	2007
+1C2-E-TEST-0173-79.32/002	company	DEP=1C2-E-TEST-0173-79.32015
+1C2-E-TEST-0173-79.32/003	newer version catering	DEP=1C2-E-TEST-0173-79.32015
+1C2-E-TEST-0173-79.32/004	ladies
+1C2-E-TEST-0173-79.32/005	wrist
+1C2-E-TEST-0173-79.32/006	¬ ë efficiencyã cents
+1C2-E-TEST-0173-79.32/007	¬
+1C2-E-TEST-0173-79.32/008	â cents
+1C2-E-TEST-0173-79.32/009	quick time
+1C2-E-TEST-0173-79.32/010	ã cents
+1C2-E-TEST-0173-79.32/011	¬ ë mysteryã cents
+1C2-E-TEST-0173-79.32/012	¬
+1C2-E-TEST-0173-79.32/013	â cents
+1C2-E-TEST-0173-79.32/014	time
+1C2-E-TEST-0173-79.32/015	showed
+1C2-E-TEST-0173-79.32/016	wrapped	DEP=1C2-E-TEST-0173-79.32004
+1C2-E-TEST-0173-79.32/017	entirely	DEP=1C2-E-TEST-0173-79.32016
+1C2-E-TEST-0173-79.32/018	set	DEP=1C2-E-TEST-0173-79.32016
+1C2-E-TEST-0173-79.32/019	ã	DEP=1C2-E-TEST-0173-79.32020
+1C2-E-TEST-0173-79.32/020	cents	DEP=1C2-E-TEST-0173-79.32021
+1C2-E-TEST-0173-79.32/021	â
+1C2-E-TEST-0173-79.32/022	telling	DEP=1C2-E-TEST-0173-79.32009
+1C2-E-TEST-0173-79.32/023	elegant
+1C2-E-TEST-0173-79.32/024	interperative
+1C2-E-TEST-0173-79.32/025	telling	DEP=1C2-E-TEST-0173-79.32024
+1C2-E-TEST-0173-79.43	In October 2008, Esquire became the first magazine ever to feature an E Ink cover when it plastered the blinking line "The 21st Century Begins Now" across that monthÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s issue.
+1C2-E-TEST-0173-79.43/001	october 2008
+1C2-E-TEST-0173-79.43/002	esquire	DEP=1C2-E-TEST-0173-79.43003
+1C2-E-TEST-0173-79.43/003	magazine
+1C2-E-TEST-0173-79.43/004	e cover	DEP=1C2-E-TEST-0173-79.43011
+1C2-E-TEST-0173-79.43/005	21st	DEP=1C2-E-TEST-0173-79.43015
+1C2-E-TEST-0173-79.43/006	century	DEP=1C2-E-TEST-0173-79.43005
+1C2-E-TEST-0173-79.43/007	monthã cents
+1C2-E-TEST-0173-79.43/008	¬	DEP=1C2-E-TEST-0173-79.43010
+1C2-E-TEST-0173-79.43/009	â cents	DEP=1C2-E-TEST-0173-79.43008
+1C2-E-TEST-0173-79.43/010	issue
+1C2-E-TEST-0173-79.43/011	feature	DEP=1C2-E-TEST-0173-79.43003
+1C2-E-TEST-0173-79.43/012	plastered	DEP=1C2-E-TEST-0173-79.43011
+1C2-E-TEST-0173-79.43/013	blinking	DEP=1C2-E-TEST-0173-79.43014
+1C2-E-TEST-0173-79.43/014	line	DEP=1C2-E-TEST-0173-79.43012
+1C2-E-TEST-0173-79.43/015	begins	DEP=1C2-E-TEST-0173-79.43014
+1C2-E-TEST-0173-79.43/016	s	DEP=1C2-E-TEST-0173-79.43010
+1C2-E-TEST-0173-79.47	Phones have also begun to harness the practical battery-stretching power of E Ink displays.
+1C2-E-TEST-0173-79.47/001	phones	DEP=1C2-E-TEST-0173-79.47004
+1C2-E-TEST-0173-79.47/002	practical battery-stretching power	DEP=1C2-E-TEST-0173-79.47005
+1C2-E-TEST-0173-79.47/003	e displays
+1C2-E-TEST-0173-79.47/004	begun
+1C2-E-TEST-0173-79.47/005	harness	DEP=1C2-E-TEST-0173-79.47004
+1C2-E-TEST-0173-79.80	To that end, flexible and low-cost E Ink screens could easily begin to perform tasks LCD screens never could ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ like taking over for paint.
+1C2-E-TEST-0173-79.80/001	end
+1C2-E-TEST-0173-79.80/002	low-cost e	DEP=1C2-E-TEST-0173-79.80008
+1C2-E-TEST-0173-79.80/003	tasks	DEP=1C2-E-TEST-0173-79.80012
+1C2-E-TEST-0173-79.80/004	lcd screens
+1C2-E-TEST-0173-79.80/005	ã cents
+1C2-E-TEST-0173-79.80/006	¬ â
+1C2-E-TEST-0173-79.80/007	paint
+1C2-E-TEST-0173-79.80/008	flexible	DEP=1C2-E-TEST-0173-79.80009
+1C2-E-TEST-0173-79.80/009	screens	DEP=1C2-E-TEST-0173-79.80011
+1C2-E-TEST-0173-79.80/010	easily	DEP=1C2-E-TEST-0173-79.80011
+1C2-E-TEST-0173-79.80/011	begin
+1C2-E-TEST-0173-79.80/012	perform	DEP=1C2-E-TEST-0173-79.80011
+1C2-E-TEST-0173-79.80/013	taking
+1C2-E-TEST-0173-87.15	The principal components of electronic ink are millions of tiny microcapsules, about the diameter of a human hair.
+1C2-E-TEST-0173-87.15/001	principal components	DEP=1C2-E-TEST-0173-87.15002
+1C2-E-TEST-0173-87.15/002	millions
+1C2-E-TEST-0173-87.15/003	tiny microcapsules
+1C2-E-TEST-0173-87.15/004	diameter
+1C2-E-TEST-0173-87.15/005	human hair
+1C2-E-TEST-0173-87.16	Each microcapsule contains positively charged white particles and negatively charged black particles suspended in a clear fluid.
+1C2-E-TEST-0173-87.16/001	microcapsule	DEP=1C2-E-TEST-0173-87.16005
+1C2-E-TEST-0173-87.16/002	white particles	DEP=1C2-E-TEST-0173-87.16007
+1C2-E-TEST-0173-87.16/003	black particles	DEP=1C2-E-TEST-0173-87.16009
+1C2-E-TEST-0173-87.16/004	clear fluid
+1C2-E-TEST-0173-87.16/005	contains
+1C2-E-TEST-0173-87.16/006	positively	DEP=1C2-E-TEST-0173-87.16007
+1C2-E-TEST-0173-87.16/007	charged	DEP=1C2-E-TEST-0173-87.16005
+1C2-E-TEST-0173-87.16/008	negatively	DEP=1C2-E-TEST-0173-87.16007
+1C2-E-TEST-0173-87.16/009	charged	DEP=1C2-E-TEST-0173-87.16007
+1C2-E-TEST-0173-87.16/010	suspended	DEP=1C2-E-TEST-0173-87.16003
+1C2-E-TEST-0173-87.17	When a negative electric field is applied, the white particles move to the top of the microcapsule where they become visible to the user.
+1C2-E-TEST-0173-87.17/001	negative electric field	DEP=1C2-E-TEST-0173-87.17006
+1C2-E-TEST-0173-87.17/002	white particles
+1C2-E-TEST-0173-87.17/003	top
+1C2-E-TEST-0173-87.17/004	microcapsule
+1C2-E-TEST-0173-87.17/005	user
+1C2-E-TEST-0173-87.17/006	applied
+1C2-E-TEST-0173-87.17/007	visible
+1C2-E-TEST-0173-87.20	By reversing this process, the black particles appear at the top of the capsule, which now makes the surface appear dark at that spot.ÃÂ¢Ã¢ÂÂ¬ÃÂ
+1C2-E-TEST-0173-87.20/001	process	DEP=1C2-E-TEST-0173-87.20009
+1C2-E-TEST-0173-87.20/002	black particles
+1C2-E-TEST-0173-87.20/003	top
+1C2-E-TEST-0173-87.20/004	capsule
+1C2-E-TEST-0173-87.20/005	surface	DEP=1C2-E-TEST-0173-87.20011
+1C2-E-TEST-0173-87.20/006	spot
+1C2-E-TEST-0173-87.20/007	ã cents
+1C2-E-TEST-0173-87.20/008	¬ â
+1C2-E-TEST-0173-87.20/009	reversing
+1C2-E-TEST-0173-87.20/010	makes	DEP=1C2-E-TEST-0173-87.20003
+1C2-E-TEST-0173-87.20/011	dark	DEP=1C2-E-TEST-0173-87.20010
+1C2-E-TEST-0173-87.5	Ultra thin: The display is much thinner than is possible with any conventional watch technology, analog or digital.
+1C2-E-TEST-0173-87.5/001	ultra thin
+1C2-E-TEST-0173-87.5/002	display
+1C2-E-TEST-0173-87.5/003	conventional watch technology
+1C2-E-TEST-0173-87.5/004	analog	DEP=1C2-E-TEST-0173-87.5003
+1C2-E-TEST-0173-87.5/005	digital	DEP=1C2-E-TEST-0173-87.5003
+1C2-E-TEST-0173-87.5/006	thinner
+1C2-E-TEST-0173-87.5/007	possible
+1C2-E-TEST-0173-87.7	Low power consumption: The display is readable under very low light conditions, so no backlighting is required.
+1C2-E-TEST-0173-87.7/001	low power consumption
+1C2-E-TEST-0173-87.7/002	display	DEP=1C2-E-TEST-0173-87.7004
+1C2-E-TEST-0173-87.7/003	backlighting	DEP=1C2-E-TEST-0173-87.7008
+1C2-E-TEST-0173-87.7/004	readable	DEP=1C2-E-TEST-0173-87.7001
+1C2-E-TEST-0173-87.7/005	low	DEP=1C2-E-TEST-0173-87.7007
+1C2-E-TEST-0173-87.7/006	light	DEP=1C2-E-TEST-0173-87.7007
+1C2-E-TEST-0173-87.7/007	conditions
+1C2-E-TEST-0173-87.7/008	required	DEP=1C2-E-TEST-0173-87.7004

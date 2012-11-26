@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 16:44:44 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>ASTM A955 : Deformed and plain stainless-steel bars for concrete reinforcement .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Buildings">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="50" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="50" name="Building" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>The more ductile steel is capable of absorbing considerably more energy when deformed - a behavior that resists earthquake forces and is used in design .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Using">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="140" name="Target" start="137"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="128" name="Instrument" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Increment">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="63" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="70" name="Class" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Capability">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="32" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="21" name="Entity" start="0"/>
+                        <label ID="1020202" end="150" name="Event" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Coming_up_with">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="150" name="Target" start="145"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Conduct">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="97" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels>
+                        <label ID="1040201" end="150" name="Agent" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="105" frameName="Increment">
+                  <layers>
+                    <layer ID="10501" name="Target">
+                      <labels>
+                        <label ID="1050101" end="7" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10502" name="FE">
+                      <labels>
+                        <label ID="1050201" end="21" name="Class" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="106" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="10601" name="Target">
+                      <labels>
+                        <label ID="1060101" end="110" name="Target" start="104"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10602" name="FE">
+                      <labels>
+                        <label ID="1060201" end="102" name="Cognizer" start="99"/>
+                        <label ID="1060202" end="128" name="Issue" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="107" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="10701" name="Target">
+                      <labels>
+                        <label ID="1070101" end="75" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10702" name="FE">
+                      <labels>
+                        <label ID="1070201" end="150" name="Landmark_event" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="108" frameName="Electricity">
+                  <layers>
+                    <layer ID="10801" name="Target">
+                      <labels>
+                        <label ID="1080101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10802" name="FE">
+                      <labels>
+                        <label ID="1080201" end="70" name="Electricity" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="109" frameName="Moving_in_place">
+                  <layers>
+                    <layer ID="10901" name="Target">
+                      <labels>
+                        <label ID="1090101" end="121" name="Target" start="112"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10902" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="110" frameName="Stimulus_focus">
+                  <layers>
+                    <layer ID="11001" name="Target">
+                      <labels>
+                        <label ID="1100101" end="45" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11002" name="FE">
+                      <labels>
+                        <label ID="1100201" end="70" name="Stimulus" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="111" frameName="Military">
+                  <layers>
+                    <layer ID="11101" name="Target">
+                      <labels>
+                        <label ID="1110101" end="128" name="Target" start="123"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11102" name="FE">
+                      <labels>
+                        <label ID="1110201" end="128" name="Force" start="123"/>
+                        <label ID="1110202" end="121" name="Possessor" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>The rebars are placed by rodbusters or concrete reinforcing ironworkers with bar supports separating the rebar from the concrete forms to establish concrete cover and ensure that proper embedment is achieved .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Supporting">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="88" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="79" name="Supporter" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Intentionally_create">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="146" name="Target" start="138"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="161" name="Created_entity" start="148"/>
+                        <label ID="2010202" end="109" name="Creator" start="101"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Separating">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="99" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="88" name="Whole" start="77"/>
+                        <label ID="2020202" end="133" name="Parts" start="111"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="203" frameName="Proper_reference">
+                  <layers>
+                    <layer ID="20301" name="Target">
+                      <labels>
+                        <label ID="2030101" end="184" name="Target" start="179"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20302" name="FE">
+                      <labels>
+                        <label ID="2030201" end="194" name="Entity" start="186"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="204" frameName="Eclipse">
+                  <layers>
+                    <layer ID="20401" name="Target">
+                      <labels>
+                        <label ID="2040101" end="161" name="Target" start="157"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="205" frameName="Cause_change_of_strength">
+                  <layers>
+                    <layer ID="20501" name="Target">
+                      <labels>
+                        <label ID="2050101" end="58" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="206" frameName="Buildings">
+                  <layers>
+                    <layer ID="20601" name="Target">
+                      <labels>
+                        <label ID="2060101" end="79" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20602" name="FE">
+                      <labels>
+                        <label ID="2060201" end="79" name="Building" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="207" frameName="Placing">
+                  <layers>
+                    <layer ID="20701" name="Target">
+                      <labels>
+                        <label ID="2070101" end="20" name="Target" start="15"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20702" name="FE">
+                      <labels>
+                        <label ID="2070201" end="206" name="Goal" start="22"/>
+                        <label ID="2070202" end="9" name="Theme" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="208" frameName="Type">
+                  <layers>
+                    <layer ID="20801" name="Target">
+                      <labels>
+                        <label ID="2080101" end="133" name="Target" start="129"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20802" name="FE">
+                      <labels>
+                        <label ID="2080201" end="127" name="Type_Property" start="120"/>
+                        <label ID="2080202" end="133" name="Subtype" start="129"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="209" frameName="Accomplishment">
+                  <layers>
+                    <layer ID="20901" name="Target">
+                      <labels>
+                        <label ID="2090101" end="206" name="Target" start="199"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20902" name="FE">
+                      <labels>
+                        <label ID="2090201" end="194" name="Agent" start="179"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>The grade designation is equal to the minimum yield strength of the bar in ksi -LRB- 1000 psi -RRB- .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="20" name="Profiled_item" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Extreme_value">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="44" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="88" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="92" name="Entity" start="90"/>
+                        <label ID="3020202" end="88" name="Number" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="303" frameName="Referring_by_name">
+                  <layers>
+                    <layer ID="30301" name="Target">
+                      <labels>
+                        <label ID="3030101" end="20" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="304" frameName="Buildings">
+                  <layers>
+                    <layer ID="30401" name="Target">
+                      <labels>
+                        <label ID="3040101" end="70" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30402" name="FE">
+                      <labels>
+                        <label ID="3040201" end="92" name="Name" start="72"/>
+                        <label ID="3040202" end="70" name="Building" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>ASTM A 706 Low-alloy steel deformed and plain bars for concrete reinforcement .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Reshaping">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="34" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="25" name="Undergoer" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Position_on_a_scale">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="19" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Buildings">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="49" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="49" name="Building" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>A rebar , or reinforcing bar , is a common steel bar , and is commonly used in reinforced concrete and reinforced masonry structures .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Cause_change_of_strength">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="112" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="131" name="Patient" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Buildings">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="131" name="Target" start="122"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="131" name="Building" start="122"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Cause_change_of_strength">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="23" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="27" name="Patient" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Using">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="74" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="27" name="Instrument" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Buildings">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="27" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="27" name="Building" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="505" frameName="Buildings">
+                  <layers>
+                    <layer ID="50501" name="Target">
+                      <labels>
+                        <label ID="5050101" end="51" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50502" name="FE">
+                      <labels>
+                        <label ID="5050201" end="51" name="Building" start="49"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Rebar can be supplied with various grades of ductility , with the more ductile steel capable of absorbing considerably greater energy when deformed - this can be of use in design to .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Increment">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="69" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="77" name="Class" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Stimulus_focus">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="104" name="Target" start="96"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="180" name="Stimulus" start="134"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="137" name="Target" start="134"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="180" name="Trajector_event" start="139"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="603" frameName="Diversity">
+                  <layers>
+                    <layer ID="60301" name="Target">
+                      <labels>
+                        <label ID="6030101" end="33" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="604" frameName="Using">
+                  <layers>
+                    <layer ID="60401" name="Target">
+                      <labels>
+                        <label ID="6040101" end="167" name="Target" start="165"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60402" name="FE">
+                      <labels>
+                        <label ID="6040201" end="180" name="Purpose" start="169"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="605" frameName="Capability">
+                  <layers>
+                    <layer ID="60501" name="Target">
+                      <labels>
+                        <label ID="6050101" end="91" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60502" name="FE">
+                      <labels>
+                        <label ID="6050201" end="83" name="Entity" start="62"/>
+                        <label ID="6050202" end="180" name="Event" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="606" frameName="Capability">
+                  <layers>
+                    <layer ID="60601" name="Target">
+                      <labels>
+                        <label ID="6060101" end="157" name="Target" start="155"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60602" name="FE">
+                      <labels>
+                        <label ID="6060201" end="153" name="Entity" start="150"/>
+                        <label ID="6060202" end="180" name="Event" start="159"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="607" frameName="Electricity">
+                  <layers>
+                    <layer ID="60701" name="Target">
+                      <labels>
+                        <label ID="6070101" end="132" name="Target" start="127"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60702" name="FE">
+                      <labels>
+                        <label ID="6070201" end="132" name="Electricity" start="127"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="608" frameName="Supply">
+                  <layers>
+                    <layer ID="60801" name="Target">
+                      <labels>
+                        <label ID="6080101" end="20" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60802" name="FE">
+                      <labels>
+                        <label ID="6080201" end="53" name="Theme" start="22"/>
+                        <label ID="6080202" end="4" name="Supplier" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="609" frameName="Capability">
+                  <layers>
+                    <layer ID="60901" name="Target">
+                      <labels>
+                        <label ID="6090101" end="8" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60902" name="FE">
+                      <labels>
+                        <label ID="6090201" end="4" name="Entity" start="0"/>
+                        <label ID="6090202" end="180" name="Event" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="610" frameName="Coming_up_with">
+                  <layers>
+                    <layer ID="61001" name="Target">
+                      <labels>
+                        <label ID="6100101" end="177" name="Target" start="172"/>
+                      </labels>
+                    </layer>
+                    <layer ID="61002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>Historically in Europe , rebar is composed of mild steel material with yield strength of approximately 250 N/mmÃ&#130;Â² .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Text_creation">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="41" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels>
+                        <label ID="7000201" end="29" name="Text" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Domain">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="11" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="21" name="Predicate" start="13"/>
+                        <label ID="7010202" end="11" name="Domain" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Substance">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="64" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels>
+                        <label ID="7020201" end="64" name="Substance" start="57"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="703" frameName="Relational_quantity">
+                  <layers>
+                    <layer ID="70301" name="Target">
+                      <labels>
+                        <label ID="7030101" end="101" name="Target" start="89"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70302" name="FE">
+                      <labels>
+                        <label ID="7030201" end="105" name="Individuals" start="103"/>
+                        <label ID="7030202" end="101" name="Denoted_quantity" start="89"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>Modern rebar is composed of high-yield steel , with a yield strength more typically 500 N/mmÃ&#130;Â² .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="86" name="Target" start="84"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="95" name="Entity" start="88"/>
+                        <label ID="8000202" end="86" name="Number" start="84"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Text_creation">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="23" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="11" name="Text" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="802" frameName="Stage_of_progress">
+                  <layers>
+                    <layer ID="80201" name="Target">
+                      <labels>
+                        <label ID="8020101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80202" name="FE">
+                      <labels>
+                        <label ID="8020201" end="11" name="Entity" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="803" frameName="Increment">
+                  <layers>
+                    <layer ID="80301" name="Target">
+                      <labels>
+                        <label ID="8030101" end="72" name="Target" start="69"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80302" name="FE">
+                      <labels>
+                        <label ID="8030201" end="86" name="Class" start="74"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>Rebar cages are fabricated either on or off the project site commonly with the help of hydraulic benders and shears .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Assistance">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="82" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Locale">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="59" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="59" name="Locale" start="56"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Project">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="54" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="903" frameName="Manufacturing">
+                  <layers>
+                    <layer ID="90301" name="Target">
+                      <labels>
+                        <label ID="9030101" end="25" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90302" name="FE">
+                      <labels>
+                        <label ID="9030201" end="10" name="Product" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>Rebar is available in different grades and specifications that vary in yield strength , ultimate tensile strength , chemical composition , and percentage of elongation .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Substance">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="123" name="Target" start="116"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="123" name="Substance" start="116"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Similarity">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="30" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Similarity">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="66" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="166" name="Entities" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>The grade designation is equal to the minimum yield strength of the bar in ksi -LRB- 1000 psi -RRB- for example grade 60 rebar has minimum yield strength of 60 ksi .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Possession">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="129" name="Target" start="127"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels>
+                        <label ID="11000201" end="162" name="Possession" start="131"/>
+                        <label ID="11000202" end="125" name="Owner" start="118"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Extreme_value">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="44" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="88" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="92" name="Entity" start="90"/>
+                        <label ID="11020202" end="88" name="Number" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1103" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="110301" name="Target">
+                      <labels>
+                        <label ID="11030101" end="158" name="Target" start="157"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110302" name="FE">
+                      <labels>
+                        <label ID="11030201" end="162" name="Entity" start="160"/>
+                        <label ID="11030202" end="158" name="Number" start="157"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1104" frameName="Referring_by_name">
+                  <layers>
+                    <layer ID="110401" name="Target">
+                      <labels>
+                        <label ID="11040101" end="20" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1105" frameName="Buildings">
+                  <layers>
+                    <layer ID="110501" name="Target">
+                      <labels>
+                        <label ID="11050101" end="70" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110502" name="FE">
+                      <labels>
+                        <label ID="11050201" end="70" name="Building" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1106" frameName="Extreme_value">
+                  <layers>
+                    <layer ID="110601" name="Target">
+                      <labels>
+                        <label ID="11060101" end="137" name="Target" start="131"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1107" frameName="Instance">
+                  <layers>
+                    <layer ID="110701" name="Target">
+                      <labels>
+                        <label ID="11070101" end="110" name="Target" start="104"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1108" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="110801" name="Target">
+                      <labels>
+                        <label ID="11080101" end="119" name="Target" start="118"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110802" name="FE">
+                      <labels>
+                        <label ID="11080201" end="125" name="Entity" start="121"/>
+                        <label ID="11080202" end="119" name="Number" start="118"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1109" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="110901" name="Target">
+                      <labels>
+                        <label ID="11090101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110902" name="FE">
+                      <labels>
+                        <label ID="11090201" end="162" name="Standard_item" start="31"/>
+                        <label ID="11090202" end="20" name="Profiled_item" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>Rebar is typically manufactured in grades 40 , 60 , and 75 .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="48" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="57" name="Entity" start="56"/>
+                        <label ID="12000202" end="48" name="Number" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="43" name="Target" start="42"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="40" name="Entity" start="35"/>
+                        <label ID="12010202" end="43" name="Number" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Manufacturing">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="30" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="43" name="Product" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Rebar is a structural member that is cast into concrete and masonry to provide strength and reinforcement .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Supply">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="77" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="66" name="Supplier" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Membership">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="27" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels>
+                        <label ID="13010201" end="20" name="Group" start="11"/>
+                        <label ID="13010202" end="4" name="Member" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Communicate_categorization">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="40" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="66" name="Item" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

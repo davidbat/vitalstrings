@@ -1,0 +1,647 @@
+1C2-E-TEST-0038-1.119	Cameron was the founder and CEO of Digital Domain , a visual effects production and technology company.
+1C2-E-TEST-0038-1.119/001	cameron	DEP=1C2-E-TEST-0038-1.119002
+1C2-E-TEST-0038-1.119/002	founder ceo
+1C2-E-TEST-0038-1.119/003	digital domain
+1C2-E-TEST-0038-1.119/004	visual effects production	DEP=1C2-E-TEST-0038-1.119003
+1C2-E-TEST-0038-1.119/005	technology company	DEP=1C2-E-TEST-0038-1.119003
+1C2-E-TEST-0038-1.128	The investigation was featured in the TV documentary special Titanic: The Final Word with James Cameron, which premiered on April 8 on the National Geographic Channel .
+1C2-E-TEST-0038-1.128/001	investigation	DEP=1C2-E-TEST-0038-1.128007
+1C2-E-TEST-0038-1.128/002	tv documentary special titanic
+1C2-E-TEST-0038-1.128/003	final word	DEP=1C2-E-TEST-0038-1.128002
+1C2-E-TEST-0038-1.128/004	cameron
+1C2-E-TEST-0038-1.128/005	april 8
+1C2-E-TEST-0038-1.128/006	national geographic channel
+1C2-E-TEST-0038-1.128/007	featured
+1C2-E-TEST-0038-1.128/008	premiered	DEP=1C2-E-TEST-0038-1.128004
+1C2-E-TEST-0038-1.20	During the early 1980s, Cameron wrote three screenplays simultaneously: The Terminator, Aliens , and the first draft of Rambo: First Blood Part II .
+1C2-E-TEST-0038-1.20/001	early 1980s
+1C2-E-TEST-0038-1.20/002	cameron	DEP=1C2-E-TEST-0038-1.20009
+1C2-E-TEST-0038-1.20/003	three screenplays	DEP=1C2-E-TEST-0038-1.20009
+1C2-E-TEST-0038-1.20/004	terminator	DEP=1C2-E-TEST-0038-1.20003
+1C2-E-TEST-0038-1.20/005	aliens	DEP=1C2-E-TEST-0038-1.20003
+1C2-E-TEST-0038-1.20/006	draft	DEP=1C2-E-TEST-0038-1.20003
+1C2-E-TEST-0038-1.20/007	rambo
+1C2-E-TEST-0038-1.20/008	blood part ii	DEP=1C2-E-TEST-0038-1.20006
+1C2-E-TEST-0038-1.20/009	wrote
+1C2-E-TEST-0038-1.20/010	simultaneously	DEP=1C2-E-TEST-0038-1.20003
+1C2-E-TEST-0038-1.21	While Cameron continued with The Terminator and Aliens, Sylvester Stallone eventually took over the script of Rambo: First Blood Part II , creating a final draft which differed radically from Cameron's initial version.
+1C2-E-TEST-0038-1.21/001	cameron	DEP=1C2-E-TEST-0038-1.21009
+1C2-E-TEST-0038-1.21/002	terminator aliens
+1C2-E-TEST-0038-1.21/003	sylvester stallone	DEP=1C2-E-TEST-0038-1.21011
+1C2-E-TEST-0038-1.21/004	script	DEP=1C2-E-TEST-0038-1.21011
+1C2-E-TEST-0038-1.21/005	rambo
+1C2-E-TEST-0038-1.21/006	blood part ii	DEP=1C2-E-TEST-0038-1.21004
+1C2-E-TEST-0038-1.21/007	final draft	DEP=1C2-E-TEST-0038-1.21012
+1C2-E-TEST-0038-1.21/008	cameron	DEP=1C2-E-TEST-0038-1.21016
+1C2-E-TEST-0038-1.21/009	continued	DEP=1C2-E-TEST-0038-1.21011
+1C2-E-TEST-0038-1.21/010	eventually	DEP=1C2-E-TEST-0038-1.21011
+1C2-E-TEST-0038-1.21/011	took
+1C2-E-TEST-0038-1.21/012	creating	DEP=1C2-E-TEST-0038-1.21011
+1C2-E-TEST-0038-1.21/013	differed	DEP=1C2-E-TEST-0038-1.21007
+1C2-E-TEST-0038-1.21/014	radically	DEP=1C2-E-TEST-0038-1.21013
+1C2-E-TEST-0038-1.21/015	initial	DEP=1C2-E-TEST-0038-1.21016
+1C2-E-TEST-0038-1.21/016	version
+1C2-E-TEST-0038-1.25	Cameron next began the sequel to Alien , the 1979 film by Ridley Scott .
+1C2-E-TEST-0038-1.25/001	cameron	DEP=1C2-E-TEST-0038-1.25006
+1C2-E-TEST-0038-1.25/002	sequel	DEP=1C2-E-TEST-0038-1.25006
+1C2-E-TEST-0038-1.25/003	alien
+1C2-E-TEST-0038-1.25/004	1979 film	DEP=1C2-E-TEST-0038-1.25003
+1C2-E-TEST-0038-1.25/005	ridley scott
+1C2-E-TEST-0038-1.25/006	began
+1C2-E-TEST-0038-1.26	Cameron named the sequel Aliens, and again cast Sigourney Weaver in the iconic role of Ellen Ripley .
+1C2-E-TEST-0038-1.26/001	cameron	DEP=1C2-E-TEST-0038-1.26006
+1C2-E-TEST-0038-1.26/002	sequel aliens	DEP=1C2-E-TEST-0038-1.26006
+1C2-E-TEST-0038-1.26/003	sigourney weaver	DEP=1C2-E-TEST-0038-1.26007
+1C2-E-TEST-0038-1.26/004	iconic role
+1C2-E-TEST-0038-1.26/005	ellen ripley
+1C2-E-TEST-0038-1.26/006	named
+1C2-E-TEST-0038-1.26/007	cast	DEP=1C2-E-TEST-0038-1.26006
+1C2-E-TEST-0038-1.27	According to Cameron, the crew on Aliens was hostile to him, regarding him as a poor substitute for Ridley Scott.
+1C2-E-TEST-0038-1.27/001	cameron
+1C2-E-TEST-0038-1.27/002	crew	DEP=1C2-E-TEST-0038-1.27006
+1C2-E-TEST-0038-1.27/003	aliens
+1C2-E-TEST-0038-1.27/004	poor substitute
+1C2-E-TEST-0038-1.27/005	ridley scott
+1C2-E-TEST-0038-1.27/006	hostile
+1C2-E-TEST-0038-1.27/007	regarding	DEP=1C2-E-TEST-0038-1.27006
+1C2-E-TEST-0038-1.28	Cameron sought to show them The Terminator but the majority of the crew refused to watch it and remained skeptical of his direction throughout production.
+1C2-E-TEST-0038-1.28/001	cameron	DEP=1C2-E-TEST-0038-1.28007
+1C2-E-TEST-0038-1.28/002	terminator	DEP=1C2-E-TEST-0038-1.28008
+1C2-E-TEST-0038-1.28/003	majority	DEP=1C2-E-TEST-0038-1.28009
+1C2-E-TEST-0038-1.28/004	crew
+1C2-E-TEST-0038-1.28/005	direction
+1C2-E-TEST-0038-1.28/006	production
+1C2-E-TEST-0038-1.28/007	sought
+1C2-E-TEST-0038-1.28/008	show	DEP=1C2-E-TEST-0038-1.28007
+1C2-E-TEST-0038-1.28/009	refused	DEP=1C2-E-TEST-0038-1.28007
+1C2-E-TEST-0038-1.28/010	watch	DEP=1C2-E-TEST-0038-1.28009
+1C2-E-TEST-0038-1.28/011	remained	DEP=1C2-E-TEST-0038-1.28012
+1C2-E-TEST-0038-1.28/012	skeptical	DEP=1C2-E-TEST-0038-1.28009
+1C2-E-TEST-0038-1.29	Despite this and other off-screen problems (such as clashing with an uncooperative camera man and having to replace one of the lead actors ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ Michael Biehn of Terminator took James Remar 's place as Corporal Hicks), Aliens became a box office success, and received Academy Award nominations for Best Actress in a Leading Role for Weaver, Best Art Direction , Best Film Editing , Best Original Score , Best Sound , and won awards for Best Sound Effects Editing and Best Visual Effects .
+1C2-E-TEST-0038-1.29/001	off-screen problems
+1C2-E-TEST-0038-1.29/002	uncooperative camera man
+1C2-E-TEST-0038-1.29/003	lead actors	DEP=1C2-E-TEST-0038-1.29026
+1C2-E-TEST-0038-1.29/004	ã cents	DEP=1C2-E-TEST-0038-1.29003
+1C2-E-TEST-0038-1.29/005	michael biehn	DEP=1C2-E-TEST-0038-1.29028
+1C2-E-TEST-0038-1.29/006	terminator
+1C2-E-TEST-0038-1.29/007	remar	DEP=1C2-E-TEST-0038-1.29029
+1C2-E-TEST-0038-1.29/008	corporal hicks
+1C2-E-TEST-0038-1.29/009	aliens	DEP=1C2-E-TEST-0038-1.29010
+1C2-E-TEST-0038-1.29/010	box office success
+1C2-E-TEST-0038-1.29/011	academy award nominations	DEP=1C2-E-TEST-0038-1.29030
+1C2-E-TEST-0038-1.29/012	best actress
+1C2-E-TEST-0038-1.29/013	leading role
+1C2-E-TEST-0038-1.29/014	weaver
+1C2-E-TEST-0038-1.29/015	best art direction	DEP=1C2-E-TEST-0038-1.29014
+1C2-E-TEST-0038-1.29/016	best film editing	DEP=1C2-E-TEST-0038-1.29014
+1C2-E-TEST-0038-1.29/017	best original score	DEP=1C2-E-TEST-0038-1.29014
+1C2-E-TEST-0038-1.29/018	best sound	DEP=1C2-E-TEST-0038-1.29014
+1C2-E-TEST-0038-1.29/019	awards	DEP=1C2-E-TEST-0038-1.29031
+1C2-E-TEST-0038-1.29/020	best sound effects
+1C2-E-TEST-0038-1.29/021	best visual effects	DEP=1C2-E-TEST-0038-1.29020
+1C2-E-TEST-0038-1.29/022	clashing
+1C2-E-TEST-0038-1.29/023	having	DEP=1C2-E-TEST-0038-1.29022
+1C2-E-TEST-0038-1.29/024	replace	DEP=1C2-E-TEST-0038-1.29023
+1C2-E-TEST-0038-1.29/025	â	DEP=1C2-E-TEST-0038-1.29026
+1C2-E-TEST-0038-1.29/026	¬
+1C2-E-TEST-0038-1.29/027	â	DEP=1C2-E-TEST-0038-1.29026
+1C2-E-TEST-0038-1.29/028	took	DEP=1C2-E-TEST-0038-1.29027
+1C2-E-TEST-0038-1.29/029	place	DEP=1C2-E-TEST-0038-1.29028
+1C2-E-TEST-0038-1.29/030	received	DEP=1C2-E-TEST-0038-1.29010
+1C2-E-TEST-0038-1.29/031	won	DEP=1C2-E-TEST-0038-1.29010
+1C2-E-TEST-0038-1.29/032	editing	DEP=1C2-E-TEST-0038-1.29020
+1C2-E-TEST-0038-1.30	In addition, the film and its lead actress made the cover of TIME magazine as a result of its numerous and extensive scenes of women in combat - these were almost without precedent and expressed the feminist theme of the film very strongly.
+1C2-E-TEST-0038-1.30/001	addition
+1C2-E-TEST-0038-1.30/002	film	DEP=1C2-E-TEST-0038-1.30013
+1C2-E-TEST-0038-1.30/003	lead actress	DEP=1C2-E-TEST-0038-1.30002
+1C2-E-TEST-0038-1.30/004	cover	DEP=1C2-E-TEST-0038-1.30013
+1C2-E-TEST-0038-1.30/005	time magazine
+1C2-E-TEST-0038-1.30/006	result
+1C2-E-TEST-0038-1.30/007	extensive scenes	DEP=1C2-E-TEST-0038-1.30014
+1C2-E-TEST-0038-1.30/008	women
+1C2-E-TEST-0038-1.30/009	combat
+1C2-E-TEST-0038-1.30/010	precedent
+1C2-E-TEST-0038-1.30/011	feminist theme	DEP=1C2-E-TEST-0038-1.30015
+1C2-E-TEST-0038-1.30/012	film
+1C2-E-TEST-0038-1.30/013	made
+1C2-E-TEST-0038-1.30/014	numerous
+1C2-E-TEST-0038-1.30/015	expressed
+1C2-E-TEST-0038-1.30/016	strongly	DEP=1C2-E-TEST-0038-1.30012
+1C2-E-TEST-0038-1.5	Finally, Cameron found a company called Hemdale Pictures , which was willing to let him direct.
+1C2-E-TEST-0038-1.5/001	cameron	DEP=1C2-E-TEST-0038-1.5005
+1C2-E-TEST-0038-1.5/002	company	DEP=1C2-E-TEST-0038-1.5006
+1C2-E-TEST-0038-1.5/003	hemdale pictures	DEP=1C2-E-TEST-0038-1.5006
+1C2-E-TEST-0038-1.5/004	finally	DEP=1C2-E-TEST-0038-1.5005
+1C2-E-TEST-0038-1.5/005	found
+1C2-E-TEST-0038-1.5/006	called	DEP=1C2-E-TEST-0038-1.5005
+1C2-E-TEST-0038-1.5/007	willing	DEP=1C2-E-TEST-0038-1.5003
+1C2-E-TEST-0038-1.5/008	direct
+1C2-E-TEST-0038-1.52	Cameron had originally wanted to incorporate this advanced-model Terminator into the first film, but the special effects at the time were not advanced enough.
+1C2-E-TEST-0038-1.52/001	cameron	DEP=1C2-E-TEST-0038-1.52007
+1C2-E-TEST-0038-1.52/002	advanced-model terminator	DEP=1C2-E-TEST-0038-1.52008
+1C2-E-TEST-0038-1.52/003	film
+1C2-E-TEST-0038-1.52/004	special effects	DEP=1C2-E-TEST-0038-1.52009
+1C2-E-TEST-0038-1.52/005	time
+1C2-E-TEST-0038-1.52/006	originally	DEP=1C2-E-TEST-0038-1.52007
+1C2-E-TEST-0038-1.52/007	wanted
+1C2-E-TEST-0038-1.52/008	incorporate	DEP=1C2-E-TEST-0038-1.52007
+1C2-E-TEST-0038-1.52/009	advanced	DEP=1C2-E-TEST-0038-1.52007
+1C2-E-TEST-0038-1.60	It won four Academy Awards : Best Makeup , Best Sound , Best Sound Effects Editing , and Best Visual Effects .
+1C2-E-TEST-0038-1.60/001	four academy awards	DEP=1C2-E-TEST-0038-1.60007
+1C2-E-TEST-0038-1.60/002	best makeup	DEP=1C2-E-TEST-0038-1.60007
+1C2-E-TEST-0038-1.60/003	best sound	DEP=1C2-E-TEST-0038-1.60002
+1C2-E-TEST-0038-1.60/004	best sound effects	DEP=1C2-E-TEST-0038-1.60002
+1C2-E-TEST-0038-1.60/005	editing	DEP=1C2-E-TEST-0038-1.60004
+1C2-E-TEST-0038-1.60/006	best visual effects	DEP=1C2-E-TEST-0038-1.60002
+1C2-E-TEST-0038-1.60/007	won
+1C2-E-TEST-0038-1.67	It was released in 1996 and was a mini-sequel to Terminator 2: Judgment Day.
+1C2-E-TEST-0038-1.67/001	1996
+1C2-E-TEST-0038-1.67/002	mini-sequel	DEP=1C2-E-TEST-0038-1.67005
+1C2-E-TEST-0038-1.67/003	terminator 2
+1C2-E-TEST-0038-1.67/004	judgment
+1C2-E-TEST-0038-1.67/005	released
+1C2-E-TEST-0038-1.85	Cameron's budget for the film reached about $200ÃÂÃÂ million, making it the most expensive movie ever made at the time.
+1C2-E-TEST-0038-1.85/001	cameron	DEP=1C2-E-TEST-0038-1.85004
+1C2-E-TEST-0038-1.85/002	film
+1C2-E-TEST-0038-1.85/003	time
+1C2-E-TEST-0038-1.85/004	budget	DEP=1C2-E-TEST-0038-1.85005
+1C2-E-TEST-0038-1.85/005	reached
+1C2-E-TEST-0038-1.85/006	200ã
+1C2-E-TEST-0038-1.85/007	â
+1C2-E-TEST-0038-1.85/008	million	DEP=1C2-E-TEST-0038-1.85005
+1C2-E-TEST-0038-1.85/009	making	DEP=1C2-E-TEST-0038-1.85005
+1C2-E-TEST-0038-1.85/010	expensive	DEP=1C2-E-TEST-0038-1.85011
+1C2-E-TEST-0038-1.85/011	movie	DEP=1C2-E-TEST-0038-1.85009
+1C2-E-TEST-0038-1.85/012	made	DEP=1C2-E-TEST-0038-1.85011
+1C2-E-TEST-0038-1.91	Titanic became the highest-grossing film ever made, until Cameron's 2009 film Avatar .
+1C2-E-TEST-0038-1.91/001	titanic	DEP=1C2-E-TEST-0038-1.91002
+1C2-E-TEST-0038-1.91/002	highest-grossing film
+1C2-E-TEST-0038-1.91/003	cameron
+1C2-E-TEST-0038-1.91/004	2009 film avatar	DEP=1C2-E-TEST-0038-1.91003
+1C2-E-TEST-0038-1.91/005	made	DEP=1C2-E-TEST-0038-1.91002
+1C2-E-TEST-0038-1.94	It won 11 Oscars (also record-tying with Ben-Hur and later The Lord of the Rings: The Return of the King ), including Best Picture , Best Film Editing , Best Sound , Best Sound Effects Editing , Best Visual Effects , Best Original Song , Best Original Dramatic Score , and the Best Director award for Cameron.
+1C2-E-TEST-0038-1.94/001	11 oscars	DEP=1C2-E-TEST-0038-1.94020
+1C2-E-TEST-0038-1.94/002	record-tying	DEP=1C2-E-TEST-0038-1.94001
+1C2-E-TEST-0038-1.94/003	ben-hur
+1C2-E-TEST-0038-1.94/004	later lord	DEP=1C2-E-TEST-0038-1.94002
+1C2-E-TEST-0038-1.94/005	rings
+1C2-E-TEST-0038-1.94/006	return	DEP=1C2-E-TEST-0038-1.94004
+1C2-E-TEST-0038-1.94/007	king
+1C2-E-TEST-0038-1.94/008	best
+1C2-E-TEST-0038-1.94/009	picture	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/010	best film editing	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/011	best sound	DEP=1C2-E-TEST-0038-1.94010
+1C2-E-TEST-0038-1.94/012	best sound effects	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/013	editing	DEP=1C2-E-TEST-0038-1.94012
+1C2-E-TEST-0038-1.94/014	best visual effects	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/015	best original song	DEP=1C2-E-TEST-0038-1.94014
+1C2-E-TEST-0038-1.94/016	best	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/017	original dramatic score	DEP=1C2-E-TEST-0038-1.94016
+1C2-E-TEST-0038-1.94/018	best director award	DEP=1C2-E-TEST-0038-1.94008
+1C2-E-TEST-0038-1.94/019	cameron
+1C2-E-TEST-0038-1.94/020	won
+1C2-E-TEST-0038-109.10	"Avatar" eclipsed "Titanic" at the movie box office, domestically and internationally and is the highest grossing movie of all time.
+1C2-E-TEST-0038-109.10/001	avatar
+1C2-E-TEST-0038-109.10/002	titanic	DEP=1C2-E-TEST-0038-109.10005
+1C2-E-TEST-0038-109.10/003	movie box office
+1C2-E-TEST-0038-109.10/004	time
+1C2-E-TEST-0038-109.10/005	eclipsed	DEP=1C2-E-TEST-0038-109.10001
+1C2-E-TEST-0038-109.10/006	domestically	DEP=1C2-E-TEST-0038-109.10005
+1C2-E-TEST-0038-109.10/007	internationally	DEP=1C2-E-TEST-0038-109.10006
+1C2-E-TEST-0038-109.10/008	highest	DEP=1C2-E-TEST-0038-109.10009
+1C2-E-TEST-0038-109.10/009	grossing	DEP=1C2-E-TEST-0038-109.10010
+1C2-E-TEST-0038-109.10/010	movie	DEP=1C2-E-TEST-0038-109.10005
+1C2-E-TEST-0038-109.4	"Avatar Movie " - Oscar winning director James Cameron's return to the big screen with "Avatar Movie," was twelve years in the making.
+1C2-E-TEST-0038-109.4/001	avatar movie	DEP=1C2-E-TEST-0038-109.4007
+1C2-E-TEST-0038-109.4/002	oscar	DEP=1C2-E-TEST-0038-109.4001
+1C2-E-TEST-0038-109.4/003	director	DEP=1C2-E-TEST-0038-109.4009
+1C2-E-TEST-0038-109.4/004	cameron	DEP=1C2-E-TEST-0038-109.4010
+1C2-E-TEST-0038-109.4/005	big screen
+1C2-E-TEST-0038-109.4/006	avatar movie
+1C2-E-TEST-0038-109.4/007	twelve years
+1C2-E-TEST-0038-109.4/008	making
+1C2-E-TEST-0038-109.4/009	winning	DEP=1C2-E-TEST-0038-109.4002
+1C2-E-TEST-0038-109.4/010	return	DEP=1C2-E-TEST-0038-109.4009
+1C2-E-TEST-0038-109.8	More than ten years in the making, "Avatar" marks Cameron's return to feature directing since helming 1997's Titanic, the highest grossing film of all time and winner of eleven Oscars including Best Picture.
+1C2-E-TEST-0038-109.8/001	making
+1C2-E-TEST-0038-109.8/002	avatar	DEP=1C2-E-TEST-0038-109.8001
+1C2-E-TEST-0038-109.8/003	marks	DEP=1C2-E-TEST-0038-109.8002
+1C2-E-TEST-0038-109.8/004	cameron	DEP=1C2-E-TEST-0038-109.8012
+1C2-E-TEST-0038-109.8/005	1997	DEP=1C2-E-TEST-0038-109.8016
+1C2-E-TEST-0038-109.8/006	time winner
+1C2-E-TEST-0038-109.8/007	eleven oscars
+1C2-E-TEST-0038-109.8/008	best
+1C2-E-TEST-0038-109.8/009	picture	DEP=1C2-E-TEST-0038-109.8008
+1C2-E-TEST-0038-109.8/010	ten	DEP=1C2-E-TEST-0038-109.8011
+1C2-E-TEST-0038-109.8/011	years
+1C2-E-TEST-0038-109.8/012	return	DEP=1C2-E-TEST-0038-109.8003
+1C2-E-TEST-0038-109.8/013	feature	DEP=1C2-E-TEST-0038-109.8011
+1C2-E-TEST-0038-109.8/014	directing	DEP=1C2-E-TEST-0038-109.8013
+1C2-E-TEST-0038-109.8/015	helming
+1C2-E-TEST-0038-109.8/016	titanic	DEP=1C2-E-TEST-0038-109.8015
+1C2-E-TEST-0038-109.8/017	highest	DEP=1C2-E-TEST-0038-109.8018
+1C2-E-TEST-0038-109.8/018	grossing	DEP=1C2-E-TEST-0038-109.8019
+1C2-E-TEST-0038-109.8/019	film	DEP=1C2-E-TEST-0038-109.8016
+1C2-E-TEST-0038-133.17	James Cameron - James Cameron Age: 92 founder of America's Black Holocaust Museum, which opened in 1988.
+1C2-E-TEST-0038-133.17/001	cameron
+1C2-E-TEST-0038-133.17/002	cameron age	DEP=1C2-E-TEST-0038-133.17001
+1C2-E-TEST-0038-133.17/003	92 founder	DEP=1C2-E-TEST-0038-133.17002
+1C2-E-TEST-0038-133.17/004	america	DEP=1C2-E-TEST-0038-133.17008
+1C2-E-TEST-0038-133.17/005	1988
+1C2-E-TEST-0038-133.17/006	black	DEP=1C2-E-TEST-0038-133.17008
+1C2-E-TEST-0038-133.17/007	holocaust	DEP=1C2-E-TEST-0038-133.17008
+1C2-E-TEST-0038-133.17/008	museum
+1C2-E-TEST-0038-133.17/009	opened	DEP=1C2-E-TEST-0038-133.17008
+1C2-E-TEST-0038-133.20	James Cameron - James Cameron director Born: 8/16/1954 Birthplace: Kapuskasing, Ontario, Canada If he does nothing ...
+1C2-E-TEST-0038-133.20/001	cameron
+1C2-E-TEST-0038-133.20/002	cameron director	DEP=1C2-E-TEST-0038-133.20001
+1C2-E-TEST-0038-133.20/003	8\/16\/1954	DEP=1C2-E-TEST-0038-133.20002
+1C2-E-TEST-0038-133.20/004	birthplace	DEP=1C2-E-TEST-0038-133.20003
+1C2-E-TEST-0038-133.20/005	kapuskasing ontario canada	DEP=1C2-E-TEST-0038-133.20001
+1C2-E-TEST-0038-133.20/006	born	DEP=1C2-E-TEST-0038-133.20002
+1C2-E-TEST-0038-133.4	He directed Arnold Schwarzenegger in his career-making role in The Terminator (1984) and its sequel, Terminator 2: Judgment Day (1991).
+1C2-E-TEST-0038-133.4/001	arnold schwarzenegger	DEP=1C2-E-TEST-0038-133.4009
+1C2-E-TEST-0038-133.4/002	career-making role
+1C2-E-TEST-0038-133.4/003	terminator
+1C2-E-TEST-0038-133.4/004	1984	DEP=1C2-E-TEST-0038-133.4003
+1C2-E-TEST-0038-133.4/005	sequel	DEP=1C2-E-TEST-0038-133.4003
+1C2-E-TEST-0038-133.4/006	terminator 2	DEP=1C2-E-TEST-0038-133.4005
+1C2-E-TEST-0038-133.4/007	judgment
+1C2-E-TEST-0038-133.4/008	1991
+1C2-E-TEST-0038-133.4/009	directed
+1C2-E-TEST-0038-133.5	Cameron also directed Sigourney Weaver in Aliens (1986) and Ed Harris in The Abyss (1989).
+1C2-E-TEST-0038-133.5/001	cameron	DEP=1C2-E-TEST-0038-133.5008
+1C2-E-TEST-0038-133.5/002	sigourney weaver	DEP=1C2-E-TEST-0038-133.5008
+1C2-E-TEST-0038-133.5/003	aliens
+1C2-E-TEST-0038-133.5/004	1986	DEP=1C2-E-TEST-0038-133.5003
+1C2-E-TEST-0038-133.5/005	ed harris	DEP=1C2-E-TEST-0038-133.5002
+1C2-E-TEST-0038-133.5/006	abyss
+1C2-E-TEST-0038-133.5/007	1989	DEP=1C2-E-TEST-0038-133.5006
+1C2-E-TEST-0038-133.5/008	directed
+1C2-E-TEST-0038-3.105	The documentary, named "The Lost Tomb of Jesus," was broadcast on the Discovery Channel in March of that year.
+1C2-E-TEST-0038-3.105/001	documentary	DEP=1C2-E-TEST-0038-3.105007
+1C2-E-TEST-0038-3.105/002	lost tomb	DEP=1C2-E-TEST-0038-3.105006
+1C2-E-TEST-0038-3.105/003	jesus
+1C2-E-TEST-0038-3.105/004	discovery channel
+1C2-E-TEST-0038-3.105/005	march
+1C2-E-TEST-0038-3.105/006	named	DEP=1C2-E-TEST-0038-3.105001
+1C2-E-TEST-0038-3.105/007	broadcast
+1C2-E-TEST-0038-3.121	The original historic event was also marked by the television documentary, "Titanic: The Final Word with James Cameron" (National Geographic Channel, 2012), in which expert historians, architects, engineers and Cameron himself, provided the ultimate examination of the ship's sinking, aided by recent technological advancements.
+1C2-E-TEST-0038-3.121/001	original historic event	DEP=1C2-E-TEST-0038-3.121015
+1C2-E-TEST-0038-3.121/002	television documentary
+1C2-E-TEST-0038-3.121/003	titanic	DEP=1C2-E-TEST-0038-3.121002
+1C2-E-TEST-0038-3.121/004	final word	DEP=1C2-E-TEST-0038-3.121003
+1C2-E-TEST-0038-3.121/005	cameron
+1C2-E-TEST-0038-3.121/006	national geographic channel	DEP=1C2-E-TEST-0038-3.121005
+1C2-E-TEST-0038-3.121/007	2012	DEP=1C2-E-TEST-0038-3.121006
+1C2-E-TEST-0038-3.121/008	expert historians	DEP=1C2-E-TEST-0038-3.121016
+1C2-E-TEST-0038-3.121/009	architects	DEP=1C2-E-TEST-0038-3.121008
+1C2-E-TEST-0038-3.121/010	engineers	DEP=1C2-E-TEST-0038-3.121009
+1C2-E-TEST-0038-3.121/011	cameron	DEP=1C2-E-TEST-0038-3.121009
+1C2-E-TEST-0038-3.121/012	ultimate examination	DEP=1C2-E-TEST-0038-3.121016
+1C2-E-TEST-0038-3.121/013	ship	DEP=1C2-E-TEST-0038-3.121017
+1C2-E-TEST-0038-3.121/014	recent technological advancements
+1C2-E-TEST-0038-3.121/015	marked
+1C2-E-TEST-0038-3.121/016	provided	DEP=1C2-E-TEST-0038-3.121005
+1C2-E-TEST-0038-3.121/017	sinking
+1C2-E-TEST-0038-3.121/018	aided	DEP=1C2-E-TEST-0038-3.121017
+1C2-E-TEST-0038-3.5	Reteaming with Arnold Schwarzenegger, he proved himself worth the risk with the back-to-back blockbusters, "Terminator 2: Judgment Day" (1991) and "True Lies" (1994).
+1C2-E-TEST-0038-3.5/001	arnold schwarzenegger
+1C2-E-TEST-0038-3.5/002	risk
+1C2-E-TEST-0038-3.5/003	back-to-back blockbusters
+1C2-E-TEST-0038-3.5/004	terminator 2	DEP=1C2-E-TEST-0038-3.5003
+1C2-E-TEST-0038-3.5/005	judgment	DEP=1C2-E-TEST-0038-3.5004
+1C2-E-TEST-0038-3.5/006	1991	DEP=1C2-E-TEST-0038-3.5004
+1C2-E-TEST-0038-3.5/007	true lies	DEP=1C2-E-TEST-0038-3.5004
+1C2-E-TEST-0038-3.5/008	1994	DEP=1C2-E-TEST-0038-3.5007
+1C2-E-TEST-0038-3.5/009	reteaming	DEP=1C2-E-TEST-0038-3.5010
+1C2-E-TEST-0038-3.5/010	proved
+1C2-E-TEST-0038-3.53	It was nominated for four technical Academy Awards and won for Best Visual Effects, in which some of the first CGI special effects in the form of a water tentacle were utilized.
+1C2-E-TEST-0038-3.53/001	four technical academy awards
+1C2-E-TEST-0038-3.53/002	best visual effects
+1C2-E-TEST-0038-3.53/003	cgi special effects
+1C2-E-TEST-0038-3.53/004	form
+1C2-E-TEST-0038-3.53/005	water tentacle
+1C2-E-TEST-0038-3.53/006	nominated
+1C2-E-TEST-0038-3.53/007	won	DEP=1C2-E-TEST-0038-3.53006
+1C2-E-TEST-0038-3.53/008	utilized	DEP=1C2-E-TEST-0038-3.53002
+1C2-E-TEST-0038-3.57	Described by Cameron as a "violent movie about world peace," the film earned over $200 million in domestic box office and won Oscar Awards for Best Visual Effects, Best Sound, Best Makeup and Best Sound Effects Editing.
+1C2-E-TEST-0038-3.57/001	cameron
+1C2-E-TEST-0038-3.57/002	violent movie
+1C2-E-TEST-0038-3.57/003	world peace
+1C2-E-TEST-0038-3.57/004	film	DEP=1C2-E-TEST-0038-3.57012
+1C2-E-TEST-0038-3.57/005	domestic box office
+1C2-E-TEST-0038-3.57/006	oscar awards	DEP=1C2-E-TEST-0038-3.57015
+1C2-E-TEST-0038-3.57/007	best visual effects
+1C2-E-TEST-0038-3.57/008	best sound	DEP=1C2-E-TEST-0038-3.57015
+1C2-E-TEST-0038-3.57/009	best makeup	DEP=1C2-E-TEST-0038-3.57016
+1C2-E-TEST-0038-3.57/010	best sound effects	DEP=1C2-E-TEST-0038-3.57009
+1C2-E-TEST-0038-3.57/011	described	DEP=1C2-E-TEST-0038-3.57012
+1C2-E-TEST-0038-3.57/012	earned
+1C2-E-TEST-0038-3.57/013	200
+1C2-E-TEST-0038-3.57/014	million
+1C2-E-TEST-0038-3.57/015	won	DEP=1C2-E-TEST-0038-3.57012
+1C2-E-TEST-0038-3.57/016	editing	DEP=1C2-E-TEST-0038-3.57012
+1C2-E-TEST-0038-3.85	Meanwhile, the film received 14 Academy Award nominations, matching a record held only by "All About Eve" (1950), and went on to tie "Ben-Hur" (1959) with 11 wins, including Oscars for Best Picture and Best Director.
+1C2-E-TEST-0038-3.85/001	film	DEP=1C2-E-TEST-0038-3.85013
+1C2-E-TEST-0038-3.85/002	14 academy award nominations	DEP=1C2-E-TEST-0038-3.85013
+1C2-E-TEST-0038-3.85/003	record	DEP=1C2-E-TEST-0038-3.85015
+1C2-E-TEST-0038-3.85/004	eve
+1C2-E-TEST-0038-3.85/005	1950
+1C2-E-TEST-0038-3.85/006	ben-hur	DEP=1C2-E-TEST-0038-3.85017
+1C2-E-TEST-0038-3.85/007	1959	DEP=1C2-E-TEST-0038-3.85006
+1C2-E-TEST-0038-3.85/008	11 wins
+1C2-E-TEST-0038-3.85/009	oscars
+1C2-E-TEST-0038-3.85/010	best
+1C2-E-TEST-0038-3.85/011	picture	DEP=1C2-E-TEST-0038-3.85010
+1C2-E-TEST-0038-3.85/012	best director	DEP=1C2-E-TEST-0038-3.85017
+1C2-E-TEST-0038-3.85/013	received
+1C2-E-TEST-0038-3.85/014	matching	DEP=1C2-E-TEST-0038-3.85013
+1C2-E-TEST-0038-3.85/015	held	DEP=1C2-E-TEST-0038-3.85014
+1C2-E-TEST-0038-3.85/016	went	DEP=1C2-E-TEST-0038-3.85015
+1C2-E-TEST-0038-3.85/017	tie
+1C2-E-TEST-0038-3.95	Returning to the inspiration that made him one of the most celebrated directors of his era, Cameron directed his second documentary, "Ghosts of the Abyss" (2003), a 3-D IMAX journey to the bottom of the Atlantic Ocean to find the final resting place of the ill-fated Titanic.
+1C2-E-TEST-0038-3.95/001	inspiration
+1C2-E-TEST-0038-3.95/002	era
+1C2-E-TEST-0038-3.95/003	cameron	DEP=1C2-E-TEST-0038-3.95017
+1C2-E-TEST-0038-3.95/004	second documentary	DEP=1C2-E-TEST-0038-3.95017
+1C2-E-TEST-0038-3.95/005	ghosts	DEP=1C2-E-TEST-0038-3.95004
+1C2-E-TEST-0038-3.95/006	abyss
+1C2-E-TEST-0038-3.95/007	2003	DEP=1C2-E-TEST-0038-3.95005
+1C2-E-TEST-0038-3.95/008	3-d imax journey	DEP=1C2-E-TEST-0038-3.95004
+1C2-E-TEST-0038-3.95/009	bottom
+1C2-E-TEST-0038-3.95/010	atlantic ocean
+1C2-E-TEST-0038-3.95/011	final resting place	DEP=1C2-E-TEST-0038-3.95018
+1C2-E-TEST-0038-3.95/012	ill-fated titanic
+1C2-E-TEST-0038-3.95/013	returning	DEP=1C2-E-TEST-0038-3.95017
+1C2-E-TEST-0038-3.95/014	made	DEP=1C2-E-TEST-0038-3.95001
+1C2-E-TEST-0038-3.95/015	celebrated	DEP=1C2-E-TEST-0038-3.95016
+1C2-E-TEST-0038-3.95/016	directors
+1C2-E-TEST-0038-3.95/017	directed
+1C2-E-TEST-0038-3.95/018	find	DEP=1C2-E-TEST-0038-3.95017
+1C2-E-TEST-0038-4.103	Four of his films have made it to the IMDb top 250 list: The Terminator (1984), Terminator 2: Judgment Day (1991), Aliens (1986) and Avatar (2009).
+1C2-E-TEST-0038-4.103/001	four	DEP=1C2-E-TEST-0038-4.103013
+1C2-E-TEST-0038-4.103/002	films
+1C2-E-TEST-0038-4.103/003	imdb
+1C2-E-TEST-0038-4.103/004	terminator	DEP=1C2-E-TEST-0038-4.103003
+1C2-E-TEST-0038-4.103/005	1984	DEP=1C2-E-TEST-0038-4.103004
+1C2-E-TEST-0038-4.103/006	terminator 2	DEP=1C2-E-TEST-0038-4.103004
+1C2-E-TEST-0038-4.103/007	judgment
+1C2-E-TEST-0038-4.103/008	1991
+1C2-E-TEST-0038-4.103/009	aliens
+1C2-E-TEST-0038-4.103/010	1986	DEP=1C2-E-TEST-0038-4.103009
+1C2-E-TEST-0038-4.103/011	avatar
+1C2-E-TEST-0038-4.103/012	2009	DEP=1C2-E-TEST-0038-4.103003
+1C2-E-TEST-0038-4.103/013	made
+1C2-E-TEST-0038-4.103/014	top	DEP=1C2-E-TEST-0038-4.103015
+1C2-E-TEST-0038-4.103/015	250	DEP=1C2-E-TEST-0038-4.103016
+1C2-E-TEST-0038-4.103/016	list	DEP=1C2-E-TEST-0038-4.103003
+1C2-E-TEST-0038-4.106	Until Avatar (2009), Cameron's previous movie Titanic (1997) was the highest grossing movie of all time for 12 years (also not adjusted for inflation).
+1C2-E-TEST-0038-4.106/001	avatar
+1C2-E-TEST-0038-4.106/002	2009	DEP=1C2-E-TEST-0038-4.106001
+1C2-E-TEST-0038-4.106/003	cameron	DEP=1C2-E-TEST-0038-4.106010
+1C2-E-TEST-0038-4.106/004	titanic	DEP=1C2-E-TEST-0038-4.106010
+1C2-E-TEST-0038-4.106/005	1997	DEP=1C2-E-TEST-0038-4.106010
+1C2-E-TEST-0038-4.106/006	time
+1C2-E-TEST-0038-4.106/007	12 years
+1C2-E-TEST-0038-4.106/008	inflation
+1C2-E-TEST-0038-4.106/009	previous	DEP=1C2-E-TEST-0038-4.106010
+1C2-E-TEST-0038-4.106/010	movie	DEP=1C2-E-TEST-0038-4.106013
+1C2-E-TEST-0038-4.106/011	highest	DEP=1C2-E-TEST-0038-4.106012
+1C2-E-TEST-0038-4.106/012	grossing	DEP=1C2-E-TEST-0038-4.106013
+1C2-E-TEST-0038-4.106/013	movie
+1C2-E-TEST-0038-4.106/014	adjusted	DEP=1C2-E-TEST-0038-4.106006
+1C2-E-TEST-0038-4.112	Directed three of the American Film Institute's 100 Most Heart Pounding Movies: Titanic (1997) at #25, The Terminator (1984) at #42 and Terminator 2: Judgment Day (1991) at #77.
+1C2-E-TEST-0038-4.112/001	directed three
+1C2-E-TEST-0038-4.112/002	american film institute
+1C2-E-TEST-0038-4.112/003	heart pounding
+1C2-E-TEST-0038-4.112/004	titanic
+1C2-E-TEST-0038-4.112/005	1997	DEP=1C2-E-TEST-0038-4.112004
+1C2-E-TEST-0038-4.112/006	25
+1C2-E-TEST-0038-4.112/007	terminator	DEP=1C2-E-TEST-0038-4.112006
+1C2-E-TEST-0038-4.112/008	1984	DEP=1C2-E-TEST-0038-4.112007
+1C2-E-TEST-0038-4.112/009	42
+1C2-E-TEST-0038-4.112/010	terminator 2	DEP=1C2-E-TEST-0038-4.112006
+1C2-E-TEST-0038-4.112/011	judgment
+1C2-E-TEST-0038-4.112/012	1991
+1C2-E-TEST-0038-4.112/013	77
+1C2-E-TEST-0038-4.112/014	100	DEP=1C2-E-TEST-0038-4.112002
+1C2-E-TEST-0038-4.48	First director to film both a $100 million ( Terminator 2: Judgment Day (1991)) and a $200 million ( Titanic (1997)) movie.
+1C2-E-TEST-0038-4.48/001	director
+1C2-E-TEST-0038-4.48/002	film
+1C2-E-TEST-0038-4.48/003	terminator 2
+1C2-E-TEST-0038-4.48/004	judgment
+1C2-E-TEST-0038-4.48/005	1991
+1C2-E-TEST-0038-4.48/006	100
+1C2-E-TEST-0038-4.48/007	million
+1C2-E-TEST-0038-4.48/008	200
+1C2-E-TEST-0038-4.48/009	million
+1C2-E-TEST-0038-4.48/010	titanic
+1C2-E-TEST-0038-4.48/011	1997	DEP=1C2-E-TEST-0038-4.48010
+1C2-E-TEST-0038-4.48/012	movie
+1C2-E-TEST-0038-4.79	At one desk, he was writing the script to The Terminator (1984), on another, he was finishing the script to Rambo: First Blood Part II (1985) and on the third, he was writing Aliens (1986).
+1C2-E-TEST-0038-4.79/001	desk
+1C2-E-TEST-0038-4.79/002	script	DEP=1C2-E-TEST-0038-4.79012
+1C2-E-TEST-0038-4.79/003	terminator
+1C2-E-TEST-0038-4.79/004	1984	DEP=1C2-E-TEST-0038-4.79003
+1C2-E-TEST-0038-4.79/005	script	DEP=1C2-E-TEST-0038-4.79013
+1C2-E-TEST-0038-4.79/006	rambo
+1C2-E-TEST-0038-4.79/007	blood part ii	DEP=1C2-E-TEST-0038-4.79006
+1C2-E-TEST-0038-4.79/008	1985	DEP=1C2-E-TEST-0038-4.79006
+1C2-E-TEST-0038-4.79/009	third
+1C2-E-TEST-0038-4.79/010	aliens	DEP=1C2-E-TEST-0038-4.79014
+1C2-E-TEST-0038-4.79/011	1986	DEP=1C2-E-TEST-0038-4.79010
+1C2-E-TEST-0038-4.79/012	writing
+1C2-E-TEST-0038-4.79/013	finishing	DEP=1C2-E-TEST-0038-4.79012
+1C2-E-TEST-0038-4.79/014	writing	DEP=1C2-E-TEST-0038-4.79012
+1C2-E-TEST-0038-4.8	See: The Abyss (1989), Terminator 2: Judgment Day (1991), True Lies (1994), and Strange Days (1995).
+1C2-E-TEST-0038-4.8/001	abyss
+1C2-E-TEST-0038-4.8/002	1989	DEP=1C2-E-TEST-0038-4.8001
+1C2-E-TEST-0038-4.8/003	terminator 2	DEP=1C2-E-TEST-0038-4.8001
+1C2-E-TEST-0038-4.8/004	judgment
+1C2-E-TEST-0038-4.8/005	1991
+1C2-E-TEST-0038-4.8/006	1994	DEP=1C2-E-TEST-0038-4.8010
+1C2-E-TEST-0038-4.8/007	strange days
+1C2-E-TEST-0038-4.8/008	1995	DEP=1C2-E-TEST-0038-4.8007
+1C2-E-TEST-0038-4.8/009	true	DEP=1C2-E-TEST-0038-4.8010
+1C2-E-TEST-0038-4.8/010	lies
+1C2-E-TEST-0038-4.83	The titles of his two current theatrical documentaries contain the titles of two of his previous films; the title of his documentary Ghosts of the Abyss (2003) contains the title of his previous film The Abyss (1989), and the title of his other documentary Aliens of the Deep (2005) contains the title of another one of his previous films, Aliens (1986).
+1C2-E-TEST-0038-4.83/001	titles
+1C2-E-TEST-0038-4.83/002	two current theatrical documentaries
+1C2-E-TEST-0038-4.83/003	titles
+1C2-E-TEST-0038-4.83/004	two
+1C2-E-TEST-0038-4.83/005	previous films
+1C2-E-TEST-0038-4.83/006	title	DEP=1C2-E-TEST-0038-4.83022
+1C2-E-TEST-0038-4.83/007	documentary ghosts
+1C2-E-TEST-0038-4.83/008	abyss
+1C2-E-TEST-0038-4.83/009	2003	DEP=1C2-E-TEST-0038-4.83008
+1C2-E-TEST-0038-4.83/010	title	DEP=1C2-E-TEST-0038-4.83022
+1C2-E-TEST-0038-4.83/011	previous film
+1C2-E-TEST-0038-4.83/012	abyss	DEP=1C2-E-TEST-0038-4.83011
+1C2-E-TEST-0038-4.83/013	1989	DEP=1C2-E-TEST-0038-4.83011
+1C2-E-TEST-0038-4.83/014	title	DEP=1C2-E-TEST-0038-4.83023
+1C2-E-TEST-0038-4.83/015	documentary aliens
+1C2-E-TEST-0038-4.83/016	deep
+1C2-E-TEST-0038-4.83/017	2005	DEP=1C2-E-TEST-0038-4.83016
+1C2-E-TEST-0038-4.83/018	title	DEP=1C2-E-TEST-0038-4.83023
+1C2-E-TEST-0038-4.83/019	previous films
+1C2-E-TEST-0038-4.83/020	aliens	DEP=1C2-E-TEST-0038-4.83019
+1C2-E-TEST-0038-4.83/021	1986	DEP=1C2-E-TEST-0038-4.83020
+1C2-E-TEST-0038-4.83/022	contains
+1C2-E-TEST-0038-4.83/023	contains	DEP=1C2-E-TEST-0038-4.83022
+1C2-E-TEST-0038-61.67	Determined to get into directing, Cameron worked on another sci-fi film with a symbolic name, "Galaxy of Terror".
+1C2-E-TEST-0038-61.67/001	directing
+1C2-E-TEST-0038-61.67/002	cameron	DEP=1C2-E-TEST-0038-61.67008
+1C2-E-TEST-0038-61.67/003	sci-fi film
+1C2-E-TEST-0038-61.67/004	symbolic name
+1C2-E-TEST-0038-61.67/005	galaxy	DEP=1C2-E-TEST-0038-61.67004
+1C2-E-TEST-0038-61.67/006	terror
+1C2-E-TEST-0038-61.67/007	determined	DEP=1C2-E-TEST-0038-61.67008
+1C2-E-TEST-0038-61.67/008	worked
+1C2-E-TEST-0038-61.87	After "The Terminator's" success, Cameron directed "Aliens" and began production in 1985 in England.
+1C2-E-TEST-0038-61.87/001	terminator	DEP=1C2-E-TEST-0038-61.87007
+1C2-E-TEST-0038-61.87/002	cameron	DEP=1C2-E-TEST-0038-61.87008
+1C2-E-TEST-0038-61.87/003	aliens	DEP=1C2-E-TEST-0038-61.87008
+1C2-E-TEST-0038-61.87/004	production	DEP=1C2-E-TEST-0038-61.87009
+1C2-E-TEST-0038-61.87/005	1985
+1C2-E-TEST-0038-61.87/006	england
+1C2-E-TEST-0038-61.87/007	success
+1C2-E-TEST-0038-61.87/008	directed
+1C2-E-TEST-0038-61.87/009	began	DEP=1C2-E-TEST-0038-61.87008
+1C2-E-TEST-0038-61.92	The film became one of the highest grossing ÃÂÃ¢ÂÂR' rated films and also won Oscars for Best Visual Effects and Best Sound.
+1C2-E-TEST-0038-61.92/001	film
+1C2-E-TEST-0038-61.92/002	r	DEP=1C2-E-TEST-0038-61.92011
+1C2-E-TEST-0038-61.92/003	films	DEP=1C2-E-TEST-0038-61.92012
+1C2-E-TEST-0038-61.92/004	oscars	DEP=1C2-E-TEST-0038-61.92013
+1C2-E-TEST-0038-61.92/005	best visual effects
+1C2-E-TEST-0038-61.92/006	best	DEP=1C2-E-TEST-0038-61.92004
+1C2-E-TEST-0038-61.92/007	sound	DEP=1C2-E-TEST-0038-61.92006
+1C2-E-TEST-0038-61.92/008	highest	DEP=1C2-E-TEST-0038-61.92009
+1C2-E-TEST-0038-61.92/009	grossing	DEP=1C2-E-TEST-0038-61.92010
+1C2-E-TEST-0038-61.92/010	ã
+1C2-E-TEST-0038-61.92/011	â
+1C2-E-TEST-0038-61.92/012	rated	DEP=1C2-E-TEST-0038-61.92002
+1C2-E-TEST-0038-61.92/013	won	DEP=1C2-E-TEST-0038-61.92011
+1C2-E-TEST-0038-66.11	With its breakneck action sequences, Cameron's sequel to Alien bests the original -- no small achievement.
+1C2-E-TEST-0038-66.11/001	breakneck action sequences
+1C2-E-TEST-0038-66.11/002	cameron	DEP=1C2-E-TEST-0038-66.11005
+1C2-E-TEST-0038-66.11/003	alien bests
+1C2-E-TEST-0038-66.11/004	small achievement
+1C2-E-TEST-0038-66.11/005	sequel	DEP=1C2-E-TEST-0038-66.11001
+1C2-E-TEST-0038-66.11/006	original	DEP=1C2-E-TEST-0038-66.11005
+1C2-E-TEST-0038-66.46	True Lies (1994): Cameron's version of comedy still features spies, explosions, terrorists, and Jamie Lee Curtis doing a bump and grind.
+1C2-E-TEST-0038-66.46/001	true lies
+1C2-E-TEST-0038-66.46/002	1994	DEP=1C2-E-TEST-0038-66.46001
+1C2-E-TEST-0038-66.46/003	cameron	DEP=1C2-E-TEST-0038-66.46010
+1C2-E-TEST-0038-66.46/004	comedy
+1C2-E-TEST-0038-66.46/005	spies	DEP=1C2-E-TEST-0038-66.46011
+1C2-E-TEST-0038-66.46/006	explosions	DEP=1C2-E-TEST-0038-66.46005
+1C2-E-TEST-0038-66.46/007	terrorists	DEP=1C2-E-TEST-0038-66.46005
+1C2-E-TEST-0038-66.46/008	jamie lee curtis	DEP=1C2-E-TEST-0038-66.46005
+1C2-E-TEST-0038-66.46/009	bump grind
+1C2-E-TEST-0038-66.46/010	version	DEP=1C2-E-TEST-0038-66.46001
+1C2-E-TEST-0038-66.46/011	features	DEP=1C2-E-TEST-0038-66.46004
+1C2-E-TEST-0038-66.51	Strange Days (1995): Cameron wrote the gritty cyberpunk flick directed by ex-wife Kathryn Bigelow, which presages Avatar as a sci-fi head trip about a machine that allows people to replay the experiences of others.
+1C2-E-TEST-0038-66.51/001	strange days
+1C2-E-TEST-0038-66.51/002	1995	DEP=1C2-E-TEST-0038-66.51001
+1C2-E-TEST-0038-66.51/003	cameron	DEP=1C2-E-TEST-0038-66.51001
+1C2-E-TEST-0038-66.51/004	gritty cyberpunk flick	DEP=1C2-E-TEST-0038-66.51013
+1C2-E-TEST-0038-66.51/005	ex-wife
+1C2-E-TEST-0038-66.51/006	kathryn bigelow	DEP=1C2-E-TEST-0038-66.51001
+1C2-E-TEST-0038-66.51/007	avatar	DEP=1C2-E-TEST-0038-66.51012
+1C2-E-TEST-0038-66.51/008	sci-fi head trip
+1C2-E-TEST-0038-66.51/009	machine
+1C2-E-TEST-0038-66.51/010	people	DEP=1C2-E-TEST-0038-66.51016
+1C2-E-TEST-0038-66.51/011	replay
+1C2-E-TEST-0038-66.51/012	experiences	DEP=1C2-E-TEST-0038-66.51015
+1C2-E-TEST-0038-66.51/013	wrote	DEP=1C2-E-TEST-0038-66.51003
+1C2-E-TEST-0038-66.51/014	directed	DEP=1C2-E-TEST-0038-66.51004
+1C2-E-TEST-0038-66.51/015	presages	DEP=1C2-E-TEST-0038-66.51006
+1C2-E-TEST-0038-66.51/016	allows	DEP=1C2-E-TEST-0038-66.51009
+1C2-E-TEST-0038-80.10	Despite this and other off-screen problems (such as clashing with an uncooperative camera man and having to replace one of the lead actors - Michael Biehn of Terminator took James Remar's place as Corporal Hicks), Aliens became a box office success, and received Academy Award nominations for Best Actress in a Leading Role for Weaver, Best Art Direction, Best Film Editing, Best Original Score, Best Sound, and won awards for Best Sound Effects Editing and Best Visual Effects.
+1C2-E-TEST-0038-80.10/001	off-screen problems
+1C2-E-TEST-0038-80.10/002	uncooperative camera man
+1C2-E-TEST-0038-80.10/003	lead actors
+1C2-E-TEST-0038-80.10/004	michael biehn
+1C2-E-TEST-0038-80.10/005	terminator
+1C2-E-TEST-0038-80.10/006	remar	DEP=1C2-E-TEST-0038-80.10025
+1C2-E-TEST-0038-80.10/007	corporal hicks
+1C2-E-TEST-0038-80.10/008	aliens	DEP=1C2-E-TEST-0038-80.10009
+1C2-E-TEST-0038-80.10/009	box office success
+1C2-E-TEST-0038-80.10/010	academy award nominations	DEP=1C2-E-TEST-0038-80.10026
+1C2-E-TEST-0038-80.10/011	best actress
+1C2-E-TEST-0038-80.10/012	leading role
+1C2-E-TEST-0038-80.10/013	weaver
+1C2-E-TEST-0038-80.10/014	best art direction	DEP=1C2-E-TEST-0038-80.10013
+1C2-E-TEST-0038-80.10/015	best film editing	DEP=1C2-E-TEST-0038-80.10013
+1C2-E-TEST-0038-80.10/016	best original score	DEP=1C2-E-TEST-0038-80.10013
+1C2-E-TEST-0038-80.10/017	best sound	DEP=1C2-E-TEST-0038-80.10013
+1C2-E-TEST-0038-80.10/018	awards	DEP=1C2-E-TEST-0038-80.10027
+1C2-E-TEST-0038-80.10/019	best sound effects
+1C2-E-TEST-0038-80.10/020	best visual effects	DEP=1C2-E-TEST-0038-80.10019
+1C2-E-TEST-0038-80.10/021	clashing	DEP=1C2-E-TEST-0038-80.10004
+1C2-E-TEST-0038-80.10/022	having	DEP=1C2-E-TEST-0038-80.10021
+1C2-E-TEST-0038-80.10/023	replace	DEP=1C2-E-TEST-0038-80.10022
+1C2-E-TEST-0038-80.10/024	took	DEP=1C2-E-TEST-0038-80.10004
+1C2-E-TEST-0038-80.10/025	place	DEP=1C2-E-TEST-0038-80.10024
+1C2-E-TEST-0038-80.10/026	received	DEP=1C2-E-TEST-0038-80.10009
+1C2-E-TEST-0038-80.10/027	won	DEP=1C2-E-TEST-0038-80.10009
+1C2-E-TEST-0038-80.10/028	editing	DEP=1C2-E-TEST-0038-80.10019
+1C2-E-TEST-0038-80.3	James Francis Cameron[1] (born August 16, 1954) is a Canadian film director, producer, screenwriter, editor, and inventor.[2][3] His writing and directing work include The Terminator (1984), Aliens (1986), The Abyss (1989) Terminator 2: Judgment Day (1991), True Lies (1994), Titanic (1997), and Avatar (2009).
+1C2-E-TEST-0038-80.3/001	francis cameron	DEP=1C2-E-TEST-0038-80.3003
+1C2-E-TEST-0038-80.3/002	1	DEP=1C2-E-TEST-0038-80.3001
+1C2-E-TEST-0038-80.3/003	canadian film
+1C2-E-TEST-0038-80.3/004	director	DEP=1C2-E-TEST-0038-80.3003
+1C2-E-TEST-0038-80.3/005	producer screenwriter editor inventor	DEP=1C2-E-TEST-0038-80.3003
+1C2-E-TEST-0038-80.3/006	2	DEP=1C2-E-TEST-0038-80.3003
+1C2-E-TEST-0038-80.3/007	writing	DEP=1C2-E-TEST-0038-80.3003
+1C2-E-TEST-0038-80.3/008	work
+1C2-E-TEST-0038-80.3/009	terminator
+1C2-E-TEST-0038-80.3/010	1984	DEP=1C2-E-TEST-0038-80.3009
+1C2-E-TEST-0038-80.3/011	aliens	DEP=1C2-E-TEST-0038-80.3009
+1C2-E-TEST-0038-80.3/012	1986	DEP=1C2-E-TEST-0038-80.3011
+1C2-E-TEST-0038-80.3/013	abyss	DEP=1C2-E-TEST-0038-80.3009
+1C2-E-TEST-0038-80.3/014	1989	DEP=1C2-E-TEST-0038-80.3013
+1C2-E-TEST-0038-80.3/015	terminator 2	DEP=1C2-E-TEST-0038-80.3013
+1C2-E-TEST-0038-80.3/016	judgment
+1C2-E-TEST-0038-80.3/017	1991
+1C2-E-TEST-0038-80.3/018	1994	DEP=1C2-E-TEST-0038-80.3030
+1C2-E-TEST-0038-80.3/019	titanic
+1C2-E-TEST-0038-80.3/020	1997	DEP=1C2-E-TEST-0038-80.3019
+1C2-E-TEST-0038-80.3/021	avatar	DEP=1C2-E-TEST-0038-80.3009
+1C2-E-TEST-0038-80.3/022	2009	DEP=1C2-E-TEST-0038-80.3009
+1C2-E-TEST-0038-80.3/023	born	DEP=1C2-E-TEST-0038-80.3001
+1C2-E-TEST-0038-80.3/024	august	DEP=1C2-E-TEST-0038-80.3023
+1C2-E-TEST-0038-80.3/025	16	DEP=1C2-E-TEST-0038-80.3024
+1C2-E-TEST-0038-80.3/026	1954	DEP=1C2-E-TEST-0038-80.3024
+1C2-E-TEST-0038-80.3/027	3	DEP=1C2-E-TEST-0038-80.3007
+1C2-E-TEST-0038-80.3/028	directing
+1C2-E-TEST-0038-80.3/029	true	DEP=1C2-E-TEST-0038-80.3030
+1C2-E-TEST-0038-80.3/030	lies
+1C2-E-TEST-0038-80.6	Cameron next began the sequel to Alien, the 1979 film by Ridley Scott.
+1C2-E-TEST-0038-80.6/001	cameron	DEP=1C2-E-TEST-0038-80.6006
+1C2-E-TEST-0038-80.6/002	sequel	DEP=1C2-E-TEST-0038-80.6006
+1C2-E-TEST-0038-80.6/003	alien
+1C2-E-TEST-0038-80.6/004	1979 film	DEP=1C2-E-TEST-0038-80.6003
+1C2-E-TEST-0038-80.6/005	ridley scott
+1C2-E-TEST-0038-80.6/006	began
+1C2-E-TEST-0038-80.8	According to Cameron, the crew on Aliens was hostile to him, regarding him as a poor substitute for Ridley Scott.
+1C2-E-TEST-0038-80.8/001	cameron
+1C2-E-TEST-0038-80.8/002	crew	DEP=1C2-E-TEST-0038-80.8006
+1C2-E-TEST-0038-80.8/003	aliens
+1C2-E-TEST-0038-80.8/004	poor substitute
+1C2-E-TEST-0038-80.8/005	ridley scott
+1C2-E-TEST-0038-80.8/006	hostile
+1C2-E-TEST-0038-80.8/007	regarding	DEP=1C2-E-TEST-0038-80.8006
+1C2-E-TEST-0038-80.9	Cameron sought to show them The Terminator but the majority of the crew refused and remained skeptical of his direction throughout production.
+1C2-E-TEST-0038-80.9/001	cameron	DEP=1C2-E-TEST-0038-80.9007
+1C2-E-TEST-0038-80.9/002	terminator	DEP=1C2-E-TEST-0038-80.9008
+1C2-E-TEST-0038-80.9/003	majority	DEP=1C2-E-TEST-0038-80.9009
+1C2-E-TEST-0038-80.9/004	crew
+1C2-E-TEST-0038-80.9/005	direction
+1C2-E-TEST-0038-80.9/006	production
+1C2-E-TEST-0038-80.9/007	sought
+1C2-E-TEST-0038-80.9/008	show	DEP=1C2-E-TEST-0038-80.9007
+1C2-E-TEST-0038-80.9/009	refused	DEP=1C2-E-TEST-0038-80.9007
+1C2-E-TEST-0038-80.9/010	remained	DEP=1C2-E-TEST-0038-80.9011
+1C2-E-TEST-0038-80.9/011	skeptical	DEP=1C2-E-TEST-0038-80.9009

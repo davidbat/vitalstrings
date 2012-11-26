@@ -1,0 +1,12 @@
+In that case a large amount of memory is wasted to explicitly store all those zeros.
+
+A sparse matrix is a matrix that allows special techniques to take advantage of the large number of zero elements.
+
+The graph of a Sparse Matrix contains one edge corresponding to each non-zero entry; all edges are undirected and of equal weight.
+
+Sparse methods save space and time by only storing information about non-zero elements.
+
+It is designed to save time and space where A is fairly large but contains few non-zero elements.
+
+The major issue with sparse matrices is that they can only be efficiently traversed in a specific order, i.e., per column for a CCS matrix and per row for a CRS matrix.
+

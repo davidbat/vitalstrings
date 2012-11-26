@@ -1,0 +1,165 @@
+1C2-E-TEST-0001-1.10	[10] Murray tried to revive Jackson for five to ten minutes, at which point he realized he needed to call for help.
+1C2-E-TEST-0001-1.10/001	murray	DEP=1C2-E-TEST-0001-1.10004
+1C2-E-TEST-0001-1.10/002	help
+1C2-E-TEST-0001-1.10/003	10	DEP=1C2-E-TEST-0001-1.10004
+1C2-E-TEST-0001-1.10/004	tried	DEP=1C2-E-TEST-0001-1.10011
+1C2-E-TEST-0001-1.10/005	revive	DEP=1C2-E-TEST-0001-1.10004
+1C2-E-TEST-0001-1.10/006	five	DEP=1C2-E-TEST-0001-1.10007
+1C2-E-TEST-0001-1.10/007	ten	DEP=1C2-E-TEST-0001-1.10008
+1C2-E-TEST-0001-1.10/008	minutes
+1C2-E-TEST-0001-1.10/009	point
+1C2-E-TEST-0001-1.10/010	realized	DEP=1C2-E-TEST-0001-1.10008
+1C2-E-TEST-0001-1.10/011	needed
+1C2-E-TEST-0001-1.10/012	call	DEP=1C2-E-TEST-0001-1.10011
+1C2-E-TEST-0001-1.103	According to the affidavit, Jackson "was very familiar with" propofol "and referred to it as his 'milk.'" [47]
+1C2-E-TEST-0001-1.103/001	affidavit
+1C2-E-TEST-0001-1.103/002	propofol
+1C2-E-TEST-0001-1.103/003	milk	DEP=1C2-E-TEST-0001-1.103006
+1C2-E-TEST-0001-1.103/004	47	DEP=1C2-E-TEST-0001-1.103002
+1C2-E-TEST-0001-1.103/005	familiar
+1C2-E-TEST-0001-1.103/006	referred	DEP=1C2-E-TEST-0001-1.103002
+1C2-E-TEST-0001-1.104	[ edit ] Medical professionals
+1C2-E-TEST-0001-1.104/001	edit
+1C2-E-TEST-0001-1.104/002	medical professionals	DEP=1C2-E-TEST-0001-1.104001
+1C2-E-TEST-0001-1.105	The Los Angeles Times wrote that the DEA was focusing on at least five doctors who prescribed drugs to Jackson, trying to determine whether they had had a "face to face" relationship with him, and whether they had made legally required diagnoses.
+1C2-E-TEST-0001-1.105/001	los angeles times	DEP=1C2-E-TEST-0001-1.105007
+1C2-E-TEST-0001-1.105/002	dea	DEP=1C2-E-TEST-0001-1.105008
+1C2-E-TEST-0001-1.105/003	drugs	DEP=1C2-E-TEST-0001-1.105012
+1C2-E-TEST-0001-1.105/004	face
+1C2-E-TEST-0001-1.105/005	relationship	DEP=1C2-E-TEST-0001-1.105015
+1C2-E-TEST-0001-1.105/006	diagnoses	DEP=1C2-E-TEST-0001-1.105018
+1C2-E-TEST-0001-1.105/007	wrote
+1C2-E-TEST-0001-1.105/008	focusing	DEP=1C2-E-TEST-0001-1.105007
+1C2-E-TEST-0001-1.105/009	least
+1C2-E-TEST-0001-1.105/010	five	DEP=1C2-E-TEST-0001-1.105011
+1C2-E-TEST-0001-1.105/011	doctors
+1C2-E-TEST-0001-1.105/012	prescribed	DEP=1C2-E-TEST-0001-1.105011
+1C2-E-TEST-0001-1.105/013	trying	DEP=1C2-E-TEST-0001-1.105012
+1C2-E-TEST-0001-1.105/014	determine	DEP=1C2-E-TEST-0001-1.105013
+1C2-E-TEST-0001-1.105/015	face
+1C2-E-TEST-0001-1.105/016	made
+1C2-E-TEST-0001-1.105/017	legally	DEP=1C2-E-TEST-0001-1.105018
+1C2-E-TEST-0001-1.105/018	required	DEP=1C2-E-TEST-0001-1.105016
+1C2-E-TEST-0001-1.107	[48] The Sunday Times wrote that the police wanted to question 30 doctors, nurses, and pharmacists, including Arnold Klein.
+1C2-E-TEST-0001-1.107/001	sunday times	DEP=1C2-E-TEST-0001-1.107008
+1C2-E-TEST-0001-1.107/002	police
+1C2-E-TEST-0001-1.107/003	30 doctors	DEP=1C2-E-TEST-0001-1.107010
+1C2-E-TEST-0001-1.107/004	nurses	DEP=1C2-E-TEST-0001-1.107003
+1C2-E-TEST-0001-1.107/005	pharmacists	DEP=1C2-E-TEST-0001-1.107003
+1C2-E-TEST-0001-1.107/006	arnold klein
+1C2-E-TEST-0001-1.107/007	48	DEP=1C2-E-TEST-0001-1.107008
+1C2-E-TEST-0001-1.107/008	wrote	DEP=1C2-E-TEST-0001-1.107009
+1C2-E-TEST-0001-1.107/009	wanted
+1C2-E-TEST-0001-1.107/010	question	DEP=1C2-E-TEST-0001-1.107009
+1C2-E-TEST-0001-1.108	[49] Klein said that he occasionally had given Jackson pethidine to sedate him, but had administered nothing stronger, and that he had turned his records over to the medical examiner.
+1C2-E-TEST-0001-1.108/001	klein
+1C2-E-TEST-0001-1.108/002	pethidine	DEP=1C2-E-TEST-0001-1.108008
+1C2-E-TEST-0001-1.108/003	sedate
+1C2-E-TEST-0001-1.108/004	records	DEP=1C2-E-TEST-0001-1.108011
+1C2-E-TEST-0001-1.108/005	medical examiner
+1C2-E-TEST-0001-1.108/006	49
+1C2-E-TEST-0001-1.108/007	occasionally	DEP=1C2-E-TEST-0001-1.108008
+1C2-E-TEST-0001-1.108/008	given
+1C2-E-TEST-0001-1.108/009	administered
+1C2-E-TEST-0001-1.108/010	stronger
+1C2-E-TEST-0001-1.108/011	turned
+1C2-E-TEST-0001-1.11	Murray stated that he was hindered because there was no landline in the house.
+1C2-E-TEST-0001-1.11/001	murray	DEP=1C2-E-TEST-0001-1.11004
+1C2-E-TEST-0001-1.11/002	landline
+1C2-E-TEST-0001-1.11/003	house
+1C2-E-TEST-0001-1.11/004	stated
+1C2-E-TEST-0001-1.11/005	hindered	DEP=1C2-E-TEST-0001-1.11004
+1C2-E-TEST-0001-1.114	Murray first met Jackson in Las Vegas when the doctor treated one of the singerÃ¢ÂÂs children.
+1C2-E-TEST-0001-1.114/001	murray	DEP=1C2-E-TEST-0001-1.114006
+1C2-E-TEST-0001-1.114/002	las vegas
+1C2-E-TEST-0001-1.114/003	doctor	DEP=1C2-E-TEST-0001-1.114007
+1C2-E-TEST-0001-1.114/004	singerâ
+1C2-E-TEST-0001-1.114/005	s children	DEP=1C2-E-TEST-0001-1.114004
+1C2-E-TEST-0001-1.114/006	met
+1C2-E-TEST-0001-1.114/007	treated	DEP=1C2-E-TEST-0001-1.114006
+1C2-E-TEST-0001-1.117	[44] Los Angeles police said the doctor spoke to officers immediately after Jackson's death, and during an extensive interview two days later.
+1C2-E-TEST-0001-1.117/001	44	DEP=1C2-E-TEST-0001-1.117008
+1C2-E-TEST-0001-1.117/002	police
+1C2-E-TEST-0001-1.117/003	doctor
+1C2-E-TEST-0001-1.117/004	officers
+1C2-E-TEST-0001-1.117/005	extensive interview
+1C2-E-TEST-0001-1.117/006	two days	DEP=1C2-E-TEST-0001-1.117010
+1C2-E-TEST-0001-1.117/007	los	DEP=1C2-E-TEST-0001-1.117008
+1C2-E-TEST-0001-1.117/008	angeles
+1C2-E-TEST-0001-1.117/009	immediately
+1C2-E-TEST-0001-1.117/010	later
+1C2-E-TEST-0001-1.122	Politician and minister Jesse Jackson , a friend of Michael Jackson's family, said that the family was concerned about Murray's role.
+1C2-E-TEST-0001-1.122/001	politician minister
+1C2-E-TEST-0001-1.122/002	jesse
+1C2-E-TEST-0001-1.122/003	friend	DEP=1C2-E-TEST-0001-1.122001
+1C2-E-TEST-0001-1.122/004	family	DEP=1C2-E-TEST-0001-1.122007
+1C2-E-TEST-0001-1.122/005	murray	DEP=1C2-E-TEST-0001-1.122008
+1C2-E-TEST-0001-1.122/006	family
+1C2-E-TEST-0001-1.122/007	concerned
+1C2-E-TEST-0001-1.122/008	role
+1C2-E-TEST-0001-1.132	On January 11, 2011, the judge from Murray's preliminary hearing determined that Murray should stand trial for involuntary manslaughter in the Jackson case.
+1C2-E-TEST-0001-1.132/001	january 11 2011
+1C2-E-TEST-0001-1.132/002	judge	DEP=1C2-E-TEST-0001-1.132010
+1C2-E-TEST-0001-1.132/003	murray	DEP=1C2-E-TEST-0001-1.132009
+1C2-E-TEST-0001-1.132/004	murray	DEP=1C2-E-TEST-0001-1.132011
+1C2-E-TEST-0001-1.132/005	trial	DEP=1C2-E-TEST-0001-1.132011
+1C2-E-TEST-0001-1.132/006	involuntary manslaughter
+1C2-E-TEST-0001-1.132/007	case
+1C2-E-TEST-0001-1.132/008	preliminary	DEP=1C2-E-TEST-0001-1.132009
+1C2-E-TEST-0001-1.132/009	hearing
+1C2-E-TEST-0001-1.132/010	determined
+1C2-E-TEST-0001-1.132/011	stand	DEP=1C2-E-TEST-0001-1.132010
+1C2-E-TEST-0001-99.5	At about 12:20 p.m., 911 was called and by the time they arrived at Jackson's home, he was dead, according to Walgren.
+1C2-E-TEST-0001-99.5/001	12:20 p.m.
+1C2-E-TEST-0001-99.5/002	911	DEP=1C2-E-TEST-0001-99.5005
+1C2-E-TEST-0001-99.5/003	time
+1C2-E-TEST-0001-99.5/004	walgren
+1C2-E-TEST-0001-99.5/005	called
+1C2-E-TEST-0001-99.5/006	arrived	DEP=1C2-E-TEST-0001-99.5005
+1C2-E-TEST-0001-99.5/007	home
+1C2-E-TEST-0001-99.5/008	dead	DEP=1C2-E-TEST-0001-99.5005
+1C2-E-TEST-0001-99.7	In addition, once at the hospital, doctors also asked Murray about any substances administered and once again, he is accused of failing to inform them Jackson had been given a powerful anesthetic.
+1C2-E-TEST-0001-99.7/001	addition
+1C2-E-TEST-0001-99.7/002	hospital
+1C2-E-TEST-0001-99.7/003	doctors	DEP=1C2-E-TEST-0001-99.7007
+1C2-E-TEST-0001-99.7/004	murray	DEP=1C2-E-TEST-0001-99.7007
+1C2-E-TEST-0001-99.7/005	substances
+1C2-E-TEST-0001-99.7/006	powerful anesthetic	DEP=1C2-E-TEST-0001-99.7012
+1C2-E-TEST-0001-99.7/007	asked
+1C2-E-TEST-0001-99.7/008	administered	DEP=1C2-E-TEST-0001-99.7005
+1C2-E-TEST-0001-99.7/009	accused	DEP=1C2-E-TEST-0001-99.7007
+1C2-E-TEST-0001-99.7/010	failing
+1C2-E-TEST-0001-99.7/011	inform	DEP=1C2-E-TEST-0001-99.7010
+1C2-E-TEST-0001-99.7/012	given	DEP=1C2-E-TEST-0001-99.7011
+1C2-E-TEST-0001-99.8	Only days after Jackson died, Murray met with police detectives and told them he had been giving the singer nightly doses of propofol for the past two months to help him with his insomnia.
+1C2-E-TEST-0001-99.8/001	days	DEP=1C2-E-TEST-0001-99.8009
+1C2-E-TEST-0001-99.8/002	murray	DEP=1C2-E-TEST-0001-99.8010
+1C2-E-TEST-0001-99.8/003	police detectives
+1C2-E-TEST-0001-99.8/004	singer	DEP=1C2-E-TEST-0001-99.8012
+1C2-E-TEST-0001-99.8/005	nightly doses	DEP=1C2-E-TEST-0001-99.8012
+1C2-E-TEST-0001-99.8/006	propofol
+1C2-E-TEST-0001-99.8/007	past two months
+1C2-E-TEST-0001-99.8/008	insomnia
+1C2-E-TEST-0001-99.8/009	died	DEP=1C2-E-TEST-0001-99.8010
+1C2-E-TEST-0001-99.8/010	met
+1C2-E-TEST-0001-99.8/011	told	DEP=1C2-E-TEST-0001-99.8010
+1C2-E-TEST-0001-99.8/012	giving	DEP=1C2-E-TEST-0001-99.8011
+1C2-E-TEST-0001-99.8/013	help	DEP=1C2-E-TEST-0001-99.8010
+1C2-E-TEST-0001-99.9	In a Los Angeles Police Department recording, Murray can be heard telling authorities that on the morning that Jackson died, he went to the bathroom and came back just two minutes later to find the entertainer was not breathing.
+1C2-E-TEST-0001-99.9/001	los angeles police department recording
+1C2-E-TEST-0001-99.9/002	murray	DEP=1C2-E-TEST-0001-99.9008
+1C2-E-TEST-0001-99.9/003	authorities	DEP=1C2-E-TEST-0001-99.9009
+1C2-E-TEST-0001-99.9/004	morning
+1C2-E-TEST-0001-99.9/005	bathroom
+1C2-E-TEST-0001-99.9/006	entertainer	DEP=1C2-E-TEST-0001-99.9007
+1C2-E-TEST-0001-99.9/007	breathing	DEP=1C2-E-TEST-0001-99.9017
+1C2-E-TEST-0001-99.9/008	heard
+1C2-E-TEST-0001-99.9/009	telling	DEP=1C2-E-TEST-0001-99.9008
+1C2-E-TEST-0001-99.9/010	died	DEP=1C2-E-TEST-0001-99.9004
+1C2-E-TEST-0001-99.9/011	went	DEP=1C2-E-TEST-0001-99.9003
+1C2-E-TEST-0001-99.9/012	came	DEP=1C2-E-TEST-0001-99.9011
+1C2-E-TEST-0001-99.9/013	back
+1C2-E-TEST-0001-99.9/014	two	DEP=1C2-E-TEST-0001-99.9015
+1C2-E-TEST-0001-99.9/015	minutes	DEP=1C2-E-TEST-0001-99.9012
+1C2-E-TEST-0001-99.9/016	later	DEP=1C2-E-TEST-0001-99.9015
+1C2-E-TEST-0001-99.9/017	find	DEP=1C2-E-TEST-0001-99.9012

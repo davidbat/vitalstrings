@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 18:22:41 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>JW Marriott , 1331 Pennsylvania Avenue NW , Washington , DC 20004 , 1.202.347.1351 .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Roadways">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="37" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="37" name="Roadway" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>The FedEx Office Print &amp; Ship Center in the JW Marriott Washington , DC offers you virtually everything you need to meet your convention exhibiting needs â&#128;&#148; from packing and shipping to signage , copying and last-minute office supplies .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="226" name="Target" start="221"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="226" name="Building_part" start="221"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Store">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="235" name="Target" start="228"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="15" name="Building_part" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Needing">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="152" name="Target" start="148"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels>
+                        <label ID="1030201" end="152" name="Requirement" start="148"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Evidence">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="146" name="Target" start="137"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels>
+                        <label ID="1040201" end="152" name="Proposition" start="148"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="105" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="10501" name="Target">
+                      <labels>
+                        <label ID="1050101" end="35" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10502" name="FE">
+                      <labels>
+                        <label ID="1050201" end="28" name="Use" start="25"/>
+                        <label ID="1050202" end="35" name="Locale" start="30"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="106" frameName="Bringing">
+                  <layers>
+                    <layer ID="10601" name="Target">
+                      <labels>
+                        <label ID="1060101" end="182" name="Target" start="175"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="107" frameName="Be_in_agreement_on_action">
+                  <layers>
+                    <layer ID="10701" name="Target">
+                      <labels>
+                        <label ID="1070101" end="135" name="Target" start="126"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10702" name="FE">
+                      <labels>
+                        <label ID="1070201" end="235" name="Obligation" start="126"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="108" frameName="Vehicle">
+                  <layers>
+                    <layer ID="10801" name="Target">
+                      <labels>
+                        <label ID="1080101" end="28" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10802" name="FE">
+                      <labels>
+                        <label ID="1080201" end="28" name="Vehicle" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="109" frameName="Needing">
+                  <layers>
+                    <layer ID="10901" name="Target">
+                      <labels>
+                        <label ID="1090101" end="111" name="Target" start="108"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10902" name="FE">
+                      <labels>
+                        <label ID="1090201" end="106" name="Cognizer" start="104"/>
+                        <label ID="1090202" end="235" name="Requirement" start="113"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="110" frameName="Offering">
+                  <layers>
+                    <layer ID="11001" name="Target">
+                      <labels>
+                        <label ID="1100101" end="77" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11002" name="FE">
+                      <labels>
+                        <label ID="1100201" end="102" name="Theme" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="111" frameName="Come_together">
+                  <layers>
+                    <layer ID="11101" name="Target">
+                      <labels>
+                        <label ID="1110101" end="119" name="Target" start="116"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11102" name="FE">
+                      <labels>
+                        <label ID="1110201" end="235" name="Party_2" start="121"/>
+                        <label ID="1110202" end="106" name="Party_1" start="104"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>FedEx Office Print &amp; Ship Center , 2400 M St NW , Washington , DC 20037 .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Vehicle">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>FedEx World Service Center , 1501 Eckington Pl NE , Washington , DC 20002 .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Rite">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="18" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Political_locales">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="10" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="10" name="Locale" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="25" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="25" name="Locale" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>FedEx Office Print &amp; Ship Center , 2020 K St NW , Washington , DC 20006 .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Vehicle">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>FedEx , 1700 Pennsylvania Ave NW , Washington , DC 20006 .</text>
+              <annotationSets/>
+            </sentence>
+            <sentence ID="6">
+              <text>FedEx World Service Center , 1445 I St NW , Washington , DC 20005 .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Rite">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="18" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="25" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="25" name="Locale" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Political_locales">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="10" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="10" name="Locale" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>FedEx Office Print &amp; Ship Center , 1612 K St NW , Washington , DC 20006 .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels>
+                        <label ID="7000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Vehicle">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels>
+                        <label ID="7020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>FedEx Office Ship Center , 419 11th St NW , Washington , DC 20004 .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="802" frameName="Vehicle">
+                  <layers>
+                    <layer ID="80201" name="Target">
+                      <labels>
+                        <label ID="8020101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80202" name="FE">
+                      <labels>
+                        <label ID="8020201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>FedEx Office Ship Center , 1029 17th St NW , Washington , DC 20036 .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Vehicle">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels>
+                        <label ID="9020201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>FedEx Office Print &amp; Ship Center , 1400 K St NW , Washington , DC 20005 .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Vehicle">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>FedEx Office Ship Center , 1825 K St NW , Washington , DC 20006 .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels>
+                        <label ID="11000201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Vehicle">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>FedEx Office Ship Center , 1123 18th St NW , Washington , DC 20036 .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Vehicle">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>FedEx Office Print &amp; Ship Center , 1850 M St NW , Washington , DC 20036 .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels>
+                        <label ID="13010201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Vehicle">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>FedEx Office Print &amp; Ship Center , 325 7th St NW , Washington , DC 20004 .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels>
+                        <label ID="14000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Vehicle">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels>
+                        <label ID="14020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>FedEx Office Print &amp; Ship Center , 999 9th St NW , Washington , DC 20001 .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels>
+                        <label ID="15000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Vehicle">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels>
+                        <label ID="15010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1502" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="150201" name="Target">
+                      <labels>
+                        <label ID="15020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150202" name="FE">
+                      <labels>
+                        <label ID="15020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>FedEx Office Print &amp; Ship Center , 800 K St NW , Washington , DC 20001 .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels>
+                        <label ID="16010201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1602" frameName="Vehicle">
+                  <layers>
+                    <layer ID="160201" name="Target">
+                      <labels>
+                        <label ID="16020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160202" name="FE">
+                      <labels>
+                        <label ID="16020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>FedEx Office Print &amp; Ship Center , 1512 14th St NW , Washington , DC 20005 .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Vehicle">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels>
+                        <label ID="17000201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels>
+                        <label ID="17010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1702" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="170201" name="Target">
+                      <labels>
+                        <label ID="17020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170202" name="FE">
+                      <labels>
+                        <label ID="17020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>FedEx Office Ship Center , 1002 30th St NW , Washington , DC 20007 .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels>
+                        <label ID="18010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1802" frameName="Vehicle">
+                  <layers>
+                    <layer ID="180201" name="Target">
+                      <labels>
+                        <label ID="18020101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180202" name="FE">
+                      <labels>
+                        <label ID="18020201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>FedEx Office Print &amp; Ship Center , 409 3rd St SW , Washington , DC 20024 .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels>
+                        <label ID="19000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels>
+                        <label ID="19010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1902" frameName="Vehicle">
+                  <layers>
+                    <layer ID="190201" name="Target">
+                      <labels>
+                        <label ID="19020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190202" name="FE">
+                      <labels>
+                        <label ID="19020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>FedEx Office Print &amp; Ship Center , 400 New Jersey Ave NW , Washington , DC 20001 .</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Vehicle">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="37" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels>
+                        <label ID="20010201" end="41" name="Entity" start="39"/>
+                        <label ID="20010202" end="37" name="Number" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2002" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="200201" name="Target">
+                      <labels>
+                        <label ID="20020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200202" name="FE">
+                      <labels>
+                        <label ID="20020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2003" frameName="Age">
+                  <layers>
+                    <layer ID="200301" name="Target">
+                      <labels>
+                        <label ID="20030101" end="41" name="Target" start="39"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200302" name="FE">
+                      <labels>
+                        <label ID="20030201" end="48" name="Entity" start="43"/>
+                        <label ID="20030202" end="41" name="Age" start="39"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2004" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="200401" name="Target">
+                      <labels>
+                        <label ID="20040101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200402" name="FE">
+                      <labels>
+                        <label ID="20040201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>FedEx Office Print &amp; Ship Center , 1919 Connecticut Ave NW , Washington , DC 20009 .</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels>
+                        <label ID="21010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Vehicle">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels>
+                        <label ID="21020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>FedEx Office Print &amp; Ship Center , 3329 M St NW , Washington , DC 20007 .</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels>
+                        <label ID="22000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Vehicle">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels>
+                        <label ID="22020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>FedEx Office Ship Center , 208 2nd St SE , Washington , DC 20003 .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Vehicle">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels>
+                        <label ID="23000201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2302" frameName="Ordinal_numbers">
+                  <layers>
+                    <layer ID="230201" name="Target">
+                      <labels>
+                        <label ID="23020101" end="33" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230202" name="FE">
+                      <labels>
+                        <label ID="23020201" end="36" name="Type" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2303" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="230301" name="Target">
+                      <labels>
+                        <label ID="23030101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230302" name="FE">
+                      <labels>
+                        <label ID="23030201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="24">
+              <text>FedEx Office Print &amp; Ship Center , 1812 Adams Mill Rd NW , Washington , DC 20009 .</text>
+              <annotationSets>
+                <annotationSet ID="2400" frameName="Grinding">
+                  <layers>
+                    <layer ID="240001" name="Target">
+                      <labels>
+                        <label ID="24000101" end="49" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2401" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="240101" name="Target">
+                      <labels>
+                        <label ID="24010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240102" name="FE">
+                      <labels>
+                        <label ID="24010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2402" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="240201" name="Target">
+                      <labels>
+                        <label ID="24020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240202" name="FE">
+                      <labels>
+                        <label ID="24020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2403" frameName="Vehicle">
+                  <layers>
+                    <layer ID="240301" name="Target">
+                      <labels>
+                        <label ID="24030101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240302" name="FE">
+                      <labels>
+                        <label ID="24030201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="25">
+              <text>FedEx Office Print &amp; Ship Center , 2660 Woodley Rd NW , Washington , DC 20008 .</text>
+              <annotationSets>
+                <annotationSet ID="2500" frameName="Vehicle">
+                  <layers>
+                    <layer ID="250001" name="Target">
+                      <labels>
+                        <label ID="25000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250002" name="FE">
+                      <labels>
+                        <label ID="25000201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2501" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="250101" name="Target">
+                      <labels>
+                        <label ID="25010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250102" name="FE">
+                      <labels>
+                        <label ID="25010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2502" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="250201" name="Target">
+                      <labels>
+                        <label ID="25020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250202" name="FE">
+                      <labels>
+                        <label ID="25020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="26">
+              <text>FedEx Office Print &amp; Ship Center , 3111 14th St NW , Washington , DC 20010 .</text>
+              <annotationSets>
+                <annotationSet ID="2600" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="260001" name="Target">
+                      <labels>
+                        <label ID="26000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260002" name="FE">
+                      <labels>
+                        <label ID="26000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2601" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="260101" name="Target">
+                      <labels>
+                        <label ID="26010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260102" name="FE">
+                      <labels>
+                        <label ID="26010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2602" frameName="Vehicle">
+                  <layers>
+                    <layer ID="260201" name="Target">
+                      <labels>
+                        <label ID="26020101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260202" name="FE">
+                      <labels>
+                        <label ID="26020201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="27">
+              <text>FedEx Office Print &amp; Ship Center , 715 D St SE , Washington , DC 20003 .</text>
+              <annotationSets>
+                <annotationSet ID="2700" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="270001" name="Target">
+                      <labels>
+                        <label ID="27000101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270002" name="FE">
+                      <labels>
+                        <label ID="27000201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2701" frameName="Vehicle">
+                  <layers>
+                    <layer ID="270101" name="Target">
+                      <labels>
+                        <label ID="27010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270102" name="FE">
+                      <labels>
+                        <label ID="27010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2702" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="270201" name="Target">
+                      <labels>
+                        <label ID="27020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270202" name="FE">
+                      <labels>
+                        <label ID="27020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="28">
+              <text>FedEx Office Print &amp; Ship Center , 2440 Wisconsin Ave NW , Washington , DC 20007 .</text>
+              <annotationSets>
+                <annotationSet ID="2800" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="280001" name="Target">
+                      <labels>
+                        <label ID="28000101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280002" name="FE">
+                      <labels>
+                        <label ID="28000201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2801" frameName="Vehicle">
+                  <layers>
+                    <layer ID="280101" name="Target">
+                      <labels>
+                        <label ID="28010101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280102" name="FE">
+                      <labels>
+                        <label ID="28010201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2802" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="280201" name="Target">
+                      <labels>
+                        <label ID="28020101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280202" name="FE">
+                      <labels>
+                        <label ID="28020201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="29">
+              <text>FedEx Office Ship Center , 4000 Wisconsin Ave NW , Washington , DC 20016 .</text>
+              <annotationSets>
+                <annotationSet ID="2900" frameName="Vehicle">
+                  <layers>
+                    <layer ID="290001" name="Target">
+                      <labels>
+                        <label ID="29000101" end="16" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290002" name="FE">
+                      <labels>
+                        <label ID="29000201" end="16" name="Vehicle" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2901" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="290101" name="Target">
+                      <labels>
+                        <label ID="29010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290102" name="FE">
+                      <labels>
+                        <label ID="29010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2902" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="290201" name="Target">
+                      <labels>
+                        <label ID="29020101" end="23" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290202" name="FE">
+                      <labels>
+                        <label ID="29020201" end="23" name="Locale" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="30">
+              <text>FedEx Office Print &amp; Ship Center , 5225 Wisconsin Ave NW , Washington , DC 20015 .</text>
+              <annotationSets>
+                <annotationSet ID="3000" frameName="Vehicle">
+                  <layers>
+                    <layer ID="300001" name="Target">
+                      <labels>
+                        <label ID="30000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300002" name="FE">
+                      <labels>
+                        <label ID="30000201" end="24" name="Vehicle" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3001" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="300101" name="Target">
+                      <labels>
+                        <label ID="30010101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300102" name="FE">
+                      <labels>
+                        <label ID="30010201" end="11" name="Building_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3002" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="300201" name="Target">
+                      <labels>
+                        <label ID="30020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300202" name="FE">
+                      <labels>
+                        <label ID="30020201" end="31" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="31">
+              <text>FEDEX Express Ship Ctr , 1025 Thomas Jefferson St NW , Washington , DC 20007 -LRB- 202 -RRB- 333-0683 .</text>
+              <annotationSets>
+                <annotationSet ID="3100" frameName="Vehicle">
+                  <layers>
+                    <layer ID="310001" name="Target">
+                      <labels>
+                        <label ID="31000101" end="17" name="Target" start="14"/>
+                      </labels>
+                    </layer>
+                    <layer ID="310002" name="FE">
+                      <labels>
+                        <label ID="31000201" end="17" name="Vehicle" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="32">
+              <text>in the JW Marriott Washington , DC offers you virtually everything you need to meet your convention exhibiting needs Ã¢â&#130;¬â&#128;&#157; from packing and shipping to signage , copying and last-minute office supplies .</text>
+              <annotationSets>
+                <annotationSet ID="3200" frameName="Building_subparts">
+                  <layers>
+                    <layer ID="320001" name="Target">
+                      <labels>
+                        <label ID="32000101" end="194" name="Target" start="189"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320002" name="FE">
+                      <labels>
+                        <label ID="32000201" end="194" name="Building_part" start="189"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3201" frameName="Come_together">
+                  <layers>
+                    <layer ID="320101" name="Target">
+                      <labels>
+                        <label ID="32010101" end="82" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320102" name="FE">
+                      <labels>
+                        <label ID="32010201" end="109" name="Party_2" start="84"/>
+                        <label ID="32010202" end="65" name="Party_1" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3202" frameName="Offering">
+                  <layers>
+                    <layer ID="320201" name="Target">
+                      <labels>
+                        <label ID="32020101" end="40" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320202" name="FE">
+                      <labels>
+                        <label ID="32020201" end="44" name="Theme" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3203" frameName="Required_event">
+                  <layers>
+                    <layer ID="320301" name="Target">
+                      <labels>
+                        <label ID="32030101" end="74" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320302" name="FE">
+                      <labels>
+                        <label ID="32030201" end="65" name="Required_situation" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3204" frameName="Evidence">
+                  <layers>
+                    <layer ID="320401" name="Target">
+                      <labels>
+                        <label ID="32040101" end="109" name="Target" start="100"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320402" name="FE">
+                      <labels>
+                        <label ID="32040201" end="203" name="Proposition" start="111"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3205" frameName="Required_event">
+                  <layers>
+                    <layer ID="320501" name="Target">
+                      <labels>
+                        <label ID="32050101" end="115" name="Target" start="111"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320502" name="FE">
+                      <labels>
+                        <label ID="32050201" end="109" name="Required_situation" start="56"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3206" frameName="Bringing">
+                  <layers>
+                    <layer ID="320601" name="Target">
+                      <labels>
+                        <label ID="32060101" end="150" name="Target" start="143"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3207" frameName="Store">
+                  <layers>
+                    <layer ID="320701" name="Target">
+                      <labels>
+                        <label ID="32070101" end="203" name="Target" start="196"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3208" frameName="Be_in_agreement_on_action">
+                  <layers>
+                    <layer ID="320801" name="Target">
+                      <labels>
+                        <label ID="32080101" end="98" name="Target" start="89"/>
+                      </labels>
+                    </layer>
+                    <layer ID="320802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

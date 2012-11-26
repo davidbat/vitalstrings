@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 17:03:57 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>Perhaps theyÃ¢â&#130;¬â&#132;¢re not so influential anymore , but if youÃ¢â&#130;¬â&#132;¢ve been to a Green Day show recently , youÃ¢â&#130;¬â&#132;¢ll know they still rock the stage and care a lot about the fans .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="105" name="Target" start="98"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="96" name="Trajector_event" start="78"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="101" name="Target">
+                      <labels>
+                        <label ID="10101" end="87" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="102" name="FE">
+                      <labels>
+                        <label ID="10201" end="87" name="Locale" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2" frameName="Reasoning">
+                  <layers>
+                    <layer ID="201" name="Target">
+                      <labels>
+                        <label ID="20101" end="96" name="Target" start="93"/>
+                      </labels>
+                    </layer>
+                    <layer ID="202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3" frameName="Moving_in_place">
+                  <layers>
+                    <layer ID="301" name="Target">
+                      <labels>
+                        <label ID="30101" end="142" name="Target" start="139"/>
+                      </labels>
+                    </layer>
+                    <layer ID="302" name="FE">
+                      <labels>
+                        <label ID="30201" end="152" name="Theme" start="144"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="4" frameName="Subjective_influence">
+                  <layers>
+                    <layer ID="401" name="Target">
+                      <labels>
+                        <label ID="40101" end="40" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="402" name="FE">
+                      <labels>
+                        <label ID="40201" end="48" name="Entity" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="5" frameName="Quantity">
+                  <layers>
+                    <layer ID="501" name="Target">
+                      <labels>
+                        <label ID="50101" end="167" name="Target" start="163"/>
+                      </labels>
+                    </layer>
+                    <layer ID="502" name="FE">
+                      <labels>
+                        <label ID="50201" end="167" name="Quantity" start="163"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="6" frameName="Continued_state_of_affairs">
+                  <layers>
+                    <layer ID="601" name="Target">
+                      <labels>
+                        <label ID="60101" end="137" name="Target" start="133"/>
+                      </labels>
+                    </layer>
+                    <layer ID="602" name="FE">
+                      <labels>
+                        <label ID="60201" end="131" name="State_of_affairs" start="128"/>
+                        <label ID="60202" end="137" name="Reference_occasion" start="133"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="7" frameName="Awareness">
+                  <layers>
+                    <layer ID="701" name="Target">
+                      <labels>
+                        <label ID="70101" end="126" name="Target" start="123"/>
+                      </labels>
+                    </layer>
+                    <layer ID="702" name="FE">
+                      <labels>
+                        <label ID="70201" end="121" name="Cognizer" start="109"/>
+                        <label ID="70202" end="182" name="Content" start="128"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="8" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="801" name="Target">
+                      <labels>
+                        <label ID="80101" end="91" name="Target" start="89"/>
+                      </labels>
+                    </layer>
+                    <layer ID="802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>As for it actually being good music , thatÃ¢â&#130;¬â&#132;¢s a matter of debate , but apparently the 65 million records theyÃ¢â&#130;¬â&#132;¢ve sold worldwide would indicate that a lot of people enjoy it .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Commerce_sell">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="129" name="Target" start="126"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="184" name="Goods" start="131"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Usefulness">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="28" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="34" name="Entity" start="30"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="34" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="28" name="Type" start="25"/>
+                        <label ID="1020202" end="34" name="Performance" start="30"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Discussion">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="69" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Experiencer_focus">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="181" name="Target" start="177"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels>
+                        <label ID="1040201" end="184" name="Content" start="183"/>
+                        <label ID="1040202" end="175" name="Experiencer" start="161"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="105" frameName="Communication">
+                  <layers>
+                    <layer ID="10501" name="Target">
+                      <labels>
+                        <label ID="1050101" end="154" name="Target" start="147"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10502" name="FE">
+                      <labels>
+                        <label ID="1050201" end="139" name="Communicator" start="131"/>
+                        <label ID="1050202" end="184" name="Message" start="156"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="106" frameName="Quantity">
+                  <layers>
+                    <layer ID="10601" name="Target">
+                      <labels>
+                        <label ID="1060101" end="165" name="Target" start="161"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10602" name="FE">
+                      <labels>
+                        <label ID="1060201" end="175" name="Individuals" start="167"/>
+                        <label ID="1060202" end="165" name="Quantity" start="161"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="107" frameName="Recording">
+                  <layers>
+                    <layer ID="10701" name="Target">
+                      <labels>
+                        <label ID="1070101" end="109" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10702" name="FE">
+                      <labels>
+                        <label ID="1070201" end="101" name="Agent" start="92"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="108" frameName="People">
+                  <layers>
+                    <layer ID="10801" name="Target">
+                      <labels>
+                        <label ID="1080101" end="175" name="Target" start="170"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10802" name="FE">
+                      <labels>
+                        <label ID="1080201" end="175" name="Person" start="170"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="109" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="10901" name="Target">
+                      <labels>
+                        <label ID="1090101" end="101" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10902" name="FE">
+                      <labels>
+                        <label ID="1090201" end="101" name="Number" start="95"/>
+                        <label ID="1090202" end="93" name="Multiplier" start="92"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>Ã¢â&#130;¬Å&#147;While Green Day has been more successful with their last two albums -LRB- American Idiot , 21st Century Breakdown -RRB- , they have lost most if not all of their original fan base , that consisted of people who loved to rock ! Ã¢â&#130;¬Â&#157; .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="109" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="People">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="212" name="Target" start="207"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="212" name="Person" start="207"/>
+                        <label ID="2010202" end="230" name="Descriptor" start="214"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Finish_competition">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="142" name="Target" start="139"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="147" name="Competition" start="144"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="203" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="20301" name="Target">
+                      <labels>
+                        <label ID="2030101" end="185" name="Target" start="182"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20302" name="FE">
+                      <labels>
+                        <label ID="2030201" end="185" name="Locale" start="182"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="204" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="20401" name="Target">
+                      <labels>
+                        <label ID="2040101" end="17" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20402" name="FE">
+                      <labels>
+                        <label ID="2040201" end="17" name="Locale" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="205" frameName="Relative_time">
+                  <layers>
+                    <layer ID="20501" name="Target">
+                      <labels>
+                        <label ID="2050101" end="62" name="Target" start="59"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="206" frameName="Increment">
+                  <layers>
+                    <layer ID="20601" name="Target">
+                      <labels>
+                        <label ID="2060101" end="35" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="207" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="20701" name="Target">
+                      <labels>
+                        <label ID="2070101" end="66" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20702" name="FE">
+                      <labels>
+                        <label ID="2070201" end="73" name="Entity" start="68"/>
+                        <label ID="2070202" end="66" name="Number" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="208" frameName="Relational_quantity">
+                  <layers>
+                    <layer ID="20801" name="Target">
+                      <labels>
+                        <label ID="2080101" end="147" name="Target" start="144"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20802" name="FE">
+                      <labels>
+                        <label ID="2080201" end="147" name="Denoted_quantity" start="144"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="209" frameName="Origin">
+                  <layers>
+                    <layer ID="20901" name="Target">
+                      <labels>
+                        <label ID="2090101" end="88" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20902" name="FE">
+                      <labels>
+                        <label ID="2090201" end="88" name="Origin" start="81"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="210" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="21001" name="Target">
+                      <labels>
+                        <label ID="2100101" end="21" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21002" name="FE">
+                      <labels>
+                        <label ID="2100201" end="21" name="Unit" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="211" frameName="Successful_action">
+                  <layers>
+                    <layer ID="21101" name="Target">
+                      <labels>
+                        <label ID="2110101" end="46" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="212" frameName="Experiencer_focus">
+                  <layers>
+                    <layer ID="21201" name="Target">
+                      <labels>
+                        <label ID="2120101" end="222" name="Target" start="218"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21202" name="FE">
+                      <labels>
+                        <label ID="2120201" end="212" name="Content" start="207"/>
+                        <label ID="2120202" end="216" name="Experiencer" start="214"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="213" frameName="Quantity">
+                  <layers>
+                    <layer ID="21301" name="Target">
+                      <labels>
+                        <label ID="2130101" end="158" name="Target" start="156"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21302" name="FE">
+                      <labels>
+                        <label ID="2130201" end="185" name="Individuals" start="160"/>
+                        <label ID="2130202" end="158" name="Quantity" start="156"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>-LSB- quote -RSB- Everyone has political views , EVERYONE , but the time and place for that is no way in hell found in punk rock music , -LSB- /quote -RSB- .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Possession">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="29" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="81" name="Possession" start="31"/>
+                        <label ID="3000202" end="25" name="Owner" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Roadways">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="100" name="Target" start="98"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="100" name="Roadway" start="98"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Categorization">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="45" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="39" name="Item" start="31"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="303" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="30301" name="Target">
+                      <labels>
+                        <label ID="3030101" end="133" name="Target" start="129"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30302" name="FE">
+                      <labels>
+                        <label ID="3030201" end="127" name="Type" start="124"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="304" frameName="Locale">
+                  <layers>
+                    <layer ID="30401" name="Target">
+                      <labels>
+                        <label ID="3040101" end="81" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30402" name="FE">
+                      <labels>
+                        <label ID="3040201" end="81" name="Locale" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="305" frameName="Becoming_aware">
+                  <layers>
+                    <layer ID="30501" name="Target">
+                      <labels>
+                        <label ID="3050101" end="114" name="Target" start="110"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30502" name="FE">
+                      <labels>
+                        <label ID="3050201" end="133" name="Phenomenon" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="306" frameName="Quantity">
+                  <layers>
+                    <layer ID="30601" name="Target">
+                      <labels>
+                        <label ID="3060101" end="96" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30602" name="FE">
+                      <labels>
+                        <label ID="3060201" end="96" name="Quantity" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="307" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="30701" name="Target">
+                      <labels>
+                        <label ID="3070101" end="71" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30702" name="FE">
+                      <labels>
+                        <label ID="3070201" end="71" name="Unit" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>-LSB- quote -RSB- So , when will it be enough Green Day ? .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="50" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="50" name="Locale" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Sufficiency">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="44" name="Target" start="39"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="54" name="Item" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="26" name="Target" start="23"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="54" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>The audience was mostly teenagers , dressed in their best Hot Topic outfit and weÃ¢â&#130;¬â&#132;¢re even watching the concert .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Wearing">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="42" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Topic">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="66" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="60" name="Text" start="53"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Clothing">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="73" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="73" name="Garment" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Perception_active">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="104" name="Target" start="97"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="116" name="Phenomenon" start="106"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Desirability">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="56" name="Target" start="53"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="60" name="Evaluee" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Billy Joe got on stage and started to voice his opinions , which he is allowed to have but the audience wasnÃ¢â&#130;¬â&#132;¢t listeningÃ¢â&#130;¬Â¦ .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Expressing_publicly">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="42" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="8" name="Communicator" start="0"/>
+                        <label ID="6000202" end="133" name="Content" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Arriving">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="12" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="8" name="Theme" start="0"/>
+                        <label ID="6010202" end="21" name="Goal" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Activity_start">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="33" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="133" name="Activity" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="603" frameName="Grant_permission">
+                  <layers>
+                    <layer ID="60301" name="Target">
+                      <labels>
+                        <label ID="6030101" end="77" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60302" name="FE">
+                      <labels>
+                        <label ID="6030201" end="133" name="Action" start="79"/>
+                        <label ID="6030202" end="66" name="Grantee" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="604" frameName="Regard">
+                  <layers>
+                    <layer ID="60401" name="Target">
+                      <labels>
+                        <label ID="6040101" end="55" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60402" name="FE">
+                      <labels>
+                        <label ID="6040201" end="133" name="Evaluee" start="59"/>
+                        <label ID="6040202" end="46" name="Cognizer" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="605" frameName="Perception_active">
+                  <layers>
+                    <layer ID="60501" name="Target">
+                      <labels>
+                        <label ID="6050101" end="133" name="Target" start="118"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60502" name="FE">
+                      <labels>
+                        <label ID="6050201" end="116" name="Perceiver_agentive" start="104"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="606" frameName="Possession">
+                  <layers>
+                    <layer ID="60601" name="Target">
+                      <labels>
+                        <label ID="6060101" end="85" name="Target" start="82"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60602" name="FE">
+                      <labels>
+                        <label ID="6060201" end="133" name="Possession" start="87"/>
+                        <label ID="6060202" end="66" name="Owner" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>Billy Joe started to rail against commericalism , this is when I blew a gasket .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Roadways">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels>
+                        <label ID="7000201" end="24" name="Roadway" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Activity_start">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="16" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="46" name="Activity" start="18"/>
+                        <label ID="7010202" end="8" name="Agent" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Motion">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="68" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels>
+                        <label ID="7020201" end="63" name="Theme" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="703" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="70301" name="Target">
+                      <labels>
+                        <label ID="7030101" end="61" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70302" name="FE">
+                      <labels>
+                        <label ID="7030201" end="77" name="Landmark_event" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>In the background were images on the video wall of great bands in the past like 7-Seconds , Fugazi , Ramones , etc .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="88" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="88" name="Unit" start="80"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Sensation">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="28" name="Target" start="23"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="802" frameName="Desirability">
+                  <layers>
+                    <layer ID="80201" name="Target">
+                      <labels>
+                        <label ID="8020101" end="55" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80202" name="FE">
+                      <labels>
+                        <label ID="8020201" end="61" name="Evaluee" start="57"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="803" frameName="Architectural_part">
+                  <layers>
+                    <layer ID="80301" name="Target">
+                      <labels>
+                        <label ID="8030101" end="46" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80302" name="FE">
+                      <labels>
+                        <label ID="8030201" end="61" name="Whole" start="48"/>
+                        <label ID="8030202" end="46" name="Part" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="804" frameName="Aggregate">
+                  <layers>
+                    <layer ID="80401" name="Target">
+                      <labels>
+                        <label ID="8040101" end="61" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80402" name="FE">
+                      <labels>
+                        <label ID="8040201" end="61" name="Aggregate" start="57"/>
+                        <label ID="8040202" end="55" name="AggregateProperty" start="51"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="805" frameName="Individual_history">
+                  <layers>
+                    <layer ID="80501" name="Target">
+                      <labels>
+                        <label ID="8050101" end="73" name="Target" start="70"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80502" name="FE">
+                      <labels>
+                        <label ID="8050201" end="113" name="Events" start="75"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>Right above the singers head was a huge sign that said Ã¢â&#130;¬Å&#147;VERIZONÃ¢â&#130;¬Â&#157; , also there were signs for Papa Johns Pizza , Amtrak and some soft drink company -LRB- Pepsi or Coke -RRB- .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Correctness">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="4" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="75" name="Information" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Relational_quantity">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="138" name="Target" start="135"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="138" name="Denoted_quantity" start="135"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Leadership">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="27" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels>
+                        <label ID="9020201" end="27" name="Leader" start="24"/>
+                        <label ID="9020202" end="22" name="Governed" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="903" frameName="Statement">
+                  <layers>
+                    <layer ID="90301" name="Target">
+                      <labels>
+                        <label ID="9030101" end="53" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90302" name="FE">
+                      <labels>
+                        <label ID="9030201" end="75" name="Message" start="55"/>
+                        <label ID="9030202" end="43" name="Speaker" start="33"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="904" frameName="Intoxicants">
+                  <layers>
+                    <layer ID="90401" name="Target">
+                      <labels>
+                        <label ID="9040101" end="177" name="Target" start="174"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90402" name="FE">
+                      <labels>
+                        <label ID="9040201" end="177" name="Intoxicant" start="174"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="905" frameName="Sign">
+                  <layers>
+                    <layer ID="90501" name="Target">
+                      <labels>
+                        <label ID="9050101" end="99" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90502" name="FE">
+                      <labels>
+                        <label ID="9050201" end="99" name="Indicator" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="906" frameName="Businesses">
+                  <layers>
+                    <layer ID="90601" name="Target">
+                      <labels>
+                        <label ID="9060101" end="157" name="Target" start="151"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90602" name="FE">
+                      <labels>
+                        <label ID="9060201" end="157" name="Business" start="151"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="907" frameName="Existence">
+                  <layers>
+                    <layer ID="90701" name="Target">
+                      <labels>
+                        <label ID="9070101" end="93" name="Target" start="84"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90702" name="FE">
+                      <labels>
+                        <label ID="9070201" end="99" name="Entity" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="908" frameName="Sign">
+                  <layers>
+                    <layer ID="90801" name="Target">
+                      <labels>
+                        <label ID="9080101" end="43" name="Target" start="40"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90802" name="FE">
+                      <labels>
+                        <label ID="9080201" end="38" name="Degree" start="35"/>
+                        <label ID="9080202" end="27" name="Indicator" start="12"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="909" frameName="Size">
+                  <layers>
+                    <layer ID="90901" name="Target">
+                      <labels>
+                        <label ID="9090101" end="38" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90902" name="FE">
+                      <labels>
+                        <label ID="9090201" end="43" name="Entity" start="40"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>When Green Day started , they might have been more punk but itÃ¢â&#130;¬â&#132;¢s hard to take them serious when their albums are sold at Wal-mart , they do the Nick KidÃ¢â&#130;¬â&#132;¢s Choice Awards and are multi-millionaireÃ¢â&#130;¬â&#132;¢s .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="3" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="21" name="Landmark_event" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="9" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="9" name="Locale" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Increment">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="49" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="54" name="Class" start="51"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1003" frameName="Process_start">
+                  <layers>
+                    <layer ID="100301" name="Target">
+                      <labels>
+                        <label ID="10030101" end="21" name="Target" start="15"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100302" name="FE">
+                      <labels>
+                        <label ID="10030201" end="13" name="Event" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1004" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="100401" name="Target">
+                      <labels>
+                        <label ID="10040101" end="145" name="Target" start="144"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100402" name="FE">
+                      <labels>
+                        <label ID="10040201" end="181" name="Act" start="147"/>
+                        <label ID="10040202" end="142" name="Agent" start="139"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1005" frameName="Have_as_requirement">
+                  <layers>
+                    <layer ID="100501" name="Target">
+                      <labels>
+                        <label ID="10050101" end="83" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100502" name="FE">
+                      <labels>
+                        <label ID="10050201" end="78" name="Dependent" start="77"/>
+                        <label ID="10050202" end="88" name="Requirement" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1006" frameName="Choosing">
+                  <layers>
+                    <layer ID="100601" name="Target">
+                      <labels>
+                        <label ID="10060101" end="174" name="Target" start="169"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1007" frameName="People_by_age">
+                  <layers>
+                    <layer ID="100701" name="Target">
+                      <labels>
+                        <label ID="10070101" end="167" name="Target" start="156"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100702" name="FE">
+                      <labels>
+                        <label ID="10070201" end="167" name="Person" start="156"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1008" frameName="Difficulty">
+                  <layers>
+                    <layer ID="100801" name="Target">
+                      <labels>
+                        <label ID="10080101" end="75" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100802" name="FE">
+                      <labels>
+                        <label ID="10080201" end="135" name="Activity" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1009" frameName="Theft">
+                  <layers>
+                    <layer ID="100901" name="Target">
+                      <labels>
+                        <label ID="10090101" end="154" name="Target" start="151"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100902" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1010" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="101001" name="Target">
+                      <labels>
+                        <label ID="10100101" end="101" name="Target" start="98"/>
+                      </labels>
+                    </layer>
+                    <layer ID="101002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1011" frameName="Likelihood">
+                  <layers>
+                    <layer ID="101101" name="Target">
+                      <labels>
+                        <label ID="10110101" end="34" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="101102" name="FE">
+                      <labels>
+                        <label ID="10110201" end="28" name="Hypothetical_event" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1012" frameName="Importance">
+                  <layers>
+                    <layer ID="101201" name="Target">
+                      <labels>
+                        <label ID="10120101" end="96" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="101202" name="FE">
+                      <labels>
+                        <label ID="10120201" end="88" name="Factor" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1013" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="101301" name="Target">
+                      <labels>
+                        <label ID="10130101" end="13" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="101302" name="FE">
+                      <labels>
+                        <label ID="10130201" end="13" name="Unit" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1014" frameName="Commerce_sell">
+                  <layers>
+                    <layer ID="101401" name="Target">
+                      <labels>
+                        <label ID="10140101" end="123" name="Target" start="120"/>
+                      </labels>
+                    </layer>
+                    <layer ID="101402" name="FE">
+                      <labels>
+                        <label ID="10140201" end="114" name="Goods" start="109"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>I know , just because someone has money doesnÃ¢â&#130;¬â&#132;¢t mean they are a sellout .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Causation">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="58" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels>
+                        <label ID="11000201" end="77" name="Effect" start="60"/>
+                        <label ID="11000202" end="53" name="Cause" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Money">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="38" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="38" name="Money" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Awareness">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="5" name="Target" start="2"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="0" name="Cognizer" start="0"/>
+                        <label ID="11020202" end="77" name="Content" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>I just think their message is outdated , hollow and falling on deaf ears or at least ears that were too busy texting to pay attention .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Lively_place">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="107" name="Target" start="104"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="102" name="Location" start="100"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Commerce_pay">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="122" name="Target" start="120"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="132" name="Goods" start="124"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Relational_quantity">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="83" name="Target" start="76"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="88" name="Individuals" start="85"/>
+                        <label ID="12020202" end="77" name="Denoted_quantity" start="76"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1203" frameName="Motion_directional">
+                  <layers>
+                    <layer ID="120301" name="Target">
+                      <labels>
+                        <label ID="12030101" end="58" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120302" name="FE">
+                      <labels>
+                        <label ID="12030201" end="132" name="Goal" start="60"/>
+                        <label ID="12030202" end="25" name="Theme" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1204" frameName="Sufficiency">
+                  <layers>
+                    <layer ID="120401" name="Target">
+                      <labels>
+                        <label ID="12040101" end="102" name="Target" start="100"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1205" frameName="Attention">
+                  <layers>
+                    <layer ID="120501" name="Target">
+                      <labels>
+                        <label ID="12050101" end="132" name="Target" start="124"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1206" frameName="Statement">
+                  <layers>
+                    <layer ID="120601" name="Target">
+                      <labels>
+                        <label ID="12060101" end="25" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120602" name="FE">
+                      <labels>
+                        <label ID="12060201" end="132" name="Message" start="41"/>
+                        <label ID="12060202" end="0" name="Speaker" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1207" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="120701" name="Target">
+                      <labels>
+                        <label ID="12070101" end="88" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120702" name="FE">
+                      <labels>
+                        <label ID="12070201" end="88" name="Body_part" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1208" frameName="Awareness">
+                  <layers>
+                    <layer ID="120801" name="Target">
+                      <labels>
+                        <label ID="12080101" end="11" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120802" name="FE">
+                      <labels>
+                        <label ID="12080201" end="0" name="Cognizer" start="0"/>
+                        <label ID="12080202" end="132" name="Content" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1209" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="120901" name="Target">
+                      <labels>
+                        <label ID="12090101" end="71" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120902" name="FE">
+                      <labels>
+                        <label ID="12090201" end="71" name="Body_part" start="68"/>
+                        <label ID="12090202" end="66" name="Possessor" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1210" frameName="Natural_features">
+                  <layers>
+                    <layer ID="121001" name="Target">
+                      <labels>
+                        <label ID="12100101" end="46" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="121002" name="FE">
+                      <labels>
+                        <label ID="12100201" end="46" name="Locale" start="41"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Also , IÃ¢â&#130;¬â&#132;¢m not keen to calling Green Day punk in the traditional sense of the genre of music .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="46" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Custom">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="70" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="42" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="42" name="Locale" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1303" frameName="Linguistic_meaning">
+                  <layers>
+                    <layer ID="130301" name="Target">
+                      <labels>
+                        <label ID="13030101" end="76" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130302" name="FE">
+                      <labels>
+                        <label ID="13030201" end="76" name="Meaning" start="72"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1304" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="130401" name="Target">
+                      <labels>
+                        <label ID="13040101" end="98" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130402" name="FE">
+                      <labels>
+                        <label ID="13040201" end="98" name="Performance" start="94"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1305" frameName="Make_noise">
+                  <layers>
+                    <layer ID="130501" name="Target">
+                      <labels>
+                        <label ID="13050101" end="25" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130502" name="FE">
+                      <labels>
+                        <label ID="13050201" end="98" name="Sound" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1306" frameName="Request">
+                  <layers>
+                    <layer ID="130601" name="Target">
+                      <labels>
+                        <label ID="13060101" end="36" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130602" name="FE">
+                      <labels>
+                        <label ID="13060201" end="98" name="Message" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>Ã¢â&#130;¬Å&#147;Green day used to be one of the most influential punk rock bands to date , from the days of Dookie and Kerplunk , from a time when they actually knew how to make music , when they used to rock the stage live , and CARE about their fansÃ¢â&#130;¬Â¦Ã¢â&#130;¬Â&#157; .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="180" name="Target" start="177"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels>
+                        <label ID="14000201" end="255" name="Trajector_event" start="182"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Continued_state_of_affairs">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="78" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="70" name="State_of_affairs" start="32"/>
+                        <label ID="14010202" end="78" name="Reference_occasion" start="72"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="15" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1403" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="140301" name="Target">
+                      <labels>
+                        <label ID="14030101" end="94" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140302" name="FE">
+                      <labels>
+                        <label ID="14030201" end="94" name="Unit" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1404" frameName="Awareness">
+                  <layers>
+                    <layer ID="140401" name="Target">
+                      <labels>
+                        <label ID="14040101" end="155" name="Target" start="152"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140402" name="FE">
+                      <labels>
+                        <label ID="14040201" end="141" name="Cognizer" start="138"/>
+                        <label ID="14040202" end="173" name="Content" start="157"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1405" frameName="Moving_in_place">
+                  <layers>
+                    <layer ID="140501" name="Target">
+                      <labels>
+                        <label ID="14050101" end="198" name="Target" start="195"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140502" name="FE">
+                      <labels>
+                        <label ID="14050201" end="213" name="Theme" start="200"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1406" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="140601" name="Target">
+                      <labels>
+                        <label ID="14060101" end="173" name="Target" start="169"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140602" name="FE">
+                      <labels>
+                        <label ID="14060201" end="173" name="Performance" start="169"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1407" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="140701" name="Target">
+                      <labels>
+                        <label ID="14070101" end="136" name="Target" start="133"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140702" name="FE">
+                      <labels>
+                        <label ID="14070201" end="131" name="Trajector_period" start="126"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1408" frameName="Aggregate">
+                  <layers>
+                    <layer ID="140801" name="Target">
+                      <labels>
+                        <label ID="14080101" end="70" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140802" name="FE">
+                      <labels>
+                        <label ID="14080201" end="70" name="Aggregate" start="66"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1409" frameName="Using">
+                  <layers>
+                    <layer ID="140901" name="Target">
+                      <labels>
+                        <label ID="14090101" end="20" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140902" name="FE">
+                      <labels>
+                        <label ID="14090201" end="15" name="Instrument" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1410" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="141001" name="Target">
+                      <labels>
+                        <label ID="14100101" end="131" name="Target" start="128"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141002" name="FE">
+                      <labels>
+                        <label ID="14100201" end="131" name="Unit" start="128"/>
+                        <label ID="14100202" end="255" name="Process" start="133"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1411" frameName="Subjective_influence">
+                  <layers>
+                    <layer ID="141101" name="Target">
+                      <labels>
+                        <label ID="14110101" end="54" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141102" name="FE">
+                      <labels>
+                        <label ID="14110201" end="70" name="Entity" start="66"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1412" frameName="Cause_change">
+                  <layers>
+                    <layer ID="141201" name="Target">
+                      <labels>
+                        <label ID="14120101" end="167" name="Target" start="164"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141202" name="FE">
+                      <labels>
+                        <label ID="14120201" end="173" name="Entity" start="169"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1413" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="141301" name="Target">
+                      <labels>
+                        <label ID="14130101" end="30" name="Target" start="28"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141302" name="FE">
+                      <labels>
+                        <label ID="14130201" end="70" name="Entity" start="32"/>
+                        <label ID="14130202" end="30" name="Number" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1414" frameName="Using">
+                  <layers>
+                    <layer ID="141401" name="Target">
+                      <labels>
+                        <label ID="14140101" end="190" name="Target" start="187"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141402" name="FE">
+                      <labels>
+                        <label ID="14140201" end="255" name="Purpose" start="192"/>
+                        <label ID="14140202" end="185" name="Instrument" start="182"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

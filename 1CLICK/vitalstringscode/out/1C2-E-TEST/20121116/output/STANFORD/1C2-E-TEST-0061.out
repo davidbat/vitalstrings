@@ -1,0 +1,686 @@
+1C2-E-TEST-0061-1.13	During her second year in law school, Hillary Clinton volunteered at Yale's Child Study Center, learning about new research on early childhood brain development, as well as New Haven Hospital, where she took on cases of child abuse and the city Legal Services, providing free legal service to the poor.
+1C2-E-TEST-0061-1.13/001	second
+1C2-E-TEST-0061-1.13/002	law school
+1C2-E-TEST-0061-1.13/003	hillary
+1C2-E-TEST-0061-1.13/004	yale	DEP=1C2-E-TEST-0061-1.13017
+1C2-E-TEST-0061-1.13/005	new research
+1C2-E-TEST-0061-1.13/006	early childhood brain development
+1C2-E-TEST-0061-1.13/007	new haven hospital	DEP=1C2-E-TEST-0061-1.13005
+1C2-E-TEST-0061-1.13/008	cases	DEP=1C2-E-TEST-0061-1.13019
+1C2-E-TEST-0061-1.13/009	child abuse
+1C2-E-TEST-0061-1.13/010	city	DEP=1C2-E-TEST-0061-1.13008
+1C2-E-TEST-0061-1.13/011	legal services	DEP=1C2-E-TEST-0061-1.13010
+1C2-E-TEST-0061-1.13/012	free legal service	DEP=1C2-E-TEST-0061-1.13020
+1C2-E-TEST-0061-1.13/013	poor
+1C2-E-TEST-0061-1.13/014	volunteered
+1C2-E-TEST-0061-1.13/015	child	DEP=1C2-E-TEST-0061-1.13017
+1C2-E-TEST-0061-1.13/016	study	DEP=1C2-E-TEST-0061-1.13017
+1C2-E-TEST-0061-1.13/017	center
+1C2-E-TEST-0061-1.13/018	learning	DEP=1C2-E-TEST-0061-1.13014
+1C2-E-TEST-0061-1.13/019	took	DEP=1C2-E-TEST-0061-1.13007
+1C2-E-TEST-0061-1.13/020	providing	DEP=1C2-E-TEST-0061-1.13019
+1C2-E-TEST-0061-1.14	Upon graduation from law school, she served as staff attorney for the ChildrenÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Defense Fund in Cambridge, Massachusetts.
+1C2-E-TEST-0061-1.14/001	graduation
+1C2-E-TEST-0061-1.14/002	law school
+1C2-E-TEST-0061-1.14/003	staff attorney
+1C2-E-TEST-0061-1.14/004	childrenã cents
+1C2-E-TEST-0061-1.14/005	¬	DEP=1C2-E-TEST-0061-1.14007
+1C2-E-TEST-0061-1.14/006	â cents	DEP=1C2-E-TEST-0061-1.14005
+1C2-E-TEST-0061-1.14/007	defense fund
+1C2-E-TEST-0061-1.14/008	cambridge massachusetts
+1C2-E-TEST-0061-1.14/009	served
+1C2-E-TEST-0061-1.14/010	s	DEP=1C2-E-TEST-0061-1.14007
+1C2-E-TEST-0061-1.27	President Jimmy Carter appointed her to the board of the Legal Services Corporation in 1978.
+1C2-E-TEST-0061-1.27/001	president jimmy carter	DEP=1C2-E-TEST-0061-1.27005
+1C2-E-TEST-0061-1.27/002	board
+1C2-E-TEST-0061-1.27/003	legal services corporation
+1C2-E-TEST-0061-1.27/004	1978
+1C2-E-TEST-0061-1.27/005	appointed
+1C2-E-TEST-0061-1.32	As First Lady of Arkansas for twelve years, she chaired the Arkansas Educational Standards Committee, co-founded the Arkansas Advocates for Children and Families, and served on the boards of the Arkansas Children's Hospital, Legal Services, and the Children's Defense Fund.
+1C2-E-TEST-0061-1.32/001	arkansas
+1C2-E-TEST-0061-1.32/002	twelve years
+1C2-E-TEST-0061-1.32/003	arkansas educational standards committee	DEP=1C2-E-TEST-0061-1.32011
+1C2-E-TEST-0061-1.32/004	arkansas advocates	DEP=1C2-E-TEST-0061-1.32012
+1C2-E-TEST-0061-1.32/005	children
+1C2-E-TEST-0061-1.32/006	families	DEP=1C2-E-TEST-0061-1.32005
+1C2-E-TEST-0061-1.32/007	boards
+1C2-E-TEST-0061-1.32/008	arkansas children	DEP=1C2-E-TEST-0061-1.32014
+1C2-E-TEST-0061-1.32/009	legal services	DEP=1C2-E-TEST-0061-1.32014
+1C2-E-TEST-0061-1.32/010	children	DEP=1C2-E-TEST-0061-1.32016
+1C2-E-TEST-0061-1.32/011	chaired
+1C2-E-TEST-0061-1.32/012	co-founded	DEP=1C2-E-TEST-0061-1.32011
+1C2-E-TEST-0061-1.32/013	served	DEP=1C2-E-TEST-0061-1.32011
+1C2-E-TEST-0061-1.32/014	hospital
+1C2-E-TEST-0061-1.32/015	defense	DEP=1C2-E-TEST-0061-1.32016
+1C2-E-TEST-0061-1.32/016	fund	DEP=1C2-E-TEST-0061-1.32014
+1C2-E-TEST-0061-11.10	In 1992, Governor Clinton was elected President of the United States, and as First Lady, Hillary Clinton became an advocate of health care reform and worked on many issues relating to children and families.
+1C2-E-TEST-0061-11.10/001	1992
+1C2-E-TEST-0061-11.10/002	governor
+1C2-E-TEST-0061-11.10/003	president	DEP=1C2-E-TEST-0061-11.10010
+1C2-E-TEST-0061-11.10/004	united states
+1C2-E-TEST-0061-11.10/005	hillary
+1C2-E-TEST-0061-11.10/006	advocate	DEP=1C2-E-TEST-0061-11.10010
+1C2-E-TEST-0061-11.10/007	health care reform
+1C2-E-TEST-0061-11.10/008	issues
+1C2-E-TEST-0061-11.10/009	children families
+1C2-E-TEST-0061-11.10/010	elected
+1C2-E-TEST-0061-11.10/011	worked	DEP=1C2-E-TEST-0061-11.10006
+1C2-E-TEST-0061-11.10/012	relating	DEP=1C2-E-TEST-0061-11.10011
+1C2-E-TEST-0061-11.16	In 2000, Hillary Clinton made history as the first First Lady elected to the United States Senate, and the first woman elected statewide in New York.
+1C2-E-TEST-0061-11.16/001	2000
+1C2-E-TEST-0061-11.16/002	hillary
+1C2-E-TEST-0061-11.16/003	history	DEP=1C2-E-TEST-0061-11.16007
+1C2-E-TEST-0061-11.16/004	united states senate
+1C2-E-TEST-0061-11.16/005	woman
+1C2-E-TEST-0061-11.16/006	new york
+1C2-E-TEST-0061-11.16/007	made
+1C2-E-TEST-0061-11.16/008	elected
+1C2-E-TEST-0061-11.16/009	elected	DEP=1C2-E-TEST-0061-11.16005
+1C2-E-TEST-0061-11.16/010	statewide	DEP=1C2-E-TEST-0061-11.16009
+1C2-E-TEST-0061-11.8	She was an assistant professor at the University of Arkansas School of Law, and after working to strengthen the local legal aid office, she was appointed by President Jimmy Carter in 1977 to serve on the board of the Legal Services Corporation, which she later chaired.
+1C2-E-TEST-0061-11.8/001	assistant professor
+1C2-E-TEST-0061-11.8/002	university
+1C2-E-TEST-0061-11.8/003	arkansas school
+1C2-E-TEST-0061-11.8/004	law
+1C2-E-TEST-0061-11.8/005	local legal aid office	DEP=1C2-E-TEST-0061-11.8011
+1C2-E-TEST-0061-11.8/006	president jimmy carter
+1C2-E-TEST-0061-11.8/007	1977
+1C2-E-TEST-0061-11.8/008	board
+1C2-E-TEST-0061-11.8/009	legal services corporation
+1C2-E-TEST-0061-11.8/010	working
+1C2-E-TEST-0061-11.8/011	strengthen	DEP=1C2-E-TEST-0061-11.8010
+1C2-E-TEST-0061-11.8/012	appointed	DEP=1C2-E-TEST-0061-11.8001
+1C2-E-TEST-0061-11.8/013	serve	DEP=1C2-E-TEST-0061-11.8012
+1C2-E-TEST-0061-11.8/014	later	DEP=1C2-E-TEST-0061-11.8015
+1C2-E-TEST-0061-11.8/015	chaired	DEP=1C2-E-TEST-0061-11.8009
+1C2-E-TEST-0061-11.9	During her 12 years as First Lady of the State of Arkansas, she was Chairwoman of the Arkansas Education Standards Committee, co-founded the Arkansas Advocates for Children and Families, and served on the boards of the Arkansas Children's Hospital, and the Children's Defense Fund.
+1C2-E-TEST-0061-11.9/001	12 years
+1C2-E-TEST-0061-11.9/002	state
+1C2-E-TEST-0061-11.9/003	arkansas
+1C2-E-TEST-0061-11.9/004	chairwoman
+1C2-E-TEST-0061-11.9/005	arkansas education standards committee
+1C2-E-TEST-0061-11.9/006	arkansas advocates	DEP=1C2-E-TEST-0061-11.9012
+1C2-E-TEST-0061-11.9/007	children
+1C2-E-TEST-0061-11.9/008	families	DEP=1C2-E-TEST-0061-11.9007
+1C2-E-TEST-0061-11.9/009	boards
+1C2-E-TEST-0061-11.9/010	arkansas children	DEP=1C2-E-TEST-0061-11.9014
+1C2-E-TEST-0061-11.9/011	children	DEP=1C2-E-TEST-0061-11.9016
+1C2-E-TEST-0061-11.9/012	co-founded	DEP=1C2-E-TEST-0061-11.9004
+1C2-E-TEST-0061-11.9/013	served	DEP=1C2-E-TEST-0061-11.9004
+1C2-E-TEST-0061-11.9/014	hospital
+1C2-E-TEST-0061-11.9/015	defense	DEP=1C2-E-TEST-0061-11.9016
+1C2-E-TEST-0061-11.9/016	fund	DEP=1C2-E-TEST-0061-11.9009
+1C2-E-TEST-0061-148.12	After moving to the state of New York, Clinton was elected as a U.S. Senator in 2000.
+1C2-E-TEST-0061-148.12/001	state
+1C2-E-TEST-0061-148.12/002	new york
+1C2-E-TEST-0061-148.12/003	u.s. senator
+1C2-E-TEST-0061-148.12/004	2000
+1C2-E-TEST-0061-148.12/005	moving
+1C2-E-TEST-0061-148.12/006	elected
+1C2-E-TEST-0061-148.142	When Bill Clinton took office as president in January 1993, Hillary Rodham Clinton became the First Lady of the United States, and announced that she would be using that form of her name.
+1C2-E-TEST-0061-148.142/001	bill
+1C2-E-TEST-0061-148.142/002	office	DEP=1C2-E-TEST-0061-148.142008
+1C2-E-TEST-0061-148.142/003	president
+1C2-E-TEST-0061-148.142/004	january 1993
+1C2-E-TEST-0061-148.142/005	hillary rodham
+1C2-E-TEST-0061-148.142/006	united states
+1C2-E-TEST-0061-148.142/007	name
+1C2-E-TEST-0061-148.142/008	took
+1C2-E-TEST-0061-148.142/009	announced
+1C2-E-TEST-0061-148.142/010	form
+1C2-E-TEST-0061-148.171	In 1997, she initiated and shepherded the Adoption and Safe Families Act , which she regarded as her greatest accomplishment as First Lady.
+1C2-E-TEST-0061-148.171/001	1997
+1C2-E-TEST-0061-148.171/002	adoption	DEP=1C2-E-TEST-0061-148.171007
+1C2-E-TEST-0061-148.171/003	safe families	DEP=1C2-E-TEST-0061-148.171007
+1C2-E-TEST-0061-148.171/004	greatest accomplishment
+1C2-E-TEST-0061-148.171/005	initiated
+1C2-E-TEST-0061-148.171/006	shepherded	DEP=1C2-E-TEST-0061-148.171005
+1C2-E-TEST-0061-148.171/007	act	DEP=1C2-E-TEST-0061-148.171005
+1C2-E-TEST-0061-148.171/008	regarded	DEP=1C2-E-TEST-0061-148.171007
+1C2-E-TEST-0061-155.10	Entering Yale Law School in 1969, she served on the Board of Editors of Yale Law Review and Social Action, interned with children's advocate Marian Wright Edelman, and met Bill Clinton.
+1C2-E-TEST-0061-155.10/001	yale law school	DEP=1C2-E-TEST-0061-155.10009
+1C2-E-TEST-0061-155.10/002	1969
+1C2-E-TEST-0061-155.10/003	board
+1C2-E-TEST-0061-155.10/004	editors
+1C2-E-TEST-0061-155.10/005	yale law review
+1C2-E-TEST-0061-155.10/006	social action	DEP=1C2-E-TEST-0061-155.10005
+1C2-E-TEST-0061-155.10/007	children	DEP=1C2-E-TEST-0061-155.10015
+1C2-E-TEST-0061-155.10/008	bill
+1C2-E-TEST-0061-155.10/009	entering	DEP=1C2-E-TEST-0061-155.10010
+1C2-E-TEST-0061-155.10/010	served
+1C2-E-TEST-0061-155.10/011	interned	DEP=1C2-E-TEST-0061-155.10004
+1C2-E-TEST-0061-155.10/012	advocate	DEP=1C2-E-TEST-0061-155.10015
+1C2-E-TEST-0061-155.10/013	marian	DEP=1C2-E-TEST-0061-155.10015
+1C2-E-TEST-0061-155.10/014	wright	DEP=1C2-E-TEST-0061-155.10015
+1C2-E-TEST-0061-155.10/015	edelman
+1C2-E-TEST-0061-155.10/016	met	DEP=1C2-E-TEST-0061-155.10010
+1C2-E-TEST-0061-155.16	In 1978, President Jimmy Carter appointed her to the board of the Legal Services Corporation, and Bill Clinton became governor of Arkansas.
+1C2-E-TEST-0061-155.16/001	1978
+1C2-E-TEST-0061-155.16/002	president jimmy carter	DEP=1C2-E-TEST-0061-155.16008
+1C2-E-TEST-0061-155.16/003	board
+1C2-E-TEST-0061-155.16/004	legal services corporation
+1C2-E-TEST-0061-155.16/005	bill
+1C2-E-TEST-0061-155.16/006	governor	DEP=1C2-E-TEST-0061-155.16008
+1C2-E-TEST-0061-155.16/007	arkansas
+1C2-E-TEST-0061-155.16/008	appointed
+1C2-E-TEST-0061-155.18	Mrs. Clinton was Arkansas's first lady for 12 years, chairing the Arkansas Educational Standards Committee, co-founding the Arkansas Advocates for Children and Families, and serving on the boards of the Arkansas Children's Hospital, Legal Services, and the Children's Defense Fund.
+1C2-E-TEST-0061-155.18/001	mrs.
+1C2-E-TEST-0061-155.18/002	arkansas
+1C2-E-TEST-0061-155.18/003	12 years
+1C2-E-TEST-0061-155.18/004	arkansas educational standards committee	DEP=1C2-E-TEST-0061-155.18012
+1C2-E-TEST-0061-155.18/005	arkansas advocates	DEP=1C2-E-TEST-0061-155.18013
+1C2-E-TEST-0061-155.18/006	children
+1C2-E-TEST-0061-155.18/007	families	DEP=1C2-E-TEST-0061-155.18006
+1C2-E-TEST-0061-155.18/008	boards
+1C2-E-TEST-0061-155.18/009	arkansas children	DEP=1C2-E-TEST-0061-155.18015
+1C2-E-TEST-0061-155.18/010	legal services	DEP=1C2-E-TEST-0061-155.18015
+1C2-E-TEST-0061-155.18/011	children	DEP=1C2-E-TEST-0061-155.18017
+1C2-E-TEST-0061-155.18/012	chairing
+1C2-E-TEST-0061-155.18/013	co-founding	DEP=1C2-E-TEST-0061-155.18012
+1C2-E-TEST-0061-155.18/014	serving	DEP=1C2-E-TEST-0061-155.18012
+1C2-E-TEST-0061-155.18/015	hospital
+1C2-E-TEST-0061-155.18/016	defense	DEP=1C2-E-TEST-0061-155.18017
+1C2-E-TEST-0061-155.18/017	fund	DEP=1C2-E-TEST-0061-155.18015
+1C2-E-TEST-0061-155.6	Hillary Diane Rodham was born on October 26, 1947.
+1C2-E-TEST-0061-155.6/001	hillary diane rodham	DEP=1C2-E-TEST-0061-155.6003
+1C2-E-TEST-0061-155.6/002	october 26 1947
+1C2-E-TEST-0061-155.6/003	born
+1C2-E-TEST-0061-175.3	Hillary Rodham Clinton was born Hillary Diane Rodham, on October 26, 1947 , in Chicago , Illinois. Her parents were conservative Methodists. She has two other siblings - Hugh and Tony.
+1C2-E-TEST-0061-175.3/001	hillary rodham
+1C2-E-TEST-0061-175.3/002	hillary diane rodham	DEP=1C2-E-TEST-0061-175.3010
+1C2-E-TEST-0061-175.3/003	october 26 1947
+1C2-E-TEST-0061-175.3/004	chicago
+1C2-E-TEST-0061-175.3/005	illinois	DEP=1C2-E-TEST-0061-175.3004
+1C2-E-TEST-0061-175.3/006	parents	DEP=1C2-E-TEST-0061-175.3007
+1C2-E-TEST-0061-175.3/007	conservative methodists	DEP=1C2-E-TEST-0061-175.3005
+1C2-E-TEST-0061-175.3/008	two siblings
+1C2-E-TEST-0061-175.3/009	hugh tony	DEP=1C2-E-TEST-0061-175.3008
+1C2-E-TEST-0061-175.3/010	born
+1C2-E-TEST-0061-175.46	In 1988 and 1991 National Law Journal named Clinton one of the 100 most influential lawyers in America.
+1C2-E-TEST-0061-175.46/001	1988 1991
+1C2-E-TEST-0061-175.46/002	national law journal	DEP=1C2-E-TEST-0061-175.46004
+1C2-E-TEST-0061-175.46/003	america
+1C2-E-TEST-0061-175.46/004	named
+1C2-E-TEST-0061-175.46/005	100	DEP=1C2-E-TEST-0061-175.46007
+1C2-E-TEST-0061-175.46/006	influential	DEP=1C2-E-TEST-0061-175.46007
+1C2-E-TEST-0061-175.46/007	lawyers
+1C2-E-TEST-0061-175.47	Clinton co-founded the Arkansas Advocates for Children and Families and served on the boards of the Arkansas Children's Hospital Legal Services and the Children's Defense Fund.
+1C2-E-TEST-0061-175.47/001	arkansas advocates	DEP=1C2-E-TEST-0061-175.47007
+1C2-E-TEST-0061-175.47/002	children
+1C2-E-TEST-0061-175.47/003	families	DEP=1C2-E-TEST-0061-175.47002
+1C2-E-TEST-0061-175.47/004	boards
+1C2-E-TEST-0061-175.47/005	arkansas children	DEP=1C2-E-TEST-0061-175.47011
+1C2-E-TEST-0061-175.47/006	children	DEP=1C2-E-TEST-0061-175.47013
+1C2-E-TEST-0061-175.47/007	co-founded
+1C2-E-TEST-0061-175.47/008	served	DEP=1C2-E-TEST-0061-175.47007
+1C2-E-TEST-0061-175.47/009	hospital	DEP=1C2-E-TEST-0061-175.47011
+1C2-E-TEST-0061-175.47/010	legal	DEP=1C2-E-TEST-0061-175.47011
+1C2-E-TEST-0061-175.47/011	services
+1C2-E-TEST-0061-175.47/012	defense	DEP=1C2-E-TEST-0061-175.47013
+1C2-E-TEST-0061-175.47/013	fund	DEP=1C2-E-TEST-0061-175.47011
+1C2-E-TEST-0061-175.53	Hillary Rodham Clinton was the First Lady of the United States from 1993 to 2001.
+1C2-E-TEST-0061-175.53/001	hillary rodham
+1C2-E-TEST-0061-175.53/002	united states
+1C2-E-TEST-0061-175.53/003	1993 2001
+1C2-E-TEST-0061-175.68	One of the programs she helped create was Vital Voices, a U.S.-sponsored initiative to promote the participation of international women in their nation's political process.
+1C2-E-TEST-0061-175.68/001	programs
+1C2-E-TEST-0061-175.68/002	vital voices
+1C2-E-TEST-0061-175.68/003	participation	DEP=1C2-E-TEST-0061-175.68010
+1C2-E-TEST-0061-175.68/004	international women
+1C2-E-TEST-0061-175.68/005	nation	DEP=1C2-E-TEST-0061-175.68012
+1C2-E-TEST-0061-175.68/006	helped	DEP=1C2-E-TEST-0061-175.68001
+1C2-E-TEST-0061-175.68/007	create	DEP=1C2-E-TEST-0061-175.68006
+1C2-E-TEST-0061-175.68/008	u.s.-sponsored	DEP=1C2-E-TEST-0061-175.68009
+1C2-E-TEST-0061-175.68/009	initiative	DEP=1C2-E-TEST-0061-175.68002
+1C2-E-TEST-0061-175.68/010	promote	DEP=1C2-E-TEST-0061-175.68009
+1C2-E-TEST-0061-175.68/011	political	DEP=1C2-E-TEST-0061-175.68012
+1C2-E-TEST-0061-175.68/012	process
+1C2-E-TEST-0061-187.100	As First Lady of Arkansas, Hillary Clinton chaired the Arkansas Educational Standards Committee from 1982 to 1992, where she sought to bring about reform in the state's court-sanctioned public education system.
+1C2-E-TEST-0061-187.100/001	arkansas
+1C2-E-TEST-0061-187.100/002	hillary
+1C2-E-TEST-0061-187.100/003	arkansas educational standards committee	DEP=1C2-E-TEST-0061-187.100008
+1C2-E-TEST-0061-187.100/004	1982
+1C2-E-TEST-0061-187.100/005	1992
+1C2-E-TEST-0061-187.100/006	reform	DEP=1C2-E-TEST-0061-187.100010
+1C2-E-TEST-0061-187.100/007	state	DEP=1C2-E-TEST-0061-187.100014
+1C2-E-TEST-0061-187.100/008	chaired
+1C2-E-TEST-0061-187.100/009	sought	DEP=1C2-E-TEST-0061-187.100008
+1C2-E-TEST-0061-187.100/010	bring	DEP=1C2-E-TEST-0061-187.100009
+1C2-E-TEST-0061-187.100/011	court-sanctioned	DEP=1C2-E-TEST-0061-187.100014
+1C2-E-TEST-0061-187.100/012	public	DEP=1C2-E-TEST-0061-187.100014
+1C2-E-TEST-0061-187.100/013	education	DEP=1C2-E-TEST-0061-187.100014
+1C2-E-TEST-0061-187.100/014	system
+1C2-E-TEST-0061-187.103	She was named Arkansas Woman of the Year in 1983 and Arkansas Mother of the Year in 1984.
+1C2-E-TEST-0061-187.103/001	arkansas woman	DEP=1C2-E-TEST-0061-187.103005
+1C2-E-TEST-0061-187.103/002	1983
+1C2-E-TEST-0061-187.103/003	arkansas mother
+1C2-E-TEST-0061-187.103/004	1984
+1C2-E-TEST-0061-187.103/005	named
+1C2-E-TEST-0061-187.112	Clinton served on the boards of the Arkansas Children's Hospital Legal Services (1988ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ1992) and the Children's Defense Fund (as chair, 1986ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ1992).
+1C2-E-TEST-0061-187.112/001	boards
+1C2-E-TEST-0061-187.112/002	arkansas children	DEP=1C2-E-TEST-0061-187.112014
+1C2-E-TEST-0061-187.112/003	1988ã cents	DEP=1C2-E-TEST-0061-187.112001
+1C2-E-TEST-0061-187.112/004	â ¬	DEP=1C2-E-TEST-0061-187.112015
+1C2-E-TEST-0061-187.112/005	1992
+1C2-E-TEST-0061-187.112/006	children	DEP=1C2-E-TEST-0061-187.112017
+1C2-E-TEST-0061-187.112/007	chair
+1C2-E-TEST-0061-187.112/008	1986ã cents	DEP=1C2-E-TEST-0061-187.112017
+1C2-E-TEST-0061-187.112/009	â ¬	DEP=1C2-E-TEST-0061-187.112018
+1C2-E-TEST-0061-187.112/010	1992
+1C2-E-TEST-0061-187.112/011	served
+1C2-E-TEST-0061-187.112/012	hospital	DEP=1C2-E-TEST-0061-187.112014
+1C2-E-TEST-0061-187.112/013	legal	DEP=1C2-E-TEST-0061-187.112014
+1C2-E-TEST-0061-187.112/014	services
+1C2-E-TEST-0061-187.112/015	â	DEP=1C2-E-TEST-0061-187.112003
+1C2-E-TEST-0061-187.112/016	defense	DEP=1C2-E-TEST-0061-187.112017
+1C2-E-TEST-0061-187.112/017	fund	DEP=1C2-E-TEST-0061-187.112001
+1C2-E-TEST-0061-187.112/018	â	DEP=1C2-E-TEST-0061-187.112008
+1C2-E-TEST-0061-187.145	Along with Senator Ted Kennedy, she was the major force behind the State Children's Health Insurance Program in 1997, a federal effort that provided state support for children whose parents were unable to provide them with health coverage.
+1C2-E-TEST-0061-187.145/001	senator ted kennedy
+1C2-E-TEST-0061-187.145/002	major force
+1C2-E-TEST-0061-187.145/003	state children	DEP=1C2-E-TEST-0061-187.145011
+1C2-E-TEST-0061-187.145/004	1997
+1C2-E-TEST-0061-187.145/005	federal effort	DEP=1C2-E-TEST-0061-187.145004
+1C2-E-TEST-0061-187.145/006	state support	DEP=1C2-E-TEST-0061-187.145012
+1C2-E-TEST-0061-187.145/007	children
+1C2-E-TEST-0061-187.145/008	health coverage
+1C2-E-TEST-0061-187.145/009	health	DEP=1C2-E-TEST-0061-187.145011
+1C2-E-TEST-0061-187.145/010	insurance	DEP=1C2-E-TEST-0061-187.145011
+1C2-E-TEST-0061-187.145/011	program
+1C2-E-TEST-0061-187.145/012	provided	DEP=1C2-E-TEST-0061-187.145005
+1C2-E-TEST-0061-187.145/013	parents
+1C2-E-TEST-0061-187.213	Clinton won the election on November 7, 2000 , with 55ÃÂÃÂ percent of the vote to Lazio's 43ÃÂÃÂ percent.
+1C2-E-TEST-0061-187.213/001	election	DEP=1C2-E-TEST-0061-187.213006
+1C2-E-TEST-0061-187.213/002	november 7 2000
+1C2-E-TEST-0061-187.213/003	55ã â percent
+1C2-E-TEST-0061-187.213/004	vote
+1C2-E-TEST-0061-187.213/005	lazio	DEP=1C2-E-TEST-0061-187.213009
+1C2-E-TEST-0061-187.213/006	won
+1C2-E-TEST-0061-187.213/007	43ã	DEP=1C2-E-TEST-0061-187.213009
+1C2-E-TEST-0061-187.213/008	â	DEP=1C2-E-TEST-0061-187.213009
+1C2-E-TEST-0061-187.213/009	percent
+1C2-E-TEST-0061-187.50	Rodham then entered Yale Law School, where she served on the Board of Editors of the Yale Review of Law and Social Action.
+1C2-E-TEST-0061-187.50/001	rodham	DEP=1C2-E-TEST-0061-187.50008
+1C2-E-TEST-0061-187.50/002	yale law school	DEP=1C2-E-TEST-0061-187.50008
+1C2-E-TEST-0061-187.50/003	board
+1C2-E-TEST-0061-187.50/004	editors
+1C2-E-TEST-0061-187.50/005	yale review
+1C2-E-TEST-0061-187.50/006	law
+1C2-E-TEST-0061-187.50/007	social action	DEP=1C2-E-TEST-0061-187.50006
+1C2-E-TEST-0061-187.50/008	entered
+1C2-E-TEST-0061-187.50/009	served	DEP=1C2-E-TEST-0061-187.50002
+1C2-E-TEST-0061-187.66	During 1974 she was a member of the impeachment inquiry staff in Washington, D.C. , advising the House Committee on the Judiciary during the Watergate scandal.
+1C2-E-TEST-0061-187.66/001	1974
+1C2-E-TEST-0061-187.66/002	member	DEP=1C2-E-TEST-0061-187.66008
+1C2-E-TEST-0061-187.66/003	impeachment inquiry staff
+1C2-E-TEST-0061-187.66/004	washington d.c.
+1C2-E-TEST-0061-187.66/005	house committee	DEP=1C2-E-TEST-0061-187.66008
+1C2-E-TEST-0061-187.66/006	judiciary
+1C2-E-TEST-0061-187.66/007	watergate scandal
+1C2-E-TEST-0061-187.66/008	advising
+1C2-E-TEST-0061-187.84	Rodham co-founded the Arkansas Advocates for Children and Families, a state-level alliance with the Children's Defense Fund, in 1977.
+1C2-E-TEST-0061-187.84/001	rodham	DEP=1C2-E-TEST-0061-187.84008
+1C2-E-TEST-0061-187.84/002	arkansas advocates	DEP=1C2-E-TEST-0061-187.84008
+1C2-E-TEST-0061-187.84/003	children
+1C2-E-TEST-0061-187.84/004	families	DEP=1C2-E-TEST-0061-187.84003
+1C2-E-TEST-0061-187.84/005	state-level alliance	DEP=1C2-E-TEST-0061-187.84004
+1C2-E-TEST-0061-187.84/006	children	DEP=1C2-E-TEST-0061-187.84010
+1C2-E-TEST-0061-187.84/007	1977
+1C2-E-TEST-0061-187.84/008	co-founded
+1C2-E-TEST-0061-187.84/009	defense	DEP=1C2-E-TEST-0061-187.84010
+1C2-E-TEST-0061-187.84/010	fund
+1C2-E-TEST-0061-187.90	In 1979, she became the first woman to be made a full partner of Rose Law Firm.
+1C2-E-TEST-0061-187.90/001	1979
+1C2-E-TEST-0061-187.90/002	woman
+1C2-E-TEST-0061-187.90/003	full partner	DEP=1C2-E-TEST-0061-187.90005
+1C2-E-TEST-0061-187.90/004	rose law firm
+1C2-E-TEST-0061-187.90/005	made	DEP=1C2-E-TEST-0061-187.90002
+1C2-E-TEST-0061-211.6	Served as Democratic U.S. Senator representing New York State from 2001-2009
+1C2-E-TEST-0061-211.6/001	democratic u.s. senator
+1C2-E-TEST-0061-211.6/002	new york state	DEP=1C2-E-TEST-0061-211.6005
+1C2-E-TEST-0061-211.6/003	2001-2009
+1C2-E-TEST-0061-211.6/004	served
+1C2-E-TEST-0061-211.6/005	representing	DEP=1C2-E-TEST-0061-211.6001
+1C2-E-TEST-0061-238.104	Following the September 11, 2001, attacks, Clinton sought to obtain funding for the recovery efforts in New York City and security improvements in her state.
+1C2-E-TEST-0061-238.104/001	september 11 2001	DEP=1C2-E-TEST-0061-238.104008
+1C2-E-TEST-0061-238.104/002	attacks	DEP=1C2-E-TEST-0061-238.104001
+1C2-E-TEST-0061-238.104/003	funding	DEP=1C2-E-TEST-0061-238.104010
+1C2-E-TEST-0061-238.104/004	recovery efforts
+1C2-E-TEST-0061-238.104/005	new york city
+1C2-E-TEST-0061-238.104/006	security improvements	DEP=1C2-E-TEST-0061-238.104005
+1C2-E-TEST-0061-238.104/007	state
+1C2-E-TEST-0061-238.104/008	following	DEP=1C2-E-TEST-0061-238.104009
+1C2-E-TEST-0061-238.104/009	sought
+1C2-E-TEST-0061-238.104/010	obtain	DEP=1C2-E-TEST-0061-238.104009
+1C2-E-TEST-0061-238.83	The long-serving United States Senator from New York, Daniel Patrick Moynihan, announced his retirement in November 1998.
+1C2-E-TEST-0061-238.83/001	long-serving united states senator	DEP=1C2-E-TEST-0061-238.83006
+1C2-E-TEST-0061-238.83/002	new york
+1C2-E-TEST-0061-238.83/003	daniel patrick moynihan	DEP=1C2-E-TEST-0061-238.83002
+1C2-E-TEST-0061-238.83/004	retirement	DEP=1C2-E-TEST-0061-238.83006
+1C2-E-TEST-0061-238.83/005	november 1998
+1C2-E-TEST-0061-238.83/006	announced
+1C2-E-TEST-0061-267.36	She also was appointed by President Jimmy Carter to the board of the Legal Services Corporation in Washington (1978 to 1981), a federally-funded program that provided legal assistance to the poor.
+1C2-E-TEST-0061-267.36/001	president jimmy carter
+1C2-E-TEST-0061-267.36/002	board
+1C2-E-TEST-0061-267.36/003	legal services corporation
+1C2-E-TEST-0061-267.36/004	washington
+1C2-E-TEST-0061-267.36/005	1978	DEP=1C2-E-TEST-0061-267.36004
+1C2-E-TEST-0061-267.36/006	1981
+1C2-E-TEST-0061-267.36/007	federally-funded program	DEP=1C2-E-TEST-0061-267.36004
+1C2-E-TEST-0061-267.36/008	legal assistance	DEP=1C2-E-TEST-0061-267.36011
+1C2-E-TEST-0061-267.36/009	poor
+1C2-E-TEST-0061-267.36/010	appointed
+1C2-E-TEST-0061-267.36/011	provided	DEP=1C2-E-TEST-0061-267.36007
+1C2-E-TEST-0061-267.7	Hillary Diane Rodham was born on October 26, 1947, in Chicago, Illinois.
+1C2-E-TEST-0061-267.7/001	hillary diane rodham	DEP=1C2-E-TEST-0061-267.7004
+1C2-E-TEST-0061-267.7/002	october 26 1947
+1C2-E-TEST-0061-267.7/003	chicago illinois
+1C2-E-TEST-0061-267.7/004	born
+1C2-E-TEST-0061-40.106	MarckÃÂÃÂ ÃÂÃÂ  Hillary Rodham Clinton First Lady: 1993-2001 Wife of President William Jefferson Clinton Born: October 26, 1947 Hillary Rodham was born in Chicago, Illinois, the daughter of Hugh and Dorothy Rodham.
+1C2-E-TEST-0061-40.106/001	marckã â ã â	DEP=1C2-E-TEST-0061-40.106011
+1C2-E-TEST-0061-40.106/002	hillary rodham
+1C2-E-TEST-0061-40.106/003	1993-2001 wife
+1C2-E-TEST-0061-40.106/004	president william jefferson born
+1C2-E-TEST-0061-40.106/005	october 26 1947
+1C2-E-TEST-0061-40.106/006	hillary rodham	DEP=1C2-E-TEST-0061-40.106011
+1C2-E-TEST-0061-40.106/007	chicago
+1C2-E-TEST-0061-40.106/008	illinois	DEP=1C2-E-TEST-0061-40.106009
+1C2-E-TEST-0061-40.106/009	daughter	DEP=1C2-E-TEST-0061-40.106011
+1C2-E-TEST-0061-40.106/010	hugh dorothy	DEP=1C2-E-TEST-0061-40.106012
+1C2-E-TEST-0061-40.106/011	born
+1C2-E-TEST-0061-40.106/012	rodham
+1C2-E-TEST-0061-40.107	Hillary was educated Hillary Rodham Clinton First Lady: 1993-2001 Wife of President William Jefferson Clinton Born: October 26, 1947 Hillary Rodham was born in Chicago, Illinois, the daughter of Hugh and Dorothy Rodham.
+1C2-E-TEST-0061-40.107/001	hillary	DEP=1C2-E-TEST-0061-40.107009
+1C2-E-TEST-0061-40.107/002	hillary rodham
+1C2-E-TEST-0061-40.107/003	1993-2001 wife
+1C2-E-TEST-0061-40.107/004	president william jefferson born
+1C2-E-TEST-0061-40.107/005	hillary rodham	DEP=1C2-E-TEST-0061-40.107013
+1C2-E-TEST-0061-40.107/006	chicago illinois
+1C2-E-TEST-0061-40.107/007	daughter	DEP=1C2-E-TEST-0061-40.107006
+1C2-E-TEST-0061-40.107/008	hugh dorothy	DEP=1C2-E-TEST-0061-40.107014
+1C2-E-TEST-0061-40.107/009	educated	DEP=1C2-E-TEST-0061-40.107013
+1C2-E-TEST-0061-40.107/010	october	DEP=1C2-E-TEST-0061-40.107009
+1C2-E-TEST-0061-40.107/011	26	DEP=1C2-E-TEST-0061-40.107010
+1C2-E-TEST-0061-40.107/012	1947	DEP=1C2-E-TEST-0061-40.107010
+1C2-E-TEST-0061-40.107/013	born
+1C2-E-TEST-0061-40.107/014	rodham
+1C2-E-TEST-0061-40.116	Rodham Clinton Hillary Rodham Clinton During the 1992 presidential campaign, Hillary Rodham Clinton observed, "Our lives are a mixture of different roles.
+1C2-E-TEST-0061-40.116/001	rodham hillary rodham
+1C2-E-TEST-0061-40.116/002	1992 presidential campaign
+1C2-E-TEST-0061-40.116/003	hillary rodham
+1C2-E-TEST-0061-40.116/004	lives	DEP=1C2-E-TEST-0061-40.116005
+1C2-E-TEST-0061-40.116/005	mixture	DEP=1C2-E-TEST-0061-40.116007
+1C2-E-TEST-0061-40.116/006	different roles
+1C2-E-TEST-0061-40.116/007	observed
+1C2-E-TEST-0061-40.12	After entering Yale Law School in 1969, Rodham served on the board of editors of the Yale Review of Law and Social Action and provided legal advice for underprivileged and abused children at Yale-New Haven Hospital.
+1C2-E-TEST-0061-40.12/001	yale law school	DEP=1C2-E-TEST-0061-40.12013
+1C2-E-TEST-0061-40.12/002	1969
+1C2-E-TEST-0061-40.12/003	rodham	DEP=1C2-E-TEST-0061-40.12014
+1C2-E-TEST-0061-40.12/004	board
+1C2-E-TEST-0061-40.12/005	editors
+1C2-E-TEST-0061-40.12/006	yale review
+1C2-E-TEST-0061-40.12/007	law
+1C2-E-TEST-0061-40.12/008	social action	DEP=1C2-E-TEST-0061-40.12007
+1C2-E-TEST-0061-40.12/009	legal advice	DEP=1C2-E-TEST-0061-40.12015
+1C2-E-TEST-0061-40.12/010	underprivileged
+1C2-E-TEST-0061-40.12/011	children	DEP=1C2-E-TEST-0061-40.12016
+1C2-E-TEST-0061-40.12/012	yale-new haven hospital
+1C2-E-TEST-0061-40.12/013	entering
+1C2-E-TEST-0061-40.12/014	served
+1C2-E-TEST-0061-40.12/015	provided	DEP=1C2-E-TEST-0061-40.12014
+1C2-E-TEST-0061-40.12/016	abused	DEP=1C2-E-TEST-0061-40.12014
+1C2-E-TEST-0061-40.27	Rodham Clinton joined the Rose Law Firm in 1976.
+1C2-E-TEST-0061-40.27/001	rodham
+1C2-E-TEST-0061-40.27/002	rose law firm	DEP=1C2-E-TEST-0061-40.27004
+1C2-E-TEST-0061-40.27/003	1976
+1C2-E-TEST-0061-40.27/004	joined
+1C2-E-TEST-0061-40.28	Two years later, Rodham Clinton was appointed to the board of the Legal Services Corporation by President Jimmy Carter , and Clinton was elected to the governor's office.
+1C2-E-TEST-0061-40.28/001	two years	DEP=1C2-E-TEST-0061-40.28007
+1C2-E-TEST-0061-40.28/002	rodham
+1C2-E-TEST-0061-40.28/003	board
+1C2-E-TEST-0061-40.28/004	legal services corporation
+1C2-E-TEST-0061-40.28/005	president jimmy carter
+1C2-E-TEST-0061-40.28/006	governor	DEP=1C2-E-TEST-0061-40.28010
+1C2-E-TEST-0061-40.28/007	later	DEP=1C2-E-TEST-0061-40.28008
+1C2-E-TEST-0061-40.28/008	appointed
+1C2-E-TEST-0061-40.28/009	elected	DEP=1C2-E-TEST-0061-40.28008
+1C2-E-TEST-0061-40.28/010	office
+1C2-E-TEST-0061-40.32	The first lady also served on the Arkansas ChildrenÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Hospital Legal Services board, ChildrenÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Defense Fund board, while continuing to work for the Rose Law Firm.
+1C2-E-TEST-0061-40.32/001	arkansas childrenã
+1C2-E-TEST-0061-40.32/002	cents
+1C2-E-TEST-0061-40.32/003	¬	DEP=1C2-E-TEST-0061-40.32005
+1C2-E-TEST-0061-40.32/004	â cents	DEP=1C2-E-TEST-0061-40.32003
+1C2-E-TEST-0061-40.32/005	hospital legal services board
+1C2-E-TEST-0061-40.32/006	childrenã cents
+1C2-E-TEST-0061-40.32/007	¬	DEP=1C2-E-TEST-0061-40.32009
+1C2-E-TEST-0061-40.32/008	â cents	DEP=1C2-E-TEST-0061-40.32007
+1C2-E-TEST-0061-40.32/009	defense fund board
+1C2-E-TEST-0061-40.32/010	continuing	DEP=1C2-E-TEST-0061-40.32015
+1C2-E-TEST-0061-40.32/011	rose law firm
+1C2-E-TEST-0061-40.32/012	served
+1C2-E-TEST-0061-40.32/013	s	DEP=1C2-E-TEST-0061-40.32005
+1C2-E-TEST-0061-40.32/014	s	DEP=1C2-E-TEST-0061-40.32009
+1C2-E-TEST-0061-40.32/015	work	DEP=1C2-E-TEST-0061-40.32009
+1C2-E-TEST-0061-40.50	When the Clintons moved into the White House in 1993, the president appointed his wife to head the Task Force on National Health Care Reform that proposed a national health plan.
+1C2-E-TEST-0061-40.50/001	clintons	DEP=1C2-E-TEST-0061-40.50008
+1C2-E-TEST-0061-40.50/002	white house
+1C2-E-TEST-0061-40.50/003	1993
+1C2-E-TEST-0061-40.50/004	president	DEP=1C2-E-TEST-0061-40.50009
+1C2-E-TEST-0061-40.50/005	task force	DEP=1C2-E-TEST-0061-40.50011
+1C2-E-TEST-0061-40.50/006	national health care reform
+1C2-E-TEST-0061-40.50/007	national health plan	DEP=1C2-E-TEST-0061-40.50012
+1C2-E-TEST-0061-40.50/008	moved	DEP=1C2-E-TEST-0061-40.50009
+1C2-E-TEST-0061-40.50/009	appointed
+1C2-E-TEST-0061-40.50/010	wife	DEP=1C2-E-TEST-0061-40.50009
+1C2-E-TEST-0061-40.50/011	head	DEP=1C2-E-TEST-0061-40.50010
+1C2-E-TEST-0061-40.50/012	proposed	DEP=1C2-E-TEST-0061-40.50006
+1C2-E-TEST-0061-6.13	During her years as First Lady of Arkansas from 1983 until 1992, she served as chair of the Arkansas Educational Standards Committee, established the Arkansas' Home Instruction Program for Preschool Youth in 1985, and was honored by being named the Arkansas Woman of the Year in 1983 and Arkansas Mother of the Year in 1984.
+1C2-E-TEST-0061-6.13/001	years
+1C2-E-TEST-0061-6.13/002	arkansas
+1C2-E-TEST-0061-6.13/003	1983
+1C2-E-TEST-0061-6.13/004	1992
+1C2-E-TEST-0061-6.13/005	chair
+1C2-E-TEST-0061-6.13/006	arkansas educational standards committee
+1C2-E-TEST-0061-6.13/007	arkansas	DEP=1C2-E-TEST-0061-6.13018
+1C2-E-TEST-0061-6.13/008	preschool youth
+1C2-E-TEST-0061-6.13/009	1985
+1C2-E-TEST-0061-6.13/010	arkansas woman	DEP=1C2-E-TEST-0061-6.13020
+1C2-E-TEST-0061-6.13/011	1983
+1C2-E-TEST-0061-6.13/012	arkansas mother
+1C2-E-TEST-0061-6.13/013	1984
+1C2-E-TEST-0061-6.13/014	served
+1C2-E-TEST-0061-6.13/015	established	DEP=1C2-E-TEST-0061-6.13014
+1C2-E-TEST-0061-6.13/016	home	DEP=1C2-E-TEST-0061-6.13018
+1C2-E-TEST-0061-6.13/017	instruction	DEP=1C2-E-TEST-0061-6.13018
+1C2-E-TEST-0061-6.13/018	program	DEP=1C2-E-TEST-0061-6.13015
+1C2-E-TEST-0061-6.13/019	honored	DEP=1C2-E-TEST-0061-6.13014
+1C2-E-TEST-0061-6.13/020	named
+1C2-E-TEST-0061-6.5	Even before her role as First Lady of Arkansas and only a couple of years after her marriage to Bill Clinton, President Carter appointed her to the board of directors of the Legal Services Corporation, which she served from 1978 to 1981.
+1C2-E-TEST-0061-6.5/001	role
+1C2-E-TEST-0061-6.5/002	arkansas
+1C2-E-TEST-0061-6.5/003	years
+1C2-E-TEST-0061-6.5/004	marriage
+1C2-E-TEST-0061-6.5/005	bill
+1C2-E-TEST-0061-6.5/006	president carter	DEP=1C2-E-TEST-0061-6.5013
+1C2-E-TEST-0061-6.5/007	board
+1C2-E-TEST-0061-6.5/008	directors
+1C2-E-TEST-0061-6.5/009	legal services corporation
+1C2-E-TEST-0061-6.5/010	1978
+1C2-E-TEST-0061-6.5/011	1981
+1C2-E-TEST-0061-6.5/012	couple
+1C2-E-TEST-0061-6.5/013	appointed
+1C2-E-TEST-0061-6.5/014	served	DEP=1C2-E-TEST-0061-6.5013
+1C2-E-TEST-0061-64.22	Unlike most First Ladies, Hillary Clinton's White House years were but one chapter in a very remarkable, very public life.
+1C2-E-TEST-0061-64.22/001	ladies
+1C2-E-TEST-0061-64.22/002	hillary
+1C2-E-TEST-0061-64.22/003	chapter
+1C2-E-TEST-0061-64.22/004	white	DEP=1C2-E-TEST-0061-64.22006
+1C2-E-TEST-0061-64.22/005	house	DEP=1C2-E-TEST-0061-64.22006
+1C2-E-TEST-0061-64.22/006	years
+1C2-E-TEST-0061-64.22/007	remarkable	DEP=1C2-E-TEST-0061-64.22008
+1C2-E-TEST-0061-64.22/008	public	DEP=1C2-E-TEST-0061-64.22009
+1C2-E-TEST-0061-64.22/009	life
+1C2-E-TEST-0061-65.46	In 1983, Bill Clinton named Hillary as head of Arkansas Education Standards Committee to improve the stateÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s education system.
+1C2-E-TEST-0061-65.46/001	1983
+1C2-E-TEST-0061-65.46/002	bill
+1C2-E-TEST-0061-65.46/003	hillary	DEP=1C2-E-TEST-0061-65.46010
+1C2-E-TEST-0061-65.46/004	head
+1C2-E-TEST-0061-65.46/005	arkansas education standards committee
+1C2-E-TEST-0061-65.46/006	stateã cents
+1C2-E-TEST-0061-65.46/007	¬	DEP=1C2-E-TEST-0061-65.46009
+1C2-E-TEST-0061-65.46/008	â cents	DEP=1C2-E-TEST-0061-65.46007
+1C2-E-TEST-0061-65.46/009	education system
+1C2-E-TEST-0061-65.46/010	named
+1C2-E-TEST-0061-65.46/011	improve	DEP=1C2-E-TEST-0061-65.46010
+1C2-E-TEST-0061-65.46/012	s	DEP=1C2-E-TEST-0061-65.46009
+1C2-E-TEST-0061-65.47	While serving as ArkansasÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s first lady for twelve years, she worked as an attorney for Arkansas corporations such as Wal-Mart and TCBY , also serving on the board of Arkansas ChildrenÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Hospital , Legal Services, and ChildrenÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Defense Fund.
+1C2-E-TEST-0061-65.47/001	arkansasã cents
+1C2-E-TEST-0061-65.47/002	¬
+1C2-E-TEST-0061-65.47/003	â cents	DEP=1C2-E-TEST-0061-65.47002
+1C2-E-TEST-0061-65.47/004	twelve years
+1C2-E-TEST-0061-65.47/005	attorney
+1C2-E-TEST-0061-65.47/006	arkansas corporations
+1C2-E-TEST-0061-65.47/007	wal-mart tcby
+1C2-E-TEST-0061-65.47/008	board
+1C2-E-TEST-0061-65.47/009	arkansas childrenã cents
+1C2-E-TEST-0061-65.47/010	¬	DEP=1C2-E-TEST-0061-65.47012
+1C2-E-TEST-0061-65.47/011	â cents	DEP=1C2-E-TEST-0061-65.47010
+1C2-E-TEST-0061-65.47/012	hospital
+1C2-E-TEST-0061-65.47/013	legal services	DEP=1C2-E-TEST-0061-65.47012
+1C2-E-TEST-0061-65.47/014	childrenã cents
+1C2-E-TEST-0061-65.47/015	¬	DEP=1C2-E-TEST-0061-65.47017
+1C2-E-TEST-0061-65.47/016	â cents	DEP=1C2-E-TEST-0061-65.47015
+1C2-E-TEST-0061-65.47/017	defense fund
+1C2-E-TEST-0061-65.47/018	serving
+1C2-E-TEST-0061-65.47/019	s
+1C2-E-TEST-0061-65.47/020	worked
+1C2-E-TEST-0061-65.47/021	serving	DEP=1C2-E-TEST-0061-65.47006
+1C2-E-TEST-0061-65.47/022	s	DEP=1C2-E-TEST-0061-65.47012
+1C2-E-TEST-0061-65.47/023	s	DEP=1C2-E-TEST-0061-65.47017
+1C2-E-TEST-0061-65.64	As their term in the White House concluded, Clinton campaigned to become a U.S. senator from New York, being elected on November 7, 2000; she was reelected in 2006.
+1C2-E-TEST-0061-65.64/001	term	DEP=1C2-E-TEST-0061-65.64007
+1C2-E-TEST-0061-65.64/002	white house
+1C2-E-TEST-0061-65.64/003	u.s. senator	DEP=1C2-E-TEST-0061-65.64008
+1C2-E-TEST-0061-65.64/004	new york
+1C2-E-TEST-0061-65.64/005	november 7 2000
+1C2-E-TEST-0061-65.64/006	2006
+1C2-E-TEST-0061-65.64/007	concluded	DEP=1C2-E-TEST-0061-65.64008
+1C2-E-TEST-0061-65.64/008	campaigned
+1C2-E-TEST-0061-65.64/009	elected	DEP=1C2-E-TEST-0061-65.64008
+1C2-E-TEST-0061-65.64/010	reelected	DEP=1C2-E-TEST-0061-65.64008
+1C2-E-TEST-0061-65.7	Hillary Diane Rodham was born in Chicago on October 26, 1947, the oldest of three children.
+1C2-E-TEST-0061-65.7/001	hillary diane rodham	DEP=1C2-E-TEST-0061-65.7006
+1C2-E-TEST-0061-65.7/002	chicago
+1C2-E-TEST-0061-65.7/003	october 26 1947
+1C2-E-TEST-0061-65.7/004	oldest	DEP=1C2-E-TEST-0061-65.7003
+1C2-E-TEST-0061-65.7/005	three children
+1C2-E-TEST-0061-65.7/006	born
+1C2-E-TEST-0061-89.114	Clinton won the election on November 7, 2000, with 55% of the vote to Lazio's 43% [29] .
+1C2-E-TEST-0061-89.114/001	election	DEP=1C2-E-TEST-0061-89.114007
+1C2-E-TEST-0061-89.114/002	november 7 2000
+1C2-E-TEST-0061-89.114/003	55 %
+1C2-E-TEST-0061-89.114/004	vote
+1C2-E-TEST-0061-89.114/005	lazio	DEP=1C2-E-TEST-0061-89.114009
+1C2-E-TEST-0061-89.114/006	29	DEP=1C2-E-TEST-0061-89.114004
+1C2-E-TEST-0061-89.114/007	won
+1C2-E-TEST-0061-89.114/008	43	DEP=1C2-E-TEST-0061-89.114009
+1C2-E-TEST-0061-89.114/009	%
+1C2-E-TEST-0061-89.175	Clinton announced in November 2004 that she would seek a second term in the Senate in the 2006 New York election for Senator .
+1C2-E-TEST-0061-89.175/001	november 2004
+1C2-E-TEST-0061-89.175/002	second term	DEP=1C2-E-TEST-0061-89.175007
+1C2-E-TEST-0061-89.175/003	senate
+1C2-E-TEST-0061-89.175/004	2006 new york election
+1C2-E-TEST-0061-89.175/005	senator
+1C2-E-TEST-0061-89.175/006	announced
+1C2-E-TEST-0061-89.175/007	seek	DEP=1C2-E-TEST-0061-89.175006
+1C2-E-TEST-0061-89.37	During her second year in law school, she volunteered at the Yale Child Study Center, learning about new research on early childhood brain development.
+1C2-E-TEST-0061-89.37/001	second
+1C2-E-TEST-0061-89.37/002	law school
+1C2-E-TEST-0061-89.37/003	yale child study center
+1C2-E-TEST-0061-89.37/004	new research
+1C2-E-TEST-0061-89.37/005	early childhood brain development
+1C2-E-TEST-0061-89.37/006	volunteered
+1C2-E-TEST-0061-89.37/007	learning	DEP=1C2-E-TEST-0061-89.37006
+1C2-E-TEST-0061-89.47	President Jimmy Carter appointed Rodham to the board of the Legal Services Corporation in 1978.
+1C2-E-TEST-0061-89.47/001	president jimmy carter	DEP=1C2-E-TEST-0061-89.47006
+1C2-E-TEST-0061-89.47/002	rodham	DEP=1C2-E-TEST-0061-89.47006
+1C2-E-TEST-0061-89.47/003	board
+1C2-E-TEST-0061-89.47/004	legal services corporation
+1C2-E-TEST-0061-89.47/005	1978
+1C2-E-TEST-0061-89.47/006	appointed
+1C2-E-TEST-0061-89.48	In 1978, with the election of her husband as governor of Arkansas, Rodham became Arkansas's First Lady, her title for a total of 12 years.
+1C2-E-TEST-0061-89.48/001	1978
+1C2-E-TEST-0061-89.48/002	election
+1C2-E-TEST-0061-89.48/003	husband
+1C2-E-TEST-0061-89.48/004	governor
+1C2-E-TEST-0061-89.48/005	arkansas
+1C2-E-TEST-0061-89.48/006	rodham
+1C2-E-TEST-0061-89.48/007	arkansas
+1C2-E-TEST-0061-89.48/008	title
+1C2-E-TEST-0061-89.48/009	total
+1C2-E-TEST-0061-89.48/010	12 years
+1C2-E-TEST-0061-89.58	In 1988 and 1991 National Law Journal named Clinton one of the 100 most influential lawyers in America [14] .
+1C2-E-TEST-0061-89.58/001	1988 1991
+1C2-E-TEST-0061-89.58/002	national law journal	DEP=1C2-E-TEST-0061-89.58005
+1C2-E-TEST-0061-89.58/003	america
+1C2-E-TEST-0061-89.58/004	14	DEP=1C2-E-TEST-0061-89.58003
+1C2-E-TEST-0061-89.58/005	named
+1C2-E-TEST-0061-89.58/006	100	DEP=1C2-E-TEST-0061-89.58008
+1C2-E-TEST-0061-89.58/007	influential	DEP=1C2-E-TEST-0061-89.58008
+1C2-E-TEST-0061-89.58/008	lawyers
+1C2-E-TEST-0061-89.63	After Bill Clinton was elected to the White House in 1992, Hillary Rodham Clinton became the First Lady of the United States in 1993.
+1C2-E-TEST-0061-89.63/001	bill
+1C2-E-TEST-0061-89.63/002	white house
+1C2-E-TEST-0061-89.63/003	1992
+1C2-E-TEST-0061-89.63/004	hillary rodham
+1C2-E-TEST-0061-89.63/005	united states
+1C2-E-TEST-0061-89.63/006	1993
+1C2-E-TEST-0061-89.63/007	elected
+1C2-E-TEST-0061-89.97	When long-time New York Senator Daniel Patrick Moynihan announced his retirement, prominent Democratic politicians and advisors, including Charlie Rangel , urged Clinton to run for the New York Senate seat in the U.S. Senate, 2000, elections .
+1C2-E-TEST-0061-89.97/001	long-time new york senator daniel patrick moynihan	DEP=1C2-E-TEST-0061-89.97009
+1C2-E-TEST-0061-89.97/002	retirement	DEP=1C2-E-TEST-0061-89.97009
+1C2-E-TEST-0061-89.97/003	prominent democratic politicians advisors	DEP=1C2-E-TEST-0061-89.97010
+1C2-E-TEST-0061-89.97/004	charlie rangel
+1C2-E-TEST-0061-89.97/005	new york senate seat
+1C2-E-TEST-0061-89.97/006	u.s. senate
+1C2-E-TEST-0061-89.97/007	2000	DEP=1C2-E-TEST-0061-89.97006
+1C2-E-TEST-0061-89.97/008	elections	DEP=1C2-E-TEST-0061-89.97007
+1C2-E-TEST-0061-89.97/009	announced	DEP=1C2-E-TEST-0061-89.97010
+1C2-E-TEST-0061-89.97/010	urged
+1C2-E-TEST-0061-89.97/011	run	DEP=1C2-E-TEST-0061-89.97010
+1C2-E-TEST-0061-99.20	She was a full partner at a law firm in Arkansas, and while her husband was Governor of Arkansas, she was the chair of the Arkansas Educational Standards Committee, as well as other ventures, according to the National First LadiesÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ Library.
+1C2-E-TEST-0061-99.20/001	full partner
+1C2-E-TEST-0061-99.20/002	law firm
+1C2-E-TEST-0061-99.20/003	arkansas
+1C2-E-TEST-0061-99.20/004	husband	DEP=1C2-E-TEST-0061-99.20005
+1C2-E-TEST-0061-99.20/005	governor	DEP=1C2-E-TEST-0061-99.20007
+1C2-E-TEST-0061-99.20/006	arkansas
+1C2-E-TEST-0061-99.20/007	chair	DEP=1C2-E-TEST-0061-99.20001
+1C2-E-TEST-0061-99.20/008	arkansas educational standards committee
+1C2-E-TEST-0061-99.20/009	ventures	DEP=1C2-E-TEST-0061-99.20007
+1C2-E-TEST-0061-99.20/010	national ladiesã cents
+1C2-E-TEST-0061-99.20/011	¬
+1C2-E-TEST-0061-99.20/012	â cents
+1C2-E-TEST-0061-99.20/013	library	DEP=1C2-E-TEST-0061-99.20012
+1C2-E-TEST-0061-99.21	ÃÂÃÂ ÃÂÃÂ ÃÂÃÂ ÃÂÃÂ ÃÂÃÂ ÃÂÃÂ ÃÂÃÂ  After Bill was elected President, Hillary was named as the head of the PresidentÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Task Force on Health Care Reform, and raised awareness of the issues with the nationÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s health care system.
+1C2-E-TEST-0061-99.21/001	ã â ã â ã â ã â ã â ã â ã â
+1C2-E-TEST-0061-99.21/002	bill	DEP=1C2-E-TEST-0061-99.21017
+1C2-E-TEST-0061-99.21/003	president	DEP=1C2-E-TEST-0061-99.21017
+1C2-E-TEST-0061-99.21/004	hillary	DEP=1C2-E-TEST-0061-99.21018
+1C2-E-TEST-0061-99.21/005	head
+1C2-E-TEST-0061-99.21/006	presidentã cents
+1C2-E-TEST-0061-99.21/007	¬	DEP=1C2-E-TEST-0061-99.21009
+1C2-E-TEST-0061-99.21/008	â cents	DEP=1C2-E-TEST-0061-99.21007
+1C2-E-TEST-0061-99.21/009	task force
+1C2-E-TEST-0061-99.21/010	health care reform
+1C2-E-TEST-0061-99.21/011	awareness	DEP=1C2-E-TEST-0061-99.21020
+1C2-E-TEST-0061-99.21/012	issues
+1C2-E-TEST-0061-99.21/013	nationã cents
+1C2-E-TEST-0061-99.21/014	¬	DEP=1C2-E-TEST-0061-99.21016
+1C2-E-TEST-0061-99.21/015	â cents	DEP=1C2-E-TEST-0061-99.21014
+1C2-E-TEST-0061-99.21/016	health care system
+1C2-E-TEST-0061-99.21/017	elected	DEP=1C2-E-TEST-0061-99.21018
+1C2-E-TEST-0061-99.21/018	named	DEP=1C2-E-TEST-0061-99.21001
+1C2-E-TEST-0061-99.21/019	s	DEP=1C2-E-TEST-0061-99.21009
+1C2-E-TEST-0061-99.21/020	raised	DEP=1C2-E-TEST-0061-99.21009
+1C2-E-TEST-0061-99.21/021	s	DEP=1C2-E-TEST-0061-99.21016

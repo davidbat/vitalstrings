@@ -1,0 +1,98 @@
+1C2-E-TEST-0186-229.12	The anteater can cover its tongue in a sticky saliva , allowing it to trap ants, and the tongue can be extended and withdrawn up to 150 times per minute.
+1C2-E-TEST-0186-229.12/001	tongue	DEP=1C2-E-TEST-0186-229.12006
+1C2-E-TEST-0186-229.12/002	sticky saliva
+1C2-E-TEST-0186-229.12/003	trap ants
+1C2-E-TEST-0186-229.12/004	tongue	DEP=1C2-E-TEST-0186-229.12008
+1C2-E-TEST-0186-229.12/005	minute
+1C2-E-TEST-0186-229.12/006	cover
+1C2-E-TEST-0186-229.12/007	allowing	DEP=1C2-E-TEST-0186-229.12006
+1C2-E-TEST-0186-229.12/008	extended	DEP=1C2-E-TEST-0186-229.12006
+1C2-E-TEST-0186-229.12/009	withdrawn	DEP=1C2-E-TEST-0186-229.12008
+1C2-E-TEST-0186-229.12/010	150	DEP=1C2-E-TEST-0186-229.12011
+1C2-E-TEST-0186-229.12/011	times
+1C2-E-TEST-0186-4.19	Giant anteaters have no teeth but a specialized tongue that allows them to eat up to 30,000 ants and termites each day.
+1C2-E-TEST-0186-4.19/001	giant anteaters
+1C2-E-TEST-0186-4.19/002	teeth
+1C2-E-TEST-0186-4.19/003	specialized tongue
+1C2-E-TEST-0186-4.19/004	30,000 ants
+1C2-E-TEST-0186-4.19/005	termites	DEP=1C2-E-TEST-0186-4.19004
+1C2-E-TEST-0186-4.19/006	allows	DEP=1C2-E-TEST-0186-4.19002
+1C2-E-TEST-0186-4.20	These animals are perfectly designed to feed on these little critters, which is great because ants are a very reliable food source. The anteater's narrow tongue is about 2 feet (60 centimeters) long and looks like a strand of spaghetti with teeny, backward-pointing spines that are covered in sticky saliva when the animal is feeding.
+1C2-E-TEST-0186-4.20/001	animals	DEP=1C2-E-TEST-0186-4.20013
+1C2-E-TEST-0186-4.20/002	critters
+1C2-E-TEST-0186-4.20/003	ants	DEP=1C2-E-TEST-0186-4.20018
+1C2-E-TEST-0186-4.20/004	2 feet
+1C2-E-TEST-0186-4.20/005	60 centimeters	DEP=1C2-E-TEST-0186-4.20004
+1C2-E-TEST-0186-4.20/006	strand
+1C2-E-TEST-0186-4.20/007	spaghetti
+1C2-E-TEST-0186-4.20/008	teeny
+1C2-E-TEST-0186-4.20/009	backward-pointing spines	DEP=1C2-E-TEST-0186-4.20008
+1C2-E-TEST-0186-4.20/010	sticky saliva
+1C2-E-TEST-0186-4.20/011	animal	DEP=1C2-E-TEST-0186-4.20024
+1C2-E-TEST-0186-4.20/012	perfectly	DEP=1C2-E-TEST-0186-4.20013
+1C2-E-TEST-0186-4.20/013	designed
+1C2-E-TEST-0186-4.20/014	feed	DEP=1C2-E-TEST-0186-4.20013
+1C2-E-TEST-0186-4.20/015	great	DEP=1C2-E-TEST-0186-4.20002
+1C2-E-TEST-0186-4.20/016	reliable	DEP=1C2-E-TEST-0186-4.20018
+1C2-E-TEST-0186-4.20/017	food	DEP=1C2-E-TEST-0186-4.20018
+1C2-E-TEST-0186-4.20/018	source	DEP=1C2-E-TEST-0186-4.20015
+1C2-E-TEST-0186-4.20/019	narrow	DEP=1C2-E-TEST-0186-4.20020
+1C2-E-TEST-0186-4.20/020	tongue
+1C2-E-TEST-0186-4.20/021	long
+1C2-E-TEST-0186-4.20/022	looks	DEP=1C2-E-TEST-0186-4.20013
+1C2-E-TEST-0186-4.20/023	covered	DEP=1C2-E-TEST-0186-4.20009
+1C2-E-TEST-0186-4.20/024	feeding	DEP=1C2-E-TEST-0186-4.20022
+1C2-E-TEST-0186-4.21	This long tongue darts inside an ant mound up to 150 times per minute, picking up the worker ants. The anteater will only feed at one mound for about a minute before moving on.
+1C2-E-TEST-0186-4.21/001	long tongue darts	DEP=1C2-E-TEST-0186-4.21010
+1C2-E-TEST-0186-4.21/002	ant mound
+1C2-E-TEST-0186-4.21/003	minute
+1C2-E-TEST-0186-4.21/004	worker ants	DEP=1C2-E-TEST-0186-4.21009
+1C2-E-TEST-0186-4.21/005	mound
+1C2-E-TEST-0186-4.21/006	minute
+1C2-E-TEST-0186-4.21/007	150	DEP=1C2-E-TEST-0186-4.21008
+1C2-E-TEST-0186-4.21/008	times
+1C2-E-TEST-0186-4.21/009	picking	DEP=1C2-E-TEST-0186-4.21002
+1C2-E-TEST-0186-4.21/010	feed
+1C2-E-TEST-0186-4.21/011	moving
+1C2-E-TEST-0186-5.5	Aside from thinking theyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢re delicious, anteaters have a good reason for eating ants and other critters: With their long tongues (up to two feet big in Giant Anteaters!) and their gooey saliva, anteaters are made for tearing into nests or mounds with their claws and then slurping up all of the bugs they can find!
+1C2-E-TEST-0186-5.5/001	theyã cents
+1C2-E-TEST-0186-5.5/002	¬
+1C2-E-TEST-0186-5.5/003	â cents	DEP=1C2-E-TEST-0186-5.5002
+1C2-E-TEST-0186-5.5/004	anteaters
+1C2-E-TEST-0186-5.5/005	good reason
+1C2-E-TEST-0186-5.5/006	ants
+1C2-E-TEST-0186-5.5/007	critters	DEP=1C2-E-TEST-0186-5.5006
+1C2-E-TEST-0186-5.5/008	long tongues
+1C2-E-TEST-0186-5.5/009	two feet
+1C2-E-TEST-0186-5.5/010	big	DEP=1C2-E-TEST-0186-5.5008
+1C2-E-TEST-0186-5.5/011	giant anteaters
+1C2-E-TEST-0186-5.5/012	gooey saliva	DEP=1C2-E-TEST-0186-5.5008
+1C2-E-TEST-0186-5.5/013	anteaters	DEP=1C2-E-TEST-0186-5.5021
+1C2-E-TEST-0186-5.5/014	nests mounds
+1C2-E-TEST-0186-5.5/015	claws
+1C2-E-TEST-0186-5.5/016	bugs
+1C2-E-TEST-0186-5.5/017	aside
+1C2-E-TEST-0186-5.5/018	thinking
+1C2-E-TEST-0186-5.5/019	delicious
+1C2-E-TEST-0186-5.5/020	eating
+1C2-E-TEST-0186-5.5/021	made	DEP=1C2-E-TEST-0186-5.5006
+1C2-E-TEST-0186-5.5/022	tearing
+1C2-E-TEST-0186-5.5/023	slurping	DEP=1C2-E-TEST-0186-5.5022
+1C2-E-TEST-0186-5.5/024	find	DEP=1C2-E-TEST-0186-5.5016
+1C2-E-TEST-0186-5.8	And since anteaters like eating ants and termite so much, theyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢re careful not to destroy a nest when they eat from it.ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂThat way, they can come back and it from it again another time!
+1C2-E-TEST-0186-5.8/001	anteaters
+1C2-E-TEST-0186-5.8/002	ants termite	DEP=1C2-E-TEST-0186-5.8011
+1C2-E-TEST-0186-5.8/003	theyã cents
+1C2-E-TEST-0186-5.8/004	¬
+1C2-E-TEST-0186-5.8/005	â cents	DEP=1C2-E-TEST-0186-5.8004
+1C2-E-TEST-0186-5.8/006	nest	DEP=1C2-E-TEST-0186-5.8013
+1C2-E-TEST-0186-5.8/007	ã cents
+1C2-E-TEST-0186-5.8/008	¬
+1C2-E-TEST-0186-5.8/009	way
+1C2-E-TEST-0186-5.8/010	time
+1C2-E-TEST-0186-5.8/011	eating
+1C2-E-TEST-0186-5.8/012	careful
+1C2-E-TEST-0186-5.8/013	destroy	DEP=1C2-E-TEST-0186-5.8012
+1C2-E-TEST-0186-5.8/014	â	DEP=1C2-E-TEST-0186-5.8008
+1C2-E-TEST-0186-5.8/015	come
+1C2-E-TEST-0186-5.8/016	back	DEP=1C2-E-TEST-0186-5.8015

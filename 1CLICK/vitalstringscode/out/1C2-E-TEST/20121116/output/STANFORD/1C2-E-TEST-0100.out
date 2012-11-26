@@ -1,0 +1,514 @@
+1C2-E-TEST-0100-1.102	[52] When the World Trade Center twin towers were completed, the total costs to the Port Authority had reached $900ÃÂÃÂ million.
+1C2-E-TEST-0100-1.102/001	world trade center
+1C2-E-TEST-0100-1.102/002	total costs	DEP=1C2-E-TEST-0100-1.102006
+1C2-E-TEST-0100-1.102/003	port authority
+1C2-E-TEST-0100-1.102/004	52	DEP=1C2-E-TEST-0100-1.102006
+1C2-E-TEST-0100-1.102/005	completed	DEP=1C2-E-TEST-0100-1.102004
+1C2-E-TEST-0100-1.102/006	reached
+1C2-E-TEST-0100-1.102/007	900ã
+1C2-E-TEST-0100-1.102/008	â	DEP=1C2-E-TEST-0100-1.102009
+1C2-E-TEST-0100-1.102/009	million
+1C2-E-TEST-0100-1.127	With the construction of 7ÃÂÃÂ World Trade Center in the 1980s, the World Trade Center had a total of seven buildings, but the most notable were the main two towers.
+1C2-E-TEST-0100-1.127/001	construction
+1C2-E-TEST-0100-1.127/002	7ã â world trade center
+1C2-E-TEST-0100-1.127/003	1980s
+1C2-E-TEST-0100-1.127/004	world trade center
+1C2-E-TEST-0100-1.127/005	total
+1C2-E-TEST-0100-1.127/006	seven buildings
+1C2-E-TEST-0100-1.127/007	notable
+1C2-E-TEST-0100-1.127/008	main two
+1C2-E-TEST-0100-1.132	When completed in 1972, 1ÃÂÃÂ World Trade Center (the North Tower) became the tallest building in the world for two years, surpassing the Empire State Building after a 40-year reign.
+1C2-E-TEST-0100-1.132/001	1972
+1C2-E-TEST-0100-1.132/002	1ã	DEP=1C2-E-TEST-0100-1.132005
+1C2-E-TEST-0100-1.132/003	â world trade center	DEP=1C2-E-TEST-0100-1.132002
+1C2-E-TEST-0100-1.132/004	north tower	DEP=1C2-E-TEST-0100-1.132002
+1C2-E-TEST-0100-1.132/005	tallest building
+1C2-E-TEST-0100-1.132/006	world
+1C2-E-TEST-0100-1.132/007	two years
+1C2-E-TEST-0100-1.132/008	empire state building	DEP=1C2-E-TEST-0100-1.132011
+1C2-E-TEST-0100-1.132/009	40-year reign
+1C2-E-TEST-0100-1.132/010	completed	DEP=1C2-E-TEST-0100-1.132005
+1C2-E-TEST-0100-1.132/011	surpassing	DEP=1C2-E-TEST-0100-1.132005
+1C2-E-TEST-0100-1.135	2ÃÂÃÂ World Trade Center (the South Tower ) became the second tallest building in the world when completed in 1973.
+1C2-E-TEST-0100-1.135/001	2ã â world trade center	DEP=1C2-E-TEST-0100-1.135003
+1C2-E-TEST-0100-1.135/002	south tower	DEP=1C2-E-TEST-0100-1.135001
+1C2-E-TEST-0100-1.135/003	second tallest building
+1C2-E-TEST-0100-1.135/004	world
+1C2-E-TEST-0100-1.135/005	1973
+1C2-E-TEST-0100-1.135/006	completed	DEP=1C2-E-TEST-0100-1.135003
+1C2-E-TEST-0100-1.147	During the early years, various governmental organizations became key tenants of the World Trade Center including the State of New York .
+1C2-E-TEST-0100-1.147/001	early years
+1C2-E-TEST-0100-1.147/002	various governmental organizations	DEP=1C2-E-TEST-0100-1.147003
+1C2-E-TEST-0100-1.147/003	key tenants
+1C2-E-TEST-0100-1.147/004	world trade center
+1C2-E-TEST-0100-1.147/005	state
+1C2-E-TEST-0100-1.147/006	new york
+1C2-E-TEST-0100-1.157	The 110th floor of 1ÃÂÃÂ World Trade Center (the North Tower) housed radio and television transmission equipment.
+1C2-E-TEST-0100-1.157/001	110th floor	DEP=1C2-E-TEST-0100-1.157005
+1C2-E-TEST-0100-1.157/002	1ã â world trade center
+1C2-E-TEST-0100-1.157/003	north tower	DEP=1C2-E-TEST-0100-1.157001
+1C2-E-TEST-0100-1.157/004	radio television	DEP=1C2-E-TEST-0100-1.157007
+1C2-E-TEST-0100-1.157/005	housed
+1C2-E-TEST-0100-1.157/006	transmission	DEP=1C2-E-TEST-0100-1.157007
+1C2-E-TEST-0100-1.157/007	equipment	DEP=1C2-E-TEST-0100-1.157005
+1C2-E-TEST-0100-1.181	Windows on the World was closed following the 1993 World Trade Center bombing.
+1C2-E-TEST-0100-1.181/001	windows	DEP=1C2-E-TEST-0100-1.181004
+1C2-E-TEST-0100-1.181/002	world
+1C2-E-TEST-0100-1.181/003	1993	DEP=1C2-E-TEST-0100-1.181009
+1C2-E-TEST-0100-1.181/004	closed
+1C2-E-TEST-0100-1.181/005	following	DEP=1C2-E-TEST-0100-1.181004
+1C2-E-TEST-0100-1.181/006	world	DEP=1C2-E-TEST-0100-1.181009
+1C2-E-TEST-0100-1.181/007	trade	DEP=1C2-E-TEST-0100-1.181009
+1C2-E-TEST-0100-1.181/008	center	DEP=1C2-E-TEST-0100-1.181009
+1C2-E-TEST-0100-1.181/009	bombing	DEP=1C2-E-TEST-0100-1.181005
+1C2-E-TEST-0100-1.2	The idea of establishing a World Trade Center in New York City was first proposed in 1943.
+1C2-E-TEST-0100-1.2/001	idea	DEP=1C2-E-TEST-0100-1.2006
+1C2-E-TEST-0100-1.2/002	world trade center	DEP=1C2-E-TEST-0100-1.2005
+1C2-E-TEST-0100-1.2/003	new york city
+1C2-E-TEST-0100-1.2/004	1943
+1C2-E-TEST-0100-1.2/005	establishing
+1C2-E-TEST-0100-1.2/006	proposed
+1C2-E-TEST-0100-1.220	At that time, the World Trade Center had no fire sprinkler systems .
+1C2-E-TEST-0100-1.220/001	time
+1C2-E-TEST-0100-1.220/002	world trade center
+1C2-E-TEST-0100-1.220/003	fire sprinkler systems
+1C2-E-TEST-0100-1.267	[119] on September 11, 2001, 7 World Trade Center started to collapse with the crumble of the east penthouse, and it collapsed completely at 5:21ÃÂÃÂ p.m.
+1C2-E-TEST-0100-1.267/001	september 11 2001 7
+1C2-E-TEST-0100-1.267/002	collapse
+1C2-E-TEST-0100-1.267/003	east penthouse
+1C2-E-TEST-0100-1.267/004	5:21 ã â
+1C2-E-TEST-0100-1.267/005	119	DEP=1C2-E-TEST-0100-1.267008
+1C2-E-TEST-0100-1.267/006	world	DEP=1C2-E-TEST-0100-1.267008
+1C2-E-TEST-0100-1.267/007	trade	DEP=1C2-E-TEST-0100-1.267008
+1C2-E-TEST-0100-1.267/008	center	DEP=1C2-E-TEST-0100-1.267009
+1C2-E-TEST-0100-1.267/009	started
+1C2-E-TEST-0100-1.267/010	collapsed	DEP=1C2-E-TEST-0100-1.267009
+1C2-E-TEST-0100-1.267/011	completely	DEP=1C2-E-TEST-0100-1.267010
+1C2-E-TEST-0100-1.267/012	p.m.	DEP=1C2-E-TEST-0100-1.267010
+1C2-E-TEST-0100-1.275	The World Trade Center on fire with the Statue of Liberty in the foreground
+1C2-E-TEST-0100-1.275/001	world trade center
+1C2-E-TEST-0100-1.275/002	fire
+1C2-E-TEST-0100-1.275/003	statue
+1C2-E-TEST-0100-1.275/004	liberty
+1C2-E-TEST-0100-1.275/005	foreground
+1C2-E-TEST-0100-1.287	After years of delay and controversy, reconstruction at the World Trade Center site is now well underway.
+1C2-E-TEST-0100-1.287/001	years
+1C2-E-TEST-0100-1.287/002	delay controversy
+1C2-E-TEST-0100-1.287/003	reconstruction	DEP=1C2-E-TEST-0100-1.287005
+1C2-E-TEST-0100-1.287/004	world trade center site
+1C2-E-TEST-0100-1.287/005	underway
+1C2-E-TEST-0100-1.288	The new complex will include One World Trade Center (formerly known as the Freedom Tower), 7 World Trade Center , three other high-rise office buildings, a museum and memorial, and a transportation hub similar in size to Grand Central Terminal .
+1C2-E-TEST-0100-1.288/001	new complex
+1C2-E-TEST-0100-1.288/002	world trade center
+1C2-E-TEST-0100-1.288/003	freedom tower
+1C2-E-TEST-0100-1.288/004	7 world trade center	DEP=1C2-E-TEST-0100-1.288002
+1C2-E-TEST-0100-1.288/005	three high-rise office buildings	DEP=1C2-E-TEST-0100-1.288004
+1C2-E-TEST-0100-1.288/006	museum	DEP=1C2-E-TEST-0100-1.288004
+1C2-E-TEST-0100-1.288/007	memorial	DEP=1C2-E-TEST-0100-1.288004
+1C2-E-TEST-0100-1.288/008	transportation hub	DEP=1C2-E-TEST-0100-1.288002
+1C2-E-TEST-0100-1.288/009	size
+1C2-E-TEST-0100-1.288/010	grand central terminal
+1C2-E-TEST-0100-1.288/011	known	DEP=1C2-E-TEST-0100-1.288002
+1C2-E-TEST-0100-1.288/012	similar	DEP=1C2-E-TEST-0100-1.288008
+1C2-E-TEST-0100-1.41	The 47-story 7ÃÂÃÂ World Trade Center building was added in the 1980s, to the north of the main complex.
+1C2-E-TEST-0100-1.41/001	47-story 7ã â	DEP=1C2-E-TEST-0100-1.41006
+1C2-E-TEST-0100-1.41/002	world trade center building	DEP=1C2-E-TEST-0100-1.41001
+1C2-E-TEST-0100-1.41/003	1980s
+1C2-E-TEST-0100-1.41/004	north
+1C2-E-TEST-0100-1.41/005	main complex
+1C2-E-TEST-0100-1.41/006	added
+1C2-E-TEST-0100-1.51	Nonetheless, the structural engineers of the World Trade Center ended up following draft versions of the new 1968 building codes.
+1C2-E-TEST-0100-1.51/001	structural engineers	DEP=1C2-E-TEST-0100-1.51005
+1C2-E-TEST-0100-1.51/002	world trade center
+1C2-E-TEST-0100-1.51/003	draft versions	DEP=1C2-E-TEST-0100-1.51006
+1C2-E-TEST-0100-1.51/004	new 1968 building codes
+1C2-E-TEST-0100-1.51/005	ended
+1C2-E-TEST-0100-1.51/006	following	DEP=1C2-E-TEST-0100-1.51005
+1C2-E-TEST-0100-1.86	The site of the World Trade Center was located on landfill with the bedrock located 65 feet (20ÃÂÃÂ m) below.
+1C2-E-TEST-0100-1.86/001	site	DEP=1C2-E-TEST-0100-1.86008
+1C2-E-TEST-0100-1.86/002	world trade center
+1C2-E-TEST-0100-1.86/003	landfill
+1C2-E-TEST-0100-1.86/004	bedrock
+1C2-E-TEST-0100-1.86/005	65 feet	DEP=1C2-E-TEST-0100-1.86009
+1C2-E-TEST-0100-1.86/006	20ã	DEP=1C2-E-TEST-0100-1.86004
+1C2-E-TEST-0100-1.86/007	â m	DEP=1C2-E-TEST-0100-1.86006
+1C2-E-TEST-0100-1.86/008	located
+1C2-E-TEST-0100-1.86/009	located	DEP=1C2-E-TEST-0100-1.86004
+1C2-E-TEST-0100-1.87	[43] To construct the World Trade Center, it was necessary to build a " bathtub " with a slurry wall around the West Street side of the site, to keep water from the Hudson River out.
+1C2-E-TEST-0100-1.87/001	world trade center	DEP=1C2-E-TEST-0100-1.87009
+1C2-E-TEST-0100-1.87/002	bathtub	DEP=1C2-E-TEST-0100-1.87011
+1C2-E-TEST-0100-1.87/003	slurry wall
+1C2-E-TEST-0100-1.87/004	west street side
+1C2-E-TEST-0100-1.87/005	site
+1C2-E-TEST-0100-1.87/006	water	DEP=1C2-E-TEST-0100-1.87012
+1C2-E-TEST-0100-1.87/007	hudson river
+1C2-E-TEST-0100-1.87/008	43	DEP=1C2-E-TEST-0100-1.87009
+1C2-E-TEST-0100-1.87/009	construct	DEP=1C2-E-TEST-0100-1.87010
+1C2-E-TEST-0100-1.87/010	necessary
+1C2-E-TEST-0100-1.87/011	build	DEP=1C2-E-TEST-0100-1.87010
+1C2-E-TEST-0100-1.87/012	keep	DEP=1C2-E-TEST-0100-1.87010
+1C2-E-TEST-0100-103.12	Building 7 was the only of the seven buildings with a World Trade Center address that was on a different block.
+1C2-E-TEST-0100-103.12/001	building 7
+1C2-E-TEST-0100-103.12/002	seven buildings
+1C2-E-TEST-0100-103.12/003	world trade center address
+1C2-E-TEST-0100-103.12/004	different block
+1C2-E-TEST-0100-117.13	The situation at the World Trade Center is challenging and demands all our attention.
+1C2-E-TEST-0100-117.13/001	situation	DEP=1C2-E-TEST-0100-117.13005
+1C2-E-TEST-0100-117.13/002	world trade center
+1C2-E-TEST-0100-117.13/003	demands	DEP=1C2-E-TEST-0100-117.13004
+1C2-E-TEST-0100-117.13/004	attention	DEP=1C2-E-TEST-0100-117.13005
+1C2-E-TEST-0100-117.13/005	challenging
+1C2-E-TEST-0100-117.294	The World Trade Center is ground the American people cannot afford to lose twice.
+1C2-E-TEST-0100-117.294/001	world trade center	DEP=1C2-E-TEST-0100-117.294002
+1C2-E-TEST-0100-117.294/002	ground
+1C2-E-TEST-0100-117.294/003	american people	DEP=1C2-E-TEST-0100-117.294004
+1C2-E-TEST-0100-117.294/004	afford	DEP=1C2-E-TEST-0100-117.294002
+1C2-E-TEST-0100-117.294/005	lose	DEP=1C2-E-TEST-0100-117.294004
+1C2-E-TEST-0100-117.294/006	twice	DEP=1C2-E-TEST-0100-117.294005
+1C2-E-TEST-0100-117.73	If the people had had their say, todayÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s World Trade Center would be dramatically different. We were robbed.
+1C2-E-TEST-0100-117.73/001	people
+1C2-E-TEST-0100-117.73/002	say
+1C2-E-TEST-0100-117.73/003	todayã cents
+1C2-E-TEST-0100-117.73/004	¬	DEP=1C2-E-TEST-0100-117.73006
+1C2-E-TEST-0100-117.73/005	â cents	DEP=1C2-E-TEST-0100-117.73004
+1C2-E-TEST-0100-117.73/006	world trade center
+1C2-E-TEST-0100-117.73/007	s	DEP=1C2-E-TEST-0100-117.73006
+1C2-E-TEST-0100-117.73/008	dramatically	DEP=1C2-E-TEST-0100-117.73009
+1C2-E-TEST-0100-117.73/009	different	DEP=1C2-E-TEST-0100-117.73006
+1C2-E-TEST-0100-117.73/010	robbed
+1C2-E-TEST-0100-161.22	The late Seattle-based architect Minoru Yamasaki designed the World Trade Center.
+1C2-E-TEST-0100-161.22/001	late seattle-based architect minoru yamasaki	DEP=1C2-E-TEST-0100-161.22003
+1C2-E-TEST-0100-161.22/002	world trade center	DEP=1C2-E-TEST-0100-161.22003
+1C2-E-TEST-0100-161.22/003	designed
+1C2-E-TEST-0100-161.3	One month after the attack on the World Trade Center, M.I.T. structural engineers offer their take on how and why the towers came down.
+1C2-E-TEST-0100-161.3/001	month
+1C2-E-TEST-0100-161.3/002	attack
+1C2-E-TEST-0100-161.3/003	world trade center
+1C2-E-TEST-0100-161.3/004	m.i.t. structural engineers
+1C2-E-TEST-0100-161.3/005	take
+1C2-E-TEST-0100-161.3/006	came
+1C2-E-TEST-0100-161.6	BEFORE SEPTEMBER 11, 2001, the twin towers of the World Trade Center seemed a permanent part of the Manhattan skyline.
+1C2-E-TEST-0100-161.6/001	september 11
+1C2-E-TEST-0100-161.6/002	2001	DEP=1C2-E-TEST-0100-161.6004
+1C2-E-TEST-0100-161.6/003	world trade center
+1C2-E-TEST-0100-161.6/004	permanent part
+1C2-E-TEST-0100-161.6/005	manhattan skyline
+1C2-E-TEST-0100-161.7	When New York City's giant World Trade Center towers plunged to earth following successive suicide terrorist attacks on September 11th, the world was confronted with one of most shockingÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂand sickeningÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂsights of modern times.
+1C2-E-TEST-0100-161.7/001	new york city
+1C2-E-TEST-0100-161.7/002	earth
+1C2-E-TEST-0100-161.7/003	successive suicide terrorist attacks	DEP=1C2-E-TEST-0100-161.7015
+1C2-E-TEST-0100-161.7/004	september
+1C2-E-TEST-0100-161.7/005	world	DEP=1C2-E-TEST-0100-161.7017
+1C2-E-TEST-0100-161.7/006	shockingã cents
+1C2-E-TEST-0100-161.7/007	¬ â
+1C2-E-TEST-0100-161.7/008	sickeningã cents
+1C2-E-TEST-0100-161.7/009	modern times
+1C2-E-TEST-0100-161.7/010	giant
+1C2-E-TEST-0100-161.7/011	world
+1C2-E-TEST-0100-161.7/012	trade
+1C2-E-TEST-0100-161.7/013	center
+1C2-E-TEST-0100-161.7/014	plunged	DEP=1C2-E-TEST-0100-161.7017
+1C2-E-TEST-0100-161.7/015	following	DEP=1C2-E-TEST-0100-161.7002
+1C2-E-TEST-0100-161.7/016	11th	DEP=1C2-E-TEST-0100-161.7004
+1C2-E-TEST-0100-161.7/017	confronted
+1C2-E-TEST-0100-161.7/018	¬	DEP=1C2-E-TEST-0100-161.7019
+1C2-E-TEST-0100-161.7/019	â
+1C2-E-TEST-0100-161.7/020	sights
+1C2-E-TEST-0100-20.102	Previously, the World Trade Center site was under the control of the Port Authority of New York & New Jersey.
+1C2-E-TEST-0100-20.102/001	world trade center site
+1C2-E-TEST-0100-20.102/002	control
+1C2-E-TEST-0100-20.102/003	port authority
+1C2-E-TEST-0100-20.102/004	new york
+1C2-E-TEST-0100-20.102/005	new jersey	DEP=1C2-E-TEST-0100-20.102004
+1C2-E-TEST-0100-20.102/006	previously
+1C2-E-TEST-0100-20.102/007	&	DEP=1C2-E-TEST-0100-20.102004
+1C2-E-TEST-0100-20.105	The World Trade Center was destroyed in the September 11th terrorist attacks.
+1C2-E-TEST-0100-20.105/001	world trade center	DEP=1C2-E-TEST-0100-20.105004
+1C2-E-TEST-0100-20.105/002	september
+1C2-E-TEST-0100-20.105/003	11th terrorist attacks	DEP=1C2-E-TEST-0100-20.105002
+1C2-E-TEST-0100-20.105/004	destroyed
+1C2-E-TEST-0100-20.14	The Port Authority of New York and New Jersey agreed to oversee the building project.
+1C2-E-TEST-0100-20.14/001	port authority	DEP=1C2-E-TEST-0100-20.14005
+1C2-E-TEST-0100-20.14/002	new york
+1C2-E-TEST-0100-20.14/003	new jersey	DEP=1C2-E-TEST-0100-20.14002
+1C2-E-TEST-0100-20.14/004	building project	DEP=1C2-E-TEST-0100-20.14006
+1C2-E-TEST-0100-20.14/005	agreed
+1C2-E-TEST-0100-20.14/006	oversee	DEP=1C2-E-TEST-0100-20.14005
+1C2-E-TEST-0100-20.160	Spanish architect Santiago Calatrava was selected by the Port Authority of New York & New Jersey to design the World Trade Center Transportation Hub.
+1C2-E-TEST-0100-20.160/001	spanish architect santiago calatrava	DEP=1C2-E-TEST-0100-20.160006
+1C2-E-TEST-0100-20.160/002	port authority
+1C2-E-TEST-0100-20.160/003	new york
+1C2-E-TEST-0100-20.160/004	new jersey	DEP=1C2-E-TEST-0100-20.160003
+1C2-E-TEST-0100-20.160/005	world trade center transportation hub	DEP=1C2-E-TEST-0100-20.160008
+1C2-E-TEST-0100-20.160/006	selected
+1C2-E-TEST-0100-20.160/007	&	DEP=1C2-E-TEST-0100-20.160003
+1C2-E-TEST-0100-20.160/008	design	DEP=1C2-E-TEST-0100-20.160006
+1C2-E-TEST-0100-20.17	ÃÂÃÂ The Port Authority chose the current site for the World Trade Center bounded by West, Church, Liberty, and Vesey Streets.
+1C2-E-TEST-0100-20.17/001	ã â	DEP=1C2-E-TEST-0100-20.17008
+1C2-E-TEST-0100-20.17/002	port authority	DEP=1C2-E-TEST-0100-20.17007
+1C2-E-TEST-0100-20.17/003	current site	DEP=1C2-E-TEST-0100-20.17007
+1C2-E-TEST-0100-20.17/004	world trade center
+1C2-E-TEST-0100-20.17/005	west church liberty
+1C2-E-TEST-0100-20.17/006	vesey streets	DEP=1C2-E-TEST-0100-20.17005
+1C2-E-TEST-0100-20.17/007	chose	DEP=1C2-E-TEST-0100-20.17001
+1C2-E-TEST-0100-20.17/008	bounded
+1C2-E-TEST-0100-20.22	At its core were the Twin Towers, which at 110 stories (1,368 and 1,362 feet) each would be the world's tallest skyscrapers.
+1C2-E-TEST-0100-20.22/001	core
+1C2-E-TEST-0100-20.22/002	110 stories
+1C2-E-TEST-0100-20.22/003	1,368	DEP=1C2-E-TEST-0100-20.22002
+1C2-E-TEST-0100-20.22/004	1,362 feet	DEP=1C2-E-TEST-0100-20.22003
+1C2-E-TEST-0100-20.22/005	world	DEP=1C2-E-TEST-0100-20.22007
+1C2-E-TEST-0100-20.22/006	tallest	DEP=1C2-E-TEST-0100-20.22007
+1C2-E-TEST-0100-20.22/007	skyscrapers
+1C2-E-TEST-0100-20.26	Yamasaki's design for the World Trade Center was unveiled to the public.
+1C2-E-TEST-0100-20.26/001	yamasaki	DEP=1C2-E-TEST-0100-20.26004
+1C2-E-TEST-0100-20.26/002	world trade center
+1C2-E-TEST-0100-20.26/003	public
+1C2-E-TEST-0100-20.26/004	design	DEP=1C2-E-TEST-0100-20.26005
+1C2-E-TEST-0100-20.26/005	unveiled
+1C2-E-TEST-0100-20.275	Construction on World Trade Center Tower 4 is well underway. ÃÂÃÂ Tower 4 was designed by Japanese architect Fumihiko Maki.
+1C2-E-TEST-0100-20.275/001	construction	DEP=1C2-E-TEST-0100-20.275003
+1C2-E-TEST-0100-20.275/002	world trade center tower 4
+1C2-E-TEST-0100-20.275/003	ã
+1C2-E-TEST-0100-20.275/004	â tower 4	DEP=1C2-E-TEST-0100-20.275007
+1C2-E-TEST-0100-20.275/005	japanese architect fumihiko maki
+1C2-E-TEST-0100-20.275/006	underway
+1C2-E-TEST-0100-20.275/007	designed	DEP=1C2-E-TEST-0100-20.275003
+1C2-E-TEST-0100-20.279	The Port Authority of New York and New Jersey changed the name of the Freedom Tower to 1 World Trade Center with the rationale that this would make the building more marketable for tenants and the public.
+1C2-E-TEST-0100-20.279/001	port authority	DEP=1C2-E-TEST-0100-20.279011
+1C2-E-TEST-0100-20.279/002	new york
+1C2-E-TEST-0100-20.279/003	new jersey	DEP=1C2-E-TEST-0100-20.279002
+1C2-E-TEST-0100-20.279/004	name	DEP=1C2-E-TEST-0100-20.279011
+1C2-E-TEST-0100-20.279/005	freedom tower
+1C2-E-TEST-0100-20.279/006	1 world trade center
+1C2-E-TEST-0100-20.279/007	rationale
+1C2-E-TEST-0100-20.279/008	building	DEP=1C2-E-TEST-0100-20.279013
+1C2-E-TEST-0100-20.279/009	tenants
+1C2-E-TEST-0100-20.279/010	public	DEP=1C2-E-TEST-0100-20.279009
+1C2-E-TEST-0100-20.279/011	changed
+1C2-E-TEST-0100-20.279/012	make	DEP=1C2-E-TEST-0100-20.279011
+1C2-E-TEST-0100-20.279/013	marketable	DEP=1C2-E-TEST-0100-20.279012
+1C2-E-TEST-0100-20.281	ÃÂÃÂ The Port Authority of New York and New Jersey announced that they wanted to cancel construction on Tower 5 altogether to cut the amount of office space available in the reconstructed World Trade Center to 5 million square feet.
+1C2-E-TEST-0100-20.281/001	ã â	DEP=1C2-E-TEST-0100-20.281010
+1C2-E-TEST-0100-20.281/002	port authority
+1C2-E-TEST-0100-20.281/003	new york
+1C2-E-TEST-0100-20.281/004	new jersey	DEP=1C2-E-TEST-0100-20.281003
+1C2-E-TEST-0100-20.281/005	construction	DEP=1C2-E-TEST-0100-20.281012
+1C2-E-TEST-0100-20.281/006	tower 5
+1C2-E-TEST-0100-20.281/007	amount	DEP=1C2-E-TEST-0100-20.281015
+1C2-E-TEST-0100-20.281/008	office space
+1C2-E-TEST-0100-20.281/009	reconstructed world trade center
+1C2-E-TEST-0100-20.281/010	announced
+1C2-E-TEST-0100-20.281/011	wanted	DEP=1C2-E-TEST-0100-20.281010
+1C2-E-TEST-0100-20.281/012	cancel	DEP=1C2-E-TEST-0100-20.281011
+1C2-E-TEST-0100-20.281/013	altogether	DEP=1C2-E-TEST-0100-20.281014
+1C2-E-TEST-0100-20.281/014	cut	DEP=1C2-E-TEST-0100-20.281005
+1C2-E-TEST-0100-20.281/015	available	DEP=1C2-E-TEST-0100-20.281014
+1C2-E-TEST-0100-20.281/016	5	DEP=1C2-E-TEST-0100-20.281017
+1C2-E-TEST-0100-20.281/017	million	DEP=1C2-E-TEST-0100-20.281019
+1C2-E-TEST-0100-20.281/018	square	DEP=1C2-E-TEST-0100-20.281019
+1C2-E-TEST-0100-20.281/019	feet
+1C2-E-TEST-0100-20.292	The States of New York and New Jersey, the City of New York, the Port Authority and Silverstein Properties announced the outline of a development plan for the east side of the World Trade Center site.
+1C2-E-TEST-0100-20.292/001	states	DEP=1C2-E-TEST-0100-20.292012
+1C2-E-TEST-0100-20.292/002	new york
+1C2-E-TEST-0100-20.292/003	new jersey	DEP=1C2-E-TEST-0100-20.292002
+1C2-E-TEST-0100-20.292/004	city	DEP=1C2-E-TEST-0100-20.292002
+1C2-E-TEST-0100-20.292/005	new york
+1C2-E-TEST-0100-20.292/006	port authority	DEP=1C2-E-TEST-0100-20.292005
+1C2-E-TEST-0100-20.292/007	silverstein properties	DEP=1C2-E-TEST-0100-20.292005
+1C2-E-TEST-0100-20.292/008	outline	DEP=1C2-E-TEST-0100-20.292012
+1C2-E-TEST-0100-20.292/009	development plan
+1C2-E-TEST-0100-20.292/010	east side
+1C2-E-TEST-0100-20.292/011	world trade center site
+1C2-E-TEST-0100-20.292/012	announced
+1C2-E-TEST-0100-20.32	The Port Authority of New York and New Jersey began obtaining property at the World Trade Center site.
+1C2-E-TEST-0100-20.32/001	port authority	DEP=1C2-E-TEST-0100-20.32006
+1C2-E-TEST-0100-20.32/002	new york
+1C2-E-TEST-0100-20.32/003	new jersey	DEP=1C2-E-TEST-0100-20.32002
+1C2-E-TEST-0100-20.32/004	property	DEP=1C2-E-TEST-0100-20.32007
+1C2-E-TEST-0100-20.32/005	world trade center site
+1C2-E-TEST-0100-20.32/006	began
+1C2-E-TEST-0100-20.32/007	obtaining	DEP=1C2-E-TEST-0100-20.32006
+1C2-E-TEST-0100-20.50	The first tenants moved into the north tower, 1 WTC, although the tower was not fully completed until 1972.
+1C2-E-TEST-0100-20.50/001	tenants	DEP=1C2-E-TEST-0100-20.50006
+1C2-E-TEST-0100-20.50/002	north tower
+1C2-E-TEST-0100-20.50/003	1
+1C2-E-TEST-0100-20.50/004	tower	DEP=1C2-E-TEST-0100-20.50008
+1C2-E-TEST-0100-20.50/005	1972
+1C2-E-TEST-0100-20.50/006	moved
+1C2-E-TEST-0100-20.50/007	fully	DEP=1C2-E-TEST-0100-20.50008
+1C2-E-TEST-0100-20.50/008	completed	DEP=1C2-E-TEST-0100-20.50006
+1C2-E-TEST-0100-20.81	ÃÂÃÂ The Top of the World Observation Deck opens at Two World Trade Center (South Tower) on the 107th floor providing breathtaking views of Manhattan.
+1C2-E-TEST-0100-20.81/001	ã â	DEP=1C2-E-TEST-0100-20.81010
+1C2-E-TEST-0100-20.81/002	top	DEP=1C2-E-TEST-0100-20.81001
+1C2-E-TEST-0100-20.81/003	world observation deck
+1C2-E-TEST-0100-20.81/004	two
+1C2-E-TEST-0100-20.81/005	world trade center	DEP=1C2-E-TEST-0100-20.81010
+1C2-E-TEST-0100-20.81/006	south tower	DEP=1C2-E-TEST-0100-20.81005
+1C2-E-TEST-0100-20.81/007	107th floor
+1C2-E-TEST-0100-20.81/008	breathtaking views	DEP=1C2-E-TEST-0100-20.81011
+1C2-E-TEST-0100-20.81/009	manhattan
+1C2-E-TEST-0100-20.81/010	opens
+1C2-E-TEST-0100-20.81/011	providing	DEP=1C2-E-TEST-0100-20.81007
+1C2-E-TEST-0100-24.131	The collapse of the World Trade Center has been called "the most infamous paradigm" of progressive collapse .
+1C2-E-TEST-0100-24.131/001	collapse	DEP=1C2-E-TEST-0100-24.131004
+1C2-E-TEST-0100-24.131/002	world trade center
+1C2-E-TEST-0100-24.131/003	progressive collapse
+1C2-E-TEST-0100-24.131/004	called
+1C2-E-TEST-0100-24.131/005	infamous	DEP=1C2-E-TEST-0100-24.131006
+1C2-E-TEST-0100-24.131/006	paradigm	DEP=1C2-E-TEST-0100-24.131004
+1C2-E-TEST-0100-24.16	The structural engineers working on the World Trade Center considered the possibility that an aircraft could crash into the building.
+1C2-E-TEST-0100-24.16/001	structural engineers	DEP=1C2-E-TEST-0100-24.16007
+1C2-E-TEST-0100-24.16/002	world trade center
+1C2-E-TEST-0100-24.16/003	possibility	DEP=1C2-E-TEST-0100-24.16007
+1C2-E-TEST-0100-24.16/004	aircraft	DEP=1C2-E-TEST-0100-24.16008
+1C2-E-TEST-0100-24.16/005	building
+1C2-E-TEST-0100-24.16/006	working	DEP=1C2-E-TEST-0100-24.16001
+1C2-E-TEST-0100-24.16/007	considered
+1C2-E-TEST-0100-24.16/008	crash	DEP=1C2-E-TEST-0100-24.16007
+1C2-E-TEST-0100-24.211	In response to FEMA's concerns, the National Institute of Standards and Technology (NIST) was authorized to lead an investigation into the structural failure and collapse of the World Trade Center twin towers and 7ÃÂÃÂ World Trade Center.
+1C2-E-TEST-0100-24.211/001	response
+1C2-E-TEST-0100-24.211/002	fema	DEP=1C2-E-TEST-0100-24.211010
+1C2-E-TEST-0100-24.211/003	national institute	DEP=1C2-E-TEST-0100-24.211011
+1C2-E-TEST-0100-24.211/004	standards technology
+1C2-E-TEST-0100-24.211/005	nist	DEP=1C2-E-TEST-0100-24.211003
+1C2-E-TEST-0100-24.211/006	investigation	DEP=1C2-E-TEST-0100-24.211012
+1C2-E-TEST-0100-24.211/007	structural failure collapse
+1C2-E-TEST-0100-24.211/008	world trade center
+1C2-E-TEST-0100-24.211/009	7ã â world trade center
+1C2-E-TEST-0100-24.211/010	concerns
+1C2-E-TEST-0100-24.211/011	authorized
+1C2-E-TEST-0100-24.211/012	lead	DEP=1C2-E-TEST-0100-24.211011
+1C2-E-TEST-0100-24.214	The bulk of the investigation of 7 World Trade Center was delayed until after reports were completed on the collapse of the World Trade Center twin towers.
+1C2-E-TEST-0100-24.214/001	bulk	DEP=1C2-E-TEST-0100-24.214007
+1C2-E-TEST-0100-24.214/002	investigation
+1C2-E-TEST-0100-24.214/003	7 world trade center
+1C2-E-TEST-0100-24.214/004	reports	DEP=1C2-E-TEST-0100-24.214008
+1C2-E-TEST-0100-24.214/005	collapse
+1C2-E-TEST-0100-24.214/006	world trade center
+1C2-E-TEST-0100-24.214/007	delayed
+1C2-E-TEST-0100-24.214/008	completed	DEP=1C2-E-TEST-0100-24.214007
+1C2-E-TEST-0100-24.270	The collapse of the World Trade Center produced enormous clouds of dust that covered Manhattan for days.
+1C2-E-TEST-0100-24.270/001	collapse	DEP=1C2-E-TEST-0100-24.270007
+1C2-E-TEST-0100-24.270/002	world trade center
+1C2-E-TEST-0100-24.270/003	enormous clouds	DEP=1C2-E-TEST-0100-24.270007
+1C2-E-TEST-0100-24.270/004	dust
+1C2-E-TEST-0100-24.270/005	manhattan	DEP=1C2-E-TEST-0100-24.270008
+1C2-E-TEST-0100-24.270/006	days
+1C2-E-TEST-0100-24.270/007	produced
+1C2-E-TEST-0100-24.270/008	covered	DEP=1C2-E-TEST-0100-24.270003
+1C2-E-TEST-0100-24.29	In April 1970, the New York City Department of Air Resources ordered contractors building the World Trade Center to stop the spraying of asbestos as an insulating material.
+1C2-E-TEST-0100-24.29/001	april 1970
+1C2-E-TEST-0100-24.29/002	new york city department	DEP=1C2-E-TEST-0100-24.29009
+1C2-E-TEST-0100-24.29/003	air resources
+1C2-E-TEST-0100-24.29/004	contractors	DEP=1C2-E-TEST-0100-24.29009
+1C2-E-TEST-0100-24.29/005	world trade center	DEP=1C2-E-TEST-0100-24.29011
+1C2-E-TEST-0100-24.29/006	spraying
+1C2-E-TEST-0100-24.29/007	asbestos
+1C2-E-TEST-0100-24.29/008	insulating material
+1C2-E-TEST-0100-24.29/009	ordered
+1C2-E-TEST-0100-24.29/010	building	DEP=1C2-E-TEST-0100-24.29009
+1C2-E-TEST-0100-24.29/011	stop	DEP=1C2-E-TEST-0100-24.29010
+1C2-E-TEST-0100-24.77	7 World Trade Center on fire after the collapse of the Twin Towers on September 11th, 2001
+1C2-E-TEST-0100-24.77/001	7
+1C2-E-TEST-0100-24.77/002	world trade center	DEP=1C2-E-TEST-0100-24.77001
+1C2-E-TEST-0100-24.77/003	fire
+1C2-E-TEST-0100-24.77/004	collapse
+1C2-E-TEST-0100-24.77/005	september
+1C2-E-TEST-0100-24.77/006	2001	DEP=1C2-E-TEST-0100-24.77004
+1C2-E-TEST-0100-24.77/007	11th
+1C2-E-TEST-0100-37.19	To fulfill the Port Authority's requirement, architect Minoru Yamasaki designed two towers of 110 stories each.
+1C2-E-TEST-0100-37.19/001	port authority	DEP=1C2-E-TEST-0100-37.19006
+1C2-E-TEST-0100-37.19/002	architect minoru yamasaki	DEP=1C2-E-TEST-0100-37.19007
+1C2-E-TEST-0100-37.19/003	two
+1C2-E-TEST-0100-37.19/004	110 stories
+1C2-E-TEST-0100-37.19/005	fulfill	DEP=1C2-E-TEST-0100-37.19007
+1C2-E-TEST-0100-37.19/006	requirement	DEP=1C2-E-TEST-0100-37.19005
+1C2-E-TEST-0100-37.19/007	designed
+1C2-E-TEST-0100-37.41	The last piece of steel was put in place on the north tower (One World Trade Center) on December 23, 1970; the south tower (Two World Trade Center) was topped off in July of the next year.
+1C2-E-TEST-0100-37.41/001	piece	DEP=1C2-E-TEST-0100-37.41011
+1C2-E-TEST-0100-37.41/002	steel
+1C2-E-TEST-0100-37.41/003	place
+1C2-E-TEST-0100-37.41/004	north tower
+1C2-E-TEST-0100-37.41/005	world trade center
+1C2-E-TEST-0100-37.41/006	december 23 1970
+1C2-E-TEST-0100-37.41/007	south tower	DEP=1C2-E-TEST-0100-37.41012
+1C2-E-TEST-0100-37.41/008	two	DEP=1C2-E-TEST-0100-37.41007
+1C2-E-TEST-0100-37.41/009	world trade center	DEP=1C2-E-TEST-0100-37.41008
+1C2-E-TEST-0100-37.41/010	july
+1C2-E-TEST-0100-37.41/011	put
+1C2-E-TEST-0100-37.41/012	topped	DEP=1C2-E-TEST-0100-37.41011
+1C2-E-TEST-0100-37.45	At 1,360 feet, the World Trade Center towers were the tallest buildings in the world for less than a year; they were soon surpassed by Chicago 's Sears Tower.
+1C2-E-TEST-0100-37.45/001	1,360 feet
+1C2-E-TEST-0100-37.45/002	world trade center
+1C2-E-TEST-0100-37.45/003	tallest buildings
+1C2-E-TEST-0100-37.45/004	world
+1C2-E-TEST-0100-37.45/005	chicago	DEP=1C2-E-TEST-0100-37.45009
+1C2-E-TEST-0100-37.45/006	soon	DEP=1C2-E-TEST-0100-37.45007
+1C2-E-TEST-0100-37.45/007	surpassed	DEP=1C2-E-TEST-0100-37.45003
+1C2-E-TEST-0100-37.45/008	sears	DEP=1C2-E-TEST-0100-37.45009
+1C2-E-TEST-0100-37.45/009	tower
+1C2-E-TEST-0100-37.60	The World Trade Center on September 11th
+1C2-E-TEST-0100-37.60/001	world trade center
+1C2-E-TEST-0100-37.60/002	september
+1C2-E-TEST-0100-37.60/003	11th	DEP=1C2-E-TEST-0100-37.60001
+1C2-E-TEST-0100-37.61	In July 2001, just two months before the terrorist attacks of September 11 , the Port Authority agreed to lease the twin towers to Larry Silverstein, a New York City developer.
+1C2-E-TEST-0100-37.61/001	july 2001
+1C2-E-TEST-0100-37.61/002	two months
+1C2-E-TEST-0100-37.61/003	terrorist attacks
+1C2-E-TEST-0100-37.61/004	september 11
+1C2-E-TEST-0100-37.61/005	port authority	DEP=1C2-E-TEST-0100-37.61008
+1C2-E-TEST-0100-37.61/006	larry silverstein
+1C2-E-TEST-0100-37.61/007	new york city developer	DEP=1C2-E-TEST-0100-37.61006
+1C2-E-TEST-0100-37.61/008	agreed
+1C2-E-TEST-0100-37.61/009	lease	DEP=1C2-E-TEST-0100-37.61008
+1C2-E-TEST-0100-37.64	The impact of the two planes that hit the World Trade Center towers on September 11, 2001, was more devastating than any of the building's designers and engineers had ever imagined.
+1C2-E-TEST-0100-37.64/001	impact	DEP=1C2-E-TEST-0100-37.64007
+1C2-E-TEST-0100-37.64/002	two planes
+1C2-E-TEST-0100-37.64/003	world trade center
+1C2-E-TEST-0100-37.64/004	september 11 2001
+1C2-E-TEST-0100-37.64/005	building	DEP=1C2-E-TEST-0100-37.64008
+1C2-E-TEST-0100-37.64/006	hit	DEP=1C2-E-TEST-0100-37.64002
+1C2-E-TEST-0100-37.64/007	devastating
+1C2-E-TEST-0100-37.64/008	designers
+1C2-E-TEST-0100-37.64/009	engineers	DEP=1C2-E-TEST-0100-37.64008
+1C2-E-TEST-0100-37.64/010	imagined	DEP=1C2-E-TEST-0100-37.64007
+1C2-E-TEST-0100-37.72	Debris from the falling towers ignited fires in the remaining buildings of the trade center complex, including 7 World Trade, which burned for most of the day before collapsing at 5:20 p.m.
+1C2-E-TEST-0100-37.72/001	debris	DEP=1C2-E-TEST-0100-37.72008
+1C2-E-TEST-0100-37.72/002	falling
+1C2-E-TEST-0100-37.72/003	fires	DEP=1C2-E-TEST-0100-37.72008
+1C2-E-TEST-0100-37.72/004	remaining buildings
+1C2-E-TEST-0100-37.72/005	trade center complex
+1C2-E-TEST-0100-37.72/006	7 world trade
+1C2-E-TEST-0100-37.72/007	5:20
+1C2-E-TEST-0100-37.72/008	ignited
+1C2-E-TEST-0100-37.72/009	burned	DEP=1C2-E-TEST-0100-37.72006
+1C2-E-TEST-0100-37.72/010	collapsing
+1C2-E-TEST-0100-37.72/011	p.m.	DEP=1C2-E-TEST-0100-37.72010
+1C2-E-TEST-0100-4.10	The World Trade Center was more than its signature twin towers: it was a complex of seven buildings on 16-acres, constructed and operated by the Port Authority of New York and New Jersey (PANYNJ).
+1C2-E-TEST-0100-4.10/001	world trade center
+1C2-E-TEST-0100-4.10/002	signature
+1C2-E-TEST-0100-4.10/003	complex
+1C2-E-TEST-0100-4.10/004	seven buildings
+1C2-E-TEST-0100-4.10/005	16-acres
+1C2-E-TEST-0100-4.10/006	port authority
+1C2-E-TEST-0100-4.10/007	new york
+1C2-E-TEST-0100-4.10/008	new jersey	DEP=1C2-E-TEST-0100-4.10007
+1C2-E-TEST-0100-4.10/009	panynj	DEP=1C2-E-TEST-0100-4.10004
+1C2-E-TEST-0100-4.10/010	constructed	DEP=1C2-E-TEST-0100-4.10005
+1C2-E-TEST-0100-4.10/011	operated	DEP=1C2-E-TEST-0100-4.10010
+1C2-E-TEST-0100-4.30	When complete, the Center met with mixed reviews, but at 1,368 and 1,362 feet and 110 stories each, the twin towers were the world's tallest, and largest, buildings until the Sears Tower surpassed them both in 1974.
+1C2-E-TEST-0100-4.30/001	center	DEP=1C2-E-TEST-0100-4.30012
+1C2-E-TEST-0100-4.30/002	mixed reviews
+1C2-E-TEST-0100-4.30/003	1,368
+1C2-E-TEST-0100-4.30/004	1,362 feet	DEP=1C2-E-TEST-0100-4.30003
+1C2-E-TEST-0100-4.30/005	110 stories	DEP=1C2-E-TEST-0100-4.30003
+1C2-E-TEST-0100-4.30/006	world	DEP=1C2-E-TEST-0100-4.30012
+1C2-E-TEST-0100-4.30/007	largest	DEP=1C2-E-TEST-0100-4.30006
+1C2-E-TEST-0100-4.30/008	buildings	DEP=1C2-E-TEST-0100-4.30007
+1C2-E-TEST-0100-4.30/009	sears tower	DEP=1C2-E-TEST-0100-4.30014
+1C2-E-TEST-0100-4.30/010	1974
+1C2-E-TEST-0100-4.30/011	complete	DEP=1C2-E-TEST-0100-4.30012
+1C2-E-TEST-0100-4.30/012	met
+1C2-E-TEST-0100-4.30/013	tallest	DEP=1C2-E-TEST-0100-4.30006
+1C2-E-TEST-0100-4.30/014	surpassed	DEP=1C2-E-TEST-0100-4.30006

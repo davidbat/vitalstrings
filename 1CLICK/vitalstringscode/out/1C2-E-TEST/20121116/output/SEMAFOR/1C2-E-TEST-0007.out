@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 20:07:33 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>1997 Rodgers &amp; Hammerstein 's Cinderella Robert Iscove Executive producer .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Leadership">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="63" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="63" name="Leader" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1" frameName="Manufacturing">
+                  <layers>
+                    <layer ID="101" name="Target">
+                      <labels>
+                        <label ID="10101" end="72" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="102" name="FE">
+                      <labels>
+                        <label ID="10201" end="53" name="Means" start="48"/>
+                        <label ID="10202" end="63" name="Product" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>Nominated â&#128;&#147; 1998 Emmy Award for Outstanding Variety , Music Or Comedy Special in Rodgers &amp; Hammerstein 's Cinderella .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Aggregate">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="52" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="52" name="Aggregate" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="60" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Text">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="70" name="Text" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>Nominated â&#128;&#147; 1998 NAACP Image Award for Outstanding Television Movie/Mini-Series in Rodgers &amp; Hammerstein 's Cinderella .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Impression">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>2001 The Princess Diaries Garry Marshall Producer .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Text">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="24" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="24" name="Text" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="48" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="16" name="Time" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>Won â&#128;&#147; 2002 Young Artist Award for Best Family Feature Film â&#128;&#147; Comedy .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Kinship">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="46" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="46" name="Relatives" start="41"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Text">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="63" name="Author" start="61"/>
+                        <label ID="4010202" end="70" name="Text" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="24" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="17" name="Descriptor" start="13"/>
+                        <label ID="4020202" end="24" name="Creator" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Age">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="17" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels>
+                        <label ID="4030201" end="24" name="Entity" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="404" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="40401" name="Target">
+                      <labels>
+                        <label ID="4040101" end="59" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>Nominated â&#128;&#147; 2002 Broadcast Film Critics Association Award for Best Family Film -LRB- Live Action -RRB- in The Princess Diaries .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Kinship">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="74" name="Target" start="69"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="74" name="Relatives" start="69"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Judgment_communication">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="40" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="127" name="Evaluee" start="42"/>
+                        <label ID="5010202" end="40" name="Communicator" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Text">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="127" name="Target" start="121"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="127" name="Text" start="121"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="79" name="Target" start="76"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="97" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="97" name="Act" start="92"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="505" frameName="Aggregate">
+                  <layers>
+                    <layer ID="50501" name="Target">
+                      <labels>
+                        <label ID="5050101" end="52" name="Target" start="42"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50502" name="FE">
+                      <labels>
+                        <label ID="5050201" end="52" name="Aggregate" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="506" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="50601" name="Target">
+                      <labels>
+                        <label ID="5060101" end="32" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Nominated â&#128;&#147; 2002 Phoenix Film Critics Society Award for Best Family Film in The Princess Diaries .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Text">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="97" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="97" name="Text" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Judgment_communication">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="38" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="97" name="Evaluee" start="40"/>
+                        <label ID="6010202" end="38" name="Communicator" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="73" name="Target" start="70"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="97" name="Place" start="75"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="603" frameName="Kinship">
+                  <layers>
+                    <layer ID="60301" name="Target">
+                      <labels>
+                        <label ID="6030101" end="68" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60302" name="FE">
+                      <labels>
+                        <label ID="6030201" end="68" name="Relatives" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="604" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="60401" name="Target">
+                      <labels>
+                        <label ID="6040101" end="30" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>Nominated â&#128;&#147; 2002 Teen Choice Award for Film â&#128;&#147; Choice Movie , Comedy in The Princess Diaries .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Choosing">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="55" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Choosing">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="29" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="44" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="703" frameName="Text">
+                  <layers>
+                    <layer ID="70301" name="Target">
+                      <labels>
+                        <label ID="7030101" end="94" name="Target" start="88"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70302" name="FE">
+                      <labels>
+                        <label ID="7030201" end="94" name="Text" start="88"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="704" frameName="Text">
+                  <layers>
+                    <layer ID="70401" name="Target">
+                      <labels>
+                        <label ID="7040101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70402" name="FE">
+                      <labels>
+                        <label ID="7040201" end="70" name="Text" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>2003 The Cheetah Girls Oz Scott Producer .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="39" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="People">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="21" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="21" name="Person" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>2004 The Princess Diaries 2 : Royal Engagement Garry Marshall Producer .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Manufacturing">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="69" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="60" name="Product" start="53"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="26" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="34" name="Entity" start="30"/>
+                        <label ID="9010202" end="26" name="Number" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="45" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="903" frameName="Text">
+                  <layers>
+                    <layer ID="90301" name="Target">
+                      <labels>
+                        <label ID="9030101" end="24" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90302" name="FE">
+                      <labels>
+                        <label ID="9030201" end="16" name="Time_of_creation" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>2006 The Cheetah Girls 2 : When in Spain Kenny Ortega Co-executive producer .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Manufacturing">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="74" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="65" name="Product" start="54"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="People">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="21" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="21" name="Person" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="23" name="Target" start="23"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="21" name="Entity" start="17"/>
+                        <label ID="10020202" end="23" name="Number" start="23"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1003" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="100301" name="Target">
+                      <labels>
+                        <label ID="10030101" end="30" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>1992 The Bodyguard Rachel Marron Feature film .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="44" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>Nominated â&#128;&#147; 1993 MTV Movie Award for Best Female Performance in The Bodyguard .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="61" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Nominated â&#128;&#147; 1993 MTV Movie Award for Best Breakthrough Performance in The Bodyguard .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="67" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>Nominated â&#128;&#147; 1993 MTV Movie Award for Best On-Screen Duo with co-star Kevin Costner in The Bodyguard .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="69" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>Nominated â&#128;&#147; 1992 Golden Raspberry Award for Worst Actress in The Bodyguard .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="58" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Desirability">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="50" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels>
+                        <label ID="15010201" end="75" name="Evaluee" start="52"/>
+                        <label ID="15010202" end="50" name="Degree" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>1995 Waiting to Exhale Savannah Jackson Feature film .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Waiting">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="11" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="3" name="Protagonist" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="51" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1602" frameName="Biological_area">
+                  <layers>
+                    <layer ID="160201" name="Target">
+                      <labels>
+                        <label ID="16020101" end="30" name="Target" start="23"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160202" name="FE">
+                      <labels>
+                        <label ID="16020201" end="30" name="Locale" start="23"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1603" frameName="Emitting">
+                  <layers>
+                    <layer ID="160301" name="Target">
+                      <labels>
+                        <label ID="16030101" end="21" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>Nominated â&#128;&#147; 1996 NAACP Image Award for Outstanding Actress in a Motion Picture in Waiting to Exhale .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Gesture">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="71" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="59" name="Target" start="53"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1702" frameName="Waiting">
+                  <layers>
+                    <layer ID="170201" name="Target">
+                      <labels>
+                        <label ID="17020101" end="90" name="Target" start="84"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1703" frameName="Emitting">
+                  <layers>
+                    <layer ID="170301" name="Target">
+                      <labels>
+                        <label ID="17030101" end="100" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1704" frameName="Impression">
+                  <layers>
+                    <layer ID="170401" name="Target">
+                      <labels>
+                        <label ID="17040101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1705" frameName="Physical_artworks">
+                  <layers>
+                    <layer ID="170501" name="Target">
+                      <labels>
+                        <label ID="17050101" end="79" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170502" name="FE">
+                      <labels>
+                        <label ID="17050201" end="79" name="Artifact" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>1996 The Preacher 's Wife Julia Biggs Feature film .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="24" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="30" name="Partner_1" start="26"/>
+                        <label ID="18000202" end="24" name="Partner_2" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="49" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>Won â&#128;&#147; 1997 NAACP Image Award for Outstanding Actress in a Motion Picture in The Preacher 's Wife .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Gesture">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="65" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="53" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1902" frameName="Impression">
+                  <layers>
+                    <layer ID="190201" name="Target">
+                      <labels>
+                        <label ID="19020101" end="23" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1903" frameName="Physical_artworks">
+                  <layers>
+                    <layer ID="190301" name="Target">
+                      <labels>
+                        <label ID="19030101" end="73" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190302" name="FE">
+                      <labels>
+                        <label ID="19030201" end="97" name="Represented" start="75"/>
+                        <label ID="19030202" end="73" name="Artifact" start="67"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1904" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="190401" name="Target">
+                      <labels>
+                        <label ID="19040101" end="97" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190402" name="FE">
+                      <labels>
+                        <label ID="19040201" end="92" name="Partner_1" start="78"/>
+                        <label ID="19040202" end="97" name="Partner_2" start="94"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>Nominated â&#128;&#147; 1997 Blockbuster Entertainment Award for Favorite Female Actress -LRB- Comedy/Romance -RRB- in The Preacher 's Wife .</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Text">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="98" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="98" name="Text" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="77" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2002" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="200201" name="Target">
+                      <labels>
+                        <label ID="20020101" end="128" name="Target" start="125"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200202" name="FE">
+                      <labels>
+                        <label ID="20020201" end="123" name="Partner_1" start="109"/>
+                        <label ID="20020202" end="128" name="Partner_2" start="125"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>Nominated â&#128;&#147; 1997 Kids ' Choice Award for Favorite Movie Actress in The Preacher 's Wife .</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="88" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="83" name="Partner_1" start="69"/>
+                        <label ID="21000202" end="88" name="Partner_2" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Create_physical_artwork">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="64" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Choosing">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2103" frameName="People_by_age">
+                  <layers>
+                    <layer ID="210301" name="Target">
+                      <labels>
+                        <label ID="21030101" end="22" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210302" name="FE">
+                      <labels>
+                        <label ID="21030201" end="22" name="Person" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>1997 Rodgers &amp; Hammerstein 's Cinderella Fairy Godmother Made-for-television film , part of a revival of the Wonderful World of Disney .</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Desirability">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="117" name="Target" start="109"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels>
+                        <label ID="22000201" end="123" name="Evaluee" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Rejuvenation">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="100" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="133" name="Entity" start="102"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Part_whole">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="87" name="Target" start="84"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels>
+                        <label ID="22020201" end="133" name="Whole" start="89"/>
+                        <label ID="22020202" end="87" name="Part" start="84"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2203" frameName="Political_locales">
+                  <layers>
+                    <layer ID="220301" name="Target">
+                      <labels>
+                        <label ID="22030101" end="123" name="Target" start="119"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220302" name="FE">
+                      <labels>
+                        <label ID="22030201" end="123" name="Locale" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2204" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="220401" name="Target">
+                      <labels>
+                        <label ID="22040101" end="80" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>Nominated â&#128;&#147; 1998 Emmy Award for Outstanding Variety , Music Or Comedy Special in Rodgers Hammerstein 's Cinderella .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Aggregate">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="52" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels>
+                        <label ID="23000201" end="52" name="Aggregate" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Text">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="70" name="Text" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2302" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="230201" name="Target">
+                      <labels>
+                        <label ID="23020101" end="60" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="24">
+              <text>Nominated â&#128;&#147; 1998 NAACP Image Award for Outstanding Television Movie/Mini-Series in Rodgers Hammerstein 's Cinderella .</text>
+              <annotationSets>
+                <annotationSet ID="2400" frameName="Impression">
+                  <layers>
+                    <layer ID="240001" name="Target">
+                      <labels>
+                        <label ID="24000101" end="29" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="25">
+              <text>2012 Sparkle Emma Posthumous release .</text>
+              <annotationSets>
+                <annotationSet ID="2500" frameName="Light_movement">
+                  <layers>
+                    <layer ID="250001" name="Target">
+                      <labels>
+                        <label ID="25000101" end="11" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2501" frameName="Releasing">
+                  <layers>
+                    <layer ID="250101" name="Target">
+                      <labels>
+                        <label ID="25010101" end="35" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250102" name="FE">
+                      <labels>
+                        <label ID="25010201" end="27" name="Agent" start="18"/>
+                        <label ID="25010202" end="3" name="Theme" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="26">
+              <text>-LSB- 90 -RSB- Houston 's first film role was in The Bodyguard , released in 1992 and co-starring Kevin Costner .</text>
+              <annotationSets>
+                <annotationSet ID="2600" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="260001" name="Target">
+                      <labels>
+                        <label ID="26000101" end="7" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260002" name="FE">
+                      <labels>
+                        <label ID="26000201" end="13" name="Entity" start="9"/>
+                        <label ID="26000202" end="7" name="Number" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2601" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="260101" name="Target">
+                      <labels>
+                        <label ID="26010101" end="40" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260102" name="FE">
+                      <labels>
+                        <label ID="26010201" end="35" name="Performer" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2602" frameName="Ordinal_numbers">
+                  <layers>
+                    <layer ID="260201" name="Target">
+                      <labels>
+                        <label ID="26020101" end="30" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2603" frameName="Behind_the_scenes">
+                  <layers>
+                    <layer ID="260301" name="Target">
+                      <labels>
+                        <label ID="26030101" end="35" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2604" frameName="Releasing">
+                  <layers>
+                    <layer ID="260401" name="Target">
+                      <labels>
+                        <label ID="26040101" end="72" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="27">
+              <text>Houston played Rachel Marron , a star who is stalked by a crazed fan and hires a bodyguard to protect her .</text>
+              <annotationSets>
+                <annotationSet ID="2700" frameName="Protecting">
+                  <layers>
+                    <layer ID="270001" name="Target">
+                      <labels>
+                        <label ID="27000101" end="100" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270002" name="FE">
+                      <labels>
+                        <label ID="27000201" end="104" name="Asset" start="102"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2701" frameName="Hiring">
+                  <layers>
+                    <layer ID="270101" name="Target">
+                      <labels>
+                        <label ID="27010101" end="77" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270102" name="FE">
+                      <labels>
+                        <label ID="27010201" end="89" name="Employee" start="79"/>
+                        <label ID="27010202" end="104" name="Purpose" start="91"/>
+                        <label ID="27010203" end="67" name="Employer" start="53"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2702" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="270201" name="Target">
+                      <labels>
+                        <label ID="27020101" end="13" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270202" name="FE">
+                      <labels>
+                        <label ID="27020201" end="36" name="Role" start="15"/>
+                        <label ID="27020202" end="6" name="Performer" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2703" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="270301" name="Target">
+                      <labels>
+                        <label ID="27030101" end="36" name="Target" start="33"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270302" name="FE">
+                      <labels>
+                        <label ID="27030201" end="36" name="Role" start="33"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2704" frameName="Self_motion">
+                  <layers>
+                    <layer ID="270401" name="Target">
+                      <labels>
+                        <label ID="27040101" end="51" name="Target" start="45"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270402" name="FE">
+                      <labels>
+                        <label ID="27040201" end="36" name="Self_mover" start="15"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="28">
+              <text>-LSB- 92 -RSB- Houston 's mainstream appeal allowed people to look at the movie color-blind .</text>
+              <annotationSets>
+                <annotationSet ID="2800" frameName="Appeal">
+                  <layers>
+                    <layer ID="280001" name="Target">
+                      <labels>
+                        <label ID="28000101" end="42" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2801" frameName="Grant_permission">
+                  <layers>
+                    <layer ID="280101" name="Target">
+                      <labels>
+                        <label ID="28010101" end="50" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280102" name="FE">
+                      <labels>
+                        <label ID="28010201" end="90" name="Action" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2802" frameName="People">
+                  <layers>
+                    <layer ID="280201" name="Target">
+                      <labels>
+                        <label ID="28020101" end="57" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280202" name="FE">
+                      <labels>
+                        <label ID="28020201" end="57" name="Person" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2803" frameName="Perception_active">
+                  <layers>
+                    <layer ID="280301" name="Target">
+                      <labels>
+                        <label ID="28030101" end="65" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280302" name="FE">
+                      <labels>
+                        <label ID="28030201" end="57" name="Perceiver_agentive" start="52"/>
+                        <label ID="28030202" end="90" name="Phenomenon" start="67"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2804" frameName="Race_descriptor">
+                  <layers>
+                    <layer ID="280401" name="Target">
+                      <labels>
+                        <label ID="28040101" end="90" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280402" name="FE">
+                      <labels>
+                        <label ID="28040201" end="90" name="Person" start="80"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

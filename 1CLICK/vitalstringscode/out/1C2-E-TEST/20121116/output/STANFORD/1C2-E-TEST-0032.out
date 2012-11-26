@@ -1,0 +1,485 @@
+1C2-E-TEST-0032-1.29	While reporting on the Boer War in South Africa, he was taken prisoner by the Boers while on a scouting expedition.
+1C2-E-TEST-0032-1.29/001	boer war
+1C2-E-TEST-0032-1.29/002	south africa
+1C2-E-TEST-0032-1.29/003	prisoner	DEP=1C2-E-TEST-0032-1.29007
+1C2-E-TEST-0032-1.29/004	boers
+1C2-E-TEST-0032-1.29/005	scouting expedition
+1C2-E-TEST-0032-1.29/006	reporting	DEP=1C2-E-TEST-0032-1.29007
+1C2-E-TEST-0032-1.29/007	taken
+1C2-E-TEST-0032-1.33	In 1900, Churchill became a Member of Parliament in the Conservative Party for Oldham, a town in Manchester.
+1C2-E-TEST-0032-1.33/001	1900
+1C2-E-TEST-0032-1.33/002	member
+1C2-E-TEST-0032-1.33/003	parliament
+1C2-E-TEST-0032-1.33/004	conservative party
+1C2-E-TEST-0032-1.33/005	oldham
+1C2-E-TEST-0032-1.33/006	town	DEP=1C2-E-TEST-0032-1.33005
+1C2-E-TEST-0032-1.33/007	manchester
+1C2-E-TEST-0032-10.222	Winston Churchill - Prime Minister and Minister of Defense
+1C2-E-TEST-0032-10.222/001	prime minister minister
+1C2-E-TEST-0032-10.222/002	defense
+1C2-E-TEST-0032-10.34	When Asquith formed a all-party coalition government, the Conservatives demanded Churchill's demotion as the price for entry.
+1C2-E-TEST-0032-10.34/001	asquith	DEP=1C2-E-TEST-0032-10.34006
+1C2-E-TEST-0032-10.34/002	all-party coalition government	DEP=1C2-E-TEST-0032-10.34006
+1C2-E-TEST-0032-10.34/003	conservatives	DEP=1C2-E-TEST-0032-10.34007
+1C2-E-TEST-0032-10.34/004	price
+1C2-E-TEST-0032-10.34/005	entry
+1C2-E-TEST-0032-10.34/006	formed	DEP=1C2-E-TEST-0032-10.34007
+1C2-E-TEST-0032-10.34/007	demanded
+1C2-E-TEST-0032-10.34/008	demotion	DEP=1C2-E-TEST-0032-10.34007
+1C2-E-TEST-0032-10.45	Churchill was also a staunch advocate of foreign intervention in the Russian Civil War, declaring that Bolshevism must be "strangled in its cradle."
+1C2-E-TEST-0032-10.45/001	staunch advocate
+1C2-E-TEST-0032-10.45/002	foreign intervention
+1C2-E-TEST-0032-10.45/003	russian civil war
+1C2-E-TEST-0032-10.45/004	bolshevism	DEP=1C2-E-TEST-0032-10.45007
+1C2-E-TEST-0032-10.45/005	cradle
+1C2-E-TEST-0032-10.45/006	declaring	DEP=1C2-E-TEST-0032-10.45001
+1C2-E-TEST-0032-10.45/007	strangled	DEP=1C2-E-TEST-0032-10.45006
+1C2-E-TEST-0032-10.46	He became Secretary of State for the Colonies 1921 and was a signatory of the Anglo-Irish treaty of 1921 which established the Irish Free State.
+1C2-E-TEST-0032-10.46/001	secretary
+1C2-E-TEST-0032-10.46/002	state
+1C2-E-TEST-0032-10.46/003	colonies
+1C2-E-TEST-0032-10.46/004	signatory	DEP=1C2-E-TEST-0032-10.46001
+1C2-E-TEST-0032-10.46/005	anglo-irish treaty
+1C2-E-TEST-0032-10.46/006	1921
+1C2-E-TEST-0032-10.46/007	irish free state	DEP=1C2-E-TEST-0032-10.46009
+1C2-E-TEST-0032-10.46/008	1921	DEP=1C2-E-TEST-0032-10.46001
+1C2-E-TEST-0032-10.46/009	established	DEP=1C2-E-TEST-0032-10.46004
+1C2-E-TEST-0032-10.60	In the next two years Churchill became estranged from the Conservative leadership over the issues of protective tariffs and Indian Home Rule.
+1C2-E-TEST-0032-10.60/001	two years
+1C2-E-TEST-0032-10.60/002	estranged
+1C2-E-TEST-0032-10.60/003	conservative leadership
+1C2-E-TEST-0032-10.60/004	issues
+1C2-E-TEST-0032-10.60/005	protective tariffs
+1C2-E-TEST-0032-10.60/006	indian home rule	DEP=1C2-E-TEST-0032-10.60005
+1C2-E-TEST-0032-10.67	Churchill was a fierce critic of Neville Chamberlain's appeasement of Hitler.
+1C2-E-TEST-0032-10.67/001	fierce critic
+1C2-E-TEST-0032-10.67/002	neville chamberlain	DEP=1C2-E-TEST-0032-10.67004
+1C2-E-TEST-0032-10.67/003	hitler
+1C2-E-TEST-0032-10.67/004	appeasement
+1C2-E-TEST-0032-159.105	Churchill was convinced that the only way to alleviate tensions between the two populations was the transfer of people, to match the national borders.
+1C2-E-TEST-0032-159.105/001	tensions	DEP=1C2-E-TEST-0032-159.105008
+1C2-E-TEST-0032-159.105/002	two populations
+1C2-E-TEST-0032-159.105/003	transfer	DEP=1C2-E-TEST-0032-159.105006
+1C2-E-TEST-0032-159.105/004	people
+1C2-E-TEST-0032-159.105/005	national borders	DEP=1C2-E-TEST-0032-159.105009
+1C2-E-TEST-0032-159.105/006	convinced
+1C2-E-TEST-0032-159.105/007	way	DEP=1C2-E-TEST-0032-159.105003
+1C2-E-TEST-0032-159.105/008	alleviate	DEP=1C2-E-TEST-0032-159.105007
+1C2-E-TEST-0032-159.105/009	match	DEP=1C2-E-TEST-0032-159.105006
+1C2-E-TEST-0032-159.23	However in July 1917 Churchill was appointed Minister of Munitions .
+1C2-E-TEST-0032-159.23/001	july 1917
+1C2-E-TEST-0032-159.23/002	minister	DEP=1C2-E-TEST-0032-159.23004
+1C2-E-TEST-0032-159.23/003	munitions
+1C2-E-TEST-0032-159.23/004	appointed
+1C2-E-TEST-0032-159.24	After the end of the war Churchill served as both Secretary of State for War and Secretary of State for Air ( 1919 - 1921 ).
+1C2-E-TEST-0032-159.24/001	end
+1C2-E-TEST-0032-159.24/002	war
+1C2-E-TEST-0032-159.24/003	secretary
+1C2-E-TEST-0032-159.24/004	state
+1C2-E-TEST-0032-159.24/005	war secretary
+1C2-E-TEST-0032-159.24/006	state
+1C2-E-TEST-0032-159.24/007	air
+1C2-E-TEST-0032-159.24/008	1919	DEP=1C2-E-TEST-0032-159.24010
+1C2-E-TEST-0032-159.24/009	1921	DEP=1C2-E-TEST-0032-159.24008
+1C2-E-TEST-0032-159.24/010	served
+1C2-E-TEST-0032-159.34	Churchill was a staunch advocate of foreign intervention, declaring that Bolshevism must be "strangled in its cradle."
+1C2-E-TEST-0032-159.34/001	staunch advocate
+1C2-E-TEST-0032-159.34/002	foreign intervention
+1C2-E-TEST-0032-159.34/003	bolshevism	DEP=1C2-E-TEST-0032-159.34006
+1C2-E-TEST-0032-159.34/004	cradle
+1C2-E-TEST-0032-159.34/005	declaring	DEP=1C2-E-TEST-0032-159.34001
+1C2-E-TEST-0032-159.34/006	strangled	DEP=1C2-E-TEST-0032-159.34005
+1C2-E-TEST-0032-159.52	Churchill edited the Government's newspaper, the British Gazette , and during the dispute he argued that "either the country will break the General Strike, or the General Strike will break the country."
+1C2-E-TEST-0032-159.52/001	government	DEP=1C2-E-TEST-0032-159.52009
+1C2-E-TEST-0032-159.52/002	british gazette	DEP=1C2-E-TEST-0032-159.52009
+1C2-E-TEST-0032-159.52/003	dispute
+1C2-E-TEST-0032-159.52/004	country	DEP=1C2-E-TEST-0032-159.52011
+1C2-E-TEST-0032-159.52/005	general strike	DEP=1C2-E-TEST-0032-159.52011
+1C2-E-TEST-0032-159.52/006	general strike	DEP=1C2-E-TEST-0032-159.52012
+1C2-E-TEST-0032-159.52/007	country	DEP=1C2-E-TEST-0032-159.52012
+1C2-E-TEST-0032-159.52/008	edited
+1C2-E-TEST-0032-159.52/009	newspaper	DEP=1C2-E-TEST-0032-159.52008
+1C2-E-TEST-0032-159.52/010	argued	DEP=1C2-E-TEST-0032-159.52008
+1C2-E-TEST-0032-159.52/011	break	DEP=1C2-E-TEST-0032-159.52010
+1C2-E-TEST-0032-159.52/012	break	DEP=1C2-E-TEST-0032-159.52011
+1C2-E-TEST-0032-159.53	Furthermore, he was to controversially claim that the Fascism of Benito Mussolini had "rendered a service to the whole world," showing as it had "a way to combat subversive forces" ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ that is, he considered the regime to be a bulwark against the perceived threat of Communist revolution.
+1C2-E-TEST-0032-159.53/001	fascism	DEP=1C2-E-TEST-0032-159.53013
+1C2-E-TEST-0032-159.53/002	benito mussolini
+1C2-E-TEST-0032-159.53/003	service	DEP=1C2-E-TEST-0032-159.53013
+1C2-E-TEST-0032-159.53/004	world
+1C2-E-TEST-0032-159.53/005	subversive forces	DEP=1C2-E-TEST-0032-159.53016
+1C2-E-TEST-0032-159.53/006	ã cents
+1C2-E-TEST-0032-159.53/007	¬ â
+1C2-E-TEST-0032-159.53/008	bulwark	DEP=1C2-E-TEST-0032-159.53018
+1C2-E-TEST-0032-159.53/009	perceived threat
+1C2-E-TEST-0032-159.53/010	communist revolution
+1C2-E-TEST-0032-159.53/011	controversially	DEP=1C2-E-TEST-0032-159.53012
+1C2-E-TEST-0032-159.53/012	claim
+1C2-E-TEST-0032-159.53/013	rendered	DEP=1C2-E-TEST-0032-159.53012
+1C2-E-TEST-0032-159.53/014	showing	DEP=1C2-E-TEST-0032-159.53004
+1C2-E-TEST-0032-159.53/015	way
+1C2-E-TEST-0032-159.53/016	combat	DEP=1C2-E-TEST-0032-159.53015
+1C2-E-TEST-0032-159.53/017	considered
+1C2-E-TEST-0032-159.53/018	regime	DEP=1C2-E-TEST-0032-159.53017
+1C2-E-TEST-0032-159.62	Churchill was a fierce critic of Neville Chamberlain 's appeasement of Hitler .
+1C2-E-TEST-0032-159.62/001	fierce critic
+1C2-E-TEST-0032-159.62/002	neville chamberlain	DEP=1C2-E-TEST-0032-159.62004
+1C2-E-TEST-0032-159.62/003	hitler
+1C2-E-TEST-0032-159.62/004	appeasement
+1C2-E-TEST-0032-159.67	At the outbreak of the Second World War Churchill was appointed First Lord of the Admiralty .
+1C2-E-TEST-0032-159.67/001	outbreak
+1C2-E-TEST-0032-159.67/002	second world
+1C2-E-TEST-0032-159.67/003	war
+1C2-E-TEST-0032-159.67/004	lord	DEP=1C2-E-TEST-0032-159.67006
+1C2-E-TEST-0032-159.67/005	admiralty
+1C2-E-TEST-0032-159.67/006	appointed
+1C2-E-TEST-0032-159.71	Chamberlain resigned, and Churchill was appointed Prime Minister and formed an all-party government.
+1C2-E-TEST-0032-159.71/001	chamberlain	DEP=1C2-E-TEST-0032-159.71004
+1C2-E-TEST-0032-159.71/002	prime minister	DEP=1C2-E-TEST-0032-159.71005
+1C2-E-TEST-0032-159.71/003	all-party government	DEP=1C2-E-TEST-0032-159.71006
+1C2-E-TEST-0032-159.71/004	resigned
+1C2-E-TEST-0032-159.71/005	appointed	DEP=1C2-E-TEST-0032-159.71004
+1C2-E-TEST-0032-159.71/006	formed	DEP=1C2-E-TEST-0032-159.71005
+1C2-E-TEST-0032-159.79	Churchill's speeches were a great inspiration to the embattled United Kingdom.
+1C2-E-TEST-0032-159.79/001	great inspiration
+1C2-E-TEST-0032-159.79/002	embattled united kingdom
+1C2-E-TEST-0032-159.79/003	speeches	DEP=1C2-E-TEST-0032-159.79001
+1C2-E-TEST-0032-159.80	His first speech as Prime Minister was the famous "I have nothing to offer but blood, toil, tears, and sweat " speech.
+1C2-E-TEST-0032-159.80/001	speech	DEP=1C2-E-TEST-0032-159.80003
+1C2-E-TEST-0032-159.80/002	prime minister
+1C2-E-TEST-0032-159.80/003	famous
+1C2-E-TEST-0032-159.80/004	blood	DEP=1C2-E-TEST-0032-159.80007
+1C2-E-TEST-0032-159.80/005	tears	DEP=1C2-E-TEST-0032-159.80003
+1C2-E-TEST-0032-159.80/006	sweat speech	DEP=1C2-E-TEST-0032-159.80003
+1C2-E-TEST-0032-159.80/007	offer
+1C2-E-TEST-0032-159.90	Churchill had 12 strategic conferences with Roosevelt which covered the Atlantic Charter , Europe first strategy, the Declaration by the United Nations and other war policies. Churchill initiated the Special Operations Executive (SOE), under Hugh Dalton 's Ministry of Economic Warfare , which established, conducted and fostered covert, subversive and partisan operations in occupied territories with notable success; and also the Commandos which established the pattern for most of the world's current Special Forces .
+1C2-E-TEST-0032-159.90/001	12 strategic conferences
+1C2-E-TEST-0032-159.90/002	roosevelt
+1C2-E-TEST-0032-159.90/003	atlantic charter	DEP=1C2-E-TEST-0032-159.90018
+1C2-E-TEST-0032-159.90/004	europe	DEP=1C2-E-TEST-0032-159.90001
+1C2-E-TEST-0032-159.90/005	strategy	DEP=1C2-E-TEST-0032-159.90004
+1C2-E-TEST-0032-159.90/006	declaration	DEP=1C2-E-TEST-0032-159.90019
+1C2-E-TEST-0032-159.90/007	united nations
+1C2-E-TEST-0032-159.90/008	war policies	DEP=1C2-E-TEST-0032-159.90007
+1C2-E-TEST-0032-159.90/009	special operations executive	DEP=1C2-E-TEST-0032-159.90019
+1C2-E-TEST-0032-159.90/010	soe	DEP=1C2-E-TEST-0032-159.90009
+1C2-E-TEST-0032-159.90/011	hugh dalton	DEP=1C2-E-TEST-0032-159.90020
+1C2-E-TEST-0032-159.90/012	economic warfare
+1C2-E-TEST-0032-159.90/013	occupied territories
+1C2-E-TEST-0032-159.90/014	notable success
+1C2-E-TEST-0032-159.90/015	commandos	DEP=1C2-E-TEST-0032-159.90001
+1C2-E-TEST-0032-159.90/016	pattern	DEP=1C2-E-TEST-0032-159.90028
+1C2-E-TEST-0032-159.90/017	world	DEP=1C2-E-TEST-0032-159.90031
+1C2-E-TEST-0032-159.90/018	covered	DEP=1C2-E-TEST-0032-159.90001
+1C2-E-TEST-0032-159.90/019	initiated	DEP=1C2-E-TEST-0032-159.90004
+1C2-E-TEST-0032-159.90/020	ministry
+1C2-E-TEST-0032-159.90/021	established	DEP=1C2-E-TEST-0032-159.90004
+1C2-E-TEST-0032-159.90/022	conducted	DEP=1C2-E-TEST-0032-159.90004
+1C2-E-TEST-0032-159.90/023	fostered	DEP=1C2-E-TEST-0032-159.90022
+1C2-E-TEST-0032-159.90/024	covert	DEP=1C2-E-TEST-0032-159.90027
+1C2-E-TEST-0032-159.90/025	subversive	DEP=1C2-E-TEST-0032-159.90027
+1C2-E-TEST-0032-159.90/026	partisan	DEP=1C2-E-TEST-0032-159.90025
+1C2-E-TEST-0032-159.90/027	operations	DEP=1C2-E-TEST-0032-159.90022
+1C2-E-TEST-0032-159.90/028	established	DEP=1C2-E-TEST-0032-159.90015
+1C2-E-TEST-0032-159.90/029	current	DEP=1C2-E-TEST-0032-159.90031
+1C2-E-TEST-0032-159.90/030	special	DEP=1C2-E-TEST-0032-159.90031
+1C2-E-TEST-0032-159.90/031	forces
+1C2-E-TEST-0032-206.11	Years later when Sir Winston was prime minister of England, he was stricken with pneumonia.
+1C2-E-TEST-0032-206.11/001	years	DEP=1C2-E-TEST-0032-206.11007
+1C2-E-TEST-0032-206.11/002	sir
+1C2-E-TEST-0032-206.11/003	prime minister	DEP=1C2-E-TEST-0032-206.11007
+1C2-E-TEST-0032-206.11/004	england
+1C2-E-TEST-0032-206.11/005	pneumonia
+1C2-E-TEST-0032-206.11/006	later	DEP=1C2-E-TEST-0032-206.11007
+1C2-E-TEST-0032-206.11/007	stricken
+1C2-E-TEST-0032-217.261	Churchill edited the Government's newspaper, the British Gazette , and, during the dispute, he argued that "either the country will break the General Strike, or the General Strike will break the country" and claimed that the fascism of Benito Mussolini had "rendered a service to the whole world," showing, as it had, "a way to combat subversive forces" ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ that is, he considered the regime to be a bulwark against the perceived threat of Communist revolution .
+1C2-E-TEST-0032-217.261/001	government	DEP=1C2-E-TEST-0032-217.261020
+1C2-E-TEST-0032-217.261/002	british gazette	DEP=1C2-E-TEST-0032-217.261020
+1C2-E-TEST-0032-217.261/003	dispute
+1C2-E-TEST-0032-217.261/004	country	DEP=1C2-E-TEST-0032-217.261022
+1C2-E-TEST-0032-217.261/005	general strike	DEP=1C2-E-TEST-0032-217.261022
+1C2-E-TEST-0032-217.261/006	general strike	DEP=1C2-E-TEST-0032-217.261023
+1C2-E-TEST-0032-217.261/007	country	DEP=1C2-E-TEST-0032-217.261023
+1C2-E-TEST-0032-217.261/008	fascism	DEP=1C2-E-TEST-0032-217.261025
+1C2-E-TEST-0032-217.261/009	benito mussolini
+1C2-E-TEST-0032-217.261/010	service	DEP=1C2-E-TEST-0032-217.261025
+1C2-E-TEST-0032-217.261/011	world
+1C2-E-TEST-0032-217.261/012	way	DEP=1C2-E-TEST-0032-217.261027
+1C2-E-TEST-0032-217.261/013	subversive forces	DEP=1C2-E-TEST-0032-217.261027
+1C2-E-TEST-0032-217.261/014	ã cents
+1C2-E-TEST-0032-217.261/015	¬ â
+1C2-E-TEST-0032-217.261/016	bulwark	DEP=1C2-E-TEST-0032-217.261029
+1C2-E-TEST-0032-217.261/017	perceived threat
+1C2-E-TEST-0032-217.261/018	communist revolution
+1C2-E-TEST-0032-217.261/019	edited	DEP=1C2-E-TEST-0032-217.261021
+1C2-E-TEST-0032-217.261/020	newspaper	DEP=1C2-E-TEST-0032-217.261019
+1C2-E-TEST-0032-217.261/021	argued
+1C2-E-TEST-0032-217.261/022	break	DEP=1C2-E-TEST-0032-217.261021
+1C2-E-TEST-0032-217.261/023	break	DEP=1C2-E-TEST-0032-217.261022
+1C2-E-TEST-0032-217.261/024	claimed	DEP=1C2-E-TEST-0032-217.261021
+1C2-E-TEST-0032-217.261/025	rendered	DEP=1C2-E-TEST-0032-217.261024
+1C2-E-TEST-0032-217.261/026	showing	DEP=1C2-E-TEST-0032-217.261011
+1C2-E-TEST-0032-217.261/027	combat
+1C2-E-TEST-0032-217.261/028	considered
+1C2-E-TEST-0032-217.261/029	regime	DEP=1C2-E-TEST-0032-217.261028
+1C2-E-TEST-0032-217.393	Churchill's speeches were a great inspiration to the embattled British. His first speech as Prime Minister was the famous "I have nothing to offer but blood, toil, tears, and sweat ".
+1C2-E-TEST-0032-217.393/001	great inspiration
+1C2-E-TEST-0032-217.393/002	embattled
+1C2-E-TEST-0032-217.393/003	speech	DEP=1C2-E-TEST-0032-217.393010
+1C2-E-TEST-0032-217.393/004	prime minister
+1C2-E-TEST-0032-217.393/005	blood
+1C2-E-TEST-0032-217.393/006	tears	DEP=1C2-E-TEST-0032-217.393005
+1C2-E-TEST-0032-217.393/007	sweat	DEP=1C2-E-TEST-0032-217.393005
+1C2-E-TEST-0032-217.393/008	speeches	DEP=1C2-E-TEST-0032-217.393001
+1C2-E-TEST-0032-217.393/009	british	DEP=1C2-E-TEST-0032-217.393002
+1C2-E-TEST-0032-217.393/010	famous	DEP=1C2-E-TEST-0032-217.393001
+1C2-E-TEST-0032-217.393/011	offer
+1C2-E-TEST-0032-217.420	Upon re-election, Roosevelt immediately set about implementing a new method of providing military hardware and shipping to Britain without the need for monetary payment. Put simply, Roosevelt persuaded Congress that repayment for this immensely costly service would take the form of defending the USA; and so Lend-lease was born.
+1C2-E-TEST-0032-217.420/001	re-election
+1C2-E-TEST-0032-217.420/002	roosevelt	DEP=1C2-E-TEST-0032-217.420014
+1C2-E-TEST-0032-217.420/003	new method	DEP=1C2-E-TEST-0032-217.420015
+1C2-E-TEST-0032-217.420/004	military hardware shipping	DEP=1C2-E-TEST-0032-217.420016
+1C2-E-TEST-0032-217.420/005	britain
+1C2-E-TEST-0032-217.420/006	monetary payment
+1C2-E-TEST-0032-217.420/007	roosevelt	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.420/008	congress	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.420/009	repayment	DEP=1C2-E-TEST-0032-217.420023
+1C2-E-TEST-0032-217.420/010	form	DEP=1C2-E-TEST-0032-217.420023
+1C2-E-TEST-0032-217.420/011	usa	DEP=1C2-E-TEST-0032-217.420024
+1C2-E-TEST-0032-217.420/012	lend-lease	DEP=1C2-E-TEST-0032-217.420025
+1C2-E-TEST-0032-217.420/013	immediately	DEP=1C2-E-TEST-0032-217.420014
+1C2-E-TEST-0032-217.420/014	set	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.420/015	implementing
+1C2-E-TEST-0032-217.420/016	providing
+1C2-E-TEST-0032-217.420/017	put	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.420/018	simply	DEP=1C2-E-TEST-0032-217.420017
+1C2-E-TEST-0032-217.420/019	persuaded
+1C2-E-TEST-0032-217.420/020	immensely	DEP=1C2-E-TEST-0032-217.420021
+1C2-E-TEST-0032-217.420/021	costly	DEP=1C2-E-TEST-0032-217.420022
+1C2-E-TEST-0032-217.420/022	service
+1C2-E-TEST-0032-217.420/023	take	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.420/024	defending
+1C2-E-TEST-0032-217.420/025	born	DEP=1C2-E-TEST-0032-217.420019
+1C2-E-TEST-0032-217.448	Churchill opposed the effective annexation of Poland by the Soviet Union and wrote bitterly about it in his books, but he was unable to prevent it at the conferences.
+1C2-E-TEST-0032-217.448/001	effective annexation	DEP=1C2-E-TEST-0032-217.448006
+1C2-E-TEST-0032-217.448/002	poland
+1C2-E-TEST-0032-217.448/003	soviet union
+1C2-E-TEST-0032-217.448/004	books
+1C2-E-TEST-0032-217.448/005	conferences
+1C2-E-TEST-0032-217.448/006	opposed
+1C2-E-TEST-0032-217.448/007	wrote	DEP=1C2-E-TEST-0032-217.448006
+1C2-E-TEST-0032-217.448/008	bitterly	DEP=1C2-E-TEST-0032-217.448007
+1C2-E-TEST-0032-217.448/009	prevent
+1C2-E-TEST-0032-308.14	[64] When Campbell-Bannerman was succeeded by Herbert Henry Asquith in 1908, Churchill was promoted to the Cabinet as President of the Board of Trade .
+1C2-E-TEST-0032-308.14/001	campbell-bannerman	DEP=1C2-E-TEST-0032-308.14009
+1C2-E-TEST-0032-308.14/002	herbert henry asquith
+1C2-E-TEST-0032-308.14/003	1908
+1C2-E-TEST-0032-308.14/004	cabinet
+1C2-E-TEST-0032-308.14/005	president
+1C2-E-TEST-0032-308.14/006	board
+1C2-E-TEST-0032-308.14/007	trade
+1C2-E-TEST-0032-308.14/008	64	DEP=1C2-E-TEST-0032-308.14010
+1C2-E-TEST-0032-308.14/009	succeeded	DEP=1C2-E-TEST-0032-308.14008
+1C2-E-TEST-0032-308.14/010	promoted
+1C2-E-TEST-0032-67.11	After the resignation of Neville Chamberlain in May 1940, Churchill became Prime Minister in an all-party coalition government with Labour and the Liberals.
+1C2-E-TEST-0032-67.11/001	resignation
+1C2-E-TEST-0032-67.11/002	neville chamberlain
+1C2-E-TEST-0032-67.11/003	1940
+1C2-E-TEST-0032-67.11/004	prime minister
+1C2-E-TEST-0032-67.11/005	all-party coalition government
+1C2-E-TEST-0032-67.11/006	labor
+1C2-E-TEST-0032-67.11/007	liberals	DEP=1C2-E-TEST-0032-67.11006
+1C2-E-TEST-0032-67.115	When Ramsay MacDonald formed the National Government in 1931, Churchill was not invited to join the Cabinet.
+1C2-E-TEST-0032-67.115/001	ramsay macdonald	DEP=1C2-E-TEST-0032-67.115005
+1C2-E-TEST-0032-67.115/002	national government	DEP=1C2-E-TEST-0032-67.115005
+1C2-E-TEST-0032-67.115/003	1931
+1C2-E-TEST-0032-67.115/004	cabinet	DEP=1C2-E-TEST-0032-67.115007
+1C2-E-TEST-0032-67.115/005	formed	DEP=1C2-E-TEST-0032-67.115006
+1C2-E-TEST-0032-67.115/006	invited
+1C2-E-TEST-0032-67.115/007	join	DEP=1C2-E-TEST-0032-67.115006
+1C2-E-TEST-0032-67.197	After Labour's defeat in the General Election of 1951, Churchill again became Prime Minister, serving until his resignation in 1955.
+1C2-E-TEST-0032-67.197/001	labor	DEP=1C2-E-TEST-0032-67.197007
+1C2-E-TEST-0032-67.197/002	general election
+1C2-E-TEST-0032-67.197/003	1951
+1C2-E-TEST-0032-67.197/004	prime minister
+1C2-E-TEST-0032-67.197/005	resignation
+1C2-E-TEST-0032-67.197/006	1955
+1C2-E-TEST-0032-67.197/007	defeat
+1C2-E-TEST-0032-67.197/008	serving	DEP=1C2-E-TEST-0032-67.197004
+1C2-E-TEST-0032-68.111	Churchill edited the government's newspaper, the British Gazette, and during the dispute he argued that "either the country will break the General Strike, or the General Strike will break the country."
+1C2-E-TEST-0032-68.111/001	government	DEP=1C2-E-TEST-0032-68.111009
+1C2-E-TEST-0032-68.111/002	british gazette	DEP=1C2-E-TEST-0032-68.111009
+1C2-E-TEST-0032-68.111/003	dispute
+1C2-E-TEST-0032-68.111/004	country	DEP=1C2-E-TEST-0032-68.111011
+1C2-E-TEST-0032-68.111/005	general strike	DEP=1C2-E-TEST-0032-68.111011
+1C2-E-TEST-0032-68.111/006	general strike	DEP=1C2-E-TEST-0032-68.111012
+1C2-E-TEST-0032-68.111/007	country	DEP=1C2-E-TEST-0032-68.111012
+1C2-E-TEST-0032-68.111/008	edited
+1C2-E-TEST-0032-68.111/009	newspaper	DEP=1C2-E-TEST-0032-68.111008
+1C2-E-TEST-0032-68.111/010	argued	DEP=1C2-E-TEST-0032-68.111008
+1C2-E-TEST-0032-68.111/011	break	DEP=1C2-E-TEST-0032-68.111010
+1C2-E-TEST-0032-68.111/012	break	DEP=1C2-E-TEST-0032-68.111011
+1C2-E-TEST-0032-68.114	In the next two years, Churchill became estranged from the Conservative leadership over the issues of protective tariffs and Indian Home Rule.
+1C2-E-TEST-0032-68.114/001	two years
+1C2-E-TEST-0032-68.114/002	estranged
+1C2-E-TEST-0032-68.114/003	conservative leadership
+1C2-E-TEST-0032-68.114/004	issues
+1C2-E-TEST-0032-68.114/005	protective tariffs
+1C2-E-TEST-0032-68.114/006	indian home rule	DEP=1C2-E-TEST-0032-68.114005
+1C2-E-TEST-0032-68.117	He spent much of the next few years concentrating on his writing, including Marlborough: His Life and TimesÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂa biography of his ancestor John Churchill, 1st Duke of MarlboroughÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂand A History of the English Speaking Peoples (which was not published until well after WWII).
+1C2-E-TEST-0032-68.117/001	years
+1C2-E-TEST-0032-68.117/002	writing
+1C2-E-TEST-0032-68.117/003	marlborough
+1C2-E-TEST-0032-68.117/004	life
+1C2-E-TEST-0032-68.117/005	timesã cents	DEP=1C2-E-TEST-0032-68.117004
+1C2-E-TEST-0032-68.117/006	¬
+1C2-E-TEST-0032-68.117/007	ancestor john
+1C2-E-TEST-0032-68.117/008	1st duke
+1C2-E-TEST-0032-68.117/009	marlboroughã cents
+1C2-E-TEST-0032-68.117/010	¬	DEP=1C2-E-TEST-0032-68.117017
+1C2-E-TEST-0032-68.117/011	english
+1C2-E-TEST-0032-68.117/012	peoples	DEP=1C2-E-TEST-0032-68.117019
+1C2-E-TEST-0032-68.117/013	wwii
+1C2-E-TEST-0032-68.117/014	spent
+1C2-E-TEST-0032-68.117/015	concentrating	DEP=1C2-E-TEST-0032-68.117014
+1C2-E-TEST-0032-68.117/016	â
+1C2-E-TEST-0032-68.117/017	â
+1C2-E-TEST-0032-68.117/018	history
+1C2-E-TEST-0032-68.117/019	speaking	DEP=1C2-E-TEST-0032-68.117011
+1C2-E-TEST-0032-68.117/020	published
+1C2-E-TEST-0032-68.126	For a time he was a lone voice calling on Britain to strengthen itself and counter the belligerence of Germany.
+1C2-E-TEST-0032-68.126/001	time
+1C2-E-TEST-0032-68.126/002	lone voice
+1C2-E-TEST-0032-68.126/003	britain
+1C2-E-TEST-0032-68.126/004	belligerence	DEP=1C2-E-TEST-0032-68.126008
+1C2-E-TEST-0032-68.126/005	germany
+1C2-E-TEST-0032-68.126/006	calling	DEP=1C2-E-TEST-0032-68.126002
+1C2-E-TEST-0032-68.126/007	strengthen	DEP=1C2-E-TEST-0032-68.126006
+1C2-E-TEST-0032-68.126/008	counter	DEP=1C2-E-TEST-0032-68.126007
+1C2-E-TEST-0032-68.127	Churchill was a fierce critic of Neville Chamberlain 's appeasement of Hitler.
+1C2-E-TEST-0032-68.127/001	fierce critic
+1C2-E-TEST-0032-68.127/002	neville chamberlain	DEP=1C2-E-TEST-0032-68.127004
+1C2-E-TEST-0032-68.127/003	hitler
+1C2-E-TEST-0032-68.127/004	appeasement
+1C2-E-TEST-0032-68.136	Chamberlain resigned, and Churchill was appointed prime minister and formed an all-party government.
+1C2-E-TEST-0032-68.136/001	chamberlain	DEP=1C2-E-TEST-0032-68.136004
+1C2-E-TEST-0032-68.136/002	prime minister	DEP=1C2-E-TEST-0032-68.136005
+1C2-E-TEST-0032-68.136/003	all-party government	DEP=1C2-E-TEST-0032-68.136006
+1C2-E-TEST-0032-68.136/004	resigned
+1C2-E-TEST-0032-68.136/005	appointed	DEP=1C2-E-TEST-0032-68.136004
+1C2-E-TEST-0032-68.136/006	formed	DEP=1C2-E-TEST-0032-68.136005
+1C2-E-TEST-0032-68.137	In response to previous criticisms that there had been no clear single minister in charge of the prosecution of the war, he created and took the additional position of minister of defense.
+1C2-E-TEST-0032-68.137/001	response
+1C2-E-TEST-0032-68.137/002	previous criticisms
+1C2-E-TEST-0032-68.137/003	clear single minister	DEP=1C2-E-TEST-0032-68.137002
+1C2-E-TEST-0032-68.137/004	charge
+1C2-E-TEST-0032-68.137/005	prosecution
+1C2-E-TEST-0032-68.137/006	war
+1C2-E-TEST-0032-68.137/007	additional position	DEP=1C2-E-TEST-0032-68.137011
+1C2-E-TEST-0032-68.137/008	minister
+1C2-E-TEST-0032-68.137/009	defense
+1C2-E-TEST-0032-68.137/010	created
+1C2-E-TEST-0032-68.137/011	took	DEP=1C2-E-TEST-0032-68.137010
+1C2-E-TEST-0032-68.146	The other included the equally famous "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'"
+1C2-E-TEST-0032-68.146/001	duties
+1C2-E-TEST-0032-68.146/002	british empire
+1C2-E-TEST-0032-68.146/003	commonwealth	DEP=1C2-E-TEST-0032-68.146002
+1C2-E-TEST-0032-68.146/004	thousand years
+1C2-E-TEST-0032-68.146/005	men	DEP=1C2-E-TEST-0032-68.146011
+1C2-E-TEST-0032-68.146/006	finest hour	DEP=1C2-E-TEST-0032-68.146011
+1C2-E-TEST-0032-68.146/007	equally	DEP=1C2-E-TEST-0032-68.146008
+1C2-E-TEST-0032-68.146/008	famous
+1C2-E-TEST-0032-68.146/009	brace
+1C2-E-TEST-0032-68.146/010	bear
+1C2-E-TEST-0032-68.146/011	say	DEP=1C2-E-TEST-0032-68.146010
+1C2-E-TEST-0032-68.147	At the height of the Battle of Britain, his bracing survey of the situation included the memorable line "Never in the field of human conflict was so much owed by so many to so few," which engendered the enduring nickname "The Few" for the Allied fighter pilots who won it.
+1C2-E-TEST-0032-68.147/001	height
+1C2-E-TEST-0032-68.147/002	battle
+1C2-E-TEST-0032-68.147/003	britain
+1C2-E-TEST-0032-68.147/004	bracing survey
+1C2-E-TEST-0032-68.147/005	situation
+1C2-E-TEST-0032-68.147/006	memorable line	DEP=1C2-E-TEST-0032-68.147010
+1C2-E-TEST-0032-68.147/007	field
+1C2-E-TEST-0032-68.147/008	human conflict
+1C2-E-TEST-0032-68.147/009	allied fighter
+1C2-E-TEST-0032-68.147/010	owed
+1C2-E-TEST-0032-68.147/011	engendered
+1C2-E-TEST-0032-68.147/012	enduring	DEP=1C2-E-TEST-0032-68.147013
+1C2-E-TEST-0032-68.147/013	nickname	DEP=1C2-E-TEST-0032-68.147011
+1C2-E-TEST-0032-68.147/014	pilots
+1C2-E-TEST-0032-68.147/015	won	DEP=1C2-E-TEST-0032-68.147014
+1C2-E-TEST-0032-68.182	Churchill was convinced that the only way to alleviate tensions between the two populations was the transfer of people, to match the national borders.
+1C2-E-TEST-0032-68.182/001	tensions	DEP=1C2-E-TEST-0032-68.182008
+1C2-E-TEST-0032-68.182/002	two populations
+1C2-E-TEST-0032-68.182/003	transfer	DEP=1C2-E-TEST-0032-68.182006
+1C2-E-TEST-0032-68.182/004	people
+1C2-E-TEST-0032-68.182/005	national borders	DEP=1C2-E-TEST-0032-68.182009
+1C2-E-TEST-0032-68.182/006	convinced
+1C2-E-TEST-0032-68.182/007	way	DEP=1C2-E-TEST-0032-68.182003
+1C2-E-TEST-0032-68.182/008	alleviate	DEP=1C2-E-TEST-0032-68.182007
+1C2-E-TEST-0032-68.182/009	match	DEP=1C2-E-TEST-0032-68.182006
+1C2-E-TEST-0032-68.188	Churchill opposed the effective annexation of Poland by the Soviet Union and wrote bitterly about it in his books, but he was unable to prevent it at the conferences.
+1C2-E-TEST-0032-68.188/001	effective annexation	DEP=1C2-E-TEST-0032-68.188006
+1C2-E-TEST-0032-68.188/002	poland
+1C2-E-TEST-0032-68.188/003	soviet union
+1C2-E-TEST-0032-68.188/004	books
+1C2-E-TEST-0032-68.188/005	conferences
+1C2-E-TEST-0032-68.188/006	opposed
+1C2-E-TEST-0032-68.188/007	wrote	DEP=1C2-E-TEST-0032-68.188006
+1C2-E-TEST-0032-68.188/008	bitterly	DEP=1C2-E-TEST-0032-68.188007
+1C2-E-TEST-0032-68.188/009	prevent
+1C2-E-TEST-0032-68.190	Although the importance of Churchill's role in World War II was undeniable, he had many enemies in his own country.
+1C2-E-TEST-0032-68.190/001	importance	DEP=1C2-E-TEST-0032-68.190006
+1C2-E-TEST-0032-68.190/002	world war ii
+1C2-E-TEST-0032-68.190/003	enemies
+1C2-E-TEST-0032-68.190/004	country
+1C2-E-TEST-0032-68.190/005	role
+1C2-E-TEST-0032-68.190/006	undeniable
+1C2-E-TEST-0032-68.209	Warsaw, Poland, Berlin, Prague, Vienna, Budapest, Belgrade, Bucharest and Sofia, all these famous cities and the populations around them lie in what I must call the Soviet sphere.
+1C2-E-TEST-0032-68.209/001	warsaw poland berlin prague vienna budapest belgrade bucharest sofia
+1C2-E-TEST-0032-68.209/002	famous cities	DEP=1C2-E-TEST-0032-68.209001
+1C2-E-TEST-0032-68.209/003	populations	DEP=1C2-E-TEST-0032-68.209001
+1C2-E-TEST-0032-68.209/004	soviet sphere	DEP=1C2-E-TEST-0032-68.209005
+1C2-E-TEST-0032-68.209/005	call
+1C2-E-TEST-0032-68.216	Being a strong proponent of Britain as an international power, Churchill would often meet such moments with direct action.
+1C2-E-TEST-0032-68.216/001	strong proponent	DEP=1C2-E-TEST-0032-68.216006
+1C2-E-TEST-0032-68.216/002	britain
+1C2-E-TEST-0032-68.216/003	international power
+1C2-E-TEST-0032-68.216/004	moments	DEP=1C2-E-TEST-0032-68.216006
+1C2-E-TEST-0032-68.216/005	direct action
+1C2-E-TEST-0032-68.216/006	meet
+1C2-E-TEST-0032-68.63	Under the law at the time, a newly appointed Cabinet minister was obliged to seek re-election at a by-election.
+1C2-E-TEST-0032-68.63/001	law
+1C2-E-TEST-0032-68.63/002	time
+1C2-E-TEST-0032-68.63/003	newly appointed	DEP=1C2-E-TEST-0032-68.63002
+1C2-E-TEST-0032-68.63/004	cabinet minister	DEP=1C2-E-TEST-0032-68.63007
+1C2-E-TEST-0032-68.63/005	re-election	DEP=1C2-E-TEST-0032-68.63008
+1C2-E-TEST-0032-68.63/006	by-election
+1C2-E-TEST-0032-68.63/007	obliged
+1C2-E-TEST-0032-68.63/008	seek	DEP=1C2-E-TEST-0032-68.63007
+1C2-E-TEST-0032-68.80	When Asquith formed an all-party coalition government, the Conservatives demanded Churchill's demotion as the price for entry.
+1C2-E-TEST-0032-68.80/001	asquith	DEP=1C2-E-TEST-0032-68.80006
+1C2-E-TEST-0032-68.80/002	all-party coalition government	DEP=1C2-E-TEST-0032-68.80006
+1C2-E-TEST-0032-68.80/003	conservatives	DEP=1C2-E-TEST-0032-68.80007
+1C2-E-TEST-0032-68.80/004	price
+1C2-E-TEST-0032-68.80/005	entry
+1C2-E-TEST-0032-68.80/006	formed	DEP=1C2-E-TEST-0032-68.80007
+1C2-E-TEST-0032-68.80/007	demanded
+1C2-E-TEST-0032-68.80/008	demotion	DEP=1C2-E-TEST-0032-68.80007
+1C2-E-TEST-0032-68.94	Churchill was a staunch advocate of foreign intervention, declaring that Bolshevism must be "strangled in its cradle."
+1C2-E-TEST-0032-68.94/001	staunch advocate
+1C2-E-TEST-0032-68.94/002	foreign intervention
+1C2-E-TEST-0032-68.94/003	bolshevism	DEP=1C2-E-TEST-0032-68.94006
+1C2-E-TEST-0032-68.94/004	cradle
+1C2-E-TEST-0032-68.94/005	declaring	DEP=1C2-E-TEST-0032-68.94001
+1C2-E-TEST-0032-68.94/006	strangled	DEP=1C2-E-TEST-0032-68.94005
+1C2-E-TEST-0032-68.96	In 1920, after the last British forces had been withdrawn, Churchill was instrumental in having arms sent to the Poles when they invaded Ukraine .
+1C2-E-TEST-0032-68.96/001	1920
+1C2-E-TEST-0032-68.96/002	british forces	DEP=1C2-E-TEST-0032-68.96006
+1C2-E-TEST-0032-68.96/003	arms
+1C2-E-TEST-0032-68.96/004	poles
+1C2-E-TEST-0032-68.96/005	ukraine	DEP=1C2-E-TEST-0032-68.96009
+1C2-E-TEST-0032-68.96/006	withdrawn	DEP=1C2-E-TEST-0032-68.96007
+1C2-E-TEST-0032-68.96/007	instrumental
+1C2-E-TEST-0032-68.96/008	having
+1C2-E-TEST-0032-68.96/009	invaded	DEP=1C2-E-TEST-0032-68.96007

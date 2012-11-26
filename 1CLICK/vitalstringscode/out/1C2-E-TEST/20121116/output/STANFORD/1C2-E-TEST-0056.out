@@ -1,0 +1,418 @@
+1C2-E-TEST-0056-10.12	Damascus:ÃÂÃÂ UN-Arab envoy Kofi Annan headed to Damascus on Monday in a bid to salvage his battered peace plan a day after the UN condemned the Syrian regime's use of artillery in a massacre that killed more than 100 people.
+1C2-E-TEST-0056-10.12/001	damascus
+1C2-E-TEST-0056-10.12/002	ã â	DEP=1C2-E-TEST-0056-10.12001
+1C2-E-TEST-0056-10.12/003	un-arab envoy
+1C2-E-TEST-0056-10.12/004	damascus
+1C2-E-TEST-0056-10.12/005	monday
+1C2-E-TEST-0056-10.12/006	battered peace plan	DEP=1C2-E-TEST-0056-10.12013
+1C2-E-TEST-0056-10.12/007	un	DEP=1C2-E-TEST-0056-10.12014
+1C2-E-TEST-0056-10.12/008	syrian regime
+1C2-E-TEST-0056-10.12/009	artillery
+1C2-E-TEST-0056-10.12/010	massacre
+1C2-E-TEST-0056-10.12/011	headed	DEP=1C2-E-TEST-0056-10.12002
+1C2-E-TEST-0056-10.12/012	bid
+1C2-E-TEST-0056-10.12/013	salvage	DEP=1C2-E-TEST-0056-10.12012
+1C2-E-TEST-0056-10.12/014	condemned	DEP=1C2-E-TEST-0056-10.12013
+1C2-E-TEST-0056-10.12/015	killed	DEP=1C2-E-TEST-0056-10.12010
+1C2-E-TEST-0056-10.12/016	100	DEP=1C2-E-TEST-0056-10.12017
+1C2-E-TEST-0056-10.12/017	people	DEP=1C2-E-TEST-0056-10.12015
+1C2-E-TEST-0056-10.13	The former UN chief was to meet Foreign Minister Walid Muallem later on Monday ahead of talks with President Bashar al-Assad on Tuesday, a Syrian official said on condition of anonymity.
+1C2-E-TEST-0056-10.13/001	former un chief
+1C2-E-TEST-0056-10.13/002	foreign minister walid muallem	DEP=1C2-E-TEST-0056-10.13009
+1C2-E-TEST-0056-10.13/003	talks
+1C2-E-TEST-0056-10.13/004	president bashar al-assad
+1C2-E-TEST-0056-10.13/005	tuesday
+1C2-E-TEST-0056-10.13/006	syrian official
+1C2-E-TEST-0056-10.13/007	condition
+1C2-E-TEST-0056-10.13/008	anonymity
+1C2-E-TEST-0056-10.13/009	meet
+1C2-E-TEST-0056-10.13/010	later	DEP=1C2-E-TEST-0056-10.13002
+1C2-E-TEST-0056-10.13/011	monday
+1C2-E-TEST-0056-10.13/012	ahead
+1C2-E-TEST-0056-10.40	UN leader Ban Ki-moon says there is no "Plan B" if the Annan plan crashes however.
+1C2-E-TEST-0056-10.40/001	un leader ban ki-moon	DEP=1C2-E-TEST-0056-10.40004
+1C2-E-TEST-0056-10.40/002	plan b
+1C2-E-TEST-0056-10.40/003	plan crashes
+1C2-E-TEST-0056-10.40/004	says
+1C2-E-TEST-0056-10.8	Kofi Annan heads to Syria under shadow of massacre
+1C2-E-TEST-0056-10.8/001	shadow
+1C2-E-TEST-0056-10.8/002	massacre
+1C2-E-TEST-0056-10.8/003	heads
+1C2-E-TEST-0056-116.10	Annan said he presented President Bashar Assad with concrete proposals "which will have a real impact on the ground."
+1C2-E-TEST-0056-116.10/001	president bashar assad	DEP=1C2-E-TEST-0056-116.10005
+1C2-E-TEST-0056-116.10/002	concrete proposals
+1C2-E-TEST-0056-116.10/003	real impact
+1C2-E-TEST-0056-116.10/004	ground
+1C2-E-TEST-0056-116.10/005	presented
+1C2-E-TEST-0056-116.8	Kofi Annan, the United Nations special envoy to Syria, on his way to the presidential palace for a meeting with Syrian President Bashar Assad.
+1C2-E-TEST-0056-116.8/001	united nations
+1C2-E-TEST-0056-116.8/002	special envoy	DEP=1C2-E-TEST-0056-116.8001
+1C2-E-TEST-0056-116.8/003	way
+1C2-E-TEST-0056-116.8/004	presidential palace
+1C2-E-TEST-0056-116.8/005	meeting
+1C2-E-TEST-0056-116.8/006	syrian president bashar assad
+1C2-E-TEST-0056-143.10	The Syrian Observatory for Human Rights said at least five people were killed in the district of Khaldiya on Monday.
+1C2-E-TEST-0056-143.10/001	syrian observatory
+1C2-E-TEST-0056-143.10/002	human rights
+1C2-E-TEST-0056-143.10/003	district
+1C2-E-TEST-0056-143.10/004	khaldiya
+1C2-E-TEST-0056-143.10/005	monday
+1C2-E-TEST-0056-143.10/006	least
+1C2-E-TEST-0056-143.10/007	five	DEP=1C2-E-TEST-0056-143.10008
+1C2-E-TEST-0056-143.10/008	people	DEP=1C2-E-TEST-0056-143.10009
+1C2-E-TEST-0056-143.10/009	killed
+1C2-E-TEST-0056-143.3	Syria has accepted Kofi Annan's plan to end the country's bloody conflict, a spokesman for the UN-Arab League envoy has said.
+1C2-E-TEST-0056-143.3/001	country	DEP=1C2-E-TEST-0056-143.3008
+1C2-E-TEST-0056-143.3/002	spokesman
+1C2-E-TEST-0056-143.3/003	un-arab league envoy
+1C2-E-TEST-0056-143.3/004	accepted
+1C2-E-TEST-0056-143.3/005	plan	DEP=1C2-E-TEST-0056-143.3004
+1C2-E-TEST-0056-143.3/006	end	DEP=1C2-E-TEST-0056-143.3005
+1C2-E-TEST-0056-143.3/007	bloody	DEP=1C2-E-TEST-0056-143.3008
+1C2-E-TEST-0056-143.3/008	conflict	DEP=1C2-E-TEST-0056-143.3006
+1C2-E-TEST-0056-150.2	UN envoy Kofi Annan set to meet Syria's Bashar al-Assad
+1C2-E-TEST-0056-150.2/001	un envoy
+1C2-E-TEST-0056-150.2/002	set
+1C2-E-TEST-0056-150.2/003	meet	DEP=1C2-E-TEST-0056-150.2002
+1C2-E-TEST-0056-150.2/004	bashar	DEP=1C2-E-TEST-0056-150.2005
+1C2-E-TEST-0056-150.2/005	al-assad	DEP=1C2-E-TEST-0056-150.2003
+1C2-E-TEST-0056-150.3	UN-Arab League envoy Kofi Annan is due to hold talks on Tuesday with Syrian President Bashar al-Assad in Damascus, BBC reported.
+1C2-E-TEST-0056-150.3/001	un-arab league envoy
+1C2-E-TEST-0056-150.3/002	talks	DEP=1C2-E-TEST-0056-150.3008
+1C2-E-TEST-0056-150.3/003	tuesday
+1C2-E-TEST-0056-150.3/004	syrian president bashar al-assad
+1C2-E-TEST-0056-150.3/005	damascus
+1C2-E-TEST-0056-150.3/006	bbc	DEP=1C2-E-TEST-0056-150.3009
+1C2-E-TEST-0056-150.3/007	due	DEP=1C2-E-TEST-0056-150.3009
+1C2-E-TEST-0056-150.3/008	hold	DEP=1C2-E-TEST-0056-150.3007
+1C2-E-TEST-0056-150.3/009	reported
+1C2-E-TEST-0056-150.5	Mr Annan called the massacre "an appalling moment with profound consequences."
+1C2-E-TEST-0056-150.5/001	appalling moment	DEP=1C2-E-TEST-0056-150.5003
+1C2-E-TEST-0056-150.5/002	profound consequences
+1C2-E-TEST-0056-150.5/003	called
+1C2-E-TEST-0056-150.5/004	massacre	DEP=1C2-E-TEST-0056-150.5001
+1C2-E-TEST-0056-150.9	On Monday Mr Annan held talks with Syrian Foreign Minister Walid Muallem and the head of the UN observer mission in Syria, Major General Robert Mood.
+1C2-E-TEST-0056-150.9/001	monday
+1C2-E-TEST-0056-150.9/002	talks	DEP=1C2-E-TEST-0056-150.9007
+1C2-E-TEST-0056-150.9/003	syrian foreign minister walid muallem
+1C2-E-TEST-0056-150.9/004	head	DEP=1C2-E-TEST-0056-150.9003
+1C2-E-TEST-0056-150.9/005	un observer mission
+1C2-E-TEST-0056-150.9/006	major general robert mood
+1C2-E-TEST-0056-150.9/007	held
+1C2-E-TEST-0056-160.26	Annan said Monday he was ÃÂ¢Ã¢ÂÂ¬ÃÂshocked and horrifiedÃÂ¢Ã¢ÂÂ¬ÃÂ by the ÃÂ¢Ã¢ÂÂ¬ÃÂtragicÃÂ¢Ã¢ÂÂ¬ÃÂ killings of at least 108 people in Houla on Friday.
+1C2-E-TEST-0056-160.26/001	ã cents
+1C2-E-TEST-0056-160.26/002	â ¬ å	DEP=1C2-E-TEST-0056-160.26012
+1C2-E-TEST-0056-160.26/003	horrifiedã cents
+1C2-E-TEST-0056-160.26/004	¬ â
+1C2-E-TEST-0056-160.26/005	ã cents
+1C2-E-TEST-0056-160.26/006	¬ å
+1C2-E-TEST-0056-160.26/007	tragicã cents
+1C2-E-TEST-0056-160.26/008	¬ â killings
+1C2-E-TEST-0056-160.26/009	houla
+1C2-E-TEST-0056-160.26/010	friday
+1C2-E-TEST-0056-160.26/011	monday
+1C2-E-TEST-0056-160.26/012	shocked	DEP=1C2-E-TEST-0056-160.26001
+1C2-E-TEST-0056-160.26/013	least
+1C2-E-TEST-0056-160.26/014	108	DEP=1C2-E-TEST-0056-160.26015
+1C2-E-TEST-0056-160.26/015	people
+1C2-E-TEST-0056-160.9	Syrian officials said the former U.N. secretary-general would meet Syrian Foreign Minister Walid Moallem later in the day and President Bashar al-Assad on Tuesday.ÃÂÃÂ 
+1C2-E-TEST-0056-160.9/001	syrian officials
+1C2-E-TEST-0056-160.9/002	former u.n. secretary-general	DEP=1C2-E-TEST-0056-160.9007
+1C2-E-TEST-0056-160.9/003	syrian foreign minister walid moallem	DEP=1C2-E-TEST-0056-160.9007
+1C2-E-TEST-0056-160.9/004	president bashar al-assad
+1C2-E-TEST-0056-160.9/005	tuesday
+1C2-E-TEST-0056-160.9/006	ã â	DEP=1C2-E-TEST-0056-160.9005
+1C2-E-TEST-0056-160.9/007	meet
+1C2-E-TEST-0056-160.9/008	later	DEP=1C2-E-TEST-0056-160.9007
+1C2-E-TEST-0056-18.173	8.51am: Kofi Annan is due to meet Bashar al-Assad tomorrow, a Syrian official told AFP.
+1C2-E-TEST-0056-18.173/001	8.51
+1C2-E-TEST-0056-18.173/002	bashar al-assad	DEP=1C2-E-TEST-0056-18.173006
+1C2-E-TEST-0056-18.173/003	syrian official	DEP=1C2-E-TEST-0056-18.173008
+1C2-E-TEST-0056-18.173/004	afp	DEP=1C2-E-TEST-0056-18.173008
+1C2-E-TEST-0056-18.173/005	due
+1C2-E-TEST-0056-18.173/006	meet	DEP=1C2-E-TEST-0056-18.173005
+1C2-E-TEST-0056-18.173/007	tomorrow	DEP=1C2-E-TEST-0056-18.173006
+1C2-E-TEST-0056-18.173/008	told
+1C2-E-TEST-0056-18.183	ÃÂ¢Ã¢ÂÂ¬ÃÂ¢ The United Nations security council, including Russia and China, has condemned the "outrageous use of force" by the Syrian government following the massacre of more than 100 civilians, including dozens of children, in Houla.
+1C2-E-TEST-0056-18.183/001	ã cents â ¬
+1C2-E-TEST-0056-18.183/002	â cents	DEP=1C2-E-TEST-0056-18.183001
+1C2-E-TEST-0056-18.183/003	united nations security council	DEP=1C2-E-TEST-0056-18.183011
+1C2-E-TEST-0056-18.183/004	russia china
+1C2-E-TEST-0056-18.183/005	force
+1C2-E-TEST-0056-18.183/006	syrian government
+1C2-E-TEST-0056-18.183/007	massacre	DEP=1C2-E-TEST-0056-18.183013
+1C2-E-TEST-0056-18.183/008	dozens
+1C2-E-TEST-0056-18.183/009	children
+1C2-E-TEST-0056-18.183/010	houla
+1C2-E-TEST-0056-18.183/011	condemned	DEP=1C2-E-TEST-0056-18.183001
+1C2-E-TEST-0056-18.183/012	outrageous
+1C2-E-TEST-0056-18.183/013	following	DEP=1C2-E-TEST-0056-18.183006
+1C2-E-TEST-0056-18.183/014	100	DEP=1C2-E-TEST-0056-18.183015
+1C2-E-TEST-0056-18.183/015	civilians
+1C2-E-TEST-0056-18.69	Annan is due to meet President Bashar al-Assad tomorrow.
+1C2-E-TEST-0056-18.69/001	president bashar al-assad	DEP=1C2-E-TEST-0056-18.69003
+1C2-E-TEST-0056-18.69/002	due
+1C2-E-TEST-0056-18.69/003	meet	DEP=1C2-E-TEST-0056-18.69002
+1C2-E-TEST-0056-18.69/004	tomorrow	DEP=1C2-E-TEST-0056-18.69003
+1C2-E-TEST-0056-197.3	Kofi Annan meets SyriaÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Bashar al-Assad
+1C2-E-TEST-0056-197.3/001	syriaã cents
+1C2-E-TEST-0056-197.3/002	¬	DEP=1C2-E-TEST-0056-197.3004
+1C2-E-TEST-0056-197.3/003	â cents	DEP=1C2-E-TEST-0056-197.3002
+1C2-E-TEST-0056-197.3/004	bashar al-assad
+1C2-E-TEST-0056-197.3/005	meets
+1C2-E-TEST-0056-197.3/006	s	DEP=1C2-E-TEST-0056-197.3004
+1C2-E-TEST-0056-249.8	Activists said 31 people were killed in shelling and shooting in Hama, a hub of the revolt against Syrian President Bashar al-Assad, immediately after a visit by a monitoring team.
+1C2-E-TEST-0056-249.8/001	activists
+1C2-E-TEST-0056-249.8/002	31 people	DEP=1C2-E-TEST-0056-249.8009
+1C2-E-TEST-0056-249.8/003	hama
+1C2-E-TEST-0056-249.8/004	hub	DEP=1C2-E-TEST-0056-249.8003
+1C2-E-TEST-0056-249.8/005	revolt
+1C2-E-TEST-0056-249.8/006	syrian president bashar al-assad
+1C2-E-TEST-0056-249.8/007	visit
+1C2-E-TEST-0056-249.8/008	monitoring team
+1C2-E-TEST-0056-249.8/009	killed
+1C2-E-TEST-0056-249.8/010	shelling
+1C2-E-TEST-0056-249.8/011	shooting	DEP=1C2-E-TEST-0056-249.8010
+1C2-E-TEST-0056-249.8/012	immediately	DEP=1C2-E-TEST-0056-249.8009
+1C2-E-TEST-0056-3.4	Annan demanded that the government of Bashar al-Assad "take bold steps to signal that it is serious in its intention to resolve this crisis peacefully, and for everyone involved to help create the right context for a credible political process.
+1C2-E-TEST-0056-3.4/001	government	DEP=1C2-E-TEST-0056-3.4008
+1C2-E-TEST-0056-3.4/002	bashar al-assad
+1C2-E-TEST-0056-3.4/003	bold steps	DEP=1C2-E-TEST-0056-3.4009
+1C2-E-TEST-0056-3.4/004	crisis	DEP=1C2-E-TEST-0056-3.4012
+1C2-E-TEST-0056-3.4/005	right context	DEP=1C2-E-TEST-0056-3.4016
+1C2-E-TEST-0056-3.4/006	credible political process
+1C2-E-TEST-0056-3.4/007	demanded
+1C2-E-TEST-0056-3.4/008	take	DEP=1C2-E-TEST-0056-3.4007
+1C2-E-TEST-0056-3.4/009	signal	DEP=1C2-E-TEST-0056-3.4008
+1C2-E-TEST-0056-3.4/010	serious	DEP=1C2-E-TEST-0056-3.4009
+1C2-E-TEST-0056-3.4/011	intention
+1C2-E-TEST-0056-3.4/012	resolve	DEP=1C2-E-TEST-0056-3.4011
+1C2-E-TEST-0056-3.4/013	peacefully	DEP=1C2-E-TEST-0056-3.4012
+1C2-E-TEST-0056-3.4/014	involved
+1C2-E-TEST-0056-3.4/015	help	DEP=1C2-E-TEST-0056-3.4014
+1C2-E-TEST-0056-3.4/016	create	DEP=1C2-E-TEST-0056-3.4015
+1C2-E-TEST-0056-3.8	Annan said he plans to have "serious and frank" talks with al-Assad and others.
+1C2-E-TEST-0056-3.8/001	al-assad
+1C2-E-TEST-0056-3.8/002	plans
+1C2-E-TEST-0056-3.8/003	serious	DEP=1C2-E-TEST-0056-3.8005
+1C2-E-TEST-0056-3.8/004	frank	DEP=1C2-E-TEST-0056-3.8003
+1C2-E-TEST-0056-3.8/005	talks
+1C2-E-TEST-0056-47.11	"I urge theÃÂÃÂ governmentÃÂÃÂ to take bold steps to signal that it is serious in its intention to resolve this crisis peacefully, and for everyone involved to help create the right context for a credible political process.
+1C2-E-TEST-0056-47.11/001	theã â governmentã â
+1C2-E-TEST-0056-47.11/002	bold steps	DEP=1C2-E-TEST-0056-47.11006
+1C2-E-TEST-0056-47.11/003	crisis	DEP=1C2-E-TEST-0056-47.11010
+1C2-E-TEST-0056-47.11/004	right context	DEP=1C2-E-TEST-0056-47.11014
+1C2-E-TEST-0056-47.11/005	credible political process
+1C2-E-TEST-0056-47.11/006	take
+1C2-E-TEST-0056-47.11/007	signal	DEP=1C2-E-TEST-0056-47.11006
+1C2-E-TEST-0056-47.11/008	serious	DEP=1C2-E-TEST-0056-47.11007
+1C2-E-TEST-0056-47.11/009	intention
+1C2-E-TEST-0056-47.11/010	resolve	DEP=1C2-E-TEST-0056-47.11009
+1C2-E-TEST-0056-47.11/011	peacefully	DEP=1C2-E-TEST-0056-47.11010
+1C2-E-TEST-0056-47.11/012	involved
+1C2-E-TEST-0056-47.11/013	help	DEP=1C2-E-TEST-0056-47.11012
+1C2-E-TEST-0056-47.11/014	create	DEP=1C2-E-TEST-0056-47.11013
+1C2-E-TEST-0056-48.13	He called on all sides of the conflict to end the bloodshed, saying "this message of peace is not only for the government, but for everyone with a gun."
+1C2-E-TEST-0056-48.13/001	sides	DEP=1C2-E-TEST-0056-48.13007
+1C2-E-TEST-0056-48.13/002	bloodshed	DEP=1C2-E-TEST-0056-48.13009
+1C2-E-TEST-0056-48.13/003	message
+1C2-E-TEST-0056-48.13/004	peace
+1C2-E-TEST-0056-48.13/005	government
+1C2-E-TEST-0056-48.13/006	gun
+1C2-E-TEST-0056-48.13/007	called
+1C2-E-TEST-0056-48.13/008	conflict
+1C2-E-TEST-0056-48.13/009	end	DEP=1C2-E-TEST-0056-48.13008
+1C2-E-TEST-0056-48.13/010	saying	DEP=1C2-E-TEST-0056-48.13007
+1C2-E-TEST-0056-48.24	"Annan should insist that Syria grant access to the U.N. commission of inquiry to investigate this and other grave crimes."
+1C2-E-TEST-0056-48.24/001	grant access	DEP=1C2-E-TEST-0056-48.24006
+1C2-E-TEST-0056-48.24/002	u.n. commission
+1C2-E-TEST-0056-48.24/003	inquiry
+1C2-E-TEST-0056-48.24/004	grave crimes
+1C2-E-TEST-0056-48.24/005	insist
+1C2-E-TEST-0056-48.24/006	investigate	DEP=1C2-E-TEST-0056-48.24005
+1C2-E-TEST-0056-48.26	On Monday, activists said Syrian troops shelled several neighborhoods in Hama until the early hours of the day, killing at least 24 people, the Britain-based Syrian Observatory for Human Rights and the Local Coordination Committees activist groups said.
+1C2-E-TEST-0056-48.26/001	monday
+1C2-E-TEST-0056-48.26/002	activists
+1C2-E-TEST-0056-48.26/003	syrian troops	DEP=1C2-E-TEST-0056-48.26011
+1C2-E-TEST-0056-48.26/004	neighborhoods	DEP=1C2-E-TEST-0056-48.26011
+1C2-E-TEST-0056-48.26/005	hama
+1C2-E-TEST-0056-48.26/006	early hours
+1C2-E-TEST-0056-48.26/007	britain-based syrian observatory	DEP=1C2-E-TEST-0056-48.26015
+1C2-E-TEST-0056-48.26/008	human rights
+1C2-E-TEST-0056-48.26/009	local coordination committees	DEP=1C2-E-TEST-0056-48.26015
+1C2-E-TEST-0056-48.26/010	activist groups
+1C2-E-TEST-0056-48.26/011	shelled
+1C2-E-TEST-0056-48.26/012	killing	DEP=1C2-E-TEST-0056-48.26011
+1C2-E-TEST-0056-48.26/013	least
+1C2-E-TEST-0056-48.26/014	24	DEP=1C2-E-TEST-0056-48.26015
+1C2-E-TEST-0056-48.26/015	people	DEP=1C2-E-TEST-0056-48.26012
+1C2-E-TEST-0056-48.8	Kofi Annan, special envoy for Syria, speaks after his arrival in Damascus on Monday for talks with Syrian President Bashar Assad.
+1C2-E-TEST-0056-48.8/001	special envoy
+1C2-E-TEST-0056-48.8/002	arrival
+1C2-E-TEST-0056-48.8/003	damascus
+1C2-E-TEST-0056-48.8/004	monday
+1C2-E-TEST-0056-48.8/005	talks
+1C2-E-TEST-0056-48.8/006	syrian president bashar assad
+1C2-E-TEST-0056-48.8/007	speaks
+1C2-E-TEST-0056-7.8	On 4 April, Annan told the U.N. Security Council that Syrian President Bashar al-Assad had given assurances he would ÃÂ¢Ã¢ÂÂ¬ÃÂimmediatelyÃÂ¢Ã¢ÂÂ¬ÃÂ start pulling back his forces and complete a military withdrawal from urban areas by 10 April.
+1C2-E-TEST-0056-7.8/001	4
+1C2-E-TEST-0056-7.8/002	u.n. security council	DEP=1C2-E-TEST-0056-7.8014
+1C2-E-TEST-0056-7.8/003	syrian president bashar al-assad	DEP=1C2-E-TEST-0056-7.8015
+1C2-E-TEST-0056-7.8/004	assurances	DEP=1C2-E-TEST-0056-7.8015
+1C2-E-TEST-0056-7.8/005	cents â	DEP=1C2-E-TEST-0056-7.8016
+1C2-E-TEST-0056-7.8/006	¬ å	DEP=1C2-E-TEST-0056-7.8005
+1C2-E-TEST-0056-7.8/007	immediatelyã cents	DEP=1C2-E-TEST-0056-7.8008
+1C2-E-TEST-0056-7.8/008	â ¬ â start	DEP=1C2-E-TEST-0056-7.8016
+1C2-E-TEST-0056-7.8/009	forces	DEP=1C2-E-TEST-0056-7.8017
+1C2-E-TEST-0056-7.8/010	military withdrawal	DEP=1C2-E-TEST-0056-7.8019
+1C2-E-TEST-0056-7.8/011	urban areas
+1C2-E-TEST-0056-7.8/012	10
+1C2-E-TEST-0056-7.8/013	april	DEP=1C2-E-TEST-0056-7.8014
+1C2-E-TEST-0056-7.8/014	told
+1C2-E-TEST-0056-7.8/015	given	DEP=1C2-E-TEST-0056-7.8014
+1C2-E-TEST-0056-7.8/016	ã	DEP=1C2-E-TEST-0056-7.8004
+1C2-E-TEST-0056-7.8/017	pulling	DEP=1C2-E-TEST-0056-7.8008
+1C2-E-TEST-0056-7.8/018	back	DEP=1C2-E-TEST-0056-7.8017
+1C2-E-TEST-0056-7.8/019	complete	DEP=1C2-E-TEST-0056-7.8016
+1C2-E-TEST-0056-7.8/020	april	DEP=1C2-E-TEST-0056-7.8019
+1C2-E-TEST-0056-74.19	Meanwhile, U.N.-Arab League envoy Kofi Annan is planning to hold talks with Syrian President Bashar al-Assad in Damascus on Tuesday.
+1C2-E-TEST-0056-74.19/001	u.n.-arab league envoy
+1C2-E-TEST-0056-74.19/002	talks	DEP=1C2-E-TEST-0056-74.19007
+1C2-E-TEST-0056-74.19/003	syrian president bashar al-assad
+1C2-E-TEST-0056-74.19/004	damascus
+1C2-E-TEST-0056-74.19/005	tuesday
+1C2-E-TEST-0056-74.19/006	planning
+1C2-E-TEST-0056-74.19/007	hold	DEP=1C2-E-TEST-0056-74.19006
+1C2-E-TEST-0056-74.21	It came after the U.N Security Council on Sunday strongly condemned the Syrian government for using artillery in the massacre in which at least 108 people were killed in Houla.
+1C2-E-TEST-0056-74.21/001	u.n security council	DEP=1C2-E-TEST-0056-74.21009
+1C2-E-TEST-0056-74.21/002	sunday
+1C2-E-TEST-0056-74.21/003	syrian government	DEP=1C2-E-TEST-0056-74.21009
+1C2-E-TEST-0056-74.21/004	artillery
+1C2-E-TEST-0056-74.21/005	massacre
+1C2-E-TEST-0056-74.21/006	houla
+1C2-E-TEST-0056-74.21/007	came
+1C2-E-TEST-0056-74.21/008	strongly	DEP=1C2-E-TEST-0056-74.21009
+1C2-E-TEST-0056-74.21/009	condemned	DEP=1C2-E-TEST-0056-74.21007
+1C2-E-TEST-0056-74.21/010	least
+1C2-E-TEST-0056-74.21/011	108	DEP=1C2-E-TEST-0056-74.21012
+1C2-E-TEST-0056-74.21/012	people	DEP=1C2-E-TEST-0056-74.21013
+1C2-E-TEST-0056-74.21/013	killed	DEP=1C2-E-TEST-0056-74.21005
+1C2-E-TEST-0056-74.22	Annan is to meet Foreign Minister Walid Muallem later on Monday ahead of talks with President Bashar al-Assad on Tuesday, a Syrian official said earlier, speaking on condition of anonymity.
+1C2-E-TEST-0056-74.22/001	foreign minister walid muallem	DEP=1C2-E-TEST-0056-74.22008
+1C2-E-TEST-0056-74.22/002	talks
+1C2-E-TEST-0056-74.22/003	president bashar al-assad
+1C2-E-TEST-0056-74.22/004	tuesday
+1C2-E-TEST-0056-74.22/005	syrian official
+1C2-E-TEST-0056-74.22/006	condition
+1C2-E-TEST-0056-74.22/007	anonymity
+1C2-E-TEST-0056-74.22/008	meet
+1C2-E-TEST-0056-74.22/009	later	DEP=1C2-E-TEST-0056-74.22001
+1C2-E-TEST-0056-74.22/010	monday
+1C2-E-TEST-0056-74.22/011	ahead
+1C2-E-TEST-0056-74.22/012	earlier
+1C2-E-TEST-0056-74.22/013	speaking
+1C2-E-TEST-0056-74.6	U.N.-Arab League peace envoy Kofi Annan said he was ÃÂ¢Ã¢ÂÂ¬ÃÂshockedÃÂ¢Ã¢ÂÂ¬ÃÂ at the weekendÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s ÃÂ¢Ã¢ÂÂ¬ÃÂtragic eventsÃÂ¢Ã¢ÂÂ¬ÃÂ in the central Syrian town of Houla as he arrived in Damascus on Monday following fresh violence last night in the city of Hama.
+1C2-E-TEST-0056-74.6/001	u.n.-arab league peace envoy
+1C2-E-TEST-0056-74.6/002	ã cents
+1C2-E-TEST-0056-74.6/003	â ¬ å	DEP=1C2-E-TEST-0056-74.6002
+1C2-E-TEST-0056-74.6/004	shockedã cents	DEP=1C2-E-TEST-0056-74.6003
+1C2-E-TEST-0056-74.6/005	¬ â
+1C2-E-TEST-0056-74.6/006	weekendã cents
+1C2-E-TEST-0056-74.6/007	¬
+1C2-E-TEST-0056-74.6/008	â cents
+1C2-E-TEST-0056-74.6/009	ã cents	DEP=1C2-E-TEST-0056-74.6020
+1C2-E-TEST-0056-74.6/010	tragic eventsã cents
+1C2-E-TEST-0056-74.6/011	¬ â
+1C2-E-TEST-0056-74.6/012	central syrian town
+1C2-E-TEST-0056-74.6/013	houla
+1C2-E-TEST-0056-74.6/014	damascus
+1C2-E-TEST-0056-74.6/015	monday
+1C2-E-TEST-0056-74.6/016	fresh violence	DEP=1C2-E-TEST-0056-74.6024
+1C2-E-TEST-0056-74.6/017	city
+1C2-E-TEST-0056-74.6/018	hama
+1C2-E-TEST-0056-74.6/019	s	DEP=1C2-E-TEST-0056-74.6022
+1C2-E-TEST-0056-74.6/020	â	DEP=1C2-E-TEST-0056-74.6022
+1C2-E-TEST-0056-74.6/021	¬	DEP=1C2-E-TEST-0056-74.6022
+1C2-E-TEST-0056-74.6/022	å	DEP=1C2-E-TEST-0056-74.6008
+1C2-E-TEST-0056-74.6/023	arrived	DEP=1C2-E-TEST-0056-74.6022
+1C2-E-TEST-0056-74.6/024	following	DEP=1C2-E-TEST-0056-74.6008
+1C2-E-TEST-0056-74.6/025	night	DEP=1C2-E-TEST-0056-74.6016
+1C2-E-TEST-0056-77.17	One British official pointed to Foreign Secretary William Hague's trip to Moscow on Monday and the appearance of UN-Arab League envoy Kofi Annan at the Security Council later this week, as the next steps in trying to take the political process forward.
+1C2-E-TEST-0056-77.17/001	british official	DEP=1C2-E-TEST-0056-77.17010
+1C2-E-TEST-0056-77.17/002	foreign secretary william hague	DEP=1C2-E-TEST-0056-77.17011
+1C2-E-TEST-0056-77.17/003	moscow
+1C2-E-TEST-0056-77.17/004	monday
+1C2-E-TEST-0056-77.17/005	appearance	DEP=1C2-E-TEST-0056-77.17003
+1C2-E-TEST-0056-77.17/006	un-arab league envoy
+1C2-E-TEST-0056-77.17/007	security council
+1C2-E-TEST-0056-77.17/008	steps
+1C2-E-TEST-0056-77.17/009	political process	DEP=1C2-E-TEST-0056-77.17014
+1C2-E-TEST-0056-77.17/010	pointed
+1C2-E-TEST-0056-77.17/011	trip
+1C2-E-TEST-0056-77.17/012	later
+1C2-E-TEST-0056-77.17/013	trying
+1C2-E-TEST-0056-77.17/014	take	DEP=1C2-E-TEST-0056-77.17013
+1C2-E-TEST-0056-77.7	Asked if President Bashar al-Assad could be part of the solution in Syria, he said that ending the violence was more important than who was in power.
+1C2-E-TEST-0056-77.7/001	president bashar al-assad	DEP=1C2-E-TEST-0056-77.7002
+1C2-E-TEST-0056-77.7/002	part	DEP=1C2-E-TEST-0056-77.7006
+1C2-E-TEST-0056-77.7/003	solution
+1C2-E-TEST-0056-77.7/004	violence	DEP=1C2-E-TEST-0056-77.7007
+1C2-E-TEST-0056-77.7/005	power
+1C2-E-TEST-0056-77.7/006	asked
+1C2-E-TEST-0056-77.7/007	ending	DEP=1C2-E-TEST-0056-77.7008
+1C2-E-TEST-0056-77.7/008	important
+1C2-E-TEST-0056-8.15	The UN said at least 108 people, including 49 children and 34 women, were killed in the massacre in the central area of Houla last Friday.
+1C2-E-TEST-0056-8.15/001	un
+1C2-E-TEST-0056-8.15/002	49 children
+1C2-E-TEST-0056-8.15/003	34 women	DEP=1C2-E-TEST-0056-8.15002
+1C2-E-TEST-0056-8.15/004	massacre
+1C2-E-TEST-0056-8.15/005	central area
+1C2-E-TEST-0056-8.15/006	houla
+1C2-E-TEST-0056-8.15/007	least
+1C2-E-TEST-0056-8.15/008	108	DEP=1C2-E-TEST-0056-8.15009
+1C2-E-TEST-0056-8.15/009	people	DEP=1C2-E-TEST-0056-8.15010
+1C2-E-TEST-0056-8.15/010	killed
+1C2-E-TEST-0056-8.15/011	friday	DEP=1C2-E-TEST-0056-8.15010
+1C2-E-TEST-0056-8.3	Kofi Annan visited Damascus to hold peace talks with Syrian President Bashar al-Assad and Syrian Foreign Minister Walid Muallem.
+1C2-E-TEST-0056-8.3/001	damascus	DEP=1C2-E-TEST-0056-8.3006
+1C2-E-TEST-0056-8.3/002	peace talks	DEP=1C2-E-TEST-0056-8.3006
+1C2-E-TEST-0056-8.3/003	syrian president bashar al-assad
+1C2-E-TEST-0056-8.3/004	syrian foreign minister walid muallem	DEP=1C2-E-TEST-0056-8.3003
+1C2-E-TEST-0056-8.3/005	visited
+1C2-E-TEST-0056-8.3/006	hold	DEP=1C2-E-TEST-0056-8.3005
+1C2-E-TEST-0056-8.5	The peace envoy was to meet Syrian Foreign Minister Walid Muallem on Monday followed by talks with President Bashar al-Assad on Tuesday, according to Ministry spokesman Jihad Makdissi.ÃÂÃÂ 
+1C2-E-TEST-0056-8.5/001	peace envoy
+1C2-E-TEST-0056-8.5/002	syrian foreign minister walid muallem	DEP=1C2-E-TEST-0056-8.5009
+1C2-E-TEST-0056-8.5/003	monday
+1C2-E-TEST-0056-8.5/004	talks
+1C2-E-TEST-0056-8.5/005	president bashar al-assad
+1C2-E-TEST-0056-8.5/006	tuesday
+1C2-E-TEST-0056-8.5/007	ministry spokesman
+1C2-E-TEST-0056-8.5/008	jihad makdissi ã â	DEP=1C2-E-TEST-0056-8.5007
+1C2-E-TEST-0056-8.5/009	meet
+1C2-E-TEST-0056-8.5/010	followed	DEP=1C2-E-TEST-0056-8.5003
+1C2-E-TEST-0056-8.6	Prior to the meeting with Muallem, Annan spoke to the press: ÃÂ¢Ã¢ÂÂ¬ÃÂI urge the government to take bold steps to signal that it is serious in its intention to resolve this crisis peacefully, and for everyone involved to help create the right context for a credible political process.ÃÂ¢Ã¢ÂÂ¬ÃÂ
+1C2-E-TEST-0056-8.6/001	meeting
+1C2-E-TEST-0056-8.6/002	muallem
+1C2-E-TEST-0056-8.6/003	press
+1C2-E-TEST-0056-8.6/004	ã cents	DEP=1C2-E-TEST-0056-8.6013
+1C2-E-TEST-0056-8.6/005	government	DEP=1C2-E-TEST-0056-8.6016
+1C2-E-TEST-0056-8.6/006	bold steps	DEP=1C2-E-TEST-0056-8.6016
+1C2-E-TEST-0056-8.6/007	crisis	DEP=1C2-E-TEST-0056-8.6020
+1C2-E-TEST-0056-8.6/008	right context	DEP=1C2-E-TEST-0056-8.6024
+1C2-E-TEST-0056-8.6/009	credible political process
+1C2-E-TEST-0056-8.6/010	ã cents
+1C2-E-TEST-0056-8.6/011	¬ â
+1C2-E-TEST-0056-8.6/012	prior
+1C2-E-TEST-0056-8.6/013	â	DEP=1C2-E-TEST-0056-8.6015
+1C2-E-TEST-0056-8.6/014	¬	DEP=1C2-E-TEST-0056-8.6015
+1C2-E-TEST-0056-8.6/015	å	DEP=1C2-E-TEST-0056-8.6003
+1C2-E-TEST-0056-8.6/016	take
+1C2-E-TEST-0056-8.6/017	signal	DEP=1C2-E-TEST-0056-8.6016
+1C2-E-TEST-0056-8.6/018	serious	DEP=1C2-E-TEST-0056-8.6017
+1C2-E-TEST-0056-8.6/019	intention
+1C2-E-TEST-0056-8.6/020	resolve	DEP=1C2-E-TEST-0056-8.6019
+1C2-E-TEST-0056-8.6/021	peacefully	DEP=1C2-E-TEST-0056-8.6020
+1C2-E-TEST-0056-8.6/022	involved
+1C2-E-TEST-0056-8.6/023	help	DEP=1C2-E-TEST-0056-8.6022
+1C2-E-TEST-0056-8.6/024	create	DEP=1C2-E-TEST-0056-8.6023

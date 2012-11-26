@@ -1,0 +1,48 @@
+1C2-E-TEST-0169-120.8	In that case a large amount of memory is wasted to explicitly store all those zeros.
+1C2-E-TEST-0169-120.8/001	case
+1C2-E-TEST-0169-120.8/002	large amount	DEP=1C2-E-TEST-0169-120.8005
+1C2-E-TEST-0169-120.8/003	memory
+1C2-E-TEST-0169-120.8/004	zeros	DEP=1C2-E-TEST-0169-120.8007
+1C2-E-TEST-0169-120.8/005	wasted
+1C2-E-TEST-0169-120.8/006	explicitly	DEP=1C2-E-TEST-0169-120.8007
+1C2-E-TEST-0169-120.8/007	store	DEP=1C2-E-TEST-0169-120.8005
+1C2-E-TEST-0169-2.3	A sparse matrix is a matrix that allows special techniques to take advantage of the large number of zero elements.
+1C2-E-TEST-0169-2.3/001	special techniques	DEP=1C2-E-TEST-0169-2.3006
+1C2-E-TEST-0169-2.3/002	advantage	DEP=1C2-E-TEST-0169-2.3006
+1C2-E-TEST-0169-2.3/003	large number
+1C2-E-TEST-0169-2.3/004	zero elements
+1C2-E-TEST-0169-2.3/005	allows
+1C2-E-TEST-0169-2.3/006	take	DEP=1C2-E-TEST-0169-2.3005
+1C2-E-TEST-0169-252.71	The graph of a Sparse Matrix contains one edge corresponding to each non-zero entry; all edges are undirected and of equal weight.
+1C2-E-TEST-0169-252.71/001	graph	DEP=1C2-E-TEST-0169-252.71006
+1C2-E-TEST-0169-252.71/002	edge	DEP=1C2-E-TEST-0169-252.71006
+1C2-E-TEST-0169-252.71/003	non-zero entry
+1C2-E-TEST-0169-252.71/004	edges	DEP=1C2-E-TEST-0169-252.71008
+1C2-E-TEST-0169-252.71/005	equal weight
+1C2-E-TEST-0169-252.71/006	contains
+1C2-E-TEST-0169-252.71/007	corresponding	DEP=1C2-E-TEST-0169-252.71002
+1C2-E-TEST-0169-252.71/008	undirected	DEP=1C2-E-TEST-0169-252.71006
+1C2-E-TEST-0169-260.12	Sparse methods save space and time by only storing information about non-zero elements.
+1C2-E-TEST-0169-260.12/001	methods
+1C2-E-TEST-0169-260.12/002	space time
+1C2-E-TEST-0169-260.12/003	information	DEP=1C2-E-TEST-0169-260.12005
+1C2-E-TEST-0169-260.12/004	non-zero elements
+1C2-E-TEST-0169-260.12/005	storing
+1C2-E-TEST-0169-260.8	It is designed to save time and space where A is fairly large but contains few non-zero elements.
+1C2-E-TEST-0169-260.8/001	time space
+1C2-E-TEST-0169-260.8/002	non-zero elements	DEP=1C2-E-TEST-0169-260.8006
+1C2-E-TEST-0169-260.8/003	designed
+1C2-E-TEST-0169-260.8/004	fairly	DEP=1C2-E-TEST-0169-260.8005
+1C2-E-TEST-0169-260.8/005	large	DEP=1C2-E-TEST-0169-260.8006
+1C2-E-TEST-0169-260.8/006	contains
+1C2-E-TEST-0169-84.88	The major issue with sparse matrices is that they can only be efficiently traversed in a specific order, i.e., per column for a CCS matrix and per row for a CRS matrix.
+1C2-E-TEST-0169-84.88/001	major issue
+1C2-E-TEST-0169-84.88/002	matrices
+1C2-E-TEST-0169-84.88/003	specific order
+1C2-E-TEST-0169-84.88/004	i.e.	DEP=1C2-E-TEST-0169-84.88003
+1C2-E-TEST-0169-84.88/005	column
+1C2-E-TEST-0169-84.88/006	ccs
+1C2-E-TEST-0169-84.88/007	row
+1C2-E-TEST-0169-84.88/008	crs
+1C2-E-TEST-0169-84.88/009	efficiently
+1C2-E-TEST-0169-84.88/010	traversed	DEP=1C2-E-TEST-0169-84.88009

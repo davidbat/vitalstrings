@@ -1,0 +1,469 @@
+1C2-E-TEST-0036-1.1	In 2005 Theron portrayed Rita , Michael Bluth 's ( Jason Bateman ) love interest, on the third season of Fox's critically acclaimed television series Arrested Development .
+1C2-E-TEST-0036-1.1/001	2005
+1C2-E-TEST-0036-1.1/002	rita
+1C2-E-TEST-0036-1.1/003	bluth	DEP=1C2-E-TEST-0036-1.1010
+1C2-E-TEST-0036-1.1/004	jason bateman	DEP=1C2-E-TEST-0036-1.1002
+1C2-E-TEST-0036-1.1/005	interest
+1C2-E-TEST-0036-1.1/006	third season
+1C2-E-TEST-0036-1.1/007	fox	DEP=1C2-E-TEST-0036-1.1014
+1C2-E-TEST-0036-1.1/008	development	DEP=1C2-E-TEST-0036-1.1015
+1C2-E-TEST-0036-1.1/009	portrayed
+1C2-E-TEST-0036-1.1/010	michael	DEP=1C2-E-TEST-0036-1.1002
+1C2-E-TEST-0036-1.1/011	critically	DEP=1C2-E-TEST-0036-1.1012
+1C2-E-TEST-0036-1.1/012	acclaimed	DEP=1C2-E-TEST-0036-1.1014
+1C2-E-TEST-0036-1.1/013	television	DEP=1C2-E-TEST-0036-1.1014
+1C2-E-TEST-0036-1.1/014	series
+1C2-E-TEST-0036-1.1/015	arrested	DEP=1C2-E-TEST-0036-1.1014
+1C2-E-TEST-0036-1.13	In 2008, Theron was named the Hasty Pudding Theatricals Woman of the Year .
+1C2-E-TEST-0036-1.13/001	2008
+1C2-E-TEST-0036-1.13/002	hasty pudding	DEP=1C2-E-TEST-0036-1.13003
+1C2-E-TEST-0036-1.13/003	theatricals woman	DEP=1C2-E-TEST-0036-1.13004
+1C2-E-TEST-0036-1.13/004	named
+1C2-E-TEST-0036-1.2	[25] She also received Golden Globe and Emmy [26] nominations for her role of Britt Ekland in the 2004 HBO film The Life and Death of Peter Sellers .
+1C2-E-TEST-0036-1.2/001	golden globe emmy	DEP=1C2-E-TEST-0036-1.2010
+1C2-E-TEST-0036-1.2/002	26	DEP=1C2-E-TEST-0036-1.2010
+1C2-E-TEST-0036-1.2/003	role
+1C2-E-TEST-0036-1.2/004	britt ekland
+1C2-E-TEST-0036-1.2/005	2004 hbo film
+1C2-E-TEST-0036-1.2/006	life death	DEP=1C2-E-TEST-0036-1.2009
+1C2-E-TEST-0036-1.2/007	peter sellers
+1C2-E-TEST-0036-1.2/008	25
+1C2-E-TEST-0036-1.2/009	received	DEP=1C2-E-TEST-0036-1.2008
+1C2-E-TEST-0036-1.2/010	nominations	DEP=1C2-E-TEST-0036-1.2009
+1C2-E-TEST-0036-1.47	[47] Theron then began a relationship with Irish actor Stuart Townsend , with whom she starred in Trapped (2002) and Head in the Clouds (2004).
+1C2-E-TEST-0036-1.47/001	relationship	DEP=1C2-E-TEST-0036-1.47009
+1C2-E-TEST-0036-1.47/002	irish actor stuart townsend
+1C2-E-TEST-0036-1.47/003	trapped
+1C2-E-TEST-0036-1.47/004	2002	DEP=1C2-E-TEST-0036-1.47003
+1C2-E-TEST-0036-1.47/005	head	DEP=1C2-E-TEST-0036-1.47003
+1C2-E-TEST-0036-1.47/006	clouds
+1C2-E-TEST-0036-1.47/007	2004	DEP=1C2-E-TEST-0036-1.47006
+1C2-E-TEST-0036-1.47/008	47	DEP=1C2-E-TEST-0036-1.47009
+1C2-E-TEST-0036-1.47/009	began	DEP=1C2-E-TEST-0036-1.47010
+1C2-E-TEST-0036-1.47/010	starred
+1C2-E-TEST-0036-1.51	While filming ÃÂÃ¢ÂÂ on Flux in Berlin, Germany, Theron suffered a herniated disc in her neck, which occurred as a result of her suffering a fall while filming a series of back handsprings .
+1C2-E-TEST-0036-1.51/001	ã â	DEP=1C2-E-TEST-0036-1.51009
+1C2-E-TEST-0036-1.51/002	flux
+1C2-E-TEST-0036-1.51/003	berlin germany
+1C2-E-TEST-0036-1.51/004	herniated disc	DEP=1C2-E-TEST-0036-1.51010
+1C2-E-TEST-0036-1.51/005	neck
+1C2-E-TEST-0036-1.51/006	result
+1C2-E-TEST-0036-1.51/007	fall	DEP=1C2-E-TEST-0036-1.51012
+1C2-E-TEST-0036-1.51/008	series	DEP=1C2-E-TEST-0036-1.51015
+1C2-E-TEST-0036-1.51/009	filming
+1C2-E-TEST-0036-1.51/010	suffered
+1C2-E-TEST-0036-1.51/011	occurred	DEP=1C2-E-TEST-0036-1.51005
+1C2-E-TEST-0036-1.51/012	suffering	DEP=1C2-E-TEST-0036-1.51011
+1C2-E-TEST-0036-1.51/013	filming
+1C2-E-TEST-0036-1.51/014	back
+1C2-E-TEST-0036-1.51/015	handsprings	DEP=1C2-E-TEST-0036-1.51013
+1C2-E-TEST-0036-1.58	Having signed a deal with John Galliano in 2004, Theron replaced Estonian model Tiiu Kuik as the spokeswoman in the "J'adore" advertisements by Christian Dior .
+1C2-E-TEST-0036-1.58/001	deal	DEP=1C2-E-TEST-0036-1.58009
+1C2-E-TEST-0036-1.58/002	john galliano
+1C2-E-TEST-0036-1.58/003	2004
+1C2-E-TEST-0036-1.58/004	estonian model tiiu kuik	DEP=1C2-E-TEST-0036-1.58010
+1C2-E-TEST-0036-1.58/005	spokeswoman
+1C2-E-TEST-0036-1.58/006	j'adore advertisements
+1C2-E-TEST-0036-1.58/007	christian dior
+1C2-E-TEST-0036-1.58/008	having	DEP=1C2-E-TEST-0036-1.58009
+1C2-E-TEST-0036-1.58/009	signed	DEP=1C2-E-TEST-0036-1.58010
+1C2-E-TEST-0036-1.58/010	replaced
+1C2-E-TEST-0036-100.49	Unable to dance, Theron flew to Los Angeles on a one-way ticket her mother bought her.
+1C2-E-TEST-0036-100.49/001	los angeles
+1C2-E-TEST-0036-100.49/002	one-way ticket
+1C2-E-TEST-0036-100.49/003	mother	DEP=1C2-E-TEST-0036-100.49006
+1C2-E-TEST-0036-100.49/004	dance
+1C2-E-TEST-0036-100.49/005	flew
+1C2-E-TEST-0036-100.49/006	bought	DEP=1C2-E-TEST-0036-100.49005
+1C2-E-TEST-0036-100.6	She received critical acclaim and an Academy Award for her portrayal of serial killer Aileen Wuornos in the movie Monster, for which she became the first African to win an Academy Award in a major acting category.
+1C2-E-TEST-0036-100.6/001	critical acclaim	DEP=1C2-E-TEST-0036-100.6008
+1C2-E-TEST-0036-100.6/002	academy award	DEP=1C2-E-TEST-0036-100.6001
+1C2-E-TEST-0036-100.6/003	portrayal
+1C2-E-TEST-0036-100.6/004	serial killer aileen wuornos
+1C2-E-TEST-0036-100.6/005	movie monster
+1C2-E-TEST-0036-100.6/006	academy	DEP=1C2-E-TEST-0036-100.6010
+1C2-E-TEST-0036-100.6/007	major acting category
+1C2-E-TEST-0036-100.6/008	received
+1C2-E-TEST-0036-100.6/009	african	DEP=1C2-E-TEST-0036-100.6011
+1C2-E-TEST-0036-100.6/010	win	DEP=1C2-E-TEST-0036-100.6009
+1C2-E-TEST-0036-100.6/011	award	DEP=1C2-E-TEST-0036-100.6005
+1C2-E-TEST-0036-100.72	She also received Golden Globe and Emmy nominations for her role of Britt Ekland in the 2004 (8 years ago) HBO movie The Life and Death of Peter Sellers.
+1C2-E-TEST-0036-100.72/001	golden globe	DEP=1C2-E-TEST-0036-100.72010
+1C2-E-TEST-0036-100.72/002	emmy nominations	DEP=1C2-E-TEST-0036-100.72001
+1C2-E-TEST-0036-100.72/003	role
+1C2-E-TEST-0036-100.72/004	britt ekland
+1C2-E-TEST-0036-100.72/005	2004	DEP=1C2-E-TEST-0036-100.72012
+1C2-E-TEST-0036-100.72/006	8 years	DEP=1C2-E-TEST-0036-100.72012
+1C2-E-TEST-0036-100.72/007	life	DEP=1C2-E-TEST-0036-100.72012
+1C2-E-TEST-0036-100.72/008	death	DEP=1C2-E-TEST-0036-100.72012
+1C2-E-TEST-0036-100.72/009	peter sellers
+1C2-E-TEST-0036-100.72/010	received
+1C2-E-TEST-0036-100.72/011	hbo	DEP=1C2-E-TEST-0036-100.72012
+1C2-E-TEST-0036-100.72/012	movie
+1C2-E-TEST-0036-259.13	Unable to dance, Theron flew to Los Angeles on a one-way ticket her mother bought her. After eight months in the city, she was cast in her first film part, a non-speaking role in the direct-to-video film Children of the Corn III (1995).
+1C2-E-TEST-0036-259.13/001	los angeles
+1C2-E-TEST-0036-259.13/002	one-way ticket
+1C2-E-TEST-0036-259.13/003	mother	DEP=1C2-E-TEST-0036-259.13013
+1C2-E-TEST-0036-259.13/004	eight months
+1C2-E-TEST-0036-259.13/005	city
+1C2-E-TEST-0036-259.13/006	film part
+1C2-E-TEST-0036-259.13/007	non-speaking role	DEP=1C2-E-TEST-0036-259.13006
+1C2-E-TEST-0036-259.13/008	direct-to-video film children
+1C2-E-TEST-0036-259.13/009	corn iii
+1C2-E-TEST-0036-259.13/010	1995	DEP=1C2-E-TEST-0036-259.13009
+1C2-E-TEST-0036-259.13/011	dance
+1C2-E-TEST-0036-259.13/012	flew
+1C2-E-TEST-0036-259.13/013	bought	DEP=1C2-E-TEST-0036-259.13002
+1C2-E-TEST-0036-259.13/014	cast	DEP=1C2-E-TEST-0036-259.13002
+1C2-E-TEST-0036-259.14	Larger roles in widely released Hollywood films followed, in the late 1990s with box office successes like The Devil's Advocate (1997), Mighty Joe Young (1998), and The Cider House Rules (1999).
+1C2-E-TEST-0036-259.14/001	larger roles	DEP=1C2-E-TEST-0036-259.14014
+1C2-E-TEST-0036-259.14/002	late 1990s
+1C2-E-TEST-0036-259.14/003	box office successes
+1C2-E-TEST-0036-259.14/004	devil	DEP=1C2-E-TEST-0036-259.14015
+1C2-E-TEST-0036-259.14/005	1997	DEP=1C2-E-TEST-0036-259.14015
+1C2-E-TEST-0036-259.14/006	mighty joe young	DEP=1C2-E-TEST-0036-259.14015
+1C2-E-TEST-0036-259.14/007	1998	DEP=1C2-E-TEST-0036-259.14006
+1C2-E-TEST-0036-259.14/008	cider house rules	DEP=1C2-E-TEST-0036-259.14015
+1C2-E-TEST-0036-259.14/009	1999	DEP=1C2-E-TEST-0036-259.14008
+1C2-E-TEST-0036-259.14/010	widely	DEP=1C2-E-TEST-0036-259.14011
+1C2-E-TEST-0036-259.14/011	released	DEP=1C2-E-TEST-0036-259.14013
+1C2-E-TEST-0036-259.14/012	hollywood	DEP=1C2-E-TEST-0036-259.14013
+1C2-E-TEST-0036-259.14/013	films
+1C2-E-TEST-0036-259.14/014	followed
+1C2-E-TEST-0036-259.14/015	advocate
+1C2-E-TEST-0036-259.15	She glossed the cover of the January 1999 issue of Vanity Fair as the "White Hot Venus".
+1C2-E-TEST-0036-259.15/001	cover	DEP=1C2-E-TEST-0036-259.15005
+1C2-E-TEST-0036-259.15/002	january 1999 issue
+1C2-E-TEST-0036-259.15/003	vanity fair
+1C2-E-TEST-0036-259.15/004	white hot venus
+1C2-E-TEST-0036-259.15/005	glossed
+1C2-E-TEST-0036-259.21	She also received Golden Globe and Emmy nominations for her role of Britt Ekland in the 2004 HBO movie The Life and Death of Peter Sellers.
+1C2-E-TEST-0036-259.21/001	golden globe	DEP=1C2-E-TEST-0036-259.21009
+1C2-E-TEST-0036-259.21/002	emmy nominations	DEP=1C2-E-TEST-0036-259.21001
+1C2-E-TEST-0036-259.21/003	role
+1C2-E-TEST-0036-259.21/004	britt ekland
+1C2-E-TEST-0036-259.21/005	2004 hbo movie
+1C2-E-TEST-0036-259.21/006	life	DEP=1C2-E-TEST-0036-259.21005
+1C2-E-TEST-0036-259.21/007	death	DEP=1C2-E-TEST-0036-259.21005
+1C2-E-TEST-0036-259.21/008	peter sellers
+1C2-E-TEST-0036-259.21/009	received
+1C2-E-TEST-0036-259.23	Theron resides in Los Angeles with her boyfriend Stuart Townsend, with whom she starred in Head in the Clouds (2004), Trapped (2002) and ÃÂÃ¢ÂÂ on Flux (2005).
+1C2-E-TEST-0036-259.23/001	los angeles
+1C2-E-TEST-0036-259.23/002	boyfriend stuart townsend
+1C2-E-TEST-0036-259.23/003	head
+1C2-E-TEST-0036-259.23/004	clouds
+1C2-E-TEST-0036-259.23/005	2004	DEP=1C2-E-TEST-0036-259.23004
+1C2-E-TEST-0036-259.23/006	ã
+1C2-E-TEST-0036-259.23/007	2005	DEP=1C2-E-TEST-0036-259.23012
+1C2-E-TEST-0036-259.23/008	resides
+1C2-E-TEST-0036-259.23/009	starred	DEP=1C2-E-TEST-0036-259.23002
+1C2-E-TEST-0036-259.23/010	trapped	DEP=1C2-E-TEST-0036-259.23004
+1C2-E-TEST-0036-259.23/011	2002	DEP=1C2-E-TEST-0036-259.23010
+1C2-E-TEST-0036-259.23/012	flux
+1C2-E-TEST-0036-374.22	She received critical acclaim and an Academy Award for her portrayal of serial killer Aileen Wuornos in the film Monster, for which she became the first African to win an Academy Award in a major acting category.
+1C2-E-TEST-0036-374.22/001	critical acclaim	DEP=1C2-E-TEST-0036-374.22008
+1C2-E-TEST-0036-374.22/002	academy award	DEP=1C2-E-TEST-0036-374.22001
+1C2-E-TEST-0036-374.22/003	portrayal
+1C2-E-TEST-0036-374.22/004	serial killer aileen wuornos
+1C2-E-TEST-0036-374.22/005	film monster
+1C2-E-TEST-0036-374.22/006	academy	DEP=1C2-E-TEST-0036-374.22010
+1C2-E-TEST-0036-374.22/007	major acting category
+1C2-E-TEST-0036-374.22/008	received
+1C2-E-TEST-0036-374.22/009	african	DEP=1C2-E-TEST-0036-374.22011
+1C2-E-TEST-0036-374.22/010	win	DEP=1C2-E-TEST-0036-374.22009
+1C2-E-TEST-0036-374.22/011	award	DEP=1C2-E-TEST-0036-374.22005
+1C2-E-TEST-0036-39.11	"Theron" is an Occitan surname (originally spelled ThÃÂÃÂ©ron) pronounced in Afrikaans as , although she has said that the way she pronounces it in South Africa is .
+1C2-E-TEST-0036-39.11/001	occitan surname
+1C2-E-TEST-0036-39.11/002	thã â	DEP=1C2-E-TEST-0036-39.11008
+1C2-E-TEST-0036-39.11/003	© ron	DEP=1C2-E-TEST-0036-39.11002
+1C2-E-TEST-0036-39.11/004	afrikaans
+1C2-E-TEST-0036-39.11/005	way
+1C2-E-TEST-0036-39.11/006	south africa
+1C2-E-TEST-0036-39.11/007	originally	DEP=1C2-E-TEST-0036-39.11008
+1C2-E-TEST-0036-39.11/008	spelled	DEP=1C2-E-TEST-0036-39.11001
+1C2-E-TEST-0036-39.11/009	pronounced	DEP=1C2-E-TEST-0036-39.11001
+1C2-E-TEST-0036-39.11/010	pronounces	DEP=1C2-E-TEST-0036-39.11005
+1C2-E-TEST-0036-39.3	Charlize Theron (American English pronunciation: play /ÃÂÃÂÃÂÃ¢ÂÂrÃÂÃÂliÃÂÃÂs ÃÂÃÂÃÂÃÂ¸ÃÂÃ¢ÂÂºrÃÂÃ¢ÂÂ¢n/; Afrikaans pronunciation: ; born 7 August 1975) is a South African actress and fashion model.
+1C2-E-TEST-0036-39.3/001	american english
+1C2-E-TEST-0036-39.3/002	pronunciation	DEP=1C2-E-TEST-0036-39.3001
+1C2-E-TEST-0036-39.3/003	ã æ	DEP=1C2-E-TEST-0036-39.3013
+1C2-E-TEST-0036-39.3/004	liã â s
+1C2-E-TEST-0036-39.3/005	ë ã â ¸ ã â
+1C2-E-TEST-0036-39.3/006	â cents
+1C2-E-TEST-0036-39.3/007	n	DEP=1C2-E-TEST-0036-39.3006
+1C2-E-TEST-0036-39.3/008	afrikaans pronunciation	DEP=1C2-E-TEST-0036-39.3002
+1C2-E-TEST-0036-39.3/009	7	DEP=1C2-E-TEST-0036-39.3018
+1C2-E-TEST-0036-39.3/010	south african actress
+1C2-E-TEST-0036-39.3/011	fashion model	DEP=1C2-E-TEST-0036-39.3010
+1C2-E-TEST-0036-39.3/012	play	DEP=1C2-E-TEST-0036-39.3002
+1C2-E-TEST-0036-39.3/013	ã	DEP=1C2-E-TEST-0036-39.3014
+1C2-E-TEST-0036-39.3/014	â	DEP=1C2-E-TEST-0036-39.3012
+1C2-E-TEST-0036-39.3/015	rã
+1C2-E-TEST-0036-39.3/016	ë	DEP=1C2-E-TEST-0036-39.3014
+1C2-E-TEST-0036-39.3/017	ºrã
+1C2-E-TEST-0036-39.3/018	born
+1C2-E-TEST-0036-39.3/019	august	DEP=1C2-E-TEST-0036-39.3009
+1C2-E-TEST-0036-39.3/020	1975	DEP=1C2-E-TEST-0036-39.3019
+1C2-E-TEST-0036-39.37	She was on the cover of the January 1999 issue of Vanity Fair as the "White Hot Venus".
+1C2-E-TEST-0036-39.37/001	cover
+1C2-E-TEST-0036-39.37/002	january 1999 issue
+1C2-E-TEST-0036-39.37/003	vanity fair
+1C2-E-TEST-0036-39.37/004	white hot venus
+1C2-E-TEST-0036-39.41	For this role, Theron won the Academy Award for Best Actress at the 76th Academy Awards in February 2004, as well as the SAG Award and the Golden Globe Award.
+1C2-E-TEST-0036-39.41/001	role
+1C2-E-TEST-0036-39.41/002	academy award	DEP=1C2-E-TEST-0036-39.41008
+1C2-E-TEST-0036-39.41/003	best actress
+1C2-E-TEST-0036-39.41/004	76th academy awards
+1C2-E-TEST-0036-39.41/005	february 2004
+1C2-E-TEST-0036-39.41/006	sag award	DEP=1C2-E-TEST-0036-39.41004
+1C2-E-TEST-0036-39.41/007	golden globe award	DEP=1C2-E-TEST-0036-39.41006
+1C2-E-TEST-0036-39.41/008	won
+1C2-E-TEST-0036-39.45	She also received Golden Globe and Emmy nominations for her role of Britt Ekland in the 2004 HBO film The Life and Death of Peter Sellers.
+1C2-E-TEST-0036-39.45/001	golden globe	DEP=1C2-E-TEST-0036-39.45009
+1C2-E-TEST-0036-39.45/002	emmy nominations	DEP=1C2-E-TEST-0036-39.45001
+1C2-E-TEST-0036-39.45/003	role
+1C2-E-TEST-0036-39.45/004	britt ekland
+1C2-E-TEST-0036-39.45/005	2004 hbo film
+1C2-E-TEST-0036-39.45/006	life	DEP=1C2-E-TEST-0036-39.45005
+1C2-E-TEST-0036-39.45/007	death	DEP=1C2-E-TEST-0036-39.45005
+1C2-E-TEST-0036-39.45/008	peter sellers
+1C2-E-TEST-0036-39.45/009	received
+1C2-E-TEST-0036-39.46	On 30 September, Theron received a star on the Hollywood Walk of Fame.
+1C2-E-TEST-0036-39.46/001	30
+1C2-E-TEST-0036-39.46/002	star	DEP=1C2-E-TEST-0036-39.46007
+1C2-E-TEST-0036-39.46/003	hollywood
+1C2-E-TEST-0036-39.46/004	fame
+1C2-E-TEST-0036-39.46/005	september	DEP=1C2-E-TEST-0036-39.46006
+1C2-E-TEST-0036-39.46/006	received
+1C2-E-TEST-0036-39.46/007	walk	DEP=1C2-E-TEST-0036-39.46006
+1C2-E-TEST-0036-39.55	That year she also starred with Will Smith in the superhero film Hancock, and in late 2008 she was asked to be a UN Messenger of Peace by the UN Secretary General Ban Ki-Moon.
+1C2-E-TEST-0036-39.55/001	smith
+1C2-E-TEST-0036-39.55/002	superhero film hancock
+1C2-E-TEST-0036-39.55/003	late 2008
+1C2-E-TEST-0036-39.55/004	un messenger	DEP=1C2-E-TEST-0036-39.55008
+1C2-E-TEST-0036-39.55/005	peace
+1C2-E-TEST-0036-39.55/006	un secretary general ban ki-moon
+1C2-E-TEST-0036-39.55/007	starred
+1C2-E-TEST-0036-39.55/008	asked	DEP=1C2-E-TEST-0036-39.55007
+1C2-E-TEST-0036-39.80	Theron then began a relationship with Irish actor Stuart Townsend, with whom she starred in Trapped (2002) and Head in the Clouds (2004).
+1C2-E-TEST-0036-39.80/001	relationship	DEP=1C2-E-TEST-0036-39.80008
+1C2-E-TEST-0036-39.80/002	irish actor stuart townsend
+1C2-E-TEST-0036-39.80/003	trapped
+1C2-E-TEST-0036-39.80/004	2002	DEP=1C2-E-TEST-0036-39.80003
+1C2-E-TEST-0036-39.80/005	head	DEP=1C2-E-TEST-0036-39.80003
+1C2-E-TEST-0036-39.80/006	clouds
+1C2-E-TEST-0036-39.80/007	2004	DEP=1C2-E-TEST-0036-39.80006
+1C2-E-TEST-0036-39.80/008	began
+1C2-E-TEST-0036-39.80/009	starred
+1C2-E-TEST-0036-39.90	From October 2005 to December 2006, Theron earned US$3 million for the use of her image in a worldwide print media advertising campaign for Raymond Weil watches.
+1C2-E-TEST-0036-39.90/001	october 2005
+1C2-E-TEST-0036-39.90/002	december 2006
+1C2-E-TEST-0036-39.90/003	image
+1C2-E-TEST-0036-39.90/004	worldwide print media advertising campaign
+1C2-E-TEST-0036-39.90/005	raymond weil
+1C2-E-TEST-0036-39.90/006	earned
+1C2-E-TEST-0036-39.90/007	3
+1C2-E-TEST-0036-39.90/008	million
+1C2-E-TEST-0036-39.90/009	watches	DEP=1C2-E-TEST-0036-39.90005
+1C2-E-TEST-0036-391.7	Charlize Theron (pronounced /ÃÂÃÂÃÂÃ¢ÂÂrÃÂÃÂliÃÂÃÂz ÃÂÃÂÃÂÃÂ¸ÃÂÃ¢ÂÂºrÃÂÃ¢ÂÂ¢n/, shar-LEEZ THERR-ÃÂÃ¢ÂÂ¢n; born August 7, 1975) is a South African actress, film producer, and former fashion model.
+1C2-E-TEST-0036-391.7/001	pronounced	DEP=1C2-E-TEST-0036-391.7011
+1C2-E-TEST-0036-391.7/002	ã	DEP=1C2-E-TEST-0036-391.7001
+1C2-E-TEST-0036-391.7/003	æ ã	DEP=1C2-E-TEST-0036-391.7002
+1C2-E-TEST-0036-391.7/004	ã ë ã â	DEP=1C2-E-TEST-0036-391.7015
+1C2-E-TEST-0036-391.7/005	¸ ã â	DEP=1C2-E-TEST-0036-391.7004
+1C2-E-TEST-0036-391.7/006	â cents	DEP=1C2-E-TEST-0036-391.7011
+1C2-E-TEST-0036-391.7/007	n	DEP=1C2-E-TEST-0036-391.7006
+1C2-E-TEST-0036-391.7/008	shar-leez therr-ã	DEP=1C2-E-TEST-0036-391.7007
+1C2-E-TEST-0036-391.7/009	film producer	DEP=1C2-E-TEST-0036-391.7027
+1C2-E-TEST-0036-391.7/010	former fashion model	DEP=1C2-E-TEST-0036-391.7027
+1C2-E-TEST-0036-391.7/011	â	DEP=1C2-E-TEST-0036-391.7027
+1C2-E-TEST-0036-391.7/012	rã
+1C2-E-TEST-0036-391.7/013	ë	DEP=1C2-E-TEST-0036-391.7014
+1C2-E-TEST-0036-391.7/014	liã	DEP=1C2-E-TEST-0036-391.7015
+1C2-E-TEST-0036-391.7/015	â	DEP=1C2-E-TEST-0036-391.7011
+1C2-E-TEST-0036-391.7/016	z	DEP=1C2-E-TEST-0036-391.7004
+1C2-E-TEST-0036-391.7/017	ºrã
+1C2-E-TEST-0036-391.7/018	â	DEP=1C2-E-TEST-0036-391.7019
+1C2-E-TEST-0036-391.7/019	cents	DEP=1C2-E-TEST-0036-391.7020
+1C2-E-TEST-0036-391.7/020	n	DEP=1C2-E-TEST-0036-391.7008
+1C2-E-TEST-0036-391.7/021	born	DEP=1C2-E-TEST-0036-391.7007
+1C2-E-TEST-0036-391.7/022	august	DEP=1C2-E-TEST-0036-391.7021
+1C2-E-TEST-0036-391.7/023	7	DEP=1C2-E-TEST-0036-391.7022
+1C2-E-TEST-0036-391.7/024	1975	DEP=1C2-E-TEST-0036-391.7022
+1C2-E-TEST-0036-391.7/025	south	DEP=1C2-E-TEST-0036-391.7026
+1C2-E-TEST-0036-391.7/026	african	DEP=1C2-E-TEST-0036-391.7027
+1C2-E-TEST-0036-391.7/027	actress
+1C2-E-TEST-0036-68.10	"Theron" is an Occitan surname (originally spelled ThÃÂÃÂ©ron) pronounced in Afrikaans as "Tronn", although she said that the way it is pronounced in South Africa is "Thrown".
+1C2-E-TEST-0036-68.10/001	occitan surname
+1C2-E-TEST-0036-68.10/002	thã â	DEP=1C2-E-TEST-0036-68.10009
+1C2-E-TEST-0036-68.10/003	© ron	DEP=1C2-E-TEST-0036-68.10002
+1C2-E-TEST-0036-68.10/004	afrikaans
+1C2-E-TEST-0036-68.10/005	tronn
+1C2-E-TEST-0036-68.10/006	way	DEP=1C2-E-TEST-0036-68.10012
+1C2-E-TEST-0036-68.10/007	south africa
+1C2-E-TEST-0036-68.10/008	originally	DEP=1C2-E-TEST-0036-68.10009
+1C2-E-TEST-0036-68.10/009	spelled	DEP=1C2-E-TEST-0036-68.10001
+1C2-E-TEST-0036-68.10/010	pronounced	DEP=1C2-E-TEST-0036-68.10001
+1C2-E-TEST-0036-68.10/011	pronounced	DEP=1C2-E-TEST-0036-68.10006
+1C2-E-TEST-0036-68.10/012	thrown
+1C2-E-TEST-0036-68.14	At the age of 13, Theron was sent to boarding school and began her studies at the National School of the Arts in Johannesburg.
+1C2-E-TEST-0036-68.14/001	age
+1C2-E-TEST-0036-68.14/002	13
+1C2-E-TEST-0036-68.14/003	school	DEP=1C2-E-TEST-0036-68.14008
+1C2-E-TEST-0036-68.14/004	studies	DEP=1C2-E-TEST-0036-68.14009
+1C2-E-TEST-0036-68.14/005	national school
+1C2-E-TEST-0036-68.14/006	arts
+1C2-E-TEST-0036-68.14/007	johannesburg
+1C2-E-TEST-0036-68.14/008	boarding
+1C2-E-TEST-0036-68.14/009	began
+1C2-E-TEST-0036-68.26	After eight months in the city, she was cast in her first film part, a non-speaking role in the direct-to-video film Children of the Corn III (1995).
+1C2-E-TEST-0036-68.26/001	eight months
+1C2-E-TEST-0036-68.26/002	city
+1C2-E-TEST-0036-68.26/003	film part
+1C2-E-TEST-0036-68.26/004	non-speaking role	DEP=1C2-E-TEST-0036-68.26003
+1C2-E-TEST-0036-68.26/005	direct-to-video film children
+1C2-E-TEST-0036-68.26/006	corn iii
+1C2-E-TEST-0036-68.26/007	1995	DEP=1C2-E-TEST-0036-68.26006
+1C2-E-TEST-0036-68.26/008	cast
+1C2-E-TEST-0036-68.27	Larger roles in widely released Hollywood films followed, and her career skyrocketed in the late 1990s with box office successes like The Devil's Advocate (1997), Mighty Joe Young (1998), and The Cider House Rules (1999).
+1C2-E-TEST-0036-68.27/001	larger roles	DEP=1C2-E-TEST-0036-68.27015
+1C2-E-TEST-0036-68.27/002	career	DEP=1C2-E-TEST-0036-68.27016
+1C2-E-TEST-0036-68.27/003	late 1990s
+1C2-E-TEST-0036-68.27/004	box office successes
+1C2-E-TEST-0036-68.27/005	devil	DEP=1C2-E-TEST-0036-68.27017
+1C2-E-TEST-0036-68.27/006	1997	DEP=1C2-E-TEST-0036-68.27017
+1C2-E-TEST-0036-68.27/007	mighty joe young	DEP=1C2-E-TEST-0036-68.27017
+1C2-E-TEST-0036-68.27/008	1998	DEP=1C2-E-TEST-0036-68.27007
+1C2-E-TEST-0036-68.27/009	cider house rules	DEP=1C2-E-TEST-0036-68.27017
+1C2-E-TEST-0036-68.27/010	1999	DEP=1C2-E-TEST-0036-68.27009
+1C2-E-TEST-0036-68.27/011	widely	DEP=1C2-E-TEST-0036-68.27012
+1C2-E-TEST-0036-68.27/012	released	DEP=1C2-E-TEST-0036-68.27014
+1C2-E-TEST-0036-68.27/013	hollywood	DEP=1C2-E-TEST-0036-68.27014
+1C2-E-TEST-0036-68.27/014	films
+1C2-E-TEST-0036-68.27/015	followed
+1C2-E-TEST-0036-68.27/016	skyrocketed	DEP=1C2-E-TEST-0036-68.27015
+1C2-E-TEST-0036-68.27/017	advocate
+1C2-E-TEST-0036-68.32	For this role, Theron won the Academy Award for Best Actress at the 76th Academy Awards in February 2004,[14] as well as the SAG Award and the Golden Globe Award.
+1C2-E-TEST-0036-68.32/001	role
+1C2-E-TEST-0036-68.32/002	academy award	DEP=1C2-E-TEST-0036-68.32009
+1C2-E-TEST-0036-68.32/003	best actress
+1C2-E-TEST-0036-68.32/004	76th academy awards
+1C2-E-TEST-0036-68.32/005	february 2004
+1C2-E-TEST-0036-68.32/006	14	DEP=1C2-E-TEST-0036-68.32005
+1C2-E-TEST-0036-68.32/007	sag award	DEP=1C2-E-TEST-0036-68.32004
+1C2-E-TEST-0036-68.32/008	golden globe award	DEP=1C2-E-TEST-0036-68.32007
+1C2-E-TEST-0036-68.32/009	won
+1C2-E-TEST-0036-68.34	The Oscar win pushed her to The Hollywood Reporter's 2006 list of highest-paid actresses in Hollywood; earning $10,000,000 for both her subsequent films, North Country and ÃÂÃ¢ÂÂ on Flux, she ranked seventh, behind Halle Berry, Cameron Diaz, Drew Barrymore, RenÃÂÃÂ©e Zellweger, Reese Witherspoon, and Nicole Kidman.
+1C2-E-TEST-0036-68.34/001	oscar	DEP=1C2-E-TEST-0036-68.34016
+1C2-E-TEST-0036-68.34/002	hollywood reporter	DEP=1C2-E-TEST-0036-68.34019
+1C2-E-TEST-0036-68.34/003	highest-paid actresses
+1C2-E-TEST-0036-68.34/004	hollywood
+1C2-E-TEST-0036-68.34/005	10,000,000
+1C2-E-TEST-0036-68.34/006	subsequent films
+1C2-E-TEST-0036-68.34/007	north country ã	DEP=1C2-E-TEST-0036-68.34021
+1C2-E-TEST-0036-68.34/008	flux
+1C2-E-TEST-0036-68.34/009	halle berry
+1C2-E-TEST-0036-68.34/010	cameron diaz	DEP=1C2-E-TEST-0036-68.34009
+1C2-E-TEST-0036-68.34/011	drew barrymore	DEP=1C2-E-TEST-0036-68.34009
+1C2-E-TEST-0036-68.34/012	renã â	DEP=1C2-E-TEST-0036-68.34009
+1C2-E-TEST-0036-68.34/013	©
+1C2-E-TEST-0036-68.34/014	zellweger reese witherspoon	DEP=1C2-E-TEST-0036-68.34013
+1C2-E-TEST-0036-68.34/015	nicole kidman
+1C2-E-TEST-0036-68.34/016	win
+1C2-E-TEST-0036-68.34/017	pushed	DEP=1C2-E-TEST-0036-68.34016
+1C2-E-TEST-0036-68.34/018	2006	DEP=1C2-E-TEST-0036-68.34019
+1C2-E-TEST-0036-68.34/019	list
+1C2-E-TEST-0036-68.34/020	earning	DEP=1C2-E-TEST-0036-68.34021
+1C2-E-TEST-0036-68.34/021	â	DEP=1C2-E-TEST-0036-68.34016
+1C2-E-TEST-0036-68.34/022	ranked
+1C2-E-TEST-0036-68.34/023	seventh	DEP=1C2-E-TEST-0036-68.34022
+1C2-E-TEST-0036-68.34/024	e	DEP=1C2-E-TEST-0036-68.34014
+1C2-E-TEST-0036-68.35	On September 30, 2005, Theron received her own star on the Hollywood Walk of Fame.
+1C2-E-TEST-0036-68.35/001	september 30 2005
+1C2-E-TEST-0036-68.35/002	star	DEP=1C2-E-TEST-0036-68.35005
+1C2-E-TEST-0036-68.35/003	hollywood
+1C2-E-TEST-0036-68.35/004	fame
+1C2-E-TEST-0036-68.35/005	received
+1C2-E-TEST-0036-68.35/006	walk	DEP=1C2-E-TEST-0036-68.35005
+1C2-E-TEST-0036-68.39	In 2005, Theron portrayed Rita, Michael Bluth's (Jason Bateman) love interest, on the third season of Fox's critically-acclaimed television series Arrested Development.
+1C2-E-TEST-0036-68.39/001	2005
+1C2-E-TEST-0036-68.39/002	rita
+1C2-E-TEST-0036-68.39/003	bluth	DEP=1C2-E-TEST-0036-68.39010
+1C2-E-TEST-0036-68.39/004	jason bateman	DEP=1C2-E-TEST-0036-68.39002
+1C2-E-TEST-0036-68.39/005	interest
+1C2-E-TEST-0036-68.39/006	third season
+1C2-E-TEST-0036-68.39/007	fox	DEP=1C2-E-TEST-0036-68.39013
+1C2-E-TEST-0036-68.39/008	development	DEP=1C2-E-TEST-0036-68.39014
+1C2-E-TEST-0036-68.39/009	portrayed
+1C2-E-TEST-0036-68.39/010	michael	DEP=1C2-E-TEST-0036-68.39002
+1C2-E-TEST-0036-68.39/011	critically-acclaimed	DEP=1C2-E-TEST-0036-68.39013
+1C2-E-TEST-0036-68.39/012	television	DEP=1C2-E-TEST-0036-68.39013
+1C2-E-TEST-0036-68.39/013	series
+1C2-E-TEST-0036-68.39/014	arrested	DEP=1C2-E-TEST-0036-68.39013
+1C2-E-TEST-0036-68.5	She rose to fame in the late 1990s following her roles in 2 Days in the Valley, Mighty Joe Young, The Devil's Advocate, and The Cider House Rules.
+1C2-E-TEST-0036-68.5/001	fame
+1C2-E-TEST-0036-68.5/002	late 1990s
+1C2-E-TEST-0036-68.5/003	roles	DEP=1C2-E-TEST-0036-68.5010
+1C2-E-TEST-0036-68.5/004	2 days
+1C2-E-TEST-0036-68.5/005	valley
+1C2-E-TEST-0036-68.5/006	mighty joe young	DEP=1C2-E-TEST-0036-68.5002
+1C2-E-TEST-0036-68.5/007	devil	DEP=1C2-E-TEST-0036-68.5011
+1C2-E-TEST-0036-68.5/008	cider house rules	DEP=1C2-E-TEST-0036-68.5002
+1C2-E-TEST-0036-68.5/009	rose
+1C2-E-TEST-0036-68.5/010	following	DEP=1C2-E-TEST-0036-68.5002
+1C2-E-TEST-0036-68.5/011	advocate	DEP=1C2-E-TEST-0036-68.5006
+1C2-E-TEST-0036-68.50	Theron still resides in her Los Angeles home, though her ex-boyfriend Stuart Townsend, with whom she starred in the 2004 film Head in the Clouds, as well as in the 2002 film Trapped and 2005 ÃÂÃ¢ÂÂ on Flux has moved to their co-owned property in Malibu.
+1C2-E-TEST-0036-68.50/001	los angeles home
+1C2-E-TEST-0036-68.50/002	ex-boyfriend stuart townsend	DEP=1C2-E-TEST-0036-68.50012
+1C2-E-TEST-0036-68.50/003	2004 film head
+1C2-E-TEST-0036-68.50/004	clouds
+1C2-E-TEST-0036-68.50/005	2002 film trapped
+1C2-E-TEST-0036-68.50/006	2005 ã â	DEP=1C2-E-TEST-0036-68.50002
+1C2-E-TEST-0036-68.50/007	flux
+1C2-E-TEST-0036-68.50/008	co-owned property
+1C2-E-TEST-0036-68.50/009	malibu
+1C2-E-TEST-0036-68.50/010	resides
+1C2-E-TEST-0036-68.50/011	starred	DEP=1C2-E-TEST-0036-68.50002
+1C2-E-TEST-0036-68.50/012	moved	DEP=1C2-E-TEST-0036-68.50010
+1C2-E-TEST-0036-68.56	In July 2009, Theron was diagnosed with a serious virus, thought to be contracted while traveling overseas.
+1C2-E-TEST-0036-68.56/001	july 2009
+1C2-E-TEST-0036-68.56/002	serious virus
+1C2-E-TEST-0036-68.56/003	diagnosed
+1C2-E-TEST-0036-68.56/004	thought	DEP=1C2-E-TEST-0036-68.56002
+1C2-E-TEST-0036-68.56/005	contracted	DEP=1C2-E-TEST-0036-68.56004
+1C2-E-TEST-0036-68.56/006	traveling
+1C2-E-TEST-0036-68.56/007	overseas	DEP=1C2-E-TEST-0036-68.56006
+1C2-E-TEST-0036-68.61	From October 2005 to December 2006, Theron earned $3,000,000 for the use of her image in a worldwide print media advertising campaign for Raymond Weil watches.
+1C2-E-TEST-0036-68.61/001	october 2005
+1C2-E-TEST-0036-68.61/002	december 2006
+1C2-E-TEST-0036-68.61/003	3,000,000
+1C2-E-TEST-0036-68.61/004	image
+1C2-E-TEST-0036-68.61/005	worldwide print media advertising campaign
+1C2-E-TEST-0036-68.61/006	raymond weil
+1C2-E-TEST-0036-68.61/007	earned
+1C2-E-TEST-0036-68.61/008	watches	DEP=1C2-E-TEST-0036-68.61007
+1C2-E-TEST-0036-68.62	In February 2006, she and her loan-out corporation were sued by Weil for breach of contract.
+1C2-E-TEST-0036-68.62/001	february 2006
+1C2-E-TEST-0036-68.62/002	loan-out corporation
+1C2-E-TEST-0036-68.62/003	weil
+1C2-E-TEST-0036-68.62/004	breach
+1C2-E-TEST-0036-68.62/005	contract
+1C2-E-TEST-0036-68.62/006	sued
+1C2-E-TEST-0036-68.67	She is also an active supporter of Democracy Now! and Link TV.ÃÂÃÂ  She is a supporter of same-sex marriage and attended a march in Fresno, California on 30 May 2009.
+1C2-E-TEST-0036-68.67/001	active supporter
+1C2-E-TEST-0036-68.67/002	democracy
+1C2-E-TEST-0036-68.67/003	tv	DEP=1C2-E-TEST-0036-68.67010
+1C2-E-TEST-0036-68.67/004	ã â	DEP=1C2-E-TEST-0036-68.67010
+1C2-E-TEST-0036-68.67/005	supporter	DEP=1C2-E-TEST-0036-68.67004
+1C2-E-TEST-0036-68.67/006	same-sex marriage
+1C2-E-TEST-0036-68.67/007	march	DEP=1C2-E-TEST-0036-68.67011
+1C2-E-TEST-0036-68.67/008	fresno california
+1C2-E-TEST-0036-68.67/009	30
+1C2-E-TEST-0036-68.67/010	link	DEP=1C2-E-TEST-0036-68.67001
+1C2-E-TEST-0036-68.67/011	attended	DEP=1C2-E-TEST-0036-68.67005
+1C2-E-TEST-0036-68.67/012	2009
+1C2-E-TEST-0036-68.7	She received another Academy Award nomination for her performance in North Country.
+1C2-E-TEST-0036-68.7/001	academy award nomination	DEP=1C2-E-TEST-0036-68.7004
+1C2-E-TEST-0036-68.7/002	performance
+1C2-E-TEST-0036-68.7/003	north country
+1C2-E-TEST-0036-68.7/004	received

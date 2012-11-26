@@ -1,0 +1,48 @@
+1C2-E-TEST-0140-189.26	Today, Indian Beach is a popular spot for Oregon Coast surfers.
+1C2-E-TEST-0140-189.26/001	indian beach	DEP=1C2-E-TEST-0140-189.26002
+1C2-E-TEST-0140-189.26/002	popular spot
+1C2-E-TEST-0140-189.26/003	coast surfers
+1C2-E-TEST-0140-189.26/004	today	DEP=1C2-E-TEST-0140-189.26002
+1C2-E-TEST-0140-189.8	Cannon Beach is one of the Oregon Coast's most popular destinations, offering both adventure and relaxation.
+1C2-E-TEST-0140-189.8/001	cannon beach
+1C2-E-TEST-0140-189.8/002	coast	DEP=1C2-E-TEST-0140-189.8005
+1C2-E-TEST-0140-189.8/003	adventure relaxation
+1C2-E-TEST-0140-189.8/004	popular	DEP=1C2-E-TEST-0140-189.8005
+1C2-E-TEST-0140-189.8/005	destinations
+1C2-E-TEST-0140-189.8/006	offering
+1C2-E-TEST-0140-3.2	Cannon Beach with Haystack rock in the distance from Ecola State Park.
+1C2-E-TEST-0140-3.2/001	cannon beach
+1C2-E-TEST-0140-3.2/002	haystack rock
+1C2-E-TEST-0140-3.2/003	distance
+1C2-E-TEST-0140-3.2/004	ecola state park
+1C2-E-TEST-0140-448.4	Cannon Beach, Oregon is a very popularÃÂÃÂ travel destination.
+1C2-E-TEST-0140-448.4/001	cannon beach
+1C2-E-TEST-0140-448.4/002	popularã	DEP=1C2-E-TEST-0140-448.4005
+1C2-E-TEST-0140-448.4/003	â	DEP=1C2-E-TEST-0140-448.4005
+1C2-E-TEST-0140-448.4/004	travel	DEP=1C2-E-TEST-0140-448.4005
+1C2-E-TEST-0140-448.4/005	destination
+1C2-E-TEST-0140-6.27	Ecola Point, near Ecola State Park, has a viewpoint and picnic area, where you can see the whole panorama of Cannon Beach, Haystack Rock and the Coast Range.
+1C2-E-TEST-0140-6.27/001	ecola point
+1C2-E-TEST-0140-6.27/002	ecola state park
+1C2-E-TEST-0140-6.27/003	viewpoint picnic	DEP=1C2-E-TEST-0140-6.27008
+1C2-E-TEST-0140-6.27/004	panorama
+1C2-E-TEST-0140-6.27/005	cannon beach
+1C2-E-TEST-0140-6.27/006	haystack rock	DEP=1C2-E-TEST-0140-6.27005
+1C2-E-TEST-0140-6.27/007	coast range	DEP=1C2-E-TEST-0140-6.27005
+1C2-E-TEST-0140-6.27/008	area
+1C2-E-TEST-0140-6.29	A two mile trail connects Ecola point to horseshoe shaped Indian Beach, and a six mile trail leads on to Tillamook Head.
+1C2-E-TEST-0140-6.29/001	two mile trail	DEP=1C2-E-TEST-0140-6.29007
+1C2-E-TEST-0140-6.29/002	ecola point	DEP=1C2-E-TEST-0140-6.29007
+1C2-E-TEST-0140-6.29/003	horseshoe
+1C2-E-TEST-0140-6.29/004	indian beach	DEP=1C2-E-TEST-0140-6.29008
+1C2-E-TEST-0140-6.29/005	six mile trail	DEP=1C2-E-TEST-0140-6.29009
+1C2-E-TEST-0140-6.29/006	tillamook head
+1C2-E-TEST-0140-6.29/007	connects
+1C2-E-TEST-0140-6.29/008	shaped	DEP=1C2-E-TEST-0140-6.29003
+1C2-E-TEST-0140-6.29/009	leads	DEP=1C2-E-TEST-0140-6.29007
+1C2-E-TEST-0140-7.5	Haystack Rock at Cannon Beach is in the Oregon Islands National Wildlife Refuge and is home to gulls and puffins.
+1C2-E-TEST-0140-7.5/001	haystack rock
+1C2-E-TEST-0140-7.5/002	cannon beach
+1C2-E-TEST-0140-7.5/003	islands national wildlife refuge
+1C2-E-TEST-0140-7.5/004	gulls puffins
+1C2-E-TEST-0140-7.5/005	home

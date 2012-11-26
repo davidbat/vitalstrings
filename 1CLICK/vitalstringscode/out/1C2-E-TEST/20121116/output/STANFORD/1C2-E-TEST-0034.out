@@ -1,0 +1,678 @@
+1C2-E-TEST-0034-119.107	[on winning the Best Actor Oscar] "If you grow up in the suburbs of anywhere, a dream like this seems kind of vaguely ludicrous and completely unattainable.
+1C2-E-TEST-0034-119.107/001	best actor	DEP=1C2-E-TEST-0034-119.107005
+1C2-E-TEST-0034-119.107/002	oscar	DEP=1C2-E-TEST-0034-119.107001
+1C2-E-TEST-0034-119.107/003	suburbs
+1C2-E-TEST-0034-119.107/004	dream	DEP=1C2-E-TEST-0034-119.107007
+1C2-E-TEST-0034-119.107/005	winning
+1C2-E-TEST-0034-119.107/006	vaguely
+1C2-E-TEST-0034-119.107/007	ludicrous
+1C2-E-TEST-0034-119.107/008	completely	DEP=1C2-E-TEST-0034-119.107009
+1C2-E-TEST-0034-119.107/009	unattainable	DEP=1C2-E-TEST-0034-119.107007
+1C2-E-TEST-0034-119.13	Born in New Zealand, Russell has made his home in Australia since he was a small child.
+1C2-E-TEST-0034-119.13/001	new zealand
+1C2-E-TEST-0034-119.13/002	home	DEP=1C2-E-TEST-0034-119.13006
+1C2-E-TEST-0034-119.13/003	australia
+1C2-E-TEST-0034-119.13/004	small child	DEP=1C2-E-TEST-0034-119.13006
+1C2-E-TEST-0034-119.13/005	born	DEP=1C2-E-TEST-0034-119.13006
+1C2-E-TEST-0034-119.13/006	made
+1C2-E-TEST-0034-119.141	I want to make movies that pierce people's hearts and touch them in some way, even if it's just for the night while they're in the cinema; in that moment, I want to bring actual tears to their eyes and goosebumps to their skin.
+1C2-E-TEST-0034-119.141/001	people	DEP=1C2-E-TEST-0034-119.141010
+1C2-E-TEST-0034-119.141/002	way
+1C2-E-TEST-0034-119.141/003	night
+1C2-E-TEST-0034-119.141/004	cinema
+1C2-E-TEST-0034-119.141/005	moment
+1C2-E-TEST-0034-119.141/006	actual tears	DEP=1C2-E-TEST-0034-119.141013
+1C2-E-TEST-0034-119.141/007	eyes goosebumps
+1C2-E-TEST-0034-119.141/008	skin
+1C2-E-TEST-0034-119.141/009	make
+1C2-E-TEST-0034-119.141/010	hearts
+1C2-E-TEST-0034-119.141/011	touch	DEP=1C2-E-TEST-0034-119.141009
+1C2-E-TEST-0034-119.141/012	's	DEP=1C2-E-TEST-0034-119.141011
+1C2-E-TEST-0034-119.141/013	bring
+1C2-E-TEST-0034-119.142	That's what motivates me, and it may sound strange but if you're not focused on the audience, why are you bothering to make a movie?"
+1C2-E-TEST-0034-119.142/001	audience
+1C2-E-TEST-0034-119.142/002	movie	DEP=1C2-E-TEST-0034-119.142009
+1C2-E-TEST-0034-119.142/003	's
+1C2-E-TEST-0034-119.142/004	motivates	DEP=1C2-E-TEST-0034-119.142003
+1C2-E-TEST-0034-119.142/005	sound	DEP=1C2-E-TEST-0034-119.142004
+1C2-E-TEST-0034-119.142/006	strange	DEP=1C2-E-TEST-0034-119.142005
+1C2-E-TEST-0034-119.142/007	focused	DEP=1C2-E-TEST-0034-119.142008
+1C2-E-TEST-0034-119.142/008	bothering	DEP=1C2-E-TEST-0034-119.142004
+1C2-E-TEST-0034-119.142/009	make	DEP=1C2-E-TEST-0034-119.142008
+1C2-E-TEST-0034-119.167	One thing that I don't want to do is imply that I'm trying to make out it's somebody else's fault It's not, I know it's my fault, I've got to face up to it and deal with it.
+1C2-E-TEST-0034-119.167/001	thing	DEP=1C2-E-TEST-0034-119.167008
+1C2-E-TEST-0034-119.167/002	fault
+1C2-E-TEST-0034-119.167/003	n't
+1C2-E-TEST-0034-119.167/004	imply
+1C2-E-TEST-0034-119.167/005	trying	DEP=1C2-E-TEST-0034-119.167004
+1C2-E-TEST-0034-119.167/006	make	DEP=1C2-E-TEST-0034-119.167005
+1C2-E-TEST-0034-119.167/007	's	DEP=1C2-E-TEST-0034-119.167008
+1C2-E-TEST-0034-119.167/008	fault
+1C2-E-TEST-0034-119.167/009	's	DEP=1C2-E-TEST-0034-119.167008
+1C2-E-TEST-0034-119.167/010	's	DEP=1C2-E-TEST-0034-119.167002
+1C2-E-TEST-0034-119.167/011	got	DEP=1C2-E-TEST-0034-119.167008
+1C2-E-TEST-0034-119.167/012	face	DEP=1C2-E-TEST-0034-119.167011
+1C2-E-TEST-0034-119.167/013	deal	DEP=1C2-E-TEST-0034-119.167012
+1C2-E-TEST-0034-119.22	Virtuosity, a Sci-Fi extravaganza, was a fun film and, again, opened the door to even more American offers.
+1C2-E-TEST-0034-119.22/001	virtuosity	DEP=1C2-E-TEST-0034-119.22003
+1C2-E-TEST-0034-119.22/002	sci-fi extravaganza	DEP=1C2-E-TEST-0034-119.22001
+1C2-E-TEST-0034-119.22/003	fun film
+1C2-E-TEST-0034-119.22/004	door	DEP=1C2-E-TEST-0034-119.22005
+1C2-E-TEST-0034-119.22/005	opened	DEP=1C2-E-TEST-0034-119.22003
+1C2-E-TEST-0034-119.22/006	american	DEP=1C2-E-TEST-0034-119.22007
+1C2-E-TEST-0034-119.22/007	offers
+1C2-E-TEST-0034-119.24	Missing the Oscar nod this time around he didn't seem deterred and signed to do his first film with The Walt Disney Company, Mystery, Alaska (1999).
+1C2-E-TEST-0034-119.24/001	oscar nod	DEP=1C2-E-TEST-0034-119.24007
+1C2-E-TEST-0034-119.24/002	film
+1C2-E-TEST-0034-119.24/003	walt disney company
+1C2-E-TEST-0034-119.24/004	mystery	DEP=1C2-E-TEST-0034-119.24003
+1C2-E-TEST-0034-119.24/005	alaska	DEP=1C2-E-TEST-0034-119.24007
+1C2-E-TEST-0034-119.24/006	1999	DEP=1C2-E-TEST-0034-119.24005
+1C2-E-TEST-0034-119.24/007	missing
+1C2-E-TEST-0034-119.24/008	time	DEP=1C2-E-TEST-0034-119.24007
+1C2-E-TEST-0034-119.24/009	did	DEP=1C2-E-TEST-0034-119.24011
+1C2-E-TEST-0034-119.24/010	n't	DEP=1C2-E-TEST-0034-119.24011
+1C2-E-TEST-0034-119.24/011	deterred	DEP=1C2-E-TEST-0034-119.24007
+1C2-E-TEST-0034-119.24/012	signed	DEP=1C2-E-TEST-0034-119.24011
+1C2-E-TEST-0034-119.39	Russell's rock group is named 30 Odd Foot of Grunts.
+1C2-E-TEST-0034-119.39/001	30 odd foot	DEP=1C2-E-TEST-0034-119.39005
+1C2-E-TEST-0034-119.39/002	grunts
+1C2-E-TEST-0034-119.39/003	rock	DEP=1C2-E-TEST-0034-119.39004
+1C2-E-TEST-0034-119.39/004	group	DEP=1C2-E-TEST-0034-119.39005
+1C2-E-TEST-0034-119.39/005	named
+1C2-E-TEST-0034-119.40	They played their first US concert following Russell's success in Gladiator (2000) in Austin, Texas in August 2000.
+1C2-E-TEST-0034-119.40/001	concert	DEP=1C2-E-TEST-0034-119.40007
+1C2-E-TEST-0034-119.40/002	gladiator
+1C2-E-TEST-0034-119.40/003	2000	DEP=1C2-E-TEST-0034-119.40002
+1C2-E-TEST-0034-119.40/004	austin
+1C2-E-TEST-0034-119.40/005	texas	DEP=1C2-E-TEST-0034-119.40007
+1C2-E-TEST-0034-119.40/006	august 2000
+1C2-E-TEST-0034-119.40/007	played
+1C2-E-TEST-0034-119.40/008	following	DEP=1C2-E-TEST-0034-119.40007
+1C2-E-TEST-0034-119.40/009	success	DEP=1C2-E-TEST-0034-119.40008
+1C2-E-TEST-0034-137.9	He first co-starred with Denzel Washington in Virtuosity in 1995.
+1C2-E-TEST-0034-137.9/001	denzel washington
+1C2-E-TEST-0034-137.9/002	virtuosity
+1C2-E-TEST-0034-137.9/003	1995
+1C2-E-TEST-0034-137.9/004	co-starred
+1C2-E-TEST-0034-14.20	That same year, Crowe - who had been a musician since he was a teenager - formed the rock band 30 Odd Foot of Grunts with his old mates from Australia.
+1C2-E-TEST-0034-14.20/001	musician
+1C2-E-TEST-0034-14.20/002	teenager	DEP=1C2-E-TEST-0034-14.20001
+1C2-E-TEST-0034-14.20/003	grunts
+1C2-E-TEST-0034-14.20/004	old mates
+1C2-E-TEST-0034-14.20/005	australia
+1C2-E-TEST-0034-14.20/006	formed
+1C2-E-TEST-0034-14.20/007	rock	DEP=1C2-E-TEST-0034-14.20008
+1C2-E-TEST-0034-14.20/008	band	DEP=1C2-E-TEST-0034-14.20011
+1C2-E-TEST-0034-14.20/009	30	DEP=1C2-E-TEST-0034-14.20011
+1C2-E-TEST-0034-14.20/010	odd	DEP=1C2-E-TEST-0034-14.20011
+1C2-E-TEST-0034-14.20/011	foot	DEP=1C2-E-TEST-0034-14.20006
+1C2-E-TEST-0034-14.39	His beautifully realized, nuanced performance ranked as one of his best to date and earned the actor his third consecutive Best Actor Academy Award nomination, as well as a Golden Globe Award for Best Performance by an Actor in a Motion Picture - Drama.
+1C2-E-TEST-0034-14.39/001	nuanced performance	DEP=1C2-E-TEST-0034-14.39014
+1C2-E-TEST-0034-14.39/002	best
+1C2-E-TEST-0034-14.39/003	date
+1C2-E-TEST-0034-14.39/004	actor	DEP=1C2-E-TEST-0034-14.39015
+1C2-E-TEST-0034-14.39/005	third consecutive best actor academy award nomination	DEP=1C2-E-TEST-0034-14.39004
+1C2-E-TEST-0034-14.39/006	golden globe award	DEP=1C2-E-TEST-0034-14.39004
+1C2-E-TEST-0034-14.39/007	best
+1C2-E-TEST-0034-14.39/008	performance	DEP=1C2-E-TEST-0034-14.39007
+1C2-E-TEST-0034-14.39/009	actor
+1C2-E-TEST-0034-14.39/010	motion picture
+1C2-E-TEST-0034-14.39/011	drama	DEP=1C2-E-TEST-0034-14.39009
+1C2-E-TEST-0034-14.39/012	beautifully	DEP=1C2-E-TEST-0034-14.39013
+1C2-E-TEST-0034-14.39/013	realized	DEP=1C2-E-TEST-0034-14.39014
+1C2-E-TEST-0034-14.39/014	ranked
+1C2-E-TEST-0034-14.39/015	earned	DEP=1C2-E-TEST-0034-14.39014
+1C2-E-TEST-0034-14.41	During Crowe's acceptance of a BAFTA for Best Actor for "A Beautiful Mind," the BAFTA show's producer cut him off mid-speech and mid-poem, causing a fracas backstage when Crowe reportedly pinned the producer against the wall, threatening him and hurling obscenities.
+1C2-E-TEST-0034-14.41/001	bafta
+1C2-E-TEST-0034-14.41/002	best actor
+1C2-E-TEST-0034-14.41/003	beautiful mind
+1C2-E-TEST-0034-14.41/004	bafta show	DEP=1C2-E-TEST-0034-14.41011
+1C2-E-TEST-0034-14.41/005	mid-speech mid-poem	DEP=1C2-E-TEST-0034-14.41012
+1C2-E-TEST-0034-14.41/006	fracas	DEP=1C2-E-TEST-0034-14.41014
+1C2-E-TEST-0034-14.41/007	producer	DEP=1C2-E-TEST-0034-14.41016
+1C2-E-TEST-0034-14.41/008	wall
+1C2-E-TEST-0034-14.41/009	obscenities	DEP=1C2-E-TEST-0034-14.41018
+1C2-E-TEST-0034-14.41/010	acceptance
+1C2-E-TEST-0034-14.41/011	producer	DEP=1C2-E-TEST-0034-14.41003
+1C2-E-TEST-0034-14.41/012	cut
+1C2-E-TEST-0034-14.41/013	causing	DEP=1C2-E-TEST-0034-14.41012
+1C2-E-TEST-0034-14.41/014	backstage	DEP=1C2-E-TEST-0034-14.41013
+1C2-E-TEST-0034-14.41/015	reportedly	DEP=1C2-E-TEST-0034-14.41016
+1C2-E-TEST-0034-14.41/016	pinned	DEP=1C2-E-TEST-0034-14.41013
+1C2-E-TEST-0034-14.41/017	threatening	DEP=1C2-E-TEST-0034-14.41013
+1C2-E-TEST-0034-14.41/018	hurling	DEP=1C2-E-TEST-0034-14.41013
+1C2-E-TEST-0034-171.36	He first co-starred with Denzel Washington in Virtuosity , and with Sharon Stone in The Quick and the Dead in 1995.
+1C2-E-TEST-0034-171.36/001	denzel washington
+1C2-E-TEST-0034-171.36/002	virtuosity
+1C2-E-TEST-0034-171.36/003	sharon stone
+1C2-E-TEST-0034-171.36/004	quick
+1C2-E-TEST-0034-171.36/005	dead	DEP=1C2-E-TEST-0034-171.36003
+1C2-E-TEST-0034-171.36/006	1995
+1C2-E-TEST-0034-171.36/007	co-starred
+1C2-E-TEST-0034-171.37	He went on to become a three-time Oscar nominee, winning the Academy Award as Best Actor in 2001 for Gladiator .
+1C2-E-TEST-0034-171.37/001	three-time oscar nominee	DEP=1C2-E-TEST-0034-171.37006
+1C2-E-TEST-0034-171.37/002	academy award	DEP=1C2-E-TEST-0034-171.37007
+1C2-E-TEST-0034-171.37/003	best actor
+1C2-E-TEST-0034-171.37/004	2001
+1C2-E-TEST-0034-171.37/005	gladiator
+1C2-E-TEST-0034-171.37/006	went
+1C2-E-TEST-0034-171.37/007	winning	DEP=1C2-E-TEST-0034-171.37006
+1C2-E-TEST-0034-171.45	All three films were also nominated for best picture, and both Gladiator and A Beautiful Mind won the award.
+1C2-E-TEST-0034-171.45/001	three films	DEP=1C2-E-TEST-0034-171.45006
+1C2-E-TEST-0034-171.45/002	best picture
+1C2-E-TEST-0034-171.45/003	gladiator	DEP=1C2-E-TEST-0034-171.45007
+1C2-E-TEST-0034-171.45/004	beautiful mind	DEP=1C2-E-TEST-0034-171.45003
+1C2-E-TEST-0034-171.45/005	award	DEP=1C2-E-TEST-0034-171.45007
+1C2-E-TEST-0034-171.45/006	nominated
+1C2-E-TEST-0034-171.45/007	won	DEP=1C2-E-TEST-0034-171.45006
+1C2-E-TEST-0034-215.10	Crowe's maternal grandfather, Stan Wemyss, was a cinematographer who, according to Crowe, produced the first film by New Zealander Geoff Murphy, and was also named an MBE for filming footage of World War II.
+1C2-E-TEST-0034-215.10/001	stan wemyss	DEP=1C2-E-TEST-0034-215.10009
+1C2-E-TEST-0034-215.10/002	cinematographer
+1C2-E-TEST-0034-215.10/003	film	DEP=1C2-E-TEST-0034-215.10010
+1C2-E-TEST-0034-215.10/004	new zealander geoff murphy
+1C2-E-TEST-0034-215.10/005	mbe	DEP=1C2-E-TEST-0034-215.10011
+1C2-E-TEST-0034-215.10/006	footage	DEP=1C2-E-TEST-0034-215.10012
+1C2-E-TEST-0034-215.10/007	world war ii
+1C2-E-TEST-0034-215.10/008	maternal	DEP=1C2-E-TEST-0034-215.10009
+1C2-E-TEST-0034-215.10/009	grandfather	DEP=1C2-E-TEST-0034-215.10002
+1C2-E-TEST-0034-215.10/010	produced	DEP=1C2-E-TEST-0034-215.10002
+1C2-E-TEST-0034-215.10/011	named	DEP=1C2-E-TEST-0034-215.10010
+1C2-E-TEST-0034-215.10/012	filming
+1C2-E-TEST-0034-215.11	Crowe's maternal great-great grandmother was MÃÂÃÂori, and as a result Crowe is registered on the MÃÂÃÂori electoral roll in New Zealand; Crowe also has Welsh, Scottish, Norwegian, English and Irish ancestry.Two of Russell Crowe's cousins, Martin and Jeff Crowe are former New Zealand national cricket captains.
+1C2-E-TEST-0034-215.11/001	mã â ori
+1C2-E-TEST-0034-215.11/002	result
+1C2-E-TEST-0034-215.11/003	mã â ori
+1C2-E-TEST-0034-215.11/004	electoral roll	DEP=1C2-E-TEST-0034-215.11014
+1C2-E-TEST-0034-215.11/005	new zealand
+1C2-E-TEST-0034-215.11/006	welsh scottish norwegian english irish
+1C2-E-TEST-0034-215.11/007	ancestry	DEP=1C2-E-TEST-0034-215.11006
+1C2-E-TEST-0034-215.11/008	two
+1C2-E-TEST-0034-215.11/009	martin jeff
+1C2-E-TEST-0034-215.11/010	former new zealand national cricket captains	DEP=1C2-E-TEST-0034-215.11001
+1C2-E-TEST-0034-215.11/011	maternal	DEP=1C2-E-TEST-0034-215.11013
+1C2-E-TEST-0034-215.11/012	great-great	DEP=1C2-E-TEST-0034-215.11013
+1C2-E-TEST-0034-215.11/013	grandmother	DEP=1C2-E-TEST-0034-215.11001
+1C2-E-TEST-0034-215.11/014	registered	DEP=1C2-E-TEST-0034-215.11010
+1C2-E-TEST-0034-215.11/015	cousins
+1C2-E-TEST-0034-215.13	The producer of the Australian TV series Spyforce was his mother's godfather, and Crowe at age five or six was hired for a line of dialogue in one episode, opposite series star Jack Thompson, who years later played Crowe's father in The Sum of Us and who coincidentally had been educated at the same school which Crowe was to attend for two years: Sydney Boys High School.
+1C2-E-TEST-0034-215.13/001	producer	DEP=1C2-E-TEST-0034-215.13015
+1C2-E-TEST-0034-215.13/002	australian tv series spyforce
+1C2-E-TEST-0034-215.13/003	mother	DEP=1C2-E-TEST-0034-215.13015
+1C2-E-TEST-0034-215.13/004	age five
+1C2-E-TEST-0034-215.13/005	six	DEP=1C2-E-TEST-0034-215.13004
+1C2-E-TEST-0034-215.13/006	line
+1C2-E-TEST-0034-215.13/007	dialogue
+1C2-E-TEST-0034-215.13/008	episode
+1C2-E-TEST-0034-215.13/009	opposite series star jack thompson	DEP=1C2-E-TEST-0034-215.13008
+1C2-E-TEST-0034-215.13/010	years	DEP=1C2-E-TEST-0034-215.13018
+1C2-E-TEST-0034-215.13/011	sum
+1C2-E-TEST-0034-215.13/012	school
+1C2-E-TEST-0034-215.13/013	two years
+1C2-E-TEST-0034-215.13/014	sydney boys high school	DEP=1C2-E-TEST-0034-215.13012
+1C2-E-TEST-0034-215.13/015	godfather
+1C2-E-TEST-0034-215.13/016	hired	DEP=1C2-E-TEST-0034-215.13015
+1C2-E-TEST-0034-215.13/017	later	DEP=1C2-E-TEST-0034-215.13018
+1C2-E-TEST-0034-215.13/018	played	DEP=1C2-E-TEST-0034-215.13016
+1C2-E-TEST-0034-215.13/019	father	DEP=1C2-E-TEST-0034-215.13018
+1C2-E-TEST-0034-215.13/020	coincidentally	DEP=1C2-E-TEST-0034-215.13021
+1C2-E-TEST-0034-215.13/021	educated	DEP=1C2-E-TEST-0034-215.13018
+1C2-E-TEST-0034-215.13/022	attend
+1C2-E-TEST-0034-215.2	ÃÂÃÂ Russell Ira Crowe (born 7 April 1964) is an Academy Award-, BAFTA-, Golden Globe-, and Screen Actors Guild Award- winning New Zealand and Australian actor.
+1C2-E-TEST-0034-215.2/001	ã â
+1C2-E-TEST-0034-215.2/002	ira
+1C2-E-TEST-0034-215.2/003	7	DEP=1C2-E-TEST-0034-215.2012
+1C2-E-TEST-0034-215.2/004	academy award	DEP=1C2-E-TEST-0034-215.2001
+1C2-E-TEST-0034-215.2/005	bafta	DEP=1C2-E-TEST-0034-215.2004
+1C2-E-TEST-0034-215.2/006	golden globe	DEP=1C2-E-TEST-0034-215.2005
+1C2-E-TEST-0034-215.2/007	screen actors	DEP=1C2-E-TEST-0034-215.2008
+1C2-E-TEST-0034-215.2/008	guild	DEP=1C2-E-TEST-0034-215.2004
+1C2-E-TEST-0034-215.2/009	award	DEP=1C2-E-TEST-0034-215.2001
+1C2-E-TEST-0034-215.2/010	new zealand	DEP=1C2-E-TEST-0034-215.2015
+1C2-E-TEST-0034-215.2/011	australian actor	DEP=1C2-E-TEST-0034-215.2010
+1C2-E-TEST-0034-215.2/012	born
+1C2-E-TEST-0034-215.2/013	april	DEP=1C2-E-TEST-0034-215.2012
+1C2-E-TEST-0034-215.2/014	1964	DEP=1C2-E-TEST-0034-215.2013
+1C2-E-TEST-0034-215.2/015	winning	DEP=1C2-E-TEST-0034-215.2009
+1C2-E-TEST-0034-215.20	In 1986 he was given his first professional role by director Daniel Abineri in a production of The Rocky Horror Show.
+1C2-E-TEST-0034-215.20/001	1986
+1C2-E-TEST-0034-215.20/002	professional role	DEP=1C2-E-TEST-0034-215.20007
+1C2-E-TEST-0034-215.20/003	director
+1C2-E-TEST-0034-215.20/004	daniel abineri	DEP=1C2-E-TEST-0034-215.20007
+1C2-E-TEST-0034-215.20/005	production
+1C2-E-TEST-0034-215.20/006	rocky horror show
+1C2-E-TEST-0034-215.20/007	given
+1C2-E-TEST-0034-215.22	In the 1988 Australian production of Blood Brothers, Crowe played the role of Mickey.He was also cast again by Daniel Abineri in the role of Johnny in the stage musical of Bad Boy Johnny and the Prophets of Doom in 1989.
+1C2-E-TEST-0034-215.22/001	1988 australian production
+1C2-E-TEST-0034-215.22/002	blood brothers
+1C2-E-TEST-0034-215.22/003	role	DEP=1C2-E-TEST-0034-215.22013
+1C2-E-TEST-0034-215.22/004	mickey
+1C2-E-TEST-0034-215.22/005	daniel abineri
+1C2-E-TEST-0034-215.22/006	role
+1C2-E-TEST-0034-215.22/007	johnny
+1C2-E-TEST-0034-215.22/008	stage musical
+1C2-E-TEST-0034-215.22/009	bad boy johnny
+1C2-E-TEST-0034-215.22/010	prophets	DEP=1C2-E-TEST-0034-215.22008
+1C2-E-TEST-0034-215.22/011	doom
+1C2-E-TEST-0034-215.22/012	1989
+1C2-E-TEST-0034-215.22/013	played
+1C2-E-TEST-0034-215.22/014	cast	DEP=1C2-E-TEST-0034-215.22004
+1C2-E-TEST-0034-215.28	After appearing in the TV series Neighbours and Living with the Law, Crowe was cast in his first film, The Crossing (1990), a small-town love triangle directed by George Ogilvie.
+1C2-E-TEST-0034-215.28/001	tv series neighbours
+1C2-E-TEST-0034-215.28/002	law
+1C2-E-TEST-0034-215.28/003	film
+1C2-E-TEST-0034-215.28/004	crossing	DEP=1C2-E-TEST-0034-215.28003
+1C2-E-TEST-0034-215.28/005	1990	DEP=1C2-E-TEST-0034-215.28004
+1C2-E-TEST-0034-215.28/006	small-town love triangle	DEP=1C2-E-TEST-0034-215.28004
+1C2-E-TEST-0034-215.28/007	george ogilvie
+1C2-E-TEST-0034-215.28/008	appearing
+1C2-E-TEST-0034-215.28/009	living	DEP=1C2-E-TEST-0034-215.28008
+1C2-E-TEST-0034-215.28/010	cast
+1C2-E-TEST-0034-215.28/011	directed	DEP=1C2-E-TEST-0034-215.28006
+1C2-E-TEST-0034-215.30	In 1992, Crowe starred in the first episode of the second series of Police Rescue.
+1C2-E-TEST-0034-215.30/001	1992
+1C2-E-TEST-0034-215.30/002	episode
+1C2-E-TEST-0034-215.30/003	second series
+1C2-E-TEST-0034-215.30/004	police rescue
+1C2-E-TEST-0034-215.30/005	starred
+1C2-E-TEST-0034-215.31	Also in 1992 Crowe starred in Romper Stomper, an Australian film which follows the exploits and downfall of a racist skinhead group in blue-collar suburban Melbourne, directed by Geoffrey Wright.
+1C2-E-TEST-0034-215.31/001	1992
+1C2-E-TEST-0034-215.31/002	romper stomper
+1C2-E-TEST-0034-215.31/003	australian film	DEP=1C2-E-TEST-0034-215.31002
+1C2-E-TEST-0034-215.31/004	exploits downfall	DEP=1C2-E-TEST-0034-215.31009
+1C2-E-TEST-0034-215.31/005	racist skinhead group
+1C2-E-TEST-0034-215.31/006	blue-collar suburban melbourne
+1C2-E-TEST-0034-215.31/007	geoffrey wright
+1C2-E-TEST-0034-215.31/008	starred
+1C2-E-TEST-0034-215.31/009	follows	DEP=1C2-E-TEST-0034-215.31003
+1C2-E-TEST-0034-215.31/010	directed	DEP=1C2-E-TEST-0034-215.31005
+1C2-E-TEST-0034-215.33	He went on to become a three-time Oscar nominee, winning the Academy Award as Best Actor in 2001 for Gladiator.
+1C2-E-TEST-0034-215.33/001	three-time oscar nominee	DEP=1C2-E-TEST-0034-215.33006
+1C2-E-TEST-0034-215.33/002	academy award	DEP=1C2-E-TEST-0034-215.33007
+1C2-E-TEST-0034-215.33/003	best actor
+1C2-E-TEST-0034-215.33/004	2001
+1C2-E-TEST-0034-215.33/005	gladiator
+1C2-E-TEST-0034-215.33/006	went
+1C2-E-TEST-0034-215.33/007	winning	DEP=1C2-E-TEST-0034-215.33006
+1C2-E-TEST-0034-215.34	Crowe wore his grandfather Stan Wemyss's Member of the Order of the British Empire medal to the ceremony.
+1C2-E-TEST-0034-215.34/001	grandfather	DEP=1C2-E-TEST-0034-215.34007
+1C2-E-TEST-0034-215.34/002	stan wemyss	DEP=1C2-E-TEST-0034-215.34007
+1C2-E-TEST-0034-215.34/003	order
+1C2-E-TEST-0034-215.34/004	british empire medal
+1C2-E-TEST-0034-215.34/005	ceremony
+1C2-E-TEST-0034-215.34/006	wore
+1C2-E-TEST-0034-215.34/007	member	DEP=1C2-E-TEST-0034-215.34006
+1C2-E-TEST-0034-215.35	Crowe received three consecutive best actor Oscar nominations for The Insider, Gladiator and A Beautiful Mind.
+1C2-E-TEST-0034-215.35/001	insider
+1C2-E-TEST-0034-215.35/002	gladiator	DEP=1C2-E-TEST-0034-215.35001
+1C2-E-TEST-0034-215.35/003	beautiful mind	DEP=1C2-E-TEST-0034-215.35001
+1C2-E-TEST-0034-215.35/004	received
+1C2-E-TEST-0034-215.35/005	three	DEP=1C2-E-TEST-0034-215.35010
+1C2-E-TEST-0034-215.35/006	consecutive	DEP=1C2-E-TEST-0034-215.35010
+1C2-E-TEST-0034-215.35/007	best	DEP=1C2-E-TEST-0034-215.35008
+1C2-E-TEST-0034-215.35/008	actor	DEP=1C2-E-TEST-0034-215.35010
+1C2-E-TEST-0034-215.35/009	oscar	DEP=1C2-E-TEST-0034-215.35010
+1C2-E-TEST-0034-215.35/010	nominations	DEP=1C2-E-TEST-0034-215.35004
+1C2-E-TEST-0034-215.49	Crowe recalled that "it was something to do with some recording picked up by a French policewoman, I think, in either Libya or Algiers...it was about taking iconographic Americans out of the picture as a sort of cultural-destabilization plan".
+1C2-E-TEST-0034-215.49/001	recording	DEP=1C2-E-TEST-0034-215.49010
+1C2-E-TEST-0034-215.49/002	french policewoman
+1C2-E-TEST-0034-215.49/003	libya
+1C2-E-TEST-0034-215.49/004	algiers	DEP=1C2-E-TEST-0034-215.49003
+1C2-E-TEST-0034-215.49/005	iconographic americans	DEP=1C2-E-TEST-0034-215.49011
+1C2-E-TEST-0034-215.49/006	picture
+1C2-E-TEST-0034-215.49/007	sort
+1C2-E-TEST-0034-215.49/008	cultural-destabilization plan
+1C2-E-TEST-0034-215.49/009	recalled
+1C2-E-TEST-0034-215.49/010	picked
+1C2-E-TEST-0034-215.49/011	taking
+1C2-E-TEST-0034-215.5	In the 2000s, he has been nominated for three Oscars, and in 2000, he won the Academy Award for Best Actor for his starring role in the film Gladiator.
+1C2-E-TEST-0034-215.5/001	2000s
+1C2-E-TEST-0034-215.5/002	three oscars
+1C2-E-TEST-0034-215.5/003	2000
+1C2-E-TEST-0034-215.5/004	academy award	DEP=1C2-E-TEST-0034-215.5009
+1C2-E-TEST-0034-215.5/005	best actor
+1C2-E-TEST-0034-215.5/006	starring role
+1C2-E-TEST-0034-215.5/007	film gladiator
+1C2-E-TEST-0034-215.5/008	nominated
+1C2-E-TEST-0034-215.5/009	won	DEP=1C2-E-TEST-0034-215.5008
+1C2-E-TEST-0034-263.132	The irony being that he is a New Zealand born Australian, who has often made clear his dislike of being in Hollywood.
+1C2-E-TEST-0034-263.132/001	irony
+1C2-E-TEST-0034-263.132/002	new zealand
+1C2-E-TEST-0034-263.132/003	dislike	DEP=1C2-E-TEST-0034-263.132008
+1C2-E-TEST-0034-263.132/004	hollywood
+1C2-E-TEST-0034-263.132/005	born	DEP=1C2-E-TEST-0034-263.132002
+1C2-E-TEST-0034-263.132/006	australian	DEP=1C2-E-TEST-0034-263.132005
+1C2-E-TEST-0034-263.132/007	made	DEP=1C2-E-TEST-0034-263.132002
+1C2-E-TEST-0034-263.132/008	clear	DEP=1C2-E-TEST-0034-263.132007
+1C2-E-TEST-0034-277.41	After initial success in Australia, Crowe began acting in American films. He first co-starred with Denzel Washington in Virtuosity in 1995.
+1C2-E-TEST-0034-277.41/001	initial success	DEP=1C2-E-TEST-0034-277.41007
+1C2-E-TEST-0034-277.41/002	australia
+1C2-E-TEST-0034-277.41/003	american films
+1C2-E-TEST-0034-277.41/004	denzel washington
+1C2-E-TEST-0034-277.41/005	virtuosity
+1C2-E-TEST-0034-277.41/006	1995
+1C2-E-TEST-0034-277.41/007	began	DEP=1C2-E-TEST-0034-277.41009
+1C2-E-TEST-0034-277.41/008	acting	DEP=1C2-E-TEST-0034-277.41007
+1C2-E-TEST-0034-277.41/009	co-starred
+1C2-E-TEST-0034-277.54	All three films were also nominated for best picture, and both Gladiator and A Beautiful Mind won the award. Within the six year stretch from 1997-2003, he also starred in two other best picture nominees, L.A. Confidential and Master and Commander: The Far Side of the World , though he was nominated for neither.
+1C2-E-TEST-0034-277.54/001	three films	DEP=1C2-E-TEST-0034-277.54012
+1C2-E-TEST-0034-277.54/002	best picture
+1C2-E-TEST-0034-277.54/003	gladiator	DEP=1C2-E-TEST-0034-277.54013
+1C2-E-TEST-0034-277.54/004	beautiful mind	DEP=1C2-E-TEST-0034-277.54003
+1C2-E-TEST-0034-277.54/005	award	DEP=1C2-E-TEST-0034-277.54014
+1C2-E-TEST-0034-277.54/006	six stretch
+1C2-E-TEST-0034-277.54/007	1997-2003
+1C2-E-TEST-0034-277.54/008	l.a. confidential	DEP=1C2-E-TEST-0034-277.54018
+1C2-E-TEST-0034-277.54/009	master commander	DEP=1C2-E-TEST-0034-277.54008
+1C2-E-TEST-0034-277.54/010	side	DEP=1C2-E-TEST-0034-277.54018
+1C2-E-TEST-0034-277.54/011	world
+1C2-E-TEST-0034-277.54/012	nominated
+1C2-E-TEST-0034-277.54/013	won	DEP=1C2-E-TEST-0034-277.54012
+1C2-E-TEST-0034-277.54/014	starred	DEP=1C2-E-TEST-0034-277.54013
+1C2-E-TEST-0034-277.54/015	two	DEP=1C2-E-TEST-0034-277.54018
+1C2-E-TEST-0034-277.54/016	best	DEP=1C2-E-TEST-0034-277.54017
+1C2-E-TEST-0034-277.54/017	picture	DEP=1C2-E-TEST-0034-277.54018
+1C2-E-TEST-0034-277.54/018	nominees
+1C2-E-TEST-0034-277.54/019	nominated	DEP=1C2-E-TEST-0034-277.54018
+1C2-E-TEST-0034-309.12	Quotes: "One of the most painful things of the LA Confidential character I played was that the author, James Ellroy, kept telling me that Bud White wasn't a drinker.
+1C2-E-TEST-0034-309.12/001	quotes
+1C2-E-TEST-0034-309.12/002	la confidential character
+1C2-E-TEST-0034-309.12/003	author	DEP=1C2-E-TEST-0034-309.12010
+1C2-E-TEST-0034-309.12/004	james ellroy	DEP=1C2-E-TEST-0034-309.12003
+1C2-E-TEST-0034-309.12/005	bud white	DEP=1C2-E-TEST-0034-309.12006
+1C2-E-TEST-0034-309.12/006	drinker	DEP=1C2-E-TEST-0034-309.12011
+1C2-E-TEST-0034-309.12/007	painful	DEP=1C2-E-TEST-0034-309.12008
+1C2-E-TEST-0034-309.12/008	things
+1C2-E-TEST-0034-309.12/009	played	DEP=1C2-E-TEST-0034-309.12008
+1C2-E-TEST-0034-309.12/010	kept
+1C2-E-TEST-0034-309.12/011	telling	DEP=1C2-E-TEST-0034-309.12010
+1C2-E-TEST-0034-309.12/012	n't	DEP=1C2-E-TEST-0034-309.12006
+1C2-E-TEST-0034-309.19	"If you grow up in the suburbs of anywhere, a dream like this seems kind of vaguely ludicrous and completely unattainable.
+1C2-E-TEST-0034-309.19/001	suburbs
+1C2-E-TEST-0034-309.19/002	dream	DEP=1C2-E-TEST-0034-309.19004
+1C2-E-TEST-0034-309.19/003	vaguely
+1C2-E-TEST-0034-309.19/004	ludicrous
+1C2-E-TEST-0034-309.19/005	completely	DEP=1C2-E-TEST-0034-309.19006
+1C2-E-TEST-0034-309.19/006	unattainable	DEP=1C2-E-TEST-0034-309.19004
+1C2-E-TEST-0034-309.27	It's cobbled together." - Russell Crowe expressing surprise that a low-budget documentary of his band, 30 Odd Foot of Grunts, has been picked up for worldwide distribution.
+1C2-E-TEST-0034-309.27/001	surprise	DEP=1C2-E-TEST-0034-309.27009
+1C2-E-TEST-0034-309.27/002	low-budget documentary	DEP=1C2-E-TEST-0034-309.27010
+1C2-E-TEST-0034-309.27/003	band
+1C2-E-TEST-0034-309.27/004	30 odd foot	DEP=1C2-E-TEST-0034-309.27002
+1C2-E-TEST-0034-309.27/005	grunts
+1C2-E-TEST-0034-309.27/006	worldwide distribution
+1C2-E-TEST-0034-309.27/007	's	DEP=1C2-E-TEST-0034-309.27008
+1C2-E-TEST-0034-309.27/008	cobbled
+1C2-E-TEST-0034-309.27/009	expressing	DEP=1C2-E-TEST-0034-309.27008
+1C2-E-TEST-0034-309.27/010	picked	DEP=1C2-E-TEST-0034-309.27009
+1C2-E-TEST-0034-399.109	After The Insider (1999), I know the exact chemical compounds in a commercial cigarette, but I`ve been smoking since I was 10.
+1C2-E-TEST-0034-399.109/001	insider
+1C2-E-TEST-0034-399.109/002	1999	DEP=1C2-E-TEST-0034-399.109001
+1C2-E-TEST-0034-399.109/003	exact chemical compounds
+1C2-E-TEST-0034-399.109/004	commercial cigarette
+1C2-E-TEST-0034-399.109/005	ve	DEP=1C2-E-TEST-0034-399.109006
+1C2-E-TEST-0034-399.109/006	10
+1C2-E-TEST-0034-399.109/007	smoking	DEP=1C2-E-TEST-0034-399.109005
+1C2-E-TEST-0034-399.136	I want to make movies that pierce people`s hearts and touch them in some way, even if it`s just for the night while they`re in the cinema; in that moment, I want to bring actual tears to their eyes and goosebumps to their skin.
+1C2-E-TEST-0034-399.136/001	people	DEP=1C2-E-TEST-0034-399.136002
+1C2-E-TEST-0034-399.136/002	s hearts
+1C2-E-TEST-0034-399.136/003	way
+1C2-E-TEST-0034-399.136/004	s	DEP=1C2-E-TEST-0034-399.136011
+1C2-E-TEST-0034-399.136/005	night
+1C2-E-TEST-0034-399.136/006	cinema
+1C2-E-TEST-0034-399.136/007	moment
+1C2-E-TEST-0034-399.136/008	actual tears	DEP=1C2-E-TEST-0034-399.136014
+1C2-E-TEST-0034-399.136/009	eyes goosebumps
+1C2-E-TEST-0034-399.136/010	skin
+1C2-E-TEST-0034-399.136/011	make
+1C2-E-TEST-0034-399.136/012	touch	DEP=1C2-E-TEST-0034-399.136011
+1C2-E-TEST-0034-399.136/013	re	DEP=1C2-E-TEST-0034-399.136011
+1C2-E-TEST-0034-399.136/014	bring
+1C2-E-TEST-0034-399.17	It`s cobbled together." -- expressing surprise that a low-budget documentary of his band, 30 Odd Foot of Grunts, has been picked up for worldwide distribution.
+1C2-E-TEST-0034-399.17/001	s
+1C2-E-TEST-0034-399.17/002	surprise	DEP=1C2-E-TEST-0034-399.17009
+1C2-E-TEST-0034-399.17/003	low-budget documentary	DEP=1C2-E-TEST-0034-399.17010
+1C2-E-TEST-0034-399.17/004	band
+1C2-E-TEST-0034-399.17/005	30 odd foot	DEP=1C2-E-TEST-0034-399.17003
+1C2-E-TEST-0034-399.17/006	grunts
+1C2-E-TEST-0034-399.17/007	worldwide distribution
+1C2-E-TEST-0034-399.17/008	cobbled
+1C2-E-TEST-0034-399.17/009	expressing	DEP=1C2-E-TEST-0034-399.17008
+1C2-E-TEST-0034-399.17/010	picked	DEP=1C2-E-TEST-0034-399.17008
+1C2-E-TEST-0034-399.3	"One of the most painful things of the L.A. Confidential (1997) character I played was that the author, James Ellroy, kept telling me that Bud White wasn`t a drinker.
+1C2-E-TEST-0034-399.3/001	l.a. confidential	DEP=1C2-E-TEST-0034-399.3010
+1C2-E-TEST-0034-399.3/002	1997	DEP=1C2-E-TEST-0034-399.3001
+1C2-E-TEST-0034-399.3/003	author	DEP=1C2-E-TEST-0034-399.3012
+1C2-E-TEST-0034-399.3/004	james ellroy	DEP=1C2-E-TEST-0034-399.3003
+1C2-E-TEST-0034-399.3/005	bud white wasn
+1C2-E-TEST-0034-399.3/006	t	DEP=1C2-E-TEST-0034-399.3005
+1C2-E-TEST-0034-399.3/007	drinker	DEP=1C2-E-TEST-0034-399.3006
+1C2-E-TEST-0034-399.3/008	painful	DEP=1C2-E-TEST-0034-399.3009
+1C2-E-TEST-0034-399.3/009	things
+1C2-E-TEST-0034-399.3/010	character
+1C2-E-TEST-0034-399.3/011	played	DEP=1C2-E-TEST-0034-399.3010
+1C2-E-TEST-0034-399.3/012	kept
+1C2-E-TEST-0034-399.3/013	telling	DEP=1C2-E-TEST-0034-399.3012
+1C2-E-TEST-0034-427.32	He went on to become a three-time Oscar nominee, winning the Academy Award as Best Actor in 2001 for Gladiator.
+1C2-E-TEST-0034-427.32/001	three-time oscar nominee	DEP=1C2-E-TEST-0034-427.32006
+1C2-E-TEST-0034-427.32/002	academy award	DEP=1C2-E-TEST-0034-427.32007
+1C2-E-TEST-0034-427.32/003	best actor
+1C2-E-TEST-0034-427.32/004	2001
+1C2-E-TEST-0034-427.32/005	gladiator
+1C2-E-TEST-0034-427.32/006	went
+1C2-E-TEST-0034-427.32/007	winning	DEP=1C2-E-TEST-0034-427.32006
+1C2-E-TEST-0034-427.33	Crowe wore his grandfather Stan WemyssÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Member of the Order of the British Empire medal to the ceremony.
+1C2-E-TEST-0034-427.33/001	grandfather	DEP=1C2-E-TEST-0034-427.33009
+1C2-E-TEST-0034-427.33/002	stan wemyssã cents
+1C2-E-TEST-0034-427.33/003	¬	DEP=1C2-E-TEST-0034-427.33005
+1C2-E-TEST-0034-427.33/004	â cents	DEP=1C2-E-TEST-0034-427.33003
+1C2-E-TEST-0034-427.33/005	member
+1C2-E-TEST-0034-427.33/006	order
+1C2-E-TEST-0034-427.33/007	british empire medal
+1C2-E-TEST-0034-427.33/008	ceremony
+1C2-E-TEST-0034-427.33/009	wore
+1C2-E-TEST-0034-427.33/010	s	DEP=1C2-E-TEST-0034-427.33005
+1C2-E-TEST-0034-427.35	Crowe won the best actor award for A Beautiful Mind at the 2002 BAFTA award ceremony.
+1C2-E-TEST-0034-427.35/001	best actor award	DEP=1C2-E-TEST-0034-427.35005
+1C2-E-TEST-0034-427.35/002	beautiful mind
+1C2-E-TEST-0034-427.35/003	2002 bafta award
+1C2-E-TEST-0034-427.35/004	ceremony	DEP=1C2-E-TEST-0034-427.35003
+1C2-E-TEST-0034-427.35/005	won
+1C2-E-TEST-0034-427.40	In 2005 he re-teamed with A Beautiful Mind director Ron Howard for Cinderella Man.
+1C2-E-TEST-0034-427.40/001	2005
+1C2-E-TEST-0034-427.40/002	beautiful mind director ron howard
+1C2-E-TEST-0034-427.40/003	cinderella man
+1C2-E-TEST-0034-427.40/004	re-teamed
+1C2-E-TEST-0034-427.41	In 2006 he re-teamed with Gladiator director Ridley Scott for A Good Year, the first of two consecutive collaborations (the second being American Gangster co-starring again with Denzel Washington, released in late 2007).
+1C2-E-TEST-0034-427.41/001	2006
+1C2-E-TEST-0034-427.41/002	gladiator director
+1C2-E-TEST-0034-427.41/003	ridley scott	DEP=1C2-E-TEST-0034-427.41009
+1C2-E-TEST-0034-427.41/004	good
+1C2-E-TEST-0034-427.41/005	two consecutive collaborations
+1C2-E-TEST-0034-427.41/006	american gangster	DEP=1C2-E-TEST-0034-427.41010
+1C2-E-TEST-0034-427.41/007	denzel washington
+1C2-E-TEST-0034-427.41/008	late 2007
+1C2-E-TEST-0034-427.41/009	re-teamed
+1C2-E-TEST-0034-427.41/010	second	DEP=1C2-E-TEST-0034-427.41003
+1C2-E-TEST-0034-427.41/011	co-starring	DEP=1C2-E-TEST-0034-427.41006
+1C2-E-TEST-0034-427.41/012	released	DEP=1C2-E-TEST-0034-427.41007
+1C2-E-TEST-0034-47.3	Russell Crowe is a New Zealand / Australian actor.
+1C2-E-TEST-0034-47.3/001	new zealand
+1C2-E-TEST-0034-47.3/002	australian actor	DEP=1C2-E-TEST-0034-47.3001
+1C2-E-TEST-0034-47.4	He is perhaps best known for his Academy Award-winning role in Gladiator.
+1C2-E-TEST-0034-47.4/001	academy award-winning role
+1C2-E-TEST-0034-47.4/002	gladiator
+1C2-E-TEST-0034-47.4/003	best	DEP=1C2-E-TEST-0034-47.4004
+1C2-E-TEST-0034-47.4/004	known
+1C2-E-TEST-0034-47.6	Russell Crowe was born in Wellington in New Zealand.
+1C2-E-TEST-0034-47.6/001	wellington
+1C2-E-TEST-0034-47.6/002	new zealand
+1C2-E-TEST-0034-47.6/003	born
+1C2-E-TEST-0034-56.1	2002: BAFTA Award for Best Actor in "A Beautiful Mind".
+1C2-E-TEST-0034-56.1/001	2002
+1C2-E-TEST-0034-56.1/002	bafta award	DEP=1C2-E-TEST-0034-56.1001
+1C2-E-TEST-0034-56.1/003	best actor
+1C2-E-TEST-0034-56.1/004	beautiful mind
+1C2-E-TEST-0034-56.12	2000: Broadcast Film Critics Association Award for Best Actor in "Gladiator".
+1C2-E-TEST-0034-56.12/001	2000
+1C2-E-TEST-0034-56.12/002	broadcast film critics association award	DEP=1C2-E-TEST-0034-56.12001
+1C2-E-TEST-0034-56.12/003	best actor
+1C2-E-TEST-0034-56.12/004	gladiator
+1C2-E-TEST-0034-56.3	2001: Broadcast Film Critics Association Award for Best Actor in "A Beautiful Mind".
+1C2-E-TEST-0034-56.3/001	2001
+1C2-E-TEST-0034-56.3/002	broadcast film critics association award	DEP=1C2-E-TEST-0034-56.3001
+1C2-E-TEST-0034-56.3/003	best actor
+1C2-E-TEST-0034-56.3/004	beautiful mind
+1C2-E-TEST-0034-98.14	"One of the most painful things of the L.A. Confidential (1997) character I played was that the author, James Ellroy , kept telling me that Bud White wasn't a drinker.ÃÂÃÂ I said, 'come on, this is 1953.ÃÂÃÂ He's a blue-collar bloke, a cop. You're telling me he doesn't sit around with the boys after his shift and have a beer?'ÃÂÃÂ And Ellroy says, 'absolutely not'.ÃÂÃÂ So for five months and seven days, I didn't have a drink.ÃÂÃÂ It's probably the most painful period of my life".
+1C2-E-TEST-0034-98.14/001	l.a. confidential	DEP=1C2-E-TEST-0034-98.14026
+1C2-E-TEST-0034-98.14/002	1997	DEP=1C2-E-TEST-0034-98.14001
+1C2-E-TEST-0034-98.14/003	author	DEP=1C2-E-TEST-0034-98.14028
+1C2-E-TEST-0034-98.14/004	james ellroy	DEP=1C2-E-TEST-0034-98.14003
+1C2-E-TEST-0034-98.14/005	bud white	DEP=1C2-E-TEST-0034-98.14006
+1C2-E-TEST-0034-98.14/006	drinker	DEP=1C2-E-TEST-0034-98.14029
+1C2-E-TEST-0034-98.14/007	ã â	DEP=1C2-E-TEST-0034-98.14026
+1C2-E-TEST-0034-98.14/008	1953	DEP=1C2-E-TEST-0034-98.14009
+1C2-E-TEST-0034-98.14/009	ã â
+1C2-E-TEST-0034-98.14/010	blue-collar bloke	DEP=1C2-E-TEST-0034-98.14009
+1C2-E-TEST-0034-98.14/011	cop	DEP=1C2-E-TEST-0034-98.14010
+1C2-E-TEST-0034-98.14/012	boys
+1C2-E-TEST-0034-98.14/013	shift
+1C2-E-TEST-0034-98.14/014	beer
+1C2-E-TEST-0034-98.14/015	ã â	DEP=1C2-E-TEST-0034-98.14035
+1C2-E-TEST-0034-98.14/016	ellroy	DEP=1C2-E-TEST-0034-98.14036
+1C2-E-TEST-0034-98.14/017	absolutely
+1C2-E-TEST-0034-98.14/018	ã â	DEP=1C2-E-TEST-0034-98.14025
+1C2-E-TEST-0034-98.14/019	five months
+1C2-E-TEST-0034-98.14/020	seven days	DEP=1C2-E-TEST-0034-98.14025
+1C2-E-TEST-0034-98.14/021	drink
+1C2-E-TEST-0034-98.14/022	ã â	DEP=1C2-E-TEST-0034-98.14020
+1C2-E-TEST-0034-98.14/023	life
+1C2-E-TEST-0034-98.14/024	painful	DEP=1C2-E-TEST-0034-98.14025
+1C2-E-TEST-0034-98.14/025	things
+1C2-E-TEST-0034-98.14/026	character
+1C2-E-TEST-0034-98.14/027	played	DEP=1C2-E-TEST-0034-98.14026
+1C2-E-TEST-0034-98.14/028	kept
+1C2-E-TEST-0034-98.14/029	telling	DEP=1C2-E-TEST-0034-98.14028
+1C2-E-TEST-0034-98.14/030	n't	DEP=1C2-E-TEST-0034-98.14006
+1C2-E-TEST-0034-98.14/031	come
+1C2-E-TEST-0034-98.14/032	's	DEP=1C2-E-TEST-0034-98.14010
+1C2-E-TEST-0034-98.14/033	telling
+1C2-E-TEST-0034-98.14/034	n't	DEP=1C2-E-TEST-0034-98.14035
+1C2-E-TEST-0034-98.14/035	sit
+1C2-E-TEST-0034-98.14/036	says
+1C2-E-TEST-0034-98.14/037	did
+1C2-E-TEST-0034-98.14/038	n't
+1C2-E-TEST-0034-98.14/039	's	DEP=1C2-E-TEST-0034-98.14042
+1C2-E-TEST-0034-98.14/040	probably	DEP=1C2-E-TEST-0034-98.14042
+1C2-E-TEST-0034-98.14/041	painful	DEP=1C2-E-TEST-0034-98.14042
+1C2-E-TEST-0034-98.14/042	period
+1C2-E-TEST-0034-98.16	[on winning the Best Actor Oscar] "If you grow up in the suburbs of anywhere, a dream like this seems kind of vaguely ludicrous and completely unattainable.
+1C2-E-TEST-0034-98.16/001	best actor	DEP=1C2-E-TEST-0034-98.16005
+1C2-E-TEST-0034-98.16/002	oscar	DEP=1C2-E-TEST-0034-98.16001
+1C2-E-TEST-0034-98.16/003	suburbs
+1C2-E-TEST-0034-98.16/004	dream	DEP=1C2-E-TEST-0034-98.16007
+1C2-E-TEST-0034-98.16/005	winning
+1C2-E-TEST-0034-98.16/006	vaguely
+1C2-E-TEST-0034-98.16/007	ludicrous
+1C2-E-TEST-0034-98.16/008	completely	DEP=1C2-E-TEST-0034-98.16009
+1C2-E-TEST-0034-98.16/009	unattainable	DEP=1C2-E-TEST-0034-98.16007
+1C2-E-TEST-0034-98.24	It's cobbled together." -- expressing surprise that a low-budget documentary of his band, 30 Odd Foot of Grunts, has been picked up for worldwide distribution.
+1C2-E-TEST-0034-98.24/001	surprise	DEP=1C2-E-TEST-0034-98.24009
+1C2-E-TEST-0034-98.24/002	low-budget documentary	DEP=1C2-E-TEST-0034-98.24010
+1C2-E-TEST-0034-98.24/003	band
+1C2-E-TEST-0034-98.24/004	30 odd foot	DEP=1C2-E-TEST-0034-98.24002
+1C2-E-TEST-0034-98.24/005	grunts
+1C2-E-TEST-0034-98.24/006	worldwide distribution
+1C2-E-TEST-0034-98.24/007	's	DEP=1C2-E-TEST-0034-98.24008
+1C2-E-TEST-0034-98.24/008	cobbled
+1C2-E-TEST-0034-98.24/009	expressing	DEP=1C2-E-TEST-0034-98.24008
+1C2-E-TEST-0034-98.24/010	picked	DEP=1C2-E-TEST-0034-98.24009
+1C2-E-TEST-0034-98.39	"All that stuff, this public persona of me - let's call him 'the wild man' - that is not helpful.
+1C2-E-TEST-0034-98.39/001	stuff
+1C2-E-TEST-0034-98.39/002	public persona	DEP=1C2-E-TEST-0034-98.39001
+1C2-E-TEST-0034-98.39/003	wild man	DEP=1C2-E-TEST-0034-98.39004
+1C2-E-TEST-0034-98.39/004	call
+1C2-E-TEST-0034-98.39/005	helpful
+1C2-E-TEST-0034-98.40	It doesn't make me more of a box office draw. It's the quality of my work that makes people want to go to my films."
+1C2-E-TEST-0034-98.40/001	box office draw
+1C2-E-TEST-0034-98.40/002	quality
+1C2-E-TEST-0034-98.40/003	work
+1C2-E-TEST-0034-98.40/004	people
+1C2-E-TEST-0034-98.40/005	films
+1C2-E-TEST-0034-98.40/006	n't	DEP=1C2-E-TEST-0034-98.40007
+1C2-E-TEST-0034-98.40/007	make	DEP=1C2-E-TEST-0034-98.40002
+1C2-E-TEST-0034-98.40/008	's	DEP=1C2-E-TEST-0034-98.40002
+1C2-E-TEST-0034-98.40/009	makes	DEP=1C2-E-TEST-0034-98.40002
+1C2-E-TEST-0034-98.5	Virtuosity (1995), starring Denzel Washington, put Russell in the body of a Virtual Serial Killer, Sid6.7 ... a role unlike any he had played so far. Virtuosity (1995), a Sci-Fi extravaganza, was a fun film and, again, opened the door to even more American offers.
+1C2-E-TEST-0034-98.5/001	virtuosity	DEP=1C2-E-TEST-0034-98.5014
+1C2-E-TEST-0034-98.5/002	1995	DEP=1C2-E-TEST-0034-98.5001
+1C2-E-TEST-0034-98.5/003	denzel washington	DEP=1C2-E-TEST-0034-98.5013
+1C2-E-TEST-0034-98.5/004	body
+1C2-E-TEST-0034-98.5/005	virtual serial killer
+1C2-E-TEST-0034-98.5/006	sid6 .7	DEP=1C2-E-TEST-0034-98.5005
+1C2-E-TEST-0034-98.5/007	role	DEP=1C2-E-TEST-0034-98.5006
+1C2-E-TEST-0034-98.5/008	virtuosity	DEP=1C2-E-TEST-0034-98.5007
+1C2-E-TEST-0034-98.5/009	1995	DEP=1C2-E-TEST-0034-98.5008
+1C2-E-TEST-0034-98.5/010	sci-fi extravaganza	DEP=1C2-E-TEST-0034-98.5008
+1C2-E-TEST-0034-98.5/011	fun film	DEP=1C2-E-TEST-0034-98.5014
+1C2-E-TEST-0034-98.5/012	door	DEP=1C2-E-TEST-0034-98.5016
+1C2-E-TEST-0034-98.5/013	starring	DEP=1C2-E-TEST-0034-98.5014
+1C2-E-TEST-0034-98.5/014	put
+1C2-E-TEST-0034-98.5/015	played	DEP=1C2-E-TEST-0034-98.5007
+1C2-E-TEST-0034-98.5/016	opened	DEP=1C2-E-TEST-0034-98.5014
+1C2-E-TEST-0034-98.5/017	american	DEP=1C2-E-TEST-0034-98.5018
+1C2-E-TEST-0034-98.5/018	offers
+1C2-E-TEST-0034-98.58	I want to make movies that pierce people's hearts and touch them in some way, even if it's just for the night while they're in the cinema; in that moment, I want to bring actual tears to their eyes and goosebumps to their skin. That's what motivates me, and it may sound strange but if you're not focused on the audience, why are you bothering to make a movie?"
+1C2-E-TEST-0034-98.58/001	people	DEP=1C2-E-TEST-0034-98.58012
+1C2-E-TEST-0034-98.58/002	way
+1C2-E-TEST-0034-98.58/003	night
+1C2-E-TEST-0034-98.58/004	cinema
+1C2-E-TEST-0034-98.58/005	moment
+1C2-E-TEST-0034-98.58/006	actual tears	DEP=1C2-E-TEST-0034-98.58016
+1C2-E-TEST-0034-98.58/007	eyes goosebumps
+1C2-E-TEST-0034-98.58/008	skin
+1C2-E-TEST-0034-98.58/009	audience
+1C2-E-TEST-0034-98.58/010	movie	DEP=1C2-E-TEST-0034-98.58022
+1C2-E-TEST-0034-98.58/011	make
+1C2-E-TEST-0034-98.58/012	hearts
+1C2-E-TEST-0034-98.58/013	touch	DEP=1C2-E-TEST-0034-98.58011
+1C2-E-TEST-0034-98.58/014	's	DEP=1C2-E-TEST-0034-98.58013
+1C2-E-TEST-0034-98.58/015	bring
+1C2-E-TEST-0034-98.58/016	's	DEP=1C2-E-TEST-0034-98.58015
+1C2-E-TEST-0034-98.58/017	motivates	DEP=1C2-E-TEST-0034-98.58016
+1C2-E-TEST-0034-98.58/018	sound	DEP=1C2-E-TEST-0034-98.58016
+1C2-E-TEST-0034-98.58/019	strange	DEP=1C2-E-TEST-0034-98.58018
+1C2-E-TEST-0034-98.58/020	focused	DEP=1C2-E-TEST-0034-98.58021
+1C2-E-TEST-0034-98.58/021	bothering	DEP=1C2-E-TEST-0034-98.58016
+1C2-E-TEST-0034-98.58/022	make	DEP=1C2-E-TEST-0034-98.58021
+1C2-E-TEST-0034-98.6	L.A. Confidential (1997), Russell's third American film, brought him the US fame and attention that his fans have felt he deserved all along.
+1C2-E-TEST-0034-98.6/001	l.a. confidential	DEP=1C2-E-TEST-0034-98.6008
+1C2-E-TEST-0034-98.6/002	1997	DEP=1C2-E-TEST-0034-98.6001
+1C2-E-TEST-0034-98.6/003	fame attention	DEP=1C2-E-TEST-0034-98.6008
+1C2-E-TEST-0034-98.6/004	fans	DEP=1C2-E-TEST-0034-98.6009
+1C2-E-TEST-0034-98.6/005	third	DEP=1C2-E-TEST-0034-98.6007
+1C2-E-TEST-0034-98.6/006	american	DEP=1C2-E-TEST-0034-98.6007
+1C2-E-TEST-0034-98.6/007	film	DEP=1C2-E-TEST-0034-98.6001
+1C2-E-TEST-0034-98.6/008	brought
+1C2-E-TEST-0034-98.6/009	felt	DEP=1C2-E-TEST-0034-98.6003
+1C2-E-TEST-0034-98.6/010	deserved	DEP=1C2-E-TEST-0034-98.6009
+1C2-E-TEST-0034-98.7	Missing the Oscar nod this time around, he didn't seem deterred and signed to do his first film with The Walt Disney Company, Mystery, Alaska (1999). He has recently achieved even more success and awards for his performances in Gladiator (2000) and A Beautiful Mind (2001).
+1C2-E-TEST-0034-98.7/001	oscar nod	DEP=1C2-E-TEST-0034-98.7012
+1C2-E-TEST-0034-98.7/002	film
+1C2-E-TEST-0034-98.7/003	walt disney company
+1C2-E-TEST-0034-98.7/004	mystery alaska
+1C2-E-TEST-0034-98.7/005	1999	DEP=1C2-E-TEST-0034-98.7004
+1C2-E-TEST-0034-98.7/006	success awards	DEP=1C2-E-TEST-0034-98.7019
+1C2-E-TEST-0034-98.7/007	performances
+1C2-E-TEST-0034-98.7/008	gladiator
+1C2-E-TEST-0034-98.7/009	2000	DEP=1C2-E-TEST-0034-98.7008
+1C2-E-TEST-0034-98.7/010	beautiful mind	DEP=1C2-E-TEST-0034-98.7008
+1C2-E-TEST-0034-98.7/011	2001	DEP=1C2-E-TEST-0034-98.7008
+1C2-E-TEST-0034-98.7/012	missing	DEP=1C2-E-TEST-0034-98.7019
+1C2-E-TEST-0034-98.7/013	time	DEP=1C2-E-TEST-0034-98.7012
+1C2-E-TEST-0034-98.7/014	did	DEP=1C2-E-TEST-0034-98.7016
+1C2-E-TEST-0034-98.7/015	n't	DEP=1C2-E-TEST-0034-98.7016
+1C2-E-TEST-0034-98.7/016	deterred
+1C2-E-TEST-0034-98.7/017	signed	DEP=1C2-E-TEST-0034-98.7016
+1C2-E-TEST-0034-98.7/018	recently	DEP=1C2-E-TEST-0034-98.7019
+1C2-E-TEST-0034-98.7/019	achieved

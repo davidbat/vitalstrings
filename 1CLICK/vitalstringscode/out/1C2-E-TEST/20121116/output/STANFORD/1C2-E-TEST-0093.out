@@ -1,0 +1,334 @@
+1C2-E-TEST-0093-10.13	Hartsfield-Jackson's transportation system and other factors led the Air Transport Research Society to name it the world's most efficient airport in 2011.
+1C2-E-TEST-0093-10.13/001	hartsfield-jackson	DEP=1C2-E-TEST-0093-10.13007
+1C2-E-TEST-0093-10.13/002	factors	DEP=1C2-E-TEST-0093-10.13007
+1C2-E-TEST-0093-10.13/003	air transport research society	DEP=1C2-E-TEST-0093-10.13009
+1C2-E-TEST-0093-10.13/004	world
+1C2-E-TEST-0093-10.13/005	2011
+1C2-E-TEST-0093-10.13/006	transportation	DEP=1C2-E-TEST-0093-10.13007
+1C2-E-TEST-0093-10.13/007	system	DEP=1C2-E-TEST-0093-10.13008
+1C2-E-TEST-0093-10.13/008	led
+1C2-E-TEST-0093-10.13/009	name	DEP=1C2-E-TEST-0093-10.13008
+1C2-E-TEST-0093-10.13/010	efficient
+1C2-E-TEST-0093-10.14	The Airport also offers convenient transportation to downtown Atlanta and points beyond through a Metropolitan Atlanta Rapid Transit Authority (MARTA) station inside the terminal.
+1C2-E-TEST-0093-10.14/001	convenient transportation	DEP=1C2-E-TEST-0093-10.14006
+1C2-E-TEST-0093-10.14/002	downtown
+1C2-E-TEST-0093-10.14/003	points
+1C2-E-TEST-0093-10.14/004	metropolitan rapid transit authority	DEP=1C2-E-TEST-0093-10.14007
+1C2-E-TEST-0093-10.14/005	marta	DEP=1C2-E-TEST-0093-10.14004
+1C2-E-TEST-0093-10.14/006	offers
+1C2-E-TEST-0093-10.14/007	station
+1C2-E-TEST-0093-10.14/008	terminal
+1C2-E-TEST-0093-109.12	Atlanta Airport covers 5,800,000 square feet (539,000m<sup>2</sup>).
+1C2-E-TEST-0093-109.12/001	5,800,000 square feet	DEP=1C2-E-TEST-0093-109.12004
+1C2-E-TEST-0093-109.12/002	539,000 m <sup>	DEP=1C2-E-TEST-0093-109.12001
+1C2-E-TEST-0093-109.12/003	2 </sup>	DEP=1C2-E-TEST-0093-109.12002
+1C2-E-TEST-0093-109.12/004	covers
+1C2-E-TEST-0093-109.24	Atlanta AirportÃ¢ÂÂs car parks can accommodate up to 31,000 cars.
+1C2-E-TEST-0093-109.24/001	airportâ	DEP=1C2-E-TEST-0093-109.24005
+1C2-E-TEST-0093-109.24/002	s	DEP=1C2-E-TEST-0093-109.24001
+1C2-E-TEST-0093-109.24/003	car parks	DEP=1C2-E-TEST-0093-109.24001
+1C2-E-TEST-0093-109.24/004	31,000 cars
+1C2-E-TEST-0093-109.24/005	accommodate
+1C2-E-TEST-0093-109.5	A massive facility, Atlanta Airport has two terminals that are separated by an atrium comprising a spacious seating area, numerous restaurants and shops, a bank, business center, the MARTA train station and the Ground Transportation Center.
+1C2-E-TEST-0093-109.5/001	massive facility
+1C2-E-TEST-0093-109.5/002	two terminals
+1C2-E-TEST-0093-109.5/003	atrium
+1C2-E-TEST-0093-109.5/004	spacious seating area	DEP=1C2-E-TEST-0093-109.5011
+1C2-E-TEST-0093-109.5/005	numerous restaurants shops	DEP=1C2-E-TEST-0093-109.5004
+1C2-E-TEST-0093-109.5/006	bank	DEP=1C2-E-TEST-0093-109.5004
+1C2-E-TEST-0093-109.5/007	business center	DEP=1C2-E-TEST-0093-109.5004
+1C2-E-TEST-0093-109.5/008	marta train station	DEP=1C2-E-TEST-0093-109.5004
+1C2-E-TEST-0093-109.5/009	ground transportation center	DEP=1C2-E-TEST-0093-109.5004
+1C2-E-TEST-0093-109.5/010	separated	DEP=1C2-E-TEST-0093-109.5002
+1C2-E-TEST-0093-109.5/011	comprising	DEP=1C2-E-TEST-0093-109.5003
+1C2-E-TEST-0093-119.13	The airport is a hub for Delta Air Lines - it is the largest airport hub in the world.
+1C2-E-TEST-0093-119.13/001	hub
+1C2-E-TEST-0093-119.13/002	delta air lines
+1C2-E-TEST-0093-119.13/003	largest hub	DEP=1C2-E-TEST-0093-119.13001
+1C2-E-TEST-0093-119.13/004	world
+1C2-E-TEST-0093-119.17	As the busiest airport in the world, Atlanta Airport offers just about anything a traveler could want.
+1C2-E-TEST-0093-119.17/001	busiest
+1C2-E-TEST-0093-119.17/002	world
+1C2-E-TEST-0093-119.17/003	traveler
+1C2-E-TEST-0093-119.17/004	offers
+1C2-E-TEST-0093-123.17	Delta Airlines has maintained their headquarters and largest hub at Atlanta Hartsfield for several decades.
+1C2-E-TEST-0093-123.17/001	delta airlines	DEP=1C2-E-TEST-0093-123.17006
+1C2-E-TEST-0093-123.17/002	headquarters	DEP=1C2-E-TEST-0093-123.17006
+1C2-E-TEST-0093-123.17/003	largest hub	DEP=1C2-E-TEST-0093-123.17002
+1C2-E-TEST-0093-123.17/004	hartsfield
+1C2-E-TEST-0093-123.17/005	decades
+1C2-E-TEST-0093-123.17/006	maintained
+1C2-E-TEST-0093-123.3	About seven miles due south of downtown Atlanta, Hartsfield Airport occupies parts of both Clayton and Fulton counties in Georgia.
+1C2-E-TEST-0093-123.3/001	seven miles
+1C2-E-TEST-0093-123.3/002	downtown
+1C2-E-TEST-0093-123.3/003	hartsfield
+1C2-E-TEST-0093-123.3/004	parts	DEP=1C2-E-TEST-0093-123.3009
+1C2-E-TEST-0093-123.3/005	clayton fulton	DEP=1C2-E-TEST-0093-123.3010
+1C2-E-TEST-0093-123.3/006	georgia
+1C2-E-TEST-0093-123.3/007	due	DEP=1C2-E-TEST-0093-123.3008
+1C2-E-TEST-0093-123.3/008	south
+1C2-E-TEST-0093-123.3/009	occupies
+1C2-E-TEST-0093-123.3/010	counties
+1C2-E-TEST-0093-3.122	[4] The airport has two terminals where passengers check-in and claim bags, the Domestic Terminal and the Maynard H. Jackson Jr.
+1C2-E-TEST-0093-3.122/001	two terminals
+1C2-E-TEST-0093-3.122/002	passengers	DEP=1C2-E-TEST-0093-3.122008
+1C2-E-TEST-0093-3.122/003	check-in claim	DEP=1C2-E-TEST-0093-3.122008
+1C2-E-TEST-0093-3.122/004	domestic	DEP=1C2-E-TEST-0093-3.122009
+1C2-E-TEST-0093-3.122/005	maynard h.	DEP=1C2-E-TEST-0093-3.122006
+1C2-E-TEST-0093-3.122/006	jackson jr.
+1C2-E-TEST-0093-3.122/007	4
+1C2-E-TEST-0093-3.122/008	bags	DEP=1C2-E-TEST-0093-3.122001
+1C2-E-TEST-0093-3.122/009	terminal
+1C2-E-TEST-0093-3.125	The portion of the building between Terminal North and Terminal South includes the Atrium, which is a large, open seating area featuring concessionaires, a bank, conference rooms, an interfaith chapel, and offices on the upper floors with the main security checkpoint, the Ground Transportation Center and a Metropolitan Atlanta Rapid Transit Authority (MARTA) train station on other levels.
+1C2-E-TEST-0093-3.125/001	portion	DEP=1C2-E-TEST-0093-3.125018
+1C2-E-TEST-0093-3.125/002	building
+1C2-E-TEST-0093-3.125/003	terminal north
+1C2-E-TEST-0093-3.125/004	terminal south	DEP=1C2-E-TEST-0093-3.125003
+1C2-E-TEST-0093-3.125/005	atrium	DEP=1C2-E-TEST-0093-3.125018
+1C2-E-TEST-0093-3.125/006	large open seating area	DEP=1C2-E-TEST-0093-3.125005
+1C2-E-TEST-0093-3.125/007	concessionaires	DEP=1C2-E-TEST-0093-3.125019
+1C2-E-TEST-0093-3.125/008	bank	DEP=1C2-E-TEST-0093-3.125007
+1C2-E-TEST-0093-3.125/009	conference rooms	DEP=1C2-E-TEST-0093-3.125007
+1C2-E-TEST-0093-3.125/010	interfaith chapel	DEP=1C2-E-TEST-0093-3.125007
+1C2-E-TEST-0093-3.125/011	offices	DEP=1C2-E-TEST-0093-3.125007
+1C2-E-TEST-0093-3.125/012	upper floors
+1C2-E-TEST-0093-3.125/013	main security checkpoint
+1C2-E-TEST-0093-3.125/014	ground transportation center	DEP=1C2-E-TEST-0093-3.125013
+1C2-E-TEST-0093-3.125/015	metropolitan rapid transit authority	DEP=1C2-E-TEST-0093-3.125021
+1C2-E-TEST-0093-3.125/016	marta	DEP=1C2-E-TEST-0093-3.125015
+1C2-E-TEST-0093-3.125/017	levels
+1C2-E-TEST-0093-3.125/018	includes
+1C2-E-TEST-0093-3.125/019	featuring	DEP=1C2-E-TEST-0093-3.125006
+1C2-E-TEST-0093-3.125/020	train	DEP=1C2-E-TEST-0093-3.125021
+1C2-E-TEST-0093-3.125/021	station	DEP=1C2-E-TEST-0093-3.125013
+1C2-E-TEST-0093-3.148	Only hand luggage may be carried on the people mover which is the world's busiest automated system, with over 64 million riders in 2002.
+1C2-E-TEST-0093-3.148/001	hand luggage	DEP=1C2-E-TEST-0093-3.148005
+1C2-E-TEST-0093-3.148/002	people mover
+1C2-E-TEST-0093-3.148/003	world	DEP=1C2-E-TEST-0093-3.148008
+1C2-E-TEST-0093-3.148/004	2002
+1C2-E-TEST-0093-3.148/005	carried
+1C2-E-TEST-0093-3.148/006	busiest	DEP=1C2-E-TEST-0093-3.148008
+1C2-E-TEST-0093-3.148/007	automated	DEP=1C2-E-TEST-0093-3.148008
+1C2-E-TEST-0093-3.148/008	system	DEP=1C2-E-TEST-0093-3.148002
+1C2-E-TEST-0093-3.148/009	64	DEP=1C2-E-TEST-0093-3.148010
+1C2-E-TEST-0093-3.148/010	million	DEP=1C2-E-TEST-0093-3.148011
+1C2-E-TEST-0093-3.148/011	riders
+1C2-E-TEST-0093-3.153	HartsfieldÃ¢ÂÂJackson also has its own train station on the city's rapid transit system, MARTA .
+1C2-E-TEST-0093-3.153/001	hartsfieldâ
+1C2-E-TEST-0093-3.153/002	jackson
+1C2-E-TEST-0093-3.153/003	train station
+1C2-E-TEST-0093-3.153/004	city	DEP=1C2-E-TEST-0093-3.153008
+1C2-E-TEST-0093-3.153/005	marta	DEP=1C2-E-TEST-0093-3.153008
+1C2-E-TEST-0093-3.153/006	rapid	DEP=1C2-E-TEST-0093-3.153008
+1C2-E-TEST-0093-3.153/007	transit	DEP=1C2-E-TEST-0093-3.153008
+1C2-E-TEST-0093-3.153/008	system
+1C2-E-TEST-0093-3.17	In 1946 Candler Field was renamed Atlanta Municipal Airport and by 1948, more than one million passengers passed through a war surplus hangar that served as a terminal building.
+1C2-E-TEST-0093-3.17/001	1946
+1C2-E-TEST-0093-3.17/002	candler field	DEP=1C2-E-TEST-0093-3.17007
+1C2-E-TEST-0093-3.17/003	municipal
+1C2-E-TEST-0093-3.17/004	1948
+1C2-E-TEST-0093-3.17/005	war surplus hangar
+1C2-E-TEST-0093-3.17/006	terminal building
+1C2-E-TEST-0093-3.17/007	renamed
+1C2-E-TEST-0093-3.17/008	million	DEP=1C2-E-TEST-0093-3.17009
+1C2-E-TEST-0093-3.17/009	passengers
+1C2-E-TEST-0093-3.17/010	passed	DEP=1C2-E-TEST-0093-3.17009
+1C2-E-TEST-0093-3.17/011	served
+1C2-E-TEST-0093-3.21	(Atlanta's first scheduled international flight was the Delta/Pan Am interchange DC-8 to Europe starting in 1964; the first scheduled nonstop to a foreign country was Eastern's flight to Mexico City around 1972.)
+1C2-E-TEST-0093-3.21/001	delta\/pan
+1C2-E-TEST-0093-3.21/002	interchange dc-8	DEP=1C2-E-TEST-0093-3.21001
+1C2-E-TEST-0093-3.21/003	europe
+1C2-E-TEST-0093-3.21/004	1964
+1C2-E-TEST-0093-3.21/005	nonstop	DEP=1C2-E-TEST-0093-3.21014
+1C2-E-TEST-0093-3.21/006	foreign country
+1C2-E-TEST-0093-3.21/007	eastern	DEP=1C2-E-TEST-0093-3.21015
+1C2-E-TEST-0093-3.21/008	mexico city
+1C2-E-TEST-0093-3.21/009	1972
+1C2-E-TEST-0093-3.21/010	scheduled	DEP=1C2-E-TEST-0093-3.21012
+1C2-E-TEST-0093-3.21/011	international	DEP=1C2-E-TEST-0093-3.21012
+1C2-E-TEST-0093-3.21/012	flight	DEP=1C2-E-TEST-0093-3.21001
+1C2-E-TEST-0093-3.21/013	starting	DEP=1C2-E-TEST-0093-3.21002
+1C2-E-TEST-0093-3.21/014	scheduled
+1C2-E-TEST-0093-3.21/015	flight	DEP=1C2-E-TEST-0093-3.21004
+1C2-E-TEST-0093-3.22	In 1957 Atlanta saw its first jet airliner: a prototype Sud Aviation Caravelle that was touring the country arrived from Washington D.C.[ citation needed ] Atlanta was the busiest airport in the country with more than two million passengers passing through that year and, between noon and 2 p.m. each day, it became the busiest airport in the world.
+1C2-E-TEST-0093-3.22/001	1957
+1C2-E-TEST-0093-3.22/002	jet airliner
+1C2-E-TEST-0093-3.22/003	prototype
+1C2-E-TEST-0093-3.22/004	sud aviation caravelle
+1C2-E-TEST-0093-3.22/005	country	DEP=1C2-E-TEST-0093-3.22014
+1C2-E-TEST-0093-3.22/006	washington d.c.
+1C2-E-TEST-0093-3.22/007	citation	DEP=1C2-E-TEST-0093-3.22005
+1C2-E-TEST-0093-3.22/008	busiest
+1C2-E-TEST-0093-3.22/009	country
+1C2-E-TEST-0093-3.22/010	noon
+1C2-E-TEST-0093-3.22/011	2 p.m.	DEP=1C2-E-TEST-0093-3.22010
+1C2-E-TEST-0093-3.22/012	busiest
+1C2-E-TEST-0093-3.22/013	world
+1C2-E-TEST-0093-3.22/014	touring	DEP=1C2-E-TEST-0093-3.22004
+1C2-E-TEST-0093-3.22/015	arrived	DEP=1C2-E-TEST-0093-3.22005
+1C2-E-TEST-0093-3.22/016	needed	DEP=1C2-E-TEST-0093-3.22007
+1C2-E-TEST-0093-3.22/017	two	DEP=1C2-E-TEST-0093-3.22018
+1C2-E-TEST-0093-3.22/018	million	DEP=1C2-E-TEST-0093-3.22019
+1C2-E-TEST-0093-3.22/019	passengers
+1C2-E-TEST-0093-3.22/020	passing	DEP=1C2-E-TEST-0093-3.22019
+1C2-E-TEST-0093-3.25	For the year 1957 Atlanta was the ninth busiest airline airport in the country by flight count and about the same by passenger count.)
+1C2-E-TEST-0093-3.25/001	1957
+1C2-E-TEST-0093-3.25/002	ninth busiest airline
+1C2-E-TEST-0093-3.25/003	country
+1C2-E-TEST-0093-3.25/004	flight count
+1C2-E-TEST-0093-3.25/005	passenger
+1C2-E-TEST-0093-3.25/006	count
+1C2-E-TEST-0093-3.28	It was the largest in the country and was able to accommodate over six million travelers a year.
+1C2-E-TEST-0093-3.28/001	largest
+1C2-E-TEST-0093-3.28/002	country
+1C2-E-TEST-0093-3.28/003	able	DEP=1C2-E-TEST-0093-3.28001
+1C2-E-TEST-0093-3.28/004	accommodate	DEP=1C2-E-TEST-0093-3.28003
+1C2-E-TEST-0093-3.28/005	six	DEP=1C2-E-TEST-0093-3.28006
+1C2-E-TEST-0093-3.28/006	million	DEP=1C2-E-TEST-0093-3.28007
+1C2-E-TEST-0093-3.28/007	travelers
+1C2-E-TEST-0093-3.31	In 1967, the city of Atlanta and the airlines began to work on a master plan for future development of Atlanta Municipal Airport.[ citation needed ] Construction began on the present midfield terminal in January 1977 under the administration of Mayor Maynard Jackson .
+1C2-E-TEST-0093-3.31/001	1967
+1C2-E-TEST-0093-3.31/002	city	DEP=1C2-E-TEST-0093-3.31013
+1C2-E-TEST-0093-3.31/003	airlines
+1C2-E-TEST-0093-3.31/004	master plan
+1C2-E-TEST-0093-3.31/005	future development
+1C2-E-TEST-0093-3.31/006	municipal
+1C2-E-TEST-0093-3.31/007	citation
+1C2-E-TEST-0093-3.31/008	construction
+1C2-E-TEST-0093-3.31/009	present midfield terminal
+1C2-E-TEST-0093-3.31/010	january 1977
+1C2-E-TEST-0093-3.31/011	administration
+1C2-E-TEST-0093-3.31/012	mayor maynard jackson
+1C2-E-TEST-0093-3.31/013	began
+1C2-E-TEST-0093-3.31/014	work	DEP=1C2-E-TEST-0093-3.31013
+1C2-E-TEST-0093-3.31/015	needed	DEP=1C2-E-TEST-0093-3.31007
+1C2-E-TEST-0093-3.31/016	began	DEP=1C2-E-TEST-0093-3.31008
+1C2-E-TEST-0093-3.38	Although Eastern was a larger airline than Delta until airline deregulation in 1978, Delta was an early adopter of the hub and spoke route system, with Atlanta as its primary hub between the Midwest and Florida, giving it an early competitive advantage in the Atlanta market.
+1C2-E-TEST-0093-3.38/001	eastern	DEP=1C2-E-TEST-0093-3.38002
+1C2-E-TEST-0093-3.38/002	larger airline	DEP=1C2-E-TEST-0093-3.38007
+1C2-E-TEST-0093-3.38/003	delta
+1C2-E-TEST-0093-3.38/004	airline deregulation
+1C2-E-TEST-0093-3.38/005	1978
+1C2-E-TEST-0093-3.38/006	delta	DEP=1C2-E-TEST-0093-3.38007
+1C2-E-TEST-0093-3.38/007	early adopter
+1C2-E-TEST-0093-3.38/008	hub
+1C2-E-TEST-0093-3.38/009	route system
+1C2-E-TEST-0093-3.38/010	primary hub
+1C2-E-TEST-0093-3.38/011	midwest florida
+1C2-E-TEST-0093-3.38/012	early competitive advantage	DEP=1C2-E-TEST-0093-3.38014
+1C2-E-TEST-0093-3.38/013	market
+1C2-E-TEST-0093-3.38/014	giving	DEP=1C2-E-TEST-0093-3.38007
+1C2-E-TEST-0093-3.7	Later these two airlines, known as Eastern Air Lines and Delta Air Lines , respectively, would both use Atlanta as their chief hubs .
+1C2-E-TEST-0093-3.7/001	later two airlines
+1C2-E-TEST-0093-3.7/002	eastern air lines
+1C2-E-TEST-0093-3.7/003	delta air lines	DEP=1C2-E-TEST-0093-3.7002
+1C2-E-TEST-0093-3.7/004	chief hubs
+1C2-E-TEST-0093-3.7/005	known	DEP=1C2-E-TEST-0093-3.7001
+1C2-E-TEST-0093-3.7/006	respectively	DEP=1C2-E-TEST-0093-3.7005
+1C2-E-TEST-0093-3.71	The airport today employs approximately 55,300 airline, ground transportation, concessionaire, security, federal government, City of Atlanta and Airport tenant employees and is considered the largest employment center in the U.S. state of Georgia .
+1C2-E-TEST-0093-3.71/001	55,300 airline	DEP=1C2-E-TEST-0093-3.71011
+1C2-E-TEST-0093-3.71/002	ground transportation	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/003	concessionaire	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/004	security	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/005	federal government	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/006	city	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/007	largest employment center	DEP=1C2-E-TEST-0093-3.71015
+1C2-E-TEST-0093-3.71/008	u.s. state
+1C2-E-TEST-0093-3.71/009	georgia
+1C2-E-TEST-0093-3.71/010	today	DEP=1C2-E-TEST-0093-3.71011
+1C2-E-TEST-0093-3.71/011	employs
+1C2-E-TEST-0093-3.71/012	approximately	DEP=1C2-E-TEST-0093-3.71001
+1C2-E-TEST-0093-3.71/013	tenant	DEP=1C2-E-TEST-0093-3.71014
+1C2-E-TEST-0093-3.71/014	employees
+1C2-E-TEST-0093-3.71/015	considered	DEP=1C2-E-TEST-0093-3.71011
+1C2-E-TEST-0093-4.4	Atlanta is a hub airport for Delta Airlines, the oldest continuous tenant at the Atlanta Airport, having had service from Atlanta to other destinations since 1930, then operating as Delta Air Service. In 1925 the land that an old racetrack was on, was leased by the city and named Candler Field, the first commercial flight was in September of 1926 with a regularly scheduled mail delivery flight. In 1971 the airport was named William B. Hartsfield Atlanta Airport in honor of the mayor that made sure the airport was developed, and in October of 2003 the name was changed again to Hartsfield-Jackson Atlanta International Airport in recognition of Mayor Maynard Jackson's contribution to the modernization of the Atlanta Airport.
+1C2-E-TEST-0093-4.4/001	hub
+1C2-E-TEST-0093-4.4/002	delta airlines
+1C2-E-TEST-0093-4.4/003	service
+1C2-E-TEST-0093-4.4/004	destinations
+1C2-E-TEST-0093-4.4/005	1930
+1C2-E-TEST-0093-4.4/006	delta air service
+1C2-E-TEST-0093-4.4/007	1925
+1C2-E-TEST-0093-4.4/008	land	DEP=1C2-E-TEST-0093-4.4031
+1C2-E-TEST-0093-4.4/009	old racetrack
+1C2-E-TEST-0093-4.4/010	city
+1C2-E-TEST-0093-4.4/011	candler field	DEP=1C2-E-TEST-0093-4.4033
+1C2-E-TEST-0093-4.4/012	commercial flight	DEP=1C2-E-TEST-0093-4.4011
+1C2-E-TEST-0093-4.4/013	september
+1C2-E-TEST-0093-4.4/014	1926
+1C2-E-TEST-0093-4.4/015	flight	DEP=1C2-E-TEST-0093-4.4032
+1C2-E-TEST-0093-4.4/016	1971
+1C2-E-TEST-0093-4.4/017	william b. hartsfield
+1C2-E-TEST-0093-4.4/018	honor
+1C2-E-TEST-0093-4.4/019	mayor
+1C2-E-TEST-0093-4.4/020	october
+1C2-E-TEST-0093-4.4/021	2003
+1C2-E-TEST-0093-4.4/022	name	DEP=1C2-E-TEST-0093-4.4042
+1C2-E-TEST-0093-4.4/023	hartsfield-jackson international
+1C2-E-TEST-0093-4.4/024	recognition
+1C2-E-TEST-0093-4.4/025	mayor maynard jackson	DEP=1C2-E-TEST-0093-4.4043
+1C2-E-TEST-0093-4.4/026	modernization
+1C2-E-TEST-0093-4.4/027	oldest	DEP=1C2-E-TEST-0093-4.4028
+1C2-E-TEST-0093-4.4/028	continuous	DEP=1C2-E-TEST-0093-4.4029
+1C2-E-TEST-0093-4.4/029	tenant	DEP=1C2-E-TEST-0093-4.4002
+1C2-E-TEST-0093-4.4/030	having
+1C2-E-TEST-0093-4.4/031	operating
+1C2-E-TEST-0093-4.4/032	leased	DEP=1C2-E-TEST-0093-4.4008
+1C2-E-TEST-0093-4.4/033	named	DEP=1C2-E-TEST-0093-4.4032
+1C2-E-TEST-0093-4.4/034	regularly	DEP=1C2-E-TEST-0093-4.4035
+1C2-E-TEST-0093-4.4/035	scheduled	DEP=1C2-E-TEST-0093-4.4037
+1C2-E-TEST-0093-4.4/036	mail	DEP=1C2-E-TEST-0093-4.4037
+1C2-E-TEST-0093-4.4/037	delivery
+1C2-E-TEST-0093-4.4/038	named	DEP=1C2-E-TEST-0093-4.4031
+1C2-E-TEST-0093-4.4/039	made	DEP=1C2-E-TEST-0093-4.4019
+1C2-E-TEST-0093-4.4/040	sure	DEP=1C2-E-TEST-0093-4.4039
+1C2-E-TEST-0093-4.4/041	developed	DEP=1C2-E-TEST-0093-4.4040
+1C2-E-TEST-0093-4.4/042	changed	DEP=1C2-E-TEST-0093-4.4031
+1C2-E-TEST-0093-4.4/043	contribution
+1C2-E-TEST-0093-9.2	Hartsfield-Jackson Atlanta International Airport (IATA: ATL, ICAO: KATL, FAA LID: ATL), known locally as Atlanta Airport, Hartsfield Airport, Hartsfield-Jackson is located seven miles (11 km) south of the central business district of Atlanta, Georgia, United States.
+1C2-E-TEST-0093-9.2/001	iata	DEP=1C2-E-TEST-0093-9.2016
+1C2-E-TEST-0093-9.2/002	atl	DEP=1C2-E-TEST-0093-9.2001
+1C2-E-TEST-0093-9.2/003	icao	DEP=1C2-E-TEST-0093-9.2002
+1C2-E-TEST-0093-9.2/004	katl	DEP=1C2-E-TEST-0093-9.2002
+1C2-E-TEST-0093-9.2/005	faa lid	DEP=1C2-E-TEST-0093-9.2004
+1C2-E-TEST-0093-9.2/006	atl	DEP=1C2-E-TEST-0093-9.2004
+1C2-E-TEST-0093-9.2/007	hartsfield
+1C2-E-TEST-0093-9.2/008	seven miles	DEP=1C2-E-TEST-0093-9.2017
+1C2-E-TEST-0093-9.2/009	11
+1C2-E-TEST-0093-9.2/010	central business district
+1C2-E-TEST-0093-9.2/011	georgia united states
+1C2-E-TEST-0093-9.2/012	hartsfield-jackson	DEP=1C2-E-TEST-0093-9.2016
+1C2-E-TEST-0093-9.2/013	international	DEP=1C2-E-TEST-0093-9.2016
+1C2-E-TEST-0093-9.2/014	known	DEP=1C2-E-TEST-0093-9.2016
+1C2-E-TEST-0093-9.2/015	locally	DEP=1C2-E-TEST-0093-9.2014
+1C2-E-TEST-0093-9.2/016	hartsfield-jackson	DEP=1C2-E-TEST-0093-9.2018
+1C2-E-TEST-0093-9.2/017	located	DEP=1C2-E-TEST-0093-9.2018
+1C2-E-TEST-0093-9.2/018	south
+1C2-E-TEST-0093-9.3	It has been the world's busiest airport by passenger traffic as well as landings and take-offs.
+1C2-E-TEST-0093-9.3/001	world
+1C2-E-TEST-0093-9.3/002	passenger traffic
+1C2-E-TEST-0093-9.3/003	landings take-offs	DEP=1C2-E-TEST-0093-9.3002
+1C2-E-TEST-0093-9.3/004	busiest
+1C2-E-TEST-0093-9.4	Additionally, Delta Air Lines operates the world's largest airline hub from the airport.
+1C2-E-TEST-0093-9.4/001	delta air lines	DEP=1C2-E-TEST-0093-9.4004
+1C2-E-TEST-0093-9.4/002	world	DEP=1C2-E-TEST-0093-9.4007
+1C2-E-TEST-0093-9.4/003	additionally	DEP=1C2-E-TEST-0093-9.4004
+1C2-E-TEST-0093-9.4/004	operates
+1C2-E-TEST-0093-9.4/005	largest	DEP=1C2-E-TEST-0093-9.4007
+1C2-E-TEST-0093-9.4/006	airline	DEP=1C2-E-TEST-0093-9.4007
+1C2-E-TEST-0093-9.4/007	hub	DEP=1C2-E-TEST-0093-9.4004
+1C2-E-TEST-0093-9.5	The airport is increasingly becoming a major gateway for passengers boarding flights for other countries.
+1C2-E-TEST-0093-9.5/001	major gateway
+1C2-E-TEST-0093-9.5/002	passengers boarding flights
+1C2-E-TEST-0093-9.5/003	countries
+1C2-E-TEST-0093-9.5/004	increasingly
+1C2-E-TEST-0093-9.8	The MARTA rail system (Metropolitan Atlanta Rapid Transit Authority) has a station within the airport terminal, and provides direct service to the business areas in downtown Atlanta, Buckhead and Sandy Springs.
+1C2-E-TEST-0093-9.8/001	marta rail system
+1C2-E-TEST-0093-9.8/002	metropolitan rapid transit authority	DEP=1C2-E-TEST-0093-9.8001
+1C2-E-TEST-0093-9.8/003	station
+1C2-E-TEST-0093-9.8/004	terminal
+1C2-E-TEST-0093-9.8/005	direct service	DEP=1C2-E-TEST-0093-9.8009
+1C2-E-TEST-0093-9.8/006	business areas
+1C2-E-TEST-0093-9.8/007	downtown buckhead
+1C2-E-TEST-0093-9.8/008	sandy springs	DEP=1C2-E-TEST-0093-9.8007
+1C2-E-TEST-0093-9.8/009	provides

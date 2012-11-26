@@ -1,0 +1,414 @@
+1C2-E-TEST-0075-113.21	Brown was so impressive in his interview that Jerry Buss, his son Jim Buss and Kupchak all agreed to look no further.
+1C2-E-TEST-0075-113.21/001	brown	DEP=1C2-E-TEST-0075-113.21005
+1C2-E-TEST-0075-113.21/002	interview
+1C2-E-TEST-0075-113.21/003	jerry buss	DEP=1C2-E-TEST-0075-113.21006
+1C2-E-TEST-0075-113.21/004	son jim buss kupchak	DEP=1C2-E-TEST-0075-113.21003
+1C2-E-TEST-0075-113.21/005	impressive
+1C2-E-TEST-0075-113.21/006	agreed	DEP=1C2-E-TEST-0075-113.21005
+1C2-E-TEST-0075-113.21/007	look	DEP=1C2-E-TEST-0075-113.21006
+1C2-E-TEST-0075-113.3	(KABC) -- Mike Brown was formally introduced as the new head coach of the Los Angeles Lakers during a news conference Tuesday in El Segundo on Tuesday.
+1C2-E-TEST-0075-113.3/001	kabc
+1C2-E-TEST-0075-113.3/002	mike brown	DEP=1C2-E-TEST-0075-113.3009
+1C2-E-TEST-0075-113.3/003	new head
+1C2-E-TEST-0075-113.3/004	los angeles
+1C2-E-TEST-0075-113.3/005	news conference
+1C2-E-TEST-0075-113.3/006	el segundo
+1C2-E-TEST-0075-113.3/007	tuesday
+1C2-E-TEST-0075-113.3/008	formally	DEP=1C2-E-TEST-0075-113.3009
+1C2-E-TEST-0075-113.3/009	introduced	DEP=1C2-E-TEST-0075-113.3001
+1C2-E-TEST-0075-113.3/010	tuesday	DEP=1C2-E-TEST-0075-113.3005
+1C2-E-TEST-0075-113.4	Brown will replace Phil Jackson, who retired after coaching the team for the past 12 season.
+1C2-E-TEST-0075-113.4/001	brown	DEP=1C2-E-TEST-0075-113.4006
+1C2-E-TEST-0075-113.4/002	phil jackson	DEP=1C2-E-TEST-0075-113.4006
+1C2-E-TEST-0075-113.4/003	coaching
+1C2-E-TEST-0075-113.4/004	team	DEP=1C2-E-TEST-0075-113.4007
+1C2-E-TEST-0075-113.4/005	past 12 season
+1C2-E-TEST-0075-113.4/006	replace
+1C2-E-TEST-0075-113.4/007	retired	DEP=1C2-E-TEST-0075-113.4002
+1C2-E-TEST-0075-124.13	Mike Brown is a good man and a good coach but to coach in Los Angeles, after Phil Jackson, you have to be either great or your just that rebound date that gets a little action before being tossed aside for the real deal.
+1C2-E-TEST-0075-124.13/001	mike brown	DEP=1C2-E-TEST-0075-124.13002
+1C2-E-TEST-0075-124.13/002	good man
+1C2-E-TEST-0075-124.13/003	good
+1C2-E-TEST-0075-124.13/004	los angeles
+1C2-E-TEST-0075-124.13/005	phil jackson
+1C2-E-TEST-0075-124.13/006	great
+1C2-E-TEST-0075-124.13/007	action	DEP=1C2-E-TEST-0075-124.13011
+1C2-E-TEST-0075-124.13/008	real deal
+1C2-E-TEST-0075-124.13/009	rebound	DEP=1C2-E-TEST-0075-124.13010
+1C2-E-TEST-0075-124.13/010	date	DEP=1C2-E-TEST-0075-124.13006
+1C2-E-TEST-0075-124.13/011	gets	DEP=1C2-E-TEST-0075-124.13010
+1C2-E-TEST-0075-124.13/012	tossed
+1C2-E-TEST-0075-124.13/013	aside	DEP=1C2-E-TEST-0075-124.13012
+1C2-E-TEST-0075-124.6	As expected for the last couple of days, the Los Angeles Lakers have made official the hiring of former Cleveland Cavaliers coach Mike Brown to a four year, $18.5 million dollar contract to be the next coach of the Lakers.
+1C2-E-TEST-0075-124.6/001	couple
+1C2-E-TEST-0075-124.6/002	days
+1C2-E-TEST-0075-124.6/003	los angeles
+1C2-E-TEST-0075-124.6/004	official hiring	DEP=1C2-E-TEST-0075-124.6008
+1C2-E-TEST-0075-124.6/005	former cleveland cavaliers mike brown
+1C2-E-TEST-0075-124.6/006	four
+1C2-E-TEST-0075-124.6/007	expected	DEP=1C2-E-TEST-0075-124.6008
+1C2-E-TEST-0075-124.6/008	made
+1C2-E-TEST-0075-124.6/009	18.5
+1C2-E-TEST-0075-124.6/010	million
+1C2-E-TEST-0075-124.6/011	dollar	DEP=1C2-E-TEST-0075-124.6012
+1C2-E-TEST-0075-124.6/012	contract
+1C2-E-TEST-0075-183.175	He couldn't get the Lakers past the second round of the playoffs for the second seasons in a row, however.
+1C2-E-TEST-0075-183.175/001	second
+1C2-E-TEST-0075-183.175/002	playoffs
+1C2-E-TEST-0075-183.175/003	second seasons
+1C2-E-TEST-0075-183.175/004	row
+1C2-E-TEST-0075-183.175/005	n't
+1C2-E-TEST-0075-183.331	Mike Brown on his first season as Lakers coach: I feel like I could have done better
+1C2-E-TEST-0075-183.331/001	mike brown
+1C2-E-TEST-0075-183.331/002	season
+1C2-E-TEST-0075-183.331/003	done
+1C2-E-TEST-0075-183.331/004	better	DEP=1C2-E-TEST-0075-183.331003
+1C2-E-TEST-0075-183.93	In other news, Lakers coach Mike Brown acknowledged the departure of coaching consultant Ettore Messina by calling him "truly one of the great basketball minds in the history of the sport."
+1C2-E-TEST-0075-183.93/001	news
+1C2-E-TEST-0075-183.93/002	mike brown	DEP=1C2-E-TEST-0075-183.93009
+1C2-E-TEST-0075-183.93/003	departure	DEP=1C2-E-TEST-0075-183.93009
+1C2-E-TEST-0075-183.93/004	coaching consultant ettore messina
+1C2-E-TEST-0075-183.93/005	truly
+1C2-E-TEST-0075-183.93/006	great basketball minds
+1C2-E-TEST-0075-183.93/007	history
+1C2-E-TEST-0075-183.93/008	sport
+1C2-E-TEST-0075-183.93/009	acknowledged
+1C2-E-TEST-0075-183.93/010	calling
+1C2-E-TEST-0075-2.15	Brown, like every other NBA coach currently manning a sideline ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ with the exception of Boston's Doc Rivers and San Antonio's Gregg Popovich ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ failed to get over the ultimate hump while in Cleveland, but he said it's made him hungrier, and helped him form a clear plan.
+1C2-E-TEST-0075-2.15/001	brown
+1C2-E-TEST-0075-2.15/002	nba
+1C2-E-TEST-0075-2.15/003	sideline ã cents	DEP=1C2-E-TEST-0075-2.15011
+1C2-E-TEST-0075-2.15/004	boston	DEP=1C2-E-TEST-0075-2.15015
+1C2-E-TEST-0075-2.15/005	san antonio	DEP=1C2-E-TEST-0075-2.15019
+1C2-E-TEST-0075-2.15/006	¬ â
+1C2-E-TEST-0075-2.15/007	ultimate hump
+1C2-E-TEST-0075-2.15/008	cleveland
+1C2-E-TEST-0075-2.15/009	clear plan	DEP=1C2-E-TEST-0075-2.15025
+1C2-E-TEST-0075-2.15/010	currently	DEP=1C2-E-TEST-0075-2.15011
+1C2-E-TEST-0075-2.15/011	manning
+1C2-E-TEST-0075-2.15/012	¬	DEP=1C2-E-TEST-0075-2.15013
+1C2-E-TEST-0075-2.15/013	â
+1C2-E-TEST-0075-2.15/014	doc	DEP=1C2-E-TEST-0075-2.15015
+1C2-E-TEST-0075-2.15/015	rivers
+1C2-E-TEST-0075-2.15/016	gregg	DEP=1C2-E-TEST-0075-2.15019
+1C2-E-TEST-0075-2.15/017	popovich	DEP=1C2-E-TEST-0075-2.15019
+1C2-E-TEST-0075-2.15/018	ã	DEP=1C2-E-TEST-0075-2.15019
+1C2-E-TEST-0075-2.15/019	cents
+1C2-E-TEST-0075-2.15/020	failed
+1C2-E-TEST-0075-2.15/021	's	DEP=1C2-E-TEST-0075-2.15022
+1C2-E-TEST-0075-2.15/022	made
+1C2-E-TEST-0075-2.15/023	hungrier	DEP=1C2-E-TEST-0075-2.15022
+1C2-E-TEST-0075-2.15/024	helped
+1C2-E-TEST-0075-2.15/025	form	DEP=1C2-E-TEST-0075-2.15024
+1C2-E-TEST-0075-2.21	Dr. Jerry Buss said that he, his son Jim Buss and Kupchak were very impressed with Brown's vision, because Brown "Seemed to me to know exactly what to do with this team."
+1C2-E-TEST-0075-2.21/001	dr. jerry buss
+1C2-E-TEST-0075-2.21/002	son jim buss
+1C2-E-TEST-0075-2.21/003	kupchak
+1C2-E-TEST-0075-2.21/004	brown	DEP=1C2-E-TEST-0075-2.21008
+1C2-E-TEST-0075-2.21/005	brown
+1C2-E-TEST-0075-2.21/006	team
+1C2-E-TEST-0075-2.21/007	impressed
+1C2-E-TEST-0075-2.21/008	vision
+1C2-E-TEST-0075-2.21/009	know
+1C2-E-TEST-0075-2.21/010	exactly
+1C2-E-TEST-0075-2.23	Now 41 years old, Brown attended high school in Germany, played two years of college hoops at the University of San Diego, and has two sons (Elijah and Cameron) with his wife, Carolyn.
+1C2-E-TEST-0075-2.23/001	41 years	DEP=1C2-E-TEST-0075-2.23013
+1C2-E-TEST-0075-2.23/002	brown	DEP=1C2-E-TEST-0075-2.23014
+1C2-E-TEST-0075-2.23/003	high school	DEP=1C2-E-TEST-0075-2.23014
+1C2-E-TEST-0075-2.23/004	germany
+1C2-E-TEST-0075-2.23/005	two years	DEP=1C2-E-TEST-0075-2.23015
+1C2-E-TEST-0075-2.23/006	college hoops
+1C2-E-TEST-0075-2.23/007	university
+1C2-E-TEST-0075-2.23/008	san diego
+1C2-E-TEST-0075-2.23/009	two sons
+1C2-E-TEST-0075-2.23/010	elijah cameron	DEP=1C2-E-TEST-0075-2.23009
+1C2-E-TEST-0075-2.23/011	wife
+1C2-E-TEST-0075-2.23/012	carolyn	DEP=1C2-E-TEST-0075-2.23011
+1C2-E-TEST-0075-2.23/013	old	DEP=1C2-E-TEST-0075-2.23014
+1C2-E-TEST-0075-2.23/014	attended
+1C2-E-TEST-0075-2.23/015	played	DEP=1C2-E-TEST-0075-2.23014
+1C2-E-TEST-0075-2.25	Brown worked under Gregg Popovich with the Spurs, where he earned a 2003 championship ring, and was the associate head coach for current Mavs coach Rick Carlisle Indiana, helping lead one of the NBA's best defenses.
+1C2-E-TEST-0075-2.25/001	brown	DEP=1C2-E-TEST-0075-2.25009
+1C2-E-TEST-0075-2.25/002	gregg popovich
+1C2-E-TEST-0075-2.25/003	spurs
+1C2-E-TEST-0075-2.25/004	2003 championship ring	DEP=1C2-E-TEST-0075-2.25010
+1C2-E-TEST-0075-2.25/005	associate head
+1C2-E-TEST-0075-2.25/006	current mavs rick carlisle
+1C2-E-TEST-0075-2.25/007	indiana
+1C2-E-TEST-0075-2.25/008	nba	DEP=1C2-E-TEST-0075-2.25014
+1C2-E-TEST-0075-2.25/009	worked
+1C2-E-TEST-0075-2.25/010	earned	DEP=1C2-E-TEST-0075-2.25009
+1C2-E-TEST-0075-2.25/011	helping	DEP=1C2-E-TEST-0075-2.25007
+1C2-E-TEST-0075-2.25/012	lead	DEP=1C2-E-TEST-0075-2.25011
+1C2-E-TEST-0075-2.25/013	best	DEP=1C2-E-TEST-0075-2.25014
+1C2-E-TEST-0075-2.25/014	defenses
+1C2-E-TEST-0075-2.3	With his hiring Mike Brown becomes the 22nd head coach in Lakers history and the 18th in the Los Angeles era.
+1C2-E-TEST-0075-2.3/001	hiring
+1C2-E-TEST-0075-2.3/002	mike brown
+1C2-E-TEST-0075-2.3/003	22nd head
+1C2-E-TEST-0075-2.3/004	history
+1C2-E-TEST-0075-2.3/005	18th
+1C2-E-TEST-0075-2.3/006	los angeles era
+1C2-E-TEST-0075-2.30	Brown's ability to inspire such energy and attention to detail on that end of the court should mesh well with L.A.'s in-place personnel.
+1C2-E-TEST-0075-2.30/001	brown	DEP=1C2-E-TEST-0075-2.30007
+1C2-E-TEST-0075-2.30/002	energy attention	DEP=1C2-E-TEST-0075-2.30008
+1C2-E-TEST-0075-2.30/003	detail
+1C2-E-TEST-0075-2.30/004	end
+1C2-E-TEST-0075-2.30/005	court
+1C2-E-TEST-0075-2.30/006	l.a.	DEP=1C2-E-TEST-0075-2.30011
+1C2-E-TEST-0075-2.30/007	ability	DEP=1C2-E-TEST-0075-2.30009
+1C2-E-TEST-0075-2.30/008	inspire	DEP=1C2-E-TEST-0075-2.30007
+1C2-E-TEST-0075-2.30/009	mesh
+1C2-E-TEST-0075-2.30/010	in-place	DEP=1C2-E-TEST-0075-2.30011
+1C2-E-TEST-0075-2.30/011	personnel
+1C2-E-TEST-0075-2.32	Brown said that while the Lakers will not run the triangle offense, but "will have bits and pieces of it incorporated."
+1C2-E-TEST-0075-2.32/001	brown
+1C2-E-TEST-0075-2.32/002	triangle offense	DEP=1C2-E-TEST-0075-2.32004
+1C2-E-TEST-0075-2.32/003	bits pieces
+1C2-E-TEST-0075-2.32/004	run
+1C2-E-TEST-0075-2.32/005	incorporated
+1C2-E-TEST-0075-2.38	But while Brown said he has a great deal of respect for Jackson, he's not here to fill Jackson's shoes.
+1C2-E-TEST-0075-2.38/001	brown
+1C2-E-TEST-0075-2.38/002	great deal
+1C2-E-TEST-0075-2.38/003	respect
+1C2-E-TEST-0075-2.38/004	jackson
+1C2-E-TEST-0075-2.38/005	jackson	DEP=1C2-E-TEST-0075-2.38008
+1C2-E-TEST-0075-2.38/006	's
+1C2-E-TEST-0075-2.38/007	fill	DEP=1C2-E-TEST-0075-2.38006
+1C2-E-TEST-0075-2.38/008	shoes	DEP=1C2-E-TEST-0075-2.38007
+1C2-E-TEST-0075-2.4	On Tuesday afternoon, the Lakers announced Mike Brown as the 22nd coach in franchise history.
+1C2-E-TEST-0075-2.4/001	tuesday
+1C2-E-TEST-0075-2.4/002	mike brown	DEP=1C2-E-TEST-0075-2.4006
+1C2-E-TEST-0075-2.4/003	22nd
+1C2-E-TEST-0075-2.4/004	franchise history
+1C2-E-TEST-0075-2.4/005	afternoon	DEP=1C2-E-TEST-0075-2.4006
+1C2-E-TEST-0075-2.4/006	announced
+1C2-E-TEST-0075-2.50	Brown, the 22nd head coach in franchise history and 18th in the Los Angeles era, spent last season as an NBA analyst for ESPN after previously serving as head coach for the Cleveland Cavaliers. Hired by the Cavaliers in June of 2005, the 2008-09 NBA Coach of the Year posted a 272-138 regular season record over five seasons as well as a 42-29 postseason mark, ranking fifth in NBA history (minimum 400 games) with a .663 regular season win percentage and 10th in NBA history (minimum 25 games) with a .592 playoff win percentage.
+1C2-E-TEST-0075-2.50/001	brown	DEP=1C2-E-TEST-0075-2.50026
+1C2-E-TEST-0075-2.50/002	22nd head
+1C2-E-TEST-0075-2.50/003	franchise history
+1C2-E-TEST-0075-2.50/004	18th
+1C2-E-TEST-0075-2.50/005	los angeles era
+1C2-E-TEST-0075-2.50/006	nba analyst
+1C2-E-TEST-0075-2.50/007	espn
+1C2-E-TEST-0075-2.50/008	head
+1C2-E-TEST-0075-2.50/009	cleveland cavaliers
+1C2-E-TEST-0075-2.50/010	cavaliers
+1C2-E-TEST-0075-2.50/011	june
+1C2-E-TEST-0075-2.50/012	2005
+1C2-E-TEST-0075-2.50/013	2008-09	DEP=1C2-E-TEST-0075-2.50031
+1C2-E-TEST-0075-2.50/014	nba
+1C2-E-TEST-0075-2.50/015	272-138 regular season record	DEP=1C2-E-TEST-0075-2.50031
+1C2-E-TEST-0075-2.50/016	five seasons
+1C2-E-TEST-0075-2.50/017	42-29 postseason mark	DEP=1C2-E-TEST-0075-2.50015
+1C2-E-TEST-0075-2.50/018	nba
+1C2-E-TEST-0075-2.50/019	minimum	DEP=1C2-E-TEST-0075-2.50034
+1C2-E-TEST-0075-2.50/020	.663 regular season
+1C2-E-TEST-0075-2.50/021	percentage	DEP=1C2-E-TEST-0075-2.50037
+1C2-E-TEST-0075-2.50/022	nba
+1C2-E-TEST-0075-2.50/023	minimum	DEP=1C2-E-TEST-0075-2.50039
+1C2-E-TEST-0075-2.50/024	.592 playoff
+1C2-E-TEST-0075-2.50/025	percentage
+1C2-E-TEST-0075-2.50/026	spent
+1C2-E-TEST-0075-2.50/027	season	DEP=1C2-E-TEST-0075-2.50026
+1C2-E-TEST-0075-2.50/028	previously	DEP=1C2-E-TEST-0075-2.50029
+1C2-E-TEST-0075-2.50/029	serving
+1C2-E-TEST-0075-2.50/030	hired	DEP=1C2-E-TEST-0075-2.50029
+1C2-E-TEST-0075-2.50/031	posted	DEP=1C2-E-TEST-0075-2.50026
+1C2-E-TEST-0075-2.50/032	ranking	DEP=1C2-E-TEST-0075-2.50034
+1C2-E-TEST-0075-2.50/033	fifth	DEP=1C2-E-TEST-0075-2.50034
+1C2-E-TEST-0075-2.50/034	history	DEP=1C2-E-TEST-0075-2.50037
+1C2-E-TEST-0075-2.50/035	400	DEP=1C2-E-TEST-0075-2.50036
+1C2-E-TEST-0075-2.50/036	games	DEP=1C2-E-TEST-0075-2.50019
+1C2-E-TEST-0075-2.50/037	win	DEP=1C2-E-TEST-0075-2.50026
+1C2-E-TEST-0075-2.50/038	10th	DEP=1C2-E-TEST-0075-2.50039
+1C2-E-TEST-0075-2.50/039	history
+1C2-E-TEST-0075-2.50/040	25	DEP=1C2-E-TEST-0075-2.50041
+1C2-E-TEST-0075-2.50/041	games	DEP=1C2-E-TEST-0075-2.50023
+1C2-E-TEST-0075-2.51	The fourth youngest coach in NBA history to win 60 games in a season, Brown led the Cavaliers to the 2007 NBA Finals and NBA-best records in both 2008-09 (66-16) and 2009-10 (61-21). His 2008-09 team became just the 12th team in NBA history to record 66 victories in a season while he and his staff earned the honor midway through that season to coach the Eastern Conference All-Star Team at the 2009 All-Star Game in Phoenix, AZ.
+1C2-E-TEST-0075-2.51/001	fourth youngest
+1C2-E-TEST-0075-2.51/002	nba history
+1C2-E-TEST-0075-2.51/003	60 games	DEP=1C2-E-TEST-0075-2.51024
+1C2-E-TEST-0075-2.51/004	season
+1C2-E-TEST-0075-2.51/005	brown	DEP=1C2-E-TEST-0075-2.51025
+1C2-E-TEST-0075-2.51/006	cavaliers	DEP=1C2-E-TEST-0075-2.51025
+1C2-E-TEST-0075-2.51/007	2007 nba finals
+1C2-E-TEST-0075-2.51/008	nba-best records	DEP=1C2-E-TEST-0075-2.51007
+1C2-E-TEST-0075-2.51/009	2008-09
+1C2-E-TEST-0075-2.51/010	66-16	DEP=1C2-E-TEST-0075-2.51009
+1C2-E-TEST-0075-2.51/011	2009-10	DEP=1C2-E-TEST-0075-2.51009
+1C2-E-TEST-0075-2.51/012	61-21	DEP=1C2-E-TEST-0075-2.51009
+1C2-E-TEST-0075-2.51/013	2008-09 team	DEP=1C2-E-TEST-0075-2.51014
+1C2-E-TEST-0075-2.51/014	12th team
+1C2-E-TEST-0075-2.51/015	nba history
+1C2-E-TEST-0075-2.51/016	66 victories	DEP=1C2-E-TEST-0075-2.51026
+1C2-E-TEST-0075-2.51/017	season
+1C2-E-TEST-0075-2.51/018	staff
+1C2-E-TEST-0075-2.51/019	honor	DEP=1C2-E-TEST-0075-2.51027
+1C2-E-TEST-0075-2.51/020	season
+1C2-E-TEST-0075-2.51/021	eastern conference all-star team
+1C2-E-TEST-0075-2.51/022	2009 all-star game
+1C2-E-TEST-0075-2.51/023	phoenix az
+1C2-E-TEST-0075-2.51/024	win
+1C2-E-TEST-0075-2.51/025	led	DEP=1C2-E-TEST-0075-2.51014
+1C2-E-TEST-0075-2.51/026	record	DEP=1C2-E-TEST-0075-2.51014
+1C2-E-TEST-0075-2.51/027	earned	DEP=1C2-E-TEST-0075-2.51026
+1C2-E-TEST-0075-2.51/028	midway
+1C2-E-TEST-0075-2.52	"We're very pleased to welcome Mike Brown to the Lakers," said General Manager Mitch Kupchak.
+1C2-E-TEST-0075-2.52/001	mike brown	DEP=1C2-E-TEST-0075-2.52004
+1C2-E-TEST-0075-2.52/002	general manager mitch kupchak
+1C2-E-TEST-0075-2.52/003	pleased
+1C2-E-TEST-0075-2.52/004	welcome	DEP=1C2-E-TEST-0075-2.52003
+1C2-E-TEST-0075-2.54	Brown joined the Cavaliers after spending two seasons as the associate head coach of the Indiana Pacers and three seasons as an assistant coach for the San Antonio Spurs. Posting a 341-201 (.629) record as an assistant coach, he won division titles with Indiana (2003-04) and three straight division titles with San Antonio (2000-03). While with the Spurs, Brown's teams won at least 58 games each season as well as the 2003 NBA Championship. In his two seasons in Indiana, he helped the Pacers to consecutive playoff appearances including a trip to the Eastern Conference Finals in 2004.
+1C2-E-TEST-0075-2.54/001	brown	DEP=1C2-E-TEST-0075-2.54031
+1C2-E-TEST-0075-2.54/002	cavaliers	DEP=1C2-E-TEST-0075-2.54031
+1C2-E-TEST-0075-2.54/003	two seasons
+1C2-E-TEST-0075-2.54/004	associate head
+1C2-E-TEST-0075-2.54/005	indiana pacers
+1C2-E-TEST-0075-2.54/006	three seasons
+1C2-E-TEST-0075-2.54/007	assistant
+1C2-E-TEST-0075-2.54/008	san antonio spurs
+1C2-E-TEST-0075-2.54/009	341-201	DEP=1C2-E-TEST-0075-2.54034
+1C2-E-TEST-0075-2.54/010	.629	DEP=1C2-E-TEST-0075-2.54009
+1C2-E-TEST-0075-2.54/011	assistant
+1C2-E-TEST-0075-2.54/012	division titles	DEP=1C2-E-TEST-0075-2.54035
+1C2-E-TEST-0075-2.54/013	indiana
+1C2-E-TEST-0075-2.54/014	2003-04	DEP=1C2-E-TEST-0075-2.54013
+1C2-E-TEST-0075-2.54/015	three	DEP=1C2-E-TEST-0075-2.54017
+1C2-E-TEST-0075-2.54/016	straight division	DEP=1C2-E-TEST-0075-2.54015
+1C2-E-TEST-0075-2.54/017	titles	DEP=1C2-E-TEST-0075-2.54042
+1C2-E-TEST-0075-2.54/018	san antonio
+1C2-E-TEST-0075-2.54/019	2000-03	DEP=1C2-E-TEST-0075-2.54018
+1C2-E-TEST-0075-2.54/020	spurs
+1C2-E-TEST-0075-2.54/021	brown	DEP=1C2-E-TEST-0075-2.54036
+1C2-E-TEST-0075-2.54/022	2003	DEP=1C2-E-TEST-0075-2.54040
+1C2-E-TEST-0075-2.54/023	nba championship	DEP=1C2-E-TEST-0075-2.54022
+1C2-E-TEST-0075-2.54/024	two seasons
+1C2-E-TEST-0075-2.54/025	indiana
+1C2-E-TEST-0075-2.54/026	pacers	DEP=1C2-E-TEST-0075-2.54042
+1C2-E-TEST-0075-2.54/027	consecutive playoff appearances
+1C2-E-TEST-0075-2.54/028	trip
+1C2-E-TEST-0075-2.54/029	eastern conference finals
+1C2-E-TEST-0075-2.54/030	2004
+1C2-E-TEST-0075-2.54/031	joined
+1C2-E-TEST-0075-2.54/032	spending
+1C2-E-TEST-0075-2.54/033	posting	DEP=1C2-E-TEST-0075-2.54035
+1C2-E-TEST-0075-2.54/034	record	DEP=1C2-E-TEST-0075-2.54033
+1C2-E-TEST-0075-2.54/035	won	DEP=1C2-E-TEST-0075-2.54032
+1C2-E-TEST-0075-2.54/036	teams	DEP=1C2-E-TEST-0075-2.54037
+1C2-E-TEST-0075-2.54/037	won	DEP=1C2-E-TEST-0075-2.54042
+1C2-E-TEST-0075-2.54/038	least
+1C2-E-TEST-0075-2.54/039	58	DEP=1C2-E-TEST-0075-2.54040
+1C2-E-TEST-0075-2.54/040	games	DEP=1C2-E-TEST-0075-2.54037
+1C2-E-TEST-0075-2.54/041	season	DEP=1C2-E-TEST-0075-2.54040
+1C2-E-TEST-0075-2.54/042	helped	DEP=1C2-E-TEST-0075-2.54035
+1C2-E-TEST-0075-2.55	Brown, a 1992 graduate of the University of San Diego with a degree in business, played basketball two seasons at USD after spending two years at Mesa Community College. The 41-year-old (born March 5, 1970 in Columbus, Ohio) began his NBA career with the Denver Nuggets in 1992, where he spent five seasons, first as the team's video coordinator and then as a scout. Following his time with the Nuggets, Brown spent three years with the Washington Wizards beginning in 1997, spending the first two years as an assistant under Bernie Bickerstaff and his final year as the team's professional scout.
+1C2-E-TEST-0075-2.55/001	brown	DEP=1C2-E-TEST-0075-2.55031
+1C2-E-TEST-0075-2.55/002	1992 graduate	DEP=1C2-E-TEST-0075-2.55001
+1C2-E-TEST-0075-2.55/003	university
+1C2-E-TEST-0075-2.55/004	san diego
+1C2-E-TEST-0075-2.55/005	degree
+1C2-E-TEST-0075-2.55/006	business
+1C2-E-TEST-0075-2.55/007	basketball	DEP=1C2-E-TEST-0075-2.55031
+1C2-E-TEST-0075-2.55/008	two seasons	DEP=1C2-E-TEST-0075-2.55031
+1C2-E-TEST-0075-2.55/009	usd
+1C2-E-TEST-0075-2.55/010	two years	DEP=1C2-E-TEST-0075-2.55032
+1C2-E-TEST-0075-2.55/011	mesa community college
+1C2-E-TEST-0075-2.55/012	41-year-old	DEP=1C2-E-TEST-0075-2.55037
+1C2-E-TEST-0075-2.55/013	columbus ohio
+1C2-E-TEST-0075-2.55/014	nba career	DEP=1C2-E-TEST-0075-2.55037
+1C2-E-TEST-0075-2.55/015	denver nuggets
+1C2-E-TEST-0075-2.55/016	1992
+1C2-E-TEST-0075-2.55/017	five seasons	DEP=1C2-E-TEST-0075-2.55038
+1C2-E-TEST-0075-2.55/018	team	DEP=1C2-E-TEST-0075-2.55040
+1C2-E-TEST-0075-2.55/019	scout
+1C2-E-TEST-0075-2.55/020	time	DEP=1C2-E-TEST-0075-2.55041
+1C2-E-TEST-0075-2.55/021	nuggets
+1C2-E-TEST-0075-2.55/022	brown	DEP=1C2-E-TEST-0075-2.55042
+1C2-E-TEST-0075-2.55/023	three years	DEP=1C2-E-TEST-0075-2.55042
+1C2-E-TEST-0075-2.55/024	washington wizards
+1C2-E-TEST-0075-2.55/025	1997
+1C2-E-TEST-0075-2.55/026	two years	DEP=1C2-E-TEST-0075-2.55044
+1C2-E-TEST-0075-2.55/027	assistant
+1C2-E-TEST-0075-2.55/028	bernie bickerstaff
+1C2-E-TEST-0075-2.55/029	final
+1C2-E-TEST-0075-2.55/030	team	DEP=1C2-E-TEST-0075-2.55046
+1C2-E-TEST-0075-2.55/031	played	DEP=1C2-E-TEST-0075-2.55042
+1C2-E-TEST-0075-2.55/032	spending
+1C2-E-TEST-0075-2.55/033	born	DEP=1C2-E-TEST-0075-2.55012
+1C2-E-TEST-0075-2.55/034	march	DEP=1C2-E-TEST-0075-2.55033
+1C2-E-TEST-0075-2.55/035	5	DEP=1C2-E-TEST-0075-2.55034
+1C2-E-TEST-0075-2.55/036	1970	DEP=1C2-E-TEST-0075-2.55034
+1C2-E-TEST-0075-2.55/037	began	DEP=1C2-E-TEST-0075-2.55011
+1C2-E-TEST-0075-2.55/038	spent	DEP=1C2-E-TEST-0075-2.55037
+1C2-E-TEST-0075-2.55/039	video	DEP=1C2-E-TEST-0075-2.55040
+1C2-E-TEST-0075-2.55/040	coordinator
+1C2-E-TEST-0075-2.55/041	following	DEP=1C2-E-TEST-0075-2.55019
+1C2-E-TEST-0075-2.55/042	spent
+1C2-E-TEST-0075-2.55/043	beginning	DEP=1C2-E-TEST-0075-2.55042
+1C2-E-TEST-0075-2.55/044	spending	DEP=1C2-E-TEST-0075-2.55042
+1C2-E-TEST-0075-2.55/045	professional	DEP=1C2-E-TEST-0075-2.55046
+1C2-E-TEST-0075-2.55/046	scout
+1C2-E-TEST-0075-2.7	Brown saw considerable success in his previous head coaching position with the Cleveland Cavaliers (2005-2010), averaging 54.4 wins per season for a 66.3 percent winning percentage, the fifth highest in NBA history.
+1C2-E-TEST-0075-2.7/001	brown considerable success	DEP=1C2-E-TEST-0075-2.7011
+1C2-E-TEST-0075-2.7/002	previous head coaching position
+1C2-E-TEST-0075-2.7/003	cleveland cavaliers
+1C2-E-TEST-0075-2.7/004	2005-2010	DEP=1C2-E-TEST-0075-2.7003
+1C2-E-TEST-0075-2.7/005	54.4 wins	DEP=1C2-E-TEST-0075-2.7011
+1C2-E-TEST-0075-2.7/006	season
+1C2-E-TEST-0075-2.7/007	66.3 percent
+1C2-E-TEST-0075-2.7/008	percentage	DEP=1C2-E-TEST-0075-2.7012
+1C2-E-TEST-0075-2.7/009	fifth highest	DEP=1C2-E-TEST-0075-2.7008
+1C2-E-TEST-0075-2.7/010	nba history
+1C2-E-TEST-0075-2.7/011	averaging
+1C2-E-TEST-0075-2.7/012	winning	DEP=1C2-E-TEST-0075-2.7007
+1C2-E-TEST-0075-2.8	The league's Coach of the Year after a 66-win season (2008-09), Brown led his Cavs to the Finals in 2007, and made it to at least the second round of the playoffs in all five of his years in the top seat.
+1C2-E-TEST-0075-2.8/001	league	DEP=1C2-E-TEST-0075-2.8011
+1C2-E-TEST-0075-2.8/002	66-win season
+1C2-E-TEST-0075-2.8/003	2008-09	DEP=1C2-E-TEST-0075-2.8002
+1C2-E-TEST-0075-2.8/004	cavs	DEP=1C2-E-TEST-0075-2.8011
+1C2-E-TEST-0075-2.8/005	finals
+1C2-E-TEST-0075-2.8/006	2007
+1C2-E-TEST-0075-2.8/007	playoffs
+1C2-E-TEST-0075-2.8/008	years
+1C2-E-TEST-0075-2.8/009	top seat
+1C2-E-TEST-0075-2.8/010	brown	DEP=1C2-E-TEST-0075-2.8011
+1C2-E-TEST-0075-2.8/011	led
+1C2-E-TEST-0075-2.8/012	made	DEP=1C2-E-TEST-0075-2.8011
+1C2-E-TEST-0075-2.8/013	least
+1C2-E-TEST-0075-2.8/014	second
+1C2-E-TEST-0075-2.8/015	five
+1C2-E-TEST-0075-2.9	"What Mike brings to the table is unique in that he's a proven winner in this league and yet also a rising star in his profession," said Lakers GM Mitch Kupchak.
+1C2-E-TEST-0075-2.9/001	mike	DEP=1C2-E-TEST-0075-2.9008
+1C2-E-TEST-0075-2.9/002	table
+1C2-E-TEST-0075-2.9/003	proven winner
+1C2-E-TEST-0075-2.9/004	league
+1C2-E-TEST-0075-2.9/005	rising star	DEP=1C2-E-TEST-0075-2.9003
+1C2-E-TEST-0075-2.9/006	profession
+1C2-E-TEST-0075-2.9/007	gm mitch kupchak
+1C2-E-TEST-0075-2.9/008	brings	DEP=1C2-E-TEST-0075-2.9009
+1C2-E-TEST-0075-2.9/009	unique
+1C2-E-TEST-0075-2.9/010	's	DEP=1C2-E-TEST-0075-2.9003
+1C2-E-TEST-0075-22.11	He spent three additional seasons coaching in the D-League with New Mexico, two as an assistant and another as a player-coach.
+1C2-E-TEST-0075-22.11/001	three additional seasons	DEP=1C2-E-TEST-0075-22.11008
+1C2-E-TEST-0075-22.11/002	d-league
+1C2-E-TEST-0075-22.11/003	new mexico
+1C2-E-TEST-0075-22.11/004	two	DEP=1C2-E-TEST-0075-22.11002
+1C2-E-TEST-0075-22.11/005	assistant
+1C2-E-TEST-0075-22.11/006	player-coach
+1C2-E-TEST-0075-22.11/007	spent
+1C2-E-TEST-0075-22.11/008	coaching	DEP=1C2-E-TEST-0075-22.11007
+1C2-E-TEST-0075-80.2	Mike Brown spent three years as an assistant for San AntonioÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Gregg Popovich, watching and learning the game from the longtime Spurs coach.
+1C2-E-TEST-0075-80.2/001	mike brown	DEP=1C2-E-TEST-0075-80.2010
+1C2-E-TEST-0075-80.2/002	three years
+1C2-E-TEST-0075-80.2/003	assistant
+1C2-E-TEST-0075-80.2/004	san antonioã cents
+1C2-E-TEST-0075-80.2/005	¬	DEP=1C2-E-TEST-0075-80.2007
+1C2-E-TEST-0075-80.2/006	â cents	DEP=1C2-E-TEST-0075-80.2005
+1C2-E-TEST-0075-80.2/007	gregg popovich
+1C2-E-TEST-0075-80.2/008	game	DEP=1C2-E-TEST-0075-80.2012
+1C2-E-TEST-0075-80.2/009	longtime spurs
+1C2-E-TEST-0075-80.2/010	spent
+1C2-E-TEST-0075-80.2/011	s	DEP=1C2-E-TEST-0075-80.2007
+1C2-E-TEST-0075-80.2/012	watching	DEP=1C2-E-TEST-0075-80.2007
+1C2-E-TEST-0075-80.2/013	learning	DEP=1C2-E-TEST-0075-80.2012

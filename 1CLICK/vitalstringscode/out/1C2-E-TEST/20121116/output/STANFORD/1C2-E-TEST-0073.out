@@ -1,0 +1,748 @@
+1C2-E-TEST-0073-11.25	Cristiano Ronaldo ranked No. 1 in our poll of the best players in Poland and Ukraine.
+1C2-E-TEST-0073-11.25/001	no. 1	DEP=1C2-E-TEST-0073-11.25005
+1C2-E-TEST-0073-11.25/002	poll
+1C2-E-TEST-0073-11.25/003	best players
+1C2-E-TEST-0073-11.25/004	poland ukraine
+1C2-E-TEST-0073-11.25/005	ranked
+1C2-E-TEST-0073-12.5	Ronaldo scored two goals as Portugal beat the Netherlands 2-1 in the Ukranian city of Kharkiv to guarantee itself second place in Group B and a last-eight showdown with the Czech Republic.
+1C2-E-TEST-0073-12.5/001	two goals	DEP=1C2-E-TEST-0073-12.5010
+1C2-E-TEST-0073-12.5/002	portugal	DEP=1C2-E-TEST-0073-12.5011
+1C2-E-TEST-0073-12.5/003	netherlands 2-1	DEP=1C2-E-TEST-0073-12.5011
+1C2-E-TEST-0073-12.5/004	ukranian city
+1C2-E-TEST-0073-12.5/005	kharkiv
+1C2-E-TEST-0073-12.5/006	second place	DEP=1C2-E-TEST-0073-12.5012
+1C2-E-TEST-0073-12.5/007	group b
+1C2-E-TEST-0073-12.5/008	last-eight showdown	DEP=1C2-E-TEST-0073-12.5007
+1C2-E-TEST-0073-12.5/009	czech republic
+1C2-E-TEST-0073-12.5/010	scored
+1C2-E-TEST-0073-12.5/011	beat	DEP=1C2-E-TEST-0073-12.5010
+1C2-E-TEST-0073-12.5/012	guarantee	DEP=1C2-E-TEST-0073-12.5011
+1C2-E-TEST-0073-138.1	World press highlights the brace with which he led Portugal to the Euro 2012 quarterfinals
+1C2-E-TEST-0073-138.1/001	world press	DEP=1C2-E-TEST-0073-138.1004
+1C2-E-TEST-0073-138.1/002	portugal	DEP=1C2-E-TEST-0073-138.1006
+1C2-E-TEST-0073-138.1/003	2012 quarterfinals
+1C2-E-TEST-0073-138.1/004	highlights
+1C2-E-TEST-0073-138.1/005	brace	DEP=1C2-E-TEST-0073-138.1004
+1C2-E-TEST-0073-138.1/006	led
+1C2-E-TEST-0073-138.16	Daily Mail (UK): "Hello Cristiano Ronaldo, goodbye Holland."
+1C2-E-TEST-0073-138.16/001	daily mail
+1C2-E-TEST-0073-138.16/002	uk	DEP=1C2-E-TEST-0073-138.16001
+1C2-E-TEST-0073-138.16/003	goodbye
+1C2-E-TEST-0073-138.16/004	holland	DEP=1C2-E-TEST-0073-138.16003
+1C2-E-TEST-0073-138.16/005	hello	DEP=1C2-E-TEST-0073-138.16001
+1C2-E-TEST-0073-138.20	ESPN (US): "Ronaldo's brace guides Portugal past the Netherlands 2-1 and into the quarterfinals."
+1C2-E-TEST-0073-138.20/001	espn
+1C2-E-TEST-0073-138.20/002	brace guides
+1C2-E-TEST-0073-138.20/003	netherlands 2-1
+1C2-E-TEST-0073-138.20/004	quarterfinals
+1C2-E-TEST-0073-138.20/005	portugal	DEP=1C2-E-TEST-0073-138.20002
+1C2-E-TEST-0073-138.21	Record (Portugal): "Cristiano takes Portugal to the quarterfinals"
+1C2-E-TEST-0073-138.21/001	record
+1C2-E-TEST-0073-138.21/002	portugal	DEP=1C2-E-TEST-0073-138.21001
+1C2-E-TEST-0073-138.21/003	portugal	DEP=1C2-E-TEST-0073-138.21005
+1C2-E-TEST-0073-138.21/004	quarterfinals
+1C2-E-TEST-0073-138.21/005	takes	DEP=1C2-E-TEST-0073-138.21001
+1C2-E-TEST-0073-138.31	He netted two goals in his best Euro performance and put Portugal in the quarterfinals."
+1C2-E-TEST-0073-138.31/001	two goals	DEP=1C2-E-TEST-0073-138.31006
+1C2-E-TEST-0073-138.31/002	best
+1C2-E-TEST-0073-138.31/003	performance	DEP=1C2-E-TEST-0073-138.31006
+1C2-E-TEST-0073-138.31/004	portugal	DEP=1C2-E-TEST-0073-138.31007
+1C2-E-TEST-0073-138.31/005	quarterfinals
+1C2-E-TEST-0073-138.31/006	netted
+1C2-E-TEST-0073-138.31/007	put	DEP=1C2-E-TEST-0073-138.31006
+1C2-E-TEST-0073-138.6	The Portuguese footballer gave a stellar performance, scoring two goals and hitting the posts several times."
+1C2-E-TEST-0073-138.6/001	portuguese footballer	DEP=1C2-E-TEST-0073-138.6005
+1C2-E-TEST-0073-138.6/002	stellar performance	DEP=1C2-E-TEST-0073-138.6005
+1C2-E-TEST-0073-138.6/003	two goals	DEP=1C2-E-TEST-0073-138.6006
+1C2-E-TEST-0073-138.6/004	posts	DEP=1C2-E-TEST-0073-138.6007
+1C2-E-TEST-0073-138.6/005	gave
+1C2-E-TEST-0073-138.6/006	scoring	DEP=1C2-E-TEST-0073-138.6005
+1C2-E-TEST-0073-138.6/007	hitting	DEP=1C2-E-TEST-0073-138.6006
+1C2-E-TEST-0073-138.6/008	times	DEP=1C2-E-TEST-0073-138.6007
+1C2-E-TEST-0073-139.5	Video- Ronaldo miss vs Denmark EM 2012- Portugal 2-1 Denmark- Ronaldo miss 78ÃÂ¢Ã¢ÂÂ¬ÃÂ²
+1C2-E-TEST-0073-139.5/001	video
+1C2-E-TEST-0073-139.5/002	denmark em
+1C2-E-TEST-0073-139.5/003	2012	DEP=1C2-E-TEST-0073-139.5002
+1C2-E-TEST-0073-139.5/004	portugal 2-1	DEP=1C2-E-TEST-0073-139.5002
+1C2-E-TEST-0073-139.5/005	denmark	DEP=1C2-E-TEST-0073-139.5004
+1C2-E-TEST-0073-139.5/006	78ã cents
+1C2-E-TEST-0073-139.5/007	â ¬ â ²	DEP=1C2-E-TEST-0073-139.5006
+1C2-E-TEST-0073-142.11	DONETSK (Reuters) - Portugal's run to the Euro 2012 semi-finals has rightly been accompanied by appreciation of the talents of winger Cristiano Ronaldo, whose...
+1C2-E-TEST-0073-142.11/001	donetsk	DEP=1C2-E-TEST-0073-142.11010
+1C2-E-TEST-0073-142.11/002	reuters	DEP=1C2-E-TEST-0073-142.11001
+1C2-E-TEST-0073-142.11/003	portugal	DEP=1C2-E-TEST-0073-142.11008
+1C2-E-TEST-0073-142.11/004	2012 semi-finals
+1C2-E-TEST-0073-142.11/005	appreciation
+1C2-E-TEST-0073-142.11/006	talents
+1C2-E-TEST-0073-142.11/007	winger
+1C2-E-TEST-0073-142.11/008	run	DEP=1C2-E-TEST-0073-142.11001
+1C2-E-TEST-0073-142.11/009	rightly	DEP=1C2-E-TEST-0073-142.11010
+1C2-E-TEST-0073-142.11/010	accompanied
+1C2-E-TEST-0073-142.17	AColville17 ÃÂÃÂ So who do all of my @Cristiano Ronaldo haters have in today's Portugal vs Czech Republic Euro 2012 quarter final? #CR7 #hatersgonnahate ÃÂ¢ÃÂ¡ÃÂ½ÃÂ°ÃÂ¸ÃÂÃ¢ÂÂ ÃÂÃÂ 8 minutes ago
+1C2-E-TEST-0073-142.17/001	acolville17 ã â
+1C2-E-TEST-0073-142.17/002	@cristiano haters
+1C2-E-TEST-0073-142.17/003	today
+1C2-E-TEST-0073-142.17/004	portugal czech	DEP=1C2-E-TEST-0073-142.17006
+1C2-E-TEST-0073-142.17/005	republic
+1C2-E-TEST-0073-142.17/006	2012 quarter	DEP=1C2-E-TEST-0073-142.17008
+1C2-E-TEST-0073-142.17/007	final	DEP=1C2-E-TEST-0073-142.17006
+1C2-E-TEST-0073-142.17/008	#cr 7	DEP=1C2-E-TEST-0073-142.17009
+1C2-E-TEST-0073-142.17/009	#hatersgonnahate	DEP=1C2-E-TEST-0073-142.17011
+1C2-E-TEST-0073-142.17/010	ã cents	DEP=1C2-E-TEST-0073-142.17009
+1C2-E-TEST-0073-142.17/011	å ¡	DEP=1C2-E-TEST-0073-142.17012
+1C2-E-TEST-0073-142.17/012	â 1\/2	DEP=1C2-E-TEST-0073-142.17013
+1C2-E-TEST-0073-142.17/013	ã °	DEP=1C2-E-TEST-0073-142.17015
+1C2-E-TEST-0073-142.17/014	å ¸ â â	DEP=1C2-E-TEST-0073-142.17013
+1C2-E-TEST-0073-142.17/015	â	DEP=1C2-E-TEST-0073-142.17003
+1C2-E-TEST-0073-142.17/016	8 minutes	DEP=1C2-E-TEST-0073-142.17018
+1C2-E-TEST-0073-142.17/017	ã
+1C2-E-TEST-0073-142.17/018	ago
+1C2-E-TEST-0073-142.18	shreyanpatil ÃÂÃÂ Cristiano Ronaldo should be classed as the best player in the world...if he leads Portugal to Euro 2012 glory!ÃÂÃÂ 14 minutes ago
+1C2-E-TEST-0073-142.18/001	shreyanpatil ã â
+1C2-E-TEST-0073-142.18/002	best player
+1C2-E-TEST-0073-142.18/003	world
+1C2-E-TEST-0073-142.18/004	portugal	DEP=1C2-E-TEST-0073-142.18009
+1C2-E-TEST-0073-142.18/005	2012 glory
+1C2-E-TEST-0073-142.18/006	ã â	DEP=1C2-E-TEST-0073-142.18008
+1C2-E-TEST-0073-142.18/007	14 minutes	DEP=1C2-E-TEST-0073-142.18010
+1C2-E-TEST-0073-142.18/008	classed
+1C2-E-TEST-0073-142.18/009	leads	DEP=1C2-E-TEST-0073-142.18008
+1C2-E-TEST-0073-142.18/010	ago	DEP=1C2-E-TEST-0073-142.18006
+1C2-E-TEST-0073-142.19	arieefrahmaan28 ÃÂÃÂ If Portugal win Euro 2012, does that mean Cristiano Ronaldo is better than Lionel Messi?
+1C2-E-TEST-0073-142.19/001	arieefrahmaan28 ã â
+1C2-E-TEST-0073-142.19/002	portugal
+1C2-E-TEST-0073-142.19/003	2012
+1C2-E-TEST-0073-142.19/004	mean
+1C2-E-TEST-0073-142.19/005	lionel messi
+1C2-E-TEST-0073-142.19/006	better
+1C2-E-TEST-0073-142.4	ÃÂ¢Ã¢ÂÂ¬ÃÂ¢ 'They can do much damage,' says Barcelona midfielder ÃÂ¢Ã¢ÂÂ¬ÃÂ¢ Xabi Alonso says Spain have no special plans for Ronaldo The Spain midfielder Cesc FÃÂÃÂ¡bregas...
+1C2-E-TEST-0073-142.4/001	damage
+1C2-E-TEST-0073-142.4/002	barcelona midfielder ã cents
+1C2-E-TEST-0073-142.4/003	xabi alonso	DEP=1C2-E-TEST-0073-142.4018
+1C2-E-TEST-0073-142.4/004	spain
+1C2-E-TEST-0073-142.4/005	special plans
+1C2-E-TEST-0073-142.4/006	spain midfielder cesc fã â	DEP=1C2-E-TEST-0073-142.4019
+1C2-E-TEST-0073-142.4/007	bregas	DEP=1C2-E-TEST-0073-142.4019
+1C2-E-TEST-0073-142.4/008	ã	DEP=1C2-E-TEST-0073-142.4009
+1C2-E-TEST-0073-142.4/009	cents	DEP=1C2-E-TEST-0073-142.4011
+1C2-E-TEST-0073-142.4/010	â	DEP=1C2-E-TEST-0073-142.4011
+1C2-E-TEST-0073-142.4/011	¬	DEP=1C2-E-TEST-0073-142.4014
+1C2-E-TEST-0073-142.4/012	â	DEP=1C2-E-TEST-0073-142.4013
+1C2-E-TEST-0073-142.4/013	cents	DEP=1C2-E-TEST-0073-142.4011
+1C2-E-TEST-0073-142.4/014	says	DEP=1C2-E-TEST-0073-142.4018
+1C2-E-TEST-0073-142.4/015	¬	DEP=1C2-E-TEST-0073-142.4016
+1C2-E-TEST-0073-142.4/016	â	DEP=1C2-E-TEST-0073-142.4017
+1C2-E-TEST-0073-142.4/017	cents
+1C2-E-TEST-0073-142.4/018	says
+1C2-E-TEST-0073-142.4/019	¡	DEP=1C2-E-TEST-0073-142.4005
+1C2-E-TEST-0073-142.6	Spanish midfielder Xavi HernÃÂÃÂ¡ndez claims Spain must overcome more than Cristiano Ronaldo if they are to reach Euro 2012 final.
+1C2-E-TEST-0073-142.6/001	spanish midfielder	DEP=1C2-E-TEST-0073-142.6006
+1C2-E-TEST-0073-142.6/002	xavi hernã â	DEP=1C2-E-TEST-0073-142.6001
+1C2-E-TEST-0073-142.6/003	¡ ndez claims	DEP=1C2-E-TEST-0073-142.6001
+1C2-E-TEST-0073-142.6/004	spain	DEP=1C2-E-TEST-0073-142.6003
+1C2-E-TEST-0073-142.6/005	2012
+1C2-E-TEST-0073-142.6/006	overcome
+1C2-E-TEST-0073-142.6/007	reach
+1C2-E-TEST-0073-142.6/008	final	DEP=1C2-E-TEST-0073-142.6007
+1C2-E-TEST-0073-15.2	Warsaw: Czech Republic goalkeeper Petr Cech has heaped praise on Cristiano Ronaldo following his side`s 1-0 defeat to Portugal in the Euro 2012 quarter-finals, labelling him as "one of the two best players" in world football.
+1C2-E-TEST-0073-15.2/001	warsaw
+1C2-E-TEST-0073-15.2/002	czech republic goalkeeper petr cech	DEP=1C2-E-TEST-0073-15.2010
+1C2-E-TEST-0073-15.2/003	praise	DEP=1C2-E-TEST-0073-15.2005
+1C2-E-TEST-0073-15.2/004	side	DEP=1C2-E-TEST-0073-15.2011
+1C2-E-TEST-0073-15.2/005	1-0 defeat	DEP=1C2-E-TEST-0073-15.2010
+1C2-E-TEST-0073-15.2/006	portugal
+1C2-E-TEST-0073-15.2/007	2012 quarter-finals
+1C2-E-TEST-0073-15.2/008	two best players
+1C2-E-TEST-0073-15.2/009	world football
+1C2-E-TEST-0073-15.2/010	heaped	DEP=1C2-E-TEST-0073-15.2001
+1C2-E-TEST-0073-15.2/011	following
+1C2-E-TEST-0073-15.2/012	s	DEP=1C2-E-TEST-0073-15.2005
+1C2-E-TEST-0073-15.2/013	labeling	DEP=1C2-E-TEST-0073-15.2005
+1C2-E-TEST-0073-15.3	The Real Madrid ace powered a header past the custodian on the 79th minute to send Paulo Bento`s men to the semi-finals in a match which was largely dominated by the Seleccao.
+1C2-E-TEST-0073-15.3/001	real madrid ace	DEP=1C2-E-TEST-0073-15.3010
+1C2-E-TEST-0073-15.3/002	header	DEP=1C2-E-TEST-0073-15.3010
+1C2-E-TEST-0073-15.3/003	custodian
+1C2-E-TEST-0073-15.3/004	79th minute
+1C2-E-TEST-0073-15.3/005	paulo bento	DEP=1C2-E-TEST-0073-15.3011
+1C2-E-TEST-0073-15.3/006	s men	DEP=1C2-E-TEST-0073-15.3011
+1C2-E-TEST-0073-15.3/007	semi-finals
+1C2-E-TEST-0073-15.3/008	match
+1C2-E-TEST-0073-15.3/009	seleccao
+1C2-E-TEST-0073-15.3/010	powered
+1C2-E-TEST-0073-15.3/011	send	DEP=1C2-E-TEST-0073-15.3010
+1C2-E-TEST-0073-15.3/012	largely	DEP=1C2-E-TEST-0073-15.3013
+1C2-E-TEST-0073-15.3/013	dominated	DEP=1C2-E-TEST-0073-15.3008
+1C2-E-TEST-0073-152.15	Spain's players celebrate after defeating Portugal in their Euro 2012 semifinal at the Donbass Arena in Donetsk on Wednesday.
+1C2-E-TEST-0073-152.15/001	spain	DEP=1C2-E-TEST-0073-152.15007
+1C2-E-TEST-0073-152.15/002	portugal	DEP=1C2-E-TEST-0073-152.15009
+1C2-E-TEST-0073-152.15/003	2012
+1C2-E-TEST-0073-152.15/004	donbass
+1C2-E-TEST-0073-152.15/005	donetsk
+1C2-E-TEST-0073-152.15/006	wednesday
+1C2-E-TEST-0073-152.15/007	players	DEP=1C2-E-TEST-0073-152.15008
+1C2-E-TEST-0073-152.15/008	celebrate
+1C2-E-TEST-0073-152.15/009	defeating
+1C2-E-TEST-0073-152.15/010	semifinal	DEP=1C2-E-TEST-0073-152.15011
+1C2-E-TEST-0073-152.15/011	arena
+1C2-E-TEST-0073-152.19	CRISTINO Ronaldo might have been left out of the semi-final shoot-out drama with Spain but he is "confident" that his performances for Portugal at Euro 2012 will win him the Fifa Ballon DÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢Or.
+1C2-E-TEST-0073-152.19/001	cristino
+1C2-E-TEST-0073-152.19/002	semi-final shoot-out drama
+1C2-E-TEST-0073-152.19/003	spain
+1C2-E-TEST-0073-152.19/004	performances	DEP=1C2-E-TEST-0073-152.19012
+1C2-E-TEST-0073-152.19/005	portugal
+1C2-E-TEST-0073-152.19/006	2012
+1C2-E-TEST-0073-152.19/007	fifa ballon dã	DEP=1C2-E-TEST-0073-152.19012
+1C2-E-TEST-0073-152.19/008	cents
+1C2-E-TEST-0073-152.19/009	¬
+1C2-E-TEST-0073-152.19/010	left
+1C2-E-TEST-0073-152.19/011	confident	DEP=1C2-E-TEST-0073-152.19010
+1C2-E-TEST-0073-152.19/012	win	DEP=1C2-E-TEST-0073-152.19011
+1C2-E-TEST-0073-152.19/013	â	DEP=1C2-E-TEST-0073-152.19014
+1C2-E-TEST-0073-152.19/014	cents	DEP=1C2-E-TEST-0073-152.19009
+1C2-E-TEST-0073-154.6	DONETSK (Reuters) - Portugal's run to the Euro 2012 semi-finals has rightly been accompanied by appreciation of the talents of winger Cristiano Ronaldo, whose...
+1C2-E-TEST-0073-154.6/001	donetsk	DEP=1C2-E-TEST-0073-154.6010
+1C2-E-TEST-0073-154.6/002	reuters	DEP=1C2-E-TEST-0073-154.6001
+1C2-E-TEST-0073-154.6/003	portugal	DEP=1C2-E-TEST-0073-154.6008
+1C2-E-TEST-0073-154.6/004	2012 semi-finals
+1C2-E-TEST-0073-154.6/005	appreciation
+1C2-E-TEST-0073-154.6/006	talents
+1C2-E-TEST-0073-154.6/007	winger
+1C2-E-TEST-0073-154.6/008	run	DEP=1C2-E-TEST-0073-154.6001
+1C2-E-TEST-0073-154.6/009	rightly	DEP=1C2-E-TEST-0073-154.6010
+1C2-E-TEST-0073-154.6/010	accompanied
+1C2-E-TEST-0073-170.11	DONETSK, UKRAINE - JUNE 27: Cristiano Ronaldo of Portugal is consoled by head coach Paulo Bento after losing a penalty shoot out during the UEFA EURO 2012 semi final match between Portugal and Spain at Donbass Arena on June 27, 2012 in Donetsk, Ukraine.
+1C2-E-TEST-0073-170.11/001	donetsk
+1C2-E-TEST-0073-170.11/002	ukraine	DEP=1C2-E-TEST-0073-170.11001
+1C2-E-TEST-0073-170.11/003	june 27	DEP=1C2-E-TEST-0073-170.11001
+1C2-E-TEST-0073-170.11/004	portugal
+1C2-E-TEST-0073-170.11/005	head coach paulo bento
+1C2-E-TEST-0073-170.11/006	penalty shoot	DEP=1C2-E-TEST-0073-170.11013
+1C2-E-TEST-0073-170.11/007	uefa 2012 semi	DEP=1C2-E-TEST-0073-170.11015
+1C2-E-TEST-0073-170.11/008	portugal spain
+1C2-E-TEST-0073-170.11/009	donbass arena
+1C2-E-TEST-0073-170.11/010	june 27 2012
+1C2-E-TEST-0073-170.11/011	donetsk ukraine
+1C2-E-TEST-0073-170.11/012	consoled	DEP=1C2-E-TEST-0073-170.11001
+1C2-E-TEST-0073-170.11/013	losing
+1C2-E-TEST-0073-170.11/014	final	DEP=1C2-E-TEST-0073-170.11015
+1C2-E-TEST-0073-170.11/015	match
+1C2-E-TEST-0073-170.13	DONETSK, UKRAINE - JUNE 27: Cristiano Ronaldo of Portugal reads a Respect message ahead of the UEFA EURO 2012 semi final match between Portugal and Spain at Donbass Arena on June 27, 2012 in Donetsk, Ukraine.
+1C2-E-TEST-0073-170.13/001	donetsk
+1C2-E-TEST-0073-170.13/002	ukraine	DEP=1C2-E-TEST-0073-170.13001
+1C2-E-TEST-0073-170.13/003	june 27	DEP=1C2-E-TEST-0073-170.13001
+1C2-E-TEST-0073-170.13/004	portugal
+1C2-E-TEST-0073-170.13/005	respect message	DEP=1C2-E-TEST-0073-170.13008
+1C2-E-TEST-0073-170.13/006	uefa
+1C2-E-TEST-0073-170.13/007	2012 semi	DEP=1C2-E-TEST-0073-170.13008
+1C2-E-TEST-0073-170.13/008	final match
+1C2-E-TEST-0073-170.13/009	portugal spain
+1C2-E-TEST-0073-170.13/010	donbass arena
+1C2-E-TEST-0073-170.13/011	june 27 2012
+1C2-E-TEST-0073-170.13/012	donetsk ukraine
+1C2-E-TEST-0073-170.13/013	reads	DEP=1C2-E-TEST-0073-170.13001
+1C2-E-TEST-0073-170.13/014	ahead
+1C2-E-TEST-0073-170.2	Portuguese forward Cristiano Ronaldo has a shot on goal during the Euro 2012 football championships semi-final match Portugal vs Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.2/001	shot
+1C2-E-TEST-0073-170.2/002	goal
+1C2-E-TEST-0073-170.2/003	2012 football championships
+1C2-E-TEST-0073-170.2/004	semi-final match portugal spain	DEP=1C2-E-TEST-0073-170.2003
+1C2-E-TEST-0073-170.2/005	june 27 2012
+1C2-E-TEST-0073-170.2/006	donbass arena
+1C2-E-TEST-0073-170.2/007	donetsk
+1C2-E-TEST-0073-170.2/008	portuguese
+1C2-E-TEST-0073-170.25	Portuguese forward Cristiano Ronaldo (2ndR) is comforted by teammates at the end of the penalty shoot out of the Euro 2012 football championships semi-final match Portugal vs. Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.25/001	portuguese	DEP=1C2-E-TEST-0073-170.25011
+1C2-E-TEST-0073-170.25/002	2ndr
+1C2-E-TEST-0073-170.25/003	teammates
+1C2-E-TEST-0073-170.25/004	end
+1C2-E-TEST-0073-170.25/005	penalty shoot
+1C2-E-TEST-0073-170.25/006	2012 football championships
+1C2-E-TEST-0073-170.25/007	semi-final match portugal vs. spain	DEP=1C2-E-TEST-0073-170.25006
+1C2-E-TEST-0073-170.25/008	june 27 2012
+1C2-E-TEST-0073-170.25/009	donbass arena
+1C2-E-TEST-0073-170.25/010	donetsk
+1C2-E-TEST-0073-170.25/011	comforted
+1C2-E-TEST-0073-170.30	DONETSK, UKRAINE - JUNE 27: Cristiano Ronaldo of Portugal looks dejected after losing a penalty shoot out during the UEFA EURO 2012 semi final match between Portugal and Spain at Donbass Arena on June 27, 2012 in Donetsk, Ukraine.
+1C2-E-TEST-0073-170.30/001	donetsk
+1C2-E-TEST-0073-170.30/002	ukraine	DEP=1C2-E-TEST-0073-170.30001
+1C2-E-TEST-0073-170.30/003	june 27	DEP=1C2-E-TEST-0073-170.30001
+1C2-E-TEST-0073-170.30/004	portugal
+1C2-E-TEST-0073-170.30/005	penalty shoot	DEP=1C2-E-TEST-0073-170.30013
+1C2-E-TEST-0073-170.30/006	uefa 2012 semi	DEP=1C2-E-TEST-0073-170.30015
+1C2-E-TEST-0073-170.30/007	portugal spain
+1C2-E-TEST-0073-170.30/008	donbass arena
+1C2-E-TEST-0073-170.30/009	june 27 2012
+1C2-E-TEST-0073-170.30/010	donetsk ukraine
+1C2-E-TEST-0073-170.30/011	looks	DEP=1C2-E-TEST-0073-170.30001
+1C2-E-TEST-0073-170.30/012	dejected	DEP=1C2-E-TEST-0073-170.30011
+1C2-E-TEST-0073-170.30/013	losing
+1C2-E-TEST-0073-170.30/014	final	DEP=1C2-E-TEST-0073-170.30015
+1C2-E-TEST-0073-170.30/015	match
+1C2-E-TEST-0073-170.32	Portuguese forward Cristiano Ronaldo and Portuguese forward Silvestre Varela look dejected at the end of the Euro 2012 football championships semi-final match Portugal vs Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.32/001	portuguese
+1C2-E-TEST-0073-170.32/002	end
+1C2-E-TEST-0073-170.32/003	2012 football championships
+1C2-E-TEST-0073-170.32/004	semi-final match portugal spain	DEP=1C2-E-TEST-0073-170.32003
+1C2-E-TEST-0073-170.32/005	june 27 2012
+1C2-E-TEST-0073-170.32/006	donbass arena
+1C2-E-TEST-0073-170.32/007	donetsk
+1C2-E-TEST-0073-170.32/008	portuguese	DEP=1C2-E-TEST-0073-170.32010
+1C2-E-TEST-0073-170.32/009	silvestre	DEP=1C2-E-TEST-0073-170.32010
+1C2-E-TEST-0073-170.32/010	varela	DEP=1C2-E-TEST-0073-170.32011
+1C2-E-TEST-0073-170.32/011	look
+1C2-E-TEST-0073-170.32/012	dejected	DEP=1C2-E-TEST-0073-170.32011
+1C2-E-TEST-0073-170.4	Portuguese forward Cristiano Ronaldo waits for the start of the penalty shoot out during the Euro 2012 football championships semi-final match Portugal vs Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.4/001	start
+1C2-E-TEST-0073-170.4/002	penalty shoot
+1C2-E-TEST-0073-170.4/003	2012 football championships
+1C2-E-TEST-0073-170.4/004	semi-final match portugal spain	DEP=1C2-E-TEST-0073-170.4003
+1C2-E-TEST-0073-170.4/005	june 27 2012
+1C2-E-TEST-0073-170.4/006	donbass arena
+1C2-E-TEST-0073-170.4/007	donetsk
+1C2-E-TEST-0073-170.4/008	portuguese
+1C2-E-TEST-0073-170.4/009	waits
+1C2-E-TEST-0073-170.41	Portuguese forward Cristiano Ronaldo lays on the ground as Spanish defender Alvaro Arbeloa tries to help during the Euro 2012 football championships semi-final match Portugal vs Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.41/001	ground
+1C2-E-TEST-0073-170.41/002	spanish defender alvaro arbeloa	DEP=1C2-E-TEST-0073-170.41010
+1C2-E-TEST-0073-170.41/003	2012 football championships
+1C2-E-TEST-0073-170.41/004	semi-final match portugal spain	DEP=1C2-E-TEST-0073-170.41003
+1C2-E-TEST-0073-170.41/005	june 27 2012
+1C2-E-TEST-0073-170.41/006	donbass arena
+1C2-E-TEST-0073-170.41/007	donetsk
+1C2-E-TEST-0073-170.41/008	portuguese
+1C2-E-TEST-0073-170.41/009	lays
+1C2-E-TEST-0073-170.41/010	tries	DEP=1C2-E-TEST-0073-170.41009
+1C2-E-TEST-0073-170.41/011	help	DEP=1C2-E-TEST-0073-170.41010
+1C2-E-TEST-0073-170.45	Portuguese forward Cristiano Ronaldo (C) rests during the half-time of the extra time of the Euro 2012 football championships semi-final match Portugal vs. Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.45/001	c
+1C2-E-TEST-0073-170.45/002	half-time
+1C2-E-TEST-0073-170.45/003	extra time
+1C2-E-TEST-0073-170.45/004	2012 football
+1C2-E-TEST-0073-170.45/005	championships	DEP=1C2-E-TEST-0073-170.45011
+1C2-E-TEST-0073-170.45/006	semi-final match portugal vs. spain	DEP=1C2-E-TEST-0073-170.45005
+1C2-E-TEST-0073-170.45/007	june 27 2012
+1C2-E-TEST-0073-170.45/008	donbass arena
+1C2-E-TEST-0073-170.45/009	donetsk
+1C2-E-TEST-0073-170.45/010	portuguese	DEP=1C2-E-TEST-0073-170.45011
+1C2-E-TEST-0073-170.45/011	rests
+1C2-E-TEST-0073-170.47	Spain's Gerard Pique clears the ball in front of Portugal 's Cristiano Ronaldo during the Euro 2012 soccer championship semifinal match between Spain and Portugal in Donetsk, Ukraine , Wednesday, June 27, 2012.
+1C2-E-TEST-0073-170.47/001	spain	DEP=1C2-E-TEST-0073-170.47008
+1C2-E-TEST-0073-170.47/002	ball	DEP=1C2-E-TEST-0073-170.47009
+1C2-E-TEST-0073-170.47/003	portugal
+1C2-E-TEST-0073-170.47/004	2012 soccer championship	DEP=1C2-E-TEST-0073-170.47011
+1C2-E-TEST-0073-170.47/005	spain portugal
+1C2-E-TEST-0073-170.47/006	donetsk ukraine wednesday
+1C2-E-TEST-0073-170.47/007	gerard	DEP=1C2-E-TEST-0073-170.47008
+1C2-E-TEST-0073-170.47/008	pique	DEP=1C2-E-TEST-0073-170.47009
+1C2-E-TEST-0073-170.47/009	clears
+1C2-E-TEST-0073-170.47/010	semifinal	DEP=1C2-E-TEST-0073-170.47011
+1C2-E-TEST-0073-170.47/011	match
+1C2-E-TEST-0073-170.47/012	june	DEP=1C2-E-TEST-0073-170.47011
+1C2-E-TEST-0073-170.47/013	27	DEP=1C2-E-TEST-0073-170.47012
+1C2-E-TEST-0073-170.47/014	2012	DEP=1C2-E-TEST-0073-170.47012
+1C2-E-TEST-0073-170.53	Portugal 's Cristiano Ronaldo, left, fails to score during the Euro 2012 soccer championship semifinal match between Spain and Portugal in Donetsk, Ukraine , Wednesday, June 27, 2012.
+1C2-E-TEST-0073-170.53/001	portugal
+1C2-E-TEST-0073-170.53/002	2012 soccer championship	DEP=1C2-E-TEST-0073-170.53009
+1C2-E-TEST-0073-170.53/003	spain portugal
+1C2-E-TEST-0073-170.53/004	donetsk ukraine wednesday
+1C2-E-TEST-0073-170.53/005	left
+1C2-E-TEST-0073-170.53/006	fails
+1C2-E-TEST-0073-170.53/007	score	DEP=1C2-E-TEST-0073-170.53006
+1C2-E-TEST-0073-170.53/008	semifinal	DEP=1C2-E-TEST-0073-170.53009
+1C2-E-TEST-0073-170.53/009	match
+1C2-E-TEST-0073-170.53/010	june	DEP=1C2-E-TEST-0073-170.53007
+1C2-E-TEST-0073-170.53/011	27	DEP=1C2-E-TEST-0073-170.53010
+1C2-E-TEST-0073-170.53/012	2012	DEP=1C2-E-TEST-0073-170.53010
+1C2-E-TEST-0073-170.8	Portuguese forward Cristiano Ronaldo takes off his captain's armband after losing the penalty shoot out at the end of the Euro 2012 football championships semi-final match Portugal vs Spain on June 27, 2012 at the Donbass Arena in Donetsk.
+1C2-E-TEST-0073-170.8/001	captain	DEP=1C2-E-TEST-0073-170.8011
+1C2-E-TEST-0073-170.8/002	penalty shoot	DEP=1C2-E-TEST-0073-170.8012
+1C2-E-TEST-0073-170.8/003	end
+1C2-E-TEST-0073-170.8/004	2012 football championships
+1C2-E-TEST-0073-170.8/005	semi-final match portugal spain	DEP=1C2-E-TEST-0073-170.8004
+1C2-E-TEST-0073-170.8/006	june 27 2012
+1C2-E-TEST-0073-170.8/007	donbass arena
+1C2-E-TEST-0073-170.8/008	donetsk
+1C2-E-TEST-0073-170.8/009	portuguese
+1C2-E-TEST-0073-170.8/010	takes
+1C2-E-TEST-0073-170.8/011	armband	DEP=1C2-E-TEST-0073-170.8010
+1C2-E-TEST-0073-170.8/012	losing
+1C2-E-TEST-0073-23.3	Portugal have rallied around captain Cristiano Ronaldo ahead of Thursday's Euro 2012 quarter-final against the Czech Republic here.
+1C2-E-TEST-0073-23.3/001	portugal	DEP=1C2-E-TEST-0073-23.3005
+1C2-E-TEST-0073-23.3/002	captain
+1C2-E-TEST-0073-23.3/003	thursday
+1C2-E-TEST-0073-23.3/004	czech republic
+1C2-E-TEST-0073-23.3/005	rallied
+1C2-E-TEST-0073-23.3/006	ahead	DEP=1C2-E-TEST-0073-23.3005
+1C2-E-TEST-0073-23.3/007	2012
+1C2-E-TEST-0073-23.3/008	quarter-final
+1C2-E-TEST-0073-23.6	Paulo Bento's Portugal have got where they are thanks to their team ethic and after seeing Ronaldo finally click into gear in Sunday's game against the hapless Dutch to score both goals in the 2-1 win.
+1C2-E-TEST-0073-23.6/001	paulo bento	DEP=1C2-E-TEST-0073-23.6007
+1C2-E-TEST-0073-23.6/002	team ethic
+1C2-E-TEST-0073-23.6/003	gear
+1C2-E-TEST-0073-23.6/004	sunday	DEP=1C2-E-TEST-0073-23.6011
+1C2-E-TEST-0073-23.6/005	goals
+1C2-E-TEST-0073-23.6/006	2-1
+1C2-E-TEST-0073-23.6/007	portugal	DEP=1C2-E-TEST-0073-23.6008
+1C2-E-TEST-0073-23.6/008	got
+1C2-E-TEST-0073-23.6/009	thanks
+1C2-E-TEST-0073-23.6/010	finally
+1C2-E-TEST-0073-23.6/011	game
+1C2-E-TEST-0073-23.6/012	hapless
+1C2-E-TEST-0073-23.6/013	dutch	DEP=1C2-E-TEST-0073-23.6012
+1C2-E-TEST-0073-23.6/014	score
+1C2-E-TEST-0073-29.3	ÃÂÃÂ  Video , Cristiano Ronaldo , Cristiano Ronaldo Czech Republic , Cristiano Ronaldo Euro Goals , Czech Republic 0-1 Portugal , Euro 2012 , Portugal Semi-Finalists , Sport , Football , European Championship , UK Sport News
+1C2-E-TEST-0073-29.3/001	ã â
+1C2-E-TEST-0073-29.3/002	video	DEP=1C2-E-TEST-0073-29.3001
+1C2-E-TEST-0073-29.3/003	czech republic	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/004	goals	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/005	czech republic 0-1 portugal	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/006	2012
+1C2-E-TEST-0073-29.3/007	portugal semi-finalists	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/008	sport	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/009	football	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/010	european championship	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.3/011	uk sport news	DEP=1C2-E-TEST-0073-29.3002
+1C2-E-TEST-0073-29.4	Cristiano Ronaldo's powerful header to send Portugal through to the Euro 2012 semi-finals over Czech Republic was not just his second matchwinner of the tournament, but a reminder to his detractors of his unwavering brilliance.
+1C2-E-TEST-0073-29.4/001	portugal	DEP=1C2-E-TEST-0073-29.4011
+1C2-E-TEST-0073-29.4/002	2012 semi-finals
+1C2-E-TEST-0073-29.4/003	czech republic
+1C2-E-TEST-0073-29.4/004	second matchwinner
+1C2-E-TEST-0073-29.4/005	tournament
+1C2-E-TEST-0073-29.4/006	reminder	DEP=1C2-E-TEST-0073-29.4004
+1C2-E-TEST-0073-29.4/007	detractors
+1C2-E-TEST-0073-29.4/008	unwavering brilliance
+1C2-E-TEST-0073-29.4/009	powerful	DEP=1C2-E-TEST-0073-29.4010
+1C2-E-TEST-0073-29.4/010	header	DEP=1C2-E-TEST-0073-29.4004
+1C2-E-TEST-0073-29.4/011	send	DEP=1C2-E-TEST-0073-29.4010
+1C2-E-TEST-0073-34.1	Euro 2012: Can Cristiano Ronaldo Do a Maradona for Portugal?
+1C2-E-TEST-0073-34.1/001	2012
+1C2-E-TEST-0073-34.1/002	maradona
+1C2-E-TEST-0073-34.1/003	portugal
+1C2-E-TEST-0073-34.11	Going into Euro 2012, the team carries relatively light hopes.
+1C2-E-TEST-0073-34.11/001	2012
+1C2-E-TEST-0073-34.11/002	team	DEP=1C2-E-TEST-0073-34.11004
+1C2-E-TEST-0073-34.11/003	going	DEP=1C2-E-TEST-0073-34.11004
+1C2-E-TEST-0073-34.11/004	carries
+1C2-E-TEST-0073-34.11/005	relatively	DEP=1C2-E-TEST-0073-34.11006
+1C2-E-TEST-0073-34.11/006	light	DEP=1C2-E-TEST-0073-34.11007
+1C2-E-TEST-0073-34.11/007	hopes	DEP=1C2-E-TEST-0073-34.11004
+1C2-E-TEST-0073-34.16	Portugal does have one diamond, though: Ronaldo, now in his pomp at Real Madrid, is far and away EuropeÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s best player.
+1C2-E-TEST-0073-34.16/001	portugal
+1C2-E-TEST-0073-34.16/002	diamond
+1C2-E-TEST-0073-34.16/003	pomp
+1C2-E-TEST-0073-34.16/004	real madrid
+1C2-E-TEST-0073-34.16/005	europeã cents
+1C2-E-TEST-0073-34.16/006	¬	DEP=1C2-E-TEST-0073-34.16008
+1C2-E-TEST-0073-34.16/007	â cents	DEP=1C2-E-TEST-0073-34.16006
+1C2-E-TEST-0073-34.16/008	player
+1C2-E-TEST-0073-34.16/009	away
+1C2-E-TEST-0073-34.16/010	s	DEP=1C2-E-TEST-0073-34.16008
+1C2-E-TEST-0073-34.16/011	best	DEP=1C2-E-TEST-0073-34.16008
+1C2-E-TEST-0073-34.18	His goals were crucial to Portugal qualifying for Euro 2012, and the teamÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s fortunes rest mostly on his powerful shoulders.
+1C2-E-TEST-0073-34.18/001	goals	DEP=1C2-E-TEST-0073-34.18009
+1C2-E-TEST-0073-34.18/002	portugal
+1C2-E-TEST-0073-34.18/003	2012
+1C2-E-TEST-0073-34.18/004	teamã cents
+1C2-E-TEST-0073-34.18/005	¬	DEP=1C2-E-TEST-0073-34.18007
+1C2-E-TEST-0073-34.18/006	â cents	DEP=1C2-E-TEST-0073-34.18005
+1C2-E-TEST-0073-34.18/007	fortunes rest
+1C2-E-TEST-0073-34.18/008	powerful shoulders
+1C2-E-TEST-0073-34.18/009	crucial
+1C2-E-TEST-0073-34.18/010	qualifying	DEP=1C2-E-TEST-0073-34.18002
+1C2-E-TEST-0073-34.18/011	s	DEP=1C2-E-TEST-0073-34.18007
+1C2-E-TEST-0073-34.23	But while Portugal has Ronaldo, anything is possible.
+1C2-E-TEST-0073-34.23/001	portugal
+1C2-E-TEST-0073-34.23/002	possible
+1C2-E-TEST-0073-34.6	England is not the only team going into Euro 2012 with the advantage of low expectations: consider Portugal.
+1C2-E-TEST-0073-34.6/001	england	DEP=1C2-E-TEST-0073-34.6002
+1C2-E-TEST-0073-34.6/002	team
+1C2-E-TEST-0073-34.6/003	2012
+1C2-E-TEST-0073-34.6/004	advantage
+1C2-E-TEST-0073-34.6/005	low expectations
+1C2-E-TEST-0073-34.6/006	portugal	DEP=1C2-E-TEST-0073-34.6008
+1C2-E-TEST-0073-34.6/007	going	DEP=1C2-E-TEST-0073-34.6002
+1C2-E-TEST-0073-34.6/008	consider	DEP=1C2-E-TEST-0073-34.6002
+1C2-E-TEST-0073-42.267	Ronaldo had several chances for Portugal in the semifinals against Spain, but he sent three shots over the bar.
+1C2-E-TEST-0073-42.267/001	chances
+1C2-E-TEST-0073-42.267/002	portugal
+1C2-E-TEST-0073-42.267/003	semifinals
+1C2-E-TEST-0073-42.267/004	spain
+1C2-E-TEST-0073-42.267/005	three shots
+1C2-E-TEST-0073-42.267/006	bar
+1C2-E-TEST-0073-43.11	Ronaldo attempts an overhead kick during the UEFA EURO 2012 quarter final match between Czech Republic and Portugal at The National Stadium.
+1C2-E-TEST-0073-43.11/001	overhead kick	DEP=1C2-E-TEST-0073-43.11006
+1C2-E-TEST-0073-43.11/002	uefa 2012 quarter
+1C2-E-TEST-0073-43.11/003	final match	DEP=1C2-E-TEST-0073-43.11002
+1C2-E-TEST-0073-43.11/004	czech republic portugal
+1C2-E-TEST-0073-43.11/005	national stadium
+1C2-E-TEST-0073-43.11/006	attempts
+1C2-E-TEST-0073-43.14	Ronaldo scores the opening goal with a header during the UEFA EURO 2012 quarter final match between Czech Republic and Portugal at The National Stadium.
+1C2-E-TEST-0073-43.14/001	scores
+1C2-E-TEST-0073-43.14/002	opening goal	DEP=1C2-E-TEST-0073-43.14001
+1C2-E-TEST-0073-43.14/003	header
+1C2-E-TEST-0073-43.14/004	uefa
+1C2-E-TEST-0073-43.14/005	final match	DEP=1C2-E-TEST-0073-43.14001
+1C2-E-TEST-0073-43.14/006	czech republic portugal
+1C2-E-TEST-0073-43.14/007	national stadium
+1C2-E-TEST-0073-43.14/008	2012	DEP=1C2-E-TEST-0073-43.14009
+1C2-E-TEST-0073-43.14/009	quarter	DEP=1C2-E-TEST-0073-43.14003
+1C2-E-TEST-0073-43.17	Ronaldo celebrates victory and progress to the semi-finals during the UEFA EURO 2012 quarter final match between Czech Republic and Portugal at The National Stadium .
+1C2-E-TEST-0073-43.17/001	victory progress	DEP=1C2-E-TEST-0073-43.17007
+1C2-E-TEST-0073-43.17/002	semi-finals
+1C2-E-TEST-0073-43.17/003	uefa 2012
+1C2-E-TEST-0073-43.17/004	quarter final match	DEP=1C2-E-TEST-0073-43.17007
+1C2-E-TEST-0073-43.17/005	czech republic portugal
+1C2-E-TEST-0073-43.17/006	national stadium
+1C2-E-TEST-0073-43.17/007	celebrates
+1C2-E-TEST-0073-43.8	Cristiano Ronaldo of Portugal sprays water on his face during the UEFA EURO 2012 quarter final match between Czech Republic and Portugal at The National Stadium.
+1C2-E-TEST-0073-43.8/001	portugal sprays water
+1C2-E-TEST-0073-43.8/002	face
+1C2-E-TEST-0073-43.8/003	uefa
+1C2-E-TEST-0073-43.8/004	2012 quarter
+1C2-E-TEST-0073-43.8/005	final match	DEP=1C2-E-TEST-0073-43.8004
+1C2-E-TEST-0073-43.8/006	czech republic portugal
+1C2-E-TEST-0073-43.8/007	national stadium
+1C2-E-TEST-0073-45.27	Then came his two-goal game against the Netherlands, perhaps the finest match of his international career.
+1C2-E-TEST-0073-45.27/001	two-goal game	DEP=1C2-E-TEST-0073-45.27005
+1C2-E-TEST-0073-45.27/002	netherlands
+1C2-E-TEST-0073-45.27/003	finest match	DEP=1C2-E-TEST-0073-45.27005
+1C2-E-TEST-0073-45.27/004	international career
+1C2-E-TEST-0073-45.27/005	came
+1C2-E-TEST-0073-45.28	He followed that up with his winning header against the Czechs to put Portugal into the semi-finals.
+1C2-E-TEST-0073-45.28/001	winning header
+1C2-E-TEST-0073-45.28/002	czechs
+1C2-E-TEST-0073-45.28/003	portugal	DEP=1C2-E-TEST-0073-45.28006
+1C2-E-TEST-0073-45.28/004	semi-finals
+1C2-E-TEST-0073-45.28/005	followed
+1C2-E-TEST-0073-45.28/006	put	DEP=1C2-E-TEST-0073-45.28001
+1C2-E-TEST-0073-45.8	We'll wait and see who we get in the semi-finals," said Ronaldo, who headed in the winner on Thursday to beat Czech Republic 1-0 to reach the European Championship semi-finals.
+1C2-E-TEST-0073-45.8/001	semi-finals
+1C2-E-TEST-0073-45.8/002	winner
+1C2-E-TEST-0073-45.8/003	thursday
+1C2-E-TEST-0073-45.8/004	european championship semi-finals	DEP=1C2-E-TEST-0073-45.8011
+1C2-E-TEST-0073-45.8/005	wait
+1C2-E-TEST-0073-45.8/006	headed
+1C2-E-TEST-0073-45.8/007	beat	DEP=1C2-E-TEST-0073-45.8006
+1C2-E-TEST-0073-45.8/008	czech	DEP=1C2-E-TEST-0073-45.8009
+1C2-E-TEST-0073-45.8/009	republic	DEP=1C2-E-TEST-0073-45.8007
+1C2-E-TEST-0073-45.8/010	1-0	DEP=1C2-E-TEST-0073-45.8009
+1C2-E-TEST-0073-45.8/011	reach	DEP=1C2-E-TEST-0073-45.8007
+1C2-E-TEST-0073-52.1	Euro 2012: Czechs hope for Ronaldo off-day in Warsaw
+1C2-E-TEST-0073-52.1/001	2012
+1C2-E-TEST-0073-52.1/002	czechs
+1C2-E-TEST-0073-52.1/003	off-day
+1C2-E-TEST-0073-52.1/004	warsaw
+1C2-E-TEST-0073-52.4	Warsaw: Cristiano Ronaldo has scored at will in the Spanish and English leagues in recent seasons but can struggle for Portugal, leaving the Czech Republic hopeful that he fails to shine in their Euro 2012 quarter-final later on Thursday (1845 GMT).
+1C2-E-TEST-0073-52.4/001	warsaw
+1C2-E-TEST-0073-52.4/002	recent seasons
+1C2-E-TEST-0073-52.4/003	portugal
+1C2-E-TEST-0073-52.4/004	czech republic	DEP=1C2-E-TEST-0073-52.4014
+1C2-E-TEST-0073-52.4/005	2012	DEP=1C2-E-TEST-0073-52.4017
+1C2-E-TEST-0073-52.4/006	1845
+1C2-E-TEST-0073-52.4/007	gmt	DEP=1C2-E-TEST-0073-52.4006
+1C2-E-TEST-0073-52.4/008	scored	DEP=1C2-E-TEST-0073-52.4001
+1C2-E-TEST-0073-52.4/009	spanish	DEP=1C2-E-TEST-0073-52.4011
+1C2-E-TEST-0073-52.4/010	english	DEP=1C2-E-TEST-0073-52.4009
+1C2-E-TEST-0073-52.4/011	leagues
+1C2-E-TEST-0073-52.4/012	struggle	DEP=1C2-E-TEST-0073-52.4008
+1C2-E-TEST-0073-52.4/013	leaving	DEP=1C2-E-TEST-0073-52.4012
+1C2-E-TEST-0073-52.4/014	hopeful	DEP=1C2-E-TEST-0073-52.4013
+1C2-E-TEST-0073-52.4/015	fails	DEP=1C2-E-TEST-0073-52.4013
+1C2-E-TEST-0073-52.4/016	shine	DEP=1C2-E-TEST-0073-52.4015
+1C2-E-TEST-0073-52.4/017	quarter-final
+1C2-E-TEST-0073-52.4/018	later
+1C2-E-TEST-0073-52.4/019	thursday
+1C2-E-TEST-0073-62.1	Striker Cristiano Ronaldo scored in the 79th minute, sending Portugal to a 1-0 victory over the Czech Republic Thursday during the quarter-final match at the European championship in Warsaw.
+1C2-E-TEST-0073-62.1/001	striker
+1C2-E-TEST-0073-62.1/002	79th minute
+1C2-E-TEST-0073-62.1/003	portugal	DEP=1C2-E-TEST-0073-62.1010
+1C2-E-TEST-0073-62.1/004	1-0 victory
+1C2-E-TEST-0073-62.1/005	czech republic thursday
+1C2-E-TEST-0073-62.1/006	quarter-final match
+1C2-E-TEST-0073-62.1/007	european championship
+1C2-E-TEST-0073-62.1/008	warsaw
+1C2-E-TEST-0073-62.1/009	scored
+1C2-E-TEST-0073-62.1/010	sending	DEP=1C2-E-TEST-0073-62.1009
+1C2-E-TEST-0073-62.25	If Portugal is to contend against either Spain or France, it will need Ronaldo to work his magic.
+1C2-E-TEST-0073-62.25/001	portugal
+1C2-E-TEST-0073-62.25/002	spain
+1C2-E-TEST-0073-62.25/003	france	DEP=1C2-E-TEST-0073-62.25002
+1C2-E-TEST-0073-62.25/004	magic	DEP=1C2-E-TEST-0073-62.25006
+1C2-E-TEST-0073-62.25/005	contend
+1C2-E-TEST-0073-62.25/006	work
+1C2-E-TEST-0073-62.7	In the match against the Netherlands during the final match of the group stage, RonaldoÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s two goals allowed Portugal to advance to the quarter-finals.
+1C2-E-TEST-0073-62.7/001	match
+1C2-E-TEST-0073-62.7/002	netherlands
+1C2-E-TEST-0073-62.7/003	final match
+1C2-E-TEST-0073-62.7/004	group stage
+1C2-E-TEST-0073-62.7/005	ronaldoã cents
+1C2-E-TEST-0073-62.7/006	¬	DEP=1C2-E-TEST-0073-62.7008
+1C2-E-TEST-0073-62.7/007	â cents	DEP=1C2-E-TEST-0073-62.7006
+1C2-E-TEST-0073-62.7/008	two goals
+1C2-E-TEST-0073-62.7/009	portugal	DEP=1C2-E-TEST-0073-62.7013
+1C2-E-TEST-0073-62.7/010	quarter-finals
+1C2-E-TEST-0073-62.7/011	s	DEP=1C2-E-TEST-0073-62.7008
+1C2-E-TEST-0073-62.7/012	allowed	DEP=1C2-E-TEST-0073-62.7008
+1C2-E-TEST-0073-62.7/013	advance	DEP=1C2-E-TEST-0073-62.7012
+1C2-E-TEST-0073-65.13	Just a few hours after Ronaldo revealed his strong belief on being able to win the EURO 2012 with Portugal, some of his teammates didn't lose time to react positively.
+1C2-E-TEST-0073-65.13/001	strong belief	DEP=1C2-E-TEST-0073-65.13007
+1C2-E-TEST-0073-65.13/002	2012
+1C2-E-TEST-0073-65.13/003	portugal
+1C2-E-TEST-0073-65.13/004	teammates
+1C2-E-TEST-0073-65.13/005	time	DEP=1C2-E-TEST-0073-65.13012
+1C2-E-TEST-0073-65.13/006	hours	DEP=1C2-E-TEST-0073-65.13007
+1C2-E-TEST-0073-65.13/007	revealed	DEP=1C2-E-TEST-0073-65.13012
+1C2-E-TEST-0073-65.13/008	able
+1C2-E-TEST-0073-65.13/009	win	DEP=1C2-E-TEST-0073-65.13008
+1C2-E-TEST-0073-65.13/010	did	DEP=1C2-E-TEST-0073-65.13012
+1C2-E-TEST-0073-65.13/011	n't	DEP=1C2-E-TEST-0073-65.13012
+1C2-E-TEST-0073-65.13/012	lose
+1C2-E-TEST-0073-65.13/013	react	DEP=1C2-E-TEST-0073-65.13012
+1C2-E-TEST-0073-65.13/014	positively	DEP=1C2-E-TEST-0073-65.13013
+1C2-E-TEST-0073-65.26	No one should doubt that we all share Cristiano Ronaldo's dream of winning this competition.
+1C2-E-TEST-0073-65.26/001	competition	DEP=1C2-E-TEST-0073-65.26004
+1C2-E-TEST-0073-65.26/002	doubt
+1C2-E-TEST-0073-65.26/003	dream
+1C2-E-TEST-0073-65.26/004	winning
+1C2-E-TEST-0073-65.3	Through it's personal Facebook page, Cristiano Ronaldo unveiled the new away kit/uniform that Portugal will wear during the tournament and confessed that he has big hopes in achieving glory in EURO 2012.
+1C2-E-TEST-0073-65.3/001	personal facebook page
+1C2-E-TEST-0073-65.3/002	new	DEP=1C2-E-TEST-0073-65.3010
+1C2-E-TEST-0073-65.3/003	kit\/uniform	DEP=1C2-E-TEST-0073-65.3011
+1C2-E-TEST-0073-65.3/004	portugal	DEP=1C2-E-TEST-0073-65.3012
+1C2-E-TEST-0073-65.3/005	tournament
+1C2-E-TEST-0073-65.3/006	big hopes
+1C2-E-TEST-0073-65.3/007	glory	DEP=1C2-E-TEST-0073-65.3014
+1C2-E-TEST-0073-65.3/008	2012
+1C2-E-TEST-0073-65.3/009	's	DEP=1C2-E-TEST-0073-65.3001
+1C2-E-TEST-0073-65.3/010	unveiled
+1C2-E-TEST-0073-65.3/011	away	DEP=1C2-E-TEST-0073-65.3010
+1C2-E-TEST-0073-65.3/012	wear	DEP=1C2-E-TEST-0073-65.3010
+1C2-E-TEST-0073-65.3/013	confessed	DEP=1C2-E-TEST-0073-65.3010
+1C2-E-TEST-0073-65.3/014	achieving
+1C2-E-TEST-0073-65.35	Cristiano Ronaldo is expected to be on the line-up when Portugal faces Poland, this Wednesday.
+1C2-E-TEST-0073-65.35/001	line-up
+1C2-E-TEST-0073-65.35/002	portugal	DEP=1C2-E-TEST-0073-65.35005
+1C2-E-TEST-0073-65.35/003	poland	DEP=1C2-E-TEST-0073-65.35005
+1C2-E-TEST-0073-65.35/004	expected
+1C2-E-TEST-0073-65.35/005	faces
+1C2-E-TEST-0073-65.35/006	wednesday
+1C2-E-TEST-0073-68.20	Since succeeding Carlos Queiroz in September, 2010, he appears to have found the right approach to this challenge, Ronaldo's form for Portugal having improved along with his integration into the team.
+1C2-E-TEST-0073-68.20/001	carlos queiroz	DEP=1C2-E-TEST-0073-68.20009
+1C2-E-TEST-0073-68.20/002	september
+1C2-E-TEST-0073-68.20/003	2010	DEP=1C2-E-TEST-0073-68.20002
+1C2-E-TEST-0073-68.20/004	right approach	DEP=1C2-E-TEST-0073-68.20011
+1C2-E-TEST-0073-68.20/005	challenge
+1C2-E-TEST-0073-68.20/006	portugal
+1C2-E-TEST-0073-68.20/007	integration
+1C2-E-TEST-0073-68.20/008	team
+1C2-E-TEST-0073-68.20/009	succeeding
+1C2-E-TEST-0073-68.20/010	appears
+1C2-E-TEST-0073-68.20/011	found	DEP=1C2-E-TEST-0073-68.20010
+1C2-E-TEST-0073-68.20/012	form	DEP=1C2-E-TEST-0073-68.20005
+1C2-E-TEST-0073-68.20/013	having	DEP=1C2-E-TEST-0073-68.20014
+1C2-E-TEST-0073-68.20/014	improved	DEP=1C2-E-TEST-0073-68.20011
+1C2-E-TEST-0073-68.9	His critics say this is the main reason that Ronaldo, like Messi, cannot be compared to past greats like Pele, Diego Maradona or Eusebio, all of whom are remembered for stunning tournament performances.
+1C2-E-TEST-0073-68.9/001	critics
+1C2-E-TEST-0073-68.9/002	main reason
+1C2-E-TEST-0073-68.9/003	messi
+1C2-E-TEST-0073-68.9/004	past greats
+1C2-E-TEST-0073-68.9/005	pele diego maradona eusebio
+1C2-E-TEST-0073-68.9/006	stunning tournament performances
+1C2-E-TEST-0073-68.9/007	compared	DEP=1C2-E-TEST-0073-68.9002
+1C2-E-TEST-0073-68.9/008	remembered	DEP=1C2-E-TEST-0073-68.9005
+1C2-E-TEST-0073-74.14	Portugal star Cristiano Ronaldo thinks that his displays at Euro 2012 could help him secure the Fifa Ballon d`Or award.
+1C2-E-TEST-0073-74.14/001	portugal star
+1C2-E-TEST-0073-74.14/002	displays	DEP=1C2-E-TEST-0073-74.14007
+1C2-E-TEST-0073-74.14/003	2012
+1C2-E-TEST-0073-74.14/004	fifa ballon d	DEP=1C2-E-TEST-0073-74.14008
+1C2-E-TEST-0073-74.14/005	award	DEP=1C2-E-TEST-0073-74.14004
+1C2-E-TEST-0073-74.14/006	thinks
+1C2-E-TEST-0073-74.14/007	help	DEP=1C2-E-TEST-0073-74.14006
+1C2-E-TEST-0073-74.14/008	secure	DEP=1C2-E-TEST-0073-74.14007
+1C2-E-TEST-0073-74.18	loraamele ÃÂÃÂ Ronaldo hopes to beat Messi to Ballon D'Or honour: Portugal star Cristiano Ronaldo, who could finish as Euro 201... http://t.co/7WkKxmxpÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.18/001	loraamele ã â
+1C2-E-TEST-0073-74.18/002	messi	DEP=1C2-E-TEST-0073-74.18008
+1C2-E-TEST-0073-74.18/003	ballon d'or honor
+1C2-E-TEST-0073-74.18/004	portugal star
+1C2-E-TEST-0073-74.18/005	201
+1C2-E-TEST-0073-74.18/006	http:\/\/t.co\/7wkkxmxpãâ 2 days	DEP=1C2-E-TEST-0073-74.18010
+1C2-E-TEST-0073-74.18/007	hopes
+1C2-E-TEST-0073-74.18/008	beat	DEP=1C2-E-TEST-0073-74.18007
+1C2-E-TEST-0073-74.18/009	finish
+1C2-E-TEST-0073-74.18/010	ago	DEP=1C2-E-TEST-0073-74.18009
+1C2-E-TEST-0073-74.19	GunelSkarpion ÃÂÃÂ Cristiano Ronaldo: Euro 2012 could help me win the Ballon d'Or - http://t.co/faTh3J43 http://t.co/1NpQl2cfÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.19/001	gunelskarpion ã â
+1C2-E-TEST-0073-74.19/002	2012
+1C2-E-TEST-0073-74.19/003	ballon d'or	DEP=1C2-E-TEST-0073-74.19007
+1C2-E-TEST-0073-74.19/004	http:\/\/t.co\/fath3j43 http:\/\/t.co\/1npql2cfãâ 2	DEP=1C2-E-TEST-0073-74.19003
+1C2-E-TEST-0073-74.19/005	days	DEP=1C2-E-TEST-0073-74.19008
+1C2-E-TEST-0073-74.19/006	help
+1C2-E-TEST-0073-74.19/007	win	DEP=1C2-E-TEST-0073-74.19006
+1C2-E-TEST-0073-74.19/008	ago	DEP=1C2-E-TEST-0073-74.19003
+1C2-E-TEST-0073-74.20	zain4zain ÃÂÃÂ Cristiano Ronaldo: Euro 2012 could help me win the Ballon d'Or http://t.co/mbkJmGbmÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.20/001	zain4zain ã â
+1C2-E-TEST-0073-74.20/002	2012
+1C2-E-TEST-0073-74.20/003	ballon d'or http:\/\/t.co\/mbkjmgbmãâ 2	DEP=1C2-E-TEST-0073-74.20006
+1C2-E-TEST-0073-74.20/004	days	DEP=1C2-E-TEST-0073-74.20007
+1C2-E-TEST-0073-74.20/005	help
+1C2-E-TEST-0073-74.20/006	win	DEP=1C2-E-TEST-0073-74.20005
+1C2-E-TEST-0073-74.20/007	ago	DEP=1C2-E-TEST-0073-74.20006
+1C2-E-TEST-0073-74.21	baruaamal ÃÂÃÂ Cristiano Ronaldo: Euro 2012 could help me win the Ballon d'Or - http://t.co/IFKLAdZ2 http://t.co/f9KX4qNOÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.21/001	baruaamal ã â
+1C2-E-TEST-0073-74.21/002	2012
+1C2-E-TEST-0073-74.21/003	ballon d'or	DEP=1C2-E-TEST-0073-74.21007
+1C2-E-TEST-0073-74.21/004	http:\/\/t.co\/ifkladz2 http:\/\/t.co\/f9kx4qnoãâ 2
+1C2-E-TEST-0073-74.21/005	days	DEP=1C2-E-TEST-0073-74.21008
+1C2-E-TEST-0073-74.21/006	help
+1C2-E-TEST-0073-74.21/007	win	DEP=1C2-E-TEST-0073-74.21006
+1C2-E-TEST-0073-74.21/008	ago	DEP=1C2-E-TEST-0073-74.21004
+1C2-E-TEST-0073-74.24	Abrahamxtofegor ÃÂÃÂ Cristiano Ronaldo: Euro 2012 could help me win the Ballon d'Or - http://t.co/xuFCk9Gu http://t.co/CRbAXYESÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.24/001	abrahamxtofegor ã â
+1C2-E-TEST-0073-74.24/002	2012
+1C2-E-TEST-0073-74.24/003	ballon d'or	DEP=1C2-E-TEST-0073-74.24007
+1C2-E-TEST-0073-74.24/004	http:\/\/t.co\/xufck9gu http:\/\/t.co\/crbaxyesãâ 2	DEP=1C2-E-TEST-0073-74.24003
+1C2-E-TEST-0073-74.24/005	days	DEP=1C2-E-TEST-0073-74.24008
+1C2-E-TEST-0073-74.24/006	help
+1C2-E-TEST-0073-74.24/007	win	DEP=1C2-E-TEST-0073-74.24006
+1C2-E-TEST-0073-74.24/008	ago	DEP=1C2-E-TEST-0073-74.24003
+1C2-E-TEST-0073-74.25	Jehuvir ÃÂÃÂ  #Autofollow Portugal star Cristiano Ronaldo, who could finish as Euro 2012's top scorer, hopes t... http://t.co/TCmEGABq #teamfollowback ÃÂÃÂ 2 days ago
+1C2-E-TEST-0073-74.25/001	jehuvir ã â #autofollow
+1C2-E-TEST-0073-74.25/002	portugal star
+1C2-E-TEST-0073-74.25/003	2012
+1C2-E-TEST-0073-74.25/004	t.	DEP=1C2-E-TEST-0073-74.25001
+1C2-E-TEST-0073-74.25/005	http:\/\/t.co\/tcmegabq #teamfollowback	DEP=1C2-E-TEST-0073-74.25001
+1C2-E-TEST-0073-74.25/006	ã â	DEP=1C2-E-TEST-0073-74.25005
+1C2-E-TEST-0073-74.25/007	2 days	DEP=1C2-E-TEST-0073-74.25012
+1C2-E-TEST-0073-74.25/008	finish
+1C2-E-TEST-0073-74.25/009	top	DEP=1C2-E-TEST-0073-74.25010
+1C2-E-TEST-0073-74.25/010	scorer
+1C2-E-TEST-0073-74.25/011	hopes	DEP=1C2-E-TEST-0073-74.25001
+1C2-E-TEST-0073-74.25/012	ago	DEP=1C2-E-TEST-0073-74.25006
+1C2-E-TEST-0073-74.3	Cristiano Ronaldo edges a step closer to winning his first major piece of silverware with Portugal as he scores the only goal in the 1-0 win against the Czech Republic to reach the Euro 2012 semi-final.
+1C2-E-TEST-0073-74.3/001	step	DEP=1C2-E-TEST-0073-74.3011
+1C2-E-TEST-0073-74.3/002	major piece	DEP=1C2-E-TEST-0073-74.3012
+1C2-E-TEST-0073-74.3/003	silverware
+1C2-E-TEST-0073-74.3/004	portugal
+1C2-E-TEST-0073-74.3/005	scores	DEP=1C2-E-TEST-0073-74.3012
+1C2-E-TEST-0073-74.3/006	goal
+1C2-E-TEST-0073-74.3/007	1-0
+1C2-E-TEST-0073-74.3/008	czech republic
+1C2-E-TEST-0073-74.3/009	2012
+1C2-E-TEST-0073-74.3/010	edges
+1C2-E-TEST-0073-74.3/011	closer	DEP=1C2-E-TEST-0073-74.3010
+1C2-E-TEST-0073-74.3/012	winning
+1C2-E-TEST-0073-74.3/013	reach
+1C2-E-TEST-0073-74.3/014	semi-final
+1C2-E-TEST-0073-79.8	However, Los BlancosÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ main man Cristiano Ronaldo was decidedly muted and did not look like the player that scored against every Primera Division team in 2011-12.
+1C2-E-TEST-0073-79.8/001	los blancosã cents
+1C2-E-TEST-0073-79.8/002	¬
+1C2-E-TEST-0073-79.8/003	â cents	DEP=1C2-E-TEST-0073-79.8002
+1C2-E-TEST-0073-79.8/004	main man
+1C2-E-TEST-0073-79.8/005	player
+1C2-E-TEST-0073-79.8/006	primera division team
+1C2-E-TEST-0073-79.8/007	2011-12
+1C2-E-TEST-0073-79.8/008	decidedly	DEP=1C2-E-TEST-0073-79.8009
+1C2-E-TEST-0073-79.8/009	muted	DEP=1C2-E-TEST-0073-79.8002
+1C2-E-TEST-0073-79.8/010	did	DEP=1C2-E-TEST-0073-79.8011
+1C2-E-TEST-0073-79.8/011	look	DEP=1C2-E-TEST-0073-79.8009
+1C2-E-TEST-0073-79.8/012	scored	DEP=1C2-E-TEST-0073-79.8005

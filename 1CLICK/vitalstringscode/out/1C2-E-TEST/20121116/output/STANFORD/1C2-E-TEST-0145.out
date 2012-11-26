@@ -1,0 +1,126 @@
+1C2-E-TEST-0145-127.3	Compound interest is the concept of adding accumulated interest back to the principal, so that interest is earned on interest from that moment on.
+1C2-E-TEST-0145-127.3/001	concept
+1C2-E-TEST-0145-127.3/002	accumulated
+1C2-E-TEST-0145-127.3/003	principal
+1C2-E-TEST-0145-127.3/004	moment
+1C2-E-TEST-0145-127.3/005	adding
+1C2-E-TEST-0145-127.3/006	back	DEP=1C2-E-TEST-0145-127.3005
+1C2-E-TEST-0145-127.3/007	earned	DEP=1C2-E-TEST-0145-127.3001
+1C2-E-TEST-0145-129.8	This means that each time interest is applied to the amount (also known as being compounded), the amount of interest compounded will be added to the principal for the next time that the interest is compounded. To put it more simplyÃÂ¢Ã¢ÂÂ¬ÃÂ¦ compound interest means that every time interest is applied, it is applied based upon the entire amount instead of just the principal.
+1C2-E-TEST-0145-129.8/001	time
+1C2-E-TEST-0145-129.8/002	amount
+1C2-E-TEST-0145-129.8/003	amount	DEP=1C2-E-TEST-0145-129.8016
+1C2-E-TEST-0145-129.8/004	principal
+1C2-E-TEST-0145-129.8/005	time
+1C2-E-TEST-0145-129.8/006	cents
+1C2-E-TEST-0145-129.8/007	¬ â ¦
+1C2-E-TEST-0145-129.8/008	time
+1C2-E-TEST-0145-129.8/009	entire amount
+1C2-E-TEST-0145-129.8/010	principal
+1C2-E-TEST-0145-129.8/011	means	DEP=1C2-E-TEST-0145-129.8022
+1C2-E-TEST-0145-129.8/012	applied	DEP=1C2-E-TEST-0145-129.8011
+1C2-E-TEST-0145-129.8/013	known	DEP=1C2-E-TEST-0145-129.8002
+1C2-E-TEST-0145-129.8/014	compounded
+1C2-E-TEST-0145-129.8/015	compounded
+1C2-E-TEST-0145-129.8/016	added	DEP=1C2-E-TEST-0145-129.8002
+1C2-E-TEST-0145-129.8/017	compounded	DEP=1C2-E-TEST-0145-129.8016
+1C2-E-TEST-0145-129.8/018	put	DEP=1C2-E-TEST-0145-129.8012
+1C2-E-TEST-0145-129.8/019	simplyã	DEP=1C2-E-TEST-0145-129.8018
+1C2-E-TEST-0145-129.8/020	means
+1C2-E-TEST-0145-129.8/021	applied	DEP=1C2-E-TEST-0145-129.8020
+1C2-E-TEST-0145-129.8/022	applied
+1C2-E-TEST-0145-129.8/023	based	DEP=1C2-E-TEST-0145-129.8022
+1C2-E-TEST-0145-159.10	Compound Interest ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ Interest that accrues on the initial principal and the accumulated interest of a principal deposit, loan or debt.
+1C2-E-TEST-0145-159.10/001	ã cents
+1C2-E-TEST-0145-159.10/002	initial principal
+1C2-E-TEST-0145-159.10/003	accumulated
+1C2-E-TEST-0145-159.10/004	principal deposit loan debt
+1C2-E-TEST-0145-159.10/005	¬	DEP=1C2-E-TEST-0145-159.10006
+1C2-E-TEST-0145-159.10/006	â
+1C2-E-TEST-0145-159.10/007	accrues
+1C2-E-TEST-0145-159.11	Compounding of interest allows a principal amount to grow at a faster rate than simple interest, which is calculated as a percentage of only the principal amount.ÃÂÃÂ  source: Investopedia
+1C2-E-TEST-0145-159.11/001	simple
+1C2-E-TEST-0145-159.11/002	percentage
+1C2-E-TEST-0145-159.11/003	principal amount
+1C2-E-TEST-0145-159.11/004	ã	DEP=1C2-E-TEST-0145-159.11007
+1C2-E-TEST-0145-159.11/005	â source	DEP=1C2-E-TEST-0145-159.11004
+1C2-E-TEST-0145-159.11/006	investopedia	DEP=1C2-E-TEST-0145-159.11005
+1C2-E-TEST-0145-159.11/007	compounding
+1C2-E-TEST-0145-159.11/008	allows	DEP=1C2-E-TEST-0145-159.11007
+1C2-E-TEST-0145-159.11/009	principal	DEP=1C2-E-TEST-0145-159.11010
+1C2-E-TEST-0145-159.11/010	amount	DEP=1C2-E-TEST-0145-159.11008
+1C2-E-TEST-0145-159.11/011	grow	DEP=1C2-E-TEST-0145-159.11010
+1C2-E-TEST-0145-159.11/012	faster	DEP=1C2-E-TEST-0145-159.11013
+1C2-E-TEST-0145-159.11/013	rate
+1C2-E-TEST-0145-159.11/014	calculated	DEP=1C2-E-TEST-0145-159.11013
+1C2-E-TEST-0145-170.14	The effect of compounding depends on the frequency with which interest is compounded and the periodic interest rate which is applied.
+1C2-E-TEST-0145-170.14/001	effect	DEP=1C2-E-TEST-0145-170.14005
+1C2-E-TEST-0145-170.14/002	frequency
+1C2-E-TEST-0145-170.14/003	periodic rate	DEP=1C2-E-TEST-0145-170.14002
+1C2-E-TEST-0145-170.14/004	compounding
+1C2-E-TEST-0145-170.14/005	depends
+1C2-E-TEST-0145-170.14/006	compounded	DEP=1C2-E-TEST-0145-170.14002
+1C2-E-TEST-0145-170.14/007	applied	DEP=1C2-E-TEST-0145-170.14003
+1C2-E-TEST-0145-170.17	Compound interest may be contrasted with simple interest, where interest is not added to the principal (there is no compounding).
+1C2-E-TEST-0145-170.17/001	simple
+1C2-E-TEST-0145-170.17/002	principal
+1C2-E-TEST-0145-170.17/003	compounding
+1C2-E-TEST-0145-170.17/004	contrasted
+1C2-E-TEST-0145-170.17/005	added
+1C2-E-TEST-0145-170.9	Compound interest is the concept of adding accumulated interest back to the principal, so that interest is earned on interest from that moment on.
+1C2-E-TEST-0145-170.9/001	concept
+1C2-E-TEST-0145-170.9/002	accumulated
+1C2-E-TEST-0145-170.9/003	principal
+1C2-E-TEST-0145-170.9/004	moment
+1C2-E-TEST-0145-170.9/005	adding
+1C2-E-TEST-0145-170.9/006	back	DEP=1C2-E-TEST-0145-170.9005
+1C2-E-TEST-0145-170.9/007	earned	DEP=1C2-E-TEST-0145-170.9001
+1C2-E-TEST-0145-282.43	Compound interest: Interest earned on both the principal amount and any interest earned previously and reinvested.
+1C2-E-TEST-0145-282.43/001	principal amount
+1C2-E-TEST-0145-282.43/002	earned
+1C2-E-TEST-0145-282.43/003	earned
+1C2-E-TEST-0145-282.43/004	previously	DEP=1C2-E-TEST-0145-282.43003
+1C2-E-TEST-0145-282.43/005	reinvested	DEP=1C2-E-TEST-0145-282.43003
+1C2-E-TEST-0145-282.60	COMPOUND INTEREST:ÃÂÃÂ  The process by which money earns interest on both the principal and the accumulated interest.
+1C2-E-TEST-0145-282.60/001	ã â
+1C2-E-TEST-0145-282.60/002	process	DEP=1C2-E-TEST-0145-282.60006
+1C2-E-TEST-0145-282.60/003	principal	DEP=1C2-E-TEST-0145-282.60001
+1C2-E-TEST-0145-282.60/004	accumulated
+1C2-E-TEST-0145-282.60/005	money
+1C2-E-TEST-0145-282.60/006	earns	DEP=1C2-E-TEST-0145-282.60001
+1C2-E-TEST-0145-282.62	Compound Interest Interest earned on principal plus interest that was earned earlier.
+1C2-E-TEST-0145-282.62/001	principal
+1C2-E-TEST-0145-282.62/002	earned
+1C2-E-TEST-0145-282.62/003	plus	DEP=1C2-E-TEST-0145-282.62001
+1C2-E-TEST-0145-282.62/004	earned
+1C2-E-TEST-0145-282.62/005	earlier	DEP=1C2-E-TEST-0145-282.62004
+1C2-E-TEST-0145-282.83	A method of interest calculation where, in each period, interest is calculated on both the principal and interest previously accrued.
+1C2-E-TEST-0145-282.83/001	method	DEP=1C2-E-TEST-0145-282.83007
+1C2-E-TEST-0145-282.83/002	calculation
+1C2-E-TEST-0145-282.83/003	period
+1C2-E-TEST-0145-282.83/004	principal
+1C2-E-TEST-0145-282.83/005	calculated	DEP=1C2-E-TEST-0145-282.83002
+1C2-E-TEST-0145-282.83/006	previously	DEP=1C2-E-TEST-0145-282.83007
+1C2-E-TEST-0145-282.83/007	accrued
+1C2-E-TEST-0145-31.8	Interest paid both on principal and on interest earned during previous compounding periods.
+1C2-E-TEST-0145-31.8/001	principal
+1C2-E-TEST-0145-31.8/002	previous compounding periods
+1C2-E-TEST-0145-31.8/003	paid
+1C2-E-TEST-0145-31.8/004	earned	DEP=1C2-E-TEST-0145-31.8003
+1C2-E-TEST-0145-6.3	Interest thatÃÂÃÂ accruesÃÂÃÂ on the initial principal and the accumulated interest of a principal deposit, loan or debt.
+1C2-E-TEST-0145-6.3/001	thatã â accruesã â
+1C2-E-TEST-0145-6.3/002	initial principal
+1C2-E-TEST-0145-6.3/003	accumulated
+1C2-E-TEST-0145-6.3/004	principal deposit loan debt
+1C2-E-TEST-0145-6.4	Compounding of interest allows a principal amount to grow at a faster rate than simple interest, which is calculated as a percentage of only the principal amount.
+1C2-E-TEST-0145-6.4/001	simple
+1C2-E-TEST-0145-6.4/002	percentage
+1C2-E-TEST-0145-6.4/003	principal amount
+1C2-E-TEST-0145-6.4/004	compounding	DEP=1C2-E-TEST-0145-6.4005
+1C2-E-TEST-0145-6.4/005	allows
+1C2-E-TEST-0145-6.4/006	principal	DEP=1C2-E-TEST-0145-6.4007
+1C2-E-TEST-0145-6.4/007	amount	DEP=1C2-E-TEST-0145-6.4005
+1C2-E-TEST-0145-6.4/008	grow	DEP=1C2-E-TEST-0145-6.4007
+1C2-E-TEST-0145-6.4/009	faster	DEP=1C2-E-TEST-0145-6.4010
+1C2-E-TEST-0145-6.4/010	rate
+1C2-E-TEST-0145-6.4/011	calculated	DEP=1C2-E-TEST-0145-6.4010

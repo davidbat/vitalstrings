@@ -1,0 +1,3009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 17:24:58 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>A cubic yard is an Imperial / U.S. customary -LRB- non- SI non- metric -RRB- unit of volume , used in the United States , Canada , and the UK .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Using">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="97" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="90" name="Instrument" start="82"/>
+                        <label ID="202" end="140" name="Place" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1" frameName="Text">
+                  <layers>
+                    <layer ID="101" name="Target">
+                      <labels>
+                        <label ID="10101" end="90" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="102" name="FE">
+                      <labels>
+                        <label ID="10201" end="90" name="Text" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2" frameName="Political_locales">
+                  <layers>
+                    <layer ID="201" name="Target">
+                      <labels>
+                        <label ID="20101" end="118" name="Target" start="113"/>
+                      </labels>
+                    </layer>
+                    <layer ID="202" name="FE">
+                      <labels>
+                        <label ID="20201" end="118" name="Locale" start="113"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="301" name="Target">
+                      <labels>
+                        <label ID="30101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="302" name="FE">
+                      <labels>
+                        <label ID="30201" end="11" name="Unit" start="8"/>
+                        <label ID="30202" end="6" name="Count" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>3.14 x r -LRB- feet -RRB- x r -LRB- feet -RRB- x T -LRB- inches -RRB- Ã&#131;Â· 12 = cubic feet of concrete -LRB- CF -RRB- .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="76" name="Target" start="75"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="89" name="Entity" start="86"/>
+                        <label ID="1000202" end="76" name="Number" start="75"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="62" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="62" name="Unit" start="57"/>
+                        <label ID="1010202" end="49" name="Count" start="49"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="18" name="Target" start="15"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="18" name="Body_part" start="15"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="39" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels>
+                        <label ID="1030201" end="39" name="Body_part" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="89" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels>
+                        <label ID="1040201" end="89" name="Unit" start="86"/>
+                        <label ID="1040202" end="84" name="Count" start="80"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>If you have concrete delivered it is sold by the yard -LRB- which is a cubic yard = 27 cubic feet -RRB- .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="80" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="80" name="Unit" start="77"/>
+                        <label ID="2000202" end="75" name="Count" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Commerce_sell">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="40" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="32" name="Goods" start="31"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="96" name="Target" start="93"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="96" name="Body_part" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="203" frameName="Delivery">
+                  <layers>
+                    <layer ID="20301" name="Target">
+                      <labels>
+                        <label ID="2030101" end="29" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20302" name="FE">
+                      <labels>
+                        <label ID="2030201" end="5" name="Theme" start="3"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="204" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="20401" name="Target">
+                      <labels>
+                        <label ID="2040101" end="52" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20402" name="FE">
+                      <labels>
+                        <label ID="2040201" end="52" name="Unit" start="49"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>This measurement conversion is based on a simple rule : 1 cu yd = 0.76455 m3 .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Leadership">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="52" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="62" name="Leader" start="56"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Cause_change">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="26" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="15" name="Entity" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>It is defined as the volume of a cube with sides of 1 yard -LRB- 3 feet , 36 inches , 0.9144 metres -RRB- in length .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Communicate_categorization">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="12" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="1" name="Item" start="0"/>
+                        <label ID="4000202" end="114" name="Category" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="57" name="Target" start="54"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="57" name="Unit" start="54"/>
+                        <label ID="4010202" end="52" name="Count" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Shapes">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="36" name="Target" start="33"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="114" name="Substance" start="38"/>
+                        <label ID="4020202" end="36" name="Shape" start="33"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="70" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels>
+                        <label ID="4030201" end="70" name="Unit" start="67"/>
+                        <label ID="4030202" end="65" name="Count" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="404" frameName="Shapes">
+                  <layers>
+                    <layer ID="40401" name="Target">
+                      <labels>
+                        <label ID="4040101" end="114" name="Target" start="109"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40402" name="FE">
+                      <labels>
+                        <label ID="4040201" end="114" name="Shape" start="109"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="405" frameName="Text">
+                  <layers>
+                    <layer ID="40501" name="Target">
+                      <labels>
+                        <label ID="4050101" end="26" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40502" name="FE">
+                      <labels>
+                        <label ID="4050201" end="26" name="Text" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="406" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="40601" name="Target">
+                      <labels>
+                        <label ID="4060101" end="82" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40602" name="FE">
+                      <labels>
+                        <label ID="4060201" end="82" name="Unit" start="77"/>
+                        <label ID="4060202" end="75" name="Count" start="74"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="407" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="40701" name="Target">
+                      <labels>
+                        <label ID="4070101" end="47" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="408" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="40801" name="Target">
+                      <labels>
+                        <label ID="4080101" end="65" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40802" name="FE">
+                      <labels>
+                        <label ID="4080201" end="70" name="Entity" start="67"/>
+                        <label ID="4080202" end="65" name="Number" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>To convert measurements in yards to feet the measurement is multiplied by 3 .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="31" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="31" name="Unit" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Proliferating_in_number">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="69" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="55" name="Set" start="41"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="74" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="74" name="Number" start="74"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Cause_change">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="9" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="31" name="Final_category" start="11"/>
+                        <label ID="5030202" end="55" name="Entity" start="41"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="39" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="39" name="Body_part" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>To convert measurements in feet to yards the measurement is divided by 3 .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Separating">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="66" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="71" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="71" name="Number" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Cause_change">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="9" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="39" name="Final_category" start="32"/>
+                        <label ID="6020202" end="30" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="603" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="60301" name="Target">
+                      <labels>
+                        <label ID="6030101" end="30" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60302" name="FE">
+                      <labels>
+                        <label ID="6030201" end="30" name="Body_part" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="604" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="60401" name="Target">
+                      <labels>
+                        <label ID="6040101" end="39" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60402" name="FE">
+                      <labels>
+                        <label ID="6040201" end="39" name="Unit" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>To convert a measurement in square feet to square yard the measurement is divided by 9 and to convert a measurement in square yards to square feet the measurement is multiplied by 9 .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Compatibility">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="33" name="Target" start="28"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="130" name="Target" start="126"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="130" name="Unit" start="126"/>
+                        <label ID="7010202" end="124" name="Count" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Compatibility">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="124" name="Target" start="119"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="703" frameName="Cause_change">
+                  <layers>
+                    <layer ID="70301" name="Target">
+                      <labels>
+                        <label ID="7030101" end="9" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70302" name="FE">
+                      <labels>
+                        <label ID="7030201" end="130" name="Final_category" start="102"/>
+                        <label ID="7030202" end="38" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="704" frameName="Proliferating_in_number">
+                  <layers>
+                    <layer ID="70401" name="Target">
+                      <labels>
+                        <label ID="7040101" end="175" name="Target" start="166"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70402" name="FE">
+                      <labels>
+                        <label ID="7040201" end="161" name="Set" start="147"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="705" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="70501" name="Target">
+                      <labels>
+                        <label ID="7050101" end="53" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70502" name="FE">
+                      <labels>
+                        <label ID="7050201" end="53" name="Unit" start="50"/>
+                        <label ID="7050202" end="48" name="Count" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="706" frameName="Compatibility">
+                  <layers>
+                    <layer ID="70601" name="Target">
+                      <labels>
+                        <label ID="7060101" end="140" name="Target" start="135"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="707" frameName="Compatibility">
+                  <layers>
+                    <layer ID="70701" name="Target">
+                      <labels>
+                        <label ID="7070101" end="48" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="708" frameName="Cause_change">
+                  <layers>
+                    <layer ID="70801" name="Target">
+                      <labels>
+                        <label ID="7080101" end="100" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70802" name="FE">
+                      <labels>
+                        <label ID="7080201" end="130" name="Final_category" start="102"/>
+                        <label ID="7080202" end="145" name="Entity" start="135"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="709" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="70901" name="Target">
+                      <labels>
+                        <label ID="7090101" end="145" name="Target" start="142"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70902" name="FE">
+                      <labels>
+                        <label ID="7090201" end="145" name="Body_part" start="142"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="710" frameName="Separating">
+                  <layers>
+                    <layer ID="71001" name="Target">
+                      <labels>
+                        <label ID="7100101" end="80" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="711" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="71101" name="Target">
+                      <labels>
+                        <label ID="7110101" end="38" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71102" name="FE">
+                      <labels>
+                        <label ID="7110201" end="38" name="Body_part" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>1 cubic yard is equal to 27 cubic feet and 1 cubic feet is equal to 1/27 cubic yard .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="63" name="Target" start="59"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="82" name="Standard_item" start="65"/>
+                        <label ID="8000202" end="54" name="Profiled_item" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="54" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="54" name="Unit" start="51"/>
+                        <label ID="8010202" end="49" name="Count" start="45"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="802" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="80201" name="Target">
+                      <labels>
+                        <label ID="8020101" end="82" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80202" name="FE">
+                      <labels>
+                        <label ID="8020201" end="82" name="Unit" start="79"/>
+                        <label ID="8020202" end="77" name="Count" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="803" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="80301" name="Target">
+                      <labels>
+                        <label ID="8030101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80302" name="FE">
+                      <labels>
+                        <label ID="8030201" end="11" name="Unit" start="8"/>
+                        <label ID="8030202" end="6" name="Count" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="804" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="80401" name="Target">
+                      <labels>
+                        <label ID="8040101" end="20" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80402" name="FE">
+                      <labels>
+                        <label ID="8040201" end="37" name="Standard_item" start="22"/>
+                        <label ID="8040202" end="11" name="Profiled_item" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="805" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="80501" name="Target">
+                      <labels>
+                        <label ID="8050101" end="37" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80502" name="FE">
+                      <labels>
+                        <label ID="8050201" end="37" name="Body_part" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>To convert a measurement in cubic feet to cubic yard the measurement is divided by 27 and to convert a measurement in cubic yards to cubic feet the measurement is multiplied by 27 .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Proliferating_in_number">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="172" name="Target" start="163"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="158" name="Set" start="144"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="128" name="Target" start="124"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="128" name="Unit" start="124"/>
+                        <label ID="9010202" end="122" name="Count" start="118"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Cause_change">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="99" name="Target" start="93"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels>
+                        <label ID="9020201" end="128" name="Final_category" start="101"/>
+                        <label ID="9020202" end="158" name="Entity" start="144"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="903" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="90301" name="Target">
+                      <labels>
+                        <label ID="9030101" end="51" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90302" name="FE">
+                      <labels>
+                        <label ID="9030201" end="51" name="Unit" start="48"/>
+                        <label ID="9030202" end="46" name="Count" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="904" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="90401" name="Target">
+                      <labels>
+                        <label ID="9040101" end="37" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90402" name="FE">
+                      <labels>
+                        <label ID="9040201" end="37" name="Body_part" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="905" frameName="Cause_change">
+                  <layers>
+                    <layer ID="90501" name="Target">
+                      <labels>
+                        <label ID="9050101" end="9" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90502" name="FE">
+                      <labels>
+                        <label ID="9050201" end="128" name="Final_category" start="101"/>
+                        <label ID="9050202" end="37" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="906" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="90601" name="Target">
+                      <labels>
+                        <label ID="9060101" end="142" name="Target" start="139"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90602" name="FE">
+                      <labels>
+                        <label ID="9060201" end="142" name="Body_part" start="139"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="907" frameName="Separating">
+                  <layers>
+                    <layer ID="90701" name="Target">
+                      <labels>
+                        <label ID="9070101" end="78" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>For instant 2 cubic yards equals 54 cubic feet and 10 cubic yards equals 270 cubic feet .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="12" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="24" name="Entity" start="20"/>
+                        <label ID="10000202" end="12" name="Number" start="12"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="64" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="64" name="Unit" start="60"/>
+                        <label ID="10010202" end="58" name="Count" start="54"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="24" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="24" name="Unit" start="20"/>
+                        <label ID="10020202" end="18" name="Count" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1003" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="100301" name="Target">
+                      <labels>
+                        <label ID="10030101" end="86" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100302" name="FE">
+                      <labels>
+                        <label ID="10030201" end="86" name="Unit" start="83"/>
+                        <label ID="10030202" end="81" name="Count" start="77"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1004" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="100401" name="Target">
+                      <labels>
+                        <label ID="10040101" end="71" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100402" name="FE">
+                      <labels>
+                        <label ID="10040201" end="64" name="Profiled_attribute" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1005" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="100501" name="Target">
+                      <labels>
+                        <label ID="10050101" end="52" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100502" name="FE">
+                      <labels>
+                        <label ID="10050201" end="52" name="Number" start="51"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1006" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="100601" name="Target">
+                      <labels>
+                        <label ID="10060101" end="45" name="Target" start="42"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100602" name="FE">
+                      <labels>
+                        <label ID="10060201" end="45" name="Body_part" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1007" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="100701" name="Target">
+                      <labels>
+                        <label ID="10070101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100702" name="FE">
+                      <labels>
+                        <label ID="10070201" end="64" name="Standard_item" start="33"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>Feet and yards are units of length measurement used in the imperial and American customary systems of units .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Custom">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="89" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="3" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="3" name="Body_part" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Gizmo">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="97" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="89" name="Use" start="81"/>
+                        <label ID="11020202" end="97" name="Gizmo" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1103" frameName="Origin">
+                  <layers>
+                    <layer ID="110301" name="Target">
+                      <labels>
+                        <label ID="11030101" end="79" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110302" name="FE">
+                      <labels>
+                        <label ID="11030201" end="79" name="Origin" start="72"/>
+                        <label ID="11030202" end="89" name="Entity" start="81"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1104" frameName="Dimension">
+                  <layers>
+                    <layer ID="110401" name="Target">
+                      <labels>
+                        <label ID="11040101" end="33" name="Target" start="28"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110402" name="FE">
+                      <labels>
+                        <label ID="11040201" end="33" name="Dimension" start="28"/>
+                        <label ID="11040202" end="106" name="Object" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1105" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="110501" name="Target">
+                      <labels>
+                        <label ID="11050101" end="13" name="Target" start="9"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110502" name="FE">
+                      <labels>
+                        <label ID="11050201" end="13" name="Unit" start="9"/>
+                        <label ID="11050202" end="3" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1106" frameName="Using">
+                  <layers>
+                    <layer ID="110601" name="Target">
+                      <labels>
+                        <label ID="11060101" end="50" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110602" name="FE">
+                      <labels>
+                        <label ID="11060201" end="45" name="Instrument" start="28"/>
+                        <label ID="11060202" end="106" name="Containing_event" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>However , the more feet that are converted to yards , the higher the difference in error margin .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Concessive">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Increment">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="17" name="Target" start="14"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="22" name="Class" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="22" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="22" name="Unit" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1203" frameName="Cause_change">
+                  <layers>
+                    <layer ID="120301" name="Target">
+                      <labels>
+                        <label ID="12030101" end="41" name="Target" start="33"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120302" name="FE">
+                      <labels>
+                        <label ID="12030201" end="94" name="Purpose" start="43"/>
+                        <label ID="12030202" end="27" name="Entity" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1204" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="120401" name="Target">
+                      <labels>
+                        <label ID="12040101" end="50" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120402" name="FE">
+                      <labels>
+                        <label ID="12040201" end="50" name="Unit" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1205" frameName="Position_on_a_scale">
+                  <layers>
+                    <layer ID="120501" name="Target">
+                      <labels>
+                        <label ID="12050101" end="63" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120502" name="FE">
+                      <labels>
+                        <label ID="12050201" end="63" name="Value" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1206" frameName="Similarity">
+                  <layers>
+                    <layer ID="120601" name="Target">
+                      <labels>
+                        <label ID="12060101" end="78" name="Target" start="69"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Since one cubic yard is equal to 27 cubic feet you then divide 116.16 by 27 i.e. , -LRB- 116.16Ã&#131;Â· 27 -RRB- = 4.3 cubic yards .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Separating">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="61" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="49" name="Agent" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="125" name="Target" start="121"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels>
+                        <label ID="13010201" end="125" name="Unit" start="121"/>
+                        <label ID="13010202" end="119" name="Count" start="115"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="45" name="Target" start="42"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="45" name="Body_part" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1303" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="130301" name="Target">
+                      <labels>
+                        <label ID="13030101" end="8" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130302" name="FE">
+                      <labels>
+                        <label ID="13030201" end="19" name="Entity" start="16"/>
+                        <label ID="13030202" end="8" name="Number" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1304" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="130401" name="Target">
+                      <labels>
+                        <label ID="13040101" end="19" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130402" name="FE">
+                      <labels>
+                        <label ID="13040201" end="19" name="Unit" start="16"/>
+                        <label ID="13040202" end="8" name="Count" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1305" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="130501" name="Target">
+                      <labels>
+                        <label ID="13050101" end="28" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130502" name="FE">
+                      <labels>
+                        <label ID="13050201" end="45" name="Standard_item" start="30"/>
+                        <label ID="13050202" end="19" name="Profiled_item" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1306" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="130601" name="Target">
+                      <labels>
+                        <label ID="13060101" end="54" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130602" name="FE">
+                      <labels>
+                        <label ID="13060201" end="45" name="Trajector_event" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>It is the volume of a cube with edges one metre in length .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="40" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels>
+                        <label ID="14000201" end="46" name="Entity" start="42"/>
+                        <label ID="14000202" end="40" name="Number" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Text">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="15" name="Text" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Shapes">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="56" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels>
+                        <label ID="14020201" end="56" name="Shape" start="51"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1403" frameName="Shapes">
+                  <layers>
+                    <layer ID="140301" name="Target">
+                      <labels>
+                        <label ID="14030101" end="25" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140302" name="FE">
+                      <labels>
+                        <label ID="14030201" end="25" name="Shape" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1404" frameName="Part_edge">
+                  <layers>
+                    <layer ID="140401" name="Target">
+                      <labels>
+                        <label ID="14040101" end="36" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>Cubic yard is a volumetric measurement unit , and the concrete required for construction is measured in cubic yards .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Being_necessary">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="70" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels>
+                        <label ID="15000201" end="87" name="Dependent" start="72"/>
+                        <label ID="15000202" end="61" name="Required_entity" start="50"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Quantity">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="99" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1502" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="150201" name="Target">
+                      <labels>
+                        <label ID="15020101" end="114" name="Target" start="110"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150202" name="FE">
+                      <labels>
+                        <label ID="15020201" end="114" name="Unit" start="110"/>
+                        <label ID="15020202" end="108" name="Count" start="104"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1503" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="150301" name="Target">
+                      <labels>
+                        <label ID="15030101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150302" name="FE">
+                      <labels>
+                        <label ID="15030201" end="9" name="Unit" start="6"/>
+                        <label ID="15030202" end="4" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1504" frameName="Building">
+                  <layers>
+                    <layer ID="150401" name="Target">
+                      <labels>
+                        <label ID="15040101" end="87" name="Target" start="76"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>1 cubic yard = 27 cubic feet -LRB- 1 yard = 3 feet -RRB- .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="11" name="Unit" start="8"/>
+                        <label ID="16000202" end="6" name="Count" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="40" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels>
+                        <label ID="16010201" end="40" name="Unit" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1602" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="160201" name="Target">
+                      <labels>
+                        <label ID="16020101" end="44" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160202" name="FE">
+                      <labels>
+                        <label ID="16020201" end="49" name="Entity" start="46"/>
+                        <label ID="16020202" end="44" name="Number" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1603" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="160301" name="Target">
+                      <labels>
+                        <label ID="16030101" end="49" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160302" name="FE">
+                      <labels>
+                        <label ID="16030201" end="49" name="Body_part" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1604" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="160401" name="Target">
+                      <labels>
+                        <label ID="16040101" end="27" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160402" name="FE">
+                      <labels>
+                        <label ID="16040201" end="27" name="Body_part" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>So , cubic yards for concrete = 83.16 / 27 = 3.08 cubic yard .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="15" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels>
+                        <label ID="17000201" end="15" name="Unit" start="11"/>
+                        <label ID="17000202" end="9" name="Count" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="59" name="Target" start="56"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels>
+                        <label ID="17010201" end="59" name="Unit" start="56"/>
+                        <label ID="17010202" end="54" name="Count" start="50"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>A cubic yard is an Imperial / U.S. customary -LRB- non-SI non-metric -RRB- unit of volume , used in the United States .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Using">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="95" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="88" name="Instrument" start="80"/>
+                        <label ID="18000202" end="116" name="Place" start="97"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Political_locales">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="116" name="Target" start="111"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels>
+                        <label ID="18010201" end="116" name="Locale" start="111"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1802" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="180201" name="Target">
+                      <labels>
+                        <label ID="18020101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180202" name="FE">
+                      <labels>
+                        <label ID="18020201" end="11" name="Unit" start="8"/>
+                        <label ID="18020202" end="6" name="Count" start="2"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1803" frameName="Text">
+                  <layers>
+                    <layer ID="180301" name="Target">
+                      <labels>
+                        <label ID="18030101" end="88" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180302" name="FE">
+                      <labels>
+                        <label ID="18030201" end="88" name="Text" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>A cubic foot is 12 inches long by 12 inches wide by 12 inches deep .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="24" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels>
+                        <label ID="19000201" end="24" name="Unit" start="19"/>
+                        <label ID="19000202" end="17" name="Count" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="53" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels>
+                        <label ID="19010201" end="60" name="Entity" start="55"/>
+                        <label ID="19010202" end="53" name="Number" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1902" frameName="Duration_attribute">
+                  <layers>
+                    <layer ID="190201" name="Target">
+                      <labels>
+                        <label ID="19020101" end="29" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1903" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="190301" name="Target">
+                      <labels>
+                        <label ID="19030101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190302" name="FE">
+                      <labels>
+                        <label ID="19030201" end="11" name="Body_part" start="8"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1904" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="190401" name="Target">
+                      <labels>
+                        <label ID="19040101" end="17" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190402" name="FE">
+                      <labels>
+                        <label ID="19040201" end="24" name="Entity" start="19"/>
+                        <label ID="19040202" end="17" name="Number" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1905" frameName="Dimension">
+                  <layers>
+                    <layer ID="190501" name="Target">
+                      <labels>
+                        <label ID="19050101" end="47" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190502" name="FE">
+                      <labels>
+                        <label ID="19050201" end="42" name="Measurement" start="31"/>
+                        <label ID="19050202" end="47" name="Dimension" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1906" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="190601" name="Target">
+                      <labels>
+                        <label ID="19060101" end="42" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190602" name="FE">
+                      <labels>
+                        <label ID="19060201" end="42" name="Unit" start="37"/>
+                        <label ID="19060202" end="35" name="Count" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1907" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="190701" name="Target">
+                      <labels>
+                        <label ID="19070101" end="60" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190702" name="FE">
+                      <labels>
+                        <label ID="19070201" end="60" name="Unit" start="55"/>
+                        <label ID="19070202" end="53" name="Count" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1908" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="190801" name="Target">
+                      <labels>
+                        <label ID="19080101" end="35" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190802" name="FE">
+                      <labels>
+                        <label ID="19080201" end="42" name="Entity" start="37"/>
+                        <label ID="19080202" end="35" name="Number" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1909" frameName="Dimension">
+                  <layers>
+                    <layer ID="190901" name="Target">
+                      <labels>
+                        <label ID="19090101" end="65" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190902" name="FE">
+                      <labels>
+                        <label ID="19090201" end="60" name="Measurement" start="49"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>1600 cubic feet divided by 27 equals 59.26 cubic yards of dirt will be needed to fill this area .</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Filling">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="84" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="79" name="Goal" start="78"/>
+                        <label ID="20000202" end="94" name="Theme" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Being_necessary">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="76" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels>
+                        <label ID="20010201" end="94" name="Dependent" start="78"/>
+                        <label ID="20010202" end="61" name="Requirement" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2002" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="200201" name="Target">
+                      <labels>
+                        <label ID="20020101" end="14" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200202" name="FE">
+                      <labels>
+                        <label ID="20020201" end="14" name="Unit" start="11"/>
+                        <label ID="20020202" end="9" name="Count" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2003" frameName="Locale">
+                  <layers>
+                    <layer ID="200301" name="Target">
+                      <labels>
+                        <label ID="20030101" end="94" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200302" name="FE">
+                      <labels>
+                        <label ID="20030201" end="94" name="Locale" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2004" frameName="Evaluative_comparison">
+                  <layers>
+                    <layer ID="200401" name="Target">
+                      <labels>
+                        <label ID="20040101" end="35" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200402" name="FE">
+                      <labels>
+                        <label ID="20040201" end="28" name="Profiled_attribute" start="0"/>
+                        <label ID="20040202" end="61" name="Standard_attribute" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2005" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="200501" name="Target">
+                      <labels>
+                        <label ID="20050101" end="53" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200502" name="FE">
+                      <labels>
+                        <label ID="20050201" end="53" name="Unit" start="49"/>
+                        <label ID="20050202" end="47" name="Count" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2006" frameName="Substance">
+                  <layers>
+                    <layer ID="200601" name="Target">
+                      <labels>
+                        <label ID="20060101" end="61" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200602" name="FE">
+                      <labels>
+                        <label ID="20060201" end="61" name="Substance" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2007" frameName="Separating">
+                  <layers>
+                    <layer ID="200701" name="Target">
+                      <labels>
+                        <label ID="20070101" end="22" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>Measurements may not always be in feet so they must be converted to obtain cubic yards .</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Frequency">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="26" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="11" name="Event" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Getting">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="73" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels>
+                        <label ID="21010201" end="85" name="Theme" start="75"/>
+                        <label ID="21010202" end="45" name="Recipient" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Likelihood">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="15" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels>
+                        <label ID="21020201" end="11" name="Hypothetical_event" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2103" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="210301" name="Target">
+                      <labels>
+                        <label ID="21030101" end="85" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210302" name="FE">
+                      <labels>
+                        <label ID="21030201" end="85" name="Unit" start="81"/>
+                        <label ID="21030202" end="79" name="Count" start="75"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2104" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="210401" name="Target">
+                      <labels>
+                        <label ID="21040101" end="37" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210402" name="FE">
+                      <labels>
+                        <label ID="21040201" end="37" name="Body_part" start="34"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2105" frameName="Cause_change">
+                  <layers>
+                    <layer ID="210501" name="Target">
+                      <labels>
+                        <label ID="21050101" end="63" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210502" name="FE">
+                      <labels>
+                        <label ID="21050201" end="85" name="Purpose" start="65"/>
+                        <label ID="21050202" end="45" name="Entity" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2106" frameName="Being_obligated">
+                  <layers>
+                    <layer ID="210601" name="Target">
+                      <labels>
+                        <label ID="21060101" end="50" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210602" name="FE">
+                      <labels>
+                        <label ID="21060201" end="85" name="Duty" start="52"/>
+                        <label ID="21060202" end="45" name="Responsible_party" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>When calculating cubic yards all the measurement units must be the same .</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Quantity">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="31" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels>
+                        <label ID="22000201" end="31" name="Quantity" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Required_event">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="58" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="53" name="Required_situation" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Identicality">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="70" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels>
+                        <label ID="22020201" end="53" name="Current_instance" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2203" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="220301" name="Target">
+                      <labels>
+                        <label ID="22030101" end="27" name="Target" start="23"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220302" name="FE">
+                      <labels>
+                        <label ID="22030201" end="27" name="Unit" start="23"/>
+                        <label ID="22030202" end="21" name="Count" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2204" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="220401" name="Target">
+                      <labels>
+                        <label ID="22040101" end="3" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>If you start with all measurements in inches you must divide your first answer by 12 to obtain cubic feet and then divide by 27 to obtain cubic yards .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Separating">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="120" name="Target" start="115"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Getting">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="93" name="Target" start="88"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="104" name="Theme" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2302" frameName="Required_event">
+                  <layers>
+                    <layer ID="230201" name="Target">
+                      <labels>
+                        <label ID="23020101" end="52" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230202" name="FE">
+                      <labels>
+                        <label ID="23020201" end="47" name="Required_situation" start="45"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2303" frameName="Getting">
+                  <layers>
+                    <layer ID="230301" name="Target">
+                      <labels>
+                        <label ID="23030101" end="136" name="Target" start="131"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230302" name="FE">
+                      <labels>
+                        <label ID="23030201" end="148" name="Theme" start="138"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2304" frameName="Communication_response">
+                  <layers>
+                    <layer ID="230401" name="Target">
+                      <labels>
+                        <label ID="23040101" end="77" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2305" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="230501" name="Target">
+                      <labels>
+                        <label ID="23050101" end="104" name="Target" start="101"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230502" name="FE">
+                      <labels>
+                        <label ID="23050201" end="104" name="Unit" start="101"/>
+                        <label ID="23050202" end="99" name="Count" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2306" frameName="Ordinal_numbers">
+                  <layers>
+                    <layer ID="230601" name="Target">
+                      <labels>
+                        <label ID="23060101" end="70" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230602" name="FE">
+                      <labels>
+                        <label ID="23060201" end="77" name="Type" start="72"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2307" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="230701" name="Target">
+                      <labels>
+                        <label ID="23070101" end="83" name="Target" start="82"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230702" name="FE">
+                      <labels>
+                        <label ID="23070201" end="83" name="Number" start="82"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2308" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="230801" name="Target">
+                      <labels>
+                        <label ID="23080101" end="148" name="Target" start="144"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230802" name="FE">
+                      <labels>
+                        <label ID="23080201" end="148" name="Unit" start="144"/>
+                        <label ID="23080202" end="142" name="Count" start="138"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2309" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="230901" name="Target">
+                      <labels>
+                        <label ID="23090101" end="113" name="Target" start="110"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230902" name="FE">
+                      <labels>
+                        <label ID="23090201" end="104" name="Trajector_event" start="61"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2310" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="231001" name="Target">
+                      <labels>
+                        <label ID="23100101" end="43" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231002" name="FE">
+                      <labels>
+                        <label ID="23100201" end="43" name="Unit" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2311" frameName="Quantity">
+                  <layers>
+                    <layer ID="231101" name="Target">
+                      <labels>
+                        <label ID="23110101" end="20" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231102" name="FE">
+                      <labels>
+                        <label ID="23110201" end="33" name="Individuals" start="22"/>
+                        <label ID="23110202" end="20" name="Quantity" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2312" frameName="Activity_start">
+                  <layers>
+                    <layer ID="231201" name="Target">
+                      <labels>
+                        <label ID="23120101" end="11" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231202" name="FE">
+                      <labels>
+                        <label ID="23120201" end="113" name="Activity" start="13"/>
+                        <label ID="23120202" end="5" name="Agent" start="3"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2313" frameName="Separating">
+                  <layers>
+                    <layer ID="231301" name="Target">
+                      <labels>
+                        <label ID="23130101" end="59" name="Target" start="54"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="24">
+              <text>Cubic yard to cubic foot -LRB- yd3 to ft3 -RRB- volume conversion table shows the most common values for the quick reference .</text>
+              <annotationSets>
+                <annotationSet ID="2400" frameName="Cause_change">
+                  <layers>
+                    <layer ID="240001" name="Target">
+                      <labels>
+                        <label ID="24000101" end="64" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240002" name="FE">
+                      <labels>
+                        <label ID="24000201" end="53" name="Entity" start="48"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2401" frameName="Speed">
+                  <layers>
+                    <layer ID="240101" name="Target">
+                      <labels>
+                        <label ID="24010101" end="113" name="Target" start="109"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2402" frameName="Usefulness">
+                  <layers>
+                    <layer ID="240201" name="Target">
+                      <labels>
+                        <label ID="24020101" end="99" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240202" name="FE">
+                      <labels>
+                        <label ID="24020201" end="70" name="Entity" start="6"/>
+                        <label ID="24020202" end="123" name="Purpose" start="101"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2403" frameName="Evidence">
+                  <layers>
+                    <layer ID="240301" name="Target">
+                      <labels>
+                        <label ID="24030101" end="76" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240302" name="FE">
+                      <labels>
+                        <label ID="24030201" end="99" name="Proposition" start="78"/>
+                        <label ID="24030202" end="70" name="Support" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2404" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="240401" name="Target">
+                      <labels>
+                        <label ID="24040101" end="23" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240402" name="FE">
+                      <labels>
+                        <label ID="24040201" end="23" name="Body_part" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2405" frameName="Text">
+                  <layers>
+                    <layer ID="240501" name="Target">
+                      <labels>
+                        <label ID="24050101" end="53" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240502" name="FE">
+                      <labels>
+                        <label ID="24050201" end="53" name="Text" start="48"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2406" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="240601" name="Target">
+                      <labels>
+                        <label ID="24060101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240602" name="FE">
+                      <labels>
+                        <label ID="24060201" end="9" name="Unit" start="6"/>
+                        <label ID="24060202" end="4" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="25">
+              <text>1 Cubic Yard = 27 Cubic Feet .</text>
+              <annotationSets>
+                <annotationSet ID="2500" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="250001" name="Target">
+                      <labels>
+                        <label ID="25000101" end="27" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250002" name="FE">
+                      <labels>
+                        <label ID="25000201" end="27" name="Unit" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2501" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="250101" name="Target">
+                      <labels>
+                        <label ID="25010101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250102" name="FE">
+                      <labels>
+                        <label ID="25010201" end="11" name="Unit" start="8"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="26">
+              <text>Cubic Yard is an imperial , us customary unit and defined as a cube with sides are one yard in length .</text>
+              <annotationSets>
+                <annotationSet ID="2600" frameName="Communicate_categorization">
+                  <layers>
+                    <layer ID="260001" name="Target">
+                      <labels>
+                        <label ID="26000101" end="56" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260002" name="FE">
+                      <labels>
+                        <label ID="26000201" end="9" name="Item" start="0"/>
+                        <label ID="26000202" end="77" name="Category" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2601" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="260101" name="Target">
+                      <labels>
+                        <label ID="26010101" end="85" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260102" name="FE">
+                      <labels>
+                        <label ID="26010201" end="90" name="Entity" start="87"/>
+                        <label ID="26010202" end="85" name="Number" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2602" frameName="Custom">
+                  <layers>
+                    <layer ID="260201" name="Target">
+                      <labels>
+                        <label ID="26020101" end="39" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260202" name="FE">
+                      <labels>
+                        <label ID="26020201" end="29" name="Protagonist" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2603" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="260301" name="Target">
+                      <labels>
+                        <label ID="26030101" end="77" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260302" name="FE">
+                      <labels>
+                        <label ID="26030201" end="77" name="Side" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2604" frameName="Shapes">
+                  <layers>
+                    <layer ID="260401" name="Target">
+                      <labels>
+                        <label ID="26040101" end="66" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260402" name="FE">
+                      <labels>
+                        <label ID="26040201" end="77" name="Substance" start="68"/>
+                        <label ID="26040202" end="66" name="Shape" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2605" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="260501" name="Target">
+                      <labels>
+                        <label ID="26050101" end="90" name="Target" start="87"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260502" name="FE">
+                      <labels>
+                        <label ID="26050201" end="90" name="Unit" start="87"/>
+                        <label ID="26050202" end="85" name="Count" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2606" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="260601" name="Target">
+                      <labels>
+                        <label ID="26060101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260602" name="FE">
+                      <labels>
+                        <label ID="26060201" end="9" name="Unit" start="6"/>
+                        <label ID="26060202" end="4" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2607" frameName="Shapes">
+                  <layers>
+                    <layer ID="260701" name="Target">
+                      <labels>
+                        <label ID="26070101" end="100" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260702" name="FE">
+                      <labels>
+                        <label ID="26070201" end="100" name="Shape" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="27">
+              <text>Cubic Foot is an imperial , us customary unit and defined as a cube with sides are one foot in length .</text>
+              <annotationSets>
+                <annotationSet ID="2700" frameName="Communicate_categorization">
+                  <layers>
+                    <layer ID="270001" name="Target">
+                      <labels>
+                        <label ID="27000101" end="56" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270002" name="FE">
+                      <labels>
+                        <label ID="27000201" end="100" name="Item" start="83"/>
+                        <label ID="27000202" end="77" name="Category" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2701" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="270101" name="Target">
+                      <labels>
+                        <label ID="27010101" end="85" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270102" name="FE">
+                      <labels>
+                        <label ID="27010201" end="100" name="Entity" start="87"/>
+                        <label ID="27010202" end="85" name="Number" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2702" frameName="Shapes">
+                  <layers>
+                    <layer ID="270201" name="Target">
+                      <labels>
+                        <label ID="27020101" end="66" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270202" name="FE">
+                      <labels>
+                        <label ID="27020201" end="77" name="Substance" start="68"/>
+                        <label ID="27020202" end="66" name="Shape" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2703" frameName="Shapes">
+                  <layers>
+                    <layer ID="270301" name="Target">
+                      <labels>
+                        <label ID="27030101" end="100" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270302" name="FE">
+                      <labels>
+                        <label ID="27030201" end="100" name="Shape" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2704" frameName="Custom">
+                  <layers>
+                    <layer ID="270401" name="Target">
+                      <labels>
+                        <label ID="27040101" end="39" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270402" name="FE">
+                      <labels>
+                        <label ID="27040201" end="29" name="Protagonist" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2705" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="270501" name="Target">
+                      <labels>
+                        <label ID="27050101" end="90" name="Target" start="87"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270502" name="FE">
+                      <labels>
+                        <label ID="27050201" end="90" name="Body_part" start="87"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2706" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="270601" name="Target">
+                      <labels>
+                        <label ID="27060101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270602" name="FE">
+                      <labels>
+                        <label ID="27060201" end="9" name="Body_part" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2707" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="270701" name="Target">
+                      <labels>
+                        <label ID="27070101" end="77" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270702" name="FE">
+                      <labels>
+                        <label ID="27070201" end="77" name="Side" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="28">
+              <text>Cubic feet to cubic yards conversion table shows the most common values for the quick reference .</text>
+              <annotationSets>
+                <annotationSet ID="2800" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="280001" name="Target">
+                      <labels>
+                        <label ID="28000101" end="24" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280002" name="FE">
+                      <labels>
+                        <label ID="28000201" end="24" name="Unit" start="20"/>
+                        <label ID="28000202" end="18" name="Count" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2801" frameName="Evidence">
+                  <layers>
+                    <layer ID="280101" name="Target">
+                      <labels>
+                        <label ID="28010101" end="47" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280102" name="FE">
+                      <labels>
+                        <label ID="28010201" end="70" name="Proposition" start="49"/>
+                        <label ID="28010202" end="41" name="Support" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2802" frameName="Cause_change">
+                  <layers>
+                    <layer ID="280201" name="Target">
+                      <labels>
+                        <label ID="28020101" end="35" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280202" name="FE">
+                      <labels>
+                        <label ID="28020201" end="24" name="Entity" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2803" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="280301" name="Target">
+                      <labels>
+                        <label ID="28030101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280302" name="FE">
+                      <labels>
+                        <label ID="28030201" end="9" name="Unit" start="6"/>
+                        <label ID="28030202" end="4" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2804" frameName="Usefulness">
+                  <layers>
+                    <layer ID="280401" name="Target">
+                      <labels>
+                        <label ID="28040101" end="70" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280402" name="FE">
+                      <labels>
+                        <label ID="28040201" end="94" name="Purpose" start="72"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2805" frameName="Speed">
+                  <layers>
+                    <layer ID="280501" name="Target">
+                      <labels>
+                        <label ID="28050101" end="84" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="29">
+              <text>1 Cubic Foot = 0.037037037 Cubic Yards .</text>
+              <annotationSets>
+                <annotationSet ID="2900" frameName="Observable_body_parts">
+                  <layers>
+                    <layer ID="290001" name="Target">
+                      <labels>
+                        <label ID="29000101" end="11" name="Target" start="8"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290002" name="FE">
+                      <labels>
+                        <label ID="29000201" end="11" name="Body_part" start="8"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2901" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="290101" name="Target">
+                      <labels>
+                        <label ID="29010101" end="37" name="Target" start="33"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290102" name="FE">
+                      <labels>
+                        <label ID="29010201" end="37" name="Unit" start="33"/>
+                        <label ID="29010202" end="31" name="Count" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="30">
+              <text>Cubic yard is an imperial , us customary unit and defined as a cube with sides are one yard in length .</text>
+              <annotationSets>
+                <annotationSet ID="3000" frameName="Shapes">
+                  <layers>
+                    <layer ID="300001" name="Target">
+                      <labels>
+                        <label ID="30000101" end="66" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300002" name="FE">
+                      <labels>
+                        <label ID="30000201" end="77" name="Substance" start="68"/>
+                        <label ID="30000202" end="66" name="Shape" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3001" frameName="Custom">
+                  <layers>
+                    <layer ID="300101" name="Target">
+                      <labels>
+                        <label ID="30010101" end="39" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300102" name="FE">
+                      <labels>
+                        <label ID="30010201" end="29" name="Protagonist" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3002" frameName="Shapes">
+                  <layers>
+                    <layer ID="300201" name="Target">
+                      <labels>
+                        <label ID="30020101" end="100" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300202" name="FE">
+                      <labels>
+                        <label ID="30020201" end="100" name="Shape" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3003" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="300301" name="Target">
+                      <labels>
+                        <label ID="30030101" end="85" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300302" name="FE">
+                      <labels>
+                        <label ID="30030201" end="90" name="Entity" start="87"/>
+                        <label ID="30030202" end="85" name="Number" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3004" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="300401" name="Target">
+                      <labels>
+                        <label ID="30040101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300402" name="FE">
+                      <labels>
+                        <label ID="30040201" end="9" name="Unit" start="6"/>
+                        <label ID="30040202" end="4" name="Count" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3005" frameName="Measure_linear_extent">
+                  <layers>
+                    <layer ID="300501" name="Target">
+                      <labels>
+                        <label ID="30050101" end="90" name="Target" start="87"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300502" name="FE">
+                      <labels>
+                        <label ID="30050201" end="90" name="Unit" start="87"/>
+                        <label ID="30050202" end="85" name="Count" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3006" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="300601" name="Target">
+                      <labels>
+                        <label ID="30060101" end="77" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300602" name="FE">
+                      <labels>
+                        <label ID="30060201" end="77" name="Side" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3007" frameName="Communicate_categorization">
+                  <layers>
+                    <layer ID="300701" name="Target">
+                      <labels>
+                        <label ID="30070101" end="56" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="300702" name="FE">
+                      <labels>
+                        <label ID="30070201" end="9" name="Item" start="0"/>
+                        <label ID="30070202" end="77" name="Category" start="58"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="31">
+              <text>Several symbols are used as abbreviation for this unit , but mostly `` cu yd '' and `` yd3 '' are used .</text>
+              <annotationSets>
+                <annotationSet ID="3100" frameName="Quantity">
+                  <layers>
+                    <layer ID="310001" name="Target">
+                      <labels>
+                        <label ID="31000101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="310002" name="FE">
+                      <labels>
+                        <label ID="31000201" end="14" name="Individuals" start="8"/>
+                        <label ID="31000202" end="6" name="Quantity" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3101" frameName="Using">
+                  <layers>
+                    <layer ID="310101" name="Target">
+                      <labels>
+                        <label ID="31010101" end="23" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="310102" name="FE">
+                      <labels>
+                        <label ID="31010201" end="53" name="Purpose" start="41"/>
+                        <label ID="31010202" end="14" name="Instrument" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3102" frameName="Using">
+                  <layers>
+                    <layer ID="310201" name="Target">
+                      <labels>
+                        <label ID="31020101" end="101" name="Target" start="98"/>
+                      </labels>
+                    </layer>
+                    <layer ID="310202" name="FE">
+                      <labels>
+                        <label ID="31020201" end="89" name="Instrument" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

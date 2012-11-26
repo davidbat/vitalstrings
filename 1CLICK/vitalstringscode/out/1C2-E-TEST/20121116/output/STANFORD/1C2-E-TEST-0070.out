@@ -1,0 +1,1001 @@
+1C2-E-TEST-0070-103.3	PHOENIX (AP) - Ichiro Suzuki of the Seattle Mariners singled to lead off Tuesday night's game against the Arizona Diamondbacks for the 2,500th hit of his major league career
+1C2-E-TEST-0070-103.3/001	phoenix
+1C2-E-TEST-0070-103.3/002	ap	DEP=1C2-E-TEST-0070-103.3001
+1C2-E-TEST-0070-103.3/003	seattle mariners
+1C2-E-TEST-0070-103.3/004	tuesday night	DEP=1C2-E-TEST-0070-103.3011
+1C2-E-TEST-0070-103.3/005	arizona diamondbacks
+1C2-E-TEST-0070-103.3/006	2,500
+1C2-E-TEST-0070-103.3/007	hit	DEP=1C2-E-TEST-0070-103.3001
+1C2-E-TEST-0070-103.3/008	major league career
+1C2-E-TEST-0070-103.3/009	singled
+1C2-E-TEST-0070-103.3/010	lead	DEP=1C2-E-TEST-0070-103.3009
+1C2-E-TEST-0070-103.3/011	game	DEP=1C2-E-TEST-0070-103.3010
+1C2-E-TEST-0070-117.100	Ichiro began playing in the Major Leagues with the Seattle Mariners in 2001 when he was 27.
+1C2-E-TEST-0070-117.100/001	major leagues
+1C2-E-TEST-0070-117.100/002	seattle mariners
+1C2-E-TEST-0070-117.100/003	2001
+1C2-E-TEST-0070-117.100/004	27	DEP=1C2-E-TEST-0070-117.100005
+1C2-E-TEST-0070-117.100/005	began
+1C2-E-TEST-0070-117.100/006	playing	DEP=1C2-E-TEST-0070-117.100005
+1C2-E-TEST-0070-117.103	Ichiro was the first Japanese position player in the Major League (the Japanese players that preceded him were pitchers).
+1C2-E-TEST-0070-117.103/001	japanese position player
+1C2-E-TEST-0070-117.103/002	major league
+1C2-E-TEST-0070-117.103/003	japanese players	DEP=1C2-E-TEST-0070-117.103002
+1C2-E-TEST-0070-117.103/004	pitchers	DEP=1C2-E-TEST-0070-117.103005
+1C2-E-TEST-0070-117.103/005	preceded	DEP=1C2-E-TEST-0070-117.103003
+1C2-E-TEST-0070-117.115	He has the power to hit home runsÃ¢ÂÂhe usually hits more of them than anyone in batting practiceÃ¢ÂÂbut doesn't hit many in games.
+1C2-E-TEST-0070-117.115/001	home runsâ	DEP=1C2-E-TEST-0070-117.115004
+1C2-E-TEST-0070-117.115/002	games
+1C2-E-TEST-0070-117.115/003	power
+1C2-E-TEST-0070-117.115/004	hit	DEP=1C2-E-TEST-0070-117.115003
+1C2-E-TEST-0070-117.115/005	usually	DEP=1C2-E-TEST-0070-117.115006
+1C2-E-TEST-0070-117.115/006	hits
+1C2-E-TEST-0070-117.115/007	batting	DEP=1C2-E-TEST-0070-117.115008
+1C2-E-TEST-0070-117.115/008	practiceâ
+1C2-E-TEST-0070-117.115/009	n't	DEP=1C2-E-TEST-0070-117.115010
+1C2-E-TEST-0070-117.115/010	hit	DEP=1C2-E-TEST-0070-117.115006
+1C2-E-TEST-0070-117.178	Thanks in part to Ichiro the Mariners were one of the few Major League Teams to make a profit in 2001.
+1C2-E-TEST-0070-117.178/001	thanks
+1C2-E-TEST-0070-117.178/002	part
+1C2-E-TEST-0070-117.178/003	mariners
+1C2-E-TEST-0070-117.178/004	major league teams
+1C2-E-TEST-0070-117.178/005	profit	DEP=1C2-E-TEST-0070-117.178007
+1C2-E-TEST-0070-117.178/006	2001
+1C2-E-TEST-0070-117.178/007	make
+1C2-E-TEST-0070-117.209	In 2001, Ichiro was named Most Valuable Player in the American League.
+1C2-E-TEST-0070-117.209/001	2001
+1C2-E-TEST-0070-117.209/002	valuable player	DEP=1C2-E-TEST-0070-117.209004
+1C2-E-TEST-0070-117.209/003	american league
+1C2-E-TEST-0070-117.209/004	named
+1C2-E-TEST-0070-117.211	Ichiro also was voted Rookie of the Year, making him only the second player to receive the MVP and Rookie of the Year awards in the same year and the first player since Jackie Robinson to lead the league in hitting and stolen bases.
+1C2-E-TEST-0070-117.211/001	rookie	DEP=1C2-E-TEST-0070-117.211010
+1C2-E-TEST-0070-117.211/002	second player
+1C2-E-TEST-0070-117.211/003	mvp rookie	DEP=1C2-E-TEST-0070-117.211012
+1C2-E-TEST-0070-117.211/004	awards
+1C2-E-TEST-0070-117.211/005	player
+1C2-E-TEST-0070-117.211/006	jackie robinson
+1C2-E-TEST-0070-117.211/007	league	DEP=1C2-E-TEST-0070-117.211013
+1C2-E-TEST-0070-117.211/008	hitting
+1C2-E-TEST-0070-117.211/009	stolen bases	DEP=1C2-E-TEST-0070-117.211008
+1C2-E-TEST-0070-117.211/010	voted
+1C2-E-TEST-0070-117.211/011	making	DEP=1C2-E-TEST-0070-117.211010
+1C2-E-TEST-0070-117.211/012	receive	DEP=1C2-E-TEST-0070-117.211011
+1C2-E-TEST-0070-117.211/013	lead	DEP=1C2-E-TEST-0070-117.211012
+1C2-E-TEST-0070-117.212	In 2001, Ichiro lead the league in batting average (.350), hits (242, the most since 1930), stolen bases (56), multi hit games (75).
+1C2-E-TEST-0070-117.212/001	2001
+1C2-E-TEST-0070-117.212/002	league
+1C2-E-TEST-0070-117.212/003	.350	DEP=1C2-E-TEST-0070-117.212002
+1C2-E-TEST-0070-117.212/004	hits	DEP=1C2-E-TEST-0070-117.212002
+1C2-E-TEST-0070-117.212/005	242	DEP=1C2-E-TEST-0070-117.212004
+1C2-E-TEST-0070-117.212/006	1930
+1C2-E-TEST-0070-117.212/007	stolen bases	DEP=1C2-E-TEST-0070-117.212002
+1C2-E-TEST-0070-117.212/008	56	DEP=1C2-E-TEST-0070-117.212007
+1C2-E-TEST-0070-117.212/009	multi	DEP=1C2-E-TEST-0070-117.212002
+1C2-E-TEST-0070-117.212/010	games	DEP=1C2-E-TEST-0070-117.212014
+1C2-E-TEST-0070-117.212/011	75	DEP=1C2-E-TEST-0070-117.212002
+1C2-E-TEST-0070-117.212/012	batting	DEP=1C2-E-TEST-0070-117.212013
+1C2-E-TEST-0070-117.212/013	average
+1C2-E-TEST-0070-117.212/014	hit	DEP=1C2-E-TEST-0070-117.212009
+1C2-E-TEST-0070-117.219	In 2002, Ichiro was 2nd in number of hits in the Major League and 4th in the American League in batting average and stolen bases.
+1C2-E-TEST-0070-117.219/001	2002
+1C2-E-TEST-0070-117.219/002	number
+1C2-E-TEST-0070-117.219/003	hits
+1C2-E-TEST-0070-117.219/004	major league
+1C2-E-TEST-0070-117.219/005	american league
+1C2-E-TEST-0070-117.219/006	stolen bases	DEP=1C2-E-TEST-0070-117.219005
+1C2-E-TEST-0070-117.219/007	2nd
+1C2-E-TEST-0070-117.219/008	4th	DEP=1C2-E-TEST-0070-117.219007
+1C2-E-TEST-0070-117.219/009	batting	DEP=1C2-E-TEST-0070-117.219010
+1C2-E-TEST-0070-117.219/010	average
+1C2-E-TEST-0070-117.225	Ichiro Sets the Single Season Hit in 2004
+1C2-E-TEST-0070-117.225/001	single season	DEP=1C2-E-TEST-0070-117.225003
+1C2-E-TEST-0070-117.225/002	2004
+1C2-E-TEST-0070-117.225/003	sets
+1C2-E-TEST-0070-117.225/004	hit	DEP=1C2-E-TEST-0070-117.225001
+1C2-E-TEST-0070-117.226	In 2004, Ichiro broke the single season Major League hit record, with 262 hits, breaking the the record of 257 hits, set by George Sisler in 1920.
+1C2-E-TEST-0070-117.226/001	2004
+1C2-E-TEST-0070-117.226/002	single season	DEP=1C2-E-TEST-0070-117.226010
+1C2-E-TEST-0070-117.226/003	major league	DEP=1C2-E-TEST-0070-117.226011
+1C2-E-TEST-0070-117.226/004	record	DEP=1C2-E-TEST-0070-117.226011
+1C2-E-TEST-0070-117.226/005	262 hits
+1C2-E-TEST-0070-117.226/006	record	DEP=1C2-E-TEST-0070-117.226012
+1C2-E-TEST-0070-117.226/007	257 hits
+1C2-E-TEST-0070-117.226/008	george sisler
+1C2-E-TEST-0070-117.226/009	1920
+1C2-E-TEST-0070-117.226/010	broke
+1C2-E-TEST-0070-117.226/011	hit	DEP=1C2-E-TEST-0070-117.226002
+1C2-E-TEST-0070-117.226/012	breaking	DEP=1C2-E-TEST-0070-117.226011
+1C2-E-TEST-0070-117.226/013	set	DEP=1C2-E-TEST-0070-117.226007
+1C2-E-TEST-0070-117.231	Ichiro finished the 2004 season with a .372 batting average, enough to earn him his second American League batting crown.
+1C2-E-TEST-0070-117.231/001	2004 season	DEP=1C2-E-TEST-0070-117.231004
+1C2-E-TEST-0070-117.231/002	.372 batting average
+1C2-E-TEST-0070-117.231/003	second american league batting crown	DEP=1C2-E-TEST-0070-117.231005
+1C2-E-TEST-0070-117.231/004	finished
+1C2-E-TEST-0070-117.231/005	earn	DEP=1C2-E-TEST-0070-117.231004
+1C2-E-TEST-0070-117.239	In 2008, Ichiro became the first player to get 200 hits in eight consecutive seasons since Willie Keeler achieved the feat between 1894 to 1901.
+1C2-E-TEST-0070-117.239/001	2008
+1C2-E-TEST-0070-117.239/002	player
+1C2-E-TEST-0070-117.239/003	200 hits
+1C2-E-TEST-0070-117.239/004	eight consecutive seasons
+1C2-E-TEST-0070-117.239/005	willie keeler	DEP=1C2-E-TEST-0070-117.239009
+1C2-E-TEST-0070-117.239/006	feat	DEP=1C2-E-TEST-0070-117.239009
+1C2-E-TEST-0070-117.239/007	1894
+1C2-E-TEST-0070-117.239/008	1901
+1C2-E-TEST-0070-117.239/009	achieved
+1C2-E-TEST-0070-117.254	Ichiro had 1,278 hits in nine season in Japan and 1,808 hits in nine season in the Major League.
+1C2-E-TEST-0070-117.254/001	1,278 hits
+1C2-E-TEST-0070-117.254/002	nine season
+1C2-E-TEST-0070-117.254/003	japan
+1C2-E-TEST-0070-117.254/004	1,808 hits	DEP=1C2-E-TEST-0070-117.254002
+1C2-E-TEST-0070-117.254/005	nine season
+1C2-E-TEST-0070-117.254/006	major league
+1C2-E-TEST-0070-117.289	In May and June 2009, Ichiro pulled off a 27 game hitting streak, a Mariner record.
+1C2-E-TEST-0070-117.289/001	june 2009
+1C2-E-TEST-0070-117.289/002	27 game	DEP=1C2-E-TEST-0070-117.289005
+1C2-E-TEST-0070-117.289/003	streak	DEP=1C2-E-TEST-0070-117.289006
+1C2-E-TEST-0070-117.289/004	mariner record	DEP=1C2-E-TEST-0070-117.289003
+1C2-E-TEST-0070-117.289/005	pulled
+1C2-E-TEST-0070-117.289/006	hitting	DEP=1C2-E-TEST-0070-117.289002
+1C2-E-TEST-0070-117.300	In 1994, Ichiro became the first player in Japanese baseball to reach the 200 hit mark with 210 hits, which he did in a 130 game season in Japan compared to 162 in the Majors.
+1C2-E-TEST-0070-117.300/001	1994
+1C2-E-TEST-0070-117.300/002	player
+1C2-E-TEST-0070-117.300/003	japanese baseball
+1C2-E-TEST-0070-117.300/004	200 hit mark	DEP=1C2-E-TEST-0070-117.300010
+1C2-E-TEST-0070-117.300/005	210 hits
+1C2-E-TEST-0070-117.300/006	130 game season
+1C2-E-TEST-0070-117.300/007	japan
+1C2-E-TEST-0070-117.300/008	162
+1C2-E-TEST-0070-117.300/009	majors
+1C2-E-TEST-0070-117.300/010	reach	DEP=1C2-E-TEST-0070-117.300002
+1C2-E-TEST-0070-117.300/011	did	DEP=1C2-E-TEST-0070-117.300005
+1C2-E-TEST-0070-117.300/012	compared	DEP=1C2-E-TEST-0070-117.300011
+1C2-E-TEST-0070-117.323	In 2010, Ichiro became the first Major League player to hit 200 hits or more in 10 straight seasons.
+1C2-E-TEST-0070-117.323/001	2010
+1C2-E-TEST-0070-117.323/002	major league player
+1C2-E-TEST-0070-117.323/003	10 straight seasons
+1C2-E-TEST-0070-117.323/004	hit	DEP=1C2-E-TEST-0070-117.323002
+1C2-E-TEST-0070-117.323/005	200	DEP=1C2-E-TEST-0070-117.323006
+1C2-E-TEST-0070-117.323/006	hits	DEP=1C2-E-TEST-0070-117.323004
+1C2-E-TEST-0070-117.333	He had his major league record streak of consecutive 200-hit seasons snapped at 10.
+1C2-E-TEST-0070-117.333/001	major league record streak
+1C2-E-TEST-0070-117.333/002	consecutive 200-hit seasons
+1C2-E-TEST-0070-117.333/003	10
+1C2-E-TEST-0070-117.333/004	snapped	DEP=1C2-E-TEST-0070-117.333002
+1C2-E-TEST-0070-117.4	In his first year with the Seattle Mariners in 2001 he was voted the Most Valuable Player and Rookie of the Year in the American League. As of 2008 he won eight gold gloves, had 200 hits and made All-Star appearances in all eight of his Major League seasons, some years receiving more votes from fans than any other player in the All Star balloting.
+1C2-E-TEST-0070-117.4/001	seattle mariners
+1C2-E-TEST-0070-117.4/002	2001
+1C2-E-TEST-0070-117.4/003	valuable player rookie	DEP=1C2-E-TEST-0070-117.4015
+1C2-E-TEST-0070-117.4/004	american league
+1C2-E-TEST-0070-117.4/005	2008
+1C2-E-TEST-0070-117.4/006	eight gold gloves	DEP=1C2-E-TEST-0070-117.4016
+1C2-E-TEST-0070-117.4/007	200 hits
+1C2-E-TEST-0070-117.4/008	all-star appearances	DEP=1C2-E-TEST-0070-117.4017
+1C2-E-TEST-0070-117.4/009	major league seasons
+1C2-E-TEST-0070-117.4/010	years	DEP=1C2-E-TEST-0070-117.4018
+1C2-E-TEST-0070-117.4/011	votes	DEP=1C2-E-TEST-0070-117.4019
+1C2-E-TEST-0070-117.4/012	fans
+1C2-E-TEST-0070-117.4/013	player
+1C2-E-TEST-0070-117.4/014	star balloting
+1C2-E-TEST-0070-117.4/015	voted
+1C2-E-TEST-0070-117.4/016	won	DEP=1C2-E-TEST-0070-117.4015
+1C2-E-TEST-0070-117.4/017	made	DEP=1C2-E-TEST-0070-117.4016
+1C2-E-TEST-0070-117.4/018	eight
+1C2-E-TEST-0070-117.4/019	receiving	DEP=1C2-E-TEST-0070-117.4010
+1C2-E-TEST-0070-117.59	In his first full season (1994), as scrawny kid with only a trace for facial hair, Ichiro hit for the highest average ever (.385) in the history of the Pacific League and set a Japan League record by hitting 210 hits in 130 games and was voted MVP. He was the first Japanese player to hit more 200 hits, For the effort his salary was increased from about $80,000 a year to $800,000 a year.
+1C2-E-TEST-0070-117.59/001	full season
+1C2-E-TEST-0070-117.59/002	1994	DEP=1C2-E-TEST-0070-117.59001
+1C2-E-TEST-0070-117.59/003	scrawny kid
+1C2-E-TEST-0070-117.59/004	trace
+1C2-E-TEST-0070-117.59/005	facial hair
+1C2-E-TEST-0070-117.59/006	highest average
+1C2-E-TEST-0070-117.59/007	.385	DEP=1C2-E-TEST-0070-117.59006
+1C2-E-TEST-0070-117.59/008	history
+1C2-E-TEST-0070-117.59/009	pacific league
+1C2-E-TEST-0070-117.59/010	japan league record	DEP=1C2-E-TEST-0070-117.59020
+1C2-E-TEST-0070-117.59/011	210 hits	DEP=1C2-E-TEST-0070-117.59021
+1C2-E-TEST-0070-117.59/012	130 games
+1C2-E-TEST-0070-117.59/013	mvp	DEP=1C2-E-TEST-0070-117.59022
+1C2-E-TEST-0070-117.59/014	200 hits	DEP=1C2-E-TEST-0070-117.59020
+1C2-E-TEST-0070-117.59/015	effort
+1C2-E-TEST-0070-117.59/016	salary	DEP=1C2-E-TEST-0070-117.59026
+1C2-E-TEST-0070-117.59/017	80,000
+1C2-E-TEST-0070-117.59/018	800,000
+1C2-E-TEST-0070-117.59/019	hit
+1C2-E-TEST-0070-117.59/020	set	DEP=1C2-E-TEST-0070-117.59019
+1C2-E-TEST-0070-117.59/021	hitting
+1C2-E-TEST-0070-117.59/022	voted	DEP=1C2-E-TEST-0070-117.59020
+1C2-E-TEST-0070-117.59/023	japanese	DEP=1C2-E-TEST-0070-117.59024
+1C2-E-TEST-0070-117.59/024	player	DEP=1C2-E-TEST-0070-117.59013
+1C2-E-TEST-0070-117.59/025	hit	DEP=1C2-E-TEST-0070-117.59024
+1C2-E-TEST-0070-117.59/026	increased	DEP=1C2-E-TEST-0070-117.59019
+1C2-E-TEST-0070-117.66	During his eight years in the Japan League he had a batting average of .353 and a stolen base average of 28 a year.
+1C2-E-TEST-0070-117.66/001	eight years
+1C2-E-TEST-0070-117.66/002	japan league
+1C2-E-TEST-0070-117.66/003	.353
+1C2-E-TEST-0070-117.66/004	stolen base average	DEP=1C2-E-TEST-0070-117.66007
+1C2-E-TEST-0070-117.66/005	28
+1C2-E-TEST-0070-117.66/006	batting	DEP=1C2-E-TEST-0070-117.66007
+1C2-E-TEST-0070-117.66/007	average
+1C2-E-TEST-0070-117.69	Ichiro led the Blue Wave to two pennant titles and one Japan Series championship.
+1C2-E-TEST-0070-117.69/001	blue wave	DEP=1C2-E-TEST-0070-117.69004
+1C2-E-TEST-0070-117.69/002	two pennant titles
+1C2-E-TEST-0070-117.69/003	japan series championship	DEP=1C2-E-TEST-0070-117.69002
+1C2-E-TEST-0070-117.69/004	led
+1C2-E-TEST-0070-117.72	IchiroÃ¢ÂÂs single season hit record of 210 still stands.
+1C2-E-TEST-0070-117.72/001	ichiroâ	DEP=1C2-E-TEST-0070-117.72005
+1C2-E-TEST-0070-117.72/002	s	DEP=1C2-E-TEST-0070-117.72001
+1C2-E-TEST-0070-117.72/003	single season hit record	DEP=1C2-E-TEST-0070-117.72001
+1C2-E-TEST-0070-117.72/004	210
+1C2-E-TEST-0070-117.72/005	stands
+1C2-E-TEST-0070-122.13	When Ichiro joined his junior high school baseball team, his father told the coach, "No matter how good Ichiro is, don't ever praise him.
+1C2-E-TEST-0070-122.13/001	junior	DEP=1C2-E-TEST-0070-122.13002
+1C2-E-TEST-0070-122.13/002	high school baseball team	DEP=1C2-E-TEST-0070-122.13006
+1C2-E-TEST-0070-122.13/003	father	DEP=1C2-E-TEST-0070-122.13007
+1C2-E-TEST-0070-122.13/004	coach	DEP=1C2-E-TEST-0070-122.13010
+1C2-E-TEST-0070-122.13/005	matter	DEP=1C2-E-TEST-0070-122.13004
+1C2-E-TEST-0070-122.13/006	joined	DEP=1C2-E-TEST-0070-122.13007
+1C2-E-TEST-0070-122.13/007	told
+1C2-E-TEST-0070-122.13/008	good
+1C2-E-TEST-0070-122.13/009	n't	DEP=1C2-E-TEST-0070-122.13010
+1C2-E-TEST-0070-122.13/010	praise	DEP=1C2-E-TEST-0070-122.13007
+1C2-E-TEST-0070-122.15	When he was ready to enter high school, Ichiro was selected by a school with a prestigious baseball program, Nagoya 's Aikodai Meiden Koukou.
+1C2-E-TEST-0070-122.15/001	high school	DEP=1C2-E-TEST-0070-122.15006
+1C2-E-TEST-0070-122.15/002	school
+1C2-E-TEST-0070-122.15/003	prestigious baseball program
+1C2-E-TEST-0070-122.15/004	nagoya	DEP=1C2-E-TEST-0070-122.15010
+1C2-E-TEST-0070-122.15/005	ready	DEP=1C2-E-TEST-0070-122.15007
+1C2-E-TEST-0070-122.15/006	enter	DEP=1C2-E-TEST-0070-122.15005
+1C2-E-TEST-0070-122.15/007	selected
+1C2-E-TEST-0070-122.15/008	aikodai	DEP=1C2-E-TEST-0070-122.15010
+1C2-E-TEST-0070-122.15/009	meiden	DEP=1C2-E-TEST-0070-122.15010
+1C2-E-TEST-0070-122.15/010	koukou	DEP=1C2-E-TEST-0070-122.15003
+1C2-E-TEST-0070-122.24	He responded by setting a Japanese single-season record with 210 hits in 130 games for a then-Pacific League record .385 batting average and won the first of a record seven consecutive batting titles.
+1C2-E-TEST-0070-122.24/001	japanese single-season record	DEP=1C2-E-TEST-0070-122.24009
+1C2-E-TEST-0070-122.24/002	210 hits
+1C2-E-TEST-0070-122.24/003	130 games
+1C2-E-TEST-0070-122.24/004	then-pacific league record
+1C2-E-TEST-0070-122.24/005	.385	DEP=1C2-E-TEST-0070-122.24009
+1C2-E-TEST-0070-122.24/006	record
+1C2-E-TEST-0070-122.24/007	seven consecutive batting titles	DEP=1C2-E-TEST-0070-122.24012
+1C2-E-TEST-0070-122.24/008	responded
+1C2-E-TEST-0070-122.24/009	setting
+1C2-E-TEST-0070-122.24/010	batting	DEP=1C2-E-TEST-0070-122.24011
+1C2-E-TEST-0070-122.24/011	average	DEP=1C2-E-TEST-0070-122.24005
+1C2-E-TEST-0070-122.24/012	won	DEP=1C2-E-TEST-0070-122.24008
+1C2-E-TEST-0070-122.3	At age seven, Ichiro joined his first baseball team and asked his father, Nobuyuki, to teach him to be a better player.
+1C2-E-TEST-0070-122.3/001	age seven
+1C2-E-TEST-0070-122.3/002	baseball team	DEP=1C2-E-TEST-0070-122.3006
+1C2-E-TEST-0070-122.3/003	father	DEP=1C2-E-TEST-0070-122.3008
+1C2-E-TEST-0070-122.3/004	nobuyuki	DEP=1C2-E-TEST-0070-122.3003
+1C2-E-TEST-0070-122.3/005	better player	DEP=1C2-E-TEST-0070-122.3008
+1C2-E-TEST-0070-122.3/006	joined
+1C2-E-TEST-0070-122.3/007	asked	DEP=1C2-E-TEST-0070-122.3006
+1C2-E-TEST-0070-122.3/008	teach	DEP=1C2-E-TEST-0070-122.3007
+1C2-E-TEST-0070-122.30	In 1995 , Ichiro led the Blue Wave to their first Pacific League pennant in 12 years.
+1C2-E-TEST-0070-122.30/001	1995
+1C2-E-TEST-0070-122.30/002	blue wave	DEP=1C2-E-TEST-0070-122.30005
+1C2-E-TEST-0070-122.30/003	pacific league pennant
+1C2-E-TEST-0070-122.30/004	12 years
+1C2-E-TEST-0070-122.30/005	led
+1C2-E-TEST-0070-122.33	The following year, with Ichiro winning his third straight MVP award, the team defeated the Central League champion Yomiuri Giants in the Japan Series .
+1C2-E-TEST-0070-122.33/001	third straight mvp award	DEP=1C2-E-TEST-0070-122.33006
+1C2-E-TEST-0070-122.33/002	team	DEP=1C2-E-TEST-0070-122.33007
+1C2-E-TEST-0070-122.33/003	central league champion yomiuri giants	DEP=1C2-E-TEST-0070-122.33007
+1C2-E-TEST-0070-122.33/004	japan series
+1C2-E-TEST-0070-122.33/005	following
+1C2-E-TEST-0070-122.33/006	winning
+1C2-E-TEST-0070-122.33/007	defeated
+1C2-E-TEST-0070-122.35	In 2000, Ichiro was still a year away from being eligible for free agency, but the Blue Wave were no longer among Japan's best teams and would probably not be able to afford to keep him.
+1C2-E-TEST-0070-122.35/001	2000
+1C2-E-TEST-0070-122.35/002	free agency
+1C2-E-TEST-0070-122.35/003	blue wave
+1C2-E-TEST-0070-122.35/004	japan	DEP=1C2-E-TEST-0070-122.35009
+1C2-E-TEST-0070-122.35/005	away
+1C2-E-TEST-0070-122.35/006	eligible
+1C2-E-TEST-0070-122.35/007	longer
+1C2-E-TEST-0070-122.35/008	best	DEP=1C2-E-TEST-0070-122.35009
+1C2-E-TEST-0070-122.35/009	teams
+1C2-E-TEST-0070-122.35/010	probably
+1C2-E-TEST-0070-122.35/011	able
+1C2-E-TEST-0070-122.35/012	afford	DEP=1C2-E-TEST-0070-122.35011
+1C2-E-TEST-0070-122.35/013	keep	DEP=1C2-E-TEST-0070-122.35012
+1C2-E-TEST-0070-122.37	After the 2000 season, in which Ichiro posted his highest batting average (.387), a Pacific League record, Seattle won a bidding war among Major League teams for the rights to negotiate with him on a contract.
+1C2-E-TEST-0070-122.37/001	2000 season
+1C2-E-TEST-0070-122.37/002	.387	DEP=1C2-E-TEST-0070-122.37012
+1C2-E-TEST-0070-122.37/003	pacific league record	DEP=1C2-E-TEST-0070-122.37012
+1C2-E-TEST-0070-122.37/004	seattle	DEP=1C2-E-TEST-0070-122.37013
+1C2-E-TEST-0070-122.37/005	bidding war	DEP=1C2-E-TEST-0070-122.37013
+1C2-E-TEST-0070-122.37/006	major league teams
+1C2-E-TEST-0070-122.37/007	rights
+1C2-E-TEST-0070-122.37/008	contract
+1C2-E-TEST-0070-122.37/009	posted	DEP=1C2-E-TEST-0070-122.37001
+1C2-E-TEST-0070-122.37/010	highest	DEP=1C2-E-TEST-0070-122.37011
+1C2-E-TEST-0070-122.37/011	batting	DEP=1C2-E-TEST-0070-122.37012
+1C2-E-TEST-0070-122.37/012	average	DEP=1C2-E-TEST-0070-122.37009
+1C2-E-TEST-0070-122.37/013	won
+1C2-E-TEST-0070-122.37/014	negotiate	DEP=1C2-E-TEST-0070-122.37013
+1C2-E-TEST-0070-122.38	Ichiro signed a three-year, $14 million contract with the Mariners and became the first Japanese-born everyday position player in the Major Leagues.
+1C2-E-TEST-0070-122.38/001	mariners
+1C2-E-TEST-0070-122.38/002	japanese-born everyday position player	DEP=1C2-E-TEST-0070-122.38004
+1C2-E-TEST-0070-122.38/003	major leagues
+1C2-E-TEST-0070-122.38/004	signed
+1C2-E-TEST-0070-122.38/005	three-year	DEP=1C2-E-TEST-0070-122.38008
+1C2-E-TEST-0070-122.38/006	14
+1C2-E-TEST-0070-122.38/007	million
+1C2-E-TEST-0070-122.38/008	contract	DEP=1C2-E-TEST-0070-122.38004
+1C2-E-TEST-0070-122.39	In his nine seasons in Japan, Ichiro was a career .353 batter and, in addition to his hitting achievements, won seven Gold Glove Awards.
+1C2-E-TEST-0070-122.39/001	nine seasons
+1C2-E-TEST-0070-122.39/002	japan
+1C2-E-TEST-0070-122.39/003	career .353 batter
+1C2-E-TEST-0070-122.39/004	addition
+1C2-E-TEST-0070-122.39/005	hitting achievements
+1C2-E-TEST-0070-122.39/006	seven gold glove awards	DEP=1C2-E-TEST-0070-122.39007
+1C2-E-TEST-0070-122.39/007	won	DEP=1C2-E-TEST-0070-122.39003
+1C2-E-TEST-0070-122.41	Ichiro's move to the United States was viewed with great interest because he was the first Japanese position player to play regularly for a Major League Baseball team.
+1C2-E-TEST-0070-122.41/001	united states
+1C2-E-TEST-0070-122.41/002	great interest
+1C2-E-TEST-0070-122.41/003	japanese position player	DEP=1C2-E-TEST-0070-122.41006
+1C2-E-TEST-0070-122.41/004	major league baseball team
+1C2-E-TEST-0070-122.41/005	move	DEP=1C2-E-TEST-0070-122.41006
+1C2-E-TEST-0070-122.41/006	viewed
+1C2-E-TEST-0070-122.41/007	play	DEP=1C2-E-TEST-0070-122.41003
+1C2-E-TEST-0070-122.41/008	regularly	DEP=1C2-E-TEST-0070-122.41007
+1C2-E-TEST-0070-122.42	Up until that point, only pitchers from Japan had been playing in the United States and, in the same way that many Japanese teams had considered the 18-year-old Ichiro too small to draft in 1992, many in the US believed he was too frail to succeed against Major League pitching or endure the longer 162-game season.
+1C2-E-TEST-0070-122.42/001	point
+1C2-E-TEST-0070-122.42/002	pitchers	DEP=1C2-E-TEST-0070-122.42011
+1C2-E-TEST-0070-122.42/003	japan
+1C2-E-TEST-0070-122.42/004	united states
+1C2-E-TEST-0070-122.42/005	way
+1C2-E-TEST-0070-122.42/006	japanese teams	DEP=1C2-E-TEST-0070-122.42012
+1C2-E-TEST-0070-122.42/007	18-year-old
+1C2-E-TEST-0070-122.42/008	1992
+1C2-E-TEST-0070-122.42/009	major league pitching
+1C2-E-TEST-0070-122.42/010	longer 162-game season	DEP=1C2-E-TEST-0070-122.42018
+1C2-E-TEST-0070-122.42/011	playing
+1C2-E-TEST-0070-122.42/012	considered	DEP=1C2-E-TEST-0070-122.42005
+1C2-E-TEST-0070-122.42/013	small	DEP=1C2-E-TEST-0070-122.42014
+1C2-E-TEST-0070-122.42/014	draft	DEP=1C2-E-TEST-0070-122.42012
+1C2-E-TEST-0070-122.42/015	believed	DEP=1C2-E-TEST-0070-122.42011
+1C2-E-TEST-0070-122.42/016	frail	DEP=1C2-E-TEST-0070-122.42015
+1C2-E-TEST-0070-122.42/017	succeed	DEP=1C2-E-TEST-0070-122.42016
+1C2-E-TEST-0070-122.42/018	endure	DEP=1C2-E-TEST-0070-122.42017
+1C2-E-TEST-0070-122.43	Not only did he prove he belonged, Ichiro had a remarkable 2001 season , accumulating 242 hits (the most by any player since 1930 ) and leading the league with a .350 batting average and 56 stolen bases.
+1C2-E-TEST-0070-122.43/001	242 hits	DEP=1C2-E-TEST-0070-122.43013
+1C2-E-TEST-0070-122.43/002	player
+1C2-E-TEST-0070-122.43/003	1930
+1C2-E-TEST-0070-122.43/004	league	DEP=1C2-E-TEST-0070-122.43014
+1C2-E-TEST-0070-122.43/005	.350 batting average
+1C2-E-TEST-0070-122.43/006	56 stolen bases	DEP=1C2-E-TEST-0070-122.43005
+1C2-E-TEST-0070-122.43/007	did	DEP=1C2-E-TEST-0070-122.43008
+1C2-E-TEST-0070-122.43/008	prove
+1C2-E-TEST-0070-122.43/009	belonged	DEP=1C2-E-TEST-0070-122.43008
+1C2-E-TEST-0070-122.43/010	remarkable	DEP=1C2-E-TEST-0070-122.43012
+1C2-E-TEST-0070-122.43/011	2001	DEP=1C2-E-TEST-0070-122.43010
+1C2-E-TEST-0070-122.43/012	season
+1C2-E-TEST-0070-122.43/013	accumulating
+1C2-E-TEST-0070-122.43/014	leading	DEP=1C2-E-TEST-0070-122.43013
+1C2-E-TEST-0070-122.47	Aided by Major League Baseball's decision to allow All-Star voting in Japan, Ichiro was the first rookie to lead all players in voting for the All-Star Game .
+1C2-E-TEST-0070-122.47/001	major league baseball	DEP=1C2-E-TEST-0070-122.47007
+1C2-E-TEST-0070-122.47/002	all-star voting	DEP=1C2-E-TEST-0070-122.47008
+1C2-E-TEST-0070-122.47/003	japan
+1C2-E-TEST-0070-122.47/004	players	DEP=1C2-E-TEST-0070-122.47010
+1C2-E-TEST-0070-122.47/005	all-star game
+1C2-E-TEST-0070-122.47/006	aided	DEP=1C2-E-TEST-0070-122.47009
+1C2-E-TEST-0070-122.47/007	decision
+1C2-E-TEST-0070-122.47/008	allow	DEP=1C2-E-TEST-0070-122.47007
+1C2-E-TEST-0070-122.47/009	rookie
+1C2-E-TEST-0070-122.47/010	lead	DEP=1C2-E-TEST-0070-122.47009
+1C2-E-TEST-0070-122.47/011	voting
+1C2-E-TEST-0070-122.48	At season's end, he won the American League Most Valuable Player and the Rookie of the Year awards, becoming only the second player in MLB history (after Fred Lynn ) to receive both honors in the same season.
+1C2-E-TEST-0070-122.48/001	season	DEP=1C2-E-TEST-0070-122.48011
+1C2-E-TEST-0070-122.48/002	american league	DEP=1C2-E-TEST-0070-122.48012
+1C2-E-TEST-0070-122.48/003	valuable player
+1C2-E-TEST-0070-122.48/004	rookie
+1C2-E-TEST-0070-122.48/005	awards
+1C2-E-TEST-0070-122.48/006	second player
+1C2-E-TEST-0070-122.48/007	mlb history
+1C2-E-TEST-0070-122.48/008	fred lynn
+1C2-E-TEST-0070-122.48/009	honors
+1C2-E-TEST-0070-122.48/010	season
+1C2-E-TEST-0070-122.48/011	end
+1C2-E-TEST-0070-122.48/012	won
+1C2-E-TEST-0070-122.48/013	receive
+1C2-E-TEST-0070-122.49	Ichiro also has been a four-time Gold Glove winner between 2001 and 2004.
+1C2-E-TEST-0070-122.49/001	four-time gold glove winner
+1C2-E-TEST-0070-122.49/002	2001 2004
+1C2-E-TEST-0070-122.51	Continuing the custom he began in Japan, he uses his given name on the back of his uniform, instead of his surname , becoming the first player in Major League Baseball to do so since Vida Blue .
+1C2-E-TEST-0070-122.51/001	custom	DEP=1C2-E-TEST-0070-122.51010
+1C2-E-TEST-0070-122.51/002	japan
+1C2-E-TEST-0070-122.51/003	given name	DEP=1C2-E-TEST-0070-122.51012
+1C2-E-TEST-0070-122.51/004	back
+1C2-E-TEST-0070-122.51/005	uniform
+1C2-E-TEST-0070-122.51/006	surname
+1C2-E-TEST-0070-122.51/007	player
+1C2-E-TEST-0070-122.51/008	major league baseball
+1C2-E-TEST-0070-122.51/009	vida blue
+1C2-E-TEST-0070-122.51/010	continuing	DEP=1C2-E-TEST-0070-122.51012
+1C2-E-TEST-0070-122.51/011	began	DEP=1C2-E-TEST-0070-122.51001
+1C2-E-TEST-0070-122.51/012	uses
+1C2-E-TEST-0070-122.54	Ichiro set a number of Major League records during the 2004 season :
+1C2-E-TEST-0070-122.54/001	number	DEP=1C2-E-TEST-0070-122.54004
+1C2-E-TEST-0070-122.54/002	major league records
+1C2-E-TEST-0070-122.54/003	2004 season
+1C2-E-TEST-0070-122.54/004	set
+1C2-E-TEST-0070-122.60	October 1 : Ichiro got his 258th and 259th hits, breaking the record set by George Sisler with the St. Louis Browns in 1920 .
+1C2-E-TEST-0070-122.60/001	october 1
+1C2-E-TEST-0070-122.60/002	259th hits	DEP=1C2-E-TEST-0070-122.60008
+1C2-E-TEST-0070-122.60/003	record	DEP=1C2-E-TEST-0070-122.60009
+1C2-E-TEST-0070-122.60/004	george sisler
+1C2-E-TEST-0070-122.60/005	st. louis browns
+1C2-E-TEST-0070-122.60/006	1920
+1C2-E-TEST-0070-122.60/007	got	DEP=1C2-E-TEST-0070-122.60001
+1C2-E-TEST-0070-122.60/008	258th	DEP=1C2-E-TEST-0070-122.60007
+1C2-E-TEST-0070-122.60/009	breaking	DEP=1C2-E-TEST-0070-122.60007
+1C2-E-TEST-0070-122.60/010	set	DEP=1C2-E-TEST-0070-122.60003
+1C2-E-TEST-0070-126.10	Following his final season at Meiden, Ichiro was drafted by the Orix Blue Wave of Japan's Pacific League in November 1991.
+1C2-E-TEST-0070-126.10/001	final season	DEP=1C2-E-TEST-0070-126.10006
+1C2-E-TEST-0070-126.10/002	meiden
+1C2-E-TEST-0070-126.10/003	orix blue wave
+1C2-E-TEST-0070-126.10/004	japan	DEP=1C2-E-TEST-0070-126.10009
+1C2-E-TEST-0070-126.10/005	november 1991
+1C2-E-TEST-0070-126.10/006	following	DEP=1C2-E-TEST-0070-126.10007
+1C2-E-TEST-0070-126.10/007	drafted
+1C2-E-TEST-0070-126.10/008	pacific	DEP=1C2-E-TEST-0070-126.10009
+1C2-E-TEST-0070-126.10/009	league
+1C2-E-TEST-0070-126.105	Ichiro also joined Pete Rose and Ty Cobb as the only players to have nine career 200-hit seasons overall, though Rose took 15 seasons to reach the milestone, while Cobb needed 20.
+1C2-E-TEST-0070-126.105/001	pete rose	DEP=1C2-E-TEST-0070-126.105010
+1C2-E-TEST-0070-126.105/002	ty cobb	DEP=1C2-E-TEST-0070-126.105001
+1C2-E-TEST-0070-126.105/003	players
+1C2-E-TEST-0070-126.105/004	nine career 200-hit seasons
+1C2-E-TEST-0070-126.105/005	rose	DEP=1C2-E-TEST-0070-126.105012
+1C2-E-TEST-0070-126.105/006	15 seasons	DEP=1C2-E-TEST-0070-126.105012
+1C2-E-TEST-0070-126.105/007	milestone	DEP=1C2-E-TEST-0070-126.105013
+1C2-E-TEST-0070-126.105/008	cobb	DEP=1C2-E-TEST-0070-126.105014
+1C2-E-TEST-0070-126.105/009	20	DEP=1C2-E-TEST-0070-126.105014
+1C2-E-TEST-0070-126.105/010	joined
+1C2-E-TEST-0070-126.105/011	overall	DEP=1C2-E-TEST-0070-126.105004
+1C2-E-TEST-0070-126.105/012	took
+1C2-E-TEST-0070-126.105/013	reach	DEP=1C2-E-TEST-0070-126.105012
+1C2-E-TEST-0070-126.105/014	needed
+1C2-E-TEST-0070-126.106	Ichiro also has more hits over a nine-year period than anyone in MLB history.
+1C2-E-TEST-0070-126.106/001	hits
+1C2-E-TEST-0070-126.106/002	nine-year period
+1C2-E-TEST-0070-126.106/003	mlb history
+1C2-E-TEST-0070-126.116	2011: Ichiro would set the record with 11 career 200-hit seasons.
+1C2-E-TEST-0070-126.116/001	2011
+1C2-E-TEST-0070-126.116/002	record	DEP=1C2-E-TEST-0070-126.116004
+1C2-E-TEST-0070-126.116/003	11 career 200-hit seasons
+1C2-E-TEST-0070-126.116/004	set	DEP=1C2-E-TEST-0070-126.116001
+1C2-E-TEST-0070-126.117	He would also set the Mariner career hits record, currently held by Edgar Martinez with 2,247.
+1C2-E-TEST-0070-126.117/001	mariner career	DEP=1C2-E-TEST-0070-126.117005
+1C2-E-TEST-0070-126.117/002	record	DEP=1C2-E-TEST-0070-126.117006
+1C2-E-TEST-0070-126.117/003	edgar martinez
+1C2-E-TEST-0070-126.117/004	2,247
+1C2-E-TEST-0070-126.117/005	set	DEP=1C2-E-TEST-0070-126.117006
+1C2-E-TEST-0070-126.117/006	hits
+1C2-E-TEST-0070-126.117/007	currently	DEP=1C2-E-TEST-0070-126.117008
+1C2-E-TEST-0070-126.117/008	held	DEP=1C2-E-TEST-0070-126.117002
+1C2-E-TEST-0070-126.123	2014: Ichiro would set the record with 14 career 200-hit seasons.
+1C2-E-TEST-0070-126.123/001	2014
+1C2-E-TEST-0070-126.123/002	record	DEP=1C2-E-TEST-0070-126.123004
+1C2-E-TEST-0070-126.123/003	14 career 200-hit seasons
+1C2-E-TEST-0070-126.123/004	set	DEP=1C2-E-TEST-0070-126.123001
+1C2-E-TEST-0070-126.141	During the 1994 season, when Ichiro was one of four Orix players named Suzuki, Blue Wave manager Akira Ogi had him replace the last name on his jersey to his first name, a publicity stunt to promote the rising star.
+1C2-E-TEST-0070-126.141/001	1994 season
+1C2-E-TEST-0070-126.141/002	four orix players
+1C2-E-TEST-0070-126.141/003	blue wave manager akira ogi
+1C2-E-TEST-0070-126.141/004	name	DEP=1C2-E-TEST-0070-126.141009
+1C2-E-TEST-0070-126.141/005	jersey
+1C2-E-TEST-0070-126.141/006	name
+1C2-E-TEST-0070-126.141/007	rising star	DEP=1C2-E-TEST-0070-126.141012
+1C2-E-TEST-0070-126.141/008	named
+1C2-E-TEST-0070-126.141/009	replace
+1C2-E-TEST-0070-126.141/010	publicity	DEP=1C2-E-TEST-0070-126.141011
+1C2-E-TEST-0070-126.141/011	stunt	DEP=1C2-E-TEST-0070-126.141009
+1C2-E-TEST-0070-126.141/012	promote	DEP=1C2-E-TEST-0070-126.141011
+1C2-E-TEST-0070-126.31	Ichiro again led the league with a .342 batting average, and had career highs of 25 home runs and 49 steals.
+1C2-E-TEST-0070-126.31/001	league	DEP=1C2-E-TEST-0070-126.31006
+1C2-E-TEST-0070-126.31/002	.342 batting average
+1C2-E-TEST-0070-126.31/003	career highs
+1C2-E-TEST-0070-126.31/004	25 home runs
+1C2-E-TEST-0070-126.31/005	49	DEP=1C2-E-TEST-0070-126.31007
+1C2-E-TEST-0070-126.31/006	led
+1C2-E-TEST-0070-126.31/007	steals	DEP=1C2-E-TEST-0070-126.31006
+1C2-E-TEST-0070-126.34	Ichiro led the Pacific League for the third straight season with a .356 average, won his third straight MVP award, and he led the Blue Wave to the Japan Series title, beating the Central League champion Yomiuri Giants.
+1C2-E-TEST-0070-126.34/001	pacific league	DEP=1C2-E-TEST-0070-126.34008
+1C2-E-TEST-0070-126.34/002	third straight season
+1C2-E-TEST-0070-126.34/003	.356 average
+1C2-E-TEST-0070-126.34/004	third straight mvp award	DEP=1C2-E-TEST-0070-126.34009
+1C2-E-TEST-0070-126.34/005	blue wave	DEP=1C2-E-TEST-0070-126.34010
+1C2-E-TEST-0070-126.34/006	japan series title
+1C2-E-TEST-0070-126.34/007	central league champion yomiuri giants	DEP=1C2-E-TEST-0070-126.34011
+1C2-E-TEST-0070-126.34/008	led	DEP=1C2-E-TEST-0070-126.34009
+1C2-E-TEST-0070-126.34/009	won
+1C2-E-TEST-0070-126.34/010	led	DEP=1C2-E-TEST-0070-126.34009
+1C2-E-TEST-0070-126.34/011	beating	DEP=1C2-E-TEST-0070-126.34010
+1C2-E-TEST-0070-126.37	Besides playing in his fourth consecutive all-star game, Ichiro's .345 average led the Pacific League for fourth straight season, he won his fourth consecutive Gold Glove award, and he set an NPB record of 216 consecutive plate appearances without a strikeout.
+1C2-E-TEST-0070-126.37/001	fourth consecutive all-star game
+1C2-E-TEST-0070-126.37/002	.345
+1C2-E-TEST-0070-126.37/003	average	DEP=1C2-E-TEST-0070-126.37002
+1C2-E-TEST-0070-126.37/004	pacific league	DEP=1C2-E-TEST-0070-126.37011
+1C2-E-TEST-0070-126.37/005	fourth straight season
+1C2-E-TEST-0070-126.37/006	fourth consecutive gold glove award	DEP=1C2-E-TEST-0070-126.37012
+1C2-E-TEST-0070-126.37/007	npb record	DEP=1C2-E-TEST-0070-126.37013
+1C2-E-TEST-0070-126.37/008	216 consecutive plate appearances
+1C2-E-TEST-0070-126.37/009	strikeout
+1C2-E-TEST-0070-126.37/010	playing
+1C2-E-TEST-0070-126.37/011	led
+1C2-E-TEST-0070-126.37/012	won	DEP=1C2-E-TEST-0070-126.37011
+1C2-E-TEST-0070-126.37/013	set	DEP=1C2-E-TEST-0070-126.37011
+1C2-E-TEST-0070-126.39	The model of consistency, Ichiro won his fifth straight Gold Glove and batting crown (hitting .358), and played in his fifth all-star game.
+1C2-E-TEST-0070-126.39/001	model	DEP=1C2-E-TEST-0070-126.39007
+1C2-E-TEST-0070-126.39/002	consistency
+1C2-E-TEST-0070-126.39/003	fifth straight gold	DEP=1C2-E-TEST-0070-126.39007
+1C2-E-TEST-0070-126.39/004	glove	DEP=1C2-E-TEST-0070-126.39009
+1C2-E-TEST-0070-126.39/005	.358	DEP=1C2-E-TEST-0070-126.39010
+1C2-E-TEST-0070-126.39/006	fifth all-star game
+1C2-E-TEST-0070-126.39/007	won
+1C2-E-TEST-0070-126.39/008	batting	DEP=1C2-E-TEST-0070-126.39004
+1C2-E-TEST-0070-126.39/009	crown	DEP=1C2-E-TEST-0070-126.39007
+1C2-E-TEST-0070-126.39/010	hitting	DEP=1C2-E-TEST-0070-126.39009
+1C2-E-TEST-0070-126.39/011	played	DEP=1C2-E-TEST-0070-126.39007
+1C2-E-TEST-0070-126.43	After returning to Japan, Ichiro won his sixth batting title (hitting .356) and sixth Gold Glove, and his .412 on-base percentage led the Pacific League for the fourth time.
+1C2-E-TEST-0070-126.43/001	japan
+1C2-E-TEST-0070-126.43/002	sixth batting title	DEP=1C2-E-TEST-0070-126.43009
+1C2-E-TEST-0070-126.43/003	.356	DEP=1C2-E-TEST-0070-126.43010
+1C2-E-TEST-0070-126.43/004	sixth gold glove	DEP=1C2-E-TEST-0070-126.43002
+1C2-E-TEST-0070-126.43/005	.412 on-base percentage	DEP=1C2-E-TEST-0070-126.43011
+1C2-E-TEST-0070-126.43/006	pacific league	DEP=1C2-E-TEST-0070-126.43011
+1C2-E-TEST-0070-126.43/007	fourth time
+1C2-E-TEST-0070-126.43/008	returning
+1C2-E-TEST-0070-126.43/009	won
+1C2-E-TEST-0070-126.43/010	hitting	DEP=1C2-E-TEST-0070-126.43002
+1C2-E-TEST-0070-126.43/011	led	DEP=1C2-E-TEST-0070-126.43009
+1C2-E-TEST-0070-126.46	In his seventh and final full major league season in Japan, Ichiro's .387 batting average was not only his career best, but also set the Japanese record with seven straight Pacific League batting titles.
+1C2-E-TEST-0070-126.46/001	japan
+1C2-E-TEST-0070-126.46/002	career
+1C2-E-TEST-0070-126.46/003	japanese record	DEP=1C2-E-TEST-0070-126.46015
+1C2-E-TEST-0070-126.46/004	seven straight pacific league batting titles
+1C2-E-TEST-0070-126.46/005	seventh	DEP=1C2-E-TEST-0070-126.46009
+1C2-E-TEST-0070-126.46/006	final	DEP=1C2-E-TEST-0070-126.46005
+1C2-E-TEST-0070-126.46/007	full	DEP=1C2-E-TEST-0070-126.46009
+1C2-E-TEST-0070-126.46/008	major	DEP=1C2-E-TEST-0070-126.46009
+1C2-E-TEST-0070-126.46/009	league
+1C2-E-TEST-0070-126.46/010	season
+1C2-E-TEST-0070-126.46/011	.387	DEP=1C2-E-TEST-0070-126.46013
+1C2-E-TEST-0070-126.46/012	batting	DEP=1C2-E-TEST-0070-126.46013
+1C2-E-TEST-0070-126.46/013	average
+1C2-E-TEST-0070-126.46/014	best	DEP=1C2-E-TEST-0070-126.46002
+1C2-E-TEST-0070-126.46/015	set
+1C2-E-TEST-0070-126.51	Through the posting system, the Seattle Mariners won the right to negotiate with him, and on November 18, 2000, the M's signed him to a three-year, $14 million contract, making Ichiro the first-ever Japanese position player to sign with a Major League club.
+1C2-E-TEST-0070-126.51/001	posting system
+1C2-E-TEST-0070-126.51/002	seattle mariners	DEP=1C2-E-TEST-0070-126.51007
+1C2-E-TEST-0070-126.51/003	november 18 2000
+1C2-E-TEST-0070-126.51/004	m	DEP=1C2-E-TEST-0070-126.51016
+1C2-E-TEST-0070-126.51/005	first-ever japanese position	DEP=1C2-E-TEST-0070-126.51015
+1C2-E-TEST-0070-126.51/006	major league club
+1C2-E-TEST-0070-126.51/007	won
+1C2-E-TEST-0070-126.51/008	right	DEP=1C2-E-TEST-0070-126.51007
+1C2-E-TEST-0070-126.51/009	negotiate	DEP=1C2-E-TEST-0070-126.51008
+1C2-E-TEST-0070-126.51/010	signed	DEP=1C2-E-TEST-0070-126.51016
+1C2-E-TEST-0070-126.51/011	three-year	DEP=1C2-E-TEST-0070-126.51014
+1C2-E-TEST-0070-126.51/012	14
+1C2-E-TEST-0070-126.51/013	million
+1C2-E-TEST-0070-126.51/014	contract
+1C2-E-TEST-0070-126.51/015	making	DEP=1C2-E-TEST-0070-126.51010
+1C2-E-TEST-0070-126.51/016	player	DEP=1C2-E-TEST-0070-126.51017
+1C2-E-TEST-0070-126.51/017	sign	DEP=1C2-E-TEST-0070-126.51009
+1C2-E-TEST-0070-126.53	Ichiro's American debut with the 2001 Seattle Mariners was not only one of the greatest seasons any player has ever recorded, but it was also one of the most-watched, as the Japanese media sensation quickly gained superstardom in the U.S. The leadoff hitter's .350 batting average led the majors, as did his 242 hits (a rookie record, and the most by any player in 71 years), as well as his 56 stolen bases.
+1C2-E-TEST-0070-126.53/001	2001 seattle mariners
+1C2-E-TEST-0070-126.53/002	greatest seasons
+1C2-E-TEST-0070-126.53/003	player	DEP=1C2-E-TEST-0070-126.53018
+1C2-E-TEST-0070-126.53/004	most-watched
+1C2-E-TEST-0070-126.53/005	japanese media sensation	DEP=1C2-E-TEST-0070-126.53020
+1C2-E-TEST-0070-126.53/006	superstardom	DEP=1C2-E-TEST-0070-126.53020
+1C2-E-TEST-0070-126.53/007	u.s.
+1C2-E-TEST-0070-126.53/008	leadoff hitter	DEP=1C2-E-TEST-0070-126.53023
+1C2-E-TEST-0070-126.53/009	majors	DEP=1C2-E-TEST-0070-126.53024
+1C2-E-TEST-0070-126.53/010	242 hits	DEP=1C2-E-TEST-0070-126.53025
+1C2-E-TEST-0070-126.53/011	rookie	DEP=1C2-E-TEST-0070-126.53010
+1C2-E-TEST-0070-126.53/012	record	DEP=1C2-E-TEST-0070-126.53011
+1C2-E-TEST-0070-126.53/013	player
+1C2-E-TEST-0070-126.53/014	71 years
+1C2-E-TEST-0070-126.53/015	56 stolen bases	DEP=1C2-E-TEST-0070-126.53002
+1C2-E-TEST-0070-126.53/016	american	DEP=1C2-E-TEST-0070-126.53017
+1C2-E-TEST-0070-126.53/017	debut
+1C2-E-TEST-0070-126.53/018	recorded	DEP=1C2-E-TEST-0070-126.53002
+1C2-E-TEST-0070-126.53/019	quickly	DEP=1C2-E-TEST-0070-126.53020
+1C2-E-TEST-0070-126.53/020	gained
+1C2-E-TEST-0070-126.53/021	.350	DEP=1C2-E-TEST-0070-126.53023
+1C2-E-TEST-0070-126.53/022	batting	DEP=1C2-E-TEST-0070-126.53023
+1C2-E-TEST-0070-126.53/023	average	DEP=1C2-E-TEST-0070-126.53024
+1C2-E-TEST-0070-126.53/024	led	DEP=1C2-E-TEST-0070-126.53006
+1C2-E-TEST-0070-126.53/025	did	DEP=1C2-E-TEST-0070-126.53024
+1C2-E-TEST-0070-126.59	Instead, he won both the American League's Most Valuable Player and Rookie of the Year awards, the only player besides Fred Lynn to do so.
+1C2-E-TEST-0070-126.59/001	american league	DEP=1C2-E-TEST-0070-126.59007
+1C2-E-TEST-0070-126.59/002	valuable player	DEP=1C2-E-TEST-0070-126.59001
+1C2-E-TEST-0070-126.59/003	rookie	DEP=1C2-E-TEST-0070-126.59001
+1C2-E-TEST-0070-126.59/004	awards
+1C2-E-TEST-0070-126.59/005	player	DEP=1C2-E-TEST-0070-126.59001
+1C2-E-TEST-0070-126.59/006	fred lynn
+1C2-E-TEST-0070-126.59/007	won
+1C2-E-TEST-0070-126.65	With his .312 batting average and 212 hits, he became the third player with 200 hits in his first three seasons.
+1C2-E-TEST-0070-126.65/001	.312 batting average
+1C2-E-TEST-0070-126.65/002	212 hits	DEP=1C2-E-TEST-0070-126.65001
+1C2-E-TEST-0070-126.65/003	third player
+1C2-E-TEST-0070-126.65/004	200 hits
+1C2-E-TEST-0070-126.65/005	three seasons
+1C2-E-TEST-0070-126.68	Ichiro's 262 hits set the all-time Major League single-season hits record, breaking George Sisler's 84-year-old record of 257.
+1C2-E-TEST-0070-126.68/001	all-time major league single-season hits record	DEP=1C2-E-TEST-0070-126.68006
+1C2-E-TEST-0070-126.68/002	george sisler	DEP=1C2-E-TEST-0070-126.68009
+1C2-E-TEST-0070-126.68/003	257
+1C2-E-TEST-0070-126.68/004	262	DEP=1C2-E-TEST-0070-126.68005
+1C2-E-TEST-0070-126.68/005	hits	DEP=1C2-E-TEST-0070-126.68006
+1C2-E-TEST-0070-126.68/006	set
+1C2-E-TEST-0070-126.68/007	breaking	DEP=1C2-E-TEST-0070-126.68006
+1C2-E-TEST-0070-126.68/008	84-year-old	DEP=1C2-E-TEST-0070-126.68009
+1C2-E-TEST-0070-126.68/009	record	DEP=1C2-E-TEST-0070-126.68007
+1C2-E-TEST-0070-126.70	He became the first player in MLB history to reach 200 hits in each of his four seasons; his 922 hits during that period were more than anyone during any four-year period.
+1C2-E-TEST-0070-126.70/001	player
+1C2-E-TEST-0070-126.70/002	mlb history
+1C2-E-TEST-0070-126.70/003	200 hits	DEP=1C2-E-TEST-0070-126.70008
+1C2-E-TEST-0070-126.70/004	four seasons
+1C2-E-TEST-0070-126.70/005	922 hits
+1C2-E-TEST-0070-126.70/006	period
+1C2-E-TEST-0070-126.70/007	four-year period
+1C2-E-TEST-0070-126.70/008	reach	DEP=1C2-E-TEST-0070-126.70001
+1C2-E-TEST-0070-126.82	Back in Seattle, Ichiro led the majors with 224 hits, extending his 200-hit season streak to six, joining Wade Boggs and Wee Willie Keeler as the only players ever to do so.
+1C2-E-TEST-0070-126.82/001	seattle
+1C2-E-TEST-0070-126.82/002	majors	DEP=1C2-E-TEST-0070-126.82010
+1C2-E-TEST-0070-126.82/003	224 hits
+1C2-E-TEST-0070-126.82/004	200-hit season streak	DEP=1C2-E-TEST-0070-126.82011
+1C2-E-TEST-0070-126.82/005	six
+1C2-E-TEST-0070-126.82/006	wade boggs	DEP=1C2-E-TEST-0070-126.82012
+1C2-E-TEST-0070-126.82/007	wee willie keeler	DEP=1C2-E-TEST-0070-126.82006
+1C2-E-TEST-0070-126.82/008	players
+1C2-E-TEST-0070-126.82/009	back	DEP=1C2-E-TEST-0070-126.82010
+1C2-E-TEST-0070-126.82/010	led
+1C2-E-TEST-0070-126.82/011	extending	DEP=1C2-E-TEST-0070-126.82010
+1C2-E-TEST-0070-126.82/012	joining	DEP=1C2-E-TEST-0070-126.82011
+1C2-E-TEST-0070-126.85	Ichiro racked up a league-leading 238 hits, becoming only one of eight players to collect 200 hits in seven career seasons, and the only player besides Wee Willie Keeler to do it in consecutive years (Keeler had eight).
+1C2-E-TEST-0070-126.85/001	league-leading 238 hits	DEP=1C2-E-TEST-0070-126.85010
+1C2-E-TEST-0070-126.85/002	eight players
+1C2-E-TEST-0070-126.85/003	200 hits	DEP=1C2-E-TEST-0070-126.85011
+1C2-E-TEST-0070-126.85/004	seven career seasons
+1C2-E-TEST-0070-126.85/005	player	DEP=1C2-E-TEST-0070-126.85003
+1C2-E-TEST-0070-126.85/006	wee willie keeler
+1C2-E-TEST-0070-126.85/007	consecutive years
+1C2-E-TEST-0070-126.85/008	keeler
+1C2-E-TEST-0070-126.85/009	eight
+1C2-E-TEST-0070-126.85/010	racked
+1C2-E-TEST-0070-126.85/011	collect
+1C2-E-TEST-0070-126.95	In March, Ichiro and Team Japan won their second gold medal in the second-ever World Baseball Classic.
+1C2-E-TEST-0070-126.95/001	march team
+1C2-E-TEST-0070-126.95/002	japan	DEP=1C2-E-TEST-0070-126.95005
+1C2-E-TEST-0070-126.95/003	second gold medal	DEP=1C2-E-TEST-0070-126.95005
+1C2-E-TEST-0070-126.95/004	second-ever world baseball classic
+1C2-E-TEST-0070-126.95/005	won
+1C2-E-TEST-0070-144.103	Ichiro would finish the 2004 season with a record 262 hits, giving him the single-season records for both the United States and Japanese baseball.
+1C2-E-TEST-0070-144.103/001	2004 season	DEP=1C2-E-TEST-0070-144.103007
+1C2-E-TEST-0070-144.103/002	record
+1C2-E-TEST-0070-144.103/003	262 hits	DEP=1C2-E-TEST-0070-144.103002
+1C2-E-TEST-0070-144.103/004	single-season records	DEP=1C2-E-TEST-0070-144.103009
+1C2-E-TEST-0070-144.103/005	united states
+1C2-E-TEST-0070-144.103/006	japanese	DEP=1C2-E-TEST-0070-144.103005
+1C2-E-TEST-0070-144.103/007	finish
+1C2-E-TEST-0070-144.103/008	giving	DEP=1C2-E-TEST-0070-144.103007
+1C2-E-TEST-0070-144.103/009	baseball	DEP=1C2-E-TEST-0070-144.103008
+1C2-E-TEST-0070-144.124	That allowed Ichiro to become the first player to collect 200 hits per season in each of his first five years in the Major Leagues.
+1C2-E-TEST-0070-144.124/001	player	DEP=1C2-E-TEST-0070-144.124006
+1C2-E-TEST-0070-144.124/002	200 hits	DEP=1C2-E-TEST-0070-144.124007
+1C2-E-TEST-0070-144.124/003	season
+1C2-E-TEST-0070-144.124/004	five years
+1C2-E-TEST-0070-144.124/005	major leagues
+1C2-E-TEST-0070-144.124/006	allowed
+1C2-E-TEST-0070-144.124/007	collect	DEP=1C2-E-TEST-0070-144.124001
+1C2-E-TEST-0070-144.126	Ichiro hit a career-high 15 home runs.
+1C2-E-TEST-0070-144.126/001	career-high 15 home runs	DEP=1C2-E-TEST-0070-144.126002
+1C2-E-TEST-0070-144.126/002	hit
+1C2-E-TEST-0070-144.146	In May and June, Ichiro hit in 25 consecutive games, breaking the previous Seattle Mariners record set by Joey Cora in 1997.
+1C2-E-TEST-0070-144.146/001	june
+1C2-E-TEST-0070-144.146/002	25 consecutive games
+1C2-E-TEST-0070-144.146/003	previous seattle mariners record	DEP=1C2-E-TEST-0070-144.146007
+1C2-E-TEST-0070-144.146/004	joey cora
+1C2-E-TEST-0070-144.146/005	1997
+1C2-E-TEST-0070-144.146/006	hit
+1C2-E-TEST-0070-144.146/007	breaking	DEP=1C2-E-TEST-0070-144.146006
+1C2-E-TEST-0070-144.146/008	set	DEP=1C2-E-TEST-0070-144.146003
+1C2-E-TEST-0070-144.153	However, in July Ichiro signed a five-year contract extension with Seattle.
+1C2-E-TEST-0070-144.153/001	july
+1C2-E-TEST-0070-144.153/002	five-year contract extension	DEP=1C2-E-TEST-0070-144.153004
+1C2-E-TEST-0070-144.153/003	seattle
+1C2-E-TEST-0070-144.153/004	signed
+1C2-E-TEST-0070-144.207	Ichiro went hitless in the following afternoon's game.
+1C2-E-TEST-0070-144.207/001	following afternoon	DEP=1C2-E-TEST-0070-144.207004
+1C2-E-TEST-0070-144.207/002	went
+1C2-E-TEST-0070-144.207/003	hitless	DEP=1C2-E-TEST-0070-144.207002
+1C2-E-TEST-0070-144.207/004	game
+1C2-E-TEST-0070-144.245	It was also his first season not playing in the All-Star game, as well as his first season not winning a Golden Glove.
+1C2-E-TEST-0070-144.245/001	season
+1C2-E-TEST-0070-144.245/002	all-star game
+1C2-E-TEST-0070-144.245/003	season	DEP=1C2-E-TEST-0070-144.245001
+1C2-E-TEST-0070-144.245/004	golden glove	DEP=1C2-E-TEST-0070-144.245006
+1C2-E-TEST-0070-144.245/005	playing	DEP=1C2-E-TEST-0070-144.245001
+1C2-E-TEST-0070-144.245/006	winning	DEP=1C2-E-TEST-0070-144.245003
+1C2-E-TEST-0070-144.25	He set a Japanese single-season record with 210 hits, the first player ever to top 200 hits in a single season.
+1C2-E-TEST-0070-144.25/001	japanese single-season record	DEP=1C2-E-TEST-0070-144.25005
+1C2-E-TEST-0070-144.25/002	210 hits
+1C2-E-TEST-0070-144.25/003	player	DEP=1C2-E-TEST-0070-144.25002
+1C2-E-TEST-0070-144.25/004	single season
+1C2-E-TEST-0070-144.25/005	set
+1C2-E-TEST-0070-144.25/006	top	DEP=1C2-E-TEST-0070-144.25007
+1C2-E-TEST-0070-144.25/007	200	DEP=1C2-E-TEST-0070-144.25008
+1C2-E-TEST-0070-144.25/008	hits
+1C2-E-TEST-0070-144.29	Ichiro's then-Pacific League record .385 batting average won the young outfielder the first of a record seven consecutive batting titles.
+1C2-E-TEST-0070-144.29/001	.385 batting	DEP=1C2-E-TEST-0070-144.29008
+1C2-E-TEST-0070-144.29/002	young outfielder	DEP=1C2-E-TEST-0070-144.29009
+1C2-E-TEST-0070-144.29/003	record
+1C2-E-TEST-0070-144.29/004	seven consecutive batting titles	DEP=1C2-E-TEST-0070-144.29003
+1C2-E-TEST-0070-144.29/005	then-pacific	DEP=1C2-E-TEST-0070-144.29007
+1C2-E-TEST-0070-144.29/006	league	DEP=1C2-E-TEST-0070-144.29007
+1C2-E-TEST-0070-144.29/007	record	DEP=1C2-E-TEST-0070-144.29009
+1C2-E-TEST-0070-144.29/008	average	DEP=1C2-E-TEST-0070-144.29007
+1C2-E-TEST-0070-144.29/009	won
+1C2-E-TEST-0070-144.3	At age seven, Ichiro joined his first baseball team and asked his father, Nobuyuki Suzuki (Suzuki Nobuyuki), to teach him to be a better player.
+1C2-E-TEST-0070-144.3/001	age seven
+1C2-E-TEST-0070-144.3/002	baseball team	DEP=1C2-E-TEST-0070-144.3007
+1C2-E-TEST-0070-144.3/003	father	DEP=1C2-E-TEST-0070-144.3009
+1C2-E-TEST-0070-144.3/004	nobuyuki
+1C2-E-TEST-0070-144.3/005	nobuyuki
+1C2-E-TEST-0070-144.3/006	better player	DEP=1C2-E-TEST-0070-144.3009
+1C2-E-TEST-0070-144.3/007	joined
+1C2-E-TEST-0070-144.3/008	asked	DEP=1C2-E-TEST-0070-144.3007
+1C2-E-TEST-0070-144.3/009	teach	DEP=1C2-E-TEST-0070-144.3008
+1C2-E-TEST-0070-144.30	Ichiro also hit 13 home runs and had 29 stolen bases , helping him to earn his first of three straight Pacific League MVP (Most Valuable Player) awards.
+1C2-E-TEST-0070-144.30/001	13 home runs	DEP=1C2-E-TEST-0070-144.30005
+1C2-E-TEST-0070-144.30/002	29 stolen bases
+1C2-E-TEST-0070-144.30/003	three straight pacific league mvp
+1C2-E-TEST-0070-144.30/004	valuable player
+1C2-E-TEST-0070-144.30/005	hit
+1C2-E-TEST-0070-144.30/006	helping	DEP=1C2-E-TEST-0070-144.30002
+1C2-E-TEST-0070-144.30/007	earn	DEP=1C2-E-TEST-0070-144.30006
+1C2-E-TEST-0070-144.30/008	awards	DEP=1C2-E-TEST-0070-144.30007
+1C2-E-TEST-0070-144.34	In 1995 Ichiro led the Blue Wave to their first Pacific League pennant in 12 years.
+1C2-E-TEST-0070-144.34/001	1995
+1C2-E-TEST-0070-144.34/002	blue wave	DEP=1C2-E-TEST-0070-144.34005
+1C2-E-TEST-0070-144.34/003	pacific league pennant
+1C2-E-TEST-0070-144.34/004	12 years
+1C2-E-TEST-0070-144.34/005	led
+1C2-E-TEST-0070-144.35	In addition to his second batting title, he led the league with 80 RBI, hit 25 home runs, and stole 49 bases.
+1C2-E-TEST-0070-144.35/001	addition
+1C2-E-TEST-0070-144.35/002	league	DEP=1C2-E-TEST-0070-144.35009
+1C2-E-TEST-0070-144.35/003	80 rbi
+1C2-E-TEST-0070-144.35/004	25 home runs	DEP=1C2-E-TEST-0070-144.35010
+1C2-E-TEST-0070-144.35/005	49 bases	DEP=1C2-E-TEST-0070-144.35011
+1C2-E-TEST-0070-144.35/006	second	DEP=1C2-E-TEST-0070-144.35007
+1C2-E-TEST-0070-144.35/007	batting	DEP=1C2-E-TEST-0070-144.35008
+1C2-E-TEST-0070-144.35/008	title
+1C2-E-TEST-0070-144.35/009	led
+1C2-E-TEST-0070-144.35/010	hit	DEP=1C2-E-TEST-0070-144.35009
+1C2-E-TEST-0070-144.35/011	stole	DEP=1C2-E-TEST-0070-144.35009
+1C2-E-TEST-0070-144.37	The following year, with Ichiro winning his third straight MVP award, the team defeated the Central League champion, Yomiuri Giants , in the Japan Series.
+1C2-E-TEST-0070-144.37/001	third straight mvp award	DEP=1C2-E-TEST-0070-144.37007
+1C2-E-TEST-0070-144.37/002	team	DEP=1C2-E-TEST-0070-144.37008
+1C2-E-TEST-0070-144.37/003	central league champion	DEP=1C2-E-TEST-0070-144.37008
+1C2-E-TEST-0070-144.37/004	yomiuri giants	DEP=1C2-E-TEST-0070-144.37003
+1C2-E-TEST-0070-144.37/005	japan series
+1C2-E-TEST-0070-144.37/006	following
+1C2-E-TEST-0070-144.37/007	winning
+1C2-E-TEST-0070-144.37/008	defeated
+1C2-E-TEST-0070-144.38	Following the 1996 season, playing in an exhibition series against a visiting team of Major League All-Stars kindled Ichiro's desire to travel to the United States to play in the Major Leagues.
+1C2-E-TEST-0070-144.38/001	1996 season	DEP=1C2-E-TEST-0070-144.38007
+1C2-E-TEST-0070-144.38/002	exhibition series
+1C2-E-TEST-0070-144.38/003	visiting team
+1C2-E-TEST-0070-144.38/004	major league all-stars
+1C2-E-TEST-0070-144.38/005	united states
+1C2-E-TEST-0070-144.38/006	major leagues
+1C2-E-TEST-0070-144.38/007	following	DEP=1C2-E-TEST-0070-144.38009
+1C2-E-TEST-0070-144.38/008	playing	DEP=1C2-E-TEST-0070-144.38009
+1C2-E-TEST-0070-144.38/009	kindled
+1C2-E-TEST-0070-144.38/010	desire	DEP=1C2-E-TEST-0070-144.38009
+1C2-E-TEST-0070-144.38/011	travel	DEP=1C2-E-TEST-0070-144.38010
+1C2-E-TEST-0070-144.38/012	play	DEP=1C2-E-TEST-0070-144.38011
+1C2-E-TEST-0070-144.41	In 2000, Ichiro was still a year away from being eligible for free agency, but the Blue Wave were no longer among Japan's best teams.
+1C2-E-TEST-0070-144.41/001	2000
+1C2-E-TEST-0070-144.41/002	free agency
+1C2-E-TEST-0070-144.41/003	blue wave
+1C2-E-TEST-0070-144.41/004	japan	DEP=1C2-E-TEST-0070-144.41009
+1C2-E-TEST-0070-144.41/005	away
+1C2-E-TEST-0070-144.41/006	eligible
+1C2-E-TEST-0070-144.41/007	longer
+1C2-E-TEST-0070-144.41/008	best	DEP=1C2-E-TEST-0070-144.41009
+1C2-E-TEST-0070-144.41/009	teams
+1C2-E-TEST-0070-144.44	[6] In November, Ichiro signed a three-year, $14ÃÂ million contract with the Seattle Mariners.
+1C2-E-TEST-0070-144.44/001	november
+1C2-E-TEST-0070-144.44/002	seattle mariners
+1C2-E-TEST-0070-144.44/003	6	DEP=1C2-E-TEST-0070-144.44004
+1C2-E-TEST-0070-144.44/004	signed
+1C2-E-TEST-0070-144.44/005	three-year	DEP=1C2-E-TEST-0070-144.44008
+1C2-E-TEST-0070-144.44/006	14â
+1C2-E-TEST-0070-144.44/007	million
+1C2-E-TEST-0070-144.44/008	contract	DEP=1C2-E-TEST-0070-144.44004
+1C2-E-TEST-0070-144.45	In his nine seasons in Japan, Ichiro had 1,278 hits, a .353 career batting average, and won seven Gold Glove Awards .
+1C2-E-TEST-0070-144.45/001	nine seasons
+1C2-E-TEST-0070-144.45/002	japan
+1C2-E-TEST-0070-144.45/003	1,278 hits
+1C2-E-TEST-0070-144.45/004	.353 career	DEP=1C2-E-TEST-0070-144.45003
+1C2-E-TEST-0070-144.45/005	seven gold glove awards	DEP=1C2-E-TEST-0070-144.45008
+1C2-E-TEST-0070-144.45/006	batting	DEP=1C2-E-TEST-0070-144.45007
+1C2-E-TEST-0070-144.45/007	average	DEP=1C2-E-TEST-0070-144.45004
+1C2-E-TEST-0070-144.45/008	won
+1C2-E-TEST-0070-144.48	Ichiro's move to the United States was viewed with some interest because he was the first Japanese position player to play for a Major League Baseball team.
+1C2-E-TEST-0070-144.48/001	united states
+1C2-E-TEST-0070-144.48/002	interest
+1C2-E-TEST-0070-144.48/003	japanese position player	DEP=1C2-E-TEST-0070-144.48006
+1C2-E-TEST-0070-144.48/004	major league baseball team
+1C2-E-TEST-0070-144.48/005	move	DEP=1C2-E-TEST-0070-144.48006
+1C2-E-TEST-0070-144.48/006	viewed
+1C2-E-TEST-0070-144.48/007	play	DEP=1C2-E-TEST-0070-144.48003
+1C2-E-TEST-0070-144.59	With a .350 batting average and 56 stolen bases, Ichiro was the first player to lead his league in both categories since Jackie Robinson in 1949.
+1C2-E-TEST-0070-144.59/001	.350 batting average
+1C2-E-TEST-0070-144.59/002	56 stolen bases	DEP=1C2-E-TEST-0070-144.59001
+1C2-E-TEST-0070-144.59/003	league	DEP=1C2-E-TEST-0070-144.59008
+1C2-E-TEST-0070-144.59/004	categories
+1C2-E-TEST-0070-144.59/005	jackie robinson
+1C2-E-TEST-0070-144.59/006	1949
+1C2-E-TEST-0070-144.59/007	player
+1C2-E-TEST-0070-144.59/008	lead	DEP=1C2-E-TEST-0070-144.59007
+1C2-E-TEST-0070-144.65	Aided by Major League Baseball's decision to allow All-Star voting in Japan, Ichiro was the first rookie to lead all players in voting for the All-Star Game .
+1C2-E-TEST-0070-144.65/001	major league baseball	DEP=1C2-E-TEST-0070-144.65007
+1C2-E-TEST-0070-144.65/002	all-star voting	DEP=1C2-E-TEST-0070-144.65008
+1C2-E-TEST-0070-144.65/003	japan
+1C2-E-TEST-0070-144.65/004	players	DEP=1C2-E-TEST-0070-144.65010
+1C2-E-TEST-0070-144.65/005	all-star game
+1C2-E-TEST-0070-144.65/006	aided	DEP=1C2-E-TEST-0070-144.65009
+1C2-E-TEST-0070-144.65/007	decision
+1C2-E-TEST-0070-144.65/008	allow	DEP=1C2-E-TEST-0070-144.65007
+1C2-E-TEST-0070-144.65/009	rookie
+1C2-E-TEST-0070-144.65/010	lead	DEP=1C2-E-TEST-0070-144.65009
+1C2-E-TEST-0070-144.65/011	voting
+1C2-E-TEST-0070-144.66	That winter, he won the American League Most Valuable Player and the Rookie of the Year awards, becoming only the second player in MLB history (after Fred Lynn ) to receive both honors in the same season.
+1C2-E-TEST-0070-144.66/001	american league	DEP=1C2-E-TEST-0070-144.66011
+1C2-E-TEST-0070-144.66/002	valuable player
+1C2-E-TEST-0070-144.66/003	rookie
+1C2-E-TEST-0070-144.66/004	awards
+1C2-E-TEST-0070-144.66/005	second player
+1C2-E-TEST-0070-144.66/006	mlb history
+1C2-E-TEST-0070-144.66/007	fred lynn
+1C2-E-TEST-0070-144.66/008	honors
+1C2-E-TEST-0070-144.66/009	season
+1C2-E-TEST-0070-144.66/010	winter	DEP=1C2-E-TEST-0070-144.66011
+1C2-E-TEST-0070-144.66/011	won
+1C2-E-TEST-0070-144.66/012	receive
+1C2-E-TEST-0070-144.75	Ichiro finished his second year in American baseball with 208 total hits, making him the first Mariners player ever to hit two consecutive seasons with 200+ hits.
+1C2-E-TEST-0070-144.75/001	second
+1C2-E-TEST-0070-144.75/002	american baseball
+1C2-E-TEST-0070-144.75/003	208 total hits
+1C2-E-TEST-0070-144.75/004	mariners player	DEP=1C2-E-TEST-0070-144.75009
+1C2-E-TEST-0070-144.75/005	two consecutive seasons	DEP=1C2-E-TEST-0070-144.75010
+1C2-E-TEST-0070-144.75/006	200
+1C2-E-TEST-0070-144.75/007	hits	DEP=1C2-E-TEST-0070-144.75006
+1C2-E-TEST-0070-144.75/008	finished
+1C2-E-TEST-0070-144.75/009	making	DEP=1C2-E-TEST-0070-144.75008
+1C2-E-TEST-0070-144.75/010	hit	DEP=1C2-E-TEST-0070-144.75009
+1C2-E-TEST-0070-144.75/011	+	DEP=1C2-E-TEST-0070-144.75006
+1C2-E-TEST-0070-144.79	Ichiro led the major league All-Star balloting for the second straight year.
+1C2-E-TEST-0070-144.79/001	major league all-star balloting	DEP=1C2-E-TEST-0070-144.79003
+1C2-E-TEST-0070-144.79/002	second straight
+1C2-E-TEST-0070-144.79/003	led
+1C2-E-TEST-0070-144.84	Ichiro was elected to his third All Star game in three years he has been in the league, where he was again the vote leader in the majors.
+1C2-E-TEST-0070-144.84/001	third
+1C2-E-TEST-0070-144.84/002	star game	DEP=1C2-E-TEST-0070-144.84007
+1C2-E-TEST-0070-144.84/003	three years
+1C2-E-TEST-0070-144.84/004	league
+1C2-E-TEST-0070-144.84/005	vote leader	DEP=1C2-E-TEST-0070-144.84004
+1C2-E-TEST-0070-144.84/006	majors
+1C2-E-TEST-0070-144.84/007	elected
+1C2-E-TEST-0070-144.9	When Ichiro joined his high school baseball team, his father told the coach, "No matter how good Ichiro is, don't ever praise him.
+1C2-E-TEST-0070-144.9/001	high school baseball team	DEP=1C2-E-TEST-0070-144.9005
+1C2-E-TEST-0070-144.9/002	father	DEP=1C2-E-TEST-0070-144.9006
+1C2-E-TEST-0070-144.9/003	coach	DEP=1C2-E-TEST-0070-144.9009
+1C2-E-TEST-0070-144.9/004	matter	DEP=1C2-E-TEST-0070-144.9003
+1C2-E-TEST-0070-144.9/005	joined	DEP=1C2-E-TEST-0070-144.9006
+1C2-E-TEST-0070-144.9/006	told
+1C2-E-TEST-0070-144.9/007	good
+1C2-E-TEST-0070-144.9/008	n't	DEP=1C2-E-TEST-0070-144.9009
+1C2-E-TEST-0070-144.9/009	praise	DEP=1C2-E-TEST-0070-144.9006
+1C2-E-TEST-0070-194.39	2004 season results: Sets Major League single-season hits record with 262, surpassing George Sisler's 257 set in 1920.
+1C2-E-TEST-0070-194.39/001	2004 season results
+1C2-E-TEST-0070-194.39/002	sets	DEP=1C2-E-TEST-0070-194.39001
+1C2-E-TEST-0070-194.39/003	major league single-season	DEP=1C2-E-TEST-0070-194.39008
+1C2-E-TEST-0070-194.39/004	record	DEP=1C2-E-TEST-0070-194.39008
+1C2-E-TEST-0070-194.39/005	262
+1C2-E-TEST-0070-194.39/006	george sisler	DEP=1C2-E-TEST-0070-194.39009
+1C2-E-TEST-0070-194.39/007	1920
+1C2-E-TEST-0070-194.39/008	hits	DEP=1C2-E-TEST-0070-194.39002
+1C2-E-TEST-0070-194.39/009	surpassing	DEP=1C2-E-TEST-0070-194.39008
+1C2-E-TEST-0070-194.39/010	257	DEP=1C2-E-TEST-0070-194.39006
+1C2-E-TEST-0070-194.39/011	set	DEP=1C2-E-TEST-0070-194.39006
+1C2-E-TEST-0070-194.65	In 2001, Ichiro Suzuki became the first Japanese position player to play in the major leagues (he was closely followed by right fielder Tsuyoshi Shinjo of the New York Mets).
+1C2-E-TEST-0070-194.65/001	2001
+1C2-E-TEST-0070-194.65/002	japanese position player
+1C2-E-TEST-0070-194.65/003	major leagues
+1C2-E-TEST-0070-194.65/004	right fielder tsuyoshi shinjo
+1C2-E-TEST-0070-194.65/005	new york mets
+1C2-E-TEST-0070-194.65/006	play	DEP=1C2-E-TEST-0070-194.65002
+1C2-E-TEST-0070-194.65/007	closely	DEP=1C2-E-TEST-0070-194.65008
+1C2-E-TEST-0070-194.65/008	followed	DEP=1C2-E-TEST-0070-194.65006
+1C2-E-TEST-0070-32.13	He would play nine seasons of professional Japanese baseball with the Orix Blue Wave and win seven Gold Gloves, two batting titles and three-straight Most Valuable Player awards from 1994 - 1996 .
+1C2-E-TEST-0070-32.13/001	nine seasons	DEP=1C2-E-TEST-0070-32.13010
+1C2-E-TEST-0070-32.13/002	professional japanese baseball
+1C2-E-TEST-0070-32.13/003	orix blue wave
+1C2-E-TEST-0070-32.13/004	seven gold gloves	DEP=1C2-E-TEST-0070-32.13011
+1C2-E-TEST-0070-32.13/005	two batting titles	DEP=1C2-E-TEST-0070-32.13004
+1C2-E-TEST-0070-32.13/006	three-straight	DEP=1C2-E-TEST-0070-32.13004
+1C2-E-TEST-0070-32.13/007	valuable player awards
+1C2-E-TEST-0070-32.13/008	1994
+1C2-E-TEST-0070-32.13/009	1996	DEP=1C2-E-TEST-0070-32.13011
+1C2-E-TEST-0070-32.13/010	play
+1C2-E-TEST-0070-32.13/011	win	DEP=1C2-E-TEST-0070-32.13010
+1C2-E-TEST-0070-32.15	The rights to Ichiro Suzuki were placed up for posting by the Orix Blue Wave and the Seattle Mariners won the right to negotiate a contract with the Japanese star.
+1C2-E-TEST-0070-32.15/001	rights	DEP=1C2-E-TEST-0070-32.15006
+1C2-E-TEST-0070-32.15/002	orix blue wave
+1C2-E-TEST-0070-32.15/003	seattle mariners	DEP=1C2-E-TEST-0070-32.15008
+1C2-E-TEST-0070-32.15/004	contract	DEP=1C2-E-TEST-0070-32.15010
+1C2-E-TEST-0070-32.15/005	japanese star
+1C2-E-TEST-0070-32.15/006	placed
+1C2-E-TEST-0070-32.15/007	posting
+1C2-E-TEST-0070-32.15/008	won	DEP=1C2-E-TEST-0070-32.15006
+1C2-E-TEST-0070-32.15/009	right	DEP=1C2-E-TEST-0070-32.15008
+1C2-E-TEST-0070-32.15/010	negotiate	DEP=1C2-E-TEST-0070-32.15009
+1C2-E-TEST-0070-32.16	Ichiro's major league debut would be on April 2 , 2001, with the Seattle Mariners.
+1C2-E-TEST-0070-32.16/001	april 2 2001
+1C2-E-TEST-0070-32.16/002	seattle mariners
+1C2-E-TEST-0070-32.16/003	major	DEP=1C2-E-TEST-0070-32.16005
+1C2-E-TEST-0070-32.16/004	league	DEP=1C2-E-TEST-0070-32.16005
+1C2-E-TEST-0070-32.16/005	debut
+1C2-E-TEST-0070-32.17	He would become the first Japanese everyday player to play in Major League Baseball and in his first season he would be named the American League Rookie of the Year and the American League Most Valuable Player .
+1C2-E-TEST-0070-32.17/001	japanese everyday player
+1C2-E-TEST-0070-32.17/002	major league baseball
+1C2-E-TEST-0070-32.17/003	season
+1C2-E-TEST-0070-32.17/004	american league rookie	DEP=1C2-E-TEST-0070-32.17008
+1C2-E-TEST-0070-32.17/005	american league	DEP=1C2-E-TEST-0070-32.17004
+1C2-E-TEST-0070-32.17/006	valuable player	DEP=1C2-E-TEST-0070-32.17005
+1C2-E-TEST-0070-32.17/007	play	DEP=1C2-E-TEST-0070-32.17001
+1C2-E-TEST-0070-32.17/008	named	DEP=1C2-E-TEST-0070-32.17001
+1C2-E-TEST-0070-32.18	In 2004, he would set the major league record for most hits in a single season, and in 2007, he would win the All-Star Game Most Valuable Player.
+1C2-E-TEST-0070-32.18/001	2004
+1C2-E-TEST-0070-32.18/002	major league record	DEP=1C2-E-TEST-0070-32.18007
+1C2-E-TEST-0070-32.18/003	hits
+1C2-E-TEST-0070-32.18/004	single season
+1C2-E-TEST-0070-32.18/005	2007
+1C2-E-TEST-0070-32.18/006	all-star game valuable player	DEP=1C2-E-TEST-0070-32.18008
+1C2-E-TEST-0070-32.18/007	set
+1C2-E-TEST-0070-32.18/008	win	DEP=1C2-E-TEST-0070-32.18007
+1C2-E-TEST-0070-32.21	In 2008 , Ichiro won his eighth straight Gold Glove award for the Mariners as an outfielder.
+1C2-E-TEST-0070-32.21/001	2008
+1C2-E-TEST-0070-32.21/002	eighth straight gold glove award	DEP=1C2-E-TEST-0070-32.21005
+1C2-E-TEST-0070-32.21/003	mariners
+1C2-E-TEST-0070-32.21/004	outfielder
+1C2-E-TEST-0070-32.21/005	won
+1C2-E-TEST-0070-32.23	Suzuki has captured the award every season he has played in Major League Baseball.
+1C2-E-TEST-0070-32.23/001	award	DEP=1C2-E-TEST-0070-32.23003
+1C2-E-TEST-0070-32.23/002	major league baseball
+1C2-E-TEST-0070-32.23/003	captured	DEP=1C2-E-TEST-0070-32.23005
+1C2-E-TEST-0070-32.23/004	season	DEP=1C2-E-TEST-0070-32.23003
+1C2-E-TEST-0070-32.23/005	played
+1C2-E-TEST-0070-32.27	In his first season in Major league baseball he accomplished the rare feat of winning the American League Rookie of the Year as well as the American League Most Valuable player.
+1C2-E-TEST-0070-32.27/001	season
+1C2-E-TEST-0070-32.27/002	major league baseball
+1C2-E-TEST-0070-32.27/003	rare feat	DEP=1C2-E-TEST-0070-32.27007
+1C2-E-TEST-0070-32.27/004	american league rookie	DEP=1C2-E-TEST-0070-32.27008
+1C2-E-TEST-0070-32.27/005	american league	DEP=1C2-E-TEST-0070-32.27004
+1C2-E-TEST-0070-32.27/006	valuable player	DEP=1C2-E-TEST-0070-32.27005
+1C2-E-TEST-0070-32.27/007	accomplished
+1C2-E-TEST-0070-32.27/008	winning
+1C2-E-TEST-0070-32.7	On April 3 , 2009, the Seattle Mariners announced that they placed Ichiro Suzuki on the 15-day disabled list.
+1C2-E-TEST-0070-32.7/001	april 3 2009
+1C2-E-TEST-0070-32.7/002	seattle mariners	DEP=1C2-E-TEST-0070-32.7004
+1C2-E-TEST-0070-32.7/003	15-day disabled list
+1C2-E-TEST-0070-32.7/004	announced
+1C2-E-TEST-0070-32.7/005	placed	DEP=1C2-E-TEST-0070-32.7004

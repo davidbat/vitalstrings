@@ -1,0 +1,22 @@
+Multiple client devices can appear to share IP addresses: either because they are part of a shared hosting web server environment or because an IPv4 network address translator (NAT) or proxy server acts as an intermediary agent on behalf of its customers, in which case the real originating IP addresses might be hidden from the server receiving a request .
+
+In this, the IP address is followed by a slash and the number (in decimal) of bits used for the network part, also called the routing prefix.
+
+Persistent configuration is also known as using a static IP address.
+
+Even though IP addresses assigned using DHCP may stay the same for long periods of time, they can generally change.
+
+A sticky dynamic IP address is an informal term used by cable and DSL Internet access subscribers to describe a dynamically assigned IP address which seldom changes.
+
+Even static IP addresses do change as a result of network administration ( RFC 2072 ).
+
+An IP address (Internet Protocol address) is a logical address of a network adapter, and each and every network device has one.
+
+An IP address is a unique series of numbers that identifies computers on a network, so an IP address can easily be used to determine the location of a device or origin of an internet message.
+
+An IP address is similar to a home address in the sense that it is an identifier. Each computer, printer or device uses an IP address in order to communicate. When IP addresses are assigned to a particular group, they are referred to as IP address Classes. IP address Classes may be assigned to organizations, businesses or government operations.
+
+IP addresses consist of a series of four numbers separated by decimal points. There are two types of IP addresses: static and dynamic. Static IP addresses remain the same and are unchanging. They are permanent and are used as easy identifiers. Dynamic IP addresses are temporary and change.
+
+Those who choose not to change their IP address may decide they would like to hide their IP address instead. An IP address may be successfully hidden through the use of a proxy server. There are several types of proxy servers but each (except transparent proxy) is used to hide an IP address.
+

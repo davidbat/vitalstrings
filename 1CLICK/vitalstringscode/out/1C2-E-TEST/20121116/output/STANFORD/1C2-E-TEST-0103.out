@@ -1,0 +1,292 @@
+1C2-E-TEST-0103-1.233	On January 15, 2008, the National Transportation Safety Board announced they had determined that the bridge's design specified steel gusset plates that were undersized and inadequate to support the intended load of the bridge, [129] a load which had increased over time.
+1C2-E-TEST-0103-1.233/001	january 15 2008
+1C2-E-TEST-0103-1.233/002	national transportation safety board	DEP=1C2-E-TEST-0103-1.233008
+1C2-E-TEST-0103-1.233/003	steel gusset	DEP=1C2-E-TEST-0103-1.233011
+1C2-E-TEST-0103-1.233/004	intended load	DEP=1C2-E-TEST-0103-1.233015
+1C2-E-TEST-0103-1.233/005	129	DEP=1C2-E-TEST-0103-1.233006
+1C2-E-TEST-0103-1.233/006	load
+1C2-E-TEST-0103-1.233/007	time
+1C2-E-TEST-0103-1.233/008	announced
+1C2-E-TEST-0103-1.233/009	determined	DEP=1C2-E-TEST-0103-1.233008
+1C2-E-TEST-0103-1.233/010	design	DEP=1C2-E-TEST-0103-1.233012
+1C2-E-TEST-0103-1.233/011	specified	DEP=1C2-E-TEST-0103-1.233010
+1C2-E-TEST-0103-1.233/012	plates	DEP=1C2-E-TEST-0103-1.233009
+1C2-E-TEST-0103-1.233/013	undersized
+1C2-E-TEST-0103-1.233/014	inadequate	DEP=1C2-E-TEST-0103-1.233013
+1C2-E-TEST-0103-1.233/015	support	DEP=1C2-E-TEST-0103-1.233014
+1C2-E-TEST-0103-1.233/016	increased	DEP=1C2-E-TEST-0103-1.233006
+1C2-E-TEST-0103-114.3	About 6:05 p.m. central daylight time on Wednesday, August 1, 07, the eight-lane, 1,907-foot-long I-35W Highway Bridge over the Mississippi River in Minneapolis, Minnesota, experienced a catastrophic failure in the main span of the deck truss.
+1C2-E-TEST-0103-114.3/001	6:05 p.m. central daylight time
+1C2-E-TEST-0103-114.3/002	wednesday
+1C2-E-TEST-0103-114.3/003	august 1 07	DEP=1C2-E-TEST-0103-114.3010
+1C2-E-TEST-0103-114.3/004	eight-lane 1,907-foot-long i-35w highway
+1C2-E-TEST-0103-114.3/005	mississippi river
+1C2-E-TEST-0103-114.3/006	minneapolis
+1C2-E-TEST-0103-114.3/007	catastrophic failure	DEP=1C2-E-TEST-0103-114.3010
+1C2-E-TEST-0103-114.3/008	main span
+1C2-E-TEST-0103-114.3/009	deck truss
+1C2-E-TEST-0103-114.3/010	experienced
+1C2-E-TEST-0103-114.8	On the day of the collapse, roadway work was underway on the I-35W Bridge, and four of the eight travel lanes (two outside lanes northbound and two inside lanes southbound) were closed to traffic.
+1C2-E-TEST-0103-114.8/001	roadway work	DEP=1C2-E-TEST-0103-114.8002
+1C2-E-TEST-0103-114.8/002	underway
+1C2-E-TEST-0103-114.8/003	i-35w
+1C2-E-TEST-0103-114.8/004	four	DEP=1C2-E-TEST-0103-114.8011
+1C2-E-TEST-0103-114.8/005	eight travel lanes
+1C2-E-TEST-0103-114.8/006	two lanes northbound	DEP=1C2-E-TEST-0103-114.8010
+1C2-E-TEST-0103-114.8/007	two	DEP=1C2-E-TEST-0103-114.8006
+1C2-E-TEST-0103-114.8/008	lanes
+1C2-E-TEST-0103-114.8/009	traffic
+1C2-E-TEST-0103-114.8/010	southbound	DEP=1C2-E-TEST-0103-114.8005
+1C2-E-TEST-0103-114.8/011	closed	DEP=1C2-E-TEST-0103-114.8002
+1C2-E-TEST-0103-142.23	In summary, the Minneapolis bridge collapsed at rush hour, 6:05 PM Central Time. It is called the I-35W Bridge because it is a portion of Interstate 35, over the Mississippi River. It was built in 1967.
+1C2-E-TEST-0103-142.23/001	summary
+1C2-E-TEST-0103-142.23/002	minneapolis
+1C2-E-TEST-0103-142.23/003	rush hour
+1C2-E-TEST-0103-142.23/004	6:05	DEP=1C2-E-TEST-0103-142.23003
+1C2-E-TEST-0103-142.23/005	pm central time	DEP=1C2-E-TEST-0103-142.23011
+1C2-E-TEST-0103-142.23/006	i-35w
+1C2-E-TEST-0103-142.23/007	portion	DEP=1C2-E-TEST-0103-142.23012
+1C2-E-TEST-0103-142.23/008	interstate 35
+1C2-E-TEST-0103-142.23/009	mississippi river
+1C2-E-TEST-0103-142.23/010	1967
+1C2-E-TEST-0103-142.23/011	collapsed
+1C2-E-TEST-0103-142.23/012	called	DEP=1C2-E-TEST-0103-142.23005
+1C2-E-TEST-0103-142.23/013	built	DEP=1C2-E-TEST-0103-142.23007
+1C2-E-TEST-0103-142.4	As it gets near 10 pm EDT, the wire services are saying seven people are reported dead from the freeway bridge that fell into the Mississippi River in Minneapolis, Minnesota, about four hours ago.
+1C2-E-TEST-0103-142.4/001	10 pm edt
+1C2-E-TEST-0103-142.4/002	wire services	DEP=1C2-E-TEST-0103-142.4009
+1C2-E-TEST-0103-142.4/003	seven people	DEP=1C2-E-TEST-0103-142.4009
+1C2-E-TEST-0103-142.4/004	freeway
+1C2-E-TEST-0103-142.4/005	mississippi river
+1C2-E-TEST-0103-142.4/006	minneapolis
+1C2-E-TEST-0103-142.4/007	four hours	DEP=1C2-E-TEST-0103-142.4013
+1C2-E-TEST-0103-142.4/008	gets	DEP=1C2-E-TEST-0103-142.4009
+1C2-E-TEST-0103-142.4/009	saying
+1C2-E-TEST-0103-142.4/010	reported	DEP=1C2-E-TEST-0103-142.4003
+1C2-E-TEST-0103-142.4/011	dead	DEP=1C2-E-TEST-0103-142.4010
+1C2-E-TEST-0103-142.4/012	fell
+1C2-E-TEST-0103-142.4/013	ago
+1C2-E-TEST-0103-173.7	In yesterdayÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Supreme Court opinion, Justice Christopher Dietzen explained the background to the case, which arises out of the 1 August 2007 collapse of the Interstate 35W Bridge where it crosses the Mississippi River in Minneapolis, Minnesota.
+1C2-E-TEST-0103-173.7/001	yesterdayã cents
+1C2-E-TEST-0103-173.7/002	¬	DEP=1C2-E-TEST-0103-173.7004
+1C2-E-TEST-0103-173.7/003	â cents	DEP=1C2-E-TEST-0103-173.7002
+1C2-E-TEST-0103-173.7/004	supreme court opinion
+1C2-E-TEST-0103-173.7/005	justice christopher dietzen	DEP=1C2-E-TEST-0103-173.7013
+1C2-E-TEST-0103-173.7/006	background	DEP=1C2-E-TEST-0103-173.7013
+1C2-E-TEST-0103-173.7/007	case
+1C2-E-TEST-0103-173.7/008	1
+1C2-E-TEST-0103-173.7/009	interstate 35w
+1C2-E-TEST-0103-173.7/010	mississippi river	DEP=1C2-E-TEST-0103-173.7017
+1C2-E-TEST-0103-173.7/011	minneapolis
+1C2-E-TEST-0103-173.7/012	s	DEP=1C2-E-TEST-0103-173.7004
+1C2-E-TEST-0103-173.7/013	explained
+1C2-E-TEST-0103-173.7/014	arises	DEP=1C2-E-TEST-0103-173.7007
+1C2-E-TEST-0103-173.7/015	august
+1C2-E-TEST-0103-173.7/016	2007	DEP=1C2-E-TEST-0103-173.7015
+1C2-E-TEST-0103-173.7/017	crosses
+1C2-E-TEST-0103-187.3	The I-35W Bridge is a deck-arch truss bridge that spans the Mississippi River in Minneapolis, Minnesota.
+1C2-E-TEST-0103-187.3/001	i-35w
+1C2-E-TEST-0103-187.3/002	deck-arch truss
+1C2-E-TEST-0103-187.3/003	mississippi river	DEP=1C2-E-TEST-0103-187.3005
+1C2-E-TEST-0103-187.3/004	minneapolis
+1C2-E-TEST-0103-187.3/005	spans
+1C2-E-TEST-0103-199.4	MinneapolisÃÂÃÂ -ÃÂÃÂ The collapse of the Interstate 35W bridge across the Mississippi River on Aug.
+1C2-E-TEST-0103-199.4/001	minneapolisã
+1C2-E-TEST-0103-199.4/002	ã â	DEP=1C2-E-TEST-0103-199.4001
+1C2-E-TEST-0103-199.4/003	interstate 35w
+1C2-E-TEST-0103-199.4/004	mississippi river
+1C2-E-TEST-0103-199.4/005	aug.
+1C2-E-TEST-0103-199.4/006	â	DEP=1C2-E-TEST-0103-199.4001
+1C2-E-TEST-0103-2.2	1, 2007 the I-35W Bridge over the Mississippi River in Minneapolis collapsed.
+1C2-E-TEST-0103-2.2/001	1	DEP=1C2-E-TEST-0103-2.2006
+1C2-E-TEST-0103-2.2/002	2007	DEP=1C2-E-TEST-0103-2.2001
+1C2-E-TEST-0103-2.2/003	i-35w
+1C2-E-TEST-0103-2.2/004	mississippi river
+1C2-E-TEST-0103-2.2/005	minneapolis
+1C2-E-TEST-0103-2.2/006	collapsed
+1C2-E-TEST-0103-2.7	14 the National Transportation Safety Board released the results of its investigation into the cause of the I-35W Bridge collapse.
+1C2-E-TEST-0103-2.7/001	14	DEP=1C2-E-TEST-0103-2.7007
+1C2-E-TEST-0103-2.7/002	national transportation safety board	DEP=1C2-E-TEST-0103-2.7001
+1C2-E-TEST-0103-2.7/003	results	DEP=1C2-E-TEST-0103-2.7007
+1C2-E-TEST-0103-2.7/004	investigation
+1C2-E-TEST-0103-2.7/005	cause
+1C2-E-TEST-0103-2.7/006	i-35w
+1C2-E-TEST-0103-2.7/007	released
+1C2-E-TEST-0103-242.32	1, 2007 -- At 6:05 p.m., the I-35W Bridge collapses into the Mississippi River.
+1C2-E-TEST-0103-242.32/001	1
+1C2-E-TEST-0103-242.32/002	2007	DEP=1C2-E-TEST-0103-242.32001
+1C2-E-TEST-0103-242.32/003	6:05 p.m.
+1C2-E-TEST-0103-242.32/004	i-35w
+1C2-E-TEST-0103-242.32/005	mississippi river
+1C2-E-TEST-0103-242.32/006	collapses	DEP=1C2-E-TEST-0103-242.32001
+1C2-E-TEST-0103-247.3	Seven people die after a bridge in Minneapolis over the Mississippi river collapses, hurling cars into the water.
+1C2-E-TEST-0103-247.3/001	seven people	DEP=1C2-E-TEST-0103-247.3006
+1C2-E-TEST-0103-247.3/002	minneapolis
+1C2-E-TEST-0103-247.3/003	mississippi river
+1C2-E-TEST-0103-247.3/004	cars	DEP=1C2-E-TEST-0103-247.3008
+1C2-E-TEST-0103-247.3/005	water
+1C2-E-TEST-0103-247.3/006	die
+1C2-E-TEST-0103-247.3/007	collapses	DEP=1C2-E-TEST-0103-247.3006
+1C2-E-TEST-0103-247.3/008	hurling	DEP=1C2-E-TEST-0103-247.3007
+1C2-E-TEST-0103-247.7	Bridge Collapses into Mississippi River, Casualites Reported
+1C2-E-TEST-0103-247.7/001	mississippi river
+1C2-E-TEST-0103-247.7/002	casualites reported	DEP=1C2-E-TEST-0103-247.7001
+1C2-E-TEST-0103-247.7/003	collapses
+1C2-E-TEST-0103-247.9	Danny: At 6:05 PM CST, a span of the 35W bridge in Minneapolis collapsed into the Mississippi River, sending dozens of vehicles plunging into the river...
+1C2-E-TEST-0103-247.9/001	danny
+1C2-E-TEST-0103-247.9/002	6:05
+1C2-E-TEST-0103-247.9/003	pm cst	DEP=1C2-E-TEST-0103-247.9002
+1C2-E-TEST-0103-247.9/004	span	DEP=1C2-E-TEST-0103-247.9011
+1C2-E-TEST-0103-247.9/005	35w
+1C2-E-TEST-0103-247.9/006	minneapolis
+1C2-E-TEST-0103-247.9/007	mississippi river
+1C2-E-TEST-0103-247.9/008	dozens	DEP=1C2-E-TEST-0103-247.9012
+1C2-E-TEST-0103-247.9/009	vehicles
+1C2-E-TEST-0103-247.9/010	river
+1C2-E-TEST-0103-247.9/011	collapsed	DEP=1C2-E-TEST-0103-247.9001
+1C2-E-TEST-0103-247.9/012	sending	DEP=1C2-E-TEST-0103-247.9011
+1C2-E-TEST-0103-247.9/013	plunging	DEP=1C2-E-TEST-0103-247.9009
+1C2-E-TEST-0103-247.91	However, the collapse of the Interstate 35W bridge in Minneapolis appears to be something else -- though exactly what is still not clear, even as the casualty report stands at 9 dead, 60 injured, and 20 missing.
+1C2-E-TEST-0103-247.91/001	interstate 35w
+1C2-E-TEST-0103-247.91/002	minneapolis
+1C2-E-TEST-0103-247.91/003	casualty report	DEP=1C2-E-TEST-0103-247.91010
+1C2-E-TEST-0103-247.91/004	9
+1C2-E-TEST-0103-247.91/005	60	DEP=1C2-E-TEST-0103-247.91004
+1C2-E-TEST-0103-247.91/006	20	DEP=1C2-E-TEST-0103-247.91004
+1C2-E-TEST-0103-247.91/007	appears
+1C2-E-TEST-0103-247.91/008	exactly
+1C2-E-TEST-0103-247.91/009	clear
+1C2-E-TEST-0103-247.91/010	stands	DEP=1C2-E-TEST-0103-247.91007
+1C2-E-TEST-0103-247.91/011	dead	DEP=1C2-E-TEST-0103-247.91004
+1C2-E-TEST-0103-247.91/012	injured	DEP=1C2-E-TEST-0103-247.91005
+1C2-E-TEST-0103-247.91/013	missing	DEP=1C2-E-TEST-0103-247.91006
+1C2-E-TEST-0103-263.28	The bridge over the Mississippi River to and from Minneapolis / St. Paul Minnesota collapsed during rush hour on Wednesday.
+1C2-E-TEST-0103-263.28/001	mississippi river
+1C2-E-TEST-0103-263.28/002	minneapolis
+1C2-E-TEST-0103-263.28/003	st. paul
+1C2-E-TEST-0103-263.28/004	rush hour
+1C2-E-TEST-0103-263.28/005	wednesday
+1C2-E-TEST-0103-263.28/006	collapsed
+1C2-E-TEST-0103-263.32	Collapse of the I-35W bridge crossing the Mississippi River from Minneapolis to St. Paul, Minnesota.
+1C2-E-TEST-0103-263.32/001	i-35w
+1C2-E-TEST-0103-263.32/002	mississippi river	DEP=1C2-E-TEST-0103-263.32005
+1C2-E-TEST-0103-263.32/003	minneapolis
+1C2-E-TEST-0103-263.32/004	st. paul
+1C2-E-TEST-0103-263.32/005	crossing
+1C2-E-TEST-0103-263.4	The Highway 35W Bridge across the Mississippi in Minneapolis, MN just collapsed shortly after rush hour.
+1C2-E-TEST-0103-263.4/001	highway 35w
+1C2-E-TEST-0103-263.4/002	mississippi
+1C2-E-TEST-0103-263.4/003	minneapolis
+1C2-E-TEST-0103-263.4/004	mn	DEP=1C2-E-TEST-0103-263.4003
+1C2-E-TEST-0103-263.4/005	rush hour
+1C2-E-TEST-0103-263.4/006	collapsed
+1C2-E-TEST-0103-263.4/007	shortly	DEP=1C2-E-TEST-0103-263.4006
+1C2-E-TEST-0103-263.7	August 1, 2007 A freeway bridge spanning the Mississippi River collapsed at 6:05 pm CST Wednesday, sending many cars into the water.
+1C2-E-TEST-0103-263.7/001	august 1 2007	DEP=1C2-E-TEST-0103-263.7008
+1C2-E-TEST-0103-263.7/002	freeway
+1C2-E-TEST-0103-263.7/003	mississippi river	DEP=1C2-E-TEST-0103-263.7007
+1C2-E-TEST-0103-263.7/004	6:05 pm cst wednesday
+1C2-E-TEST-0103-263.7/005	cars	DEP=1C2-E-TEST-0103-263.7009
+1C2-E-TEST-0103-263.7/006	water
+1C2-E-TEST-0103-263.7/007	spanning	DEP=1C2-E-TEST-0103-263.7001
+1C2-E-TEST-0103-263.7/008	collapsed
+1C2-E-TEST-0103-263.7/009	sending	DEP=1C2-E-TEST-0103-263.7008
+1C2-E-TEST-0103-263.9	The entire span of the Interstate 35W bridge collapsed about 6:05 p.m. where the freeway crosses the river near University Avenue in Minneapolis.
+1C2-E-TEST-0103-263.9/001	entire span	DEP=1C2-E-TEST-0103-263.9008
+1C2-E-TEST-0103-263.9/002	interstate 35w
+1C2-E-TEST-0103-263.9/003	6:05 p.m.
+1C2-E-TEST-0103-263.9/004	freeway	DEP=1C2-E-TEST-0103-263.9009
+1C2-E-TEST-0103-263.9/005	river	DEP=1C2-E-TEST-0103-263.9009
+1C2-E-TEST-0103-263.9/006	university avenue
+1C2-E-TEST-0103-263.9/007	minneapolis
+1C2-E-TEST-0103-263.9/008	collapsed
+1C2-E-TEST-0103-263.9/009	crosses	DEP=1C2-E-TEST-0103-263.9008
+1C2-E-TEST-0103-27.14	The entire length of the bridge over the river collapsed at 6:05 p.m.
+1C2-E-TEST-0103-27.14/001	entire length	DEP=1C2-E-TEST-0103-27.14004
+1C2-E-TEST-0103-27.14/002	river
+1C2-E-TEST-0103-27.14/003	6:05
+1C2-E-TEST-0103-27.14/004	collapsed
+1C2-E-TEST-0103-27.14/005	p.m.	DEP=1C2-E-TEST-0103-27.14004
+1C2-E-TEST-0103-27.3	The Interstate 35W Mississippi River eight-lane bridge in Minneapolis, Minnesota has collapsed on both sides of the highway over the Mississippi River during rush hour.
+1C2-E-TEST-0103-27.3/001	interstate 35w mississippi river eight-lane
+1C2-E-TEST-0103-27.3/002	minneapolis
+1C2-E-TEST-0103-27.3/003	sides
+1C2-E-TEST-0103-27.3/004	highway
+1C2-E-TEST-0103-27.3/005	mississippi river
+1C2-E-TEST-0103-27.3/006	rush hour
+1C2-E-TEST-0103-27.3/007	collapsed
+1C2-E-TEST-0103-27.31	Typically an eight-lane bridge, the bridge was reduced to four lanes (two in each direction) during the current construction.
+1C2-E-TEST-0103-27.31/001	eight-lane
+1C2-E-TEST-0103-27.31/002	four lanes
+1C2-E-TEST-0103-27.31/003	two	DEP=1C2-E-TEST-0103-27.31002
+1C2-E-TEST-0103-27.31/004	direction
+1C2-E-TEST-0103-27.31/005	current construction
+1C2-E-TEST-0103-27.31/006	typically
+1C2-E-TEST-0103-27.31/007	reduced
+1C2-E-TEST-0103-27.36	Collapsed I-35W bridge in Mississippi River, August 1, 2007.
+1C2-E-TEST-0103-27.36/001	mississippi river
+1C2-E-TEST-0103-27.36/002	august 1 2007	DEP=1C2-E-TEST-0103-27.36003
+1C2-E-TEST-0103-27.36/003	collapsed
+1C2-E-TEST-0103-27.36/004	i-35w
+1C2-E-TEST-0103-287.22	The Federal Bureau of Investigation Lab used the Riegl Lidar scanner LMS-Z420i in support of the National Transportation Safety Board to conduct a structural analysis of the collapsed I-35W Bridge in Minneapolis, Minnesota.
+1C2-E-TEST-0103-287.22/001	federal bureau
+1C2-E-TEST-0103-287.22/002	investigation lab
+1C2-E-TEST-0103-287.22/003	riegl lidar scanner lms-z420i
+1C2-E-TEST-0103-287.22/004	support
+1C2-E-TEST-0103-287.22/005	national transportation safety board
+1C2-E-TEST-0103-287.22/006	structural analysis	DEP=1C2-E-TEST-0103-287.22009
+1C2-E-TEST-0103-287.22/007	collapsed i-35w
+1C2-E-TEST-0103-287.22/008	minneapolis
+1C2-E-TEST-0103-287.22/009	conduct
+1C2-E-TEST-0103-287.3	At 6:05 p.m. on Wednesday, August 1, 2007, the Interstate 35 West bridge in downtown Minneapolis collapsed into the Mississippi River.
+1C2-E-TEST-0103-287.3/001	6:05 p.m.
+1C2-E-TEST-0103-287.3/002	wednesday august 1 2007
+1C2-E-TEST-0103-287.3/003	interstate 35 west
+1C2-E-TEST-0103-287.3/004	downtown
+1C2-E-TEST-0103-287.3/005	minneapolis	DEP=1C2-E-TEST-0103-287.3007
+1C2-E-TEST-0103-287.3/006	mississippi river
+1C2-E-TEST-0103-287.3/007	collapsed
+1C2-E-TEST-0103-3.32	January 11, 2008: The National Transportation Safety Board's (NTSB) on-going investigation uncovers an error in the original design process that resulted in undersized gusset plates on some of Bridge 9340's main trusses.
+1C2-E-TEST-0103-3.32/001	january 11 2008
+1C2-E-TEST-0103-3.32/002	national transportation safety board	DEP=1C2-E-TEST-0103-3.32009
+1C2-E-TEST-0103-3.32/003	ntsb	DEP=1C2-E-TEST-0103-3.32009
+1C2-E-TEST-0103-3.32/004	error	DEP=1C2-E-TEST-0103-3.32010
+1C2-E-TEST-0103-3.32/005	original design process
+1C2-E-TEST-0103-3.32/006	undersized gusset plates
+1C2-E-TEST-0103-3.32/007	9340
+1C2-E-TEST-0103-3.32/008	on-going	DEP=1C2-E-TEST-0103-3.32009
+1C2-E-TEST-0103-3.32/009	investigation	DEP=1C2-E-TEST-0103-3.32001
+1C2-E-TEST-0103-3.32/010	uncovers	DEP=1C2-E-TEST-0103-3.32009
+1C2-E-TEST-0103-3.32/011	resulted	DEP=1C2-E-TEST-0103-3.32005
+1C2-E-TEST-0103-3.32/012	main	DEP=1C2-E-TEST-0103-3.32013
+1C2-E-TEST-0103-3.32/013	trusses
+1C2-E-TEST-0103-3.6	Citizens and government officials alike are concerned about the state of bridges in Minnesota after the collapse of the Interstate 35W bridge into the Mississippi River on August 1st, 2007.
+1C2-E-TEST-0103-3.6/001	citizens	DEP=1C2-E-TEST-0103-3.6009
+1C2-E-TEST-0103-3.6/002	government officials	DEP=1C2-E-TEST-0103-3.6001
+1C2-E-TEST-0103-3.6/003	state
+1C2-E-TEST-0103-3.6/004	bridges
+1C2-E-TEST-0103-3.6/005	interstate 35w
+1C2-E-TEST-0103-3.6/006	mississippi river
+1C2-E-TEST-0103-3.6/007	august 1st 2007
+1C2-E-TEST-0103-3.6/008	alike	DEP=1C2-E-TEST-0103-3.6009
+1C2-E-TEST-0103-3.6/009	concerned
+1C2-E-TEST-0103-438.10	In 2008, a report from the National Transportation Board said the failure of gusset plates played a significant role in the August 2007 bridge collapse, which killed 13 people.
+1C2-E-TEST-0103-438.10/001	2008
+1C2-E-TEST-0103-438.10/002	report
+1C2-E-TEST-0103-438.10/003	national transportation board
+1C2-E-TEST-0103-438.10/004	failure	DEP=1C2-E-TEST-0103-438.10009
+1C2-E-TEST-0103-438.10/005	gusset plates
+1C2-E-TEST-0103-438.10/006	significant role	DEP=1C2-E-TEST-0103-438.10009
+1C2-E-TEST-0103-438.10/007	august 2007
+1C2-E-TEST-0103-438.10/008	13 people	DEP=1C2-E-TEST-0103-438.10010
+1C2-E-TEST-0103-438.10/009	played
+1C2-E-TEST-0103-438.10/010	killed
+1C2-E-TEST-0103-81.17	The entire span of the 35W bridge collapsed at about 6:05 p.m. where the freeway crosses the river near University Avenue.
+1C2-E-TEST-0103-81.17/001	entire span	DEP=1C2-E-TEST-0103-81.17007
+1C2-E-TEST-0103-81.17/002	35w
+1C2-E-TEST-0103-81.17/003	6:05 p.m.
+1C2-E-TEST-0103-81.17/004	freeway	DEP=1C2-E-TEST-0103-81.17008
+1C2-E-TEST-0103-81.17/005	river	DEP=1C2-E-TEST-0103-81.17008
+1C2-E-TEST-0103-81.17/006	university avenue
+1C2-E-TEST-0103-81.17/007	collapsed
+1C2-E-TEST-0103-81.17/008	crosses	DEP=1C2-E-TEST-0103-81.17007

@@ -1,0 +1,512 @@
+1C2-E-TEST-0160-1.157	In the 2009 miniseries Batman: Battle for the Cowl , Wayne's former protÃÂÃÂ©gÃÂÃÂ© Dick Grayson becomes the new Batman, and Wayne's son Damian becomes the new Robin.
+1C2-E-TEST-0160-1.157/001	2009 miniseries
+1C2-E-TEST-0160-1.157/002	battle	DEP=1C2-E-TEST-0160-1.157001
+1C2-E-TEST-0160-1.157/003	cowl
+1C2-E-TEST-0160-1.157/004	wayne	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/005	©	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/006	dick grayson
+1C2-E-TEST-0160-1.157/007	wayne	DEP=1C2-E-TEST-0160-1.157017
+1C2-E-TEST-0160-1.157/008	damian	DEP=1C2-E-TEST-0160-1.157009
+1C2-E-TEST-0160-1.157/009	new robin
+1C2-E-TEST-0160-1.157/010	former	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/011	protã	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/012	â	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/013	©	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/014	gã	DEP=1C2-E-TEST-0160-1.157015
+1C2-E-TEST-0160-1.157/015	â	DEP=1C2-E-TEST-0160-1.157001
+1C2-E-TEST-0160-1.157/016	new
+1C2-E-TEST-0160-1.157/017	son
+1C2-E-TEST-0160-1.160	In 2010, the storyline Batman: The Return of Bruce Wayne saw Bruce travel through history, eventually returning to the present day.
+1C2-E-TEST-0160-1.160/001	2010
+1C2-E-TEST-0160-1.160/002	storyline
+1C2-E-TEST-0160-1.160/003	return	DEP=1C2-E-TEST-0160-1.160002
+1C2-E-TEST-0160-1.160/004	bruce wayne
+1C2-E-TEST-0160-1.160/005	bruce	DEP=1C2-E-TEST-0160-1.160008
+1C2-E-TEST-0160-1.160/006	history
+1C2-E-TEST-0160-1.160/007	present
+1C2-E-TEST-0160-1.160/008	travel
+1C2-E-TEST-0160-1.160/009	eventually	DEP=1C2-E-TEST-0160-1.160010
+1C2-E-TEST-0160-1.160/010	returning
+1C2-E-TEST-0160-1.212	In the 1970s and 1980s, Brave and the Bold became a Batman title, in which Batman teams up with a different DC Universe superhero each month.
+1C2-E-TEST-0160-1.212/001	1970s 1980s
+1C2-E-TEST-0160-1.212/002	brave	DEP=1C2-E-TEST-0160-1.212004
+1C2-E-TEST-0160-1.212/003	bold	DEP=1C2-E-TEST-0160-1.212002
+1C2-E-TEST-0160-1.212/004	title
+1C2-E-TEST-0160-1.212/005	teams
+1C2-E-TEST-0160-1.212/006	different dc universe superhero
+1C2-E-TEST-0160-1.212/007	month
+1C2-E-TEST-0160-1.231	In 1988's " Batman: A Death in the Family " storyline from Batman #426ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ429 Jason Todd, the second Robin, is killed by the Joker.
+1C2-E-TEST-0160-1.231/001	1988
+1C2-E-TEST-0160-1.231/002	death
+1C2-E-TEST-0160-1.231/003	family storyline
+1C2-E-TEST-0160-1.231/004	â ¬	DEP=1C2-E-TEST-0160-1.231011
+1C2-E-TEST-0160-1.231/005	429
+1C2-E-TEST-0160-1.231/006	jason todd	DEP=1C2-E-TEST-0160-1.231012
+1C2-E-TEST-0160-1.231/007	second robin	DEP=1C2-E-TEST-0160-1.231006
+1C2-E-TEST-0160-1.231/008	joker
+1C2-E-TEST-0160-1.231/009	426ã	DEP=1C2-E-TEST-0160-1.231010
+1C2-E-TEST-0160-1.231/010	cents
+1C2-E-TEST-0160-1.231/011	â
+1C2-E-TEST-0160-1.231/012	killed
+1C2-E-TEST-0160-1.240	Wayne hands the Batman mantle to Dick Grayson (then Nightwing) for an interim period, while Wayne trains to return to the role.
+1C2-E-TEST-0160-1.240/001	wayne hands
+1C2-E-TEST-0160-1.240/002	mantle	DEP=1C2-E-TEST-0160-1.240001
+1C2-E-TEST-0160-1.240/003	dick grayson
+1C2-E-TEST-0160-1.240/004	interim period
+1C2-E-TEST-0160-1.240/005	wayne trains	DEP=1C2-E-TEST-0160-1.240008
+1C2-E-TEST-0160-1.240/006	role
+1C2-E-TEST-0160-1.240/007	nightwing	DEP=1C2-E-TEST-0160-1.240002
+1C2-E-TEST-0160-1.240/008	return	DEP=1C2-E-TEST-0160-1.240004
+1C2-E-TEST-0160-1.268	[81] The follow-up story arc in Batman, Batman & Son , introduces Damian Wayne , who is Batman's son with Talia al Ghul .
+1C2-E-TEST-0160-1.268/001	follow-up story arc	DEP=1C2-E-TEST-0160-1.268005
+1C2-E-TEST-0160-1.268/002	& son
+1C2-E-TEST-0160-1.268/003	damian wayne	DEP=1C2-E-TEST-0160-1.268006
+1C2-E-TEST-0160-1.268/004	talia al ghul
+1C2-E-TEST-0160-1.268/005	81	DEP=1C2-E-TEST-0160-1.268006
+1C2-E-TEST-0160-1.268/006	introduces
+1C2-E-TEST-0160-1.268/007	son	DEP=1C2-E-TEST-0160-1.268003
+1C2-E-TEST-0160-1.269	Batman, along with Superman and Wonder Woman, reforms the Justice League in the new Justice League of America series, [82] and is leading the newest incarnation of the Outsiders .
+1C2-E-TEST-0160-1.269/001	superman
+1C2-E-TEST-0160-1.269/002	wonder woman
+1C2-E-TEST-0160-1.269/003	reforms	DEP=1C2-E-TEST-0160-1.269002
+1C2-E-TEST-0160-1.269/004	justice league
+1C2-E-TEST-0160-1.269/005	new justice league
+1C2-E-TEST-0160-1.269/006	america series
+1C2-E-TEST-0160-1.269/007	82	DEP=1C2-E-TEST-0160-1.269006
+1C2-E-TEST-0160-1.269/008	newest incarnation	DEP=1C2-E-TEST-0160-1.269010
+1C2-E-TEST-0160-1.269/009	outsiders
+1C2-E-TEST-0160-1.269/010	leading	DEP=1C2-E-TEST-0160-1.269004
+1C2-E-TEST-0160-1.289	[92] Deadman , whose body has also become a Black Lantern, rushes to aid the new Batman and Robin, along with Red Robin against the Gotham villains who have been reanimated as Black Lanterns, as well as their own family members.
+1C2-E-TEST-0160-1.289/001	deadman	DEP=1C2-E-TEST-0160-1.289008
+1C2-E-TEST-0160-1.289/002	black lantern
+1C2-E-TEST-0160-1.289/003	new robin
+1C2-E-TEST-0160-1.289/004	red robin
+1C2-E-TEST-0160-1.289/005	gotham villains
+1C2-E-TEST-0160-1.289/006	black lanterns
+1C2-E-TEST-0160-1.289/007	family members	DEP=1C2-E-TEST-0160-1.289005
+1C2-E-TEST-0160-1.289/008	92	DEP=1C2-E-TEST-0160-1.289010
+1C2-E-TEST-0160-1.289/009	body
+1C2-E-TEST-0160-1.289/010	rushes
+1C2-E-TEST-0160-1.289/011	aid	DEP=1C2-E-TEST-0160-1.289010
+1C2-E-TEST-0160-1.289/012	reanimated	DEP=1C2-E-TEST-0160-1.289005
+1C2-E-TEST-0160-1.306	Also, Batman is the protagonist in the new title Batman: The Dark Knight , which will be written and drawn by David Finch .
+1C2-E-TEST-0160-1.306/001	protagonist
+1C2-E-TEST-0160-1.306/002	new title
+1C2-E-TEST-0160-1.306/003	dark knight	DEP=1C2-E-TEST-0160-1.306001
+1C2-E-TEST-0160-1.306/004	david finch
+1C2-E-TEST-0160-1.306/005	written	DEP=1C2-E-TEST-0160-1.306003
+1C2-E-TEST-0160-1.306/006	drawn	DEP=1C2-E-TEST-0160-1.306005
+1C2-E-TEST-0160-1.327	In his secret identity, Batman is Bruce Wayne, a wealthy businessman who lives in Gotham City.
+1C2-E-TEST-0160-1.327/001	secret identity
+1C2-E-TEST-0160-1.327/002	bruce wayne
+1C2-E-TEST-0160-1.327/003	wealthy businessman	DEP=1C2-E-TEST-0160-1.327002
+1C2-E-TEST-0160-1.327/004	gotham city
+1C2-E-TEST-0160-1.327/005	lives	DEP=1C2-E-TEST-0160-1.327003
+1C2-E-TEST-0160-1.338	Finger came up with the name "Bruce Wayne" for the superhero's secret identity.
+1C2-E-TEST-0160-1.338/001	finger	DEP=1C2-E-TEST-0160-1.338004
+1C2-E-TEST-0160-1.338/002	name bruce wayne
+1C2-E-TEST-0160-1.338/003	superhero	DEP=1C2-E-TEST-0160-1.338006
+1C2-E-TEST-0160-1.338/004	came
+1C2-E-TEST-0160-1.338/005	secret	DEP=1C2-E-TEST-0160-1.338006
+1C2-E-TEST-0160-1.338/006	identity
+1C2-E-TEST-0160-1.348	While Wayne traveled through time to get back to the present, Dick Grayson became the new Batman.
+1C2-E-TEST-0160-1.348/001	wayne	DEP=1C2-E-TEST-0160-1.348006
+1C2-E-TEST-0160-1.348/002	time
+1C2-E-TEST-0160-1.348/003	present
+1C2-E-TEST-0160-1.348/004	dick grayson
+1C2-E-TEST-0160-1.348/005	new
+1C2-E-TEST-0160-1.348/006	traveled
+1C2-E-TEST-0160-1.348/007	back
+1C2-E-TEST-0160-12.132	Years later, Batman finds himself in Arkham Asylum with Joker (and other Batman rogues) running the show, Batman locks himself in the asylum to stop Joker.
+1C2-E-TEST-0160-12.132/001	years	DEP=1C2-E-TEST-0160-12.132010
+1C2-E-TEST-0160-12.132/002	arkham asylum
+1C2-E-TEST-0160-12.132/003	joker	DEP=1C2-E-TEST-0160-12.132009
+1C2-E-TEST-0160-12.132/004	rogues	DEP=1C2-E-TEST-0160-12.132003
+1C2-E-TEST-0160-12.132/005	show	DEP=1C2-E-TEST-0160-12.132009
+1C2-E-TEST-0160-12.132/006	joker	DEP=1C2-E-TEST-0160-12.132012
+1C2-E-TEST-0160-12.132/007	later	DEP=1C2-E-TEST-0160-12.132010
+1C2-E-TEST-0160-12.132/008	finds	DEP=1C2-E-TEST-0160-12.132010
+1C2-E-TEST-0160-12.132/009	running
+1C2-E-TEST-0160-12.132/010	locks
+1C2-E-TEST-0160-12.132/011	asylum
+1C2-E-TEST-0160-12.132/012	stop	DEP=1C2-E-TEST-0160-12.132011
+1C2-E-TEST-0160-12.155	The first part usually involved a villain committing a crime with Batman and Robin attempting to stop the criminal, only to be caught and put in a death trap.
+1C2-E-TEST-0160-12.155/001	part	DEP=1C2-E-TEST-0160-12.155008
+1C2-E-TEST-0160-12.155/002	villain	DEP=1C2-E-TEST-0160-12.155008
+1C2-E-TEST-0160-12.155/003	crime	DEP=1C2-E-TEST-0160-12.155009
+1C2-E-TEST-0160-12.155/004	robin
+1C2-E-TEST-0160-12.155/005	criminal	DEP=1C2-E-TEST-0160-12.155011
+1C2-E-TEST-0160-12.155/006	death trap
+1C2-E-TEST-0160-12.155/007	usually	DEP=1C2-E-TEST-0160-12.155008
+1C2-E-TEST-0160-12.155/008	involved
+1C2-E-TEST-0160-12.155/009	committing	DEP=1C2-E-TEST-0160-12.155002
+1C2-E-TEST-0160-12.155/010	attempting	DEP=1C2-E-TEST-0160-12.155002
+1C2-E-TEST-0160-12.155/011	stop	DEP=1C2-E-TEST-0160-12.155010
+1C2-E-TEST-0160-12.155/012	caught	DEP=1C2-E-TEST-0160-12.155011
+1C2-E-TEST-0160-12.155/013	put	DEP=1C2-E-TEST-0160-12.155012
+1C2-E-TEST-0160-12.175	Soon after Batman the Animated Series ended, Batman appeared (once again) in a guest spot for Superman: The Animated Series before starring in his own show titled The New Batman Adventures.
+1C2-E-TEST-0160-12.175/001	animated series	DEP=1C2-E-TEST-0160-12.175008
+1C2-E-TEST-0160-12.175/002	guest spot
+1C2-E-TEST-0160-12.175/003	superman
+1C2-E-TEST-0160-12.175/004	animated series	DEP=1C2-E-TEST-0160-12.175009
+1C2-E-TEST-0160-12.175/005	show
+1C2-E-TEST-0160-12.175/006	new adventures	DEP=1C2-E-TEST-0160-12.175011
+1C2-E-TEST-0160-12.175/007	soon	DEP=1C2-E-TEST-0160-12.175008
+1C2-E-TEST-0160-12.175/008	ended	DEP=1C2-E-TEST-0160-12.175009
+1C2-E-TEST-0160-12.175/009	appeared
+1C2-E-TEST-0160-12.175/010	starring
+1C2-E-TEST-0160-12.175/011	titled	DEP=1C2-E-TEST-0160-12.175005
+1C2-E-TEST-0160-12.235	The story follows the Jason Todd Robin's death, and years later a new foe who uses the Joker's old alias wreaks havoc among Gotham City's organized crime, Batman finds him disturbingly familiar.
+1C2-E-TEST-0160-12.235/001	story	DEP=1C2-E-TEST-0160-12.235008
+1C2-E-TEST-0160-12.235/002	jason todd robin	DEP=1C2-E-TEST-0160-12.235009
+1C2-E-TEST-0160-12.235/003	years	DEP=1C2-E-TEST-0160-12.235010
+1C2-E-TEST-0160-12.235/004	new foe	DEP=1C2-E-TEST-0160-12.235014
+1C2-E-TEST-0160-12.235/005	joker	DEP=1C2-E-TEST-0160-12.235013
+1C2-E-TEST-0160-12.235/006	havoc	DEP=1C2-E-TEST-0160-12.235014
+1C2-E-TEST-0160-12.235/007	gotham city	DEP=1C2-E-TEST-0160-12.235016
+1C2-E-TEST-0160-12.235/008	follows	DEP=1C2-E-TEST-0160-12.235017
+1C2-E-TEST-0160-12.235/009	death	DEP=1C2-E-TEST-0160-12.235008
+1C2-E-TEST-0160-12.235/010	later	DEP=1C2-E-TEST-0160-12.235004
+1C2-E-TEST-0160-12.235/011	uses	DEP=1C2-E-TEST-0160-12.235004
+1C2-E-TEST-0160-12.235/012	old	DEP=1C2-E-TEST-0160-12.235013
+1C2-E-TEST-0160-12.235/013	alias	DEP=1C2-E-TEST-0160-12.235011
+1C2-E-TEST-0160-12.235/014	wreaks	DEP=1C2-E-TEST-0160-12.235008
+1C2-E-TEST-0160-12.235/015	organized	DEP=1C2-E-TEST-0160-12.235016
+1C2-E-TEST-0160-12.235/016	crime
+1C2-E-TEST-0160-12.235/017	finds
+1C2-E-TEST-0160-12.235/018	disturbingly	DEP=1C2-E-TEST-0160-12.235019
+1C2-E-TEST-0160-12.235/019	familiar	DEP=1C2-E-TEST-0160-12.235017
+1C2-E-TEST-0160-12.68	On this earth, Batman retired as a police commissioner and married Selina Kyle (Catwoman).
+1C2-E-TEST-0160-12.68/001	earth
+1C2-E-TEST-0160-12.68/002	police commissioner
+1C2-E-TEST-0160-12.68/003	married selina kyle	DEP=1C2-E-TEST-0160-12.68002
+1C2-E-TEST-0160-12.68/004	catwoman	DEP=1C2-E-TEST-0160-12.68003
+1C2-E-TEST-0160-12.68/005	retired
+1C2-E-TEST-0160-12.88	However, crime crept it's way into Gotham once again and Bruce had to don his Batman persona once again.
+1C2-E-TEST-0160-12.88/001	crime	DEP=1C2-E-TEST-0160-12.88006
+1C2-E-TEST-0160-12.88/002	way	DEP=1C2-E-TEST-0160-12.88006
+1C2-E-TEST-0160-12.88/003	gotham
+1C2-E-TEST-0160-12.88/004	bruce
+1C2-E-TEST-0160-12.88/005	persona	DEP=1C2-E-TEST-0160-12.88008
+1C2-E-TEST-0160-12.88/006	crept
+1C2-E-TEST-0160-12.88/007	's	DEP=1C2-E-TEST-0160-12.88002
+1C2-E-TEST-0160-12.88/008	don
+1C2-E-TEST-0160-135.11	The Joker sure does have plenty of goons at his disposal, but he'll need a few more after Batman's done with them.
+1C2-E-TEST-0160-135.11/001	joker
+1C2-E-TEST-0160-135.11/002	goons
+1C2-E-TEST-0160-135.11/003	disposal
+1C2-E-TEST-0160-135.11/004	sure
+1C2-E-TEST-0160-135.11/005	done
+1C2-E-TEST-0160-135.31	Under the watchful eye of Batman, the Joker is taken to Arkham Asylum, but he seems a little too happy to be there.
+1C2-E-TEST-0160-135.31/001	watchful eye
+1C2-E-TEST-0160-135.31/002	joker	DEP=1C2-E-TEST-0160-135.31004
+1C2-E-TEST-0160-135.31/003	arkham asylum
+1C2-E-TEST-0160-135.31/004	taken
+1C2-E-TEST-0160-135.31/005	happy	DEP=1C2-E-TEST-0160-135.31004
+1C2-E-TEST-0160-16.509	[From DC Comics: Bruce Wayne is Batman no more, and only one man can take up the mantle of the Bat - Dick Grayson, Batman's first partner.
+1C2-E-TEST-0160-16.509/001	dc
+1C2-E-TEST-0160-16.509/002	comics
+1C2-E-TEST-0160-16.509/003	bruce wayne	DEP=1C2-E-TEST-0160-16.509002
+1C2-E-TEST-0160-16.509/004	man	DEP=1C2-E-TEST-0160-16.509008
+1C2-E-TEST-0160-16.509/005	mantle	DEP=1C2-E-TEST-0160-16.509008
+1C2-E-TEST-0160-16.509/006	bat
+1C2-E-TEST-0160-16.509/007	dick grayson	DEP=1C2-E-TEST-0160-16.509005
+1C2-E-TEST-0160-16.509/008	take
+1C2-E-TEST-0160-16.509/009	partner	DEP=1C2-E-TEST-0160-16.509007
+1C2-E-TEST-0160-16.525	[From DC Comics: An unexpected natural disaster strikes Gotham City and it's up to Batman and his allies to save the day - but can even the Dark Knight fight the forces of nature herself unleashed?
+1C2-E-TEST-0160-16.525/001	dc comics
+1C2-E-TEST-0160-16.525/002	unexpected natural disaster strikes	DEP=1C2-E-TEST-0160-16.525001
+1C2-E-TEST-0160-16.525/003	gotham city	DEP=1C2-E-TEST-0160-16.525008
+1C2-E-TEST-0160-16.525/004	allies
+1C2-E-TEST-0160-16.525/005	dark knight	DEP=1C2-E-TEST-0160-16.525009
+1C2-E-TEST-0160-16.525/006	forces	DEP=1C2-E-TEST-0160-16.525009
+1C2-E-TEST-0160-16.525/007	nature
+1C2-E-TEST-0160-16.525/008	's
+1C2-E-TEST-0160-16.525/009	fight
+1C2-E-TEST-0160-16.525/010	unleashed	DEP=1C2-E-TEST-0160-16.525006
+1C2-E-TEST-0160-16.533	But as Batman begins to realize that he is fighting a fight he can't win, he collapses into a state of despair from which he may never recover.]
+1C2-E-TEST-0160-16.533/001	fight	DEP=1C2-E-TEST-0160-16.533006
+1C2-E-TEST-0160-16.533/002	state
+1C2-E-TEST-0160-16.533/003	despair
+1C2-E-TEST-0160-16.533/004	begins	DEP=1C2-E-TEST-0160-16.533009
+1C2-E-TEST-0160-16.533/005	realize	DEP=1C2-E-TEST-0160-16.533004
+1C2-E-TEST-0160-16.533/006	fighting	DEP=1C2-E-TEST-0160-16.533005
+1C2-E-TEST-0160-16.533/007	n't	DEP=1C2-E-TEST-0160-16.533008
+1C2-E-TEST-0160-16.533/008	win	DEP=1C2-E-TEST-0160-16.533001
+1C2-E-TEST-0160-16.533/009	collapses
+1C2-E-TEST-0160-16.533/010	recover	DEP=1C2-E-TEST-0160-16.533002
+1C2-E-TEST-0160-16.543	While working against this "hostile takeover" as Bruce Wayne, Batman learns that his greatest foe, the Joker, has returned.
+1C2-E-TEST-0160-16.543/001	hostile takeover
+1C2-E-TEST-0160-16.543/002	bruce wayne
+1C2-E-TEST-0160-16.543/003	greatest foe	DEP=1C2-E-TEST-0160-16.543007
+1C2-E-TEST-0160-16.543/004	joker	DEP=1C2-E-TEST-0160-16.543003
+1C2-E-TEST-0160-16.543/005	working	DEP=1C2-E-TEST-0160-16.543006
+1C2-E-TEST-0160-16.543/006	learns
+1C2-E-TEST-0160-16.543/007	returned	DEP=1C2-E-TEST-0160-16.543006
+1C2-E-TEST-0160-16.79	Batman Chronicles 2 (Detective Comics 39-45, Batman 2-3, New York World's Fair Comics 2; w Bill Finger; a Bob Kane, Jerry Robinson).
+1C2-E-TEST-0160-16.79/001	chronicles
+1C2-E-TEST-0160-16.79/002	2	DEP=1C2-E-TEST-0160-16.79001
+1C2-E-TEST-0160-16.79/003	detective comics	DEP=1C2-E-TEST-0160-16.79002
+1C2-E-TEST-0160-16.79/004	39-45	DEP=1C2-E-TEST-0160-16.79003
+1C2-E-TEST-0160-16.79/005	2-3
+1C2-E-TEST-0160-16.79/006	new york world	DEP=1C2-E-TEST-0160-16.79004
+1C2-E-TEST-0160-16.79/007	fair comics	DEP=1C2-E-TEST-0160-16.79006
+1C2-E-TEST-0160-16.79/008	2	DEP=1C2-E-TEST-0160-16.79007
+1C2-E-TEST-0160-16.79/009	w	DEP=1C2-E-TEST-0160-16.79007
+1C2-E-TEST-0160-16.79/010	bill finger	DEP=1C2-E-TEST-0160-16.79009
+1C2-E-TEST-0160-16.79/011	bob kane	DEP=1C2-E-TEST-0160-16.79007
+1C2-E-TEST-0160-16.79/012	jerry robinson	DEP=1C2-E-TEST-0160-16.79011
+1C2-E-TEST-0160-17.27	His other most prominent relationship was with Talia , daughter of Ra's al Ghul .
+1C2-E-TEST-0160-17.27/001	talia
+1C2-E-TEST-0160-17.27/002	daughter	DEP=1C2-E-TEST-0160-17.27001
+1C2-E-TEST-0160-17.27/003	ra	DEP=1C2-E-TEST-0160-17.27007
+1C2-E-TEST-0160-17.27/004	prominent	DEP=1C2-E-TEST-0160-17.27005
+1C2-E-TEST-0160-17.27/005	relationship
+1C2-E-TEST-0160-17.27/006	al	DEP=1C2-E-TEST-0160-17.27007
+1C2-E-TEST-0160-17.27/007	ghul
+1C2-E-TEST-0160-200.124	Batman: "No, not on your life, old man. The Penguin and I have a score to settle."
+1C2-E-TEST-0160-200.124/001	life
+1C2-E-TEST-0160-200.124/002	old man
+1C2-E-TEST-0160-200.124/003	penguin
+1C2-E-TEST-0160-200.124/004	score
+1C2-E-TEST-0160-200.124/005	settle	DEP=1C2-E-TEST-0160-200.124004
+1C2-E-TEST-0160-200.166	Batman: "That's life, Robin, full of ups and downs. It ill befits any of us to become to confident."
+1C2-E-TEST-0160-200.166/001	life
+1C2-E-TEST-0160-200.166/002	robin
+1C2-E-TEST-0160-200.166/003	ups
+1C2-E-TEST-0160-200.166/004	downs	DEP=1C2-E-TEST-0160-200.166003
+1C2-E-TEST-0160-200.166/005	's	DEP=1C2-E-TEST-0160-200.166001
+1C2-E-TEST-0160-200.166/006	full
+1C2-E-TEST-0160-200.166/007	ill	DEP=1C2-E-TEST-0160-200.166008
+1C2-E-TEST-0160-200.166/008	befits	DEP=1C2-E-TEST-0160-200.166003
+1C2-E-TEST-0160-200.166/009	confident
+1C2-E-TEST-0160-34.156	Batman: It won't be long until you are old enough to get a driver's license, Robin, and you'll be able to drive the Batmobile and other vehicles.
+1C2-E-TEST-0160-34.156/001	driver	DEP=1C2-E-TEST-0160-34.156008
+1C2-E-TEST-0160-34.156/002	robin	DEP=1C2-E-TEST-0160-34.156008
+1C2-E-TEST-0160-34.156/003	batmobile	DEP=1C2-E-TEST-0160-34.156010
+1C2-E-TEST-0160-34.156/004	vehicles	DEP=1C2-E-TEST-0160-34.156003
+1C2-E-TEST-0160-34.156/005	n't
+1C2-E-TEST-0160-34.156/006	long
+1C2-E-TEST-0160-34.156/007	old
+1C2-E-TEST-0160-34.156/008	license
+1C2-E-TEST-0160-34.156/009	able
+1C2-E-TEST-0160-34.156/010	drive	DEP=1C2-E-TEST-0160-34.156009
+1C2-E-TEST-0160-34.383	Alfred: I regret to say, sir, Batman and Robin are not at present available.
+1C2-E-TEST-0160-34.383/001	alfred
+1C2-E-TEST-0160-34.383/002	sir	DEP=1C2-E-TEST-0160-34.383004
+1C2-E-TEST-0160-34.383/003	robin
+1C2-E-TEST-0160-34.383/004	say
+1C2-E-TEST-0160-34.383/005	present
+1C2-E-TEST-0160-34.383/006	available	DEP=1C2-E-TEST-0160-34.383001
+1C2-E-TEST-0160-34.837	Joker: Not exactly Batman, it's my deadly joker buzzer, one by one your five senses will leave you.
+1C2-E-TEST-0160-34.837/001	joker
+1C2-E-TEST-0160-34.837/002	exactly
+1C2-E-TEST-0160-34.837/003	deadly joker buzzer	DEP=1C2-E-TEST-0160-34.837001
+1C2-E-TEST-0160-34.837/004	five senses	DEP=1C2-E-TEST-0160-34.837006
+1C2-E-TEST-0160-34.837/005	's	DEP=1C2-E-TEST-0160-34.837003
+1C2-E-TEST-0160-34.837/006	leave	DEP=1C2-E-TEST-0160-34.837003
+1C2-E-TEST-0160-34.966	Batman: Robin, the Constitution provides that a man is innocent until proven guilty.
+1C2-E-TEST-0160-34.966/001	robin	DEP=1C2-E-TEST-0160-34.966005
+1C2-E-TEST-0160-34.966/002	constitution	DEP=1C2-E-TEST-0160-34.966005
+1C2-E-TEST-0160-34.966/003	man	DEP=1C2-E-TEST-0160-34.966006
+1C2-E-TEST-0160-34.966/004	proven guilty
+1C2-E-TEST-0160-34.966/005	provides
+1C2-E-TEST-0160-34.966/006	innocent	DEP=1C2-E-TEST-0160-34.966005
+1C2-E-TEST-0160-35.177	At Ace Chemicals, Batman and Robin find that The Joker had already been there and stolen chemicals.
+1C2-E-TEST-0160-35.177/001	ace chemicals
+1C2-E-TEST-0160-35.177/002	robin
+1C2-E-TEST-0160-35.177/003	joker
+1C2-E-TEST-0160-35.177/004	stolen chemicals
+1C2-E-TEST-0160-35.211	The robot chases Batman and Robin through Gotham City, but they drive in such a way that the Kryptonite it leaves looks similar to Joker's face.
+1C2-E-TEST-0160-35.211/001	robot	DEP=1C2-E-TEST-0160-35.211007
+1C2-E-TEST-0160-35.211/002	robin
+1C2-E-TEST-0160-35.211/003	gotham city
+1C2-E-TEST-0160-35.211/004	way
+1C2-E-TEST-0160-35.211/005	kryptonite	DEP=1C2-E-TEST-0160-35.211009
+1C2-E-TEST-0160-35.211/006	joker	DEP=1C2-E-TEST-0160-35.211011
+1C2-E-TEST-0160-35.211/007	chases
+1C2-E-TEST-0160-35.211/008	leaves	DEP=1C2-E-TEST-0160-35.211005
+1C2-E-TEST-0160-35.211/009	looks
+1C2-E-TEST-0160-35.211/010	similar	DEP=1C2-E-TEST-0160-35.211009
+1C2-E-TEST-0160-35.211/011	face
+1C2-E-TEST-0160-35.217	Superman is too weak to continue, but Batman, Robin, Wonder Woman, Green Lantern, Cyborg, and The Flash finish it off.
+1C2-E-TEST-0160-35.217/001	superman	DEP=1C2-E-TEST-0160-35.217007
+1C2-E-TEST-0160-35.217/002	robin
+1C2-E-TEST-0160-35.217/003	wonder woman
+1C2-E-TEST-0160-35.217/004	green lantern
+1C2-E-TEST-0160-35.217/005	cyborg
+1C2-E-TEST-0160-35.217/006	flash finish
+1C2-E-TEST-0160-35.217/007	weak
+1C2-E-TEST-0160-35.217/008	continue	DEP=1C2-E-TEST-0160-35.217007
+1C2-E-TEST-0160-35.53	Batman's love interests include Talia Al Ghul (the daughter of Ra's Al Ghul and the mother of Batman's son, Damian Wayne ), Selina Kyle (Catwoman), and Zatanna.
+1C2-E-TEST-0160-35.53/001	talia al ghul
+1C2-E-TEST-0160-35.53/002	daughter	DEP=1C2-E-TEST-0160-35.53001
+1C2-E-TEST-0160-35.53/003	ra	DEP=1C2-E-TEST-0160-35.53012
+1C2-E-TEST-0160-35.53/004	mother	DEP=1C2-E-TEST-0160-35.53002
+1C2-E-TEST-0160-35.53/005	damian wayne	DEP=1C2-E-TEST-0160-35.53013
+1C2-E-TEST-0160-35.53/006	selina kyle	DEP=1C2-E-TEST-0160-35.53001
+1C2-E-TEST-0160-35.53/007	catwoman	DEP=1C2-E-TEST-0160-35.53006
+1C2-E-TEST-0160-35.53/008	zatanna	DEP=1C2-E-TEST-0160-35.53001
+1C2-E-TEST-0160-35.53/009	love	DEP=1C2-E-TEST-0160-35.53010
+1C2-E-TEST-0160-35.53/010	interests
+1C2-E-TEST-0160-35.53/011	al	DEP=1C2-E-TEST-0160-35.53012
+1C2-E-TEST-0160-35.53/012	ghul
+1C2-E-TEST-0160-35.53/013	son
+1C2-E-TEST-0160-39.14	Through out the years, a majority of Batman's marquee story lines have happened within the pages of this book including, but not limited to the death of the second Robin, Jason Todd , and Bane breaking Batman's back, leading to Jean-Paul Valley to assume the role of Batman for a period of time in the 90s.
+1C2-E-TEST-0160-39.14/001	years
+1C2-E-TEST-0160-39.14/002	majority	DEP=1C2-E-TEST-0160-39.14017
+1C2-E-TEST-0160-39.14/003	pages
+1C2-E-TEST-0160-39.14/004	book
+1C2-E-TEST-0160-39.14/005	death	DEP=1C2-E-TEST-0160-39.14019
+1C2-E-TEST-0160-39.14/006	second robin
+1C2-E-TEST-0160-39.14/007	jason todd	DEP=1C2-E-TEST-0160-39.14006
+1C2-E-TEST-0160-39.14/008	bane	DEP=1C2-E-TEST-0160-39.14006
+1C2-E-TEST-0160-39.14/009	jean-paul valley
+1C2-E-TEST-0160-39.14/010	role	DEP=1C2-E-TEST-0160-39.14022
+1C2-E-TEST-0160-39.14/011	period
+1C2-E-TEST-0160-39.14/012	time
+1C2-E-TEST-0160-39.14/013	90s
+1C2-E-TEST-0160-39.14/014	marquee	DEP=1C2-E-TEST-0160-39.14016
+1C2-E-TEST-0160-39.14/015	story	DEP=1C2-E-TEST-0160-39.14016
+1C2-E-TEST-0160-39.14/016	lines
+1C2-E-TEST-0160-39.14/017	happened
+1C2-E-TEST-0160-39.14/018	limited	DEP=1C2-E-TEST-0160-39.14017
+1C2-E-TEST-0160-39.14/019	breaking
+1C2-E-TEST-0160-39.14/020	back	DEP=1C2-E-TEST-0160-39.14018
+1C2-E-TEST-0160-39.14/021	leading	DEP=1C2-E-TEST-0160-39.14018
+1C2-E-TEST-0160-39.14/022	assume	DEP=1C2-E-TEST-0160-39.14021
+1C2-E-TEST-0160-39.17	After Bruce's "death," and the Battle for the Cowl , Dick Grayson , the first Robin, took up the mantle of Batman, continuing to protect Gotham exactly as his mentor had.
+1C2-E-TEST-0160-39.17/001	bruce	DEP=1C2-E-TEST-0160-39.17009
+1C2-E-TEST-0160-39.17/002	battle	DEP=1C2-E-TEST-0160-39.17009
+1C2-E-TEST-0160-39.17/003	cowl
+1C2-E-TEST-0160-39.17/004	dick grayson	DEP=1C2-E-TEST-0160-39.17010
+1C2-E-TEST-0160-39.17/005	robin	DEP=1C2-E-TEST-0160-39.17004
+1C2-E-TEST-0160-39.17/006	mantle	DEP=1C2-E-TEST-0160-39.17010
+1C2-E-TEST-0160-39.17/007	gotham	DEP=1C2-E-TEST-0160-39.17012
+1C2-E-TEST-0160-39.17/008	mentor
+1C2-E-TEST-0160-39.17/009	death
+1C2-E-TEST-0160-39.17/010	took
+1C2-E-TEST-0160-39.17/011	continuing	DEP=1C2-E-TEST-0160-39.17006
+1C2-E-TEST-0160-39.17/012	protect	DEP=1C2-E-TEST-0160-39.17011
+1C2-E-TEST-0160-39.17/013	exactly	DEP=1C2-E-TEST-0160-39.17012
+1C2-E-TEST-0160-39.32	The Batman Chronicles Volume 2 (Batman #2-3, Detective Comics #39-45, New York World's Fair Comic #2)
+1C2-E-TEST-0160-39.32/001	chronicles volume
+1C2-E-TEST-0160-39.32/002	2	DEP=1C2-E-TEST-0160-39.32001
+1C2-E-TEST-0160-39.32/003	2-3
+1C2-E-TEST-0160-39.32/004	detective comics
+1C2-E-TEST-0160-39.32/005	39-45	DEP=1C2-E-TEST-0160-39.32004
+1C2-E-TEST-0160-39.32/006	new york world	DEP=1C2-E-TEST-0160-39.32009
+1C2-E-TEST-0160-39.32/007	2	DEP=1C2-E-TEST-0160-39.32009
+1C2-E-TEST-0160-39.32/008	fair	DEP=1C2-E-TEST-0160-39.32009
+1C2-E-TEST-0160-39.32/009	comic
+1C2-E-TEST-0160-39.8	Every movie and comic reads "Batman created by Bob Kane" when it should read "Batman created by Bob Kane and Bill Finger".
+1C2-E-TEST-0160-39.8/001	movie	DEP=1C2-E-TEST-0160-39.8006
+1C2-E-TEST-0160-39.8/002	comic	DEP=1C2-E-TEST-0160-39.8001
+1C2-E-TEST-0160-39.8/003	bob kane
+1C2-E-TEST-0160-39.8/004	bob kane
+1C2-E-TEST-0160-39.8/005	bill finger	DEP=1C2-E-TEST-0160-39.8004
+1C2-E-TEST-0160-39.8/006	reads
+1C2-E-TEST-0160-39.8/007	created	DEP=1C2-E-TEST-0160-39.8006
+1C2-E-TEST-0160-39.8/008	read	DEP=1C2-E-TEST-0160-39.8003
+1C2-E-TEST-0160-39.8/009	created
+1C2-E-TEST-0160-58.48	ÃÂÃÂ  The pairing of Batman and Robin was occasionally helped by a growing circle of other heroes that Batman tolerated/recognized such as Batgirl (Barbara Gordon, daughter of Commissioner Gordon) and the Outsiders , a superhero team that Batman was instrumental in creating.
+1C2-E-TEST-0160-58.48/001	ã â	DEP=1C2-E-TEST-0160-58.48013
+1C2-E-TEST-0160-58.48/002	pairing	DEP=1C2-E-TEST-0160-58.48001
+1C2-E-TEST-0160-58.48/003	robin
+1C2-E-TEST-0160-58.48/004	growing circle
+1C2-E-TEST-0160-58.48/005	heroes
+1C2-E-TEST-0160-58.48/006	batgirl
+1C2-E-TEST-0160-58.48/007	barbara gordon	DEP=1C2-E-TEST-0160-58.48006
+1C2-E-TEST-0160-58.48/008	daughter	DEP=1C2-E-TEST-0160-58.48006
+1C2-E-TEST-0160-58.48/009	commissioner gordon
+1C2-E-TEST-0160-58.48/010	outsiders	DEP=1C2-E-TEST-0160-58.48006
+1C2-E-TEST-0160-58.48/011	superhero team	DEP=1C2-E-TEST-0160-58.48010
+1C2-E-TEST-0160-58.48/012	occasionally	DEP=1C2-E-TEST-0160-58.48013
+1C2-E-TEST-0160-58.48/013	helped
+1C2-E-TEST-0160-58.48/014	tolerated\/recognized	DEP=1C2-E-TEST-0160-58.48004
+1C2-E-TEST-0160-58.48/015	instrumental	DEP=1C2-E-TEST-0160-58.48006
+1C2-E-TEST-0160-58.48/016	creating
+1C2-E-TEST-0160-9.19	After his defeat, Bruce Wayne enlists the aid of Dr. Shondra Kinsolving to rehabilitate him and asks Jean-Paul Valley (Azrael) to take up the mantle of Batman so that Gotham has a protector.
+1C2-E-TEST-0160-9.19/001	defeat
+1C2-E-TEST-0160-9.19/002	bruce wayne	DEP=1C2-E-TEST-0160-9.19010
+1C2-E-TEST-0160-9.19/003	aid	DEP=1C2-E-TEST-0160-9.19010
+1C2-E-TEST-0160-9.19/004	dr. shondra kinsolving
+1C2-E-TEST-0160-9.19/005	jean-paul valley	DEP=1C2-E-TEST-0160-9.19012
+1C2-E-TEST-0160-9.19/006	azrael	DEP=1C2-E-TEST-0160-9.19005
+1C2-E-TEST-0160-9.19/007	mantle	DEP=1C2-E-TEST-0160-9.19013
+1C2-E-TEST-0160-9.19/008	gotham
+1C2-E-TEST-0160-9.19/009	protector
+1C2-E-TEST-0160-9.19/010	enlists
+1C2-E-TEST-0160-9.19/011	rehabilitate	DEP=1C2-E-TEST-0160-9.19010
+1C2-E-TEST-0160-9.19/012	asks	DEP=1C2-E-TEST-0160-9.19010
+1C2-E-TEST-0160-9.19/013	take	DEP=1C2-E-TEST-0160-9.19012
+1C2-E-TEST-0160-9.20	Tim Drake argues with Bruce to allow Dick Grayson (the former Robin) to become Batman, as he is more experienced and mentally competent.
+1C2-E-TEST-0160-9.20/001	tim drake	DEP=1C2-E-TEST-0160-9.20005
+1C2-E-TEST-0160-9.20/002	bruce
+1C2-E-TEST-0160-9.20/003	dick grayson	DEP=1C2-E-TEST-0160-9.20006
+1C2-E-TEST-0160-9.20/004	former robin	DEP=1C2-E-TEST-0160-9.20003
+1C2-E-TEST-0160-9.20/005	argues
+1C2-E-TEST-0160-9.20/006	allow	DEP=1C2-E-TEST-0160-9.20005
+1C2-E-TEST-0160-9.20/007	experienced	DEP=1C2-E-TEST-0160-9.20005
+1C2-E-TEST-0160-9.20/008	mentally	DEP=1C2-E-TEST-0160-9.20009
+1C2-E-TEST-0160-9.20/009	competent	DEP=1C2-E-TEST-0160-9.20007
+1C2-E-TEST-0160-9.33	Jean-Paul Valley as he becomes increasingly violent and mentally unbalanced as he replaces Bruce Wayne as Batman in Gotham.
+1C2-E-TEST-0160-9.33/001	jean-paul valley	DEP=1C2-E-TEST-0160-9.33005
+1C2-E-TEST-0160-9.33/002	bruce wayne	DEP=1C2-E-TEST-0160-9.33008
+1C2-E-TEST-0160-9.33/003	gotham
+1C2-E-TEST-0160-9.33/004	increasingly	DEP=1C2-E-TEST-0160-9.33005
+1C2-E-TEST-0160-9.33/005	violent
+1C2-E-TEST-0160-9.33/006	mentally	DEP=1C2-E-TEST-0160-9.33007
+1C2-E-TEST-0160-9.33/007	unbalanced	DEP=1C2-E-TEST-0160-9.33005
+1C2-E-TEST-0160-9.33/008	replaces	DEP=1C2-E-TEST-0160-9.33005
+1C2-E-TEST-0160-9.53	He does not return to Gotham until a while later, when Dick Grayson persuades him to do so in later issues.
+1C2-E-TEST-0160-9.53/001	gotham
+1C2-E-TEST-0160-9.53/002	dick grayson	DEP=1C2-E-TEST-0160-9.53006
+1C2-E-TEST-0160-9.53/003	later issues
+1C2-E-TEST-0160-9.53/004	return
+1C2-E-TEST-0160-9.53/005	later
+1C2-E-TEST-0160-9.53/006	persuades	DEP=1C2-E-TEST-0160-9.53004
+1C2-E-TEST-0160-95.116	As Batman continues to wail on the Joker, former police commissioner James Gordon shows up behind him.
+1C2-E-TEST-0160-95.116/001	joker
+1C2-E-TEST-0160-95.116/002	former police commissioner james gordon	DEP=1C2-E-TEST-0160-95.116005
+1C2-E-TEST-0160-95.116/003	continues	DEP=1C2-E-TEST-0160-95.116005
+1C2-E-TEST-0160-95.116/004	wail	DEP=1C2-E-TEST-0160-95.116003
+1C2-E-TEST-0160-95.116/005	shows
+1C2-E-TEST-0160-95.136	Later, Batman meets Catwoman at the Gotham City Zoo.
+1C2-E-TEST-0160-95.136/001	catwoman	DEP=1C2-E-TEST-0160-95.136004
+1C2-E-TEST-0160-95.136/002	gotham city zoo
+1C2-E-TEST-0160-95.136/003	later	DEP=1C2-E-TEST-0160-95.136004
+1C2-E-TEST-0160-95.136/004	meets
+1C2-E-TEST-0160-95.152	At that moment, Batman returns to find Catwoman and Lady Shiva lying on the floor unconscious.
+1C2-E-TEST-0160-95.152/001	moment
+1C2-E-TEST-0160-95.152/002	catwoman lady	DEP=1C2-E-TEST-0160-95.152006
+1C2-E-TEST-0160-95.152/003	floor
+1C2-E-TEST-0160-95.152/004	returns
+1C2-E-TEST-0160-95.152/005	find	DEP=1C2-E-TEST-0160-95.152004
+1C2-E-TEST-0160-95.152/006	shiva	DEP=1C2-E-TEST-0160-95.152005
+1C2-E-TEST-0160-95.152/007	lying	DEP=1C2-E-TEST-0160-95.152006
+1C2-E-TEST-0160-95.152/008	unconscious	DEP=1C2-E-TEST-0160-95.152003
+1C2-E-TEST-0160-95.184	Batman drives out to the Gotham City Bridge where he secretly meets with Harold.
+1C2-E-TEST-0160-95.184/001	gotham city bridge
+1C2-E-TEST-0160-95.184/002	harold
+1C2-E-TEST-0160-95.184/003	drives
+1C2-E-TEST-0160-95.184/004	secretly	DEP=1C2-E-TEST-0160-95.184005
+1C2-E-TEST-0160-95.184/005	meets	DEP=1C2-E-TEST-0160-95.184003
+1C2-E-TEST-0160-95.203	Who told Hush that Batman was secretly Bruce Wayne?
+1C2-E-TEST-0160-95.203/001	hush	DEP=1C2-E-TEST-0160-95.203003
+1C2-E-TEST-0160-95.203/002	bruce wayne	DEP=1C2-E-TEST-0160-95.203003
+1C2-E-TEST-0160-95.203/003	told
+1C2-E-TEST-0160-95.203/004	secretly	DEP=1C2-E-TEST-0160-95.203002
+1C2-E-TEST-0160-95.90	Superman, Batman and Catwoman go to Poison Ivy's penthouse to confront her.
+1C2-E-TEST-0160-95.90/001	superman catwoman
+1C2-E-TEST-0160-95.90/002	poison
+1C2-E-TEST-0160-95.90/003	ivy	DEP=1C2-E-TEST-0160-95.90004
+1C2-E-TEST-0160-95.90/004	penthouse
+1C2-E-TEST-0160-95.90/005	confront	DEP=1C2-E-TEST-0160-95.90004
+1C2-E-TEST-0160-95.93	Bruce Wayne goes to the Gotham City Opera House along with Tommy Elliot, Selina Kyle and Leslie Thompkins.
+1C2-E-TEST-0160-95.93/001	bruce wayne	DEP=1C2-E-TEST-0160-95.93006
+1C2-E-TEST-0160-95.93/002	gotham city opera house
+1C2-E-TEST-0160-95.93/003	tommy elliot
+1C2-E-TEST-0160-95.93/004	selina kyle	DEP=1C2-E-TEST-0160-95.93003
+1C2-E-TEST-0160-95.93/005	leslie thompkins	DEP=1C2-E-TEST-0160-95.93003
+1C2-E-TEST-0160-95.93/006	goes

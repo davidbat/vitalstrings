@@ -1,0 +1,100 @@
+1C2-E-TEST-0115-21.12	The Perot Theatre is now a performing arts center hosting plays, musicals, & concerts.
+1C2-E-TEST-0115-21.12/001	perot theatre	DEP=1C2-E-TEST-0115-21.12002
+1C2-E-TEST-0115-21.12/002	performing arts center
+1C2-E-TEST-0115-21.12/003	plays	DEP=1C2-E-TEST-0115-21.12006
+1C2-E-TEST-0115-21.12/004	musicals	DEP=1C2-E-TEST-0115-21.12003
+1C2-E-TEST-0115-21.12/005	concerts	DEP=1C2-E-TEST-0115-21.12003
+1C2-E-TEST-0115-21.12/006	hosting	DEP=1C2-E-TEST-0115-21.12002
+1C2-E-TEST-0115-21.12/007	&	DEP=1C2-E-TEST-0115-21.12003
+1C2-E-TEST-0115-21.14	The Perot Theatre is owned by the City of Texarkana, Texas, & operated by the Texarkana Regional Arts and Humanities Council.
+1C2-E-TEST-0115-21.14/001	perot theatre	DEP=1C2-E-TEST-0115-21.14005
+1C2-E-TEST-0115-21.14/002	city
+1C2-E-TEST-0115-21.14/003	texas
+1C2-E-TEST-0115-21.14/004	regional arts humanities
+1C2-E-TEST-0115-21.14/005	owned
+1C2-E-TEST-0115-21.14/006	&	DEP=1C2-E-TEST-0115-21.14002
+1C2-E-TEST-0115-21.14/007	operated	DEP=1C2-E-TEST-0115-21.14008
+1C2-E-TEST-0115-21.14/008	council	DEP=1C2-E-TEST-0115-21.14002
+1C2-E-TEST-0115-21.3	The Texarkana Saenger theatre opened in 1924, the same year as the Saenger Theatre in Pine Bluff, Arkansas.
+1C2-E-TEST-0115-21.3/001	saenger theater	DEP=1C2-E-TEST-0115-21.3006
+1C2-E-TEST-0115-21.3/002	1924
+1C2-E-TEST-0115-21.3/003	saenger theatre
+1C2-E-TEST-0115-21.3/004	pine bluff
+1C2-E-TEST-0115-21.3/005	arkansas	DEP=1C2-E-TEST-0115-21.3004
+1C2-E-TEST-0115-21.3/006	opened
+1C2-E-TEST-0115-48.1	Saenger Theatre- Texarkana TX
+1C2-E-TEST-0115-48.1/001	saenger theatre
+1C2-E-TEST-0115-48.1/002	tx	DEP=1C2-E-TEST-0115-48.1001
+1C2-E-TEST-0115-48.3	The Texarkana Saenger theatre was constructed as the "sister theatre" to the Pine Bluff, Arkansas Saenger Theatre.
+1C2-E-TEST-0115-48.3/001	saenger theater	DEP=1C2-E-TEST-0115-48.3005
+1C2-E-TEST-0115-48.3/002	sister theater
+1C2-E-TEST-0115-48.3/003	pine bluff
+1C2-E-TEST-0115-48.3/004	arkansas saenger theatre	DEP=1C2-E-TEST-0115-48.3003
+1C2-E-TEST-0115-48.3/005	constructed
+1C2-E-TEST-0115-48.6	The Texarkana Saenger was renamed the Perot Theatre, and is now a performing arts center hosting plays, musicals, & concerts.
+1C2-E-TEST-0115-48.6/001	saenger	DEP=1C2-E-TEST-0115-48.6007
+1C2-E-TEST-0115-48.6/002	perot theatre	DEP=1C2-E-TEST-0115-48.6007
+1C2-E-TEST-0115-48.6/003	performing arts center	DEP=1C2-E-TEST-0115-48.6007
+1C2-E-TEST-0115-48.6/004	plays	DEP=1C2-E-TEST-0115-48.6008
+1C2-E-TEST-0115-48.6/005	musicals	DEP=1C2-E-TEST-0115-48.6004
+1C2-E-TEST-0115-48.6/006	concerts	DEP=1C2-E-TEST-0115-48.6004
+1C2-E-TEST-0115-48.6/007	renamed
+1C2-E-TEST-0115-48.6/008	hosting	DEP=1C2-E-TEST-0115-48.6003
+1C2-E-TEST-0115-48.6/009	&	DEP=1C2-E-TEST-0115-48.6004
+1C2-E-TEST-0115-48.7	The Perot Theatre is operated by the Texarkana Regional Arts and Humanities Council.
+1C2-E-TEST-0115-48.7/001	perot theatre	DEP=1C2-E-TEST-0115-48.7004
+1C2-E-TEST-0115-48.7/002	regional arts
+1C2-E-TEST-0115-48.7/003	humanities council	DEP=1C2-E-TEST-0115-48.7002
+1C2-E-TEST-0115-48.7/004	operated
+1C2-E-TEST-0115-6.5	The beautiful restored Perot Theatre, located in downtown Texarkana at 3rd and Main St, has been a landmark since 1924 when it opened as the Saenger Amusement Company's "Gateway to the West" theatre.
+1C2-E-TEST-0115-6.5/001	beautiful	DEP=1C2-E-TEST-0115-6.5006
+1C2-E-TEST-0115-6.5/002	perot theatre	DEP=1C2-E-TEST-0115-6.5010
+1C2-E-TEST-0115-6.5/003	downtown
+1C2-E-TEST-0115-6.5/004	3rd
+1C2-E-TEST-0115-6.5/005	main st	DEP=1C2-E-TEST-0115-6.5002
+1C2-E-TEST-0115-6.5/006	landmark
+1C2-E-TEST-0115-6.5/007	1924
+1C2-E-TEST-0115-6.5/008	saenger amusement company	DEP=1C2-E-TEST-0115-6.5013
+1C2-E-TEST-0115-6.5/009	west theater
+1C2-E-TEST-0115-6.5/010	restored	DEP=1C2-E-TEST-0115-6.5001
+1C2-E-TEST-0115-6.5/011	located
+1C2-E-TEST-0115-6.5/012	opened	DEP=1C2-E-TEST-0115-6.5006
+1C2-E-TEST-0115-6.5/013	gateway
+1C2-E-TEST-0115-6.8	In recognition of this contribution, the Texarkana, TX City Council renamed theÃÂÃÂ building - The Perot Theatre. ÃÂÃÂ The theatre annually hosts the Perot Theatre Series, as well as numerous rentals throughout the year.
+1C2-E-TEST-0115-6.8/001	recognition
+1C2-E-TEST-0115-6.8/002	contribution
+1C2-E-TEST-0115-6.8/003	tx city council	DEP=1C2-E-TEST-0115-6.8009
+1C2-E-TEST-0115-6.8/004	theã â building	DEP=1C2-E-TEST-0115-6.8009
+1C2-E-TEST-0115-6.8/005	perot theatre ã â	DEP=1C2-E-TEST-0115-6.8004
+1C2-E-TEST-0115-6.8/006	theater	DEP=1C2-E-TEST-0115-6.8011
+1C2-E-TEST-0115-6.8/007	perot theatre series	DEP=1C2-E-TEST-0115-6.8011
+1C2-E-TEST-0115-6.8/008	numerous rentals	DEP=1C2-E-TEST-0115-6.8007
+1C2-E-TEST-0115-6.8/009	renamed
+1C2-E-TEST-0115-6.8/010	annually	DEP=1C2-E-TEST-0115-6.8011
+1C2-E-TEST-0115-6.8/011	hosts	DEP=1C2-E-TEST-0115-6.8005
+1C2-E-TEST-0115-6.9	The Perot Theatre is owned by the City of Texarkana, TX and the Texarkana Regional Arts & Humanities Council is contracted to program and manage the theatre.
+1C2-E-TEST-0115-6.9/001	perot theatre	DEP=1C2-E-TEST-0115-6.9008
+1C2-E-TEST-0115-6.9/002	city
+1C2-E-TEST-0115-6.9/003	tx	DEP=1C2-E-TEST-0115-6.9010
+1C2-E-TEST-0115-6.9/004	regional arts	DEP=1C2-E-TEST-0115-6.9003
+1C2-E-TEST-0115-6.9/005	humanities council	DEP=1C2-E-TEST-0115-6.9004
+1C2-E-TEST-0115-6.9/006	program
+1C2-E-TEST-0115-6.9/007	theater	DEP=1C2-E-TEST-0115-6.9011
+1C2-E-TEST-0115-6.9/008	owned	DEP=1C2-E-TEST-0115-6.9010
+1C2-E-TEST-0115-6.9/009	&	DEP=1C2-E-TEST-0115-6.9004
+1C2-E-TEST-0115-6.9/010	contracted
+1C2-E-TEST-0115-6.9/011	manage	DEP=1C2-E-TEST-0115-6.9010
+1C2-E-TEST-0115-63.32	It is run by The Texarkana Regional Arts and Humanities Council (TRAHC), which also operates the nearby Texarkana Regional Arts Center which hosts national, regional and local gallery exhibits year-round.
+1C2-E-TEST-0115-63.32/001	regional arts
+1C2-E-TEST-0115-63.32/002	humanities council	DEP=1C2-E-TEST-0115-63.32001
+1C2-E-TEST-0115-63.32/003	trahc	DEP=1C2-E-TEST-0115-63.32001
+1C2-E-TEST-0115-63.32/004	nearby regional arts center	DEP=1C2-E-TEST-0115-63.32008
+1C2-E-TEST-0115-63.32/005	hosts	DEP=1C2-E-TEST-0115-63.32013
+1C2-E-TEST-0115-63.32/006	year-round	DEP=1C2-E-TEST-0115-63.32013
+1C2-E-TEST-0115-63.32/007	run
+1C2-E-TEST-0115-63.32/008	operates	DEP=1C2-E-TEST-0115-63.32001
+1C2-E-TEST-0115-63.32/009	national	DEP=1C2-E-TEST-0115-63.32012
+1C2-E-TEST-0115-63.32/010	regional	DEP=1C2-E-TEST-0115-63.32009
+1C2-E-TEST-0115-63.32/011	local	DEP=1C2-E-TEST-0115-63.32009
+1C2-E-TEST-0115-63.32/012	gallery	DEP=1C2-E-TEST-0115-63.32005
+1C2-E-TEST-0115-63.32/013	exhibits	DEP=1C2-E-TEST-0115-63.32004

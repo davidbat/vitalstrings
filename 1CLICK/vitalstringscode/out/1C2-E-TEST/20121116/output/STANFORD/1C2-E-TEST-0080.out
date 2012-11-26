@@ -1,0 +1,333 @@
+1C2-E-TEST-0080-123.37	Manchester City's Italy striker Mario Balotelli was stopped and fined by police for speeding through the streets of Milan on Thursday night.
+1C2-E-TEST-0080-123.37/001	manchester city
+1C2-E-TEST-0080-123.37/002	police
+1C2-E-TEST-0080-123.37/003	streets
+1C2-E-TEST-0080-123.37/004	milan
+1C2-E-TEST-0080-123.37/005	thursday
+1C2-E-TEST-0080-123.37/006	italy
+1C2-E-TEST-0080-123.37/007	striker
+1C2-E-TEST-0080-123.37/008	stopped
+1C2-E-TEST-0080-123.37/009	fined	DEP=1C2-E-TEST-0080-123.37008
+1C2-E-TEST-0080-123.37/010	speeding
+1C2-E-TEST-0080-123.37/011	night	DEP=1C2-E-TEST-0080-123.37010
+1C2-E-TEST-0080-123.38	Manchester City striker Mario Balotelli was at his generous best when he gave a ÃÂÃÂ£1000 to a tramp outside a casino after winning ÃÂÃÂ£25,000.
+1C2-E-TEST-0080-123.38/001	manchester city striker
+1C2-E-TEST-0080-123.38/002	generous
+1C2-E-TEST-0080-123.38/003	best
+1C2-E-TEST-0080-123.38/004	ã â	DEP=1C2-E-TEST-0080-123.38010
+1C2-E-TEST-0080-123.38/005	1000	DEP=1C2-E-TEST-0080-123.38010
+1C2-E-TEST-0080-123.38/006	tramp
+1C2-E-TEST-0080-123.38/007	casino
+1C2-E-TEST-0080-123.38/008	winning ã â
+1C2-E-TEST-0080-123.38/009	25,000	DEP=1C2-E-TEST-0080-123.38008
+1C2-E-TEST-0080-123.38/010	gave	DEP=1C2-E-TEST-0080-123.38003
+1C2-E-TEST-0080-123.40	Manchester City manager Roberto Mancini has warned his striker Mario Balotelli that he is in the last-chance saloon after another explosive bust-up at the club.
+1C2-E-TEST-0080-123.40/001	manchester city manager roberto mancini	DEP=1C2-E-TEST-0080-123.40006
+1C2-E-TEST-0080-123.40/002	striker
+1C2-E-TEST-0080-123.40/003	last-chance saloon
+1C2-E-TEST-0080-123.40/004	explosive bust-up
+1C2-E-TEST-0080-123.40/005	club
+1C2-E-TEST-0080-123.40/006	warned
+1C2-E-TEST-0080-123.42	Manchester City striker Mario Balotelli suffered an allergic reaction during the Europa League defeat by Dynamo Kiev.
+1C2-E-TEST-0080-123.42/001	manchester city striker
+1C2-E-TEST-0080-123.42/002	allergic reaction	DEP=1C2-E-TEST-0080-123.42005
+1C2-E-TEST-0080-123.42/003	europa league defeat
+1C2-E-TEST-0080-123.42/004	dynamo kiev
+1C2-E-TEST-0080-123.42/005	suffered
+1C2-E-TEST-0080-123.5	Media reports said Italy striker Mario Balotelli was the victim of racist chanting during the Group C match against Spain in Gdansk on Sunday.
+1C2-E-TEST-0080-123.5/001	media reports
+1C2-E-TEST-0080-123.5/002	italy striker
+1C2-E-TEST-0080-123.5/003	victim
+1C2-E-TEST-0080-123.5/004	racist
+1C2-E-TEST-0080-123.5/005	group c match
+1C2-E-TEST-0080-123.5/006	spain
+1C2-E-TEST-0080-123.5/007	gdansk
+1C2-E-TEST-0080-123.5/008	sunday
+1C2-E-TEST-0080-123.5/009	chanting	DEP=1C2-E-TEST-0080-123.5004
+1C2-E-TEST-0080-192.1	Manchester City star Mario Balotelli the man World Champions fear
+1C2-E-TEST-0080-192.1/001	manchester city star
+1C2-E-TEST-0080-192.1/002	man world
+1C2-E-TEST-0080-192.1/003	champions
+1C2-E-TEST-0080-192.4	Manchester City and Italy striker Mario Balotelli
+1C2-E-TEST-0080-192.4/001	manchester city
+1C2-E-TEST-0080-192.4/002	italy striker
+1C2-E-TEST-0080-6.4	Mario Balotelli started Manchester City's match against Spurs on the bench, so the first half was obviously terrible and scoreless.
+1C2-E-TEST-0080-6.4/001	manchester city	DEP=1C2-E-TEST-0080-6.4006
+1C2-E-TEST-0080-6.4/002	spurs
+1C2-E-TEST-0080-6.4/003	bench
+1C2-E-TEST-0080-6.4/004	half	DEP=1C2-E-TEST-0080-6.4008
+1C2-E-TEST-0080-6.4/005	started
+1C2-E-TEST-0080-6.4/006	match	DEP=1C2-E-TEST-0080-6.4005
+1C2-E-TEST-0080-6.4/007	obviously	DEP=1C2-E-TEST-0080-6.4008
+1C2-E-TEST-0080-6.4/008	terrible	DEP=1C2-E-TEST-0080-6.4005
+1C2-E-TEST-0080-6.4/009	scoreless	DEP=1C2-E-TEST-0080-6.4008
+1C2-E-TEST-0080-6.8	After taking a bit of time to let his mohawk settle into a rhythm, Balotelli -- Man City's lone substitute in the match -- revved the "Why Always Me?" machine by tripping over a downed Scott Parker and stepping on the Spurs midfielder's head as he fell over himself ( gif of it here ) in the 83rd minute.
+1C2-E-TEST-0080-6.8/001	bit	DEP=1C2-E-TEST-0080-6.8013
+1C2-E-TEST-0080-6.8/002	time
+1C2-E-TEST-0080-6.8/003	mohawk	DEP=1C2-E-TEST-0080-6.8014
+1C2-E-TEST-0080-6.8/004	rhythm
+1C2-E-TEST-0080-6.8/005	man city	DEP=1C2-E-TEST-0080-6.8016
+1C2-E-TEST-0080-6.8/006	match
+1C2-E-TEST-0080-6.8/007	machine	DEP=1C2-E-TEST-0080-6.8017
+1C2-E-TEST-0080-6.8/008	downed scott parker
+1C2-E-TEST-0080-6.8/009	spurs
+1C2-E-TEST-0080-6.8/010	midfielder	DEP=1C2-E-TEST-0080-6.8020
+1C2-E-TEST-0080-6.8/011	gif
+1C2-E-TEST-0080-6.8/012	83rd minute
+1C2-E-TEST-0080-6.8/013	taking
+1C2-E-TEST-0080-6.8/014	settle
+1C2-E-TEST-0080-6.8/015	lone	DEP=1C2-E-TEST-0080-6.8016
+1C2-E-TEST-0080-6.8/016	substitute
+1C2-E-TEST-0080-6.8/017	revved
+1C2-E-TEST-0080-6.8/018	tripping
+1C2-E-TEST-0080-6.8/019	stepping	DEP=1C2-E-TEST-0080-6.8018
+1C2-E-TEST-0080-6.8/020	head	DEP=1C2-E-TEST-0080-6.8018
+1C2-E-TEST-0080-6.8/021	fell	DEP=1C2-E-TEST-0080-6.8017
+1C2-E-TEST-0080-61.2	Michel Platini has warned Mario Balotelli that if he were to walk off the pitch for being racially abused ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ as he suggested he would last week ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ during a match at Euro 2012 then he would be booked.
+1C2-E-TEST-0080-61.2/001	michel platini	DEP=1C2-E-TEST-0080-61.2007
+1C2-E-TEST-0080-61.2/002	pitch	DEP=1C2-E-TEST-0080-61.2008
+1C2-E-TEST-0080-61.2/003	ã cents
+1C2-E-TEST-0080-61.2/004	¬ â
+1C2-E-TEST-0080-61.2/005	ã cents
+1C2-E-TEST-0080-61.2/006	euro 2012
+1C2-E-TEST-0080-61.2/007	warned
+1C2-E-TEST-0080-61.2/008	walk
+1C2-E-TEST-0080-61.2/009	racially	DEP=1C2-E-TEST-0080-61.2010
+1C2-E-TEST-0080-61.2/010	abused
+1C2-E-TEST-0080-61.2/011	suggested
+1C2-E-TEST-0080-61.2/012	¬	DEP=1C2-E-TEST-0080-61.2013
+1C2-E-TEST-0080-61.2/013	â
+1C2-E-TEST-0080-61.2/014	match
+1C2-E-TEST-0080-61.2/015	booked	DEP=1C2-E-TEST-0080-61.2007
+1C2-E-TEST-0080-61.5	Balotelli said last week that he would leave the field of play if he was targeted, but Platini warned the Italy forward, and every other player, to do nothing rash.
+1C2-E-TEST-0080-61.5/001	field	DEP=1C2-E-TEST-0080-61.5007
+1C2-E-TEST-0080-61.5/002	play
+1C2-E-TEST-0080-61.5/003	platini	DEP=1C2-E-TEST-0080-61.5009
+1C2-E-TEST-0080-61.5/004	italy	DEP=1C2-E-TEST-0080-61.5009
+1C2-E-TEST-0080-61.5/005	player	DEP=1C2-E-TEST-0080-61.5004
+1C2-E-TEST-0080-61.5/006	rash
+1C2-E-TEST-0080-61.5/007	leave
+1C2-E-TEST-0080-61.5/008	targeted	DEP=1C2-E-TEST-0080-61.5007
+1C2-E-TEST-0080-61.5/009	warned
+1C2-E-TEST-0080-64.2	The Manchester City striker Mario Balotelli was warned yesterday by Italy midfielder Daniele De Rossi that he must behave and accept the authority of the coach Cesare Prandelli or risk undermining his team in their Euro 2012 quarter-final against England on Sunday.
+1C2-E-TEST-0080-64.2/001	manchester city striker
+1C2-E-TEST-0080-64.2/002	italy midfielder daniele de rossi
+1C2-E-TEST-0080-64.2/003	authority	DEP=1C2-E-TEST-0080-64.2012
+1C2-E-TEST-0080-64.2/004	coach cesare prandelli
+1C2-E-TEST-0080-64.2/005	team	DEP=1C2-E-TEST-0080-64.2015
+1C2-E-TEST-0080-64.2/006	euro 2012
+1C2-E-TEST-0080-64.2/007	quarter-final	DEP=1C2-E-TEST-0080-64.2006
+1C2-E-TEST-0080-64.2/008	england
+1C2-E-TEST-0080-64.2/009	sunday
+1C2-E-TEST-0080-64.2/010	warned
+1C2-E-TEST-0080-64.2/011	yesterday	DEP=1C2-E-TEST-0080-64.2010
+1C2-E-TEST-0080-64.2/012	behave	DEP=1C2-E-TEST-0080-64.2010
+1C2-E-TEST-0080-64.2/013	accept	DEP=1C2-E-TEST-0080-64.2012
+1C2-E-TEST-0080-64.2/014	risk	DEP=1C2-E-TEST-0080-64.2012
+1C2-E-TEST-0080-64.2/015	undermining	DEP=1C2-E-TEST-0080-64.2014
+1C2-E-TEST-0080-64.28	James Milner, Balotelli's City team-mate, said that the striker was an unpredictable character, whose approach to games would change according to his mood.
+1C2-E-TEST-0080-64.28/001	james milner
+1C2-E-TEST-0080-64.28/002	striker	DEP=1C2-E-TEST-0080-64.28003
+1C2-E-TEST-0080-64.28/003	unpredictable character
+1C2-E-TEST-0080-64.28/004	games
+1C2-E-TEST-0080-64.28/005	mood
+1C2-E-TEST-0080-64.28/006	city	DEP=1C2-E-TEST-0080-64.28007
+1C2-E-TEST-0080-64.28/007	team-mate	DEP=1C2-E-TEST-0080-64.28001
+1C2-E-TEST-0080-64.28/008	approach	DEP=1C2-E-TEST-0080-64.28009
+1C2-E-TEST-0080-64.28/009	change	DEP=1C2-E-TEST-0080-64.28003
+1C2-E-TEST-0080-64.29	Balotelli picked up two red cards and nine bookings for City in the season just passed, as well as the incident in which his house was set alight by fireworks ignited in his bathroom in October.
+1C2-E-TEST-0080-64.29/001	two red cards	DEP=1C2-E-TEST-0080-64.29010
+1C2-E-TEST-0080-64.29/002	nine bookings	DEP=1C2-E-TEST-0080-64.29001
+1C2-E-TEST-0080-64.29/003	city
+1C2-E-TEST-0080-64.29/004	season
+1C2-E-TEST-0080-64.29/005	incident	DEP=1C2-E-TEST-0080-64.29004
+1C2-E-TEST-0080-64.29/006	house	DEP=1C2-E-TEST-0080-64.29012
+1C2-E-TEST-0080-64.29/007	fireworks
+1C2-E-TEST-0080-64.29/008	bathroom
+1C2-E-TEST-0080-64.29/009	october
+1C2-E-TEST-0080-64.29/010	picked
+1C2-E-TEST-0080-64.29/011	passed	DEP=1C2-E-TEST-0080-64.29004
+1C2-E-TEST-0080-64.29/012	set	DEP=1C2-E-TEST-0080-64.29005
+1C2-E-TEST-0080-64.29/013	alight	DEP=1C2-E-TEST-0080-64.29012
+1C2-E-TEST-0080-64.29/014	ignited	DEP=1C2-E-TEST-0080-64.29007
+1C2-E-TEST-0080-64.3	The controversial 21-year-old was a prominent theme in yesterday's press conference with De Rossi, in which the Roma midfielder made no attempt to hide his occasional exasperation at Balotelli's inability to control his emotions around football.
+1C2-E-TEST-0080-64.3/001	controversial 21-year-old	DEP=1C2-E-TEST-0080-64.3002
+1C2-E-TEST-0080-64.3/002	prominent theme
+1C2-E-TEST-0080-64.3/003	yesterday	DEP=1C2-E-TEST-0080-64.3010
+1C2-E-TEST-0080-64.3/004	de rossi
+1C2-E-TEST-0080-64.3/005	roma midfielder	DEP=1C2-E-TEST-0080-64.3011
+1C2-E-TEST-0080-64.3/006	occasional exasperation	DEP=1C2-E-TEST-0080-64.3013
+1C2-E-TEST-0080-64.3/007	emotions	DEP=1C2-E-TEST-0080-64.3015
+1C2-E-TEST-0080-64.3/008	football
+1C2-E-TEST-0080-64.3/009	press	DEP=1C2-E-TEST-0080-64.3010
+1C2-E-TEST-0080-64.3/010	conference
+1C2-E-TEST-0080-64.3/011	made	DEP=1C2-E-TEST-0080-64.3004
+1C2-E-TEST-0080-64.3/012	attempt	DEP=1C2-E-TEST-0080-64.3011
+1C2-E-TEST-0080-64.3/013	hide	DEP=1C2-E-TEST-0080-64.3012
+1C2-E-TEST-0080-64.3/014	inability
+1C2-E-TEST-0080-64.3/015	control	DEP=1C2-E-TEST-0080-64.3014
+1C2-E-TEST-0080-64.31	There is one who sometimes turns up in training and sometimes it is a bit cold and he is not too interested and there is the other time when he is really on to it and he is a special talent.
+1C2-E-TEST-0080-64.31/001	training
+1C2-E-TEST-0080-64.31/002	bit	DEP=1C2-E-TEST-0080-64.31006
+1C2-E-TEST-0080-64.31/003	time
+1C2-E-TEST-0080-64.31/004	special talent
+1C2-E-TEST-0080-64.31/005	turns
+1C2-E-TEST-0080-64.31/006	cold
+1C2-E-TEST-0080-64.31/007	interested	DEP=1C2-E-TEST-0080-64.31006
+1C2-E-TEST-0080-64.32	He is top player, we know that but the lads at the back have been brilliant and I'm sure they'll continue to do that and hopefully we will cause them a few problems going the other way.
+1C2-E-TEST-0080-64.32/001	top player
+1C2-E-TEST-0080-64.32/002	lads	DEP=1C2-E-TEST-0080-64.32006
+1C2-E-TEST-0080-64.32/003	back
+1C2-E-TEST-0080-64.32/004	problems	DEP=1C2-E-TEST-0080-64.32011
+1C2-E-TEST-0080-64.32/005	way	DEP=1C2-E-TEST-0080-64.32011
+1C2-E-TEST-0080-64.32/006	brilliant
+1C2-E-TEST-0080-64.32/007	sure	DEP=1C2-E-TEST-0080-64.32006
+1C2-E-TEST-0080-64.32/008	continue	DEP=1C2-E-TEST-0080-64.32007
+1C2-E-TEST-0080-64.32/009	hopefully	DEP=1C2-E-TEST-0080-64.32010
+1C2-E-TEST-0080-64.32/010	cause	DEP=1C2-E-TEST-0080-64.32006
+1C2-E-TEST-0080-64.32/011	going	DEP=1C2-E-TEST-0080-64.32010
+1C2-E-TEST-0080-64.38	He is very strong, shooting he can cause problems, he is tricky, he's strong and he's a clever player as well.
+1C2-E-TEST-0080-64.38/001	problems	DEP=1C2-E-TEST-0080-64.38005
+1C2-E-TEST-0080-64.38/002	clever player	DEP=1C2-E-TEST-0080-64.38003
+1C2-E-TEST-0080-64.38/003	strong
+1C2-E-TEST-0080-64.38/004	shooting	DEP=1C2-E-TEST-0080-64.38005
+1C2-E-TEST-0080-64.38/005	cause	DEP=1C2-E-TEST-0080-64.38003
+1C2-E-TEST-0080-64.38/006	tricky	DEP=1C2-E-TEST-0080-64.38003
+1C2-E-TEST-0080-64.38/007	's	DEP=1C2-E-TEST-0080-64.38008
+1C2-E-TEST-0080-64.38/008	strong	DEP=1C2-E-TEST-0080-64.38003
+1C2-E-TEST-0080-64.38/009	's	DEP=1C2-E-TEST-0080-64.38002
+1C2-E-TEST-0080-64.4	"He's a great player, so if he wants to grow up, he has to know how to react to this kind of high-pressure game," De Rossi said.
+1C2-E-TEST-0080-64.4/001	great player
+1C2-E-TEST-0080-64.4/002	high-pressure game
+1C2-E-TEST-0080-64.4/003	de rossi
+1C2-E-TEST-0080-64.4/004	's	DEP=1C2-E-TEST-0080-64.4001
+1C2-E-TEST-0080-64.4/005	wants
+1C2-E-TEST-0080-64.4/006	grow	DEP=1C2-E-TEST-0080-64.4005
+1C2-E-TEST-0080-64.4/007	know
+1C2-E-TEST-0080-64.4/008	react	DEP=1C2-E-TEST-0080-64.4007
+1C2-E-TEST-0080-64.42	The Roma midfielder was a protÃÂÃÂ©gÃÂÃÂ© of the former England manager who promoted him during his time in charge of the club and set him on his way to his international career.
+1C2-E-TEST-0080-64.42/001	roma midfielder	DEP=1C2-E-TEST-0080-64.42002
+1C2-E-TEST-0080-64.42/002	protã â © gã â ©
+1C2-E-TEST-0080-64.42/003	former england manager
+1C2-E-TEST-0080-64.42/004	time
+1C2-E-TEST-0080-64.42/005	charge
+1C2-E-TEST-0080-64.42/006	club
+1C2-E-TEST-0080-64.42/007	way
+1C2-E-TEST-0080-64.42/008	international career
+1C2-E-TEST-0080-64.42/009	promoted	DEP=1C2-E-TEST-0080-64.42003
+1C2-E-TEST-0080-64.42/010	set	DEP=1C2-E-TEST-0080-64.42009
+1C2-E-TEST-0080-64.5	Asked whether there was a possibility that Balotelli could be at risk of a yellow card or worse against an England defence that has been one of the best aspects of the team in this tournament, De Rossi said: "Up to a certain point.
+1C2-E-TEST-0080-64.5/001	possibility
+1C2-E-TEST-0080-64.5/002	risk
+1C2-E-TEST-0080-64.5/003	yellow card
+1C2-E-TEST-0080-64.5/004	england defense
+1C2-E-TEST-0080-64.5/005	best aspects
+1C2-E-TEST-0080-64.5/006	team
+1C2-E-TEST-0080-64.5/007	tournament
+1C2-E-TEST-0080-64.5/008	de rossi
+1C2-E-TEST-0080-64.5/009	point
+1C2-E-TEST-0080-64.5/010	asked
+1C2-E-TEST-0080-64.7	Balotelli has refused to speak at all since the Italy team arrived at their base in Krakow, turning down daily requests from the Italian media.
+1C2-E-TEST-0080-64.7/001	italy team	DEP=1C2-E-TEST-0080-64.7008
+1C2-E-TEST-0080-64.7/002	base
+1C2-E-TEST-0080-64.7/003	krakow
+1C2-E-TEST-0080-64.7/004	daily requests	DEP=1C2-E-TEST-0080-64.7009
+1C2-E-TEST-0080-64.7/005	italian media
+1C2-E-TEST-0080-64.7/006	refused
+1C2-E-TEST-0080-64.7/007	speak	DEP=1C2-E-TEST-0080-64.7006
+1C2-E-TEST-0080-64.7/008	arrived	DEP=1C2-E-TEST-0080-64.7007
+1C2-E-TEST-0080-64.7/009	turning	DEP=1C2-E-TEST-0080-64.7008
+1C2-E-TEST-0080-64.8	He remains a subject of fascination in Italy as much as he retains a cult status in England, even though there is still no certainty that Balotelli will start Sunday's game in Kiev, having been a substitute in the last game against the Republic of Ireland in which he scored a well-executed second goal in their 2-0 win.
+1C2-E-TEST-0080-64.8/001	subject
+1C2-E-TEST-0080-64.8/002	fascination
+1C2-E-TEST-0080-64.8/003	italy
+1C2-E-TEST-0080-64.8/004	cult status	DEP=1C2-E-TEST-0080-64.8016
+1C2-E-TEST-0080-64.8/005	england
+1C2-E-TEST-0080-64.8/006	certainty
+1C2-E-TEST-0080-64.8/007	sunday	DEP=1C2-E-TEST-0080-64.8018
+1C2-E-TEST-0080-64.8/008	kiev
+1C2-E-TEST-0080-64.8/009	substitute	DEP=1C2-E-TEST-0080-64.8017
+1C2-E-TEST-0080-64.8/010	game
+1C2-E-TEST-0080-64.8/011	republic
+1C2-E-TEST-0080-64.8/012	ireland
+1C2-E-TEST-0080-64.8/013	well-executed second goal
+1C2-E-TEST-0080-64.8/014	2-0
+1C2-E-TEST-0080-64.8/015	remains	DEP=1C2-E-TEST-0080-64.8001
+1C2-E-TEST-0080-64.8/016	retains	DEP=1C2-E-TEST-0080-64.8001
+1C2-E-TEST-0080-64.8/017	start	DEP=1C2-E-TEST-0080-64.8006
+1C2-E-TEST-0080-64.8/018	game	DEP=1C2-E-TEST-0080-64.8017
+1C2-E-TEST-0080-64.8/019	having	DEP=1C2-E-TEST-0080-64.8009
+1C2-E-TEST-0080-64.8/020	scored	DEP=1C2-E-TEST-0080-64.8009
+1C2-E-TEST-0080-87.10	Italy coach Cesare Prandelli left Balotelli out of the squad for a friendly against the United States in February after he received a four-match suspension a month earlier for his stamp on TottenhamÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Scott Parker.
+1C2-E-TEST-0080-87.10/001	italy coach cesare prandelli	DEP=1C2-E-TEST-0080-87.10012
+1C2-E-TEST-0080-87.10/002	squad
+1C2-E-TEST-0080-87.10/003	friendly
+1C2-E-TEST-0080-87.10/004	united states
+1C2-E-TEST-0080-87.10/005	february
+1C2-E-TEST-0080-87.10/006	four-match suspension
+1C2-E-TEST-0080-87.10/007	stamp
+1C2-E-TEST-0080-87.10/008	tottenhamã cents
+1C2-E-TEST-0080-87.10/009	¬	DEP=1C2-E-TEST-0080-87.10011
+1C2-E-TEST-0080-87.10/010	â cents	DEP=1C2-E-TEST-0080-87.10009
+1C2-E-TEST-0080-87.10/011	scott parker
+1C2-E-TEST-0080-87.10/012	left
+1C2-E-TEST-0080-87.10/013	received	DEP=1C2-E-TEST-0080-87.10012
+1C2-E-TEST-0080-87.10/014	month	DEP=1C2-E-TEST-0080-87.10006
+1C2-E-TEST-0080-87.10/015	earlier	DEP=1C2-E-TEST-0080-87.10014
+1C2-E-TEST-0080-87.10/016	s	DEP=1C2-E-TEST-0080-87.10011
+1C2-E-TEST-0080-87.11	With PrandelliÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s urging, Balotelli issued a public apology in April for another act of indiscipline with City, having picked up his fourth red card in two seasons, for lunging at Arsenal defender Bacary SagnaÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s knee.
+1C2-E-TEST-0080-87.11/001	prandelliã cents
+1C2-E-TEST-0080-87.11/002	¬	DEP=1C2-E-TEST-0080-87.11017
+1C2-E-TEST-0080-87.11/003	â cents	DEP=1C2-E-TEST-0080-87.11002
+1C2-E-TEST-0080-87.11/004	public apology	DEP=1C2-E-TEST-0080-87.11018
+1C2-E-TEST-0080-87.11/005	april
+1C2-E-TEST-0080-87.11/006	act
+1C2-E-TEST-0080-87.11/007	indiscipline
+1C2-E-TEST-0080-87.11/008	city
+1C2-E-TEST-0080-87.11/009	fourth red card	DEP=1C2-E-TEST-0080-87.11020
+1C2-E-TEST-0080-87.11/010	two seasons
+1C2-E-TEST-0080-87.11/011	arsenal defender bacary sagnaã
+1C2-E-TEST-0080-87.11/012	cents
+1C2-E-TEST-0080-87.11/013	¬	DEP=1C2-E-TEST-0080-87.11015
+1C2-E-TEST-0080-87.11/014	â cents	DEP=1C2-E-TEST-0080-87.11013
+1C2-E-TEST-0080-87.11/015	knee
+1C2-E-TEST-0080-87.11/016	s	DEP=1C2-E-TEST-0080-87.11017
+1C2-E-TEST-0080-87.11/017	urging
+1C2-E-TEST-0080-87.11/018	issued
+1C2-E-TEST-0080-87.11/019	having	DEP=1C2-E-TEST-0080-87.11020
+1C2-E-TEST-0080-87.11/020	picked	DEP=1C2-E-TEST-0080-87.11018
+1C2-E-TEST-0080-87.11/021	lunging
+1C2-E-TEST-0080-87.11/022	s	DEP=1C2-E-TEST-0080-87.11015
+1C2-E-TEST-0080-87.12	And earlier this season, Balotelli had to come up with an explanation for English authorities after a fire broke out in his house when fireworks were let off in his bathroom.
+1C2-E-TEST-0080-87.12/001	explanation
+1C2-E-TEST-0080-87.12/002	english authorities
+1C2-E-TEST-0080-87.12/003	fire	DEP=1C2-E-TEST-0080-87.12010
+1C2-E-TEST-0080-87.12/004	house
+1C2-E-TEST-0080-87.12/005	fireworks
+1C2-E-TEST-0080-87.12/006	bathroom
+1C2-E-TEST-0080-87.12/007	earlier	DEP=1C2-E-TEST-0080-87.12008
+1C2-E-TEST-0080-87.12/008	season
+1C2-E-TEST-0080-87.12/009	come
+1C2-E-TEST-0080-87.12/010	broke	DEP=1C2-E-TEST-0080-87.12009
+1C2-E-TEST-0080-87.7	No other player in ItalyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s team has the combination of talent and physical prowess that the 21-year-old Balotelli possesses, and that could be just what the Azzurri need in their European Championship opener against Spain in Gdansk this evening.
+1C2-E-TEST-0080-87.7/001	player
+1C2-E-TEST-0080-87.7/002	italyã cents
+1C2-E-TEST-0080-87.7/003	¬
+1C2-E-TEST-0080-87.7/004	â cents	DEP=1C2-E-TEST-0080-87.7005
+1C2-E-TEST-0080-87.7/005	team	DEP=1C2-E-TEST-0080-87.7003
+1C2-E-TEST-0080-87.7/006	combination
+1C2-E-TEST-0080-87.7/007	talent physical	DEP=1C2-E-TEST-0080-87.7014
+1C2-E-TEST-0080-87.7/008	21-year-old
+1C2-E-TEST-0080-87.7/009	azzurri
+1C2-E-TEST-0080-87.7/010	european championship opener
+1C2-E-TEST-0080-87.7/011	spain
+1C2-E-TEST-0080-87.7/012	gdansk
+1C2-E-TEST-0080-87.7/013	s	DEP=1C2-E-TEST-0080-87.7005
+1C2-E-TEST-0080-87.7/014	prowess
+1C2-E-TEST-0080-87.7/015	possesses
+1C2-E-TEST-0080-87.7/016	evening
+1C2-E-TEST-0080-87.9	But Balotelli has struggled to harness his explosive behaviour, both on and off the pitch.
+1C2-E-TEST-0080-87.9/001	explosive behavior	DEP=1C2-E-TEST-0080-87.9004
+1C2-E-TEST-0080-87.9/002	pitch
+1C2-E-TEST-0080-87.9/003	struggled
+1C2-E-TEST-0080-87.9/004	harness	DEP=1C2-E-TEST-0080-87.9003

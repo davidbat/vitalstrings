@@ -1,0 +1,97 @@
+1C2-E-TEST-0178-11.3	The sunlit sky is blue because air scatters short- wavelength light more than longer wavelengths.
+1C2-E-TEST-0178-11.3/001	sunlit
+1C2-E-TEST-0178-11.3/002	air scatters
+1C2-E-TEST-0178-11.3/003	short	DEP=1C2-E-TEST-0178-11.3002
+1C2-E-TEST-0178-11.3/004	wavelength light	DEP=1C2-E-TEST-0178-11.3002
+1C2-E-TEST-0178-11.3/005	longer	DEP=1C2-E-TEST-0178-11.3006
+1C2-E-TEST-0178-11.3/006	wavelengths	DEP=1C2-E-TEST-0178-11.3004
+1C2-E-TEST-0178-3.18	Blue is scattered more than other colors because it travels as shorter, smaller waves.
+1C2-E-TEST-0178-3.18/001	colors
+1C2-E-TEST-0178-3.18/002	scattered
+1C2-E-TEST-0178-3.18/003	travels	DEP=1C2-E-TEST-0178-3.18002
+1C2-E-TEST-0178-3.18/004	shorter	DEP=1C2-E-TEST-0178-3.18005
+1C2-E-TEST-0178-3.18/005	smaller	DEP=1C2-E-TEST-0178-3.18006
+1C2-E-TEST-0178-3.18/006	waves
+1C2-E-TEST-0178-3.22	As the Sun gets lower in the sky, its light is passing through more of the atmosphere to reach you. Even more of the blue light is scattered, allowing the reds and yellows to pass straight through to your eyes.
+1C2-E-TEST-0178-3.22/001	sun	DEP=1C2-E-TEST-0178-3.22007
+1C2-E-TEST-0178-3.22/002	lower	DEP=1C2-E-TEST-0178-3.22007
+1C2-E-TEST-0178-3.22/003	light	DEP=1C2-E-TEST-0178-3.22008
+1C2-E-TEST-0178-3.22/004	light
+1C2-E-TEST-0178-3.22/005	reds yellows	DEP=1C2-E-TEST-0178-3.22012
+1C2-E-TEST-0178-3.22/006	eyes
+1C2-E-TEST-0178-3.22/007	gets	DEP=1C2-E-TEST-0178-3.22008
+1C2-E-TEST-0178-3.22/008	passing
+1C2-E-TEST-0178-3.22/009	atmosphere
+1C2-E-TEST-0178-3.22/010	reach	DEP=1C2-E-TEST-0178-3.22009
+1C2-E-TEST-0178-3.22/011	scattered
+1C2-E-TEST-0178-3.22/012	allowing	DEP=1C2-E-TEST-0178-3.22008
+1C2-E-TEST-0178-3.22/013	pass	DEP=1C2-E-TEST-0178-3.22012
+1C2-E-TEST-0178-3.22/014	straight
+1C2-E-TEST-0178-347.13	Because when light passes through the atmosphere it's scattered. blue light is scattered the most, that's why.
+1C2-E-TEST-0178-347.13/001	light	DEP=1C2-E-TEST-0178-347.13004
+1C2-E-TEST-0178-347.13/002	atmosphere
+1C2-E-TEST-0178-347.13/003	light	DEP=1C2-E-TEST-0178-347.13007
+1C2-E-TEST-0178-347.13/004	passes	DEP=1C2-E-TEST-0178-347.13007
+1C2-E-TEST-0178-347.13/005	's	DEP=1C2-E-TEST-0178-347.13006
+1C2-E-TEST-0178-347.13/006	scattered	DEP=1C2-E-TEST-0178-347.13002
+1C2-E-TEST-0178-347.13/007	scattered	DEP=1C2-E-TEST-0178-347.13008
+1C2-E-TEST-0178-347.13/008	's
+1C2-E-TEST-0178-40.3	When sunlight travels through the atmosphere, blue light scatters more than the other colors, leaving a dominant yellow-orange hue to the transmitted light.
+1C2-E-TEST-0178-40.3/001	sunlight	DEP=1C2-E-TEST-0178-40.3006
+1C2-E-TEST-0178-40.3/002	atmosphere	DEP=1C2-E-TEST-0178-40.3008
+1C2-E-TEST-0178-40.3/003	light scatters	DEP=1C2-E-TEST-0178-40.3002
+1C2-E-TEST-0178-40.3/004	dominant yellow-orange hue	DEP=1C2-E-TEST-0178-40.3008
+1C2-E-TEST-0178-40.3/005	transmitted light
+1C2-E-TEST-0178-40.3/006	travels
+1C2-E-TEST-0178-40.3/007	colors	DEP=1C2-E-TEST-0178-40.3003
+1C2-E-TEST-0178-40.3/008	leaving
+1C2-E-TEST-0178-40.42	Violet light has an even shorter wavelength than blue light: It scatters even more than blue light does.
+1C2-E-TEST-0178-40.42/001	violet light
+1C2-E-TEST-0178-40.42/002	light
+1C2-E-TEST-0178-40.42/003	light
+1C2-E-TEST-0178-40.42/004	shorter	DEP=1C2-E-TEST-0178-40.42005
+1C2-E-TEST-0178-40.42/005	wavelength
+1C2-E-TEST-0178-40.42/006	scatters
+1C2-E-TEST-0178-40.45	The sun puts out much more blue light than violet light, so most of the scattered light in the sky is blue.
+1C2-E-TEST-0178-40.45/001	sun	DEP=1C2-E-TEST-0178-40.45003
+1C2-E-TEST-0178-40.45/002	violet light
+1C2-E-TEST-0178-40.45/003	puts
+1C2-E-TEST-0178-40.45/004	light	DEP=1C2-E-TEST-0178-40.45003
+1C2-E-TEST-0178-40.45/005	scattered	DEP=1C2-E-TEST-0178-40.45006
+1C2-E-TEST-0178-40.45/006	light
+1C2-E-TEST-0178-89.26	Sunlight is made up of all different colors of light, but, because of the elements in the atmosphere, the color blue is scattered much more efficiently than the other colors.
+1C2-E-TEST-0178-89.26/001	sunlight	DEP=1C2-E-TEST-0178-89.26008
+1C2-E-TEST-0178-89.26/002	different colors
+1C2-E-TEST-0178-89.26/003	light
+1C2-E-TEST-0178-89.26/004	elements
+1C2-E-TEST-0178-89.26/005	atmosphere
+1C2-E-TEST-0178-89.26/006	color
+1C2-E-TEST-0178-89.26/007	colors
+1C2-E-TEST-0178-89.26/008	made
+1C2-E-TEST-0178-89.26/009	scattered	DEP=1C2-E-TEST-0178-89.26008
+1C2-E-TEST-0178-89.26/010	efficiently	DEP=1C2-E-TEST-0178-89.26009
+1C2-E-TEST-0178-89.29	The blueness you see everywhere else is all of the atoms in the atmosphere scattering blue light toward you.
+1C2-E-TEST-0178-89.29/001	blueness
+1C2-E-TEST-0178-89.29/002	atoms
+1C2-E-TEST-0178-89.29/003	atmosphere scattering light
+1C2-E-TEST-0178-89.32	A clear cloudless daytime sky is blue because molecules in the air scatter blue light from the Sun more than they scatter red light.
+1C2-E-TEST-0178-89.32/001	molecules
+1C2-E-TEST-0178-89.32/002	air scatter
+1C2-E-TEST-0178-89.32/003	light
+1C2-E-TEST-0178-89.32/004	sun
+1C2-E-TEST-0178-89.32/005	red light
+1C2-E-TEST-0178-89.32/006	clear	DEP=1C2-E-TEST-0178-89.32007
+1C2-E-TEST-0178-89.32/007	cloudless
+1C2-E-TEST-0178-89.32/008	daytime
+1C2-E-TEST-0178-89.35	When we look towards the Sun at sunset, we see red and orange colors because the blue light has been scattered out (filtered) and away from our line of sight.
+1C2-E-TEST-0178-89.35/001	sun
+1C2-E-TEST-0178-89.35/002	sunset
+1C2-E-TEST-0178-89.35/003	light	DEP=1C2-E-TEST-0178-89.35009
+1C2-E-TEST-0178-89.35/004	line
+1C2-E-TEST-0178-89.35/005	sight
+1C2-E-TEST-0178-89.35/006	red	DEP=1C2-E-TEST-0178-89.35008
+1C2-E-TEST-0178-89.35/007	orange	DEP=1C2-E-TEST-0178-89.35006
+1C2-E-TEST-0178-89.35/008	colors
+1C2-E-TEST-0178-89.35/009	scattered
+1C2-E-TEST-0178-89.35/010	filtered
+1C2-E-TEST-0178-89.35/011	away

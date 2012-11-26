@@ -1,0 +1,494 @@
+1C2-E-TEST-0098-1.3	Some of the most famous landmarks in France are monuments such as the Arc de Triomphe or Eiffel Tower .
+1C2-E-TEST-0098-1.3/001	france
+1C2-E-TEST-0098-1.3/002	monuments
+1C2-E-TEST-0098-1.3/003	arc triomphe
+1C2-E-TEST-0098-1.3/004	eiffel tower	DEP=1C2-E-TEST-0098-1.3003
+1C2-E-TEST-0098-1.3/005	famous
+1C2-E-TEST-0098-128.11	Arc de Triomphe is designed to honor the French soldiers who died in wars past and includes a tomb of the unknown solider
+1C2-E-TEST-0098-128.11/001	arc de triomphe	DEP=1C2-E-TEST-0098-128.11006
+1C2-E-TEST-0098-128.11/002	soldiers	DEP=1C2-E-TEST-0098-128.11007
+1C2-E-TEST-0098-128.11/003	wars
+1C2-E-TEST-0098-128.11/004	tomb	DEP=1C2-E-TEST-0098-128.11010
+1C2-E-TEST-0098-128.11/005	unknown solider
+1C2-E-TEST-0098-128.11/006	designed
+1C2-E-TEST-0098-128.11/007	honor	DEP=1C2-E-TEST-0098-128.11006
+1C2-E-TEST-0098-128.11/008	died	DEP=1C2-E-TEST-0098-128.11002
+1C2-E-TEST-0098-128.11/009	past	DEP=1C2-E-TEST-0098-128.11003
+1C2-E-TEST-0098-128.11/010	includes	DEP=1C2-E-TEST-0098-128.11008
+1C2-E-TEST-0098-128.12	Champs-Elysees ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ To someone who heard about a shopping street in Paris, this might not seem like it could possibly be such a landmark.
+1C2-E-TEST-0098-128.12/001	champs-elysees ã cents
+1C2-E-TEST-0098-128.12/002	¬ â
+1C2-E-TEST-0098-128.12/003	shopping street
+1C2-E-TEST-0098-128.12/004	paris
+1C2-E-TEST-0098-128.12/005	landmark
+1C2-E-TEST-0098-128.12/006	heard
+1C2-E-TEST-0098-128.12/007	possibly
+1C2-E-TEST-0098-128.17	Arc de Triomphe ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ One of the things that you will find if you walk far enough along the Champs-Elysees is the Arc de Triomphe , a major Paris attraction in its own right.
+1C2-E-TEST-0098-128.17/001	arc de triomphe ã cents
+1C2-E-TEST-0098-128.17/002	¬	DEP=1C2-E-TEST-0098-128.17008
+1C2-E-TEST-0098-128.17/003	things
+1C2-E-TEST-0098-128.17/004	champs-elysees
+1C2-E-TEST-0098-128.17/005	arc triomphe
+1C2-E-TEST-0098-128.17/006	major paris attraction	DEP=1C2-E-TEST-0098-128.17005
+1C2-E-TEST-0098-128.17/007	right
+1C2-E-TEST-0098-128.17/008	â
+1C2-E-TEST-0098-128.17/009	find
+1C2-E-TEST-0098-128.18	This large arch is designed to honor the French soldiers who died in wars past and includes a tomb of the unknown solider.
+1C2-E-TEST-0098-128.18/001	large arch	DEP=1C2-E-TEST-0098-128.18006
+1C2-E-TEST-0098-128.18/002	soldiers	DEP=1C2-E-TEST-0098-128.18007
+1C2-E-TEST-0098-128.18/003	wars
+1C2-E-TEST-0098-128.18/004	tomb	DEP=1C2-E-TEST-0098-128.18010
+1C2-E-TEST-0098-128.18/005	unknown solider
+1C2-E-TEST-0098-128.18/006	designed
+1C2-E-TEST-0098-128.18/007	honor	DEP=1C2-E-TEST-0098-128.18006
+1C2-E-TEST-0098-128.18/008	died	DEP=1C2-E-TEST-0098-128.18002
+1C2-E-TEST-0098-128.18/009	past	DEP=1C2-E-TEST-0098-128.18003
+1C2-E-TEST-0098-128.18/010	includes	DEP=1C2-E-TEST-0098-128.18008
+1C2-E-TEST-0098-128.22	Notre Dame Cathedral ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ Other than the Eiffel Tower , the most well-known and oft-visited Paris attraction is probably Notre Dame Cathedral.
+1C2-E-TEST-0098-128.22/001	notre dame cathedral ã cents
+1C2-E-TEST-0098-128.22/002	¬
+1C2-E-TEST-0098-128.22/003	eiffel tower	DEP=1C2-E-TEST-0098-128.22004
+1C2-E-TEST-0098-128.22/004	notre dame cathedral
+1C2-E-TEST-0098-128.22/005	â
+1C2-E-TEST-0098-128.22/006	well-known	DEP=1C2-E-TEST-0098-128.22009
+1C2-E-TEST-0098-128.22/007	oft-visited	DEP=1C2-E-TEST-0098-128.22006
+1C2-E-TEST-0098-128.22/008	paris	DEP=1C2-E-TEST-0098-128.22009
+1C2-E-TEST-0098-128.22/009	attraction	DEP=1C2-E-TEST-0098-128.22003
+1C2-E-TEST-0098-128.22/010	probably	DEP=1C2-E-TEST-0098-128.22004
+1C2-E-TEST-0098-128.26	Sacre Coeur ÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ Another famous spiritual building that may be worth checking out, the Sacre Coeur Basilica (or Basilica of the Sacred Heart) gained renewed interest among tourists after being displayed in the movie Amelie.
+1C2-E-TEST-0098-128.26/001	sacre coeur ã cents
+1C2-E-TEST-0098-128.26/002	¬
+1C2-E-TEST-0098-128.26/003	spiritual building
+1C2-E-TEST-0098-128.26/004	sacre coeur basilica	DEP=1C2-E-TEST-0098-128.26014
+1C2-E-TEST-0098-128.26/005	basilica	DEP=1C2-E-TEST-0098-128.26004
+1C2-E-TEST-0098-128.26/006	sacred heart
+1C2-E-TEST-0098-128.26/007	renewed interest	DEP=1C2-E-TEST-0098-128.26014
+1C2-E-TEST-0098-128.26/008	tourists
+1C2-E-TEST-0098-128.26/009	movie amelie
+1C2-E-TEST-0098-128.26/010	â	DEP=1C2-E-TEST-0098-128.26002
+1C2-E-TEST-0098-128.26/011	famous
+1C2-E-TEST-0098-128.26/012	worth	DEP=1C2-E-TEST-0098-128.26002
+1C2-E-TEST-0098-128.26/013	checking	DEP=1C2-E-TEST-0098-128.26012
+1C2-E-TEST-0098-128.26/014	gained
+1C2-E-TEST-0098-128.26/015	displayed
+1C2-E-TEST-0098-128.36	While there are many galleries and art museums that you can see while youÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢re in Paris, the real attraction is in the artistic neighborhoods where the working artists have been known to live.
+1C2-E-TEST-0098-128.36/001	galleries
+1C2-E-TEST-0098-128.36/002	art museums	DEP=1C2-E-TEST-0098-128.36001
+1C2-E-TEST-0098-128.36/003	youã cents
+1C2-E-TEST-0098-128.36/004	¬	DEP=1C2-E-TEST-0098-128.36010
+1C2-E-TEST-0098-128.36/005	â cents	DEP=1C2-E-TEST-0098-128.36004
+1C2-E-TEST-0098-128.36/006	paris
+1C2-E-TEST-0098-128.36/007	real attraction
+1C2-E-TEST-0098-128.36/008	artistic neighborhoods
+1C2-E-TEST-0098-128.36/009	working artists	DEP=1C2-E-TEST-0098-128.36011
+1C2-E-TEST-0098-128.36/010	re
+1C2-E-TEST-0098-128.36/011	known	DEP=1C2-E-TEST-0098-128.36008
+1C2-E-TEST-0098-128.36/012	live	DEP=1C2-E-TEST-0098-128.36011
+1C2-E-TEST-0098-128.54	There are sixty five large ones and nine smaller ones located within Paris city limits so you shouldnÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢t have any problem finding them if you know what it is that you are looking for.
+1C2-E-TEST-0098-128.54/001	sixty five large ones
+1C2-E-TEST-0098-128.54/002	nine smaller ones	DEP=1C2-E-TEST-0098-128.54001
+1C2-E-TEST-0098-128.54/003	paris city limits
+1C2-E-TEST-0098-128.54/004	cents
+1C2-E-TEST-0098-128.54/005	â ¬ â cents t
+1C2-E-TEST-0098-128.54/006	problem
+1C2-E-TEST-0098-128.54/007	located	DEP=1C2-E-TEST-0098-128.54002
+1C2-E-TEST-0098-128.54/008	finding	DEP=1C2-E-TEST-0098-128.54006
+1C2-E-TEST-0098-128.54/009	looking
+1C2-E-TEST-0098-148.19	Arrondissement 17 Arc de Triomphe, Porte Maillot, Clichy
+1C2-E-TEST-0098-148.19/001	arrondissement 17
+1C2-E-TEST-0098-148.19/002	arc triomphe	DEP=1C2-E-TEST-0098-148.19001
+1C2-E-TEST-0098-148.19/003	porte maillot	DEP=1C2-E-TEST-0098-148.19002
+1C2-E-TEST-0098-148.19/004	clichy	DEP=1C2-E-TEST-0098-148.19002
+1C2-E-TEST-0098-148.42	The Eiffel Tower (or Tour Eiffel as the French call it) is south of the River Seine and fairly central in arrondissement 7.
+1C2-E-TEST-0098-148.42/001	eiffel tower	DEP=1C2-E-TEST-0098-148.42005
+1C2-E-TEST-0098-148.42/002	tour eiffel	DEP=1C2-E-TEST-0098-148.42001
+1C2-E-TEST-0098-148.42/003	call
+1C2-E-TEST-0098-148.42/004	river
+1C2-E-TEST-0098-148.42/005	seine
+1C2-E-TEST-0098-148.42/006	fairly central	DEP=1C2-E-TEST-0098-148.42005
+1C2-E-TEST-0098-148.42/007	arrondissement 7
+1C2-E-TEST-0098-148.42/008	south	DEP=1C2-E-TEST-0098-148.42005
+1C2-E-TEST-0098-148.45	The Arc de Triomphe is also a famous Parisian landmark, which commemorates French soldiers.
+1C2-E-TEST-0098-148.45/001	arc triomphe	DEP=1C2-E-TEST-0098-148.45002
+1C2-E-TEST-0098-148.45/002	famous parisian landmark
+1C2-E-TEST-0098-148.45/003	soldiers	DEP=1C2-E-TEST-0098-148.45004
+1C2-E-TEST-0098-148.45/004	commemorates	DEP=1C2-E-TEST-0098-148.45002
+1C2-E-TEST-0098-148.49	Guests can visit the tomb of the Unknown Soldier as well as the small museum dedicated to the Arc's long construction and history.
+1C2-E-TEST-0098-148.49/001	guests	DEP=1C2-E-TEST-0098-148.49007
+1C2-E-TEST-0098-148.49/002	tomb	DEP=1C2-E-TEST-0098-148.49007
+1C2-E-TEST-0098-148.49/003	unknown soldier
+1C2-E-TEST-0098-148.49/004	small museum	DEP=1C2-E-TEST-0098-148.49002
+1C2-E-TEST-0098-148.49/005	arc	DEP=1C2-E-TEST-0098-148.49010
+1C2-E-TEST-0098-148.49/006	history	DEP=1C2-E-TEST-0098-148.49010
+1C2-E-TEST-0098-148.49/007	visit
+1C2-E-TEST-0098-148.49/008	dedicated	DEP=1C2-E-TEST-0098-148.49004
+1C2-E-TEST-0098-148.49/009	long	DEP=1C2-E-TEST-0098-148.49010
+1C2-E-TEST-0098-148.49/010	construction
+1C2-E-TEST-0098-168.16	The Louvre Museum is a historic monument and a national museum of France.
+1C2-E-TEST-0098-168.16/001	louvre museum	DEP=1C2-E-TEST-0098-168.16002
+1C2-E-TEST-0098-168.16/002	historic monument
+1C2-E-TEST-0098-168.16/003	national museum	DEP=1C2-E-TEST-0098-168.16002
+1C2-E-TEST-0098-168.16/004	france
+1C2-E-TEST-0098-168.2	The Eiffel Tower, no need for me to explain any more, I think itÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s one of the most recognizable structures in the world and become a global icon of France.
+1C2-E-TEST-0098-168.2/001	eiffel tower
+1C2-E-TEST-0098-168.2/002	itã cents
+1C2-E-TEST-0098-168.2/003	¬
+1C2-E-TEST-0098-168.2/004	â cents	DEP=1C2-E-TEST-0098-168.2003
+1C2-E-TEST-0098-168.2/005	world
+1C2-E-TEST-0098-168.2/006	global icon	DEP=1C2-E-TEST-0098-168.2008
+1C2-E-TEST-0098-168.2/007	france
+1C2-E-TEST-0098-168.2/008	explain
+1C2-E-TEST-0098-168.2/009	s
+1C2-E-TEST-0098-168.2/010	recognizable	DEP=1C2-E-TEST-0098-168.2011
+1C2-E-TEST-0098-168.2/011	structures
+1C2-E-TEST-0098-168.21	Its collection including the famous sculpture Winged Victory of Samothrace in the Aegean Sea and Painting Leonardo da Vinci's Mona Lisa.
+1C2-E-TEST-0098-168.21/001	collection
+1C2-E-TEST-0098-168.21/002	famous sculpture winged victory
+1C2-E-TEST-0098-168.21/003	samothrace
+1C2-E-TEST-0098-168.21/004	aegean sea
+1C2-E-TEST-0098-168.21/005	painting leonardo da vinci	DEP=1C2-E-TEST-0098-168.21007
+1C2-E-TEST-0098-168.21/006	mona	DEP=1C2-E-TEST-0098-168.21007
+1C2-E-TEST-0098-168.21/007	lisa	DEP=1C2-E-TEST-0098-168.21003
+1C2-E-TEST-0098-168.6	The Arc de Triomphe is a monument in Paris. it was built to celebrate a victory in war.
+1C2-E-TEST-0098-168.6/001	arc triomphe	DEP=1C2-E-TEST-0098-168.6002
+1C2-E-TEST-0098-168.6/002	monument
+1C2-E-TEST-0098-168.6/003	paris
+1C2-E-TEST-0098-168.6/004	victory	DEP=1C2-E-TEST-0098-168.6007
+1C2-E-TEST-0098-168.6/005	war
+1C2-E-TEST-0098-168.6/006	built	DEP=1C2-E-TEST-0098-168.6003
+1C2-E-TEST-0098-168.6/007	celebrate	DEP=1C2-E-TEST-0098-168.6006
+1C2-E-TEST-0098-2.107	Louvre : Largest museum in the world, including several of the world's most prestigious works of art, such as Leonardo da Vinci's Mona Lisa, The Virgin and Child with St. Anne, Virgin of the Rocks and Alexandros of Antioch's Venus de Milo.
+1C2-E-TEST-0098-2.107/001	louvre
+1C2-E-TEST-0098-2.107/002	largest museum	DEP=1C2-E-TEST-0098-2.107001
+1C2-E-TEST-0098-2.107/003	world
+1C2-E-TEST-0098-2.107/004	world	DEP=1C2-E-TEST-0098-2.107014
+1C2-E-TEST-0098-2.107/005	art
+1C2-E-TEST-0098-2.107/006	leonardo da vinci	DEP=1C2-E-TEST-0098-2.107016
+1C2-E-TEST-0098-2.107/007	virgin	DEP=1C2-E-TEST-0098-2.107016
+1C2-E-TEST-0098-2.107/008	child	DEP=1C2-E-TEST-0098-2.107018
+1C2-E-TEST-0098-2.107/009	st. anne
+1C2-E-TEST-0098-2.107/010	virgin	DEP=1C2-E-TEST-0098-2.107009
+1C2-E-TEST-0098-2.107/011	rocks alexandros
+1C2-E-TEST-0098-2.107/012	antioch
+1C2-E-TEST-0098-2.107/013	prestigious	DEP=1C2-E-TEST-0098-2.107014
+1C2-E-TEST-0098-2.107/014	works
+1C2-E-TEST-0098-2.107/015	mona	DEP=1C2-E-TEST-0098-2.107016
+1C2-E-TEST-0098-2.107/016	lisa
+1C2-E-TEST-0098-2.107/017	venus	DEP=1C2-E-TEST-0098-2.107018
+1C2-E-TEST-0098-2.107/018	milo	DEP=1C2-E-TEST-0098-2.107016
+1C2-E-TEST-0098-2.111	Your prioritized guided tour of Paris' Louvre Museum focuses on three world-famous works, the Venus de Milo, the Victory of Samothrace and Leonardo da Vinci's Mona Lisa, painted at the beginning of the 16th century.
+1C2-E-TEST-0098-2.111/001	tour	DEP=1C2-E-TEST-0098-2.111011
+1C2-E-TEST-0098-2.111/002	paris	DEP=1C2-E-TEST-0098-2.111013
+1C2-E-TEST-0098-2.111/003	three world-famous works
+1C2-E-TEST-0098-2.111/004	venus milo	DEP=1C2-E-TEST-0098-2.111003
+1C2-E-TEST-0098-2.111/005	victory	DEP=1C2-E-TEST-0098-2.111003
+1C2-E-TEST-0098-2.111/006	samothrace
+1C2-E-TEST-0098-2.111/007	leonardo da vinci	DEP=1C2-E-TEST-0098-2.111016
+1C2-E-TEST-0098-2.111/008	beginning
+1C2-E-TEST-0098-2.111/009	16th century
+1C2-E-TEST-0098-2.111/010	prioritized
+1C2-E-TEST-0098-2.111/011	guided	DEP=1C2-E-TEST-0098-2.111010
+1C2-E-TEST-0098-2.111/012	louvre	DEP=1C2-E-TEST-0098-2.111013
+1C2-E-TEST-0098-2.111/013	museum
+1C2-E-TEST-0098-2.111/014	focuses
+1C2-E-TEST-0098-2.111/015	mona	DEP=1C2-E-TEST-0098-2.111016
+1C2-E-TEST-0098-2.111/016	lisa	DEP=1C2-E-TEST-0098-2.111003
+1C2-E-TEST-0098-2.111/017	painted	DEP=1C2-E-TEST-0098-2.111003
+1C2-E-TEST-0098-2.122	Arc de Triomphe : Monument in Paris commissioned by Napoleon Bonaparte in 1806 after the victory of Austerlitz.
+1C2-E-TEST-0098-2.122/001	arc de triomphe
+1C2-E-TEST-0098-2.122/002	monument	DEP=1C2-E-TEST-0098-2.122001
+1C2-E-TEST-0098-2.122/003	paris
+1C2-E-TEST-0098-2.122/004	napoleon bonaparte
+1C2-E-TEST-0098-2.122/005	1806
+1C2-E-TEST-0098-2.122/006	victory
+1C2-E-TEST-0098-2.122/007	austerlitz
+1C2-E-TEST-0098-2.122/008	commissioned	DEP=1C2-E-TEST-0098-2.122003
+1C2-E-TEST-0098-2.125	Centre George Pompidou : Home to the National Museum of Modern Art, a unique cultural and artistic center with daring and strange architecture in the Old Beaubourg area of Paris.
+1C2-E-TEST-0098-2.125/001	centre george pompidou
+1C2-E-TEST-0098-2.125/002	home	DEP=1C2-E-TEST-0098-2.125001
+1C2-E-TEST-0098-2.125/003	national museum
+1C2-E-TEST-0098-2.125/004	modern art
+1C2-E-TEST-0098-2.125/005	old beaubourg area
+1C2-E-TEST-0098-2.125/006	paris
+1C2-E-TEST-0098-2.125/007	unique	DEP=1C2-E-TEST-0098-2.125010
+1C2-E-TEST-0098-2.125/008	cultural	DEP=1C2-E-TEST-0098-2.125010
+1C2-E-TEST-0098-2.125/009	artistic	DEP=1C2-E-TEST-0098-2.125008
+1C2-E-TEST-0098-2.125/010	center	DEP=1C2-E-TEST-0098-2.125004
+1C2-E-TEST-0098-2.125/011	daring	DEP=1C2-E-TEST-0098-2.125013
+1C2-E-TEST-0098-2.125/012	strange	DEP=1C2-E-TEST-0098-2.125011
+1C2-E-TEST-0098-2.125/013	architecture
+1C2-E-TEST-0098-2.133	Notre Dame : Famous Cathedral in Paris dating to the 13th centurey, and one of the masterpieces of Gothic art in Western Europe.
+1C2-E-TEST-0098-2.133/001	notre dame
+1C2-E-TEST-0098-2.133/002	famous cathedral	DEP=1C2-E-TEST-0098-2.133001
+1C2-E-TEST-0098-2.133/003	paris
+1C2-E-TEST-0098-2.133/004	13th centurey
+1C2-E-TEST-0098-2.133/005	masterpieces
+1C2-E-TEST-0098-2.133/006	gothic art
+1C2-E-TEST-0098-2.133/007	western europe
+1C2-E-TEST-0098-2.133/008	dating	DEP=1C2-E-TEST-0098-2.133003
+1C2-E-TEST-0098-2.14	The Moulin Rouge is the number-one show in Paris, if not the whole of Europe. No wonder it sells out quickly.
+1C2-E-TEST-0098-2.14/001	moulin rouge	DEP=1C2-E-TEST-0098-2.14002
+1C2-E-TEST-0098-2.14/002	number-one show
+1C2-E-TEST-0098-2.14/003	paris
+1C2-E-TEST-0098-2.14/004	europe
+1C2-E-TEST-0098-2.14/005	wonder	DEP=1C2-E-TEST-0098-2.14004
+1C2-E-TEST-0098-2.14/006	sells	DEP=1C2-E-TEST-0098-2.14004
+1C2-E-TEST-0098-2.14/007	quickly	DEP=1C2-E-TEST-0098-2.14006
+1C2-E-TEST-0098-2.140	Picasso Museum : Museum in the heart of Paris containing several thousand works of art by Pablo Picasso.
+1C2-E-TEST-0098-2.140/001	picasso museum
+1C2-E-TEST-0098-2.140/002	museum	DEP=1C2-E-TEST-0098-2.140001
+1C2-E-TEST-0098-2.140/003	heart
+1C2-E-TEST-0098-2.140/004	paris
+1C2-E-TEST-0098-2.140/005	art
+1C2-E-TEST-0098-2.140/006	pablo picasso
+1C2-E-TEST-0098-2.140/007	containing	DEP=1C2-E-TEST-0098-2.140004
+1C2-E-TEST-0098-2.140/008	thousand	DEP=1C2-E-TEST-0098-2.140009
+1C2-E-TEST-0098-2.140/009	works	DEP=1C2-E-TEST-0098-2.140007
+1C2-E-TEST-0098-2.5	The specially designed, airship-style 58 Tour Eiffel restaurant is on the first floor of the Eiffel Tower.
+1C2-E-TEST-0098-2.5/001	floor
+1C2-E-TEST-0098-2.5/002	eiffel tower
+1C2-E-TEST-0098-2.5/003	specially	DEP=1C2-E-TEST-0098-2.5004
+1C2-E-TEST-0098-2.5/004	designed	DEP=1C2-E-TEST-0098-2.5009
+1C2-E-TEST-0098-2.5/005	airship-style	DEP=1C2-E-TEST-0098-2.5009
+1C2-E-TEST-0098-2.5/006	58	DEP=1C2-E-TEST-0098-2.5005
+1C2-E-TEST-0098-2.5/007	tour	DEP=1C2-E-TEST-0098-2.5009
+1C2-E-TEST-0098-2.5/008	eiffel	DEP=1C2-E-TEST-0098-2.5009
+1C2-E-TEST-0098-2.5/009	restaurant
+1C2-E-TEST-0098-234.180	Thinking of France, you might imagine the iconic Eiffel Tower, the Arc de Triomphe or the famous smile of Mona Lisa.
+1C2-E-TEST-0098-234.180/001	france
+1C2-E-TEST-0098-234.180/002	iconic eiffel tower	DEP=1C2-E-TEST-0098-234.180007
+1C2-E-TEST-0098-234.180/003	arc triomphe	DEP=1C2-E-TEST-0098-234.180002
+1C2-E-TEST-0098-234.180/004	famous smile	DEP=1C2-E-TEST-0098-234.180002
+1C2-E-TEST-0098-234.180/005	mona lisa
+1C2-E-TEST-0098-234.180/006	thinking	DEP=1C2-E-TEST-0098-234.180007
+1C2-E-TEST-0098-234.180/007	imagine
+1C2-E-TEST-0098-234.238	The MusÃÂÃÂ©e National d'Art Moderne in Centre Pompidou, still in France's capital, is the largest museum for modern art in Europe.
+1C2-E-TEST-0098-234.238/001	musã â	DEP=1C2-E-TEST-0098-234.238006
+1C2-E-TEST-0098-234.238/002	©	DEP=1C2-E-TEST-0098-234.238001
+1C2-E-TEST-0098-234.238/003	national d'art moderne	DEP=1C2-E-TEST-0098-234.238001
+1C2-E-TEST-0098-234.238/004	centre pompidou
+1C2-E-TEST-0098-234.238/005	france	DEP=1C2-E-TEST-0098-234.238010
+1C2-E-TEST-0098-234.238/006	largest museum
+1C2-E-TEST-0098-234.238/007	modern art
+1C2-E-TEST-0098-234.238/008	europe
+1C2-E-TEST-0098-234.238/009	e	DEP=1C2-E-TEST-0098-234.238003
+1C2-E-TEST-0098-234.238/010	capital
+1C2-E-TEST-0098-234.246	Disneyland Resort Paris is by far France's most popular park, visited by families from all over Europe.
+1C2-E-TEST-0098-234.246/001	disneyland resort paris	DEP=1C2-E-TEST-0098-234.246006
+1C2-E-TEST-0098-234.246/002	france	DEP=1C2-E-TEST-0098-234.246006
+1C2-E-TEST-0098-234.246/003	families
+1C2-E-TEST-0098-234.246/004	europe
+1C2-E-TEST-0098-234.246/005	popular	DEP=1C2-E-TEST-0098-234.246006
+1C2-E-TEST-0098-234.246/006	park
+1C2-E-TEST-0098-234.246/007	visited	DEP=1C2-E-TEST-0098-234.246006
+1C2-E-TEST-0098-234.248	Vanoise National Park is the oldest and one of the largest parks, named after the Vanoise massif.
+1C2-E-TEST-0098-234.248/001	vanoise national park	DEP=1C2-E-TEST-0098-234.248002
+1C2-E-TEST-0098-234.248/002	oldest
+1C2-E-TEST-0098-234.248/003	largest parks
+1C2-E-TEST-0098-234.248/004	vanoise massif
+1C2-E-TEST-0098-234.248/005	named	DEP=1C2-E-TEST-0098-234.248003
+1C2-E-TEST-0098-24.36	The triumphal arch honors those who fought for France, particularly during the Napoleonic Wars.
+1C2-E-TEST-0098-24.36/001	triumphal arch honors
+1C2-E-TEST-0098-24.36/002	france
+1C2-E-TEST-0098-24.36/003	napoleonic wars
+1C2-E-TEST-0098-24.36/004	fought
+1C2-E-TEST-0098-24.36/005	particularly
+1C2-E-TEST-0098-24.37	Beneath the Arc is the Tomb of the Unknown Soldier from the First World War.
+1C2-E-TEST-0098-24.37/001	arc
+1C2-E-TEST-0098-24.37/002	tomb
+1C2-E-TEST-0098-24.37/003	world war
+1C2-E-TEST-0098-24.37/004	unknown	DEP=1C2-E-TEST-0098-24.37005
+1C2-E-TEST-0098-24.37/005	soldier
+1C2-E-TEST-0098-24.47	Notre Dame de Paris is widely considered one of the finest examples of French Gothic architecture.
+1C2-E-TEST-0098-24.47/001	notre dame paris	DEP=1C2-E-TEST-0098-24.47005
+1C2-E-TEST-0098-24.47/002	finest examples
+1C2-E-TEST-0098-24.47/003	gothic architecture
+1C2-E-TEST-0098-24.47/004	widely	DEP=1C2-E-TEST-0098-24.47005
+1C2-E-TEST-0098-24.47/005	considered
+1C2-E-TEST-0098-24.48	Notre Dame de Paris was one of the first Gothic cathedrals, and its construction spanned the Gothic period.
+1C2-E-TEST-0098-24.48/001	notre dame paris
+1C2-E-TEST-0098-24.48/002	gothic cathedrals
+1C2-E-TEST-0098-24.48/003	construction	DEP=1C2-E-TEST-0098-24.48005
+1C2-E-TEST-0098-24.48/004	gothic period	DEP=1C2-E-TEST-0098-24.48005
+1C2-E-TEST-0098-24.48/005	spanned
+1C2-E-TEST-0098-24.63	The basilica is located at the summit of the butte Montmartre (Montmartre butte), the highest point in the city.
+1C2-E-TEST-0098-24.63/001	basilica	DEP=1C2-E-TEST-0098-24.63007
+1C2-E-TEST-0098-24.63/002	summit
+1C2-E-TEST-0098-24.63/003	butte montmartre
+1C2-E-TEST-0098-24.63/004	montmartre butte	DEP=1C2-E-TEST-0098-24.63003
+1C2-E-TEST-0098-24.63/005	highest point	DEP=1C2-E-TEST-0098-24.63007
+1C2-E-TEST-0098-24.63/006	city
+1C2-E-TEST-0098-24.63/007	located
+1C2-E-TEST-0098-4.12	The Arc de Triomphe was constructed between the years 1806 and 1808 by Napoleon I as a tribute to the French army.
+1C2-E-TEST-0098-4.12/001	arc triomphe	DEP=1C2-E-TEST-0098-4.12007
+1C2-E-TEST-0098-4.12/002	years
+1C2-E-TEST-0098-4.12/003	1806 1808
+1C2-E-TEST-0098-4.12/004	napoleon
+1C2-E-TEST-0098-4.12/005	tribute
+1C2-E-TEST-0098-4.12/006	army
+1C2-E-TEST-0098-4.12/007	constructed
+1C2-E-TEST-0098-4.15	The Arc de Triomphe is 164 feet high, 148 feet long, and 72 feet wide; it is positioned at the end of the Avenue des Champs ÃÂÃ¢ÂÂ°lysÃÂÃÂ©es and in the center of the Place de l'ÃÂÃ¢ÂÂ°toile.
+1C2-E-TEST-0098-4.15/001	arc triomphe	DEP=1C2-E-TEST-0098-4.15015
+1C2-E-TEST-0098-4.15/002	164 feet	DEP=1C2-E-TEST-0098-4.15015
+1C2-E-TEST-0098-4.15/003	148 feet	DEP=1C2-E-TEST-0098-4.15016
+1C2-E-TEST-0098-4.15/004	72 feet	DEP=1C2-E-TEST-0098-4.15017
+1C2-E-TEST-0098-4.15/005	end
+1C2-E-TEST-0098-4.15/006	avenue des champs ã
+1C2-E-TEST-0098-4.15/007	°
+1C2-E-TEST-0098-4.15/008	lysã â
+1C2-E-TEST-0098-4.15/009	© es	DEP=1C2-E-TEST-0098-4.15008
+1C2-E-TEST-0098-4.15/010	center
+1C2-E-TEST-0098-4.15/011	place
+1C2-E-TEST-0098-4.15/012	de l' ã â	DEP=1C2-E-TEST-0098-4.15019
+1C2-E-TEST-0098-4.15/013	°
+1C2-E-TEST-0098-4.15/014	toile
+1C2-E-TEST-0098-4.15/015	high	DEP=1C2-E-TEST-0098-4.15019
+1C2-E-TEST-0098-4.15/016	long	DEP=1C2-E-TEST-0098-4.15015
+1C2-E-TEST-0098-4.15/017	wide	DEP=1C2-E-TEST-0098-4.15015
+1C2-E-TEST-0098-4.15/018	positioned	DEP=1C2-E-TEST-0098-4.15015
+1C2-E-TEST-0098-4.15/019	â
+1C2-E-TEST-0098-4.7	The construction of famous Notre Dame de Paris began in 1163.
+1C2-E-TEST-0098-4.7/001	construction	DEP=1C2-E-TEST-0098-4.7004
+1C2-E-TEST-0098-4.7/002	famous notre dame paris
+1C2-E-TEST-0098-4.7/003	1163
+1C2-E-TEST-0098-4.7/004	began
+1C2-E-TEST-0098-4.8	This cathedral was one of the first buildings in the world to use arched exterior supports, known as flying buttresses.
+1C2-E-TEST-0098-4.8/001	cathedral
+1C2-E-TEST-0098-4.8/002	buildings
+1C2-E-TEST-0098-4.8/003	arched exterior	DEP=1C2-E-TEST-0098-4.8006
+1C2-E-TEST-0098-4.8/004	flying buttresses
+1C2-E-TEST-0098-4.8/005	world
+1C2-E-TEST-0098-4.8/006	supports
+1C2-E-TEST-0098-4.8/007	known	DEP=1C2-E-TEST-0098-4.8002
+1C2-E-TEST-0098-4.9	During the French Revolution of the 1790s, much of the cathedral's religious imagery was damaged, but during the 19th century the cathedral was restored to its previous state.
+1C2-E-TEST-0098-4.9/001	revolution
+1C2-E-TEST-0098-4.9/002	1790s
+1C2-E-TEST-0098-4.9/003	cathedral	DEP=1C2-E-TEST-0098-4.9008
+1C2-E-TEST-0098-4.9/004	19th century
+1C2-E-TEST-0098-4.9/005	cathedral	DEP=1C2-E-TEST-0098-4.9010
+1C2-E-TEST-0098-4.9/006	previous state
+1C2-E-TEST-0098-4.9/007	religious	DEP=1C2-E-TEST-0098-4.9008
+1C2-E-TEST-0098-4.9/008	imagery
+1C2-E-TEST-0098-4.9/009	damaged
+1C2-E-TEST-0098-4.9/010	restored	DEP=1C2-E-TEST-0098-4.9009
+1C2-E-TEST-0098-45.18	The tower is the tallest building in Paris and the most-visited paid monument in the world where millions of people ascend it every year.
+1C2-E-TEST-0098-45.18/001	tower	DEP=1C2-E-TEST-0098-45.18002
+1C2-E-TEST-0098-45.18/002	tallest building
+1C2-E-TEST-0098-45.18/003	paris
+1C2-E-TEST-0098-45.18/004	most-visited paid monument	DEP=1C2-E-TEST-0098-45.18002
+1C2-E-TEST-0098-45.18/005	world
+1C2-E-TEST-0098-45.18/006	millions
+1C2-E-TEST-0098-45.18/007	people
+1C2-E-TEST-0098-45.20	Built in 1889, it has become both a global icon of France and one of the most noticeable structures in the world.
+1C2-E-TEST-0098-45.20/001	1889
+1C2-E-TEST-0098-45.20/002	global icon
+1C2-E-TEST-0098-45.20/003	france
+1C2-E-TEST-0098-45.20/004	noticeable structures
+1C2-E-TEST-0098-45.20/005	world
+1C2-E-TEST-0098-45.20/006	built	DEP=1C2-E-TEST-0098-45.20002
+1C2-E-TEST-0098-45.22	Louvre Museum, situated in Paris, is a historic monument, and a national museum of France.
+1C2-E-TEST-0098-45.22/001	louvre museum	DEP=1C2-E-TEST-0098-45.22003
+1C2-E-TEST-0098-45.22/002	paris
+1C2-E-TEST-0098-45.22/003	historic monument
+1C2-E-TEST-0098-45.22/004	national museum	DEP=1C2-E-TEST-0098-45.22003
+1C2-E-TEST-0098-45.22/005	france
+1C2-E-TEST-0098-45.22/006	situated	DEP=1C2-E-TEST-0098-45.22001
+1C2-E-TEST-0098-45.25	The museumÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s most eminent painting is the Mona Lisa, a masterpiece by a famous artist, Leonardo Da Vinci.
+1C2-E-TEST-0098-45.25/001	museumã cents
+1C2-E-TEST-0098-45.25/002	¬	DEP=1C2-E-TEST-0098-45.25010
+1C2-E-TEST-0098-45.25/003	â cents	DEP=1C2-E-TEST-0098-45.25002
+1C2-E-TEST-0098-45.25/004	mona lisa
+1C2-E-TEST-0098-45.25/005	masterpiece	DEP=1C2-E-TEST-0098-45.25004
+1C2-E-TEST-0098-45.25/006	famous artist
+1C2-E-TEST-0098-45.25/007	leonardo da vinci	DEP=1C2-E-TEST-0098-45.25006
+1C2-E-TEST-0098-45.25/008	s	DEP=1C2-E-TEST-0098-45.25010
+1C2-E-TEST-0098-45.25/009	eminent	DEP=1C2-E-TEST-0098-45.25010
+1C2-E-TEST-0098-45.25/010	painting
+1C2-E-TEST-0098-45.38	The famous Queen Marie-Antoinette also left her mark with her HameauÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂthat means tiny village.
+1C2-E-TEST-0098-45.38/001	famous queen
+1C2-E-TEST-0098-45.38/002	marie-antoinette	DEP=1C2-E-TEST-0098-45.38007
+1C2-E-TEST-0098-45.38/003	mark	DEP=1C2-E-TEST-0098-45.38007
+1C2-E-TEST-0098-45.38/004	hameauã cents
+1C2-E-TEST-0098-45.38/005	¬ â
+1C2-E-TEST-0098-45.38/006	tiny village	DEP=1C2-E-TEST-0098-45.38008
+1C2-E-TEST-0098-45.38/007	left	DEP=1C2-E-TEST-0098-45.38001
+1C2-E-TEST-0098-45.38/008	means
+1C2-E-TEST-0098-45.8	The countryÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s cities comprise some of the ultimate treasures in Europe, its countryside is flourishing and well-tended and it boasts tons of major tourist attractions, like Paris, the Atlantic beaches, the French Riviera, the castles of the Loire Valley, the winter sport resorts of the French Alps, Brittany and Normandy.
+1C2-E-TEST-0098-45.8/001	countryã cents
+1C2-E-TEST-0098-45.8/002	¬	DEP=1C2-E-TEST-0098-45.8004
+1C2-E-TEST-0098-45.8/003	â cents	DEP=1C2-E-TEST-0098-45.8002
+1C2-E-TEST-0098-45.8/004	cities
+1C2-E-TEST-0098-45.8/005	ultimate treasures
+1C2-E-TEST-0098-45.8/006	europe
+1C2-E-TEST-0098-45.8/007	countryside
+1C2-E-TEST-0098-45.8/008	tons	DEP=1C2-E-TEST-0098-45.8020
+1C2-E-TEST-0098-45.8/009	major tourist attractions
+1C2-E-TEST-0098-45.8/010	paris
+1C2-E-TEST-0098-45.8/011	atlantic beaches	DEP=1C2-E-TEST-0098-45.8010
+1C2-E-TEST-0098-45.8/012	riviera	DEP=1C2-E-TEST-0098-45.8010
+1C2-E-TEST-0098-45.8/013	castles	DEP=1C2-E-TEST-0098-45.8010
+1C2-E-TEST-0098-45.8/014	loire valley
+1C2-E-TEST-0098-45.8/015	winter sport resorts	DEP=1C2-E-TEST-0098-45.8010
+1C2-E-TEST-0098-45.8/016	alps brittany normandy
+1C2-E-TEST-0098-45.8/017	s	DEP=1C2-E-TEST-0098-45.8004
+1C2-E-TEST-0098-45.8/018	flourishing
+1C2-E-TEST-0098-45.8/019	well-tended	DEP=1C2-E-TEST-0098-45.8018
+1C2-E-TEST-0098-45.8/020	boasts
+1C2-E-TEST-0098-54.10	Listed on the monument is the names of French victories and generals, and beneath the arch is the Tomb of the Unknown Soldier from World War I. From the top of the monument, visitors can admire a panoramic view of the French capital.
+1C2-E-TEST-0098-54.10/001	monument
+1C2-E-TEST-0098-54.10/002	names
+1C2-E-TEST-0098-54.10/003	victories generals
+1C2-E-TEST-0098-54.10/004	arch
+1C2-E-TEST-0098-54.10/005	tomb	DEP=1C2-E-TEST-0098-54.10015
+1C2-E-TEST-0098-54.10/006	world war i.
+1C2-E-TEST-0098-54.10/007	top
+1C2-E-TEST-0098-54.10/008	monument
+1C2-E-TEST-0098-54.10/009	visitors	DEP=1C2-E-TEST-0098-54.10015
+1C2-E-TEST-0098-54.10/010	panoramic view	DEP=1C2-E-TEST-0098-54.10015
+1C2-E-TEST-0098-54.10/011	capital
+1C2-E-TEST-0098-54.10/012	listed	DEP=1C2-E-TEST-0098-54.10002
+1C2-E-TEST-0098-54.10/013	unknown	DEP=1C2-E-TEST-0098-54.10014
+1C2-E-TEST-0098-54.10/014	soldier
+1C2-E-TEST-0098-54.10/015	admire	DEP=1C2-E-TEST-0098-54.10002
+1C2-E-TEST-0098-54.8	Commissioned by Napoleon, the Arc de Triomphe honors French combatants in the French Revolutionary and Napoleonic wars.
+1C2-E-TEST-0098-54.8/001	napoleon
+1C2-E-TEST-0098-54.8/002	arc triomphe	DEP=1C2-E-TEST-0098-54.8001
+1C2-E-TEST-0098-54.8/003	honors	DEP=1C2-E-TEST-0098-54.8002
+1C2-E-TEST-0098-54.8/004	combatants	DEP=1C2-E-TEST-0098-54.8007
+1C2-E-TEST-0098-54.8/005	revolutionary
+1C2-E-TEST-0098-54.8/006	napoleonic wars	DEP=1C2-E-TEST-0098-54.8005
+1C2-E-TEST-0098-54.8/007	commissioned
+1C2-E-TEST-0098-92.13	Basilique du SacrÃÂÃÂ©-Coeur This famous Monometer basilica is dedicated to the sacred heart of Jesus.
+1C2-E-TEST-0098-92.13/001	basilique du sacrã â
+1C2-E-TEST-0098-92.13/002	coeur	DEP=1C2-E-TEST-0098-92.13001
+1C2-E-TEST-0098-92.13/003	famous monometer basilica	DEP=1C2-E-TEST-0098-92.13007
+1C2-E-TEST-0098-92.13/004	sacred heart
+1C2-E-TEST-0098-92.13/005	jesus
+1C2-E-TEST-0098-92.13/006	©	DEP=1C2-E-TEST-0098-92.13002
+1C2-E-TEST-0098-92.13/007	dedicated	DEP=1C2-E-TEST-0098-92.13002
+1C2-E-TEST-0098-92.26	It holds 3,000 pieces of the world's most famous works of art, such as Leonardo Da Vinci's Mona Lisa, The Virgin and Child with St. Anne, Madonna of the Rocks, Jacques Louis David's Oath of the Horatii, Delacroix's Liberty Leading the People and Alexandros of Antioch's Venus de Milo.
+1C2-E-TEST-0098-92.26/001	3,000 pieces	DEP=1C2-E-TEST-0098-92.26016
+1C2-E-TEST-0098-92.26/002	world	DEP=1C2-E-TEST-0098-92.26018
+1C2-E-TEST-0098-92.26/003	art
+1C2-E-TEST-0098-92.26/004	leonardo da
+1C2-E-TEST-0098-92.26/005	vinci	DEP=1C2-E-TEST-0098-92.26020
+1C2-E-TEST-0098-92.26/006	virgin child	DEP=1C2-E-TEST-0098-92.26004
+1C2-E-TEST-0098-92.26/007	st. anne
+1C2-E-TEST-0098-92.26/008	madonna	DEP=1C2-E-TEST-0098-92.26004
+1C2-E-TEST-0098-92.26/009	rocks
+1C2-E-TEST-0098-92.26/010	jacques louis david	DEP=1C2-E-TEST-0098-92.26021
+1C2-E-TEST-0098-92.26/011	horatii
+1C2-E-TEST-0098-92.26/012	delacroix	DEP=1C2-E-TEST-0098-92.26022
+1C2-E-TEST-0098-92.26/013	people	DEP=1C2-E-TEST-0098-92.26023
+1C2-E-TEST-0098-92.26/014	alexandros	DEP=1C2-E-TEST-0098-92.26025
+1C2-E-TEST-0098-92.26/015	antioch
+1C2-E-TEST-0098-92.26/016	holds
+1C2-E-TEST-0098-92.26/017	famous	DEP=1C2-E-TEST-0098-92.26018
+1C2-E-TEST-0098-92.26/018	works
+1C2-E-TEST-0098-92.26/019	mona	DEP=1C2-E-TEST-0098-92.26020
+1C2-E-TEST-0098-92.26/020	lisa	DEP=1C2-E-TEST-0098-92.26004
+1C2-E-TEST-0098-92.26/021	oath	DEP=1C2-E-TEST-0098-92.26004
+1C2-E-TEST-0098-92.26/022	liberty	DEP=1C2-E-TEST-0098-92.26004
+1C2-E-TEST-0098-92.26/023	leading	DEP=1C2-E-TEST-0098-92.26022
+1C2-E-TEST-0098-92.26/024	venus	DEP=1C2-E-TEST-0098-92.26025
+1C2-E-TEST-0098-92.26/025	milo	DEP=1C2-E-TEST-0098-92.26013

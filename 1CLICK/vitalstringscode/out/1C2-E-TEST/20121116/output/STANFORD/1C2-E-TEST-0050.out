@@ -1,0 +1,615 @@
+1C2-E-TEST-0050-123.184	Romney increased the state gasoline fee by 2 cents per gallon, generating about $60 million per year in additional revenue.
+1C2-E-TEST-0050-123.184/001	state gasoline fee	DEP=1C2-E-TEST-0050-123.184004
+1C2-E-TEST-0050-123.184/002	2 cents
+1C2-E-TEST-0050-123.184/003	additional revenue
+1C2-E-TEST-0050-123.184/004	increased
+1C2-E-TEST-0050-123.184/005	gallon	DEP=1C2-E-TEST-0050-123.184002
+1C2-E-TEST-0050-123.184/006	generating	DEP=1C2-E-TEST-0050-123.184004
+1C2-E-TEST-0050-123.184/007	60
+1C2-E-TEST-0050-123.184/008	million
+1C2-E-TEST-0050-123.189	The combined state and local fee burden in Massachusetts increased during Romney's governorship but still was below the national average.
+1C2-E-TEST-0050-123.189/001	combined state	DEP=1C2-E-TEST-0050-123.189005
+1C2-E-TEST-0050-123.189/002	local fee burden	DEP=1C2-E-TEST-0050-123.189001
+1C2-E-TEST-0050-123.189/003	massachusetts
+1C2-E-TEST-0050-123.189/004	national average
+1C2-E-TEST-0050-123.189/005	increased
+1C2-E-TEST-0050-123.189/006	governorship
+1C2-E-TEST-0050-123.191	Romney was at the forefront of a movement to bring near-universal health insurance coverage to the state, after a business executive told him at the start of his term that doing so would be the best way he could help people.
+1C2-E-TEST-0050-123.191/001	forefront
+1C2-E-TEST-0050-123.191/002	near-universal health insurance coverage	DEP=1C2-E-TEST-0050-123.191010
+1C2-E-TEST-0050-123.191/003	state
+1C2-E-TEST-0050-123.191/004	business executive	DEP=1C2-E-TEST-0050-123.191011
+1C2-E-TEST-0050-123.191/005	start
+1C2-E-TEST-0050-123.191/006	term
+1C2-E-TEST-0050-123.191/007	best way	DEP=1C2-E-TEST-0050-123.191011
+1C2-E-TEST-0050-123.191/008	people	DEP=1C2-E-TEST-0050-123.191012
+1C2-E-TEST-0050-123.191/009	movement
+1C2-E-TEST-0050-123.191/010	bring	DEP=1C2-E-TEST-0050-123.191009
+1C2-E-TEST-0050-123.191/011	told
+1C2-E-TEST-0050-123.191/012	help	DEP=1C2-E-TEST-0050-123.191007
+1C2-E-TEST-0050-123.193	In particular, Romney successfully pushed for incorporating an individual mandate at the state level.
+1C2-E-TEST-0050-123.193/001	individual mandate	DEP=1C2-E-TEST-0050-123.193006
+1C2-E-TEST-0050-123.193/002	state level
+1C2-E-TEST-0050-123.193/003	particular
+1C2-E-TEST-0050-123.193/004	successfully	DEP=1C2-E-TEST-0050-123.193005
+1C2-E-TEST-0050-123.193/005	pushed
+1C2-E-TEST-0050-123.193/006	incorporating
+1C2-E-TEST-0050-123.195	The effort eventually gained the support of all major stakeholders within the state, and Romney helped break a logjam between rival Democratic leaders in the legislature.
+1C2-E-TEST-0050-123.195/001	effort	DEP=1C2-E-TEST-0050-123.195009
+1C2-E-TEST-0050-123.195/002	support	DEP=1C2-E-TEST-0050-123.195009
+1C2-E-TEST-0050-123.195/003	major stakeholders
+1C2-E-TEST-0050-123.195/004	state
+1C2-E-TEST-0050-123.195/005	logjam	DEP=1C2-E-TEST-0050-123.195011
+1C2-E-TEST-0050-123.195/006	rival democratic leaders
+1C2-E-TEST-0050-123.195/007	legislature
+1C2-E-TEST-0050-123.195/008	eventually	DEP=1C2-E-TEST-0050-123.195009
+1C2-E-TEST-0050-123.195/009	gained
+1C2-E-TEST-0050-123.195/010	helped	DEP=1C2-E-TEST-0050-123.195009
+1C2-E-TEST-0050-123.195/011	break	DEP=1C2-E-TEST-0050-123.195010
+1C2-E-TEST-0050-123.196	On April 12, 2006, Romney signed the Massachusetts health reform law, which requires nearly all Massachusetts residents to buy health insurance coverage or face escalating tax penalties such as the loss of their personal income tax exemption.
+1C2-E-TEST-0050-123.196/001	april 12 2006
+1C2-E-TEST-0050-123.196/002	massachusetts health reform law	DEP=1C2-E-TEST-0050-123.196009
+1C2-E-TEST-0050-123.196/003	nearly massachusetts residents	DEP=1C2-E-TEST-0050-123.196011
+1C2-E-TEST-0050-123.196/004	health insurance coverage	DEP=1C2-E-TEST-0050-123.196012
+1C2-E-TEST-0050-123.196/005	face	DEP=1C2-E-TEST-0050-123.196004
+1C2-E-TEST-0050-123.196/006	tax penalties	DEP=1C2-E-TEST-0050-123.196012
+1C2-E-TEST-0050-123.196/007	loss
+1C2-E-TEST-0050-123.196/008	personal income tax exemption
+1C2-E-TEST-0050-123.196/009	signed
+1C2-E-TEST-0050-123.196/010	requires	DEP=1C2-E-TEST-0050-123.196002
+1C2-E-TEST-0050-123.196/011	buy	DEP=1C2-E-TEST-0050-123.196010
+1C2-E-TEST-0050-123.196/012	escalating	DEP=1C2-E-TEST-0050-123.196011
+1C2-E-TEST-0050-123.198	He vetoed eight sections of the health care legislation, including a controversial $295-per-employee assessment on businesses that do not offer health insurance and provisions guaranteeing dental benefits to Medicaid recipients.
+1C2-E-TEST-0050-123.198/001	eight sections	DEP=1C2-E-TEST-0050-123.198007
+1C2-E-TEST-0050-123.198/002	health care legislation
+1C2-E-TEST-0050-123.198/003	businesses
+1C2-E-TEST-0050-123.198/004	health insurance provisions	DEP=1C2-E-TEST-0050-123.198011
+1C2-E-TEST-0050-123.198/005	dental benefits	DEP=1C2-E-TEST-0050-123.198012
+1C2-E-TEST-0050-123.198/006	medicaid recipients
+1C2-E-TEST-0050-123.198/007	vetoed
+1C2-E-TEST-0050-123.198/008	controversial	DEP=1C2-E-TEST-0050-123.198010
+1C2-E-TEST-0050-123.198/009	295-per-employee
+1C2-E-TEST-0050-123.198/010	assessment
+1C2-E-TEST-0050-123.198/011	offer	DEP=1C2-E-TEST-0050-123.198003
+1C2-E-TEST-0050-123.198/012	guaranteeing	DEP=1C2-E-TEST-0050-123.198004
+1C2-E-TEST-0050-123.200	The law was the first of its kind in the nation and became the signature achievement of Romney's term in office.
+1C2-E-TEST-0050-123.200/001	law
+1C2-E-TEST-0050-123.200/002	nation
+1C2-E-TEST-0050-123.200/003	signature achievement
+1C2-E-TEST-0050-123.200/004	office
+1C2-E-TEST-0050-123.200/005	term
+1C2-E-TEST-0050-123.202	Faced with the dilemma of choosing between same-sex marriage or civil unions after the November 2003 Massachusetts Supreme Judicial Court decision legalizing same-sex marriages (Goodridge v. Department of Public Health), Romney backed a state constitutional amendment in February 2004 that would have banned same-sex marriage but still allow civil unions, viewing it as the only feasible way to ban same-sex marriage in Massachusetts.
+1C2-E-TEST-0050-123.202/001	dilemma
+1C2-E-TEST-0050-123.202/002	same-sex marriage
+1C2-E-TEST-0050-123.202/003	civil unions	DEP=1C2-E-TEST-0050-123.202002
+1C2-E-TEST-0050-123.202/004	november 2003 massachusetts supreme judicial court decision
+1C2-E-TEST-0050-123.202/005	same-sex marriages	DEP=1C2-E-TEST-0050-123.202016
+1C2-E-TEST-0050-123.202/006	goodridge v. department	DEP=1C2-E-TEST-0050-123.202005
+1C2-E-TEST-0050-123.202/007	public health
+1C2-E-TEST-0050-123.202/008	state constitutional amendment	DEP=1C2-E-TEST-0050-123.202017
+1C2-E-TEST-0050-123.202/009	february 2004
+1C2-E-TEST-0050-123.202/010	same-sex marriage	DEP=1C2-E-TEST-0050-123.202018
+1C2-E-TEST-0050-123.202/011	civil unions
+1C2-E-TEST-0050-123.202/012	same-sex marriage	DEP=1C2-E-TEST-0050-123.202022
+1C2-E-TEST-0050-123.202/013	massachusetts
+1C2-E-TEST-0050-123.202/014	faced	DEP=1C2-E-TEST-0050-123.202017
+1C2-E-TEST-0050-123.202/015	choosing
+1C2-E-TEST-0050-123.202/016	legalizing	DEP=1C2-E-TEST-0050-123.202004
+1C2-E-TEST-0050-123.202/017	backed
+1C2-E-TEST-0050-123.202/018	banned	DEP=1C2-E-TEST-0050-123.202008
+1C2-E-TEST-0050-123.202/019	viewing	DEP=1C2-E-TEST-0050-123.202017
+1C2-E-TEST-0050-123.202/020	feasible	DEP=1C2-E-TEST-0050-123.202021
+1C2-E-TEST-0050-123.202/021	way
+1C2-E-TEST-0050-123.202/022	ban	DEP=1C2-E-TEST-0050-123.202019
+1C2-E-TEST-0050-123.203	In May 2004 Romney instructed town clerks to begin issuing marriage licenses to same-sex couples, but citing a 1913 law that barred out-of-state residents from getting married in Massachusetts if their union would be illegal in their home state, no marriage licenses were to be issued to out-of-state same-sex couples not planning to move to Massachusetts.
+1C2-E-TEST-0050-123.203/001	2004
+1C2-E-TEST-0050-123.203/002	town clerks	DEP=1C2-E-TEST-0050-123.203013
+1C2-E-TEST-0050-123.203/003	marriage licenses	DEP=1C2-E-TEST-0050-123.203015
+1C2-E-TEST-0050-123.203/004	same-sex couples
+1C2-E-TEST-0050-123.203/005	1913 law	DEP=1C2-E-TEST-0050-123.203016
+1C2-E-TEST-0050-123.203/006	out-of-state residents	DEP=1C2-E-TEST-0050-123.203017
+1C2-E-TEST-0050-123.203/007	massachusetts
+1C2-E-TEST-0050-123.203/008	union	DEP=1C2-E-TEST-0050-123.203020
+1C2-E-TEST-0050-123.203/009	home state
+1C2-E-TEST-0050-123.203/010	marriage licenses
+1C2-E-TEST-0050-123.203/011	out-of-state same-sex couples
+1C2-E-TEST-0050-123.203/012	massachusetts
+1C2-E-TEST-0050-123.203/013	instructed
+1C2-E-TEST-0050-123.203/014	begin	DEP=1C2-E-TEST-0050-123.203013
+1C2-E-TEST-0050-123.203/015	issuing	DEP=1C2-E-TEST-0050-123.203014
+1C2-E-TEST-0050-123.203/016	citing
+1C2-E-TEST-0050-123.203/017	barred	DEP=1C2-E-TEST-0050-123.203005
+1C2-E-TEST-0050-123.203/018	getting	DEP=1C2-E-TEST-0050-123.203019
+1C2-E-TEST-0050-123.203/019	married
+1C2-E-TEST-0050-123.203/020	illegal	DEP=1C2-E-TEST-0050-123.203019
+1C2-E-TEST-0050-123.203/021	issued
+1C2-E-TEST-0050-123.203/022	planning	DEP=1C2-E-TEST-0050-123.203011
+1C2-E-TEST-0050-123.203/023	move	DEP=1C2-E-TEST-0050-123.203022
+1C2-E-TEST-0050-123.204	In June 2005, Romney abandoned his support for the compromise amendment, stating that the amendment confused voters who oppose both same-sex marriage and civil unions.
+1C2-E-TEST-0050-123.204/001	june 2005
+1C2-E-TEST-0050-123.204/002	support	DEP=1C2-E-TEST-0050-123.204008
+1C2-E-TEST-0050-123.204/003	compromise amendment
+1C2-E-TEST-0050-123.204/004	amendment	DEP=1C2-E-TEST-0050-123.204010
+1C2-E-TEST-0050-123.204/005	voters	DEP=1C2-E-TEST-0050-123.204010
+1C2-E-TEST-0050-123.204/006	same-sex marriage
+1C2-E-TEST-0050-123.204/007	civil unions	DEP=1C2-E-TEST-0050-123.204006
+1C2-E-TEST-0050-123.204/008	abandoned
+1C2-E-TEST-0050-123.204/009	stating	DEP=1C2-E-TEST-0050-123.204008
+1C2-E-TEST-0050-123.204/010	confused	DEP=1C2-E-TEST-0050-123.204009
+1C2-E-TEST-0050-123.205	Instead, Romney endorsed a petition effort led by the Coalition for Marriage & Family that would have banned same-sex marriage and made no provisions for civil unions.
+1C2-E-TEST-0050-123.205/001	petition effort	DEP=1C2-E-TEST-0050-123.205007
+1C2-E-TEST-0050-123.205/002	coalition
+1C2-E-TEST-0050-123.205/003	marriage & family
+1C2-E-TEST-0050-123.205/004	same-sex marriage	DEP=1C2-E-TEST-0050-123.205009
+1C2-E-TEST-0050-123.205/005	provisions	DEP=1C2-E-TEST-0050-123.205010
+1C2-E-TEST-0050-123.205/006	civil unions
+1C2-E-TEST-0050-123.205/007	endorsed
+1C2-E-TEST-0050-123.205/008	led	DEP=1C2-E-TEST-0050-123.205001
+1C2-E-TEST-0050-123.205/009	banned	DEP=1C2-E-TEST-0050-123.205003
+1C2-E-TEST-0050-123.205/010	made	DEP=1C2-E-TEST-0050-123.205007
+1C2-E-TEST-0050-123.206	In 2004 and 2006 he urged the U.S. Senate to vote in favor of the Federal Marriage Amendment.
+1C2-E-TEST-0050-123.206/001	2004 2006
+1C2-E-TEST-0050-123.206/002	u.s. senate	DEP=1C2-E-TEST-0050-123.206006
+1C2-E-TEST-0050-123.206/003	favor
+1C2-E-TEST-0050-123.206/004	federal marriage amendment
+1C2-E-TEST-0050-123.206/005	urged
+1C2-E-TEST-0050-123.206/006	vote	DEP=1C2-E-TEST-0050-123.206005
+1C2-E-TEST-0050-148.165	Mitt Romney: I'm not in favor of changing it.
+1C2-E-TEST-0050-148.165/001	favor
+1C2-E-TEST-0050-148.165/002	changing
+1C2-E-TEST-0050-190.298	Time and time again, as governor, Romney worked to reassure liberals as a ÃÂ¢Ã¢ÂÂ¬ÃÂtoken RepublicanÃÂ¢Ã¢ÂÂ¬ÃÂ.
+1C2-E-TEST-0050-190.298/001	time
+1C2-E-TEST-0050-190.298/002	time	DEP=1C2-E-TEST-0050-190.298001
+1C2-E-TEST-0050-190.298/003	liberals	DEP=1C2-E-TEST-0050-190.298009
+1C2-E-TEST-0050-190.298/004	ã cents
+1C2-E-TEST-0050-190.298/005	¬ å
+1C2-E-TEST-0050-190.298/006	token republicanã cents
+1C2-E-TEST-0050-190.298/007	¬ â
+1C2-E-TEST-0050-190.298/008	worked
+1C2-E-TEST-0050-190.298/009	reassure	DEP=1C2-E-TEST-0050-190.298008
+1C2-E-TEST-0050-190.46	Mitt Romney was governor of Massachusetts from 2003 to 2007.
+1C2-E-TEST-0050-190.46/001	massachusetts
+1C2-E-TEST-0050-190.46/002	2003 2007
+1C2-E-TEST-0050-3.275	[154] He picked his cabinet and advisors more on managerial abilities than partisan affiliation.
+1C2-E-TEST-0050-3.275/001	cabinet advisors	DEP=1C2-E-TEST-0050-3.275005
+1C2-E-TEST-0050-3.275/002	managerial abilities
+1C2-E-TEST-0050-3.275/003	partisan affiliation
+1C2-E-TEST-0050-3.275/004	154
+1C2-E-TEST-0050-3.275/005	picked	DEP=1C2-E-TEST-0050-3.275004
+1C2-E-TEST-0050-3.279	Romney supported raising various fees by more than $300ÃÂÃÂ million, including those for driver's licenses, marriage licenses, and gun licenses.
+1C2-E-TEST-0050-3.279/001	various fees	DEP=1C2-E-TEST-0050-3.279006
+1C2-E-TEST-0050-3.279/002	driver	DEP=1C2-E-TEST-0050-3.279010
+1C2-E-TEST-0050-3.279/003	marriage licenses	DEP=1C2-E-TEST-0050-3.279010
+1C2-E-TEST-0050-3.279/004	gun licenses	DEP=1C2-E-TEST-0050-3.279010
+1C2-E-TEST-0050-3.279/005	supported
+1C2-E-TEST-0050-3.279/006	raising	DEP=1C2-E-TEST-0050-3.279005
+1C2-E-TEST-0050-3.279/007	300ã
+1C2-E-TEST-0050-3.279/008	â	DEP=1C2-E-TEST-0050-3.279009
+1C2-E-TEST-0050-3.279/009	million
+1C2-E-TEST-0050-3.279/010	licenses
+1C2-E-TEST-0050-3.284	The state legislature, with the governor's support, also cut spending by $1.6ÃÂÃÂ billion, including $700ÃÂÃÂ million in reductions in state aid to cities and towns.
+1C2-E-TEST-0050-3.284/001	state legislature	DEP=1C2-E-TEST-0050-3.284007
+1C2-E-TEST-0050-3.284/002	spending	DEP=1C2-E-TEST-0050-3.284007
+1C2-E-TEST-0050-3.284/003	reductions
+1C2-E-TEST-0050-3.284/004	state aid
+1C2-E-TEST-0050-3.284/005	cities towns
+1C2-E-TEST-0050-3.284/006	support
+1C2-E-TEST-0050-3.284/007	cut
+1C2-E-TEST-0050-3.284/008	1.6
+1C2-E-TEST-0050-3.284/009	ã
+1C2-E-TEST-0050-3.284/010	â	DEP=1C2-E-TEST-0050-3.284011
+1C2-E-TEST-0050-3.284/011	billion	DEP=1C2-E-TEST-0050-3.284009
+1C2-E-TEST-0050-3.284/012	700ã
+1C2-E-TEST-0050-3.284/013	â	DEP=1C2-E-TEST-0050-3.284014
+1C2-E-TEST-0050-3.284/014	million
+1C2-E-TEST-0050-3.291	Romney sought to bring near-universal health insurance coverage to the state.
+1C2-E-TEST-0050-3.291/001	near-universal health insurance coverage	DEP=1C2-E-TEST-0050-3.291004
+1C2-E-TEST-0050-3.291/002	state
+1C2-E-TEST-0050-3.291/003	sought
+1C2-E-TEST-0050-3.291/004	bring	DEP=1C2-E-TEST-0050-3.291003
+1C2-E-TEST-0050-3.299	[165] [168] The effort eventually gained the support of all major stakeholders within the state, and Romney helped break a logjam between rival Democratic leaders in the legislature.
+1C2-E-TEST-0050-3.299/001	effort	DEP=1C2-E-TEST-0050-3.299011
+1C2-E-TEST-0050-3.299/002	support	DEP=1C2-E-TEST-0050-3.299011
+1C2-E-TEST-0050-3.299/003	major stakeholders
+1C2-E-TEST-0050-3.299/004	state
+1C2-E-TEST-0050-3.299/005	logjam	DEP=1C2-E-TEST-0050-3.299013
+1C2-E-TEST-0050-3.299/006	rival democratic leaders
+1C2-E-TEST-0050-3.299/007	legislature
+1C2-E-TEST-0050-3.299/008	165	DEP=1C2-E-TEST-0050-3.299011
+1C2-E-TEST-0050-3.299/009	168	DEP=1C2-E-TEST-0050-3.299008
+1C2-E-TEST-0050-3.299/010	eventually	DEP=1C2-E-TEST-0050-3.299011
+1C2-E-TEST-0050-3.299/011	gained
+1C2-E-TEST-0050-3.299/012	helped	DEP=1C2-E-TEST-0050-3.299011
+1C2-E-TEST-0050-3.299/013	break	DEP=1C2-E-TEST-0050-3.299012
+1C2-E-TEST-0050-3.309	[171] [172] [173] He vetoed eight sections of the health care legislation, including a controversial $295-per-employee assessment on businesses that do not offer health insurance and provisions guaranteeing dental benefits to Medicaid recipients.
+1C2-E-TEST-0050-3.309/001	eight sections	DEP=1C2-E-TEST-0050-3.309010
+1C2-E-TEST-0050-3.309/002	health care legislation
+1C2-E-TEST-0050-3.309/003	businesses
+1C2-E-TEST-0050-3.309/004	health insurance provisions	DEP=1C2-E-TEST-0050-3.309014
+1C2-E-TEST-0050-3.309/005	dental benefits	DEP=1C2-E-TEST-0050-3.309015
+1C2-E-TEST-0050-3.309/006	medicaid recipients
+1C2-E-TEST-0050-3.309/007	171	DEP=1C2-E-TEST-0050-3.309010
+1C2-E-TEST-0050-3.309/008	172	DEP=1C2-E-TEST-0050-3.309007
+1C2-E-TEST-0050-3.309/009	173	DEP=1C2-E-TEST-0050-3.309007
+1C2-E-TEST-0050-3.309/010	vetoed
+1C2-E-TEST-0050-3.309/011	controversial	DEP=1C2-E-TEST-0050-3.309013
+1C2-E-TEST-0050-3.309/012	295-per-employee
+1C2-E-TEST-0050-3.309/013	assessment
+1C2-E-TEST-0050-3.309/014	offer	DEP=1C2-E-TEST-0050-3.309003
+1C2-E-TEST-0050-3.309/015	guaranteeing	DEP=1C2-E-TEST-0050-3.309004
+1C2-E-TEST-0050-3.313	At the beginning of his governorship, Romney opposed same-sex marriage and civil unions, but advocated tolerance and supported some domestic partnership benefits.
+1C2-E-TEST-0050-3.313/001	beginning
+1C2-E-TEST-0050-3.313/002	governorship
+1C2-E-TEST-0050-3.313/003	same-sex marriage	DEP=1C2-E-TEST-0050-3.313007
+1C2-E-TEST-0050-3.313/004	civil unions	DEP=1C2-E-TEST-0050-3.313003
+1C2-E-TEST-0050-3.313/005	tolerance	DEP=1C2-E-TEST-0050-3.313008
+1C2-E-TEST-0050-3.313/006	domestic partnership benefits	DEP=1C2-E-TEST-0050-3.313009
+1C2-E-TEST-0050-3.313/007	opposed
+1C2-E-TEST-0050-3.313/008	advocated	DEP=1C2-E-TEST-0050-3.313007
+1C2-E-TEST-0050-3.313/009	supported	DEP=1C2-E-TEST-0050-3.313007
+1C2-E-TEST-0050-3.314	[168] [176] [177] Faced with the dilemma of choosing between same-sex marriage or civil unions after the November 2003 Massachusetts Supreme Judicial Court decision legalizing same-sex marriages ( Goodridge v. Department of Public Health ), Romney reluctantly backed a state constitutional amendment in February 2004 that would have banned same-sex marriage but still allow civil unions, viewing it as the only feasible way to ban same-sex marriage in Massachusetts.
+1C2-E-TEST-0050-3.314/001	176	DEP=1C2-E-TEST-0050-3.314016
+1C2-E-TEST-0050-3.314/002	177	DEP=1C2-E-TEST-0050-3.314016
+1C2-E-TEST-0050-3.314/003	dilemma
+1C2-E-TEST-0050-3.314/004	same-sex marriage
+1C2-E-TEST-0050-3.314/005	civil unions	DEP=1C2-E-TEST-0050-3.314004
+1C2-E-TEST-0050-3.314/006	november 2003 massachusetts supreme judicial court decision
+1C2-E-TEST-0050-3.314/007	same-sex marriages	DEP=1C2-E-TEST-0050-3.314019
+1C2-E-TEST-0050-3.314/008	goodridge v. department	DEP=1C2-E-TEST-0050-3.314007
+1C2-E-TEST-0050-3.314/009	public health
+1C2-E-TEST-0050-3.314/010	state constitutional amendment	DEP=1C2-E-TEST-0050-3.314021
+1C2-E-TEST-0050-3.314/011	february 2004
+1C2-E-TEST-0050-3.314/012	same-sex marriage	DEP=1C2-E-TEST-0050-3.314022
+1C2-E-TEST-0050-3.314/013	civil unions
+1C2-E-TEST-0050-3.314/014	same-sex marriage	DEP=1C2-E-TEST-0050-3.314026
+1C2-E-TEST-0050-3.314/015	massachusetts
+1C2-E-TEST-0050-3.314/016	168	DEP=1C2-E-TEST-0050-3.314017
+1C2-E-TEST-0050-3.314/017	faced	DEP=1C2-E-TEST-0050-3.314021
+1C2-E-TEST-0050-3.314/018	choosing
+1C2-E-TEST-0050-3.314/019	legalizing	DEP=1C2-E-TEST-0050-3.314006
+1C2-E-TEST-0050-3.314/020	reluctantly	DEP=1C2-E-TEST-0050-3.314021
+1C2-E-TEST-0050-3.314/021	backed
+1C2-E-TEST-0050-3.314/022	banned	DEP=1C2-E-TEST-0050-3.314010
+1C2-E-TEST-0050-3.314/023	viewing	DEP=1C2-E-TEST-0050-3.314021
+1C2-E-TEST-0050-3.314/024	feasible	DEP=1C2-E-TEST-0050-3.314025
+1C2-E-TEST-0050-3.314/025	way
+1C2-E-TEST-0050-3.314/026	ban	DEP=1C2-E-TEST-0050-3.314023
+1C2-E-TEST-0050-3.315	[178] In May 2004, the governor instructed town clerks to begin issuing marriage licenses to same-sex couples, but citing a 1913 law that barred out-of-state residents from getting married in Massachusetts if their union would be illegal in their home state, no marriage licenses were to be issued to out-of-state same-sex couples not planning to move to Massachusetts.
+1C2-E-TEST-0050-3.315/001	2004
+1C2-E-TEST-0050-3.315/002	town clerks	DEP=1C2-E-TEST-0050-3.315014
+1C2-E-TEST-0050-3.315/003	marriage licenses	DEP=1C2-E-TEST-0050-3.315016
+1C2-E-TEST-0050-3.315/004	same-sex couples
+1C2-E-TEST-0050-3.315/005	1913 law	DEP=1C2-E-TEST-0050-3.315017
+1C2-E-TEST-0050-3.315/006	out-of-state residents	DEP=1C2-E-TEST-0050-3.315018
+1C2-E-TEST-0050-3.315/007	massachusetts
+1C2-E-TEST-0050-3.315/008	union	DEP=1C2-E-TEST-0050-3.315021
+1C2-E-TEST-0050-3.315/009	home state
+1C2-E-TEST-0050-3.315/010	marriage licenses
+1C2-E-TEST-0050-3.315/011	out-of-state same-sex couples
+1C2-E-TEST-0050-3.315/012	massachusetts
+1C2-E-TEST-0050-3.315/013	178	DEP=1C2-E-TEST-0050-3.315014
+1C2-E-TEST-0050-3.315/014	instructed
+1C2-E-TEST-0050-3.315/015	begin	DEP=1C2-E-TEST-0050-3.315014
+1C2-E-TEST-0050-3.315/016	issuing	DEP=1C2-E-TEST-0050-3.315015
+1C2-E-TEST-0050-3.315/017	citing	DEP=1C2-E-TEST-0050-3.315016
+1C2-E-TEST-0050-3.315/018	barred	DEP=1C2-E-TEST-0050-3.315005
+1C2-E-TEST-0050-3.315/019	getting	DEP=1C2-E-TEST-0050-3.315020
+1C2-E-TEST-0050-3.315/020	married
+1C2-E-TEST-0050-3.315/021	illegal	DEP=1C2-E-TEST-0050-3.315015
+1C2-E-TEST-0050-3.315/022	issued
+1C2-E-TEST-0050-3.315/023	planning	DEP=1C2-E-TEST-0050-3.315011
+1C2-E-TEST-0050-3.315/024	move	DEP=1C2-E-TEST-0050-3.315023
+1C2-E-TEST-0050-3.316	[176] [179] In June 2005, Romney abandoned his support for the compromise amendment, stating that the amendment confused voters who oppose both same-sex marriage and civil unions.
+1C2-E-TEST-0050-3.316/001	support	DEP=1C2-E-TEST-0050-3.316011
+1C2-E-TEST-0050-3.316/002	compromise amendment
+1C2-E-TEST-0050-3.316/003	amendment	DEP=1C2-E-TEST-0050-3.316013
+1C2-E-TEST-0050-3.316/004	voters	DEP=1C2-E-TEST-0050-3.316013
+1C2-E-TEST-0050-3.316/005	same-sex marriage
+1C2-E-TEST-0050-3.316/006	civil unions	DEP=1C2-E-TEST-0050-3.316005
+1C2-E-TEST-0050-3.316/007	176
+1C2-E-TEST-0050-3.316/008	179	DEP=1C2-E-TEST-0050-3.316007
+1C2-E-TEST-0050-3.316/009	june	DEP=1C2-E-TEST-0050-3.316011
+1C2-E-TEST-0050-3.316/010	2005	DEP=1C2-E-TEST-0050-3.316009
+1C2-E-TEST-0050-3.316/011	abandoned
+1C2-E-TEST-0050-3.316/012	stating	DEP=1C2-E-TEST-0050-3.316011
+1C2-E-TEST-0050-3.316/013	confused	DEP=1C2-E-TEST-0050-3.316012
+1C2-E-TEST-0050-3.317	[176] Instead, he endorsed a petition effort led by the Coalition for Marriage & Family that would have banned same-sex marriage and made no provisions for civil unions.
+1C2-E-TEST-0050-3.317/001	petition effort	DEP=1C2-E-TEST-0050-3.317008
+1C2-E-TEST-0050-3.317/002	coalition
+1C2-E-TEST-0050-3.317/003	marriage & family
+1C2-E-TEST-0050-3.317/004	same-sex marriage	DEP=1C2-E-TEST-0050-3.317010
+1C2-E-TEST-0050-3.317/005	provisions	DEP=1C2-E-TEST-0050-3.317011
+1C2-E-TEST-0050-3.317/006	civil unions
+1C2-E-TEST-0050-3.317/007	176	DEP=1C2-E-TEST-0050-3.317008
+1C2-E-TEST-0050-3.317/008	endorsed	DEP=1C2-E-TEST-0050-3.317010
+1C2-E-TEST-0050-3.317/009	led	DEP=1C2-E-TEST-0050-3.317001
+1C2-E-TEST-0050-3.317/010	banned
+1C2-E-TEST-0050-3.317/011	made	DEP=1C2-E-TEST-0050-3.317010
+1C2-E-TEST-0050-39.18	He picked his cabinet and advisors more on managerial abilities than partisan affiliation.
+1C2-E-TEST-0050-39.18/001	cabinet advisors	DEP=1C2-E-TEST-0050-39.18004
+1C2-E-TEST-0050-39.18/002	managerial abilities
+1C2-E-TEST-0050-39.18/003	partisan affiliation
+1C2-E-TEST-0050-39.18/004	picked
+1C2-E-TEST-0050-39.22	Romney supported raising various fees by more than $300 million, including those for driverÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s licenses, marriage licenses, and gun licenses.
+1C2-E-TEST-0050-39.22/001	various fees	DEP=1C2-E-TEST-0050-39.22009
+1C2-E-TEST-0050-39.22/002	driverã cents
+1C2-E-TEST-0050-39.22/003	¬	DEP=1C2-E-TEST-0050-39.22005
+1C2-E-TEST-0050-39.22/004	â cents	DEP=1C2-E-TEST-0050-39.22003
+1C2-E-TEST-0050-39.22/005	licenses
+1C2-E-TEST-0050-39.22/006	marriage licenses	DEP=1C2-E-TEST-0050-39.22005
+1C2-E-TEST-0050-39.22/007	gun licenses	DEP=1C2-E-TEST-0050-39.22005
+1C2-E-TEST-0050-39.22/008	supported
+1C2-E-TEST-0050-39.22/009	raising
+1C2-E-TEST-0050-39.22/010	300
+1C2-E-TEST-0050-39.22/011	million
+1C2-E-TEST-0050-39.22/012	s	DEP=1C2-E-TEST-0050-39.22005
+1C2-E-TEST-0050-39.23	Romney increased the state gasoline fee by 2 cents per gallon, generating about $60 million per year in additional revenue.
+1C2-E-TEST-0050-39.23/001	state gasoline fee	DEP=1C2-E-TEST-0050-39.23004
+1C2-E-TEST-0050-39.23/002	2 cents
+1C2-E-TEST-0050-39.23/003	additional revenue
+1C2-E-TEST-0050-39.23/004	increased
+1C2-E-TEST-0050-39.23/005	gallon	DEP=1C2-E-TEST-0050-39.23002
+1C2-E-TEST-0050-39.23/006	generating	DEP=1C2-E-TEST-0050-39.23004
+1C2-E-TEST-0050-39.23/007	60
+1C2-E-TEST-0050-39.23/008	million
+1C2-E-TEST-0050-39.28	The combined state and local fee burden in Massachusetts increased during RomneyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s governorship but still was below the national average According to the Tax Foundation , that per capita burden was 9.8 percent in 2002 (below the national average of 10.3 percent), and 10.5 percent in 2006 (below the national average of 10.8 percent).
+1C2-E-TEST-0050-39.28/001	combined state	DEP=1C2-E-TEST-0050-39.28019
+1C2-E-TEST-0050-39.28/002	local fee burden	DEP=1C2-E-TEST-0050-39.28001
+1C2-E-TEST-0050-39.28/003	massachusetts
+1C2-E-TEST-0050-39.28/004	romneyã cents
+1C2-E-TEST-0050-39.28/005	¬
+1C2-E-TEST-0050-39.28/006	â cents	DEP=1C2-E-TEST-0050-39.28007
+1C2-E-TEST-0050-39.28/007	governorship	DEP=1C2-E-TEST-0050-39.28005
+1C2-E-TEST-0050-39.28/008	national average
+1C2-E-TEST-0050-39.28/009	tax
+1C2-E-TEST-0050-39.28/010	foundation
+1C2-E-TEST-0050-39.28/011	9.8 percent	DEP=1C2-E-TEST-0050-39.28010
+1C2-E-TEST-0050-39.28/012	2002
+1C2-E-TEST-0050-39.28/013	national average
+1C2-E-TEST-0050-39.28/014	10.3 percent
+1C2-E-TEST-0050-39.28/015	10.5 percent	DEP=1C2-E-TEST-0050-39.28012
+1C2-E-TEST-0050-39.28/016	2006
+1C2-E-TEST-0050-39.28/017	national average
+1C2-E-TEST-0050-39.28/018	10.8 percent
+1C2-E-TEST-0050-39.28/019	increased
+1C2-E-TEST-0050-39.28/020	s	DEP=1C2-E-TEST-0050-39.28007
+1C2-E-TEST-0050-39.28/021	capita	DEP=1C2-E-TEST-0050-39.28022
+1C2-E-TEST-0050-39.28/022	burden	DEP=1C2-E-TEST-0050-39.28011
+1C2-E-TEST-0050-39.32	In particular, Romney successfully pushed for incorporating an individual mandate at the state level.
+1C2-E-TEST-0050-39.32/001	individual mandate	DEP=1C2-E-TEST-0050-39.32006
+1C2-E-TEST-0050-39.32/002	state level
+1C2-E-TEST-0050-39.32/003	particular
+1C2-E-TEST-0050-39.32/004	successfully	DEP=1C2-E-TEST-0050-39.32005
+1C2-E-TEST-0050-39.32/005	pushed
+1C2-E-TEST-0050-39.32/006	incorporating
+1C2-E-TEST-0050-39.34	The effort eventually gained the support of all major stakeholders within the state, and Romney helped break a logjam between rival Democratic leaders in the legislature.
+1C2-E-TEST-0050-39.34/001	effort	DEP=1C2-E-TEST-0050-39.34009
+1C2-E-TEST-0050-39.34/002	support	DEP=1C2-E-TEST-0050-39.34009
+1C2-E-TEST-0050-39.34/003	major stakeholders
+1C2-E-TEST-0050-39.34/004	state
+1C2-E-TEST-0050-39.34/005	logjam	DEP=1C2-E-TEST-0050-39.34011
+1C2-E-TEST-0050-39.34/006	rival democratic leaders
+1C2-E-TEST-0050-39.34/007	legislature
+1C2-E-TEST-0050-39.34/008	eventually	DEP=1C2-E-TEST-0050-39.34009
+1C2-E-TEST-0050-39.34/009	gained
+1C2-E-TEST-0050-39.34/010	helped	DEP=1C2-E-TEST-0050-39.34009
+1C2-E-TEST-0050-39.34/011	break	DEP=1C2-E-TEST-0050-39.34010
+1C2-E-TEST-0050-39.35	On April 12, 2006, Romney signed the resulting Massachusetts health reform law , which requires nearly all Massachusetts residents to buy health insurance coverage or face escalating tax penalties such as the loss of their personal income tax exemption.
+1C2-E-TEST-0050-39.35/001	april 12 2006
+1C2-E-TEST-0050-39.35/002	resulting massachusetts health reform law	DEP=1C2-E-TEST-0050-39.35009
+1C2-E-TEST-0050-39.35/003	nearly massachusetts residents	DEP=1C2-E-TEST-0050-39.35011
+1C2-E-TEST-0050-39.35/004	health insurance coverage	DEP=1C2-E-TEST-0050-39.35012
+1C2-E-TEST-0050-39.35/005	face	DEP=1C2-E-TEST-0050-39.35004
+1C2-E-TEST-0050-39.35/006	tax penalties	DEP=1C2-E-TEST-0050-39.35012
+1C2-E-TEST-0050-39.35/007	loss
+1C2-E-TEST-0050-39.35/008	personal income tax exemption
+1C2-E-TEST-0050-39.35/009	signed
+1C2-E-TEST-0050-39.35/010	requires	DEP=1C2-E-TEST-0050-39.35002
+1C2-E-TEST-0050-39.35/011	buy	DEP=1C2-E-TEST-0050-39.35010
+1C2-E-TEST-0050-39.35/012	escalating	DEP=1C2-E-TEST-0050-39.35011
+1C2-E-TEST-0050-39.36	The bill also establishes means-tested state subsidies for people who do not have adequate employer insurance and who make below an income threshold, by using funds previously designated to compensate for the health costs of the uninsured.
+1C2-E-TEST-0050-39.36/001	bill	DEP=1C2-E-TEST-0050-39.36009
+1C2-E-TEST-0050-39.36/002	means-tested state subsidies	DEP=1C2-E-TEST-0050-39.36009
+1C2-E-TEST-0050-39.36/003	people
+1C2-E-TEST-0050-39.36/004	adequate employer insurance
+1C2-E-TEST-0050-39.36/005	income threshold
+1C2-E-TEST-0050-39.36/006	funds
+1C2-E-TEST-0050-39.36/007	health costs
+1C2-E-TEST-0050-39.36/008	uninsured
+1C2-E-TEST-0050-39.36/009	establishes
+1C2-E-TEST-0050-39.36/010	previously	DEP=1C2-E-TEST-0050-39.36011
+1C2-E-TEST-0050-39.36/011	designated	DEP=1C2-E-TEST-0050-39.36006
+1C2-E-TEST-0050-39.36/012	compensate
+1C2-E-TEST-0050-39.37	He vetoed eight sections of the health care legislation, including a controversial $295-per-employee assessment on businesses that do not offer health insurance and provisions guaranteeing dental benefits to Medicaid recipients.
+1C2-E-TEST-0050-39.37/001	eight sections	DEP=1C2-E-TEST-0050-39.37007
+1C2-E-TEST-0050-39.37/002	health care legislation
+1C2-E-TEST-0050-39.37/003	businesses
+1C2-E-TEST-0050-39.37/004	health insurance provisions	DEP=1C2-E-TEST-0050-39.37011
+1C2-E-TEST-0050-39.37/005	dental benefits	DEP=1C2-E-TEST-0050-39.37012
+1C2-E-TEST-0050-39.37/006	medicaid recipients
+1C2-E-TEST-0050-39.37/007	vetoed
+1C2-E-TEST-0050-39.37/008	controversial	DEP=1C2-E-TEST-0050-39.37010
+1C2-E-TEST-0050-39.37/009	295-per-employee
+1C2-E-TEST-0050-39.37/010	assessment
+1C2-E-TEST-0050-39.37/011	offer	DEP=1C2-E-TEST-0050-39.37003
+1C2-E-TEST-0050-39.37/012	guaranteeing	DEP=1C2-E-TEST-0050-39.37004
+1C2-E-TEST-0050-39.46	At the beginning of his governorship, Romney opposed same-sex marriage and civil unions, but advocated tolerance and supported some domestic partnership benefits.
+1C2-E-TEST-0050-39.46/001	beginning
+1C2-E-TEST-0050-39.46/002	governorship
+1C2-E-TEST-0050-39.46/003	same-sex marriage	DEP=1C2-E-TEST-0050-39.46007
+1C2-E-TEST-0050-39.46/004	civil unions	DEP=1C2-E-TEST-0050-39.46003
+1C2-E-TEST-0050-39.46/005	tolerance	DEP=1C2-E-TEST-0050-39.46008
+1C2-E-TEST-0050-39.46/006	domestic partnership benefits	DEP=1C2-E-TEST-0050-39.46009
+1C2-E-TEST-0050-39.46/007	opposed
+1C2-E-TEST-0050-39.46/008	advocated	DEP=1C2-E-TEST-0050-39.46007
+1C2-E-TEST-0050-39.46/009	supported	DEP=1C2-E-TEST-0050-39.46007
+1C2-E-TEST-0050-39.47	Faced with the dilemma of choosing between same-sex marriage or civil unions after the November 2003 Massachusetts Supreme Judicial Court decision legalizing same-sex marriages ( Goodridge v. Department of Public Health ), Romney reluctantly backed a state constitutional amendment in February 2004 that would have banned same-sex marriage but still allow civil unions, viewing it as the only feasible way to ban same-sex marriage in Massachusetts.
+1C2-E-TEST-0050-39.47/001	dilemma
+1C2-E-TEST-0050-39.47/002	same-sex marriage
+1C2-E-TEST-0050-39.47/003	civil unions	DEP=1C2-E-TEST-0050-39.47002
+1C2-E-TEST-0050-39.47/004	november 2003 massachusetts supreme judicial court decision
+1C2-E-TEST-0050-39.47/005	same-sex marriages	DEP=1C2-E-TEST-0050-39.47016
+1C2-E-TEST-0050-39.47/006	goodridge v. department	DEP=1C2-E-TEST-0050-39.47005
+1C2-E-TEST-0050-39.47/007	public health
+1C2-E-TEST-0050-39.47/008	state constitutional amendment	DEP=1C2-E-TEST-0050-39.47018
+1C2-E-TEST-0050-39.47/009	february 2004
+1C2-E-TEST-0050-39.47/010	same-sex marriage	DEP=1C2-E-TEST-0050-39.47019
+1C2-E-TEST-0050-39.47/011	civil unions
+1C2-E-TEST-0050-39.47/012	same-sex marriage	DEP=1C2-E-TEST-0050-39.47023
+1C2-E-TEST-0050-39.47/013	massachusetts
+1C2-E-TEST-0050-39.47/014	faced	DEP=1C2-E-TEST-0050-39.47018
+1C2-E-TEST-0050-39.47/015	choosing
+1C2-E-TEST-0050-39.47/016	legalizing	DEP=1C2-E-TEST-0050-39.47004
+1C2-E-TEST-0050-39.47/017	reluctantly	DEP=1C2-E-TEST-0050-39.47018
+1C2-E-TEST-0050-39.47/018	backed
+1C2-E-TEST-0050-39.47/019	banned	DEP=1C2-E-TEST-0050-39.47008
+1C2-E-TEST-0050-39.47/020	viewing	DEP=1C2-E-TEST-0050-39.47018
+1C2-E-TEST-0050-39.47/021	feasible	DEP=1C2-E-TEST-0050-39.47022
+1C2-E-TEST-0050-39.47/022	way
+1C2-E-TEST-0050-39.47/023	ban	DEP=1C2-E-TEST-0050-39.47020
+1C2-E-TEST-0050-39.48	In May 2004 Romney instructed town clerks to begin issuing marriage licenses to same-sex couples, but citing a 1913 law that barred out-of-state residents from getting married in Massachusetts if their union would be illegal in their home state, no marriage licenses were to be issued to out-of-state same-sex couples not planning to move to Massachusetts.
+1C2-E-TEST-0050-39.48/001	2004
+1C2-E-TEST-0050-39.48/002	town clerks	DEP=1C2-E-TEST-0050-39.48013
+1C2-E-TEST-0050-39.48/003	marriage licenses	DEP=1C2-E-TEST-0050-39.48015
+1C2-E-TEST-0050-39.48/004	same-sex couples
+1C2-E-TEST-0050-39.48/005	1913 law	DEP=1C2-E-TEST-0050-39.48016
+1C2-E-TEST-0050-39.48/006	out-of-state residents	DEP=1C2-E-TEST-0050-39.48017
+1C2-E-TEST-0050-39.48/007	massachusetts
+1C2-E-TEST-0050-39.48/008	union	DEP=1C2-E-TEST-0050-39.48020
+1C2-E-TEST-0050-39.48/009	home state
+1C2-E-TEST-0050-39.48/010	marriage licenses
+1C2-E-TEST-0050-39.48/011	out-of-state same-sex couples
+1C2-E-TEST-0050-39.48/012	massachusetts
+1C2-E-TEST-0050-39.48/013	instructed
+1C2-E-TEST-0050-39.48/014	begin	DEP=1C2-E-TEST-0050-39.48013
+1C2-E-TEST-0050-39.48/015	issuing	DEP=1C2-E-TEST-0050-39.48014
+1C2-E-TEST-0050-39.48/016	citing
+1C2-E-TEST-0050-39.48/017	barred	DEP=1C2-E-TEST-0050-39.48005
+1C2-E-TEST-0050-39.48/018	getting	DEP=1C2-E-TEST-0050-39.48019
+1C2-E-TEST-0050-39.48/019	married
+1C2-E-TEST-0050-39.48/020	illegal	DEP=1C2-E-TEST-0050-39.48019
+1C2-E-TEST-0050-39.48/021	issued
+1C2-E-TEST-0050-39.48/022	planning	DEP=1C2-E-TEST-0050-39.48011
+1C2-E-TEST-0050-39.48/023	move	DEP=1C2-E-TEST-0050-39.48022
+1C2-E-TEST-0050-39.49	In June 2005, Romney abandoned his support for the compromise amendment, stating that the amendment confused voters who oppose both same-sex marriage and civil unions.
+1C2-E-TEST-0050-39.49/001	june 2005
+1C2-E-TEST-0050-39.49/002	support	DEP=1C2-E-TEST-0050-39.49008
+1C2-E-TEST-0050-39.49/003	compromise amendment
+1C2-E-TEST-0050-39.49/004	amendment	DEP=1C2-E-TEST-0050-39.49010
+1C2-E-TEST-0050-39.49/005	voters	DEP=1C2-E-TEST-0050-39.49010
+1C2-E-TEST-0050-39.49/006	same-sex marriage
+1C2-E-TEST-0050-39.49/007	civil unions	DEP=1C2-E-TEST-0050-39.49006
+1C2-E-TEST-0050-39.49/008	abandoned
+1C2-E-TEST-0050-39.49/009	stating	DEP=1C2-E-TEST-0050-39.49008
+1C2-E-TEST-0050-39.49/010	confused	DEP=1C2-E-TEST-0050-39.49009
+1C2-E-TEST-0050-39.50	Instead, Romney endorsed a petition effort led by the Coalition for Marriage & Family that would have banned same-sex marriage and made no provisions for civil unions.
+1C2-E-TEST-0050-39.50/001	petition effort	DEP=1C2-E-TEST-0050-39.50007
+1C2-E-TEST-0050-39.50/002	coalition
+1C2-E-TEST-0050-39.50/003	marriage & family
+1C2-E-TEST-0050-39.50/004	same-sex marriage	DEP=1C2-E-TEST-0050-39.50009
+1C2-E-TEST-0050-39.50/005	provisions	DEP=1C2-E-TEST-0050-39.50010
+1C2-E-TEST-0050-39.50/006	civil unions
+1C2-E-TEST-0050-39.50/007	endorsed
+1C2-E-TEST-0050-39.50/008	led	DEP=1C2-E-TEST-0050-39.50001
+1C2-E-TEST-0050-39.50/009	banned	DEP=1C2-E-TEST-0050-39.50003
+1C2-E-TEST-0050-39.50/010	made	DEP=1C2-E-TEST-0050-39.50007
+1C2-E-TEST-0050-39.51	In 2004 and 2006 he urged the U.S. Senate to vote in favor of the Federal Marriage Amendment .
+1C2-E-TEST-0050-39.51/001	2004 2006
+1C2-E-TEST-0050-39.51/002	u.s. senate	DEP=1C2-E-TEST-0050-39.51006
+1C2-E-TEST-0050-39.51/003	favor
+1C2-E-TEST-0050-39.51/004	federal marriage amendment
+1C2-E-TEST-0050-39.51/005	urged
+1C2-E-TEST-0050-39.51/006	vote	DEP=1C2-E-TEST-0050-39.51005
+1C2-E-TEST-0050-39.58	Midway through his term, Romney decided that he wanted to stage a full-time run for president, and on December 14, 2005, Romney announced that he would not seek re-election for a second term as governor.
+1C2-E-TEST-0050-39.58/001	midway	DEP=1C2-E-TEST-0050-39.58008
+1C2-E-TEST-0050-39.58/002	term
+1C2-E-TEST-0050-39.58/003	full-time run	DEP=1C2-E-TEST-0050-39.58010
+1C2-E-TEST-0050-39.58/004	president
+1C2-E-TEST-0050-39.58/005	december 14 2005
+1C2-E-TEST-0050-39.58/006	re-election	DEP=1C2-E-TEST-0050-39.58012
+1C2-E-TEST-0050-39.58/007	second term
+1C2-E-TEST-0050-39.58/008	decided
+1C2-E-TEST-0050-39.58/009	wanted	DEP=1C2-E-TEST-0050-39.58008
+1C2-E-TEST-0050-39.58/010	stage	DEP=1C2-E-TEST-0050-39.58009
+1C2-E-TEST-0050-39.58/011	announced	DEP=1C2-E-TEST-0050-39.58008
+1C2-E-TEST-0050-39.58/012	seek	DEP=1C2-E-TEST-0050-39.58011
+1C2-E-TEST-0050-5.197	In June 2005, Romney abandoned his support for the compromise amendment, stating that the amendment confused voters who oppose both gay marriage and civil unions.
+1C2-E-TEST-0050-5.197/001	june 2005
+1C2-E-TEST-0050-5.197/002	support	DEP=1C2-E-TEST-0050-5.197008
+1C2-E-TEST-0050-5.197/003	compromise amendment
+1C2-E-TEST-0050-5.197/004	amendment	DEP=1C2-E-TEST-0050-5.197010
+1C2-E-TEST-0050-5.197/005	voters	DEP=1C2-E-TEST-0050-5.197010
+1C2-E-TEST-0050-5.197/006	gay marriage
+1C2-E-TEST-0050-5.197/007	civil unions	DEP=1C2-E-TEST-0050-5.197006
+1C2-E-TEST-0050-5.197/008	abandoned
+1C2-E-TEST-0050-5.197/009	stating	DEP=1C2-E-TEST-0050-5.197008
+1C2-E-TEST-0050-5.197/010	confused	DEP=1C2-E-TEST-0050-5.197009
+1C2-E-TEST-0050-5.199	In June 2005, Romney endorsed a petition effort led by the Coalition for Marriage & Family that would ban gay marriage and make no provisions for civil unions.
+1C2-E-TEST-0050-5.199/001	june 2005
+1C2-E-TEST-0050-5.199/002	petition effort	DEP=1C2-E-TEST-0050-5.199008
+1C2-E-TEST-0050-5.199/003	coalition
+1C2-E-TEST-0050-5.199/004	marriage & family
+1C2-E-TEST-0050-5.199/005	gay marriage	DEP=1C2-E-TEST-0050-5.199010
+1C2-E-TEST-0050-5.199/006	provisions	DEP=1C2-E-TEST-0050-5.199011
+1C2-E-TEST-0050-5.199/007	civil unions
+1C2-E-TEST-0050-5.199/008	endorsed
+1C2-E-TEST-0050-5.199/009	led	DEP=1C2-E-TEST-0050-5.199002
+1C2-E-TEST-0050-5.199/010	ban	DEP=1C2-E-TEST-0050-5.199004
+1C2-E-TEST-0050-5.199/011	make	DEP=1C2-E-TEST-0050-5.199010
+1C2-E-TEST-0050-5.5	Upon taking office, Romney faced a state legislature in which Democrats held 85ÃÂÃÂ percent of the seats.
+1C2-E-TEST-0050-5.5/001	office	DEP=1C2-E-TEST-0050-5.5006
+1C2-E-TEST-0050-5.5/002	state legislature	DEP=1C2-E-TEST-0050-5.5007
+1C2-E-TEST-0050-5.5/003	democrats	DEP=1C2-E-TEST-0050-5.5008
+1C2-E-TEST-0050-5.5/004	85ã â percent	DEP=1C2-E-TEST-0050-5.5008
+1C2-E-TEST-0050-5.5/005	seats
+1C2-E-TEST-0050-5.5/006	taking
+1C2-E-TEST-0050-5.5/007	faced
+1C2-E-TEST-0050-5.5/008	held	DEP=1C2-E-TEST-0050-5.5002
+1C2-E-TEST-0050-5.72	The combined state and local tax burden in Massachusetts increased during Romney's governorship but still was below the national average.
+1C2-E-TEST-0050-5.72/001	combined state	DEP=1C2-E-TEST-0050-5.72005
+1C2-E-TEST-0050-5.72/002	local tax burden	DEP=1C2-E-TEST-0050-5.72001
+1C2-E-TEST-0050-5.72/003	massachusetts
+1C2-E-TEST-0050-5.72/004	national average
+1C2-E-TEST-0050-5.72/005	increased
+1C2-E-TEST-0050-5.72/006	governorship
+1C2-E-TEST-0050-5.87	[41] After positing that any measure adopted not raise taxes and not resemble the previous decade's failed "Hillarycare" proposal , Romney formed a team that beginning in late 2004 came up with a set of proposals more innovative than an incremental one from the Massachusetts Senate and more acceptable to him than one from the Massachusetts House of Representatives that incorporated a new payroll tax.
+1C2-E-TEST-0050-5.87/001	measure	DEP=1C2-E-TEST-0050-5.87016
+1C2-E-TEST-0050-5.87/002	taxes	DEP=1C2-E-TEST-0050-5.87017
+1C2-E-TEST-0050-5.87/003	previous decade	DEP=1C2-E-TEST-0050-5.87020
+1C2-E-TEST-0050-5.87/004	hillarycare	DEP=1C2-E-TEST-0050-5.87019
+1C2-E-TEST-0050-5.87/005	team	DEP=1C2-E-TEST-0050-5.87021
+1C2-E-TEST-0050-5.87/006	late 2004
+1C2-E-TEST-0050-5.87/007	set
+1C2-E-TEST-0050-5.87/008	proposals
+1C2-E-TEST-0050-5.87/009	incremental
+1C2-E-TEST-0050-5.87/010	massachusetts senate
+1C2-E-TEST-0050-5.87/011	massachusetts house
+1C2-E-TEST-0050-5.87/012	representatives
+1C2-E-TEST-0050-5.87/013	new payroll tax	DEP=1C2-E-TEST-0050-5.87026
+1C2-E-TEST-0050-5.87/014	41	DEP=1C2-E-TEST-0050-5.87021
+1C2-E-TEST-0050-5.87/015	positing
+1C2-E-TEST-0050-5.87/016	adopted	DEP=1C2-E-TEST-0050-5.87015
+1C2-E-TEST-0050-5.87/017	raise	DEP=1C2-E-TEST-0050-5.87016
+1C2-E-TEST-0050-5.87/018	resemble	DEP=1C2-E-TEST-0050-5.87017
+1C2-E-TEST-0050-5.87/019	failed	DEP=1C2-E-TEST-0050-5.87020
+1C2-E-TEST-0050-5.87/020	proposal	DEP=1C2-E-TEST-0050-5.87018
+1C2-E-TEST-0050-5.87/021	formed	DEP=1C2-E-TEST-0050-5.87023
+1C2-E-TEST-0050-5.87/022	beginning	DEP=1C2-E-TEST-0050-5.87005
+1C2-E-TEST-0050-5.87/023	came
+1C2-E-TEST-0050-5.87/024	innovative	DEP=1C2-E-TEST-0050-5.87008
+1C2-E-TEST-0050-5.87/025	acceptable	DEP=1C2-E-TEST-0050-5.87024
+1C2-E-TEST-0050-5.87/026	incorporated	DEP=1C2-E-TEST-0050-5.87011
+1C2-E-TEST-0050-5.90	[38] [39] The effort eventually gained the support of all major stakeholders within the state, and Romney helped break a logjam between rival Democratic leaders in the legislature.
+1C2-E-TEST-0050-5.90/001	effort	DEP=1C2-E-TEST-0050-5.90011
+1C2-E-TEST-0050-5.90/002	support	DEP=1C2-E-TEST-0050-5.90011
+1C2-E-TEST-0050-5.90/003	major stakeholders
+1C2-E-TEST-0050-5.90/004	state
+1C2-E-TEST-0050-5.90/005	logjam	DEP=1C2-E-TEST-0050-5.90013
+1C2-E-TEST-0050-5.90/006	rival democratic leaders
+1C2-E-TEST-0050-5.90/007	legislature
+1C2-E-TEST-0050-5.90/008	38	DEP=1C2-E-TEST-0050-5.90011
+1C2-E-TEST-0050-5.90/009	39	DEP=1C2-E-TEST-0050-5.90008
+1C2-E-TEST-0050-5.90/010	eventually	DEP=1C2-E-TEST-0050-5.90011
+1C2-E-TEST-0050-5.90/011	gained
+1C2-E-TEST-0050-5.90/012	helped	DEP=1C2-E-TEST-0050-5.90011
+1C2-E-TEST-0050-5.90/013	break	DEP=1C2-E-TEST-0050-5.90012

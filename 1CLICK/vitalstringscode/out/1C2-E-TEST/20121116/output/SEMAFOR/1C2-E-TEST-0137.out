@@ -1,0 +1,2364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 18:30:53 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>Lincoln Culinary Institute Hartford .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="25" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="15" name="Use" start="8"/>
+                        <label ID="202" end="25" name="Locale" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>Manchester Community College Manchester Culinary Arts , A.S. Degree .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Quantity">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="66" name="Target" start="61"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels>
+                        <label ID="1000201" end="66" name="Quantity" start="61"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="27" name="Target" start="21"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="27" name="Locale" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Aggregate">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="19" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="19" name="Aggregate" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Craft">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="52" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels>
+                        <label ID="1030201" end="52" name="Activity" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>Lincoln Culinary Institute Shelton Culinary Arts .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="25" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels>
+                        <label ID="2000201" end="15" name="Use" start="8"/>
+                        <label ID="2000202" end="25" name="Locale" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Fields">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="47" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="47" name="Activity" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>Naugatuck Valley Community College Waterbury Culinary Arts .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Fields">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="57" name="Target" start="54"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="57" name="Salient_entity" start="54"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="33" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="33" name="Locale" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Natural_features">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="15" name="Locale" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="303" frameName="Aggregate">
+                  <layers>
+                    <layer ID="30301" name="Target">
+                      <labels>
+                        <label ID="3030101" end="25" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30302" name="FE">
+                      <labels>
+                        <label ID="3030201" end="25" name="Aggregate" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>Located in Hartford , the Hartt School is the performing arts conservatory within the University of Hartford .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="55" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="60" name="Act" start="57"/>
+                        <label ID="4000202" end="37" name="Agent" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="37" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="37" name="Locale" start="32"/>
+                        <label ID="4010202" end="30" name="Descriptor" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="95" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="95" name="Locale" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Buildings">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="73" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels>
+                        <label ID="4030201" end="107" name="Place" start="75"/>
+                        <label ID="4030202" end="73" name="Building" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="404" frameName="Craft">
+                  <layers>
+                    <layer ID="40401" name="Target">
+                      <labels>
+                        <label ID="4040101" end="60" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40402" name="FE">
+                      <labels>
+                        <label ID="4040201" end="107" name="Activity" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="405" frameName="Being_located">
+                  <layers>
+                    <layer ID="40501" name="Target">
+                      <labels>
+                        <label ID="4050101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40502" name="FE">
+                      <labels>
+                        <label ID="4050201" end="37" name="Theme" start="22"/>
+                        <label ID="4050202" end="18" name="Location" start="8"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>University of Hartford : Hartt School 200 Bloomfield Ave. West Hartford , CT 06117 860-768-4100 .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="9" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="9" name="Locale" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="36" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="36" name="Locale" start="31"/>
+                        <label ID="5010202" end="29" name="Descriptor" start="25"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="61" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="70" name="Whole" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="40" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="40" name="Number" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>Connecticut College : Department of Music .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="18" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="18" name="Locale" start="12"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="40" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="40" name="Performance" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>Connecticut College 's Department of Music offers students a conservatory style approach with a liberal arts based education , where students receive practical and personalized training .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="41" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Buildings">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="72" name="Target" start="61"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="72" name="Building" start="61"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="702" frameName="Receiving">
+                  <layers>
+                    <layer ID="70201" name="Target">
+                      <labels>
+                        <label ID="7020101" end="148" name="Target" start="142"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70202" name="FE">
+                      <labels>
+                        <label ID="7020201" end="184" name="Theme" start="150"/>
+                        <label ID="7020202" end="140" name="Recipient" start="133"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="703" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="70301" name="Target">
+                      <labels>
+                        <label ID="7030101" end="57" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70302" name="FE">
+                      <labels>
+                        <label ID="7030201" end="57" name="Student" start="50"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="704" frameName="Strictness">
+                  <layers>
+                    <layer ID="70401" name="Target">
+                      <labels>
+                        <label ID="7040101" end="102" name="Target" start="96"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="705" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="70501" name="Target">
+                      <labels>
+                        <label ID="7050101" end="184" name="Target" start="177"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="706" frameName="Offering">
+                  <layers>
+                    <layer ID="70601" name="Target">
+                      <labels>
+                        <label ID="7060101" end="48" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70602" name="FE">
+                      <labels>
+                        <label ID="7060201" end="41" name="Theme" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="707" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="70701" name="Target">
+                      <labels>
+                        <label ID="7070101" end="123" name="Target" start="115"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70702" name="FE">
+                      <labels>
+                        <label ID="7070201" end="184" name="Student" start="115"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="708" frameName="Locative_relation">
+                  <layers>
+                    <layer ID="70801" name="Target">
+                      <labels>
+                        <label ID="7080101" end="131" name="Target" start="127"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70802" name="FE">
+                      <labels>
+                        <label ID="7080201" end="123" name="Figure" start="115"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="709" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="70901" name="Target">
+                      <labels>
+                        <label ID="7090101" end="140" name="Target" start="133"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70902" name="FE">
+                      <labels>
+                        <label ID="7090201" end="140" name="Student" start="133"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="710" frameName="Means">
+                  <layers>
+                    <layer ID="71001" name="Target">
+                      <labels>
+                        <label ID="7100101" end="87" name="Target" start="80"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71002" name="FE">
+                      <labels>
+                        <label ID="7100201" end="107" name="Means" start="89"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="711" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="71101" name="Target">
+                      <labels>
+                        <label ID="7110101" end="18" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71102" name="FE">
+                      <labels>
+                        <label ID="7110201" end="18" name="Locale" start="12"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="712" frameName="Craft">
+                  <layers>
+                    <layer ID="71201" name="Target">
+                      <labels>
+                        <label ID="7120101" end="107" name="Target" start="104"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71202" name="FE">
+                      <labels>
+                        <label ID="7120201" end="107" name="Activity" start="104"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="713" frameName="Hair_configuration">
+                  <layers>
+                    <layer ID="71301" name="Target">
+                      <labels>
+                        <label ID="7130101" end="78" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="71302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>Connecticut College 270 Mohegan Ave. New London , CT 06320 860-447-1911 conncoll.edu .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="18" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="18" name="Locale" start="12"/>
+                        <label ID="8000202" end="10" name="Name" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Age">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="39" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="46" name="Entity" start="41"/>
+                        <label ID="8010202" end="39" name="Age" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>Yale College : Department of Music .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="11" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="11" name="Locale" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="33" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="33" name="Performance" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>One of the most prestigious academic institutions in the United States , Yale College offers music students first-rate facilities and training .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="141" name="Target" start="134"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="141" name="Student" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="97" name="Target" start="93"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1002" frameName="Desirability">
+                  <layers>
+                    <layer ID="100201" name="Target">
+                      <labels>
+                        <label ID="10020101" end="117" name="Target" start="108"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100202" name="FE">
+                      <labels>
+                        <label ID="10020201" end="141" name="Evaluee" start="134"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1003" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="100301" name="Target">
+                      <labels>
+                        <label ID="10030101" end="106" name="Target" start="99"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100302" name="FE">
+                      <labels>
+                        <label ID="10030201" end="106" name="Student" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1004" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="100401" name="Target">
+                      <labels>
+                        <label ID="10040101" end="2" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100402" name="FE">
+                      <labels>
+                        <label ID="10040201" end="2" name="Number" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1005" frameName="Offering">
+                  <layers>
+                    <layer ID="100501" name="Target">
+                      <labels>
+                        <label ID="10050101" end="91" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100502" name="FE">
+                      <labels>
+                        <label ID="10050201" end="141" name="Theme" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1006" frameName="Institutions">
+                  <layers>
+                    <layer ID="100601" name="Target">
+                      <labels>
+                        <label ID="10060101" end="48" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100602" name="FE">
+                      <labels>
+                        <label ID="10060201" end="35" name="Domain" start="28"/>
+                        <label ID="10060202" end="48" name="Institution" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1007" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="100701" name="Target">
+                      <labels>
+                        <label ID="10070101" end="84" name="Target" start="78"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100702" name="FE">
+                      <labels>
+                        <label ID="10070201" end="84" name="Locale" start="78"/>
+                        <label ID="10070202" end="76" name="Name" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1008" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="100801" name="Target">
+                      <labels>
+                        <label ID="10080101" end="128" name="Target" start="119"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100802" name="FE">
+                      <labels>
+                        <label ID="10080201" end="128" name="Locale" start="119"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1009" frameName="Political_locales">
+                  <layers>
+                    <layer ID="100901" name="Target">
+                      <labels>
+                        <label ID="10090101" end="69" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100902" name="FE">
+                      <labels>
+                        <label ID="10090201" end="69" name="Locale" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>Yale College 38 Hillhouse Ave. New Haven , CT 06511 203-432-9300 yale.edu .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Age">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="33" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels>
+                        <label ID="11000201" end="39" name="Entity" start="35"/>
+                        <label ID="11000202" end="33" name="Age" start="31"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="11" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="11" name="Locale" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>Located in Hartford , the Hartt School is the performing arts conservatory within the University of Hartford .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="95" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="95" name="Locale" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="55" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="60" name="Act" start="57"/>
+                        <label ID="12010202" end="37" name="Agent" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="37" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="37" name="Locale" start="32"/>
+                        <label ID="12020202" end="30" name="Descriptor" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1203" frameName="Craft">
+                  <layers>
+                    <layer ID="120301" name="Target">
+                      <labels>
+                        <label ID="12030101" end="60" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120302" name="FE">
+                      <labels>
+                        <label ID="12030201" end="107" name="Activity" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1204" frameName="Buildings">
+                  <layers>
+                    <layer ID="120401" name="Target">
+                      <labels>
+                        <label ID="12040101" end="73" name="Target" start="62"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120402" name="FE">
+                      <labels>
+                        <label ID="12040201" end="107" name="Place" start="75"/>
+                        <label ID="12040202" end="73" name="Building" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1205" frameName="Being_located">
+                  <layers>
+                    <layer ID="120501" name="Target">
+                      <labels>
+                        <label ID="12050101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120502" name="FE">
+                      <labels>
+                        <label ID="12050201" end="37" name="Theme" start="22"/>
+                        <label ID="12050202" end="18" name="Location" start="8"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>The School of Visual and Performing Arts at Western Connecticut State University offers a Bachelor of Arts in Art program with a photography option .</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Project">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="120" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="112" name="Salient_entity" start="110"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="50" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels>
+                        <label ID="13010201" end="62" name="Whole" start="52"/>
+                        <label ID="13010202" end="50" name="Part" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="34" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="39" name="Act" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1303" frameName="Fields">
+                  <layers>
+                    <layer ID="130301" name="Target">
+                      <labels>
+                        <label ID="13030101" end="112" name="Target" start="110"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130302" name="FE">
+                      <labels>
+                        <label ID="13030201" end="112" name="Activity" start="110"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1304" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="130401" name="Target">
+                      <labels>
+                        <label ID="13040101" end="97" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130402" name="FE">
+                      <labels>
+                        <label ID="13040201" end="97" name="Partner_1" start="90"/>
+                        <label ID="13040202" end="146" name="Partner_2" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1305" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="130501" name="Target">
+                      <labels>
+                        <label ID="13050101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130502" name="FE">
+                      <labels>
+                        <label ID="13050201" end="9" name="Locale" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1306" frameName="Craft">
+                  <layers>
+                    <layer ID="130601" name="Target">
+                      <labels>
+                        <label ID="13060101" end="105" name="Target" start="102"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130602" name="FE">
+                      <labels>
+                        <label ID="13060201" end="146" name="Activity" start="102"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1307" frameName="Possibilities">
+                  <layers>
+                    <layer ID="130701" name="Target">
+                      <labels>
+                        <label ID="13070101" end="146" name="Target" start="141"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130702" name="FE">
+                      <labels>
+                        <label ID="13070201" end="139" name="Event" start="129"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1308" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="130801" name="Target">
+                      <labels>
+                        <label ID="13080101" end="79" name="Target" start="70"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130802" name="FE">
+                      <labels>
+                        <label ID="13080201" end="79" name="Locale" start="70"/>
+                        <label ID="13080202" end="68" name="Container_possessor" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1309" frameName="Political_locales">
+                  <layers>
+                    <layer ID="130901" name="Target">
+                      <labels>
+                        <label ID="13090101" end="68" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130902" name="FE">
+                      <labels>
+                        <label ID="13090201" end="68" name="Locale" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1310" frameName="Craft">
+                  <layers>
+                    <layer ID="131001" name="Target">
+                      <labels>
+                        <label ID="13100101" end="39" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="131002" name="FE">
+                      <labels>
+                        <label ID="13100201" end="39" name="Activity" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1311" frameName="Offering">
+                  <layers>
+                    <layer ID="131101" name="Target">
+                      <labels>
+                        <label ID="13110101" end="86" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="131102" name="FE">
+                      <labels>
+                        <label ID="13110201" end="146" name="Theme" start="88"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>The Hartford Art School 's Photography Department offers undergraduate and graduate programs in photography .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Fields">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="15" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels>
+                        <label ID="14000201" end="15" name="Activity" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="22" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="22" name="Locale" start="17"/>
+                        <label ID="14010202" end="15" name="Descriptor" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Project">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="91" name="Target" start="84"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1403" frameName="Offering">
+                  <layers>
+                    <layer ID="140301" name="Target">
+                      <labels>
+                        <label ID="14030101" end="55" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140302" name="FE">
+                      <labels>
+                        <label ID="14030201" end="48" name="Theme" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>The School of Visual and Performing Arts at Western Connecticut State University offers a Bachelor of Arts in Art program with a photography option .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Political_locales">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="68" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels>
+                        <label ID="15000201" end="68" name="Locale" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Fields">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="112" name="Target" start="110"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels>
+                        <label ID="15010201" end="112" name="Activity" start="110"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1502" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="150201" name="Target">
+                      <labels>
+                        <label ID="15020101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150202" name="FE">
+                      <labels>
+                        <label ID="15020201" end="9" name="Locale" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1503" frameName="Possibilities">
+                  <layers>
+                    <layer ID="150301" name="Target">
+                      <labels>
+                        <label ID="15030101" end="146" name="Target" start="141"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150302" name="FE">
+                      <labels>
+                        <label ID="15030201" end="139" name="Event" start="129"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1504" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="150401" name="Target">
+                      <labels>
+                        <label ID="15040101" end="50" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150402" name="FE">
+                      <labels>
+                        <label ID="15040201" end="62" name="Whole" start="52"/>
+                        <label ID="15040202" end="50" name="Part" start="44"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1505" frameName="Personal_relationship">
+                  <layers>
+                    <layer ID="150501" name="Target">
+                      <labels>
+                        <label ID="15050101" end="97" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150502" name="FE">
+                      <labels>
+                        <label ID="15050201" end="97" name="Partner_1" start="90"/>
+                        <label ID="15050202" end="146" name="Partner_2" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1506" frameName="Craft">
+                  <layers>
+                    <layer ID="150601" name="Target">
+                      <labels>
+                        <label ID="15060101" end="39" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150602" name="FE">
+                      <labels>
+                        <label ID="15060201" end="39" name="Activity" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1507" frameName="Craft">
+                  <layers>
+                    <layer ID="150701" name="Target">
+                      <labels>
+                        <label ID="15070101" end="105" name="Target" start="102"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150702" name="FE">
+                      <labels>
+                        <label ID="15070201" end="146" name="Activity" start="102"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1508" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="150801" name="Target">
+                      <labels>
+                        <label ID="15080101" end="34" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150802" name="FE">
+                      <labels>
+                        <label ID="15080201" end="39" name="Act" start="36"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1509" frameName="Offering">
+                  <layers>
+                    <layer ID="150901" name="Target">
+                      <labels>
+                        <label ID="15090101" end="86" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150902" name="FE">
+                      <labels>
+                        <label ID="15090201" end="146" name="Theme" start="88"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1510" frameName="Project">
+                  <layers>
+                    <layer ID="151001" name="Target">
+                      <labels>
+                        <label ID="15100101" end="120" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="151002" name="FE">
+                      <labels>
+                        <label ID="15100201" end="112" name="Salient_entity" start="110"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1511" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="151101" name="Target">
+                      <labels>
+                        <label ID="15110101" end="79" name="Target" start="70"/>
+                      </labels>
+                    </layer>
+                    <layer ID="151102" name="FE">
+                      <labels>
+                        <label ID="15110201" end="79" name="Locale" start="70"/>
+                        <label ID="15110202" end="68" name="Container_possessor" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>If so , you can find photography classes at the University of Hartford in West Hartford and Western Connecticut State University in Danbury .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Capability">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="14" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="10" name="Entity" start="8"/>
+                        <label ID="16000202" end="4" name="Circumstances" start="0"/>
+                        <label ID="16000203" end="138" name="Event" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="127" name="Target" start="118"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels>
+                        <label ID="16010201" end="127" name="Locale" start="118"/>
+                        <label ID="16010202" end="116" name="Container_possessor" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1602" frameName="Type">
+                  <layers>
+                    <layer ID="160201" name="Target">
+                      <labels>
+                        <label ID="16020101" end="39" name="Target" start="33"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160202" name="FE">
+                      <labels>
+                        <label ID="16020201" end="39" name="Subtype" start="33"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1603" frameName="Political_locales">
+                  <layers>
+                    <layer ID="160301" name="Target">
+                      <labels>
+                        <label ID="16030101" end="116" name="Target" start="112"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160302" name="FE">
+                      <labels>
+                        <label ID="16030201" end="116" name="Locale" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1604" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="160401" name="Target">
+                      <labels>
+                        <label ID="16040101" end="57" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160402" name="FE">
+                      <labels>
+                        <label ID="16040201" end="57" name="Locale" start="48"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1605" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="160501" name="Target">
+                      <labels>
+                        <label ID="16050101" end="98" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160502" name="FE">
+                      <labels>
+                        <label ID="16050201" end="110" name="Whole" start="100"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1606" frameName="Locating">
+                  <layers>
+                    <layer ID="160601" name="Target">
+                      <labels>
+                        <label ID="16060101" end="19" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160602" name="FE">
+                      <labels>
+                        <label ID="16060201" end="10" name="Perceiver" start="8"/>
+                        <label ID="16060202" end="39" name="Sought_entity" start="21"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1607" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="160701" name="Target">
+                      <labels>
+                        <label ID="16070101" end="77" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160702" name="FE">
+                      <labels>
+                        <label ID="16070201" end="86" name="Whole" start="79"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>Central Connecticut State University New Britain CT .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="35" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels>
+                        <label ID="17000201" end="35" name="Locale" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Age">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="39" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels>
+                        <label ID="17010201" end="47" name="Entity" start="41"/>
+                        <label ID="17010202" end="39" name="Age" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1702" frameName="Political_locales">
+                  <layers>
+                    <layer ID="170201" name="Target">
+                      <labels>
+                        <label ID="17020101" end="24" name="Target" start="20"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170202" name="FE">
+                      <labels>
+                        <label ID="17020201" end="24" name="Locale" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>University of New Haven West Haven CT 06516 .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="27" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="33" name="Whole" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="9" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels>
+                        <label ID="18010201" end="9" name="Locale" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1802" frameName="Age">
+                  <layers>
+                    <layer ID="180201" name="Target">
+                      <labels>
+                        <label ID="18020101" end="16" name="Target" start="14"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180202" name="FE">
+                      <labels>
+                        <label ID="18020201" end="22" name="Entity" start="18"/>
+                        <label ID="18020202" end="16" name="Age" start="14"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>The Yale School of Music is a graduate school offering post-baccalaureate degrees in classical performance , conducting , and composition .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Cotheme">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="118" name="Target" start="109"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels>
+                        <label ID="19000201" end="105" name="Theme" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Quantity">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="80" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels>
+                        <label ID="19010201" end="72" name="Q_Prop" start="55"/>
+                        <label ID="19010202" end="80" name="Quantity" start="74"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1902" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="190201" name="Target">
+                      <labels>
+                        <label ID="19020101" end="14" name="Target" start="9"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190202" name="FE">
+                      <labels>
+                        <label ID="19020201" end="14" name="Locale" start="9"/>
+                        <label ID="19020202" end="23" name="Container_possessor" start="16"/>
+                        <label ID="19020203" end="7" name="Descriptor" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1903" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="190301" name="Target">
+                      <labels>
+                        <label ID="19030101" end="105" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190302" name="FE">
+                      <labels>
+                        <label ID="19030201" end="93" name="Type" start="85"/>
+                        <label ID="19030202" end="105" name="Performance" start="95"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1904" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="190401" name="Target">
+                      <labels>
+                        <label ID="19040101" end="23" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190402" name="FE">
+                      <labels>
+                        <label ID="19040201" end="23" name="Performance" start="19"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1905" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="190501" name="Target">
+                      <labels>
+                        <label ID="19050101" end="44" name="Target" start="39"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190502" name="FE">
+                      <labels>
+                        <label ID="19050201" end="44" name="Locale" start="39"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>The Department of Music at Western Connecticut State University -LRB- WestConn -RRB- is a friendly , vibrant , student-oriented unit in an institution of higher learning that serves as an accessible , responsive aÃ&#130;Â  more ...</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="33" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="45" name="Whole" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="62" name="Target" start="53"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels>
+                        <label ID="20010201" end="62" name="Locale" start="53"/>
+                        <label ID="20010202" end="51" name="Container_possessor" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2002" frameName="Place_weight_on">
+                  <layers>
+                    <layer ID="200201" name="Target">
+                      <labels>
+                        <label ID="20020101" end="126" name="Target" start="111"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2003" frameName="Assistance">
+                  <layers>
+                    <layer ID="200301" name="Target">
+                      <labels>
+                        <label ID="20030101" end="180" name="Target" start="175"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200302" name="FE">
+                      <labels>
+                        <label ID="20030201" end="197" name="Goal" start="182"/>
+                        <label ID="20030202" end="168" name="Helper" start="154"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2004" frameName="Position_on_a_scale">
+                  <layers>
+                    <layer ID="200401" name="Target">
+                      <labels>
+                        <label ID="20040101" end="159" name="Target" start="154"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200402" name="FE">
+                      <labels>
+                        <label ID="20040201" end="197" name="Item" start="161"/>
+                        <label ID="20040202" end="159" name="Value" start="154"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2005" frameName="Political_locales">
+                  <layers>
+                    <layer ID="200501" name="Target">
+                      <labels>
+                        <label ID="20050101" end="51" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200502" name="FE">
+                      <labels>
+                        <label ID="20050201" end="51" name="Locale" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2006" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="200601" name="Target">
+                      <labels>
+                        <label ID="20060101" end="22" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2007" frameName="Having_or_lacking_access">
+                  <layers>
+                    <layer ID="200701" name="Target">
+                      <labels>
+                        <label ID="20070101" end="197" name="Target" start="188"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200702" name="FE">
+                      <labels>
+                        <label ID="20070201" end="173" name="Useful_location" start="170"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2008" frameName="Social_interaction_evaluation">
+                  <layers>
+                    <layer ID="200801" name="Target">
+                      <labels>
+                        <label ID="20080101" end="97" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2009" frameName="Institutions">
+                  <layers>
+                    <layer ID="200901" name="Target">
+                      <labels>
+                        <label ID="20090101" end="149" name="Target" start="139"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200902" name="FE">
+                      <labels>
+                        <label ID="20090201" end="149" name="Institution" start="139"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2010" frameName="Coming_to_believe">
+                  <layers>
+                    <layer ID="201001" name="Target">
+                      <labels>
+                        <label ID="20100101" end="168" name="Target" start="161"/>
+                      </labels>
+                    </layer>
+                    <layer ID="201002" name="FE">
+                      <labels>
+                        <label ID="20100201" end="197" name="Content" start="170"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2011" frameName="Increment">
+                  <layers>
+                    <layer ID="201101" name="Target">
+                      <labels>
+                        <label ID="20110101" end="221" name="Target" start="218"/>
+                      </labels>
+                    </layer>
+                    <layer ID="201102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>The Hartt School is the renowned , comprehensive performing arts conservatory of the University of Hartford that offers dynamic degree programs in music , dance and theatre. Hartt is a vibrant communitÃ&#130;Â  more ...</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Quantity">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="133" name="Target" start="128"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="133" name="Quantity" start="128"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="94" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels>
+                        <label ID="21010201" end="94" name="Locale" start="85"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Fame">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="31" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels>
+                        <label ID="21020201" end="15" name="Entity" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2103" frameName="Increment">
+                  <layers>
+                    <layer ID="210301" name="Target">
+                      <labels>
+                        <label ID="21030101" end="209" name="Target" start="206"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2104" frameName="Self_motion">
+                  <layers>
+                    <layer ID="210401" name="Target">
+                      <labels>
+                        <label ID="21040101" end="159" name="Target" start="155"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2105" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="210501" name="Target">
+                      <labels>
+                        <label ID="21050101" end="151" name="Target" start="147"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210502" name="FE">
+                      <labels>
+                        <label ID="21050201" end="151" name="Performance" start="147"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2106" frameName="Project">
+                  <layers>
+                    <layer ID="210601" name="Target">
+                      <labels>
+                        <label ID="21060101" end="142" name="Target" start="135"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2107" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="210701" name="Target">
+                      <labels>
+                        <label ID="21070101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210702" name="FE">
+                      <labels>
+                        <label ID="21070201" end="15" name="Locale" start="10"/>
+                        <label ID="21070202" end="8" name="Descriptor" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2108" frameName="Buildings">
+                  <layers>
+                    <layer ID="210801" name="Target">
+                      <labels>
+                        <label ID="21080101" end="76" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210802" name="FE">
+                      <labels>
+                        <label ID="21080201" end="76" name="Building" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2109" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="210901" name="Target">
+                      <labels>
+                        <label ID="21090101" end="58" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210902" name="FE">
+                      <labels>
+                        <label ID="21090201" end="63" name="Act" start="60"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2110" frameName="Buildings">
+                  <layers>
+                    <layer ID="211001" name="Target">
+                      <labels>
+                        <label ID="21100101" end="172" name="Target" start="165"/>
+                      </labels>
+                    </layer>
+                    <layer ID="211002" name="FE">
+                      <labels>
+                        <label ID="21100201" end="172" name="Building" start="165"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2111" frameName="Offering">
+                  <layers>
+                    <layer ID="211101" name="Target">
+                      <labels>
+                        <label ID="21110101" end="118" name="Target" start="113"/>
+                      </labels>
+                    </layer>
+                    <layer ID="211102" name="FE">
+                      <labels>
+                        <label ID="21110201" end="142" name="Theme" start="120"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2112" frameName="Fields">
+                  <layers>
+                    <layer ID="211201" name="Target">
+                      <labels>
+                        <label ID="21120101" end="63" name="Target" start="60"/>
+                      </labels>
+                    </layer>
+                    <layer ID="211202" name="FE">
+                      <labels>
+                        <label ID="21120201" end="63" name="Salient_entity" start="60"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>As a center for artistic excellence in musical performance , teaching , and scholarship , the UConn Department of Music offers comprehensive and challenging programs that provide superb training for studÃ&#130;Â  more ...</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Offering">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="125" name="Target" start="120"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels>
+                        <label ID="22000201" end="206" name="Theme" start="127"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Fields">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="23" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="23" name="Activity" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="193" name="Target" start="186"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2203" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="220301" name="Target">
+                      <labels>
+                        <label ID="22030101" end="118" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220302" name="FE">
+                      <labels>
+                        <label ID="22030201" end="118" name="Performance" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2204" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="220401" name="Target">
+                      <labels>
+                        <label ID="22040101" end="10" name="Target" start="5"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220402" name="FE">
+                      <labels>
+                        <label ID="22040201" end="10" name="Locale" start="5"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2205" frameName="Desirability">
+                  <layers>
+                    <layer ID="220501" name="Target">
+                      <labels>
+                        <label ID="22050101" end="184" name="Target" start="179"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220502" name="FE">
+                      <labels>
+                        <label ID="22050201" end="193" name="Evaluee" start="186"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2206" frameName="Difficulty">
+                  <layers>
+                    <layer ID="220601" name="Target">
+                      <labels>
+                        <label ID="22060101" end="155" name="Target" start="145"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220602" name="FE">
+                      <labels>
+                        <label ID="22060201" end="139" name="Degree" start="127"/>
+                        <label ID="22060202" end="206" name="Activity" start="157"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2207" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="220701" name="Target">
+                      <labels>
+                        <label ID="22070101" end="57" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220702" name="FE">
+                      <labels>
+                        <label ID="22070201" end="45" name="Type" start="39"/>
+                        <label ID="22070202" end="57" name="Performance" start="47"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2208" frameName="Candidness">
+                  <layers>
+                    <layer ID="220801" name="Target">
+                      <labels>
+                        <label ID="22080101" end="34" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220802" name="FE">
+                      <labels>
+                        <label ID="22080201" end="23" name="Speaker" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2209" frameName="Supply">
+                  <layers>
+                    <layer ID="220901" name="Target">
+                      <labels>
+                        <label ID="22090101" end="177" name="Target" start="171"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220902" name="FE">
+                      <labels>
+                        <label ID="22090201" end="193" name="Theme" start="179"/>
+                        <label ID="22090202" end="164" name="Supplier" start="127"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2210" frameName="Project">
+                  <layers>
+                    <layer ID="221001" name="Target">
+                      <labels>
+                        <label ID="22100101" end="164" name="Target" start="157"/>
+                      </labels>
+                    </layer>
+                    <layer ID="221002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2211" frameName="Increment">
+                  <layers>
+                    <layer ID="221101" name="Target">
+                      <labels>
+                        <label ID="22110101" end="211" name="Target" start="208"/>
+                      </labels>
+                    </layer>
+                    <layer ID="221102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>The Hartt School Community Division is a comprehensive community arts school providing instruction in music and dance for individuals of all ages and experience levels .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Businesses">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="34" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels>
+                        <label ID="23000201" end="34" name="Business" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Quantity">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="139" name="Target" start="137"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="139" name="Quantity" start="137"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2302" frameName="Expertise">
+                  <layers>
+                    <layer ID="230201" name="Target">
+                      <labels>
+                        <label ID="23020101" end="159" name="Target" start="150"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230202" name="FE">
+                      <labels>
+                        <label ID="23020201" end="166" name="Protagonist" start="161"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2303" frameName="Education_teaching">
+                  <layers>
+                    <layer ID="230301" name="Target">
+                      <labels>
+                        <label ID="23030101" end="97" name="Target" start="87"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230302" name="FE">
+                      <labels>
+                        <label ID="23030201" end="68" name="Manner" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2304" frameName="Self_motion">
+                  <layers>
+                    <layer ID="230401" name="Target">
+                      <labels>
+                        <label ID="23040101" end="116" name="Target" start="112"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2305" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="230501" name="Target">
+                      <labels>
+                        <label ID="23050101" end="144" name="Target" start="141"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230502" name="FE">
+                      <labels>
+                        <label ID="23050201" end="144" name="Unit" start="141"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2306" frameName="Fields">
+                  <layers>
+                    <layer ID="230601" name="Target">
+                      <labels>
+                        <label ID="23060101" end="68" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230602" name="FE">
+                      <labels>
+                        <label ID="23060201" end="68" name="Salient_entity" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2307" frameName="Aggregate">
+                  <layers>
+                    <layer ID="230701" name="Target">
+                      <labels>
+                        <label ID="23070101" end="25" name="Target" start="17"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230702" name="FE">
+                      <labels>
+                        <label ID="23070201" end="25" name="Aggregate" start="17"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2308" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="230801" name="Target">
+                      <labels>
+                        <label ID="23080101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230802" name="FE">
+                      <labels>
+                        <label ID="23080201" end="15" name="Locale" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2309" frameName="Rank">
+                  <layers>
+                    <layer ID="230901" name="Target">
+                      <labels>
+                        <label ID="23090101" end="166" name="Target" start="161"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230902" name="FE">
+                      <labels>
+                        <label ID="23090201" end="166" name="Rank" start="161"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2310" frameName="People">
+                  <layers>
+                    <layer ID="231001" name="Target">
+                      <labels>
+                        <label ID="23100101" end="132" name="Target" start="122"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231002" name="FE">
+                      <labels>
+                        <label ID="23100201" end="132" name="Person" start="122"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2311" frameName="Aggregate">
+                  <layers>
+                    <layer ID="231101" name="Target">
+                      <labels>
+                        <label ID="23110101" end="63" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231102" name="FE">
+                      <labels>
+                        <label ID="23110201" end="63" name="Aggregate" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2312" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="231201" name="Target">
+                      <labels>
+                        <label ID="23120101" end="75" name="Target" start="70"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231202" name="FE">
+                      <labels>
+                        <label ID="23120201" end="75" name="Locale" start="70"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2313" frameName="Performing_arts">
+                  <layers>
+                    <layer ID="231301" name="Target">
+                      <labels>
+                        <label ID="23130101" end="106" name="Target" start="102"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2314" frameName="Supply">
+                  <layers>
+                    <layer ID="231401" name="Target">
+                      <labels>
+                        <label ID="23140101" end="85" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="231402" name="FE">
+                      <labels>
+                        <label ID="23140201" end="34" name="Supplier" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>

@@ -1,0 +1,340 @@
+1C2-E-TEST-0146-100.67	In 1939, President Roosevelt declared that Thanksgiving would be the next to last Thursday of November rather than the last.
+1C2-E-TEST-0146-100.67/001	1939
+1C2-E-TEST-0146-100.67/002	president roosevelt	DEP=1C2-E-TEST-0146-100.67005
+1C2-E-TEST-0146-100.67/003	thursday
+1C2-E-TEST-0146-100.67/004	november
+1C2-E-TEST-0146-100.67/005	declared
+1C2-E-TEST-0146-100.76	Canadians trace the holiday to a feast held by Martin Frobisher in Newfoundland in 1578 .
+1C2-E-TEST-0146-100.76/001	canadians
+1C2-E-TEST-0146-100.76/002	holiday
+1C2-E-TEST-0146-100.76/003	feast
+1C2-E-TEST-0146-100.76/004	martin frobisher
+1C2-E-TEST-0146-100.76/005	newfoundland
+1C2-E-TEST-0146-100.76/006	1578
+1C2-E-TEST-0146-100.76/007	held	DEP=1C2-E-TEST-0146-100.76003
+1C2-E-TEST-0146-12.20	In 1879 Canadian Parliament declared November 6th a day of Thanksgiving and a national holiday.
+1C2-E-TEST-0146-12.20/001	1879
+1C2-E-TEST-0146-12.20/002	canadian parliament	DEP=1C2-E-TEST-0146-12.20005
+1C2-E-TEST-0146-12.20/003	november	DEP=1C2-E-TEST-0146-12.20005
+1C2-E-TEST-0146-12.20/004	national holiday
+1C2-E-TEST-0146-12.20/005	declared
+1C2-E-TEST-0146-12.20/006	6th	DEP=1C2-E-TEST-0146-12.20003
+1C2-E-TEST-0146-135.5	Currently, in Canada , Thanksgiving is celebrated on the second Monday of October and in the United States , it is celebrated on the fourth Thursday of November.
+1C2-E-TEST-0146-135.5/001	second monday
+1C2-E-TEST-0146-135.5/002	october
+1C2-E-TEST-0146-135.5/003	united states
+1C2-E-TEST-0146-135.5/004	fourth thursday
+1C2-E-TEST-0146-135.5/005	november
+1C2-E-TEST-0146-135.5/006	currently	DEP=1C2-E-TEST-0146-135.5007
+1C2-E-TEST-0146-135.5/007	celebrated
+1C2-E-TEST-0146-135.5/008	celebrated	DEP=1C2-E-TEST-0146-135.5007
+1C2-E-TEST-0146-14.25	Eventually in 1879, Parliament declared November 6th a day of Thanksgiving and a national holiday.
+1C2-E-TEST-0146-14.25/001	1879
+1C2-E-TEST-0146-14.25/002	parliament	DEP=1C2-E-TEST-0146-14.25006
+1C2-E-TEST-0146-14.25/003	november	DEP=1C2-E-TEST-0146-14.25006
+1C2-E-TEST-0146-14.25/004	national holiday
+1C2-E-TEST-0146-14.25/005	eventually
+1C2-E-TEST-0146-14.25/006	declared
+1C2-E-TEST-0146-14.25/007	6th	DEP=1C2-E-TEST-0146-14.25003
+1C2-E-TEST-0146-14.30	"A Day of General Thanksgiving to Almighty God for the bountiful harvest with which Canada has been blessed... to be observed on the second Monday in October."
+1C2-E-TEST-0146-14.30/001	general
+1C2-E-TEST-0146-14.30/002	almighty god
+1C2-E-TEST-0146-14.30/003	bountiful harvest
+1C2-E-TEST-0146-14.30/004	second monday
+1C2-E-TEST-0146-14.30/005	october
+1C2-E-TEST-0146-14.30/006	blessed	DEP=1C2-E-TEST-0146-14.30003
+1C2-E-TEST-0146-14.30/007	observed	DEP=1C2-E-TEST-0146-14.30006
+1C2-E-TEST-0146-167.22	On October 3, 1863, during the Civil War, Lincoln proclaimed a national day of thanksgiving to be celebrated on Thursday, November 26.
+1C2-E-TEST-0146-167.22/001	october 3 1863
+1C2-E-TEST-0146-167.22/002	civil war
+1C2-E-TEST-0146-167.22/003	lincoln	DEP=1C2-E-TEST-0146-167.22007
+1C2-E-TEST-0146-167.22/004	national
+1C2-E-TEST-0146-167.22/005	thursday
+1C2-E-TEST-0146-167.22/006	november 26	DEP=1C2-E-TEST-0146-167.22005
+1C2-E-TEST-0146-167.22/007	proclaimed
+1C2-E-TEST-0146-167.22/008	celebrated
+1C2-E-TEST-0146-167.5	annual national holiday in the United States and Canada celebrating the harvest and other blessings of the past year.
+1C2-E-TEST-0146-167.5/001	annual national holiday
+1C2-E-TEST-0146-167.5/002	united states
+1C2-E-TEST-0146-167.5/003	harvest	DEP=1C2-E-TEST-0146-167.5006
+1C2-E-TEST-0146-167.5/004	blessings	DEP=1C2-E-TEST-0146-167.5003
+1C2-E-TEST-0146-167.5/005	past
+1C2-E-TEST-0146-167.5/006	celebrating	DEP=1C2-E-TEST-0146-167.5001
+1C2-E-TEST-0146-175.13	Because of the shortened break there is far less travel during Canada's Thanksgiving and it is far harder for families to come together.
+1C2-E-TEST-0146-175.13/001	shortened break
+1C2-E-TEST-0146-175.13/002	families
+1C2-E-TEST-0146-175.13/003	travel
+1C2-E-TEST-0146-175.13/004	harder
+1C2-E-TEST-0146-175.13/005	come	DEP=1C2-E-TEST-0146-175.13004
+1C2-E-TEST-0146-175.50	George Washington, leader of the revolutionary forces in the American Revolutionary War, proclaimed a Thanksgiving in December 1777 as a victory celebration honoring the defeat of the British at Saratoga.
+1C2-E-TEST-0146-175.50/001	george washington	DEP=1C2-E-TEST-0146-175.50010
+1C2-E-TEST-0146-175.50/002	leader	DEP=1C2-E-TEST-0146-175.50001
+1C2-E-TEST-0146-175.50/003	revolutionary forces
+1C2-E-TEST-0146-175.50/004	american revolutionary war
+1C2-E-TEST-0146-175.50/005	december 1777
+1C2-E-TEST-0146-175.50/006	victory celebration
+1C2-E-TEST-0146-175.50/007	defeat	DEP=1C2-E-TEST-0146-175.50011
+1C2-E-TEST-0146-175.50/008	british
+1C2-E-TEST-0146-175.50/009	saratoga
+1C2-E-TEST-0146-175.50/010	proclaimed
+1C2-E-TEST-0146-175.50/011	honoring	DEP=1C2-E-TEST-0146-175.50006
+1C2-E-TEST-0146-175.51	The Continental Congress proclaimed annual December Thanksgivings from 1777 to 1783, except in 1782.
+1C2-E-TEST-0146-175.51/001	continental congress	DEP=1C2-E-TEST-0146-175.51004
+1C2-E-TEST-0146-175.51/002	annual december thanksgivings	DEP=1C2-E-TEST-0146-175.51004
+1C2-E-TEST-0146-175.51/003	1782
+1C2-E-TEST-0146-175.51/004	proclaimed
+1C2-E-TEST-0146-175.51/005	1777	DEP=1C2-E-TEST-0146-175.51006
+1C2-E-TEST-0146-175.51/006	1783
+1C2-E-TEST-0146-175.6	In Canada, where the harvest generally ends earlier in the year, the holiday is celebrated on the second Monday in October, which is observed as Columbus Day in the United States.
+1C2-E-TEST-0146-175.6/001	harvest	DEP=1C2-E-TEST-0146-175.6009
+1C2-E-TEST-0146-175.6/002	earlier	DEP=1C2-E-TEST-0146-175.6009
+1C2-E-TEST-0146-175.6/003	holiday	DEP=1C2-E-TEST-0146-175.6010
+1C2-E-TEST-0146-175.6/004	second monday
+1C2-E-TEST-0146-175.6/005	october
+1C2-E-TEST-0146-175.6/006	columbus
+1C2-E-TEST-0146-175.6/007	united states
+1C2-E-TEST-0146-175.6/008	generally	DEP=1C2-E-TEST-0146-175.6009
+1C2-E-TEST-0146-175.6/009	ends	DEP=1C2-E-TEST-0146-175.6010
+1C2-E-TEST-0146-175.6/010	celebrated
+1C2-E-TEST-0146-175.6/011	observed	DEP=1C2-E-TEST-0146-175.6005
+1C2-E-TEST-0146-175.66	In 1879 Canada's parliament declared Thanksgiving to be a national secular holiday.
+1C2-E-TEST-0146-175.66/001	1879
+1C2-E-TEST-0146-175.66/002	national secular holiday	DEP=1C2-E-TEST-0146-175.66004
+1C2-E-TEST-0146-175.66/003	parliament	DEP=1C2-E-TEST-0146-175.66004
+1C2-E-TEST-0146-175.66/004	declared
+1C2-E-TEST-0146-194.29	The earliest Canadian Thanksgiving was held in 1578, when Martin Frobisher held a ceremony in present-day Newfoundland to give thanks for a safe arrival in the New World.
+1C2-E-TEST-0146-194.29/001	earliest canadian	DEP=1C2-E-TEST-0146-194.29008
+1C2-E-TEST-0146-194.29/002	1578
+1C2-E-TEST-0146-194.29/003	martin frobisher	DEP=1C2-E-TEST-0146-194.29009
+1C2-E-TEST-0146-194.29/004	ceremony	DEP=1C2-E-TEST-0146-194.29009
+1C2-E-TEST-0146-194.29/005	present-day newfoundland
+1C2-E-TEST-0146-194.29/006	safe arrival
+1C2-E-TEST-0146-194.29/007	new world
+1C2-E-TEST-0146-194.29/008	held
+1C2-E-TEST-0146-194.29/009	held	DEP=1C2-E-TEST-0146-194.29008
+1C2-E-TEST-0146-194.29/010	give	DEP=1C2-E-TEST-0146-194.29009
+1C2-E-TEST-0146-194.29/011	thanks	DEP=1C2-E-TEST-0146-194.29010
+1C2-E-TEST-0146-194.30	In 1879, Parliament established a national Thanksgiving day on November 6; since 1957, Thanksgiving Day has been celebrated in Canada on the second Monday in October.
+1C2-E-TEST-0146-194.30/001	1879
+1C2-E-TEST-0146-194.30/002	parliament	DEP=1C2-E-TEST-0146-194.30008
+1C2-E-TEST-0146-194.30/003	national
+1C2-E-TEST-0146-194.30/004	november 6
+1C2-E-TEST-0146-194.30/005	1957
+1C2-E-TEST-0146-194.30/006	second monday
+1C2-E-TEST-0146-194.30/007	october
+1C2-E-TEST-0146-194.30/008	established
+1C2-E-TEST-0146-194.30/009	celebrated	DEP=1C2-E-TEST-0146-194.30008
+1C2-E-TEST-0146-234.15	In Canada, Thanksgiving is only a three-day weekend, and the holiday is not as important as in the US.
+1C2-E-TEST-0146-234.15/001	three-day weekend
+1C2-E-TEST-0146-234.15/002	holiday	DEP=1C2-E-TEST-0146-234.15003
+1C2-E-TEST-0146-234.15/003	important	DEP=1C2-E-TEST-0146-234.15001
+1C2-E-TEST-0146-234.18	Additionally, while the actual Thanksgiving holiday is on a Monday, Canadians may eat their Thanksgiving meal on any day of that three day weekend.
+1C2-E-TEST-0146-234.18/001	actual holiday
+1C2-E-TEST-0146-234.18/002	monday
+1C2-E-TEST-0146-234.18/003	canadians	DEP=1C2-E-TEST-0146-234.18007
+1C2-E-TEST-0146-234.18/004	meal	DEP=1C2-E-TEST-0146-234.18007
+1C2-E-TEST-0146-234.18/005	three weekend
+1C2-E-TEST-0146-234.18/006	additionally	DEP=1C2-E-TEST-0146-234.18007
+1C2-E-TEST-0146-234.18/007	eat
+1C2-E-TEST-0146-234.4	Thanksgiving 2010 Celebration Date - Thanksgiving is always the fourth Thursday in November.
+1C2-E-TEST-0146-234.4/001	2010 celebration date
+1C2-E-TEST-0146-234.4/002	fourth thursday
+1C2-E-TEST-0146-234.4/003	november
+1C2-E-TEST-0146-234.47	The Pilgrims did not hold Thanksgiving again until 1623, when it followed a drought, prayers for rain and a subsequent rain shower.
+1C2-E-TEST-0146-234.47/001	pilgrims	DEP=1C2-E-TEST-0146-234.47008
+1C2-E-TEST-0146-234.47/002	1623
+1C2-E-TEST-0146-234.47/003	drought	DEP=1C2-E-TEST-0146-234.47009
+1C2-E-TEST-0146-234.47/004	prayers	DEP=1C2-E-TEST-0146-234.47003
+1C2-E-TEST-0146-234.47/005	rain
+1C2-E-TEST-0146-234.47/006	subsequent rain shower	DEP=1C2-E-TEST-0146-234.47003
+1C2-E-TEST-0146-234.47/007	did	DEP=1C2-E-TEST-0146-234.47008
+1C2-E-TEST-0146-234.47/008	hold
+1C2-E-TEST-0146-234.47/009	followed	DEP=1C2-E-TEST-0146-234.47008
+1C2-E-TEST-0146-234.58	George Washington, leader of the revolutionary forces in the American Revolutionary War, proclaimed a Thanksgiving in December 1777 as a victory celebration honoring the defeat of the British at Saratoga.
+1C2-E-TEST-0146-234.58/001	george washington	DEP=1C2-E-TEST-0146-234.58010
+1C2-E-TEST-0146-234.58/002	leader	DEP=1C2-E-TEST-0146-234.58001
+1C2-E-TEST-0146-234.58/003	revolutionary forces
+1C2-E-TEST-0146-234.58/004	american revolutionary war
+1C2-E-TEST-0146-234.58/005	december 1777
+1C2-E-TEST-0146-234.58/006	victory celebration
+1C2-E-TEST-0146-234.58/007	defeat	DEP=1C2-E-TEST-0146-234.58011
+1C2-E-TEST-0146-234.58/008	british
+1C2-E-TEST-0146-234.58/009	saratoga
+1C2-E-TEST-0146-234.58/010	proclaimed
+1C2-E-TEST-0146-234.58/011	honoring	DEP=1C2-E-TEST-0146-234.58006
+1C2-E-TEST-0146-234.74	Canadians trace the holiday to a feast held by Martin Frobisher in Newfoundland in 1578.
+1C2-E-TEST-0146-234.74/001	canadians
+1C2-E-TEST-0146-234.74/002	holiday
+1C2-E-TEST-0146-234.74/003	feast
+1C2-E-TEST-0146-234.74/004	martin frobisher
+1C2-E-TEST-0146-234.74/005	newfoundland
+1C2-E-TEST-0146-234.74/006	1578
+1C2-E-TEST-0146-234.74/007	held	DEP=1C2-E-TEST-0146-234.74003
+1C2-E-TEST-0146-234.79	The first official Canadian Thanksgiving Day was celebrated on April 5, 1872 in gratitude for the Prince of Wales' recovery from serious illness.
+1C2-E-TEST-0146-234.79/001	official canadian
+1C2-E-TEST-0146-234.79/002	april 5 1872
+1C2-E-TEST-0146-234.79/003	gratitude
+1C2-E-TEST-0146-234.79/004	prince
+1C2-E-TEST-0146-234.79/005	wales	DEP=1C2-E-TEST-0146-234.79008
+1C2-E-TEST-0146-234.79/006	serious illness
+1C2-E-TEST-0146-234.79/007	celebrated
+1C2-E-TEST-0146-234.79/008	recovery
+1C2-E-TEST-0146-237.28	President Abraham Lincoln saw it as a way to unite the country, and he in 1863 he proclaimed a national Thanksgiving celebration on the last Thursday in November.
+1C2-E-TEST-0146-237.28/001	president abraham lincoln
+1C2-E-TEST-0146-237.28/002	way
+1C2-E-TEST-0146-237.28/003	country	DEP=1C2-E-TEST-0146-237.28007
+1C2-E-TEST-0146-237.28/004	1863
+1C2-E-TEST-0146-237.28/005	national celebration	DEP=1C2-E-TEST-0146-237.28008
+1C2-E-TEST-0146-237.28/006	november
+1C2-E-TEST-0146-237.28/007	unite
+1C2-E-TEST-0146-237.28/008	proclaimed
+1C2-E-TEST-0146-237.28/009	thursday
+1C2-E-TEST-0146-284.15	Thanksgiving remained a custom unsanctified by law until President Roosevelt signed a bill on 26 November 1941 that established the fourth Thursday in November as the national Thanksgiving public holiday.
+1C2-E-TEST-0146-284.15/001	custom
+1C2-E-TEST-0146-284.15/002	law
+1C2-E-TEST-0146-284.15/003	president roosevelt	DEP=1C2-E-TEST-0146-284.15011
+1C2-E-TEST-0146-284.15/004	bill	DEP=1C2-E-TEST-0146-284.15011
+1C2-E-TEST-0146-284.15/005	26
+1C2-E-TEST-0146-284.15/006	fourth thursday	DEP=1C2-E-TEST-0146-284.15014
+1C2-E-TEST-0146-284.15/007	november
+1C2-E-TEST-0146-284.15/008	national public holiday
+1C2-E-TEST-0146-284.15/009	remained	DEP=1C2-E-TEST-0146-284.15001
+1C2-E-TEST-0146-284.15/010	unsanctified	DEP=1C2-E-TEST-0146-284.15001
+1C2-E-TEST-0146-284.15/011	signed	DEP=1C2-E-TEST-0146-284.15001
+1C2-E-TEST-0146-284.15/012	november	DEP=1C2-E-TEST-0146-284.15011
+1C2-E-TEST-0146-284.15/013	1941	DEP=1C2-E-TEST-0146-284.15012
+1C2-E-TEST-0146-284.15/014	established	DEP=1C2-E-TEST-0146-284.15011
+1C2-E-TEST-0146-316.67	In Canada, Thanksgiving is celebrated on the second Monday in October.
+1C2-E-TEST-0146-316.67/001	second monday
+1C2-E-TEST-0146-316.67/002	october
+1C2-E-TEST-0146-316.67/003	celebrated
+1C2-E-TEST-0146-316.73	In 1879 Canada's parliament declared Thanksgiving to be a national secular holiday.
+1C2-E-TEST-0146-316.73/001	1879
+1C2-E-TEST-0146-316.73/002	national secular holiday	DEP=1C2-E-TEST-0146-316.73004
+1C2-E-TEST-0146-316.73/003	parliament	DEP=1C2-E-TEST-0146-316.73004
+1C2-E-TEST-0146-316.73/004	declared
+1C2-E-TEST-0146-4.39	[9] The 1621 Plymouth feast and thanksgiving was prompted by a good harvest.
+1C2-E-TEST-0146-4.39/001	1621 plymouth feast	DEP=1C2-E-TEST-0146-4.39003
+1C2-E-TEST-0146-4.39/002	good harvest
+1C2-E-TEST-0146-4.39/003	9	DEP=1C2-E-TEST-0146-4.39004
+1C2-E-TEST-0146-4.39/004	prompted
+1C2-E-TEST-0146-4.66	The first official Canadian Thanksgiving occurred on April 15, 1872, when the nation was celebrating the Prince of Wales ' recovery from a serious illness.
+1C2-E-TEST-0146-4.66/001	official canadian
+1C2-E-TEST-0146-4.66/002	april 15 1872
+1C2-E-TEST-0146-4.66/003	nation	DEP=1C2-E-TEST-0146-4.66008
+1C2-E-TEST-0146-4.66/004	prince	DEP=1C2-E-TEST-0146-4.66008
+1C2-E-TEST-0146-4.66/005	wales	DEP=1C2-E-TEST-0146-4.66009
+1C2-E-TEST-0146-4.66/006	serious illness
+1C2-E-TEST-0146-4.66/007	occurred
+1C2-E-TEST-0146-4.66/008	celebrating	DEP=1C2-E-TEST-0146-4.66007
+1C2-E-TEST-0146-4.66/009	recovery
+1C2-E-TEST-0146-4.69	To prevent the two holidays from clashing with one another, in 1957 the Canadian Parliament proclaimed Thanksgiving to be observed on its present date on the second Monday of October.
+1C2-E-TEST-0146-4.69/001	two holidays	DEP=1C2-E-TEST-0146-4.69007
+1C2-E-TEST-0146-4.69/002	1957
+1C2-E-TEST-0146-4.69/003	canadian parliament	DEP=1C2-E-TEST-0146-4.69009
+1C2-E-TEST-0146-4.69/004	present date
+1C2-E-TEST-0146-4.69/005	second monday
+1C2-E-TEST-0146-4.69/006	october
+1C2-E-TEST-0146-4.69/007	prevent	DEP=1C2-E-TEST-0146-4.69009
+1C2-E-TEST-0146-4.69/008	clashing
+1C2-E-TEST-0146-4.69/009	proclaimed
+1C2-E-TEST-0146-4.69/010	observed	DEP=1C2-E-TEST-0146-4.69009
+1C2-E-TEST-0146-6.4	In Newfoundland in 1578, the English navigator Martin Frobisher held a ceremony to give thanks for surviving the long journey. He was later knighted and had an inlet of the Atlantic Ocean in Northern Canada named after him.....Frobisher Bay. As other settlers arrived they continued these ceremonies.
+1C2-E-TEST-0146-6.4/001	newfoundland
+1C2-E-TEST-0146-6.4/002	1578
+1C2-E-TEST-0146-6.4/003	english navigator martin frobisher	DEP=1C2-E-TEST-0146-6.4012
+1C2-E-TEST-0146-6.4/004	thanks	DEP=1C2-E-TEST-0146-6.4014
+1C2-E-TEST-0146-6.4/005	long journey	DEP=1C2-E-TEST-0146-6.4015
+1C2-E-TEST-0146-6.4/006	inlet
+1C2-E-TEST-0146-6.4/007	atlantic ocean
+1C2-E-TEST-0146-6.4/008	northern
+1C2-E-TEST-0146-6.4/009	frobisher bay	DEP=1C2-E-TEST-0146-6.4017
+1C2-E-TEST-0146-6.4/010	settlers	DEP=1C2-E-TEST-0146-6.4019
+1C2-E-TEST-0146-6.4/011	ceremonies	DEP=1C2-E-TEST-0146-6.4020
+1C2-E-TEST-0146-6.4/012	held
+1C2-E-TEST-0146-6.4/013	ceremony	DEP=1C2-E-TEST-0146-6.4012
+1C2-E-TEST-0146-6.4/014	give	DEP=1C2-E-TEST-0146-6.4013
+1C2-E-TEST-0146-6.4/015	surviving
+1C2-E-TEST-0146-6.4/016	later	DEP=1C2-E-TEST-0146-6.4017
+1C2-E-TEST-0146-6.4/017	knighted	DEP=1C2-E-TEST-0146-6.4014
+1C2-E-TEST-0146-6.4/018	named
+1C2-E-TEST-0146-6.4/019	arrived	DEP=1C2-E-TEST-0146-6.4014
+1C2-E-TEST-0146-6.4/020	continued	DEP=1C2-E-TEST-0146-6.4019
+1C2-E-TEST-0146-6.7	In 1879 the Canadian Parliament declared the 6th November as a day of Thanksgiving and a national holiday. Over the years the date has changed with the third Monday in October being the most popular time. Finally on the 31st January 1957 the Canadian Parliament proclaimed that....
+1C2-E-TEST-0146-6.7/001	1879
+1C2-E-TEST-0146-6.7/002	canadian parliament	DEP=1C2-E-TEST-0146-6.7012
+1C2-E-TEST-0146-6.7/003	6th november	DEP=1C2-E-TEST-0146-6.7012
+1C2-E-TEST-0146-6.7/004	national holiday
+1C2-E-TEST-0146-6.7/005	years
+1C2-E-TEST-0146-6.7/006	date	DEP=1C2-E-TEST-0146-6.7013
+1C2-E-TEST-0146-6.7/007	third monday
+1C2-E-TEST-0146-6.7/008	october
+1C2-E-TEST-0146-6.7/009	popular time	DEP=1C2-E-TEST-0146-6.7008
+1C2-E-TEST-0146-6.7/010	31st
+1C2-E-TEST-0146-6.7/011	canadian parliament	DEP=1C2-E-TEST-0146-6.7017
+1C2-E-TEST-0146-6.7/012	declared	DEP=1C2-E-TEST-0146-6.7017
+1C2-E-TEST-0146-6.7/013	changed
+1C2-E-TEST-0146-6.7/014	finally	DEP=1C2-E-TEST-0146-6.7013
+1C2-E-TEST-0146-6.7/015	january	DEP=1C2-E-TEST-0146-6.7013
+1C2-E-TEST-0146-6.7/016	1957	DEP=1C2-E-TEST-0146-6.7015
+1C2-E-TEST-0146-6.7/017	proclaimed
+1C2-E-TEST-0146-8.33	In 1879, the Parliament declared 6th day of November as the day of Thanksgiving and also declared it a national holiday.
+1C2-E-TEST-0146-8.33/001	1879
+1C2-E-TEST-0146-8.33/002	parliament	DEP=1C2-E-TEST-0146-8.33006
+1C2-E-TEST-0146-8.33/003	6th
+1C2-E-TEST-0146-8.33/004	november
+1C2-E-TEST-0146-8.33/005	national holiday	DEP=1C2-E-TEST-0146-8.33007
+1C2-E-TEST-0146-8.33/006	declared
+1C2-E-TEST-0146-8.33/007	declared	DEP=1C2-E-TEST-0146-8.33006
+1C2-E-TEST-0146-8.34	Over the years different dates were used for celebrating the Thanksgiving Day in Canada but the most popular date was the 3rd Monday of October.
+1C2-E-TEST-0146-8.34/001	years
+1C2-E-TEST-0146-8.34/002	different dates
+1C2-E-TEST-0146-8.34/003	3rd monday
+1C2-E-TEST-0146-8.34/004	october
+1C2-E-TEST-0146-8.34/005	celebrating
+1C2-E-TEST-0146-8.34/006	popular	DEP=1C2-E-TEST-0146-8.34007
+1C2-E-TEST-0146-8.34/007	date	DEP=1C2-E-TEST-0146-8.34003
+1C2-E-TEST-0146-84.3	In the United States, Thanksgiving is celebrated on the fourth Thursday of November. In Canada, it is celebrated on the second Monday in October. In the United Kingdom, Thanksgiving is another name for the Harvest festival, held in churches across the land on a relevant Sunday to mark the end of the local harvest.
+1C2-E-TEST-0146-84.3/001	united states
+1C2-E-TEST-0146-84.3/002	fourth thursday
+1C2-E-TEST-0146-84.3/003	november
+1C2-E-TEST-0146-84.3/004	second monday
+1C2-E-TEST-0146-84.3/005	october
+1C2-E-TEST-0146-84.3/006	united kingdom
+1C2-E-TEST-0146-84.3/007	name	DEP=1C2-E-TEST-0146-84.3005
+1C2-E-TEST-0146-84.3/008	harvest festival
+1C2-E-TEST-0146-84.3/009	churches
+1C2-E-TEST-0146-84.3/010	land
+1C2-E-TEST-0146-84.3/011	relevant sunday
+1C2-E-TEST-0146-84.3/012	end	DEP=1C2-E-TEST-0146-84.3017
+1C2-E-TEST-0146-84.3/013	local harvest
+1C2-E-TEST-0146-84.3/014	celebrated
+1C2-E-TEST-0146-84.3/015	celebrated	DEP=1C2-E-TEST-0146-84.3003
+1C2-E-TEST-0146-84.3/016	held	DEP=1C2-E-TEST-0146-84.3005
+1C2-E-TEST-0146-84.3/017	mark	DEP=1C2-E-TEST-0146-84.3016
+1C2-E-TEST-0146-84.35	President John Adams declared Thanksgivings in 1798 and 1799.
+1C2-E-TEST-0146-84.35/001	president john adams	DEP=1C2-E-TEST-0146-84.35004
+1C2-E-TEST-0146-84.35/002	thanksgivings	DEP=1C2-E-TEST-0146-84.35004
+1C2-E-TEST-0146-84.35/003	1798 1799
+1C2-E-TEST-0146-84.35/004	declared
+1C2-E-TEST-0146-84.48	Since 1863, Thanksgiving has been observed annually in the United States.
+1C2-E-TEST-0146-84.48/001	1863
+1C2-E-TEST-0146-84.48/002	united states
+1C2-E-TEST-0146-84.48/003	observed
+1C2-E-TEST-0146-84.48/004	annually	DEP=1C2-E-TEST-0146-84.48003
+1C2-E-TEST-0146-84.50	In 1939, President Franklin D. Roosevelt declared that Thanksgiving would be the next-to-last Thursday of November rather than the last.
+1C2-E-TEST-0146-84.50/001	1939
+1C2-E-TEST-0146-84.50/002	president franklin d. roosevelt	DEP=1C2-E-TEST-0146-84.50005
+1C2-E-TEST-0146-84.50/003	next-to-last thursday	DEP=1C2-E-TEST-0146-84.50005
+1C2-E-TEST-0146-84.50/004	november
+1C2-E-TEST-0146-84.50/005	declared
+1C2-E-TEST-0146-84.61	In Canada, Thanksgiving is celebrated on the second Monday in October.
+1C2-E-TEST-0146-84.61/001	second monday
+1C2-E-TEST-0146-84.61/002	october
+1C2-E-TEST-0146-84.61/003	celebrated
+1C2-E-TEST-0146-84.68	This is considered the first Canadian Thanksgiving, and the first Thanksgiving to have taken place in North America.
+1C2-E-TEST-0146-84.68/001	canadian
+1C2-E-TEST-0146-84.68/002	place	DEP=1C2-E-TEST-0146-84.68005
+1C2-E-TEST-0146-84.68/003	north america
+1C2-E-TEST-0146-84.68/004	considered
+1C2-E-TEST-0146-84.68/005	taken	DEP=1C2-E-TEST-0146-84.68004

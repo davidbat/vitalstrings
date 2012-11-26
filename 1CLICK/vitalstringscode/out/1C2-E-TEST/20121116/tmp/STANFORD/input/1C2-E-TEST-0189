@@ -1,0 +1,64 @@
+There are also JavaScript-based frameworks being developed to ease the development of iPhone-specific interfaces.
+
+WeÃ¢â¬â¢ve been getting lots of questions lately surrounding the new Apple iPhone from people wondering if there will be GPS in the iPhone.
+
+However having used Ã¢â¬ÅGPSÃ¢â¬Â systems based only on cell phone triangulation, the accuracy is not always fantastic and there are tons of areas I travel in that my phone doesnÃ¢â¬â¢t get a cell signal in which case there is no fall back.
+
+In the example you provided where you open up Google Maps and it defaults to your current position, I think a cell site triangulation method would work fineÃ¢â¬Â¦ provided you are in an area where you can get a cell signal.
+
+Second, since the iPhone wonÃ¢â¬â¢t be available for another six months specifications can changeÃ¢â¬Â¦ it wouldnÃ¢â¬â¢t be the first time Apple changed the specs for the better when a product was finally released although we have no information that will actually happen here.
+
+This looks like the perfect PDA/phone although short of a GPS. does anyone know why companyÃ¢â¬â¢s cant make a phone that has a true GPS internally in the phone? (there are exceptions e.g. Blackberry 8800 which is 500 dollars).
+
+After we developed a Latitude application for the iPhone, Apple requested we release Latitude as a web application in order to avoid confusion with Maps on the iPhone, which uses Google to serve maps tiles.
+
+The Google Latitude web app currently supports iPhone/iPod Touch OS 3.0 or above.
+
+Our Latitude web app provides all the core functionality you might expect: you can see the location of your friends on a map and modify your privacy settings so that you control how your location is shared and with whom.
+
+But Apple, curiously, decreed that it be a Web-based app and not a native iPhone app , which raised some eyebrows.
+
+The application, which allows you to show your location on a map so that friends may find you, works much the same way as on other platforms like Android , Symbian, BlackBerry, and Windows Mobile.
+
+At the time, Google explained the matter this way: "After we developed a Latitude application for the iPhone, Apple requested we release Latitude as a Web application in order to avoid confusion with Maps on the iPhone, which uses Google to serve maps tiles.".
+
+Apple's rationale apparently was that people would get confused between a Google Maps app and a Google Latitude app.
+
+The same month that Apple said no to Google Latitude, Apple rejected the Google Voice application from its App Store, according to a letter Google sent to the Federal Communications Commission.
+
+Android - an open operating system for cell phones and smartbooks based on Linux.
+
+With the latest Adobe Flash Builder 4.6 (using Flex 4.6 or ActionScript) and the MapQuest Mobile Flash Maps API , you can code once and deploy to iOS, Android and Blackberry Tablet!.
+
+OPEN DATA - Taking advantage of OpenStreetMap (OSM) and other open data sources, MapQuest offers a unique set of Open Data APIs.
+
+For the mobile web, you can use the same JavaScript Maps API that powers the MapQuest mobile website.
+
+For native applications, options include the newly released Flash/Flex Mapping API , Android Maps API and the iOS Maps API .
+
+We're excited to announce the release of our Android Maps API to production and our iOS Maps API to beta.
+
+These APIs are designed as "drop in" replacements for the native APIs. We used the same object model as the native API, while of course extending it to add great features such as integrated driving directions plus the ability to use OpenStreetMap data or our licensed datasets.
+
+While some choose to use other maps APIs (like Bing Maps, for example), the vast majority go with Google Maps because itÃ¢â¬â¢s baked right in and easy to hook up.
+
+At the same time, they made a point of saying they werenÃ¢â¬â¢t switching away from Google Maps on their mobile applications (where maps are obviously the most important).
+
+Google recently made the change to start charging high volume customers of the Google Maps API on the web.
+
+My guess would be that because of iOS, Apple may be the largest user of the Google Maps API right now.
+
+Apple can afford any charge Google throws their way, and would undoubtedly pay it if they thought it was worth it to ensure iOS remains the best mobile platform out there.
+
+This move away from Google Maps is more about controlling essential technology, as John Gruber points out today.
+
+And if Apple not only pulls iOS out, but takes millions of developers with them, Google Maps couldÃÂ suddenlyÃÂ go fromÃÂ behemothÃÂ to vulnerable.
+
+As weÃ¢â¬â¢ve seen the past few days, new iCloudÃÂ functionality ÃÂ should be a key part of iOS 6 as well.
+
+And more deep ties into the forthcoming OS X Mountain Lion should be revealed.
+
+ItÃ¢â¬â¢s believed (but far from confirmed) that Apple may be zeroing in on the major revamp theyÃ¢â¬â¢re after.
+
+As youÃ¢â¬â¢ve undoubtedly seen by now, with the upcoming iOS 6 software, Apple intends to replace the Google Maps aspect of their default Maps application with their own, in-house version.
+

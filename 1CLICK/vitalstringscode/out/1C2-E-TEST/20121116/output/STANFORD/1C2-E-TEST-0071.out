@@ -1,0 +1,499 @@
+1C2-E-TEST-0071-119.5	Insane Beckham Freekicks Reloaded... freekickerz Knuckle Ball Knuckling Curve FreistoÃÂ Freistoss FreistÃÂ¶sse KnuckleBall Knuckle BallCech(Chelsea),Edwin van der Sar(Manchester United),Fabio Cannavaro (Real Madrid), Rio Ferdinand (Manchester United), ...
+1C2-E-TEST-0071-119.5/001	insane beckham freekicks reloaded
+1C2-E-TEST-0071-119.5/002	freekickerz	DEP=1C2-E-TEST-0071-119.5001
+1C2-E-TEST-0071-119.5/003	knuckle ball knuckling curve freistoã freistoss freistã ¶ sse	DEP=1C2-E-TEST-0071-119.5002
+1C2-E-TEST-0071-119.5/004	chelsea	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/005	manchester united	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/006	real madrid	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/007	manchester united	DEP=1C2-E-TEST-0071-119.5003
+1C2-E-TEST-0071-119.5/008	knuckleball	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/009	knuckle	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/010	ballcech	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/011	edwin	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/012	van	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/013	der	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/014	sar	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/015	rio	DEP=1C2-E-TEST-0071-119.5016
+1C2-E-TEST-0071-119.5/016	ferdinand	DEP=1C2-E-TEST-0071-119.5003
+1C2-E-TEST-0071-2.10	Fabio was born on 13th September 1973 at Naples, in Italy.
+1C2-E-TEST-0071-2.10/001	13th september 1973
+1C2-E-TEST-0071-2.10/002	naples
+1C2-E-TEST-0071-2.10/003	italy
+1C2-E-TEST-0071-2.10/004	born
+1C2-E-TEST-0071-2.13	Cannavaro participated in training sessions of Napoli as a ball boy during maradonaÃ¢ÂÂs era.
+1C2-E-TEST-0071-2.13/001	training sessions
+1C2-E-TEST-0071-2.13/002	napoli
+1C2-E-TEST-0071-2.13/003	ball boy
+1C2-E-TEST-0071-2.13/004	maradonaâ
+1C2-E-TEST-0071-2.13/005	participated
+1C2-E-TEST-0071-2.13/006	s
+1C2-E-TEST-0071-2.13/007	era	DEP=1C2-E-TEST-0071-2.13005
+1C2-E-TEST-0071-2.14	Cannavaro made is Serie A debut while playing against Juventus.
+1C2-E-TEST-0071-2.14/001	serie debut	DEP=1C2-E-TEST-0071-2.14003
+1C2-E-TEST-0071-2.14/002	juventus
+1C2-E-TEST-0071-2.14/003	made
+1C2-E-TEST-0071-2.14/004	playing
+1C2-E-TEST-0071-2.17	At Parma, Cannavaro bloomed as a top defender.
+1C2-E-TEST-0071-2.17/001	parma
+1C2-E-TEST-0071-2.17/002	top defender
+1C2-E-TEST-0071-2.17/003	bloomed
+1C2-E-TEST-0071-2.19	In 1997, Cannavaro helped Parma to become runners up in Serie A for the first times in their history, with just one point adrift the winners Juventus.
+1C2-E-TEST-0071-2.19/001	1997
+1C2-E-TEST-0071-2.19/002	parma	DEP=1C2-E-TEST-0071-2.19003
+1C2-E-TEST-0071-2.19/003	runners	DEP=1C2-E-TEST-0071-2.19010
+1C2-E-TEST-0071-2.19/004	serie
+1C2-E-TEST-0071-2.19/005	times
+1C2-E-TEST-0071-2.19/006	history
+1C2-E-TEST-0071-2.19/007	point
+1C2-E-TEST-0071-2.19/008	winners
+1C2-E-TEST-0071-2.19/009	juventus	DEP=1C2-E-TEST-0071-2.19008
+1C2-E-TEST-0071-2.19/010	helped
+1C2-E-TEST-0071-2.20	In 1999, Cannavaro won Copa Italia, UEFA cup, as well as Super Copa Italia with Parma.
+1C2-E-TEST-0071-2.20/001	1999
+1C2-E-TEST-0071-2.20/002	copa italia	DEP=1C2-E-TEST-0071-2.20006
+1C2-E-TEST-0071-2.20/003	uefa cup	DEP=1C2-E-TEST-0071-2.20002
+1C2-E-TEST-0071-2.20/004	super copa italia	DEP=1C2-E-TEST-0071-2.20002
+1C2-E-TEST-0071-2.20/005	parma
+1C2-E-TEST-0071-2.20/006	won
+1C2-E-TEST-0071-2.21	He was the second best defender in Italy during 2000 as well as 2001.He won Copa Italia again in 2002 with Parma.
+1C2-E-TEST-0071-2.21/001	italy
+1C2-E-TEST-0071-2.21/002	2000
+1C2-E-TEST-0071-2.21/003	2001	DEP=1C2-E-TEST-0071-2.21009
+1C2-E-TEST-0071-2.21/004	copa italia	DEP=1C2-E-TEST-0071-2.21010
+1C2-E-TEST-0071-2.21/005	2002
+1C2-E-TEST-0071-2.21/006	parma
+1C2-E-TEST-0071-2.21/007	second	DEP=1C2-E-TEST-0071-2.21009
+1C2-E-TEST-0071-2.21/008	best	DEP=1C2-E-TEST-0071-2.21007
+1C2-E-TEST-0071-2.21/009	defender	DEP=1C2-E-TEST-0071-2.21010
+1C2-E-TEST-0071-2.21/010	won
+1C2-E-TEST-0071-2.22	He played 212 league matches for Parma, during his seven-year stint with them.
+1C2-E-TEST-0071-2.22/001	212 league matches	DEP=1C2-E-TEST-0071-2.22004
+1C2-E-TEST-0071-2.22/002	parma
+1C2-E-TEST-0071-2.22/003	seven-year stint
+1C2-E-TEST-0071-2.22/004	played
+1C2-E-TEST-0071-2.27	Cannavaro played 50 matches for Inter Milan.
+1C2-E-TEST-0071-2.27/001	50 matches	DEP=1C2-E-TEST-0071-2.27003
+1C2-E-TEST-0071-2.27/002	inter milan
+1C2-E-TEST-0071-2.27/003	played
+1C2-E-TEST-0071-2.30	Cannavaro won consecutive Serie A titles with Juventus in 2005 and 2006.However, Italian football federation stripped Juventus of their titles in wake of the trial verdict of Calciopoli match fixing scandal.
+1C2-E-TEST-0071-2.30/001	consecutive serie titles	DEP=1C2-E-TEST-0071-2.30011
+1C2-E-TEST-0071-2.30/002	juventus
+1C2-E-TEST-0071-2.30/003	2005 2006
+1C2-E-TEST-0071-2.30/004	italian football federation	DEP=1C2-E-TEST-0071-2.30012
+1C2-E-TEST-0071-2.30/005	juventus	DEP=1C2-E-TEST-0071-2.30012
+1C2-E-TEST-0071-2.30/006	titles
+1C2-E-TEST-0071-2.30/007	wake	DEP=1C2-E-TEST-0071-2.30013
+1C2-E-TEST-0071-2.30/008	trial verdict
+1C2-E-TEST-0071-2.30/009	calciopoli match
+1C2-E-TEST-0071-2.30/010	scandal	DEP=1C2-E-TEST-0071-2.30013
+1C2-E-TEST-0071-2.30/011	won	DEP=1C2-E-TEST-0071-2.30012
+1C2-E-TEST-0071-2.30/012	stripped
+1C2-E-TEST-0071-2.30/013	fixing
+1C2-E-TEST-0071-2.31	Cannavaro captained Juventus during his stint with them.
+1C2-E-TEST-0071-2.31/001	juventus	DEP=1C2-E-TEST-0071-2.31003
+1C2-E-TEST-0071-2.31/002	stint
+1C2-E-TEST-0071-2.31/003	captained
+1C2-E-TEST-0071-2.34	In 2006, Cannavaro moved to Spain and joined Real Madrid after the world cup success.
+1C2-E-TEST-0071-2.34/001	2006
+1C2-E-TEST-0071-2.34/002	spain
+1C2-E-TEST-0071-2.34/003	real madrid	DEP=1C2-E-TEST-0071-2.34006
+1C2-E-TEST-0071-2.34/004	world cup success
+1C2-E-TEST-0071-2.34/005	moved
+1C2-E-TEST-0071-2.34/006	joined	DEP=1C2-E-TEST-0071-2.34005
+1C2-E-TEST-0071-2.35	Cannavaro helped Real Madrid to win their first Spanish La Liga title in four years, in2007.He was again solid at defence during next season, and Real Madrid went on with win their 31st La Liga title.
+1C2-E-TEST-0071-2.35/001	real madrid	DEP=1C2-E-TEST-0071-2.35009
+1C2-E-TEST-0071-2.35/002	spanish la liga title	DEP=1C2-E-TEST-0071-2.35010
+1C2-E-TEST-0071-2.35/003	four years
+1C2-E-TEST-0071-2.35/004	in2007	DEP=1C2-E-TEST-0071-2.35011
+1C2-E-TEST-0071-2.35/005	defense
+1C2-E-TEST-0071-2.35/006	season
+1C2-E-TEST-0071-2.35/007	real madrid	DEP=1C2-E-TEST-0071-2.35012
+1C2-E-TEST-0071-2.35/008	31st la liga title	DEP=1C2-E-TEST-0071-2.35013
+1C2-E-TEST-0071-2.35/009	helped
+1C2-E-TEST-0071-2.35/010	win	DEP=1C2-E-TEST-0071-2.35009
+1C2-E-TEST-0071-2.35/011	solid	DEP=1C2-E-TEST-0071-2.35009
+1C2-E-TEST-0071-2.35/012	went	DEP=1C2-E-TEST-0071-2.35009
+1C2-E-TEST-0071-2.35/013	win
+1C2-E-TEST-0071-2.36	Cannavaro and Real Madrid struggled during 2008 season and they finished second in the La Liga, to Barcelona.
+1C2-E-TEST-0071-2.36/001	real madrid
+1C2-E-TEST-0071-2.36/002	2008 season
+1C2-E-TEST-0071-2.36/003	la liga
+1C2-E-TEST-0071-2.36/004	barcelona
+1C2-E-TEST-0071-2.36/005	struggled
+1C2-E-TEST-0071-2.36/006	finished	DEP=1C2-E-TEST-0071-2.36005
+1C2-E-TEST-0071-2.36/007	second	DEP=1C2-E-TEST-0071-2.36006
+1C2-E-TEST-0071-2.6	Cannavaro lead Italy to world cup win in 2006, as captain.
+1C2-E-TEST-0071-2.6/001	lead italy	DEP=1C2-E-TEST-0071-2.6004
+1C2-E-TEST-0071-2.6/002	world cup
+1C2-E-TEST-0071-2.6/003	2006
+1C2-E-TEST-0071-2.6/004	win
+1C2-E-TEST-0071-2.7	FIFA voted Cannavaro, as Ã¢ÂÂWorld Player of the yearÃ¢ÂÂ for 2006 .Uniqueness of CannavaroÃ¢ÂÂs feat is that, he is the oldest as well as the only defender, ever to win this prestigious football award.
+1C2-E-TEST-0071-2.7/001	fifa	DEP=1C2-E-TEST-0071-2.7010
+1C2-E-TEST-0071-2.7/002	â
+1C2-E-TEST-0071-2.7/003	world player	DEP=1C2-E-TEST-0071-2.7004
+1C2-E-TEST-0071-2.7/004	uniqueness	DEP=1C2-E-TEST-0071-2.7010
+1C2-E-TEST-0071-2.7/005	cannavaroâ
+1C2-E-TEST-0071-2.7/006	feat
+1C2-E-TEST-0071-2.7/007	oldest
+1C2-E-TEST-0071-2.7/008	defender	DEP=1C2-E-TEST-0071-2.7007
+1C2-E-TEST-0071-2.7/009	prestigious football award	DEP=1C2-E-TEST-0071-2.7014
+1C2-E-TEST-0071-2.7/010	voted
+1C2-E-TEST-0071-2.7/011	yearâ
+1C2-E-TEST-0071-2.7/012	2006
+1C2-E-TEST-0071-2.7/013	s
+1C2-E-TEST-0071-2.7/014	win	DEP=1C2-E-TEST-0071-2.7007
+1C2-E-TEST-0071-4.10	Cannavaro was born in Naples and most of his childhood was spent at the San Paolo stadium as a ball boy where he watched Diego Maradona help his hometown team, Napoli, win two Italian league titles.
+1C2-E-TEST-0071-4.10/001	naples
+1C2-E-TEST-0071-4.10/002	childhood
+1C2-E-TEST-0071-4.10/003	san paolo stadium
+1C2-E-TEST-0071-4.10/004	ball boy
+1C2-E-TEST-0071-4.10/005	maradona	DEP=1C2-E-TEST-0071-4.10013
+1C2-E-TEST-0071-4.10/006	hometown team
+1C2-E-TEST-0071-4.10/007	napoli	DEP=1C2-E-TEST-0071-4.10006
+1C2-E-TEST-0071-4.10/008	two italian league titles
+1C2-E-TEST-0071-4.10/009	born
+1C2-E-TEST-0071-4.10/010	spent	DEP=1C2-E-TEST-0071-4.10009
+1C2-E-TEST-0071-4.10/011	watched	DEP=1C2-E-TEST-0071-4.10004
+1C2-E-TEST-0071-4.10/012	diego	DEP=1C2-E-TEST-0071-4.10011
+1C2-E-TEST-0071-4.10/013	help	DEP=1C2-E-TEST-0071-4.10012
+1C2-E-TEST-0071-4.11	Scouts for the club spotted Cannavaro playing and he eventually signed with the team while still a teenager before making his first-team debut in 1993.
+1C2-E-TEST-0071-4.11/001	scouts	DEP=1C2-E-TEST-0071-4.11007
+1C2-E-TEST-0071-4.11/002	club
+1C2-E-TEST-0071-4.11/003	team
+1C2-E-TEST-0071-4.11/004	teenager
+1C2-E-TEST-0071-4.11/005	first-team debut	DEP=1C2-E-TEST-0071-4.11011
+1C2-E-TEST-0071-4.11/006	1993
+1C2-E-TEST-0071-4.11/007	spotted
+1C2-E-TEST-0071-4.11/008	playing
+1C2-E-TEST-0071-4.11/009	eventually	DEP=1C2-E-TEST-0071-4.11010
+1C2-E-TEST-0071-4.11/010	signed	DEP=1C2-E-TEST-0071-4.11007
+1C2-E-TEST-0071-4.11/011	making	DEP=1C2-E-TEST-0071-4.11010
+1C2-E-TEST-0071-4.12	Cannavaro was clearly one of Italian soccer's emerging young talents, so Napoli, struggling financially in the post-Maradona era, sold the defender to Parma.
+1C2-E-TEST-0071-4.12/001	italian soccer
+1C2-E-TEST-0071-4.12/002	young talents	DEP=1C2-E-TEST-0071-4.12008
+1C2-E-TEST-0071-4.12/003	napoli	DEP=1C2-E-TEST-0071-4.12011
+1C2-E-TEST-0071-4.12/004	post-maradona era
+1C2-E-TEST-0071-4.12/005	defender	DEP=1C2-E-TEST-0071-4.12011
+1C2-E-TEST-0071-4.12/006	parma
+1C2-E-TEST-0071-4.12/007	clearly
+1C2-E-TEST-0071-4.12/008	emerging	DEP=1C2-E-TEST-0071-4.12001
+1C2-E-TEST-0071-4.12/009	struggling	DEP=1C2-E-TEST-0071-4.12003
+1C2-E-TEST-0071-4.12/010	financially	DEP=1C2-E-TEST-0071-4.12009
+1C2-E-TEST-0071-4.12/011	sold
+1C2-E-TEST-0071-4.13	It was at Parma, the city famous for its prosciutto, where Cannavaro's star began to shine.
+1C2-E-TEST-0071-4.13/001	parma
+1C2-E-TEST-0071-4.13/002	city	DEP=1C2-E-TEST-0071-4.13001
+1C2-E-TEST-0071-4.13/003	prosciutto
+1C2-E-TEST-0071-4.13/004	famous
+1C2-E-TEST-0071-4.13/005	star	DEP=1C2-E-TEST-0071-4.13006
+1C2-E-TEST-0071-4.13/006	began	DEP=1C2-E-TEST-0071-4.13004
+1C2-E-TEST-0071-4.13/007	shine	DEP=1C2-E-TEST-0071-4.13006
+1C2-E-TEST-0071-4.15	Cannavaro also played a leading role in Parma winning a hatful of domestic and European trophies, including two Italian Cups (1999 and 2002) and the UEFA Cup in 1999.
+1C2-E-TEST-0071-4.15/001	leading role	DEP=1C2-E-TEST-0071-4.15009
+1C2-E-TEST-0071-4.15/002	parma
+1C2-E-TEST-0071-4.15/003	hatful	DEP=1C2-E-TEST-0071-4.15010
+1C2-E-TEST-0071-4.15/004	two italian cups
+1C2-E-TEST-0071-4.15/005	1999	DEP=1C2-E-TEST-0071-4.15004
+1C2-E-TEST-0071-4.15/006	2002	DEP=1C2-E-TEST-0071-4.15005
+1C2-E-TEST-0071-4.15/007	uefa cup	DEP=1C2-E-TEST-0071-4.15004
+1C2-E-TEST-0071-4.15/008	1999
+1C2-E-TEST-0071-4.15/009	played
+1C2-E-TEST-0071-4.15/010	winning	DEP=1C2-E-TEST-0071-4.15002
+1C2-E-TEST-0071-4.15/011	domestic	DEP=1C2-E-TEST-0071-4.15013
+1C2-E-TEST-0071-4.15/012	european	DEP=1C2-E-TEST-0071-4.15011
+1C2-E-TEST-0071-4.15/013	trophies
+1C2-E-TEST-0071-4.16	Cannavaro was a key member of Italy's under-21 team that won back-to-back European championships in 1994 and 1996, and he also played for his country at the Atlanta Olympics, before graduating to Italy's senior team in 1997 when he made his debut for the Azzurri.
+1C2-E-TEST-0071-4.16/001	key member
+1C2-E-TEST-0071-4.16/002	italy	DEP=1C2-E-TEST-0071-4.16012
+1C2-E-TEST-0071-4.16/003	back-to-back european championships	DEP=1C2-E-TEST-0071-4.16013
+1C2-E-TEST-0071-4.16/004	1994 1996
+1C2-E-TEST-0071-4.16/005	country
+1C2-E-TEST-0071-4.16/006	atlanta olympics
+1C2-E-TEST-0071-4.16/007	italy	DEP=1C2-E-TEST-0071-4.16017
+1C2-E-TEST-0071-4.16/008	1997
+1C2-E-TEST-0071-4.16/009	debut	DEP=1C2-E-TEST-0071-4.16018
+1C2-E-TEST-0071-4.16/010	azzurri
+1C2-E-TEST-0071-4.16/011	under-21	DEP=1C2-E-TEST-0071-4.16012
+1C2-E-TEST-0071-4.16/012	team
+1C2-E-TEST-0071-4.16/013	won	DEP=1C2-E-TEST-0071-4.16001
+1C2-E-TEST-0071-4.16/014	played	DEP=1C2-E-TEST-0071-4.16001
+1C2-E-TEST-0071-4.16/015	graduating
+1C2-E-TEST-0071-4.16/016	senior	DEP=1C2-E-TEST-0071-4.16017
+1C2-E-TEST-0071-4.16/017	team
+1C2-E-TEST-0071-4.16/018	made	DEP=1C2-E-TEST-0071-4.16015
+1C2-E-TEST-0071-4.17	Playing alongside fellow defenders Alessandro Nesta and Paolo Maldini, Cannavaro became one of Italy's most reliable and gifted players over the years, distinguishing himself with his solid defensive play at the 1998 and 2002 World Cups and Euro 2000.
+1C2-E-TEST-0071-4.17/001	fellow defenders alessandro nesta
+1C2-E-TEST-0071-4.17/002	paolo maldini	DEP=1C2-E-TEST-0071-4.17001
+1C2-E-TEST-0071-4.17/003	italy
+1C2-E-TEST-0071-4.17/004	gifted players
+1C2-E-TEST-0071-4.17/005	years
+1C2-E-TEST-0071-4.17/006	solid defensive play
+1C2-E-TEST-0071-4.17/007	1998
+1C2-E-TEST-0071-4.17/008	2002 world cups	DEP=1C2-E-TEST-0071-4.17007
+1C2-E-TEST-0071-4.17/009	euro 2000	DEP=1C2-E-TEST-0071-4.17007
+1C2-E-TEST-0071-4.17/010	playing
+1C2-E-TEST-0071-4.17/011	reliable	DEP=1C2-E-TEST-0071-4.17003
+1C2-E-TEST-0071-4.17/012	distinguishing
+1C2-E-TEST-0071-4.18	Following Maldini's international retirement in 2002, Cannavaro took over as captain of Italy.
+1C2-E-TEST-0071-4.18/001	maldini	DEP=1C2-E-TEST-0071-4.18006
+1C2-E-TEST-0071-4.18/002	2002
+1C2-E-TEST-0071-4.18/003	italy
+1C2-E-TEST-0071-4.18/004	following	DEP=1C2-E-TEST-0071-4.18007
+1C2-E-TEST-0071-4.18/005	international	DEP=1C2-E-TEST-0071-4.18006
+1C2-E-TEST-0071-4.18/006	retirement	DEP=1C2-E-TEST-0071-4.18004
+1C2-E-TEST-0071-4.18/007	took
+1C2-E-TEST-0071-4.19	Cannavaro, left, and Italy's defence shut down French superstar Zinedine Zidane in the World Cup final.
+1C2-E-TEST-0071-4.19/001	italy	DEP=1C2-E-TEST-0071-4.19005
+1C2-E-TEST-0071-4.19/002	french superstar zinedine zidane	DEP=1C2-E-TEST-0071-4.19006
+1C2-E-TEST-0071-4.19/003	world cup
+1C2-E-TEST-0071-4.19/004	left
+1C2-E-TEST-0071-4.19/005	defense	DEP=1C2-E-TEST-0071-4.19006
+1C2-E-TEST-0071-4.19/006	shut	DEP=1C2-E-TEST-0071-4.19004
+1C2-E-TEST-0071-4.19/007	final	DEP=1C2-E-TEST-0071-4.19003
+1C2-E-TEST-0071-4.2	He stands a mere five-foot-nine, but Real Madrid's Fabio Cannavaro is a giant among men on the soccer field.
+1C2-E-TEST-0071-4.2/001	mere five-foot-nine	DEP=1C2-E-TEST-0071-4.2006
+1C2-E-TEST-0071-4.2/002	real madrid
+1C2-E-TEST-0071-4.2/003	giant	DEP=1C2-E-TEST-0071-4.2006
+1C2-E-TEST-0071-4.2/004	men
+1C2-E-TEST-0071-4.2/005	soccer field
+1C2-E-TEST-0071-4.2/006	stands
+1C2-E-TEST-0071-4.21	Prior to the start of the 2002-03 season, Parma sold Cannavaro to Inter Milan for a hefty 23-million euros, but the defender never quite settled in Milan due to injury problems and he struggled to duplicate his outstanding form at Parma in the fashion capital of the world.
+1C2-E-TEST-0071-4.21/001	start
+1C2-E-TEST-0071-4.21/002	2002-03 season
+1C2-E-TEST-0071-4.21/003	parma	DEP=1C2-E-TEST-0071-4.21014
+1C2-E-TEST-0071-4.21/004	inter milan
+1C2-E-TEST-0071-4.21/005	hefty 23-million euros
+1C2-E-TEST-0071-4.21/006	defender	DEP=1C2-E-TEST-0071-4.21015
+1C2-E-TEST-0071-4.21/007	milan
+1C2-E-TEST-0071-4.21/008	injury problems
+1C2-E-TEST-0071-4.21/009	outstanding form	DEP=1C2-E-TEST-0071-4.21018
+1C2-E-TEST-0071-4.21/010	parma
+1C2-E-TEST-0071-4.21/011	fashion capital
+1C2-E-TEST-0071-4.21/012	world
+1C2-E-TEST-0071-4.21/013	prior
+1C2-E-TEST-0071-4.21/014	sold
+1C2-E-TEST-0071-4.21/015	settled	DEP=1C2-E-TEST-0071-4.21014
+1C2-E-TEST-0071-4.21/016	due	DEP=1C2-E-TEST-0071-4.21007
+1C2-E-TEST-0071-4.21/017	struggled	DEP=1C2-E-TEST-0071-4.21014
+1C2-E-TEST-0071-4.21/018	duplicate	DEP=1C2-E-TEST-0071-4.21017
+1C2-E-TEST-0071-4.22	Inter decided to cut its losses two years later when they sold Cannavaro to rivals Juventus for a cut-rate price of nine-million euros.
+1C2-E-TEST-0071-4.22/001	inter	DEP=1C2-E-TEST-0071-4.22008
+1C2-E-TEST-0071-4.22/002	losses	DEP=1C2-E-TEST-0071-4.22009
+1C2-E-TEST-0071-4.22/003	two years	DEP=1C2-E-TEST-0071-4.22010
+1C2-E-TEST-0071-4.22/004	rivals
+1C2-E-TEST-0071-4.22/005	juventus	DEP=1C2-E-TEST-0071-4.22004
+1C2-E-TEST-0071-4.22/006	cut-rate price
+1C2-E-TEST-0071-4.22/007	nine-million euros
+1C2-E-TEST-0071-4.22/008	decided
+1C2-E-TEST-0071-4.22/009	cut	DEP=1C2-E-TEST-0071-4.22008
+1C2-E-TEST-0071-4.22/010	later	DEP=1C2-E-TEST-0071-4.22009
+1C2-E-TEST-0071-4.22/011	sold	DEP=1C2-E-TEST-0071-4.22009
+1C2-E-TEST-0071-4.23	Reunited with former Parma teammates Thuram and Buffon, Cannavaro experienced a career renaissance in Turin, as he again established himself as one of the game's best defenders and helped the bianconeri win back-to-back league titles (later revoked when Juventus was found guilty of influencing the appointment of referees for their games in the infamous Italian match-fixing scandal).
+1C2-E-TEST-0071-4.23/001	former parma teammates
+1C2-E-TEST-0071-4.23/002	thuram buffon	DEP=1C2-E-TEST-0071-4.23001
+1C2-E-TEST-0071-4.23/003	career renaissance	DEP=1C2-E-TEST-0071-4.23014
+1C2-E-TEST-0071-4.23/004	turin
+1C2-E-TEST-0071-4.23/005	game	DEP=1C2-E-TEST-0071-4.23017
+1C2-E-TEST-0071-4.23/006	bianconeri
+1C2-E-TEST-0071-4.23/007	back-to-back league titles
+1C2-E-TEST-0071-4.23/008	juventus	DEP=1C2-E-TEST-0071-4.23021
+1C2-E-TEST-0071-4.23/009	appointment	DEP=1C2-E-TEST-0071-4.23023
+1C2-E-TEST-0071-4.23/010	referees
+1C2-E-TEST-0071-4.23/011	games
+1C2-E-TEST-0071-4.23/012	infamous italian match-fixing scandal
+1C2-E-TEST-0071-4.23/013	reunited	DEP=1C2-E-TEST-0071-4.23014
+1C2-E-TEST-0071-4.23/014	experienced
+1C2-E-TEST-0071-4.23/015	established	DEP=1C2-E-TEST-0071-4.23014
+1C2-E-TEST-0071-4.23/016	best	DEP=1C2-E-TEST-0071-4.23017
+1C2-E-TEST-0071-4.23/017	defenders
+1C2-E-TEST-0071-4.23/018	helped	DEP=1C2-E-TEST-0071-4.23015
+1C2-E-TEST-0071-4.23/019	later	DEP=1C2-E-TEST-0071-4.23020
+1C2-E-TEST-0071-4.23/020	revoked	DEP=1C2-E-TEST-0071-4.23007
+1C2-E-TEST-0071-4.23/021	found	DEP=1C2-E-TEST-0071-4.23020
+1C2-E-TEST-0071-4.23/022	guilty	DEP=1C2-E-TEST-0071-4.23021
+1C2-E-TEST-0071-4.23/023	influencing
+1C2-E-TEST-0071-4.24	It was this past summer that Cannavaro, who was a ball boy at the San Paolo stadium during Italy's epic shootout loss to Argentina in the 1990 World Cup semifinals, achieved hero status.
+1C2-E-TEST-0071-4.24/001	past summer
+1C2-E-TEST-0071-4.24/002	ball boy
+1C2-E-TEST-0071-4.24/003	san paolo stadium
+1C2-E-TEST-0071-4.24/004	italy	DEP=1C2-E-TEST-0071-4.24010
+1C2-E-TEST-0071-4.24/005	argentina
+1C2-E-TEST-0071-4.24/006	1990 world cup semifinals
+1C2-E-TEST-0071-4.24/007	hero status	DEP=1C2-E-TEST-0071-4.24011
+1C2-E-TEST-0071-4.24/008	epic	DEP=1C2-E-TEST-0071-4.24010
+1C2-E-TEST-0071-4.24/009	shootout	DEP=1C2-E-TEST-0071-4.24010
+1C2-E-TEST-0071-4.24/010	loss
+1C2-E-TEST-0071-4.24/011	achieved	DEP=1C2-E-TEST-0071-4.24001
+1C2-E-TEST-0071-4.25	Cannavaro was the backbone of a stingy and impenetrable Italian defence that only gave up two goals (one, an own-goal, the other, from the penalty spot) in seven games as the Azzurri won the World Cup for the first time in 24 years.
+1C2-E-TEST-0071-4.25/001	backbone
+1C2-E-TEST-0071-4.25/002	impenetrable italian defense	DEP=1C2-E-TEST-0071-4.25011
+1C2-E-TEST-0071-4.25/003	two goals	DEP=1C2-E-TEST-0071-4.25012
+1C2-E-TEST-0071-4.25/004	own-goal
+1C2-E-TEST-0071-4.25/005	penalty spot
+1C2-E-TEST-0071-4.25/006	seven games
+1C2-E-TEST-0071-4.25/007	azzurri	DEP=1C2-E-TEST-0071-4.25013
+1C2-E-TEST-0071-4.25/008	world cup	DEP=1C2-E-TEST-0071-4.25013
+1C2-E-TEST-0071-4.25/009	time
+1C2-E-TEST-0071-4.25/010	24 years
+1C2-E-TEST-0071-4.25/011	stingy
+1C2-E-TEST-0071-4.25/012	gave	DEP=1C2-E-TEST-0071-4.25011
+1C2-E-TEST-0071-4.25/013	won	DEP=1C2-E-TEST-0071-4.25006
+1C2-E-TEST-0071-4.26	Captain Cannavaro was instrumental in Italy's World Cup triumph, shutting down world-class strikers the calibre of Milan Baros, Andriy Shevchenko and Miroslav Klose along the way.
+1C2-E-TEST-0071-4.26/001	italy	DEP=1C2-E-TEST-0071-4.26011
+1C2-E-TEST-0071-4.26/002	world-class strikers	DEP=1C2-E-TEST-0071-4.26012
+1C2-E-TEST-0071-4.26/003	calibre	DEP=1C2-E-TEST-0071-4.26002
+1C2-E-TEST-0071-4.26/004	milan baros
+1C2-E-TEST-0071-4.26/005	andriy shevchenko	DEP=1C2-E-TEST-0071-4.26002
+1C2-E-TEST-0071-4.26/006	miroslav klose	DEP=1C2-E-TEST-0071-4.26002
+1C2-E-TEST-0071-4.26/007	way
+1C2-E-TEST-0071-4.26/008	instrumental
+1C2-E-TEST-0071-4.26/009	world	DEP=1C2-E-TEST-0071-4.26011
+1C2-E-TEST-0071-4.26/010	cup	DEP=1C2-E-TEST-0071-4.26011
+1C2-E-TEST-0071-4.26/011	triumph
+1C2-E-TEST-0071-4.26/012	shutting	DEP=1C2-E-TEST-0071-4.26008
+1C2-E-TEST-0071-4.29	Physically drained and kept off the score-sheet, a frustrated Henry slumped off the field like so many of Cannavaro's victims before him.
+1C2-E-TEST-0071-4.29/001	score-sheet	DEP=1C2-E-TEST-0071-4.29006
+1C2-E-TEST-0071-4.29/002	frustrated henry	DEP=1C2-E-TEST-0071-4.29007
+1C2-E-TEST-0071-4.29/003	field	DEP=1C2-E-TEST-0071-4.29007
+1C2-E-TEST-0071-4.29/004	physically	DEP=1C2-E-TEST-0071-4.29005
+1C2-E-TEST-0071-4.29/005	drained	DEP=1C2-E-TEST-0071-4.29007
+1C2-E-TEST-0071-4.29/006	kept	DEP=1C2-E-TEST-0071-4.29005
+1C2-E-TEST-0071-4.29/007	slumped
+1C2-E-TEST-0071-4.29/008	victims
+1C2-E-TEST-0071-4.30	Many heralded Cannavaro as the best player in Germany but, inexplicably, the Golden Ball award as the tournament MVP went to France's Zinedine Zidane.
+1C2-E-TEST-0071-4.30/001	best player
+1C2-E-TEST-0071-4.30/002	germany
+1C2-E-TEST-0071-4.30/003	golden ball award	DEP=1C2-E-TEST-0071-4.30008
+1C2-E-TEST-0071-4.30/004	tournament mvp
+1C2-E-TEST-0071-4.30/005	france	DEP=1C2-E-TEST-0071-4.30010
+1C2-E-TEST-0071-4.30/006	heralded
+1C2-E-TEST-0071-4.30/007	inexplicably	DEP=1C2-E-TEST-0071-4.30008
+1C2-E-TEST-0071-4.30/008	went
+1C2-E-TEST-0071-4.30/009	zinedine	DEP=1C2-E-TEST-0071-4.30010
+1C2-E-TEST-0071-4.30/010	zidane
+1C2-E-TEST-0071-4.33	Cannavaro was named to the World Cup all-star team and won the most important award of all: the World Cup.
+1C2-E-TEST-0071-4.33/001	world cup all-star team
+1C2-E-TEST-0071-4.33/002	world cup
+1C2-E-TEST-0071-4.33/003	named
+1C2-E-TEST-0071-4.33/004	won	DEP=1C2-E-TEST-0071-4.33003
+1C2-E-TEST-0071-4.33/005	important	DEP=1C2-E-TEST-0071-4.33006
+1C2-E-TEST-0071-4.33/006	award	DEP=1C2-E-TEST-0071-4.33004
+1C2-E-TEST-0071-4.34	Today, the 33-year-old Cannavaro plies his trade in Spain, having transferred to Real Madrid in the off-season.
+1C2-E-TEST-0071-4.34/001	33-year-old
+1C2-E-TEST-0071-4.34/002	trade	DEP=1C2-E-TEST-0071-4.34007
+1C2-E-TEST-0071-4.34/003	spain
+1C2-E-TEST-0071-4.34/004	real madrid
+1C2-E-TEST-0071-4.34/005	off-season
+1C2-E-TEST-0071-4.34/006	today	DEP=1C2-E-TEST-0071-4.34007
+1C2-E-TEST-0071-4.34/007	plies
+1C2-E-TEST-0071-4.34/008	having	DEP=1C2-E-TEST-0071-4.34009
+1C2-E-TEST-0071-4.34/009	transferred	DEP=1C2-E-TEST-0071-4.34007
+1C2-E-TEST-0071-4.55	"Fabio Cannavaro was the best player of this World Cup."
+1C2-E-TEST-0071-4.55/001	best player
+1C2-E-TEST-0071-4.55/002	world cup
+1C2-E-TEST-0071-4.56	Ã¢ÂÂ Diego Maradona, Cannavaro's childhood idol
+1C2-E-TEST-0071-4.56/001	â
+1C2-E-TEST-0071-4.56/002	diego
+1C2-E-TEST-0071-4.56/003	maradona	DEP=1C2-E-TEST-0071-4.56005
+1C2-E-TEST-0071-4.56/004	childhood	DEP=1C2-E-TEST-0071-4.56003
+1C2-E-TEST-0071-4.56/005	idol
+1C2-E-TEST-0071-4.7	That Cannavaro has been the best defender in the game for close to a decade is without question.
+1C2-E-TEST-0071-4.7/001	best defender
+1C2-E-TEST-0071-4.7/002	game
+1C2-E-TEST-0071-4.7/003	decade
+1C2-E-TEST-0071-4.7/004	question
+1C2-E-TEST-0071-4.7/005	close
+1C2-E-TEST-0071-4.8	With his coronation Monday as the European player of the year, Cannavaro now simply has the medal to prove it.
+1C2-E-TEST-0071-4.8/001	coronation
+1C2-E-TEST-0071-4.8/002	european player
+1C2-E-TEST-0071-4.8/003	monday	DEP=1C2-E-TEST-0071-4.8001
+1C2-E-TEST-0071-4.8/004	simply
+1C2-E-TEST-0071-4.8/005	medal
+1C2-E-TEST-0071-4.8/006	prove	DEP=1C2-E-TEST-0071-4.8005
+1C2-E-TEST-0071-48.10	Off the field, Fabio Cannavaro is revered throughout Italy as a sex symbol and was voted the "Sexiest Player" during the World Cup tournament in 2006.
+1C2-E-TEST-0071-48.10/001	field
+1C2-E-TEST-0071-48.10/002	italy
+1C2-E-TEST-0071-48.10/003	sex symbol
+1C2-E-TEST-0071-48.10/004	sexiest	DEP=1C2-E-TEST-0071-48.10010
+1C2-E-TEST-0071-48.10/005	player	DEP=1C2-E-TEST-0071-48.10004
+1C2-E-TEST-0071-48.10/006	world cup
+1C2-E-TEST-0071-48.10/007	tournament	DEP=1C2-E-TEST-0071-48.10010
+1C2-E-TEST-0071-48.10/008	2006
+1C2-E-TEST-0071-48.10/009	revered	DEP=1C2-E-TEST-0071-48.10010
+1C2-E-TEST-0071-48.10/010	voted
+1C2-E-TEST-0071-48.12	Fabio Cannavaro was brought to us by the city of Naples, Italy on September 13, 1973.
+1C2-E-TEST-0071-48.12/001	city
+1C2-E-TEST-0071-48.12/002	naples italy
+1C2-E-TEST-0071-48.12/003	september 13 1973
+1C2-E-TEST-0071-48.12/004	brought
+1C2-E-TEST-0071-48.14	Cannavaro like many other young children it Italy, played street soccer, but for him it was within eyesight of the stadium he would soon play in, San Paolo Stadium.
+1C2-E-TEST-0071-48.14/001	young children
+1C2-E-TEST-0071-48.14/002	italy
+1C2-E-TEST-0071-48.14/003	street soccer	DEP=1C2-E-TEST-0071-48.14007
+1C2-E-TEST-0071-48.14/004	eyesight
+1C2-E-TEST-0071-48.14/005	stadium
+1C2-E-TEST-0071-48.14/006	san paolo stadium	DEP=1C2-E-TEST-0071-48.14005
+1C2-E-TEST-0071-48.14/007	played
+1C2-E-TEST-0071-48.14/008	soon	DEP=1C2-E-TEST-0071-48.14009
+1C2-E-TEST-0071-48.14/009	play	DEP=1C2-E-TEST-0071-48.14005
+1C2-E-TEST-0071-48.17	At only twelve years old, his talent was evident, and Hutchinson who had 16 years of experience, trained the young Cannavaro in defensive skills.
+1C2-E-TEST-0071-48.17/001	twelve years	DEP=1C2-E-TEST-0071-48.17008
+1C2-E-TEST-0071-48.17/002	talent	DEP=1C2-E-TEST-0071-48.17009
+1C2-E-TEST-0071-48.17/003	hutchinson	DEP=1C2-E-TEST-0071-48.17010
+1C2-E-TEST-0071-48.17/004	16 years
+1C2-E-TEST-0071-48.17/005	experience
+1C2-E-TEST-0071-48.17/006	young
+1C2-E-TEST-0071-48.17/007	defensive skills
+1C2-E-TEST-0071-48.17/008	old
+1C2-E-TEST-0071-48.17/009	evident
+1C2-E-TEST-0071-48.17/010	trained	DEP=1C2-E-TEST-0071-48.17009
+1C2-E-TEST-0071-48.18	Soon Napoli recruited him to join their club, and he participated as a ball boy during the NapoliÃ¢ÂÂs height, when Deigo Maradona reigned.
+1C2-E-TEST-0071-48.18/001	napoli	DEP=1C2-E-TEST-0071-48.18006
+1C2-E-TEST-0071-48.18/002	club	DEP=1C2-E-TEST-0071-48.18007
+1C2-E-TEST-0071-48.18/003	ball boy
+1C2-E-TEST-0071-48.18/004	deigo maradona	DEP=1C2-E-TEST-0071-48.18012
+1C2-E-TEST-0071-48.18/005	soon	DEP=1C2-E-TEST-0071-48.18006
+1C2-E-TEST-0071-48.18/006	recruited
+1C2-E-TEST-0071-48.18/007	join	DEP=1C2-E-TEST-0071-48.18006
+1C2-E-TEST-0071-48.18/008	participated	DEP=1C2-E-TEST-0071-48.18006
+1C2-E-TEST-0071-48.18/009	napoliâ	DEP=1C2-E-TEST-0071-48.18011
+1C2-E-TEST-0071-48.18/010	s
+1C2-E-TEST-0071-48.18/011	height
+1C2-E-TEST-0071-48.18/012	reigned	DEP=1C2-E-TEST-0071-48.18011
+1C2-E-TEST-0071-48.3	Fabio Cannavaro is considered one of the greatest central defenders in the game of football.
+1C2-E-TEST-0071-48.3/001	greatest central defenders
+1C2-E-TEST-0071-48.3/002	game
+1C2-E-TEST-0071-48.3/003	football
+1C2-E-TEST-0071-48.3/004	considered
+1C2-E-TEST-0071-48.39	Cannavaro gained immense success with his new found team, leading as captain, and winning his first ever Scudetto in 2005, as the top team in Serie A, and yet again the year after in 2006.
+1C2-E-TEST-0071-48.39/001	immense success	DEP=1C2-E-TEST-0071-48.39009
+1C2-E-TEST-0071-48.39/002	new
+1C2-E-TEST-0071-48.39/003	team	DEP=1C2-E-TEST-0071-48.39010
+1C2-E-TEST-0071-48.39/004	scudetto	DEP=1C2-E-TEST-0071-48.39011
+1C2-E-TEST-0071-48.39/005	2005
+1C2-E-TEST-0071-48.39/006	top team
+1C2-E-TEST-0071-48.39/007	serie
+1C2-E-TEST-0071-48.39/008	2006
+1C2-E-TEST-0071-48.39/009	gained
+1C2-E-TEST-0071-48.39/010	found	DEP=1C2-E-TEST-0071-48.39002
+1C2-E-TEST-0071-48.39/011	leading	DEP=1C2-E-TEST-0071-48.39010
+1C2-E-TEST-0071-48.39/012	winning	DEP=1C2-E-TEST-0071-48.39011
+1C2-E-TEST-0071-48.45	Cannavaro recognized the high level of play he wanted was no longer with Juventus. Being placed down to Serie B, and banned from UEFA Cup could put his career on hold so he moved to SpainÃ¢ÂÂs La Liga.
+1C2-E-TEST-0071-48.45/001	high level	DEP=1C2-E-TEST-0071-48.45010
+1C2-E-TEST-0071-48.45/002	play
+1C2-E-TEST-0071-48.45/003	juventus	DEP=1C2-E-TEST-0071-48.45016
+1C2-E-TEST-0071-48.45/004	b	DEP=1C2-E-TEST-0071-48.45014
+1C2-E-TEST-0071-48.45/005	uefa cup
+1C2-E-TEST-0071-48.45/006	career	DEP=1C2-E-TEST-0071-48.45016
+1C2-E-TEST-0071-48.45/007	hold
+1C2-E-TEST-0071-48.45/008	s	DEP=1C2-E-TEST-0071-48.45018
+1C2-E-TEST-0071-48.45/009	la liga
+1C2-E-TEST-0071-48.45/010	recognized
+1C2-E-TEST-0071-48.45/011	wanted	DEP=1C2-E-TEST-0071-48.45001
+1C2-E-TEST-0071-48.45/012	longer
+1C2-E-TEST-0071-48.45/013	placed	DEP=1C2-E-TEST-0071-48.45003
+1C2-E-TEST-0071-48.45/014	serie	DEP=1C2-E-TEST-0071-48.45013
+1C2-E-TEST-0071-48.45/015	banned	DEP=1C2-E-TEST-0071-48.45013
+1C2-E-TEST-0071-48.45/016	put	DEP=1C2-E-TEST-0071-48.45012
+1C2-E-TEST-0071-48.45/017	moved	DEP=1C2-E-TEST-0071-48.45016
+1C2-E-TEST-0071-48.45/018	spainâ	DEP=1C2-E-TEST-0071-48.45017

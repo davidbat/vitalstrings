@@ -1,0 +1,492 @@
+1C2-E-TEST-0190-1.10	Since the moon rotates around the Earth and the Earth rotates around its own axis, the oceans are constantly in flux between high and low tide, which occur in intervals of about six hours and twelve minutes.
+1C2-E-TEST-0190-1.10/001	moon	DEP=1C2-E-TEST-0190-1.10009
+1C2-E-TEST-0190-1.10/002	earth
+1C2-E-TEST-0190-1.10/003	earth	DEP=1C2-E-TEST-0190-1.10010
+1C2-E-TEST-0190-1.10/004	axis
+1C2-E-TEST-0190-1.10/005	oceans
+1C2-E-TEST-0190-1.10/006	flux
+1C2-E-TEST-0190-1.10/007	intervals
+1C2-E-TEST-0190-1.10/008	twelve minutes	DEP=1C2-E-TEST-0190-1.10015
+1C2-E-TEST-0190-1.10/009	rotates
+1C2-E-TEST-0190-1.10/010	rotates	DEP=1C2-E-TEST-0190-1.10009
+1C2-E-TEST-0190-1.10/011	constantly
+1C2-E-TEST-0190-1.10/012	high
+1C2-E-TEST-0190-1.10/013	low	DEP=1C2-E-TEST-0190-1.10012
+1C2-E-TEST-0190-1.10/014	six	DEP=1C2-E-TEST-0190-1.10015
+1C2-E-TEST-0190-1.10/015	hours
+1C2-E-TEST-0190-1.13	This is especially notable when the Earth, moon and sun line up together, which occurs twice each month -- during the full and new moons.
+1C2-E-TEST-0190-1.13/001	earth moon sun	DEP=1C2-E-TEST-0190-1.13005
+1C2-E-TEST-0190-1.13/002	month	DEP=1C2-E-TEST-0190-1.13007
+1C2-E-TEST-0190-1.13/003	especially	DEP=1C2-E-TEST-0190-1.13004
+1C2-E-TEST-0190-1.13/004	notable
+1C2-E-TEST-0190-1.13/005	line	DEP=1C2-E-TEST-0190-1.13006
+1C2-E-TEST-0190-1.13/006	occurs	DEP=1C2-E-TEST-0190-1.13004
+1C2-E-TEST-0190-1.13/007	twice	DEP=1C2-E-TEST-0190-1.13006
+1C2-E-TEST-0190-1.13/008	full	DEP=1C2-E-TEST-0190-1.13010
+1C2-E-TEST-0190-1.13/009	new	DEP=1C2-E-TEST-0190-1.13008
+1C2-E-TEST-0190-1.13/010	moons
+1C2-E-TEST-0190-1.9	High tides occur at each of these gravitationally induced bulges with low tides occurring in between.
+1C2-E-TEST-0190-1.9/001	high tides	DEP=1C2-E-TEST-0190-1.9005
+1C2-E-TEST-0190-1.9/002	low tides
+1C2-E-TEST-0190-1.9/003	gravitationally	DEP=1C2-E-TEST-0190-1.9004
+1C2-E-TEST-0190-1.9/004	induced
+1C2-E-TEST-0190-1.9/005	bulges
+1C2-E-TEST-0190-1.9/006	occurring	DEP=1C2-E-TEST-0190-1.9002
+1C2-E-TEST-0190-116.2	The tide-generating force is produced by the combination of (1) the gravitational attraction between Earth and the moon and sun, and (2) the rotation of the Earth-moon and Earth-sun systems.
+1C2-E-TEST-0190-116.2/001	tide-generating force	DEP=1C2-E-TEST-0190-116.2008
+1C2-E-TEST-0190-116.2/002	combination
+1C2-E-TEST-0190-116.2/003	gravitational attraction
+1C2-E-TEST-0190-116.2/004	earth
+1C2-E-TEST-0190-116.2/005	moon sun	DEP=1C2-E-TEST-0190-116.2004
+1C2-E-TEST-0190-116.2/006	rotation	DEP=1C2-E-TEST-0190-116.2003
+1C2-E-TEST-0190-116.2/007	earth-moon earth-sun	DEP=1C2-E-TEST-0190-116.2011
+1C2-E-TEST-0190-116.2/008	produced
+1C2-E-TEST-0190-116.2/009	1	DEP=1C2-E-TEST-0190-116.2003
+1C2-E-TEST-0190-116.2/010	2	DEP=1C2-E-TEST-0190-116.2006
+1C2-E-TEST-0190-116.2/011	systems
+1C2-E-TEST-0190-123.21	At most shores throughout the world, two high tides and two low tides occur every lunar day, which is the time it takes for the moon to return to a point on the EarthÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂabout 24 hours and 50 minutes.
+1C2-E-TEST-0190-123.21/001	shores
+1C2-E-TEST-0190-123.21/002	world
+1C2-E-TEST-0190-123.21/003	two high tides
+1C2-E-TEST-0190-123.21/004	two low tides	DEP=1C2-E-TEST-0190-123.21003
+1C2-E-TEST-0190-123.21/005	lunar
+1C2-E-TEST-0190-123.21/006	time
+1C2-E-TEST-0190-123.21/007	point
+1C2-E-TEST-0190-123.21/008	earthã cents
+1C2-E-TEST-0190-123.21/009	50 minutes	DEP=1C2-E-TEST-0190-123.21016
+1C2-E-TEST-0190-123.21/010	takes	DEP=1C2-E-TEST-0190-123.21006
+1C2-E-TEST-0190-123.21/011	moon
+1C2-E-TEST-0190-123.21/012	return	DEP=1C2-E-TEST-0190-123.21011
+1C2-E-TEST-0190-123.21/013	¬	DEP=1C2-E-TEST-0190-123.21016
+1C2-E-TEST-0190-123.21/014	â	DEP=1C2-E-TEST-0190-123.21016
+1C2-E-TEST-0190-123.21/015	24
+1C2-E-TEST-0190-123.21/016	hours
+1C2-E-TEST-0190-123.22	Thus, a typical seaport will alternate between high and low tides about every 6 hours. Some coasts, such as the shores along most of Antarctica, experience only one high tide and one low tide each lunar day.
+1C2-E-TEST-0190-123.22/001	typical seaport	DEP=1C2-E-TEST-0190-123.22002
+1C2-E-TEST-0190-123.22/002	alternate
+1C2-E-TEST-0190-123.22/003	6 hours
+1C2-E-TEST-0190-123.22/004	coasts	DEP=1C2-E-TEST-0190-123.22003
+1C2-E-TEST-0190-123.22/005	shores
+1C2-E-TEST-0190-123.22/006	antarctica
+1C2-E-TEST-0190-123.22/007	experience	DEP=1C2-E-TEST-0190-123.22003
+1C2-E-TEST-0190-123.22/008	high
+1C2-E-TEST-0190-123.22/009	low
+1C2-E-TEST-0190-123.22/010	lunar
+1C2-E-TEST-0190-123.22/011	high	DEP=1C2-E-TEST-0190-123.22013
+1C2-E-TEST-0190-123.22/012	low	DEP=1C2-E-TEST-0190-123.22011
+1C2-E-TEST-0190-123.22/013	tides
+1C2-E-TEST-0190-123.24	The difference in height between high and low tides is called the range of tide.
+1C2-E-TEST-0190-123.24/001	difference	DEP=1C2-E-TEST-0190-123.24007
+1C2-E-TEST-0190-123.24/002	height
+1C2-E-TEST-0190-123.24/003	range	DEP=1C2-E-TEST-0190-123.24007
+1C2-E-TEST-0190-123.24/004	high	DEP=1C2-E-TEST-0190-123.24006
+1C2-E-TEST-0190-123.24/005	low	DEP=1C2-E-TEST-0190-123.24004
+1C2-E-TEST-0190-123.24/006	tides
+1C2-E-TEST-0190-123.24/007	called
+1C2-E-TEST-0190-123.30	Like the moon, the sun exerts a gravitational pull on the Earth but, because it is so far away, has a tide-raising force of only about half that of the moon.
+1C2-E-TEST-0190-123.30/001	moon
+1C2-E-TEST-0190-123.30/002	sun	DEP=1C2-E-TEST-0190-123.30008
+1C2-E-TEST-0190-123.30/003	gravitational pull	DEP=1C2-E-TEST-0190-123.30008
+1C2-E-TEST-0190-123.30/004	earth
+1C2-E-TEST-0190-123.30/005	tide-raising force
+1C2-E-TEST-0190-123.30/006	half
+1C2-E-TEST-0190-123.30/007	moon
+1C2-E-TEST-0190-123.30/008	exerts
+1C2-E-TEST-0190-123.30/009	away
+1C2-E-TEST-0190-123.31	The sum of the forces exerted by the moon and the sun creates a tide with two crests.
+1C2-E-TEST-0190-123.31/001	sum	DEP=1C2-E-TEST-0190-123.31007
+1C2-E-TEST-0190-123.31/002	forces
+1C2-E-TEST-0190-123.31/003	moon
+1C2-E-TEST-0190-123.31/004	sun	DEP=1C2-E-TEST-0190-123.31003
+1C2-E-TEST-0190-123.31/005	two crests
+1C2-E-TEST-0190-123.31/006	exerted	DEP=1C2-E-TEST-0190-123.31002
+1C2-E-TEST-0190-123.31/007	creates
+1C2-E-TEST-0190-123.33	During the periods of new and full moonÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂwhen the sun, moon, and Earth are directly in lineÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂthe solar and lunar tides coincide.
+1C2-E-TEST-0190-123.33/001	periods
+1C2-E-TEST-0190-123.33/002	¬ â
+1C2-E-TEST-0190-123.33/003	sun
+1C2-E-TEST-0190-123.33/004	moon	DEP=1C2-E-TEST-0190-123.33003
+1C2-E-TEST-0190-123.33/005	earth	DEP=1C2-E-TEST-0190-123.33003
+1C2-E-TEST-0190-123.33/006	lineã cents
+1C2-E-TEST-0190-123.33/007	¬	DEP=1C2-E-TEST-0190-123.33014
+1C2-E-TEST-0190-123.33/008	lunar tides
+1C2-E-TEST-0190-123.33/009	new	DEP=1C2-E-TEST-0190-123.33012
+1C2-E-TEST-0190-123.33/010	full	DEP=1C2-E-TEST-0190-123.33009
+1C2-E-TEST-0190-123.33/011	moonã	DEP=1C2-E-TEST-0190-123.33012
+1C2-E-TEST-0190-123.33/012	cents
+1C2-E-TEST-0190-123.33/013	directly
+1C2-E-TEST-0190-123.33/014	â
+1C2-E-TEST-0190-123.33/015	solar
+1C2-E-TEST-0190-13.55	A bulge in the water on the Earth's surface occurs on both the side facing the moon and the side away from the moon.
+1C2-E-TEST-0190-13.55/001	bulge	DEP=1C2-E-TEST-0190-13.55009
+1C2-E-TEST-0190-13.55/002	water
+1C2-E-TEST-0190-13.55/003	earth	DEP=1C2-E-TEST-0190-13.55008
+1C2-E-TEST-0190-13.55/004	side
+1C2-E-TEST-0190-13.55/005	moon	DEP=1C2-E-TEST-0190-13.55010
+1C2-E-TEST-0190-13.55/006	side	DEP=1C2-E-TEST-0190-13.55011
+1C2-E-TEST-0190-13.55/007	moon
+1C2-E-TEST-0190-13.55/008	surface
+1C2-E-TEST-0190-13.55/009	occurs
+1C2-E-TEST-0190-13.55/010	facing	DEP=1C2-E-TEST-0190-13.55004
+1C2-E-TEST-0190-13.55/011	away
+1C2-E-TEST-0190-13.79	If all three are lined up in a straight line, the tides will have a higher tidal range. They are called spring tides. Spring tides occur twice a month, at full moon and at new moon.
+1C2-E-TEST-0190-13.79/001	three	DEP=1C2-E-TEST-0190-13.79010
+1C2-E-TEST-0190-13.79/002	straight line
+1C2-E-TEST-0190-13.79/003	tides
+1C2-E-TEST-0190-13.79/004	tidal range
+1C2-E-TEST-0190-13.79/005	tides	DEP=1C2-E-TEST-0190-13.79012
+1C2-E-TEST-0190-13.79/006	spring tides
+1C2-E-TEST-0190-13.79/007	twice month
+1C2-E-TEST-0190-13.79/008	full moon
+1C2-E-TEST-0190-13.79/009	new moon
+1C2-E-TEST-0190-13.79/010	lined
+1C2-E-TEST-0190-13.79/011	higher	DEP=1C2-E-TEST-0190-13.79004
+1C2-E-TEST-0190-13.79/012	called
+1C2-E-TEST-0190-13.79/013	spring	DEP=1C2-E-TEST-0190-13.79012
+1C2-E-TEST-0190-13.80	But if the sun and moon are at right angles to one another, the tidal range will be lower. These tides are called neap tides. Neap tides occur twice a month, at first quarter and last quarter.
+1C2-E-TEST-0190-13.80/001	sun moon
+1C2-E-TEST-0190-13.80/002	right angles
+1C2-E-TEST-0190-13.80/003	tidal range	DEP=1C2-E-TEST-0190-13.80002
+1C2-E-TEST-0190-13.80/004	tides	DEP=1C2-E-TEST-0190-13.80002
+1C2-E-TEST-0190-13.80/005	neap tides	DEP=1C2-E-TEST-0190-13.80009
+1C2-E-TEST-0190-13.80/006	neap tides	DEP=1C2-E-TEST-0190-13.80002
+1C2-E-TEST-0190-13.80/007	quarter	DEP=1C2-E-TEST-0190-13.80002
+1C2-E-TEST-0190-13.80/008	lower	DEP=1C2-E-TEST-0190-13.80003
+1C2-E-TEST-0190-13.80/009	called	DEP=1C2-E-TEST-0190-13.80004
+1C2-E-TEST-0190-13.80/010	twice	DEP=1C2-E-TEST-0190-13.80011
+1C2-E-TEST-0190-13.80/011	month
+1C2-E-TEST-0190-13.80/012	quarter	DEP=1C2-E-TEST-0190-13.80002
+1C2-E-TEST-0190-136.12	Spring tides have higher high tides and lower low tides whereas neap tides have lower high tides and higher low tides.
+1C2-E-TEST-0190-136.12/001	tides
+1C2-E-TEST-0190-136.12/002	higher high tides
+1C2-E-TEST-0190-136.12/003	lower low tides	DEP=1C2-E-TEST-0190-136.12002
+1C2-E-TEST-0190-136.12/004	neap tides
+1C2-E-TEST-0190-136.12/005	lower high tides
+1C2-E-TEST-0190-136.12/006	higher low tides	DEP=1C2-E-TEST-0190-136.12005
+1C2-E-TEST-0190-136.12/007	spring
+1C2-E-TEST-0190-136.24	It is the combined effect of the sun and moon that creates spring and neap tides.
+1C2-E-TEST-0190-136.24/001	combined effect
+1C2-E-TEST-0190-136.24/002	sun moon
+1C2-E-TEST-0190-136.24/003	spring neap	DEP=1C2-E-TEST-0190-136.24005
+1C2-E-TEST-0190-136.24/004	creates	DEP=1C2-E-TEST-0190-136.24002
+1C2-E-TEST-0190-136.24/005	tides	DEP=1C2-E-TEST-0190-136.24004
+1C2-E-TEST-0190-171.14	The actual timing of the tides themselves is as a result of both the rotation of the Earth and where exactly around the Earth the Moon sits at any given time.
+1C2-E-TEST-0190-171.14/001	actual timing
+1C2-E-TEST-0190-171.14/002	tides
+1C2-E-TEST-0190-171.14/003	result
+1C2-E-TEST-0190-171.14/004	rotation
+1C2-E-TEST-0190-171.14/005	earth
+1C2-E-TEST-0190-171.14/006	earth
+1C2-E-TEST-0190-171.14/007	moon	DEP=1C2-E-TEST-0190-171.14010
+1C2-E-TEST-0190-171.14/008	given time
+1C2-E-TEST-0190-171.14/009	exactly	DEP=1C2-E-TEST-0190-171.14010
+1C2-E-TEST-0190-171.14/010	sits
+1C2-E-TEST-0190-171.3	Ocean tides can be described as the rise and fall of sea-water in a cyclical fashion.
+1C2-E-TEST-0190-171.3/001	ocean tides	DEP=1C2-E-TEST-0190-171.3005
+1C2-E-TEST-0190-171.3/002	rise fall
+1C2-E-TEST-0190-171.3/003	sea-water
+1C2-E-TEST-0190-171.3/004	cyclical fashion
+1C2-E-TEST-0190-171.3/005	described
+1C2-E-TEST-0190-194.31	Spring tide, having the maximum range, occurs during the full moon when the earth is between the moon and the sun, and new moon when the moon is between the earth and the sun.
+1C2-E-TEST-0190-194.31/001	maximum range	DEP=1C2-E-TEST-0190-194.31011
+1C2-E-TEST-0190-194.31/002	full moon
+1C2-E-TEST-0190-194.31/003	earth
+1C2-E-TEST-0190-194.31/004	moon
+1C2-E-TEST-0190-194.31/005	sun	DEP=1C2-E-TEST-0190-194.31004
+1C2-E-TEST-0190-194.31/006	new moon	DEP=1C2-E-TEST-0190-194.31002
+1C2-E-TEST-0190-194.31/007	moon
+1C2-E-TEST-0190-194.31/008	earth
+1C2-E-TEST-0190-194.31/009	sun	DEP=1C2-E-TEST-0190-194.31008
+1C2-E-TEST-0190-194.31/010	spring	DEP=1C2-E-TEST-0190-194.31012
+1C2-E-TEST-0190-194.31/011	having
+1C2-E-TEST-0190-194.31/012	occurs
+1C2-E-TEST-0190-2.161	Since the orbits of the Earth about the sun, and the moon about the Earth, are elliptical, tidal amplitudes change somewhat as a result of the varying EarthÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂsun and EarthÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂmoon distances.
+1C2-E-TEST-0190-2.161/001	orbits	DEP=1C2-E-TEST-0190-2.161011
+1C2-E-TEST-0190-2.161/002	earth
+1C2-E-TEST-0190-2.161/003	sun
+1C2-E-TEST-0190-2.161/004	moon	DEP=1C2-E-TEST-0190-2.161001
+1C2-E-TEST-0190-2.161/005	earth
+1C2-E-TEST-0190-2.161/006	tidal amplitudes
+1C2-E-TEST-0190-2.161/007	result
+1C2-E-TEST-0190-2.161/008	varying earthã cents
+1C2-E-TEST-0190-2.161/009	sun
+1C2-E-TEST-0190-2.161/010	earthã cents	DEP=1C2-E-TEST-0190-2.161009
+1C2-E-TEST-0190-2.161/011	elliptical
+1C2-E-TEST-0190-2.161/012	¬	DEP=1C2-E-TEST-0190-2.161013
+1C2-E-TEST-0190-2.161/013	â
+1C2-E-TEST-0190-2.161/014	¬	DEP=1C2-E-TEST-0190-2.161017
+1C2-E-TEST-0190-2.161/015	â	DEP=1C2-E-TEST-0190-2.161017
+1C2-E-TEST-0190-2.161/016	moon
+1C2-E-TEST-0190-2.161/017	distances
+1C2-E-TEST-0190-2.44	Approximately twice a month, around new moon and full moon when the Sun, Moon and Earth form a line (a condition known as syzygy [8] ) the tidal force due to the sun reinforces that due to the Moon.
+1C2-E-TEST-0190-2.44/001	month	DEP=1C2-E-TEST-0190-2.44013
+1C2-E-TEST-0190-2.44/002	new moon
+1C2-E-TEST-0190-2.44/003	full moon	DEP=1C2-E-TEST-0190-2.44002
+1C2-E-TEST-0190-2.44/004	sun moon earth
+1C2-E-TEST-0190-2.44/005	line
+1C2-E-TEST-0190-2.44/006	condition	DEP=1C2-E-TEST-0190-2.44013
+1C2-E-TEST-0190-2.44/007	syzygy
+1C2-E-TEST-0190-2.44/008	8	DEP=1C2-E-TEST-0190-2.44007
+1C2-E-TEST-0190-2.44/009	tidal force	DEP=1C2-E-TEST-0190-2.44013
+1C2-E-TEST-0190-2.44/010	sun
+1C2-E-TEST-0190-2.44/011	moon
+1C2-E-TEST-0190-2.44/012	approximately	DEP=1C2-E-TEST-0190-2.44013
+1C2-E-TEST-0190-2.44/013	twice
+1C2-E-TEST-0190-2.44/014	known	DEP=1C2-E-TEST-0190-2.44006
+1C2-E-TEST-0190-2.44/015	due	DEP=1C2-E-TEST-0190-2.44009
+1C2-E-TEST-0190-2.44/016	reinforces	DEP=1C2-E-TEST-0190-2.44010
+1C2-E-TEST-0190-2.44/017	due	DEP=1C2-E-TEST-0190-2.44016
+1C2-E-TEST-0190-2.62	However, for a given location the relationship between lunar altitude and the time of high or low tide (the lunitidal interval ) is relatively constant and predictable, as is the time of high or low tide relative to other points on the same coast.
+1C2-E-TEST-0190-2.62/001	given location
+1C2-E-TEST-0190-2.62/002	relationship	DEP=1C2-E-TEST-0190-2.62012
+1C2-E-TEST-0190-2.62/003	lunar altitude
+1C2-E-TEST-0190-2.62/004	time	DEP=1C2-E-TEST-0190-2.62002
+1C2-E-TEST-0190-2.62/005	lunitidal interval
+1C2-E-TEST-0190-2.62/006	time	DEP=1C2-E-TEST-0190-2.62016
+1C2-E-TEST-0190-2.62/007	points
+1C2-E-TEST-0190-2.62/008	coast
+1C2-E-TEST-0190-2.62/009	high
+1C2-E-TEST-0190-2.62/010	low	DEP=1C2-E-TEST-0190-2.62009
+1C2-E-TEST-0190-2.62/011	relatively	DEP=1C2-E-TEST-0190-2.62012
+1C2-E-TEST-0190-2.62/012	constant	DEP=1C2-E-TEST-0190-2.62001
+1C2-E-TEST-0190-2.62/013	predictable	DEP=1C2-E-TEST-0190-2.62012
+1C2-E-TEST-0190-2.62/014	high
+1C2-E-TEST-0190-2.62/015	low	DEP=1C2-E-TEST-0190-2.62014
+1C2-E-TEST-0190-2.62/016	relative
+1C2-E-TEST-0190-251.33	Although the sun has a much greater mass than the moon it is much further from the Earth and the gravitational attraction between the sun and the Earth is smaller than that between the moon and the Earth.
+1C2-E-TEST-0190-251.33/001	sun
+1C2-E-TEST-0190-251.33/002	moon
+1C2-E-TEST-0190-251.33/003	earth
+1C2-E-TEST-0190-251.33/004	gravitational attraction	DEP=1C2-E-TEST-0190-251.33011
+1C2-E-TEST-0190-251.33/005	sun
+1C2-E-TEST-0190-251.33/006	earth	DEP=1C2-E-TEST-0190-251.33005
+1C2-E-TEST-0190-251.33/007	moon
+1C2-E-TEST-0190-251.33/008	earth	DEP=1C2-E-TEST-0190-251.33007
+1C2-E-TEST-0190-251.33/009	greater	DEP=1C2-E-TEST-0190-251.33010
+1C2-E-TEST-0190-251.33/010	mass
+1C2-E-TEST-0190-251.33/011	smaller
+1C2-E-TEST-0190-251.50	The tidal force acts toward the moon on the moonÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s side of the Earth and away from the moon on the opposite side.
+1C2-E-TEST-0190-251.50/001	tidal force	DEP=1C2-E-TEST-0190-251.50011
+1C2-E-TEST-0190-251.50/002	moon
+1C2-E-TEST-0190-251.50/003	moonã
+1C2-E-TEST-0190-251.50/004	cents
+1C2-E-TEST-0190-251.50/005	¬
+1C2-E-TEST-0190-251.50/006	â cents	DEP=1C2-E-TEST-0190-251.50007
+1C2-E-TEST-0190-251.50/007	side	DEP=1C2-E-TEST-0190-251.50005
+1C2-E-TEST-0190-251.50/008	earth
+1C2-E-TEST-0190-251.50/009	moon
+1C2-E-TEST-0190-251.50/010	opposite side
+1C2-E-TEST-0190-251.50/011	acts
+1C2-E-TEST-0190-251.50/012	s	DEP=1C2-E-TEST-0190-251.50007
+1C2-E-TEST-0190-251.50/013	away	DEP=1C2-E-TEST-0190-251.50005
+1C2-E-TEST-0190-251.63	Tidal range varies during each month. Spring tides occur when the tidal range reaches a maximum and neap tides occur when the tidal range reaches a minimum in a given location.
+1C2-E-TEST-0190-251.63/001	tidal range	DEP=1C2-E-TEST-0190-251.63009
+1C2-E-TEST-0190-251.63/002	month
+1C2-E-TEST-0190-251.63/003	spring tides
+1C2-E-TEST-0190-251.63/004	tidal range	DEP=1C2-E-TEST-0190-251.63010
+1C2-E-TEST-0190-251.63/005	maximum neap	DEP=1C2-E-TEST-0190-251.63011
+1C2-E-TEST-0190-251.63/006	tidal range	DEP=1C2-E-TEST-0190-251.63012
+1C2-E-TEST-0190-251.63/007	minimum	DEP=1C2-E-TEST-0190-251.63012
+1C2-E-TEST-0190-251.63/008	given location
+1C2-E-TEST-0190-251.63/009	varies
+1C2-E-TEST-0190-251.63/010	reaches
+1C2-E-TEST-0190-251.63/011	tides
+1C2-E-TEST-0190-251.63/012	reaches
+1C2-E-TEST-0190-251.69	Spring tides occur when the lunar high tide and the solar high tide occur at the same place at the same time.
+1C2-E-TEST-0190-251.69/001	tides
+1C2-E-TEST-0190-251.69/002	lunar high
+1C2-E-TEST-0190-251.69/003	solar high
+1C2-E-TEST-0190-251.69/004	place
+1C2-E-TEST-0190-251.69/005	time
+1C2-E-TEST-0190-251.69/006	spring
+1C2-E-TEST-0190-251.70	At such times the lunar high tide and the solar high tide are added while the lunar low tide and solar low tide are also added, causing the tidal range to be at a maximum.
+1C2-E-TEST-0190-251.70/001	times
+1C2-E-TEST-0190-251.70/002	lunar high
+1C2-E-TEST-0190-251.70/003	solar high
+1C2-E-TEST-0190-251.70/004	lunar low
+1C2-E-TEST-0190-251.70/005	solar low
+1C2-E-TEST-0190-251.70/006	tidal range	DEP=1C2-E-TEST-0190-251.70010
+1C2-E-TEST-0190-251.70/007	maximum
+1C2-E-TEST-0190-251.70/008	added
+1C2-E-TEST-0190-251.70/009	added	DEP=1C2-E-TEST-0190-251.70008
+1C2-E-TEST-0190-251.70/010	causing	DEP=1C2-E-TEST-0190-251.70009
+1C2-E-TEST-0190-251.71	Neap tides occur when the lunar high tide and the solar low tide occur at the same place at the same time.
+1C2-E-TEST-0190-251.71/001	neap tides
+1C2-E-TEST-0190-251.71/002	lunar high
+1C2-E-TEST-0190-251.71/003	solar low
+1C2-E-TEST-0190-251.71/004	place
+1C2-E-TEST-0190-251.71/005	time
+1C2-E-TEST-0190-251.73	Spring tides occur at new moon and full moon.
+1C2-E-TEST-0190-251.73/001	tides
+1C2-E-TEST-0190-251.73/002	new moon
+1C2-E-TEST-0190-251.73/003	full moon	DEP=1C2-E-TEST-0190-251.73002
+1C2-E-TEST-0190-251.73/004	spring
+1C2-E-TEST-0190-251.74	At new moon, the Earth, sun, and moon are aligned so that the moon is located between the Earth and sun; at a full moon the Earth is located between the moon and sun.
+1C2-E-TEST-0190-251.74/001	new moon
+1C2-E-TEST-0190-251.74/002	earth	DEP=1C2-E-TEST-0190-251.74011
+1C2-E-TEST-0190-251.74/003	sun	DEP=1C2-E-TEST-0190-251.74002
+1C2-E-TEST-0190-251.74/004	moon	DEP=1C2-E-TEST-0190-251.74002
+1C2-E-TEST-0190-251.74/005	moon	DEP=1C2-E-TEST-0190-251.74012
+1C2-E-TEST-0190-251.74/006	earth
+1C2-E-TEST-0190-251.74/007	sun	DEP=1C2-E-TEST-0190-251.74006
+1C2-E-TEST-0190-251.74/008	full moon
+1C2-E-TEST-0190-251.74/009	earth	DEP=1C2-E-TEST-0190-251.74013
+1C2-E-TEST-0190-251.74/010	moon sun
+1C2-E-TEST-0190-251.74/011	aligned
+1C2-E-TEST-0190-251.74/012	located	DEP=1C2-E-TEST-0190-251.74011
+1C2-E-TEST-0190-251.74/013	located	DEP=1C2-E-TEST-0190-251.74011
+1C2-E-TEST-0190-251.78	Tidal heights and times of high and low tide are the sum of both the solar and lunar tides.
+1C2-E-TEST-0190-251.78/001	tidal heights times	DEP=1C2-E-TEST-0190-251.78002
+1C2-E-TEST-0190-251.78/002	sum
+1C2-E-TEST-0190-251.78/003	lunar tides	DEP=1C2-E-TEST-0190-251.78006
+1C2-E-TEST-0190-251.78/004	high
+1C2-E-TEST-0190-251.78/005	low	DEP=1C2-E-TEST-0190-251.78004
+1C2-E-TEST-0190-251.78/006	solar
+1C2-E-TEST-0190-300.17	Tidal waves are formed by the gravitational forces of the earth, sun, and moon.
+1C2-E-TEST-0190-300.17/001	tidal waves	DEP=1C2-E-TEST-0190-300.17006
+1C2-E-TEST-0190-300.17/002	gravitational forces
+1C2-E-TEST-0190-300.17/003	earth
+1C2-E-TEST-0190-300.17/004	sun	DEP=1C2-E-TEST-0190-300.17003
+1C2-E-TEST-0190-300.17/005	moon	DEP=1C2-E-TEST-0190-300.17003
+1C2-E-TEST-0190-300.17/006	formed
+1C2-E-TEST-0190-300.19	As the earth rotates, the tides go 'in' and 'out' (the earth moves but the bulge of water remains in line with the moon, giving the appearance that the tides are moving when it is in fact the earth that is moving).
+1C2-E-TEST-0190-300.19/001	earth	DEP=1C2-E-TEST-0190-300.19011
+1C2-E-TEST-0190-300.19/002	tides
+1C2-E-TEST-0190-300.19/003	earth moves	DEP=1C2-E-TEST-0190-300.19012
+1C2-E-TEST-0190-300.19/004	bulge
+1C2-E-TEST-0190-300.19/005	water
+1C2-E-TEST-0190-300.19/006	line
+1C2-E-TEST-0190-300.19/007	moon
+1C2-E-TEST-0190-300.19/008	appearance	DEP=1C2-E-TEST-0190-300.19013
+1C2-E-TEST-0190-300.19/009	tides	DEP=1C2-E-TEST-0190-300.19014
+1C2-E-TEST-0190-300.19/010	earth	DEP=1C2-E-TEST-0190-300.19014
+1C2-E-TEST-0190-300.19/011	rotates
+1C2-E-TEST-0190-300.19/012	remains
+1C2-E-TEST-0190-300.19/013	giving	DEP=1C2-E-TEST-0190-300.19012
+1C2-E-TEST-0190-300.19/014	moving	DEP=1C2-E-TEST-0190-300.19013
+1C2-E-TEST-0190-300.19/015	fact
+1C2-E-TEST-0190-300.19/016	moving	DEP=1C2-E-TEST-0190-300.19010
+1C2-E-TEST-0190-60.61	When the earth, moon and sun are in line (during new and full moon), the bulges of water caused by the moon and sun occur in the same place on the earth's surface.
+1C2-E-TEST-0190-60.61/001	earth moon sun
+1C2-E-TEST-0190-60.61/002	line
+1C2-E-TEST-0190-60.61/003	bulges
+1C2-E-TEST-0190-60.61/004	water
+1C2-E-TEST-0190-60.61/005	moon sun
+1C2-E-TEST-0190-60.61/006	place
+1C2-E-TEST-0190-60.61/007	earth	DEP=1C2-E-TEST-0190-60.61012
+1C2-E-TEST-0190-60.61/008	new	DEP=1C2-E-TEST-0190-60.61010
+1C2-E-TEST-0190-60.61/009	full	DEP=1C2-E-TEST-0190-60.61008
+1C2-E-TEST-0190-60.61/010	moon
+1C2-E-TEST-0190-60.61/011	caused	DEP=1C2-E-TEST-0190-60.61004
+1C2-E-TEST-0190-60.61/012	surface
+1C2-E-TEST-0190-7.24	Every coast around the world experiences two high tide and low tides every day, separated by a period of approximately twelve and a half hours.
+1C2-E-TEST-0190-7.24/001	coast	DEP=1C2-E-TEST-0190-7.24006
+1C2-E-TEST-0190-7.24/002	world
+1C2-E-TEST-0190-7.24/003	two high
+1C2-E-TEST-0190-7.24/004	low tides
+1C2-E-TEST-0190-7.24/005	period
+1C2-E-TEST-0190-7.24/006	experiences
+1C2-E-TEST-0190-7.24/007	separated
+1C2-E-TEST-0190-7.24/008	approximately	DEP=1C2-E-TEST-0190-7.24009
+1C2-E-TEST-0190-7.24/009	twelve
+1C2-E-TEST-0190-7.24/010	half	DEP=1C2-E-TEST-0190-7.24011
+1C2-E-TEST-0190-7.24/011	hours	DEP=1C2-E-TEST-0190-7.24007
+1C2-E-TEST-0190-7.25	Once in a while, a record high tide is recorded, called a spring tide that is the highest of the high tides and they generally occur during a Full Moon and New Moon.
+1C2-E-TEST-0190-7.25/001	record high
+1C2-E-TEST-0190-7.25/002	spring
+1C2-E-TEST-0190-7.25/003	highest
+1C2-E-TEST-0190-7.25/004	high tides
+1C2-E-TEST-0190-7.25/005	full moon
+1C2-E-TEST-0190-7.25/006	new moon	DEP=1C2-E-TEST-0190-7.25005
+1C2-E-TEST-0190-7.25/007	recorded	DEP=1C2-E-TEST-0190-7.25008
+1C2-E-TEST-0190-7.25/008	called
+1C2-E-TEST-0190-7.25/009	generally
+1C2-E-TEST-0190-7.26	Sometimes, the high tides go very low and are called 'Neap Tides'.
+1C2-E-TEST-0190-7.26/001	high tides
+1C2-E-TEST-0190-7.26/002	neap	DEP=1C2-E-TEST-0190-7.26005
+1C2-E-TEST-0190-7.26/003	tides	DEP=1C2-E-TEST-0190-7.26002
+1C2-E-TEST-0190-7.26/004	low
+1C2-E-TEST-0190-7.26/005	called
+1C2-E-TEST-0190-7.35	There is something called gravity that can never be switched off somehow and it's Moon's gravitational pull along with Sun's, that causes tides to occur.
+1C2-E-TEST-0190-7.35/001	gravity	DEP=1C2-E-TEST-0190-7.35005
+1C2-E-TEST-0190-7.35/002	moon	DEP=1C2-E-TEST-0190-7.35009
+1C2-E-TEST-0190-7.35/003	sun
+1C2-E-TEST-0190-7.35/004	tides	DEP=1C2-E-TEST-0190-7.35010
+1C2-E-TEST-0190-7.35/005	called
+1C2-E-TEST-0190-7.35/006	switched	DEP=1C2-E-TEST-0190-7.35001
+1C2-E-TEST-0190-7.35/007	's	DEP=1C2-E-TEST-0190-7.35009
+1C2-E-TEST-0190-7.35/008	gravitational	DEP=1C2-E-TEST-0190-7.35009
+1C2-E-TEST-0190-7.35/009	pull
+1C2-E-TEST-0190-7.35/010	occur
+1C2-E-TEST-0190-7.46	On a New Moon or a Full Moon, the Sun and the Moon get aligned in a straight line and their combined gravitational influence causes the highest tides ever, which are spring tides.
+1C2-E-TEST-0190-7.46/001	new moon
+1C2-E-TEST-0190-7.46/002	full moon	DEP=1C2-E-TEST-0190-7.46001
+1C2-E-TEST-0190-7.46/003	sun	DEP=1C2-E-TEST-0190-7.46009
+1C2-E-TEST-0190-7.46/004	moon	DEP=1C2-E-TEST-0190-7.46003
+1C2-E-TEST-0190-7.46/005	straight line
+1C2-E-TEST-0190-7.46/006	combined gravitational influence
+1C2-E-TEST-0190-7.46/007	highest tides
+1C2-E-TEST-0190-7.46/008	spring tides	DEP=1C2-E-TEST-0190-7.46007
+1C2-E-TEST-0190-7.46/009	aligned
+1C2-E-TEST-0190-86.13	This creates a high tide on the side of the earth opposite the high tide caused by the direct pull of the moon.
+1C2-E-TEST-0190-86.13/001	high
+1C2-E-TEST-0190-86.13/002	side
+1C2-E-TEST-0190-86.13/003	earth
+1C2-E-TEST-0190-86.13/004	high
+1C2-E-TEST-0190-86.13/005	direct pull
+1C2-E-TEST-0190-86.13/006	moon
+1C2-E-TEST-0190-86.13/007	creates
+1C2-E-TEST-0190-86.13/008	caused
+1C2-E-TEST-0190-86.19	Tides are most pronounced along the coastline of the oceans and in bays where tidal range (the difference in height between low tide and high tide) is increased due to the topography and other factors.
+1C2-E-TEST-0190-86.19/001	tides	DEP=1C2-E-TEST-0190-86.19012
+1C2-E-TEST-0190-86.19/002	coastline
+1C2-E-TEST-0190-86.19/003	oceans
+1C2-E-TEST-0190-86.19/004	bays
+1C2-E-TEST-0190-86.19/005	tidal range	DEP=1C2-E-TEST-0190-86.19013
+1C2-E-TEST-0190-86.19/006	difference	DEP=1C2-E-TEST-0190-86.19005
+1C2-E-TEST-0190-86.19/007	height
+1C2-E-TEST-0190-86.19/008	low
+1C2-E-TEST-0190-86.19/009	high
+1C2-E-TEST-0190-86.19/010	topography
+1C2-E-TEST-0190-86.19/011	factors	DEP=1C2-E-TEST-0190-86.19010
+1C2-E-TEST-0190-86.19/012	pronounced
+1C2-E-TEST-0190-86.19/013	increased	DEP=1C2-E-TEST-0190-86.19004
+1C2-E-TEST-0190-86.19/014	due
+1C2-E-TEST-0190-86.29	When the sun, moon, and the earth are lined up, the sun and moon are exerting their strongest force together and tidal ranges are at their maximum.
+1C2-E-TEST-0190-86.29/001	sun	DEP=1C2-E-TEST-0190-86.29008
+1C2-E-TEST-0190-86.29/002	moon	DEP=1C2-E-TEST-0190-86.29001
+1C2-E-TEST-0190-86.29/003	earth	DEP=1C2-E-TEST-0190-86.29001
+1C2-E-TEST-0190-86.29/004	sun moon	DEP=1C2-E-TEST-0190-86.29009
+1C2-E-TEST-0190-86.29/005	strongest force	DEP=1C2-E-TEST-0190-86.29009
+1C2-E-TEST-0190-86.29/006	tidal ranges
+1C2-E-TEST-0190-86.29/007	maximum
+1C2-E-TEST-0190-86.29/008	lined	DEP=1C2-E-TEST-0190-86.29009
+1C2-E-TEST-0190-86.29/009	exerting
+1C2-E-TEST-0190-86.3	The gravitational pull of the moon and the sun creates tides on the earth.
+1C2-E-TEST-0190-86.3/001	gravitational pull	DEP=1C2-E-TEST-0190-86.3006
+1C2-E-TEST-0190-86.3/002	moon
+1C2-E-TEST-0190-86.3/003	sun	DEP=1C2-E-TEST-0190-86.3002
+1C2-E-TEST-0190-86.3/004	tides	DEP=1C2-E-TEST-0190-86.3006
+1C2-E-TEST-0190-86.3/005	earth
+1C2-E-TEST-0190-86.3/006	creates
+1C2-E-TEST-0190-86.30	This is known as spring tide (spring tides are not named from the season but from "spring forward") This occurs twice each month, when the moon is full and new.
+1C2-E-TEST-0190-86.30/001	spring
+1C2-E-TEST-0190-86.30/002	spring tides	DEP=1C2-E-TEST-0190-86.30007
+1C2-E-TEST-0190-86.30/003	season
+1C2-E-TEST-0190-86.30/004	spring
+1C2-E-TEST-0190-86.30/005	moon	DEP=1C2-E-TEST-0190-86.30011
+1C2-E-TEST-0190-86.30/006	known
+1C2-E-TEST-0190-86.30/007	named	DEP=1C2-E-TEST-0190-86.30006
+1C2-E-TEST-0190-86.30/008	occurs	DEP=1C2-E-TEST-0190-86.30006
+1C2-E-TEST-0190-86.30/009	twice	DEP=1C2-E-TEST-0190-86.30010
+1C2-E-TEST-0190-86.30/010	month	DEP=1C2-E-TEST-0190-86.30008
+1C2-E-TEST-0190-86.30/011	full	DEP=1C2-E-TEST-0190-86.30008
+1C2-E-TEST-0190-86.30/012	new	DEP=1C2-E-TEST-0190-86.30011
+1C2-E-TEST-0190-86.9	During this time, any point on the earth's surface experiences two high tides and two low tides.
+1C2-E-TEST-0190-86.9/001	time
+1C2-E-TEST-0190-86.9/002	point	DEP=1C2-E-TEST-0190-86.9007
+1C2-E-TEST-0190-86.9/003	earth	DEP=1C2-E-TEST-0190-86.9006
+1C2-E-TEST-0190-86.9/004	two high tides	DEP=1C2-E-TEST-0190-86.9007
+1C2-E-TEST-0190-86.9/005	two low tides	DEP=1C2-E-TEST-0190-86.9004
+1C2-E-TEST-0190-86.9/006	surface
+1C2-E-TEST-0190-86.9/007	experiences

@@ -1,0 +1,276 @@
+1C2-E-TEST-0127-1.33	The magnitude 9.0 Tohoku earthquake on March 11, 2011, which occurred near the northeast coast of Honshu, Japan, resulted from thrust faulting on or near the subduction zone plate boundary between the Pacific and North America plates.
+1C2-E-TEST-0127-1.33/001	magnitude 9.0 tohoku
+1C2-E-TEST-0127-1.33/002	march 11 2011
+1C2-E-TEST-0127-1.33/003	northeast coast
+1C2-E-TEST-0127-1.33/004	honshu
+1C2-E-TEST-0127-1.33/005	thrust
+1C2-E-TEST-0127-1.33/006	subduction zone
+1C2-E-TEST-0127-1.33/007	plate boundary	DEP=1C2-E-TEST-0127-1.33013
+1C2-E-TEST-0127-1.33/008	pacific north	DEP=1C2-E-TEST-0127-1.33012
+1C2-E-TEST-0127-1.33/009	occurred
+1C2-E-TEST-0127-1.33/010	resulted
+1C2-E-TEST-0127-1.33/011	faulting	DEP=1C2-E-TEST-0127-1.33010
+1C2-E-TEST-0127-1.33/012	america
+1C2-E-TEST-0127-1.33/013	plates	DEP=1C2-E-TEST-0127-1.33011
+1C2-E-TEST-0127-1.41	The largest of these, a M 7.8 earthquake approximately 260 km to the north of the March 11 epicenter, caused 3 fatalities and almost 700 injuries in December 1994.
+1C2-E-TEST-0127-1.41/001	largest	DEP=1C2-E-TEST-0127-1.41010
+1C2-E-TEST-0127-1.41/002	m	DEP=1C2-E-TEST-0127-1.41001
+1C2-E-TEST-0127-1.41/003	7.8
+1C2-E-TEST-0127-1.41/004	260
+1C2-E-TEST-0127-1.41/005	north
+1C2-E-TEST-0127-1.41/006	march 11 epicenter
+1C2-E-TEST-0127-1.41/007	3 fatalities	DEP=1C2-E-TEST-0127-1.41010
+1C2-E-TEST-0127-1.41/008	december 1994
+1C2-E-TEST-0127-1.41/009	approximately	DEP=1C2-E-TEST-0127-1.41001
+1C2-E-TEST-0127-1.41/010	caused
+1C2-E-TEST-0127-1.41/011	700	DEP=1C2-E-TEST-0127-1.41012
+1C2-E-TEST-0127-1.41/012	injuries	DEP=1C2-E-TEST-0127-1.41007
+1C2-E-TEST-0127-1.55	While the probability of future large earthquakes far from northern Honshu has not increased, neither has it decreased and large earthquakes will continue to occur just as we have observed in the past.
+1C2-E-TEST-0127-1.55/001	probability	DEP=1C2-E-TEST-0127-1.55006
+1C2-E-TEST-0127-1.55/002	future large earthquakes
+1C2-E-TEST-0127-1.55/003	northern honshu
+1C2-E-TEST-0127-1.55/004	large earthquakes	DEP=1C2-E-TEST-0127-1.55008
+1C2-E-TEST-0127-1.55/005	past
+1C2-E-TEST-0127-1.55/006	increased
+1C2-E-TEST-0127-1.55/007	decreased
+1C2-E-TEST-0127-1.55/008	continue	DEP=1C2-E-TEST-0127-1.55007
+1C2-E-TEST-0127-1.55/009	occur	DEP=1C2-E-TEST-0127-1.55008
+1C2-E-TEST-0127-1.55/010	observed	DEP=1C2-E-TEST-0127-1.55009
+1C2-E-TEST-0127-1.9	At least 15,703 people killed, 4,647 missing, 5,314 injured, 130,927 displaced and at least 332,395 buildings, 2,126 roads, 56 bridges and 26 railways destroyed or damaged by the earthquake and tsunami along the entire east coast of Honshu from Chiba to Aomori.
+1C2-E-TEST-0127-1.9/001	4,647	DEP=1C2-E-TEST-0127-1.9015
+1C2-E-TEST-0127-1.9/002	5,314	DEP=1C2-E-TEST-0127-1.9001
+1C2-E-TEST-0127-1.9/003	130,927	DEP=1C2-E-TEST-0127-1.9001
+1C2-E-TEST-0127-1.9/004	2,126 roads	DEP=1C2-E-TEST-0127-1.9022
+1C2-E-TEST-0127-1.9/005	56 bridges	DEP=1C2-E-TEST-0127-1.9004
+1C2-E-TEST-0127-1.9/006	26 railways	DEP=1C2-E-TEST-0127-1.9004
+1C2-E-TEST-0127-1.9/007	tsunami
+1C2-E-TEST-0127-1.9/008	entire east coast
+1C2-E-TEST-0127-1.9/009	honshu
+1C2-E-TEST-0127-1.9/010	chiba
+1C2-E-TEST-0127-1.9/011	aomori
+1C2-E-TEST-0127-1.9/012	least
+1C2-E-TEST-0127-1.9/013	15,703	DEP=1C2-E-TEST-0127-1.9014
+1C2-E-TEST-0127-1.9/014	people	DEP=1C2-E-TEST-0127-1.9015
+1C2-E-TEST-0127-1.9/015	killed	DEP=1C2-E-TEST-0127-1.9022
+1C2-E-TEST-0127-1.9/016	missing	DEP=1C2-E-TEST-0127-1.9001
+1C2-E-TEST-0127-1.9/017	injured	DEP=1C2-E-TEST-0127-1.9002
+1C2-E-TEST-0127-1.9/018	displaced	DEP=1C2-E-TEST-0127-1.9003
+1C2-E-TEST-0127-1.9/019	least
+1C2-E-TEST-0127-1.9/020	332,395	DEP=1C2-E-TEST-0127-1.9021
+1C2-E-TEST-0127-1.9/021	buildings	DEP=1C2-E-TEST-0127-1.9001
+1C2-E-TEST-0127-1.9/022	destroyed
+1C2-E-TEST-0127-1.9/023	damaged	DEP=1C2-E-TEST-0127-1.9022
+1C2-E-TEST-0127-13.12	The massive earthquake near the east coast of Honshu, Japan, occurred as a result of faults on or near the subduction zone -- the interface plate boundary between the Pacific and North America plates, the USGS said.ÃÂÃÂ 
+1C2-E-TEST-0127-13.12/001	massive
+1C2-E-TEST-0127-13.12/002	east coast
+1C2-E-TEST-0127-13.12/003	honshu
+1C2-E-TEST-0127-13.12/004	result
+1C2-E-TEST-0127-13.12/005	faults
+1C2-E-TEST-0127-13.12/006	subduction
+1C2-E-TEST-0127-13.12/007	zone	DEP=1C2-E-TEST-0127-13.12012
+1C2-E-TEST-0127-13.12/008	interface plate boundary	DEP=1C2-E-TEST-0127-13.12014
+1C2-E-TEST-0127-13.12/009	pacific north	DEP=1C2-E-TEST-0127-13.12013
+1C2-E-TEST-0127-13.12/010	usgs
+1C2-E-TEST-0127-13.12/011	ã â	DEP=1C2-E-TEST-0127-13.12007
+1C2-E-TEST-0127-13.12/012	occurred
+1C2-E-TEST-0127-13.12/013	america
+1C2-E-TEST-0127-13.12/014	plates
+1C2-E-TEST-0127-13.17	The largest of these was a 7.8 magnitude earthquake approximately 162 miles (260 km) to the north of the March 11 event, in December 1994, which caused 3 fatalities and almost 700 injuries, the USGS said.
+1C2-E-TEST-0127-13.17/001	largest
+1C2-E-TEST-0127-13.17/002	7.8 magnitude
+1C2-E-TEST-0127-13.17/003	162 miles	DEP=1C2-E-TEST-0127-13.17010
+1C2-E-TEST-0127-13.17/004	260
+1C2-E-TEST-0127-13.17/005	north
+1C2-E-TEST-0127-13.17/006	march 11 event
+1C2-E-TEST-0127-13.17/007	december 1994
+1C2-E-TEST-0127-13.17/008	3 fatalities	DEP=1C2-E-TEST-0127-13.17011
+1C2-E-TEST-0127-13.17/009	usgs
+1C2-E-TEST-0127-13.17/010	approximately
+1C2-E-TEST-0127-13.17/011	caused
+1C2-E-TEST-0127-13.17/012	700	DEP=1C2-E-TEST-0127-13.17013
+1C2-E-TEST-0127-13.17/013	injuries	DEP=1C2-E-TEST-0127-13.17008
+1C2-E-TEST-0127-152.3	A M 9.0 earthquake struck off the coast of Honshu, Japan's most populous island near Sendai, the capital city of Miyagi Prefecture, on March 11, 2011 at 05:46:23 UTC (roughly 231 miles Northeast of Tokyo), registering as the most powerful earthquake to hit Japan on record.
+1C2-E-TEST-0127-152.3/001	m 9.0
+1C2-E-TEST-0127-152.3/002	coast	DEP=1C2-E-TEST-0127-152.3013
+1C2-E-TEST-0127-152.3/003	honshu
+1C2-E-TEST-0127-152.3/004	sendai
+1C2-E-TEST-0127-152.3/005	capital city	DEP=1C2-E-TEST-0127-152.3002
+1C2-E-TEST-0127-152.3/006	miyagi prefecture
+1C2-E-TEST-0127-152.3/007	march 11 2011
+1C2-E-TEST-0127-152.3/008	05:46:23 utc
+1C2-E-TEST-0127-152.3/009	roughly 231 miles	DEP=1C2-E-TEST-0127-152.3008
+1C2-E-TEST-0127-152.3/010	northeast	DEP=1C2-E-TEST-0127-152.3009
+1C2-E-TEST-0127-152.3/011	tokyo
+1C2-E-TEST-0127-152.3/012	record
+1C2-E-TEST-0127-152.3/013	struck
+1C2-E-TEST-0127-152.3/014	populous	DEP=1C2-E-TEST-0127-152.3015
+1C2-E-TEST-0127-152.3/015	island	DEP=1C2-E-TEST-0127-152.3002
+1C2-E-TEST-0127-152.3/016	registering	DEP=1C2-E-TEST-0127-152.3013
+1C2-E-TEST-0127-152.3/017	powerful
+1C2-E-TEST-0127-152.3/018	hit	DEP=1C2-E-TEST-0127-152.3016
+1C2-E-TEST-0127-152.5	The earthquake had been preceded by a series of large foreshocks over the previous two days, beginning on March 9th with an M 7.2 event approximately 25 miles from the March 11 earthquake, and continuing with three earthquakes greater than M 6 on the same day.
+1C2-E-TEST-0127-152.5/001	series
+1C2-E-TEST-0127-152.5/002	large foreshocks
+1C2-E-TEST-0127-152.5/003	previous two days
+1C2-E-TEST-0127-152.5/004	march 9th
+1C2-E-TEST-0127-152.5/005	march 11
+1C2-E-TEST-0127-152.5/006	three earthquakes	DEP=1C2-E-TEST-0127-152.5017
+1C2-E-TEST-0127-152.5/007	m 6
+1C2-E-TEST-0127-152.5/008	preceded
+1C2-E-TEST-0127-152.5/009	beginning	DEP=1C2-E-TEST-0127-152.5008
+1C2-E-TEST-0127-152.5/010	m	DEP=1C2-E-TEST-0127-152.5012
+1C2-E-TEST-0127-152.5/011	7.2	DEP=1C2-E-TEST-0127-152.5010
+1C2-E-TEST-0127-152.5/012	event
+1C2-E-TEST-0127-152.5/013	approximately	DEP=1C2-E-TEST-0127-152.5014
+1C2-E-TEST-0127-152.5/014	25	DEP=1C2-E-TEST-0127-152.5015
+1C2-E-TEST-0127-152.5/015	miles
+1C2-E-TEST-0127-152.5/016	continuing	DEP=1C2-E-TEST-0127-152.5009
+1C2-E-TEST-0127-152.5/017	greater
+1C2-E-TEST-0127-198.3	A magnitude 9.0 earthquake occurred near the east coast of Honshu, Japan, occurred at 2:46 p.m. (local time) on March 11, 2011.
+1C2-E-TEST-0127-198.3/001	magnitude	DEP=1C2-E-TEST-0127-198.3009
+1C2-E-TEST-0127-198.3/002	9.0
+1C2-E-TEST-0127-198.3/003	east coast
+1C2-E-TEST-0127-198.3/004	honshu
+1C2-E-TEST-0127-198.3/005	2:46 p.m.
+1C2-E-TEST-0127-198.3/006	local time	DEP=1C2-E-TEST-0127-198.3005
+1C2-E-TEST-0127-198.3/007	march 11 2011
+1C2-E-TEST-0127-198.3/008	occurred	DEP=1C2-E-TEST-0127-198.3001
+1C2-E-TEST-0127-198.3/009	occurred
+1C2-E-TEST-0127-2.24	This earthquake occurred where the Pacific Plate is subducting under the plate beneath northern Honshu; which plate is a matter of debate amongst scientists.
+1C2-E-TEST-0127-2.24/001	pacific plate	DEP=1C2-E-TEST-0127-2.24009
+1C2-E-TEST-0127-2.24/002	plate
+1C2-E-TEST-0127-2.24/003	northern honshu
+1C2-E-TEST-0127-2.24/004	plate	DEP=1C2-E-TEST-0127-2.24005
+1C2-E-TEST-0127-2.24/005	matter	DEP=1C2-E-TEST-0127-2.24002
+1C2-E-TEST-0127-2.24/006	debate
+1C2-E-TEST-0127-2.24/007	scientists
+1C2-E-TEST-0127-2.24/008	occurred
+1C2-E-TEST-0127-2.24/009	subducting	DEP=1C2-E-TEST-0127-2.24008
+1C2-E-TEST-0127-2.9	The first major foreshock was a 7.2ÃÂÃÂ MW event on 9 March, approximately 40ÃÂÃÂ km (25ÃÂÃÂ mi) from the epicenter of the 11 March earthquake, with another three on the same day in excess of 6.0ÃÂÃÂ MW.
+1C2-E-TEST-0127-2.9/001	major foreshock	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/002	9
+1C2-E-TEST-0127-2.9/003	40ã â
+1C2-E-TEST-0127-2.9/004	25ã â mi
+1C2-E-TEST-0127-2.9/005	epicenter
+1C2-E-TEST-0127-2.9/006	11 march
+1C2-E-TEST-0127-2.9/007	three
+1C2-E-TEST-0127-2.9/008	excess
+1C2-E-TEST-0127-2.9/009	6.0 ã â mw
+1C2-E-TEST-0127-2.9/010	7.2	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/011	ã	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/012	â	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/013	mw	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/014	event
+1C2-E-TEST-0127-2.9/015	march	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-2.9/016	approximately	DEP=1C2-E-TEST-0127-2.9014
+1C2-E-TEST-0127-3.1	Magnitude 9.0 NEAR EAST COAST OF HONSHU, JAPAN
+1C2-E-TEST-0127-3.1/001	magnitude 9.0
+1C2-E-TEST-0127-3.1/002	east coast
+1C2-E-TEST-0127-3.1/003	honshu
+1C2-E-TEST-0127-31.15	The 03/11/2011 earthquake (preliminary magnitude 8.9) near the east coast of Honshu, Japan, occurred as a result of thrust faulting on or near the subduction zone interface plate boundary between the Pacific and North America plates.
+1C2-E-TEST-0127-31.15/001	03\/11\/2011
+1C2-E-TEST-0127-31.15/002	preliminary magnitude
+1C2-E-TEST-0127-31.15/003	8.9	DEP=1C2-E-TEST-0127-31.15002
+1C2-E-TEST-0127-31.15/004	east coast
+1C2-E-TEST-0127-31.15/005	honshu
+1C2-E-TEST-0127-31.15/006	result	DEP=1C2-E-TEST-0127-31.15013
+1C2-E-TEST-0127-31.15/007	thrust
+1C2-E-TEST-0127-31.15/008	subduction zone interface plate boundary
+1C2-E-TEST-0127-31.15/009	pacific north	DEP=1C2-E-TEST-0127-31.15012
+1C2-E-TEST-0127-31.15/010	occurred
+1C2-E-TEST-0127-31.15/011	faulting	DEP=1C2-E-TEST-0127-31.15007
+1C2-E-TEST-0127-31.15/012	america
+1C2-E-TEST-0127-31.15/013	plates	DEP=1C2-E-TEST-0127-31.15010
+1C2-E-TEST-0127-31.22	The largest of these was an M 7.8 earthquake approximately 260 km to the north of the March 11 event, in December 1994, which caused 3 fatalities and almost 700 injuries.
+1C2-E-TEST-0127-31.22/001	largest
+1C2-E-TEST-0127-31.22/002	260
+1C2-E-TEST-0127-31.22/003	north
+1C2-E-TEST-0127-31.22/004	march 11 event
+1C2-E-TEST-0127-31.22/005	december 1994
+1C2-E-TEST-0127-31.22/006	3 fatalities	DEP=1C2-E-TEST-0127-31.22010
+1C2-E-TEST-0127-31.22/007	m
+1C2-E-TEST-0127-31.22/008	7.8	DEP=1C2-E-TEST-0127-31.22007
+1C2-E-TEST-0127-31.22/009	approximately
+1C2-E-TEST-0127-31.22/010	caused	DEP=1C2-E-TEST-0127-31.22005
+1C2-E-TEST-0127-31.22/011	700	DEP=1C2-E-TEST-0127-31.22012
+1C2-E-TEST-0127-31.22/012	injuries	DEP=1C2-E-TEST-0127-31.22006
+1C2-E-TEST-0127-31.7	But now the nation's largest earthquake (magnitude 8.9) has hit, and it's 231 miles northeast of Tokyo.
+1C2-E-TEST-0127-31.7/001	nation
+1C2-E-TEST-0127-31.7/002	magnitude 8.9
+1C2-E-TEST-0127-31.7/003	231 miles	DEP=1C2-E-TEST-0127-31.7008
+1C2-E-TEST-0127-31.7/004	tokyo
+1C2-E-TEST-0127-31.7/005	largest
+1C2-E-TEST-0127-31.7/006	hit
+1C2-E-TEST-0127-31.7/007	's	DEP=1C2-E-TEST-0127-31.7006
+1C2-E-TEST-0127-31.7/008	northeast	DEP=1C2-E-TEST-0127-31.7007
+1C2-E-TEST-0127-37.12	M9.0 Near the East Coast of Honshu, Japan
+1C2-E-TEST-0127-37.12/001	m9 .0
+1C2-E-TEST-0127-37.12/002	east coast
+1C2-E-TEST-0127-37.12/003	honshu
+1C2-E-TEST-0127-37.13	A magnitude 9.0 earthquake has occurred near the east coast of Honshu, Japan, as a result of thrust faulting on or near the subduction zone interface plate boundary between the Pacific and North American plates.
+1C2-E-TEST-0127-37.13/001	magnitude 9.0
+1C2-E-TEST-0127-37.13/002	east coast
+1C2-E-TEST-0127-37.13/003	honshu
+1C2-E-TEST-0127-37.13/004	result	DEP=1C2-E-TEST-0127-37.13011
+1C2-E-TEST-0127-37.13/005	thrust
+1C2-E-TEST-0127-37.13/006	subduction zone interface plate boundary
+1C2-E-TEST-0127-37.13/007	pacific north	DEP=1C2-E-TEST-0127-37.13010
+1C2-E-TEST-0127-37.13/008	occurred
+1C2-E-TEST-0127-37.13/009	faulting	DEP=1C2-E-TEST-0127-37.13005
+1C2-E-TEST-0127-37.13/010	american
+1C2-E-TEST-0127-37.13/011	plates	DEP=1C2-E-TEST-0127-37.13008
+1C2-E-TEST-0127-37.7	130 km (80 miles) E of Sendai, Honshu, Japan
+1C2-E-TEST-0127-37.7/001	80 miles
+1C2-E-TEST-0127-37.7/002	e
+1C2-E-TEST-0127-37.7/003	sendai
+1C2-E-TEST-0127-37.7/004	honshu
+1C2-E-TEST-0127-37.7/005	130
+1C2-E-TEST-0127-5.8	The 03/09/2011 earthquake near the east coast of Honshu, Japan, occurred as a result of thrust faulting on or near the subduction zone interface plate boundary between the Pacific and North America plates.
+1C2-E-TEST-0127-5.8/001	03\/09\/2011
+1C2-E-TEST-0127-5.8/002	east coast
+1C2-E-TEST-0127-5.8/003	honshu
+1C2-E-TEST-0127-5.8/004	result	DEP=1C2-E-TEST-0127-5.8011
+1C2-E-TEST-0127-5.8/005	thrust
+1C2-E-TEST-0127-5.8/006	subduction zone interface plate boundary
+1C2-E-TEST-0127-5.8/007	pacific north	DEP=1C2-E-TEST-0127-5.8010
+1C2-E-TEST-0127-5.8/008	occurred
+1C2-E-TEST-0127-5.8/009	faulting	DEP=1C2-E-TEST-0127-5.8005
+1C2-E-TEST-0127-5.8/010	america
+1C2-E-TEST-0127-5.8/011	plates	DEP=1C2-E-TEST-0127-5.8008
+1C2-E-TEST-0127-70.13	The 03/11/2011 earthquake occurred near the east coast of Honshu, it is the result of thrust faulting about 200km west of the subduction zone (Japan Trench).
+1C2-E-TEST-0127-70.13/001	03\/11\/2011
+1C2-E-TEST-0127-70.13/002	east coast
+1C2-E-TEST-0127-70.13/003	honshu
+1C2-E-TEST-0127-70.13/004	result
+1C2-E-TEST-0127-70.13/005	thrust
+1C2-E-TEST-0127-70.13/006	200km west
+1C2-E-TEST-0127-70.13/007	subduction zone
+1C2-E-TEST-0127-70.13/008	trench	DEP=1C2-E-TEST-0127-70.13007
+1C2-E-TEST-0127-70.13/009	occurred	DEP=1C2-E-TEST-0127-70.13004
+1C2-E-TEST-0127-70.13/010	faulting	DEP=1C2-E-TEST-0127-70.13005
+1C2-E-TEST-0127-70.21	It was located 140 km North East of the 2011 March 11th earthquake.
+1C2-E-TEST-0127-70.21/001	2011 march
+1C2-E-TEST-0127-70.21/002	11th
+1C2-E-TEST-0127-70.21/003	located
+1C2-E-TEST-0127-70.21/004	140	DEP=1C2-E-TEST-0127-70.21003
+1C2-E-TEST-0127-70.21/005	north	DEP=1C2-E-TEST-0127-70.21006
+1C2-E-TEST-0127-70.21/006	east
+1C2-E-TEST-0127-8.3	On March 11, 2011, at 2:46 p.m. local time (05:46 Universal Time, or UTC), a magnitude 9.0 earthquake struck off the east coast of Japan, at 38.3 degrees North latitude and 142.4 degrees East longitude.
+1C2-E-TEST-0127-8.3/001	march 11 2011
+1C2-E-TEST-0127-8.3/002	2:46 p.m. local time
+1C2-E-TEST-0127-8.3/003	05:46	DEP=1C2-E-TEST-0127-8.3002
+1C2-E-TEST-0127-8.3/004	universal time	DEP=1C2-E-TEST-0127-8.3003
+1C2-E-TEST-0127-8.3/005	utc	DEP=1C2-E-TEST-0127-8.3003
+1C2-E-TEST-0127-8.3/006	magnitude 9.0
+1C2-E-TEST-0127-8.3/007	east coast	DEP=1C2-E-TEST-0127-8.3010
+1C2-E-TEST-0127-8.3/008	38.3 degrees	DEP=1C2-E-TEST-0127-8.3011
+1C2-E-TEST-0127-8.3/009	142.4 degrees	DEP=1C2-E-TEST-0127-8.3013
+1C2-E-TEST-0127-8.3/010	struck
+1C2-E-TEST-0127-8.3/011	north	DEP=1C2-E-TEST-0127-8.3012
+1C2-E-TEST-0127-8.3/012	latitude
+1C2-E-TEST-0127-8.3/013	east	DEP=1C2-E-TEST-0127-8.3014
+1C2-E-TEST-0127-8.3/014	longitude	DEP=1C2-E-TEST-0127-8.3012
+1C2-E-TEST-0127-8.32	Magnitude 8.9 - Near The East Coast of Honshu, Japan.
+1C2-E-TEST-0127-8.32/001	magnitude 8.9
+1C2-E-TEST-0127-8.32/002	east coast
+1C2-E-TEST-0127-8.32/003	honshu

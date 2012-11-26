@@ -1,0 +1,122 @@
+1C2-E-TEST-0166-1.17	ASTM A955: Deformed and plain stainless-steel bars for concrete reinforcement
+1C2-E-TEST-0166-1.17/001	astm a955
+1C2-E-TEST-0166-1.17/002	concrete reinforcement
+1C2-E-TEST-0166-1.17/003	deformed	DEP=1C2-E-TEST-0166-1.17006
+1C2-E-TEST-0166-1.17/004	plain	DEP=1C2-E-TEST-0166-1.17003
+1C2-E-TEST-0166-1.17/005	stainless-steel	DEP=1C2-E-TEST-0166-1.17006
+1C2-E-TEST-0166-1.17/006	bars	DEP=1C2-E-TEST-0166-1.17001
+1C2-E-TEST-0166-1.28	The more ductile steel is capable of absorbing considerably more energy when deformed - a behavior that resists earthquake forces and is used in design.
+1C2-E-TEST-0166-1.28/001	ductile steel	DEP=1C2-E-TEST-0166-1.28005
+1C2-E-TEST-0166-1.28/002	behavior	DEP=1C2-E-TEST-0166-1.28008
+1C2-E-TEST-0166-1.28/003	earthquake forces	DEP=1C2-E-TEST-0166-1.28010
+1C2-E-TEST-0166-1.28/004	design
+1C2-E-TEST-0166-1.28/005	capable
+1C2-E-TEST-0166-1.28/006	absorbing
+1C2-E-TEST-0166-1.28/007	considerably
+1C2-E-TEST-0166-1.28/008	energy	DEP=1C2-E-TEST-0166-1.28006
+1C2-E-TEST-0166-1.28/009	deformed	DEP=1C2-E-TEST-0166-1.28008
+1C2-E-TEST-0166-1.28/010	resists	DEP=1C2-E-TEST-0166-1.28002
+1C2-E-TEST-0166-1.31	The rebars are placed by rodbusters or concrete reinforcing ironworkers with bar supports separating the rebar from the concrete forms to establish concrete cover and ensure that proper embedment is achieved.
+1C2-E-TEST-0166-1.31/001	rebars	DEP=1C2-E-TEST-0166-1.31009
+1C2-E-TEST-0166-1.31/002	rodbusters
+1C2-E-TEST-0166-1.31/003	concrete	DEP=1C2-E-TEST-0166-1.31002
+1C2-E-TEST-0166-1.31/004	ironworkers	DEP=1C2-E-TEST-0166-1.31011
+1C2-E-TEST-0166-1.31/005	bar
+1C2-E-TEST-0166-1.31/006	concrete forms
+1C2-E-TEST-0166-1.31/007	concrete cover	DEP=1C2-E-TEST-0166-1.31013
+1C2-E-TEST-0166-1.31/008	proper embedment	DEP=1C2-E-TEST-0166-1.31015
+1C2-E-TEST-0166-1.31/009	placed
+1C2-E-TEST-0166-1.31/010	reinforcing	DEP=1C2-E-TEST-0166-1.31009
+1C2-E-TEST-0166-1.31/011	supports	DEP=1C2-E-TEST-0166-1.31010
+1C2-E-TEST-0166-1.31/012	separating	DEP=1C2-E-TEST-0166-1.31011
+1C2-E-TEST-0166-1.31/013	establish	DEP=1C2-E-TEST-0166-1.31012
+1C2-E-TEST-0166-1.31/014	ensure	DEP=1C2-E-TEST-0166-1.31013
+1C2-E-TEST-0166-1.31/015	achieved	DEP=1C2-E-TEST-0166-1.31014
+1C2-E-TEST-0166-122.25	The grade designation is equal to the minimum yield strength of the bar in ksi (1000 psi).
+1C2-E-TEST-0166-122.25/001	grade designation	DEP=1C2-E-TEST-0166-122.25006
+1C2-E-TEST-0166-122.25/002	minimum yield strength
+1C2-E-TEST-0166-122.25/003	bar
+1C2-E-TEST-0166-122.25/004	ksi
+1C2-E-TEST-0166-122.25/005	1000 psi	DEP=1C2-E-TEST-0166-122.25004
+1C2-E-TEST-0166-122.25/006	equal
+1C2-E-TEST-0166-20.8	ASTM A 706 Low-alloy steel deformed and plain bars for concrete reinforcement
+1C2-E-TEST-0166-20.8/001	astm 706 low-alloy steel	DEP=1C2-E-TEST-0166-20.8004
+1C2-E-TEST-0166-20.8/002	plain bars	DEP=1C2-E-TEST-0166-20.8004
+1C2-E-TEST-0166-20.8/003	concrete reinforcement
+1C2-E-TEST-0166-20.8/004	deformed
+1C2-E-TEST-0166-200.21	A rebar, or reinforcing bar, is a common steel bar, and is commonly used in reinforced concrete and reinforced masonry structures.
+1C2-E-TEST-0166-200.21/001	reinforcing bar
+1C2-E-TEST-0166-200.21/002	common steel bar
+1C2-E-TEST-0166-200.21/003	commonly
+1C2-E-TEST-0166-200.21/004	reinforced	DEP=1C2-E-TEST-0166-200.21005
+1C2-E-TEST-0166-200.21/005	concrete
+1C2-E-TEST-0166-200.21/006	reinforced	DEP=1C2-E-TEST-0166-200.21008
+1C2-E-TEST-0166-200.21/007	masonry	DEP=1C2-E-TEST-0166-200.21008
+1C2-E-TEST-0166-200.21/008	structures	DEP=1C2-E-TEST-0166-200.21005
+1C2-E-TEST-0166-200.72	Rebar can be supplied with various grades of ductility, with the more ductile steel capable of absorbing considerably greater energy when deformed - this can be of use in design to
+1C2-E-TEST-0166-200.72/001	various grades
+1C2-E-TEST-0166-200.72/002	ductility
+1C2-E-TEST-0166-200.72/003	design
+1C2-E-TEST-0166-200.72/004	supplied
+1C2-E-TEST-0166-200.72/005	ductile	DEP=1C2-E-TEST-0166-200.72006
+1C2-E-TEST-0166-200.72/006	steel
+1C2-E-TEST-0166-200.72/007	capable	DEP=1C2-E-TEST-0166-200.72006
+1C2-E-TEST-0166-200.72/008	absorbing
+1C2-E-TEST-0166-200.72/009	considerably	DEP=1C2-E-TEST-0166-200.72010
+1C2-E-TEST-0166-200.72/010	greater	DEP=1C2-E-TEST-0166-200.72011
+1C2-E-TEST-0166-200.72/011	energy	DEP=1C2-E-TEST-0166-200.72008
+1C2-E-TEST-0166-200.72/012	deformed	DEP=1C2-E-TEST-0166-200.72008
+1C2-E-TEST-0166-224.12	Historically in Europe, rebar is composed of mild steel material with yield strength of approximately 250 N/mmÃÂÃÂ².
+1C2-E-TEST-0166-224.12/001	historically	DEP=1C2-E-TEST-0166-224.12006
+1C2-E-TEST-0166-224.12/002	europe
+1C2-E-TEST-0166-224.12/003	mild steel material
+1C2-E-TEST-0166-224.12/004	yield strength
+1C2-E-TEST-0166-224.12/005	n\/mm ã â ²	DEP=1C2-E-TEST-0166-224.12006
+1C2-E-TEST-0166-224.12/006	composed
+1C2-E-TEST-0166-224.12/007	approximately	DEP=1C2-E-TEST-0166-224.12008
+1C2-E-TEST-0166-224.12/008	250
+1C2-E-TEST-0166-224.13	Modern rebar is composed of high-yield steel, with a yield strength more typically 500 N/mmÃÂÃÂ².
+1C2-E-TEST-0166-224.13/001	modern
+1C2-E-TEST-0166-224.13/002	high-yield steel
+1C2-E-TEST-0166-224.13/003	yield strength
+1C2-E-TEST-0166-224.13/004	500 n\/mm	DEP=1C2-E-TEST-0166-224.13003
+1C2-E-TEST-0166-224.13/005	ã â ²	DEP=1C2-E-TEST-0166-224.13004
+1C2-E-TEST-0166-224.13/006	composed
+1C2-E-TEST-0166-224.13/007	typically	DEP=1C2-E-TEST-0166-224.13004
+1C2-E-TEST-0166-224.24	Rebar cages are fabricated either on or off the project site commonly with the help of hydraulic benders and shears.
+1C2-E-TEST-0166-224.24/001	cages	DEP=1C2-E-TEST-0166-224.24005
+1C2-E-TEST-0166-224.24/002	project site
+1C2-E-TEST-0166-224.24/003	help
+1C2-E-TEST-0166-224.24/004	hydraulic benders shears
+1C2-E-TEST-0166-224.24/005	fabricated
+1C2-E-TEST-0166-224.24/006	commonly
+1C2-E-TEST-0166-224.3	Rebar is available in different grades and specifications that vary in yield strength, ultimate tensile strength, chemical composition, and percentage of elongation.
+1C2-E-TEST-0166-224.3/001	different grades specifications
+1C2-E-TEST-0166-224.3/002	yield strength
+1C2-E-TEST-0166-224.3/003	ultimate tensile strength	DEP=1C2-E-TEST-0166-224.3002
+1C2-E-TEST-0166-224.3/004	chemical composition	DEP=1C2-E-TEST-0166-224.3002
+1C2-E-TEST-0166-224.3/005	percentage	DEP=1C2-E-TEST-0166-224.3002
+1C2-E-TEST-0166-224.3/006	elongation
+1C2-E-TEST-0166-224.3/007	available
+1C2-E-TEST-0166-224.4	The grade designation is equal to the minimum yield strength of the bar in ksi (1000 psi) for example grade 60 rebar has minimum yield strength of 60 ksi.
+1C2-E-TEST-0166-224.4/001	grade designation	DEP=1C2-E-TEST-0166-224.4010
+1C2-E-TEST-0166-224.4/002	minimum yield strength
+1C2-E-TEST-0166-224.4/003	bar
+1C2-E-TEST-0166-224.4/004	ksi
+1C2-E-TEST-0166-224.4/005	1000 psi	DEP=1C2-E-TEST-0166-224.4004
+1C2-E-TEST-0166-224.4/006	example grade
+1C2-E-TEST-0166-224.4/007	60
+1C2-E-TEST-0166-224.4/008	minimum yield strength
+1C2-E-TEST-0166-224.4/009	60 ksi
+1C2-E-TEST-0166-224.4/010	equal
+1C2-E-TEST-0166-224.5	Rebar is typically manufactured in grades 40, 60, and 75.
+1C2-E-TEST-0166-224.5/001	grades
+1C2-E-TEST-0166-224.5/002	40 60 75	DEP=1C2-E-TEST-0166-224.5001
+1C2-E-TEST-0166-224.5/003	typically	DEP=1C2-E-TEST-0166-224.5004
+1C2-E-TEST-0166-224.5/004	manufactured
+1C2-E-TEST-0166-296.3	Rebar is a structural member that is cast into concrete and masonry to provide strength and reinforcement.
+1C2-E-TEST-0166-296.3/001	structural member
+1C2-E-TEST-0166-296.3/002	concrete
+1C2-E-TEST-0166-296.3/003	masonry	DEP=1C2-E-TEST-0166-296.3002
+1C2-E-TEST-0166-296.3/004	strength reinforcement
+1C2-E-TEST-0166-296.3/005	cast	DEP=1C2-E-TEST-0166-296.3001

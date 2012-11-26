@@ -1,0 +1,3547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus ID="100" XMLCreated="Fri Nov 16 17:33:11 EST 2012" name="ONE">
+  <documents>
+    <document ID="1" description="TWO">
+      <paragraphs>
+        <paragraph ID="2" documentOrder="1">
+          <sentences>
+            <sentence ID="0">
+              <text>On January 15 , 2008 , the National Transportation Safety Board announced they had determined that the bridge 's design specified steel gusset plates that were undersized and inadequate to support the intended load of the bridge , -LSB- 129 -RSB- a load which had increased over time .</text>
+              <annotationSets>
+                <annotationSet ID="0" frameName="Roadways">
+                  <layers>
+                    <layer ID="1" name="Target">
+                      <labels>
+                        <label ID="101" end="227" name="Target" start="222"/>
+                      </labels>
+                    </layer>
+                    <layer ID="2" name="FE">
+                      <labels>
+                        <label ID="201" end="227" name="Roadway" start="222"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1" frameName="Contingency">
+                  <layers>
+                    <layer ID="101" name="Target">
+                      <labels>
+                        <label ID="10101" end="92" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="102" name="FE">
+                      <labels>
+                        <label ID="10201" end="62" name="Outcome" start="23"/>
+                        <label ID="10202" end="77" name="Determinant" start="74"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2" frameName="Coming_up_with">
+                  <layers>
+                    <layer ID="201" name="Target">
+                      <labels>
+                        <label ID="20101" end="118" name="Target" start="113"/>
+                      </labels>
+                    </layer>
+                    <layer ID="202" name="FE">
+                      <labels>
+                        <label ID="20201" end="111" name="Idea" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="3" frameName="Statement">
+                  <layers>
+                    <layer ID="301" name="Target">
+                      <labels>
+                        <label ID="30101" end="72" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="302" name="FE">
+                      <labels>
+                        <label ID="30201" end="282" name="Message" start="74"/>
+                        <label ID="30202" end="62" name="Speaker" start="23"/>
+                        <label ID="30203" end="19" name="Time" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="4" frameName="Quantity">
+                  <layers>
+                    <layer ID="401" name="Target">
+                      <labels>
+                        <label ID="40101" end="213" name="Target" start="210"/>
+                      </labels>
+                    </layer>
+                    <layer ID="402" name="FE">
+                      <labels>
+                        <label ID="40201" end="227" name="Individuals" start="215"/>
+                        <label ID="40202" end="213" name="Quantity" start="210"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="5" frameName="Supporting">
+                  <layers>
+                    <layer ID="501" name="Target">
+                      <labels>
+                        <label ID="50101" end="195" name="Target" start="189"/>
+                      </labels>
+                    </layer>
+                    <layer ID="502" name="FE">
+                      <labels>
+                        <label ID="50201" end="153" name="Supporter" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="6" frameName="Sufficiency">
+                  <layers>
+                    <layer ID="601" name="Target">
+                      <labels>
+                        <label ID="60101" end="184" name="Target" start="175"/>
+                      </labels>
+                    </layer>
+                    <layer ID="602" name="FE">
+                      <labels>
+                        <label ID="60201" end="153" name="Item" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="7" frameName="Change_position_on_a_scale">
+                  <layers>
+                    <layer ID="701" name="Target">
+                      <labels>
+                        <label ID="70101" end="272" name="Target" start="264"/>
+                      </labels>
+                    </layer>
+                    <layer ID="702" name="FE">
+                      <labels>
+                        <label ID="70201" end="258" name="Item" start="254"/>
+                        <label ID="70202" end="282" name="Time" start="274"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="8" frameName="Quantity">
+                  <layers>
+                    <layer ID="801" name="Target">
+                      <labels>
+                        <label ID="80101" end="252" name="Target" start="249"/>
+                      </labels>
+                    </layer>
+                    <layer ID="802" name="FE">
+                      <labels>
+                        <label ID="80201" end="252" name="Quantity" start="249"/>
+                        <label ID="80202" end="258" name="Mass" start="254"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="9" frameName="Board_vehicle">
+                  <layers>
+                    <layer ID="901" name="Target">
+                      <labels>
+                        <label ID="90101" end="62" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="902" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="10" frameName="Roadways">
+                  <layers>
+                    <layer ID="1001" name="Target">
+                      <labels>
+                        <label ID="100101" end="108" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1002" name="FE">
+                      <labels>
+                        <label ID="100201" end="108" name="Roadway" start="103"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="11" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="1101" name="Target">
+                      <labels>
+                        <label ID="110101" end="282" name="Target" start="279"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1102" name="FE">
+                      <labels>
+                        <label ID="110201" end="282" name="Unit" start="279"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="12" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="1201" name="Target">
+                      <labels>
+                        <label ID="120101" end="9" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1202" name="FE">
+                      <labels>
+                        <label ID="120201" end="9" name="Unit" start="3"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="13" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="1301" name="Target">
+                      <labels>
+                        <label ID="130101" end="12" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1302" name="FE">
+                      <labels>
+                        <label ID="130201" end="9" name="Entity" start="3"/>
+                        <label ID="130202" end="12" name="Number" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="14" frameName="Being_at_risk">
+                  <layers>
+                    <layer ID="1401" name="Target">
+                      <labels>
+                        <label ID="140101" end="56" name="Target" start="51"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1402" name="FE">
+                      <labels>
+                        <label ID="140201" end="34" name="Asset" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="15" frameName="Political_locales">
+                  <layers>
+                    <layer ID="1501" name="Target">
+                      <labels>
+                        <label ID="150101" end="34" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="1502" name="FE">
+                      <labels>
+                        <label ID="150201" end="34" name="Locale" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="1">
+              <text>About 6 : 05 p.m. central daylight time on Wednesday , August 1 , 07 , the eight-lane , 1 , 907-foot-long I-35W Highway Bridge over the Mississippi River in Minneapolis , Minnesota , experienced a catastrophic failure in the main span of the deck truss .</text>
+              <annotationSets>
+                <annotationSet ID="100" frameName="Adorning">
+                  <layers>
+                    <layer ID="10001" name="Target">
+                      <labels>
+                        <label ID="1000101" end="245" name="Target" start="242"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="101" frameName="Roadways">
+                  <layers>
+                    <layer ID="10101" name="Target">
+                      <labels>
+                        <label ID="1010101" end="118" name="Target" start="112"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10102" name="FE">
+                      <labels>
+                        <label ID="1010201" end="110" name="Name" start="106"/>
+                        <label ID="1010202" end="118" name="Roadway" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="102" frameName="Natural_features">
+                  <layers>
+                    <layer ID="10201" name="Target">
+                      <labels>
+                        <label ID="1020101" end="152" name="Target" start="148"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10202" name="FE">
+                      <labels>
+                        <label ID="1020201" end="152" name="Locale" start="148"/>
+                        <label ID="1020202" end="146" name="Name" start="136"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="103" frameName="Event_instance">
+                  <layers>
+                    <layer ID="10301" name="Target">
+                      <labels>
+                        <label ID="1030101" end="38" name="Target" start="35"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10302" name="FE">
+                      <labels>
+                        <label ID="1030201" end="38" name="Instance" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="104" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="10401" name="Target">
+                      <labels>
+                        <label ID="1040101" end="24" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="105" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="10501" name="Target">
+                      <labels>
+                        <label ID="1050101" end="60" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10502" name="FE">
+                      <labels>
+                        <label ID="1050201" end="60" name="Unit" start="55"/>
+                        <label ID="1050202" end="62" name="Whole" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="106" frameName="Importance">
+                  <layers>
+                    <layer ID="10601" name="Target">
+                      <labels>
+                        <label ID="1060101" end="228" name="Target" start="225"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10602" name="FE">
+                      <labels>
+                        <label ID="1060201" end="233" name="Factor" start="230"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="107" frameName="Roadways">
+                  <layers>
+                    <layer ID="10701" name="Target">
+                      <labels>
+                        <label ID="1070101" end="125" name="Target" start="120"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10702" name="FE">
+                      <labels>
+                        <label ID="1070201" end="125" name="Roadway" start="120"/>
+                        <label ID="1070202" end="118" name="Relative_location" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="108" frameName="Success_or_failure">
+                  <layers>
+                    <layer ID="10801" name="Target">
+                      <labels>
+                        <label ID="1080101" end="216" name="Target" start="210"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="109" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="10901" name="Target">
+                      <labels>
+                        <label ID="1090101" end="51" name="Target" start="43"/>
+                      </labels>
+                    </layer>
+                    <layer ID="10902" name="FE">
+                      <labels>
+                        <label ID="1090201" end="51" name="Unit" start="43"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="110" frameName="Expertise">
+                  <layers>
+                    <layer ID="11001" name="Target">
+                      <labels>
+                        <label ID="1100101" end="193" name="Target" start="183"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="111" frameName="Dimension">
+                  <layers>
+                    <layer ID="11101" name="Target">
+                      <labels>
+                        <label ID="1110101" end="104" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11102" name="FE">
+                      <labels>
+                        <label ID="1110201" end="104" name="Dimension" start="92"/>
+                        <label ID="1110202" end="110" name="Object" start="106"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="112" frameName="Catastrophe">
+                  <layers>
+                    <layer ID="11201" name="Target">
+                      <labels>
+                        <label ID="1120101" end="208" name="Target" start="197"/>
+                      </labels>
+                    </layer>
+                    <layer ID="11202" name="FE">
+                      <labels>
+                        <label ID="1120201" end="216" name="Undesirable_Event" start="210"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="2">
+              <text>On the day of the collapse , roadway work was underway on the I-35W Bridge , and four of the eight travel lanes -LRB- two outside lanes northbound and two inside lanes southbound -RRB- were closed to traffic .</text>
+              <annotationSets>
+                <annotationSet ID="200" frameName="Travel">
+                  <layers>
+                    <layer ID="20001" name="Target">
+                      <labels>
+                        <label ID="2000101" end="104" name="Target" start="99"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="201" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="20101" name="Target">
+                      <labels>
+                        <label ID="2010101" end="97" name="Target" start="93"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20102" name="FE">
+                      <labels>
+                        <label ID="2010201" end="104" name="Entity" start="99"/>
+                        <label ID="2010202" end="97" name="Number" start="93"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="202" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="20201" name="Target">
+                      <labels>
+                        <label ID="2020101" end="84" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20202" name="FE">
+                      <labels>
+                        <label ID="2020201" end="84" name="Number" start="81"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="203" frameName="Roadways">
+                  <layers>
+                    <layer ID="20301" name="Target">
+                      <labels>
+                        <label ID="2030101" end="134" name="Target" start="130"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20302" name="FE">
+                      <labels>
+                        <label ID="2030201" end="128" name="Use" start="122"/>
+                        <label ID="2030202" end="134" name="Roadway" start="130"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="204" frameName="Roadways">
+                  <layers>
+                    <layer ID="20401" name="Target">
+                      <labels>
+                        <label ID="2040101" end="166" name="Target" start="162"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20402" name="FE">
+                      <labels>
+                        <label ID="2040201" end="166" name="Roadway" start="162"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="205" frameName="Part_inner_outer">
+                  <layers>
+                    <layer ID="20501" name="Target">
+                      <labels>
+                        <label ID="2050101" end="128" name="Target" start="122"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20502" name="FE">
+                      <labels>
+                        <label ID="2050201" end="134" name="Part" start="130"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="206" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="20601" name="Target">
+                      <labels>
+                        <label ID="2060101" end="120" name="Target" start="118"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20602" name="FE">
+                      <labels>
+                        <label ID="2060201" end="134" name="Entity" start="130"/>
+                        <label ID="2060202" end="120" name="Number" start="118"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="207" frameName="Roadways">
+                  <layers>
+                    <layer ID="20701" name="Target">
+                      <labels>
+                        <label ID="2070101" end="73" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20702" name="FE">
+                      <labels>
+                        <label ID="2070201" end="73" name="Roadway" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="208" frameName="Working_on">
+                  <layers>
+                    <layer ID="20801" name="Target">
+                      <labels>
+                        <label ID="2080101" end="40" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="209" frameName="Roadways">
+                  <layers>
+                    <layer ID="20901" name="Target">
+                      <labels>
+                        <label ID="2090101" end="110" name="Target" start="106"/>
+                      </labels>
+                    </layer>
+                    <layer ID="20902" name="FE">
+                      <labels>
+                        <label ID="2090201" end="104" name="Use" start="99"/>
+                        <label ID="2090202" end="110" name="Roadway" start="106"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="210" frameName="Process_continue">
+                  <layers>
+                    <layer ID="21001" name="Target">
+                      <labels>
+                        <label ID="2100101" end="53" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21002" name="FE">
+                      <labels>
+                        <label ID="2100201" end="73" name="Place" start="55"/>
+                        <label ID="2100202" end="40" name="Event" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="211" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="21101" name="Target">
+                      <labels>
+                        <label ID="2110101" end="9" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="212" frameName="Body_movement">
+                  <layers>
+                    <layer ID="21201" name="Target">
+                      <labels>
+                        <label ID="2120101" end="195" name="Target" start="190"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21202" name="FE">
+                      <labels>
+                        <label ID="2120201" end="206" name="Message" start="197"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="213" frameName="Roadways">
+                  <layers>
+                    <layer ID="21301" name="Target">
+                      <labels>
+                        <label ID="2130101" end="35" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21302" name="FE">
+                      <labels>
+                        <label ID="2130201" end="35" name="Roadway" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="214" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="21401" name="Target">
+                      <labels>
+                        <label ID="2140101" end="153" name="Target" start="151"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21402" name="FE">
+                      <labels>
+                        <label ID="2140201" end="166" name="Entity" start="162"/>
+                        <label ID="2140202" end="153" name="Number" start="151"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="215" frameName="Part_inner_outer">
+                  <layers>
+                    <layer ID="21501" name="Target">
+                      <labels>
+                        <label ID="2150101" end="160" name="Target" start="155"/>
+                      </labels>
+                    </layer>
+                    <layer ID="21502" name="FE">
+                      <labels>
+                        <label ID="2150201" end="160" name="Part" start="155"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="3">
+              <text>In summary , the Minneapolis bridge collapsed at rush hour , 6 : 05 PM Central Time. It is called the I-35W Bridge because it is a portion of Interstate 35 , over the Mississippi River. It was built in 1967 .</text>
+              <annotationSets>
+                <annotationSet ID="300" frameName="Roadways">
+                  <layers>
+                    <layer ID="30001" name="Target">
+                      <labels>
+                        <label ID="3000101" end="113" name="Target" start="108"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30002" name="FE">
+                      <labels>
+                        <label ID="3000201" end="113" name="Roadway" start="108"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="301" frameName="Being_named">
+                  <layers>
+                    <layer ID="30101" name="Target">
+                      <labels>
+                        <label ID="3010101" end="96" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30102" name="FE">
+                      <labels>
+                        <label ID="3010201" end="83" name="Entity" start="65"/>
+                        <label ID="3010202" end="113" name="Name" start="98"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="302" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="30201" name="Target">
+                      <labels>
+                        <label ID="3020101" end="57" name="Target" start="49"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30202" name="FE">
+                      <labels>
+                        <label ID="3020201" end="57" name="Unit" start="54"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="303" frameName="Timespan">
+                  <layers>
+                    <layer ID="30301" name="Target">
+                      <labels>
+                        <label ID="3030101" end="83" name="Target" start="79"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="304" frameName="Part_whole">
+                  <layers>
+                    <layer ID="30401" name="Target">
+                      <labels>
+                        <label ID="3040101" end="137" name="Target" start="131"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30402" name="FE">
+                      <labels>
+                        <label ID="3040201" end="154" name="Whole" start="139"/>
+                        <label ID="3040202" end="124" name="Part" start="123"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="305" frameName="Roadways">
+                  <layers>
+                    <layer ID="30501" name="Target">
+                      <labels>
+                        <label ID="3050101" end="34" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30502" name="FE">
+                      <labels>
+                        <label ID="3050201" end="34" name="Roadway" start="29"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="306" frameName="Building">
+                  <layers>
+                    <layer ID="30601" name="Target">
+                      <labels>
+                        <label ID="3060101" end="197" name="Target" start="193"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30602" name="FE">
+                      <labels>
+                        <label ID="3060201" end="205" name="Place" start="199"/>
+                        <label ID="3060202" end="187" name="Created_entity" start="186"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="307" frameName="Natural_features">
+                  <layers>
+                    <layer ID="30701" name="Target">
+                      <labels>
+                        <label ID="3070101" end="184" name="Target" start="179"/>
+                      </labels>
+                    </layer>
+                    <layer ID="30702" name="FE">
+                      <labels>
+                        <label ID="3070201" end="184" name="Locale" start="179"/>
+                        <label ID="3070202" end="177" name="Name" start="167"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="4">
+              <text>As it gets near 10 pm EDT , the wire services are saying seven people are reported dead from the freeway bridge that fell into the Mississippi River in Minneapolis , Minnesota , about four hours ago .</text>
+              <annotationSets>
+                <annotationSet ID="400" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="40001" name="Target">
+                      <labels>
+                        <label ID="4000101" end="17" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40002" name="FE">
+                      <labels>
+                        <label ID="4000201" end="17" name="Number" start="16"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="401" frameName="People">
+                  <layers>
+                    <layer ID="40101" name="Target">
+                      <labels>
+                        <label ID="4010101" end="68" name="Target" start="63"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40102" name="FE">
+                      <labels>
+                        <label ID="4010201" end="68" name="Person" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="402" frameName="Conquering">
+                  <layers>
+                    <layer ID="40201" name="Target">
+                      <labels>
+                        <label ID="4020101" end="120" name="Target" start="117"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40202" name="FE">
+                      <labels>
+                        <label ID="4020201" end="115" name="Theme" start="112"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="403" frameName="Statement">
+                  <layers>
+                    <layer ID="40301" name="Target">
+                      <labels>
+                        <label ID="4030101" end="55" name="Target" start="50"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40302" name="FE">
+                      <labels>
+                        <label ID="4030201" end="24" name="Message" start="0"/>
+                        <label ID="4030202" end="44" name="Speaker" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="404" frameName="Public_services">
+                  <layers>
+                    <layer ID="40401" name="Target">
+                      <labels>
+                        <label ID="4040101" end="44" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40402" name="FE">
+                      <labels>
+                        <label ID="4040201" end="35" name="Domain" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="405" frameName="Natural_features">
+                  <layers>
+                    <layer ID="40501" name="Target">
+                      <labels>
+                        <label ID="4050101" end="147" name="Target" start="143"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40502" name="FE">
+                      <labels>
+                        <label ID="4050201" end="147" name="Locale" start="143"/>
+                        <label ID="4050202" end="141" name="Name" start="131"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="406" frameName="Statement">
+                  <layers>
+                    <layer ID="40601" name="Target">
+                      <labels>
+                        <label ID="4060101" end="81" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40602" name="FE">
+                      <labels>
+                        <label ID="4060201" end="24" name="Message" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="407" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="40701" name="Target">
+                      <labels>
+                        <label ID="4070101" end="187" name="Target" start="184"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40702" name="FE">
+                      <labels>
+                        <label ID="4070201" end="187" name="Number" start="184"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="408" frameName="Roadways">
+                  <layers>
+                    <layer ID="40801" name="Target">
+                      <labels>
+                        <label ID="4080101" end="110" name="Target" start="105"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40802" name="FE">
+                      <labels>
+                        <label ID="4080201" end="110" name="Roadway" start="105"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="409" frameName="Arriving">
+                  <layers>
+                    <layer ID="40901" name="Target">
+                      <labels>
+                        <label ID="4090101" end="9" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="40902" name="FE">
+                      <labels>
+                        <label ID="4090201" end="4" name="Theme" start="3"/>
+                        <label ID="4090202" end="24" name="Goal" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="410" frameName="Time_vector">
+                  <layers>
+                    <layer ID="41001" name="Target">
+                      <labels>
+                        <label ID="4100101" end="197" name="Target" start="195"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41002" name="FE">
+                      <labels>
+                        <label ID="4100201" end="193" name="Distance" start="178"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="411" frameName="Connectors">
+                  <layers>
+                    <layer ID="41101" name="Target">
+                      <labels>
+                        <label ID="4110101" end="35" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41102" name="FE">
+                      <labels>
+                        <label ID="4110201" end="35" name="Connector" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="412" frameName="Measure_duration">
+                  <layers>
+                    <layer ID="41201" name="Target">
+                      <labels>
+                        <label ID="4120101" end="193" name="Target" start="189"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41202" name="FE">
+                      <labels>
+                        <label ID="4120201" end="193" name="Unit" start="189"/>
+                        <label ID="4120202" end="187" name="Count" start="184"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="413" frameName="Dead_or_alive">
+                  <layers>
+                    <layer ID="41301" name="Target">
+                      <labels>
+                        <label ID="4130101" end="86" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="414" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="41401" name="Target">
+                      <labels>
+                        <label ID="4140101" end="61" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41402" name="FE">
+                      <labels>
+                        <label ID="4140201" end="68" name="Entity" start="63"/>
+                        <label ID="4140202" end="61" name="Number" start="57"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="415" frameName="Roadways">
+                  <layers>
+                    <layer ID="41501" name="Target">
+                      <labels>
+                        <label ID="4150101" end="103" name="Target" start="97"/>
+                      </labels>
+                    </layer>
+                    <layer ID="41502" name="FE">
+                      <labels>
+                        <label ID="4150201" end="103" name="Roadway" start="97"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="5">
+              <text>In yesterdayÃ¢â&#130;¬â&#132;¢s Supreme Court opinion , Justice Christopher Dietzen explained the background to the case , which arises out of the 1 August 2007 collapse of the Interstate 35W Bridge where it crosses the Mississippi River in Minneapolis , Minnesota .</text>
+              <annotationSets>
+                <annotationSet ID="500" frameName="Partitive">
+                  <layers>
+                    <layer ID="50001" name="Target">
+                      <labels>
+                        <label ID="5000101" end="131" name="Target" start="126"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50002" name="FE">
+                      <labels>
+                        <label ID="5000201" end="117" name="Subset" start="113"/>
+                        <label ID="5000202" end="253" name="Group" start="133"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="501" frameName="Regard">
+                  <layers>
+                    <layer ID="50101" name="Target">
+                      <labels>
+                        <label ID="5010101" end="42" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50102" name="FE">
+                      <labels>
+                        <label ID="5010201" end="20" name="Evaluee" start="3"/>
+                        <label ID="5010202" end="34" name="Judgment" start="30"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="502" frameName="Body_movement">
+                  <layers>
+                    <layer ID="50201" name="Target">
+                      <labels>
+                        <label ID="5020101" end="204" name="Target" start="198"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50202" name="FE">
+                      <labels>
+                        <label ID="5020201" end="196" name="Agent" start="195"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="503" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="50301" name="Target">
+                      <labels>
+                        <label ID="5030101" end="144" name="Target" start="139"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50302" name="FE">
+                      <labels>
+                        <label ID="5030201" end="144" name="Unit" start="139"/>
+                        <label ID="5030202" end="149" name="Whole" start="146"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="504" frameName="Statement">
+                  <layers>
+                    <layer ID="50401" name="Target">
+                      <labels>
+                        <label ID="5040101" end="82" name="Target" start="74"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50402" name="FE">
+                      <labels>
+                        <label ID="5040201" end="97" name="Message" start="84"/>
+                        <label ID="5040202" end="42" name="Medium" start="0"/>
+                        <label ID="5040203" end="72" name="Speaker" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="505" frameName="Judicial_body">
+                  <layers>
+                    <layer ID="50501" name="Target">
+                      <labels>
+                        <label ID="5050101" end="34" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50502" name="FE">
+                      <labels>
+                        <label ID="5050201" end="34" name="Judicial_body" start="30"/>
+                        <label ID="5050202" end="28" name="Rank" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="506" frameName="Coming_to_be">
+                  <layers>
+                    <layer ID="50601" name="Target">
+                      <labels>
+                        <label ID="5060101" end="124" name="Target" start="119"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50602" name="FE">
+                      <labels>
+                        <label ID="5060201" end="253" name="Place" start="126"/>
+                        <label ID="5060202" end="117" name="Entity" start="113"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="507" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="50701" name="Target">
+                      <labels>
+                        <label ID="5070101" end="20" name="Target" start="3"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50702" name="FE">
+                      <labels>
+                        <label ID="5070201" end="20" name="Unit" start="3"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="508" frameName="Instance">
+                  <layers>
+                    <layer ID="50801" name="Target">
+                      <labels>
+                        <label ID="5080101" end="109" name="Target" start="106"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50802" name="FE">
+                      <labels>
+                        <label ID="5080201" end="109" name="Instance" start="106"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="509" frameName="Roadways">
+                  <layers>
+                    <layer ID="50901" name="Target">
+                      <labels>
+                        <label ID="5090101" end="187" name="Target" start="182"/>
+                      </labels>
+                    </layer>
+                    <layer ID="50902" name="FE">
+                      <labels>
+                        <label ID="5090201" end="187" name="Roadway" start="182"/>
+                        <label ID="5090202" end="253" name="Relative_location" start="189"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="510" frameName="Locative_relation">
+                  <layers>
+                    <layer ID="51001" name="Target">
+                      <labels>
+                        <label ID="5100101" end="193" name="Target" start="189"/>
+                      </labels>
+                    </layer>
+                    <layer ID="51002" name="FE">
+                      <labels>
+                        <label ID="5100201" end="187" name="Ground" start="163"/>
+                        <label ID="5100202" end="196" name="Figure" start="195"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="511" frameName="Natural_features">
+                  <layers>
+                    <layer ID="51101" name="Target">
+                      <labels>
+                        <label ID="5110101" end="226" name="Target" start="222"/>
+                      </labels>
+                    </layer>
+                    <layer ID="51102" name="FE">
+                      <labels>
+                        <label ID="5110201" end="226" name="Locale" start="222"/>
+                        <label ID="5110202" end="220" name="Name" start="210"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="6">
+              <text>The I-35W Bridge is a deck-arch truss bridge that spans the Mississippi River in Minneapolis , Minnesota .</text>
+              <annotationSets>
+                <annotationSet ID="600" frameName="Roadways">
+                  <layers>
+                    <layer ID="60001" name="Target">
+                      <labels>
+                        <label ID="6000101" end="15" name="Target" start="10"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60002" name="FE">
+                      <labels>
+                        <label ID="6000201" end="15" name="Roadway" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="601" frameName="Natural_features">
+                  <layers>
+                    <layer ID="60101" name="Target">
+                      <labels>
+                        <label ID="6010101" end="76" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60102" name="FE">
+                      <labels>
+                        <label ID="6010201" end="76" name="Locale" start="72"/>
+                        <label ID="6010202" end="70" name="Name" start="60"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="602" frameName="Roadways">
+                  <layers>
+                    <layer ID="60201" name="Target">
+                      <labels>
+                        <label ID="6020101" end="43" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="60202" name="FE">
+                      <labels>
+                        <label ID="6020201" end="43" name="Roadway" start="38"/>
+                        <label ID="6020202" end="103" name="Relative_location" start="45"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="7">
+              <text>MinneapolisÃ&#130;Â -Ã&#130;Â The collapse of the Interstate 35W bridge across the Mississippi River on Aug .</text>
+              <annotationSets>
+                <annotationSet ID="700" frameName="Roadways">
+                  <layers>
+                    <layer ID="70001" name="Target">
+                      <labels>
+                        <label ID="7000101" end="60" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70002" name="FE">
+                      <labels>
+                        <label ID="7000201" end="60" name="Roadway" start="55"/>
+                        <label ID="7000202" end="96" name="Relative_location" start="62"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="701" frameName="Natural_features">
+                  <layers>
+                    <layer ID="70101" name="Target">
+                      <labels>
+                        <label ID="7010101" end="89" name="Target" start="85"/>
+                      </labels>
+                    </layer>
+                    <layer ID="70102" name="FE">
+                      <labels>
+                        <label ID="7010201" end="89" name="Locale" start="85"/>
+                        <label ID="7010202" end="96" name="Name" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="8">
+              <text>1 , 2007 the I-35W Bridge over the Mississippi River in Minneapolis collapsed .</text>
+              <annotationSets>
+                <annotationSet ID="800" frameName="Natural_features">
+                  <layers>
+                    <layer ID="80001" name="Target">
+                      <labels>
+                        <label ID="8000101" end="51" name="Target" start="47"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80002" name="FE">
+                      <labels>
+                        <label ID="8000201" end="51" name="Locale" start="47"/>
+                        <label ID="8000202" end="45" name="Name" start="35"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="801" frameName="Roadways">
+                  <layers>
+                    <layer ID="80101" name="Target">
+                      <labels>
+                        <label ID="8010101" end="24" name="Target" start="19"/>
+                      </labels>
+                    </layer>
+                    <layer ID="80102" name="FE">
+                      <labels>
+                        <label ID="8010201" end="24" name="Roadway" start="19"/>
+                        <label ID="8010202" end="66" name="Relative_location" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="9">
+              <text>14 the National Transportation Safety Board released the results of its investigation into the cause of the I-35W Bridge collapse .</text>
+              <annotationSets>
+                <annotationSet ID="900" frameName="Scrutiny">
+                  <layers>
+                    <layer ID="90001" name="Target">
+                      <labels>
+                        <label ID="9000101" end="84" name="Target" start="72"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90002" name="FE">
+                      <labels>
+                        <label ID="9000201" end="128" name="Ground" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="901" frameName="Being_at_risk">
+                  <layers>
+                    <layer ID="90101" name="Target">
+                      <labels>
+                        <label ID="9010101" end="36" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90102" name="FE">
+                      <labels>
+                        <label ID="9010201" end="14" name="Asset" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="902" frameName="Causation">
+                  <layers>
+                    <layer ID="90201" name="Target">
+                      <labels>
+                        <label ID="9020101" end="63" name="Target" start="57"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90202" name="FE">
+                      <labels>
+                        <label ID="9020201" end="128" name="Cause" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="903" frameName="Causation">
+                  <layers>
+                    <layer ID="90301" name="Target">
+                      <labels>
+                        <label ID="9030101" end="99" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90302" name="FE">
+                      <labels>
+                        <label ID="9030201" end="128" name="Effect" start="101"/>
+                        <label ID="9030202" end="70" name="Cause" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="904" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="90401" name="Target">
+                      <labels>
+                        <label ID="9040101" end="1" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90402" name="FE">
+                      <labels>
+                        <label ID="9040201" end="42" name="Entity" start="3"/>
+                        <label ID="9040202" end="1" name="Number" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="905" frameName="Roadways">
+                  <layers>
+                    <layer ID="90501" name="Target">
+                      <labels>
+                        <label ID="9050101" end="119" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90502" name="FE">
+                      <labels>
+                        <label ID="9050201" end="119" name="Roadway" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="906" frameName="Releasing">
+                  <layers>
+                    <layer ID="90601" name="Target">
+                      <labels>
+                        <label ID="9060101" end="51" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90602" name="FE">
+                      <labels>
+                        <label ID="9060201" end="42" name="Agent" start="3"/>
+                        <label ID="9060202" end="128" name="Theme" start="53"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="907" frameName="Political_locales">
+                  <layers>
+                    <layer ID="90701" name="Target">
+                      <labels>
+                        <label ID="9070101" end="14" name="Target" start="7"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90702" name="FE">
+                      <labels>
+                        <label ID="9070201" end="14" name="Locale" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="908" frameName="Board_vehicle">
+                  <layers>
+                    <layer ID="90801" name="Target">
+                      <labels>
+                        <label ID="9080101" end="42" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="90802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="10">
+              <text>1 , 2007 -- At 6 : 05 p.m. , the I-35W Bridge collapses into the Mississippi River .</text>
+              <annotationSets>
+                <annotationSet ID="1000" frameName="Roadways">
+                  <layers>
+                    <layer ID="100001" name="Target">
+                      <labels>
+                        <label ID="10000101" end="44" name="Target" start="39"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100002" name="FE">
+                      <labels>
+                        <label ID="10000201" end="44" name="Roadway" start="39"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1001" frameName="Natural_features">
+                  <layers>
+                    <layer ID="100101" name="Target">
+                      <labels>
+                        <label ID="10010101" end="81" name="Target" start="77"/>
+                      </labels>
+                    </layer>
+                    <layer ID="100102" name="FE">
+                      <labels>
+                        <label ID="10010201" end="81" name="Locale" start="77"/>
+                        <label ID="10010202" end="75" name="Name" start="65"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="11">
+              <text>Seven people die after a bridge in Minneapolis over the Mississippi river collapses , hurling cars into the water .</text>
+              <annotationSets>
+                <annotationSet ID="1100" frameName="Substance">
+                  <layers>
+                    <layer ID="110001" name="Target">
+                      <labels>
+                        <label ID="11000101" end="112" name="Target" start="108"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110002" name="FE">
+                      <labels>
+                        <label ID="11000201" end="112" name="Substance" start="108"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1101" frameName="Roadways">
+                  <layers>
+                    <layer ID="110101" name="Target">
+                      <labels>
+                        <label ID="11010101" end="30" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110102" name="FE">
+                      <labels>
+                        <label ID="11010201" end="30" name="Roadway" start="25"/>
+                        <label ID="11010202" end="45" name="Relative_location" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1102" frameName="Death">
+                  <layers>
+                    <layer ID="110201" name="Target">
+                      <labels>
+                        <label ID="11020101" end="15" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110202" name="FE">
+                      <labels>
+                        <label ID="11020201" end="11" name="Protagonist" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1103" frameName="People">
+                  <layers>
+                    <layer ID="110301" name="Target">
+                      <labels>
+                        <label ID="11030101" end="11" name="Target" start="6"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110302" name="FE">
+                      <labels>
+                        <label ID="11030201" end="11" name="Person" start="6"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1104" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="110401" name="Target">
+                      <labels>
+                        <label ID="11040101" end="4" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110402" name="FE">
+                      <labels>
+                        <label ID="11040201" end="11" name="Entity" start="6"/>
+                        <label ID="11040202" end="4" name="Number" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1105" frameName="Natural_features">
+                  <layers>
+                    <layer ID="110501" name="Target">
+                      <labels>
+                        <label ID="11050101" end="72" name="Target" start="68"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110502" name="FE">
+                      <labels>
+                        <label ID="11050201" end="72" name="Locale" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1106" frameName="Cause_motion">
+                  <layers>
+                    <layer ID="110601" name="Target">
+                      <labels>
+                        <label ID="11060101" end="92" name="Target" start="86"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110602" name="FE">
+                      <labels>
+                        <label ID="11060201" end="97" name="Theme" start="94"/>
+                        <label ID="11060202" end="112" name="Goal" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1107" frameName="Vehicle">
+                  <layers>
+                    <layer ID="110701" name="Target">
+                      <labels>
+                        <label ID="11070101" end="97" name="Target" start="94"/>
+                      </labels>
+                    </layer>
+                    <layer ID="110702" name="FE">
+                      <labels>
+                        <label ID="11070201" end="97" name="Vehicle" start="94"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="12">
+              <text>Bridge Collapses into Mississippi River , Casualites Reported .</text>
+              <annotationSets>
+                <annotationSet ID="1200" frameName="Natural_features">
+                  <layers>
+                    <layer ID="120001" name="Target">
+                      <labels>
+                        <label ID="12000101" end="38" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120002" name="FE">
+                      <labels>
+                        <label ID="12000201" end="38" name="Locale" start="34"/>
+                        <label ID="12000202" end="32" name="Name" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1201" frameName="Roadways">
+                  <layers>
+                    <layer ID="120101" name="Target">
+                      <labels>
+                        <label ID="12010101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120102" name="FE">
+                      <labels>
+                        <label ID="12010201" end="5" name="Roadway" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1202" frameName="Statement">
+                  <layers>
+                    <layer ID="120201" name="Target">
+                      <labels>
+                        <label ID="12020101" end="60" name="Target" start="53"/>
+                      </labels>
+                    </layer>
+                    <layer ID="120202" name="FE">
+                      <labels>
+                        <label ID="12020201" end="38" name="Speaker" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="13">
+              <text>Danny : At 6 : 05 PM CST , a span of the 35W bridge in Minneapolis collapsed into the Mississippi River , sending dozens of vehicles plunging into the river ...</text>
+              <annotationSets>
+                <annotationSet ID="1300" frameName="Natural_features">
+                  <layers>
+                    <layer ID="130001" name="Target">
+                      <labels>
+                        <label ID="13000101" end="155" name="Target" start="151"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130002" name="FE">
+                      <labels>
+                        <label ID="13000201" end="155" name="Locale" start="151"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1301" frameName="Natural_features">
+                  <layers>
+                    <layer ID="130101" name="Target">
+                      <labels>
+                        <label ID="13010101" end="102" name="Target" start="98"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130102" name="FE">
+                      <labels>
+                        <label ID="13010201" end="102" name="Locale" start="98"/>
+                        <label ID="13010202" end="96" name="Name" start="86"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1302" frameName="Quantity">
+                  <layers>
+                    <layer ID="130201" name="Target">
+                      <labels>
+                        <label ID="13020101" end="119" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130202" name="FE">
+                      <labels>
+                        <label ID="13020201" end="131" name="Individuals" start="121"/>
+                        <label ID="13020202" end="119" name="Quantity" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1303" frameName="Placing">
+                  <layers>
+                    <layer ID="130301" name="Target">
+                      <labels>
+                        <label ID="13030101" end="140" name="Target" start="133"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130302" name="FE">
+                      <labels>
+                        <label ID="13030201" end="155" name="Goal" start="142"/>
+                        <label ID="13030202" end="131" name="Theme" start="121"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1304" frameName="Sending">
+                  <layers>
+                    <layer ID="130401" name="Target">
+                      <labels>
+                        <label ID="13040101" end="112" name="Target" start="106"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130402" name="FE">
+                      <labels>
+                        <label ID="13040201" end="155" name="Theme" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1305" frameName="Roadways">
+                  <layers>
+                    <layer ID="130501" name="Target">
+                      <labels>
+                        <label ID="13050101" end="50" name="Target" start="45"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130502" name="FE">
+                      <labels>
+                        <label ID="13050201" end="50" name="Roadway" start="45"/>
+                        <label ID="13050202" end="65" name="Relative_location" start="52"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1306" frameName="Vehicle">
+                  <layers>
+                    <layer ID="130601" name="Target">
+                      <labels>
+                        <label ID="13060101" end="131" name="Target" start="124"/>
+                      </labels>
+                    </layer>
+                    <layer ID="130602" name="FE">
+                      <labels>
+                        <label ID="13060201" end="131" name="Vehicle" start="124"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="14">
+              <text>However , the collapse of the Interstate 35W bridge in Minneapolis appears to be something else -- though exactly what is still not clear , even as the casualty report stands at 9 dead , 60 injured , and 20 missing .</text>
+              <annotationSets>
+                <annotationSet ID="1400" frameName="Concessive">
+                  <layers>
+                    <layer ID="140001" name="Target">
+                      <labels>
+                        <label ID="14000101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140002" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1401" frameName="Undergoing">
+                  <layers>
+                    <layer ID="140101" name="Target">
+                      <labels>
+                        <label ID="14010101" end="159" name="Target" start="152"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140102" name="FE">
+                      <labels>
+                        <label ID="14010201" end="159" name="Entity" start="152"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1402" frameName="Obviousness">
+                  <layers>
+                    <layer ID="140201" name="Target">
+                      <labels>
+                        <label ID="14020101" end="136" name="Target" start="132"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140202" name="FE">
+                      <labels>
+                        <label ID="14020201" end="117" name="Phenomenon" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1403" frameName="Roadways">
+                  <layers>
+                    <layer ID="140301" name="Target">
+                      <labels>
+                        <label ID="14030101" end="50" name="Target" start="45"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140302" name="FE">
+                      <labels>
+                        <label ID="14030201" end="50" name="Roadway" start="45"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1404" frameName="Appearance">
+                  <layers>
+                    <layer ID="140401" name="Target">
+                      <labels>
+                        <label ID="14040101" end="73" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140402" name="FE">
+                      <labels>
+                        <label ID="14040201" end="65" name="Phenomenon" start="10"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1405" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="140501" name="Target">
+                      <labels>
+                        <label ID="14050101" end="205" name="Target" start="204"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140502" name="FE">
+                      <labels>
+                        <label ID="14050201" end="213" name="Entity" start="207"/>
+                        <label ID="14050202" end="205" name="Number" start="204"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1406" frameName="Continued_state_of_affairs">
+                  <layers>
+                    <layer ID="140601" name="Target">
+                      <labels>
+                        <label ID="14060101" end="126" name="Target" start="122"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140602" name="FE">
+                      <labels>
+                        <label ID="14060201" end="117" name="State_of_affairs" start="99"/>
+                        <label ID="14060202" end="126" name="Reference_occasion" start="122"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1407" frameName="Dead_or_alive">
+                  <layers>
+                    <layer ID="140701" name="Target">
+                      <labels>
+                        <label ID="14070101" end="183" name="Target" start="180"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1408" frameName="Statement">
+                  <layers>
+                    <layer ID="140801" name="Target">
+                      <labels>
+                        <label ID="14080101" end="166" name="Target" start="161"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1409" frameName="Frequency">
+                  <layers>
+                    <layer ID="140901" name="Target">
+                      <labels>
+                        <label ID="14090101" end="112" name="Target" start="106"/>
+                      </labels>
+                    </layer>
+                    <layer ID="140902" name="FE">
+                      <labels>
+                        <label ID="14090201" end="117" name="Event" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1410" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="141001" name="Target">
+                      <labels>
+                        <label ID="14100101" end="188" name="Target" start="187"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141002" name="FE">
+                      <labels>
+                        <label ID="14100201" end="196" name="Entity" start="190"/>
+                        <label ID="14100202" end="188" name="Number" start="187"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1411" frameName="Concessive">
+                  <layers>
+                    <layer ID="141101" name="Target">
+                      <labels>
+                        <label ID="14110101" end="104" name="Target" start="99"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1412" frameName="Being_located">
+                  <layers>
+                    <layer ID="141201" name="Target">
+                      <labels>
+                        <label ID="14120101" end="173" name="Target" start="168"/>
+                      </labels>
+                    </layer>
+                    <layer ID="141202" name="FE">
+                      <labels>
+                        <label ID="14120201" end="166" name="Theme" start="148"/>
+                        <label ID="14120202" end="213" name="Location" start="175"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="15">
+              <text>The bridge over the Mississippi River to and from Minneapolis / St. Paul Minnesota collapsed during rush hour on Wednesday .</text>
+              <annotationSets>
+                <annotationSet ID="1500" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="150001" name="Target">
+                      <labels>
+                        <label ID="15000101" end="108" name="Target" start="100"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150002" name="FE">
+                      <labels>
+                        <label ID="15000201" end="108" name="Unit" start="105"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1501" frameName="Roadways">
+                  <layers>
+                    <layer ID="150101" name="Target">
+                      <labels>
+                        <label ID="15010101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150102" name="FE">
+                      <labels>
+                        <label ID="15010201" end="9" name="Roadway" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1502" frameName="Natural_features">
+                  <layers>
+                    <layer ID="150201" name="Target">
+                      <labels>
+                        <label ID="15020101" end="36" name="Target" start="32"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150202" name="FE">
+                      <labels>
+                        <label ID="15020201" end="36" name="Locale" start="32"/>
+                        <label ID="15020202" end="30" name="Name" start="20"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1503" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="150301" name="Target">
+                      <labels>
+                        <label ID="15030101" end="121" name="Target" start="113"/>
+                      </labels>
+                    </layer>
+                    <layer ID="150302" name="FE">
+                      <labels>
+                        <label ID="15030201" end="121" name="Unit" start="113"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="16">
+              <text>Collapse of the I-35W bridge crossing the Mississippi River from Minneapolis to St. Paul , Minnesota .</text>
+              <annotationSets>
+                <annotationSet ID="1600" frameName="Traversing">
+                  <layers>
+                    <layer ID="160001" name="Target">
+                      <labels>
+                        <label ID="16000101" end="36" name="Target" start="29"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160002" name="FE">
+                      <labels>
+                        <label ID="16000201" end="99" name="Goal" start="77"/>
+                        <label ID="16000202" end="27" name="Theme" start="12"/>
+                        <label ID="16000203" end="75" name="Source" start="60"/>
+                        <label ID="16000204" end="58" name="Path" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1601" frameName="Natural_features">
+                  <layers>
+                    <layer ID="160101" name="Target">
+                      <labels>
+                        <label ID="16010101" end="58" name="Target" start="54"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160102" name="FE">
+                      <labels>
+                        <label ID="16010201" end="58" name="Locale" start="54"/>
+                        <label ID="16010202" end="52" name="Name" start="42"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1602" frameName="Roadways">
+                  <layers>
+                    <layer ID="160201" name="Target">
+                      <labels>
+                        <label ID="16020101" end="27" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="160202" name="FE">
+                      <labels>
+                        <label ID="16020201" end="27" name="Roadway" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="17">
+              <text>The Highway 35W Bridge across the Mississippi in Minneapolis , MN just collapsed shortly after rush hour .</text>
+              <annotationSets>
+                <annotationSet ID="1700" frameName="Roadways">
+                  <layers>
+                    <layer ID="170001" name="Target">
+                      <labels>
+                        <label ID="17000101" end="21" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170002" name="FE">
+                      <labels>
+                        <label ID="17000201" end="21" name="Roadway" start="16"/>
+                        <label ID="17000202" end="64" name="Relative_location" start="23"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1701" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="170101" name="Target">
+                      <labels>
+                        <label ID="17010101" end="103" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170102" name="FE">
+                      <labels>
+                        <label ID="17010201" end="103" name="Unit" start="100"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1702" frameName="Roadways">
+                  <layers>
+                    <layer ID="170201" name="Target">
+                      <labels>
+                        <label ID="17020101" end="10" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="170202" name="FE">
+                      <labels>
+                        <label ID="17020201" end="10" name="Roadway" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="18">
+              <text>August 1 , 2007 A freeway bridge spanning the Mississippi River collapsed at 6 : 05 pm CST Wednesday , sending many cars into the water .</text>
+              <annotationSets>
+                <annotationSet ID="1800" frameName="Roadways">
+                  <layers>
+                    <layer ID="180001" name="Target">
+                      <labels>
+                        <label ID="18000101" end="24" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180002" name="FE">
+                      <labels>
+                        <label ID="18000201" end="24" name="Roadway" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1801" frameName="Substance">
+                  <layers>
+                    <layer ID="180101" name="Target">
+                      <labels>
+                        <label ID="18010101" end="134" name="Target" start="130"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180102" name="FE">
+                      <labels>
+                        <label ID="18010201" end="134" name="Substance" start="130"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1802" frameName="Natural_features">
+                  <layers>
+                    <layer ID="180201" name="Target">
+                      <labels>
+                        <label ID="18020101" end="62" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180202" name="FE">
+                      <labels>
+                        <label ID="18020201" end="62" name="Locale" start="58"/>
+                        <label ID="18020202" end="56" name="Name" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1803" frameName="Sending">
+                  <layers>
+                    <layer ID="180301" name="Target">
+                      <labels>
+                        <label ID="18030101" end="109" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180302" name="FE">
+                      <labels>
+                        <label ID="18030201" end="119" name="Theme" start="111"/>
+                        <label ID="18030202" end="134" name="Goal" start="121"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1804" frameName="Vehicle">
+                  <layers>
+                    <layer ID="180401" name="Target">
+                      <labels>
+                        <label ID="18040101" end="119" name="Target" start="116"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180402" name="FE">
+                      <labels>
+                        <label ID="18040201" end="119" name="Vehicle" start="116"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1805" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="180501" name="Target">
+                      <labels>
+                        <label ID="18050101" end="99" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180502" name="FE">
+                      <labels>
+                        <label ID="18050201" end="99" name="Unit" start="91"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1806" frameName="Quantity">
+                  <layers>
+                    <layer ID="180601" name="Target">
+                      <labels>
+                        <label ID="18060101" end="114" name="Target" start="111"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180602" name="FE">
+                      <labels>
+                        <label ID="18060201" end="119" name="Individuals" start="116"/>
+                        <label ID="18060202" end="114" name="Quantity" start="111"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1807" frameName="Roadways">
+                  <layers>
+                    <layer ID="180701" name="Target">
+                      <labels>
+                        <label ID="18070101" end="31" name="Target" start="26"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180702" name="FE">
+                      <labels>
+                        <label ID="18070201" end="31" name="Roadway" start="26"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1808" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="180801" name="Target">
+                      <labels>
+                        <label ID="18080101" end="5" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="180802" name="FE">
+                      <labels>
+                        <label ID="18080201" end="5" name="Unit" start="0"/>
+                        <label ID="18080202" end="7" name="Whole" start="7"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="19">
+              <text>The entire span of the Interstate 35W bridge collapsed about 6 : 05 p.m. where the freeway crosses the river near University Avenue in Minneapolis .</text>
+              <annotationSets>
+                <annotationSet ID="1900" frameName="Ranked_expectation">
+                  <layers>
+                    <layer ID="190001" name="Target">
+                      <labels>
+                        <label ID="19000101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190002" name="FE">
+                      <labels>
+                        <label ID="19000201" end="14" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1901" frameName="Roadways">
+                  <layers>
+                    <layer ID="190101" name="Target">
+                      <labels>
+                        <label ID="19010101" end="89" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190102" name="FE">
+                      <labels>
+                        <label ID="19010201" end="89" name="Roadway" start="83"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1902" frameName="Natural_features">
+                  <layers>
+                    <layer ID="190201" name="Target">
+                      <labels>
+                        <label ID="19020101" end="107" name="Target" start="103"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190202" name="FE">
+                      <labels>
+                        <label ID="19020201" end="107" name="Locale" start="103"/>
+                        <label ID="19020202" end="145" name="Relative_location" start="109"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1903" frameName="Roadways">
+                  <layers>
+                    <layer ID="190301" name="Target">
+                      <labels>
+                        <label ID="19030101" end="130" name="Target" start="125"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190302" name="FE">
+                      <labels>
+                        <label ID="19030201" end="123" name="Name" start="114"/>
+                        <label ID="19030202" end="130" name="Roadway" start="125"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1904" frameName="Roadways">
+                  <layers>
+                    <layer ID="190401" name="Target">
+                      <labels>
+                        <label ID="19040101" end="43" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190402" name="FE">
+                      <labels>
+                        <label ID="19040201" end="43" name="Roadway" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1905" frameName="Locative_relation">
+                  <layers>
+                    <layer ID="190501" name="Target">
+                      <labels>
+                        <label ID="19050101" end="77" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190502" name="FE">
+                      <labels>
+                        <label ID="19050201" end="145" name="Ground" start="73"/>
+                        <label ID="19050202" end="71" name="Figure" start="68"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1906" frameName="Body_movement">
+                  <layers>
+                    <layer ID="190601" name="Target">
+                      <labels>
+                        <label ID="19060101" end="97" name="Target" start="91"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190602" name="FE">
+                      <labels>
+                        <label ID="19060201" end="89" name="Agent" start="79"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="1907" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="190701" name="Target">
+                      <labels>
+                        <label ID="19070101" end="123" name="Target" start="114"/>
+                      </labels>
+                    </layer>
+                    <layer ID="190702" name="FE">
+                      <labels>
+                        <label ID="19070201" end="123" name="Locale" start="114"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="20">
+              <text>The entire length of the bridge over the river collapsed at 6 : 05 p.m .</text>
+              <annotationSets>
+                <annotationSet ID="2000" frameName="Ranked_expectation">
+                  <layers>
+                    <layer ID="200001" name="Target">
+                      <labels>
+                        <label ID="20000101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200002" name="FE">
+                      <labels>
+                        <label ID="20000201" end="16" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2001" frameName="Dimension">
+                  <layers>
+                    <layer ID="200101" name="Target">
+                      <labels>
+                        <label ID="20010101" end="16" name="Target" start="11"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200102" name="FE">
+                      <labels>
+                        <label ID="20010201" end="16" name="Dimension" start="11"/>
+                        <label ID="20010202" end="45" name="Object" start="18"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2002" frameName="Natural_features">
+                  <layers>
+                    <layer ID="200201" name="Target">
+                      <labels>
+                        <label ID="20020101" end="45" name="Target" start="41"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200202" name="FE">
+                      <labels>
+                        <label ID="20020201" end="45" name="Locale" start="41"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2003" frameName="Roadways">
+                  <layers>
+                    <layer ID="200301" name="Target">
+                      <labels>
+                        <label ID="20030101" end="30" name="Target" start="25"/>
+                      </labels>
+                    </layer>
+                    <layer ID="200302" name="FE">
+                      <labels>
+                        <label ID="20030201" end="30" name="Roadway" start="25"/>
+                        <label ID="20030202" end="45" name="Relative_location" start="32"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="21">
+              <text>The Interstate 35W Mississippi River eight-lane bridge in Minneapolis , Minnesota has collapsed on both sides of the highway over the Mississippi River during rush hour .</text>
+              <annotationSets>
+                <annotationSet ID="2100" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="210001" name="Target">
+                      <labels>
+                        <label ID="21000101" end="167" name="Target" start="159"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210002" name="FE">
+                      <labels>
+                        <label ID="21000201" end="167" name="Unit" start="164"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2101" frameName="Roadways">
+                  <layers>
+                    <layer ID="210101" name="Target">
+                      <labels>
+                        <label ID="21010101" end="123" name="Target" start="117"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210102" name="FE">
+                      <labels>
+                        <label ID="21010201" end="123" name="Roadway" start="117"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2102" frameName="Natural_features">
+                  <layers>
+                    <layer ID="210201" name="Target">
+                      <labels>
+                        <label ID="21020101" end="150" name="Target" start="146"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210202" name="FE">
+                      <labels>
+                        <label ID="21020201" end="150" name="Locale" start="146"/>
+                        <label ID="21020202" end="144" name="Name" start="134"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2103" frameName="Quantity">
+                  <layers>
+                    <layer ID="210301" name="Target">
+                      <labels>
+                        <label ID="21030101" end="102" name="Target" start="99"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210302" name="FE">
+                      <labels>
+                        <label ID="21030201" end="108" name="Individuals" start="104"/>
+                        <label ID="21030202" end="102" name="Quantity" start="99"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2104" frameName="Natural_features">
+                  <layers>
+                    <layer ID="210401" name="Target">
+                      <labels>
+                        <label ID="21040101" end="35" name="Target" start="31"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210402" name="FE">
+                      <labels>
+                        <label ID="21040201" end="35" name="Locale" start="31"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2105" frameName="Taking_sides">
+                  <layers>
+                    <layer ID="210501" name="Target">
+                      <labels>
+                        <label ID="21050101" end="108" name="Target" start="104"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210502" name="FE">
+                      <labels>
+                        <label ID="21050201" end="167" name="Side" start="110"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2106" frameName="Roadways">
+                  <layers>
+                    <layer ID="210601" name="Target">
+                      <labels>
+                        <label ID="21060101" end="53" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="210602" name="FE">
+                      <labels>
+                        <label ID="21060201" end="53" name="Roadway" start="48"/>
+                        <label ID="21060202" end="68" name="Relative_location" start="55"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="22">
+              <text>Typically an eight-lane bridge , the bridge was reduced to four lanes -LRB- two in each direction -RRB- during the current construction .</text>
+              <annotationSets>
+                <annotationSet ID="2200" frameName="Roadways">
+                  <layers>
+                    <layer ID="220001" name="Target">
+                      <labels>
+                        <label ID="22000101" end="68" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220002" name="FE">
+                      <labels>
+                        <label ID="22000201" end="62" name="Use" start="59"/>
+                        <label ID="22000202" end="68" name="Roadway" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2201" frameName="Roadways">
+                  <layers>
+                    <layer ID="220101" name="Target">
+                      <labels>
+                        <label ID="22010101" end="42" name="Target" start="37"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220102" name="FE">
+                      <labels>
+                        <label ID="22010201" end="42" name="Roadway" start="37"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2202" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="220201" name="Target">
+                      <labels>
+                        <label ID="22020101" end="62" name="Target" start="59"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220202" name="FE">
+                      <labels>
+                        <label ID="22020201" end="78" name="Entity" start="64"/>
+                        <label ID="22020202" end="62" name="Number" start="59"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2203" frameName="Cause_change_of_position_on_a_scale">
+                  <layers>
+                    <layer ID="220301" name="Target">
+                      <labels>
+                        <label ID="22030101" end="54" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220302" name="FE">
+                      <labels>
+                        <label ID="22030201" end="42" name="Agent" start="33"/>
+                        <label ID="22030202" end="78" name="Value_2" start="56"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2204" frameName="Cardinal_numbers">
+                  <layers>
+                    <layer ID="220401" name="Target">
+                      <labels>
+                        <label ID="22040101" end="78" name="Target" start="76"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220402" name="FE">
+                      <labels>
+                        <label ID="22040201" end="68" name="Entity" start="59"/>
+                        <label ID="22040202" end="78" name="Number" start="76"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2205" frameName="Building">
+                  <layers>
+                    <layer ID="220501" name="Target">
+                      <labels>
+                        <label ID="22050101" end="134" name="Target" start="123"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220502" name="FE">
+                      <labels>
+                        <label ID="22050201" end="121" name="Created_entity" start="115"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2206" frameName="Roadways">
+                  <layers>
+                    <layer ID="220601" name="Target">
+                      <labels>
+                        <label ID="22060101" end="29" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220602" name="FE">
+                      <labels>
+                        <label ID="22060201" end="29" name="Roadway" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2207" frameName="Temporal_collocation">
+                  <layers>
+                    <layer ID="220701" name="Target">
+                      <labels>
+                        <label ID="22070101" end="121" name="Target" start="115"/>
+                      </labels>
+                    </layer>
+                    <layer ID="220702" name="FE">
+                      <labels>
+                        <label ID="22070201" end="134" name="Trajector_entity" start="123"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="23">
+              <text>Collapsed I-35W bridge in Mississippi River , August 1 , 2007 .</text>
+              <annotationSets>
+                <annotationSet ID="2300" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="230001" name="Target">
+                      <labels>
+                        <label ID="23000101" end="51" name="Target" start="46"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230002" name="FE">
+                      <labels>
+                        <label ID="23000201" end="51" name="Unit" start="46"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2301" frameName="Natural_features">
+                  <layers>
+                    <layer ID="230101" name="Target">
+                      <labels>
+                        <label ID="23010101" end="42" name="Target" start="38"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230102" name="FE">
+                      <labels>
+                        <label ID="23010201" end="42" name="Locale" start="38"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2302" frameName="Roadways">
+                  <layers>
+                    <layer ID="230201" name="Target">
+                      <labels>
+                        <label ID="23020101" end="21" name="Target" start="16"/>
+                      </labels>
+                    </layer>
+                    <layer ID="230202" name="FE">
+                      <labels>
+                        <label ID="23020201" end="21" name="Roadway" start="16"/>
+                        <label ID="23020202" end="42" name="Relative_location" start="23"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="24">
+              <text>The Federal Bureau of Investigation Lab used the Riegl Lidar scanner LMS-Z420i in support of the National Transportation Safety Board to conduct a structural analysis of the collapsed I-35W Bridge in Minneapolis , Minnesota .</text>
+              <annotationSets>
+                <annotationSet ID="2400" frameName="Being_at_risk">
+                  <layers>
+                    <layer ID="240001" name="Target">
+                      <labels>
+                        <label ID="24000101" end="126" name="Target" start="121"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240002" name="FE">
+                      <labels>
+                        <label ID="24000201" end="104" name="Asset" start="97"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2401" frameName="Roadways">
+                  <layers>
+                    <layer ID="240101" name="Target">
+                      <labels>
+                        <label ID="24010101" end="195" name="Target" start="190"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240102" name="FE">
+                      <labels>
+                        <label ID="24010201" end="195" name="Roadway" start="190"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2402" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="240201" name="Target">
+                      <labels>
+                        <label ID="24020101" end="38" name="Target" start="36"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240202" name="FE">
+                      <labels>
+                        <label ID="24020201" end="38" name="Locale" start="36"/>
+                        <label ID="24020202" end="34" name="Name" start="22"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2403" frameName="Political_locales">
+                  <layers>
+                    <layer ID="240301" name="Target">
+                      <labels>
+                        <label ID="24030101" end="10" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240302" name="FE">
+                      <labels>
+                        <label ID="24030201" end="10" name="Locale" start="4"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2404" frameName="Board_vehicle">
+                  <layers>
+                    <layer ID="240401" name="Target">
+                      <labels>
+                        <label ID="24040101" end="132" name="Target" start="128"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240402" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2405" frameName="Political_locales">
+                  <layers>
+                    <layer ID="240501" name="Target">
+                      <labels>
+                        <label ID="24050101" end="104" name="Target" start="97"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240502" name="FE">
+                      <labels>
+                        <label ID="24050201" end="104" name="Locale" start="97"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2406" frameName="Supporting">
+                  <layers>
+                    <layer ID="240601" name="Target">
+                      <labels>
+                        <label ID="24060101" end="88" name="Target" start="82"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240602" name="FE">
+                      <labels>
+                        <label ID="24060201" end="59" name="Supporter" start="45"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2407" frameName="Using">
+                  <layers>
+                    <layer ID="240701" name="Target">
+                      <labels>
+                        <label ID="24070101" end="43" name="Target" start="40"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240702" name="FE">
+                      <labels>
+                        <label ID="24070201" end="38" name="Instrument" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2408" frameName="Intentionally_act">
+                  <layers>
+                    <layer ID="240801" name="Target">
+                      <labels>
+                        <label ID="24080101" end="143" name="Target" start="137"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240802" name="FE">
+                      <labels>
+                        <label ID="24080201" end="195" name="Act" start="145"/>
+                        <label ID="24080202" end="132" name="Agent" start="90"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2409" frameName="Scrutiny">
+                  <layers>
+                    <layer ID="240901" name="Target">
+                      <labels>
+                        <label ID="24090101" end="34" name="Target" start="22"/>
+                      </labels>
+                    </layer>
+                    <layer ID="240902" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2410" frameName="Scrutiny">
+                  <layers>
+                    <layer ID="241001" name="Target">
+                      <labels>
+                        <label ID="24100101" end="165" name="Target" start="158"/>
+                      </labels>
+                    </layer>
+                    <layer ID="241002" name="FE">
+                      <labels>
+                        <label ID="24100201" end="195" name="Ground" start="167"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="25">
+              <text>At 6 : 05 p.m. on Wednesday , August 1 , 2007 , the Interstate 35 West bridge in downtown Minneapolis collapsed into the Mississippi River .</text>
+              <annotationSets>
+                <annotationSet ID="2500" frameName="Roadways">
+                  <layers>
+                    <layer ID="250001" name="Target">
+                      <labels>
+                        <label ID="25000101" end="76" name="Target" start="71"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250002" name="FE">
+                      <labels>
+                        <label ID="25000201" end="76" name="Roadway" start="71"/>
+                        <label ID="25000202" end="88" name="Relative_location" start="78"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2501" frameName="Natural_features">
+                  <layers>
+                    <layer ID="250101" name="Target">
+                      <labels>
+                        <label ID="25010101" end="137" name="Target" start="133"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250102" name="FE">
+                      <labels>
+                        <label ID="25010201" end="137" name="Locale" start="133"/>
+                        <label ID="25010202" end="131" name="Name" start="121"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2502" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="250201" name="Target">
+                      <labels>
+                        <label ID="25020101" end="88" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250202" name="FE">
+                      <labels>
+                        <label ID="25020201" end="88" name="Locale" start="81"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2503" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="250301" name="Target">
+                      <labels>
+                        <label ID="25030101" end="35" name="Target" start="30"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2504" frameName="Part_orientational">
+                  <layers>
+                    <layer ID="250401" name="Target">
+                      <labels>
+                        <label ID="25040101" end="69" name="Target" start="66"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250402" name="FE">
+                      <labels>
+                        <label ID="25040201" end="76" name="Whole" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2505" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="250501" name="Target">
+                      <labels>
+                        <label ID="25050101" end="26" name="Target" start="18"/>
+                      </labels>
+                    </layer>
+                    <layer ID="250502" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="26">
+              <text>January 11 , 2008 : The National Transportation Safety Board 's -LRB- NTSB -RRB- on-going investigation uncovers an error in the original design process that resulted in undersized gusset plates on some of Bridge 9340 's main trusses .</text>
+              <annotationSets>
+                <annotationSet ID="2600" frameName="Means">
+                  <layers>
+                    <layer ID="260001" name="Target">
+                      <labels>
+                        <label ID="26000101" end="151" name="Target" start="145"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260002" name="FE">
+                      <labels>
+                        <label ID="26000201" end="151" name="Means" start="145"/>
+                        <label ID="26000202" end="143" name="Purpose" start="138"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2601" frameName="Relational_quantity">
+                  <layers>
+                    <layer ID="260101" name="Target">
+                      <labels>
+                        <label ID="26010101" end="201" name="Target" start="198"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260102" name="FE">
+                      <labels>
+                        <label ID="26010201" end="232" name="Individuals" start="203"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2602" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="260201" name="Target">
+                      <labels>
+                        <label ID="26020101" end="6" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260202" name="FE">
+                      <labels>
+                        <label ID="26020201" end="6" name="Unit" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2603" frameName="Scrutiny">
+                  <layers>
+                    <layer ID="260301" name="Target">
+                      <labels>
+                        <label ID="26030101" end="102" name="Target" start="90"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260302" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2604" frameName="Importance">
+                  <layers>
+                    <layer ID="260401" name="Target">
+                      <labels>
+                        <label ID="26040101" end="224" name="Target" start="221"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260402" name="FE">
+                      <labels>
+                        <label ID="26040201" end="232" name="Factor" start="226"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2605" frameName="Being_at_risk">
+                  <layers>
+                    <layer ID="260501" name="Target">
+                      <labels>
+                        <label ID="26050101" end="53" name="Target" start="48"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260502" name="FE">
+                      <labels>
+                        <label ID="26050201" end="31" name="Asset" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2606" frameName="Roadways">
+                  <layers>
+                    <layer ID="260601" name="Target">
+                      <labels>
+                        <label ID="26060101" end="211" name="Target" start="206"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260602" name="FE">
+                      <labels>
+                        <label ID="26060201" end="211" name="Roadway" start="206"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2607" frameName="Causation">
+                  <layers>
+                    <layer ID="260701" name="Target">
+                      <labels>
+                        <label ID="26070101" end="165" name="Target" start="158"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260702" name="FE">
+                      <labels>
+                        <label ID="26070201" end="232" name="Effect" start="167"/>
+                        <label ID="26070202" end="156" name="Cause" start="153"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2608" frameName="Process_continue">
+                  <layers>
+                    <layer ID="260801" name="Target">
+                      <labels>
+                        <label ID="26080101" end="88" name="Target" start="81"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260802" name="FE">
+                      <labels>
+                        <label ID="26080201" end="102" name="Event" start="90"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2609" frameName="Board_vehicle">
+                  <layers>
+                    <layer ID="260901" name="Target">
+                      <labels>
+                        <label ID="26090101" end="59" name="Target" start="55"/>
+                      </labels>
+                    </layer>
+                    <layer ID="260902" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2610" frameName="Political_locales">
+                  <layers>
+                    <layer ID="261001" name="Target">
+                      <labels>
+                        <label ID="26100101" end="31" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="261002" name="FE">
+                      <labels>
+                        <label ID="26100201" end="31" name="Locale" start="24"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2611" frameName="Coming_up_with">
+                  <layers>
+                    <layer ID="261101" name="Target">
+                      <labels>
+                        <label ID="26110101" end="143" name="Target" start="138"/>
+                      </labels>
+                    </layer>
+                    <layer ID="261102" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="27">
+              <text>Citizens and government officials alike are concerned about the state of bridges in Minnesota after the collapse of the Interstate 35W bridge into the Mississippi River on August 1st , 2007 .</text>
+              <annotationSets>
+                <annotationSet ID="2700" frameName="People_by_jurisdiction">
+                  <layers>
+                    <layer ID="270001" name="Target">
+                      <labels>
+                        <label ID="27000101" end="7" name="Target" start="0"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270002" name="FE">
+                      <labels>
+                        <label ID="27000201" end="7" name="Person" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2701" frameName="Leadership">
+                  <layers>
+                    <layer ID="270101" name="Target">
+                      <labels>
+                        <label ID="27010101" end="32" name="Target" start="24"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270102" name="FE">
+                      <labels>
+                        <label ID="27010201" end="32" name="Leader" start="24"/>
+                        <label ID="27010202" end="22" name="Governed" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2702" frameName="Leadership">
+                  <layers>
+                    <layer ID="270201" name="Target">
+                      <labels>
+                        <label ID="27020101" end="22" name="Target" start="13"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270202" name="FE">
+                      <labels>
+                        <label ID="27020201" end="22" name="Leader" start="13"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2703" frameName="Political_locales">
+                  <layers>
+                    <layer ID="270301" name="Target">
+                      <labels>
+                        <label ID="27030101" end="68" name="Target" start="64"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270302" name="FE">
+                      <labels>
+                        <label ID="27030201" end="68" name="Locale" start="64"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2704" frameName="Natural_features">
+                  <layers>
+                    <layer ID="270401" name="Target">
+                      <labels>
+                        <label ID="27040101" end="167" name="Target" start="163"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270402" name="FE">
+                      <labels>
+                        <label ID="27040201" end="167" name="Locale" start="163"/>
+                        <label ID="27040202" end="161" name="Name" start="151"/>
+                        <label ID="27040203" end="188" name="Relative_location" start="169"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2705" frameName="Roadways">
+                  <layers>
+                    <layer ID="270501" name="Target">
+                      <labels>
+                        <label ID="27050101" end="79" name="Target" start="73"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270502" name="FE">
+                      <labels>
+                        <label ID="27050201" end="79" name="Roadway" start="73"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2706" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="270601" name="Target">
+                      <labels>
+                        <label ID="27060101" end="177" name="Target" start="172"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270602" name="FE">
+                      <labels>
+                        <label ID="27060201" end="177" name="Unit" start="172"/>
+                        <label ID="27060202" end="188" name="Whole" start="185"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2707" frameName="Roadways">
+                  <layers>
+                    <layer ID="270701" name="Target">
+                      <labels>
+                        <label ID="27070101" end="140" name="Target" start="135"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270702" name="FE">
+                      <labels>
+                        <label ID="27070201" end="140" name="Roadway" start="135"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2708" frameName="Similarity">
+                  <layers>
+                    <layer ID="270801" name="Target">
+                      <labels>
+                        <label ID="27080101" end="38" name="Target" start="34"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270802" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2709" frameName="Emotion_directed">
+                  <layers>
+                    <layer ID="270901" name="Target">
+                      <labels>
+                        <label ID="27090101" end="52" name="Target" start="44"/>
+                      </labels>
+                    </layer>
+                    <layer ID="270902" name="FE">
+                      <labels>
+                        <label ID="27090201" end="38" name="Experiencer" start="0"/>
+                        <label ID="27090202" end="92" name="Topic" start="54"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="28">
+              <text>In 2008 , a report from the National Transportation Board said the failure of gusset plates played a significant role in the August 2007 bridge collapse , which killed 13 people .</text>
+              <annotationSets>
+                <annotationSet ID="2800" frameName="Importance">
+                  <layers>
+                    <layer ID="280001" name="Target">
+                      <labels>
+                        <label ID="28000101" end="111" name="Target" start="101"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280002" name="FE">
+                      <labels>
+                        <label ID="28000201" end="116" name="Factor" start="113"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2801" frameName="Statement">
+                  <layers>
+                    <layer ID="280101" name="Target">
+                      <labels>
+                        <label ID="28010101" end="61" name="Target" start="58"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280102" name="FE">
+                      <labels>
+                        <label ID="28010201" end="176" name="Message" start="63"/>
+                        <label ID="28010202" end="56" name="Medium" start="10"/>
+                        <label ID="28010203" end="6" name="Time" start="0"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2802" frameName="Killing">
+                  <layers>
+                    <layer ID="280201" name="Target">
+                      <labels>
+                        <label ID="28020101" end="166" name="Target" start="161"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280202" name="FE">
+                      <labels>
+                        <label ID="28020201" end="176" name="Victim" start="168"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2803" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="280301" name="Target">
+                      <labels>
+                        <label ID="28030101" end="116" name="Target" start="113"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280302" name="FE">
+                      <labels>
+                        <label ID="28030201" end="176" name="Performance" start="118"/>
+                        <label ID="28030202" end="111" name="Performer" start="101"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2804" frameName="Roadways">
+                  <layers>
+                    <layer ID="280401" name="Target">
+                      <labels>
+                        <label ID="28040101" end="142" name="Target" start="137"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280402" name="FE">
+                      <labels>
+                        <label ID="28040201" end="142" name="Roadway" start="137"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2805" frameName="Performers_and_roles">
+                  <layers>
+                    <layer ID="280501" name="Target">
+                      <labels>
+                        <label ID="28050101" end="97" name="Target" start="92"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280502" name="FE">
+                      <labels>
+                        <label ID="28050201" end="116" name="Role" start="99"/>
+                        <label ID="28050202" end="90" name="Performer" start="63"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2806" frameName="Success_or_failure">
+                  <layers>
+                    <layer ID="280601" name="Target">
+                      <labels>
+                        <label ID="28060101" end="73" name="Target" start="67"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280602" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2807" frameName="Board_vehicle">
+                  <layers>
+                    <layer ID="280701" name="Target">
+                      <labels>
+                        <label ID="28070101" end="56" name="Target" start="52"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280702" name="FE">
+                      <labels/>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2808" frameName="People">
+                  <layers>
+                    <layer ID="280801" name="Target">
+                      <labels>
+                        <label ID="28080101" end="176" name="Target" start="171"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280802" name="FE">
+                      <labels>
+                        <label ID="28080201" end="176" name="Person" start="171"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2809" frameName="Calendric_unit">
+                  <layers>
+                    <layer ID="280901" name="Target">
+                      <labels>
+                        <label ID="28090101" end="130" name="Target" start="125"/>
+                      </labels>
+                    </layer>
+                    <layer ID="280902" name="FE">
+                      <labels>
+                        <label ID="28090201" end="130" name="Unit" start="125"/>
+                        <label ID="28090202" end="135" name="Whole" start="132"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2810" frameName="Text">
+                  <layers>
+                    <layer ID="281001" name="Target">
+                      <labels>
+                        <label ID="28100101" end="17" name="Target" start="12"/>
+                      </labels>
+                    </layer>
+                    <layer ID="281002" name="FE">
+                      <labels>
+                        <label ID="28100201" end="56" name="Author" start="19"/>
+                        <label ID="28100202" end="17" name="Text" start="12"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2811" frameName="Political_locales">
+                  <layers>
+                    <layer ID="281101" name="Target">
+                      <labels>
+                        <label ID="28110101" end="35" name="Target" start="28"/>
+                      </labels>
+                    </layer>
+                    <layer ID="281102" name="FE">
+                      <labels>
+                        <label ID="28110201" end="35" name="Locale" start="28"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+            <sentence ID="29">
+              <text>The entire span of the 35W bridge collapsed at about 6 : 05 p.m. where the freeway crosses the river near University Avenue .</text>
+              <annotationSets>
+                <annotationSet ID="2900" frameName="Body_movement">
+                  <layers>
+                    <layer ID="290001" name="Target">
+                      <labels>
+                        <label ID="29000101" end="89" name="Target" start="83"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290002" name="FE">
+                      <labels>
+                        <label ID="29000201" end="81" name="Agent" start="71"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2901" frameName="Roadways">
+                  <layers>
+                    <layer ID="290101" name="Target">
+                      <labels>
+                        <label ID="29010101" end="122" name="Target" start="117"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290102" name="FE">
+                      <labels>
+                        <label ID="29010201" end="115" name="Name" start="106"/>
+                        <label ID="29010202" end="122" name="Roadway" start="117"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2902" frameName="Natural_features">
+                  <layers>
+                    <layer ID="290201" name="Target">
+                      <labels>
+                        <label ID="29020101" end="99" name="Target" start="95"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290202" name="FE">
+                      <labels>
+                        <label ID="29020201" end="99" name="Locale" start="95"/>
+                        <label ID="29020202" end="122" name="Relative_location" start="101"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2903" frameName="Roadways">
+                  <layers>
+                    <layer ID="290301" name="Target">
+                      <labels>
+                        <label ID="29030101" end="32" name="Target" start="27"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290302" name="FE">
+                      <labels>
+                        <label ID="29030201" end="32" name="Roadway" start="27"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2904" frameName="Roadways">
+                  <layers>
+                    <layer ID="290401" name="Target">
+                      <labels>
+                        <label ID="29040101" end="81" name="Target" start="75"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290402" name="FE">
+                      <labels>
+                        <label ID="29040201" end="81" name="Roadway" start="75"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2905" frameName="Locale_by_use">
+                  <layers>
+                    <layer ID="290501" name="Target">
+                      <labels>
+                        <label ID="29050101" end="115" name="Target" start="106"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290502" name="FE">
+                      <labels>
+                        <label ID="29050201" end="115" name="Locale" start="106"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2906" frameName="Locative_relation">
+                  <layers>
+                    <layer ID="290601" name="Target">
+                      <labels>
+                        <label ID="29060101" end="69" name="Target" start="65"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290602" name="FE">
+                      <labels>
+                        <label ID="29060201" end="122" name="Ground" start="65"/>
+                        <label ID="29060202" end="63" name="Figure" start="60"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+                <annotationSet ID="2907" frameName="Ranked_expectation">
+                  <layers>
+                    <layer ID="290701" name="Target">
+                      <labels>
+                        <label ID="29070101" end="9" name="Target" start="4"/>
+                      </labels>
+                    </layer>
+                    <layer ID="290702" name="FE">
+                      <labels>
+                        <label ID="29070201" end="14" name="Entity" start="11"/>
+                      </labels>
+                    </layer>
+                  </layers>
+                </annotationSet>
+              </annotationSets>
+            </sentence>
+          </sentences>
+        </paragraph>
+      </paragraphs>
+    </document>
+  </documents>
+</corpus>
