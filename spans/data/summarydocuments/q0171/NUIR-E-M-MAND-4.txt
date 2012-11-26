@@ -1,0 +1,1 @@
+16-bit block (/16 prefix, 256 × C) 192.168.0.0 192.168.255.255 65536 Any user may use any of the reserved blocks. Typically, a network administrator will divide a block into subnets ; for example, many home routers automatically use a default address range of 192.168.0.0 through 

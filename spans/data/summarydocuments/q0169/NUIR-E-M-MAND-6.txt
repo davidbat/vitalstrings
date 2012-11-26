@@ -1,0 +1,1 @@
+CSC is similar to CSR except that values are read first by column, a row index is stored for each value, and column pointers are stored. I.e. CSC is (val, row_ind, col_ptr), where val is an array of the (top-to-bottom, then left-to-right-bottom) non-zero values of the matrix; row

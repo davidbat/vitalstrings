@@ -1,0 +1,1 @@
+IP networks may be divided into subnetworks in both IPv4 and IPv6. For this purpose, an IP address is logically recognized as consisting of two parts: the network prefix and the host identifier, or interface identifier (IPv6). The subnet mask or the CIDR prefix determines how the

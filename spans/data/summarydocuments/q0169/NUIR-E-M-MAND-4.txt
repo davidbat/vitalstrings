@@ -1,0 +1,1 @@
+8 External links Storing a sparse matrix The native data structure for a matrix is a two-dimensional array. Each entry in the array represents an element ai,j of the matrix and can be accessed by the two indices i and j. For an m×n matrix, enough memory to store up to (m×n) entri
