@@ -1,0 +1,58 @@
+I001	Franklin D. Roosevelt's paralytic illness began in 1921 at age 39, when he got a fever after exercising heavily during a vacation in Canada	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt's_paralytic_illness
+V001001	began in 1921
+V001002	age 39
+V001003	fever after exercising heavily 
+I002	during his terms as President of the United States, the extent of his paralysis was kept from public view	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt's_paralytic_illness
+V002001	during his terms as President of the United State
+V002002	the extent of his paralysis was kept from public view	DEP=V002001
+I003	Roosevelt was very rarely photographed while sitting in his wheelchair	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt's_paralytic_illness
+V003001	sitting in his wheelchair
+V003002	rarely photographed	DEP=V003001
+I004	Paralyzed from the waist down after suffering a bout of polio, Roosevelt	http://history1900s.about.com/od/people/a/fdr.htm
+V004001	polio
+V004002	Paralyzed from the waist dow dep=V004001
+I005	By August 12, 1921, he could no longer stand.	http://history1900s.about.com/od/people/a/fdr.htm
+V005001	August 12, 192
+V005002	no longer stand	DEP=V005001
+I006	Roosevelt even had his car adapted to his disability	http://history1900s.about.com/od/people/a/fdr.htm
+V006001	car adapted to disability
+I007	At age 39, Roosevelt had lost the use of both of his legs.	http://history1900s.about.com/od/people/a/fdr.htm
+V007001	age 39
+V007002	lost the use of both of his leg	DEP=V007001
+I008	Roosevelt had steel leg braces created that could be locked into an upright position to keep his legs straight	http://history1900s.about.com/od/people/a/fdr.htm
+V008001	steel leg braces
+V008002	keep his legs straight	DEP=V008001
+I009	Roosevelt found a health spa in 1924 that seemed to be one of the very few things that could ease his pain.	http://history1900s.about.com/od/people/a/fdr.htm
+V009001	health spa
+V009002	found in 1924	DEP=V009001
+V009003	ease his pain	DEP=V009001
+I010	At this spa in Warm Springs, Georgia, Roosevelt subsequently built a house (known as "the Little White House") and established a polio treatment center to help other polio sufferers. http://history1900s.about.com/od/people/a/fdr.htm
+V010001	spa
+V010002	Warm Springs, Georgia	DEP=V010001
+V010003	built a house
+V010004	the Little White House
+V010005	established a polio treatment center	DEP=V010004
+I011	Franklin Delano Roosevelt was 32nd president of United States, elected 4 times, 1932 - 1945	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V011001	president of United States
+V011002	32nd
+V011003	elected 4 times	DEP=V011001
+V011004	1932  1945	DEP=V011001
+I012	Roosevelt was a central figure to economic/ military / world order events 1930-1945	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V012001	central figure
+V012002	world events	DEP= V012001
+V012003	1930-1945	DEP=V012001
+I013	Roosevelt entered war and lead US to overwhelmingly win WW2	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V013001	lead US
+V013002	WW2 victory	DEP=V013001
+I014	Roosevelt initiated New Deal - US recovery from Depression, with jobs, and manufacturing;  reforms on financial, transportation	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V014001	New Deal	
+V014002	recovery from depression	DEP=V014001
+V014003	jobs	DEP=V014001
+V014004	manufacturing	DEP=V014001
+V014001	financial reform	DEP=V014001
+V014002	transportation reform	DEP=V014001
+I015	Roosevelt agreed to develop Atomic Bombs	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V015001	Atomic bomb
+I016	Roosevelt was Governor of NY, 1929 -1932	http://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+V016001	NY governor
+V016002	1929-1932	DEP=V016001

@@ -1,0 +1,90 @@
+I001	Paradise Florist - 828 West 7th Street Los Angeles, CA 90017 - (213) 891-1209	http://www.yelp.com/biz/paradise-florist-los-angeles-2
+V001001	Paradise Florist
+V001002	828 West 7th Street	DEP=V001001
+V001003	CA	DEP=V001001
+V001004	90017	DEP=V001001
+V001005	(213) 891-1209	DEP=V001001
+I002	French Florist - 8658 W. Pico Blvd. Los Angeles, CA 90035 - (310) 659-7700, 888.897.8777	http://www.yelp.com/biz/french-florist-los-angeles-2
+V002001	French Florist
+V002002	8658 W. Pico Blvd	DEP=V002001
+V002003	CA	DEP=V002001
+V002004	90035	DEP=V002001
+V002005	(310) 659-7700	DEP=V002001
+V002006	888.897.8777	DEP=V002001
+I003	Angelic Floral Studio - 517 W 6th St Los Angeles, CA 90014 - (213) 943-4790	http://www.yelp.com/biz/basic-flowers-los-angeles
+V003001	Angelic Floral Studio
+V003002	517 W 6th St	DEP=V003001
+V003003	CA	DEP=V003001
+V003004	90014	DEP=V003001
+V003005	(213) 943-4790	DEP=V003001
+I004	Los Angeles Flower Market - 754 Wall St Los Angeles, CA 90014 - (213) 622-1966	http://www.yelp.com/biz/los-angeles-flower-market-los-angeles
+V004001	Los Angeles Flower Market
+V004002	754 Wall St	DEP=V004001
+V004003	CA	DEP=V004001
+V004004	90014	DEP=V004001
+V004005	(213) 622-1966	DEP=V004001
+I005	Primary Petals - 548 S Spring St Los Angeles, CA 90013 - (661) 904-4455	http://www.yelp.com/biz/primary-petals-los-angeles
+V005001	Primary Petals
+V005002	548 S Spring St	DEP=V005001
+V005003	CA	DEP=V005001
+V005004	90013	DEP=V005001
+V005005	(661) 904-4455	DEP=V005001
+I006	Basic Flowers - 244 S Broadway, Los Angeles, CA 90017 - (213) 995-3333	http://www.yelp.com/biz/basic-flowers-los-angeles
+V006001	Basic Flowers
+V006002	244 S Broadway	DEP=V006001
+V006003	CA	DEP=V006001
+V006004	90017	DEP=V006001
+V006005	(213) 995-3333	DEP=V006001
+I007	Kuragami Plant Boutique - 333 S Alameda St Ste 110, Los Angeles, CA 90013 - (213) 617-0005	http://www.yelp.com/biz/kuragami-plant-boutique-los-angeles
+V007001	Kuragami Plant Boutique
+V007002	333 S Alameda St Ste 110	DEP=V007001
+V007003	CA	DEP=V007001
+V007004	90013	DEP=V007001
+V007005	(213) 617-0005	DEP=V007001
+I008	Stems Florist - 350 S Grand Avenue, Los Angeles, CA 90071 - (213) 680-3997	http://www.yelp.com/biz/stems-florist-los-angeles
+V008001	Stems Florist
+V008002	350 S Grand Avenue
+V008003	CA	DEP=V008001
+V008004	90071	DEP=V008001
+V008005	(213) 680-3997	DEP=V008001
+I009	Unique Sarah - 508 E 8th St, Los Angeles, CA 90014 - (213) 833-0003	http://www.yelp.com/biz/unique-sarah-los-angeles
+V009001	Unique Sarah
+V009002	508 E 8th St
+V009003	CA	DEP=V009001
+V009004	90014	DEP=V009001
+V009005	(213) 833-0003	DEP=V009001
+I010	Shibata Floral Company - 755 Wall St Ste 11, Los Angeles, CA 90014 - (213) 995-9900	http://www.yelp.com/biz/shibata-floral-company-los-angeles
+V010001	Shibata Floral Company
+V010002	755 Wall St Ste 11
+V010003	CA	DEP=V010001
+V010004	90014	DEP=V010001
+V010005	(213) 995-9900	DEP=V010001
+I011	Milagra Wholesale Flowers - 770 Wall St, Los Angeles, CA 90014 - (213) 629-5867	http://www.yelp.com/biz/milagra-wholesale-flowers-los-angeles
+V011001	Milagra Wholesale Flowers
+V011002	770 Wall St	DEP=V011001
+V011003	CA	DEP=V011001
+V011004	90014	DEP=V011001
+V011005	(213) 629-5867	DEP=V011001
+I012	Kahlen Flowers - 301 E 1st St, Los Angeles, CA 90012 - (213) 590-3792	http://www.yelp.com/biz/kahlen-flowers-los-angeles
+V012001	Kahlen Flowers
+V012002	301 E 1st St	DEP=V012001
+V012003	CA	DEP=V012001
+V012004	90012	DEP=V012001
+V012005	(213) 590-3792	DEP=V012001
+I013	Ixora Floral Studio - 545 S Figueroa St, Los Angeles, CA 90071 - (213) 623-3991	http://www.yelp.com/biz/ixora-floral-studio-los-angeles
+V013001	Ixora Floral Studio
+V013002	545 S Figueroa St	DEP=V013001
+V013003	CA	DEP=V013001
+V013004	90071	DEP=V013001
+V013005	(213) 623-3991	DEP=V013001
+I014	Bloomies Flowers - 515 S Olive St, Los Angeles, CA 90013 - (213) 489-9757	http://www.yelp.com/biz/bloomies-flowers-los-angeles
+V014001	Bloomies Flowers
+V014002	515 S Olive St	DEP=V014001
+V014003	CA	DEP=V014001
+V014004	90013	DEP=V014001
+V014005	(213) 489-9757	DEP=V014001
+I015	Chris Flowers - 714 Wall St, Los Angeles, CA 90014 - (213) 488-1797	http://www.yelp.com/biz/chris-flowers-los-angeles
+V014001 Chris Flowers
+V014001	714 Wall St	DEP=V014001
+V014001	Los Angeles, CA 90014	DEP=V014001
+V014001	(213) 488-1797	DEP=V014001

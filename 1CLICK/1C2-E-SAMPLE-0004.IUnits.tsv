@@ -1,0 +1,44 @@
+I001	She has been nominated for three Golden Globe Awards	http://en.wikipedia.org/wiki/Emily_Blunt
+V001001	nominated for three Golden Globe Awards
+I002	She won a Golden Globe Award for her work in the BBC television drama Gideon's Daughter (2007).	http://en.wikipedia.org/wiki/Emily_Blunt
+V002001	won a Golden Globe Award
+V002002	Gideon's Daughter	DEP=V002001
+V002003	BBC television drama	DEP=V002002
+V002004	2007	DEP=V002002
+I003	Blunt won a Golden Globe for her performance	http://en.wikipedia.org/wiki/Emily_Blunt
+V003001	won a Golden Globe Award
+V003002	for her performance	DEP=V003001
+I004	2009 Golden Globes Best Actress – Motion Picture Drama The Young Victoria Nominated	http://en.wikipedia.org/wiki/Emily_Blunt
+V004001	nominated for Golden Globes
+V004002	The Young Victoria	DEP=V004001
+V004003	Best Actress – Motion Picture Drama	DEP=V004002
+V004004	2009	DEP=V004001
+I005	2009 Golden Globes Best Actress – Motion Picture Drama The Devil Wears Prada Nominated	http://en.wikipedia.org/wiki/Emily_Blunt
+V005001	nominated for Golden Globes
+V005002	The Devil Wears Prada	DEP=V005001
+V005003	Best Actress – Motion Picture Drama	DEP=V005002
+V005004	2009	DEP=V005001
+I006	Emily Blunt is an English actress	http://en.wikipedia.org/wiki/Emily_Blunt
+V006001	English actress
+I007	Full name is Emily Olivia Leah Blunt	http://en.wikipedia.org/wiki/Emily_Blunt
+V007001	Emily Olivia Leah Blunt
+I008	Emily Blunt is known for movies: Devil wears Prada, The Young Victoria, The Adjustment Bureau	http://en.wikipedia.org/wiki/Emily_Blunt
+V008001	Devil wears Prada
+V008002	The Young Victoria
+V008003	The Adjustment Bureau
+I009	Emily Blunt appeared in movies Charlie Wilson's War, The Simpsons, Boudica, Empire, Irresistible, The great Buck Howard, The Muppets, The Wolfman, Henry VIII	http://en.wikipedia.org/wiki/Emily_Blunt
+V009001	Charlie Wilson's War
+V009002	The Simpsons
+V009003	Boudica
+V009004	Empire
+V009005	Irresistible
+V009006	The great Buck Howard
+V009007	The Muppets
+V009008	The Wolfman
+V009009	Henry VIII
+I010	Emily Blunt was nominated twice film critics circle awards, once BAFTA award	http://en.wikipedia.org/wiki/Emily_Blunt
+V010001	nominated twice film critics circle awards
+V010002	nominated BAFTA award
+I011	Emily Blunt was born on 02/23/1982, in Roehampton, England	http://en.wikipedia.org/wiki/Emily_Blunt
+V011001	born Feb 23 1982
+V011002	Roehampton, England	DEP=V011001

@@ -1,0 +1,56 @@
+I001	The Iron Lady is a 2011 British biographical film based on the life of Margaret Thatcher, the longest serving Prime Minister of the United Kingdom of the 20th century.	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V001001	The Iron Lady
+V001002	2011 British biographical film	DEP=V001001
+V001003	based on the life of Margaret Thatcher	DEP=V001001
+V001004	United Kingdom
+V001005	the longest serving Prime Minister	DEP=V001004
+I002	Thatcher is portrayed primarily by Meryl Streep	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V002001	portrayed by Meryl Streep
+I003	She received her 17th Academy Award nomination, and ultimately, the Academy Award for Best Actress, for her portrayal of Thatcher across four decades.	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V003001	Meryl Streep
+V003002	17th Academy Award nomination	DEP=V003001
+V003003	the Academy Award for Best Actress	DEP=V003001
+V003004	portrayal of Thatcher	DEP=V003003
+V003005	across four decades	DEP=V003004
+I004	Golden Globe Awards - Best Actress – Motion Picture Drama - Meryl Streep - Won	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V004001	Meryl Streep
+V004002	won Golden Globe Awards	DEP=V004001
+V004003	Best Actress – Motion Picture Drama	DEP=V004002
+I005	The Iron Lady Directed by Phyllida Lloyd	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V005001	The Iron Lady
+V005002	Directed by Phyllida Lloyd	DEP=V005001
+I006	The Iron Lady Produced by Damian Jones	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V006001	The Iron Lady
+V006002	Produced by Damian Jones	DEP=V006001
+I007	The Iron Lady Written by Abi Morgan	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V007001	The Iron Lady
+V007002	Written by Abi Morgan	DEP=V007001
+I008	Thatcher's husband, Denis Thatcher, is portrayed by Jim Broadbent	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V008001	Thatcher's husband
+V008002	Denis Thatcher
+V008003	portrayed by Jim Broadbent	DEP=V008001,V008002
+I009	Thatcher's longest-serving cabinet member and eventual deputy, Geoffrey Howe, is portrayed by Anthony Head.	http://en.wikipedia.org/wiki/The_Iron_Lady_(film)
+V009001	Geoffrey Howe
+V009002	longest-serving cabinet member	DEP=V009001
+V009003	eventual deputy	DEP=V009001
+V009004	portrayed by Anthony Head	DEP=V009001
+I010	Margaret Thatcher was a conservator UK prime minister between 1979 and 1990	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V010001	UK prime minister
+V010002	conservator	DEP=V010001
+V010003	1979 - 2000	DEP=V010001
+I011	Margaret Thatcher was member of parliament since 1959	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V011001	member of parliament
+V011002	since 1959	DEP=V011001
+I012	Margaret Thatcher was leader of conservator party between 1975 and 1990	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V012001	leader of conservator party
+V012002	1975  1990	DEP=V012001
+I013	Margaret Thatcher was born oct 13 1925 as Margaret Roberts, in Grantham, Lincolnshire UK	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V013001	born oct 13 1925
+V013002	Margaret Roberts	DEP=V013001
+V013003	Grantham, Lincolnshire UK	DEP=V013001
+I014	Margaret Thatcher wrote book The Downing Street Years (1993)	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V014001	The Downing Street Years
+V014002	1993	DEP=V014001
+I015	Margaret Thatcher wrote book The Path to Power (1995)	http://en.wikipedia.org/wiki/Margaret_Thatcher
+V015001	The Path to Power
+V015002	1995	DEP=V015001

@@ -1,0 +1,42 @@
+I001	Plasma screens use a matrix of tiny gas plasma cells, a mix of neon and xenon, charged by precise electrical voltages to create a picture.	http://www.cnet.com.au/plasma-vs-lcd-which-is-right-for-you-240036500.htm
+V001001	cells
+V001002	matrix plasma	DEP=V001001
+V001003	gas	DEP=V001001
+V001004	neon
+V001005	xenon
+V001006	charged	DEP=V001001
+V001007	precise electrical voltages	DEP=V001006
+V001008	create (picture|image)	DEP=V001001
+I002	LCD (liquid crystal display) screens are in layman's terms sandwiches made up of liquid crystal pushed in the space between two glass plates.	http://www.cnet.com.au/plasma-vs-lcd-which-is-right-for-you-240036500.htm
+V002001	liquid crystal
+V002002	display	DEP=V002001
+V002003	sandwiched glass plates	DEP=V002001
+I003	LCD images are created by varying the amount of electrical charge applied to the crystals.	http://www.cnet.com.au/plasma-vs-lcd-which-is-right-for-you-240036500.htm
+V003001	LCD vary electrical charge
+V003002	create (picture|image)	DEP=V003001
+I004	Plasma has deeper blacks than LCD.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V004001	deeper blacks
+I005	LCD uses less power than plasma.	http://www.cnet.com.au/plasma-vs-lcd-which-is-right-for-you-240036500.htm
+V005001	less (power|energy)
+I006	LCD lighter than plasma.	http://www.cnet.com.au/plasma-vs-lcd-which-is-right-for-you-240036500.htm
+V006001	(lighter|heavier)
+I007	LCD is transmissive, plasma is emissive.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V007001	transmissive emissive
+I008	Plasma TVs can have clearer on-screen motion than LCD.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V008001	clear motion
+I009	Plasma TVs can have a wider viewing angle than LCD.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V009001	wide viewing angle
+I010	Plasma TVs can have higher contrast ratio than LCD.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V010001	high contrast ratio
+I011	LCD TVs are brighter than plasma.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V011001	brighter
+I012	LCDs can have ghosting or lag where plasma does not.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V012001	ghosting
+V012002	lag
+I013	Plasma is self-lighting, where LCD uses a backlight.	http://www.crutchfield.com/S-RnDTen7MolJ/learn/learningcenter/home/tv_flatpanel.html
+V013001	self-lighting
+V013002	backlight
+I014	LCDs come in smaller sizes than plasma.	http://www.crutchfield.com/S-MCcnSobEQrQ/learn/learningcenter/home/tv_flatpanel.html
+V014001	smaller
+I014	Plasma screens can burn-in an image.	http://www.amazon.com/gp/richpub/syltguides/fullview/R2VPLE6GWXNOR0
+V014001	burn-in

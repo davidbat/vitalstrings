@@ -1,0 +1,43 @@
+I001	Unlike in recent times, when Barca's season reached the crucial moment, his scoring touch - and luck - deserted him.	http://in.reuters.com/article/2012/04/25/soccer-champions-messi-idINDEE83O04Y20120425
+V001001	luck deserted 
+V001002	team crucial moment	DEP=V001001
+V001003	unlike recent	DEP=V001001
+I002	He failed to find the net in either leg of the semi-final against Chelsea	http://in.reuters.com/article/2012/04/25/soccer-champions-messi-idINDEE83O04Y20120425
+V002001	no find the net
+V002002	either leg	DEP=V002001
+V002003	semifinal	DEP=V002001
+V002004	against Chelsea	DEP=V002003
+I003	Barca slipped to a 2-1 La Liga defeat at home to arch rivals Real Madrid 	http://in.reuters.com/article/2012/04/25/soccer-champions-messi-idINDEE83O04Y20120425
+V003001	2-1 La Liga defeat 
+V003002	Real Madrid	DEP=V003001
+V003003	arch rivals	DEP=V003002
+I004	A squad lacking depth in key areas, part I - the defense	http://www.nairaland.com/922782/dissecting-disappointment-4-key-reasons
+V004001	lacking depth
+V004002	key areas	DEP=V004001
+V004003	defense	DEP=V004002
+I005	A squad lacking depth in key areas, part II – attack	http://www.nairaland.com/922782/dissecting-disappointment-4-key-reasons
+V005001	lacking depth
+V005002	attack	DEP=V005001
+I006	Fatigue and an ever-so slight drop in level	http://www.nairaland.com/922782/dissecting-disappointment-4-key-reasons
+V006001	Fatigue
+V006002	drop level
+V006003	slight	DEP=V006002
+I007	No clearly defined style	http://www.nairaland.com/922782/dissecting-disappointment-4-key-reasons
+V007001	not defined style
+I008	Lionel Messi is a footballer / soccer player from Argentina, playing for FC Barcelona	http://en.wikipedia.org/wiki/Lionel_Messi
+V008001	soccer player
+V008002	Argentina
+V008003	playing for FC barcelona	DEP=V008001
+I009	Messi was named Best Footballer in the world in 2010 and 2011	http://en.wikipedia.org/wiki/Lionel_Messi
+V009001	best footballer 2010
+V009001	best footballer 2011
+I010	Messi Won 5 Spanish La Liga Titles with FC Barcelona	http://en.wikipedia.org/wiki/Lionel_Messi
+V010001	5 Spanish Titiles
+V010002	FC Barcelona	DEP=V003001	
+I011	Messi Won 3 Champions league Titles with FC Barcelona	http://en.wikipedia.org/wiki/Lionel_Messi
+V011001	3 Champions League Titles
+I012	Messi Won Olympic gold medal for Argentina team, in Beijing 2008	http://en.wikipedia.org/wiki/Lionel_Messi
+V012001	Gold Olympic Medal
+V012002	Beijing	DEP=V012001
+V012003	2008	DEP=V012001
+V012004	Argentina team	DEP=V012001

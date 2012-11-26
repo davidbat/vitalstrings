@@ -1,0 +1,20 @@
+a.Name of the test collection
+
+1CLICK-1 Test Collection
+
+c.Description of data (Task Data)
+
+The 1CLICK-1 collection contains 60 queries (15 CELEBRITY + 15 LOCAL + 15 DEFINITION + 15 Question Answering),
+each with a set of nuggets.
+
+A nugget represents an atomic piece of factual information, and is a 5-tuple:
+-       NuggetID
+-       Nugget weight (importance)
+-       Nugget semantics (the meaning it conveys)
+-       Vital string (approximates the minimal length required to convey the meaning of the nugget)
+-       Source URLs
+
+
+ 
+
+

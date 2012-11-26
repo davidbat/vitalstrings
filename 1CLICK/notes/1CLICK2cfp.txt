@@ -1,0 +1,128 @@
+* Apologies for multiple postings...
+
+###################################################
+          CALL FOR TASK PARTICIPATION
+            NTCIR-10 1CLICK-2 Task:
+   One Click Access for English and Japanese
+
+http://research.microsoft.com/en-us/people/tesakai/1click2.aspx
+
+Test queries released: Aug 2012 
+Evaluation results released: Feb 2013
+Final NTCIR-10 workshop: June 18-21 2013
+###################################################
+
+
+### OVERVIEW ###
+
+Unlike traditional search engines
+that return a ranked list of web pages,
+One Click Access systems 
+return a short multi-document summary of webpages
+and aim to satisfy the user immediately after
+a click on the SEARCH button.
+Systems must aim to return important pieces of information and
+to minimise the amount of text the user has to read.
+These requirements are particularly important in mobile environments.
+
+1CLICK-1 at NTCIR-9 only considered a Japanese task,
+but for this second round (1CLICK-2),
+we are expanding our scope to English.
+Moreover, while 1CLICK-1 considered only four query
+types (CELEBRITY, LOCAL, DEFINITION and QA),
+1CLICK-2 will use a more fine-grained taxonomy
+comprising eight query types.
+
+Evaluation will be based on
+"information units" (iUnits),
+also often referred to as "nuggets".
+As in 1CLICK-1, we will use S-measure from
+Sakai/Kato/Song CIKM'11
+http://research.microsoft.com/en-us/people/tesakai/cikmfp0040-sakai.pdf
+and will also consider developing new evaluation methods based on
+Pavlu et al. WSDM'12
+http://dx.doi.org/10.1145/2124295.2124343 
+
+
+### TASKS ###
+
+Japanese Main Task
+
+ Given a Japanese query, return an X-character string
+ that contain important information (X=500,140).
+ This is basically the same as the 1CLICK-1 task.
+
+English Main Task
+
+ Similar to the Japanese Main Task except that
+ query and the output are in English.
+ 
+Query Classification Subtask (for Japanese and English)
+
+ Given a query, classify it into one of the eight known query types.
+
+
+In addition to queries, the organisers will provide
+query suggestion data and baseline web search results
+to enhance repeatability and fairness, and to
+encourage newcomers to participate.
+
+### IMPORTANT DATES ###
+
+
+April 2012 sample queries and nuggets released
+Aug 2012 test queries, query suggestions and baseline runs released
+Sept 2012 run submissions due
+Oct 2012 nugget match evaluation begins
+Jan 2013 nugget match evaluation ends
+Feb 2013 evaluation results released
+March 2013? draft papers due
+May 2013? camera ready papers due
+June 2013 NTCIR-10
+
+
+### HOW TO PARTICIPATE ###
+
+Task registration page will be available soon on the NTCIR-10 website (see below).
+
+We encourage new participants to have a look at the 1CLICK-1 overview paper
+to familiarise themselves with the task:
+http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings9/NTCIR/01-NTCIR9-OV-1CLICK-SakaiT.pdf
+
+Please note:
+task participants must write a paper for the NTCIR-10 meeting (unrefereed)
+and attend the meeting at NII, Tokyo in June 2013.
+
+
+### ORGANISERS ###
+
+Makoto Kato, Kyoto University, Japan
+Takehiro Yamamoto, Kyoto University, Japan
+Mayu Iwata, Osaka University, Japan
+Matthew Ekstrand-Abueg, Northeastern University, USA
+Shahzad Rajput, Northeastern University, USA
+Virgil Pavlu, Northeastern University, USA
+Zhicheng Dou, MSRA, China
+Young-In Song, MSRA, China
+Tetsuya Sakai, MSRA, China
+
+
+## QUESTIONS? PLEASE CONTACT ##
+
+ntcadm-1click at 
+nii dot ac dot jp
+
+
+## LINKS ##
+
+1CLICK-2 homepage:
+http://research.microsoft.com/en-us/people/tesakai/1click2.aspx
+
+1CLICK-1 homepage:
+http://research.microsoft.com/en-us/people/tesakai/1click.aspx
+
+NTCIR-10: 
+http://research.nii.ac.jp/ntcir/ntcir-10/index.html
+
+NTCIR online proceedings:
+http://research.nii.ac.jp/ntcir/publication1-en.html

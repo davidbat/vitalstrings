@@ -1,0 +1,27 @@
+I001	Tufts Medical Center is located at 800 Washington Street Boston, Massachusetts 02111.	http://www.tuftsmedicalcenter.org/ContactUs
+V001001	800 Washington Street
+V001002	Boston
+V001003	MA|Massachusetts
+V001004	02111
+I002	The Tufts Medical Center phone number is 617-636-5000.	http://www.tuftsmedicalcenter.org/ContactUs
+V002001	(617) 636-5000|617-636-5000|617.636.5000
+I003	The Tufts Medical Center is located in downtown Boston, next to Chinatown and the Theater District.	http://www.tuftsmedicalcenter.org/AboutUs/Directions
+V003001	downtown Boston
+V003002	Chinatown
+V003003	Theater District
+I004	Tufts Medical Center can by accessed via the MBTA Tufts Medical Center Orange Line stop.	http://www.tuftsmedicalcenter.org/AboutUs/Directions
+V004001	Tufts Medical Center stop
+V004002	Orange Line
+V004003	MBTA	DEP=V004002
+I005	Tufts Medical Center is also convenient to bus lines 3, 11, 43, 55 and the Silver Line.	http://www.tuftsmedicalcenter.org/AboutUs/Directions
+V005001	bus line
+V005003	3	DEP=V005001
+V005004	11	DEP=V005001
+V005005	43	DEP=V005001
+V005006	55	DEP=V005001
+V005007	Silver	DEP=V005001
+I006	Tufts Medical Center Emergency services are located at 830 Washington Street.	http://www.tuftsmedicalcenter.org/AboutUs/Directions
+V006001	Emergency services 830 Washington Street
+I007	Tufts Medical Center is a 15-to-20-minute cab ride from Logan Airport and within walking distance of South Station.	http://www.tuftsmedicalcenter.org/AboutUs/Directions
+V007001	15-to-20-minute cab ride Logan Airport
+V007002	walking distance South Station

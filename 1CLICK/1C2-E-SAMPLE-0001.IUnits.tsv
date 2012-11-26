@@ -1,0 +1,76 @@
+I001	On February 11, 2012, Houston was found dead in suite 434 at the Beverly Hilton Hotel, submerged in the bathtub.	http://en.wikipedia.org/wiki/Whitney_Houston
+V001001	February 11, 2012
+V001002	Beverly Hilton Hotel
+V001003	suite 434	DEP=V001002
+V001004	submerged in the bathtub
+I002	the cause of Houston's death was drowning and the "effects of atherosclerotic heart disease and cocaine use".	http://en.wikipedia.org/wiki/Whitney_Houston
+V002001	drowning
+V002002	atherosclerotic heart disease
+V002003	cocaine
+I003	Houston was buried on Sunday, February 19, 2012, in Fairview Cemetery, in Westfield, New Jersey	http://en.wikipedia.org/wiki/Whitney_Houston
+V003001	buried
+V003002	Sunday	DEP=V003001
+V003003	February 19, 2012	DEP=V003001
+V003004	New Jersey	DEP=V003001
+V003005	Westfield	DEP=V003004
+V003006	Fairview Cemetery	DEP=V003004,V003005
+I004	WHITNEY HOUSTON Dead at 48.	http://www.tmz.com/2012/02/11/whitney-houston-dead/
+V004001	age 48
+I005	Houston was last seen alive by her personal assistant in her Beverly Hilton hotel room at about 3 p.m. that Saturday, the report said.	http://www.cnn.com/2012/04/04/showbiz/whitney-houston-toxicology/index.html
+V005001	seen alive
+V005002	personal assistant	DEP=V005001
+V005003	Beverly Hilton hotel room	DEP=V005001
+I006	Houston was discovered by her assistant the afternoon of Feb. 11 face down in a water-filled bathtub with a "bloody purge coming from her nose"	http://abcnews.go.com/Entertainment/whitney-houston-death-surprising-details-coroners-report/story?id=16076589&page=2#.T933DI7qAso
+V006001	discovered by her assistant
+V006002	Feb. 11	DEP=V006001
+V006003	face down	DEP=V006001
+V006004	water-filled bathtub	DEP=V006001
+V006005	bloody purge	DEP=V006001
+V006006	nose	DEP=V006005
+I007	Whitney Houston’s high-profile funeral service, took place on February 18 at her childhood church and was both nationally-televised and live-streamed.	http://rapfix.mtv.com/2012/04/07/whitney-houston-funeral-costs-anger-new-jersey-residents/
+V007001	funeral service
+V007002	high-profile	DEP=V007001
+V007003	February 18	DEP=V007001
+V007004	childhood church	DEP=V007001
+V007005	nationally-televised	DEP=V007001
+V007006	live-streamed	DEP=V007001
+I008	Whitney Houston’s funeral cost her hometown of Newark, N.J., $187,000 in police overtime	http://www.hollywoodreporter.com/news/whitney-houston-funeral-cost-newark-new-jersey-309434
+V008001	funeral
+V008002	cost Newark, N.J.	DEP=V008001
+V008003	$187,000	DEP=V008001,V008002
+I009	Funeral services for Grammy-award winning singer Whitney Houston are scheduled Saturday, February 18, at 12 noon EST in Newark, New Jersey	http://communities.washingtontimes.com/neighborhood/media-migraine/2012/feb/17/whitney-houston-funeral-scheduled-cable-tv-online-/
+V009001	Funeral services
+V009002	Saturday, February 18	DEP=V009001
+V009003	12 noon EST	DEP=V009002
+V009004	Newark, New Jersey	DEP=V009001
+I010	Witney Houston died Feb/11/2012 accidental drawn	http://en.wikipedia.org/wiki/Whitney_Houston
+V010001	died Feb/11/2012
+V010002	accidental drown	DEP=V010001
+I011	Witney Houston dying cause related to drugs cocaine, Benadryl, Xanax, marijuana, Flexiril	http://en.wikipedia.org/wiki/Whitney_Houston
+V011001	death related drugs
+V011002	cocaine	DEP=V011001
+V011003	Benadryl	DEP=V011001
+V011004	Xanax	DEP=V011001
+V011005	marijuana	DEP=V011001
+V011006	Flexiril	DEP=V011001
+I012	Witney Houston was a best selling american pop, R&B, dance and soul musician.	http://en.wikipedia.org/wiki/Whitney_Houston
+V012001	musician
+V012002	best selling	DEP=V012001
+V012003	pop	DEP=V012001
+V012004	dance	DEP=V012001
+V012005	R&B	DEP=V012001
+V012006	sould	DEP=V012001
+I013	Witney Houston had over 170MIL discs sold	http://en.wikipedia.org/wiki/Whitney_Houston
+V013001	170MIL discs sold
+I014	Witney Houston had six studio albums: Whitney Houston, Whitney,I'm Your Baby Tonight, My Love Is Your Love, Just Whitney..., I Look to You	http://en.wikipedia.org/wiki/Whitney_Houston_discography
+V014001	6 albums
+V014002	Whitney Houston	DEP=V014001
+V014003	Whitney	DEP=V014001
+V014004	I'm Your Baby Tonight	DEP=V014001
+V014005	My Love Is Your Love	DEP=V014001
+V014006	Just Whitney...	DEP=V014001
+V014007	I Look to You	DEP=V014001
+I015	Witney Houston famous for movie The bodyguard	http://en.wikipedia.org/wiki/Whitney_Houston
+V015001	movie The bodyguard
+I016	Witney Houston most known song is I will always love you	http://en.wikipedia.org/wiki/Whitney_Houston
+V016001	song I will always love you

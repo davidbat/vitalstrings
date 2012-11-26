@@ -1,0 +1,23 @@
+I001	LeBron James plays for the Miami Heat.	http://en.wikipedia.org/wiki/LeBron_James
+V001001	play Miami Heat
+I002	LeBron James 2011-12 statistics are 27.1 PPG, 7.90 RPG, 6.2 APG, and +29.85 EFF.	http://www.nba.com/playerfile/lebron_james/
+V002001	2011-12 statistics
+V002002	27.1 PPG
+V002003	7.90 RPG
+V002004	6.2 APG
+V002005	+29.85 EFF
+I003	LeBron James won the Maurice Podoloff Trophy as the 2011-12 Kia NBA Most Valuable Player Award.	http://www.nba.com/2012/news/05/12/mvp-release/index.html
+V003001	won Most Valuable Player Award
+V003002	Maurice Podoloff Trophy
+V003003	Kia	DEP=V003001
+I004	LeBron James has 3 MVP awards in the last 4 years.	http://www.cbssports.com/nba/blog/eye-on-basketball/19019207/lebron-james-to-be-named-2012-nba-mvp-what-does-it-mean
+V004001	3 MVP awards
+V004002	4 years	DEP=V004001
+I005	LeBron James fouled out of Game 4 for the first time in a playoff game, and the first time he has fouled out of any game since defecting from Cleveland to Miami in the summer of 2010.	http://www.masslive.com/celtics/index.ssf/2012/06/lebron_james_fouls_out_of_game.html
+V005001	fouled out Game 4
+V005002	first time playoff game	DEP=V005001
+V005003	first time any game Miami	DEP=V005001
+I006	LeBron James was the 3rd highest-paid athlete with $53 million from May 2011 to May 2012.	http://www.therichest.org/nation/forbes-highest-paid-athletes/
+V006001	3rd highest-paid athelete
+V006002	$53 million
+V006003	May 2011 to May 2012	DEP=V006002

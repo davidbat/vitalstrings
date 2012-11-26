@@ -1,0 +1,42 @@
+I001	Optical fiber is thin, flexible, transparent fiber made of pure glass.	http://en.wikipedia.org/wiki/Optical_fiber
+V001001	thin
+V001002	flexible
+V001003	transparent
+V001004	pure glass
+I002	Optical fiber is made of silica.	http://en.wikipedia.org/wiki/Optical_fiber
+V002001	silica
+I003	Optical fiber is a waveguide to transmit light between two ends of the fiber.	http://en.wikipedia.org/wiki/Optical_fiber
+V003001	waveguide
+V003002	transmit light
+V003003	between (fiber|cable) ends	DEP=V003002
+I004	Optical fibers have less loss than metal wires.	http://en.wikipedia.org/wiki/Optical_fiber
+V004001	less loss than metal wire
+I005	Optical fibers are immune to electromagnetic interference.	http://searchtelecom.techtarget.com/definition/optical-fiber
+V005001	(no|immune) electromagnetic interference
+I006	Optical fiber is used for communication, remote sensors, illumination, imaging, endoscopes, and spectroscopy.	http://en.wikipedia.org/wiki/Optical_fiber
+V006001	use
+V006002	communication	DEP=V006001
+V006003	remote sensors	DEP=V006001
+V006004	illumination	DEP=V006001
+V006005	imaging	DEP=V006001
+V006006	endoscopes	DEP=V006001
+V006007	spectroscopy	DEP=V006001
+I007	Optical fiber utilizes total internal reflection.	http://en.wikipedia.org/wiki/Optical_fiber
+V007001	total internal reflection
+I008	Optical fiber is made of three parts: the core, the thin glass center where light travels; the cladding, the outer material that reflects the light back into the core; and the buffer coating, which protects the fiber from damage and moisture.	http://computer.howstuffworks.com/fiber-optic1.htm
+V008001	core
+V008002	glass center	DEP=V008001
+V008003	thin	DEP=V008002
+V008004	light travel	DEP=V008001
+V008005	cladding
+V008006	outer material	DEP=V008005
+V008007	reflects light core	DEP=V008005
+V008008	buffer coating
+V008009	protects DEP=V008008
+V008010	damage	DEP=V008009
+V008011	moisture	DEP=V008009
+I009	Optical fibers come as single-mode and multi-mode.	http://computer.howstuffworks.com/fiber-optic1.htm
+V009001	single-mode
+V009002	multi-mode
+I010	Optical fibers can be made from plastic.	http://computer.howstuffworks.com/fiber-optic1.htm
+V010001	made plastic

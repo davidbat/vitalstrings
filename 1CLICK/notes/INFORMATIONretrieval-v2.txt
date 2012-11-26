@@ -1,0 +1,64 @@
+### TITLE
+	INFORMATION retrieval
+	(+Retrieving what doesn't exist yet)
+				draft v2 written by Tetsuya Sakai
+
+### DESCRIPTION
+
+Go beyond DOCUMENT relevance and DOCUMENT retrieval.
+Provide the user with the INFORMATION he wants.
+
+### Why
+
+Many information needs are not about finding a set of DOCUMENTS
+or about scanning a ranked list of snippets.
+The user wants the INFORMATION.
+The INFORMATION may be scattered across documents;
+it may lie implicitly across them.
+
+Why are we (including search engine companies) still
+evaluating ranked lists of documents using nDCG etc?
+Time to move forward!
+
+### What
+
+- Systematiclly define the basic INFORMATION UNIT (cf. DARPA GALE nugget).
+NOTE: there may be language dependent issues here.
+- Build a theory for relevant INFO UNIT retrieval
+(as opposed to document="bag of words" retrieval).
+- Establish an evaluation framework based on INFO UNITs
+that takes care of redundancy/novelty, diversity, *dependency, information
+discovery through inference.
+
+*Dependency example: 
+an info unit may or may not be relevant depending on whether another nugget
+exists in a nearby context.
+
+### Scientific and engineering and ... challenges
+
+- Right answers or info units differ across users and contexts (e.g. background, current context).
+How to select the right ones?
+- How to handle info unit dependency in building systems and in evaluation?
+- Right answers change (dynamicity). How do we maintain truth for evaluation?
+- How can the system maintain the reliability of synthesized information AND convince the user?
+- Synthesize and infer information from multiple languages
+
+### Sizzle
+
+A busy mobile user enters a query. System outputs
+a concise multi-document summary that fits his mobile screen.
+User immediately gets the INFORMATION she wants.
+
+### Obstacles
+
+- Info unit is always difficult to define.
+- Info unit dependency is at least as difficult to handle as term dependency.
+- Info unit based evaluation results may not agree with readability and trustworthiness.
+- Manually building right answers for things that don't yet exist is difficult and expensive.
+
+### Important links
+
+Zero Quey Terms
+Conversational Answer Retrieval
+Mobile
+

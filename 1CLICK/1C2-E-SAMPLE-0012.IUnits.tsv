@@ -1,0 +1,15 @@
+I001	Kingston PO - 120 Clarence St Kingston ON K7L 1X0 1-800-267-1177	http://kingston.cioc.ca/record/KGN1570
+V001001	Kingston PO
+V001002	120 Clarence St	DEP=V001001
+V001003	K7L 1X0	DEP=V001001
+V001004	1-800-267-1177	DEP=V001001
+I002	Shoppers Drug Mart - 136 Princess St Kingston ON K7L 1A0 - (613) 544-5330	http://mystore411.com/store/view/397750/Canada/Canada-Post-Kingst
+V002001	Shoppers Drug Mart 
+V002002	136 Princess St	DEP=V002001
+V002003	K7L 1A0	DEP=V002001
+V002004	(613) 544-5330	DEP=V002001
+I003	Shoppers Drug Mart - 445 Princess St Kingston ON K7L 1C3 - (613) 546-3696	http://kingston.cioc.ca/record/KGN4496
+V003001	Shoppers Drug Mart 
+V003002	445 Princess St	DEP=V003001
+V003003	K7L 1C3	DEP=V003001
+V003004	(613) 546-3696	DEP=V003001

@@ -1,0 +1,551 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red108\green108\blue108;\red0\green0\blue0;\red16\green74\blue187;
+\red23\green99\blue18;\red84\green0\blue0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\b\fs20 \cf2 From: 
+\b0 \cf3 Makoto Kato <kato@dl.kuis.kyoto-u.ac.jp>\
+
+\b \cf2 Subject: 
+\b0 \cf3 [ntcadm-1click:00014] Re: 1CLICK-2 nugget creation plan (cont.)\
+
+\b \cf2 To: 
+\b0 \cf3 "ntcadm-1click@nii.ac.jp" <ntcadm-1click@nii.ac.jp>\
+
+\b \cf2 Reply-To: 
+\b0 \cf3 kato@dl.kuis.kyoto-u.ac.jp\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf3 \
+\pard\pardeftab720
+
+\f1\fs20 \cf3 Hi all,\
+\
+Thank you for your feedback, Virgil and Tetsuya.\
+\
+**1. So far...**\
+\
+It seems that we have agreement on\
+- setting more *query* types, and\
+- not predefining *nugget* types.\
+\
+When we ask vendors to construct nuggets,\
+we will not explicitly indicate ideal nugget types as Virgil suggested,\
+but may provide some examples of nuggets like:\
+"Please find generally important information about XXX,\
+including but not limited to, his affiliation, coach, and awards."\
+\
+\
+**2. Budget plan**\
+\
+Next, let me propose a budget plan for the urgent request from NII.\
+As I and Tetsuya mentioned, we have to spend about 2M yen before March 2012.\
+A tentative budget plan is shown below:\
+\
+[Nugget creation for 100 Japanese queries]\
+We will ask Japanese vendors to create nuggets for 100 Japanese queries.\
+\
+800h (100 queries * 2 hour * 4 assessors) *\
+1,150JPY/h (vendor fee) = *920,000JPY*\
+\
+\
+[Manual runs for 100 Japanese queries]\
+We will ask Japanese vendors to create a manual run for each query,\
+which is ideal textual output created manually.\
+(We may use the manual run for obtaining additional nuggets,\
+and comparing system output with the manual run.)\
+\
+800h (100 queries * 2 hour * 4 assessors) *\
+1,150JPY/h (vendor fee) = *920,000JPY*\
+\
+\
+**3. Japanese queries**\
+\
+I, Tetsuya, and Takehiro will start to select J queries for NTCIR10.\
+Candidates of query types and the number of queries per query type are\
+shown below:\
+\
+[QUERY TYPE]	[#]\
+ARTIST		10\
+ACTOR		10\
+POLITICIAN	10\
+ATHLETE		10\
+\
+FACILITY	15	# SCHOOL, HOSPITAL, LANDMARK ETC.\
+LOCAL		15\
+\
+DEFINITION	15\
+\
+QA		15	\
+===================\
+TOTAL		100\
+\
+\
+Your comments and questions are welcome.\
+\
+Thanks,\
+Makoto\
+\
+(2011/12/17 0:01), Tetsuya Sakai wrote:\
+\pard\pardeftab720
+\cf4 Hi Virgil,\
+\
+- Yes, we all seem to agree that predefining nugget types (answer types) is NOT good.\
+As I said, at 1CLICK-1, CELEBRITY and LOCAL had more or less predefined nugget types,\
+while DEFINITION and QA did not. So we did not have any problem\
+with a DEFINITION question like "dynamite" - we could add a nugget for the inventor's wife.\
+Let's try to do without predefining nugget types.\
+\
+- I agree that even when we say "atomic", there will always be difficult cases.\
+To minimise inter-annotator differences, I think\
+we can prepare a detailed guideline document with lots of examples.\
+(I know, this won't solve all problems.)\
+\
+\pard\pardeftab720
+\cf5 "Kato spend his childhood in England" or "he spend his childhood in England" or "childhood England"\
+\pard\pardeftab720
+\cf4 \
+Yes, it's a difficult question.\
+At 1CLICK, if the nugget statement can be verified by reading the system output,\
+with some help of the user's "common sense", we treated it as a nugget match.\
+"Common sense" is mentioned in the nuggetmatch-v1.txt document mentioned below,\
+where we said that "Paul McCartney sang in a rock concert" immediately implies\
+that "Paul McCartney is a musician". (textual entailment)\
+\
+At 1CLICK, "childhood England" would have been acceptable\
+if the assessor read this text and understood it as the statement\
+"Kato spend his childhood in England".\
+Again, I think we need to document our policy.\
+\
+We may also want to introduce *partial* nugget matches -\
+if the gold standard nugget says "Kato spent his childhood in England"\
+and the system says "Kato spent his childhood in Europe" it's not an exact\
+match but we can give 0.5?\
+This also applies to the date vs year example.\
+\
+FYI some documents about nugget creation and nugget match judging for 1CLICK-1 (not for 1CLICK-2):\
+http://research.microsoft.com/en-us/people/tesakai/nuggetpolicy.pdf\
+http://research.microsoft.com/en-us/people/tesakai/nuggetmatch-v1.txt\
+\
+\
+Tetsuya\
+________________________________________\
+\uc0\u24046 \u20986 \u20154 : Virgil Pavlu [vip@ccs.neu.edu]\
+\uc0\u36865 \u20449 \u26085 \u26178 : 2011\u24180 12\u26376 15\u26085  12:05\
+\uc0\u23451 \u20808 : Tetsuya Sakai\
+Cc: ntcadm-1click@nii.ac.jp\
+\uc0\u20214 \u21517 : Re: [ntcadm-1click:00008] Re: 1CLICK-2 nugget creation plan (cont.)\
+\
+On Dec 14, 2011, at 9:57 PM, Tetsuya Sakai wrote:\
+\
+\pard\pardeftab720
+\cf5 Hi Pavlu, thank you for your response.\
+\
+Before I forget, if you want your student to join the organising team,\
+please give his/her name and email address.\
+We can let him/her join this mailing list.\
+\
+\pard\pardeftab720
+\cf4 Yes, let me talk to them (I have two potential students for this) and will add the right person to the list. Or we can both for now.\
+\
+\pard\pardeftab720
+\cf5 - By "vendor," we mean a paid subcontractor\
+to which we can place an order for relevane assessments etc.\
+This could be a company or an individual.\
+NII out of the blue told us we need to place an order by mid Jan\
+and collect the results by the end of March (Japanse fiscal year end)\
+and that's why we're rushing things :-)\
+\
+- Just to clarify, I mean to go with about 10 query types, and 100 queries in total\
+(so about 10 queries per query type).\
+\
+- When to start building the corpus: right now is fine,\
+but note that 1CLICK-2 has not yet been accepted as a new task for NTCIR-10.\
+The decision will come out in mid Jan.\
+Where to get the English queries: MS may be able to give you a plain list of\
+mobile query strings, ranked by frequency, for example. Not guaranteed,\
+but probably possible. Additional data such as clicks would be much more difficult.\
+\
+- NTCIR-9 1CLICK Japanese query set:\
+This is exactly the same as what we used in our CIKM paper,\
+and in the CIKM paper some English translations are provided.\
+There's a link to the CIKM paper from the 1CLICK homepage.\
+http://research.microsoft.com/en-us/people/tesakai/1click.aspx\
+\
+\pard\pardeftab720
+\cf4 \
+Thanks for the above clarifications.\
+\
+\pard\pardeftab720
+\cf5 - diversity evaluation:\
+In my humble personal opinion, D#-nDCG which I proposed at SIGIR\
+offers several advantages over alpha-nDCG :-)\
+You might also want to look into it.\
+http://research.microsoft.com/en-us/people/tesakai/sigirfp228-sakai.pdf\
+(But I do understand that alpha-nDCG and nugget evaluation go together well.)\
+\
+\pard\pardeftab720
+\cf4 I meant in a generic sense that existing diversity frameworks can benefit a lot from the nuggets we create at 1-CLICK, especially if they are more general than QA answers.\
+Yes, I dont like that much alpha NDCG myself, and while I did not play at all with D#-nDCG, I did like the SIGIR11 paper.\
+\
+\pard\pardeftab720
+\cf5 - I understand your concern about predefining a nugget schema for each query type.\
+I agree. At NTCIR-9 1CLICK,\
+the CELEBRITY and LOCAL query types actually had some vague definitions of nugget schema\
+(date of birth for CELEBRITY, phone number for LOCAL etc.).\
+Whereas, the DEFINITION and QA query types did not have any.\
+They were more like summarisation.\
+Your example, "What foods can cause heart disease?" would fall into the QA\
+category (Our QA type was NOT about simple factoid QA. It was about handling\
+natural language questions that appear for example in community QA data.)\
+\
+For 1CLICK-2@NTCIR-10, I think we can try to avoid predefining such "nugget types" in advance,\
+and try to collect what's desired for each given query.\
+To do this it might be useful to introduce a NARRATIVE field or something\
+that explains the actual context of the user issuing a query.\
+\
+- "who invented the dynamite"\
+This is a factoid QA question which expects a person name output.\
+In 1CLICK@NTCIR-9, the query would have typically been\
+just "dynamite" (definition)\
+and the systems would be expect to return nuggets such as\
+- what is a dynamite\
+- who invented it\
+- when it was invented\
+\pard\pardeftab720
+\cf4 \
+OK, my concern is that if we predefine the answer tags before seeing the results, and it turns out that guy's wife played a big role in dynamite invention, how do we then say... there is this other nugget about the wife that is relevant, but not of the types we predefined ?\
+I am being a bit negative on purpose to cause a debate about this. I think your plan is good, but we need to think of some corner situations (maybe you already did).\
+\
+\pard\pardeftab720
+\cf5 etc.\
+I agree that the output should provide some context.\
+In 1CLICK@NTCIR-9, we looked at Readability and Trustworthiness\
+as well as the accuracy as measured by S-measure:\
+http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings9/NTCIR/01-NTCIR9-OV-1CLICK-SakaiT.pdf\
+But S-measure is a pure nugget ranking measure\
+so does not care about readability etc. at all.\
+If there are two system outputs and\
+if the same nuggets are covered and arranged in the same order,\
+the one that concisely present the information wins according to S-measure.\
+Of course we can introduce other nugget based metrics too,\
+under the premise that the user\
+wants to gather important information under a certain time constraint.\
+\
+- Additional comment:\
+a nugget is understood as an atomic piece of a factual statement.\
+By atomic, I mean that if you break an atomic piece further into\
+several bits, the individual bits won't be useful information on their own.\
+\pard\pardeftab720
+\cf4 Totally agree (in fact we call it the same "atomic"in our publications). However I do think its harder to do in practice than it sounds -:). Thats one of the biggest problem we face on this project in our lab: there are very--VERY-- relevant documents for which there is no clean "atomic" nugget to be extracted... we can try to avoid queries with such answers, but then is it all too simple (back to simple QA )? Maybe we have slightly different perspectives due to difference in language English vs Japanese...\
+\
+\pard\pardeftab720
+\cf5 For example, "Makoto Kato was born in 2001" may be a nugget for "who is Makoto Kato?"\
+but "Makoto kato was born" is not useful so it's not a nugget.\
+Of course, the level of detail we require still needs to be discussed.\
+"born in January 1, 2001" vs "born in 2001" etc.\
+\pard\pardeftab720
+\cf4 \
+Actually I thought these two ("born in January 1, 2001" vs "born in 2001") can easily go by being the same, unless the query asks for a specific date. How about "Kato spend his childhood in England" or "he spend his childhood in England" or "childhood England" - I mean at what point something becomes too vague ?\
+Or how much context can we take for granted? None?\
+\
+\pard\pardeftab720
+\cf5 \
+- Additional comment: it would be nice if the EJK query sets have some overlap.\
+Maybe we can start with J and later see if some of the queries can be translated\
+for use in E and K.\
+\pard\pardeftab720
+\cf4 \
+Also agree, makes comparison of both results and scope/task easier.\
+\
+--virgil\
+\
+\pard\pardeftab720
+\cf5 \
+Tetsuya\
+\
+\uc0\u36865 \u20449 \u26085 \u26178 : 2011\u24180 12\u26376 15\u26085  7:43\
+\uc0\u23451 \u20808 : ntcadm-1click@nii.ac.jp\
+\uc0\u20214 \u21517 : [ntcadm-1click:00007] Re: 1CLICK-2 nugget creation plan (cont.)\
+\
+Sorry for being late on replying, I was a bit away from email.\
+\
+A bit confused: who/what is "the vendor" ?\
+\
+I understand there is a rush to mid January on Japanese track, and that the English corpus is going to be decided a bit later - thats fine by me. We are currently studying here at Northeastern very intensely the problem of nugget extraction, so I do/will have a pretty good idea what queries to use. Not sure yet where to get them from, but I don't think that will be a problem at all.\
+\
+I don't think I can help a lot with Japanese queries (looked into that attached file, but I know 0(zero) Japanese so I can't make any sense of the queries - sorry), but happy to \'a0contribute to the conversation. I strongly support more query types, but 100 seems like a lot (great if it can be done). Just to clarify, someone said " we need different information about an artist that we need about a politician" - can you clarify ? Is it simply a matter of looking at the two sets of nuggets (already collected) and tag them separately, or do you want to define in advance what info should be collected about any politician IN GENERAL (without knowing who the politician is). If the latter, there is a danger of "designing" a schema in advance, like (name, address, party, etc) and then discover there is relevant information that cannot be fit into that particular schema. So I would guess it is a lot easier to collect all relevant info/nuggets first, and then tag/categorize/cluster e\
+\pard\pardeftab720
+\cf3 tc.\
+\pard\pardeftab720
+\cf5 \
+Required answers: the idea that the retrieved string should be as small as possible can degenerate into unreadable answers. Certainly we want to penalize long answers, but from a user perspective a little context is usually desirable. my personal take is that if I ask "who invented dynamite?" I would like back a 3 line snippet of who/when/how/url, rather than a simply a name. Maybe I am missing a specific goal of the task here ?\
+\
+About English task: My plan for now is to allow for queries and nuggets a bit more general than simple QA, with simple tags (LOCATION/PERSON/DATE) for the following reasons:\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0- for english there is a already a large study of QA tasks within TREC, and some QA assessments are done with nuggets.\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0- I want to relate to existing frameworks of diversity (as measured by alpha-NDCG for example)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0- want to use totally non ambiguous queries, but not necessarily with a tag answer; for example "What foods can cause heart disease?" is very straight forward, but the answer is not something that can be immediately tagged, unless we have a tag "food"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0- etc.\
+This is only a plan, and if by any means it runs against your design or expectations for the track, I can roll back to QA queries and tagged nuggets.\
+\
+Any sense where we should start building the English corpus? I am not too worry about money, but maybe I should be\'85\
+--virgil\
+\
+\
+On Dec 14, 2011, at 5:38 AM, Makoto Kato wrote:\
+\
+\pard\pardeftab720
+\cf6 Hi all,\
+\
+Thank you for your feedback.\
+I would like to briefly summarize a tentative plan:\
+\
+- Starting from Japanese tasks for spending the money suddenly provided\
+by NII (E/K can follow a protocol used for J.)\
+- More query types (e.g. 10 query types)\
+- We shouldn't introduce radically different query types.\
+- 10 queries for each query types, i.e. 100 queries in total\
+\
+(Under discussion)\
+- Manual runs (we ask vendors to manually make X-string for each query)\
+- the number of assessors for weighting nuggets (is probably decided\
+after "real" seed funding info comes.)\
+\
+=Query types=\
+In NTCIR-9, we used four query types: CELEBRITY, LOCATION, DEFINITION,\
+and QA.\
+You can find Japanese queries (with an English description) in an\
+attached file.\
+\
+I was struggling for classifying queries, and found several\
+subcategories for CELEBRITY: artists (people who create "work" such as\
+novels and comics), politicians, athlete, and entertainers (people who\
+appear on TV).\
+I hope that those query types require different kinds of information.\
+\
+For LOCATION queries, it was difficult to define more query types.\
+Instead, we may add another type of LOCATION query, i.e. "neighbor search".\
+For example, "sushi tokyo" and "subway station kyoto" are included in\
+this type.\
+Note that we included only landmark names as LOCATION queries in NTCIR-9.\
+\
+PRODUCT type of query (e.g. "PS3") might be a candidate for a new query\
+type, but is less frequent to satisfy users with good abandonment than\
+the other types.\
+I have no idea on a new query type other than PRODUCT, looking at the\
+good abandonment paper.\
+\
+\
+(2011/12/14 16:22), Tetsuya Sakai wrote:\
+Yes we do want to compare across E,J and K.\
+That comment was really to give Pavlu some degrees of freedom,\
+who probably has some interests that are not strictly within the original 1CLICK framework.\
+Thus he may propose to extend the 1CLICK task for E.\
+That's fine by me - the J and K subtasks might even try to copy\
+some of what Pavlu tries to do for E.\
+\
+We would still like to share the nugget creation protocols,\
+definition of the vital string, etc. for the "classic" 1CLICK evaluation.\
+The more we can share across EJK, the better.\
+\
+Tetsuya\
+\
+-----Original Message-----\
+From: Young-In Song\
+Sent: Wednesday, December 14, 2011 3:10 PM\
+To: Tetsuya Sakai; ntcadm-1click@nii.ac.jp\
+Subject: RE: 1CLICK-2 nugget creation plan (cont.)\
+\
+Sounds good to me. I totally agree with necessity expanding query types. Also, starting from Japanese task would be most effective and good decision.\
+However, I couldn't understand clearly about what "different goals on different languages" means. Do you mean, "different 1 click information needs" for different languages? Or the task can be bit differently designed for each language?\
+\
+It the first is correct interpretation, that's totally fine, but in other case, we might need to be careful because it can make us not able to compare the results from each language. Can you explain the idea on "different goals on different languages" in your mind bit more clearly?\
+\
+\
+Young-In Song\
+\
+-----Original Message-----\
+From: tesakai@microsoft.com [mailto:tesakai@microsoft.com]\
+Sent: Wednesday, December 14, 2011 2:26 PM\
+To: ntcadm-1click@nii.ac.jp\
+Subject: [ntcadm-1click:00003] Re: 1CLICK-2 nugget creation plan (cont.)\
+\
+Hi all,\
+\
+As Makoto has explained,\
+We have an emergency situation,\
+Where we have to spend some money before the end of March.\
+The order must be placed before mid Jan.\
+\
+Given these irregular constraints,\
+I think that we proceed with preparing the Japanese topic set first, Since for Japanese we already have some experience at 1CLICK-1.\
+Then where appropriate, we can follow similar procedures for Korean and English.\
+(As I have discussed briefly with Pavlu, We may pursue different goals across different languages.\
+We don't have to do exactly the same thing for all languages, Provided that we share some of the good things.)\
+\
+I agree that the query classification needs to be more challenging - the kind of info we want about a politician is different from that about a pop singer.\
+So refining the query types sounds like a good idea.\
+\
+On the other hand, for the sake of continuity with 1CLICK-1, We shouldn't introduce radically different query types.\
+(The reason why two-round tasks are encouraged Is that we want to see breakthroughs by concentrating On a particular task over three years.)\
+\
+Refining the current query types into 10 types or so, for example, Sounds reasonable \'a0to me. Makoto, what would be a good query taxonomy, based on the Google good abandonment paper?\
+\
+Regarding the query set size, I would aim for 100.\
+FYI NTCIR QAC task used 200, although the organisers said "there were too many!"\
+If we have more query types than 4 we do need a larger Query set, so that we can do a reliable analysis per query type.\
+\
+In short, I think we can start with\
+Creating 100 Japanese queries (to spend the money available now), Define what kinds of information we want For each query type, And then see whether some of these Are transferrable to English and Korean.\
+\
+Later, when we receive the "real" seed funding, We can spend more on Korean and English.\
+\
+Opinions?\
+\
+Tetsuya\
+\
+-----Original Message-----\
+From: Makoto Kato [mailto:kato@dl.kuis.kyoto-u.ac.jp]\
+Sent: Tuesday, December 13, 2011 6:24 PM\
+To: Tetsuya Sakai; Takehiro Yamamoto; Young-In Song; Virgil Pavlu\
+Subject: Re: 1CLICK-2 nugget creation plan (cont.)\
+\
+Hi 1CLICK-2 organizers,\
+\
+As described in the previous mail,\
+we have to discuss the nugget creation plan immediately.\
+\
+We had a break out session at the first day of NTCIR-9, and got some good feedback from participants.\
+- Why not focusing on more query types (e.g. products, restaurants, etc.)\
+- Irrelevant parts in X-string should be penalized (more).\
+- The granularity of nuggets should be defined clearly\
+\
+As the deadline of ordering nugget creation to a vendor is the middle of January, I would like to discuss the following topics immediately:\
+\
+* Which kinds of query type will we use?\
+\
+We had five query types in NTCIR-9: CELEBRITY, LOCATION, DEFINITION, and QA.\
+It was so easy to classify queries into those query types, and required information for the same query type is not different across queries.\
+Thus, it might be better that we have more query types.\
+\
+One possible direction is to break down each query type into more specific types. For example, LOCATION can be decomposed into COUNTRY, CITY, and LANDMARK.\
+\
+Another direction would be to include additional query types.\
+PRODUCT may be a candidate, as the good abandonment paper suggests.\
+\
+\
+* Manual runs\
+\
+Since we might get much budget that must be spent by March 2012, we have to devise some budget plans so that the budget must not be wasted and we can save money after April 2012.\
+\
+One interesting trial would be manual runs, where we ask multiple vendors to manually create X-string that present important nuggets first, and minimize the text the user has to read.\
+We can create nuggets from the manual runs extracting atomic factual statements, as well as we can compare the manual runs with participant's runs based on summarization evaluation framework.\
+We might be able to find useful nuggets without per-defined nugget requirement (e.g. address, postal code for LOCATION queries), and to collect more realistic nuggets through the manual runs.\
+\
+\
+* Nugget creation\
+\
+I would like to discuss the followings:\
+- How many queries do we include? (NTCIR-9: 40 for test, 60 for formal,\
+NTCIR-10: the same as NTCIR-9?)\
+- How many assessors do we need for weighting nuggets? (NTCIR-9: 5 assessors, NTCIR-10: the same as NTCIR-9?)\
+- Do you think that we can collect Korean/English queries by the middle of January?\
+\
+Welcome your comments, especially for the query type and manual run.\
+\
+Thanks,\
+Makoto\
+\
+(2011/12/13 0:11), Makoto Kato wrote:\
+Hi 1CLICK-2 organizers,\
+\
+During the NTCIR-9 workshop,\
+a general co-chair of NTCIR, Noriko Kando, sent us a mail and suddenly\
+asked us to submit a budget plan a few days later, which must be spent\
+by *March 2012*.\
+As the deadline was Dec 7, I sent a tentative budget plan without\
+discussion with you.\
+\
+Noriko also noticed that the budget situation after April 2012 is\
+quite unclear due to the 3.11 disaster in Japan.\
+Thus, I and Sakai-san proposed the following plan for reducing budget\
+to be spent in 2012:\
+\
+=================================================================\
+- Title of the funding request\
+Creation of gold standard nuggets in the 1CLICK task\
+\
+- Brief description (1-2 paragraph)\
+In NTCIR-10, we are planning to host 1CLICK-2, where we will conduct\
+nugget-based evaluation of textual output.\
+In order to create gold standard nuggets for each Japanese query, we\
+plan to outsource the nugget creation to the vendor.\
+\
+- Purpose of use\
+Vendor fee for nugget creation\
+\
+- Amount of money requested\
+1,600h (160 queries (training + test) * 2 hour * 5 assessors) *\
+1,150JPY/h (vendor fee) =\
+*1,840,000JPY*\
+=================================================================\
+Outsourcing plans must be determined by the middle of January in 2012.\
+I tentatively included only Japanese\
+because we do not have much time until March 2012.\
+If we will finish the Japanese nugget creation by March 2012, we can\
+spend budget after April 2012 mainly for Korean and English.\
+\
+We might be able to change the detail of this budget plan under the\
+time (by March 2012) and money (about 2M JPY) restrictions.\
+I would like to discuss several points in the next mail.\
+\
+\
+Thanks,\
+Makoto\
+\
+\
+\
+\
+\
+--\
++++++++++++++++++++++++++++++++++++++++\
+Makoto P. Kato, PhD student\
+Graduate School of Informatics,\
+Kyoto University\
+Yoshida Honmachi, Sakyo, Kyoto 606-8501, Japan\
+Email: kato@dl.kuis.kyoto-u.ac.jp\
+Tel : +81-75-753-5702\
++++++++++++++++++++++++++++++++++++++++\
+\
+\uc0\u21152 \u34276  \u35488 \u65288 \u12363 \u12392 \u12358  \u12414 \u12371 \u12392 \u65289 \
+kato@dl.kuis.kyoto-u.ac.jp\
+\uc0\u20140 \u37117 \u22823 \u23398 \u22823 \u23398 \u38498  \u24773 \u22577 \u23398 \u30740 \u31350 \u31185  \u31038 \u20250 \u24773 \u22577 \u23398 \u23554 \u25915 \
+\uc0\u31038 \u20250 \u24773 \u22577 \u12514 \u12487 \u12523 \u35611 \u24231  \u24773 \u22577 \u22259 \u26360 \u39208 \u23398 \u20998 \u37326 \
+\uc0\u30000 \u20013 \u30740 \u31350 \u23460  \u21338 \u22763 \u35506 \u31243 \u24460 \u26399 \
+\
+\uc0\u12306 606-8501\
+\uc0\u20140 \u37117 \u24066 \u24038 \u20140 \u21306 \u21513 \u30000 \u26412 \u30010  \u24037 \u23398 \u37096 10\u21495 \u39208  301\u21495 \u23460 \
+Tel: 075-753-5702\
+<JapaneseQueriesAtNTCIR-9.xlsx>\
+\pard\pardeftab720
+\cf5 \
+\
+\
+\pard\pardeftab720
+\cf4 \
+\
+\
+\pard\pardeftab720
+\cf3 \
+\
+-- \
++++++++++++++++++++++++++++++++++++++++\
+Makoto P. Kato, PhD student\
+Graduate School of Informatics,\
+Kyoto University\
+Yoshida Honmachi, Sakyo, Kyoto 606-8501, Japan\
+Email: kato@dl.kuis.kyoto-u.ac.jp\
+Tel : +81-75-753-5702\
++++++++++++++++++++++++++++++++++++++++\
+}

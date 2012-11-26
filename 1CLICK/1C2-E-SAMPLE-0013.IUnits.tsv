@@ -1,0 +1,47 @@
+I001	Parkinson's disease is a degenerative disorder of the central nervous system.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V001001	degenerative
+V001002	disorder
+V001003	central nervous system
+I002	Parkinson's disease is idiopathic.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V002001	idiopathic
+I003	Parkinson's disease treatments manage early symptoms only.	http://www.webmd.com/parkinsons-disease/guide/parkinsons-disease-treatment-overview
+V003001	treatments manage early symptoms only
+I004	Parkinson's disease has no cure.	http://www.webmd.com/parkinsons-disease/guide/parkinsons-disease-treatment-overview
+V004001	no cure
+I005	Parkinson's disease is diagnosed by exclusion and treatment efficacy.	http://jnnp.bmj.com/content/69/3/407.2.full
+V005001	diagnosis
+V005002	exclusion	DEP=V005001
+V005003	treatment efficacy	DEP=V005001
+I006	Parkinson's disease symtoms include slowness of movements (bradykinesia) and rigidity, resting tremor, or postural instability.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V006001	symptom 
+V006002	slowness	DEP=V006001
+V006003	movement	DEP=V006002
+V006004	rigidity	DEP=V006001
+V006005	tremor	DEP=V006001
+V006006	resting	DEP=V006005
+V006007	instability	DEP=V006001
+V006008	postural	DEP=V006007
+I007	Parkinson's disease treatments include Levodopa, Dopamine agonists, and MAO-B inhibitors.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V007001	treatment 
+V007002	levodopa	DEP=V007001
+V007003	dopamine agonist	DEP=V007001
+V007004	MAO-B inhibitor	DEP=V007001
+I008	The motor symptoms of Parkinson's disease result from the death of dopamine-generating cells in the substantia nigra, a region of the midbrain.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V008001	death dopamine-generating cells
+V008001	motor symptoms
+V008002	substantia nigra DEP=V008001
+V008003	region midbrain	DEP=V008002
+I009	Drugs such as amantadine and anticholinergics may be useful as treatment of motor symptoms for Parkinson's disease.	http://en.wikipedia.org/wiki/Parkinson's_disease
+V009001	treatment motor symptom
+V009002	amantadine	DEP=V009001
+V009003	anticholinergics	DEP=V009001
+I010	Lifestyle changes may be helpful for Parkinson's disease, including good general nutrition and health, exercising, regular rest periods, avoiding stress, physical therapy, assistive devices, and social workers or other counseling.	http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001762/
+V010001	Lifestyle changes
+V010002	general nutrition
+V010003	exercise
+V010004	rest
+V010005	avoiding stress
+V010006	physical therapy
+V010007	assistive devices
+V010008	social workers
+V010009	counseling

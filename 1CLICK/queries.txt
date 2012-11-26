@@ -1,0 +1,937 @@
+#   =====================SCIENTISTS ============================
+#
+#alexander razborov 
+
+=========================SINGERS========================
+
+adele
+
+1C2-E-SAMPLE-0001	ARTIST	Whitney Houston 
+I001 Witney Houston was a best selling musician, with over 170MIL discs sold.
+  V001001 musician
+  V001002 best selling deep=V001001
+  V001003 170MIL discs sold
+I002 Witney Houston had seven studio albums
+  V002001 7 albums
+I003 Witney Houston famous for movie The bodyguard
+  V003001 movie The bodyguard
+I004 Witney Houston most known song is I will always love you
+  V004001 song I will always love you
+I005 Witney Houston known songs are I am every woman, My Love Is Your Love, When You Believe, I have nothing
+  V005001 song I am every woman
+  V005002 song My Love Is Your Love
+  V005003 song When You Believe
+  V005004 song I have nothing
+I006 Witney Houston appeared in movies Waiting to Exhale, The Preacher's Wife, Cinderella
+  V006001	movie Waiting to Exhale
+  V006002	movie The Preacher's Wife
+  V006003	movie Cinderella
+I007 Witney Houston born Newark NJ, Feb/11/1963
+  V007001	born Feb 11 1963
+  V007002	Newark NJ	DEP=V007001
+I008 Witney Houston had a failed marriage with Bobby Brown
+  V008001	married Bobby Brown
+  V008002	failed	DEP=V008001
+I009 Witney Houston and Bobby Brown had a daughter Kristina Brown
+  V009001  daughter Kristina Brown
+  V009002	Bobby Brown	DEP=V009001	
+I010 Witney Houston died Feb/11/2012 accidental drawn
+  V010001	died Feb/11/2012
+  V010002	accidental drown	DEP=V010001 
+I011 Witney Houston dying cause related to drugs cocaine, Benadryl, Xanax, marijuana, Flexiril
+  V011001	death related drugs
+  V011002	cocaine	DEP=V011001
+  V011003	Benadryl	DEP=V011001 
+  V011004	Xanax	DEP=V011001
+  V011005	marijuana	DEP=V011001
+  V011006	Flexiril	DEP=V011001
+	
+
+madonna
+
+1C2-E-SAMPLE-0002	ARTIST	shakira
+I001 Shakira is a famous latin pop singer-songwriter from Barranquilla, Colombia
+  V001001 singer
+  V001002 latin pop	DEP=V001001
+  V001003 Barranquilla Colombia
+  V001004 famous	DEP=V001001
+I002 Shakira was born Feb 2, 1977
+I003 won 2 Grammy Awards
+I004 won 8 Latin Grammy Awards
+I005 Shakira famous song are Hips Dont Lie, la Tortura, Whenever whenever, Waka Waka 
+  V005001 Hips Dont Lie
+  V005002 la Tortura
+  V005003 Whenever whenever
+  V005004 Waka Waka
+I009 Shakira released in 1995 first album  Pies Descalzos 
+I009 Shakira released in 1998 album  Dónde Están los Ladrones? 
+I010 Shakira released in 2002 album Laundry Service 
+I011 álbums Shakira in 2006 released albums Fijación Oral Vol. 1 , Oral Fixation Vol. 2
+  V011001   Fijación Oral Vol. 1 
+  V011002   Oral Fixation Vol. 2
+I013 Shakira recents albums are albums She Wolf, and Sale el Sol 
+  V013001 She Wolf
+  V013002 Sale el Sol
+
+
+
+
+mariah carey
+
+jack johnson
+Jack Johnson is an American folk rock singer-songwriter
+ known for organizing an annual event, the Kōkua Festival
+known songs "Upside Down", "Flake", "Sitting, Waiting, Wishing", "If I Had Eyes", "You and Your Heart", "Taylor", "Banana Pancakes", "Better Together".
+Born	 May 18, 1975 North Shore of Oahu, Hawaii
+Instruments	Vocals, guitar, ukulele, piano, drums
+all 2010 musical tour profit has been donated to charity.
+albums Brushfire Fairytales (2001), On and On (2003), In Between Dreams (2005),  Sleep Through the Static (2008), To the Sea (2010)
+
+
+===========================ACTORS=============================
+
+anne hatheway
+
+charlize theron
+charlize theron is an american movie actress
+charlize theron known for movies: the devils advocate, cider house rules, monster, Hancock, young adult, eon flux,north country
+charlize theron won oscar prize for actress in a leading role, for movie "monster"
+charlize theron was oscar nominated for movie north country
+charlize theron was golden globe nominated for movie "the life and death of peter sellers"
+charlize theron born benoni, transvaal, south africa, 08/07/11975
+charlize theron was trained as ballet dancer
+charlize theron named 2008 UN messenger of peace
+charlize theron is an activist pro-choice
+
+1C2-E-SAMPLE-0003	ACTOR	daniel craig
+I001 Daniel Craig's full name is Daniel Wroughton Craig.
+  V001001 Daniel Wroughton Craig.
+I002 Daniel Craig was born 2 March, 1968.
+  V002001 born 1968
+  V002002 2 March	DEP=V002001
+I003 Daniel Craig is an English actor best known for playing British secret agent James Bond.
+  V003001 actor
+  V003002 English
+  V003003 James Bond
+  V003004 secret agent
+  V003005 British	DEP=V003004
+I004 Daniel Craig starred in the Bond films Casino Royale in 2006, Quantum of Solace in 2008, and Skyfall in 2012.
+  V004001 Casino Royale
+  V004002 2006	DEP=V004001
+  V004003 Quantum of Solace
+  V004004 2008	DEP=V004003
+  V004005 Skyfall
+  V004006 2012	DEP=V004005
+I005 Daniel Craig acted in Cowboys & Aliens, The Adventures of Tintin, The Girl with the Dragon Tattoo, Layer Cake, Road to Perdition, Munich, Infamous, and Dream House.
+  V005001 Cowboys & Aliens
+  V005002 Adventures of Tintin
+  V005003 Girl with the Dragon Tattoo
+  V005004 Layer Cake
+  V005005 Road to Perdition
+  V005006 Munich
+  V005007 Infamous
+  V005008 Dream House
+I006 Daniel Craig is married to actress Rachel Weisz.
+  V006001 married Rachel Weisz
+  V006002 actress	DEP=V006001
+I007 Daniel Craig was married to actress Riona Loudon.
+  V007001 married Riona Loudon
+  V007002 actress	DEP=V007001
+I008 Daniel Craig has a daughter named Ella.
+  V008001 daughter Ella.
+I009 Daniel Craig was born in Chester, Cheshire, England.
+  V009001 born
+  V009002 Cheshire	DEP=V009001
+  V009003 England	DEP=V009001
+  V009004 Chester	DEP=V009001
+I010 Daniel Craig earned a BAFTA award nomination for Casino Royale.
+  V010001 BAFTA award nomination
+  V010002 Casino Royale	DEP=V010001
+
+january jones
+
+1C2-E-SAMPLE-0004	ACTOR	emily blunt
+I001 Emily Blunt is an English actress
+  V001001	English actress
+I002 Full name is Emily Olivia Leah Blunt
+  V002001	Emily Olivia Leah Blunt
+I003 Emily Blunt is known for movies: Devil wears Prada, The Young Victoria, The Adjustment Bureau
+  V003001	Devil wears Prada
+  V003002	The Young Victoria
+  V003003	The Adjustment Bureau
+I004 Emily Blunt appeared in movies Charlie Wilson's War, The Simpsons, Boudica, Empire, Irresistible, The great Buck Howard, The Muppets, The Wolfman, Henry VIII
+  V004001	Charlie Wilson's War
+  V004002	The Simpsons
+  V004003	Boudica
+  V004004	Empire
+  V004005	Irresistible
+  V004006	The great Buck Howard
+  V004007	The Muppets
+  V004008	The Wolfman
+  V004009	Henry VIII
+I005 Emily Blunt won golden globe award for TV drama Gideon's Daughter
+  V005001	won golden globe
+  V005002	Gideon's Daughter	DEP=V005001
+I006 Emily Blunt was nominated for 3 golden globe awards, 
+  V006001	nominated for 3 golden globe awards
+I007 Emily Blunt was nominated twice film critics circle awards, once BAFTA award
+  V007001	nominated twice film critics circle awards
+  V007002	nominated BAFTA award
+I008 Emily Blunt was born on 02/23/1982, in Roehampton, England
+  V008001	born Feb 23 1982
+  V008002	Roehampton, England	DEP=V008001
+
+
+=============================POLITICIANS===========================
+Thomas Menino - not in file
+
+Newt Gingrich
+
+John Kerry - Matt
+
+Ted Kennedy
+Ted Kennedy was a US democratic Senator from MA between 1962 and 2009 
+Ted Kennedy was brother of US president John F Kennedy and brother of senator Bobby Kennedy
+Ted Kennedy was Senate Majority Whip between 1969 and 1971
+Ted Kennedy was Chairman of the Senate Committee on the Judiciary, between 1979 and 1981
+Ted Kennedy was born 02/22/1932, Boston Massachusetts
+Ted Kennedy was son of Joseph and Rose Kennedy
+Ted Kennedy died 08/25/2009, of malignant brain tumor, in Hyannis Port, Massachusetts
+Ted Kennedy politics style was American progressivism
+Ted Kennedy involved in immigration policies
+Ted Kennedy supported : mental health benefits, children's health insurance, cancer research, health insurance, apartheid, disability discrimination, AIDS care
+Ted Kennedy supported  civil rights 
+Ted Kennedy supported education and volunteering
+Ted Kennedy ran for democratic nomination for US president in 1980
+Ted Kennedy ran against Mitt Romney for senate 1994 and got reelected
+Ted Kennedy supported Barack Obama for US president in 2008
+
+
+1C2-E-SAMPLE-0005	POLITICIAN	Margaret Thatcher
+I001 Margaret Thatcher was a conservator UK prime minister between 1979 and 1990
+  V001001	UK prime minister
+  V001002	conservator	DEP=V001001
+  V001003	1979 - 2000	DEP=V001001
+I002 Margaret Thatcher was first woman to be british PM
+  V002001	first woman british PM
+I003 Margaret Thatcher was member of parliament since 1959
+  V003001	member of parliament
+  V003001	since 1959	DEP=V003001
+I004 Margaret Thatcher was leader of conservator party between 1975 and 1990
+  V004001	leader of conservator party
+  V004002	1975  1990	DEP=V004001
+I005 Margaret Thatcher was born oct 13 1925 as Margaret Roberts, in Grantham, Lincolnshire UK
+  V005001	born oct 13 1925
+  V005002	Margaret Roberts	DEP=V005001
+  V005003	Grantham, Lincolnshire UK	DEP=V005001
+I006 Margaret Thatcher was trained/educated as a chemist
+  V006001 chemist
+I007 Margaret Thatcher favored deregulation
+  V007001	deregulation
+I008 Margaret Thatcher tenure as prime minister was during cold war, fall of communism
+  V008001	cold war
+  V008002	fall of communism
+I009 Margaret Thatcher supported maintain UK pound currency against adopting euro
+  V009001	maintain UK currency
+  V009002	not adopting euro
+I010 Margaret Thatcher had strong ties with ronald reagan
+  V010001	ties ronald reagan	
+I011 Margaret Thatcher introduced/supported community charge
+  V011001	supported community charge
+I012 Margaret Thatcher supported flexible labor markets
+  V012001	flexible labor markets
+I013 Margaret Thatcher involved UK in middle east conflict
+  V013001	middle east conflict
+  V013002	UK involvement	DEP=V013001
+I014 Margaret Thatcher wrote book The Downing Street Years (1993) 
+  V014001	The Downing Street Years
+  V014002	1993	DEP=V014001
+I015 Margaret Thatcher wrote book The Path to Power (1995)
+  V015001	The Path to Power 
+  V015002	1995	DEP=V015001
+
+
+Julia Gillard
+
+Mitt Romney - Matt
+
+Francois Hollande - not in file
+
+Bill Clinton
+Bill Clinton was the 42nd US president between 1993 and 2001
+
+
+1C2-E-SAMPLE-0006	POLITICIAN	FDR
+I001 32nd president of United States, elected 4 times, 1932 - 1945
+  V001001	president of United States
+  V001002	32nd
+  V001003	elected 4 times	DEP=V001001
+  V001004	1932  1945	DEP=V001001
+I002 central figure to economic/ military / world order events 1930-1945 
+  V002001	central figure
+  V002002	world events	DEP=   V002001
+  V002003	1930-1945	DEP=  V002001
+I003 entered and lead US to overwhelmingly win WW2
+  V003001	lead US 
+  V003001	WW2 victory	DEP=  V003001
+I004 made US superpower with global influence, taking over previous such roles of Germany, England, France, Japan.
+  V004001	US superpower
+  V004001	influences role
+  V004001	Germany	DEP= NO
+  V004001	England	DEP=YES
+  V004001	France	DEP= YES
+  V004001	Japan	DEP= YES
+I005  financial/military support, and stronger ties, to UK, France and China
+  V005001	financial support
+  V005002	military support
+  V005003	stronger ties
+  V005004	UK	DEP=  V002001
+  V005005	 France	DEP=V002001,V002003
+  V005001	China	DEP= V002001
+I006 New Deal - US recovery from Depression, with jobs, and manufacturing.
+  V006001	New Deal	
+  V006001	recovery from Depression
+  V006001	jobs
+  V006001	manufacturing
+I007 New Deal - reforms on financial, transportation 
+  V007001	financial reform
+  V007001	transportation reform
+I008 Agreed to develop Atomic Bombs
+  V008001	Atomic bomb
+I009 Bretton Woods monetary system
+  V009001	Brreton Woods
+I010 United Nations idea 
+  V010001	United Nations
+I011 Governor of NY, 1929 -1932
+  V011001 NY governor
+  V011002	1929-1932	DEP=V010001
+I012 Assistant Secretary of Navy, 1913 - 1920
+  V012001	Assistant Secretary of Navy 
+  V012002	1913-1920 DEP=V012001
+I013 Famous for speeches "Only Thing We Have to Fear Is Fear Itself", "pearl harbor speech"
+  V013001	Speech: Only Thing We Have to Fear Is Fear Itself
+  V013002	pearl harbor qid V013001
+
+
+============================ATHLETES============================
+1C2-E-SAMPLE-0007	ATHLETE	lionel messi
+I001 footballer / soccer player from Argentina, playing for FC Barcelona	
+  V001001	soccer player
+  V001002	Argentina
+  V001003	playing for FC barcelona	DEP=V001001
+I002 Messi was named Best Footballer in the world in 2010 and 2011
+  V002001 best footballer 2010
+  V002001 best footballer 2011 
+I003 Messi Won 5 Spanish La Liga Titles with FC Barcelona
+  V003001 5 Spanish Titiles
+  V003002 FC Barcelona	DEP=001	
+I004 Messi Won 3 Champions league Titles with FC Barcelona
+  V004001 3 Champions League Titles
+I005 Messi Won Olympic gold medal for Argentina team, in Beijing 2008 
+  V005001 Gold Olympic Medal
+  V005002 Beijing	DEP=001
+  V005002 2008	DEP=001	
+I006 Lionel Messi was Born on 24 June 1987, in Rosario Argentina
+  V006001 born june 24 1987
+  V006002 born Rosario Argentina	DEP= V006001
+I007 Messi Moved to barcelona with his father at age 11
+  V007001 moved Barcelona with father
+  V007002 age 11	DEP=001
+I008 Messi has/had medical condition for which FCB payed in exchange for Messi enrolling to youth team.
+  V008001 medical condition
+  V008002 FC Barcelona payed bills sep=001
+  V008003 Messi enrolled youth team	DEP=001	DEP=002 
+
+
+
+
+alexander radulov - not in file
+
+dwight howard
+
+1C2-E-SAMPLE-0008	ATHLETE	lebron james
+I001 LeBron James was born LeBron Raymone James December 30, 1984 in Akron, Ohio.
+  V001001 born
+  V001002 LeBron Raymone James	DEP=V001001
+  V001003 1984	DEP=V001001
+  V001004 December 30	DEP=V001001
+  V001005 Akron	DEP=V001001
+  V001006 Ohio	DEP=V001001
+I002 LeBron James has two children with his high school sweetheart, Savannah Brinson.
+  V002001 two children
+  V002002 Savannah Brinson	DEP=V002001
+  V002003 high school sweetheart	DEP=V002002
+I003 LeBron James has endorsement contracts with Nike, Sprite, Glacéau, Bubblicious, Upper Deck, McDonald's and State Farm.
+  V003001 endorsement contract
+  V003002 Nike	DEP=V003001
+  V003003 Sprite	DEP=V003001
+  V003004 Glacéau	DEP=V003001
+  V003005 Bubblicious	DEP=V003001
+  V003006 Upper Deck	DEP=V003001
+  V003007 McDonald's	DEP=V003001
+  V003008 State Farm	DEP=V003001
+I004 LeBron James is an American professional basketball player for the Miami Heat of the National Basketball Association (NBA).
+  V004001 basketball player
+  V004002 professional	DEP=V004001
+  V004003 American
+  V004004 Miami Heat
+  V004005 National Basketball Association|NBA
+I005 LeBron is nicknamed "King James."
+  V005001 nicknamed King James
+I006 LeBron was three-time "Mr. Basketball" of Ohio in high school.
+  V006001 Mr. Basketball
+  V006002 three-time	DEP=V006001
+  V006003 Ohio	DEP=V006001
+  V006004 high school	DEP=V006001
+I007 LeBron James led the Cleveland Cavaliers to consecutive playoff appearances from 2006 through 2010.
+  V007001 playoff appearances
+  V007002 led	DEP=V007001
+  V007003 Cleveland Cavaliers	DEP=V007001
+  V007004 2006 2010	DEP=V007001
+I008 LeBron James has been a member of the USA national team, winning a bronze medal at the 2004 Olympics and gold at the 2008 Olympics.
+  V008001 member USA national team
+  V008002 win bronze medal Olympics
+  V008003 2004	DEP=V008002
+  V008004 gold medal Olympics.
+  V008005 2008	DEP=V008004
+I009 LeBron James played for the Cleveland Cavaliers from 2003 to 2010.
+  V009001 played Cleveland Cavaliers
+  V009002 2003 to 2010	DEP=V009001
+I010 LeBron James was selected by the Cleveland Cavaliers with the first overall pick in the 2003 NBA Draft.
+  V010001 first pick 2003 NBA Draft
+  V010002 overall	DEP=V010001
+  V010003 Cleveland Cavaliers	DEP=V010001
+I011 LeBron James became the youngest player in league history to score at least 40 points in a game.
+  V011001 youngest player score 40 points game
+  V011002 league history	DEP=V011001
+I012 LeBron James averaged 20.9 points, 5.9 assists, and 5.5 rebounds per game for his first season and was named 2003-04 NBA Rookie of the Year; becoming the first Cavalier and youngest NBA player to ever receive the award.
+  V012001 averaged 20.9 points per game first season
+  V012002 averaged 5.9 assists per game first season
+  V012003 averaged 5.5 rebounds per game first season
+  V012004 NBA Rookie of the Year
+  V012005 2003-04	DEP=V012004
+  V012006 first Cavalier	DEP=V012004
+  V012007 youngest NBA player	DEP=V012004
+I013 LeBron James has played for the Miami Heat since 2010.
+  V013001 play Miami Heat
+  V013002 since 2010	DEP=V013001
+I014 As of the 2010-11 season, LeBron James has averaged 27.7 points, 7.0 assists and 7.1 rebounds per game for his career in the regular season, and has recorded 34 triple-doubles in his career, with 28 in the regular season and six in the postseason
+  V014001 averaged 27.7 points per game career
+  V014002 averaged 7.0 assists per game career
+  V014003 averaged 7.1 rebounds per game career
+  V014004 regular season	DEP=V014001
+  V014005 regular season	DEP=V014002
+  V014006 regular season	DEP=V014003
+  V014007 2010-11	DEP=V014001
+  V014008 2010-11	DEP=V014002
+  V014009 2010-11	DEP=V014003
+  V014010 triple-doubles
+  V014011 34 career	DEP=V014010
+  V014012 28 regular season	DEP=V014010
+  V014013 6 postseason	DEP=V014010
+I015 In April 2010, Forbes ranked LeBron James as the second most influential athlete behind Lance Armstrong.
+  V015001 second most influential athlete
+  V015002 Lance Armstrong	DEP=V015001
+  V015003 April 2010	DEP=V015001
+  V015004 Forbes	DEP=V015001
+I016 LeBron James' salary in 2010-2011 for the Miami Heat was $14,500,000.
+  V016001 salary $14,500,000
+  V016002 2010-2011	DEP=V016001
+  V016003 Miami Heat	DEP=V016001
+
+dirk nowitzski
+
+hines ward
+
+tim tebow
+
+Cristiano Ronaldo
+Portuguese footballer playing for Spanish team Real Madrid, position Forward/Striker
+born Feb 5 1985, Funchal Madeira Portugal
+captain of Portuguese national team
+Transfer from Manchester United to Real Madrid $131M, most expensive in history and buyout clause $1B
+Signed in 2003 at MAnchester United for $20M
+2007 FIFA Player of the year 
+Won English Premiere league 3 times, UEFA Champions League once, FIF World Cup once, Copa del Rey once
+At age 15 diagnosed with racing heart for with a laser survey was performed.  
+Ronaldo underwent ankle surgery in Amsterdam on 7 July 2008.
+
+- Matt
+
+
+============================FACILITY============================
+1C2-E-SAMPLE-0009	FACILITY	space needle
+I001 The Space Needle is located at 400 Broad Street, Seattle, WA 98109.
+  V001001 400 Broad Street
+  V001002 Seattle
+  V001003 WA|Washington
+  V001004 98109
+I002 The Space Needle phone number is (800) 937-9582.
+  V002001 (800) 937-9582|800-937-9582|800.937.9582
+I003 The Space Needle is located near the Monorail and Seattle Center House at 5th Avenue North & Broad Street.
+  V003001 Monorail
+  V003002 Seattle Center House
+  V003003 5th Avenue North & Broad Street
+
+1C2-E-SAMPLE-0010	FACILITY	Tufts medical center
+I001 Tufts Medical Center is located at 800 Washington Street Boston, Massachusetts 02111.
+  V001001 800 Washington Street
+  V001002 Boston
+  V001003 MA|Massachusetts
+  V001004 02111
+I002 The Tufts Medical Center phone number is 617-636-5000.
+  V002001 (617) 636-5000|617-636-5000|617.636.5000
+I003 The Tufts Medical Center is located in downtown Boston, next to Chinatown and the Theater District.
+  V003001 downtown Boston
+  V003002 Chinatown
+  V003003 Theater District
+I004 Tufts Medical Center can by accessed via the MBTA Tufts Medical Center Orange Line stop.
+  V004001 Tufts Medical Center stop
+  V004002 Orange Line
+  V004003 MBTA	DEP=V004002
+I005 Tufts Medical Center is also convenient to bus lines 3, 11, 43, 55 and the Silver Line.
+  V005001 bus line
+  V005003 3	DEP=V005001
+  V005004 11	DEP=V005001
+  V005005 43	DEP=V005001
+  V005006 55	DEP=V005001
+  V005007 Silver	DEP=V005001
+I006 Tufts Medical Center Emergency services are located at 830 Washington Street
+  V006001 Emergency services 830 Washington Street
+
+Boston city hall
+I001 Boston City Hall is located at 1 City Hall Square Boston, MA 02201.
+  V001001 1 City Hall Square
+  V001003 MA
+  V001004 02201
+I002 The Boston City Hall phone number is (617) 635-4500.
+  V002001 (617) 635-4500|617-635-4500|617.635.4500
+I003 The Boston City Hall is open Monday through Friday, 8:30 AM to 5:30 PM.
+  V003001 Monday through Friday
+  V003002 8:30 AM to 5:30 PM
+I004 Boston City Hall can be accessed by taking the MBTA Green or Blue line to Government Center station
+  V004001 Government Center station
+  V004002 Green line
+  V004003 Blue line
+  V004004 MBTA	DEP=V004002
+  V004005 MBTA	DEP=V004003
+I005 Boston City Hall is located in City Hall Plaza at Government Center
+  V005001 City Hall Plaza
+  V005002 Government Center
+I006 Boston City Hall is located on Congress Street near Faneuil Hall
+  V006001 Congress Street
+  V006002 Faneuil Hall
+
+Boalt law school - not in file
+
+Dartmouth College --virgil
+private Ivy League School in Hanover NH 
+
+Pecham Library - not in file "bellvue library"
+
+philadelphia art museum
+
+dali museum
+
+FED NY - without NY
+
+alcatraz prison
+
+washington monument
+
+biosphere montreal
+
+wrigley field
+
+zion park
+
+==============================GEO==========================
+1C2-E-SAMPLE-0011	GEO	flower shop downtown LA
+I001 Paradise Florist - 828 West 7th Street Los Angeles, CA 90017 - (213) 891-1209
+  V001001 Paradise Florist
+  V001002 828 West 7th Street	DEP=V001001
+  V001003 CA	DEP=V001001
+  V001004 90017	DEP=V001001
+  V001005 (213) 891-1209	DEP=V001001
+I002 French Florist - 8658 W. Pico Blvd. Los Angeles, CA 90035 - (310) 659-7700, 888.897.8777
+  V002001 French Florist
+  V002002 8658 W. Pico Blvd	DEP=V002001
+  V002003 CA	DEP=V002001
+  V002004 90035	DEP=V002001
+  V002005 (310) 659-7700	DEP=V002001
+  V002006 888.897.8777	DEP=V002001
+I003 Angelic Floral Studio - 517 W 6th St Los Angeles, CA 90014 - (213) 943-4790
+  V003001 Angelic Floral Studio
+  V003002 517 W 6th St	DEP=V003001
+  V003003 CA	DEP=V003001
+  V003004 90014	DEP=V003001
+  V003005 (213) 943-4790	DEP=V003001
+I004 Los Angeles Flower Market - 754 Wall St Los Angeles, CA 90014 - (213) 622-1966
+  V004001 Los Angeles Flower Market
+  V004002 754 Wall St	DEP=V004001
+  V004003 CA	DEP=V004001
+  V004004 90014	DEP=V004001
+  V004005 (213) 622-1966	DEP=V004001
+I005 Primary Petals - 548 S Spring St Los Angeles, CA 90013 - (661) 904-4455
+  V005001 Primary Petals
+  V005002 548 S Spring St	DEP=V005001
+  V005003 CA	DEP=V005001
+  V005004 90013	DEP=V005001
+  V005005 (661) 904-4455	DEP=V005001
+I006 Basic Flowers - 244 S Broadway, Los Angeles, CA 90017 - (213) 995-3333
+  V006001 Basic Flowers
+  V006002 244 S Broadway	DEP=V006001
+  V006003 CA	DEP=V006001
+  V006004 90017	DEP=V006001
+  V006005 (213) 995-3333	DEP=V006001
+I007 Kuragami Plant Boutique - 333 S Alameda St Ste 110, Los Angeles, CA 90013 - (213) 617-0005
+  V007001 Kuragami Plant Boutique
+  V007002 333 S Alameda St Ste 110	DEP=V007001
+  V007003 CA	DEP=V007001
+  V007004 90013	DEP=V007001
+  V007005 (213) 617-0005	DEP=V007001
+I008 Stems Florist - 350 S Grand Avenue, Los Angeles, CA 90071 - (213) 680-3997
+  V008001 Stems Florist
+  V008002 350 S Grand Avenue
+  V008003 CA	DEP=V008001
+  V008004 90071	DEP=V008001
+  V008005 (213) 680-3997	DEP=V008001
+I009 Unique Sarah - 508 E 8th St, Los Angeles, CA 90014 - (213) 833-0003
+  V009001 Unique Sarah
+  V009002 508 E 8th St
+  V009003 CA	DEP=V009001
+  V009004 90014	DEP=V009001
+  V009005 (213) 833-0003	DEP=V009001
+I010 Shibata Floral Company - 755 Wall St Ste 11, Los Angeles, CA 90014 - (213) 995-9900
+  V010001 Shibata Floral Company
+  V010002 755 Wall St Ste 11
+  V010003 CA	DEP=V010001
+  V010004 90014	DEP=V010001
+  V010005 (213) 995-9900	DEP=V010001
+I011 Milagra Wholesale Flowers - 770 Wall St, Los Angeles, CA 90014 - (213) 629-5867
+  V011001 Milagra Wholesale Flowers
+  V011002 770 Wall St	DEP=V011001
+  V011003 CA	DEP=V011001
+  V011004 90014	DEP=V011001
+  V011005 (213) 629-5867	DEP=V011001
+I012 Kahlen Flowers - 301 E 1st St, Los Angeles, CA 90012 - (213) 590-3792
+  V012001 Kahlen Flowers
+  V012002 301 E 1st St	DEP=V012001
+  V012003 CA	DEP=V012001
+  V012004 90012	DEP=V012001
+  V012005 (213) 590-3792	DEP=V012001
+I013 Ixora Floral Studio - 545 S Figueroa St, Los Angeles, CA 90071 - (213) 623-3991
+  V013001 Ixora Floral Studio
+  V013002 545 S Figueroa St	DEP=V013001
+  V013003 CA	DEP=V013001
+  V013004 90071	DEP=V013001
+  V013005 (213) 623-3991	DEP=V013001
+I014 Bloomies Flowers - 515 S Olive St, Los Angeles, CA 90013 - (213) 489-9757
+  V014001 Bloomies Flowers
+  V014002 515 S Olive St	DEP=V014001
+  V014003 CA	DEP=V014001
+  V014004 90013	DEP=V014001
+  V014005 (213) 489-9757	DEP=V014001
+
+1C2-E-SAMPLE-0012	GEO	post office Kingston, ontario
+I001 Kingston PO - 120 Clarence St Kingston ON K7L 1X0 1-800-267-1177
+  V001001 Kingston PO
+  V001002 120 Clarence St	DEP=V001001
+  V001003 K7L 1X0	DEP=V001001
+  V001004 1-800-267-1177	DEP=V001001
+I002 Shoppers Drug Mart - 136 Princess St Kingston ON K7L 1A0 - (613) 544-5330
+  V002001 Shoppers Drug Mart 
+  V002002 136 Princess St	DEP=V002001
+  V002003 K7L 1A0	DEP=V002001
+  V002004 (613) 544-5330	DEP=V002001
+I003 Shoppers Drug Mart - 445 Princess St Kingston ON K7L 1C3 - (613) 546-3696
+  V003001 Shoppers Drug Mart 
+  V003002 445 Princess St	DEP=V003001
+  V003003 K7L 1C3	DEP=V003001
+  V003004 (613) 546-3696	DEP=V003001
+
+italian restaurants Greenville TX
+I001 Tony's Italian Kitchen - 6106 Wesley Street, Greenville, TX 75402 - (903) 455-2225
+  V001001 Tony's Italian Kitchen
+  V001002 6106 Wesley Street	DEP=V001001
+  V001003 75402	DEP=V001001
+  V001004 (903) 455-2225	DEP=V001001
+I002 Paesano Cucina Italiana - 3103 Interstate Highway 30, Greenville, TX 75402 - (903) 454-8660
+  V002001 Paesano Cucina Italiana
+  V002002 3103 Highway 30	DEP=V002001
+  V002003 Interstate	DEP=V002001
+  V002004 75402	DEP=V002001
+  V002005 (903) 454-8660	DEP=V002001
+I003 Grandy's - 6112 Wesley Street, Greenville, TX 75402 - (903) 450-1011
+  V003001 Grandy's
+  V003002 6112 Wesley Street	DEP=V003001
+  V002003 75402	DEP=V002001
+  V003004 (903) 450-1011	DEP=V003001
+
+divorce lawyer pitsburg PA
+
+cathedrals milan
+
+cannoli boston
+
+clam chowder new england - Matt
+
+
+=========================DEFINITION==============================
+1C2-E-SAMPLE-0013	DEFINITION	parkinsons disease
+I001 Parkinson's Disease is a degenerative disorder of the central nervous system
+  V001001 degenerative
+  V001002 disorder
+  V001003 central nervous system
+I002 Parkinson's Disease is idiopathic
+  V002001 idiopathic
+I003 Parkinson's Disease treatments manage early symptoms only
+  V003001 treatments manage early symptoms only
+I004 Parkinson's Disease has no cure
+  V004001 no cure
+I005 Parkinson's Disease is diagnosed by exclusion and treatment efficacy
+  V005001 diagnosis
+  V005002 exclusion	DEP=V005001
+  V005003 treatment efficacy	DEP=V005001
+I006 Parkinson's Disease symtoms include slowness of movements (bradykinesia) and rigidity, resting tremor, or postural instability.
+  V006001 symptom 
+  V006002 slowness	DEP=V006001
+  V006003 movement	DEP=V006002
+  V006004 rigidity	DEP=V006001
+  V006005 tremor	DEP=V006001
+  V006006 resting	DEP=V006005
+  V006007 instability	DEP=V006001
+  V006008 postural	DEP=V006007
+I007 Parkinson's Disease treatments include Levodopa, Dopamine agonists, and MAO-B inhibitors
+  V007001 treatment 
+  V007002 levodopa	DEP=V007001
+  V007003 dopamine agonist	DEP=V007001
+  V007004 MAO-B inhibitor	DEP=V007001
+
+
+1C2-E-SAMPLE-0014	DEFINITION	optical fiber
+I001 Optical fiber is thin, flexible, transparent fiber made of pure glass
+  V001001 thin
+  V001002 flexible
+  V001003 transparent
+  V001004 pure glass
+I002 Optical fiber is made of silica
+  V002001 silica
+I003 Optical fiber is a waveguide to transmit light between two ends of the fiber
+  V003001 waveguide
+  V003002 transmit light
+  V003003 between (fiber|cable) ends	DEP=V003002
+I004 Optical fibers have less loss than metal wires
+  V004001 less loss than metal wire
+I005 Optical fibers are immune to electromagnetic interference
+  V005001 (no|immune) electromagnetic interference
+I006 Optical fiber is used for communication, remote sensors, illumination, imaging, endoscopes, and spectroscopy
+  V006001 use
+  V006002 communication	DEP=V006001
+  V006003 remote sensors	DEP=V006001
+  V006004 illumination	DEP=V006001
+  V006005 imaging	DEP=V006001
+  V006006 endoscopes	DEP=V006001
+  V006007 spectroscopy	DEP=V006001
+I007 Optical fiber utilizes total internal reflection
+  V007001 total internal reflection
+
+black hole
+I001 Black hole is a region of spacetime from which nothing can escape.
+  V001001 region of spacetime
+  V001002 nothing escape
+I002 Black hole absorbs all light at horizon (traps light)
+  V002001 (absorbs|traps) all light
+  V002002 horizon	DEP=V002001
+I003 Black hole is a strong gravity field
+  V003001 gravity field
+  V003002 strong	DEP=V003001
+I004 Black hole is named because it reflects no light
+  V004001 name reflect no light
+I005 Black hole is caused by a sufficiently compressed mass
+  V005001 cause compressed mass
+I006 Black hole is possibly caused by massive collapsing stars
+  V006001 cause collapsing star
+  V006002 possibly	DEP=V006001
+I007 Black hole believed to exist at the center of galaxies
+  V007001 center galaxy
+  V007002 believed	DEP=V007001
+
+ISI pakistan - 'isi'
+
+siri - virgil
+
+black panthers
+
+===========================QA==========================
+where was Barack Obama born?
+I001 Barack Obama was born at Kapi'olani Maternity & Gynecological Hospital in Honolulu, Hawaii
+  V001001 Hawaii
+  V001002 Kapi'olani Hospital	DEP=V001001
+  V001003 Maternity & Gynecological	DEP=V001002
+  V001004 Honolulu	DEP=V001001
+
+
+who nobel prize peace 2011
+I001 2011 Nobel Peace Prize was awarded to Ellen Johnson Sirleaf, Leymah Gbowee, Tawakkol Karman
+  V001001 Ellen Johnson Sirleaf
+  V001002 Leymah Gbowee
+  V001003 Tawakkol Karman
+
+who won SuperBowl (2012)?
+I001 The New York Giants won the Super Bowl in 2012
+  V001001 (New York|NY) Giants
+
+1C2-E-SAMPLE-0015	QA	when is the presidential election (2012)
+I001 The presidential election is on Tuesday, November 6, 2012.
+  V001001 November 6
+  V001001 Tuesday	DEP=V001001
+
+how much debt Greece has - not in file
+I001 Greek Gross external debt was $583.3 billion as of 30 June 2011
+  V001001 $583.3 billion
+  V001002 2011	DEP=V001001
+  V001003 June	DEP=V001002
+  V001004 30	DEP=V001003
+  V001005 external	DEP=V001001
+I002 Greek Government debt was 347,204 million euros as of Q3 2011
+  V002001 347,204 million euros
+  V002002 2011	DEP=V002001
+  V002003 Q3	DEP=V002002
+  V002004 government	DEP=V002001
+
+formula for volume of cylinder
+I001 V = pi * r ^2 * h
+  V001001 pi r ^2 h
+I002 the volume equals pi times the radius squared times the height
+  V002001 pi radius square height
+
+1C2-E-SAMPLE-0016	QA	difference between plasma and LCD
+I001 Plasma screens use a matrix of tiny gas plasma cells charged by precise electrical voltages to create a picture.
+  V001001 cells
+  V001002 matrix plasma	DEP=V001001
+  V001003 gas	DEP=V001001
+  V001004 charged	DEP=V001001
+  V001005 precise electrical voltages	DEP=V001004
+  V001006 create (picture|image)	DEP=V001004
+I002 LCD (liquid crystal display) screens are in layman's terms sandwiches made up of liquid crystal pushed in the space between two glass plates.
+  V002001 liquid crystal
+  V002002 display	DEP=V002001
+  V002003 sandwiched glass plates	DEP=V002001
+I003 LCD images are created by varying the amount of electrical charge applied to the crystals
+  V003001 LCD vary electrical charge
+  V003002 create (picture|image)	DEP=V003001
+I004 Plasma has deeper blacks than LCD
+  V004001 deeper blacks
+I005 LCD uses less power than plasma
+  V005001 less power
+I006 LCD lighter than plasma
+  V006001 (lighter|heavier)
+
+
+=============================OTHERS===========================
+
+pearl harbor - virgil
+pearl harbor attack
+
+microsoft office
+microsoft office programs
+
+steve jobs
+I001 Steve Jobs Apple founder and CEO
+I002 Steve Jobs an iconic figure of IT industry
+I003 Steve Jobs directly personally directed development of iPod,  iPhone, iPad
+I004  Steve Jobs founder of Pixar
+I005  Steve Jobs' Pixar produced Toy Story
+I006  Steve Jobs Walt disney largest shareholder
+I007  Steve jobs keynotes were very influential
+I008  Steve Jobs quotes
+I009  Steve Jobs biography walter Isaacson
+I010  Steve Jobs return to Apple 1997
+I011  Steve Jobs fired from Apple 1986
+I012  Steve Jobs  and Wozniak founders of Apple 1974
+I013  Steve Jobs pancreas tumor diagnosed 2004
+I014  Steve Jobs had a particular attention to detail
+I015  Steve Jobs Stanford speech 2005
+I016  Steve Jobs NEXT
+
+
+pride and prejudice
+pride and prejudice characters
+pride and prejudice themes
+iUnit="pride and prejudice novel Jane Austen"
+iUnit="movie 2005 Keira Knigthley"
+iUnit="tv series 1995"
+iUnit="tv series Colin Firth Jennifer Ehle"
+iUnit="manners, morality, education, marriage britain 19 century"
+iUnit="period drama 19 century"
+iUnit="landed gentry social class"
+iUnit="elizabeth bennet and Mr Darcy"
+iUnit="elizabeth bennet four sisters"
+
+
+winston churchill
+winston churchill political career
+winston churchill quotes
+iUnit = "prime minister UK WW2"
+iUnit = "quotes"
+iUnit = "speeches"
+iUnit = "first lord of admiralty"
+iUnit = "against Adolf hitler before war"
+iUnit = "Churchill and Roosvelt"
+iUnit = "prime minister UK second time"
+iUnit = "conservator party leader of opposition"
+iUnit = "fall of british empire"
+iUnit = "nobel prize literature 1957"
+
+
+immigration law US
+immigration law reform
+immigration US
+iUnit = Green Card marriage
+iUnit = Green Card family
+iUnit = Green Card employment
+iUnit = Green card from investment
+iUnit = Green card Extraordinary ability
+iUnit = Green card Special categories
+iUnit = H1B visa petition
+iUnit = H1B visa 6 years length
+iUnit = OPT F1 visa
+
+texas drivers license
+texas drivers license requirements
+
+debt crisis
+European debt crisis
+European debt crisis Greece
+
+siri
+siri iPhone
+siri iPhone languages
+
+best phone games
+
+british airways
+iUnit = book flight
+iUnit = checkin
+iUnit = check flight
+iUnit = baggage
+iUnit = BA heathrow hub
+iUnit = BA office
+iUnit = BA phone number
+iUnit = BA cargo
+iUnit = carries british flag
+iUnit = founded 1974 from BOAC BEA
+iUnit = BA OneWorld American Airlines
+iUnit = BA news
+iUnit = BA financial
+iUnit = BA fleet
+
+currency exchange
+currency exchange rate
+currency exchange rate dollar
+
+
+nike
+nike shoes
+nike basketball shoes
