@@ -1,0 +1,203 @@
+1C2-E-TEST-0003-2.10	Perhaps theyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢re not so influential anymore, but if youÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ve been to a Green Day show recently, youÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ll know they still rock the stage and care a lot about the fans.
+1C2-E-TEST-0003-2.10/001	theyã cents
+1C2-E-TEST-0003-2.10/002	¬	DEP=1C2-E-TEST-0003-2.10013
+1C2-E-TEST-0003-2.10/003	â cents	DEP=1C2-E-TEST-0003-2.10002
+1C2-E-TEST-0003-2.10/004	youã cents
+1C2-E-TEST-0003-2.10/005	¬
+1C2-E-TEST-0003-2.10/006	â cents
+1C2-E-TEST-0003-2.10/007	youã cents
+1C2-E-TEST-0003-2.10/008	¬
+1C2-E-TEST-0003-2.10/009	â cents ll
+1C2-E-TEST-0003-2.10/010	stage
+1C2-E-TEST-0003-2.10/011	lot	DEP=1C2-E-TEST-0003-2.10017
+1C2-E-TEST-0003-2.10/012	fans
+1C2-E-TEST-0003-2.10/013	re
+1C2-E-TEST-0003-2.10/014	influential	DEP=1C2-E-TEST-0003-2.10013
+1C2-E-TEST-0003-2.10/015	anymore	DEP=1C2-E-TEST-0003-2.10013
+1C2-E-TEST-0003-2.10/016	recently
+1C2-E-TEST-0003-2.10/017	care
+1C2-E-TEST-0003-2.12	As for it actually being good music, thatÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s a matter of debate, but apparently the 65 million records theyÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢ve sold worldwide would indicate that a lot of people enjoy it.
+1C2-E-TEST-0003-2.12/001	good music
+1C2-E-TEST-0003-2.12/002	thatã cents
+1C2-E-TEST-0003-2.12/003	¬
+1C2-E-TEST-0003-2.12/004	â cents	DEP=1C2-E-TEST-0003-2.12005
+1C2-E-TEST-0003-2.12/005	matter
+1C2-E-TEST-0003-2.12/006	debate
+1C2-E-TEST-0003-2.12/007	¬
+1C2-E-TEST-0003-2.12/008	â cents	DEP=1C2-E-TEST-0003-2.12007
+1C2-E-TEST-0003-2.12/009	lot
+1C2-E-TEST-0003-2.12/010	people
+1C2-E-TEST-0003-2.12/011	actually	DEP=1C2-E-TEST-0003-2.12001
+1C2-E-TEST-0003-2.12/012	s	DEP=1C2-E-TEST-0003-2.12005
+1C2-E-TEST-0003-2.12/013	apparently
+1C2-E-TEST-0003-2.12/014	65	DEP=1C2-E-TEST-0003-2.12015
+1C2-E-TEST-0003-2.12/015	million	DEP=1C2-E-TEST-0003-2.12016
+1C2-E-TEST-0003-2.12/016	records	DEP=1C2-E-TEST-0003-2.12017
+1C2-E-TEST-0003-2.12/017	theyã	DEP=1C2-E-TEST-0003-2.12018
+1C2-E-TEST-0003-2.12/018	cents
+1C2-E-TEST-0003-2.12/019	sold	DEP=1C2-E-TEST-0003-2.12021
+1C2-E-TEST-0003-2.12/020	worldwide	DEP=1C2-E-TEST-0003-2.12019
+1C2-E-TEST-0003-2.12/021	indicate
+1C2-E-TEST-0003-2.17	ÃÂ¢Ã¢ÂÂ¬ÃÂWhile Green Day has been more successful with their last two albums ( American Idiot, 21st Century Breakdown ) , they have lost most if not all of their original fan base, that consisted of people who loved to rock!ÃÂ¢Ã¢ÂÂ¬ÃÂ
+1C2-E-TEST-0003-2.17/001	ã cents	DEP=1C2-E-TEST-0003-2.17010
+1C2-E-TEST-0003-2.17/002	å	DEP=1C2-E-TEST-0003-2.17011
+1C2-E-TEST-0003-2.17/003	two albums
+1C2-E-TEST-0003-2.17/004	american idiot	DEP=1C2-E-TEST-0003-2.17003
+1C2-E-TEST-0003-2.17/005	21st century breakdown	DEP=1C2-E-TEST-0003-2.17004
+1C2-E-TEST-0003-2.17/006	original fan base
+1C2-E-TEST-0003-2.17/007	people
+1C2-E-TEST-0003-2.17/008	ã cents	DEP=1C2-E-TEST-0003-2.17002
+1C2-E-TEST-0003-2.17/009	â ¬ â	DEP=1C2-E-TEST-0003-2.17008
+1C2-E-TEST-0003-2.17/010	â	DEP=1C2-E-TEST-0003-2.17011
+1C2-E-TEST-0003-2.17/011	¬
+1C2-E-TEST-0003-2.17/012	successful	DEP=1C2-E-TEST-0003-2.17013
+1C2-E-TEST-0003-2.17/013	lost	DEP=1C2-E-TEST-0003-2.17002
+1C2-E-TEST-0003-2.17/014	consisted	DEP=1C2-E-TEST-0003-2.17002
+1C2-E-TEST-0003-2.17/015	loved	DEP=1C2-E-TEST-0003-2.17007
+1C2-E-TEST-0003-2.17/016	rock	DEP=1C2-E-TEST-0003-2.17015
+1C2-E-TEST-0003-2.22	[quote]Everyone has political views, EVERYONE, but the time and place for that is no way in hell found in punk rock music,[/quote]
+1C2-E-TEST-0003-2.22/001	quote
+1C2-E-TEST-0003-2.22/002	political views
+1C2-E-TEST-0003-2.22/003	time place	DEP=1C2-E-TEST-0003-2.22004
+1C2-E-TEST-0003-2.22/004	way
+1C2-E-TEST-0003-2.22/005	hell
+1C2-E-TEST-0003-2.22/006	punk rock music
+1C2-E-TEST-0003-2.22/007	quote	DEP=1C2-E-TEST-0003-2.22006
+1C2-E-TEST-0003-2.22/008	found	DEP=1C2-E-TEST-0003-2.22005
+1C2-E-TEST-0003-2.25	[quote]So, when will it be enough Green Day?
+1C2-E-TEST-0003-2.25/001	quote
+1C2-E-TEST-0003-2.46	The audience was mostly teenagers, dressed in their best Hot Topic outfit and weÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢re even watching the concert.
+1C2-E-TEST-0003-2.46/001	audience	DEP=1C2-E-TEST-0003-2.46002
+1C2-E-TEST-0003-2.46/002	teenagers
+1C2-E-TEST-0003-2.46/003	best hot topic
+1C2-E-TEST-0003-2.46/004	outfit weã	DEP=1C2-E-TEST-0003-2.46009
+1C2-E-TEST-0003-2.46/005	¬
+1C2-E-TEST-0003-2.46/006	â cents	DEP=1C2-E-TEST-0003-2.46005
+1C2-E-TEST-0003-2.46/007	concert	DEP=1C2-E-TEST-0003-2.46010
+1C2-E-TEST-0003-2.46/008	dressed	DEP=1C2-E-TEST-0003-2.46002
+1C2-E-TEST-0003-2.46/009	cents
+1C2-E-TEST-0003-2.46/010	watching
+1C2-E-TEST-0003-2.49	Billy Joe got on stage and started to voice his opinions, which he is allowed to have but the audience wasnÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢t listeningÃÂ¢Ã¢ÂÂ¬ÃÂ¦
+1C2-E-TEST-0003-2.49/001	billy joe	DEP=1C2-E-TEST-0003-2.49007
+1C2-E-TEST-0003-2.49/002	stage
+1C2-E-TEST-0003-2.49/003	opinions	DEP=1C2-E-TEST-0003-2.49009
+1C2-E-TEST-0003-2.49/004	audience wasnã cents
+1C2-E-TEST-0003-2.49/005	¬
+1C2-E-TEST-0003-2.49/006	¬ â ¦
+1C2-E-TEST-0003-2.49/007	got
+1C2-E-TEST-0003-2.49/008	started	DEP=1C2-E-TEST-0003-2.49007
+1C2-E-TEST-0003-2.49/009	voice	DEP=1C2-E-TEST-0003-2.49008
+1C2-E-TEST-0003-2.49/010	allowed	DEP=1C2-E-TEST-0003-2.49003
+1C2-E-TEST-0003-2.49/011	â	DEP=1C2-E-TEST-0003-2.49012
+1C2-E-TEST-0003-2.49/012	cents	DEP=1C2-E-TEST-0003-2.49015
+1C2-E-TEST-0003-2.49/013	t	DEP=1C2-E-TEST-0003-2.49015
+1C2-E-TEST-0003-2.49/014	listeningã	DEP=1C2-E-TEST-0003-2.49015
+1C2-E-TEST-0003-2.49/015	cents
+1C2-E-TEST-0003-2.50	Billy Joe started to rail against commericalism, this is when I blew a gasket.
+1C2-E-TEST-0003-2.50/001	billy joe	DEP=1C2-E-TEST-0003-2.50005
+1C2-E-TEST-0003-2.50/002	rail
+1C2-E-TEST-0003-2.50/003	commericalism
+1C2-E-TEST-0003-2.50/004	gasket	DEP=1C2-E-TEST-0003-2.50006
+1C2-E-TEST-0003-2.50/005	started
+1C2-E-TEST-0003-2.50/006	blew
+1C2-E-TEST-0003-2.51	In the background were images on the video wall of great bands in the past like 7-Seconds, Fugazi, Ramones, etc.
+1C2-E-TEST-0003-2.51/001	background
+1C2-E-TEST-0003-2.51/002	images
+1C2-E-TEST-0003-2.51/003	video
+1C2-E-TEST-0003-2.51/004	wall	DEP=1C2-E-TEST-0003-2.51002
+1C2-E-TEST-0003-2.51/005	great bands
+1C2-E-TEST-0003-2.51/006	past
+1C2-E-TEST-0003-2.51/007	7-seconds
+1C2-E-TEST-0003-2.51/008	fugazi ramones	DEP=1C2-E-TEST-0003-2.51007
+1C2-E-TEST-0003-2.51/009	etc.	DEP=1C2-E-TEST-0003-2.51007
+1C2-E-TEST-0003-2.54	Right above the singers head was a huge sign that said ÃÂ¢Ã¢ÂÂ¬ÃÂVERIZONÃÂ¢Ã¢ÂÂ¬ÃÂ, also there were signs for Papa Johns Pizza, Amtrak and some soft drink company (Pepsi or Coke).
+1C2-E-TEST-0003-2.54/001	singers
+1C2-E-TEST-0003-2.54/002	head	DEP=1C2-E-TEST-0003-2.54003
+1C2-E-TEST-0003-2.54/003	huge sign
+1C2-E-TEST-0003-2.54/004	ã cents	DEP=1C2-E-TEST-0003-2.54013
+1C2-E-TEST-0003-2.54/005	verizonã cents
+1C2-E-TEST-0003-2.54/006	¬ â
+1C2-E-TEST-0003-2.54/007	signs
+1C2-E-TEST-0003-2.54/008	papa johns pizza
+1C2-E-TEST-0003-2.54/009	amtrak	DEP=1C2-E-TEST-0003-2.54008
+1C2-E-TEST-0003-2.54/010	soft drink company	DEP=1C2-E-TEST-0003-2.54008
+1C2-E-TEST-0003-2.54/011	pepsi coke	DEP=1C2-E-TEST-0003-2.54008
+1C2-E-TEST-0003-2.54/012	right	DEP=1C2-E-TEST-0003-2.54003
+1C2-E-TEST-0003-2.54/013	â	DEP=1C2-E-TEST-0003-2.54015
+1C2-E-TEST-0003-2.54/014	¬	DEP=1C2-E-TEST-0003-2.54015
+1C2-E-TEST-0003-2.54/015	å
+1C2-E-TEST-0003-2.57	When Green Day started, they might have been more punk but itÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s hard to take them serious when their albums are sold at Wal-mart, they do the Nick KidÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s Choice Awards and are multi-millionaireÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢s.
+1C2-E-TEST-0003-2.57/001	punk	DEP=1C2-E-TEST-0003-2.57014
+1C2-E-TEST-0003-2.57/002	itã cents
+1C2-E-TEST-0003-2.57/003	¬	DEP=1C2-E-TEST-0003-2.57016
+1C2-E-TEST-0003-2.57/004	â cents	DEP=1C2-E-TEST-0003-2.57003
+1C2-E-TEST-0003-2.57/005	albums	DEP=1C2-E-TEST-0003-2.57019
+1C2-E-TEST-0003-2.57/006	wal-mart
+1C2-E-TEST-0003-2.57/007	nick kidã cents
+1C2-E-TEST-0003-2.57/008	¬	DEP=1C2-E-TEST-0003-2.57010
+1C2-E-TEST-0003-2.57/009	â cents	DEP=1C2-E-TEST-0003-2.57008
+1C2-E-TEST-0003-2.57/010	choice awards
+1C2-E-TEST-0003-2.57/011	cents
+1C2-E-TEST-0003-2.57/012	¬
+1C2-E-TEST-0003-2.57/013	â cents	DEP=1C2-E-TEST-0003-2.57012
+1C2-E-TEST-0003-2.57/014	started
+1C2-E-TEST-0003-2.57/015	s	DEP=1C2-E-TEST-0003-2.57016
+1C2-E-TEST-0003-2.57/016	hard
+1C2-E-TEST-0003-2.57/017	take	DEP=1C2-E-TEST-0003-2.57016
+1C2-E-TEST-0003-2.57/018	serious	DEP=1C2-E-TEST-0003-2.57019
+1C2-E-TEST-0003-2.57/019	sold	DEP=1C2-E-TEST-0003-2.57017
+1C2-E-TEST-0003-2.57/020	s	DEP=1C2-E-TEST-0003-2.57010
+1C2-E-TEST-0003-2.57/021	multi-millionaireã	DEP=1C2-E-TEST-0003-2.57010
+1C2-E-TEST-0003-2.58	I know, just because someone has money doesnÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢t mean they are a sellout.
+1C2-E-TEST-0003-2.58/001	money doesnã cents
+1C2-E-TEST-0003-2.58/002	¬
+1C2-E-TEST-0003-2.58/003	â cents t mean
+1C2-E-TEST-0003-2.58/004	sellout	DEP=1C2-E-TEST-0003-2.58003
+1C2-E-TEST-0003-2.59	I just think their message is outdated, hollow and falling on deaf ears or at least ears that were too busy texting to pay attention.
+1C2-E-TEST-0003-2.59/001	message	DEP=1C2-E-TEST-0003-2.59004
+1C2-E-TEST-0003-2.59/002	deaf ears
+1C2-E-TEST-0003-2.59/003	attention	DEP=1C2-E-TEST-0003-2.59011
+1C2-E-TEST-0003-2.59/004	outdated
+1C2-E-TEST-0003-2.59/005	hollow
+1C2-E-TEST-0003-2.59/006	falling	DEP=1C2-E-TEST-0003-2.59005
+1C2-E-TEST-0003-2.59/007	least
+1C2-E-TEST-0003-2.59/008	ears	DEP=1C2-E-TEST-0003-2.59006
+1C2-E-TEST-0003-2.59/009	busy	DEP=1C2-E-TEST-0003-2.59008
+1C2-E-TEST-0003-2.59/010	texting	DEP=1C2-E-TEST-0003-2.59009
+1C2-E-TEST-0003-2.59/011	pay	DEP=1C2-E-TEST-0003-2.59010
+1C2-E-TEST-0003-2.60	Also, IÃÂ¢Ã¢ÂÂ¬Ã¢ÂÂ¢m not keen to calling Green Day punk in the traditional sense of the genre of music.
+1C2-E-TEST-0003-2.60/001	iã cents
+1C2-E-TEST-0003-2.60/002	¬	DEP=1C2-E-TEST-0003-2.60010
+1C2-E-TEST-0003-2.60/003	punk	DEP=1C2-E-TEST-0003-2.60011
+1C2-E-TEST-0003-2.60/004	traditional sense
+1C2-E-TEST-0003-2.60/005	genre
+1C2-E-TEST-0003-2.60/006	music
+1C2-E-TEST-0003-2.60/007	â	DEP=1C2-E-TEST-0003-2.60008
+1C2-E-TEST-0003-2.60/008	cents	DEP=1C2-E-TEST-0003-2.60009
+1C2-E-TEST-0003-2.60/009	m
+1C2-E-TEST-0003-2.60/010	keen
+1C2-E-TEST-0003-2.60/011	calling
+1C2-E-TEST-0003-2.9	ÃÂ¢Ã¢ÂÂ¬ÃÂGreen day used to be one of the most influential punk rock bands to date, from the days of Dookie and Kerplunk , from a time when they actually knew how to make music, when they used to rock the stage live, and CARE about their fansÃÂ¢Ã¢ÂÂ¬ÃÂ¦ÃÂ¢Ã¢ÂÂ¬ÃÂ
+1C2-E-TEST-0003-2.9/001	ã cents	DEP=1C2-E-TEST-0003-2.9012
+1C2-E-TEST-0003-2.9/002	date
+1C2-E-TEST-0003-2.9/003	days
+1C2-E-TEST-0003-2.9/004	dookie kerplunk
+1C2-E-TEST-0003-2.9/005	time
+1C2-E-TEST-0003-2.9/006	music	DEP=1C2-E-TEST-0003-2.9021
+1C2-E-TEST-0003-2.9/007	stage	DEP=1C2-E-TEST-0003-2.9023
+1C2-E-TEST-0003-2.9/008	care	DEP=1C2-E-TEST-0003-2.9006
+1C2-E-TEST-0003-2.9/009	fansã cents
+1C2-E-TEST-0003-2.9/010	¬ â ¦ ã cents â	DEP=1C2-E-TEST-0003-2.9011
+1C2-E-TEST-0003-2.9/011	¬ â
+1C2-E-TEST-0003-2.9/012	â	DEP=1C2-E-TEST-0003-2.9014
+1C2-E-TEST-0003-2.9/013	¬	DEP=1C2-E-TEST-0003-2.9014
+1C2-E-TEST-0003-2.9/014	å
+1C2-E-TEST-0003-2.9/015	influential	DEP=1C2-E-TEST-0003-2.9018
+1C2-E-TEST-0003-2.9/016	punk	DEP=1C2-E-TEST-0003-2.9018
+1C2-E-TEST-0003-2.9/017	rock	DEP=1C2-E-TEST-0003-2.9018
+1C2-E-TEST-0003-2.9/018	bands
+1C2-E-TEST-0003-2.9/019	actually	DEP=1C2-E-TEST-0003-2.9020
+1C2-E-TEST-0003-2.9/020	knew	DEP=1C2-E-TEST-0003-2.9005
+1C2-E-TEST-0003-2.9/021	make	DEP=1C2-E-TEST-0003-2.9020
+1C2-E-TEST-0003-2.9/022	rock
+1C2-E-TEST-0003-2.9/023	live	DEP=1C2-E-TEST-0003-2.9022
