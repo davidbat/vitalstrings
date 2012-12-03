@@ -14,7 +14,7 @@ my $indexdir = "../data/indices";
 my $sindexdir = "../data/summaryindices";
 
 # External Commands
-my $dumpcmd = "/usr/local/bin/dumpindex";
+my $dumpcmd = "./dumpindex";
 
 
 
