@@ -1,0 +1,72 @@
+CCS stands for Compressed Column Storage. It is the most common sparse storage scheme (see http://netlib.org/linalg/html_templates/node90.html ).
+CRS: Compressed Row Storage, like CCS but row major
+nnz: number of nonzero entries
+What's the plan ?
+Ideally:
+define our own classes for storage and basic algebra (sum, product, triangular solver)
+a good support of CCS/CRS sparse matrix is certainly the priority as it is the most common storage format
+we could probably adapt the linear solver algorithms of GMM++ (or ITL) to directly use our matrix classes
+see the licensing issues
+provide the ability to use more optimized backends like TAUCS or SuperLU as well as backends for eigen value solvers via a unified API
+Current state
+For the first step the goal is to focus on CCS (CRS) sparse matrix. See the class SparseMatrix.
+our SparseMatrix matrix can be filled dynamically in a coherent order, i.e. with increasing i+j*rows (no random write)
+a SparseMatrix can also be set randomly via the class RandomSetter (it temporarily store the matrix coefficient into a set of hash map, built-in support for std::map, std::hash_map, google::dense_hash_map, and google::sparse_hash_map)
+unlike several other sparse libraries (e.g., CSparse), the coefficients of our CCS matrices are always sorted.
+efficient shallow copy for matrices marked as rvalue
+most of basic operations are supported in a generic way:
+add, sub, scale, transpose etc. (all via efficient expression templates)
+efficient transposition (i.e., when a transpose expression gets evaluated)
+efficient sparse-sparse matrix product (no SSE yet)
+preliminary support for sub matrices (blocks) but not very good yet
+triangular solver with a dense right-hand side (vector or matrix)
+LDLT Cholesky factorization with direct solver
+adapted from T. Davis's LDL library
+LLT Cholesky factorization with direct solver
+for CCS only
+3 backends:
+a built-in one, very basic but useful to perform an incomplete factorization (currently, double and float only)
+cholmod (currently, double and float only)
+TAUCS (currently, double and float only)
+LU factorization with direct solver
+no built-in implementation yet, 2 external backends:
+SuperLU (all types, float/double/complex<*>)
+umfpack (double and complex<double> only)
+all backends give access to the matrices L and U, the permutations (P and Q) and the determinant
+Internally, each expression defines a InnerIterator which allows to efficiently traverse the inner coefficients of a sparse (or dense) matrix. Of course, these InnerIterator can be nested exactly like expressions are nested such that our sparse matrices support expression templates !
+InnerIterator are implemented for:
+a default implementation for MatrixBase (suitable for any dense expressions)
+CwiseUnaryOp
+CwiseBinaryOp (with some shortcomings, see below)
+SparseMatrix
+Block (with some shortcomings, see below)
+Write/Update access patterns
+When dealing with sparse matrix, a critical operation is the efficient set/update of the coefficients. In order to offer optimal performance it is necessary to propose different solutions according to the required access pattern. For instance, a temporary sparse matrix based on a std::map can handle any kind of access pattern, but it also performs very poorly if you are able to fill a matrix in a coherent order. We can identify four different access pattern schemes with their respective technical solutions, ranging from the most efficient to the most flexible.
+Fully coherent access
+Here we assume the matrix is set in a fully coherent order, i.e., such that the coefficients (i,j) are set with increasing i + j*outersize where i is the inner coordinates and j the outer coordinate. In such a case we can directly set a compressed sparse matrix as we would fill a dynamic vector. In order to reduce memory allocations/memory copies, it is important to be able to give a hint about the expected number of non-zeros such that we are able to preallocate enough memory.
+Updating a sparse matrix using this access pattern can be done by filling a new temporary matrix followed by an efficient shallow copy. The current API is:
+SparseMatrix m(rows,cols); m.startFill(2*cols); // 2*cols is a hint on the number of nonzero entries // note that startFill() delete all previous elements in the matrix m.fill(2,0) = rand(); m.fill(3,0) = rand(); m.fill(0,2) = rand(); m.fill(7,2) = rand(); m.fill(12,9) = rand(); m.fill(8,11) = rand(); m.endFill();
+At that point m.nonZeros() == 6 and you cannot add any other nonzero entries. For instance x=m(0,0); will returns zero, while m(0,0)=x; will issue an assert. Of course you can still update an existing nonzero: m(7,2) += 1;. However, similarly to RandomSetter, we could add a CoherentSetter wrapper, such that the API would be:
+SparseMatrix<float> m; { CoherentSetter<MatrixType> w(m); for (int j=0; j<cols; ++j) for (int i=0; i<rows; ++i) if (nonzero(i,j)) w(i,j) = some_non_zero_value; }
+Inner coherent access
+Here we assume the coefficients (i,j) are set with increasing inner coordinate i for each outer vector j. For instance the following sequence of coordinates is valid:
+(2,10) (4,7) (1,12) (4,10) (3,12) (2,1)
+On the other hand, at that point it is forbidden to set the coefficient (2,12) since (3,12) has already been set. From the user point of view, the solution is to create a temporary row-major matrix, fill it in fully coherent manner, and copy it to the target col-major matrix.
+From the implementation point of view, still remains the issue to copy a row-major matrix to a col-major one. A simple and efficient solution, which is already implemented in MatrixBase::operator=, consists to process the input matrix/data in two passes.
+In the first pass we simply count the number of elements per inner vector of the target matrix. This requires only one integer per inner vector. Then we can already initialize the outer indices (starts of each inner vector) using a prefix sum.
+Finally, the data are processed a second time to perform the actual insertion.
+If the non zero coefficients of the input requires some cost to be extracted, then the input must be evaluated to a temporary compressed matrix (with an opposite storage order). This evaluation/copy could be done during the first pass.
+Outer coherent access
+Here each inner vector j is filled randomly, but once we have started to fill the inner vector j, it is forbidden to update any inner vector k with k<j. This scheme occurs in matrix product and triangular solver. Our current solution is called AmbiVector. It implements a vector which can be either a dense one (if the vector appears to be quite dense), or a linked list if the vector is really sparse. However, for a triangular solver with sparse right hand side, the recommended solution seems to be to compute the so called elimination tree.
+Random access
+Implemented via a RandomSetter wrapper which internally store the matrix coefficient in a set of hash map. Current API:
+{ RandomSetter<MatrixType> w(m); for (...) w(rand(),rand()) = some_non_zero_value; }
+Issues
+The major issue with sparse matrices is that they can only be efficiently traversed in a specific order, i.e., per column for a CCS matrix and per row for a CRS matrix. The nightmare starts when you have to deal with expressions mixing CCS matrices (column major) and CRS matrices (row major).
+Binary operators (aka. operator+)
+Here the problem is that we cannot mix a CCS with a CRS. In such a case one of the argument have to be evaluated to the other format (let's pick the default format). This requires some modifications in Eigen/Core:
+needs a more advanced mechanism to determine the storage order of a CwiseBinaryOP<> expression
+needs to modify nesting in ei_traits<CwiseBinaryOP<> > such that if an argument is sparse and has a different storage order than the expression itself, then it has to be evaluated to a sparse temporary.
+Matrix product (again !)
+Here we have to investigate all the possible combinations for the 2 operands and the results (2*2*2=8 possibilities):
+lhs

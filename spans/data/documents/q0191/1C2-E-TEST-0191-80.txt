@@ -1,0 +1,27 @@
+Helium Atom
+4.002602
+If the math is done it can be seen that the helium atom weighs less than the mass of two protons and two neutrons! The same can be found with Oxygen that weighs 15.994915 u, if fact it can be found for all atoms. The difference between the mass of an atom and the sum of an atom’s parts is called the mass defect.
+The mass defect can be explained by Einstein’s mass-energy equivalence:
+(3)
+\begin{equation} E = mc^2 \end{equation}
+If you slam to small nuclei into each other and create a bigger atom (but with less mass) then energy is released. The loss of mass is equal to the energy released. For example:
+It will take energy to break the new nucleus apart, the energy required to break up a nucleus into in neutron and protons is called the binding energy. In the reaction shown above the energy required to reverse the reaction (break up the helium into hydrogen) is equal to the energy released.
+The binding energy of an atom can be approximated summing the mass of the individual neutrons and the mass of the individual protons subtracting the mass of the atom and multiplying by the speed of light squared:
+(4)
+\begin{align} E = \left [ N \cdot m_n + Z \cdot m_p - mass \: of \: atom \right ] c^2 \end{align}
+Where N is the number of neutrons, mn the mass of a neutron (u), Z is the number and protons, mp is the mass of a proton (u) and c is the speed of light in MeV u-1.
+Describe the processes of nuclear fission and fusion
+Things go boom.
+The nuclear fission is the process in which a large nucleus splits into two or more smaller nuclei. The only naturally occurring fissionable nucleus is Uranium 235. The Uranium 235 is bombarded with slow or thermal neutrons, the Uranium 235 captures a neutron and becomes Uranium 236 but it is an excited Uranium 236, which is very unstable. The Uranium 236 nucleus quickly decays by fission and splits into two nuclei. If the Uranium 236 atom is allowed to settle to its ground state it will be very stable and has a half of approximately 25 million years. An example of the nuclear equation for the fission of Uranium 235 is shown below:
+The products of the nuclear reaction are not always the same. There are several possible by products of the fission of Uranium 235.
+Note that in the reaction shown there are 2 neutrons released. If these two neutrons are captured by other Uranium 235 nuclei two more reactions occur and then there are 4 neutrons are released… a chain reaction occurs. This is how nuclear reactor stay on. If the reaction is uncontrolled an explosion occurs.
+In a nuclear reactor the fuel rods are a mix of Uranium 235 and Uranium 238. The vast majority of the Uranium is Uranium 238 (over 99%) which does not fission. However
+238U with a half-life of 4.5 × 109 years
+235U with a half-life of 7 × 108 years
+234U with a half-life of 2.5 × 105 years
+Nuclear fusion is simply the joining together of smaller nuclei to create a larger nuclei. The resulting daughter nuclei is less massive than the original mother nuclei. The mass defect is the cause or the source of the energy released in nuclear fusion. An example of nuclear fusion is the fusion of deuterium and tritium:
+In this reaction the deuterium and tritium combine to form He-5 which almost immediately decays to He-4 the emission of a neutron.
+So back to binding energy…
+To the right is a graph of average binding energy per nucleon vs. atomic number. The greater the binding energy the more stable the nuclei. As a result everything wants to increase its average binding energy per nucleon. Notice that Fe-56 has the highest average binding energy, thus it’s the most stable isotope. Everything to the left of Fe-56 tends to fuse (fusion) to create a larger heavier and more stable nuclei. Everything to the right of Fe-56 tends to break down (fission) to become more stable.
+This also means that any fission of a nuclei larger than Fe-56 will release energy, whereas isotopes smaller than Fe-56 would require energy to fission… The opposite is true for fusion. Nuclides smaller than Fe-56 will release energy when fused and nuclide larger than Fe-56 will require energy to fuse.
+--

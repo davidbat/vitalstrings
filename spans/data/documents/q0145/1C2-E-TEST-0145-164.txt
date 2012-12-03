@@ -1,0 +1,77 @@
+I = the periodic rate of interest*
+n = the # of compounding periods for the term of the loan
+For example,
+If the principal amount is $10,000, the periodic rate of interest is 10% and the # of compounding periods is 6, what is the value at maturity?
+S = P (1 + I) n
+S = $10000 (1 + .10) 6
+S = $ 17715.61
+*The Periodic Rate of Interest
+I = Nominal (Annual) Rate of Interest (j) = j / m
+# of compounding periods per year (m)
+For example, if the annual rate of interest is 10.5 % compounded monthly, the periodic rate of interest would be:
+I = j / m
+= 10.5% / 12
+= .875 % = .00875
+Moreover, if the annual rate of interest is 15 % compounded semi-annually, the periodic rate of interest would be:
+I = j / m
+= 15 % / 2
+= 7.5 % = .075
+The value calculated for I in both of the examples above would be the value I in the Future Value Formula.
+--------------------------------------…
+The Present Value Formula for Compound Interest
+The present value formula allows you to calculate what you had or would need to invest to achieve a required goal. The process of computing the present value is referred to as "discounting". The formula is as follows:
+P = S(1 + I) n
+Notice from the formula above, that it is simply the future value formula rewritten in terms of P.
+For example,
+If you wish to have $ 1 000 000 to retire with at the age of 50, what will you need to invest this year if you are 20 and you earn 5% interest compounded annually?
+P = S(1 + I) n
+P = $1 000 000(1 + .05)30
+P = $ 1 000 000(4.322)
+P = $ 231,377.45
+Therefore, if you are 20, you want to retire at 50 with one million dollars, and you can get an interest rate of 5% compounded annually, you will need to invest $ 231,377.45 this year.
+--------------------------------------…
+Changes in Interest Rate or Principal
+Often interest rates fluctuate over time. It is important to take this into account when calculating present and future values using compound interest.
+Example A,
+A deposit of $2000 earns interest at 6% p.a. compounded monthly for four years. At that time, the interest rate changes to 7% p.a. compounded quarterly. What is the value of the deposit three years after the interest rate change?
+Step 1:
+In this step, we must calculate the value of $2000 after 4 years of investment:
+S1 = P (1 + I) n                                     (I1 = 6% / 12 = .5% = .005)
+S1 = $2000 (1 + .005) 48
+S1 = $2540.98
+(note: n = 48 because we were compounding our interest monthly over a 4 year period)
+Step 2:
+In this step, we take our new Principle of $2540.98 and calculate what it will be worth in 3 years:
+S2 = P (1+ I) n                                             (I2 = 7% / 4 = 1.75% = .0175)
+S2 = $2540.98 (1 + .0175) 12
+S2 = $3129.06
+(note: n = 12 because we were compounding our interest quarterly over a 3 year period)
+Therefore, the value of the deposit 3 years after the interest rate change is $3129.06.
+But what if we want to pay off some of the principal at a certain time? We have to be able to account for a change in the principal amount during the period:
+Example B,
+Larry opened an RRSP on February 1, 1994, with a deposit of $2000. He added $1900 on February 1, 1995, and another $1700 on February 1, 1998. What will his account amount to on August 1, 2004, if the plan earns a fixed rate of interest of 11% p.a. compounded semi-annually?
+Step 1:
+Determine the future value of $2000:
+S1 = $2000 (1 + .055) 2                                         (I1 = 11% / 2 = 5.5% = .055)
+S1 = $2226.05
+Add the deposit of $1900 to the new principal; then determine S2:
+New Principle = $2226.05 + $1900 = $4126.05
+S2 = $4126.05 (1.055) 6                                 (I2 = 11% / 2 = 5.5% = .055)
+S2 = $5689.17
+Step 3:
+Add the deposit of $1700 to $5689.17 to obtain the new principal; then determine its future value on August 1, 2004:
+New Principle = $5689.17 + $1700 = $7389.17
+S3 = $7389.17 ( 1.055) 13
+Therefore, the RRSP will be worth $14821.00 by the date August 1, 2004.
+(note: all values of "n" were determined using a timeline »»» see below)
+--------------------------------------…
+Timelines
+Timelines are often used in compound interest examples in order to better illustrate the problems at hand.  They offer a visual representation of the problem at hand, which allows for further understanding.  In Example B above (Changes in Interest Rate or Principle), a timeline should be used in order to create a clear understanding of the data given.  A timeline looks like this:
+Feb 1, '94                Feb 1, '95                   Feb 1, '98                         Aug 1, '04
+--------------------------------------…
+$2000         »»»       Add $1900    »»»      Add $1700        »»»           S3 = ?
+The above timeline shows an initial deposit of $2000, followed by 2 more investments of $1900 and $1700 respectively.  The question asks for the value of S3 on Aug 1, 2004.   The timeline allows you to show not only when further investments are made, but also provides a better understanding for the calculation of "n".
+--------------------------------------…
+Summary
+Compound interest is simply "interest on interest". It is widely used in today's world and is an important concept to know. Using several formulas, it is possible to manipulate data not only in an educational setting, but also in examining investment strategies and in aiding other business ventures in personal life.
+Source(s):

@@ -1,0 +1,52 @@
+Scan using ICMP, SNMP, DNS, and WMI
+Scheduled Scanning: Daily, Weekly, Monthly
+Scan multiple subnets simultaneously
+Manually mark an IP Address as Reserved, Static etc.
+IP History and Audit
+View the history of IP allocations
+Audit and track the changes made to the IP Address Manager tool
+Get the change history with the logged in user with date and time of the change
+Powerful Search
+Search using IP Address, MAC Address, DNS Name, Location, Switch Name, etc.
+Reports
+Report of available and used IP Addresses in the network
+Export report to PDF/CSV/XLS format
+Alert Notification
+Email Alert notification when  an IP Address becomes available or used
+Active Directory Integration
+OpUtils integrates with the Windows Active Directory to check whether the IP pertains to a computer object in the Active Directory. OpUtils periodically scans the Windows Active Directory to fetch the details of the computer objects and updates the database. For computers that are in Active Directory, the details like Created Time, GUID, Last Logon, OS Name, OS Version, etc., are retrieved and shown.
+Hierarchical Tree View
+The IPAM software enables administrators to create an hierarchical representation of their network. It allows to create tree nodes to represent the location or the usage and add subnets under them. This way the administrator can easily locate a subnet to get the required details. Allows easy modification - drag-n-drop subnets between groups, renaming a tree node, add/delete a subnet, scan all the subnets in a group, etc.
+Role Based Administration
+Role based administration helps administrators to exercise  more control by creating users with Administrator or  Technician Roles. While users in Administrator Role will have complete access, users in Technician Role will only have read-only access.
+End-to-End IP Details
+The IPAM software periodically scans the subnets using ICMP, SNMP, DNS, and WMI to get the details of the IP Addresses. It provides the complete details of an IP Address like, DNS name, MAC Address, State, System Name, Device Type, Switch Name, Switch Port, Alias Name, Owner, etc.
+The IPAM tool also allows the administrators to add their own columns to store user-defined values. Columns can be created both at the subnet-level and at the IP Details level.
+Discovering / Adding Subnets
+Adding subnets to the IPAM software can be either manual or auto-discovered from the Routers. When the subnets are discovered from the Routers, the administrator has to verify its correctness and approve them for scanning. Once the subnets are added/approved, they are automatically scanned in the background. The administrators, optionally, can also specify brief descriptions for the subnets they add.
+Flexible Scanning
+The IPAM software provides flexible scanning options - can be scanned manually or can be scheduled to run at specified intervals. The administrator can also choose the scanning options like Ping, SNMP, DNS, etc. For subnets that are behind a firewall or when the subnets could not be reached directly, the administrator can disable scanning and can manually mark the status of the IP Addresses as used or Available. It also has options to reserve an IP Address for a specific use.
+IP History and Audit
+When it comes to IP Address Management, auditing is utmost important    to know who did what and when. IP Address Manager logs all the events    performed using the tool with the name of the OpUtils User and the date    and time of the event. This helps administrators to track and audit the    changes made using IP Address Manager.
+The administrators will also be able to track the    user for whom a particular IP was allocated on a given date using the IP history
+Powerful Search
+Once all the subnets have been added and scheduled for scanning, the administrator can use the global search option to get the details of an IP Address. The search can be performed using the IP Address, MAC Address, DNS Name, Switch Name, Switch Port, Alias Name, etc.
+Alert Notification
+The IPAM tool provides an option to notify the administrators about the change in state of an IP Address by email. IP Address Manager generates alerts when:
+The state changes from Transient to Available
+The state changes from Available to Used.
+DNS Reverse Lookup Fails
+DNS Forward Lookup returns a different IP
+IP Utilization of a subnet falls below or greater than a specified percentage.
+IP Address Management Reports
+OpUtils, based on the IP Address Manager scan results, provides           the IP Availability Report of the network. It maintains a           policy to declare non-responding IP Addresses as available           IPs. IP Addresses that do not respond for 10 days continuously           are shown as available IPs. This can also be configured to           a desired value. The IP Availability Reports of OpUtils include           both Available and Used IP Addresses.
+Network Tools
+In most cases, administrators might also want to get the current availability,dns name, etc., of any IP Address. From the IP details view, they can click on any ip to perform the following actions:
+Ping - To send an ICMP packet to that IP to check its availability
+Resolve DNS - To resolve the DNS name of that IP
+Resolve MAC Address - To get the MAC address of that IP
+Trace Route - To get thenetwork path of the given IP
+System Explorer - To get the complete details like the snapshot, CPU, Disk Space Memory details, etc., of the given IP
+VNC Viewer - To launch the VNC Viewer to connect to that computer.
+Free IP Address Management
+The IPAM tool can be used to scan a single           subnet in the OpUtils Free edition. For more details on tools           available in free edition, refer to Free             Network Tools .

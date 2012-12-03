@@ -1,0 +1,47 @@
+4 External Links
+Enlightenment DR16
+Enlightenment, Development Release 16 was first released in 2000, and went 1.0 in 2009. It is still under development today, regularly updated by its maintainer Kim 'kwo' Woelders. With compositing, shadows and transparencies, E DR16 kept all of the speed but with up to date refinement.
+To install E16
+Simply run
+# pacman -S enlightenment
+E can be quite different from the other WM's out there, read /usr/share/doc/e16/e16.html after installation to learn more The man page is at 'man e16' , not 'man enlightenment', and only gives startup options.
+(The name Enlightenment supposedly is reserved for the time the main project reach 1.0 - the current 16 and 17 are actually 0.16 and 0.17, as their DR names suggest.)
+Basic Configuration
+Most everything in E DR16 resides in ~/.e16 and is text-based, editable at will. That includes the Menus too.
+Shortcut keys can be either modified by hand, from the ~/.e16/bindings.conf or with the e16keyedit software provided as source on the sourceforge page of the e16 project.
+Background images
+You have to copy the desired wallpapers into ~/.e16/backgrounds/
+MMB or RMB anywhere on the desktop will give access to the settings, select /Desktop/Backgrounds/
+Any new item copied there will get the list auto-updated. Select desired wallpaper from drop-down menu.
+Start/Restart/Stop Scripts
+Create a Init , Start and Stop folders in your ~/.e16 folder: any .sh script found there will either be executed at Startup (from Init folder), at each Restart (from Start folder), or at Shutdown (from Stop folder); provided you allowed it trough the MMB / settings / session / <enable scripts> button and made them executable with chmod +x yourscript.sh.
+Compositor
+Shadows, Transparent effects et all can be found in MMB or RMB /Settings, under Composite .
+Enlightenment DR17
+Main article: e17
+Under Heavy development, constantly changing in SVN. Snapshots have been taken for the Arch Community Repositories, for easy installation and compatibility with the different parts.
+Also included in the E17 Section
+Entice – Image Viewer.
+Entrance – the Enlightement Display Manager is no longer maintained thus packages have been dropped.
+Evidence – Enlightened file manager.
+Eplayer – The Enlightened media player.
+Enlightenment Foundation Libraries
+A set of libraries for expansion on the enlightenment base.
+Libraries & What they are for
+Imlib(2) – Image rendering and Manipulation LIBrary.
+EDB – E DataBase wrapper
+EET – Distrobution (Distribution) Container Libraries and Tools
+Evas – Canvas Library
+Ecore – For event abstraction and Modular Convenience
+Epeg – For thumbnailing JPEGs
+Etox – Text Layout and Manipulation
+Edje – Interface Abstraction Library & Tools
+Embryo – The embeddable scripting language for E
+EWL – Enlightenment Widget Library
+Emotion – Video smart-object library for Evas
+Programs Developed with these libraries
+Eclair – Media Player
+Elicit – Colour picker and desktop magnifier
+Embrace – Mail Application
+Itask (formerly Engage) – Mac-like dockbar
+Entice – Image viewer

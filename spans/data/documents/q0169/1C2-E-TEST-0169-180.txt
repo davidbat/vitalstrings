@@ -1,0 +1,21 @@
+5/10/2010 
+Introduction
+This article discusses performance optimizations for AMD GPUs and CPUs using as a case study a simple, yet widely used computationally intensive kernel: Diagonal Sparse Matrix Vector Multiplication. We look at several topics which come up during OpenCL™ performance optimization and apply them to our case study:
+Translating C code to OpenCL™
+Choosing data structures for dense, aligned memory accesses
+Using local, on-chip memory
+Vectorizing the computation for higher efficiency
+Using OpenCL™ images to improve effective memory bandwidth
+Parallelism for multicore processors
+At the end of our journey, we'll have a high-performance kernel for both the AMD Radeon™ HD 5870 GPU, as well as the AMD Phenom™ II X4 965 CPU.
+OpenCL™ allows developers to write portable, high-performance code that can target both GPUs and CPUs. OpenCL™ unlocks the performance capabilities of today's parallel processors, although, as with any other programming environment, achieving high performance requires careful attention to how the code is mapped to the hardware platform and executed. Since performance is a prime motivation for using OpenCL™, performance optimization is a natural part of learning how to program in OpenCL™.
+Diagonal Sparse Matrix Vector Multiplication
+Matrix vector multiplication is fundamental to a large number of algorithms in a variety of contexts, ranging from finite element modeling to image processing to machine learning. It's a simple computation to understand, but optimizing matrix multiplication can be instructive, since it requires attention to memory access patterns, data structures, and ALU utilization, all topics which come up in OpenCL™ programming in general.
+Consider the following matrix vector multiplication, shown in figure 1:
+Figure 1: Example Matrix Vector Multiplication
+For each element of the result, we simply sum the element-wise product of the corresponding row from the matrix with the given vector.
+Notice that most of the elements in the matrix we're multiplying are zero, so we can achieve better efficiency by treating it as a sparse matrix, avoiding lots of unnecessary multiplication by zero.
+There are many kinds of sparse matrices, categorized by the structure of their non-zero elements. Here, we'll be looking at diagonal sparse matrices (often referred to as DIA), which are efficiently represented as a set of vectors representing the diagonals of the matrix with non-zero elements. Figure 2 shows the structure of a sample matrix derived from a regular 2-D grid, where every element of the grid is connected to its neighbors within a circular radius. The 2-D grid is flattened into a 1-D vector, and each non-zero entry in the matrix connects two elements of the grid - the elements represented by its row and column indices.
+Figure 2: Sparse Matrix Derived From 2-D Grid
+Looking at the structure of the matrix, you can see multiple bands of diagonals, each with a different width. The different widths of the various diagonal bands arise from the rasterized circular neighborhood pattern which created this matrix. If the neighborhood pattern was rectangular, each of the diagonal bands would be the same width. In general, diagonal sparse matrices are useful for representing relationships between elements on regular grids. In this article, we'll be using matrices derived from an image segmentation problem, which of course is expressed as a 2-D grid. Every element is related to all neighbors within a 5-element radius, which leads to a matrix with 11 bands of diagonals, 81 diagonals in total.
+OpenCL™ and the OpenCL™ logo are trademarks of Apple Inc. used by permission by Khronos.

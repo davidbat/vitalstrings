@@ -1,0 +1,106 @@
+Pingback: Neue Generation iPod Touch schneller als iPhone 3G | MACazin
+Eric
+I'm on a first gen touch and have not noticed the performance issues others continue to complain about. I am planning on picking up the third generation whenever it comes out, as I see that this could be a major limitation to my gaming in the future.
+Eric
+I'm on a first gen touch and have not noticed the performance issues others continue to complain about. I am planning on picking up the third generation whenever it comes out, as I see that this could be a major limitation to my gaming in the future.
+Pingback: iPhoneMusician.com » Blog Archive » iTouch 2nd gen faster CPU!
+HHG
+If there is a MAGIC button to push the speed of the iTouch platform internals to full speed and game developers pulled it, what wold it do to battery life?   I don't even want to go there.   We are talking about a 22% or so difference in speed here.  Nothing to laugh at.
+Although it takes a bit more thought, time and asset creation, Developers can easily dynamically adjust the levels of detail in the game, push off as much processing to the GPU as possible and have a cohesive game experience across all of the iTouch devices.
+This - of course  - makes development for the platform a bit more complex - and - it requires developers to actively test and adjust their product across all four systems.  But then again - shouldn't developers be doing that in the first place?
+3D Games can run fast on older hardware, but be prepared for a slight drop in resolution.  2D games on the iPhone are another story.  But then again - since the devices run at different speeds - developers need to adjust their games accordingly.
+HHG
+If there is a MAGIC button to push the speed of the iTouch platform internals to full speed and game developers pulled it, what wold it do to battery life?   I don't even want to go there.   We are talking about a 22% or so difference in speed here.  Nothing to laugh at.
+Although it takes a bit more thought, time and asset creation, Developers can easily dynamically adjust the levels of detail in the game, push off as much processing to the GPU as possible and have a cohesive game experience across all of the iTouch devices.
+This - of course  - makes development for the platform a bit more complex - and - it requires developers to actively test and adjust their product across all four systems.  But then again - shouldn't developers be doing that in the first place?
+3D Games can run fast on older hardware, but be prepared for a slight drop in resolution.  2D games on the iPhone are another story.  But then again - since the devices run at different speeds - developers need to adjust their games accordingly.
+Pingback: 2nd Gen iPodTouch more performant than iPhone - iPhone 3G, iPhone Breaking News - iPhoneFreakz
+pinchies
+I would be curious to find out whether the ipod touch 2G has the MGX gpu and not the MGX lite like the ipod 1G and iphone 1G. That would explain the huge polygon difference.
+My old palm ran at a stock 400mhz, but I found, and so did apple it seems, that 412mhz has less 'bottlenecks' in the system. 532mhz was the max I could push my pda to while it remained stable. 620mhz was not always stable, and it would only last a few seconds at 708mhz.
+pinchies
+I would be curious to find out whether the ipod touch 2G has the MGX gpu and not the MGX lite like the ipod 1G and iphone 1G. That would explain the huge polygon difference.
+My old palm ran at a stock 400mhz, but I found, and so did apple it seems, that 412mhz has less 'bottlenecks' in the system. 532mhz was the max I could push my pda to while it remained stable. 620mhz was not always stable, and it would only last a few seconds at 708mhz.
+Travis
+Curious if someone could compare iPhone 3G clock/bus speed in 2.2 now to see if there's a difference from 2.0/2.1...  Performance has seemingly improved a bit but not sure if it is general OS optimization or a simple boost elsewhere.
+Travis
+Curious if someone could compare iPhone 3G clock/bus speed in 2.2 now to see if there's a difference from 2.0/2.1...  Performance has seemingly improved a bit but not sure if it is general OS optimization or a simple boost elsewhere.
+http://www.secretexit.com Frand
+From the developer standpoint, the fact that there are better performing iterations of the hardware out there doesn't (or at least shouldn't) matter.
+The right approach is to optimize the performance the game needs from the hardware that's the lowest common denominator, that being the first iPhone & iPod touch.
+There is no reason anyone should worry about purchasing the older hardware any more than, say, buying an older PS2 as opposed to a new one. Any developers who expect the performance of 2G iPod touch will only shoot themselves in the foot.
+http://www.secretexit.com Frand
+From the developer standpoint, the fact that there are better performing iterations of the hardware out there doesn't (or at least shouldn't) matter.
+The right approach is to optimize the performance the game needs from the hardware that's the lowest common denominator, that being the first iPhone & iPod touch.
+There is no reason anyone should worry about purchasing the older hardware any more than, say, buying an older PS2 as opposed to a new one. Any developers who expect the performance of 2G iPod touch will only shoot themselves in the foot.
+http://www.blakespot.com blakespot
+@Frand: There is zero performance difference between the oldest and newest PS2.  That's not the case with the iPhone / iPod touch, clearly.  I find it a curious thing that Apple did not "lock the platform" - at least while the hardware is basically the same between all units - rather than varying the clock, etc.
+One great thing about console gaming is that the hardware is ALWAYS locked so the developer has just one target and can optimize like mad for that target.  I am surprised Apple didn't stay on that train.
+http://www.blakespot.com blakespot
+@Frand: There is zero performance difference between the oldest and newest PS2.  That's not the case with the iPhone / iPod touch, clearly.  I find it a curious thing that Apple did not "lock the platform" - at least while the hardware is basically the same between all units - rather than varying the clock, etc.
+One great thing about console gaming is that the hardware is ALWAYS locked so the developer has just one target and can optimize like mad for that target.  I am surprised Apple didn't stay on that train.
+http://www.secretexit.com Frand
+@blakespot: You're right, but my point is that any additional performance is simply a bonus to the consumer, just like the memory upgrade of PSP Slim & Lite that improved the loading times. Games should still be developed to the original spec and optimized to run smoothly on that.
+http://www.secretexit.com Frand
+@blakespot: You're right, but my point is that any additional performance is simply a bonus to the consumer, just like the memory upgrade of PSP Slim & Lite that improved the loading times. Games should still be developed to the original spec and optimized to run smoothly on that.
+henr1kk
+@Frand
+Yeah but the current games on PSP take advantage of a 333MHz CPU, whereas the first titles ran on a 222MHz CPU...
+Current games couldn't run on the CPU as it was when the PSP launched...
+henr1kk
+@Frand
+Yeah but the current games on PSP take advantage of a 333MHz CPU, whereas the first titles ran on a 222MHz CPU...
+Current games couldn't run on the CPU as it was when the PSP launched...
+http://www.secretexit.com Frand
+@henr1kk: Current games run on the original PSPs at 333MHz just fine. The performance unlock from 222 to 333 did not fragment the hardware landscape.
+Same here with iPods: yes, 2G iPod will load games faster. But it's the job of the developers to make sure their games run smooth on all of the device models. This is achieved by developing, testing and optimizing for the original iPod touch.
+All this conversation is seriously risks derailing the perception of the available hardware. It's important to remember that the first iPhone and iPod touch are powerhouses when it comes to handheld gaming, and you can create  absolutely beautiful games on them. You can kill ANY console by throwing too many polygons at it, and again it's the job of the developers to make sure they don't.
+http://www.secretexit.com Frand
+@henr1kk: Current games run on the original PSPs at 333MHz just fine. The performance unlock from 222 to 333 did not fragment the hardware landscape.
+Same here with iPods: yes, 2G iPod will load games faster. But it's the job of the developers to make sure their games run smooth on all of the device models. This is achieved by developing, testing and optimizing for the original iPod touch.
+All this conversation is seriously risks derailing the perception of the available hardware. It's important to remember that the first iPhone and iPod touch are powerhouses when it comes to handheld gaming, and you can create  absolutely beautiful games on them. You can kill ANY console by throwing too many polygons at it, and again it's the job of the developers to make sure they don't.
+http://www.blakespot.com blakespot
+Another nice tidbit that was not specifically mentioned here but that made it into the update of the in-depth look article I've references is verification that the iPhone includes a PowerVR VGP Lite vertex geometry processor.  That was somewhat up in the air as my research had been inconclusive, if leaning towards it being present.
+http://www.blakespot.com blakespot
+Another nice tidbit that was not specifically mentioned here but that made it into the update of the in-depth look article I've references is verification that the iPhone includes a PowerVR VGP Lite vertex geometry processor.  That was somewhat up in the air as my research had been inconclusive, if leaning towards it being present.
+henr1kk
+That's not what I meant.
+I meant that the games designed post-333MHz won't run on the 222MHz CPU...
+I don't believe that there's anyone in the world that hasn't updated their PSP's firmware but if there is, they can't play the most recent games...
+But yeah, the Touch 1G and the original iPhone are still great gaming devices and I have no doubt that most devs will optimise their games to run flawlessly on every device. But I wouldn't be surprised if some devs release games that take advantage of the 2G's faster processor.
+These games will either have increased poly counts and faster loading times than on other platforms or will be entirely exclusive to the Touch 2G.
+Only time will tell...
+The DSi is a Nintendo DS and plays Nintendo DS games... But Nintendo have already announced that DSi games won't work on the original DS or DS Lite...
+henr1kk
+That's not what I meant.
+I meant that the games designed post-333MHz won't run on the 222MHz CPU...
+I don't believe that there's anyone in the world that hasn't updated their PSP's firmware but if there is, they can't play the most recent games...
+But yeah, the Touch 1G and the original iPhone are still great gaming devices and I have no doubt that most devs will optimise their games to run flawlessly on every device. But I wouldn't be surprised if some devs release games that take advantage of the 2G's faster processor.
+These games will either have increased poly counts and faster loading times than on other platforms or will be entirely exclusive to the Touch 2G.
+Only time will tell...
+The DSi is a Nintendo DS and plays Nintendo DS games... But Nintendo have already announced that DSi games won't work on the original DS or DS Lite...
+http://www.secretexit.com Frand
+@henr1kk: All PSP games come with the necessary firmware upgrade on the UMD, so it's a rather moot point...
+However, with all this news, it will be interesting to see how things develop in the future. While we currently treat the iPhone & iPod touch as a game console, it's clear that it's not: it competes in the mobile phone market, which is probably the fastest progressing segment of any consumer hardware. I would be very surprised to see the current screen resolution and hardware stay fixed for the next five years.
+How will we manage hardware compatibility and platform fragmentation in the future? I have no idea, and hopefully it won't all be developers' responsibility. But perhaps that's exactly the reason why Apple has made it so easy to update the apps!
+http://www.secretexit.com Frand
+@henr1kk: All PSP games come with the necessary firmware upgrade on the UMD, so it's a rather moot point...
+However, with all this news, it will be interesting to see how things develop in the future. While we currently treat the iPhone & iPod touch as a game console, it's clear that it's not: it competes in the mobile phone market, which is probably the fastest progressing segment of any consumer hardware. I would be very surprised to see the current screen resolution and hardware stay fixed for the next five years.
+How will we manage hardware compatibility and platform fragmentation in the future? I have no idea, and hopefully it won't all be developers' responsibility. But perhaps that's exactly the reason why Apple has made it so easy to update the apps!
+henr1kk
+@Frand
+While I agree that the iPhone is not a gaming platform, the iPod Touch is being advertised as one...
+Me and most of my friends have bought Touches for games, music and video (in order of importance), so it's really settling in as a mobile gaming platform...
+I don't expect App Store's games in 2010 to be compatible with my iPod, but if Apple really wants to go all-in with gaming on the Touch, they need to stop with the anual hardware revisions/upgrades on this device...
+henr1kk
+@Frand
+While I agree that the iPhone is not a gaming platform, the iPod Touch is being advertised as one...
+Me and most of my friends have bought Touches for games, music and video (in order of importance), so it's really settling in as a mobile gaming platform...
+I don't expect App Store's games in 2010 to be compatible with my iPod, but if Apple really wants to go all-in with gaming on the Touch, they need to stop with the anual hardware revisions/upgrades on this device...
+Pingback: CrunchGear » Archive » 2G iPod Touch fastest “by far” of the Apple family for games
+http://www.secretexit.com Frand
+@henr1kk: I think it's a great gaming platform, as long as the games are designed for its strengths
+The hardware will probably go through revisions, but hopefully there won't be a loss of binary compatibility. After all, the addition of a speaker and volume button in the 2G iPod touch were very nice.
+http://www.secretexit.com Frand
+@henr1kk: I think it's a great gaming platform, as long as the games are designed for its strengths
+The hardware will probably go through revisions, but hopefully there won't be a loss of binary compatibility. After all, the addition of a speaker and volume button in the 2G iPod touch were very nice.

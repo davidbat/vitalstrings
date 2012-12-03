@@ -1,0 +1,36 @@
+Information for Linux System Administration 
+Introduction: The Enlightenment 17 Window Manager for X (Ubuntu 11.10)
+vote
+This tutorial is supposed to  show some features of the Enlightenment window manager as an alternative to the often used Gnome and KDE  managers. I will install Enlightenment on a desktop computer with Ubuntu 11.10 installed. Apart from the login screen however, all of the controls shown on the screenshots should be the same for every installation of enlightenment, whatever distribution you install it on. Enlightenment is already included in the Ubuntu repositories, therefore Ubuntu users and those of any Ubuntu derivatives won't have any problems installing it. It is also available for download for most other distributions though. read more...
+mail this link | permapage | score:9208 | - falko , January 8, 2012
+Bodhi Linux and Enlightenment
+vote
+Bodhi is small in part because "The only applications you will find pre-installed on your Bodhi system are Firefox, LXTerminal, Elementary Nautilus, and Synaptic."
+Bodhi Linux's advertised hardware requirements of a 300MHz CPU, 128MB of RAM and 1.5GB of hard disk space is certainly frugal by the standards of the day. I wish I still had my ca. 1998 350MHz 128MB laptop to try it out, the last time I used it was with Debian "unstable" in 2009 and it worked fine, but I'd like to have seen it with Enlightenment. Olwm was frugal with resources, true, but as a window manager it was computing like it was 1992 all over again.
+mail this link | permapage | score:8784 | - Ray , February 16, 2011
+PCLinuxOS 2010 Enlightenment Screenshots
+vote
+Screenshots from PCLinuxOS 2010 Enlightenment (E17) which includes various gadgets and eye candy without the bloat. read more...
+permapage | score:8616 | - aweber , April 26, 2010
+Enlightenment DR17 on Fedora Core 4
+vote
+The latest version is Enlightenment Development Release 17, or simply DR17, and it has been in development for a long time now. As for this day the development has progressed to a level where the components are stable enough for non critical desktops. Thanks to the enthusiasts, we now have RPM packages for Fedora Core - setting up is much easier. read more...
+permapage | score:7130 | - primary0 , March 28, 2006
+Review: Enlightenment 17
+vote
+While true enlightenment may be an elusive goal, at least it's easy to enlighten your desktop...
+I should mention that "window manager" isn't quite the right term for E17. The developers call it a desktop shell, intending it to fill in the space between a simple window manager like the original Enlightenment and a full-featured desktop environment like GNOME. In other words, they were setting out to create a desktop not unlike my own E16/GNOME hybrid. In this respect it does not disappoint.
+mail this link | permapage | score:6931 | - Ray , August 26, 2005
+Elive Live CD: Debian plus Enlightenment
+vote
+Elive is a Debian-based desktop Linux Live CD distribution with the Enlightenment window manager, version 17. On Tuesday Elive 3.0 was released to the public.
+DistroWatch reported the details about this release, 'Elive is a Morphix-based Linux live CD designed for fans of the Enlightenment desktop environment. Version 0.3 is the project's first stable release: "Elive 0.3 released. This version includes hard disk installation, NVIDIA driver, the possibility to compile and install any program in the live CD system or install any extra package on the fly, stable and fully configured environment. With this version installed on the hard disk, you have an option to upgrade to another version with a simple apt-get upgrade." Also includes support for several languages, the second beta of OpenOffice.org 2.0, and the latest Enlightenment 17 straight from its CVS repository.' read more...
+mail this link | permapage | score:6847 | - linuxbeta , September 2, 2005
+Enlightenment 17 QuickStart Guide
+vote
+Enlightenment 17 or E17 as it is generally called, is a cool Window Manager for X. The latest stable version of Enlightenment is E16 (0.16.8.1). In this article we will talk about the latest CVS build available (0.16.999.023). read more...
+permapage | score:6431 | - falko , July 20, 2006
+Review: FVWM, IceWM, Enlightenment, AfterStep
+vote
+Here is a look at four alternative window managers for your Linux desktop.
+KDE and GNOME combine window managers with suites of applications to create comprehensive work environments. As complete as they are, it's easy to forget that there are other graphical ways to work on a Linux desktop. Sometimes a lighter-weight window manager is in order, such as for laptop usage, children's use, or quick startup applications. Here are four "alternative" window managers that are mature, fast, and functional.

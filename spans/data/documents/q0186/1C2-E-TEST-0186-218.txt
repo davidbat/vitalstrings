@@ -1,0 +1,78 @@
+AIA releases some FSX stuff...
+Wow, we finally got the snow turned off after 2 years!
+Anyway,          there are some FSX versions of a lot of our models that have been uploaded          to the usual places.
+Yes,          we know there are a lot of engine variations missing and we plan on getting          to that, but because of real life, it will be a few months before that          happens. (Assuming even more real life doesn't get in the way)
+And now, a brief word on the 747's before someone from the peanut          gallery starts complaining about how we'd said we'd lost the 747 source          files. (There most be a nefarious reason we'd lie about          losing the 747 source files, but we can't figure out what it might have          been...)
+We          did lose them. Honest! For Real!
+What          we did find was a gmax file for a 1 LOD model of the 747-400GE, but it          was not the final gmax file that the FS9 747's were compiled from.
+Using          that file we rebuilt the LOD's, (only not so many LOD's as before) and          then we had a 747-400GE. For the 747-300 we had to build a new wing, since          the wings of the -300 and -400 are not the same. Plus some PW engines          for it. That gave us the wings and engines we needed to make a 747-200,          but we needed to make a new nose section since the -200 doesn't have the          extended upper deck.
+And that's the short version of how we reconstucted the AIA 747 models.
+So,          enjoy the FSX models!
+ 
+December 24, 2009
+Santa brought a bag full of winglets...
+Before you pee in your pants, we want to make one          thing perfectly clear: this is not a new 767-300 model.
+It's          the old 767-300 model we released in 2003. Heck, it's not even that, it's          actually from a fossilized gmax file that we exhumed and used to make          the UT2 767's. This dusty gmax file was not even the one that the original          released models were compiled from, it's older than that. It had all the          animations, but only 6 LODs, compared to the 10 LODs the released model          had. But, since our extensive fps testing has led us to start using a          lot less LODs, we didn't have a problem with that.
+So,          what did we do to this relic from FS2002, besides slapping some winglets          on it? We changed the shape of the nose, cockpit windows, and APU section.          We rebuilt the engines and pylons, added thrust reverser parts and compressing          landing gear, and cleaned up that eyesore leading edge wing root. What          we did not touch were the wings and flaps or the fuselage blister (we're          not masochists). Even though the engines were rebuilt, they were intentionally          made to match the shape of the original engines for purposes of paintkit          compatibility. Speaking of engines, we only made GE and PW engines because          thus far, there are no RR engined 763's with winglets, and we had some          important World of Warcraft quests to work on.
+This          will illustrate what we changed:
+In addition, a new paintkit was created from almost scratch.          We say "almost" because we did recycle some pieces from other          paintkits, just because we're so lazy. The wheels and engine fans are          all modified textures from the DC-8. If you're a fan blade counter, this          model may very well send you into therapy.
+We've painted all the current users of the 763 winglet,          but more keep showing up every couple of months, so eventually, we'll get around to uploading the paintkit for it. Note: You can probably use          this new paintkit on the old 767-300 model as well, but we never actually          checked that out. (reason? We're lazy, of course...) Using the new paintkit          on the old models will not magically endow them with operating thrust          reversers though.
+One last thing, in addition to the usual FS9 model, we've          also made a real FSX version of this model as well. So, if you're using          FSX, you might want to use the FSX model, because the FSX model is waaaay          more fps friendly than the same FS9 model used in FSX. Course, FSX models          have some issues, the engine fans don't work, the wheels lock up on landing,          and don't even get us started on what happens after dark. These are all "features" of the default FSX models as well though.
+So, Merry Christmas and Happy New Year from all the          usual gang of idiots here at aia.
+ 
+May 27, 2009
+Newsflash for freeware alarmists
+A few people are asking how things will be in the future now that we and some other AI groups have sold our souls to UT2.  Will we demand cash for models?  Accept PayPal for repaints?
+The best way to get an idea of what the future might look like is to look to the past.  You see, we didn't "sell out" to UT2 last week or even last month.  We sold out well over a year and a half ago.  So a lot of what you've been seeing released as freeware in that period were models and repaints that were being produced for UT2.
+All of the models that we created specifically for UT2 we released as freeware long ago.  Most of the repaints were released as well.  There are a lot of repaints we did that won't be released, because they were painted to use the wrong engine type, or we didn't bother with knocking out windows or painting numbers on the nose gear doors.
+So, chill out, the freeware sky is not falling.
+ 
+Aardvark Sells Out!!!
+Death of Freeware is Near!
+Now at last the truth can be told.  It was all about the filthy lucre.    So, as of today you can now buy what you could only previously get for free.  Flight1 has released Ultimate Traffic II, and it's full of aia models.
+Ok, they're not really the same models.  These are FSX models.  Which means you'll get FSX goodies such as: self-shadowing, specularity, textures with DX-10, stationary engine fans, and lower framerates.  Ok, not all of those are "goodies", but you get the idea.
+Here are some FAQ's we made up:
+Q: How much will UT2 cost?
+A: About $400 if we get the compensation deal we asked for.
+Q: Are you going to pull all of your models from World of AI?
+A: No, if we were going to do that, we'd have done it before UT2 was released.
+Q: Are you sure?
+A: Well, now that you mention it, that still might be a good idea. We'll put it on the agenda for our next Board Meeting/Junket/Boondoggle in Monte Carlo.
+Q: Are you going to release the FSX models as freeware?
+A: No, we didn't convert them.  Flight1 hired someone a lot smarter than any of us are on our best days to figure out how to convert the models to FSX.
+Q: Please?
+A: Ok, contact us discreetly and we'll see about getting them to you at $10 a model.
+Q: How'd you convert the 747's?  You guys always said you'd lost the original source files.
+A: We did lose them.  But we dug around really hard in some old emails and found one semi-complete 747-400.  It was an earlier version than the one we'd used for the model we originally released, but it seemed close enough.
+Q: You guys lied about losing the source files didn't you?
+A: Yeah, it was all part of a really big conspiracy to do something evil, or something like that.
+Q: Did you find any other "lost" files?
+A: A few.
+Q: When will you release the 747SP?
+A: We have to go count our bags of money now, thanks for reading...
+ 
+April 1, 2009
+Aardvark announces massive layoffs...
+AI Aardvark has been hit by the recent downturn in         the economy just like so many other businesses, and today announced a         95% decruiting program aimed at cutting their massive overhead down to         a reasonable level.
+Aardvark's         dedicated employees took a further hit when it was discovered that the         AIA CEO/COO/CFO had perpetrated an elaborate scam on the dedicated aardvark         workforce by convincing them to do an incredible amount of work for a         seemingly vaporware project. As the project neared completion, the AIA         CEO/COO/CFO simply kept all the money for himself and was last seen heading         for South America in a 'borrowed" Fokker 70 jet.
+To         add insult to injury, he even emptied the drink machines as he left the         AIA hangar.
+The         single remaining AIA employee, a janitor who sweeps out the mostly empty         hangar once a week has announced that he will be appearing before the         US Congress next week to request $1.5 billion in bailout money. Most of         this money would go towards paying off debts incurred from a failed scheme         to market 747's parked out in the desert as deluxe vacation timeshare         accomodations. The rest will be used for the acquisition of a new gold-plated         G5 to replace the stolen F70.
+ 
+August 16, 2008
+Fokker 100/70 released...
+Not a plane that we ever envisioned building, but after         being asked last December by someone at World of AI, and with the somewhat         vague suggestion that there might be up to $20 (US) in it for us, we just         couldn't stop ourselves. So, here come a couple of Fokkers. Want to know         why Fokker went bankrupt? Because the F100 has too many bloody variations,         different sized passenger doors, different sized baggage doors, and every         now and then an extra door behind the wing. Take those 3 variables         and then imagine every possible combination. Oh yeah, and 2 different         locations for the upper anti-collision beacon.
+Initially we figured that no one was operating the F100/70         anymore, so repainting would be easy, but we were wrong. Turns out a lot         of airlines are still using them. So we've got over 30 repaints and at         least half of them we promise won't be KLM Cityhopper variants.
+Given         the recent trend in AI modeling towards higher polycounts and reduced         framerates, you've got to be asking yourself what sort of framerate penalty         you're going to take if you replace the Fernando Martinez Fokkers with         these shiny new ones. Well, we tried our best to make the fps worse than         the FM model but we just couldn't manage it without modeling all the seats,         meal carts, and coffee pots, so you're just going to have to live with         better framerates.
+How'd         we manage that? We did a lot of framerate testing for one thing.         And then did everything we could to keep framerate killing things to a         minimum, meaning keeping the polycount under control, using as little         keyframe animation as possible, keeping reverser parts hidden when not         in use (which is 99.9% of the time) and keeping XML to a bare minimum.         Our testing showed that all these things take a toll on framerates. Not         adding working lavatories helped a lot too.
+One         pleasant spinoff from all this testing is that we're only using 5 LOD         models for these Fokkers. We had a 9 LOD model, and for kicks we eliminated         every other LOD just to see what would happen. Nothing happened, the framerates         stayed the same. Great, huh? So we pushed it and tried a 3 LOD model,         but then the framerates took a dive. But 5 LODs made fixing the never ending parade of model bugs a lot simpler.
+And         we like things simple...
+ 
+April 1, 2008
+Boeing 757-200 converted into DC-8!
+The         Aardvark engineering staff has been wracking their brains for the past         week trying to figure out what to do with the huge number of 757-200's         that are suddenly being unceremoniously dumped back onto the AIA tarmac         at Aardvark World Headquarters Int'l LLC.
+And then,in a flash of sheer brilliance, the Way Forward became         clear! Convert them into DC-8's! A model that's on the top of everyone's "Most needed AI aircraft model" list for sure. We're nonpartisan         in our conversion, so the DC-758, or DC-857 (we haven't settled on an         Official Designation yet) features inboard Pratt & Whitney engines,         and Rolls Royce engines outboard.
+Ok, there are probably less than 100 DC-8's still flying, so what to do         with the rest? We're working on that too...
+ 
+ 
+And         just as we did last year, we're going to reopen the creaky AIA forums         for posting for a few days. So come on by and complain about how you really         wanted an AirTruk ai model.
+ 

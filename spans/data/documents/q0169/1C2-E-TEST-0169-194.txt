@@ -1,0 +1,23 @@
+Posted on June 14, 2011 by Neil Rubens
+''' Shows a way of plotting a sparse matrix  Sparse matrix is a matrix that contains many zero entries Zero values are plotted as regular values mapped through colormap. NaN on the other hand are not mapped through colormap For plotting purposes it might be useful to replace 0 with NaN  Another alternative is to use masks; as described in  http://stackoverflow.com/questions/2578752/how-can-i-plot-nan-values-as-a-special-color-with-imshow-in-matplotlib  @see: http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.imshow  @author: Neil Rubens '''  from pylab import *  Z = rand(10,10)  # note that 0 != NaN (in this case it will just take the minimum value Z[0,:] = 0 Z[1,:] = np.nan  # colormap cmap = cm.jet # set NaN values as white cmap.set_bad('w') im = imshow(Z, cmap=cmap, interpolation='nearest') colorbar() show()
+Simpler method with fewer configurations:
+from pylab import *  Z = rand(10,10) Z[0,:] = 0 Z[1,:] = np.nan matshow(Z) show()
+ 
+Alternative way that uses masking (as described in this  post ):
+import numpy as np import matplotlib.pyplot as plt f = plt.figure() ax = f.add_subplot(111) a = np.arange(25).reshape((5,5)).astype(float) a[3,:] = np.nan ax.imshow(a, interpolation='nearest') f.canvas.draw()
+masked_array = np.ma.array (a, mask=np.isnan(a)) cmap = matplotlib.cm.jet cmap.set_bad('w',1.) ax.imshow(masked_array, interpolation='nearest', cmap=cmap)
+Matplotlib allows to create/generate random sparse matrix by:
+matplotlib.mlab.get_sparse_matrix(M, N, frac=0.10000000000000001)  # Return a M x N sparse matrix with frac elements randomly filled. # http://matplotlib.sourceforge.net/api/mlab_api.html
+ 
+ 
+Search Keywords:
+sparse matrix, missing values nan change colormap plot matrix set 0 zero values matlab matplotlib imshow pcolor
+1:58pm   Searched for  matplotlib colormap jet –
+Viewed 1 result      Not starredmatplotlib: python plotting — Matplotlib v1.0.1 documentation – sourceforge.net – Viewed 10 times 1:57pm   Searched for  matplotlib edit colormap –
+Viewed 1 result      Not starredCookbook/Matplotlib/Show colormaps - – scipy.org – Viewed 2 times  1:47pm   Searched for  matlab –
+Viewed 1 result      Not starredMATLAB – The Language Of Technical Computing – mathworks.com  1:43pm   Searched for  matplotlib colormap jet –
+Viewed 1 result      Not starredmatplotlib: python plotting — Matplotlib v1.0.1 documentation – sourceforge.net – Viewed 10 times 1:32pm   Searched for  matplotlib colormap change –
+Viewed 2 results      Not starredmatplotlib colors — Matplotlib v1.0.1 documentation – sourceforge.net – Viewed 3 times      Not starredpython – Set Colorbar Range in matplotlib – Stack Overflow – stackoverflow.com 1:31pm   Searched for  matplotlib –
+Viewed 1 result      Not starredThumbnail gallery — Matplotlib v1.0.1 documentation – sourceforge.net 1:29pm   Searched for  matplotlib pcolor –
+Viewed 1 result      Not starredpylab_examples example code: pcolor_demo.py — Matplotlib… – sourceforge.net – Viewed 2 times
+About Neil Rubens

@@ -1,0 +1,24 @@
+SPARSE MATRIX MODULES IN FORTRAN 90 USEFUL FOR ANIMAL BREEDING PROBLEMS
+Ignacy Misztal, University of Georgia
+(Preliminary)
+9/4/97 - 10/1/97
+Introduction
+Traditionally, programming in animal breeding is done in 2 stages: in a matrix language and in a regular programming language. Programs in a matrix language such as IML SAS, Matlab, Mathematica or APL are reasonably simple and useful for creating examples but inefficient for large problems. Programs in a regular programming language such as Fortran or C/C++ are much more efficient but could take much longer to write and require substantial training.
+Matrix languages are easy to deal with matrices partly because usually only one format is usually supported: dense rectangular. Operations on such matrices are easy to specify and program, but large matrices require large memory and long running time. Also, memory and computations are equal whether matrices are sparse (contain very few nonzero elements) or not. In animal breeding, many matrices are sparse. If that sparsity is taken into account, the memory requirements and computations can decrease dramatically. Unfortunately, there is more than one format for storing sparse matrices, and some computations are fast with one format and but not with another one. Also, the storage formats and operations are considerably more complicated than dense rectangular matrices. A library to handle multiple matrix formats and multiple operations would contain many subroutines, each with a long list of arguments. Such a library would involve considerable learning, and many details associated with the library would create many opportunities for making a mistake.
+One matrix package, Matlab, has some forms of sparse-matrix storage and operations included.
+Modern programming languages with "object-oriented" features, such as C++ or Fortran 90, have abilities to create classes/modules, where many implementation details on specific data structures can be hidden. A technique called overloading allows single function/subroutine to work with different formats of its arguments. Therefore, the number of details to remember can be drastically reduced. Subsequently, programming can be done much easier and quicker.
+SPARSEM is a module for Fortran 90 that enables programming common sparse matrix operations almost as easily as with dense matrices. It supports two dense matrix formats, useful for testing, and two sparse matrix formats. Changing a program from dense- to sparse-matrix format using DENSEM can be as simple as changing one declaration line. SPARSEM incorporates an interface to FSPAK, which enables efficient sparse matrix factorization, solving, sparse inversion and calculation of determinant on matrices much larger than possible with dense matrix structures.
+Matrix formats
+Four matrix formats are available.
+DENSEM - dense square matrix.
+It has approximately only half memory requirements of the dense square matrix.
+SPARSE_HASHM - sparse triple accessed by hash algorithm.
+This is a very efficient format for set-up and for iterative-solving of sparse matrices.
+SPARSE_IJA - Sparse IJA.
+This is a memory-efficient format for sparse matrices used by sparsse matrix packages. Format IJA cannot easily be set up directly but can be derived by conversion from the hash format.
+For more information on all these formats see Duff et al, George and Liu, or my class notes.
+Currently, all the formats use double precision except SPARSE_HASM, which was chosen to use single precision for efficiency. real(4) except in SPARSE_IJA, where they are real(8).
+A popular format that is not included here is linked list. That format is reasonably efficient for creating and computing with sparse matrices if the number of nonzero elements per row is not too high and the matrix is not too large. However, the combination of hash plus ija is generally more efficient.
+Matrix operations
+The following subroutines/functions are supported. All real scalars and vectors are single precision unless indicated otherwise.
+Operation 

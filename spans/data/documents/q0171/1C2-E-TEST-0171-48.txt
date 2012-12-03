@@ -1,0 +1,9 @@
+ 
+What is IP Address?
+Internet Protocol Address (or IP Address) is an unique address that computing devices use to identify itself and communicate with other devices in the Internet Protocol network. Any device connected to the IP network must have an unique IP address within its network. An IP address is analogous to a street address or telephone number in that it is used to uniquely identify a network device to deliver mail message, or call ("view") a website.
+Dotted Decimals
+The traditional IP Addresses (IPv4) uses a 32-bit number to represent an IP address, and it defines both network and host address. Due to IPv4 addresses running out, a new version of the IP protocol (IPv6) has been invented to offer virtually limitless number of unique addresses. An IP address is written in "dotted decimal" notation, which is 4 sets of numbers separated by period each set representing 8-bit number ranging from (0-255). An example of IPv4 address is 216.3.128.12, which is the IP address assigned to topwebhosts.org.
+An IPv4 address is divided into two parts: network and host address. The network address determines how many of the 32 bits are used for the network address, and remaining bits for the host address. The host address can further divided into subnetwork and host number.
+Class A, B, C and CIDR networks
+Traditionally IP network is classified as A, B or C network. The computers identified the class by the first 3 bits (A=000, B=100, C=110), while humans identify the class by first octet(8-bit) number. With scarcity of IP addresses, the class-based system has been replaced by Classless Inter-Domain Routing (CIDR) to more efficiently allocate IP addresses.
+Class

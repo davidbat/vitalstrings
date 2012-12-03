@@ -1,0 +1,31 @@
+I have a server and have been assigned a static IP by my ISP. How do I go about configuring my server to work on its assigned IP?
+•
+99% of Windows internet users use what are called "dynamic" IP addresses. That means each time you connect to the internet, your ISP assigns you an IP address to use when you connect. The next time you connect, you might get a different address. If you're only connecting out to the internet, that's all you need.
+If you expect people to connect in, say you want to run a web server that you want people to be able to find and visit, you'll most likely need a static IP address. A static IP is assigned by your ISP to you permanently, and identifies your server to the world.
+The question is: once the IP is assigned ... then what?
+•
+If your computer is connected directly to the internet, meaning it's not behind a router or a firewall, it's actually pretty simple. In Control Panel, Network Connections, find the network connection that represents your connection to the internet. Most often it's labeled simply Local Area Connection. Right click on that and select Properties. Now click on the Internet Protocol (TCP/IP) item in the list (you may have to scroll down within the list to find it):
+Now click on the properties button.
+A default configuration will have both Obtain an IP address automatically, and Obtain DNS server address automatically selected.
+Click on Use the following IP address: and enter the IP address, subnet mask, and default gateway information that your ISP should have given you. (If they did not give you all three, ask them.)
+In most cases they will also give you IP addresses for the DNS servers you should use. Click on Use the following DNS server addresses and enter that information as well.
+That's it. Once you "OK" your way out of those configuration dialogs, your computer should now respond to its assigned IP address.
+"The question is: once the IP is assigned ... then what?"
+If you're behind a router, things get a little more complicated.
+The first thing to realize is that the static IP address should probably be assigned to the router. That will require configuring the router, much like we configured your server above. Exactly how will vary from router to router, but the principals are the same: you'll configure the router to not get an IP address dynamically, but instead you'll enter the IP, gateway, subnet, and possibly DNS information by hand, using whatever approach your router uses for configuration.
+The "trick", if you want to call it that, is telling the router to pass on requests it receives from the internet to your server. It's typically referred to as port-forwarding. Once again, depending on how your router is configured, the general idea is that you configure it to accept requests on certain "ports" and direct them to certain computers on your LAN.
+The port part is fairly easy. If you want to set up a web server, then you'll know that port 80, where http requests are handled, is the port you want to forward. But to where?
+Much like your direct connection to the internet, you'll need to assign your server a static IP address within your local network, so that the router knows what machine to forward the requests to. Typically a router will tell you, or let you configure, the range of IP addresses it will assign from dynamically, so you'll simply want to choose an IP address outside of that range. For example my router at home is configured to assign dynamic IPs starting at 192.168.1.100 and up. So I've elected to assign a static IP on my local area network of 192.168.1.2 (192.168.1.1 is the address of the router on the local network).
+So the rest is simply a variation on what I've already covered: configure that server with the static IP you've chosen, a subnet mask of 255.255.255.0 should do, the default gateway should be the router (192.168.1.1 in my case), and quite probably the router should also be your DNS. If not, use the DNS settings that your ISP assigned you.
+Now configure the router to forward port 80 traffic to the static IP address you chose, and ... there you are. Your web server, behind a router, should be visible from the internet.
+Port forwarding is actually very powerful, when set up correctly. In my case, I have port 80 traffic, for a web server, directed at one machine, Remote Desktop traffic (port 3389) is directed at another, and Skype (a post Skype selects randomly at setup time) to yet another.
+Article C2370 - June 16, 2005
+Leo A. Notenboom has been playing with computers since he was required to take a programming class in 1976. An 18 year career as a programmer at Microsoft soon followed. After "retiring" in 2001, Leo started Ask Leo! in 2003 as a place for answers to common computer and technical questions. More about Leo.
+Not what you needed?
+You may also be interested in:
+How is my IP address assigned? Every device on an TCP/IP network must have a unique IP address. IP addresses are assigned, either automatically by DHCP, or by manual configuration.
+What is DHCP? DHCP is the protocol computers use to request and receive a "dynamic" IP address.
+How do I host my own web site? You'll be in for an education if you want to host your own web site, but we'll walk through a couple of the basic things you'll need to get started.
+What's the difference between a Hub, a Switch and a Router? Hubs, switches and routers are all computer networking devices with varying capabilities. Unfortunately the terms are also often misused.
+How can I access my Windows XP Machine Remotely? Windows XP Pro includes functionality to access the computer's desktop across a network. Remote Desktop must be enabled and configured properly.
+Recent Comments

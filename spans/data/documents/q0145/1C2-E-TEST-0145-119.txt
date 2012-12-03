@@ -1,0 +1,11 @@
+Compound Interest
+Imagine you put $100 in a savings account with a yearly interest rate of 6%.
+After one year, you have 100 + 6 = $106. After two years, if the interest is simple, you will have 106 + 6 = $112 (adding 6% of the original principal amount each year.) But if it is compound interest, then in the second year you will earn 6% of the new amount:
+1.06 × $106 = $112.36
+Yearly Compound Interest Formula
+If you put P dollars in a savings account with an annual interest rate r, and the interest is compounded yearly, then the amount A you have after t years is given by the formula:
+A = P(1 + r)t
+Example:
+Suppose you invest $4000 at 7% interest, compounded yearly. Find the amount you have after 5 years.
+Here, P = 4000, r = 0.07, and t = 5. Substituting the values in the formula, we get:
+A = 4000(1 + 0.07)5

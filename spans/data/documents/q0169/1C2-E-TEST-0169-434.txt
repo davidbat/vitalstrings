@@ -1,0 +1,68 @@
+2 July, 2007 in math.MG , math.NA , question | Tags: compressed sensing , derandomisation , random matrices , RIP , UUP
+This problem in compressed sensing is an example of a derandomisation problem: take an object which, currently, can only be constructed efficiently by a probabilistic method, and figure out a deterministic construction of comparable strength and practicality.  (For a general comparison of probabilistic and deterministic algorithms, I can point you to these slides by Avi Wigderson ).
+I will define exactly what UUP matrices (the UUP stands for “ uniform uncertainty principle “)  are later in this post.  For now, let us just say that they are a generalisation of (rectangular) orthogonal matrices , in which the columns are locally almost orthogonal rather than globally perfectly orthogonal.  Because of this, it turns out that one can pack significantly more columns into a UUP matrix than an orthogonal matrix, while still capturing many of the desirable features of orthogonal matrices, such as stable and computable invertibility (as long as one restricts attention to sparse or compressible vectors).  Thus UUP matrices can “squash” sparse vectors from high-dimensional space into a low-dimensional while still being able to reconstruct those vectors; this property underlies many of the recent results on compressed sensing today.
+There are several constructions of UUP matrices known today (e.g. random normalised Gaussian matrices, random normalised Bernoulli matrices, or random normalised minors of a discrete Fourier transform matrix) but (if one wants the sparsity parameter to be large) they are all probabilistic in nature; in particular, these constructions are not 100% guaranteed to actually produce a UUP matrix, although in many cases the failure rate can be proven to be exponentially small in the size of the matrix.   Furthermore, there is no fast (e.g. sub-exponential time) algorithm known to test whether any given matrix is UUP or not.   The failure rate is small enough that this is not a problem for most applications (especially since many compressed sensing applications are for environments which are already expected to be noisy in many other ways), but is slightly dissatisfying from a theoretical point of view.  One is thus interested in finding a deterministic construction which can locate UUP matrices in a reasonably rapid manner.  (One could of course simply search through all matrices in a given class and test each one for the UUP property, but this is an exponential-time algorithm, and thus totally impractical for applications.)  In analogy with error-correcting codes, it may be that algebraic or number-theoretic constructions may hold the most promise for such deterministic UUP matrices (possibly assuming some unproven conjectures on exponential sums); this has already been accomplished by de Vore for UUP matrices with small sparsity parameter.
+Before we define UUP matrices explicitly, let us first recall what an (rectangular) orthogonal matrix is.  We will view an
+matrix (m rows and n columns) as a collection
+of column vectors in the (complex) vector space
+, or equivalently as a means of linearly transformed an n-dimensional vector
+as an m-dimensional vector
+.  I will call such a matrix orthogonal if these column vectors are orthonormal , i.e. they all have unit length
+and are orthogonal to each other:
+whenever
+Orthonormal vectors have several pleasant properties.  One of them is Pythagoras’ theorem
+(1)
+valid for all complex numbers
+.  In other words, the linear encoding
+is an isometry.  This implies that such an encoding can be inverted in a stable manner: given the encoded vector
+one can uniquely recover the original coefficients
+, and furthermore that small changes in w will not cause large fluctuations in
+.  Indeed, one can reconstruct the coefficients
+quickly and explicitly by the formula
+.  (2)
+One would like to make n as large as possible, and m as small as possible, so that one can transform as high-dimensional vectors as possible using only as low-dimensional space as possible to store the transformed vectors.  There is however a basic obstruction to this, which is that an orthogonal matrix can only exist when
+; for if n is larger than m, then there are too many vectors
+to remain linearly independent in
+, and one must have a non-trivial linear independence
+for some
+,  which is inconsistent with (1).
+One can try to circumvent this restriction by weakening the condition (1) to (say)
+(3)
+for all complex numbers
+.  (The constants 0.9 and 1.1 are not terribly important for this discussion.)  Thus we only require that Pythagoras’ theorem hold approximately rather than exactly; this is equivalent to requiring that the transpose of this matrix forms a frame .  (In harmonic analysis, one would say that the vectors
+are almost orthogonal rather than perfectly orthogonal.)  This enlarges the class of matrices that one can consider, but unfortunately does not remove the condition
+, since the linear dependence argument which showed that
+was incompatible with (1), also shows that
+is incompatible with (3).
+It turns out, though, that one can pack more than m vectors into
+if one localises the almost orthogonality condition (3) so that it only holds for sparse sets of coefficients
+.  Specifically, we fix a parameter S (less than m), and say that the matrix
+obeys the UUP with sparsity S if one has the almost orthogonality condition (3) for any set of coefficients
+, such that at most S of the
+are non-zero.  [The UUP is also known as the Restricted Isometry Property (RIP) in the literature.] In other words, we only assume that any S of the n vectors
+are almost orthogonal at one time.  (It is important here that we require almost orthogonality rather than perfect orthogonality, since as soon as a set of vectors are pairwise perfectly orthogonal, they are of course jointly perfectly orthogonal.   In contrast, the constants 0.9 and 1.1 in the UUP condition will deteriorate as S increases, so that local almost orthogonality does not imply global almost orthogonality.)  The UUP property is more powerful (and hence more useful) when S is large; in particular one would like to approach the “information-theoretic limit” when S is comparable in magnitude to m.
+Roughly speaking, a set of vectors
+which obey the UUP are “just as good” as an orthonormal set of vectors, so long as one doesn’t look at more than S of these vectors at a time.  For instance, one can easily show that the map
+is still injective as long as one restricts attention to input vectors which are S/2-sparse or better (i.e. at most S/2 of the coefficients are allowed to be non-zero).  This still leaves the question of how to efficiently recover the sparse coefficients
+from the transformed vector
+.  The algorithm (2) is no longer accurate, however if the coefficients are just a little bit sparser than S/2 (e.g. S/3 will do) then one can instead use the algorithm of basis pursuit to recover the coefficients
+perfectly.  Namely, it turns out that among all the possible representations
+of w, the one which minimises the
+norm
+will be the one which matches the S/3-sparse representation $\sum_j a_j v_j$ exactly.   (This has an interesting geometric interpretation: if we normalise all the vectors
+to have unit length, then this result says that the simplest (sparsest) way to get from 0 to w by moving in the directions
+is also the shortest way to get there.)   There are also some related results regarding coefficients
+which are merely compressible instead of sparse, but these are a bit more technical; see my paper with Emmanuel Candes for details.
+It turns out that UUP matrices can have many more columns than rows; indeed, as shown by Donoho , and by Candes and myself , n can be as large as
+for some absolute constant c > 0.  (Subsequent proofs also appeared by Candes, Rudelson, myself, and Vershynin and by Baranuik, Davenport, de Vore, and Wakin .)  The construction is in fact very easy; one simply selects the vectors
+randomly, either as random unit vectors or as random normalised Gaussian vectors (so all coefficients of each
+are iid Gaussians with mean zero and variance 1/m).  The point is that in a high-dimensional space such as
+, any two randomly selected vectors are very likely to be almost orthogonal to each other; for instance, it is an easy computation that the dot product between two random normalised Gaussian vectors has a variance of only O(1/m), even though the vectors themselves have a magnitude very close to 1.  Note though that control of these dot products is really only enough to obtain the UUP for relatively small S, e.g.
+.  For large S, one needs slightly more advanced tools, such as large deviation bounds on the singular values of rectangular Gaussian matrices (which are closely related to the Johnson-Lindenstrauss lemma).
+The results for small sparsity S are relatively easy to duplicate by deterministic means.  In particular, the paper of de Vore mentioned earlier uses a polynomial construction to obtain UUP matrices with S close to
+, and n equal to an arbitrarily large power of m, essentially by ensuring that all the column vectors have a low inner product with each other (of magnitude roughly
+or so, matching what the random construction gives, and almost certainly best possible).   But to get to larger values of S (and in particular, to situations in which S is comparable to m) may require a more refined calculation (possibly involving higher moments of the Gramian matrix , as was done in a paper of Candes, Romberg, and myself in the random case).  Alternatively, one may rely on conjecture rather than rigorous results; for instance, it could well be that the matrices of de Vore satisfy the UUP for far larger sparsities S than are rigorously proven in that paper.
+An alternate approach, and one of interest in its own right, is to work on improving the time it takes to verify that a given matrix (possibly one of a special form) obeys the UUP.  The brute-force approach of checking the singular values of every set of S column vectors requires a run time comparable to
+or worse, which is quite poor.   (A variant approach has recently been proposed by Sharon, Wright, and Ma but has similar run time costs.)  But perhaps there exist specially structured matrices for which the UUP is easier to verify, and for which it is still likely that the UUP holds.  This would give a probablistic algorithm for producing rigorously certified UUP matrices with a reasonable average-case run time.
+[Update, July 9: Typos corrected.]
+Share this:

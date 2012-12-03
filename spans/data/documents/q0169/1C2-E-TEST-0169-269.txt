@@ -1,0 +1,28 @@
+for ( i = 0 ; i < MAX1 ; i++ )
+p -> rhead[i] = ( struct rheadnode * ) malloc ( sizeof ( struct rheadnode ) ) ;
+/* initialize and link row headnodes together */
+for ( i = 0 ; i < MAX1 - 1 ; i++ )
+{
+p -> rhead[i] -> next = p -> rhead[i + 1] ;
+p -> rhead[i] -> right = NULL ;
+p -> rhead[i] -> rowno = i ;
+}
+p -> rhead[i] -> right = NULL ;
+p -> rhead[i] -> next = NULL ;
+/* create col headnodes */
+for ( i = 0 ; i < MAX1 ; i++ )
+p -> chead[i] = ( struct cheadnode * ) malloc ( sizeof ( struct cheadnode ) ) ;
+/* initialize and link col headnodes together */
+for ( i = 0 ; i < MAX2 - 1 ; i++ )
+{
+p -> chead[i] -> next = p -> chead[i + 1] ;
+p -> chead[i] -> down = NULL ;
+p -> chead[i] -> colno = i ;
+}
+p -> chead[i] -> down = NULL ;
+p -> chead[i] -> next = NULL ;
+/* create and initialize special headnode */
+p -> smat = ( struct spmat * ) malloc ( sizeof ( struct spmat ) ) ;
+p -> smat -> firstcol = p -> chead[0] ;
+p -> smat -> firstrow = p -> rhead[0] ;
+p -> smat -> noofcols = MAX2 ;

@@ -1,0 +1,33 @@
+1.234,56 €
+Click on desired currency convention or style to change.
+This calculator calculates compound interest between any two dates. You can also use it as a date math calculator.
+What is Compound Interest?
+Calculations based on compounding interest require that interest be calculated on the interest earned in prior periods. This contrasts with simple interest calculations which prohibit interest from being calculated on the interest earned during prior periods. (See our online simple interest calculator for details.)
+The amount that you start with is known as the present value (PV). The calculator adds the interest earned to the PV to arrive at the future value (FV).
+You can use this calculator to compare different interest rates at different compounding frequencies to determine your best option.
+Click on the above "Help" button for details about using this calculator.
+If you would like to know the interest earned on a series of deposits then use our future value calculator for Windows which is found in SolveIT!.
+How is Compound Interest Calculated?
+To understand compound interest, you need to understand the concept of a unit period. For the purpose of this somewhat simplified discussion, a unit period is a consistent unit of time. That is, a period may be a day, a week, a month a year, or any other unit of time that is consistent over the entire term for which money is borrowed or invested. The term, that is the time between the start date and end date is divided up into the selected unit periods. If the term cannot be divided up in to an even number of unit periods, the remaining odd days are tracked separately and are collectively known as the "stub period".
+Because users enter a beginning and end date, our compound interest calculator is capable of handling sub period calculations as well as periodic compounding. (If you want more detail about how odd days are calculated, download and try either SolveIT! or C—Value!. Their documentation goes into more detail about this. See the help topic "Odd Day Interest".)
+Equation
+This is the formula used:
+Compound Interest =
+(Amt * (1 + Periodic Rate/100)Periods) - Amt
+Amt is the principal amount as of the start date. In financial jargon the Amt is the present value (or PV).
+Periodic Rate is calculated by dividing the quoted annual interest rate by the number of unit periods in a year and expressing the value as a decimal. This calculator supports 360, 364 and 365 day years. The year length impacts the interest calculation for stub periods as well as for daily compounding. (See the simple interest calculator for more details about these settings.) The days per year has no impact on the periodic interest for periods longer than a day unless the term also includes odd days.
+Periods is the number of periods over the entire term.
+An Example
+Assume $10,000 is invested for one year at a 10% annual interest rate with monthly compounding. Using the above formula, we see that the interest earned for one year is $1,047.13.
+$1,047.13 = ($10,000 * (1+0.008333)12) - 10,000.00
+The Power of Compounding
+If you read our explanation of simple interest you learned that $10,000 invested (or borrowed) at 10.0% for a year will accrue just $1,000 interest. Thus, compounding for one year results in nearly a 0.5% increase in interest. For an enlightening, short illustration on the importance of compounding your investments see the article " Rich Man Poor Man " (on this site).
+What is Periodic Interest?
+Periodic interest is the interest earned in a period. All periods are treated as if they are of equal length, even when they are not. For example, assume monthly periods and assume a starting date on March 15th. One month from March 15 makes the ending date April 15th or a period with 31 days. The next unit period starts on April 15th and ends on May 15th or a unit period of 30 days.
+You can use the above calculator to confirm this but the compound interest formula results in periodic interest of $833.33 (for our $10,000, 10.0% example) for both periods. Of course, if the unit period is a day (set frequency to daily, simple or continuous), then the interest would be different for these two terms. Also, it might be different for these two terms for any compounding frequency shorter than monthly due to the stub period mentioned above.
+Exercise: Multiply the monthly periodic interest $833.33 by 12. Does it equal the annual interest ($1,047.13) from the above example? Why or why not?
+What's the practical benefit of knowing this? Well, if you are an investor, then all other things being equal, earning compound interest is an advantage. But if you are a borrower, then at any given interest rate, compound interest loans are to your disadvantage.
+You can use our equivalent rate calculator if you want to learn what interest rates are equivalent at different compounding periods.
+You may link to this page using this HTML code. Just copy and paste:
+<a href="http://www.pine-grove.com/online-calculators/compound-interest-calculator.htm" title="Pine Grove Software's Free Financial Calculators">Online Compound Interest Calculator</a>
+ 

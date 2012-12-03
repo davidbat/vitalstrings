@@ -1,0 +1,12 @@
+IP Basic Address Structure and Main Components: Network ID and Host ID
+(Page 1 of 3)
+As I mentioned in the IP addressing  overview, one of the ways that IP addresses are used is to facilitate the  routing of datagrams in an IP internet .  This is made possible because of the way that IP addresses are structured,  and how that structure is interpreted by network routers.
+Internet IP Address Structure
+As  we just saw , each version 4 IP address  is 32 bits long. When we refer to the IP address we use a dotted-decimal  notation, while the computer converts this into binary. However, even  though these sets of 32 bits are considered a single entity,  they have an internal structure containing two components:
+Network Identifier (Network ID): A certain  number of bits, starting from the left-most bit, is used to identify  the network where the host or other network interface is located. This  is also sometimes called the network prefix or even just the prefix.
+Host Identifier (Host ID): The remainder  of the bits are used to identify the host on the network.
+Note: By convention, IP devices are often called hosts for simplicity, as I do throughout this Guide. Even though each host usually has a single IP address, remember that IP addresses are strictly associated with network-layer network interfaces, not physical devices, and a device may therefore have more than one IP address.
+As you can see in Figure 57 ,  this really is a fairly simple concept; it's the same idea as the structure  used for phone numbers in North America. The telephone number (401)  555-7777 is a ten-digit number usually referred to as a single phone  number. However, it has a structure. In particular, it has an  area code (401) and a local number (555-7777).
+Figure 57: Basic IP Address Division: Network ID and Host ID
+The fundamental division of the bits of an IP address is into a network ID and host ID. Here, the network ID is 8 bits long, shown in cyan, and the host ID is 24 bits in length.
+ 

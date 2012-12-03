@@ -1,0 +1,15 @@
+Have you checked to make sure that your paging file is configured so that it can expand to that size?
+Update
+I've been playing around with this quite a bit with your given example, and here's what I see.
+System: Windows 7 64bit, 6GB of triple-channel RAM, 8 cores.
+You need an additional paging file on another spindle from your OS or this sort of investigation will hose your machine. If everything is fighting over the same paging file, it makes things worse.
+I am seeing a large amount of data being promoted from generation to generation in the GC, plus a large number of GC sweeps\collections, and a massive amount of page faults as a result as physical memory limits are reached. I can only assume that when physical memory is exhausted\very high, that this triggers generation sweeps and promotions thus causing a large amount of paged-out memory to be touched which is leading to a death spriral as touched memory is paged in and other memory is forced out. The whole thing ends in a soggy mess. This seems to be inevitable when allocating a large number of long-lived objects  which end up in the Small Object Heap.
+Now compare this to allocating objects in a fashion will allocate them directly into the Large Object Heap (which does not suffer the same sweeping and promotion issues):
+private static void Main() {     const int MaxNodeCount = 100000000;     const int LargeObjectSize = (85 * 1000);      LinkedList<byte[]> list = new LinkedList<byte[]>();      for (long i = 0; i < MaxNodeCount; ++i)     { list.AddLast(new byte[LargeObjectSize]);          if (i % 100000 == 0)         {             Console.WriteLine("{0:N0} 'approx' extra bytes allocated.",                ((i + 1) * LargeObjectSize));         }     } }
+This works as expected i.e. virtual memory is used and then eventually exhausted - 54GB in my environment\configuration.
+So it appears that allocating a mass of long-lived small objects will eventually lead to a vicious cycle in the GC as generation sweeps and promotions are made when physical memory has been exhausted - it's a page-file death spiral.
+Update 2
+Whilst investigating the issue I played with a number of options\configurations which made no appreciable difference:
+Forcing Server GC mode.
+Various combinations of forcing GC to try to amortize GC.
+Min\Max process working sets.

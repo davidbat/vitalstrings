@@ -1,0 +1,8 @@
+__add__(self, other)
+__getitem__(self, index)
+Return the element(s) index=(i, j), where j may be a slice. This always returns a copy for consistency, since slices into Python lists return copies.
+__iadd__(self, other)
+__imul__(self, other)
+__init__(self, A = None, shape = None, dtype = None)
+Create a new list-of-lists sparse matrix.  An optional argument A is accepted, which initializes the lil_matrix with it. This can be a tuple of dimensions (M, N) or a dense array / matrix to copy, or a sparse matrix of the following types:   - csr_matrix   - lil_matrix
+__isub__(self, other)

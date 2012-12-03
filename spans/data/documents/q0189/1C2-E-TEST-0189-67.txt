@@ -1,0 +1,19 @@
+By Alasdair Allan and Pete Warden
+Today at Where 2.0 Pete Warden and I will announce the discovery that your iPhone, and your 3G iPad, is regularly recording the position of your device into a hidden file. Ever since iOS 4 arrived , your device has been storing a long list of locations and time stamps. We're not sure why Apple is gathering this data, but it's clearly intentional, as the database is being restored across backups, and even device migrations.
+A visualization of iPhone location data. Click to enlarge .
+The presence of this data on your iPhone, your iPad, and your backups has security and privacy implications. We've contacted Apple's Product Security team, but we haven't heard back.
+What makes this issue worse is that the file is unencrypted and unprotected, and it's on any machine you've synched with your iOS device. It can also be easily accessed on the device itself if it falls into the wrong hands. Anybody with access to this file knows where you've been over the last year, since iOS 4 was released.
+In the following video, we discuss how the file was discovered and take a look at the data contained in the file. Further details are posted below .
+What information is being recorded?
+All iPhones appear to log your location to a file called " consolidated.db ." This contains latitude-longitude coordinates along with a timestamp. The coordinates aren't always exact, but they are pretty detailed. There can be tens of thousands of data points in this file, and it appears the collection started with iOS 4, so there's typically around a year's worth of information at this point. Our best guess is that the location is determined by cell-tower triangulation, and the timing of the recording is erratic, with a widely varying frequency of updates that may be triggered by traveling between cells or activity on the phone itself.
+Who has access to this data?
+Don't panic. As we discuss in the video , there's no immediate harm that would seem to come from the availability of this data. Nor is there evidence to suggest this data is leaving your custody. But why this data is stored and how Apple intends to use it — or not — are important questions that need to be explored.
+Related books by Alasdair Allan and Pete Warden
+What are the implications of this location data?
+The cell phone companies have always had this data, but it takes a court order to access it. Now this information is sitting in plain view, unprotected from the world. Beyond this, there is even more data that we have yet to look at in depth.
+For example, in my own case I (Alasdair) discovered a list of hundreds of thousands of wireless access points that my iPhone has been in range of during the last year.
+How can you look at your own data?
+We have built an application that helps you look at your own data. It's available at petewarden.github.com/iPhoneTracker along with the source code and deeper technical information.
+What can you do about this?
+An immediate step you can take is to encrypt your backups through iTunes (click on your device within iTunes and then check "Encrypt iPhone Backup" under the "Options" area).
+Related:

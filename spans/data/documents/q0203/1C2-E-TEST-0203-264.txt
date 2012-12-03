@@ -1,0 +1,8 @@
+garbage collection definition
+programming
+(GC) The process by which dynamically allocated storage is reclaimed during the execution of a program. The term usually refers to automatic periodic storage reclamation by the garbage collector (part of the run-time system ), as opposed to explicit code to free specific blocks of memory.
+Automatic garbage collection is usually triggered during memory allocation when the amount free memory falls below some threshold or after a certain number of allocations. Normal execution is suspended and the garbage collector is run. There are many variations on this basic scheme.
+Languages like Lisp represent expressions as graphs built from cells which contain pointers and data. These languages use automatic dynamic storage allocation to build expressions. During the evaluation of an expression it is necessary to reclaim space which is used by subexpressions but which is no longer pointed to by anything. This reclaimed memory is returned to the free memory pool for subsequent reallocation.
+Without garbage collection the program's memory requirements would increase monotonically throughout execution, possibly exceeding system limits on virtual memory size.
+See also the AI koan about garbage collection.
+(1997-08-25)

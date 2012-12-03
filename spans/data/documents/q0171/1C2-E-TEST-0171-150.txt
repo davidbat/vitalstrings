@@ -1,0 +1,9 @@
+Notes about the Subnet Calculator
+The subnet calculator implements a classful / classed IP addressing scheme where the following rules are adhered to:
+Class A addresses have their first octet in the range 1 to 126 (binary address begins with 0).
+Class B addresses have their first octet in the range 128 to 191 (binary address begins with 10).
+Class C addresses have their first octet in the range 192 to 223 (binary address begins with 110).
+The subnet calculator allows the use of a single subnet bit - for example, a class C address with a subnet      mask of 255.255.255.128 is permitted.
+The subnet calculator allows a subnet ID to have its final octet equal to the final octet of its subnet mask -      for example, a class C network address of 192.168.0.192 with a subnet mask of 255.255.255.192 is permitted.
+The above is generally accepted as being 'normal', however, certification students should keep in mind that, in some     certification programs, the final two points are regarded as inacceptible.
+For classless subnetting, you can use the CIDR calculator .

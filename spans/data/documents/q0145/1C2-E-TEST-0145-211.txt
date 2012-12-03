@@ -1,0 +1,21 @@
+Valedictorian, Teaching Assistant, Debater, Tutor, Educator
+Given:
+Amount invested = Rs. 4000 per year, at end of every year.
+Total duration of saving/investment = 3 years
+Rate of compound Interest = 10 % (assumed to be compounded annually)
+At the rate of saving of Rs. 1 per year:
+The amount invested in first year plus interest earned on it during the second year will become:
+1*(1 + r/100)   ...     Where r = rate of interest
+= 1 + 1/10 = 1.1
+At the end of second year another Rs. 1 is invested. With this total amount invested  in 2 years plus interest
+= 1.1 + 1 = Rs. 2.1
+The amount of interest plus principle  at the end of third year from investment in first 2 years
+= (Amount at the end of second year)*(1 + r/100)
+= 2.1*1.1 = Rs. 2.31
+At the end of third year another Rs. 1 is invested. With this total amount invested  in 3 years plus interest
+= 2.31 + 1 = Rs. 3.31
+With saving and investment of Rs. 1 per year the total amount of saving at the end of 3 years = 3.31
+Therefor with saving and investment of Rs. 4000 per year the total amount of saving at the end of 3 years
+= 3.31*4000 = Rs. 13240
+Posted by krishna-agrawala on February 22, 2010 at 2:47 PM
+Rate this answer:

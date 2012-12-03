@@ -1,0 +1,13 @@
+I get this question a lot, so let me explain.
+•
+As I've discussed in previous articles , there are common services on the internet that will return information about an IP address. Services like ARIN , PlotIP and others will return information about the ISP or hosting company that owns the block that the IP is a part of. Typically that will include the name, address, phone number of the ISP.
+"... if you're a regular person just trying to track something down on your own, you simply cannot get the information."
+At that point your only option is to contact the ISP and ask them. They do know which of their customers the IP is assigned to. The problem is that ISPs will not give this information out to just anyone. Typically it will require legal actions, as part of some kind of police or court proceeding, to get the ISP to release the information.
+So can you get a name an address from an IP? Yes ... if you have the legal backing to go get it. Otherwise, if you're a regular person just trying to track something down on your own, you simply cannot get the information.
+Article C2438 - October 16, 2005
+Leo A. Notenboom has been playing with computers since he was required to take a programming class in 1976. An 18 year career as a programmer at Microsoft soon followed. After "retiring" in 2001, Leo started Ask Leo! in 2003 as a place for answers to common computer and technical questions. More about Leo.
+Not what you needed?
+You may also be interested in:
+How do I figure out who owns an IP address? While you cannot find the specific owner of an IP address, you can find their ISP using a WHOIS search.
+What can people tell from my IP address? People can tell very little from your IP address. They cannot, for example, tell who or where you are. How much they can tell varies a great deal.
+Recent Comments

@@ -1,0 +1,10 @@
+by ESPIAU_DE_LAMAESTRE Jules — last modified 2012-06-22 16:04
+ 
+ 
+SMALL (Sparse Models, Algorithms and Learning for Large-scale data) develops a new foundational framework for processing signals, using adaptive sparse structured representations.  Sparse representations have opened up the horizons to new ways of thinking in signal processing including compressed sensing, A key discriminating feature has been the focus on developing reliable algorithms with provable performance and bounded complexity.
+Beyond the SMALL publications , a series of key achievements are already available. SMALL has dedicated a large effort to Reproducible Research by providing the SMALLBox , a test ground for the exploration of sparse representations. SMALL also contributes to give researchers from different scientific fields the opportunity to meet each other by organizing a series of events dedicated to sparsity and especially the SMALL Workshop on Dictionary Learning , held in London in January 2011, and the Workshop on Sparsity, Localization and Dictionary Learning , held in London in June 2012.
+ SMALL is a European project which gather 5 partners for a duration of 3 years (February 2009-February 2012). The project is supported by the European Commission under the Future and Emerging Technologies (FET) Open Scheme of the ICT Theme within the 7th Framework Programme for Research and Technological Development, under grant agreement 225913. 
+For details on the FET Open Scheme: http://cordis.europa.eu/fp7/ict/fet-open/home_en.html
+ 
+Keywords: SMALL project, Dictionary Learning, Sparsity, Sparse Approximation, Sparse Reconstruction, Sparse Decomposition, Large-Scale Data, Cosparsity, Spread spectrum, SMALLbox, K-SVD, Structured Sparsity, SMALL London Workshop.
+EVENTS

@@ -1,0 +1,67 @@
+In-place scalar multiplication and division
+A *= c, A /= c
+In-place remainder
+A %= c
+For example, if A has typecode 'i', then A += B is allowed if B has typecode 'i'.  It is not allowed if B has typecode 'd' or 'z' because the addition A+B results in a 'd' or 'z' matrix and therefore cannot be assigned to A without changing its type. As another example, if A is a sparse matrix, then A += 1.0 is not allowed because the operation A = A + 1.0 results in a dense matrix, so it cannot be assigned to A without changing its type.
+In-place matrix-matrix products are not allowed.  (Except when c is a 1 by 1 dense matrix, in which case A *= c is interpreted as the scalar product A *= c[0].)
+In-place remainder is only defined for dense A.
+It is important to know when a matrix operation creates a new object. The following rules apply.
+A simple assignment (A = B) is given the standard Python interpretation, i.e., it assigns to the variable A a reference (or pointer) to the object referenced by B.
+>>> B = matrix([[1.,2.], [3.,4.]]) >>> print(B) [ 1.00e+00  3.00e+00] [ 2.00e+00  4.00e+00] >>> A = B >>> A[0,0] = -1 >>> print(B) # modifying A[0,0] also modified B[0,0] [-1.00e+00  3.00e+00] [ 2.00e+00  4.00e+00]
+The regular (i.e., not in-place) arithmetic operations always return new objects.
+>>> B = matrix([[1.,2.], [3.,4.]]) >>> A = +B >>> A[0,0] = -1 >>> print(B) # modifying A[0,0] does not modify B[0,0] [ 1.00e+00  3.00e+00] [ 2.00e+00  4.00e+00]
+The in-place operations directly modify the coefficients of the existing matrix object and do not create a new object.
+>>> B = matrix([[1.,2.], [3.,4.]]) >>> A = B >>> A *= 2 >>> print(B) # in-place operation also changed B [ 2.00e+00  6.00e+00] [ 4.00e+00  8.00e+00] >>> A = 2*A >>> print(B) # regular operation creates a new A, so does not change B [ 2.00e+00  6.00e+00] [ 4.00e+00  8.00e+00]
+Indexing and Slicing ¶
+Matrices can be indexed using one or two arguments.  In single-argument indexing of a matrix A, the index runs from -len(A) to len(A)-1, and is interpreted as an index in the one-dimensional array of coefficients of A in column-major order.   Negative indices have the standard Python interpretation: for negative k, A[k] is the same element as A[len(A) + k].
+Four different types of one-argument indexing are implemented.
+The index can be a single integer. This returns a number, e.g., A[0] is the first element of A.
+The index can be an integer matrix.  This returns a column matrix: the command A[matrix([0,1,2,3])] returns the 4 by 1 matrix consisting of the first four elements of A.  The size of the index matrix is ignored: A[matrix([0,1,2,3], (2,2))] returns the same 4 by 1 matrix.
+The index can be a list of integers.  This returns a column matrix, e.g., A[[0,1,2,3]] is the 4 by 1 matrix consisting of elements 0, 1, 2, 3 of A.
+The index can be a Python slice.  This returns a matrix with one column (possibly 0 by 1, or 1 by 1).  For example, A[::2] is the column matrix defined by taking every other element of A, stored in column-major order. A[0:0] is a matrix with size (0,1).
+Thus, single-argument indexing returns a scalar (if the index is an integer), or a matrix with one column.  This is consistent with the interpretation that single-argument indexing accesses the matrix in column-major order.
+Note that an index list or an index matrix are equivalent, but they are both useful, especially when we perform operations on index sets.  For example, if I and J are lists then I+J is the concatenated list, and 2*I is I repeated twice.  If they are matrices, these operations are interpreted as arithmetic operations. For large index sets, indexing with integer matrices is also faster than indexing with lists.
+The following example illustrates one-argument indexing.
+>>> from cvxopt import matrix, spmatrix >>> A = matrix(range(16), (4,4), 'd') >>> print(A) [ 0.00e+00  4.00e+00  8.00e+00  1.20e+01] [ 1.00e+00  5.00e+00  9.00e+00  1.30e+01] [ 2.00e+00  6.00e+00  1.00e+01  1.40e+01] [ 3.00e+00  7.00e+00  1.10e+01  1.50e+01] >>> A[4] 4.0 >>> I = matrix([0, 5, 10, 15]) >>> print(A[I]) # the diagonal [ 0.00e+00] [ 5.00e+00] [ 1.00e+01] [ 1.50e+01] >>> I = [0,2]; J = [1,3] >>> print(A[2*I+J]) # duplicate I and append J [ 0.00e+00] [ 2.00e+00] [ 0.00e+00] [ 2.00e+00] [ 1.00e+00] [ 3.00e+00] >>> I = matrix([0, 2]); J = matrix([1, 3]) >>> print(A[2*I+J]) # multiply I by 2 and add J [ 1.00e+00] [ 7.00e+00] >>> print(A[4::4]) # get every fourth element skipping the first four [ 4.00e+00] [ 8.00e+00] [ 1.20e+01]
+In two-argument indexing the arguments can be any combinations of the four types listed above.  The first argument indexes the rows of the matrix and the second argument indexes the columns.  If both indices are scalars, then a scalar is returned.  In all other cases, a matrix is returned.  We continue the example.
+>>> print(A[:,1]) [ 4.00e+00] [ 5.00e+00] [ 6.00e+00] [ 7.00e+00] >>> J = matrix([0, 2]) >>> print(A[J,J]) [ 0.00e+00  8.00e+00] [ 2.00e+00  1.00e+01] >>> print(A[:2, -2:]) [ 8.00e+00  1.20e+01] [ 9.00e+00  1.30e+01] >>> A = spmatrix([0,2,-1,2,-2,1], [0,1,2,0,2,1], [0,0,0,1,1,2]) >>> print(A[:, [0,1]]) [ 0.00e+00  2.00e+00] [ 2.00e+00     0    ] [-1.00e+00 -2.00e+00] >>> B = spmatrix([0,2*1j,0,-2], [1,2,1,2], [0,0,1,1,]) >>> print(B[-2:,-2:]) [ 0.00e+00-j0.00e+00  0.00e+00-j0.00e+00] [ 0.00e+00+j2.00e+00 -2.00e+00-j0.00e+00]
+Expressions of the form A[I] or A[I,J] can also appear on the left-hand side of an assignment.   The right-hand side must be a scalar (i.e., a number or a 1 by 1 dense matrix), a sequence of numbers, or a dense or sparse matrix.  If the right-hand side is a scalar, it is interpreted as a dense matrix with identical entries and the dimensions of the left-hand side.  If the right-hand side is a sequence of numbers (list, tuple, array array, range object, ...) its values are interpreted as the coefficients of a dense matrix in column-major order.  If the right-hand side is a matrix (matrix or spmatrix), it must have the same size as the left-hand side.  Sparse matrices are converted to dense in the assignment to a dense matrix.
+Indexed assignments are only allowed if they do not change the type of the matrix.  For example, if A is a matrix with type 'd', then A[I] = B is only permitted if B is an integer, a float, or a matrix of type 'i' or 'd'.  If A is an integer matrix, then A[I] = B is only permitted if B is an integer or an integer matrix.
+The following examples illustrate indexed assignment.
+>>> A = matrix(range(16), (4,4)) >>> A[::2,::2] = matrix([[-1, -2], [-3, -4]]) >>> print(A) [ -1   4  -3  12] [  1   5   9  13] [ -2   6  -4  14] [  3   7  11  15] >>> A[::5] += 1 >>> print(A) [  0   4  -3  12] [  1   6   9  13] [ -2   6  -3  14] [  3   7  11  16] >>> A[0,:] = -1, 1, -1, 1 >>> print(A) [ -1   1  -1   1] [  1   6   9  13] [ -2   6  -3  14] [  3   7  11  16] >>> A[2:,2:] = range(4) >>> print(A) [ -1   1  -1   1] [  1   6   9  13] [ -2   6   0   2] [  3   7   1   3] >>> A = spmatrix([0,2,-1,2,-2,1], [0,1,2,0,2,1], [0,0,0,1,1,2]) >>> print(A) [ 0.00e+00  2.00e+00     0    ] [ 2.00e+00     0      1.00e+00] [-1.00e+00 -2.00e+00     0    ] >>> C = spmatrix([10,-20,30], [0,2,1], [0,0,1]) >>> print(C) [ 1.00e+01     0    ] [    0      3.00e+01] [-2.00e+01     0    ] >>> A[:,0] = C[:,0] >>> print(A) [ 1.00e+01  2.00e+00     0    ] [    0         0      1.00e+00] [-2.00e+01 -2.00e+00     0    ] >>> D = matrix(range(6), (3,2)) >>> A[:,0] = D[:,0] >>> print(A) [ 0.00e+00  2.00e+00     0    ] [ 1.00e+00     0      1.00e+00] [ 2.00e+00 -2.00e+00     0    ] >>> A[:,0] = 1 >>> print(A) [ 1.00e+00  2.00e+00     0    ] [ 1.00e+00     0      1.00e+00] [ 1.00e+00 -2.00e+00     0    ] >>> A[:,0] = 0 >>> print(A) [ 0.00e+00  2.00e+00     0    ] [ 0.00e+00     0      1.00e+00] [ 0.00e+00 -2.00e+00     0    ]
+Attributes and Methods ¶
+Dense and sparse matrices have the following attributes.
+size ¶
+A tuple with the dimensions of the matrix. The size of the matrix can be changed by altering this attribute, as long as the number of elements in the matrix remains unchanged.
+typecode ¶
+A character, either 'i', 'd', or 'z', for integer, real, and complex matrices, respectively.  A read-only attribute.
+trans
+)
+¶
+Returns the transpose of the matrix as a new matrix.  One can also use A.T instead of A.trans().
+ctrans
+)
+¶
+Returns the conjugate transpose of the matrix as a new matrix.  One can also use A.H instead of A.ctrans().
+real
+)
+¶
+For complex matrices, returns the real part as a real matrix.  For integer and real matrices, returns a copy of the matrix.
+imag
+)
+¶
+For complex matrices, returns the imaginary part as a real matrix. For integer and real matrices, returns an integer or real zero matrix.
+In addition, sparse matrices have the following attributes.
+V ¶
+A single-column dense matrix containing the numerical values of the nonzero entries in column-major order.  Making an assignment to the attribute is an efficient way of changing the values of the sparse matrix, without changing the sparsity pattern.
+When the attribute V is read, a copy of V is returned, as a new dense matrix.  This implies, for example, that an indexed assignment A.V[I] = B does not work, or at least cannot be used to modify A.  Instead the attribute V will be read and returned as a new matrix; then the elements of this new matrix are modified.
+I ¶
+A single-column integer dense matrix with the row indices of the entries in V .  A read-only attribute.
+J ¶
+A single-column integer dense matrix with the column indices of the entries in V .  A read-only attribute.
+CCS ¶
+A triplet (column pointers, row indices, values) with the compressed-column-storage representation of the matrix.  A read-only attribute.  This attribute can be used to export sparse matrices to other packages such as MOSEK.
+The next example below illustrates assignments to V .
+>>> from cvxopt import spmatrix, matrix >>> A = spmatrix(range(5), [0,1,1,2,2], [0,0,1,1,2]) >>> print(A) [ 0.00e+00     0         0    ] [ 1.00e+00  2.00e+00     0    ] [    0      3.00e+00  4.00e+00] >>> B = spmatrix(A.V, A.J, A.I, (4,4)) # transpose and add a zero row and column >>> print(B) [ 0.00e+00  1.00e+00     0         0    ] [    0      2.00e+00  3.00e+00     0    ] [    0         0      4.00e+00     0    ] [    0         0         0         0    ] >>> B.V = matrix([1., 7., 8., 6., 4.]) # assign new values to nonzero entries >>> print(B) [ 1.00e+00  7.00e+00     0         0    ] [    0      8.00e+00  6.00e+00     0    ] [    0         0      4.00e+00     0    ] [    0         0         0         0    ]
+The following attributes and methods are defined for dense matrices.
+tofile

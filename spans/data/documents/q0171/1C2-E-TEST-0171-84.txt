@@ -1,0 +1,15 @@
+Ip Questions
+Forward & Reverse IP Lookup
+Name resolution (or simply resolution) is the lookup process in the DNS. Resolution of an IP address from a host name is called forward resolution or forward lookup; resolution of a host name from an IP address is called a reverse resolution or reverse lookup.
+Likewise, a subset of the domain name space that is used for forward resolution is often called the forward tree, and a subset for reverse resolution is sometimes called the reverse tree; the mapping provided by the DNS for forward and reverse resolution is called forward mapping and reverse mapping, respectively.
+ 
+IP Lookup - WhoIs IP Lookup
+From the database transaction point of view,
+DNS is a network protocol based on the server-client model, in which servers are nameservers, and clients are called resolvers. A server waits for queries on the well-known UDP and TCP ports of 53.
+A resolver first sends a query over UDP, rather than TCP, to the well-known port of an appropriate server as required in [RFC1123], and the server sends a response to the client over UDP. TCP is used for some special cases such as zone transfer or when the message is too large to carry over UDP.
+ 
+ 
+WhoIs - IP Lookup Locator
+WhoIs IP Lookup Locator also known as IP identify is fast IP lookup tool which will help you to identify an IP address and  retrieve information on a specific IP address. Please enter only valid IP address to find out more information's about  any IP address in the world and perform IP lookup.
+IP Lookup:
+ 

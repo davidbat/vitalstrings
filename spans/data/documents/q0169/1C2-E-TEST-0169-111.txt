@@ -1,0 +1,9 @@
+Gert
+1314
+Important note which I forgot to add: the type of storage organization you choose for a compressed matrix matters, because it decides what the fastest way of iterating the compressed matrix will be. If you have row_major as storage type, my example above is the fastest way to iterate. If you choose column_major, you will have to exchange the inner and outer loop, i.e. looping over the columns first will be the fastest. –  Gert Dec 7 '09 at 10:18
+boost will iterate depending on the storage representation (row-major or col-major). So the same loops above will work for either representation. No changes need to be made. –  user236215 Sep 20 '10 at 10:43
+Sorry for bumping an old post. I'm not sure this code actually works see lists.boost.org/MailArchives/ublas/2006/11/1516.php . From my experience it will iterate over every element. –  Misha Jul 7 '11 at 7:56
+feedback
+up vote 1 down vote
+I scanned through the uBLAS library (interesting stuff btw), and it doesn't seem like they have something for that. Might I suggest using a different or parallel data structure? Your implementation will depend mostly on what usage you make of a sparse matrix. Looping through it O(N^2) style is not what a sparse matrix is meant for in the first place (unless you can access the underlying structure which, in the case of uBLAS, doesn't seem possible), you might as well use a chained list or plain array of small structs like so:
+struct sparseMatrixElement {    int value;    int row;    int col; };

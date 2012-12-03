@@ -1,0 +1,9 @@
+Calculating the Compound Interest Formula with MS Excel application
+Compound Interest Formula
+The compound interest can be determined by calculating the amount of interest gathered in each period and then putting it together with the initial deposit or principal amount. MS Excel offers a faster way to compute for the compound interest. To create a visual for the computation this compound interest formula found in MS Excel is very useful.
+Open a blank MS Excel document. Accomplish this by selecting the “File” tab and then clicking on the “New” button.
+Enter the headings on their corresponding columns on the first row of the document. Column A should contain the amount invested, column B should have the annual percentage on it, column C should reflect how many times your account was compounded annually, column D contains the number of years, and column F will have the future value that you want to determine in this.
+When the columns on the first row are ready, enter the appropriate values for each column on the second row or the row below them. When entering the value for the annual percentage rate, make sure to divide it by one hundred (100), if not, set the cell to the percentage format. Leave the second row below the column F, instead place this compound interest formula =A2*((1+B2/C2)^(C2*D2)).
+For the application of this formula, click on the column F where the formula is and drag it to the other columns and down to the targeted number of rows. Dragging and clicking will highlight your targeted values for computation. Press the “Control” (CTRL) button simultaneously with downward keys to apply the compound interest formula downwards to the areas concerned.
+Compound interest formula can be easily used in several ways of computing. One of which is through the MS Excel computation. This is the relatively easy and fast way, but you have to make sure of the accuracy of your inputs.
+All Rights Reserved. www.compoundinterestformula.org

@@ -1,0 +1,9 @@
+E-ink drawing pad closer to          paper
+July 14/21, 2004
+Paper has some advantages over electronic          drawing tablets. There's feedback in the form of friction, and the high-contrast          surface is easy on the eyes.
+Researchers from Philips Emerging Display Technologies, Limburgs          University Center in the Netherlands, Androme NV in Belgium, and E Ink          Corporation have combined an electronic ink display with a touch panel          input device to produce a electronic drawing tablet that comes closer          to paper.
+The device could eventually be used for freehand computer input,          including cartoon drawing and adding annotation to documents, according          to the researchers.
+The device uses E Ink's electronic ink, which consists of tiny          capsules filled with clear fluid, positively-charged white pigment chips,          and negatively-charged black pigment chips. A negative voltage causes          the white chips to move to the top of the capsules and the black chips          to move to the bottom. A positive voltage reverses the positions.
+The researchers laminated this microcapsule layer onto an electromagnetic          input panel, and added a paper-like top layer.
+They improved the ink's slow response time by having the system          initially ignore gray-level accuracy. An update that takes into account          gray-level accuracy takes about one second. Electronic ink is capable          of going from white to black in just under a third of a second, however,          and achieving a 10 percent change in brightness in 50 milliseconds, which          is bright enough for visual feedback.
+The researchers are working to further increase the update speed.          They presented the work at the Society for Information Display (SIDS)          International Symposium 2004 in Seattle, Washington, May 23 to 28.

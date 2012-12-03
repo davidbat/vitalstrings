@@ -1,0 +1,13 @@
+    r = interest rate (expressed as a fraction: eg. 0.06)
+    n = # of times per year interest in compounded
+    t = number of years invested
+Simplified Compound Interest Equation
+When interest is only compounded once per yer (n=1), the equation simplifies to:
+P = C (1 + r) t
+Continuous Compound Interest
+When interest is compounded continually (i.e. n -->
+), the compound interest equation takes the form:
+P = C e rt
+Demonstration of Various Compounding
+The following table shows the final principal (P), after t = 1 year, of an account initally with C = $10000, at 6% interest rate, with the given compounding (n). As is shown, the method of compounding has little effect.
+n

@@ -1,0 +1,21 @@
+What is Compound Interest? (Compound Interest Calculator)
+When you borrow money from a bank, you pay interest. Interest is really a fee charged for borrowing the money, it is a percentage charged on the principle amount for a period of a year - usually.
+If you want to know how much interest you will earn on your investment or if you want to know how much you will pay above the cost of the principal amount on a loan or mortgage, you will need to understand how compound interest works.
+* Compound interest is paid on the original principal and on the accumulated past interest.
+Formula:
+P is the principal (the initial amount you borrow or deposit)
+r is the annual rate of interest (percentage)
+n is the number of years the amount is deposited or borrowed for.
+A is the amount of money accumulated after n years, including interest.
+When the interest is compounded once a year:
+A = P(1 + r)n
+However, if you borrow for 5 years the formula will look like:
+A = P(1 + r)5
+This formula applies to both money invested and money borrowed.
+Frequent Compounding of Interest:
+What if interest is paid more frequently?
+Here are a few examples of the formula:
+Annually = P × (1 + r) = (annual compounding)
+Quarterly = P (1 + r/4)4 = (quarterly compounding)
+Monthly = P (1 + r/12)12 = (monthly compounding)
+Related Articles

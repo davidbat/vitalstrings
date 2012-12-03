@@ -1,0 +1,9 @@
+Sparse *A,*B,*C,*start1,*start2,*start3,*ptr1,*ptr2;
+clrscr();
+//Accept Details Regarding First Matrix & Its Elements
+cout<<endl<<"Enter no of rows in first sparse matrix : ";
+cin>>r;
+cout<<endl<<"Enter no of columns in first sparse matrix : ";
+cin>>c;
+cout<<endl<<"\t"<<"Enter elements of matrix A"<<endl<<endl;
+ctr=0;

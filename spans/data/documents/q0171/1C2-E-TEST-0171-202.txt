@@ -1,0 +1,38 @@
+Demos
+IP-GeoLoc™ IP Address Geolocation Online Service
+IP Address Geolocation Service to Identify the Continent, Country Code, Country Name, Region (State, County, Province, Region, Territory, District, etc), City, Postal/ZIP Code, Metro Code, Area Code, Latitude, Longitude, Internet Service Provider (ISP) and Organization
+Overview of our IP Address Geolocation Online Service
+The IP-GeoLoc™ IP Address Geolocation Online Service is a hosted, programmable XML Web Service that allows instant identification of your online visitor's geographical location by using his IP address or host name, in real time. Your web site communicates with our cloud-based service, sends your visitor's IP address or host name, and receives its geographic information such as the Continent, Country Code, Country Name, Region (State, County, Province, Region, Territory, District, etc), City, Postal/ZIP Code, Metro Code, Area Code, Latitude, Longitude, Internet Service Provider (ISP) and Organization. This IP address geolocation response is returned to your web site in less than 1/20 of a second, in XML format (you can see an example of this format here ). Your code then obtains the IP address geolocation information from this response simply by using string manipulation, or by parsing the XML tags using any XML parsing component (there are many of these components for all modern programming languages, for free).
+How does our IP Address Geolocation Online Service work
+It is very simple. Your web site makes a call to our IP address geolocation service performing an "HTTP GET" method.
+You should use the following URL if you have the visitor's IP address:
+http://services.ipaddresslabs.com/iplocation/locateip?key=(your "Service Access Key" goes here)&ip=(the visitor's IP address goes here)
+          Example: http://services.ipaddresslabs.com/iplocation/locateip?key=demo&ip=65.52.109.7 If you don't have the IP address but you do have the host name (which is very unlikely), you can use the following URL and the IP address geolocation service will automatically obtain the IP address from the host name:
+http://services.ipaddresslabs.com/iplocation/locatehostname?key=(your "Service Access Key" goes here)&hostname=(the visitor's host name goes here)
+          Example: http://services.ipaddresslabs.com/iplocation/locatehostname?key=demo&hostname=dyndns.com The "Service Access Key" is a value that identifies your geolocation service license in our system, either as a trial user or as a subscribed user. To get your own Service Access Key, please register , then sign in , and then get your Free Trial License or subscribe to our IP address geolocation service .
+The "HTTP GET" method is programatically performed from your website, in real time, so you must have access to your website's source code to extend it. All modern languages (such as Java/JSP, ASP, PHP, C#, Visual Basic, C, C++ and others) include libraries that implement the HTTP protocol, and allow you to make this with just a few lines of code. All web programming languages also allow you to obtain the visitor's IP address (as well as the host name), with just one line of code. You will need one of these values in order to invoke our service.
+Live Demo
+Features of our IP Address Geolocation Online Service
+Highly Accurate: Our IP mapping technology covers all the 4,294,967,296 IPv4 addresses around the world. Our IP address geolocation database is being permanently updated.
+Fast, in Real-Time: Our IP address geolocation service returns a response to your web site in less than 1/20 of a second.
+Unlimited Lookups: No quotas on the quantity of IP address geolocation lookups, or the rate (IP address geolocation lookups per second).
+Free Micro Edition: If the information it brings is enough for your needs, you can use our Micro Edition for Free!
+Affordable Paid Editions: The monthly subscription fee can be as low as US$ 6 (for the Basic Edition, paying for 12 months in advance).
+No Setup Fees: Pay as you go. You can start paying for just one month of service of one of our paid editions, with no setup fees. Or you can use our Micro Edition for Free!
+Several Editions: You can choose from the Micro, Basic, Standard and Professional editions, depending on your information needs.
+Free Trial License: Ask for a free trial license to evaluate our IP address geolocation service, before you get a paid subscription. Or you can directly use our Micro Edition for Free!
+Web Service: No software to buy and install in your server. No databases to install, that would require frequent manual updates.
+Easy to Integrate: You can invoke our IP address geolocation service from your web site with just a few lines of code. All modern programming languages are supported (Java/JSP, ASP, PHP, C#, Visual Basic, C, C++, etc). Don't even worry about your infrastructure (operating system, web server software, hardware, etc). No need to open your firewall, because it uses the standard HTTP protocol (port 80) to communicate your web server with our cloud.
+99.995% Availability: Designed to achieve a 99.995% availability, which is equivalent to 26 minutes of downtime per year at the most, considering both hardware/software failures and planned maintenances.
+The Best Support: Our fast and friendly customer support staff will be more than happy to assist you before and after you subscribe to our service.
+Things your web site can do with our IP Address Geolocation Online Service
+Reduce credit card fraud
+Filter access from countries you do not do business with to avoid legal issues
+Display native language and currency
+Understand better your visitors by geographical location
+Auto-selection of country on forms
+Control contents distribution by region for digital rights management
+Prevent password sharing and abuse of service
+Web log statistics and analysis
+Redirect web pages based on geographical region for load balancing
+Web log statistics and analysis to understand your visitors better by geographical location

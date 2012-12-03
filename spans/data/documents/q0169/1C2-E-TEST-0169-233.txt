@@ -1,0 +1,45 @@
+11.1 Module m_MatAttrVectMul - Sparse Matrix AttrVect Multipication. (Source File: m_MatAttrVectMul.F90)
+This module contains routines supporting the sparse matrix-vector     multiplication
+where the vectors x and y are stored using the MCT AttrVect datatype, and M is stored using either the MCT SparseMatrix or SparseMatrixPlus type.  The SparseMatrix type is used to represent M if the multiplication process is     purely data-local (e.g., in a global address space, or if the process    has been rendered embarrasingly parallel by earlier or subsequent     vector data redistributions).  If the multiplication process is to     be explicitly distributed-memory parallel, then the SparseMatrixPlus type is used to store the elements of M and all information needed    to coordinate data redistribution and reduction of partial sums.
+N.B.: The matrix-vector multiplication routines in this module     process only the real attributes of the AttrVect arguments    corresponding to x and y.  They ignore the integer attributes.
+INTERFACE:
+module m_MatAttrVectMul          private   ! except          public :: sMatAvMult        ! The master Sparse Matrix -                                    ! Attribute Vector multipy API        interface sMatAvMult   ; module procedure & sMatAvMult_DataLocal_, & sMatAvMult_sMPlus_      end interface
+SEE ALSO:
+The MCT module m_AttrVect for more information about the AttrVect type.    The MCT module m_SparseMatrix for more information about the SparseMatrix     type.    The MCT module m_SparseMatrixPlus for more details about the master class     for parallel sparse matrix-vector multiplication, the SparseMatrixPlus.
+REVISION HISTORY:
+12Jan01 - J.W. Larson <larson@mcs.anl.gov> - initial module.    26Sep02 - J.W. Larson <larson@mcs.anl.gov> - added high-level, distributed              matrix-vector multiply routine using the SparseMatrixPlus class.
+11.1.1 sMatAvMult_DataLocal - Purely local matrix-vector multiply
+The sparse matrix-vector multiplication routine sMatAvMult_DataLocal_() operates on the assumption of total data locality, which is equivalent     to the following two conditions:
+The input AttrVect xAV contains all the values referenced     by the local column indices stored in the input SparsMatrix argument sMat; and
+The output AttrVect yAV contains all the values referenced     by the local row indices stored in the input SparsMatrix argument sMat.
+By default, the multiplication occurs for each of the common REAL attributes     shared by xAV and yAV.  This routine is capable of     cross-indexing the attributes and performing the necessary multiplications.
+If the optional argument rList is present, only the attributes listed will    be multiplied.  If the attributes have different names in yAV, the optional TrList argument can be used to provide the translation.
+If the optional argument Vector is present and true, the vector    architecture-friendly portions of this routine will be invoked.  It    will also cause the vector parts of
+sMat to be initialized if they    have not been already.
+INTERFACE:
+subroutine sMatAvMult_DataLocal_(xAV, sMat, yAV, Vector, rList, TrList)
+USES:
+use m_realkinds, only : FP         use m_stdio,     only : stderr        use m_die,       only : MP_perr_die, die, warn          use m_List, only : List_identical => identical        use m_List, only : List_nitem => nitem        use m_List, only : GetIndices => get_indices          use m_AttrVect, only : AttrVect        use m_AttrVect, only : AttrVect_lsize => lsize        use m_AttrVect, only : AttrVect_zero => zero        use m_AttrVect, only : AttrVect_nRAttr => nRAttr        use m_AttrVect, only : AttrVect_indexRA => indexRA        use m_AttrVect, only : SharedAttrIndexList          use m_SparseMatrix, only : SparseMatrix        use m_SparseMatrix, only : SparseMatrix_lsize => lsize        use m_SparseMatrix, only : SparseMatrix_indexIA => indexIA        use m_SparseMatrix, only : SparseMatrix_indexRA => indexRA        use m_SparseMatrix, only : SparseMatrix_vecinit => vecinit          implicit none
+INPUT PARAMETERS:
+type(AttrVect),     intent(in)    :: xAV        logical,optional,   intent(in)    :: Vector        character(len=*),optional, intent(in)    :: rList        character(len=*),optional, intent(in)    :: TrList
+INPUT/OUTPUT PARAMETERS:
+type(SparseMatrix), intent(inout)    :: sMat        type(AttrVect),     intent(inout) :: yAV
+REVISION HISTORY:
+15Jan01 - J.W. Larson <larson@mcs.anl.gov> - API specification.    10Feb01 - J.W. Larson <larson@mcs.anl.gov> - Prototype code.    24Apr01 - J.W. Larson <larson@mcs.anl.gov> - Modified to accomodate              changes to the SparseMatrix datatype.    25Apr01 - J.W. Larson <larson@mcs.anl.gov> - Reversed loop order              for cache-friendliness    17May01 - R. Jacob <jacob@mcs.anl.gov> - Zero the output              attribute vector    10Oct01 - J. Larson <larson@mcs.anl.gov> - Added optional LOGICAL              input argument InterpInts to make application of the              multiply to INTEGER attributes optional    15Oct01 - J. Larson <larson@mcs.anl.gov> - Added feature to               detect when attribute lists are identical, and cross-              indexing of attributes is not needed.    29Nov01 - E.T. Ong <eong@mcs.anl.gov> - Removed MP_PERR_DIE if              there are zero elements in sMat. This allows for              decompositions where a process may own zero points.    29Oct03 - R. Jacob <jacob@mcs.anl.gov> - add Vector argument to              optionally use the vector-friendly version provided by              Fujitsu    21Nov06 - R. Jacob <jacob@mcs.anl.gov> - Allow attributes to be              to be multiplied to be specified with rList and TrList.
+11.1.2 sMatAvMult_SMPlus_ - Parallel Multiply Using SparseMatrixPlus
+This routine performs distributed parallel sparse matrix-vector     multiplication
+, where y and x are represented by the AttrVect arguments yAV and xAV, respectively.  The matrix M is stored in the input SparseMatrixPlus argument sMatPlus, which also contains     all the information needed to coordinate the communications required to     gather intermediate vectors used in the multiplication process, and to     reduce partial sums as needed.    By default, the multiplication occurs for each of the common REAL attributes     shared by xAV and yAV.  This routine is capable of     cross-indexing the attributes and performing the necessary multiplications.
+If the optional argument rList is present, only the attributes listed will    be multiplied.  If the attributes have different names in yAV, the optional TrList argument can be used to provide the translation.
+If the optional argument Vector is present and true, the vector    architecture-friendly portions of this routine will be invoked.  It    will also cause the vector parts of sMatPlus to be initialized if they    have not been already.
+INTERFACE:
+subroutine sMatAvMult_SMPlus_(xAV, sMatPlus, yAV, Vector, rList, TrList)
+USES:
+use m_stdio        use m_die        use m_mpif90          use m_String, only : String        use m_String, only : String_ToChar => ToChar          use m_AttrVect, only : AttrVect        use m_AttrVect, only : AttrVect_init => init        use m_AttrVect, only : AttrVect_lsize => lsize        use m_AttrVect, only : AttrVect_clean => clean        use m_AttrVect, only : AttrVect_Rcopy => Rcopy        use m_AttrVect, only : AttrVect_zero  => zero          use m_Rearranger, only : Rearranger        use m_Rearranger, only : Rearrange          use m_SparseMatrixPlus, only : SparseMatrixPlus        use m_SparseMatrixPlus, only : Xonly        use m_SparseMatrixPlus, only : Yonly        use m_SparseMatrixPlus, only : XandY          implicit none
+INPUT PARAMETERS:
+type(AttrVect),         intent(in)    :: xAV        logical, optional,      intent(in)    :: Vector        character(len=*),optional, intent(in)    :: rList        character(len=*),optional, intent(in)    :: TrList
+INPUT/OUTPUT PARAMETERS:
+type(AttrVect),         intent(inout) :: yAV        type(SparseMatrixPlus), intent(inout) :: sMatPlus
+SEE ALSO:
+The MCT module m_AttrVect for more information about the AttrVect type.    The MCT module m_SparseMatrixPlus for more information about the     SparseMatrixPlus type.
+REVISION HISTORY:
+26Sep02 - J.W. Larson <larson@mcs.anl.gov> - API specification and              implementation.    29Oct03 - R. Jacob <jacob@mcs.anl.gov> - add vector argument to all              calls to Rearrange and DataLocal_.  Add optional input              argument to change value (assumed false)    22Nov06 - R. Jacob <jacob@mcs.anl.gov> - add rList,TrList arguments    10Jan08 - T. Craig <tcraig@ucar.edu> - zero out intermediate aVs before              they are used

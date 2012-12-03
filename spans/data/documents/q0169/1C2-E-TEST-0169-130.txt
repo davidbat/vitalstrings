@@ -1,0 +1,189 @@
+Zahari Zlatev, Kjeld Schaumburg, Jerzy Wasniewski,
+A testing Scheme for Subroutines Solving Large Linear Problems,
+Computers and Chemistry,
+Volume 5, Number 2-3, pages 91-100, 1981.
+Source Code:
+sparsekit.sh ,           commands to compile the source code.
+Examples and Tests:
+sparsekit_prb01.f90 ,           a sample calling program.
+sparsekit_prb01.sh ,           commands to compile and run the sample program.
+sparsekit_prb01_output.txt ,           the output from a run of the sample program.
+Sample problem 2:
+sparsekit_prb02.f90 ,           a sample calling program.
+sparsekit_prb02.sh ,           commands to compile and run the sample program.
+sparsekit_prb02_output.txt ,           the output from a run of the sample program.
+Sample problem 3:
+sparsekit_prb03.f90 ,           a sample calling program.
+sparsekit_prb03.sh ,           commands to compile and run the sample program.
+sparsekit_prb03_output.txt ,           the output from a run of the sample program.
+Sample problem 4 takes a banded matrix of order 16, stored       as a dense matrix, converts it to CSR format and sorted CSR       format.
+sparsekit_prb04.f90 ,           a sample calling program.
+sparsekit_prb04.sh ,           commands to compile and run the sample program.
+sparsekit_prb04_output.txt ,           the output from a run of the sample program.
+Sample problem 5:
+sparsekit_prb05.f90 ,           a sample calling program.
+sparsekit_prb05.sh ,           commands to compile and run the sample program.
+sparsekit_prb05_output.txt ,           the output from a run of the sample program.
+Sample problem 6:
+sparsekit_prb06.f90 ,           a sample calling program.
+sparsekit_prb06.sh ,           commands to compile and run the sample program.
+sparsekit_prb06_output.txt ,           the output from a run of the sample program.
+Sample problem 7:
+sparsekit_prb07.f90 ,           a sample calling program.
+sparsekit_prb07.sh ,           commands to compile and run the sample program.
+sparsekit_prb07_output.txt ,           the output from a run of the sample program.
+Sample problem 8 generates three sample matrices from the       Zlatev set, and writes them to Harwell-Boeing format files:
+sparsekit_prb08.f90 ,           a sample calling program.
+sparsekit_prb08.sh ,           commands to compile and run the sample program.
+sparsekit_prb08_output.txt ,           the output from a run of the sample program.
+zlatev1_hb.txt ,           Zlatev sample matrix 1.
+zlatev2_hb.txt ,           Zlatev sample matrix 2.
+zlatev3_hb.txt ,           Zlatev sample matrix 3.
+Sample problem 9:
+sparsekit_prb09.f90 ,           a sample calling program.
+sparsekit_prb09.sh ,           commands to compile and run the sample program.
+sparsekit_prb09_output.txt ,           the output from a run of the sample program.
+Sample problem 10:
+sparsekit_prb10.f90 ,           a sample calling program.
+sparsekit_prb10.sh ,           commands to compile and run the sample program.
+sparsekit_prb10_output.txt ,           the output from a run of the sample program.
+Sample problem 11:
+sparsekit_prb11.f90 ,           a sample calling program.
+sparsekit_prb11.sh ,           commands to compile and run the sample program.
+sparsekit_prb11_output.txt ,           the output from a run of the sample program.
+Sample problem 12:
+sparsekit_prb12.f90 ,           a sample calling program.
+sparsekit_prb12.sh ,           commands to compile and run the sample program.
+sparsekit_prb12_output.txt ,           the output from a run of the sample program.
+Sample problem 13:
+sparsekit_prb13.f90 ,           a sample calling program.
+sparsekit_prb13.sh , commands to compile and run the sample program.
+sparsekit_prb13_output.txt ,           the output from a run of the sample program.
+Sample problem 14 generates a sample CSR matrix and       converts it to an NCF (nonsymmetric coordinate format)       used by NSPCG.
+sparsekit_prb14.f90 ,           a sample calling program.
+sparsekit_prb14.sh ,           commands to compile and run the sample program.
+sparsekit_prb14_output.txt ,           the output from a run of the sample program.
+List of Routines:
+AMASK extracts a sparse matrix from a masked input matrix.
+AMUB performs the matrix by matrix product C = A * B.
+AMUBDG gets the number of nonzero elements in each row of A*B.
+AMUDIA performs the matrix by matrix product B = A * Diag  (in place)
+AMUX multiplies a CSR matrix A times a vector.
+AMUXD multiplies a DIA matrix times a vector.
+AMUXE multiplies an ELL matrix times a vector.
+AMUXJ multiplies a JAD matrix times a vector.
+APLB performs the CSR matrix sum  C = A + B.
+APLB1 performs the matrix sum  C = A+B for matrices in sorted CSR format.
+APLBDG gets the number of nonzero elements in each row of A+B and the total
+APLDIA adds a diagonal matrix to a general sparse matrix:  B = A + Diag
+APLSB performs the matrix linear combination  C = A+s*B
+APLSB1 performs the operation C = A+s B for matrices in sorted CSR format.
+APLSBT performs the matrix sum  C = A + B'.
+APLSCA adds a scalar to the diagonal entries of a sparse matrix A :=A + s I
+APMBT performs the matrix sum  C = A + B' or C = A - B'.
+ASSMB1 ???
+ATMUX computes A' * x for a CSR matrix A.
+BLKCHK checks whether the input matrix is a block
+BLKFND attemptps to determine whether or not  the input
+BNDCSR converts Banded Linpack format to Compressed Sparse Row format.
+BOUND counts the number of boundary points and
+BSORT2 simple bubble sort for getting the ncut largest
+BSRCSR converts Block Sparse Row     to Compressed Sparse Row.
+BSTEN calculates the correct block-stencil values for
+CHECKREF returns the expected the new number of nodes and
+CHKELMT checks the labeling within each element and reorders
+CNRMS gets the norms of each column of A. (choice of three norms)
+COICSR converts COO to CSR in place.
+COOCSR converts COO to CSR.
+COOELL converts coordinate format to ellpack format.
+COPMAT copies the matrix a, ja, ia, into the matrix ao, jao, iao.
+CPERM permutes the columns of a matrix.
+CSCAL scales the columns of A such that their norms are one on return
+CSORT sorts the elements of  a matrix (stored in Compressed
+CSRBND converts Compressed Sparse Row  to  Banded (Linpack ) format.
+CSRBSR converts Compressed Sparse Row  to    Block Sparse Row
+CSRCOO converts Compressed Sparse Row      to      Coordinate
+CSRCSC converts Compressed Sparse Row     to      Compressed Sparse Column
+CSRDIA converts Compressed sparse row     to    diagonal format
+CSRDNS converts Compressed Sparse Row    to    Dense
+CSRELL converts Compressed Sparse Row          to    Ellpack - Itpack format
+CSRJAD converts Compressed Sparse Row  to   JAgged Diagonal storage.
+CSRLNK converts Compressed Sparse Row         to    Linked storage format.
+CSRMSR converts Compressed Sparse Row   to      Modified - Sparse Row
+CSRSSK converts Compressed Sparse Row         to     Symmetric Skyline Format
+CSRSSR converts Compressed Sparse Row     to     Symmetric Sparse Row
+DCN generates sparse square matrices of type D(N,C).
+DCSORT computes a permutation which, when applied to the
+DIACSR converts diagonal format     to     compressed sparse row
+DIAMUA performs the matrix by matrix product B = Diag * A  (in place)
+DIAPOS returns the positions of the diagonal elements of a
+DINFO1 computes and prints matrix statistics.
+DIRIC takes into account the boundary conditions
+DLAUNY is a simple, nonoptimal Delaunay triangulation code.
+DNSCSR converts Dense            to    Compressed Row Sparse
+DPERM permutes the rows and columns of a matrix stored in CSR
+DSCALDG scales rows by diag where diag is either given (job=0)
+DUMP writes the matrix in a file, one row at a time in a nice readable
+DVPERM performs an in-place permutation of a real vector x
+ECN generates sparse (square) matrices of the type E(N,C).
+ELLCSR converts Ellpack-Itpack to Compressed Sparse Row.
+ESTIF3 constructs the element stiffness matrix using 3-node triangular elements
+EXPHES computes the Arnoldi basis and the corresponding
+EXPPRO computes an approximation to the vector
+EXPPROD computes an approximation to the vector
+EXTBDG extracts the main diagonal blocks of a
+FILTER removes any elements whose absolute value
+GEN57BL computes the sparse matrix in compressed
+GEN57PT computes the sparse matrix in compressed
+GENFEA generates finite element matrices for heat
+GENFEU generates finite element matrices for heat
+GETBWD gets the bandwidth of lower part and upper part of A.
+GETDIA extracts a given diagonal from a matrix stored in CSR
+GETELM returns the element a(i,j) of a matrix A,
+GETL extracts the lower triangular part of a matrix
+GETSTEN calculates the correct stencil values for
+GETU extracts the upper triangular part of a matrix
+GRADI3 constructs the first derivative of the shape functions.
+HES computes exp ( H dt) * y    (1)
+HSOURC generates the load vector f in assembled form from the
+ILU0 is an ILU(0) preconditioner.
+ILUT is an ILUT preconditioner.
+INFDIA obtains information on the diagonals of A.
+IVPERM performs an in-place permutation of an integer vector
+JADSCR converts Jagged Diagonal Storage   to     Compressed Sparse Row
+LDSOL solves L x = y    L = triangular. MSR format
+LDSOLC solves     L x = y ;    L = nonunit Low. Triang. MSC format
+LDSOLL solves L x = y    L = triangular. Uses LEVEL SCHEDULING/MSR format
+LEVELS gets the level structure of a lower triangular matrix
+LNKCSR converts linked list storage format   to      Compressed Sparse Row  format.
+LSOL solves    L x = y ; L = lower unit triang. /  CSR format
+LSOLC solves     L x = y ;    where L = unit lower trang. CSC format
+LUSOL0 performs a forward followed by a backward solve
+MARKGEN is a matrix generator for a markov model of a random walk on a triang. grid
+MATRF2 generates sparse (rectangular or square) matrices.
+MGSR is a modified gram - schmidt  with  partial  reortho.
+MILU0 is a simple milu(0) preconditioner. ***                *
+MSRCSR converts Modified - Sparse Row  to   Compressed Sparse Row
+PGMRES is an ILUT - Preconditioned GMRES solver.
+PLTMT creates a 'pic' file for plotting the pattern of
+PLTMTPS creates a 'PS' file for plotting the pattern of
+PRTMT writes a matrix in Harwell-Boeing format into a file.
+READMT reads  a boeing/harwell matrix. handles right hand
+REFALL refines a finite element grid using triangular elements.
+RETMX returns in dd(*) the max absolute value of elements in row *.
+RNRMS gets the norms of each row of A. (choice of three norms)
+RPERM permutes the rows of a matrix in CSR format.
+RSCAL scales the rows of A such that their norms are one on return
+SSKSSR converts Symmetric Skyline Format  to  Symmetric Sparse Row format.
+SSRCSR converts Symmetric Sparse Row   to    (regular) Compressed Sparse Row
+SUBMAT extracts the submatrix A(i1:i2,j1:j2) and puts the result in
+TRANSP carries out in-place transposition routine.
+UDSOL solves   U x = y  ;   U = upper triangular in MSR format
+UDSOLC Solves     U x = y ;    U = nonunit Up. Triang. MSC format
+UNASSBL ???
+USOL solves   U x = y    U = unit upper triangular.
+USOLC solves U x = y ;    where U = unit upper trang. CSC format
+SAXPY CONSTANT TIMES A VECTOR PLUS A VECTOR.
+SDOT FORMS THE DOT PRODUCT OF TWO VECTORS.
+You can go up one level to the FORTRAN90 source codes .
+Last revised on 30 August 2005.

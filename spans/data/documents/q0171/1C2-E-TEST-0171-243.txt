@@ -1,0 +1,11 @@
+Whois IP - (additional information about IP)
+IP indicator for your website!
+<a href="http://ip-detect.net" title="My ip detect"><img src="http://ip-detect.net/img_detectip1.php" border="0"></a>
+What is IP address?
+An ip-address (Internet Protocol Address) -  is the unique identifier of the device connected to the Internet or a local area network.
+To put this another way,  the identifier means address, and the device means computer. IP - the address consists of four numbers registered through a point, for instance 211.108.161.140 or 11.92.25.3.
+To add, the ip-address has length of 4 bytes. The first and second bytes define the network address, the third defines subnets address, the fourth one - subnet address of the computer.
+If the computer is connected to a local area network, its IP-address is given through the network manager, but if the computer has the access to the Internet as well, the IP-address is given by the Internet provider.
+Every IP is unique. However, there are networks which connect to the Internet through the same IP address.
+In such case, several computers have one IP simultaneously . To add, such network is an Internet connection through a server which has external IP, computers which incorporate with the Internet through this server always have an ip-address identical with the server.
+Ip-addresses are subdivided into dynamic and static. Static IP-addresses are addresses which stand out the provider, and do not change with Internet connections. Dynamic IPs are usually used in Dial-up (modems) connections, being changed every time computer connects to Internet.

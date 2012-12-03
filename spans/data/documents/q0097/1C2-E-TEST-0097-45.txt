@@ -1,0 +1,74 @@
+Last Updated: Feb 28, 2011
+The FedEx SuperHub
+Initial package sorting was done in a metal building on the Airport. Falcons would land late at night, be manually unloaded and placed on a circular belt. Sort workers would look for their stations packages and pick them off for their aircraft. As volumes increased a much larger location was needed and a facility that could automatically sort the packages and dock the larger 727 aircraft that the company could now fly.
+Michael Basch
+The Four Hub Plan
+Initial plans seemed to going in the direction of building 4 regional hubs. Falcons would fly to the regional Hubs; then 727's would carry freight between the Hubs.
+The SUPERHub
+Operations Research models continued to show that a single hub was the most practical up to much larger volumes. FWS made the decision to start with a large automated Memphis Hub.
+Michael Basch was selected to lead this effort. The system broke ground in July 1979. The goal was a system that could sort 500,000+ packages a night and later be expanded.
+The prime contractor was the Austin Company, and primary sort systems company was Rapistan.
+Instead of all packages going down one belt, there would be multiple unload docks where containers could be offloaded directly to feeder belts. These belts would take the packages to a Primary Sort location consisting of more than a dozen parallel sort belts.
+Thousands of packages would be directed into this primary sort area. Three people usually worked each sort position. Two persons would place packages on a belt while one used a 10 key pad to enter the zip code. A small label printer spit out a 1" x 1" label with a 2 digit code which was placed on the package.
+The package was then fed to a high speed belt where a computer system tracked it and eventually one of over a dozen diverters pushed the package to a secondary sort system. At the secondary sort system, workers would pick off the packages using the two digit code to load into containers for the destination containers.
+Startup Issues & My Involvement
+By May of 1981 the SuperHub was up and in test. Package volume had reached 100,000 per night. Each night 25,000 packages were fed to the SuperHub to test the system. The packages were sent back to the old hub for final sorting after the test.
+Of the 25,000 packages that were tested 20,000 were sorted to the wrong location. Rapistan had some hardware issues, but couldn't find a solution to the problem.
+I worked in Telecommunications Engineering and was asked by Jim Barksdale to look at this. Data Systems hadn't been involved in any part of the planning to that date.
+I spent a week, working nights to try and resolve the issues. Many in management were frustrated at Rapistan's response and just wanted to start over.
+Simple Solutions
+The hardware and software issues could be isolated within a few days, but the root cause of the mis-sort took the rest of the week. I decided to just sit and watch the sort for several days. My eyes finally fixated on a small LED display on each sort controller. A half dozen codes kept coming up. I asked to see documentation on the sort controllers and to get a copy of the software. No one had any documentation at that time, so I had Rapistan ship me a copy.
+The primary root cause was that the hub sort personnel had never used a 10 key pad and made mistakes on almost every couple packages. They would hit the clear key when they realized they had mis-keyed, and just keyed in the zip again.
+No one realized that the software had been written to CLEAR ALL PACKAGES in queue when the CLEAR key was hit. This meant that the package in front of the package being keyed, and possibly the package behind the keyed package were cleared out of the tracking system. So the packages being tracked down the belt, were off by 2 or 3 packages all the time.
+Only when the keyer position changed did they get back on track.
+Some keyer education, and some software mods fixed the primary reasons for mis-sorts.
+Excerpt memo on what is causing mis-sorts from 1981
+Hardware Issues
+Hardware issues were also identified and fixed. Electricians had been trained to do basic repair on the sort controller computers, but only on the night shift. By the time the SuperHub was live, those electricians had moved to the day shift.
+Other issues such as not grounding themselves when swapping boards, heavy vibration( felt like constant earthquake tremors) shook the boards out of their sockets and other issues were identified.
+I drafted a report which I still have, and went over it with Hub Management before sending to Jim Barksdale. I wanted to give them time to put some solutions in place.
+Other Systems
+There were other types of systems in place for sortation. Another four sort controllers made by Howard Miller     performed well. I actually visited Howard's business with Ken Willoughby. It turned out to be pretty much a garage with workers being college students.
+The hub wanted to also try tilt trays, just so they could see if they worked. These were provided by Spivey.
+Overnite Letters were still sorted manually, with the sorters having to memorize zip code combinations.
+SuperHub Expansion
+The SuperHub continued to expand and eventually a creek was filled in so the SuperHub could be expanded on the property.
+Management
+I enjoyed working with the SuperHub management team. I was able to do several other Hub projects over the next few years.
+It was a major, major effort to manage the building of the Hub.
+I attended several of Mike Basch's staff meetings. Usually there would be 30+ people in the meeting to go over action items, to do lists etc. Items from trading in conference room chairs to save money, waxing slides where packages were going too slow, changing package chutes where packages went too fast and putting up nets where packages occasionally flew off the belts and might high someone. Safety was a key concern.
+Management Tidbits
+In one of the meetings I got a management tidbit I would always remember.
+As action items were checked off or assigned, they would ask who was responsible for a particular item. When no one accepted it, Mike would ask a young Director named Tom Glasgow if he would take the item. Tom always said, "Sure".
+He never wrote anything down, and at the end of the meeting he might have 5-10 items to do.
+"One day I asked him, how do you do all this, and don't write it down?"
+He said, "Well, first, Mike always has someone taking meeting minutes, so I don't have to write it down. I get a copy of those minutes and look for action items with my name. And having the action item doesn't mean I need to fix the issue, I am responsible for finding the right person or group to fix it, whether in my group or not. I then tell them that it's their issue and they need to find the solution and report back to Mike or him".
+So, an important lesson. Taking an action item, means taking the responsibility of finding the correct person to do it, and following thru that it is addressed.
+Mike Basch Story
+ 
+This story isn't related to SuperHub history but is one that Mike Basch relays in his book. He was in charge of Sales and Customer Service initially. The moto was Get The Packages and they were trying to inspire everyone to go after packages, so the company could survive.
+There was a company up north that wouldn't even try FedEx. They had about 20 packages a day, but nothing would convince them to change.
+A lady in Customer Service received a call from another lady who had shipped her wedding dress via Federal Express. She was crying, and her wedding was the next day.The cust. service rep did what they usually did those days for tracking, she called the hub, then called all 20 of the stations to see if they had the dress. She located it, and rented a Cessna and pilot to fly it directly to her.
+Mike found out and was disturbed. It cost $300 to do this and he couldn't have this going on all the time. The lady said, you told us to get the packages out....and that is what I did,,,and anyway..we will probably go bankrupt anytime now...anyway.
+The bride called from the Caribbean to thank the customer rep and said she wanted to talk to management and thank them. She said it was the talk of the wedding,, this small company which rented an entire plane for her wedding dress.
+It turns out that many people at the wedding started talking about this new service. One of the execs at the company who wouldn't ship with FedEx,said we have go to try this new company...and FedEx got lots of business from action by the rep.
+ 
+ 
+Bypass, Overflow, Metroplexs, Ramps
+As volumes increased there were volumes of packages just between groups of cities. For example, a large amount of packages would go from Los Angeles to New York.
+Containers would be filled with packages for these lanes, called Bypass containers. When the aircraft got to Memphis, the entire container would just be carried to the destination aircraft. It wasn't necessary to take all the packages out of the container. Some bags of overnite letters were also presorted for the destination.
+As volumes continued to grow, more traffic would be destined for cities close to each other. For example there would be volumes of packages destined between Los Angeles and Oakland. These could be sorted, trucked or flown directly to the destinations.
+Eventually with higher growth, more sorting facilities were required for these volume lane segments. Smaller hubs called Metroplexes were designed for this interim sorting. With trucking added for smaller routes, Ramps were created as sortation points.
+COSMOS scanning was done along all these sort points to keep positive control of the customers packages.
+URSA (Universal Routing and Sortation Aid)
+This section is partly about scanning, but was most important in the evolution of sortation at the MEM SuperHub.
+When the SuperHub went into operations, there was an airbill on every package. The handler would type in the zipcode and a small label would be applied for downstream sorting. There also might be a destination Airport identifier handwritten on the package( like BOSA-for Boston station).
+With Customer Automation (later named Powership), a barcode and label were applied to the package. The barcode included the destination zipcode that could be read by overhead laser scanners.
+Enter SuperTracker & ASTRA Labels
+A project led by Harry Dalton's SIS department worked with a TEC(a Japanese company) to develop a portable printer. The courier could enter info into the SuperTracker, touch the tracker to the printer, and a label with barcode info would be generated; and applied to the package.
+This meant that all packages could have a label which included a barcode. The barcode could contain routing information. This meant that no keyer was needed to enter zip codes.
+This would eliminate keying errors, and the sortation belts could run faster. This would allow the SuperHub to be expanded and handle more volumes than originally planned.
+YouTube Video, FedEx Memphis SuperHub
+ 
+SuperHub Runway around mid 1980's
+ 

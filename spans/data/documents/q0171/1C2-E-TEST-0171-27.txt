@@ -1,0 +1,36 @@
+ip packets
+An IP address is a unique address used to locate and identify a device over a network. That device can be an electronic device, a computer, a server, a router or even an IP phone . It is the addressing used for the transmission of data packets over a network working with the IP protocol .
+An IP address is slightly complex to understand in details for non-technical readers, so I try to explain briefly what they are. We see
+The uniqueness of an IP address over a network
+The IP structure of an IP address
+The network and host part of an IP address
+The scarcity of IP addresses and how they are assigned
+IP addresses and domain names
+Unique address for each machine
+An IP address should be unique over a network. On the Internet, you never get two machines with the same IP address. Over a LAN as well, there should never be two machines with the same IP address. In case there are,  then, packets won't know exactly where to go. This is called IP conflict.
+The IP Address Structure
+All IP addresses are made up of four parts (quadrants) separated by dots, like this:
+XXX.XXX.XXX.XXX
+where each XXX can be any number between 0 and 255. If you know binary, you will understand that each of these numbers are stored in 8 bits (binary digits), and the number of possibilities you can have is 2 raised to the power of 8, which is 256 (0-255).
+Examples of IP addresses are:
+192.168.66.5
+127.0.0.1
+The second example above is the default IP address assign to any standalone machine. So, if your machine is not connected to any network, its address is 127.0.0.1. This is also called the localhost address.
+The two parts of an IP address
+An IP address consists of two parts: the network part and the machine part. Let us make an analogy to your house's address. It is made up of the country part, then the city part, then the street part. All people living in your locality will have the same country and city parts in their addresses. Only the house number and street parts will be different.
+For IP, all machines on a same network will have the same left (network) part. The right side varies based on machines. For example, right now, I am writing this within a LAN. The LAN router's IP address is 10.15.30.1; my machine's IP address is 10.15.30.5 and my fellow LAN-mate's IP address is 10.15.30.6. In this LAN, the network part is 10.15.30 and the machine part is the last quadrant. We can have a maximum of 256 machines on our LAN. Bigger networks have smaller network parts and bigger machine part, so as to accomodate more machines on the network.
+Dwindling IP addresses
+An IP address carries 32 bits (8 for each quadrant). This can give up to around 4.3 billion addresses. Unfortunately, many of these are wasted. During the early days of the Internet, big companies bought large chunks of IP addresses and till now can never use all of them. The current version of IP addresses in use is version 4, called IPv4. Since it is predicted that the time where IP addresses will start lacking on the Internet, a new version has been developed. IPv5 has been only for research purposes. The next version is version 6, IPv6. This takes 128 bits to store an IP address, so you are sure to get enough addresses for the next centuries! IPv6 will take some time to come. The transition fromo IPv4 to it is a challenge.
+How are IP addresses assigned
+So as not to have any duplication or inconsistent in the allocation of IP addresses, there is an independent organisation (like there are so many working on Internet technologies) that takes into charge the allocation of IP addresses. It is called the ICANN (International Company for the Assignment of Names and Numbers). Before the creation of the ICANN in the 90's, there was the InterNIC doing that work.
+Names to IP addresses
+If you have a network harboring a server, you need to have one or more IP addresses for these. You need one for the server, which will use for identifying the server over the net, and one or more for the machines on the network. Your network administrator will set the IP addresses to each machine on your network.
+If you have a web-site, it has to have a domain name, which, simply said, is the what you type to access its main page, e.g. about.com, google.com. Just like IP addresses, each of these domain names have to be unique. You cannot have two sites with the same name and address. Each name is attached to an IP address. The ICANN takes care to ensure that all names and IP addresses are unique.
+When a user types the address of a site on a browser, the name is converted, or rather matched, to its IP address at a DNS (Domain Name Server), which is there for domain name translation to IP address.
+Buying IP addresses
+If you want to get one or a set of IP addresses, you have to buy these from IANA (Internet Assigned Numbers Authority). But you do not necessarily need to do so directly. Say you want to create a web site and name it somethingelse.com, you can go to any of the hosting companies, where they ask you to choose a name (and they check whether somethingelse.com is unique) and you pay for their hosting services. They also assign an IP address to your site. They check all this with IANA.
+Dynamic Allocation of IP Addresses
+Now, your computer, router and IP phone do have IP addresses, which you never set. These addresses come automatically and they are not permanent. They change each time you start a new session.
+Your ISP has a pool of IP addresses which it distributes to a user once they connect. These addressed are recycled and redistributed to other users once they are free. This is carried out automatically using a protocol called DHCP (Dynamic Host Configuration Protocol).
+So, it is important you know that your device or computer will not keep its actual IP address forever. It changes after each session, or after regular time intervals for unlimited connections.
+Suggested Reading

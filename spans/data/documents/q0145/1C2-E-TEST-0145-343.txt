@@ -1,0 +1,27 @@
+Introduction
+Many financial calculations involve interest.  Examples are loans, deposits, and annuities.
+There are two kinds of interest:  simple and compound.   We will illustrate the difference with an interest-earning deposit.
+A person makes a deposit with a financial institution, which promises  a certain rate of interest per year, paid after specified intervals  of time.
+Note: The interest rate may be expressed as a percentage per year (yearly rate),  or as an annual percentage rate (APR).  These  sound similar, but they  are different, and it's important to know which one you're dealing with.
+With simple interest, the amount of the deposit remains the same,  and the amount of interest is paid to the depositor at the end of each  interval of time.  With compound interest, the amount of the deposit rises  because the interest is added to the deposit at the end of each interval  of time.
+For example, suppose the deposit is $1000, the yearly rate of interest is 6 percent, and the payment intervals are quarterly.
+If this is simple interest, the financial institution will pay the depositor $15 at the end of each quarter, for a total of $60 interest  earned for the year (6 percent of $1000).  The total assets of  the depositor after one year will be $1060.
+If this is compound interest, the payment will still be $15 at the  end of the first quarter, but the interest will be added to the deposit,  making the deposit now $1015.
+At the end of the second quarter, the interest  will be calculated using  this larger amount and will come to $15.225, which will be added to the  deposit, making the new total $1030.225.
+The interest paid at the end of the third quarter will be calculated using the  second-quarter total, and will come to $15.453375, which will again be added  to the deposit, for a total of $1045.678375.
+At the end of the last quarter, the interest will be calculated based on the  third-quarter amount, and will come to $15.685175625. Thus the total assets  of the depositor at the end of the year will be $1061.363550625.
+Of course, financial institutions do not keep track of these fractions of cents, and interest payments are rounded to the nearest cent. This means that  the actual amounts paid are not the numbers shown above.  Instead, the second  interest payment will be $15.23, the third will be $15.45, the fourth will be  $15.69, and the total assets will be $1061.37.
+Notice that with compound interest, the depositor's assets at the end of the year are $1.37 more than with simple interest. This is because during the last  three quarters of the year, the depositor is earning interest on the interest  previously earned.
+Note: All the formulas below assume that interest earned is computed exactly, and not rounded at all.  The effect of rounding is usually an extremely small amount over the course of many payments.
+[top]
+Simple Interest
+Let the yearly interest rate be i (as a fraction, e.g. a rate of 6% would correspond to i=0.06), the amount of the principal be P, the number of years be n, and the amount after n years be A. Then
+A = P(1+ni).
+If you want to know what principal to deposit in order to have an amount A after n years at interest rate i, that principal is called the present  value, and is given by
+P = A/(1+ni).
+To find the interest rate i, use
+i = ([A/P]-1)/n.
+To determine how many compounding periods are needed to reach a given amount,
+n = ([A/P]-1)/i.
+Example: Suppose you deposit $6000 in a bank and receive simple interest at a yearly rate of 4% for 7 years.  Then the parameters will be principal
+P = $6000,

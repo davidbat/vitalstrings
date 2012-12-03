@@ -1,0 +1,26 @@
+Selected Papers
+  High-Dimensional Data
+Guo, J., Levina, E., Michailidis, G., and Zhu, J. (2011). Asymptotic properties of the joint neighborhood selection method for estimating categorical Markov networks .  Submitted.
+Levina, E. and Vershynin, R. (2011).  Partial estimation of covariance matrices .  Probability Theory and Related Fields, DOI: 10.1007/s00440-011-0349-4. 
+J.Guo, E. Levina, G. Michailidis, and J. Zhu
+(2011).   Joint estimation of multiple graphical models.  Biometrika, 98(1): 1--15. (A winner of the ASA Statistical Learning and Data Mining Section 2010 Student Paper competition and 2010 Informs Best Student Paper Award, 1st place).  
+A. J. Rothman, E. Levina, and J. Zhu (2010).   Sparse multivariate regression with covariance estimation.  Journal of Computational and Graphical Statistics,  19(4): 947--962.
+A. J. Rothman, E. Levina, and J. Zhu (2010).   A new approach to Cholesky-based estimation of high-dimensional covariance matrices.   Biometrika,  97(3):539--550.
+J.Guo, G. James, E. Levina, G. Michailidis, and J. Zhu (2010).  Principal component analysis with sparse fused loadings .  Journal of Computational and Graphical Statistics, 19(4): 930--946.
+J.Guo, E. Levina, G. Michailidis, and J. Zhu (2010).  Pairwise Variable Selection for High-dimensional Model-based Clustering .  Biometrics,  66(3):793--804. (A winner of ENAR 2009 and ASA Statistical Computing and Graphics Sections 2009 Student Paper Competitions).
+A.J. Rothman, E. Levina, and J. Zhu. (2009). Generalized Thresholding of Large Covariance Matrices.   J. Amer. Statist. Assoc. (Theory and Methods) 104(485):177-186. 
+A.S. Wagaman and  E. Levina (2009). Discovering Sparse Covariance Structures with the Isomap .   Journal of Computational and Graphical Statistics 18(3):551-572.
+A.J. Rothman, P.J. Bickel, E. Levina, and J. Zhu (2008).  Sparse Permutation Invariant Covariance Estimation.  Electronic Journal of Statistics 2:494-515.
+(A winner of ASA Statistical Computing and Graphics Sections 2008 Student Paper Competition).
+P.J. Bickel and E. Levina (2008).   Covariance Regularization by Thresholding.  
+Annals of Statistics  36(6):2577-2604.
+P.J. Bickel and E. Levina (2008).   Regularized Estimation of Large Covariance Matrices.   
+Annals of Statistics 36(1):199-227.
+E. Levina,  A.S. Wagaman, A.F. Callender,  G.S. Mandair,  and M.D. Morris (2007).   Estimating the number of pure chemical components in a mixture by maximum likelihood.    Journal of Chemometrics 21(1-2):24-34.
+E. Levina and P.J. Bickel (2005).   Maximum Likelihood Estimation of Intrinsic Dimension.   In Advances in NIPS 17, Eds. L. K. Saul, Y. Weiss, L. Bottou.  Matlab code is available.
+  Networks
+ 
+Bickel, P.J., Chen, A., and Levina, E.  (2011).  The method of moments and degree distributions for network models.    Annals of Statististics, to appear.
+Zhao, Y.,  Levina, E. and Zhu, J. (2011). Community extraction for social networks .   Proceedings of the National Academy of Sciences, 108(18):7321-7326.  (A winner of ASA Statistical Computing and Graphics Sections 2011 Student Paper Competition).
+B. Karrer, E. Levina, and M.E.J. Newman (2008).   Robustness of Community Structure in Networks. Physical Review E, 77(4):046119.
+N. Katenka, E. Levina, and G. Michailidis (2008). 

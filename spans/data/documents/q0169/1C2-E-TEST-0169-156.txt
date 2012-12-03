@@ -1,0 +1,107 @@
+Introduction
+In our earlier work [ 8 , 9 , 22 ], we developed new algorithms to solve unsymmetric sparse linear systems using Gaussian elimination with partial pivoting (GEPP). The new algorithms are highly efficient on workstations with deep memory hierarchies and shared memory parallel machines with a modest number of processors. The portable implementations of these algorithms appear in the software packages SuperLU (serial) and  SuperLU_MT (multithreaded), which are publically available on Netlib [ 10 ]. These are among the fastest available codes for this problem.
+Our shared memory GEPP algorithm relies on the fine-grained memory access and synchronization that shared memory provides to manage the data structures needed as fill-in is created dynamically, to discover which columns depend on which other columns symbolically, and to use a centralized task queue for scheduling and load balancing. The reason we have to perform all these dynamically is that the computational graph does not unfold until runtime. (This is in contrast to Cholesky, where any pivot order is numerically stable.) However, these techniques are too expensive on distributed memory machines. Instead, for distributed memory machines, we propose to not pivot dynamically, and so enable static data structure optimization, graph manipulation and load balancing  (as with Cholesky [ 20 , 25 ]) and yet remain numerically stable. We will retain numerical stability by a variety of techniques:  pre-pivoting large elements to the diagonal, iterative refinement,  using extra precision when needed, and allowing low rank modifications with corrections at the end. In Section  2 we show the promise of the proposed method  from numeric experiments. We call our algorithm GESP for Gaussian elimination with static pivoting. In Section  3 , we present an MPI implementation of the distributed algorithms for LU factorization and triangular solve. Both algorithms use an elaborate 2-D (nonuniform) block-cyclic data distribution. Initial results demonstrated good scalability and a factorization rate exceeding 8 Gflops on a 512 node Cray T3E.
+New algorithm and stability
+  Traditionally, partial pivoting is used  to control the element growth during Gaussian elimination, making the algorithm numerically stable in practice
+. However partial pivoting is not the only way to control element growth;  there are a variety of alternative techniques. In this section we present these alternatives, and show by experiments that appropriate combinations of them can effectively stabilize Gaussian elimination.  Furthermore, these techniques are usually inexpensive compared to the overall solution cost, especially for large problems.
+     
+Figure 1: The outline of the new GESP algorithm.
+In Figure  1 we sketch our GESP algorithm that incorporates some of the techniques we considered. To motivate step (1), recall that a diagonally dominant matrix is one where each diagonal entry
+is larger in magnitude than the sum of magnitudes of the off-diagonal entries in its  row (
+) or column (
+). It is known that choosing the diagonal pivots ensures  stability for such matrices [ 7 , 19 ].  So we expect that if each diagonal entry can somehow be made larger relative to the off-diagonals in its row or column, then diagonal pivoting will be more stable. The purpose of step (1) is to choose diagonal matrices
+and
+to make each
+larger in this sense.
+We have experimented with a number of alternative heuristic algorithms  for step (1) [ 13 ]. All depend on the following graph representation of an
+sparse matrix A: it is represented as an undirected weighted bipartite graph with one vertex for each row, one vertex for each column, and an edge with appropriate weight connecting row vertex i to column vertex j for each nonzero entry
+. Finding a permutation
+that puts large entries on the diagonal can thus be transformed into a weighted bipartite matching problem on this graph. The diagonal scale matrices
+and
+can be chosen independently, to make each row and each column of
+have largest entries equal to 1 in magnitude (using the algorithm in LAPACK subroutine DGEEQU [ 3 ]). Then there are algorithms in [ 13 ] that choose
+to maximize different properties of the diagonal of
+, such as the smallest magnitude of any diagonal entry, or the sum or product of magnitudes. But the best algorithm in practice seems to be the one in [ 13 ] that picks
+,
+simultaneously so that each diagonal entry of
+is
+, each off-diagonal entry is bounded by 1 in magnitude, and the product of the diagonal entries is maximized. We will report results for this algorithm only. The worst case serial complexity of this algorithm is
+, where nnz(A) is the number of nonzeros in A. In practice it is much faster; actual timings appear later.
+Step (2) is not new and is needed in both SuperLU and SuperLU_MT [ 10 ]. The column permutation
+can be obtained from any fill-reducing heuristic. For now, we use the minimum degree ordering algorithm [ 23 ] on the structure of
+. In the future, we will use the approximate minimum degree column ordering algorithm by Davis et. al. [ 6 ] which is faster and requires less memory since it does not explicitly form
+. We can also use nested dissection on
+or
+ [ 17 ]. Note that we also apply
+to the rows of A to ensure that the large diagonal entries obtained from Step (1) remain on the diagonal.
+In step (3), we simply set any tiny pivots encountered during elimination to
+, where
+is machine precision. This is equivalent to a small (half precision) perturbation to the original problem, and trades off some numerical stability for the ability to keep pivots from getting too small.
+In step (4), we perform a few steps of iterative refinement if the solution is not accurate enough, which also corrects for the
+perturbations in step (3). The termination criterion is based on the componentwise backward error berr [ 7 ]. The condition
+means that the computed solution is the exact solution of a slightly different sparse linear system
+where each nonzero entry
+has been changed by at most one  unit in its last place, and the zero entries are left unchanged;  thus one can say that the answer is as accurate as the data deserves. We terminate the iteration when the backward error berr is smaller than machine epsilon, or when it does not decrease by at least a factor of two compared with the previous iteration. The second test is to avoid possible stagnation.  (Figure  5 shows that berr is always small.)
+Numerical results
+In this subsection, we illustrate the numerical stability and runtime of our GESP algorithm on 53 unsymmetric matrices from a wide variety of applications. The application domains of the matrices are given in Table  1 . Most of them, except for two (ECL32, WU), can be obtained from the Harwell-Boeing Collection [ 14 ] and the collection of Davis [ 5 ]. Matrix ECL32 was provided by Jagesh Sanghavi from EECS Department of UC Berkeley. Matrix WU was provided by Yushu Wu from Earth Sciences Division of Lawrence Berkeley National Laboratory. Figure  2 plots the dimension, nnz(A), and nnz(L+U), i.e. the number of nonzeros in the L and U factors  (the fill-in). The matrices are sorted in increasing order of the factorization time. The matrices of most interest for parallelization are the ones that take the most time, i.e. the ones on the right of this graph. From the figure it is clear that the matrices large in dimension and number of nonzeros also require more time to factorize. The timing results reported in this subsection are obtained on an SGI ONYX2 machine running IRIX 6.4.  The system has 8 195 MHz MIPS R10000 processors and 5120 Mbytes main memory. We only use a single processor, since we are mainly interested in numerical accuracy. Parallel runtimes are reported in section  3 .
+Detailed performance results from this section in tabular format are available at
+http://www.nersc.gov/
+   
+Table 1: Test matrices and their disciplines.
+Among the 53 matrices, most would get wrong answers or fail completely (via division by a zero pivot) without any pivoting or other precautions. 22 matrices contain zeros on the diagonal to begin with which remain zero during elimination, and 5 more create zeros on the diagonal during elimination.  Therefore, not pivoting at all would fail completely on these 27 matrices. Most of the other 26 matrices would get unacceptably large errors due to pivot growth. For our experiment, the right-hand side vector is generated so that the true solution
+is a vector of all ones. IEEE double precision is used as the working precision, with machine epsilon
+. Figure  3 shows the number of iterations taken in the iterative refinement step. Most matrices terminate the iteration with no more than 3 steps. 5 matrices require 1 step, 31 matrices  require 2 steps, 9 matrices require 3 steps, and 8 matrices require more than 3 steps. For each matrix, we present two error metrics, in Figure  4 and Figure  5 , to assess the accuracy and stability of GESP. Figure  4 plots the error from GESP versus the error from GEPP (as implemented in SuperLU) for each matrix:  A red dot on the green diagonal means the two errors were the same, a red dot below the diagonal means GESP is more accurate, and a red dot above means GEPP is more accurate. Figure  4 shows that the error of GESP is at most a little larger, and usually smaller (37 times out of 53),  than the error from GEPP. Figure  5 shows that the componentwise backward error [ 7 ] is also small, usually near machine epsilon, and never larger than
+.
+Although the combination of the techniques in steps (1) and (3) in Figure  1 works well for most matrices,   we found a few matrices for which other combinations are better. For example, for FIDAPM11, JPWH_991 and ORSIRR_1, the errors are large unless we omit
+from step (1). For EX11 and RADRF1, we cannot replace tiny pivots by
+(in step (3)). Therefore, in the software, we provide a flexible interface so the user is able to turn on or off any of these options.
+       
+Figure 2: Characteristics of the matrices.   Figure 3: Iterative refinement steps in GESP.
+       
+.          Figure 5: The backward error
+.
+   
+Figure 6: The times to factorize, solve, permute large diagonal, compute    residual and estimate error bound, on a 195 MHz MIPS R10000.
+We now evaluate the cost of each step in GESP Figure  1 . This is done with respect to the serial implementation,  since we have only parallelized the numerical phases of the algorithm (steps (3) and (4)), which are the most time-consuming. In particular, for large enough matrices, the LU factorization in step (3) dominates all the other steps, so we will measure the times of each step with respect to step (3).
+Simple equilibration in step (1)  (computing
+and
+using the algorithm in DGEEQU from LAPACK) is usually negligible and is easy to parallelize. Both row and column permutation algorithms in steps (1) and (2)  (computing
+and
+) are not easy to parallelize  (their parallelization is future work). Fortunately, their memory requirement is just O(nnz(A))  [ 6 , 13 ],  whereas the memory requirement for L and U factors grows superlinearly in nnz(A), so in the meantime we can run them on a single processor.
+Figure  6 shows the fraction of time spent finding
+in step (1) using the  algorithm in [ 13 ], as a fraction of the factorization time. The time is significant for small problems, but drops to 1% to 10% for large matrices requiring a long time to factor,  the problems of most interest on parallel machines.
+The time to find a sparsity-preserving ordering
+in step (2) is very much matrix dependent.  It is usually cheaper than factorization,  although there exist matrices for which the ordering is more expensive. Nevertheless, in applications where we repeatedly solve a system of equations with the same nonzero pattern but different values, the ordering algorithm needs to be run only once, and its cost can be amortized over all the factorizations. We plan to replace this part of the algorithm with something faster, as outlined in Section  2.1 .
+As can be seen in Figure  6 , computing the residual (sparse matrix-vector multiplication
+)  is cheaper than a triangular solve (
+), and both take a small fraction of the factorization time. For large matrices the solve time is often less than 5% of the factorization time. Both algorithms have been parallelized (see section  3 for parallel performance data).
+Finally, our code has the ability to estimate a forward error bound for the true error
+. This is by far the most expensive step after factorization.  (For small matrices, it can be more expensive than factorization, since it requires multiple triangular solves.) Therefore, we will do this only when the user asks for it.
+An implementation with MPI
+  In this section, we describe our design, implementation and the performance of the distributed algorithms for two main steps of the GESP method, sparse LU factorization (step (3)) and sparse triangular solve (used in step (4)).  Our implementation uses MPI [ 26 ] to communicate data, and so is highly portable. We have tested the code on a number of platforms, such as Cray T3E, IBM SP2, and Berkeley NOW. Here, we only report the results from a 512 node Cray T3E-900 at NERSC. To illustrate scalability of the algorithms, we restrict our attention to eight relatively large matrices selected from our testbed in Table  1 . They are representative of different application domains. The characteristics of these matrices are given in Table  2 .
+   
+Table 2: Characteristics of the test matrices. NumSym is the fraction  of nonzeros matched by equal values in symmetric locations.  StrSym is the fraction of nonzeros matched by nonzeros in  symmetric locations.
+Matrix distribution and distributed data structure
+  We distribute the matrix in a two-dimensional block-cyclic fashion. In this distribution, the P processes (not restricted to be a power of 2) are arranged as a 2-D process grid of shape
+. The matrix is decomposed into blocks of submatrices. Then, these blocks are cyclically mapped onto the process grid, in both row and column dimensions. Although a 1-D decomposition is more natural to sparse matrices and is much easier to implement, a 2-D layout strikes a good balance among locality (by blocking), load balance (by cyclic mapping), and lower communication volume (by 2-D mapping). 2-D layouts were used in scalable implementations of sparse Cholesky factorization [ 20 , 25 ].
+We now describe how we partition a global matrix into blocks. Our partitioning is based on the notion of unsymmetric supernode first introduced in [ 8 ]. Let L be the lower triangular matrix in the LU factorization. A supernode is a range (r:s) of columns of L with the triangular block just below the diagonal being full, and with the same row structure below this block. Because of the identical row structure of a supernode, it can be stored in a dense format in memory. This supernode partition is used as our block partition in both row and column dimensions. If there are N supernodes in an n-by-n matrix, the matrix will be partitioned into
+blocks of nonuniform size. The size of each block is matrix dependent. It should be clear that all the diagonal blocks are square and full (we store zeros from U in the upper triangle of the diagonal block), whereas the off-diagonal blocks may be rectangular and may not be full. The matrix in Figure  7 illustrates such a partitioning. By block-cyclic mapping we mean block (I,J) (
+) is mapped onto the process at coordinate (I mod
+, J mod
+) of the process grid. Using this mapping, a block L(I,J) in the factorization is only needed by the row of processes that own blocks in row I. Similarly, a block U(I,J) is only needed by the column of processes that own blocks in column J.
+In this 2-D mapping, each block column of L resides on more than one process, namely, a column of processes. For example in Figure  7 , the k-th block column of L resides on the column processes {0, 3}. Process 3 only owns two nonzero blocks, which are not contiguous in the global matrix. The schema on the right of Figure  7 depicts the data structure to store the nonzero blocks on a process. Besides the numerical values stored in a Fortran-style array nzval[] in column major order, we need the information to interpret the location and row subscript of each nonzero. This is stored in an integer array index[], which includes the information for the whole block column and for each individual block in it. Note that many off-diagonal blocks are zero and hence not stored. Neither do we store the zeros in a nonzero block. Both lower and upper triangles of the diagonal block are stored in the L data structure. A process owns
+block columns of L, so it needs
+pairs of index/nzval arrays.
+For matrix U, we use a row oriented storage for the block rows owned by a process, although for the numerical values within each block we still use column major order.  Similarly to L, we also use a pair of index/nzval arrays to store a block row of U. Due to asymmetry, each nonzero block in U has the skyline structure as shown in Figure  7 (see [ 8 ] for details on the skyline structure). Therefore, the organization of the index[] array is different from that for L, which we omit showing in the figure.
+Since we do no dynamic pivoting, the nonzero patterns of L and U can be determined during symbolic factorization before numerical factorization begins. Therefore, the block partitioning and the setup of the data structure can all be performed in the symbolic algorithm. This is much cheaper to execute as opposed to partial pivoting where the size of the data structure cannot be forecast and must be determined on the fly as factorization proceeds.
+   
+Figure 7: The 2-D block-cyclic layout and the data structure  to store a local block column of L.
+     
+Figure 8: Distributed sparse LU factorization algorithm.
+Figure  8 outlines the parallel sparse LU factorization algorithm. We use Matlab notation for integer ranges and submatrices. There are three steps in the K-th iteration of the loop. In step (1), only a column of processes participate in factoring the block column L(K:N,K). In step (2), only a row of processes participate in the triangular solves to obtain the block row U(K,K+1:N). The rank-b update by L(K+1:N,K) and U(K,K+1:N) in step (3) represents most of the work and also exhibits more parallelism than the other two steps, where b is the block size of the K-th block column/row. For ease of understanding, the algorithm presented here is simplified. The actual implementation uses a pipelined organization so that  processes
+will start step (1) of iteration K+1 as soon as the rank-b update (step (3)) of iteration K to block column K+1 finishes, before completing the update to the trailing matrix A(K+1:N, K+2:N) owned by
+. The pipelining alleviates the lack of parallelism in both steps (1) and (2). On 64 processors of Cray T3E, for instance, we observed speedups between 10% to 40% over the non-pipelined implementation.
+In each iteration, the major communication steps are send/receive L(K:N,K) across process rows and send/receive U(K,K+1:N) down process columns. Our data structure (see Figure  7 ) ensures that all the blocks of L(K:N,K) and U(K,K+1:N) on a process are contiguous in memory, thereby eliminating the need for packing and unpacking in a send-receive operation or sending many more smaller messages. In each send-receive pair, two messages are exchanged, one for index[] and another for nzval[]. To further reduce the amount of communication, we employ the notion of elimination dags (EDAGs) [ 18 ]. That is, we send the K-th column of L rowwise to the process owning the J-th column of L only if there exists a path between (super)nodes K and J in the elimination dags. This is done similarly for the columnwise communication of rows of U. Therefore, each block in L may be sent to fewer than
+processes and each block in U may be sent to fewer than
+processes. In other words, our communication takes into account the sparsity of the factors as opposed to ``send-to-all'' approach in a dense factorization. For example, for AF23560 on 32 (
+) processes,  the total number of messages is reduced from 351052 to 302570, or 16% fewer messages. The reduction is even more with more processes or sparser problems.

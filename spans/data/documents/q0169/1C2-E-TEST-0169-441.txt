@@ -1,0 +1,16 @@
+Interactive Entries  >  Interactive Demonstrations  >
+Matrix
+A matrix is a concise and useful way of uniquely representing and working with linear transformations . In particular, every linear transformation can be represented  by a matrix, and every matrix corresponds to a unique linear  transformation . The matrix, and its close relative the determinant ,  are extremely important concepts in linear algebra ,  and were first formulated by Sylvester (1851) and Cayley.
+In his 1851 paper, Sylvester wrote, "For this purpose we must commence, not with a square, but with an oblong arrangement of terms consisting, suppose, of
+lines and
+columns. This will not in itself represent  a determinant , but is, as it were, a Matrix out of  which we may form various systems of determinants by fixing upon a number
+, and selecting  at will
+lines and
+columns, the squares  corresponding of
+th order." Because Sylvester was  interested in the determinant formed from the rectangular array of number and not  the array itself (Kline 1990, p. 804), Sylvester used the term "matrix" in its conventional usage to mean "the place from which something else originates" (Katz 1993). Sylvester (1851) subsequently used the term matrix informally, stating "Form the rectangular matrix consisting of
+rows and
+columns....  Then all the
+determinants that can be formed by  rejecting any one column at pleasure out of this matrix are identically zero." However, it remained up to Sylvester's collaborator Cayley to use the terminology  in its modern form in papers of 1855 and 1858 (Katz 1993).
+In his 1867 treatise on determinants, C. L. Dodgson (Lewis Carroll) objected to the use of the term "matrix," stating, "I am aware that the word 'Matrix' is already in use to express the very meaning for which I use the word 'Block'; but surely the former word means rather the mould, or form, into which algebraical quantities may be introduced, than an actual assemblage of such quantities...." However, Dodgson's objections have passed unheeded and the term "matrix" has stuck.
+The transformation given by the system of equations
+(1)

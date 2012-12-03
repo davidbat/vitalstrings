@@ -1,0 +1,46 @@
+Tip Sponsored By
+by Jason Marshall
+Two articles ago, we talked about how you can use the rule of 72 to figure out how long it will take for the value of an investment to double. In the last article, we talked about a fundamental idea in math called exponentiation . Today we’re going to put these two ideas together to discover something called the compound interest formula. You can use it to calculate exactly how much the value of your investments will grow over time.
+Review: What Are Exponents?
+In response to the last article, math fan Edward pointed out that the way I worded my description of exponentiation could possibly lead to some confusion. In the article , I said that you square a number by multiplying it by itself twice, cube a number by multiplying it by itself three times, and so on. But actually, when you square a number—as in 3^2 = 3 x 3—there’s only one multiplication performed. So instead of saying that squaring a number is multiplying it by itself twice, I could have been clearer and said that squaring a number is multiplying two copies of the number together using one multiplication operation, and so on for higher powers. Make sense? With that out of the way, let’s talk about compound interest.
+What Is Compound Interest?
+Our goal when talking about the rule of 72 was to figure out how long it takes to double money in a compound interest earning investment. But what does that mean?
+Well, if you have $1000 invested in an account that earns 1% interest each year, then since 1% of $1000 is $10, at the end of the first year your account will contain $1000 + $10 = $1010. If you leave all of that in the account and continue to earn interest on it, then since 1% of $1010 is $10.10, at the end of the second year the account will contain $1010 + $10.10 = $1020.10. Year after year, you can use this method to see how much your account will grow. And, importantly, you’ll see that not only is the original $1000 that you put into the account earning interest, but the interest that you earn year after year is itself earning interest! And that’s what we mean by compound interest.
+The Compound Interest Formula for One Year
+Instead of going through this whole procedure of calculating and adding 1% of the account’s value to its balance year after year, wouldn’t it be nice if there was a way for you to figure out in one fell swoop exactly how much the account will be worth some number of years later? Well, there is! To figure out how it works, let’s think about what we’re actually doing when we calculate the interest earned by our account in one year. As you can check, the value of the account at the end of the first year can be calculated using the formula:
+FV = PV x (1 + rate)
+Wait a minute! What’s all that? Well, the symbol “PV” represents the present value of the account (the value at the beginning of the year), the symbol “FV” represents the future value of the account (the value at the end of the year), and the “rate” is the annual interest rate written as a decimal . For example, 1% is 0.01, 5% is 0.05, 10% is 0.1, and so on.
+Exponents and the Compound Interest Formula
+Using our example from earlier, we can use this formula to find that after one year, $1000 is worth
+FV = $1000 x (1 + 0.01) = $1000 x 1.01 = $1010
+We can now use the same formula to figure out how much the account will be worth after two years. How? Well, the only change is that this time PV = $1010 since that’s how much money is in the account at the beginning of the second year. Plugging this in, we see that after two years the account is worth:
+FV = $1010 x (1 + 0.01) = $1010 x 1.01 = $1020.10
+Of course, this is exactly the same answer that we got before...so we know it works! But here’s the really important point: All we’ve actually done each year is multiply the present value (PV) by the number 1.01. Which means that we can use this to figure out that after one year the account will be worth
+FV = $1000 x 1.01
+after two years it will be worth
+FV = $1000 x 1.01 x 1.01
+after three years it will be worth
+FV = $1000 x 1.01 x 1.01 x 1.01
+and so on.
+The Compound Interest Formula for Any Number of Years
+The compound interest formula tells you how much an account that earns a steady interest rate will be worth some number of years in the future.
+Notice a trend here? All we’re doing year after year is multiplying the original value by higher and higher powers of the number 1.01. And, if you think about it, you’ll see that we can put this all together and write it out as what’s called the compound interest formula:
+FV = PV x (1 + rate)^years
+In other words, to find the future value of an investment:
+Add 1 to the interest rate written as a decimal.
+Raise this result to a power equal to the number of years the money will grow.
+Multiply the resulting number by the previous (or initial) value of the account.
+So, in 10 years that $1000 investment earning 1% annual interest will be worth
+FV = $1000 x (1 + 0.01)^10 = $1000 x 1.0110 = $1104.62
+After 20 years it’ll be worth
+FV = $1000 x (1 + 0.01)^20 = $1000 x 1.0120 = $1220.19
+and so on. Of course, the number 1.01 keeps showing up here because we chose to look at an account earning 1% interest…but if the interest rate was different, this number would be different too. In the next article we’ll look at some additional examples of using the compound interest formula and we’ll tie up a few loose ends too.
+Number of the Week
+But before we finish up, as I mentioned in the previous few articles, I’ve started a new feature on the Math Dude’s Facebook page where every weekday I highlight a different number that’s either particularly interesting or useful to know in your daily life. And each week I’m also going to feature one of the five numbers from the previous week in the new Math Dude article.
+This week, the featured number is...3. Why 3? Well, it’s because I’ve never had a very good feeling for how heavy a kilogram is. Having grown up in the pound-centric United States, I just never developed much intuition for this unit. And that’s where the number 3 comes in handy. Because it turns out that all you have to do to instantly develop that intuition is remember that 1 kilogram is approximately equal to the weight of 3 full 12-ounce soda cans. Which means that so you long as you can picture what it feels like to hold three full soda cans, you have a way to picture the mass of a kilogram!
+Wrap Up
+If you think that number was handy, be sure to become a fan of the Math Dude on Facebook where you’ll learn a new number that’s just as handy as this one every single weekday. And, as if you needed more incentive to become a Math Dude Facebook fan, I’ve also just started posting daily math puzzles that have proven to be quite popular. So head over to the Math Dude’s Facebook page and check it out.
+Of course, if you’re on Twitter, please follow me there too. Why? Because not only will you get updates about the podcast, the numbers of the day, and the daily math puzzles that I just mentioned, you’ll also be the recipient of my ever-interesting musings about the latest math and science news.
+Finally, remember to email any math questions that you may have to mathdude@quickanddirtytips.com .
+Until next time, this is Jason Marshall with The Math Dude’s Quick and Dirty Tips to Make Math Easier. Thanks for reading math fans!
+Share

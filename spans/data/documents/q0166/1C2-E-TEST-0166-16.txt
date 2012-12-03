@@ -1,0 +1,60 @@
+# 14 = # 43
+# 18 = # 57
+`On paper' it might seem that #10, for example, might be indistinguishable as to whether it is an inch-pound size or metric size. Well, silly, if it is actual rebar you are examining, there is a BIG difference in a bar that is 3/8 of an inch in diameter versus a bar that is 10/8 inches (1.25 in.) in diameter. Besides, the 3/8 in. diameter bars will weigh about 6 ounces per linear foot while the 10/8 in. diameter bars will weigh about 4 pounds per foot. If you are looking at sizes on construction documents, then look at the context or the Specifications. You will not likely find, for example, one-inch diameter bars in a residential footing, but you might find them in the column to a high-rise commercial structure. Actually, in terms of available sizes, the # 10 is the only `number' that is available in both systems.
+If all that `still' doesn't make sense ... then, here: www.crsi.org/rebar/id.cfm
+4. Welded Wire Fabric
+Welded Wire Fabric is made up of wires welded at right angles to one another at their intersections to form a grid.
+The wires are either smooth (W) or deformed (D). (The deformed wires are like long, mini-rebars.)
+Designations vary but generally take the form of the spacing of the wires in the grid, the type (W or D), and then the size. Size, however, is different than for bars; for wire the size is `hundredths of square inches' in cross section area (for each wire).
+So, for example, WWF 6 x 6 D6/D6 represents `welded wire fabric' with wires on a 6 in. x 6 in. grid, with each wire having a cross sectional area of 0.06 in.2.
+Sizes go from W31 and D31 (large) down to W0.5 and D4 (small).
+5. Reinforcement Grade
+Grade refers to the `specified yield stress of the steel'. Common grades are as follows.
+Gr. 40 ... referring to steel with specified minimum yield stress of 40 ksi (40,000 psi).
+Gr. 60 ... 60 ksi (60,000 psi).
+Gr. 75 ... 75,000 psi.
+The grade of the reinforcement is to appear (in one form or another) in the Specifications section of the Construction Documents.
+The `yield stress' is the stress in the steel beyond which the steel `yields' or deforms some permanent amount. Below the yield stress the steel will deform under stress but return to original dimensions when the stress is released. In the context of earlier discussion in the lesson we could say that beyond the yields stress point the steel becomes `plastic'.
+Grade 60 is now probably the most common rebar specified for cast-in-place construction. While it may be found side-by-side at the local building supply store note that it is 50% stronger, and generally costs only a little bit more than Gr. 40. (Maybe now it costs even less.)
+I generally specify the reinforcement something like this: ... "Gr. 60 Deformed Bars."
+However, you may get more intense and specify something like: ... Reinforcing bar shall be Gr. 60 and meet ASTM A615 (carbon steel)" ... where ASTM stands for the the American Society for Testing and Materials , and where A615 is the particular standard dealing with carbon steel reinforcing bars. ASTM A706 is the standard dealing with low-allow reinforcing steel.
+Welded Wire Fabric is generally available in Gr. 60. ASTM A185 covers plain welded wire fabric and ASTM A497 covers deformed wire fabric.
+UPDATE: it appears ASTM is using the term Welded Wire Reinforcement (WWR) instead of welded wire fabric (WWF).
+Soft Metric Equivalents of Grades
+Gr. 60 ksi = 420 MPa
+Gr. 75 ksi = 520 MPa
+6. Identifying Rebar
+Each rebar piece has series of marks that indicate:
+Top mark: Letter or Symbol of producing mill
+2nd mark: Bar Size
+4th mark (of some kind): Grade
+See CRSI's page on identifying rebar ... here . (CRSI stands for the Concrete Reinforcing Steel Institute).
+7. Minimum Reinforcement (General)
+The minimum amount of reinforcement in a concrete member is generally specified in terms of a ratio of the cross sectional area of steel in with respect to the cross sectional area of the concrete. We have different minimums depending on the use of the concrete or member.
+Minimum reinforcement for slabs (temperature / shrinkage) ... based on gross depth, or area.
+... ρ min, t/s = 0.0020 for Grade 40
+... ρ min, t/s = 0.0018 for Grade 60
+Minimum reinforcement for flexural members ... based on ... effective depth, or area.
+... ρ min, flex = 0.0050 for Grade 40
+... ρ min, flex = 0.0033 for Grade 60
+Minimum reinforcement in walls ... based on full wall thickness (summarized from Chapter 14 of the ACI 318 Code).
+... ρ min, walls, H.S. = 0.0020 for # 5 and smaller rebar, Grade 60 or higher
+... ρ min, walls, V.S. = 0.0012 for # 5 and smaller rebar, Grade 60 or higher
+(There is a lot more to say about reinforcement in walls, but we will do so in a later lesson.)
+The main idea behind minimum amounts of reinforcement is to control cracking, safely.
+8. Maximum Reinforcement (General)
+In general the idea behind specifying maximum amounts of reinforcement is that we always want the steel to yield before concrete starts crushing. The current approach of the ACI Code to accomplish this is to limit the strain in the steel. This will be covered in more detail in later lessons as it is more complicated than setting simple ratio limits. In terms of ratios of steel area to effective area our flexural members end up being limited to a few percent (generally less than one or two percent).
+Columns may be limited by higher amounts of steel but not greater than 8 percent.
+The main idea behind maximum amounts of reinforcement is that we don't want to overstress the remaining concrete.
+9. Spacing and Cover
+Spacing and cover requirements are prescriptive (spelled out, `cookbook').
+Spacing limits of reinforcing bars are covered in ACI 318 Section 7.6.
+Cover requirements are covered in Section 7.7 of ACI 318.
+Proper spacing of bars ensures that concrete can indeed be effectively cast around the bars. Cover requirements ensure the bars are adequately protected. And both requirements also affect the bond that can be developed between the concrete and steel.
+10. References
+Reinforcement Development Length , Jeff Filler, Associated Content.
+ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA, 19428.
+Concrete Reinforcing Steel Institute (CRSI), 933 North Plum Grove Road, Schaumburg, IL 60173.
+Building Code Requirements for Structural Concrete, ACI 318, American Concrete Institute, P.O. Box 9094, Farmington hills, Michigan, 48333.
+Published by Jeff Filler
+Consulting Engineer, Educator, Aspiring Writer and Photographer, Husband, Father, and Serious Hunter.   View profile

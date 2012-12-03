@@ -1,0 +1,45 @@
+Tides and Tide Prediction
+Tides   and   Tide   Prediction
+This tide and tide prediction resource directory links to online tide predictors, tide observations/sea level measurements, tide prediction software you install to generate tide predictions on demand, and general information on tides and tide prediction.  Before computers and software, machines, like the one at left, generated tide predictions (see http://co-ops.nos.noaa.gov/predmach.html ).
+Tides are the alternating rise and fall of sea level with respect to land, as influenced by the gravitational attraction of the moon and sun.  Other factors influence tides; coastline configuration, local water depth, seafloor topography, winds, and weather alter the arrival times of tides, their range, and the interval between high and low water.  A tide prediction can differ from the actual sea level that will be observed as a result of the tide.  Predicted tidal heights are those expected under average weather conditions.  When weather conditions differ from what is considered average, corresponding differences between predicted levels and those actually observed will occur.  Generally, prolonged onshore winds (wind towards the land) or a low barometric pressure can produce higher sea levels than predicted, while offshore winds (wind away from the land) and high barometric pressure can result in lower sea levels than predicted. Thus mariners need to take local conditions into account when considering critical activities with tide prediction information.
+When looking at tide predictions, watch out for daylight savings time if applicable locally to the site of the predictions. Do the tide predictions adjust for daylight savings time?  Some play out their predictions only in standard time, so be sure to adjust accordingly if applicable.   In the U.S., daylight savings starts 2nd Sunday in March & ends first Sunday in November.
+ONLINE TIDE PREDICTORS
+These predictors have worldwide or very large area coverage.
+AmericanTides.com for seven day scrolling window for U.S. and its territories [Admiralty Software]
+Annuaire des Marees for seven day window for western Europe [fr.rec.bateaux]
+Calcul de la Maree for seven day window for the world. In French but you can copy-and-paste its URL into AltaVista Translation to use it in another language [SHOM France]
+EasyTide for seven day window for the world; pay for more [British Admiralty]
+Sommaire des Marees for seven day window for Europe and main worldwide sites [Meteo Consult]
+Tidal Predictions for four weeks for the UK and Ireland, one year for British territories, South Atlantic, and Gibraltar [National Oceanography Centre]
+Tide Data for US and territories including Pacific & Caribbean [NOAA]
+Tides, Currents, and Water Levels for a seven day window for Canada [DFO]
+WWW Tide and Current Predictor for a max sixteen week window for worldwide locations [D Pentcheff, D Flater]
+www.saltwatertides.com for a max two week window for twelve months ahead for the US East Coast, Gulf Coast, and West Coast -- includes sun rise/set and moon rise/set/phase [www.saltwatertides.com]
+XTide Tide Prediction Servers for a four day, one month, and one year window for worldwide locations
+---- Irbs.com ---- Mobile Geographics
+A Few Predictors of Local Interest to San Diego:
+Tides At Selected Locations Around Baja California for a multiday or current month window from San Diego to Mazatlan
+[FT Metcalf]
+Prediccion de Mareas en Mexico for the current year and monthly calendars for Mexico
+[JI Gonzalez, R Soto, J Ochoa]
+TIDE OBSERVATIONS
+Actual sea level measurements -- tide predictions are calculated estimates of sea level whereas observations measure the actual sea level that occurred
+PORTS (Physical Oceanographic Real-Time System) provides real-time data for tides, tidal currents, density, water temperature, wind, air temperature & pressure for Chesapeake Bay, Houston/Galveston, New York/New Jersey, San Francisco, Narragansett Bay, & Tampa Bay [NOAA NOS CO-OPS]
+Tides Online offers near real-time tidal and storm surge water level observation data and plots comparing predictions to observations [NOAA NOS CO-OPS]
+TIDE PREDICTION SOFTWARE
+JTides [freeware, Win/Mac, US/worldwide coverage, P Lutus]
+MAR [Win, Mexico coverage, JI Gonzalez]
+NAOTIDE [Unix, worldwide coverage, K Matsumoto]
+NavTides for Windows : click on "Tidal Software" to get to Navtides [Win, UK/Europe/US coverage, PC Maritime]
+Neptune Tides [Win, UK/Europe coverage, Neptune Navigation Software]
+NOAA's tidal prediction software [FORTRAN, NOAA NOS CO-OPS]
+POLTIPS [Win, UK, Ireland & Channel Islands coverage, National Oceanographic Centre]
+Tide Plotter [Win, UK, Ireland, Europe, East Coast US, Australia coverage, Belfield Software]
+Tide Wizard [Win, worldwide coverage, Smartcom Software]
+TideComp [Win, worldwide coverage, Pangolin]
+Tides [freeware, DOS, worldwide coverage, Stormy Weather Software]
+Tides [shareware version 4.01, DOS, Edward Wallner]
+Tide.1 and World.Tide [DOS, US and worldwide coverage respectively, Micronautics]
+WTides [freeware, Win, worldwide coverage, P Thornton]
+XTide [freeware, Unix, worldwide coverage, D Flater]
+XTide has been ported to other operating systems

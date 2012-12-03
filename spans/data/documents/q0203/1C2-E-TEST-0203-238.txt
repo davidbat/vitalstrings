@@ -1,0 +1,10 @@
+HOW TO: Manually trigger the directory service garbage collection process
+HOW TO: Manually trigger the directory service garbage collection process
+There may be an occasion whereby you need to manually trigger the garbage collection process, as by default it runs every twelve hours.  There aren’t going to be many occasions, but one such occasion might be that you want an immediate, up-to-date report on the size of the DIT and the amount of whitespace within the DIT.
+Note.  The DIT size and amount of whitespace aren’t logged by default.  To enable this, please refer to the following msresource.net article:
+HOW-TO: Determine the size of NTDS.DIT and the amount of Free (White) Space in the database
+To manually trigger, or invoke, the garbage collection process you modify the operational attribute doGarbageCollection.  As with most (but not all) operational attributes, you set the value to 1.
+Operational attributes are not defined in the schema, they are attributes that perform internal functions.  You modify these attributes by using a null base DN.  Such operations are sometimes referred to as RootDSE modifications.
+Modifying doGarbageCollection via LDIF (using LDIFDE)
+The following sample LDIF file will trigger Garbage Collection on the DC that you run this against.
+dn:

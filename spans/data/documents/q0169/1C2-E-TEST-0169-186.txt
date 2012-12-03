@@ -1,0 +1,2 @@
+Messages sorted by: [ date ] [ thread ] [ subject ] [ author ]
+Yes, some of the default algorithms do very poorly:    determinant(ident(12)) => 0.17 seconds   determinant(ident(13)) => 0.65 seconds   determinant(ident(14)) => 3.07 seconds   determinant(ident(15)) => 21.06 seconds  even though full matrix inversion is fast for much larger matrices:    ident(500)^^-1$ => 2.11 seconds  I can confirm that ratmx helps in this case:     determinant(ident(100)), ratmx:true => 1.01 seconds  Let us know more about your problem if ratmx doesn't help....            -s

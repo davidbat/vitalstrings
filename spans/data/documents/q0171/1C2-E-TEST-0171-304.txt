@@ -1,0 +1,40 @@
+Home > Resources > Articles > IP Address Overview
+October 25, 2004
+IP         Address Overview: The Basics on IP Addresses
+� ip-report.com .  Do not reprint without         permision
+You may see the term IP Address mentioned a lot in relation to web         site hosting and be wondering what it means and if it's important for you understand it,         or even know anything about it at all!.
+In general if you just own one web site it probably is not necessary to learn about         this subject but if you are a serious affiliate or internet marketer you         need to understand the basics, especially if you own several web sites,         for reasons I'll explain later.
+IP address is short for internet protocol address. The IP address is effectively the         address of a computer that is connected to the internet. It is in many ways similar to         your house street address, if you want mail delivered you need an address and you need to         give that address out to people who might want to send you mail.
+In the same way if you want people to find your web site they need to your web site         address, other wise no traffic!
+When the internet was invented it was never envisioned that there would be hundreds of         millions of computers connected, so the address system is limited. The present system uses         a 32-bit number that is divided into four octets (8-bit sections), each octet being in the         range 0...255.
+You could think of each octet as a byte on a modern computer. Each octet is separated         by a decimal point and this type of format is commonly called 'dotted decimal notation' (         e.g. 201.103.61.121 ).
+So the lowest number is 0.0.0.0 and the highest is 255.255.255.255
+It is important to remember that dotted decimal notation described above only exists to         aid human beings to understand IP Addresses, computers just use a long series of 1's and         0's.
+So how does all this effect me?
+It should become clear shortly, because of the numbering scheme outlined above, and         because of the way blocks of address's were assigned in the early days of the internet,         there is a shortage of unique IP address's.
+This means that when you buy your $10/month hosting package (which is really a great         deal when you consider what you get for it these days) you do not usually get your own         unique IP address for your web site, you share it with others.
+IP address are classified into 3 class's (groups) depending on the decimal equivalent         of the 1st octet in the address as below:
+0-255.xxx.xxx.xxx = all address's
+Class A
+Intended for a small number of networks that had a large number of computers (hosts)         attached. Class A IP Address have a value in the range 1...126 as the first octet. The         values 0 and 127 are not available because they have special uses. Class A addresses use         the first octet to identify the network which means that 126 addresses are usable, each of         which can support 16,777,216 computers (hosts).
+Class B
+Intended for some networks that had an intermediate number of computers (hosts)         attached. Class B IP Addresses have a value in the range 128...191 as the first octet.         Class B addresses use the first two octets to identify the network which means that 16,320         addresses are usable, each of which can support 65,536 computers (hosts).
+Class C
+Intended for a large number of networks that would have a small (relatively) number of         computers (hosts) attached. Class C IP Addresses have a value in the range 192...223 as         the first octet. Class C addresses use the first three octets to identify the network         which means that 2,080,800 addresses (networks) are possible, each of which can support         254 computers (hosts).
+In summary what this means is that it is more than likely that your web site will be sharing         it's IP address with other web sites, there are a few possible serious problems         that could arise that you should be aware of:
+If you use either free or very cheap low cost hosting companies you could be sharing             with some nasty or undesirable web sites.  If these web sites end getting banned or             black legged by the search engines for taking part in "illegal" search engine             optimization techniques they may blacklist or down grade the IP address             which will effect you as well, even though your site is fine.
+If you use the same hosting company for many sites and then start linking these             together to try and improve the page             rank you may get into trouble. It is not that difficult for the search engines to work             out the IP address of the sites linking to you. If it finds that they are all on the same             IP address this may be considered as link spamming. After all             what are the chances that a group of genuine links from a number of different web sites             are all going to be hosted on the same computer - not likely!.
+So the bottom line is that if you own several sites and want to link these sites together, for whatever reasons, it is safer         to spread out the hosting amongst several reputable hosting         companies on different IP address's.  This will reduce the         possibility of your sites getting either banned or downgraded by the search engines.
+Editor's note:  If you use the services of an unethical Search Engine Optimization company, they may try to artificially build your site's page         rank by placing numerous links to you from bogus sites set up         specifically for that purpose; most likely, these sites will all be hosted in the same IP         Address block.  Although you may see an improvement in your search engine rankings in         the short term, the search engines will quickly catch up to the trick, and your site         (together with all the other ones) will be penalized and possibly banned.   For this reason, when chosing an SEO firm, make sure that you are dealing with an         honest company that won't get you in trouble.
+Resources:
+Free Bulk C Block IP Checker Tool : Check if your         link exchange partners are on the same IP Address C block.  Ideally, from a search         engine optimization perspective, your link partners (and your own sites if they link to         each other) must be hosted on different IP address blocks.
+Search Engine Info : Professional SEO firm, headed by Aaron Wall, author of the SEOBook .
+For more information on the topic of this article use our Google-powered search engine:
+Subscribe to our newsletter:
+Your Email address:
+  
+Privacy Policy: Your e-mail address will never be sold, rented or         given away to anybody. You can unsubscribe at any time.
+ 
+the most comprehensive and updated Search Engine Optimization ebook
+Send This Article to a Friend:
+Your name:

@@ -1,0 +1,11 @@
+j=u[b[i][2]];
+a[j][1]=b[i][2];
+a[j][2]=b[i][1];
+a[j][3]=b[i][3];
+u[b[i][2]]=j+1;
+}
+}
+printf("\n\n the fast transpose matrix \n\n"); printf("a[0 %d %d %d\n",n,m,t);
+for(i=1;i<=t;i++) { printf("a[%d %d %d %d\n",i,a[i][1],a[i][2],a[i][3]); }
+getch(); }
+Note: There are comments associated with this question. See the discussion page to add to the conversation.

@@ -1,0 +1,40 @@
+PHY 1020: Homework set 16
+PHYSICS 1020 Homework set 16
+26 March 1997
+[16.2]
+How does a nucleus' mass compare with the sum of the masses of its protons and neutrons? Does the answer depend on which nucleus you are considering? If so, explain.
+Answer:
+The mass of any nucleus is smaller than the sum of the masses of its constituent nucleons; the difference between the two is the binding energy. The size of the binding energy varies from nucleus to nucleus: the binding energy per nucleon  is 1 MeV for deuterium, about 7 MeV for helium-4, about 8.8 MeV for iron-56, and 7.6 MeV for uranium-238.
+[16.3]
+Would fusion or fission or neither  release nuclear energy from carbon? From gold? From iron?
+Answer:
+The binding energy per nucleon has a maximum for iron-56 (see also answer to previous problem). For nuclei which are smaller than iron-56 (i.e. with mass number smaller then 56), nuclear energy can be released by fusion processes, while for nuclei with mass number above 56, fission processes can lead to the release of nuclear energy. Therefore, carbon (mass number 12,13,14) can undergo fusion with energy release, gold (mass number 197) could  release energy in a fission process, but iron cannot do either.
+[16.5]
+In which of the following processes is there a change in rest mass due to the mass-energy equivalence principle? In which ones is the change in rest mass actually measurable?
+Processes:
+Warming a cup of coffee, operation of a nuclear reactor, explosion of TNT, explosion of a fission bomb, explosion of a fusion bomb, lifting a book.
+Answer:
+In all of these processes a change in mass takes place due to the change in  energy, but the size of the change is big enough to be measured only in the processes involving nuclear reactions, i.e. in the nuclear reactor, and in the explosion of a fission or fusion bomb. In all other cases, the mass change is too small to be measurable.
+[16.6]
+The fusion of helium nuclei into heavier nuclei occurs only during the later stages of a star's history, when the star reached a higher temperature, owing to its collapse. Why would you expect helium fusion to occur only at higher temperatures than those needed for hydrogen fusion?
+Answer:
+For fusion to take place, nuclei must come close enough to each other so that they are within the range of the strong force, which then attracts them to each other.  Since helium nuclei have two protons, their charge is twice that of hydrogen nuclei (=protons), and so their mutual repulsion due to the electric force is  four  times stronger than that between hydrogen nuclei. To overcome this higher ``Coulomb barrier'', they need higher kinetic energies, i.e. the temperature must be  higher.
+[16.8]
+Before it exploded, the 1987 supernova fused many elements. In one reaction, C-12 fused with He-4. What nucleus did this create?
+Answer:
+The fusion of C-12 with He-4 yields O-16 (8 protons, 8 neutrons).
+[16.12]
+List one or more similarities between combustion and fission. List one or more differences.
+Answer:
+Similarities: Both convert microscopic forms of energy (chemical, nuclear) into thermal energy; in both cases, rest mass is lost; both processes can be made self-sustaining if sufficient amounts of the right materials in appropriate configuration are used.
+Differences:
+Combustion is a chemical process, i.e. one that is caused by the electromagnetic interaction. It involves changes in  energy levels of  electrons bound in an atom or a molecule; therefore the energy released per  elementary process is of the order of eV. Fission is a nuclear process   involving the nuclear (strong) and electromagnetic interactions. It entails a splitting of nuclei into smaller ones, i.e. it is accompanied by changes in the binding energy of nucleons. The energy differences between energy levels in nuclei are of the order of MeV, i.e. about a million times bigger than the atomic level differences. Therefore, the nuclear reaction releases typically  a million times more energy per elementary process. Fission releases neutrons -  combustion does not. Fission requires neutrons to keep it going - combustion does not.
+[16.14]
+Making  estimates: A large nuclear power plant supplies energy at a rate of about 1000 megawatts, or
+joules/second. The energy comes from U-235. About how much rest mass vanishes in one day? If the energy came instead from coal, still at 1000 megawatts, would any rest mass vanish? If so, how much in one day?
+Answer:
+To get 1000 MW power output, one needs about 2500 MW power input, due to the inefficiency of the heat engine and other parts of the power plant. The energy converted into thermal energy (``released'') in one day is  equal to the power times the duration of one day, i.e.
+The rest mass ``lost'' equals the energy divided by the square of the speed of light:
+Thus 2.4 grams of rest mass vanish per day. This represents about 1 part in 1000 of the mass of U-235 in the reactor. If the energy came from coal, the same amount of rest mass would have to vanish, but this would be a tiny   fraction  of the total mass of coal consumed.
+(To get the same energy from coal, one would have to burn about 100 kg/s, i.e.  about 9000 tonnes per day.)
+home page for phy1020

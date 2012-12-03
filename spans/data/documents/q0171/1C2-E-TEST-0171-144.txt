@@ -1,0 +1,12 @@
+ 
+How do I find IP address of a network printer?
+Often times we see a networked printer suddenly stop working and you need to find a static (private) ip address of the printer to diagnose further. How do we find IP address of a networked printer? There are a few different ways to go about finding it.
+1. A network printer with built-in ethernet port usually provides a menu button that will allow you to display IP address assigned to it. You may also try printing self test or configuration page from your printer.
+2. If you can't find an IP address of a network printer from the menu display or your printer is connected to a printer server with no display, you may find its address from any networked computer configured to use the printer. To find the printer IP address from a Windows machine, perform the following.
+Start -> Printers and Faxes, or Start -> Control Panel -> Printers and Faxes
+Right-click the printer name, and left-click Properties
+Click the Ports tab, and widen the first column which displays IP address of the printers
+3. If your networked printer uses DHCP, you may connect to your router and find the IP address of the printer from DHCP status page. The router displays all host machines that are assigned dynamic IP addresses.
+4. You may also try pinging your network from a computer connected to the network, and lookup an arp table. On your computer, click [Start] -> [Run...] and type "cmd" and [Enter]. Type "ipconfig" to find your network address. The network address is found by performing a logical AND operation on your IP address and the subnet mask. For example, if you IP is 192.168.1.101 and subnet mask is 255.255.255.0, then the network address is 192.168.1.0.  Ping your network using a broadcast address, i.e. "ping 192.168.1.255". After that, perform "arp -a" to determine all the computing devices connected to the network. One of the IP found is your networked printer.
+5. You may also use "netstat -r" command to find an IP address of all network routes. However, if your printer has problem communicating with other network devices, you may not be able to find IP address of the printer using "netstat" command.
+ 

@@ -1,0 +1,8 @@
+Posted 16 May 2011 - 03:37 PM
+Hi,
+i have to write a program that implent sparse matrix with templated linked list. i need to support insert, == and + operators. I have some questions:
+1. According to the details what do u think is the better implentation?, (linked list of linked lists, single sorted linked list,etc...)
+2. If I have Linked List, it is ok to put more data members in class Node of linked list in addition to : T value, *next ?
+like here:
+template <class T> class LinkedList { private:   class Node  {  public:    Node* m_next;   T m_value;   int row;   int column;  };   Node* m_head; };
+is it ok?

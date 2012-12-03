@@ -1,0 +1,120 @@
+sp\: bandwidth = 524797+1+524797.
+sp\: is A diagonal? no.
+sp\: is band density (0.00) > bandden (0.50) to try banded solver? no.
+sp\: is A triangular? no.
+sp\: is A morally triangular? no.
+sp\: is A a candidate for Cholesky (symmetric, real positive
+diagonal)? yes.
+sp\: is A positive definite?
+sp\: symmetric minimum degree.
+mmd:  threshold = 1.10 * mindegree + 1;
+     using approximate degrees in A'*A;
+     supernode amalgamation after every 3 stages;
+     row reduction after every 3 stages;
+     withhold rows at least 50.0% dense in colmmd;
+stage 1:  threshold 3  selected 4  eliminated 4
+stage 2:  threshold 5  selected 1531  eliminated 1531
+stage 3:  threshold 7  selected 129800  eliminated 129800  reduced
+1436955  amalgamated 1
+stage 4:  threshold 5  selected 2  eliminated 2
+stage 5:  threshold 7  selected 1016  eliminated 1016
+stage 6:  threshold 7  selected 2  eliminated 2  reduced 3552
+amalgamated 1017
+stage 7:  threshold 8  selected 766  eliminated 1528
+stage 8:  threshold 10  selected 51274  eliminated 51276
+stage 9:  threshold 13  selected 416  eliminated 544  reduced 52458
+amalgamated 104526
+stage 10:  threshold 10  selected 2  eliminated 7
+stage 11:  threshold 10  selected 1  eliminated 4
+stage 12:  threshold 14  selected 29684  eliminated 44997  reduced
+29687  amalgamated 59309
+stage 13:  threshold 16  selected 12101  eliminated 41549
+stage 14:  threshold 20  selected 8841  eliminated 29439
+stage 15:  threshold 25  selected 4284  eliminated 10408  reduced
+25226  amalgamated 49092
+stage 16:  threshold 21  selected 2  eliminated 17
+stage 17:  threshold 24  selected 874  eliminated 3720
+stage 18:  threshold 28  selected 7183  eliminated 25730  reduced
+8059  amalgamated 16081
+stage 19:  threshold 26  selected 2  eliminated 23
+stage 20:  threshold 31  selected 2261  eliminated 13161
+stage 21:  threshold 36  selected 3408  eliminated 23986  reduced
+5671  amalgamated 11320
+stage 22:  threshold 37  selected 79  eliminated 785
+stage 23:  threshold 42  selected 2041  eliminated 16414
+stage 24:  threshold 49  selected 1498  eliminated 11743  reduced
+3618  amalgamated 7181
+stage 25:  threshold 47  selected 54  eliminated 841
+stage 26:  threshold 53  selected 882  eliminated 7080
+stage 27:  threshold 60  selected 975  eliminated 7662  reduced 1911
+amalgamated 3754
+stage 28:  threshold 50  selected 1  eliminated 24
+stage 29:  threshold 57  selected 9  eliminated 160
+stage 30:  threshold 64  selected 411  eliminated 5404  reduced 421
+amalgamated 803
+stage 31:  threshold 67  selected 165  eliminated 1853
+stage 32:  threshold 75  selected 781  eliminated 9192
+stage 33:  threshold 84  selected 524  eliminated 6817  reduced 1470
+amalgamated 2905
+stage 34:  threshold 73  selected 3  eliminated 90
+stage 35:  threshold 84  selected 76  eliminated 1553
+stage 36:  threshold 95  selected 378  eliminated 6514  reduced 457
+amalgamated 882
+stage 37:  threshold 83  selected 1  eliminated 42
+stage 38:  threshold 96  selected 31  eliminated 574
+stage 39:  threshold 108  selected 381  eliminated 7349  reduced 413
+amalgamated 818
+stage 40:  threshold 112  selected 140  eliminated 2898
+stage 41:  threshold 126  selected 184  eliminated 3816
+stage 42:  threshold 140  selected 193  eliminated 4175  reduced 517
+amalgamated 1023
+stage 43:  threshold 141  selected 25  eliminated 841
+stage 44:  threshold 157  selected 182  eliminated 4938
+stage 45:  threshold 174  selected 103  eliminated 3180  reduced 310
+amalgamated 605
+stage 46:  threshold 167  selected 4  eliminated 188
+stage 47:  threshold 188  selected 76  eliminated 2762
+stage 48:  threshold 210  selected 111  eliminated 4268  reduced 191
+amalgamated 374
+stage 49:  threshold 204  selected 5  eliminated 368
+stage 50:  threshold 219  selected 37  eliminated 1705
+stage 51:  threshold 243  selected 62  eliminated 2769  reduced 104
+amalgamated 194
+stage 52:  threshold 269  selected 49  eliminated 2346
+stage 53:  threshold 300  selected 42  eliminated 2012
+stage 54:  threshold 333  selected 40  eliminated 2254  reduced 131
+amalgamated 256
+stage 55:  threshold 277  selected 1  eliminated 173
+stage 56:  threshold 326  selected 8  eliminated 691
+stage 57:  threshold 368  selected 29  eliminated 2115  reduced 38
+amalgamated 70
+stage 58:  threshold 381  selected 10  eliminated 943
+stage 59:  threshold 423  selected 33  eliminated 2769
+stage 60:  threshold 467  selected 8  eliminated 685  reduced 51
+amalgamated 93
+stage 61:  threshold 445  selected 2  eliminated 273
+stage 62:  threshold 492  selected 7  eliminated 791
+stage 63:  threshold 548  selected 16  eliminated 1690  reduced 25
+amalgamated 42
+stage 64:  threshold 571  selected 6  eliminated 712
+stage 65:  threshold 645  selected 11  eliminated 1174
+stage 66:  threshold 718  selected 9  eliminated 1156  reduced 26
+amalgamated 48
+stage 67:  threshold 702  selected 3  eliminated 629
+stage 68:  threshold 816  selected 5  eliminated 743
+stage 69:  threshold 914  selected 4  eliminated 664  reduced 12
+amalgamated 22
+stage 70:  threshold 860  selected 2  eliminated 625
+stage 71:  threshold 912  selected 3  eliminated 1034
+stage 72:  threshold 1015  selected 5  eliminated 983  reduced 10
+amalgamated 14
+stage 73:  threshold 1077  selected 3  eliminated 880
+stage 74:  threshold 1294  selected 2  eliminated 663
+stage 75:  threshold 1533  selected 2  eliminated 473  reduced 7
+amalgamated 11
+stage 76:  threshold 963  selected 1  eliminated 741
+stage 77:  threshold 1482  selected 2  eliminated 1007
+stage 78:  threshold 1569  selected 1  eliminated 398  reduced 5
+amalgamated 5
+stage 79:  threshold 1  selected 1  eliminated 1426
+mmd: 79 stages.

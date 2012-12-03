@@ -1,0 +1,36 @@
+The United     Nations Environment  Programme reports that
+"Over the last     100 years, the global sea level has risen by about 10 to 25 cm."
+Sea level change     is difficult to measure. Relative sea level changes have been     derived mainly from tide-gauge data. In the conventional tide-gauge     system, the sea level is measured relative to a land-based     tide-gauge benchmark....
+It is likely     that much of the rise in sea level has been related to the     concurrent rise in global temperature over the last 100 years."
+ ".. the     warming and the consequent thermal expansion of the oceans may     account for about 2-7 cm of the observed sea level rise"
+".. the observed     retreat of glaciers and ice caps may account for about 2-5 cm. "
+"Other factors     are more difficult to quantify. The rate of observed sea level rise     suggests that there has been a net positive contribution from the     huge ice sheets of Greenland and Antarctica, but observations of the     ice sheets do not yet allow meaningful quantitative estimates of     their separate contributions. The ice sheets remain a major source     of uncertainty in accounting for past changes in sea level because     of insufficient data about these ice sheets over the last 100 years. "
+The New England     Integrated Sciences and Assessment ( NEISA )     has an Excel workbook of North Atlantic sea level trends from 1856     to 2004. The source data, maintained by the Permanent Service for     Mean Sea Level ( PSMSL ),     uses a Revised Local Reference (RLR) datum. The RLR datum for each     station is defined to be approximately 7000mm below mean sea level     to eliminate negative numbers in the resulting RLR monthly and     annual mean values.
+The linked workbook includes the     source seal level data and a charting tool that allows the user to     select the location and generate a trend chart of the seal level     data for that location.
+Beginning     Day of Snowmelt - 3 Midwest Basins
+Background     Information
+Open Mind's 11/1/07     post presents an analysis of the beginning day of snowmelt for the     Red River of the North, using river flow data from Fargo, ND. Open     Mind's post is based on data collected by Patrick Neuman , a retired snow hydrologist.
+This post and downloadable workbook review Neuman's original data and the Open Mind     analysis to confirm the results and provide the data set to others     who might wish to analyze trends in snowmelt.
+To evaluate trends in the beginning day of snowmelt each year,     Neuman analyzed river flow data for three basins in the Midwest, as     shown on this Google Earth map.
+Neuman       estimated the beginning day of snowmelt for each year in the       period 1910 - 2003.  The beginning day was calculated       in Julian days .
+Open Mind used this data for the Red River to produce a       series of charts that show the trend in beginning day of       snowmelt, 10 year moving average for beginning day and a 2       period regression model for the beginning day. Open Mind's       charts are shown below.
+Open         Mind Charts: Red River of the North Beginning Day of         Snowmelt, 1910 - 2003
+Click chart to see full size
+Trend Chart
+Trend Chart with 10 Year Moving Average
+2         Period Regression:
+(1919-1964 & 1965-2003)
+These charts show a significant change in the beginning       day of snowmelt in the Red River basin. Open Mind states: "
+"It appears that up to               1964, snowmelt runoff timing               for the Red River at Fargo,               ND, had its ups and downs               but remained constant over               the long haul. Since 1965,               snowmelt runoff into the Red               River has been happening               sooner. In fact, the slope               of the line for the recent               data indicates that snowmelt               is coming earlier by about               0.62 days per year. From               1965 to 2003, its timing is               about three and a half weeks               earlier.
+That’s not a trivial               difference, it’s quite               significant."
+In looking at Neuman's original material , I was            struck by his Figure 1 chart:
+Neuman's              Original Figure 1: 10 Year              Moving Average Chart for 3              Basins
+While Neuman's Figure 1 shows the same dramatic change in       the Red River (Fargo) snowmelt beginning as Open Mind's       chart,  Neuman's moving average trends for Scanlon and       St Cr F were less dramatic, prompting me to compare the       trends in the 3 basins rather than just rely on the Red       River basin.
+ProcessTrends Analysis of 3 Basins
+Noting the differences in Neuman's moving average trends       for the 3 basins, I redid Neuman's 10-year moving average       chart to make it more readable and did CuSum / Change Point analysis to look at the differences between       the 3 basins in more detail.
+My 10 year moving average chart, comparable to Newman's,  is shown below:
+10 Year Moving Average         Beginning of Snowmelt - 3 Basins (ProcessTrends.Com)
+This 10 year moving average chart, similar to Neuman's       chart, clearly shows that the Red River at Fargo exhibited a       more rapid downward  trend than St Louis at Scanlon and       St Croix at St Croix Falls. While Red River beginning day       continued to decline in the 1990s, the Scanlon and St Croix       beginning days stabilized. While all three basins showed a       decline, the magnitude of the decline was more pronounced in       the Red River than in the St Louis and St Croix basins.
+Open Mind found 1965 to be a change point in the Red       River regression analysis, with the trend from 1910 to 1964       nearly random and the trend from 1965 to 2003 significant. I       used the 1965 change point year to calculate regression line       slopes for the 3 basins. The results are summarized in the       table below.
+Regression Results: 1965 - 2003 Period
+ 

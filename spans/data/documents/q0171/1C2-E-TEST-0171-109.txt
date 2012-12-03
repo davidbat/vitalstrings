@@ -1,0 +1,18 @@
+  Browse the index
+Definition of: IP address
+(Internet Protocol address)  The address of a device attached to an IP network (TCP/IP network).  Every client, server and network device is assigned an IP address, and every IP packet traversing an IP network contains a source IP address and a destination IP address.
+Every IP address that is exposed to the public Internet is unique.  In contrast, IP addresses within a local network use the same private addresses; thus, a user's computer in company A can have the same address as a user in company B and thousands of other companies.  However, private IP addresses are not reachable from the outside world (see private IP address ).
+Logical Vs. Physical
+An IP address is a logical address that is assigned by software residing in a server or router (see DHCP ).  In order to locate a device in the network, the logical IP address is converted to a physical address by a function within the TCP/IP protocol software (see ARP ).  The physical address is actually built into the hardware (see MAC address ).
+Static and Dynamic IP
+Network infrastructure devices such as servers, routers and firewalls are typically assigned permanent "static" IP addresses.  The client machines can also be assigned static IPs by a network administrator, but most often are automatically assigned temporary "dynamic" IP addresses via software that uses the "dynamic host configuration protocol" (see DHCP ).  Cable and DSL modems typically use dynamic IP with a new IP address assigned to the modem each time it is rebooted.
+The Dotted Decimal Address: x.x.x.x
+IP addresses are written in "dotted decimal" notation, which is four sets of numbers separated by decimal points; for example, 204.171.64.2.  Instead of the domain name of a Web site, the actual IP address can be entered into the browser.  However, the Domain Name System (DNS) exists so users can enter computerlanguage.com instead of an IP address, and the domain (the URL) computerlanguage.com is converted to the numeric IP address (see DNS ).
+Although the next version of the IP protocol offers essentially an unlimited number of unique IP addresses (see IPv6 ), the traditional IP addressing system (IPv4) uses a smaller 32-bit number that is split between the network and host (client, server, etc.).  The host part can be further divided into subnetworks (see subnet mask ).
+Class A, B and C
+Based on the split of the 32 bits, an IP address is either Class A, B or C, the most common of which is Class C.  More than two million Class C addresses are assigned, quite often in large blocks to network access providers for use by their customers.  The fewest are Class A networks, which are reserved for government agencies and huge companies.
+Although people identify the class by the first number in the IP address (see table below), a computer identifies class by the first three bits of the IP address (A=0; B=10; C=110).  This class system has also been greatly expanded, eliminating the huge disparity in the number of hosts that each class can accommodate (see CIDR ).  See private IP address and IP .
+NETWORKS VS. HOSTS IN IPV4 IP ADDRESSES Range  Maximum    Maximum  Bits Class       Networks   Hosts    Net/Host A  1-126       127    16,777,214   7/24 B  128-191   16,383     65,534     14/16 C  192-223  2,097,151     254      21/8 127 reserved for loopback test
+Networks, Subnets and Hosts
+An IP address is first divided between networks and hosts.  The host bits are further divided between subnets and hosts.  See
+subnet mask

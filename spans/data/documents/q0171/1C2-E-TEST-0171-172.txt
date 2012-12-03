@@ -1,0 +1,16 @@
+TRY USING A PRESHARED KEY that you make
+by ask4anu - 3/22/07 2:36 AM
+In Reply to: IP Address Conflict by pm3435
+on both VPN points and before you use the key encrypt it with an encryption program then paste the encrypted
+key into both vpns as a preshared key and see if that helps you will also want to turn on ipsec and cruise over to
+and squrit some visine in your eyes before reading cause it will be a long night you also need to know how to route ipsec incoming and outgoing example rules
+use the add wizard to simplfiy things
+always start with ANY IP ADDRESS and then use MY IP ADDRESS and then build from there the loopback is an option also as a DNS name just type loopback ipsec is funny when using DNS names and for every entry you use always bring it back EXAMPLE any ip address to my ip address THEN THE NEXT ONE WOULD BE my ip address to any ip address and you also have the option of using
+the preshared key you created in ipsec also and make sure you move it to the top above kerbos and you can play with ipsec and make all kinds of keys and different negotitation combonations or include them all but on your routers you need to use PRESHRED KEYS anyways so no one can walk in through your security door gateway if you do not have a remote endpoint the router wont connect like my setup i use it but my endpoint is my router and the other endpoint is my ip address which creates a vpn connection from my ip to my router then ipsec secures all traffic from and to them endpoints tunnel layer like dual tunnels so IF hackEr wanna be A trys to worm there way in to the tunnel they become TRAPPED and cant navigate past or out of the tunnel but you have to be specific with your route destinations in ipsec and once you get your routers communicating from endpoint to endpoint between each other and use long keys and a high encryption tool on your key
+and a key can be anything from your name to numbers and letters to numbers and symbols and so on as an example lets say this is my preshared key MyKeYrOuTerS*Y*S@R3MoTeLoCaTi0n that key already has a strength buy how many letters numbers and symbols i used
+then you take your key and run it through an encryption tool that will encrypt your key you made then you paste the encrypted key into your preshared keys spots on the router and in IPSEC if you do it right you will be able to access all over your points but if you have something wrong in ipsec you wont be able to connect to the internet or your routers and then all you have to do is disable ipsec to get your connections working again then undo what you did to stop the connection
+it is helpful to add your endpoints one at a time and then try your connection and make sure you add your router gateway as as a RULE as well as your IP you use mmc.exe in the run command to open the mmc and click files\add and remove snap ins to fire up ipsec load the local computer for ipsec monitoring
+the tech net address will help you with ip sec
+1-800-33qad;
+Was this reply helpful? (0)   (0)
+Staff pick

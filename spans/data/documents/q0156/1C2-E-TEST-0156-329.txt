@@ -1,0 +1,12 @@
+Sparse Matrix sparse matrix of void* data.
+Red-Black tree red-black tree with nodes inlined into user type.
+String Buffer mutable string to prepend, insert or append strings to a buffer.
+Stringshare saves memory by sharing read-only string references.
+Tiler split, merge and navigates into 2D tiled regions.
+Trash container of unused but allocated data.
+Generic Value Storage container for generic value storage and access.
+Data Model API container for data with user defined hierarchy/structure.
+The tools that are available are (see Tools ):
+Benchmark helper to write benchmarks.
+Convert faster conversion from strings to integers, double, etc.
+Counter measures number of calls and their time.

@@ -1,0 +1,34 @@
+Blog about Java Program Tutorial Example How to, Unix Linux commands, Interview Questions, FIX Protocol, Tibco RV tutorials, Equities trading system, MySQL
+Sunday, September 11, 2011
+How to find IP Address from hostname in Windows Linux and Unix
+How many times in a day you have a hostname and you want to know the IP address? Host name to IP address and IP address to hostname conversion is one of frequent thing which we need to do for many things when dealing with networking command in unix . For one command we need IP address for other we need hostname even from bash script some time we require hostname and some time we look for IP address. in this hostname to IP address tutorial I will show you how to get IP address from hostname or computer-name in Unix or Linux and how to get hostname if you have IP address.
+Finding IP address from hostname in UNIX and Linux
+If you are working in UNIX network and have lots of machine in LAN many times you want to know IP address of computers from hostname. Here are top 4 ways of getting IP address from hostname in Linux or UNIX machine
+1) IP address using hostname command in Unix/Linux
+hostname -i
+This is the easiest way of finding IP address of your computer but limitation is that sometime this option may or may not available in your UNIX machine. also limitation of hostname is that you can not find IP address of any other machine.
+2) IP address using ping command in unix/linux
+stock_trader@system:~/test ping trading_system
+Pinging trading_system.com [192.24.112.23] with 32 bytes of data:
+Reply from 192.24.112.23: bytes=32 time<1ms TTL=128
+Reply from 192.24.112.23: bytes=32 time<1ms TTL=128
+Reply from 192.24.112.23: bytes=32 time<1ms TTL=128
+Ping is another simplest way of finding IP address or localhost or any other host if you know the hostname or computer-name just ping and it will display IP address associated with it. In above example IP address associated with trading_system is "192.24.112.23". Disadvantage of using ping is that you can not convert IP address back to hostname.
+3) IP address using nslookup commadn in unix/linux
+stock_trader@system:~/test nslookup trading_system
+Name:    trading_system.com
+Address:  192.24.112.23
+nslookup is my favorite command for getting IP address form hostname, its very powerful and advantage of it we can get either from hostname to IP address or from IP address to hostname. It can also be used to find IP address of your own host or any other machine in the network. In above example of nslookup we have displayed IP address associated with trading_system. If you want to find hostname form IP address you can just provide IP address instead of hostname
+4) How to find IP address using ifconfig command
+Ifconfig is another networking utility in UNIX or Linux which can be used to find IP address of your UNIX machine. ifconfig shows lot of information so I just grep on inet to find the IP address in below example, IP address associate with "trading_system.com" is "192.24.112.23".
+trading_system.com $ /sbin/ifconfig -a | grep inet
+        inet 192.24.112.23 netmask ffffff00 broadcast 192.24.112.255
+IP Address from hostname in Windows Linux and Unix
+How to find IP address of your computer in Windows
+Surprisingly some of above example of finding IP address from hostname will work is windows ditto. You can use ping and nslookup in exactly same way as shown above. Even hostname command is available in windows command prompt but I doubt about options "hostname -i". Another change is in command "ifconfig”, instead of "ifconfig" windows uses "ipconfig" command to find out the IP address of your computer in windows.
+1) How of use ipconfig command in windows to find IP address
+Here is an example of using ipconfig command in windows to find out IP address of our computer:
+C:\Documents and Settings\stock_trader>ipconfig
+Windows IP Configuration
+Ethernet adapter Local Area Connection:
+        Connection-specific DNS Suffix  . : trading_system.com

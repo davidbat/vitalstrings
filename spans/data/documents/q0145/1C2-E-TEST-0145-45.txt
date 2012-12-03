@@ -1,0 +1,27 @@
+S = P + Pr = P(1 + i)
+Amount at the start of this period
+Amount of interest earned during this period on the starting amount of this period
+Final value at end of this period
+After 2 periods:
+S = P(1 + i) + P(1 + i)i = P(1 + i)(1 + i) = P(1 + i)2
+Amount at the start of this period, i.e., the final value at the end of the last   period
+Amount of interest earned during this period on the starting amount of this period
+Final value at end of this period
+After 3 periods:
+S = P(1 + i)2 + P(1 + i)2i = P(1 + i)2(1   + i) = P(1 + i)3
+Amount at the start of this period, i.e., the final value at the end of the last   period
+Amount of interest earned during this period on the starting amount of this period
+Final value at end of this period
+After n periods:
+S = P(1 + i)n
+Often the interest per period, i, is expressed in terms of the annual percentage rate (APR),  r, and the number of interest periods per year, k.
+Under these conditions the interest per period is equal to the annual percentage rate divided  by the number of interest periods per year, as in:
+i = r / k
+This would make the above formula for the final value of an investment after n interest periods  look like this:
+S = P(1 + r/k)n
+Notice that the output, S, is an exponential function of n. That is, if we consider the final  value of the investment as a function of the length of time for the investment, then n, the length of time for  the investment, is in the exponent position, and this makes S an exponential function of n.
+Example calculation
+If $4000 is invested at an annual rate of 6.0% compounded monthly, what will be the final value  of the investment after 10 years?
+Since the interest is compounded monthly, there are 12 periods per year, so, k = 12.
+Since the investment is for 10 years, or 120 months, there are 120 investment periods, so, n  = 120.
+S = P(1 + r/k)n

@@ -1,0 +1,21 @@
+﻿
+Anna University Lab Manuals For Engineering Students: Represent the given sparse matrix using Linked List MC 9217 DATA STRUCTURES LAB Anna University lab manual download
+Get All your Lab Manuals,programs here. Keep Visiting For further Update,you can request for a manual here
+Google Search
+Saturday, January 29, 2011
+Represent the given sparse matrix using Linked List MC 9217 DATA STRUCTURES LAB Anna University lab manual download
+Represent the given sparse matrix using Linked List MC9217 DATA STRUCTURES LAB Anna University lab manual download
+Aim: To write a program to represent Sparse Matrix using Linked list
+Algorithm:
+Enter      the row and column matrix
+Read the      value of m and n
+Set      for loop i< row as i=1 and another loop i < col as j=1
+Read      value of x
+If we      choose insert then check if (sparse == Null ) then sparse =p
+      Else check while (q-> next != Null ) then q = q-> next; q-> next =p
+If we      choose display than for i=1 to r then check p=p->next
+stop
+Logical Description      
+A matrix that has relatively few non-zero entries. It may be represented in much less than n × m space.  
+An n × m matrix with k non-zero entries is sparse if k << n × m. It may be faster to represent the matrix compactly as a list of the non-zero indexes and associated entries, as a list of lists of entries (one list for each row), coordinate format (the values and their row/column positions), or by a point access method .  It is implemented with linked list
+Program Code

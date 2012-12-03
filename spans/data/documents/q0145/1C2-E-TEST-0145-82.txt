@@ -1,0 +1,4 @@
+  
+Definition
+Interest computed on the principal amount to which interest earned to-date has been added. Where compound interest is applied, the investment grows exponentially and not linearly as in the case of simple interest . Formula : Principal x {(Annual interest rate ÷ 100) + 1}^number of years.   For example, $1,000 at an annual compound interest rate of 10 percent will, in 5 years, be: 1000 x {(10 ÷ 100) + 1}^5 = $1,6105.51.
+Related Articles

@@ -1,0 +1,24 @@
+START > RUN > TYPE “cmd” > TYPE “ipconfig /all”
+Displays your: IP address, Host name, Physical/MAC address, Subnet Mask, Default gateway, DNS servers… +
+What is an IP address?
+Every device connected to the public Internet is assigned a unique number known as an Internet Protocol (IP) address. IP addresses consist of four numbers separated by periods (also called a ‘dotted-quad’) and look something like 127.0.0.1.
+Since these numbers are usually assigned to internet service providers within region-based blocks, an IP address can often be used to identify the region or country from which a computer is connecting to the Internet. An IP address can sometimes be used to show the user’s general location.
+Because the numbers may be tedious to deal with, an IP address may also be assigned to a Host name, which is sometimes easier to remember. Hostnames may be looked up to find IP addresses, and vice-versa. At one time ISPs issued one IP address to each user. These are called static IP addresses. Because there is a limited number of IP addresses and with increased usage of the internet ISPs now issue IP addresses in a dynamic fashion out of a pool of IP addresses (Using DHCP). These are referred to as dynamic IP addresses. This also limits the ability of the user to host websites, mail servers, ftp servers, etc. In addition to users connecting to the internet, with virtual hosting, a single machine can act like multiple machines (with multiple domain names and IP addresses).
+Knowing your IP address can allow you (and others you tell) to access services running on your machine such as online games, servers (FTP, web, mail), and remote access utilities (PCAnywhere, GoToMyPC, MS Remote Desktop.
+What is a Proxy Server?
+A proxy server is a computer that offers a computer network service to allow clients to make indirect network connections to other network services. A client connects to the proxy server, then requests a connection, file, or other resource available on a different server. The proxy provides the resource either by connecting to the specified server or by serving it from a cache. In some cases, the proxy may alter the client’s request or the server’s response for various purposes. The use of a proxy server can help to hide, conceal, otherwise make your identity anonymous, by not showing your IP address.
+To achieve strong anonymity, intermediate services may be employed to thwart attempts at identification, even by governments. These attempt to use cryptography, passage through multiple legal jurisdictions, and various methods to thwart traffic analysis to achieve this. Examples include anonymous remailers, Anonymous P2P systems, and services of the Anonymizer company, among others. There are a wide variety of software packages available that allow you to hide/conceal your IP address by using proxy servers. These packages include: Anonymizer, Anonymous Surfing, Proxify, NetConceal, Privacy Pro, Ghost Surf, Hide IP, Stealth Surf, and many more.
+Visiting a site such as this one, when using a proxy server, will show the IP address of the proxy server, unless the proxy server passes along the original/real IP address of the user.
+How do I change my IP address?
+Before trying any other methods to change your IP address, try turning off (or unplugging the power of) your Cable/DSL modem for five minutes. In many cases this will change your IP address. However, if that does not change your IP address, repeat the process for 8 hours (overnight works well) instead of 5 minutes. Hopefully this will result in an IP change.
+If the above does not result in your IP address changing, please look through the below for the situation that best matches yours and attempt to change your IP address that way. Unfortunately you are not able to get your IP address to change in all cases, as it is ultimate determined by your ISP’s DHCP configuration (when you’ve got a dynamically assigned IP address, that is.)
+Windows – Computer connected directly to the modem
+Get to a command prompt. (START, run, cmd).
+Type “ipconfig /release” (without the quotes, on the command line by itself).
+Type “ipconfig /renew” (without the quotes, on the command line by itself).
+Windows (second option) – Computer connected directly to the modem
+Get to a command prompt. (START, run, cmd).
+Type “ipconfig /release” (without the quotes).
+Shut down computer.
+Turn off all ethernet hubs/switches.
+Turn off cable/DSL modem.

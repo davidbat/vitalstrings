@@ -1,0 +1,11 @@
+SuiteSparse description
+SuiteSparse - A collection of sparse matrix packages (direct methods)
+The SuiteSparse is a Suite of Sparse matrix packages. It is a meta-package consisting of ordering methods (AMD, CAMD, COLAMD, CCOLAMD, CSYMAMD, SYMAMD, BTF) and various sparse matrix factorization packages (UMFPACK, LDL, CHOLMOD, KLU, CSparse) and utilities for accessing the UF Sparse Matrix Collection.
+Now includes RBio, a Fortran toolbox for reading/writing Harwell/Boeing and Rutherford/Boeing matrices. CHOLMOD can now read and write sparse matrices in Matrix Market format as well. Added UFcollection, a toolbox for managing the UF Sparse Matrix Collection.
+Many of these functions are already built-in functions in MATLAB.
+The SuiteSparse also has many features that are not in MATLAB (such as a faster and bug-free dmperm, a "sparse2" function that is an order of magnitude faster than "sparse", a cool color "spy", a faster sparse-times-full matrix multiply, a nested dissection ordering, and more).
+QUICK INSTALL: to install the SuiteSparse, unzip the SuiteSparse.zip file. In the MATLAB Command Window, cd to the SuiteSparse directory and type SuiteSparse_install. For a list of functions in the SuiteSparse, type "help SuiteSparse".
+NOTE: tested on 32bit and 64bit Linux, and 32bit Windows. Should work on Windows 64; if it doesn't please let me know. I don't have access to that platform.
+Nearly all the functions work in MATLAB 6.1 or later, all work in MATLAB 7.0 or later.
+The Code Metrics above reveal a lot of cloned code. This is intentional. SuiteSparse contains two versions of CSparse: the concise one in the book (only suitable for 32-bit MATLAB, and real matrices), and an extended version (32 or 64-bit, and both real and complex matrices). Using CSparse to do exercises in the book is simpler; use CXSparse for 64-bit MATLAB.
+Requirements:

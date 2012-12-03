@@ -1,0 +1,11 @@
+it doesn't say how long it's going to be compounded
+2. Relevant equations
+i found this one on wikipedia http://en.wikipedia.org/wiki/Compound_interest :
+A = P(1 + (r/n)) ^ (nt)
+P = principal amount (initial investment)
+r = annual interest rate (as a decimal)
+n = number of times the interest is compounded per year
+t = number of years
+A = amount after time t
+and then i found this one...
+A = P(1 + r)^t

@@ -1,0 +1,40 @@
+Edit Box
+Button
+When you deposit money in a savings account, your       money earns interest that is calculated every month or quarter, etc.       Because this is not money you need right away, the amount accrued can be       reinvested, thus boosting your interest so the next calculation would be       based on the original amount plus the new added value. This is the basis       of compound interest.
+The compound interest can be       calculated monthly or quarterly, etc based on the original amount you       deposited, the interest rate, and the period you and the institution agreed       upon.
+Creating the Application
+This application uses a dialog box equipped with the       necessary controls used to perform the type or related calculated. The       formula we will use to perform the calculations is as follows:
+P = Principal
+m = Number of Compounding Periods per Year
+n = Total Number of Compounding Periods
+A = Amount Earned After n periods
+ 
+Practical Learning: Starting the Exercise
+Start Borland C++BuilderX and, on the main menu, click File -> New...
+ 
+In the Object Gallery dialog box, click New GUI Application and           click OK
+In the New GUI Application Project Wizard - Step 1 of 3, in the           Directory edit box of the Project Settings section, type the path you           want. Otherwise, type
+C:\Programs\Win32 Programming
+In the Name edit box, type CompoundInterest
+Click Next
+In the New GUI Application Project Wizard - Step 2 of 3, accept the           defaults and click Next
+In the New GUI Application Project Wizard - Step 3 of 3, click the           check box under Create
+Select Untitled under the Name column header. Type Exercise to replace the name and press Tab
+Click Finish
+To create a resource header file, on the main menu, click File -> New File...
+In the Create New File dialog box, in the Name, type resource
+In the Type combo box, select h, and click OK
+In the file, type:
+ 
+#define IDD_MAIN_DLG                     101 #define IDC_PRINCIPAL                   1001 #define IDC_ANNUAL_RATE              1002 #define IDC_NBR_OF_PERIODS        1003 #define IDC_COMPOUND                  1004 #define IDC_QUATERLY                    1005 #define IDC_SEMIANNUALLY             1006 #define IDC_RADIO4                        1007 #define IDC_ANNUALLY                    1007 #define IDC_CALCULATE_BTN          1008 #define IDC_INTEREST_EARNED       1009 #define IDC_AMOUNT_EARNED         1010
+To create a resource script, on the main menu, click File -> New           File...
+In the Create New File dialog box, in the Name, type CompoundInterest
+In the Type combo box, select rc, and click OK
+In the file, type:
+ 
+#include "resource.h" //--------------------------------------------------------------------------- // Dialog  IDD_MAIN_DLG DIALOGEX 200, 100, 329, 132 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION |     WS_SYSMENU CAPTION "Compound Interest" FONT 8, "MS Shell Dlg" // , 400, 0, 0x1 BEGIN     GROUPBOX "Preparation",IDC_STATIC,6,6,156,72     LTEXT "Principal: ...............",IDC_STATIC,18,21,72,8     EDITTEXT        IDC_PRINCIPAL,90,18,40,12,ES_RIGHT | ES_AUTOHSCROLL     LTEXT "Interest: ...............",IDC_STATIC,18,40,72,8     EDITTEXT        IDC_ANNUAL_RATE,90,36,40,12,ES_RIGHT | ES_AUTOHSCROLL     LTEXT "Number of Periods: ...",IDC_STATIC,18,58,72,8     EDITTEXT        IDC_NBR_OF_PERIODS,90,54,40,12,ES_RIGHT | ES_AUTOHSCROLL     LTEXT "%",IDC_STATIC,132,42,8,8     LTEXT "years",IDC_STATIC,132,54,19,8     GROUPBOX "Compound Frequency",IDC_STATIC,168,6,90,72     CONTROL "Monthly",IDC_COMPOUND,"Button",BS_AUTORADIOBUTTON |                     BS_LEFTTEXT | WS_GROUP,180,20,60,10     PUSHBUTTON "Calculate",IDC_CALCULATE_BTN,270,9,50,14     PUSHBUTTON "Close",IDCANCEL,270,30,50,14     CONTROL "Quarterly",IDC_QUATERLY,"Button",BS_AUTORADIOBUTTON |                     BS_LEFTTEXT,180,33,60,10     CONTROL "Semiannually",IDC_SEMIANNUALLY,"Button",                     BS_AUTORADIOBUTTON | BS_LEFTTEXT,180,46,60,10     CONTROL "Annually",IDC_ANNUALLY,"Button",BS_AUTORADIOBUTTON |                     BS_LEFTTEXT,180,59,60,10     GROUPBOX "Results",IDC_STATIC,6,84,252,36     LTEXT "Interest Earned:",IDC_STATIC,15,99,54,8     EDITTEXT        IDC_INTEREST_EARNED,78,96,52,12,ES_RIGHT |                     ES_AUTOHSCROLL     LTEXT "Amount Earned:",IDC_STATIC,144,99,53,8     EDITTEXT        IDC_AMOUNT_EARNED,198,96,48,12,ES_RIGHT | ES_AUTOHSCROLL END //---------------------------------------------------------------------------
+Display the Exercise.cpp file and change it as follows:
+ 
+#include <windows.h> #include <cstdio> #include <cmath> #include "Resource.h" //--------------------------------------------------------------------------- HWND hWnd; LRESULT CALLBACK DlgProc(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam); //--------------------------------------------------------------------------- INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,        LPSTR lpCmdLine, int nCmdShow) {  DialogBox(hInstance, MAKEINTRESOURCE(IDD_MAIN_DLG), hWnd, reinterpret_cast<DLGPROC>(DlgProc));   return FALSE; } //--------------------------------------------------------------------------- LRESULT CALLBACK DlgProc(HWND hWndDlg, UINT Msg, WPARAM wParam, LPARAM lParam) {  // These variables will carry the values in the text boxes  LPTSTR strPrincipal = new char[20],     strInterest = new char[20], strPeriods = new char[20],      strInterestEarned = new char[20], strAmountEarned = new char[20];  // These are handled for the various controls  HWND hWndPrincipal, hWndInterest, hWndPeriods, hWndCompound,    hWndInterestEarned, hWndAmountEarned, hWndCalculate;   double Principal, AnnualRate, InterestEarned;  double FutureValue, RatePerPeriod;  int    NumberOfPeriods, CompoundType;  double i;  int n;   hWndPrincipal      = GetDlgItem(hWndDlg, IDC_PRINCIPAL);  hWndInterest       = GetDlgItem(hWndDlg, IDC_ANNUAL_RATE);  hWndPeriods        = GetDlgItem(hWndDlg, IDC_NBR_OF_PERIODS);  hWndCompound       = GetDlgItem(hWndDlg, IDC_COMPOUND);  hWndInterestEarned = GetDlgItem(hWndDlg, IDC_INTEREST_EARNED);  hWndAmountEarned   = GetDlgItem(hWndDlg, IDC_AMOUNT_EARNED);  hWndCalculate      = GetDlgItem(hWndDlg, IDC_CALCULATE_BTN);   switch(Msg)  {  case WM_INITDIALOG:   // Identify each control   SetWindowText(hWndPrincipal, "0.00");   SetWindowText(hWndInterest, "7.55");   SetWindowText(hWndPeriods, "0");   SetWindowText(hWndInterestEarned, "0.00");   SetWindowText(hWndAmountEarned, "0.00");    CheckRadioButton(hWndDlg, IDC_COMPOUND, IDC_ANNUALLY, IDC_COMPOUND);   return TRUE;   case WM_COMMAND:   switch(wParam)   {   case IDC_CALCULATE_BTN:    GetWindowText(hWndPrincipal, strPrincipal, 20);    GetWindowText(hWndInterest,  strInterest,  10);    GetWindowText(hWndPeriods,   strPeriods,    8);     Principal = atof(strPrincipal);    AnnualRate = atof(strInterest) / 100;     if( IsDlgButtonChecked(hWndDlg, IDC_COMPOUND) == BST_CHECKED )     CompoundType = 12;    else if( IsDlgButtonChecked(hWndDlg, IDC_QUATERLY) == BST_CHECKED )     CompoundType = 4;    else if( IsDlgButtonChecked(hWndDlg, IDC_SEMIANNUALLY) == BST_CHECKED )     CompoundType = 2;    else // if( IsDlgButtonChecked(hWndDlg, IDC_ANNUALLY) == BST_CHECKED )     CompoundType = 1;     NumberOfPeriods = atoi(strPeriods);    i = AnnualRate / CompoundType;    n = CompoundType * NumberOfPeriods;     RatePerPeriod = AnnualRate / NumberOfPeriods;    FutureValue = Principal * pow(1 + i, n);    InterestEarned = FutureValue - Principal;     sprintf(strInterestEarned, "$%.2f", InterestEarned);    sprintf(strAmountEarned, "$%.2f", FutureValue);     SetWindowText(hWndInterestEarned, strInterestEarned);    SetWindowText(hWndAmountEarned,   strAmountEarned);    return TRUE;    case IDCANCEL:    EndDialog(hWndDlg, 0);    return TRUE;   }   break;  }   return FALSE; } //---------------------------------------------------------------------------
+Test the application then close the dialog box
+ 

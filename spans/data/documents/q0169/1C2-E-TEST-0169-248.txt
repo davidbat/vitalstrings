@@ -1,0 +1,44 @@
+R: Cholesky Factorization for Sparse Matrices
+chol {spam}
+Cholesky Factorization for Sparse Matrices
+Description
+chol performs a Cholesky decomposition of a symmetric positive definite sparse matrix x of class spam.
+Usage
+chol(x, ...) chol.spam(x, pivot = "MMD", method = 'NgPeyton', memory =                  list(), eps =  .Spam$eps, ...)  update.spam.chol.NgPeyton(object, x,...)
+Arguments
+symmetric positive definite matrix of class spam.
+pivot
+should the matrix be permuted, and if, with what algorithm, see Details below.
+method
+Currently, only NgPeyton is implemented.
+memory
+Parameters specific to the method, see Details below.
+eps
+threshold to test symmetry. Defaults to .Spam$eps.
+...
+further arguments passed to or from other methods.
+object
+an object from a previous call to chol.
+Details
+chol performs a Cholesky decomposition of a symmetric positive definite sparse matrix x of class spam. Currently, there is only the block sparse Cholesky algorithm of Ng and Peyton (1993) implemented (method=NgPeyton).
+To pivot/permute the matrix, you can choose between the multiple minimum degree (pivot=MMD) or reverse Cuthill-Mckee (pivot=RCM) from George and Lui (1981). It is also possible to furnish a specific permutation in which case pivot is a vector. For compatibility reasons, pivot can also take a logical in which for FALSE no permutation is done and for TRUE is equivalent to MMD.
+Often the sparsity structure is fixed and does not change, but the entries do. In those cases, we can update the Cholesky factor with update.spam.chol.NgPeyton by suppling a Cholesky factor and the updated matrix.
+The option cholupdatesingular determines how singular matrices are handled by update. The function hands back an error ("error"), a warning ("warning") or the value NULL ("null").
+The Cholesky decompositions requires parameters, linked to memory allocation.  If the default values are too small the Fortran routine returns an error to R, which allocates more space and calls the Fortran routine again. The user can also pass better estimates of the allocation sizes to chol with the argument memory=list(nnzR=...,   nnzcolindices=...). The minimal sizes for a fixed sparsity structure can be obtained from a summary call.
+The output of chol can be used with forwardsolve and backsolve to solve a system of linear equations.
+Notice that the Cholesky factorization of the package SparseM is also based on the algorithm of Ng and Peyton (1993).  Whereas the Cholesky routine of the package Matrix are based on CHOLMOD by Timothy A. Davis (c code).
+Value
+The function returns the Cholesky factor in an object of class spam.chol.method. Recall that the latter is the Cholesky factor of a reordered matrix x, see also ordering .
+Note
+Although the symmetric structure of x is needed, only the upper diagonal entries are used. By default, the code does check for symmetry (contrarily to base:::chol). However, depending on the matrix size, this is a time consuming test. A test is ignored if .spam.options("cholsymmetrycheck") is set to FALSE.
+If a permutation is supplied with pivot, .spam.options("cholpivotcheck") determines if the permutation is tested for validity (defaults to TRUE).
+Author(s)
+Reinhard Furrer, based on Ng and Peyton (1993) Fortran routines
+References
+Ng, E. G. and B. W. Peyton (1993) Block sparse Cholesky algorithms on advanced uniprocessor computers, SIAM J. Sci. Comput., 14, 1034–1056.
+George, A. and  Liu, J. (1981) Computer Solution of Large Sparse Positive Definite Systems, Prentice Hall.
+See Also
+det , solve , forwardsolve , backsolve and ordering .
+Examples
+# generate multivariate normals: set.seed(13) n <- 25    # dimension N <- 1000  # sample size Sigma <- .25^abs(outer(1:n,1:n,"-")) Sigma <- as.spam( Sigma, eps=1e-4)  cholS <- chol( Sigma)     # cholS is the upper triangular part of the permutated matrix Sigma iord <- ordering(cholS, inv=TRUE)  R <- as.spam(cholS) mvsample <- ( array(rnorm(N*n),c(N,n)) %*% R)[,iord] # It is often better to order the sample than the matrix # R itself.   # 'mvsample' is of class 'spam'. We need to transform it to a # regular matrix, as there is no method 'var' for 'spam' (should there?). norm( var( as.matrix( mvsample)) - Sigma, type="HS") norm( t(R) %*% R - Sigma, type="sup")
+[Package spam version 0.23-0 Index ]

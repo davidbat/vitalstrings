@@ -1,0 +1,9 @@
+Answers.com > Wiki Answers > Categories > Technology > Computers > Internet > How do i find my ip address in vista?
+How do i find my ip address in vista?
+In: Internet , Windows Vista [ Edit categories ]
+Answer:
+== Answer Vista.....Where's my IP address? ==  Click on the Windows "Start" button in the bottom left had corner of your screen. Then, in the "Start search" box just under "All Programs", type "cmd". Hit enter. A 'dos' window will pop up. Type "ipconfig". Hit enter. Windows IP Configuration information will come up. This information will include your IP address. It may be listed as "IPv4" address. To exit the 'dos' window, type "exit" at the blinking cursor.
+If you are behind a proxy or local gateway you will not find your IP with "cmd". Go to web site ip.nf (type in your browser or click a related link below) and you will see your IP. The second method always works.
+Note: There are comments associated with this question. See the discussion page to add to the conversation.
+First answer by Tampares . Last edit by Beezzee . Contributor trust : 9               [ recommend contributor recommended]. Question popularity : 31 [Recommended].
+user-generated content

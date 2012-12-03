@@ -1,0 +1,44 @@
+Hide IP Address in Windows XP
+A "how to" provided by iPrivacyTools.com
+The easiest way to hide your IP address in Windows XP is simply to            change it, and this page will describe a fast and free method of doing            just that. You will still be using your real ISP-issued IP address,            but the "hiding" of the old IP address will occur when you            update it to a new number.
+Reasons for wanting to perform this process may include privacy issues,            such as a desire to visit websites without your IP being connected to            a previous visit. Or perhaps you'd like to clear any connection that            your IP has with a marketing database that tracks surfing behavor. If            privacy is your concern, be sure to also clear your browser cookies            before AND after updating your IP as well.
+*Please be aware that some ISP's may have limitations on the number            of times you're allowed to get a new IP. Therefore, to avoid extra charges            or service issues, you should probably not use this process more than            a few times. If you require a more flexible and fullproof means of hiding            your IP address, please check out our homepage.
+STEP #1 to hide your IP address in Windows XP
+UNPLUG your modem from the electrical              outlet.
+If you're using a router, UNPLUG it from the electrical outlet.
+Temporarily remove the cables between your computer, router, and              modem.
+Plug the cable from your modem directly into your computer.
+Restart both your modem and computer.
+Once restarted, proceed to step #2 to confirm that your connection              is back online. If it's not, you may need to restart your computer              again.
+STEP #2: Check your current IP address
+Go to iPrivacyTools.com/my-ip-address/ and write down your IP address for comparison later.
+STEP #3 to hide IP address in Windows XP
+Click on your START menu and select "Run".
+STEP #4 Open the DOS prompt
+Enter the letters "cmd" and hit Enter.
+STEP #5 to hide your IP in Windows XP
+When you see the command prompt, type "ipconfig              /release" (including the space before the slash) and Enter.
+STEP #6 to hide IP address in Windows XP
+Again, click on your START menu,              select "Connect to" , and              then "Show all connections"
+STEP #7 for changing IP address in XP
+Use your RIGHT-mouse button to click on "Local            Area Connection" and then select "Properties".
+STEP #8
+Click once on "Internet Protocol (TCP/IP)" and then choose "Properties".
+STEP #9: Set a dummy IP
+Tick the selection box for "Use the              following IP address" and enter the numbers you see below:
+STEP #10:
+Click "OK" and "Close" to get out of the dialog boxes.
+ 
+Wait 30-45 seconds. Do not proceed              before waiting at least 30 seconds.
+STEP #11 to hide IP address in XP:
+Perform steps 6-8 AGAIN.
+Perform step 9 again, but this time tick the box for "Obtain              an IP address automatically" and "Obtain              DNS server address automatically".
+STEP #12 to hide IP address in Windows XP
+Click "OK" and "Close" to get out of there.
+WAIT 60 SECONDS (this is important).
+STEP #13: Confirm the IP Change
+Click refresh on iPrivacyTools.com/my-ip-address/ to confirm that your IP has been updated.
+Congratulations, you now know how to hide your IP address in            XP!
+Again, after performing the steps above, it's important to delete your            cookies, as they are another means by which websites and marketers can            follow your surfing patterns.
+And as mentioned above, you should probably not use this technique            more than a few times, as it may possibly conflict with your ISP's policies.            If you're interested in something more flexible, please check out our IP Hiding Software .
+Thank you for reading "How to Hide your IP Address in Windows XP"

@@ -1,0 +1,8 @@
+C Program to represent sparse matrix - c programs
+sparse matrix
+A sparse matrix  is a  matrix in which most of the elements are zero. If storage space is more important than access speed, it may be preferable to store a sparse matrix as a list of (index, value) pairs
+write a c program to represent sparse matrix
+Implement sparse matrix using c language
+write a c program to represent sparse matrix
+Implement sparse matrix using c language
+#include<stdio.h>

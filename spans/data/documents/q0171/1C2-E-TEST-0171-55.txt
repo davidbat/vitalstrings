@@ -1,0 +1,16 @@
+IP version 6 addresses are more complex. IPv6 addresses are comprised of 8 segments:
+e.g. 3ffe:1900:4545:3:200:f8ff:fe21:67cf
+Related: Read more about how IPv6 is different from IPv4 .
+IP address is not the same as www domain name addresses:
+For nearly every web server, the IP address is invisibly translated into a natural English "domain name" for ease of use. But technically speaking, the IP address is the true identifier of a web server...the domain name is simply a redirector pointer to help people find the web server.
+Here are three IP addresses, with their corresponding domain names. Both the IP address and domain name URL can be used to connect to the same web server:
+e.g. 72.246.51.15 = www.nasa.gov
+e.g. 208.185.127.40 = www.about.com
+Your ISP has a block of IP addresses to lend:
+Internet authorites allot IP address numbers to regional internet service providers in large blocks. Those ISP's, in turn, assign these IP addresses to every server and every user internet user who logs onto the internet. Yes, there are millions of IP addresses active at any instant.
+More about IP addresses:
+Trivia point 1: before the World Wide Web became popular in the 1990's, every computer was assigned a fixed ("static" IP address).  But with so many millions of internet users today, ISP's now choose to "lend" IP addresses from a pool of numbers. This is much like dealer license plates being shared amongst test drive vehicles at a car dealership.   This loaning of IP addresses is called "dynamic IP addressing", and is proven to work better for individual users.
+Trivia point 2: often, it is possible to identify where a user is in the world by their IP address. Web sites like www.whatismyipaddress.com/ can read your computer's IP address, compare it to its database of ISP's, and attempt to guess your location on the planet.
+Trivia point 3: it is possible to mask or digitally alter the appearance of your computer's IP address. You would do this for the sake of privacy or to avoid authorities tracking your online habits.
+Trivia point 4: within office networks, each office computer is given an "internal IP address". As soon as an office computer accesses the internet, it then borrows the office's main IP address. This works much like office telephone numbers: a unique internal extension number is assigned to every user, but as soon as any person dials out of the office, call display will only show the office's main phone number. This is known as internal vs. external IP addressing, and is a necessary technique to reduce the number of IP addresses on the internet.
+Trivia point 5: as of May 2008, the internet uses IP addressing standard Version 4  (aka "IPv4"). There is a new generation of addresses being designed called IPv6. The biggest change is in the number of available addresses. Instead of 4.3 billion possible IP addresses, IPv6 will bring us 34,000,000,000,000,000,000 billion possible IP addresses. Read more about IPv6 here .

@@ -1,0 +1,62 @@
+[  Home  ]
+How to solve compound interest problems.
+This topic is part of the         TCS FREE high school mathematics 'How-to Library'. It shows you how to solve compound interest problems.
+(See the index page for a list of all available topics in the library.) To         make best use of this topic, you need to download the Maths Helper Plus         software. Click         here for instructions.
+Theory:
+'Compound interest' calculations apply to investments where the amount of interest is calculated on the present balance of the account. The amount you invest is called the 'Principal'.
+Example...
+If you invest a principal of $1000 at 10% compound interest paid monthly, then after the first month, the interest payment will be:
+interest (first month) = 10% of $1000 =     $100
+If the interest is added to the principal, you now have: $1000 + $100 = $1100, so the next months interest will be 10% of the new total:
+interest (second month) = 10% of $1100 = $110
+So the principal increases to $1210 after the second month. Notice that the increase is $10 greater after the second month than after the first. This trend will continue during the life of the investment so that it will continue to grow faster and faster as time goes on.
+The compound interest formula calculates the value of a compound interest investment after 'n' interest periods.
+where:
+'A' = Amount after 'n' interest periods.
+'P' = Principal, the amount invested at the start.
+'i' = the interest rate applying to each period.
+'n' = the number of interest periods
+Using this formula to       duplicate the results from the example above:
+P = $1000, i = 0.1, n = 2,
+so:      A = 1000(1 + 0.1)2  =  1000 × 1.21 = $1210
+The interest rate is per interest period. Often, interest rates are given for a whole year, (per annum). A yearly interest rate must be divided by the number of payments per year.
+For example, if the interest rate on an investment is 12% per annum, and interest is payed monthly, then the value of 'i' to use in the formula is 12%/12 = 1% = 0.01
+By rearranging the compound interest formula, we can use it to find unknown 'P', 'i' and 'n' values, like this:
+(b) find the principal invested at the start:
+For example: What principal does Andrew need to invest at 15% p.a. compounding monthly so that he ends up with $10000 at the end of five years?
+(c) find the interest rate per period:
+For example: Sally has $5000 to invest. What monthly interest rate would cause her investment to increase to $7000 after 5 years?
+(d) find the number of interest periods required to achieve your goal:
+For example: Bill needs $40000 for a car. He decides to invest $15000 at 6% p.a. compound interest, compounding monthly. How long will he have to wait until the $15000 grows to $40000?
+Method:
+Maths Helper Plus can solve many kinds of compound interest problems. It will do calculations showing the working steps.  
+Step 1 Download the free support file... We have created a Maths Helper Plus document containing the completed example from this topic. You can use this to practice the steps described below, and as a       starting point for solving your own problems.
+File   name:  'Compound interest.mhp'   File size: 8kb
+Click here to download the file.
+If you choose 'Open this file from its current location', then Maths Helper Plus should open the document immediately. If not, try the other option: 'Save this file to disk', then run Maths Helper Plus and choose the 'Open' command from the 'File' menu. Locate the saved file and open it. If you do not yet have Maths Helper Plus installed on your computer, click here for instructions.
+ 
+Step 2  Display the parameters box
+Press the F5 key to display the parameters box:
+ 
+You enter the given information into these edit boxes as follows:
+ 
+        edit box 'A' = A, the value of the investment after 'n' interest periods ($)
+        edit box 'B'  = P, the principal invested ( $ )
+        edit box 'C' = r, the interest rate per interest period (%)
+        edit box 'D' = n, the number of investment periods.
+ 
+Set any three of A, B, C and D to the values you are given.
+Set the unknown value to zero.
+Out of the four edit boxes A, B, C and D, three will not be zero, and one will be zero.
+ 
+NOTE: The parameters box diagram shows the correct settings for solving the second example from the 'Theory' section above:
+"What principal does Andrew need to invest at 15% p.a. compounding monthly so that he ends up with $10000 at the end of five years?"
+'A' = 10000 because this is the required future value of the investment.
+'B' = 0, because we are calculating the unknown principal, 'P'.
+'C' = 15%/12, because the interest of 15% is per year, while the interest is calculated monthly. The monthly interest rate is therefore 15%/12. You could also put: 0.15/12.
+'D' = 5*12, because this is the number of monthly interest periods in 5 years. You could also put 50.
+ 
+Click the 'Update' button to refresh the diagram and calculations.
+ 
+Then ask us! Click       here now!
+ 

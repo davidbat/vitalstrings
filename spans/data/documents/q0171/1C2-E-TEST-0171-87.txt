@@ -1,0 +1,26 @@
+Change IP Address in Internet Explorer
+Go to Internet Options under the Tools menu.
+Click on Connections tab.
+If you use a dial up connection, select currently active connection and click on Settings button.
+Check the check box labeled "Use a proxy server for this connection".
+Fill the IP address and Port number and click on OK button. (Use our proxies or get              your own )
+If you use cable or DSL, click on the LAN Settings button, and repeat              step 4 and 5 for that connection.
+Click the OK button to finish. Now feel free to surf anonymously with changed ip address.
+ 
+Change IP Address in Firefox
+Click on Tools and then click on Options.
+Click on Advanced button at the top of pop up window.
+Now choose Network tab and go to Connection settings.
+Click on Manual proxy configuration radio button.
+Now set the HTTP Proxy and Port Number. (Feel free to use these )
+Click on OK button. Now you can access the Internet with a changed              ip address.
+ 
+Change Your IP Address in Mac's Safari
+Go to Edit and click on Preferences.
+Click on Advanced button.
+Click on Change Settings button which is just next to label "Proxies".
+For dial up connections, select the Internet connection for which              you want to change your ip address.
+Click on settings.
+Click on the check box labeled "Use a proxy for this connection" and enter proxy port and ip              address in text boxes.
+Click on OK button to change your ip address with anonymous proxy              ip address.
+For LAN Connections, you need to click on "LAN Settings" Button after step 3, and enter anonymous proxy ip and port as in ster              6 and 7.

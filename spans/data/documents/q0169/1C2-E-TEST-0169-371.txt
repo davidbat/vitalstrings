@@ -1,0 +1,6 @@
+How to find inverse of a sparse matrix ?
+Hi,
+There are Numerical recipes (For C) functions namely ludcmp() and lubksb() to invert the matrix. I used them for a simple 3x3 matrix. I got the inverse. Then I mulitiplied that inverse with the original matrix. As expected I got the identity matrix.
+Now the same thing I tried for my 100x100 sparse matrix. I got the inverse. So to check, I multiplied this inverse by original matrix. But I did not get Identity matrix.
+Please tell efficient and correct way to invert a sparse matrix?
+Regards,

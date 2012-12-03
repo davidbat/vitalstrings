@@ -1,0 +1,33 @@
+ 
+B. Sparse Matrices
+A sparse matrix is    any matrix that contains very few non-zero elements? Or said the    other way, a sparse matrix is any matrix who's elements are    mostly zeros. For example, the matrix below is sparse.
+1 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 4 0 0 0 0
+0 0 0 0 0 0 3 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 2 0 0 1 0 0 0 0
+0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 6 0 0
+0 0 0 5 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 1
+Sparse matrices occur often in science and    engineering problems. In addition, real world problems often generate large    sparse matrices.
+ 
+MATLAB has a special data type for storing and    manipulating sparse matrices because:
+You can save memory by not storing all of the zero     elements in a sparse matrix.
+Vector and matrix operations can be sped up     significantly by not processing the elements that are zero.
+ 
+Therefore, using sparse matrices allows for the    calculation of larger problem sizes (because of the memory and CPU time    savings) as compared to using "normal" (full) arrays.
+ 
+You can create a sparse    matrix in MATLAB using the following commands
+MATLAB function
+Description
+speye(n)
+% Create an identity matrix (all 1's down the diagonal) that      has n rows and n columns, but      store it as a sparse matrix.
+sprand(n,m,density) .
+% Create a sparse matrix that has n rows and m columns, with a specified      density (a fraction between 0 and 1). For example, if the      density is 0.1, approximately 10% of the elements in the matrix      will be non-zero.
+sprandn(n,m,density)
+% Same as sprand(), except the non-zero elements are random in a      normal distribution.
+ 
+You can convert between a    full matrix and a sparse matrix using the following commands
+MATLAB function

@@ -1,0 +1,69 @@
+unclesyd (Materials)
+6 Aug 07 13:21
+Asking again, Based on my observations of work on and the dismantling of some RR bridges/overpasses with very similar bearings/supports is it possible that one end of the bridge came completely off the bearing supports and resulting movement pull the other end off it's bearings. This is one way the bridge could have fallen as a unit.  
+Several times I've seen where a RR crane would lift one end of an highway overpass and people would work on the bearing/supports.
+In the 90's a friend got the contract to remove several RR/highway overpasses and his method was just pick it up and set it one the ground. They unbolted nothing, in fact getting the bearing off the support piers was lot bigger problem than taking down the overpass.
+jike (Structural)
+6 Aug 07 13:25
+I heard the head of the NTSB say that they were reviewing the records of temperature variations. This leads me to believe that they are studying the build up of member stresses in regard to the frozen bearing(s) that were discovered in 1996. This may have also lead to other failures as a result.
+I also heard a statement that to replace a frozen bearing on this bridge that the entire bridge would have to be shut down. I am sure they were told to find another way to do it.
+One thing that I know for sure is that alot of political pressure would come to bear to not shut down the busiest Interstate bridge in Minnesota. This may wind up being alot of finger pointing between the engineers and the politicians
+bridgebuster (Civil)
+6 Aug 07 13:37
+The MNDOT inspection reprot and the URS report don't describe the foundations. The MNDOT report did mention an underwater inspection in 2004 but no evidence of scour.
+The URS report shows a scaled-down version of an original contract drawing of the elevation. Based on the drawing, the pier in the photo posted by bimr might be pile supported and the pier in the river (at the other end of the mainspan) looks like the footing could be resting on a tremie pour or caisson.
+unclesyd - your theory might have possibilities. I saw a news flash that said the construction workers told investigators that the bridge was "wobbling" for several days. If by "wobbling" they meant an effect, for example, similar to the rocking of a table with on leg shorter than the others, that could point to a loss of a support, possibly at the south because that truss backspan is twisted whereas the other spans appear to have dropped straight down.
+The first panel of each backspan is a 38' long cantilever that is also skewed. Skews do cause superstructure movements.
+darkwing88 (Structural)
+6 Aug 07 13:49
+I am reviewing the "Fatigue Evaluation and Fatigue Analysis" done by URS Corporation published July 2006.  One of the significant items is the behavior of the roller and rocker bearings. Below is a paragraph from this report.
+"As a summary, the bearing measurement data indicates that the bridge expansion bearings are not functioning as designed.  There have been notations in previous bridge inspection reports referring to 'frozen' rocker bearings and corrosion and section loss at the truss roller bearings.  The erratic nature of the bearing measurements can be explained by the bearings components 'sticking' in place.  There is enough frictional resistance due to corrosion and debris to keep the bearing from moving until there is enough thermal force built up in the system to cause a drastic and quick movement of the bearing to relieve the force.  The bearings are not allowing the structure to move linearly with changes in the ambient temperature".
+I would not be surprised if these "frozen" bearings were found to be a significant factor in the collapse.  Being one of the hottest days of the year with the bearings restraining longitudinal movement, a "quick movement" could have occurred to cause an existing crack (in one of the many fracture critical members that by definition has no redundancy) to reach critical crack length and complete member failure causing the bridge to collapse.
+6 Aug 07 13:49
+For the bridge guys.
+The construction equipment has been mentioned several times as a possible contributor to the failure. This is an 8 lane bridge and 4 lanes were shutdown for the construction. My question is similar to one of the above posts.
+How many cement trucks equate to 2 lanes of bumper to bumber moving traffic?
+Could one cement truck and one site mixer and 4 "Georgia Buggies" cause an eccentric loading.,either +/- when balanced against the traffic on the other side?
+darkwing88 (Structural)
+6 Aug 07 14:01
+bridgebuster: There are no cantilevers on Bridge 9340.  At Pier 8 on the North end there is a 38' overhang that is supported by a strut from the bearing on top of Pier 8.  At the South end there is a horizontal curve so the overhang is 35'-8" for the West truss and 40'-4" for the East truss.  Both of these are supported by a strut from the bearing on top of Pier 5.
+6 Aug 07 14:25
+unclesyd:
+I don't believe one concrete truck, one site mixer and buggies would even begin to come close to the design loads for that bridge. The sway frames between trusses would be designed for any unbalanced loads.
+The frozen bearings and the resulting build up of thermal forces could have caused a truss member to fail, a connection to fail, the bearing anchorage to shear, the top of the pier to break off, the pier to tilt or the foundation to fail. The "wobbling" feeling that the workers describe only make me more suspicious of this type of failure. I only wish they had said something at that time!
+unclesyd (Materials)
+6 Aug 07 14:54
+That was my feeling as to the loading at the time of the failure. 4 lanes, + a little extra, instead of 8 should equate to a half load +.
+The mention of wobbling by the construction crew might have alerted someone, but wasn't someone for the WDOT overseeing the work. It just sounds all too familiar.
+I have an ex-technician that use to work for our group and is now a bridge inspector for a large easter state. His qualificans are CWI, Level II MT, PT, RT with 25 years experiences. About a month ago while back home he and I were discussing his job. He said it is mostly paper work with very little actual inspection. He stated that one recent job he was on a hurry up/catch up inspection on a steel bridge that had fallen off the radar. He stated that at quitting time on day while they were in the steel work the whole crew heard a very loud bang. He stated that it was so loud that you could tell the direction. It was duly noted in daily notes and next morning when the supervisor was asked the commented that this is common occurrence and don't worry about it.
+I just called him and asked for a little more information about the particular bridge. He said the type was listed as modified truss and had both bolts and rivets. They biggest problem the found was loose bolts and the normal paint problems. There had been some remedial work on the bridge. He also stated that it wasn't unusual for comment lines to be taken from the daily's.
+6 Aug 07 14:54
+Here is the whole quote regarding the wobbling:
+"Some workers said that the bridge had been wobbling unusually in the days before the collapse. With every layer of concrete that they removed, the bridge would wobble even more," the paper says, citing reports from Minneapolis police Sgt. Tim Hoeppner.
+From this USA Today photo, it appears that two lanes had the deck surface partially removed for the entire length of the entire bridge.
+It is too big of a coincidence that the construction was ongoing when the bridge collapsed. What about the effect of too much weight on a bridge deck with a surface that was partially removed?
+MacGyverS2000 (Electrical)
+6 Aug 07 15:04
+Just a WAG here... if the "wobbling" increased with each removed layer, could the weight of the concrete been a dampening force for any short-term catastrophic oscillations (rather than an overweight condition)?
+Dan - Owner
+bridgebuster (Civil)
+6 Aug 07 15:13
+darkwing88 - look at Page 1-2 of the URS report, which shows the elevation of the bridge. I think we're having a terminology problem.
+The first panel for each of the truss spans extends (or cantilevers)from the pier. (The diagonal member from the pier could be called a strut and the upper truss chord could be called a tie.) The far end of each  of these panels forms a hinge with the girder approach spans.
+unclesyd - A loaded concrete truck is probably 32 to 36 tons.  Two lanes in each direction were closed and on some newscasts there was talk about the unbalanced traffic loading. I doubt that this caused the collapse. For example, if just the two outer lanes in one direction were fully loaded (assuming AASHTO lane load)there would be a LIVE LOAD uplift on the opposite truss. However, the dead load would counter the uplift.
+From the aerial pictures it wasn't bumper-to-bumper trucks.
+darkwing88 (Structural)
+6 Aug 07 15:20
+jike: Currently doing substantial retrofit projects for heavy mining equipment, lifting a structure weighing 500 tons and carrying it 2 miles is a regular occurrence.  The total steel weight of Bridge 9340 is about 5000 tons.  Let's say the concrete also weighs 5000 tons.  That equals 10000 tons spread over 4 piers or 8 bearings.  So they would have to lift a maximum dead weight of about 1500 tons.  That doesn't seem to be excessive.  Bearing replacement should be easily done in a week with proper design and planning.
+We return to the gutless bureaucrats and politics...
+jike (Structural)
+6 Aug 07 15:24
+It is possible that the construction on the bridge may have been the straw that broke the camel's back.
+Perhaps the deck may have been carrying the build up of thermal stresses and when the deck was partially removed those stresses had to go somewhere (top chords of the trusses). Vibration may have also triggered the release of some of these built up thermal stresses.
+This, of course, is all speculation and needs to be proven by the investigators.  
+Does someone know if there was a horizontal truss between the top chords of the main carrying trusses?
+darkwing88 (Structural)
+6 Aug 07 15:36
+jike: The bridge as k-truss configuration between top chords.  I think they called them sway trusses in the URS report.
+bimr (Civil/Environmental)
+6 Aug 07 15:44

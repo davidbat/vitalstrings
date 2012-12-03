@@ -1,0 +1,67 @@
+When you configure a host for sub-subnetting, you are primarily concerned      about the host address, but some understanding of the network address and      subnet address is useful.
+Network Address
+Cornell has four addresses for its backbone networks. They are 128.253.0.0,        128.84.0.0, 132.236.0.0, and 140.251.0.0. The latter is used only by        the Cornell University College. These addresses are assigned to Cornell.        Cornell cannot change the first two parts of each address, but is free to        use the last two parts in any way it chooses in order to identify Local        Area Networks (subnets) and hosts that are connected to the campus Internet.
+Subnet Address
+The subnet address is the address given to your Local Area Network (LAN).        Cornell's system provides for 254 LANs connected to each of the main networks.        So, for example, if your LAN is identified on the network as 128.253.0.0,        a possible subnet addresses (or LAN address) might be 128.253.21.0. The        third number, 21, identifies the subnet.
+Host Address
+The host address is the address given to the workstation, other computer,        or device that is connected to the LAN. Cornell's system provides for 256        host addresses on each LAN. So, for example, if your host is identified        on the LAN as 128.253.21.0 a possible host address is 128.253.21.58. The        last number, 58, identifies the host.
+Not all 256 numbers are available as host addresses on any given LAN.        Zero (0) and 255 are reserved for broadcast purposes. (Hosts are set up        to "grab" any message marked with their own address or a broadcast        address; for example, if your host address is 128.253.21.58 and it "sees" a message addressed to 128.253.21.255, it will grab the message. In this        way, hosts can send messages to large groups without having to know each        address on their LAN.)
+One (1) is reserved for the gateway/router that sits between the LAN and        next network level. The numbers 2-5 are reserved by CIT for diagnostic and        management use.
+ 
+This addressing scheme has worked well for Cornell, but it has some limitations:
+Each of Cornell's fiber backbones can have no more than 256 LANs attached        to them.
+Each LAN can have no more than 256 (249 if reserved addresses are taken        into account) hosts. Most LANs are constructed with far fewer than the maximum        number of hosts addresses available.
+Ethernet LANs performance is reduced with a large number (100 or more)        of connections. Performance is most affected by how people are using the        LAN: a small number of heavy users can bog down the performance of any LAN.        Therefore, the limitations on the number of host addresses hasn't been and        isn't expected to be a problem for most LANs at Cornell.
+To make room for additional subnet addresses, or LANs, CIT has used a system      called sub-subnetting. With this system, up to four LANs can use one full      subnet address, thus effectively quadrupling the number of subnet addresses      available.
+ 
+How Does Sub-Subnetting Work?
+Subnetting
+Each subnet address at Cornell is assigned a "subnet mask." A      subnet mask defines how many bits are used for the network address and how      many for the host address.
+The subnet mask address is 255.255.255.0, and it currently is the same for      all LANs. If you convert the subnet mask address to its binary form, it looks      like this:
+Subnet mask: 11111111 11111111 11111111 00000000
+If you convert our example host address (128.253.21.58) to its binary form,      it looks like this:
+Host address: 10000000 11111101 00010101 00111010
+Together they look like this:
+Subnet mask: 11111111 11111111 11111111 00000000
+Host address: 10000000 11111101 00010101 00111010
+The subnet mask when shown this way, as an overlay on the host address,      essentially tells the computer which part of the IP address is a network address      and which part is a host address. Everything in the host address that corresponds      to a 1 in the subnet mask is a network address and everything in the host      address that corresponds to a 0 in the subnet mask is a host address.
+Sub-subnetting
+Many LANs at Cornell are sub-subnetted.
+Sub-subnetting is based on the same concept as subnetting. With sub-subnetting,      the mask will be 255.255.255.192. In binary form, this address looks like      this:
+Sub-subnet mask: 11111111 11111111 11111111 11000000
+When you compare the sub-subnet mask to the example IP host address (128.253.21.58),      they look like this:
+Sub-subnet mask: 11111111 11111111 11111111 11000000
+Host address: 10000000 11111101 00010101 00111010
+Like the old subnet mask, the sub-subnet mask tells the computer which part      of the IP address is the network address and which part is a host address.      As explained above, everything in the host address that corresponds to a "1" in the sub-subnet mask is a network address and everything in the host address      that corresponds to a 0 in the sub-subnet mask is a host address.
+As you can see, there are now ones (1's) in the last byte of the sub-subnet      mask. (This is the part, in the subnet mask, that was all zeros (0's) and      that identified the host portion of an address.) The ones (1's) that appear      in this byte of the sub-subnet mask identify the first two bits of the last      byte of an IP address as part of the network portion of the address. The remaining      zeros (0's) identify the host portion of the address. By increasing the number      of bits assigned to network addressing, the number of possible network addresses      increases and the number of possible host addresses for each LAN decreases.
+Why is this important?
+Gateways need to forward packets to other gateways to get them to the destination      LAN. Each network interface card on the gateway is assigned an IP address      and a sub-subnet mask. This enables the gateways to route packets from one      LAN to another LAN. Once the packet arrives at a gateway that is attached      to the destination LAN, the gateway then uses the two bits of the sub-subnet      portion of the IP address (the first two bits of the last byte of the IP address)      to decide to which sub-subnetted LAN to send the packet.
+In order for this to work, each of the LANs connected to a given gateway      must have a different set of host addresses. As you know, the host address      you assign, for example 58, is translated into a binary address (00111010).      Remember, even though you think of this as a host address, the sub-subnet      mask forces the gateway to think of the first two bits as part of the network      address. If two LANs attached to the same gateway each have hosts with an      address of 58, the first two bits in the binary translation will be the same,      and even though the hosts are physically on two separate LANs, the gateway      won't know to which LAN to send a packet.
+To make sure each LAN has a unique set of host addresses, network administrators      can no longer assign host numbers from the entire range. Now, each administrator      will be assigned a subset of the host addresses available. Within each subset,      broadcast, gateway, and diagnostic addresses must be reserved. So, for example,      Administrator X can have server addresses at 6 through 9 and workstation addresses      at 10 through 63; Administrator Y can have server addresses at 70 through      73 and workstation addresses 74 through 126, etc. If your current host addresses      fall outside the range assigned to your LAN, you need to reassign host addresses      on your network.
+ 
+Understanding Static vs. Dynamic Addressing
+If you use static addressing on your network, this means you assign each      host a permanent IP address. If you use dynamic addressing, the hosts use      any available address within a range you specify. The information below explains      some of the advantages and disadvantages of static and dynamic addressing.
+Before you begin reconfiguring your applications, you should decide which      scheme you plan to use: static, dynamic, or a combination. CIT recommends      that you use static addressing; it helps you, as the network administrator,      keep track of machines and figure out which one is causing problems. Some      network applications require static addressing.
+If you want to consider dynamic addressing because it is easier to set up,      CIT advises that you limit the range for dynamically assigned addresses to      start at 21, thus leaving 6-20 reserved for hosts that need fixed addresses      because they will offer IP services. If you think you will have more than      15 IP server hosts, you should raise the start point for dynamically assigned      addresses.
+ 
+Changing the UNIX Operating System to Work with Sub-subnetting
+Because UNIX has TCP/IP protocols built into the operating system, you can      alter the configuration of the operating system itself instead of the applications      that run on it. Follow these instructions:
+Go to the interface configuration command, called ifconfig, in your startup        script. Most UNIX startup scripts are called /etc/rc/local. You will see        a line that looks like this:
+ifconfig le0 $hostname netmask 255.255.255.0 broadcast 128.253.180.255        -trailers up
+Change the value of the netmask to 255.255.255.192.
+Note: ifconfig also accepts netmask values in hexadecimal notation. Therefore        you may see 0xffffff00 as the value of the netmask. If this is the case,        change the value to 0xffffffc0.
+Change the host portion of the broadcast address to one of the following          values, depending on the sub-subnet your host is in:
+If the host's IP address is between 1 and 64, use 63.
+If the host's IP address is between 65 and 128, use 127.
+If the host's IP address is between 129 and 192, use 191.
+If the host's IP address is between 193 and 256, use 255.
+If your IP address is between 1 and 64, on subnet 180, your ifconfig command        would look like this:
+ifconfig le0 $hostname netmask 255.255.255.192 broadcast 128.253.180.63        -trailers up
+If you use static routing, you need to change your default gateway. For        example:
+route add default 128.253.180.1 1
+ 
+Host Registration
+Network administrators are strongly encouraged to register all devices on      their networks (desktop workstations, servers, printers, etc.) with the Network      Operations Center (NOC). Visit the Network     and Host Registration web site for more information.
+ 
+Last updated: January 17, 2002
+In this section

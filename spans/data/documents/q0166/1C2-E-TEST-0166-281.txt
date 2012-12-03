@@ -1,0 +1,12 @@
+Best Answer - Chosen by Voters
+*Read carefully:
+"Bar numbers are based on the number of 1/8 inches included in the nominal diameter of the bar. The nominal diameter of a deformed bar is equivalent to the diameter of a plain bar having the same weight per foot as the deformed bar."
+So, if 16mm is a nominal diameter,then you can directly use the formula given by the 1st answerer.
+Weight of a bar
+= [pi * Diameter^2 / 4 ]* Length*Density of Bar
+=[3.14*16/1000 ] / 4 * 165/1000 * Density of Bar
+=0.0000331584 * Density of Bar
+=0.260625024 kg for 165 mm length of re-bar.
+=1.5795456 kg/meter of re-bar.
+You can cross-check your answer in the link given below.
+Go through the following link for basic information regarding Rebar:

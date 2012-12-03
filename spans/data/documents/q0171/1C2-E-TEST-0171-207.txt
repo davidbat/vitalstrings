@@ -1,0 +1,9 @@
+Jump to: navigation , search
+An IP address (Internet Protocol address) is a set of numbers used within the TCP/IP network protocol to identify a particular connection on a network (such as the internet). Addresses within IPv4 , the current standard, consist of 4 bytes expressed in decimal and separated by a period, e.g. 192.168.0.1. IPv6 addresses are somewhat more complicated.
+[ edit ] Special Addresses
+Certain addresses within IPv4 are reserved for particular uses, and are treated differently. Some of the most commonly-used reserved addresses are:
+127.0.0.1
+localhost (i.e. the machine issuing the request)
+192.168.x.x
+internal addresses for Network Address Translation
+255.255.255.255

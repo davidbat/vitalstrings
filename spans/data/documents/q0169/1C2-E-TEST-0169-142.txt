@@ -1,0 +1,17 @@
+Importing sparse matrices
+Sparse Matrix Storage
+For full matrices, MATLAB stores internally every matrix element. Zero-valued elements require the same amount of storage space as any other matrix element. For sparse matrices, however, MATLAB stores only the nonzero elements and their indices. For large matrices with a high percentage of zero-valued elements, this scheme significantly reduces the amount of memory required for data storage.
+MATLAB uses a compressed column, or Harwell-Boeing, format for storing matrices. This method uses three arrays internally to store sparse matrices with real elements. Consider an m-by-n sparse matrix with nnz nonzero entries stored in arrays of length nzmax:
+The first array contains all the nonzero elements of the array in floating-point format. The length of this array is equal to nzmax.
+The second array contains the corresponding integer row indices for the nonzero elements stored in the first nnz entries. This array also has length equal to nzmax.
+The third array contains n integer pointers to the start of each column in the other arrays and an additional pointer that marks the end of those arrays. The length of the third array is n+1.
+This matrix requires storage for nzmax floating-point numbers and nzmax+n+1 integers. At 8 bytes per floating-point number and 4 bytes per integer, the total number of bytes required to store a sparse matrix is
+8*nzmax + 4*(nzmax+n+1)
+Note that the storage requirement depends upon nzmax and the number of columns, n. The memory required to store a sparse matrix containing a large number of rows but having few columns is much less that the memory required to store the transpose of this matrix:
+S1 = spalloc(2^20,2,1); S2 = spalloc(2,2^20,1); whos Name      Size                 Bytes  Class S1        1048576x2               24  double array (sparse) S2        2x1048576          4194320  double array (sparse) Grand total is 2 elements using 4194344 bytes
+Sparse matrices with complex elements are also possible. In this case, MATLAB uses a fourth array with nnz floating-point elements to store the imaginary parts of the nonzero elements. An element is considered nonzero if either its real or imaginary part is nonzero.
+General Storage Information
+The whos command provides high-level information about matrix storage, including size and storage class. For example, this whos listing shows information about sparse and full versions of the same matrix.
+whos Name           Size         Bytes  Class M_full      1100x1100     9680000  double array M_sparse    1100x1100        4404  sparse array Grand total is 1210000 elements using 9684404 bytes
+Notice that the number of bytes used is much less in the sparse case, because zero-valued elements are not stored. In this case, the density of the sparse matrix is 4404/9680000, or approximately .00045%.
+ 

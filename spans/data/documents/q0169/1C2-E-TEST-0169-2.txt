@@ -1,0 +1,15 @@
+MathWorld Contributors  >  Davis, Tim  >
+Sparse Matrix
+A sparse matrix is a matrix that allows special techniques to take advantage of the large number of zero elements. This definition helps to define "how many" zeros a matrix needs in order to be "sparse." The answer is that it depends  on what the structure of the matrix is, and what you want to do with it. For example,  a randomly generated sparse
+matrix  with
+entries scattered randomly throughout  the matrix is not sparse in the sense of Wilkinson (for direct methods) since it  takes
+time to factorize (with high probability  and for large enough
+; Gilbert et al. 1992).
+This entry contributed by Tim Davis
+REFERENCES:
+Gilbert, J. R; Moler, C.; and Schreiber, R. "Sparse Matrices in MATLAB: Design and Implementation." SIAM J. Matrix Anal. Appl. 13, 333-356,  1992.
+Press, W. H.; Flannery, B. P.; Teukolsky, S. A.; and Vetterling, W. T. "Sparse Linear Systems." §2.7 in Numerical  Recipes in FORTRAN: The Art of Scientific Computing, 2nd ed. Cambridge, England:  Cambridge University Press, pp. 63-82, 1992.
+Referenced on Wolfram|Alpha: Sparse Matrix
+CITE THIS AS:
+Davis, Tim . "Sparse Matrix." From MathWorld --A Wolfram Web Resource, created by Eric  W. Weisstein . http://mathworld.wolfram.com/SparseMatrix.html
+Wolfram Web Resources

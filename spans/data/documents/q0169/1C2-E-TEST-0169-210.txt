@@ -1,0 +1,15 @@
+Description
+Sparse matrix tools.
+This is a home for sparse matrix code in Python that plays well with scipy.sparse, but that is somehow unsuitable for inclusion in scipy proper. Usually this will be because it is released under the GPL.
+So far we have a wrapper for the CHOLMOD library for sparse cholesky decomposition. Further contributions are welcome!
+Installation
+You can download the latest distribution from PyPI here: http://pypi.python.org/pypi/scikits.sparse
+Easy Install
+Install the Easy Install tools. Afterwards you can install scikits.sparse from the terminal by executing:
+sudo easy_install scikits.sparse
+If you prefer to do a local installation, specify an installation prefix:
+easy_install --prefix=${HOME} scikits.sparse
+and ensure that your PYTHONPATH is up to date, e.g.:
+export PYTHONPATH=$PYTHONPATH:${HOME}/lib/python2.5/site-packages
+This package was discovered in PyPI.
+See the source . Created page in 0.034 seconds. Sign in

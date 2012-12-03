@@ -1,0 +1,27 @@
+ 
+How to Find an IP Address
+Have you ever wondered 'What is my IP address'? Read on to know more about IP addresses and IP address detecting methods...
+An IP (Internet Protocol) address is a unique address which electronic devices use to identify and communicate with each other on a computer network. This address is determined by using the IP (Internet Protocol) standard. In simpler terms, the IP address is your computer's address on the Internet. Hence, this IP address is unique to each device.
+Apart from computers, the devices which can have their unique IP address include routers, switches, infrastructure servers, printers, Internet fax machines and even some telephones.
+IP addresses are assigned and managed by the IANA (Internet Assigned Numbers Authority). The IANA allocates blocks of IP addresses to any of the 4 regional Internet registries (ARIN, RIPE NCC, APNIC and LACNIC) who then assign smaller blocks of IP addresses to Internet Service Providers and enterprises.
+A typical IP address consists of 32 bit or 4 byte addresses and are usually represented by four numbers (each ranging from 0 to 255) and separated by a dot. For example, an IP address would look like '192.135.67.201'. Each range of numbers between 0 to 255 usually can be represented by 8 bits, and so it is also referred to as an 'Octet'.
+However, the limitation of this version is that the number of IP addresses is limited to 4,294,967,296 possibilities. So a new classless scheme of IP address assignment called CIDR is replacing this method. This method is also tied into the next version (IPv6) of IP addresses.
+The new version of IP addresses would be 128 bits or 16 bytes wide, which will enable an enormous magnitude of addresses to become available to computers on the Internet.
+Types
+There are two types of IP addresses: Static and Dynamic. When the IP address of a computer remains the same every time it connects to the network, then it is called a Static. However, when the IP address of a computer changes every time it connects to the network, it is referred to as dynamic.
+What is my IP address?
+By now you must be curiously wanting to find out your own IP address. Well, it is not that difficult to find out your IP address. However the methods differ from situation to situation. Here are some simple methods to find IP address of your computer when on the Internet, when using a Macintosh computer, or when using a Windows computer, and even how to detect IP address of a received e-mail.
+When on the Internet
+There are a variety of websites on the Internet which can and do detect IP address of the computer when connected to the Internet. However, if you are on a LAN or a home network, then these websites may just be detecting the network router IP address.
+When using a Macintosh Computer
+On a Mac, the IP address is found in the TCP/IP control panel, while on a Mac OS X computer, the IP address is found in System Preferences, in the section 'Internet and Network'.
+When using a Windows Computer
+If you want to find an IP address of your computer (if you are running Windows) then the process is quite simple:
+Click on the 'Start' menu button on the Windows taskbar.
+Click 'Run'.
+In the text box, type 'cmd'. This will launch a command prompt menu.
+In this menu, type 'ipconfig/all'.
+You will find your computer's IP address in the IP address field.
+Detect IP address in received e-mail
+If you want to detect IP address of the computer from which you have received an e-mail, you can find it in the e-mail header. Usually, this information is disabled from viewing. If you click on 'Show Headers' while viewing your e-mail on the Internet, you will be able to see the IP address of the computer from where the e-mail was sent.
+IP addresses are also useful for detecting and solving cyber crimes and Internet based frauds and thefts such as phishing. They are also useful to track down spam or unsolicited e-mail, or when you have received malicious e-mails or e-mail threats and viruses via e-mail.

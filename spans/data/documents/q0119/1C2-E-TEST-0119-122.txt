@@ -1,0 +1,20 @@
+iOS: Unable to send or receive email
+iOS: Unable to send or receive email
+Products Affected
+iPad, iPhone, iPod touch
+Symptoms
+This article explains what to do if you are experiencing issues sending or receiving email on your iPhone, iPad, or iPod touch.
+Resolution
+If you need help setting up or troubleshooting mail on your iOS device, please visit the Mail assistant for your iPhone , iPad , or iPod touch .
+If you are unable to send or receive email, try the following steps:
+Tap Safari and attempt to load a webpage to ensure that the device has Internet access. If you're unable to load a webpage,  try the Wi-Fi assistant .
+Try an alternative Internet connection.
+If your email is provided by your Internet provider, try connecting from the home network.
+If your iOS device has an active cellular data plan, try to disable Wi-Fi:  Tap Settings > Wi-Fi and turn off Wi-Fi.
+If not, try an different Wi-Fi network. 
+Delete the account from  Settings > Mail, Contacts, Calendars  and then add the email account again on the iOS device.  
+Log in to your email provider's website to ensure that the account is active and the password is correct.
+If you're still unable to send or receive email, contact your email provider and verify the account settings are correct. You will need to gather this information (PDF) .
+Additional Information
+Using more than one device to check the same POP email account may create a lock-out issue that is easily resolved.
+Rate this article:

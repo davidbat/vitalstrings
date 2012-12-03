@@ -1,0 +1,37 @@
+RADIATION AND THE EARTH-ATMOSPHERE SYSTEM - "WHY IS THE SKY BLUE"?
+RADIATION AND THE EARTH-ATMOSPHERE SYSTEM
+"WHY IS THE SKY BLUE?"
+Absorption
+The absorptivity of the atmosphere varies from wavelength to wavelength. Certain wavelengths are readily absorbed while others transverse the atmosphere with relatively little change. It is the individual air molecules that absorb the radiation.
+Ultraviolet is absorbed very effectively by atmospheric oxygen and ozone among others. Less than 2% of the incoming ultraviolet energy penetrates the whole atmosphere.
+The two most important absorbers of infrared radiation are water vapor and carbon dioxide. These are the primary gasses in the  phenomenon known as the Greenhouse Effect.
+On the other extreme, visible light is not significantly affected by absorption, therefore it is known as an atmospheric window. An atmospheic window is a part of the electromagnetic spectrum that is not absorbed.
+One other note of importance is to realize that the atmosphere can absorb radiation as it comes from the sun and as it leaves the earth. Remember that the majority of incoming radiation is in the visible spectrum while outgoing radiation is primarily infrared.
+Reflection
+In the atmosphere, dust and clouds are the two most important reflectors of radiation. Even though clouds are poor absorbers, depending on their size and drop-size distribution, they can reflect up to 70% of the incoming radiation. In fact, on a global average, clouds reflect 20% of the incoming radiation. This means that clouds represent 2/3 of the earth's albedo. Albedo is the percentage of radiation reflected. The earth's albedo is 30.
+In addition to dust and clouds, the earth's surface can also reflect radiation. Snow, ice and light colored objects have high albedos while forests, blacktop and dark colored objects have low albedos. Water generally has a very low albedo if the sun is near its zenith (directly overhead), but will reflect almost all radiation if the sun is at low angles to the water.
+Scattering
+As light enters the atmosphere, it will encounter particulate matter such as dust, and other aerosols, cloud droplets, and other objects that will alter the course of the incoming radiation. Loosely defined, scattering is the changing of direction of radiation. In this sense, reflection is just scattering in the reverse direction. In addition to the objects that scatter listed above, air molecules cause radiation to scatter as well. In fact, it is the presence of the air that causes the sky to be blue.
+In order to describe scattering, we must first develop a relationship between the wavelength of the radiation in question and the size of the particle which will be the scatterer. We will define a size parameter,
+where 2
+is the cross-sectional circumference.
+Case 1:
+> 50 This would mean that the scatterer is much larger than the wavelength of the radiation. Remembering that most of the incoming radiation is on the order between .01 µm and 15 µm, this would be the case for radiation striking dust and more importantly, cloud droplets. This type of scattering is called geometric optics. With geometric optics, it is assumed that the scattering object is so large that it is seen as a plane and that it will "reflect" in a way that the angle of incidence is equal to the angle of refraction. Thus, to say that clouds are good reflectors is really to say that clouds backscatter effectively. (One can imagine that we are so small compared to the earth, the earth seems flat.)
+Case 2:
+_ 1 When light intercepts an object whose size is on the order of its own wavelength, the scattering process becomes very involved. This is part of the regime known as Mie scattering.
+The physics become too involved for discussion on the introductory level.
+Case 3:
+<< 1 In this case, the type of scattering is named Rayleigh scattering and is actually a speciallized case of Mie scattering. Rayleigh scattering is important when discussing how air molecules scatter light. It was shown by that light will scatter according to the relation
+QS = constant·
+which says that the scattering efficiency of light is proportional to
+to the fourth power. Unfortunately,
+depends on two variables. This problem is easily solved if we consider the variations in the size of the air molecules to be slight. We can then assume that the circumference of the air molecule does not vary, or rather that it is a constant. Therefore,
+QS = constant·(1/
+4),
+saying that the scattering efficiency is inversely proportional to the wavelenghth to the fourth power. This in turn means that the smaller the wavelength of radiation, the more the scattering that will occur.
+Why the sky is blue?
+I first want to compare the scattering of blue light to that of red light. This means that I am looking for a ratio of
+QS(blue)/QS(red)?
+Recalling that a typical wavelength of blue light is .47µm and for red it is .64µm, we can solve the above equation to find the answer of 3.5.This translates to mean that blue light scatters 3.5 times more efficiently than red light, which is the principle reason that the sky is blue. However, keeping in mind that the shorter the wavelength the better it will scatter, why isn't the sky violet? The answer is three-fold. First of all, there is more blue than violet in sunlight; second, our eyes are more sensitive to blue than to violet; and third and most important is the fact that all of the colors scatter somewhat. What we see is actually a combination of of all the colors blended together, in varying amounts, known as "sky blue". It is that color which is directed toward our eyes after being scattered several times by the molecules of air.
+Why the sun is red at sunset.
+At sunset, the sun's rays are penetrating a thicker slice of the atmosphere allowing more time for the rest of the colors to scatter "out" of the sun. Red light scatters the least and consequently, it is the only color that remains to make the sun visible.

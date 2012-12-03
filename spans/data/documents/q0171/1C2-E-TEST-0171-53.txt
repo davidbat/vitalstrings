@@ -1,0 +1,6 @@
+source: 2.bp.blogspot.com
+How I can know any Domain's Ip from my computer?
+That's so easy... You can learn any domain's Ip from your computer. Here I am saying about windows platfrom if you use other system no worry, may be little difference.. First open your command prompt window. We can see this window above. Then type "ping" that is a command to ping. It usually used to check networking connection.Then use a space. (only one space) After that write the domain name which Ip you want to know. Then press enter, so that you can give this command. After pressing enter you will see a window which is contains Ip of this Domain just like above.
+Here is an example: ping www.mahalo.com then press enter then you will see a reply like above. Reply from --.---.--.---: bytes=32....... This dashes are ip of this domain.
+Now try in your computer, if any trouble of any unclear matter please put a question in my page...I will answer as soon as I view it.
+IP Address Answers

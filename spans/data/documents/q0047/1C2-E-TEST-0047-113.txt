@@ -1,0 +1,4 @@
+Tweet
+Copy this code to embed a widget:
+<div id="spoke-root"></div> <script>(function(d, s, id) { var js, sjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.spoke.com/javascripts/widget.js"; sjs.parentNode.insertBefore(js, sjs); }(document, 'script', 'spoke-widget-js'));</script> <div class="spoke-widget" data-host="//www.spoke.com" data-type="person" data-id="3e1429c09e597c10043fbe41" data-width="404" data-height="230"></div> <div style="font-size: 9pt;"><a href="http://www.spoke.com/people/tom-corbett-3e1429c09e597c10043fbe41">Tom Corbett</a> widget provided by <a href="http://www.spoke.com">Spoke</a></div>
+ 

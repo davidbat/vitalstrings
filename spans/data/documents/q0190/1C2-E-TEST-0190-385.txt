@@ -1,0 +1,35 @@
+Full on-line documentation for installation and use
+ 
+Worldwide - Permanent
+     Fed up with spending a fortune on Tide Tables? Need the tides for your landfall? Ever tried buying tables for Canada or the U.S. when you're in the Caribbean getting ready to sail North? Ever wondered why there isn't one set of tables for the whole of the English Channel or the whole of the Eastern American seaboard?
+     Here's some tidal prediction software that covers the world and is valid forever!
+ 
+     The "Monthly Screen" here gives a graphical representation of the range of highs and lows throughout the period with the springs and neaps appearing clearly. The Table scrolls for the month, and will print out hard copy on registered copies. See also the Daily screen
+     If you don't have a computer on board, print out the Tables in your home or office before you go sailing!
+New up to Version 2.32
+Validity: Permanent, within limits of astronomical data
+Geography: over 800 ports worldwide
+Languages: English, français, Español
+Help: on screen in your choice of language
+Colour or Black and white screen (may be more visible on some LCD's)
+Uses J2000 for latest astronomical data
+Calendar: converts Julian/Gregorian as needed for historical research
+Probable accuracy: average < 10mins / 10cm
+Search capability: by Name, by Latitude or by Longitude
+Latest update: 2 January, 1998, Version 2.28 (NT and European DOS compatibility
+Version 2.28 also added several "print to file" routines (registered versions only)
+Version 2.29 15 Jan 2000 included an extra "Lows only" print routine
+Version 2.30 28 September 2000 fixed a menu overlay problem, cosmetic only
+Version 2.31 25 June 2001 fixed a rarely occurring error in the astronomical calculations
+Version 2.32 1 December 2002 refined the mathematics around tidal stands
+Note: Shipping Companies and other maritime users should contact us about version 3.x which is custom only and NOT available on this site for evaluation. Version 3.x contains new algorithms for 37 constituents; satellite, non-nodal correction; other changes for faster access and more precise results including double high/lows; data records adapted to binary from the International Hydrographic Organization, Monaco or national authority after suitable user licensing; new Astronomical and Data Management utilities included; possible use for navigation with approval of Flag country's Shipping Authority.
+Full on-line documentation for installation and use is available.
+Installation
+     Unzip TIDE232N to a new directory and run TIDES.BAT - not the .exe file. Please do not edit any files, they are verified during runtime and the programme will stop functioning or become inaccurate and unreliable.
+IMPORTANT: This is a DOS utility. It is fully functional under Windows 3.x, 95, 98, XP and NT( Microsoft). We recommend following our Tech Note T11-97 for installation under Win95 to prevent screen problems when using some older video drivers. Testing under NT4 (Service Pack 3) and OS/2 has been carried out successfully.
+UPGRADE: Registered users may just overwrite existing files.
+HELP: Is available (F1) on screen when the programme is running. We strongly recommend reading the section pertaining to accuracy, BUT PLEASE READ the Licence Agreement . WE ARE NOT RESPONSIBLE FOR ERRORS, PARTICULARLY IN DATA.
+ 
+Download the software
+We have regrouped all our downloads here.
+      Please note that our server gets extremely busy particularly in the evenings. If you experience difficulties downloading, please e-mail us and we will attach the ZIP file to our reply.

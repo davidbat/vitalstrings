@@ -1,0 +1,34 @@
+PSBLAS Team
+Overview
+Grand challenges and most of the actual applications that do require a parallel solution are characterized by an irregular and sparse domain of computation. The complexity of their implementation on parallel machines is one of the main reasons of the still limited diffusion of these architectures.  Parallel Sparse BLAS (PSBLAS) is a library of Basic Linear Algebra  Subroutines for parallel sparse applications that  facilitates the porting of complex computations on multicomputers. The project has been prompted by the appearance of a proposal for serial sparse BLAS that are flexible and powerful enough to be used as the building blocks of more complex applications, especially on parallel machines. The PSBLAS library  includes routines for multiplying sparse matrices by dense matrices, solving sparse triangular systems, preprocessing sparse matrices and additional routines for dense matrix operations.  The PSBLAS interface aims at the maximal flexibility with respect to the data distribution strategy. PSBLAS  supports totally arbitrary data distributions under the control of the user. Moreover, it has also some predefined distributions that are popular choices for ScaLAPACK and HPF users.   The PSBLAS library is internally implemented in Fortran 95 with some additions  of Fortran 77 and C. The interface is in  Fortran 95. This choice for the interface should be at the right level of  abstraction for the target applications of PSBLAS, and allows the use of advanced features, such as operator overloading and derived data type definition in the presentation. Moreover, the Fortran 95 facilities for dynamic memory management greatly enhance the usability of the PSBLAS subroutines. In this way, the library can take care of runtime memory requirements that can be quite difficult or even impossible to predict at implementation or compilation time.  Sparse iterative solvers are employed in many software systems covering a broad area of applications, such as the simulation of internal combustion engines, oil reservoirs, semiconductor devices, structural analysis, electromagnetic scattering.  Users interested in complex simulations requiring a very large number of degrees of freedom should find PSBLAS quite attractive.  Our own experience has been mainly in applying the PSBLAS solvers to computational fluid dynamics applications. As a typical case, a complete simulation of an automobile engine can easily scale up to a few millions of variables.
+Perspectives
+One of the main design and implementation goals was to provide a  flexible framework and library that could  easily sustain further developments.
+We are working towards the integration of the PSBLAS library with supports for parallel applications that require dynamic mesh grid refinements.
+We are packaging  a new set of preconditioners called MLD2P4: Multilevel Domain Decomposition Parallel Preconditioners Package based on PSBLAS.  The MLD2P4 software is available from the web page www.mld2p4.it
+Selected Publications
+Presentation of PSBLAS and MLD2P4 libraries:   psblas_pres.pdf (1360 Kb)
+S. Filippone, M. Colajanni, D. Pascucci, "An object-oriented  environment for sparse parallel computation on adaptive grids",  in Proc. of 13th International Parallel Processing Symposium (IEEE IPPS/SPDP'99), San Juan, Puerto Rico, April 1999.
+Extended version: [.ps.gz] (255 Kb) [.ps] (1044 Kb)
+S. Filippone, M. Colajanni, "PSBLAS: A library for    parallel linear algebra computation on sparse matrices", ACM Trans. on Math. Software, Vol. 26, No. 4, Dec. 2000, pp. 527-550.
+A. Buttari, S. Filippone, "Mixed Mode Programming for  Sparse Linear Algebra ", Technical Report, Dep. Computer Science, University of Rome Tor Vergata [pdf]
+S. Filippone, A. Buttari, G. Bella, A. De Maio, "On the Influence of Linear Solvers in Fluid Dynamics Codes", ISCS Annual Conference, Cefalù, Sicily, November 2003
+A. Buttari, P. D'Ambra, D. di Serafino, and S. Filippone.   Extending psblas to build parallel Schwarz preconditioners.   In Springer, editor, Applied Parallel Computing. State of the Art in Scientific Computing: 7th International Conference, PARA 2004, Proceedings,   volume 3732 of
+Lecture Notes in Computer Science
+, pages 593-602,   2006
+A. Buttari, P.DAmbra, D. di Serafino, and S. Filippone.  2LEVDD-PSBLAS: a package of high-performance preconditioners for scientific and engineering applications. Applicable Algebra in Engineering, Communication and computing, Special Issue on Computational Linear Algebra and Sparse Matrix Computations. Published online: Feb. 2007 doi
+D. di Serafino, P. D'Ambra, S. Filippone. On the Development of PSBLAS-based Parallel Two-level Schwarz Preconditioners. Applied Numerical Mathematics published online Feb. 2007, doi
+P. D'Ambra, S. Filippone,  D. di Serafino MLD2P4: A Package of Parallel Algebraic  Multilevel Domain Decomposition  Preconditioners in Fortran 95 ACM Trans. Math. Softw., Vol 37, No. 3, Sep. 2010 doi
+ACM Trans. on Mathematical Software
+,  Vo. 38, No. 4.
+Davide Barbieri, Valeria Cardellini, Salvatore Filippone and   Damian Rouson Design Patterns for Scientific Computations on Sparse Matrices M. Alexander et al. (Eds.): Euro-Par 2011 Workshops, Part I, LNCS 7155, pp. 367--376. Springer, Heidelberg (2012)
+PSBLAS Software
+(version 3.0):   psblas-3.0-1.tgz
+This is release 3.0-1, the  Fortran 2003 version.
+The PSBLAS library has been tested on many Linux clusters with a variety of compilers, and on the IBM SP with XLC and XLF compilers; see the README file for further details. Our reference compiler is currently  GNU Fortran compiler 4.7.
+The sister package MLD2P4 is also moving towards its 2.0 release; experimental versions at the MLD2P4 web site.
+Users of MLD2P4 1.2.1 can use either version 2.4.0 or 2.3.4; when  upgrading from 2.3 to 2.4 they should do a make clean in the main MLD   directory and rerun the configure script.
+Users of MLD2P4 1.2 will need  to apply the following  patch: mld2p4-1.2-p1.tgz ; do a make  clean in the main MLD source directory, unpack there this file,  reconfigure to point to the new version of PSBLAS, and recompile. No  changes are needed in application source code.
+The tar files do not include the BLAS and METIS libraries, which can be obtained from their respective URLs. For the BLAS, if you do not have a vendor version, consider using ATLAS
+Older versions
+(version 2.4.0-4):   psblas-2.4.0-4.tgz
+The  2.4.0 version eliminates the dependency on the BLACS. The "-4"  update fixes some minor bugs (build problems and a bug only surfacing  with certain runtime check options).

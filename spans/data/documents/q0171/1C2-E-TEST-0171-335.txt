@@ -1,0 +1,23 @@
+Change IP Address in Mozilla Firefox
+A "how to" provided by iPrivacyTools.com
+Mozilla Firefox is probably the safest and most versatile web browser            that you can use for surfing the Internet. However, there will be times            when being able to change your IP address in Firefox will make it even            safer from a privacy standpoint. For example, some forums and bulletin            boards display a user's IP for public view when you post a message;            Not exactly the kind of information you want everyone to know. Between            entrepreneurs, travelers, and everyone else, there are numerous other reasons as well.
+Below you'll learn how to change IP address in Firefox by using a special            type of Internet server known as a proxy. Access to these server is            available on both free and paid systems. We'll discuss those differences            in this article as well.
+STEP #1 to change IP address in Firefox
+Go to your Firefox's dropdown menu for Tools            -> Options
+STEP #2 to change your IP address in Firefox
+Click on the Advanced tab, and then              on the Network tab.
+In the "Connection" area, click Settings.
+STEP #3
+Check the box for "Manual proxy configuration".
+Check the box "Use this proxy server for all protocols"
+In the box "No Proxy for", enter "localhost, 127.0.0.1" so that connections within your computer don't go through the external              relay.
+STEP #4 to change IP address of Firefox
+In the box that says "HTTP Proxy", enter the IP address of            a working proxy server (see below) and its corresponding port to the            right.
+The "HTTP Proxy" that you use may either be a free            public proxy that you find on the net, a private proxy that you            own, or one that was given to you by a paid service such as iPrivacyTools .
+If you opt for the free option (public proxies), be aware of the risks and do not submit any online forms that require login information, personal            or financial data. It is very difficult or impossible to know whether            a free relay is being operated by a legitimate party. If you're going            to change your Firefox IP address often, it is highly advisable to use            a private service - whether that be our service or another.
+Last Step!
+Click OK at the bottom of the dialog              box to exit the setup.
+Click on iPrivacyTools.com/my-ip-address/ to see if your IP address has changed.
+Congratulations on completing the change of IP address in Firefox!
+Finally, to get your regular Internet connection back at anytime, simply            repeat steps 1-2, and in step 3 check the box for "Direct connection            to the Internet".
+Thank you for reading "How to Change your IP Address in Firefox"

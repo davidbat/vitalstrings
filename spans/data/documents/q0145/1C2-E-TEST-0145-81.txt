@@ -1,0 +1,38 @@
+ 
+Simple Interest Vs Compound Interest
+Simple and compound interests are closely related to banking system and they are the most basic maths we learn during our school classes. Let us know more about them.
+Suppose you have borrowed a certain sum of money or an amount from a bank as a loan, then you must be interested to know what premium you have to pay as part of the loan repayment. The amount you need to pay as a repayment is generally calculated on the basis of compound interest. Mathematics has a lot of applications of simple vs compound interest.
+Simple Interest
+When some amount of money is borrowed, the interest is charged for the use of that money for a certain fixed period of time. When the time comes to pay the money back, the amount that was borrowed (called the principal) and the interest are paid back. The amount on which the interest will be incurred, depends on various factors like interest rate, the principal and the time period for which the money was borrowed. Simple interest is generally used for a shorter duration of time, that means for a period of less than a year, like 40 days or 60 days.
+Simple Interest Formula
+The formula for calculating simple interest is as follows.
+Simple Interest (S.I) = (P * R * T)/100, where,
+P = principal amount (the amount that was borrowed)
+R = rate of interest (for one period)
+T = time duration for which the money is borrowed (number of periods)
+Let us understand this formula with the help of an example.
+Example: John borrows a sum of $20, 000 for a period of 4 years at 8% simple, yearly interest. Find the interest and total amount due at the end of 4 years, that John is liable to pay.
+Solution: We know that, S.I = (P * R * T)/100
+Now, in this case , P = $20, 000, R= 8% = (8/100) = 0.08, T = 4 years,
+Putting these in the formula, we get, S.I. = (20, 000 X 0.08 X 4) = $6400
+Therefore, Simple Interest = $6400 and the Total Amount Due = Principal + S.I. = $20, 000 + $6400 = $26, 400.
+So, John needs to pay $26, 400 at the end of 4 years.
+Compound Interest
+Compound interest is calculated on the original principal plus all the interest that has been accumulated for that period. Compound interest is just like a series of simple interests, where the interest occurred is added to the original principal, which is then considered as a principal for the next month or year. The striking difference between simple interest and compound interest is that in simple interest the principal amount is always fixed but in compound interest the principal changes as the interest for subsequent months is added to it. Generally, compound interest is used to calculate the interests and rates for large period of times. In simple words, compound interest incorporates an interest on the interest of all the prior periods.
+Compound Interest Formula
+The formula to compute compound interest is as follows
+Compound Interest (C.I) = P(1+r/n)nt, where,
+P = principal amount, (either borrowed or deposited)
+r = rate of interest (annual/quarterly/half-yearly)
+n = numbers of times the interest is compounded every year
+t = number of years (period) the amount is deposited for
+To understand compound interest more clearly, let's see an example.
+Example: Meredith borrows an amount of $10,000 from a bank and the bank charges an interest rate of 6%, compounded quarterly. Calculate the balance after 2 years.
+Solution: Using the compound interest formula, we get,
+P = $1000, R= 6% = (6/100) = 0.06, n = 4 (Remember, interest is compounded quarterly) and t = 2 years.
+A = 1000(1 + 0.06/4)(4)(2)
+A= $1126.492 or $1126 (approximately)
+So, the amount Meredith has to pay to the bank is $1610 and the compound interest incurred is,
+Compound Interest = Amount (A) - Principal (P)
+C.I= $1126.492 - $1000 = $126 (approximately)
+If we compare simple and compound interest we will find that for the same sum of money deposited at the same rate for a fixed number of time, compound interest is always greater than simple interest (except in the first year, where they are equal if the frequency of compounding is annual).

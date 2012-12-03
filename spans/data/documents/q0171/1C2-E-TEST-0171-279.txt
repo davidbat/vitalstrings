@@ -1,0 +1,20 @@
+IP Watcher 3.0.0.30
+Monitor Your Dynamic Public IP Address For Changes
+IP Watcher is a powerful software application  that monitors your public and local IP address. If your Dynamic Public IP address changes it will send an email, or SMS Text Message to your mobile phone or device containing the new IP address. This email or Text Message alert also includes the computer name and time the change occurred. This is useful for computers that have dynamically assigned IP addresses, but need to be accessed remotely. Works great for Windows  Remote Desktop, PC Anywhere, GoToMyPC etc...IP Watcher also has an icon that sits in the windows system tray area that can be clicked to view the status or right clicked for a configuration menu. Version 3.0 runs as a Windows Service, no need to be logged in to the computer! Don't be left out in the cold again, take control of your remote access via IP address monitoring with IP Watcher! Take a look at the screen-shots to get a feel for the program.
+ 
+Key features and benefits
+Shows your current local IP address
+Useful for network administrators to see what IP address a computer has assigned to it. It is also useful for dial-up users who are issued a different IP address each time they connect. IP Watcher can help you get access to a remote computer which has a non-static IP address.
+Shows your current public IP address
+IP Watcher can display your external IP address. This can be different than the local/internal address if you are running on a network that has a router or firewall in place to access the Internet.
+What is an IP address?
+In a TCP/IP network, each network node/computer has its own unique address by which it communicates with other computers on a network. This address is known as an IP address.
+Detects changes in your IP address(es)
+IP Watcher tracks IP address changes on a computer. Some DSL or network providers assign dynamic IP addresses that change over time. This is to prevent you from hosting a server on a computer through a service that is not designed for this. However, there are times that a user needs to know if their computer's IP address has changed so they can take any necessary action to restart programs, file transfers or remote processes.
+Notification of changed IP address
+Not only can IP Watcher detect a change in an IP address, but it can also notify you via  email or sms text message if this occurs. This is helpful if you are trying to access a remote computer whose IP address has changed. Configure IP Watcher to notify you and you will be able to continue to access the remote computer.
+NEW - Mobile Text Message Alerts
+IP Watcher can send a SMS Text Message alert to your mobile phone / device when it detects an IP address has changed. Simply enter your mobile phone number and select your wireless carrier. IP Watcher provides background sending of these notification alerts so you will know when an IP address changes and still be able to access a remote pc computer.
+Email Alert Notifications IP Watcher can send notification emails when it detects an IP address has changed. You may configure email settings to use a built-in emailer or configure for your SMTP mail server. IP Watcher provides background sending of these notification emails so you will know when an address changes and still be able to access a remote system.
+Easy to Use
+Simply download, install and run. You will be presented with a window (see screen shots) showing the current computer name and IP address of the machine. Prompts help configure your IP Watcher installation.

@@ -1,0 +1,7 @@
+[ edit ]
+Summary
+IP or Internet protocol addressing utilized either IPv4 classfull 32-bit (hexadecimal) number-based addressing or the newer IPv6 protocol formats to transport electronic information between computers or servers across the Internet .
+[ edit ]
+Description
+CIDR (Classless Inter-Domain Routing)addressing system has replaced this the original classful system (as in "A", "B", and "C"), allowing smaller allocations along "classless" lines. This address nomenclature is expressed either in hexadecimal FF.FF.FF.FF (for IPv4), with "F" representing the number 16 in hexadecimal, or in more common terms of decimals, 255.255.255.255. These address allocations (for both systems) are requested from American Registry for Internet Numbers . Per IP 101 (see below): "IP addresses are used to deliver packets of data across a network and have what is termed end-to-end significance. This means that the source and destination IP address remains constant as the packet traverses a network."
+When a request for a web page access or the message delivery through email is sent, the Internet Protocol (IP) part of TCP/IP includes the user's IP address which is a 32-bit number (which consists of both the network part as well as the host part within the network) in the request. The request is sent to the sender's IP address looking up the domain name in the URL (Uniform Resource Locator).

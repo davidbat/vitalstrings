@@ -1,0 +1,21 @@
+ 
+Introduction
+In economic applications it's not uncommon to have matrices with a large number of zero-valued elements and, because C/C++ stores zeros in the same way it stores any other numeric value, these elements can use memory space unnecessarily and can sometimes require extra computing time. Examples of applications that use sparse matrices: graph stored as adjacency matrices, optimization problems using linear algebra and sparse linear equation systems.
+Sparse matrices provide a way to store data that has a large percentage of zero elements more efficiently. While full matrices internally store every element in memory regardless of value, sparse matrices store only the nonzero elements and their position. Using sparse matrices can significantly reduce the amount of memory required for data storage.
+There are two main advantages of using sparse matrices:
+·        greatly reduced memory requirements
+·        faster computations by eliminating operations on zero elements
+Because sparse matrices store both element values and position for non-zero elements, they require more storage space if number of such elements isn’t much smaller than zero elements. Another drawback of using a sparse matrix is that it doesn’t provide direct access to elements. Basic operations are also more difficult to implement compared to normal matrices.
+These tradeoffs must be well considered when deciding whether to use a normal or a sparse matrix. Usually sparse matrices are used when dealing with large volumes of data that contain between 0.15% and 3% non-zero elements.
+Storage
+When storing a sparse matrix we need to consider two kinds of information:
+the      values for non-zero elements
+positioning      of these element in the matrix
+ 
+There are many ways to store a sparse matrix in memory:
+a)      Using three arrays for line indices, column indices and values. The first two arrays can be replaced by a single array containing the index of the elements in the linearized matrix.
+b)      By grouping the indices and value triplets in a structure and storing them into an array or a linked list.
+c)      Using a bit array for marking the positioning of the non-zero elements in the linearized matrix and a separate array for values.
+ 
+In the following sections we’ll use the first form (we’ll use three dynamically allocated arrays for storing line indices, column indices and values). For easier manipulation all the information related to a matrix is grouped into a C structure:
+ 

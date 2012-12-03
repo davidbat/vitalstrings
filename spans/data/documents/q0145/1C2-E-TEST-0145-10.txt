@@ -1,0 +1,37 @@
+P2 = P1 * (1+r/K) = P0 *(1+r/K) * (1+r/K) = P1 = P0 * (1+r/K)2
+j=2
+P3 = P2 * (1+r/K) = P0 *(1+r/K)2 * (1+r/K) = P0 * (1+r/K)3
+j=3
+P4 = P3 * (1+r/K) = P0 *(1+r/K)3 * (1+r/K) = P0 * (1+r/K)4
+In general 
+Pj = P0 * (1+r/K)j
+for non-negative whole numbers j.  The rare person may wonder how we can leap to this conclusion about an infinite number of possible j's, given only four examples!  This formula can be proved for all of the infinite number of possible j's by using the principle of mathematical induction.
+ 
+ 
+For The Saver, There Is An Advantage To Compounding More Frequently.  If One Fixes The Nominal Interest Rate And The Total Time The Account Collects Interest, More Frequent Compounding Produces More Interest.  In the analysis below,we assume that the total time is a whole number multiple of compounding periods.
+If one fixes the initial balance (P 0), the nominal interest rate (r) and the duration of the deposit (T, in years) , you earn more interest with more compounding periods per year (K).  The number of compounding periods that make up T will be KT.  To avoid fractions of compounding periods, which were not analyzed above, assume that K is such that KT is a whole number. Then, by the formula above,
+P KT = P 0 * (1+r/K)KT.
+With T and r fixed (not changing) for this discussion, view the right-hand side above as a function of real variable K, say f(K). As long as 1+r/K is positive, this function will have a derivative:
+(d/dK)[f(K)] = P 0 * (1+r/K)KT * [ T * ln(1+r/K) + K * T* (1/(1+r/K))*(-r/(K2 )) ].
+This simplifies somewhat:
+                                                  (d/dK)[f(K)] = P 0 * (1+r/K)KT * T* [ ln(1+r/K) - r/(K+r)) ] 
+It well known that for x in the interval [0,1), we have ln(1+x)  >= x - x2/2.  If  we substitute r/K for x and assume that r>0 and K>r, we find that
+                                                                    ln(1+r/K) - r/(K+r)) >= (K-r)r2/(2 K2 (K+r)) > 0
+["ln" refers to the natural logarithm, the log to the base e.]  Note that the derivative exists and is positive when P 0 , r, K, and T are all positive and K > r (which are natural assumptions about a savings account!). Since the derivative is positive, the original function f(K) is increasing. Thus, larger values of K make f(K) larger.  If we make K larger and also make KT be an integer, then f(K) happens to coincide with P KT .  Thus compounding more frequently produces more interest (subject to the assumption that T is a whole number multiple of the compounding period).  If T is not a multiple of the compounding period, the conclusion depends strongly on the account's policies on withdrawals in the middle of a compounding period.  For example, in some certificates of deposits the bank may charge a substantial penalty for "early" withdrawal.
+ 
+What if we are utterly greedy, and insist that the bank compound our interest continuously?
+What happens if we make the compounding period a millionth of a second, and ever smaller? Does the amount of interest increase forever without bounds, or do we reach a ceiling (a limit!) as we compound more and more frequently?
+To answer these questions, consider g(K) = ln(f(K)):
+g(K) = ln(P0) + (KT) * ln(1+r/K).
+As K approaches positive infinity, we have a race between two factors because KT is also approaching positive infinity (we assume that T is positive) while r/K approaches 0. As r/K approaches 0, 1+r/K approaches 1 and ln(1+r/K) approaches 0. Thus we seem to have infinity*0 in our limit as K approches positive infinity. Recall that L'Hôspital's rule applies to indeterminate forms 0/0 and infinity/infinity. Rewrite the difficult part of g(K) to take advantage of this rule:
+g(K) = ln(P0) + ln(1+r/K) / [1/(KT)].
+Note that 1/(KT) is approaching 0, so that we have the indeterminate form of 0/0. By L'Hôspital's rule, examine the limit of a new ratio which is the ratio of the separate derivatives of the top and bottom of the indeterminate form:
+{[1/(1+r/K)](-r/(K2)} / {-(KT)-2*T}
+After simplifying this new ratio, one has
+[1/(1+r/K)] * (r/T) * [(KT)2] / (K2) = (rT) * [1/(1+r/K)].
+As K approaches positive infinity, this new ratio approaches (rT) * [1/(1+0)] = rT. Thus, g(K) has the limit ln(P0) + rT as K approaches positive infinity. Because ex is a continuous function, we can apply ex to the function g(K) to get f(K) back AND a limit for f(K) which is
+e[ln(P0)+rT]=P 0*erT.
+Thus, compounding faster and faster does have a finite limit; this finite limit defines what economists (and bankers) mean by continuous compounding. If compounding is continuous at a nominal interest rate of r for a duration T (in years) with an beginning balance of P0, the balance at the end is
+P 0*erT.
+Your comments and questions are welcome. Please use the email address  at  www.math.hawaii.edu
+Edited on September 6, 2006.

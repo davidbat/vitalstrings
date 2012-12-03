@@ -1,0 +1,43 @@
+Example Debugging Output
+DNS Overview
+If your network devices require connectivity with devices in networks for which you do not control name assignment, you can assign device names that uniquely identify your devices within the entire internetwork. The global naming scheme of the Internet, the DNS, accomplishes this task. This service is enabled by default. The following sections summarize DNS concepts and function:
+Host Names for Network Devices
+Each unique IP address can have an associated host name. DNS uses a hierarchical scheme for establishing host names for network nodes. This allows local control of the segments of the network through a client-server scheme. The DNS system can locate a network device by translating the host name of the device into its associated IP address.
+Domains Names for Groups of Networks
+IP defines a naming scheme that allows a device to be identified by its location in the IP. This is a hierarchical naming scheme that provides for domains. On the Internet, a domain is a portion of the naming hierarchy tree that refers to general groupings of networks based on organization type or geography. Domain names are pieced together with periods (.) as the delimiting characters. For example, Cisco is a commercial organization that the IP identifies by a com domain name, so its domain name is cisco.com. A specific device in this domain, the File Transfer Protocol (FTP) system, for example, is identified as ftp.cisco.com.
+Name Servers
+To keep track of domain names, IP has defined the concept of a name server. Name servers are programs that have complete information about their namespace portion of the domain tree and may also contain pointers to other name servers that can be used to lead to information from any other part of the domain tree. Name servers know the parts of the domain tree for which they have complete information. A name server may also store information about other parts of the domain tree. To map domain names to IP addresses, you must first identify the host names, then specify a name server, and enable the DNS service.
+Cache
+To speed the process of converting names to addresses, the name server maintains a database, called a cache, of host name-to-address mappings for use by the connect, telnet, and ping EXEC commands, and related Telnet support operations. The cache stores the results from previous responses. Upon receiving a client-issued DNS query, it will check this local storage to see if the answer is available locally.
+Name Resolvers
+Name resolvers are programs that extract information from name servers in response to client requests. Resolvers must be able to access at least one name server. The resolver either uses that name server's information to answer a query directly or pursues the query using referrals to other names servers. A resolver will typically be a system routine that is directly accessible to user programs.  Therefore, no protocol is necessary between the resolver and the user program.
+Zones
+The domain namespace is divided into areas called zones that are points of delegation in the DNS tree. A zone contains all domains from a certain point downward, except those for which other zones are authoritative.
+Authoritative Name Servers
+A name server is said to be an authority for the parts of the domain tree for which it has complete information. A zone usually has an authoritative name server, often more than one. An authoritative name server has been configured with host table information or has acquired host table information though a zone transfer (the action that occurs when a secondary DNS server starts up and updates itself from the primary server).
+DNS Operation
+Within an organization, you can have many name servers, but Internet clients can query only those that the root name servers know. The other name servers answer internal queries only.
+A name server handles client-issued queries to the DNS server for locally defined hosts within a particular zone as follows:
+•
+An authoritative name server responds to DNS user queries for a domain name that is under its zone of authority by using the permanent and cached entries in its own host table. If the query is for a domain name that is under its zone of authority but for which it does not have any configuration information, the authoritative name server simply replies that no such information exists..
+•
+A name server that is not configured as the authoritative name server responds to DNS user queries by using information that it has cached from previously received query responses. If no router is configured as the authoritative name server for a zone, queries to the DNS server for locally defined hosts will receive nonauthoritative responses.
+Name servers answer DNS queries (forward incoming DNS queries or resolve internally generated DNS queries) according to the forwarding and lookup parameters configured for the specific domain.
+Role of the Cisco IOS DNS Server as an Authoritative Name Server
+An authoritative name server usually issues zone transfers or responds to zone transfer requests from other authoritative name servers for the same zone. However, the Cisco IOS DNS server does not perform zone transfers.
+When it receives a DNS query, an authoritative name server handles the query as follows:
+•
+If the query is for a domain name that is not under its zone of authority, the authoritative name server determines whether to forward the query to specific back-end name servers based on whether IP DNS-based hostname-to-address translation has been enabled via the ip domain lookup command.
+•
+If the query is for a domain name that is under its zone of authority and for which it has configuration information, the authoritative name server answers the queriy using the permanent and cached entries in its own host table.
+•
+If the query is for a domain name that is under its zone of authority but for which it does not have any configuration information, the authoritative name server does not forward the query elsewhere for a response; instead the authoritative name server simply replies that no such information exists.
+Configuring the Router as a DNS Server
+Perform this task to configure the router as a DNS server.
+A Cisco IOS router can provide service to DNS clients, acting as both a caching name server and as an authoritative name server for its own local host table.
+When configured as a caching name server, the router relays DNS requests to other name servers that that resolve network names into network addresses. The caching name server caches information learned from other name servers so that it can answer requests quickly, without having to query other servers for each transaction.
+When configured as an authoritative name server for its own local host table, the router listens on port 53 for DNS queries and then answers DNS queries using the permanent and cached entries in its own host table.
+Note
+Unless Distributed Director is enabled, the TTL on locally defined resource records will always be ten seconds, regardless of any authority record parameters that may have been specified for the DNS name server by the use of the ip dns primary command.
+To configure a Cisco IOS router as a DNS server, use the following commands in global configuration mode as needed:
+Command

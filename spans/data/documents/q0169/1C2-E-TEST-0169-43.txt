@@ -1,0 +1,71 @@
+The value of N is ija(1)-2.
+The length of each array is ija(ija(1)-1)-1.
+The diagonal element in row i is sa(i).
+The off-diagonal elements in row i are in sa(k) where k loops from ija(i) to ija(i+1)-1,    if the upper limit is greater or equal to the lower one.
+Still confused? Try again or have a look at Numerical Recipes in Fortran by W.H. Press, S.A. Teukolsky, W.T. Vetterling, B.P. Flannery (2nd ed., Ch. 2.7,  p. 71 "Indexed Storage of Sparse Matrices").
+Real, nonsymmetric matrices
+The module sparse_matrix_real is for real and  symmetric or nonsymmetric matrices and defines the pointers ija and sa.
+The module sparse_matrix is for  hermitian matrices and  defines the pointers ija and sa.
+These modules are identical (apart from the fact that one is real and the other  complex).
+Real, nonsymmetric and symmetric matrices
+The module sparse_matrix_rout_real is for real  nonsymmetric and symmetric matrices and contains 6 subroutines:
+subroutine setup_sparse_matrix_real
+Allocates space for ija and sa. As arguments, the    subroutine takes N and max_offdiag which stands for    the dimension of the matrix (i.e. the number of diagonal elements    including zero elements) and the maximum number of offdiagonal elements    respectively. max_offdiag can exceed the actual number of    offdiagonal elements and should (!) if elements are added to an existing    sparse storage scheme.
+subroutine add_element_sparse_real(...,RestrictedL=.FALSE.)
+This one adds matrix elements to the new sparse matrix storage scheme. It    needs row, column and value of the    matrix entries as its arguments.
+Flag SymmetricL = .TRUE.: It works only for the upper mart of the    matrix (i.e. row < column).
+subroutine add_element_sparse_real(...,RestrictedL=.TRUE.)
+The same as subroutine add_element_sparse_real(...,RestrictedL=.FALSE.), it adds matrix    element to sparse matrix storage scheme BUT:
+Here the user must ensure that:
+- ALL rows are looped through from 1 to N.
+- Always check with add_element_sparse_real(...,RestrictedL=.FALSE.).
+The same as add_element_sparse_real(...,RestrictedL=.FALSE.) with the only    restriction that if elements of row N are written, all rows > N are not defined, i.e. these values are not shifted to the    right.
+YOU CANNOT add elements from row m to sparse storage    scheme after you have already read in elements from row m+x (x>0)!!!
+subroutine check_sparse_matrix_real
+Just a consistency check (unnecessary). It doesn't work if max_offdiag is an upper limit rather than the correct number.
+subroutine matvec_sparse_real
+Calculates bV = Matrix * xV, needs n (dimension of xV) and xV as arguments.
+subroutine matTvec_sparse_real
+Calculates bV = Matrix^T * xV, needs n (dimension of xV) and xV as arguments.
+subroutine deallocate_sparse_matrix_real
+Deallocates space for ija and sa.
+ 
+How to implement this matrix sparse storage scheme into your program...
+First you have to allocate the space for the two 1-dimensional arrays ija and sa.
+CALL setup_sparse_matrix_real(dim_matrix,max_offdiag)
+Then you can add your matrix elements to the new storage scheme by using
+CALL subroutine add_element_sparse_real(row,column,value,RestrictedL=.FALSE.)
+You can either loop over each original matrix element or you can simply add a    new element to an existing sparse storage scheme. (Be careful, you have to pay    attention to the fact that the allocation of the arrays was large enough.)
+The subroutine add_element_sparse_real(row,column,value,RestrictedL=.TRUE.) can be used in the same way BUT ONLY for the loop over all rows from 1 to N. If you want to add an element to an existing    sparse storage scheme you need to take add_element_sparse_real(row,column,value,RestrictedL=.FALSE.).
+By calling
+CALL matvec_sparse_real(dimension,vectorV,resultV)
+you can use your new matrix sparse storage scheme to act on a vector (This    time a pointer is not used!). The resulting vector is not a pointer in    contrast to the routines for real and real symmetric matrices.
+If you don't have to use the sparse matrix storage scheme anymore you    should always deallocate it by calling
+CALL deallocate_sparse_matrix_real.
+Hermitian matrices
+The module sparse_matrix_rout is for hermitian matrices only and contains 5 subroutines:
+(Hermitian matrix: take the complex conjugate of A, then  take the tranpose of it; if this is equal to A, then it is called  hermitian. The diagonal elements have to be real. The real parts of the  offdiagonal elements must be symmetric, its imaginary parts must be symmetric  but of opposite sign.)
+Important: Only the upper part and diagonal elements of the matrix are  considered!!!
+subroutine setup_sparse_matrix
+Allocates space for ija and sa. As arguments, the    subroutine takes N and max_offdiag which stands for    the dimension of the matrix (i.e. the number of diagonal elements    including zero elements) and the maximum number of offdiagonal elements    respectively. max_offdiag can exceed the actual number of    offdiagonal elements and should (!) if elements are added to an existing    sparse storage scheme.
+subroutine add_element_sparse(...,RestrictedL=.FALSE.)
+This one adds matrix elements to the new sparse matrix storage scheme. It    needs row, column and value of the    matrix entries as its arguments.
+subroutine check_sparse_matrix
+Just a consistency check (unnecessary). It doesn't work if max_offdiag is an upper limit rather than the correct number.
+subroutine matvec_sparse
+Calculates bV = Matrix * xV, needs n (dimension of xV) and xV as arguments.
+subroutine matTvec_sparse
+Calculates bV = Matrix^T * xV, needs n (dimension of xV) and xV as arguments.
+subroutine deallocate_sparse_matrix
+Deallocates space for ija and sa.
+How to implement this matrix sparse storage scheme into your program...
+First you have to allocate the space for the two 1-dimensional arrays ija and sa.
+CALL setup_sparse_matrix(dim_matrix,max_offdiag)
+Then you can add your matrix elements to the new storage scheme by using
+CALL subroutine add_element_sparse(row,column,value,RestrictedL=.FALSE.)
+You can either loop over each original matrix element or you can simply add a    new element to an existing sparse storage scheme. (Be careful, you have to pay    attention to the fact that the allocation of the arrays was large enough.)
+By calling
+CALL matvec_sparse(dimension,vectorV,resultV)
+you can use your new matrix sparse storage scheme to act on a vector (You have    to pass a pointer!). The resulting vector is a pointer whereas in contrast to    the other two routines (real symmetric, real nonsymmetric) matvec_sparse doesn't use pointers internally.
+If you don't have to use the sparse matrix storage scheme anymore you    should always deallocate it by calling
+CALL deallocate_sparse_matrix.

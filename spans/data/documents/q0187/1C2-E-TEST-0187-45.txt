@@ -1,0 +1,96 @@
+efﬁ ciency ( Björkmann 1968 ,  Balegh and Biddulph 1970 ,
+McCree 1972 ,  Inada 1976 ). On an absorbed quantum basis,
+the efﬁ ciency or photosynthetic quantum yield of green
+light is comparable with that of red light, and greater than
+that of blue light. The difference between the quantum
+yields of green and blue light is particularly large in woody
+plants grown outdoors in high light. The question of how
+much green light is absorbed and used in photosynthesis by
+the green leaves of land plants has therefore been solved. In
+this mini-review, however, we aim at further clarifying
+another important role of green light in photosynthesis,
+by considering the intra-leaf proﬁ les of light absorption
+and photosynthetic capacity of chloroplasts. First, we
+brieﬂ y explain light absorption by the leaf. Secondly, we
+examine the light environment within the leaf. Thirdly,
+we compare the vertical, intra-leaf proﬁ le of photosynthetic
+capacity with that of light absorption. We also discuss
+some serious problems with the use of pulse amplitude
+modulated (PAM) ﬂ uorometry in assessing leaf electron
+transport rate and photoinhibition. Fourthly, we propose a
+new method to measure the quantum yield of any mono-
+chromatic light in white light, and demonstrate the effec-
+tiveness of green light in strong white light. Based on these
+arguments, we ﬁ nally revisit the enigmatic question of why
+leaves are green.
+Absorption of light by the leaf
+Lambert–Beer's law deﬁ nes absorbance,  A , as,
+(1)
+where  I 0 is the intensity of the monochromatic light incident
+on the surface of the optical cuvette, and  I T is that of the
+transmitted light.  A is equal to  ε cl , where  ε is the absorption
+coefﬁ cient of the pigment in the solution (m 2 mol –1 ),  c is the
+concentration of the pigment (mol m –3 ) and  l is length of
+the light path (m). Transmittance,  T , is deﬁ ned as  I T /I 0 . The
+absorbance spectrum is the spectrum of  A (or  ε ) plotted
+against the wavelength of monochromatic light. From Equa-
+tion 1, it is obvious that the absorption spectrum does not
+express absorptance straightforwardly. As we will see below,
+it is dangerous to infer the absorptance of the leaf from the
+apparent impression of the absorbance spectrum. Although
+A is often called absorption, the common noun of the verb
+‘absorb’, we use the term ‘absorbance’ in this article to avoid
+confusion between absorption and absorptance.
+As an optical system, the leaf differs from a pigment solu-
+tion in two aspects: the concentration of pigments into
+chloroplasts and the diffusive nature of plant tissues. The
+ﬁ rst factor decreases the opportunity for light to encounter
+pigments and generally decreases light absorption, and has
+been called the sieve or ﬂ attening effect.
+Once light that is strongly absorbed by chlorophylls, such
+as blue or red, encounters a chloroplast, most of the light
+is absorbed. Let us make the drastic assumption that the
+chloroplast is a sac containing a solution of chlorophylls at
+a concentration of 100 mol m –3 . This value is chosen because
+(i) ordinary green leaves are a few hundred micrometers
+thick; (ii) 50–80% of their volume comprises cells; and
+(iii) chloroplasts occupy 5–10% of the cell volume. Given
+that the values of  ε for the mixture of chlorophylls at blue
+and red wavelengths are > 1.0×10 4 m 2 mol –1 , and the chloro-
+plast thickness is 2  µ m, then  A of the chloroplast calculated
+using Equation 1 is > 2. In other words, < 1% of the red or
+blue light is transmitted through the chloroplast. On the
+other hand, for wavelengths that are weakly absorbed, such
+as green light,  T is considerable. When  ε for green light is
+assumed to be 500 m 2 mol –1 ,  A and  T would be 0.05 and
+79.4%, respectively.
+Using a simple model shown in  Fig. 1 , let us consider how
+the sieve effect is inﬂ uenced by wavelength. In the left-hand
+cuvette, photosynthetic pigments are uniformly distributed,
+whereas the right-hand model comprises one half-cuvette
+with the pigments concentrated 2-fold and another half-
+cuvette containing only the solvent. At wavelengths with
+strong absorption, the loss of absorptance by the sieve effect
+is large. On the other hand, at wavelengths of weak absorp-
+tion such as green, the loss is marginal. The sieve effect,
+therefore, strongly decreases absorptance at wavelengths of
+strong absorption such as red and blue light. Because of this,
+absorption spectra with strong sieve effects show ﬂ attened
+absorption peaks; hence the alternative term ‘ﬂ attening
+effect’.
+Fig. 1  Model explaining the sieve effect on absorptance. Left: a cuvette
+containing a pigment solution. Right: the pigment is concentrated in a
+half-cuvette, while another half-cuvette contains only the solvent.
+When the cuvette is uniformly irradiated with a strongly absorbed
+monochromatic light, the decrease in absorptance by the sieve effect
+was large (above), while in the case of weakly absorbed monochromatic
+light the decrease in absorptance is small (below).
+685
+Plant Cell Physiol. 50(4): 684–697 (2009) doi:10.1093/pcp/pcp034 © The Author 2009.
+Related Full-Text Papers for Free
+Sign up to download and organize them across all your devices with Mendeley, for free.
+Sign up today - FREE
+Mendeley saves you time finding and organizing research. Learn more
+All your research in one place
+Add and import papers easily
+Access it anywhere, anytime

@@ -1,0 +1,16 @@
+Triplet Format for Sparse Matrices
+I
+POPT
+was designed for optimizing large sparse nonlinear programs. Because of problem sparsity, the required matrices (like the constraints Jacobian or Lagrangian Hessian) are not stored as dense matrices, but rather in a sparse matrix format. For the tutorials in this document, we use the triplet format.  Consider the matrix
+(10)
+A standard dense matrix representation would need to store
+floating point numbers, where many entries would be zero. In triplet format, however, only the nonzero entries are stored. The triplet format records the row number, the column number, and the value of all nonzero entries in the matrix. For the matrix above, this means storing
+integers for the rows,
+integers for the columns, and
+floating point numbers for the values. While this does not seem like a huge space savings over the
+floating point numbers stored in the dense representation, for larger matrices, the space savings are very dramatic 15 .
+The option index_style in get_nlp_info tells I
+POPT
+if you prefer to use C style indexing (0-based, i.e., starting the counting at 0) for the row and column indices or Fortran style (1-based). Tables 1 and 2 below show the triplet format for both indexing styles, using the example matrix ( 10 ).
+Table 1: Triplet Format of Matrix ( 10 )  with index_style=FORTRAN_STYLE
+row

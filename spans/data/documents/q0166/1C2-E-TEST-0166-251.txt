@@ -1,0 +1,17 @@
+You should run that command every time you change something in your project.
+Building
+1. Copy the reltool.config.sample script from erlang-web directory in deps to the main directory as reltool.config
+In reltool.config.sample it is assumed that you store all your dependencies in deps directory, if it's name is different you will have to change appropriet paths
+Erlang Web framework supports now the two main servers implemented in Erlang: INETS and Yaws. By default it uses inets. To change that switch inets to yaws in reltool.config.
+2. Add project specific applications to the rel tuple in reltool.config file
+{sys, [        {lib_dirs, ["apps", "deps", "deps/erlang-web/apps"                   ]},        {rel, "trace-this", "1.0",         [          %% Required applications          ...                    %% Project specific applications                    myapp         ]},
+And an app tuple
+3. Add copy directive to move project specific configuration files (like dispatch.conf) and templates
+{copy, "apps/myapp/priv/config"},            {copy, "apps/myapp/priv/docroot"},            {copy, "apps/myapp/priv/templates"}
+4. Run the following command every time you want to upgrade your project
+./rebar generate force=1
+It will build the project in rel directory. Option force=1 makes rebar ignore the fact that the @rel@ directory exists, and lets you upgrade your project.
+Results
+Rebar prepares the structure of rel directory, that is your project built direcotory:
+creates the mandatory directories for the Erlang Web framework, including:
+bin

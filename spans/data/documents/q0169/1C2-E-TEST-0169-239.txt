@@ -1,0 +1,47 @@
+file name to read from or
+data, object
+an object of either 'matrix.csc.hb' or 'matrix.ssc.hb' class
+type
+One of `"any"', `"numeric"', `"double"'. Using the either of latter two coerces the result to have storage mode `"double"'
+...
+additional arguments to model.matrix
+Details
+Sparse coefficient matrices in the Harwell-Boeing format are stored in  80-column records. Each file begins with a multiple line header block  followed by two, three or four data blocks. The header block contains  summary information on the storage formats and storage requirements.  The data blocks contain information of the sparse coefficient matrix and  data for the right-hand-side of the linear system of equations,  initial guess of the solution and the exact solutions if they exist. The function model.matrix extracts the X matrix component. The function model.response extracts the y vector (or matrix). The function model.guess extracts the guess vector.  The function model.xexact extracts the xexact vector.  This function is written in R replacing a prior implementation based on iohb.c which had memory fault difficulties.  The function write.matrix.hb has been purged; users wishing to write matrices in Harwell-Boeing format are advised to convert SparseM matrices to Matrix classes and use writeHB from the Matrix package.  Contributions of code to facilitate this conversion would be appreciated!
+Value
+The function read.matrix.hb returns a list of class matrix.csc.hb or matrix.ssc.hb depending on how the coefficient matrix is stored in the file.
+ra
+ra component of the csc or ssc format of the coefficient matrix, X.
+ja
+ja component of the csc or ssc format of the coefficient matrix, X.
+ia
+ia component of the csc or ssc format of the coefficient matrix, X.
+rhs.ra
+ra component of the right-hand-side, y, if stored in csc or  ssc format; right-hand-side stored in dense vector or matrix otherwise.
+rhs.ja
+ja component of the right-hand-side, y, if stored in csc or  ssc format; a null vector otherwise.
+rhs.ia
+ia component of the right-hand-side, y, if stored in csc or  ssc format; a null vector otherwise.
+xexact
+vector of the exact solutions, b, if they exist; a null vector otherwise.
+guess
+vector of the initial guess of the solutions if they exist;  a null vector otherwise.
+dimension
+dimenson of the coefficient matrix, X.
+rhs.dim
+dimenson of the right-hand-side, y.
+rhs.mode
+storage mode of the right-hand-side; can be full storage or same format as the coefficient matrix, for the moment the only allowed mode is "F" for full, or dense mode.
+The function model.matrix returns the X matrix of class matrix.csr. The function model.response returns the y vector (or matrix). The function model.guess returns the guess  vector (or matrix). The function model.xexact returns the xexact vector (or matrix).
+Author(s)
+Pin Ng
+References
+Duff, I.S., Grimes, R.G. and Lewis, J.G. (1992)  User's Guide for Harwell-Boeing Sparse Matrix Collection at http://math.nist.gov/MatrixMarket/collections/hb.html
+See Also
+slm for sparse version of lm
+SparseM.ops for operators on class matrix.csr
+SparseM.solve for linear equation solving for class matrix.csr
+SparseM.image for image plotting of class matrix.csr
+SparseM.ontology for coercion of class matrix.csr
+Examples
+read.matrix.hb(system.file("data","lsq.rra",package = "SparseM"))-> hb.o class(hb.o) # -> [1] "matrix.csc.hb" model.matrix(hb.o)->X class(X) # -> "matrix.csr" dim(X) # -> [1] 1850  712 y <- model.response(hb.o) # extract the rhs length(y) # [1] 1850 read.matrix.hb(system.file("data","rua_32_ax.rua",package = "SparseM"))-> hb.o X <- model.matrix(hb.o) y <- model.response(hb.o) # extract the rhs g <- model.guess(hb.o) # extract the guess  a <- model.xexact(hb.o) # extract the xexact  fit <- solve(t(X) %*% X, t(X) %*% y) # compare solution with xexact solution
+[Package SparseM version 0.73 Index]

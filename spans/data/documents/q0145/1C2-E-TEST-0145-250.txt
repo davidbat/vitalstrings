@@ -1,0 +1,6 @@
+See the formulas page for more information.
+Defining Variables
+Define your own variables to get the most out of Encalc. You can type "M" in the first box and "12 grams" in the second box to define "M=12 grams". From there, you only have to refer to M in your formulas.
+Physical Constants
+Encalc has a database of hundreds of physical constants. "The speed of light" and "c" would both be equal to 299800000 m / s. Try other constants - there's a good chance it's in the database. To turn off the database, click Preferences. This is useful when you want to use a constant as a variable in algebra, e.g. "(a+b+c)^2" without using c = the speed of light.
+Calculus, Matrices, and More!

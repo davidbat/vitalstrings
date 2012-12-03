@@ -1,0 +1,9 @@
+Simple Strategy Safely Connects Transformerless-Supply Circuits
+By Ramkumar Ramaswamy, June 29, 2012
+Transformerless circuits can cause safety or noise problems if connected to circuits that use earth grounds. Adding an op amp between the two can eliminate the safety problems without creating noise problems.
+Sensor Fusion Or Sensor Confusion?
+By William Wong, June 28, 2012
+It’s summer, and sensors are proliferating faster than weeds. Sensor fusion is helping to combine sensor data providing everything from virtual peripherals to better sensor data.
+Understanding MPEG Audio Codecs From mp3 To xHE-AAC
+By Matthias Rose, June 28, 2012
+Audio codecs are one of the fundamental building blocks of modern media systems. The first and still most prominent MPEG audio codec is mp3, which first appeared on the market in 1998.

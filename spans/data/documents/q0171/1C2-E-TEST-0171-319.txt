@@ -1,0 +1,6 @@
+Q: Do you need static IP addresses to have your own Web site?
+A: No, you can store your Web site on Qwest.net's servers and map your private domain name to your Web site. For many people, storing your Web site on our servers is the preferred method. If you choose to use static IP addresses and run your computer as a server you may need special "server" software for your machine.
+If you have an analog dial-up connection, you cannot use lease static IP addresses.
+For information on Web hosting on Qwest.net's servers. Look at help on Web Publishing . If you have your own domain name or plan to register one for use with your Qwest.net hosted Web site, refer to the account tools: DNS section for more information.
+Q: What does "static" mean?
+A: These IP addresses are called static because the same numeric address is always associated with the same computer. When you connect to Qwest.net through a dial-up or dedicated connection without using static IP addresses, you are dynamically assigned a numeric IP address which is used for the  duration of the connection. Since everyone does not connect at the same time, this allows more efficient use of the limited pool of IP addresses.

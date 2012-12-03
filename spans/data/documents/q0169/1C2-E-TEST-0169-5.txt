@@ -1,0 +1,7 @@
+SuiteSparse as a Debian Linux package ( no bugs reported except for a few minor configuration glitches created by the Debian maintainers created the SuiteSparse Debian package)
+SuiteSparse is used by Google Street View in their Ceres Solver for nonlinear least squares problems.  Without Ceres and SuiteSparse, nearly all photos in Google Street View would be in the wrong position; "standing" at one place might give you the house next door, or a house might appear in what should be an empty field.  Ceres + SuiteSparse enables Google to get it right.
+Used in MATLAB (x=A\b, chol, lu, qr, dmperm, sparse*dense, amd, colamd). Three bugs reported in 15 years, over 120K lines of code. This result makes the code three times more reliable than NASA's highest achievable level of reliability.
+NVIDIA Academic Partner . CHOLMOD can now exploit an NVIDIA GPU, with support for the CUDA BLAS.
+The new 3D imagery for Google Earth relies on SuiteSparse (via the Ceres nonlinear least squares solver developed by Google). See the Engadget article on Google Maps / Earth for more information.
+Likewise, Google Ceres and SuiteSparse are used to create all of Google's PhotoTours
+Google uses Ceres to fuse sensor data for Google Street View.

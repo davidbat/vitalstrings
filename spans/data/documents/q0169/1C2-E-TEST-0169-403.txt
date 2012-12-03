@@ -1,0 +1,9 @@
+Block
+Best Answer - Chosen by Voters
+Suppose there are two matrices a of size n*n and other matrice b of size n*n, Matrice c is the resultant matrice after the multiplication of matrice a and b.
+for(i=0; i<n; i++)
+{
+for(j=0; j<n; j++)
+{
+c[i][j] = sum + a[i][j]  *  b[j][i];
+}

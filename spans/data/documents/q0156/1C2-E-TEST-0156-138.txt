@@ -1,0 +1,24 @@
+Description
+ 
+Elive is a    complete operating system for your computer. It is the perfect choice for replacing your proprietary,    high-cost system. It is built on top of Debian GNU/Linux and    customized to meet your needs for a complete operating    system while still offering the user eye-candy,    with minimal hardware requirements.
+Turn your old computer into a    high-powered work-station with an Interface that    will dazzle anyone who sees it. This is Elive's    goal.
+Elive comes with a full suite of    applications for either work or leisure. It    offers everything from a full Office suite to games and Multimedia. You can    enjoy watching movies to making your own. Creating DVD movies with custom menus and theme music can easily be accomplished by using the included real-time non-linear video editor .    Elive gives you the ability to make 3D animations, edit and    manipulate audio and image files for better quality,          effects, or design.
+Elive is a very stable system that will continue to run    day after day without problems. The Enlightenment    desktop is ultra-fast and perfectly stable with no    random errors or surprises. There are no viruses,    trojans, spyware, adware, or any similar nuisance. Elive    is a secure and serious system .
+Elive uses Open Source Software. This    means, among other things, that you have access to the    source code of the programs as well as the permissions    to modify and adapt them to your personal needs with perfect legality.
+Elive is made with and for pleasure. Things designed with    pleasure are worlds better than the things designed due    to a workers obligation.
+Elive is not made for newbies. Elive is not made for    experienced people. Elive is not made for enterprises    or personal user. Elive is art. It is simply for the    people who appreciate it and want to use it. Feel free    to try Elive, because only you decide what you want in    this world!
+ 
+Distributions main features
+Debian based: Elive is a distribution which is    based on the well known Debian ,    providing recent packages and stability. Elive replaces the Debian packages with    customized version if needed (More than 500 packages have    been added or customized.)
+Enlightenment    powered: The Enlightenment window manager provides a    desktop featuring a fast, light, very flexible    environment that still offers eye candy and all the    necessary resources to run your day to day    applications. Elive includes E16, for speed and stability, along with a special version of    E17 selected from cvs (regularly updated through Elive's    test branch repository. Most of the    programs built on top of the Enlightenment Foundation    Libraries are also included.
+Intuitive: Elive aims    to be a comfortable easy to use Linux system with many    customization possibilities. It provides maximum power    and speed for the experienced user. In a fully    configured environment where user friendly tools are    centralized in an original control panel to help easily manage your system.
+Fast: One of the    most important goals of Elive is to be fast and easy to    use. You can control your PC like you always did or you    have the possibility to work in a different way. With    only one keypress you can open any desired programs or    launch any action. You can resize, iconify, move or    switch between desktops.
+Minimum Requirements: The    minimum hardware for running Elive is a 100 Mhz CPU and    64 MB of RAM, but the minimum recommended hardware is    300 Mhz and 128 Mb of RAM. You do not need any special    graphics card or 3D acceleration to run Elive.
+ 
+More features:
+You can run Elive     directly from the CD, without the need to install it.     Just put the CD in the drive and reboot.
+Ability to install any package through apt or     synaptic in liveCD mode! (UnionFS featured)
+Great hardware detection and unique     tools.
+Elive installation:
+Elive's installer has        been developed from scratch. Now it        supports a lot of extra features and the        possibility to upgrade your old Elive        system to a newer version.
+The liveCD is only a        demo of the possibilities Elive has to        offer. Not all of features are on the live        system. The installed system auto mounts        USB keys, plays DVD's automatically and can        even launch Windows CD's!... Install Elive        if you want to benefit from all the features in        the best conditions.

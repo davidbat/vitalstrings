@@ -1,0 +1,29 @@
+Doing Math in Excel:  Compound Interest
+Using Excel to Compute  Compound Interest
+by Kristina Dunbar,  UGA
+The formula for  compound interest is
+P = A(1 + i)t
+where A is the initial amount, i is the interest rate per compounding  period, and t is the number of periods the amount is compounded for.  P is the value of the investment after t periods.
+ 
+We can use Microsoft  Excel to explore this problem.
+Let's Invest Some  Money!
+Question:  With an initial investment of $5000, how much money would we have after 1 year  if we had an annual interest rate of 3% compounded annually?  Quarterly?  Monthly?  How much after 2 years?  10 years?
+We have created a  spreadsheet to solve this problem.
+These are the  equations we used:
+Column D (cell D2):    P = 5000(1 + .03)A2
+Column E (cell E2):    P = 5000(1 + .0075)A2*4
+Column F (cell F2):    P = 5000(1 + .0025)A2*12
+You can see that after  50 years, with no further investment, you will have $21,919.53 to $22,366.54 in  the bank, depending on how the interest is compounded.  Three percent  interest is actually a very good interest rate to get for an investment, most  banks offer around 2% annual interest rate.
+Watch out for Credit  Card Debt!
+We have looked at the  problem above where we had a $5,000 investment that received an annual interest  rate of 3%.  But what if that $5,000 were a debt?
+Most credit card  companies charge anywhere from 10% to 22.5% interest.  The below  spreadsheet shows how much debt you would accumulate if you accrued $5,000 debt  with a 20% annual interest rate without making any payments.
+These are the  equations we used:
+Column D (cell D2):    P = 5000(1 + .20)A2
+Column E (cell E2):    P = 5000(1 + .05)A2*4
+Column F (cell F2):    P = 5000(1 + .01667)A2*12
+ 
+Credit card companies  compound interest on a monthly basis.  Just think, after only one year, you  will owe $6,099.35, which is $1,099.35 more than you borrowed.  In 30  years, that $5,000 debt will be almost two million dollars! 
+Lesson:  Pay off  your credit cards!
+ 
+If you would like  to see the Excel file used to create the above data, click here .
+                                                   

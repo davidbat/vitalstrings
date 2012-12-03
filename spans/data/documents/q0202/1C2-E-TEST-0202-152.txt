@@ -1,0 +1,104 @@
+Where have all the euro information web sites gone?
+http://europa.eu.int/comm/mediatheque/multimedia/archive/index.htm   "Since it was decided to launch a single currency in Europe, numerous Internet  sites dealing with the euro have been set up by individuals, institutions,  companies, etc. In order to keep this Internet memory of the euro alive, the  Directorate General Economic and Financial Affairs of the European Commission  has decided to store all these documents –whether merely informative, in favour  of or against the euro currency - in an electronic archival resource,  Euro-Archives, which aims to make all points of view on the euro accessible to  the widest possible audience."
+Also see our other euro information pages above
+Why is introducing the Euro more complex or costly than the introduction of any other new currency?
+The crucial difference is that the euro was formed by merging eleven national currencies at fixed exchange rates on 1.1.1999. They will persist in visible form (notes and coins) for three years until the final changeover on 1 January 2002. Therefore conversions between national currencies in the euro are not like normal exchange rates with variable rates; they are simply a different measurement of the same underlying entity, just like pounds and kilogrammes are different scales of measurement of weight. They have fixed six-digit conversion rates (not "exchange" rates). And because of the three-year transition period, economic entities must be able to handle both kinds of money from those they deal with.
+Lessons learnt from the introduction of the euro are reported on these web sites:
+www.zdnet.com/zdy2k/1999/01/5490.html   ZDNET: January 05, 1999 Mitch Ratcliffe : Daily Fix : What Have We Learned From The Euro?
+Patrick O'Beirne's article on what Y2K projects might learn from the successful birth of the euro is at www.sysmod.com/irc99b24.htm
+EuroMoney magazine February 1999  : BIRTH OF THE EURO : Twilight fixes save brave new dawn  : www.euromoney.com (Free registration)
+The Euro-EU Discussion Forum (Mail List)
+To subscribe to the Euro list, send an e-mail message containing just the word SUBSCRIBE in the body of the message to:
+This group is set up for members of the euro2002 group that was hosted by  Tenagra.com up to 2002. Archives of the pre-2003 discussions can be found on the web at maggie.tenagra.com/scripts/lyris.pl?site=euro2002&id=111445195  
+ 
+Do we have to store all money amounts to six decimal places?
+No, that only applies to the conversion rates - see under "ARTICLE 4" below.
+For more information, see " Euro myths and facts " , an article by Patrick O'Beirne in March 1998 "Irish Computer" magazine.
+Do we have until 30 June 2002 to change our accounts?
+That is a confusion between the latest date that legal tender status can be withdrawn from national currency notes and coins, and the date the NCU ceases to exist as a unit of account. In fact, the cash changeover period is different for each country (in Ireland, the 9th of February 2002 is proposed). And the European Commission has confirmed that "the euro is no longer divided into national currency units and legacy currency units cease to exist as units recognised by law." For further details, see www.euro.fee.be/special/IRLetter.asp  
+The Final Changeover
+What would happen to a company on 1 January 2002 that had not converted to the euro?
+Managers of companies based in the Eurozone who have not prepared their company to operate in the euro by the 31 December 2001 expose the company and themselves to the trading and audit risks detailed in Euro-paper no. 39: http://europa.eu.int/comm/economy_finance/publications/euro_papers/europapers39_en.htm  
+also on the Federation of European Accountants web site as www.euro.fee.be/Archive/be/feedoc.pdf  
+We have a simple accounting system; what is the minimum we have to do? 
+A FEE report to which we contributed describes a number of options and suggests that "the least risky and easiest for smaller SMEs (even though it still requires care) is to adopt a dual running system approach." See "Accounting and Financial Software Issues for Small and Medium Sized Enterprises (SMEs)" brochure [89Kb pdf] www.euro.fee.be/brochures/SMEsoftware.PDF  
+Also see Patrick O'Beirne's article "Euro Scenario for SME" at www.sysmod.com/euroex01.htm  
+Do we have to convert all our historical data?
+Even after the enterprise has switched over to the euro, it needs to keep its historical data available in the national currency unit in order to maintain the existing audit trail. In most countries, national law requires enterprises to keep their accounting records in their original form for at least 5 to 10 years. Avoid causing synchronization problems between the legacy and the converted systems. Representing amounts before 1 January 1999 in euro, before the currency came into existence, could cause anomalies when comparing data that was collected during the floating-rate era.
+For statutory purposes, one could archive printed reports to CD, hard copy (paper), or microfilm; or to maintain an archive copy of the data and the correct software version to access it.
+Conversion of historical data requires that all instances of the same data be converted in exactly the same way. This causes rounding differences where the data is not normalized, as is commonly the case in MIS/DSS data warehouses. It is the responsibility of each organization to decide how significant such differences are in the context of the use of the data, which may be merely for internal purposes of trend analysis.
+For further guidance on accounting issues, see the FEE documents referred to above. It is advisable to consult a professional advisor on the statutory requirements in your own country. 
+What lessons can be learnt about cash changeover from the UK experience of changing to decimal currency in 1971?
+Mainly, that close and long co-operation is essential between banks, shops, and consumers. It coincided with a period of inflation which, together with the inevitable rounding up of small item prices, has left an indelible impression in the public mind of loss of value with any change in legal tender currency. The logistics of the changeover are described in the presentation by Malcom Levitt of Barclay's PLC to the EFMA conference "2002 the euro in circulation" in December 1999. www.sysmod.com/UK-decimalisation.htm  
+(afrundingsregel, Rundungsregel, rounding rule, norma de redondeo, pyöristämissääntö, règle d'arrondi, regola di arrotondamento, afrondingsregel, regra de arredondamento, avrundningsregel)
+Fixed Conversion Rates
+The issue of Currency Calculations and Rounding during the transition period (and at the time of final conversion):
+Very specific attention is given in Regulation 1103/97 of 11 Sep 1997 to the manner in which currency conversions should be calculated and the rounding procedures that should be applied. The wording of the article is quite legalistic and is consequently clarified by way of examples. For reference the precise text is as follows;
+ARTICLE 4; The conversion rates shall be adopted as one euro expressed in terms of each of the national currencies. They shall be adopted with six significant figures. The conversion rates themselves must not be rounded or truncated when making conversions. The conversion rates shall be used for conversions either way between the euro and the national currency units. Inverse rates derived from the conversion rates shall not be used. Monetary amounts to be converted from one national currency unit into another shall first be converted into a monetary amount expressed in the euro unit, which amount may be rounded to not less than three decimal places and shall then be converted into the other national currency unit. No alternative method of calculation may be used, unless it produces the same result.
+ARTICLE 5; Monetary amounts to be paid or accounted for, when a rounding takes place after a conversion into the euro unit according to article 4, shall be rounded up or down to the nearest cent, Monetary amounts to be paid or accounted for which are converted into a national currency unit shall be rounded up or down to the nearest sub-unit, or in the absence of a sub-unit to the nearest unit or according to national law or practice to a multiple or fraction of the sub-unit or unit of the national currency unit. If the application of the conversion rates gives a result which is exactly half-way, the sum shall be rounded up.
+Fixed Conversion Rates
+There is a fixed conversion rate between the euro and each participating currency and this is expressed to six significant figures (note not decimal places). For example, one euro equals .787564 Irish Pounds, or 6.55957 French Francs. It is this rate that must be used for all conversions and it must not be rounded or truncated.
+Rounding after a conversion:
+Equivalent Irish Pound amounts should be rounded to the nearest penny. Equivalent euro sums should be rounded to the nearest cent. If the result is exactly half-way, the result must be rounded up.
+Conversion between the euro and the Irish Pound and vice versa:
+When converting from euros to Irish Pounds, the sum is multiplied by the conversion factor. When converting from Irish Pounds to euros, the sum is divided.
+Therefore, euros 1,000 x 0.787564 = IEP787.564, which rounds to 787.56
+IEP1,000 / 0.787564 = euros 1269.738078, which rounds to 1,269.74
+Conversion between two national currencies (triangulation).
+Three steps (example IEP1,000 into French Francs):
+1. Convert from one national denomination into the euro equivalent.
+IEP1000 @ 0.787564 = euros 1269.738078. This calculation may be rounded, but to no less than three decimal places. 1269.738 is allowable or indeed 1269.7381.  1269.74 is not acceptable in triangulation.
+2. Convert the euro equivalent into the national denomination. Euros
+1269.738078 x 6.55957 = French Francs 8328.9358
+3. Round the result to the nearest sub-unit ( the nearest unit in the case of the Lira). In case French Francs 8328.94.
+Note that these rounding rules apply only to conversions between the euro and national denominations or between national denominations of participating countries. However, the regulation applies in all EU Member States and these procedures must be adopted even for IEP/FFR  calculations carried out by a UK bank, notwithstanding the fact that UK itself is outside the new single currency zone, For currencies not participating in the new system, there will be no fixed relationship with the euro or with each other, so they will continue to be quoted in accordance with the usual conventions in the marketplace.
+Reproduced and adapted by courtesy of Allied Irish Banks from "The abc of the EMU, Part II", published by AIB Corporate and Commercial Treasury, Tel +353-1-8740222.
+Triangulation - is it necessary?
+(trekantsmetoden, Dreiecksmethode, triangulation method, método de triangulación, kolmiomenetelmä, méthode de triangulation, metodo di triangolazione, driehoeksmethode, método da triangulação, triangelmetoden)
+The famous "triangulation" rule is that to convert from one participating currency to another, you must convert via the euro and round the euro amount to not less than three decimal places.
+Pieter Dekker says: In order to understand the rationale for introducing a mechanism like triangulation your have to consider the alternative. Regulation 1103/97 states that "The conversion rates shall be adopted as one euro expressed in terms of each of the national currencies..." This means that only 11 conversion rates will have to be announced. The alternative would be to announce a grid of conversion rates between the 11 currencies, that is a grid of 55 conversion rates. Traditional problem with those grids is that it is impossible to get the last digit straight (no matter what the accuracy is), i.e. a grid would not be entirely consistent causing IT as well as legal problems. The triangulation avoids all of that. In most cases it is probably easier just to implement the triangulation, after all, compared to other algorithms used in business software it is very simple (triangulation = divide -> round -> multiply -> round).
+Chris Pickles says: The bigger your organisation is, and the more transactions you handle, the bigger the problem you will get if you use triangulation - and the problem will be bigger if you don't use triangulation. If you are one of the people who has to sort out the individual accounting problems caused by the IT department not having programmed the system to do the job that it was supposed to do, you may understandably be a bit miffed!
+Patrick O'Beirne says: Other methods are allowed only if they produce the same result, and that is the let-out clause that software companies will be using. Triangulation is not a matter of national or local government enforcement, but a matter of dispute resolution/litigation. Unless there is a dispute, the method of calculation is not relevant. And it is only relevant where an alternative method, if used, reaches a different result. There are certainly no plans to set up a "Triangulation Enforcement Agency" in Brussels.
+Ray Holden says: Re: GBP/DEM - the fact-sheet from HM Treasury is now available on www.euro.gov.uk/ in the" whats new" section, and also on EMUNet and it very clearly says that GBP/DEM does not need to go via the euro.
+BASDA says: BASDA has now had many discussions with the Commission, FEE the Bank of England and various mathematicians and we now take the view that, whilst it is quite possible to use another algorithm to avoid triangulation, BASDA is unlikely to be able to Accredit software as fully EMU compliant if that is the method used. The reason for this is that, [according to Commission regulation 1103/97] 'no alternative method of calculation [except triangulation] may be used unless it produces the same results' and no-one has been able to devise a method which can prove that an algorithm can always produce the same results. We have no choice but to abide by the law if the BASDA accreditation procedure is to be accepted. At the same time, if you decide to use an algorithm and your customers and suppliers understand and accept that this can produce differences, then normal business practice should prevail.
+(op- og nedrundingsforskelle, Rundungsdifferenz, rounding difference, diferencia de redondeo, pyöristämisero, écart d'arrondi, differenza di arrotondamento, afrondingsverschil, diferença em matéria de arredondamento, avrundningsskillnad)
+Euro compliance / euro compatibility
+There is no industry standard definition of the terms Euro compatible, Euro ready, Euro compliant, Euro functional, and Euro enabled. Here are a number of certification bodies:
+BASDA (Business & Accounting Software Developers Association) in the UK is the trade association for the business and accounting software developers. Membership is limited to companies developing, supplying, implementing and providing consultancy on accounting systems and membership fees are based on turnover. They have developed a specification of "Euro compliance" that is sold to members. It will be applied to all software that is submitted for BASDA accreditation. Contact: Stephanie Saunders, administrator. Tel +44 1494 678840. Fax +44 1494 680424 Web page www.basda.org
+Systems Modelling Ltd . announced their euro certification scheme in August 2000. It follows the guidelines of ISO/IEC 12119:1994 - "Information Technology - Software packages - Quality requirements and testing". The test cases cover the effects of changing scales of value, detecting the use of inverse rates, rounding, truncation, accounting with master and detail records, and account and base conversion in the transition scenario. They also assess reliability, error protection, audit trails, user interface (usability) issues, documentation, and support. The product will be certified to have fulfilled specified conditions. This is not a certification of the producer's business, their quality system or their software production process. For further information, enquire at www.sysmod.com/feedback.htm  
+DIN, the German standards authority, have defined quality and testing requirements "EURO/JAHR 2000" for financial accounting software. This document is available only in the German language, because it is a national list of requirements as a national annex to the international standard ISO/IEC 12119 "Information technology - Software packages -Quality requirements and testing". The testing laboratory which has tested all the software having been awarded the certificate "EURO/Jahr 2000" is GPS - Gesellschaft zur Prüfung von Software mbH.
+Aquitaine Valley, the agency which certifies compliance with the AFNOR "NF Euro compatibilité" standard in France does not release details of its tests.  They state that they have defined test processes covering inspection, sampling, and application-specific functionality, and some features that add some assurance of good process management by the software company . The tests encompass not just conversion and triangulation but also the important feature of euro functionality in seven areas such as accounting, treasury, stock control, etc. A news report on certified products is available at http://www.finances.gouv.fr/euro2002/lettre/euro42/index.html   - La marque "NF Compatibilité euro certifiée"
+The French Accountant's site www.experts-comptables.fr has an international version at www.experts-comptables.com   They have a specific euro web site www.euro-expert.com which in turn links to the IBM France Partners page "le site PME-PMI d'IBM" www.ibm.com/espace-pme/fr   which has a list of self-declarations by software companies. Click on "L'observatoire des logiciels euro"
+www.developer.ibm.com/library/euro/eurokit.html IBM 's Independent Software Vendor (ISV) and Business Partner euro kit featured downloadable checklists in PDF format. (offline Dec 2002)
+The  PwC Ireland Euro Centre www.pwcglobal.com/ie/eng/ins-sol/spec-int/euro/index.html  (offline Aug 2002) had a paper on "euro compliance". 
+Business Information
+Case studies for thirty Small and Medium Enterprises (SME) participating in the Eurotown project in Loughrea, Co. Galway, Ireland, can be read on their web site www.eurotown-loughrea.ie
+The EU Programme for the Information Society (ISPO) has a Web site concerning the IT impact of euro conversion at: http://europa.eu.int/ISPO/y2keuro/euroit.htm .  This site features case studies from large companies across Europe.
+www.businesseurope.com/cmn/viewdoc.jsp?cat=all&docid=be_CaseStudy_01Oct2000_2001316   Business Europe Case Studies: Euro is no longer the future. Are you still living in the past? Luc Berjen is an international, high fashion retail company and has been very organized in preparing for receiving and spending in the EMU.
+Revision History (latest first)
+2003-Aug: index to other pages added
+2001-04-02 cross-links to converters and calculators
+2001-03-14 Business Europe Case study added
+2001-02-24 Netmind button removed.
+Publications and other general euro information sources moved to their own page.
+2001-01-04 eurotype.com added. Dead links removed Jan 28.
+2000-12-29 SME definition added to glossary
+2000-11-18  IBM Developer Partners site added
+2000-10-25 Microsoft Office update. http: prefix removed for tidiness
+2000-10-04 Advantages & disadvantages of EMU
+2000-09-29 Question on historical data conversion
+2000-09-22 Presentation on UK decimalisation experience added, IBM & ICL newsletters, more FAQs from FEE on the changover dates and minimum SME "compliance".
+2000-09-19    Europapers list updated to no. 41, Glossary added to define euro terminology.
+2000-09-01    IBM FIS Excel converter link added
+2000-08-15    Conversion rate for Greek Drachma (GRD) added. Systems Modelling "Euro Compliance " software certification scheme added. ABI cautions on wrapping solutions.
+2000-08-12    Some links added for wrapping and data conversion.
+2000-07-31    Euro Name, Plurals, Gender notes and HTML font information.
+2000-07-14    Euro2002 web link added
+2000-07-02    Daily Diff link added.
+2000-06-12    Web links corrected, Euro-paper 37 added.
+2000-06-01    New site structure with navigation links
+2000-05-02    Software links updated.
+2000-05-01    Euro Web Links split off from the original Euro FAQ. 
+ 
+This page is sponsored by Systems Modelling Ltd . authored by Patrick O'Beirne whose other articles can be read at  www.sysmod.com/emu.htm along with a facility  to search this site for keywords.
+For further information:  visit www.sysmod.com  

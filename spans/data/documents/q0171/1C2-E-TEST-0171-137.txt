@@ -1,0 +1,52 @@
+Download demo project - 31.2 Kb
+Introduction
+Problem was, I didn't find a solution to edit an IP address like in Windows network environment, for C#. Although there are some controls for masked edit fields, I wanted to write my own, and if so I wanted it to behave like the controls from MFC library or Windows network environment and maybe a little more.
+Problems to solve
+The heaviest problem at writing the control was to catch the inputs of backspace and delete keys, to delete characters from the input field. I tried a lot with overridden event handlers, OnKeyDown and OnKeyUp but it didn't work like it should.
+Then I remembered that another developer had overridden the PreProsessMessage method to catch keyboard inputs and handle it in own ways. So I implemented an override for PreProcessMessage to handle all the backspaces and delete key presses and used OnKeyUp, OnKeyPress and OnKeyDown to handle the inputs of dots and slashes and set the input cursor to the right position.
+OnKeyDown event
+/// <summary> /// Override standard KeyDownEventHandler /// Catches Inputs of "." and "/" to jump to next positions /// </summary> /// <param name="e">KeyEventArgument</param> protected override void OnKeyDown(KeyEventArgs e) { //Zeichen an die richtige stelle schreiben int iPos = this.SelectionStart; char[] cText = this.Text.ToCharArray(); if(e.Modifiers == Keys.None)    { if((char.IsLetterOrDigit(Convert.ToChar(e.KeyValue)) ||            e.KeyCode == Keys.NumPad0)//Numpad0=96 --> ` && iPos < this.TextLength)        { if(cText[iPos] == '.' || cText[iPos] == ':' || cText[iPos] == '/')                iPos+=1; this.SelectionStart = iPos; if(this.OverWriteMode)            { if(cText[iPos] != ' ') this.SelectionLength = 1;            } else { if(iPos < this.TextLength) if(cText[iPos] == ' ') this.SelectionLength = 1;            }        }    } base.OnKeyDown (e); }
+OnKeyUp event
+/// <summary> /// Override standard KeyUpEventHandler /// Catches Inputs of "." and "/" to jump to next positions /// </summary> /// <param name="e">KeyEventArgument</param> protected override void OnKeyUp(KeyEventArgs e) { //Zeichen an die richtige stelle schreiben int iPos = this.SelectionStart; char[] cText = this.Text.ToCharArray(); //Cursor hintern Punkt setzen if((char.IsLetterOrDigit(Convert.ToChar(e.KeyValue)) ||               e.KeyCode == Keys.NumPad0)//Numpad0=96 --> ` && iPos < this.TextLength)      { if(cText[iPos] == '.' || cText[iPos] == ':' || cText[iPos] == '/')             iPos+=1; this.SelectionStart = iPos;      } base.OnKeyUp (e); }
+OnKeyPress event
+/// <summary> /// Override standard KeyPressEventHandler /// Catches Inputs of "." and "/" to jump to next positions /// </summary> /// <param name="e">KeyPressEventArgument</param> protected override void OnKeyPress(KeyPressEventArgs e) { //Zulassige Zeichen if(char.IsControl(e.KeyChar) ||          m_regexValidNumbers.IsMatch(e.KeyChar.ToString()))     {          e.Handled = false;     } else { switch(e.KeyChar)          { case '/': this.JumpToSlash(); break; case '.': this.JumpToNextDot(); break; default: break;          }          e.Handled = true;     } base.OnKeyPress(e); }
+PreProcessMessage
+/// <summary> /// Override standard PreProcessMessage /// Catches Inputs of BackSpace and Deletes /// </summary> /// <param name="msg">PreProcessMessage</param> public override bool PreProcessMessage(ref Message msg) { if (msg.Msg == WM_KEYDOWN)     {         Keys keyData = ((Keys) (int) msg.WParam) |ModifierKeys;         Keys keyCode = ((Keys) (int) msg.WParam); int iPos = this.SelectionStart; char[] cText = this.Text.ToCharArray(); switch(keyCode)         { case Keys.Delete: if(iPos < this.TextLength)                 { while(cText[iPos] == '.' ||                         cText[iPos] == ':' ||                         cText[iPos] == '/')                     { if((iPos+=1) >= cText.Length) break;                     } if(iPos < this.TextLength)                     { base.Text = this.Text.Substring(0,iPos) + " " + this.Text.Substring(iPos+1); this.SelectionStart = iPos+1;                     } else this.SelectionStart = this.TextLength-1;                 } return true; case Keys.Back: if(iPos > 0)                 { while(cText[iPos-1] == '.' ||                          cText[iPos-1] == ':' ||                          cText[iPos-1] == '/')                     { if((iPos-=1)<=0) break;                     } if(iPos>0)                     { base.Text = this.Text.Substring(0,iPos-1)                                      + " " + this.Text.Substring(iPos); this.SelectionStart = iPos-1;                     } else this.SelectionStart = 0;                 } return true; default: break;         }         } return base.PreProcessMessage (ref msg); }
+Another problem was the input of numbers via the numpad. Especially the 0 key was not recognized, because it's char value is neither a letter nor a digit, so I had to ask for Keys.NumPad0 hard coded.
+if((char.IsLetterOrDigit(Convert.ToChar(e.KeyValue)) ||      e.KeyCode == Keys.NumPad0)//Numpad0=96 --> ` iPos < this.TextLength) {[...]}
+At least...
+...I have a control that looks like a TextBox with dots, where I can input numbers, type dots to jump to next IP parts, and get its contents via the Text property.
+Using the code
+Include the IPAddressTextBox.cs in your project. Set a TextBox in your form or user control and clear its contents. Change the type of this TextBox from System.Windows.Forms.TextBox to rj2_cs.IPAddressTextBox in code editor. Then you can change the properties of the IP textbox like you want.
+Changes/Modifications
+Implemented some exception handling at IP-Validation
+Compiled in an assembly it can be used via Visual Studio Designer
+Text property overridden, so you can only enter valid IP addresses
+public override string Text { get { return base.Text;     } set { try { if(IPAddressTextBox.ValidateIP(value, this.m_newIPNotation, this.m_arlDelimeter)) base.Text = IPAddressTextBox.MakeValidSpaces(value, this.m_newIPNotation, this.m_arlDelimeter);         } catch {    }     } }
+2003-08-06
+Bug fix: Invalid IP addresses could not be changed by deleting characters, because of the validation of the Text property --workaround-> Delete/Backspaces change the base.Text property
+Additional Method: GetPureIPAddress(), returns the IP address in the Text field without leading zeroes or leading/trailing spaces
+public string GetPureIPAddress() { string s = "";     ArrayList arlIP = new ArrayList(this.Text.Replace(" ","").         Split((char[])this.m_arlDelimeter.ToArray(typeof(char)))); for(int i=0; i <arlIP.Count; i++)     { while(arlIP[i].ToString().StartsWith("0"))             arlIP[i] = arlIP[i].ToString().Substring(1);     }     s = IPAddressTextBox.MakeIP(               (string[])arlIP.ToArray(typeof(string)), this.m_ipNotation); /*in IPv6 Addresses replace 0000: by ::*/ if(this.m_ipNotation == IPNotation.IPv6Hexadecimal || this.m_ipNotation == IPNotation.IPv6HexadecimalCIDR || this.m_ipNotation == IPNotation.IPv6Binary || this.m_ipNotation == IPNotation.IPv6BinaryCIDR)     { while(s.IndexOf(":::")>=0)         {             s = s.Remove(s.IndexOf(":::"),1);         }     } return s; }
+2003-08-11
+Hide unneeded members from base class in Studio Designer
+IPv6 implemented properly (I hope)
+Properties, events and event handlers for "Binary", "IPv6", "Subnet" deleted
+Notation-Property,-Event and -event handler added: Value is one of the IPNotation enumeration
+public enum IPNotation {     IPv4Decimal, /*192.168.000.001*/ IPv4Binary, /*11000000.10101000.00000000.00000001*/ IPv4DecimalCIDR, /*192.168.000.001/16*/ IPv4BinaryCIDR, /*11000000.10101000.00000000.00000001/16*/ IPv6Hexadecimal, /*0000:0000:0000:0000:00c0:00a8:0000:0001*/ IPv6Binary, /*0000000000000000:0000000000000000:             0000000000000000:0000000000000000:     0000000011000000:0000000010101000:             0000000000000000:0000000000000001*/ IPv6HexadecimalCIDR, /*0000:0000:0000:0000:00c0:00a8:0000:0001/16*/ IPv6BinaryCIDR, /*0000000000000000:0000000000000000:             0000000000000000:0000000000000000:     0000000011000000:0000000010101000:             0000000000000000:0000000000000001/16*/ IPv6IPv4Decimal, /*::192.168.000.001*/ IPv6IPv4Binary, /*::11000000.10101000.00000000.00000001*/ IPv6IPv4DecimalCIDR, /*::192.168.000.001/16*/ IPv6IPv4BinaryCIDR /*::11000000.10101000.00000000.00000001/16*/ }
+Change of the Notation Property causes call of a huge function that converts the given IP-Address to the new Notation
+Default value of property OverWriteMode changed to true
+Some changes in demo project to test the new properties and functions
+2003-09-01
+Default value for property OverWriteMode set to true (else the VS-Designer couldn't change the property the code)
+IPv4 addresses now have zeroes between dots (previously forgotten in MakeIP/GetPureIP methods)
+Copy and paste via keyboard inputs enabled; check if modifier-key is pressed in OnKeyDown override (can just copy/paste whole IP addresses or part between dots, all the others I still have to implement)
+protected override void OnKeyDown(KeyEventArgs e) { int iPos = this.SelectionStart; char[] cText = this.Text.ToCharArray(); if(e.Modifiers == Keys.None)     { //[some code] } base.OnKeyDown (e); }
+Demo packet changed, so you don't have to download source packet.
+TODO
+Move digits to right, if there is an input and there are spaces left to next delimiter
+Accept optimized IPv6 addresses (with :: instead of 0000: ) for set_Text property
+Enable drag/drop
+License
+This article has no explicit license attached to it but may contain usage terms in the article text or the download files themselves. If in doubt please contact the author via the discussion board below.
+A list of licenses authors might use can be found here
+About the Author

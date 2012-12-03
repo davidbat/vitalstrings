@@ -1,0 +1,8 @@
+Compound Interest: Total Balance =   P(1 + R)T
+P = principle = starting balance = $188
+R = interest rate = 6%
+Total balance = principle × (1 + interest  rate)time = 188 × (1 + (6 / 100))8 = $300
+Interest accrued = total balance - starting  balance = $300 - $188 = $112
+Complexity=50
+Answer the following questions involving compound interest. Input all answers to the nearest dollar
+#

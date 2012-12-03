@@ -1,0 +1,15 @@
+$44,812.29
+The math
+OK, here is how it works. If you can do multiplication and division, you can figure out compounding interest, 'cause that's all it is. The only difficulty lies in figuring out how many times you do the multiplication.
+First, you need to know what the annual percentage rate (APR) is. In the example above, this was 5%. Second, you need to know how often the compounding occurred every year. That is, the number of compounding periods. In the above table, this was once (annually), four times (quarterly), 12 times (monthly), or 365 times (daily). Now, to the math.
+Step 1:
+Take the APR and divide by the number of compounding periods. Let's work with quarterly, so that would be 5% / 4 = 1.25% = 0.0125. This is the periodic interest rate .
+Step 2:
+Now add the periodic interest rate (1.25%) to one. 1 + 0.0125 = 1.0125. By doing this, your answer will show what the new total value will be, not just how much interest is earned in a given period.
+Step 3:
+Then, multiply that number by itself a total number of times equal to the number of compounding periods. 1.0125 * 1.0125 * 1.0125 * 1.0125 = 1.0125^4 = 1.050945... To do this with a calculator (such as the one in Windows -- you need the scientific calculator found under "View"), type in 1.0125, hit the x^y key, type in 4, and hit enter.
+Step 3a:
+If you want to figure out for a longer time period, figure out how many total compounding periods there will be. For two years, quarterly, it's eight. For 10 years, it's 40, and so on. So 10 years at 5%, compounded quarterly, you'd have 1.0125^40 = 1.643619.
+Step 4:
+Now, multiply that by your original amount invested (the principal ). For $10,000, you should get $10,509.45 after one year (four periods).
+Related Fool Articles

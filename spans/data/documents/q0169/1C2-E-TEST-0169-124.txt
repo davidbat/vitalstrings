@@ -1,0 +1,8 @@
+Awards
+2
+I think the answer is in this statement, from WikiAnswers: "The length of row i is determined by IA(i+1) - IA(i). Therefore IA needs to be of length N + 1." You have to have the 6 in there in order to determine the nonzero length of the last row of the original matrix. That is, 6 - 4 = length of row i of the original matrix.
+It all comes down to the fence-post problem (the source of many "off-by-one" errors in computer science): if you have a fence with posts and lengths, and the fence is in a straight line, how many lengths are there compared to how many posts? Answer: there must be one more post than there are lengths of fence. However, if the fence is in a circle, the number of posts and the number of lengths are the same.
+The statement, "Row i of the original matrix extends from A(IA(i)) to A(IA(i+1)-1), i.e. from the start of one row to the last index before the start of the next." could be paraphrased thus, in the example on wiki:
+Row 1 of the original matrix extends from A(IA(1)) to A(IA(1+1)-1), or from A(2) to A(4-1), or from A(2) to A(3). Thus, the entries in row 1 are the 2nd and 3rd entries of vector A: 3 and 9.
+Follow Math Help Forum on Facebook and Google+
+July 15th, 2010, 11:56 AM #5

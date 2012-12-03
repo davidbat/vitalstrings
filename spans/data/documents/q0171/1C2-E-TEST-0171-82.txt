@@ -1,0 +1,14 @@
+[ change ] IP address
+An IP address is a number given to each computer on the internet . It is like a postal address or telephone number, but for the computer. Internet protocol (IP) defines how communication from one address to another work.
+Some computers have the same IP address for a very long time. These IP addresses are called "static IP addresses". Some computers change their IP from time to time. These IP addresses are called "dynamic IP addresses".
+[ change ] IP Version 4
+With IPv4, each address consists of four numbers, called octets . They go from 0 to 255. To make an IP address, one takes 4 such numbers. To translate between an IP address and the name of the computer, a system called Domain Name System is used. It can translate between the name and the IP Address.
+An IPv4 address could look something like this
+85.52.74.183
+With IPv4, some addresses are reserved for special purposes. For example, 127.0.0.1 how the computer a user is working on looks at itself.
+Also, there are special meanings associated with two different ending numbers. In general, a last number of 0 stands for the network (called base address), and a last number of 255 stands for all hosts on that network (called broadcast address). Computers that are on the same local network share 3 of the 4 numbers. A computer can be on more than one network. It can also have several names.
+[ change ] IPv4 subnetting
+In the early stages of development of the Internet Protocol, network administrators interpreted an IP address in two parts, network number portion and host number portion. The highest order octet (most significant eight bits) in an address was designated the network number and the rest of the bits were called the rest field or host identifier and were used for host numbering within a network. This method soon proved inadequate as additional networks developed that were independent from the existing networks already designated by a network number. In 1981, the Internet addressing specification was revised with the introduction of classful network architecture.
+Classful network design allowed for a larger number of individual network assignments. The first three bits of the most significant octet of an IP address was defined as the class of the address. Three classes (A, B, and C) were defined for universal unicast addressing. Depending on the class derived, the network identification was based on octet boundary segments of the entire address. Each class used successively additional octets in the network identifier, thus reducing the possible number of hosts in the higher order classes (B and C).
+The following table gives an overview of this now obsolete system.
+Historical classful network architecture

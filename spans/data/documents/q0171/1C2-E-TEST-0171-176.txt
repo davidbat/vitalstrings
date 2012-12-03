@@ -1,0 +1,20 @@
+Command Prompt
+Now that you have the Command Prompt open, type in ipconfig.
+As you can see my default gateway is 192.168.1.1 for my Linksys router.Â  Once you have found your default ip address for your router, which in our case is 192.168.1.1.Â  Simply open a web browser and type this ip address in URL bar.Â  Once the default gateway screen opens for your Linksys router, you will be able to make changes to allow the router to work with your previous network equipment.
+Linksys Router Ip Address Setup
+Connect PC directly to broadband modem/router provided      by your isp
+Open Command Prompt and type ipconfig
+Write down current Default gateway and Subnet Mask
+Disconnect Pc from the modem / router
+Connect Pc to your Linksys router
+Open Command Prompt and type ipconfig
+Open web browser and type in default gateway from the      command prompt program
+Configure Linksys Router (See Ip Address Schemes below)
+Connect the Modem / Router from Isp into the internet      port on your Linksys router
+You may have to unplug the Linksys router from the      electrical to reset the router to acquire the correct ip addresses
+Linksys Router Ip Address Schemes
+More often than not, you shouldÂ be able to plug your Linksys router into your ISP mode / router and your Internet and LAN will automatically work.Â  But sometimes your ISP will be using the same network scheme that the Linksys router is using.Â  So the easiest thing that you can do to make the network work is to change the default Linksys router address.
+Once the Linksys Basic setup page opens, change the linksys ip address to something other than 192.168.1.1.Â  Usually you can the ip address on the Linksys router to 192.168.2.1 and your network will start working.Â  After you have change the ip address on the Linksys router, click the save button.Â  Most 3rd party routers such as Belkin, 2wire and Netgear tend to use either 192.168.1.1 or 192.168.1.254 as the default gateway and 255.255.255.0 as the subnet mask.
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+Name

@@ -1,0 +1,49 @@
+Archived from groups: rec.audio.pro ( More info? )
+ 
+In article <znr1122310071k@trad>, Mike Rivers <mrivers@d-and-d.com> wrote:
+>In article <dc2rah$aal$1@panix2.panix.com> kludge@panix.com writes:
+>
+>> Yes, it used to happen a lot.  When a company didn't want to support
+>> a product any longer, they'd dump the source on their customers and let
+>> them worry about it.
+>I suspect that you're not talking about cheap consumer products
+>though. So you bought this $65,000 spectrum analyzer that we don't
+>want to make any more, and neither does anybody else because they're
+>all making $2,000 spectrum analyzers. So here's the code. Knock
+>yourself out. I suspect that some operating systems took the same
+>route.
+Right.  When you spend a substantial amount of money on a product, you
+expect that.  But then, with a lot of those products (and a lot of those
+operating systems), you got the source code anyway, along with the deal.
+Somewhere around here I have the VMS 4.7 source code on microfiche.  It
+cost us something like $200k when we got it.  It was worth every penny
+of that in being able to customize and maintain systems.
+Now that computer systems are much cheaper and the labor to update and
+maintain them is more expensive, it makes even more sense for vendors
+to make this sort of thing available.
+>> Probably not on your car, but there are folks who have reverse-engineered
+>> most of the domestic car control systems.  Probably you can get source
+>> code for your engine control system, but the accessory stuff is going to
+>> be hard to find unless you have a Ford or GM product.
+>
+>I remember seeing ads in the car magazines for replacement PROMs that
+>changed the characteristics of the combustion and emission control
+>system for more power. I don't know if they're as popular as they used
+>to be (as popular as that might have been) now that just about every
+>state has emission inspection. Some of them have a switch to change
+>back to the original parameters, others you have to remember to put
+>the origianal chip back in.
+They are very popular, and there is a wide variety of different systems.
+Some of them just change a few engine parameters, some of them completely
+replace the software.  Some of them replace the software in such a way
+that you can plug a laptop into the ECU and change the gains on the fly
+while driving.  Then there are systems which completely replace the ECU
+itself with their own processor, which are very popular among the NASCAR
+crowd.
+>> It would be easier to build a box with a thermistor and a relay that
+>> would just automatically press the button for you when it's hot and
+>> the engine is starting.
+>Now, if I could only find the connections to that button . . .
+That's why you spend $300 for the shop manual.  Or get the dealer to throw
+one in for free when you buy the car.
+--scott

@@ -1,0 +1,61 @@
+IPInfoOffline -  View IP addresses information (Country/IP Range) without connecting any external server.
+WhoisThisDomain - Retrieves WHOIS record of a domain.
+WhoisCL - Command-line utility (without user interface) that retrieves WHOIS record of a domain.
+WhosIP - Command-line utility (without user interface) that retrieves IP address information from WHOIS servers.
+Description
+IPNetInfo is a small utility that allows you to easily find all available information about an IP address: The owner of the IP address, the country/state name, IP addresses range, contact information  (address, phone, fax, and email), and more.
+This utility can be very useful for finding the origin of unsolicited mail. You can simply copy the message headers from your email software and paste them into IPNetInfo utility. IPNetInfo automatically extracts all IP addresses from the message headers, and displays the information about these IP addresses.
+How does it work ?
+The IP address information is retrieved by sending a request to the whois server of ARIN . If ARIN doesn't maintain the information about the requested IP address, a  second request is sent to the whois server of RIPE , APNIC , LACNIC or AfriNIC .
+After the IP address information is retrieved, IPNetInfo analyzes the Whois record and displays it in a table.
+Notice: From time to time, the WHOIS server of ARIN is down and doesn't respond to WHOIS requests from IPNetInfo, and thus IPNetinfo fails to retrieve the IP address. When such a thing occurs, simply try again later.
+Retrieving the message headers from your email client
+If you don't know how to get the message headers from your email client, this web site can help you - it provides detailed explanation about how to get the message headers in each email client.
+Versions History
+Version 1.37:
+Updated the internal IANA IP assignment table, for using the correct WHOIS server, according to the first byte of the IP address.
+Version 1.36:
+Fixed issue with ARIN queries: For query result containing more than one IP range, IPNetInfo displayed the wrong network details in the upper table.
+Version 1.35:
+Added 'Detect IPv6 addresses' option. When it's turned on, you can type valid IPv6 addresses, and IPNetInfo will display the information about these IPv6 address blocks.
+Version 1.30:
+Added 'Retry Failed Queries' (F7) option, which allows you to send WHOIS queries again for the items with 'failed' status. You can also use this option to continue the session that you stopped with 'Stop Retrieving Data' option.
+Version 1.27:
+Added Alt+O Accelerator Key (Ok button) on the 'Choose IP Addresses' dialog-box.
+Version 1.26:
+Fixed issue: The text-box of IP addresses was limited to 32 KB.
+Version 1.25:
+When you select multiple items in the upper pane, the lower pane will now display the  raw text returned from the WHOIS servers of all selected items. (In previous versions, the lower pane was empty when multiple items were selected in the upper pane)
+Version 1.24:
+Fixed issue: IPNetInfo now automatically scrolls the text of the bottom pane to the top when a new WHOIS record is retrieved.
+Version 1.23:
+Fixed IPNetInfo to work with the changes made in ARIN WHOIS server.
+Version 1.22:
+Fixed issue: for some networks, IPNetInfo displayed the wrong IP address owner name.
+Version 1.21:
+Fixed bug: IPNetInfo displayed an empty owner name when the first 'desc' line of the WHOIS record was empty.
+Version 1.20:
+Fixed a problem with 151.*.*.* addresses.
+Version 1.19:
+Fixed bug: IPNetInfo created the .cfg file in the wrong folder when one of the parent folders contained a dot character.
+Version 1.18:
+The 'Choose IP Addresses' dialog-box is now resizable.
+Version 1.17:
+Fixed bug: IPNetInfo crashed in some systems.
+Version 1.16:
+Added support for launching IPNetInfo from CurrPorts without displaying the main dialog-box.
+Version 1.15:
+New option: Automatically use the right server according to IP address. If this option is selected, IPNetInfo automatically detect the right WHOIS server according to the IP address. In previous versions, IPNetInfo always sent the first query to ARIN, and if it was a non-US address, it sent a second query to the right WHOIS server. This means that getting information for non-US IP address will work faster than before. For example, if the IP address begins with 194 (194.x.x.x), IPNetInfo will automatically send the query to the RIPE WHOIS server.
+Version 1.11:
+Fixed bug: The main window lost the focus when the user switched to another application and then returned back to IPNetInfo.
+Version 1.10:
+Added 'Show Tooltips' option.
+Added 'Show My Current IP Address' option - it automatically opens a Web page from NirSoft Web site that displays your current IP address. You can copy this address and paste it into IPNetInfo utility, and get all information about your IP address.
+The configuration of IPNetInfo is now saved into a cfg file instead of the Registry.
+Version 1.09:
+Added -B option in ripe.net queries, to avoid the default data filtering.
+Version 1.08:
+New option: Resolve IP Addresses.
+Version 1.07:
+New option: pause for X seocnds after retrieving Y IP addresses.
+Version 1.06:

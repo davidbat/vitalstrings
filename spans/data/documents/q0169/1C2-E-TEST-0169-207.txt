@@ -1,0 +1,6 @@
+ 
+Abstract
+Abstract — We report on our experience with integrating and using graphics processing units (GPUs) as fast parallel floatingpoint co-processors to accelerate two fundamental computational scientific kernels on the GPU: sparse direct factorization and nonlinear interior-point optimization. Since a full re-implementation of these complex kernels is typically not feasible, we identify e.g. the matrix-matrix multiplication as a first natural entry-point for a minimally invasive integration of GPUs. We investigate the performance on the NVIDIA GeForce 8800 multicore chip. We exploit the architectural features of the GeForce 8800 GPU to design an efficient GPU-parallel sparse matrix solver. A prototype approach to leverage the bandwidth and computing power of GPUs for these matrix kernel operation is demonstrated resulting in an overall performance of over 110 GFlops/s on the desktop for large matrices. We use our GPU algorithm for PDE-constrained optimization problems and demonstrate that the commodity GPU is a useful co-processor for scientific applications. Index Terms — GPGPU, graphical processing units, sparse matrix decomposition, sparse direct solvers, large-scale nonlinear optimization I.
+Citations
+A set of level-3 basic linear algebra subprograms - Dongarra, Croz, et al.                  - 1990
+184

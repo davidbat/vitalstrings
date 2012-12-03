@@ -1,0 +1,24 @@
+(and when calling dialog 4. another textfield free for use).
+Sample constructor calls:
+// Example for 1.) FrmCommon.FrmIPSubnet i = new FrmCommon.FrmIPSubnet(" IP Address", "Please enter ip address.", "OK", "Cancel", "192.168.0.1"); // Example for 2.) FrmCommon.FrmIPSubnet i = new FrmCommon.FrmIPSubnet(" IP Address", "Please enter ip address and port number.", "OK", "Cancel", "192.168.0.1", "55521"); // Example for 3.) FrmCommon.FrmIPSubnet i = new FrmCommon.FrmIPSubnet(" IP Address", "Please enter ip address, port number and subnet mask.", "OK", "Cancel", "192.168.0.1", "55521", "255.255.255.0"); // Example for 4.) FrmCommon.FrmIPSubnet i = new FrmCommon.FrmIPSubnet(" IP Address",<BR> "Please enter your IP Address and Port number. The subnet mask and " + <BR> "informations about local adapters are not transferred.",<BR> "OK", "Cancel", "192.168.0.1", "55521", "255.255.255.0",<BR> "In order to connect to client the entered subnet mask must match " + <BR> "your local one.");<BR>
+The arguments used when calling the constructor affect the type and look of the form. For example: if you're calling the form with constructor number one you just expect the ip address to be entered and so - only the GUI components regarding this are shown.
+Getting the values
+Getting the entered values back is as simple as setting them. Every IP submission dialog has the properties:
+IPAddress
+Port
+SubnetMask
+Every property can be used for setting and getting the properties. Because these values are initialized when calling the constructor, setting them shouldn't be important for you (only if you want to change the value afterwards).
+The values are set and returned in the form (without quotes):
+IPAddress : "192.168.0.1"
+Port : "55521"
+SubnetMask : "255.255.255.0"
+If you are using unallowed values (e.g. letters, numbers of of range) the standard value will be used. Those standard values are:
+IPAddress: "192.168.0.1"
+SubnetMask: "255.255.255.0"
+Sample form call:
+// Example for 3.) // Initializing variables string ipAddress; string port; string subnetMask; // Calling form and constructor FrmCommon.FrmIPSubnet i = new FrmCommon.FrmIPSubnet(" IP Address", "Please enter ip address, port number and subnet mask.", "OK", "Cancel", "192.168.0.1", "55521", "255.255.255.0"); // Shows the dialog i.ShowDialog(); // Store the entered values in the local variables ipAddress = i.IPAddress; port = i.Port; subnetMask = i.SubnetMask;<BR>
+Internal logic
+Of course the form should decide whether or not the entered values are valid. Because its a bit tricky (and you might want to customize the library I provided) - here is the internal logic:
+General
+The ip address and the subnet mask contain of 4 blocks:
+Examples:

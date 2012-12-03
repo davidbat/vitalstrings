@@ -1,0 +1,8 @@
+We describe the representation of
+(arrays A, JA and IA); in case of a generalized eigenvalue problem,
+must be stored similarly in arrays arrays B, JB and IB.
+Consider the symmetric matrix
+In order to interact with PJD or PJDREVCOM only half of the matrix should be passed, i.e. you can either pass the diagonal part plus the strict upper triangular part or the diagonal part plus the strict lower  triangular part. You may also pass any mixture of both; e.g.,  a symmetric permutation of the the upper triangular part. In all cases, you should avoid duplicated entries: if an entry from the lower triangular part is passed, the associated upper triangular part must not be  passed.  On the other hand, all diagonal entries must be explicitly passed, even when they are equal to zero. These two requirements should be met: otherwise   the code will not run properly.
+The following examples are legal possibilities, missing entries are those that will not be passed.
+Note that in the complex case the matrix is Hermitian instead of simply symmetric. Again only half of the offdiagonal entries should be passed, and this should be interpreted as follows: if, say
+and hence

@@ -1,0 +1,3 @@
+$39.95
+20  Sparse Matrices
+This chapter describes the use of sparse matrices in Octave. For matrices where a large number of the elements are zero, Octave provides a sparse matrix type which stores only the non-zero elements. This reduces the amount of memory required and allows unnecessary operations involving empty elements to be avoided.

@@ -1,0 +1,6 @@
+int a[10][10],b[10][3],r,c,s=0,i,j;
+clrscr();
+printf("\nenter the order of the sparse           matrix");
+scanf("%d%d",&r,&c);
+printf("\nenter the elements in the sparse           matrix(mostly zeroes)");
+for(i=0;i<r;i++)

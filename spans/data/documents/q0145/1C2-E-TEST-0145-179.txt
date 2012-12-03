@@ -1,0 +1,24 @@
+SUMMARY
+The future value of a dollar amount, commonly called the compounded value, involves the application of compound interest to a present value amount. The result is a future dollar amount. Three types of compounding are annual, intra-year, and annuity compounding. This article discusses intra-year calculations for compound interest.
+For additional information about annual compounding, click the article number below  to view the article in the Microsoft Knowledge Base:
+141695   (http://support.microsoft.com/kb/141695/EN-US/                         ) XL: How to Calculate Compound Interest
+Back to the top
+Calculating Future Value of Intra-Year Compound Interest
+Intra-year compound interest is interest that is compounded more frequently than once a year. Financial institutions may calculate interest on bases of semiannual, quarterly, monthly, weekly, or even daily time periods.
+Microsoft Excel includes the EFFECT function in the Analysis ToolPak add-in for versions older than 2003. The Analysis ToolPak is already loaded. The EFFECT function returns the compounded interest rate based on the annual interest rate and the number of compounding periods per year.
+The formula to calculate intra-year compound interest with the EFFECT worksheet function is as follows:
+=P+(P*EFFECT(EFFECT(k,m)*n,n))
+The general equation to calculate compound interest is as follows
+=P*(1+(k/m))^(m*n)
+where the following is true:
+P = initial principal
+k = annual interest rate paid
+m = number of times per period (typically months) the interest is       compounded
+n = number of periods (typically years) or term of the loan
+Examples
+The examples in this section use the EFFECT function, the general equation, and the following sample data:
+Intra-Year                 Number of compounding    compounding rate          periods per year    -----------------------------------------------    Semiannual                  2    Quarterly                   4    Monthly                    12    Weekly                     52    Daily                     360 or 365(actual)
+An investment of $100 pays 8.00 percent compounded semiannually. If the money is left in the account for three years, how much will the $100 be worth?
+Use the EFFECT Worksheet Function
+Because of semiannual compounding, you must repeat the EFFECT function twice to calculate the semiannual compounding periods. In the following example, the result of the nested function is multiplied by 3 to spread out (annualize) the compounded rate of over the term of the investment:
+=100+(100*EFFECT(EFFECT(.08,2)*3,3))

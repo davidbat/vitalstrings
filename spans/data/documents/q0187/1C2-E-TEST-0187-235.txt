@@ -1,0 +1,34 @@
+Posts: 23,270
+Fix your broken Pokemon FireRed/Leaf Green saves here!
+This is a guide on how to recover Pokemon saves made using the wrong save settings (i.e. Flash 64K instead of Flash 128K). At this moment, I cannot fully guarantee that it will work under all circumstances, but chances are that the following procedure will produce viable results.
+Required files
+A save state that was made using the Flash 64K save type
+An unpatched version of the rom of the game used to create the save state above (note that you may need to re-dump if you patched your existing rom)
+A copy of VisualBoyAdvance
+Instructions
+Create a new folder somewhere on your hard drive
+Copy the save state, the rom, and the emulator into the new folder you created in step 1. NO OTHER FILES SHOULD BE IN THAT FOLDER
+Open the emulator, but do not load the rom. DO NOT CHANGE ANY SAVE SETTINGS
+If you are playing Ruby, Sapphire, or Emerald, you should turn on the Real Time Clock by going to Options -> Emulator -> Real Time Clock
+Load the rom. You may get a white screen - that is normal behavior, so proceed to the next step
+Load the save state by going to File -> Load... and selecting the save state (it should show up on the screen without requiring you to change directories)
+Your saved game should be loaded. Then change the save type by going to Options -> Emulator -> Save Type -> Flash 128K
+Use the in-game save (i.e. press Enter to open the in-game menu and choose Save)
+After going through the entire saving process, close the emulator. If you look in the new folder you created in step 1, you should see a 128KB save file corresponding to your rom.
+Create another new folder within the folder you made in step 1
+Copy the emulator and the rom into the folder you created in step 9. DO NOT COPY ANY OF THE OTHER FILES
+Open the copy of the emulator you copied in the last step (i.e. in the newest folder). Do not load the rom
+Change the save type to Flash 128K by going to Options -> Emulator -> Save Type -> Flash 128K
+If you are playing Ruby, Sapphire, or Emerald, you should turn on the Real Time Clock by going to Options -> Emulator -> Real Time Clock
+Load the copy of the rom found in the newest folder you made - it should be the one that shows up automatically on the screen
+There should be NO white screen. Now go to File -> Import -> Battery File... Click on the icon with the folder and an upward-pointing arrow (i.e. go to the folder you created in step 1). Load the 128KB save that was created in step 8. At the confirmation screen, click "Yes"
+After the initial intro screen, you should get an error message like "The save file is corrupted. The previous save file will be load." That is correct behavior, so proceed to the next step
+Choose to continue with the existing save file
+Now use the in-game save again (i.e. press Enter to open the in-game menu and choose Save)
+Reset the emulator (File -> Reset)
+When the rom loads again, there should be no error message pertaining to the save. If you close the emulator, you will find a 128KB save file corresponding to the rom in the newest folder you made (in step 9). Delete all the files in the folder you made in step 1 so that you don't confuse them with the good saves (don't delete the folder you made in step 9 of course).
+Continue playing using the in-game save that was generated in steps 19-22. You may want to make a save state immediately just in case
+There seems to be some issues with Fire Red saves that makes them impossible to recover. Recovery with Leaf Green saves seems to be possible. However, if you have a Leaf Green rom it is possible to fix the firered save using these instructions, with the Leaf Green rom.
+Note, i ripped this guide from another site, and i don't care if the punk cuts a **** about it, i edited out all his lamer illegal bs and made it ngemu friendly.
+Last edited by Squall-Leonhart; December 31st, 2008 at 04:14..
+ 

@@ -1,0 +1,22 @@
+This help center is for an old version of Google Analytics and has been deprecated. Please use the latest Google Analytics Help Center .
+How do I exclude traffic from a range of IP addresses?
+Google Analytics filters use regular expressions , allowing users precise control over the data they're filtering. However, regular expressions can be difficult to write, especially when IP address ranges are involved. Use this tool to automatically generate the correct regular expression for your range of IP addresses.
+If you're new to filters or this is your first time using this tool, please read How do I create a filter?
+Step 1: Enter the first IP address in the range.
+First IP Address: *
+(e.g. 63.212.171.1)
+Step 2: (Optional) Enter the last IP address in the range. If this field is left blank, the tool will create the regular expression for the single IP address entered in step 1.
+Last IP Address:    
+(e.g. 63.212.171.254)
+Step 3: Copy and paste the results below into the IP address or Filter Pattern field of the Create New Filter page.
+More tips on IP address filtering
+Filter on multiple ranges
+You can also exclude a range of IP addresses. For example, if you want to exclude all traffic that has a second octet of either '23' or '45', you configure your filter to look like this: ^192\.(23|45)\..*
+^192\.(23|45)\..*
+If you want to filter for a range of IP addresses (e.g. 192.168.1.1-25 and 10.0.0.1-14), run the tool twice and combine the results with a pipe symbol ( | ):
+^192\.168\.1\.([1-9]|1[0-9]|2[0-5])$|^10\.0\.0\.([1-9]|1[0-4])$
+IP address length
+Filters in Google Analytics are limited to 255 characters in length. Large IP address ranges can generate filters over 255 characters in length. To create IP address filters that are under 255 characters consider the following:
+Restrict your range to the last two octets.
+Subdivide your range into smaller ranges.
+If your starting IP address ends in .0 and your ending IP address ends in .255, the regular expression will be shorter.

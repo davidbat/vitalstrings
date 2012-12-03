@@ -1,0 +1,127 @@
+The utility executable
+Q: What is the "utility executable" of which you speak?
+A: After you build the sparse_matrix_converter (see the installation instructions ), you should see an executable file named "sparse_matrix_converter" in the same directory as the sparse_matrix_converter source files.  That's the "utility executable."
+Q: What if I get an error message when trying to run the utility executable "sparse_matrix_converter" about not being able to find some library?
+A: If you are running some flavor of Unix, be sure that both the sparse_matrix_converter/ and bebop_util/ directories are in your LD_LIBRARY_PATH.  (On MacOS X, you should use DYLD_LIBRARY_PATH  instead.)  You can set LD_LIBRARY_PATH in bash using:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/mhoemmen/src/bebop_util:/home/mhoemmen/src/sparse_matrix_converter
+and in (t)csh using:
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH:/home/mhoemmen/src/bebop_util:/home/mhoemmen/src/sparse_matrix_converter
+in which you should replace /home/mhoemmen/src with the parent directory of your bebop_util and sparse_matrix_converter directories.  If you are running Windows, I can't help you -- in fact I would welcome instructions on how to do this in Windows.
+Q: Does the utility need me to give my matrix files specific extensions, depending on their type?
+A: No.  The utility and its associated library don't care what you name your files and they don't try to specify the extension of an output matrix file.  You are responsible for giving both input and output matrix files names that make sense.  For example, when you create a Harwell-Boeing format sparse matrix file, it should have an extension based on the contents of the file:  e.g. ".rua" for "real unsymmetric assembled" data.  But the sparse matrix converter won't correct you if you don't pick the right extension.
+Q: How do I use the utility executable to convert a file from Matrix Market format to Harwell-Boeing format?
+A: Suppose that you have a file "foo.mm" and you want to produce a file "foo.rua" (see here for a discussion of filename extensions with Harwell-Boeing format files).  Build the executable (see the installation instructions above) and run it as follows:
+./sparse_matrix_converter foo.rua HB foo.mm MM
+Conversion between different file formats
+Q: How do I convert between Harwell-Boeing and Matrix Market file formats?
+A: There are many ways.  You can use the utility executable "sparse_matrix_converter" that is built with the library, or you can use the library directly via either its C interface or one of the provided foreign function interfaces (currently only the Common Lisp interface is available).
+Using the utility executable:  see here.
+Using the C interface to the library: Build the library and look at the appropriate functions in sparse_matrix.h and sparse_matrix_ops.h.  For example:
+#include <bebop/smc/sparse_matrix.h> #include <bebop/smc/sparse_matrix_ops.h> ... struct sparse_matrix_t* A = load_sparse_matrix (HARWELL_BOEING, <your-input-filename>); assert (A != NULL); save_sparse_matrix (<your-output-filename>, A, MATRIX_MARKET); destroy_sparse_matrix (A);
+Using the Common Lisp interface to the library:  First build the libraries.  Then make sure that your Common Lisp implementation has ASDF and CFFI, and edit the top of interface.lisp to make sure that these get loaded whenever you load interface.lisp.  Then load interface.lisp into your Common Lisp implementation.  You can use the functions exported from the :sp package as follows:
+(defparameter A (sp:load! "thematrix.rua" "HARWELL_BOEING")) (when (cffi:null-pointer-p A)       (error "Failed to load matrix!")) (let ((errcode (sp:save! A "thematrix.mm" "MATRIX_MARKET")))   (when (/= 0 errcode)         (error "Failed to save matrix!"))   (sp:destroy! A))
+Conversion between different internal storage formats
+Q: How to I convert my compressed sparse row (CSR) format matrix to a compressed sparse column (CSC) format matrix?
+A: Here is one way to do it:
+Create an object of type csr_matrix_t (see csr_matrix.h) and fill it in with your CSR data structure, as in:
+struct csr_matrix_t A; init_csr_matrix (&A, m, n, nnz, val, ind, ptr, UNSYMMETRIC,                   0, REAL, USER_DEALLOCATES, NULL, NO_COPY);
+Call csr_to_csc (in csr_matrix.h) to convert the matrix:
+struct csc_matrix_t* B = NULL; B = csr_to_csc (&A); if (B == NULL)     {      fprintf (stderr, "*** Conversion failed! ***\n");      exit (EXIT_FAILURE);    }
+Use the resulting CSC format sparse matrix B (see csc_matrix.h).
+When done with B, deallocate it:
+destroy_csc_matrix (B);
+and deallocate your arrays val, ind and ptr yourself.  If you specify LIBRARY_DEALLOCATES instead of USER_DEALLOCATES when calling init_csr_matrix, the library will call free() on them, or you can give them a custom deallocation function in place of the NULL pointer above.  The latter would be useful e.g. if the arrays were allocated in C++ using the "new" operator, as new and malloc may not be compatible.  This necessitates wrapping the "delete []" operator so that you can call it from C.  (Oh wait -- that might be difficult with the current interface, as it requires that the deallocation function takes a void*, but the C++ "delete []" operator is type-specific -- is it?  There are clearly some issues to iron out.  You could work around this bug either by using malloc() and free() instead of "new" and "delete []", or by defining custom "new" and "delete []" operators that stash type information in the beginning of the array (e.g. at array[-1]), so your custom deallocator could switch-case on the type to pick the right delete[] operator -- mfh 04 Jul 2006.)
+Here is another way to do it:
+Create a sparse_matrix_t object that wraps your CSC format matrix:
+#include <bebop/smc/sparse_matrix.h> #include <bebop/smc/sparse_matrix_ops.h> #include <bebop/smc/csr_matrix.h> #include <bebop/smc/csc_matrix.h> ...  struct sparse_matrix_t* A = create_sparse_matrix (CSR,     (void*) create_csr_matrix (m, n, nnz, val, ind, ptr, UNSYMMETRIC, 0,                                REAL, USER_DEALLOCATES, NULL, NO_COPY));
+Convert the matrix to CSC format and check to make sure that the conversion succeeded:
+int errcode = sparse_matrix_convert (A, CSC);  if (errcode != 0)    {      fprintf (stderr, "*** Conversion failed! ***\n");      // Note: Don't call destroy_sparse_matrix (A) unless you       // can call free on val, ind and ptr.      free (A);      exit (EXIT_FAILURE);    }
+Use the CSC format sparse matrix:
+struct csc_matrix_t* B = (struct csc_matrix_t*) A->repr;  ...
+Free the CSC matrix when done:
+destroy_sparse_matrix (A);
+Guide to using the library
+Q: How can I use the Sparse Matrix Converter in my applications?  I see a lot of header files but I'm not sure where to start.
+A: Probably the best places to start are sparse_matrix.h and sparse_matrix_ops.h.  That will be enough if all you want to do is convert between different file formats.  If you want to work with the internal storage formats such as COO and CSR, you will also need to look at files appropriate for your particular matrix type, such as csr_matrix.h.  These files will provide the definitions of the structs which are used to represent the internal storage formats.  Also check out the enums in bebop_util/enumerations.h.
+Q: Where do I find documentation for your source code?
+A: It's in the code!  Use Doxygen to extract the documentation.  It's not quite complete yet but I'm working on it.
+Q: How do I initialize the library?
+A: Check out sparse_matrix_converter/main.c for an example.  Here is a minimal sequence:
+/*   * Do default library initialization.  In particular, this reads the  * BEBOP_DEBUG_LEVEL environment variable.  If its value is 0, no   * debug output is produced, and increasing integral values cause more  * and more debug output to be produced.  Debug output goes to stderr;  * you can change this by using a nondefault initialization seqeuence.  * The documentation gives details.  */ int errcode = 0; bebop_default_initialize (argc, argv, &errcode); assert (errcode == 0);
+You can also use the command-line options reader in bebop_util/include/bebop/util/get_options.h.  Look at sparse_matrix_converter/main.c for an example.
+Debug output?
+Q: What is this file "bebop.log" that gets created in my current working directory?
+A: That file contains debug output which may or may not be  useful to you.  You can set the level of verbosity of debug  output using the environment variable BEBOP_DEBUG_LEVEL.  If  you set it to 0, no debug output will be produced.  Increasingly higher integer values result in increasingly more  debug output.
+Q: Can I use the SMC's debug output facility for my own applications?
+A: Yes you can, although currently you may find that  increasing the debug output verbosity (via either the  BEBOP_DEBUG_LEVEL environment variable or the  bebop_set_debug_level() function) will cause the SMC to run  much more slowly than usual (due to debugging code) and  produce a lot of debugging output.  Check out  bebop_util/include/bebop/util/log.h for more details.
+Thread safety?
+Q: Is the SMC library thread-safe?
+A: We have aimed to make the BeBOP Utility Library   thread-safe, by using certain POSIX Threads (Pthreads)  constructions.  Thread safety is enabled by default; you can disable it by setting  USE_PTHREADS=0 on the appropriate line of bebop_make/options,  and rebuilding all the libraries from scratch.  Among other features,  logging (see bebop/util/log.h) and random number generation  (see bebop/util/random_number.h) are protected via  serialization; this is slow but produces correct and  predictable results.  (Note that since logging is serialized,  the logger will not be helpful for catching threading bugs.)         We also avoid calling non-thread-safe standard C functions,   such as strtok().
+Pthreads is a POSIX-standard threading library that works on Unix-like  operating systems such as GNU/Linux, MacOS X, Solaris and IBM's AIX .  There is some support for Pthreads on Cygwin; see for example the Cygwin API  Reference, which documents the functions in the Pthreads API that  Cygwin implements. You can find a Pthreads tutorial here. The formal description of the Pthreads library can be found in the POSIX standard.
+I don't know much about Win32 threading constructs (that's something I remember reading about long ago, but I didn't have   to work with it much, so it has slipped from memory), so if you are   interested in contributing code, please contact me.  (If you have a nice   implementation of regular expression searching, let me know too.)  (See   also this link for more about Win32 threads.)
+Note that safe usage of the Win32 "CriticalSection" approach to inter-thread   synchronization may call for Microsoft's nonstandard "structured exception   handling" extension to the C language (see for example this MSDN page), and I'm most emphatically
+not
+interested in using nonstandard C   constructs in the code.  This isn't about an "anti-Microsoft" bias; it's   about supporting as many platforms as we can.  If you can do it without   using nonstandard C features, I'm all for it.
+Interoperability with other (programming) languages
+Q: Say I want to create e.g. a csr_matrix_t in Lisp via some foreign function  interface (such as UFFI or CFFI or a particular Lisp's  native FFI), and pass it Lisp arrays for val, ind and ptr.  How do I tell the  SMC not to call free() on those arrays upon destruction of the matrix handle,  and how do I ensure that the arrays aren't garbage-collected in Lisp before I'm  done using them in C?
+A: Your first question is pretty straightforward.  The library now supports the concept of "data ownership."  When you call create_csr_matrix, there is a parameter that tells the library whether the library or the user is responsible for deallocation.  Just say that the user (Lisp in this case) will deallocate the arrays.  Then, upon destruction of the matrix handle, the library won't try to call free() on the Lisp arrays.
+The question question is more difficult.  In Allegro CL, you can use the (platform-dependent, nonstandard) ":allocation" keyword with MAKE-ARRAY, along with the appropriate setting, to ensure that Lisp doesn't GC the arrays.  I need to do some more research to figure out exactly which setting is best with the :allocation keyword.  For Lisp systems that do not support individual marking of array storage, you may want to consider turning off GC while using the Sparse Matrix Converter.  SBCL supports some mechanisms for preventing certain objects from being garbage collected; see e.g., the SBCL manual ,  but the simplest approach is perhaps to disable the garbage collector while  operating, like this:
+(sb-ext:gc-off) ;; do stuff (sb-ext:gc-on)
+Someone suggested to me keeping a reference in Lisp to the arrays (thus preventing them from being GC'd), but the problem with that is every time Lisp does a GC, it may move the location of the Lisp arrays in memory, thus making their pointers invalid.  So you either need to fix the location of the arrays in Lisp's memory (via some platform-dependent extension), or disable garbage collection globally.
+Ownership mode
+Q: So what's all this about "ownership mode" of input arrays?
+A: I think it would be best for me to repeat the interface change proposal  in its entirety.
+I'm planning to change the interface of sparse_matrix_t and the various matrix types (e.g. csr_matrix_t) to support different ideas of data ownership.  Up to now, the library always assumes that it is free to call free() on any matrix data that it is given, e.g. the val, ind and ptr arrays for CSR format.  This assumption is used by the destructor functions (destroy_sparse_matrix, destroy_csr_matrix, etc.).  Furthermore, the library does not copy the input arrays upon construction (see e.g. create_csr_matrix), which means that user code may not call free() on the arrays directly.
+These two aspects -- copy or not upon input, and responsibility to deallocate -- are not orthogonal.  Copy on input implies that the library (rather than the user) takes reponsibility for deallocating the arrays (not the original ones, but the copies).  However, the converse need not hold.  I distinguish (at least) three different cases:
+No copy, user responsible for deallocation;
+No copy, library responsible for deallocation;
+Copy (library responsible for deallocation).
+#2 includes two different cases:  deallocation with C standard free(), and deallocation with a custom routine (e.g. if the arrays were allocated in a different language such as C++, and the system does not guarantee that the two languages use the same memory management mechanism).
+One of my goals in setting up the matrix type system was encapsulation of each matrix type (e.g. CSR, COO, JAD).  Only CSR routines should be responsible for deallocation of CSR storage.  This necessarily implies that each matrix type should manage data ownership and copying issues.  The member functions of the wrapper type (sparse_matrix_t) do not include creation of a matrix from the underlying arrays, so the sparse_matrix_t structure doesn't need to store any information about data ownership or copying of input arrays.  I can't exclude the possibility that some sparse_matrix_t member functions may need to manipulate this information in the underlying matrix representation, though I think it is doubtful (e.g. if a COO matrix is read from a file, load_sparse_matrix need only call the corresponding coo_matrix_t member function, which sets the data ownership and copying information appropriately without need of mediation by sparse_matrix_t member functions).
+One question is whether to set up one or two different enums to distinguish all the different cases.  I figure that for clarity, two enums are better -- what do you think?  Here are the two:
+enum ownership_mode_t {   LIBRARY_DEALLOCATES,   USER_DEALLOCATES };
+and
+enum copy_mode_t {   NO_COPY,   COPY };
+So let's say I want to create a csr_matrix_t using create_csr_matrix.  The new interface will look like this:
+struct csr_matrix_t* A = create_csr_matrix (m, n, nnz, val, ind, ptr, UNSYMMETRIC, 0,                                              REAL, LIBRARY_DEALLOCATES, my_free, NO_COPY);
+Here, "my_free" is a custom deallocation function to be called on each of the arrays val, ind and ptr upon destruction of the matrix handle.  It has the following signature:
+void my_free (void*)
+which is the same as that of the C function free().  If the default deallocator free() is desired, the user may pass either a pointer to the free() function or NULL for that argument.
+One option to reduce the number of arguments when calling create_csr_matrix is to use a struct to encapsulate all the descriptive information, such as the symmetry type, the type of the values in the matrix, and the data ownership information.  One advantage of this technique is that it prevents users from mixing up the order of arguments.  One disadvantage is that it precludes a functional style of programming, as C does not allow functional-style struct creation as in e.g. Perl.  Furthermore, it complicates calling the C interface from other languages.  A major design goal of the library is ease of integration with higher-level languages. (Integration with C++ is not so hard; I'm thinking mainly of languages for which it takes a little more effort to call C functions, such as Python or Common Lisp.)  (Member functions of the various matrix types (e.g. CSR, COO) must be callable from other languages, in case we want to create arrays in the higher-level language and pass them in as parameters of e.g. create_csr_matrix.)  So I think the "massive number of arguments" approach is the least bad of two unpleasant alternatives.
+E-mail list
+Q: Is there an e-mail list for announcements?
+A: Yes there is!!!  Send me an e-mail at "mhoemmen at cs dot berkeley dot edu" and I'll put you on the list.  It's private to keep away the spammers.  I'll send out an e-mail whenever I post a new version of the library.
+Installation questions
+Q: What if I don't have the complex.h header file or C99 support on my platform?
+A: Edit bebop_make/setup and find the line that says
+USE_C99_COMPLEX=1
+Change 1 to 0, so that the line reads
+USE_C99_COMPLEX=0
+Then, rebuild bebop_util and sparse_matrix_converter from scratch (make clean and then make again).  This will let you build all the libraries, without requiring the complex number support provided by implementations of the C99 standard.  You will, however, still be able to use our stub interface to complex arithmetic defined in bebop_util/include/bebop/util/complex.h.
+Q: But I'm running Cygwin with gcc 3.4.4 and I've heard that that version of gcc has complex arithmetic support!
+A: This is a known issue with Cygwin builds of gcc. I'd suggest reading the above entry in the FAQ.
+Q: What if I'm using Pthreads for multithreading and I want the SMC to be thread-safe?
+A: Find the line in bebop_make/options that says
+USE_PTHREADS=0
+Change 0 to 1, so that the line reads
+USE_PTHREADS=1
+Then rebuild the two libraries (bebop_util first, and then sparse_matrix_converter) from scratch.  Pthreads support should be enabled.  Note that thread safety is currently experimental and not thoroughly tested.
+Q: I'm getting some build errors relating to the "isnan()" predicate. How can I prevent these errors?
+A: This probably means that your compiler is not fully C99-compliant. The isnan() predicate is defined in the standard header math.h in a C99-compliant system, but other systems may lack this predicate. You can make the errors go away by editing bebop_make/options.  Find the line in bebop_make/options that says
+USE_ISNAN=1
+and change the 1 to 0, so that it says
+USE_ISNAN=0
+Then rebuild the two libraries (bebop_util first, and then sparse_matrix_converter) from scratch.
+Logistics and misc. questions
+Q: How is the Sparse Matrix Converter related to the OSKI library?
+A: OSKI and my library share common functionality, though their code bases are not yet fully integrated.  OSKI focuses on automatic performance tuning, and my library focuses on conversion between different file and internal formats.  See the e-mail list (on Google Groups) for more discussion.
+Q: Doesn't your library duplicate functionality of e.g. the Matrix package in R?
+A: You can find documentation for the Matrix package for R at this site. That package is specifically designed for interaction with direct solvers.  From what I understand from the documentation, it tends to prefer storing sparse matrices in compressed sparse column (CSC) format, although CSR and COO appear also to be supported.  The package supports input and output to Harwell-Boeing or Matrix Market file formats (see "readHB", "readMM", "writeHB", "writeMM").
+The main difference between their library and ours is that ours is implemented fully in C with a full C interface and (at the moment) a simple Common Lisp interface.  It is designed for use both by C code and by higher-level languages via e.g., SWIG or foreign function interfaces.  Those of you who know more about R are welcome to do comparison studies.
+Q: There are a bunch of "sparse BLAS" operations in csr_matrix.h, like sparse matrix-vector multiply and sparse triangular solve.  Why are they only implemented for CSR format sparse matrices?
+A: Those are very basic implementations only and not at all optimized. Use OSKI if you need optimized sparse matrix operations like sparse matrix-vector multiplication and sparse triangular solve.  It's not the goal of the Sparse Matrix Converter to support a full set of sparse matrix operations.  I've implemented them in CSR format for my personal convenience only.
+Q: How do I load a sparse matrix from a Harwell-Boeing file in CSR format?
+A: Harwell-Boeing loads as CSC format, so you have to convert to CSR. Here is some example code that returns a pointer to the freshly allocated CSR-format sparse matrix loaded from a given Harwell-Boeing format file.  (The "info" parameter should be familiar to users of  LAPACK.)
+#include <bebop/smc/sparse_matrix.h> #include <bebop/smc/sparse_matrix_ops.h> #include <bebop/smc/csr_matrix.h> #include <assert.h> #include <stdio.h> #include <stdlib.h> struct csr_matrix_t* load_hb2csr (const char* const filename,              int* const info) {   struct sparse_matrix_t* A = NULL;   A = load_sparse_matrix (HARWELL_BOEING, filename);   if (A == NULL)     {       *info = -1;       return NULL;     }   *info = sparse_matrix_convert (A, CSR);   if (*info != 0)     {       destroy_sparse_matrix (A);       *info = -2;       return NULL;     }   *info = 0;   return (struct csr_matrix_t*) A; }
+Q: How come the Harwell-Boeing file parser crashes on certain inputs?
+A: The Harwell-Boeing file parser is a fragile piece of code that I inherited from someone else.  (Ha, I can divert the blame! ;-) )  I've got a new version almost ready, but it's not in the SMC yet.  Keep posted for new releases!

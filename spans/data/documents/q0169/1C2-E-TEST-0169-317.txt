@@ -1,0 +1,4 @@
+Then WHY post in a C forum???
+He means, the code Dianecht suggested was in FORTRAN.
+I don't think that should be a problem in terms of getting it to work with C code, but I understand not wanting to try.
+I would recommend taking a peek at the GSL (GNU Scientific Library) but don't get your hopes up as I'm not sure it includes sparse matrix functions.  There is another major free software mathematical project I came across on one occasion, but I forget the name ...

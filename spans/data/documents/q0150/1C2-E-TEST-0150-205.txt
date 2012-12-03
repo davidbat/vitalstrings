@@ -1,0 +1,9 @@
+New User (4)
+I assume that the numbers you are using for the size of the trailer are in feet.
+First task is to figure out the volume of the trailer in cubic feet. The formula is length x width x height.
+53 x 8.5 x 9 = 4,054.5 cubic feet
+Next task is to convert from cubic feet to cubic yards. One cubic yard is 3 ft long, 3 ft wide, and 3 ft high. The volume of one cubic yard in cubic feet = length x width x height = 3 x 3 x 3 = 27. One cubic yard equals 27 cubic feet.
+Final task is to convert volume of the trailer from cubic feet to cubic yards. This is accomplished by dividing the volume in cubic feet by 27.
+4,054.5 (divided by) 27 = 150.016666(repeating), or approximately 150 cubic yards. To be more exact, divide the decimal portion above in to 1 to figure out the fractional remainder.
+1 (divided by) .016666 = 6
+Your final answer is 150 1/6 cubic yards in the trailer (150 and one sixth cubic yards).

@@ -1,0 +1,8 @@
+Show me another »
+Sparse Matrix Multiplication - Java?
+i have 3 arrays (value, row, and column). (Wherever there is a nonzero value, there is a corresponding row and column).  I read in data from an input file and store the values in the arrays.  Some of the data I read in has over 100,000 elements with only a handful of them being non-zero.  Once the data is read in, I want to do matrix multiplication with a vector containing alternating 1's and 0's.  Obviously, with data this size I will run out of memory if I try to do this using a 2D array.  So how can I perform matrix multiplication using just the 3 arrays I already have?  Again, the language is in JAVA.  Thanks a lot.
+2 years ago
+Report Abuse
+Additional Details
+I have to do both left and right multiplication.  The row array is sorted from low to high but the column array is unsorted.  i have the right multiplication done but I still need help with the left multiplication
+2 years ago

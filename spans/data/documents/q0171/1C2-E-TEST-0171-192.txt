@@ -1,0 +1,4 @@
+  
+Definition
+Unique 32-bit long code number which each computer acquires automatically through its internet access provider (IAP) for connecting to the internet . This address is in 'a. b .c.d' format where each letter (separated by a period ) is a number with value from 0 to 255. However, every computer connected to the internet also has a domain name (consisting of a maximum of 20 alphanumeric characters ) which is easier to remember than its associated IP address. Specialized computers (called ' domain name servers ' translate the domain names into their corresponding IP addresses so that the recipient ( target ) computers can be located and the data is correctly routed. Also called web address . See also uniform resource locator .
+Related Articles

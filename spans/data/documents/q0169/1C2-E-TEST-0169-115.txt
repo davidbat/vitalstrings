@@ -1,0 +1,3 @@
+Sparse Matrix Example
+Sparse Matrix Example
+This is an example from a static analysis of an automobile chassis. The plot shows the sparsity pattern of the stiffness matrix.  The matrix is symmetric, so only the lower half is shown.  Its order is 44609, and 99.95% of its elements are zero.  This particular matrix is known as BCSSTK32 from the Harwell-Boeing collection.  The MatrixMarket web site has a large collection of sparse matrices.

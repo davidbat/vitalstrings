@@ -1,0 +1,71 @@
+Compounded   daily
+ 
+What is the total amount      if $500 is invested for 4 years at 5% compounded monthly?
+ 
+Here, P = $500, r = .05, n = 12, and t = 4
+A = P*(1 + r ¸ n)nt
+A = $500*(1 + .05 ¸ 12)(12*4)
+A = $610.44767…
+A» $610.45 (rounded)
+Thus the total amount is $610.45.Notice that this includes the $500 principal.  The interest made is $610.45 - $500.00 = $110.45.
+ 
+What      if the previous example was compounded daily?
+ 
+The change here is that n = 365.
+A = P*(1 + r ¸ n)nt
+A = $500*(1 + .05 ¸ 365)(365*4)
+A = $610.69301…
+A» $610.69 (rounded)
+Notice that the total amount here is 24 cents higher than in the previous example.  The more often the compounding, the more money there is in interest.  It may not be a lot, but it is more.
+ 
+What      if the previous example had a term of 30 months
+ 
+Remember that in this formula the time is expressed in years.
+A = P*(1 + r ¸ n)nt
+A = $500*(1 + .05 ¸ 365)(365*30/12)
+A = $566.56937…
+A» $566.57 (rounded)
+What      is the amount of interest if $2500 is invested for 3 years at 10%      compounded weekly?
+ 
+Here, P = $2500, r = .10, n = 52, and t = 3
+A = P*(1 + r ¸ n)nt
+A = $2500*(1 + .10 ¸ 52)(52*3)
+A = $3373.67494…
+A» $3373.67 (rounded)
+I = $3373.67 - $2500 = $873.67
+Using a little algebra, one can also find the principal needed to obtain an amount in the future.  One must solve for P by dividing to obtain
+A = P*(1 + r ¸ n)nt
+divide both sides by (1 + r ¸ n)nt
+P = A ¸(1 + r ¸ n)nt
+How      much money do you need to put in a 4% compounded monthly savings account      to have $5000 in 15 years?
+ 
+In this problem we are looking for the Principal (the initial amount).
+A = P*(1 + r ¸ n)nt
+$5000 = P*(1 + .04 ¸ 12)(12*15)
+P = $5000 ¸(1 + .04 ¸ 12)(12*15)
+P = $2746.79752…
+P» $2746.80 (rounded)
+Thus if you invested $2746.80 in a savings account with these conditions now, you would have $5000 in 15 years.
+ 
+There is one other type of compounding, continuous compounding, which means that instead of compounding every day, month, etc, compounding is done every instant.  The formula for continuous compounding is:
+A = P*ert
+where e = 2.71828…. The number e is found in most calculators. Here is the first example with a slight change.
+ 
+What is the total amount      if $500 is invested for 4 years at 5% compounded continuously?
+A = P*ert
+A = $610.70137…
+A» $610.70 (rounded)
+Notice this total is only 1¢ higher than the compounded daily example (example 2).This is probably why continuous compounding is not very widely used.
+Exercises
+What      is the interest on a $650 compound interest loan with a 10% compounded      quarterly rate for 18 months? (Round answer to whole cents)
+ 
+What      is the total amount made on a $1000 compound interest investment if the      rate is 8% compounded monthly and the term is 3 years? (Round answer to      whole cents)
+ 
+What      is the Principal of a 2-year loan if the total amount paid is $6000 with a      rate of 6% compounded daily? (Round answer to whole cents)
+ 
+How      much money is needed now if one wants $25,000 in 10 years and an 8%      compounded weekly rate is found? (Round answer to whole cents)
+ 
+What      is the interest on a $4500 compounded continuously investment if the rate      is 9% and the term is 7 years? (Round answer to whole cents) 
+ 
+What      would the answer to #5 be if the compounding was daily?
+ 

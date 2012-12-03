@@ -1,0 +1,8 @@
+P is the principal (the money you start with,         your first deposit)
+r is the annual rate of interest as a decimal (5% means r =         0.05)
+n is the number of years you leave it on deposit
+A is how much money you've accumulated after n years, including         interest.
+If the interest is compounded once a year:
+A = P(1 + r)n
+If the interest is compounded q times a year:
+A = P(1 + r/q)nq

@@ -1,0 +1,10 @@
+$1,161.47
+$1,161.82
+Let's look at a $1,000 deposit made to an account that pays 5% interest per year.  The table shows the balance in the account if we assume annual compounding (once a year), monthly compounding and daily compounding.  As you can see from the table the accounts grow at different rates.  The more frequent the compounding period the faster the account balance grows.  This means that the effective yearly interest rates of the accounts must be different (the amount of interest actually paid during a year).  They differ because your account earns interest on interest when compounding takes place.  The effective interest rates can be calculated as follows.
+Annual compounding:  Effective rate = (1 + .05/1) = 1.05 or 5%,  the APR or nominal rate and the effective rate are the same.
+Monthly compounding:  Effective rate = (1. +.05/12)12 = 1.0512, the APR is 5% but the effective rate is 5.12%
+Daily compounding:  Effective rate = (1 +.05 .05/365)365 = 1.0513, the APR is 5% but the effective rate is 5.13%
+Interest compounded continuously
+The general equation for continuous compounding is B = P ert
+B is balance, P is the initial amount, r is the compounded continuously annual rate and t is time in years.
+Year

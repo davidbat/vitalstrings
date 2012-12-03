@@ -1,0 +1,11 @@
+Originally Posted by cerealspearmint
+By the way, only F1-F10 are saves on VBA.
+Anywhoo, the problem is your settings for the "Save Type" most likely. In the VBA, go to [Options], [Emulator], [Save Type], and checkmark "Automatic" and "Flash 128k". That should hopefully fix it.
+This works well as I literally just had the same problem with the save error - replace backup memory as well. But it will NEVER save the game using the in game save function if you start the game with the [Save Type] set to "Flash 64k" if you did start the game with the smaller save type flash then you will have to close, open, change the type and start the game again.
+Quote:
+If you are playing on a Vba, just save by using Shift+F*
+*= number form 1 to 12
+the F family buttoms.
+Just a small note in reply to this. Thats a cool little way of saving the game states, but the 'F' stands for 'Function' not 'Family' hence they are called 'Function keys' and applications use them to run functions from within the applications.
+Last edited by illegalc0de; January 20th, 2011 at 22:20..     Reason: Typo
+ 

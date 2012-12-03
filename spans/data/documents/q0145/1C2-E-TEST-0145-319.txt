@@ -1,0 +1,23 @@
+Compound Interest Worksheet
+Compound Interest Worksheet
+This worksheet will let you understand how to calculate Compound Interest for different compounding period. Compound Interest is also similar to the simple interest but sometimes it so happens that the borrower and lender agree to fix up a certain unit of time say monthly, quarterly, half-yearly and yearly basis to settle the previous account. In such cases the principal amount changes at every completion of unit of time in the agreement. As it changes in the way that the amount after the first unit of time becomes the principal for the second unit, the amount after the second unit of time becomes principal for third unit and so on. Once the specified time is completed, the difference between the amount and the money borrowed is called the Compound Interest for that period and it is often abbreviated as CI. The Calculator used to calculate it is called as Compound Interest Calculator . The following are the formulas employed in Compound Interest Calculation on different compounding periods
+Compound Interest Formulas
+Let the Principal = P, Rate = R% per year, Time = n years then the formulas as follows for different compounding periods
+Annual Compound Interest can be calculated from the below formula:
+Amount = P (1 + R/100)n
+Half-yearly Compound Interest can be calculated from the below formula:
+Amount = P (1 + (R/2)/100)2n
+Quarterly Compound Interest can be calculated from the formula given below:
+Amount = P (1 + (R/4)/100)4n
+The below formula is used when interest is compounded annually but the time is in fraction, say 3.4 years
+Amount = P (1 + R/100)3 x (1 + 0.4 xR/100)
+When Rates are different for different years, say R1%, R2%, R3%  for 1st, 2nd, 3rd year respectively
+Amount = P (1 + R1 / 100) x (1 + R2 / 100) x(1 + R3 / 100)
+Present worth of USD. X due n years hence is given by:
+Present Worth = x / (1 + R/100)n
+Compound Interest Calculation Example
+Find the compound interest on 6250$ at 16% per annum for 2 years, compounded annually
+Solution:
+Amount = 6250 x (1 + 16/100)2
+= 6250 x 29/25 x 29/25
+= 8410

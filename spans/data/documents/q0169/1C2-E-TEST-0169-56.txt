@@ -1,0 +1,40 @@
+78 Addition of sparse matrices
+219
+79 Example of addition of two sparse matrices
+220
+710 Algorithm for the symbolic addition of two sparse matrices with N rows and M columns
+221
+711 Algorithm for the numerical addition of two sparse matrices with N rows
+223
+712 Product of a general sparse matrix by a column vector
+224
+713 Algorithm for the product of a general sparse matrix by a full column vector
+225
+714 Product of a row vector by a general sparse matrix
+226
+716 Algorithm for the product of a full row vector by a general sparse matrix
+227
+717 Product of a symmetric sparse matrix by a column vector
+228
+718 Algorithm for the product of a symmetric sparse matrix by a full column vector
+229
+719 Multiplication of sparse matrices
+230
+720 Example of product of two matrices which are stored by rows
+231
+721 Algorithm for the symbolic multiplication of two sparse matrices given in rowwise format
+233
+722 Algorithm for the numerical multiplication of two sparse matrices given in rowwise format
+234
+723 Triangular factorization of a sparse symmetric matrix given in rowwise format
+235
+724 Numerical triangular factorization of a sparse symmetric matrix given in rowwise format
+238
+725 Algorithm for the symbolic triangular factorization of a symmetric sparse matrix A
+240
+726 Algorithm for the numerical triangular factorization of a symmetric positive deﬁnite sparse matrix A
+242
+727 Example of forward and backward substitution
+245
+728 Algorithm for the solution of the system UTDUx  b
+246

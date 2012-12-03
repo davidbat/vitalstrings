@@ -1,0 +1,7 @@
+3
+ 
+The thing is, because sparse matrices don't have many non-zero elements, using a 2d array to represent one is the exact opposite of what you want to accomplish. If you have an 8x8 matrix with 3 non zero entries, you want a data structure with 3 elements, not 64. This is probably a school project, and since you have this kind of assignment you probably learned about other data structures than arrays.
+Ever seen a dog chase its tail? Now that's an infinite loop.
+Similar Threads
+By atomant in forum New To Java
+Replies: 11

@@ -1,0 +1,35 @@
+Find your IP Address with IP Info
+IP Info, see your IP address
+If you don't see your            IP information, wait a few seconds and then hit Reload.
+Your IP address is
+157.55.18.23
+Details about your IP address:
+This is the IP address of the machine                  that requested the page. Typically this is your own IP address.                  If you used a router/proxy you will not get the correct IP address. If you use a home router  to connect to the Internet (or your company has a proxy), the IP address shown will be address of your router or proxy. If you use a router and you want to run a server on your computer, you may need to place your computer in the DMZ settings of your router, or enable port forwarding on your router.                         If you have a network connection that gets a dynamic IP address and you want to give it a domain name so people can reach it easier, you might be interested in Dynamic DNS .
+If you would like to look up a domain name and get information about the host, you may look it up by doing a whois search .
+To see if your IP address has a Domain Name associated with it, you can do a reverse lookup .
+Tell the visitors of your web site to find out their            IP address. Insert this piece of code on your site:
+<A HREF="http://www.lawrencegoetz.com/programs/ipinfo/">SEE          YOUR IP ADDRESS</A>
+A little bit about your IP address (Internet Protocol address).                      When you connect to the internet, either via your internet                      service provider (Verizon, Cable Vision, etc.), or your office LAN                      connection, you are assigned an IP address. This address identifies                      your computer from the other computers on the internet. Your                      IP address can be either static, meaning it never changes,                      or dynamic, meaning each time you connect online you are                      assigned a new address for that session. Check with your internet                      service provider or network administrator to find out if your                      computer uses static or dynamic IP addressing.
+The commands below will show you the IP address of your computer. If you use a home router to connect to the Internet, the IP shown from these commands will not be your public IP address (it will be your internal IP address). Internal usually IP address start with a 10.10 or 192.168.
+Windows 2000, XP:
+Enter in the command: cmd
+At                 the command prompt enter in: ipconfig
+Vista, WIndows 7:
+Go to the command prompt by select the Windows logo and in the search box entering:
+cmd
+From the command prompt enter in the command: ipconfig
+On Windows XP, Vista, Windows 7, if you'd like to know your MAC address (physical hardware address of a your network card), at the command prompt you can enter the following command:
+getmac -v
+1. Click on the Mac logo on the top left of the screen.
+2. Open System Preferences
+3. Under Internet and Network, click 'Network'
+4. Select which adapter, such as AirPort or Ethernet.
+5. Select TCP/IP and you'll see your IP address..                                     If you receive a dynamic IP address from your internet provider,                      it will likely be different on your next session. So if you                      need your IP address for later use, please check when you                      log on for that session.
+Useful network links:
+If you are setting up a network, be sure to check the Netmask setting on the network card.
+Test your computer's speed to the Internet by using SpeedTest.net
+Ubuntu Linux - Setup Linux as your main operation system, or if you have Windows installed, you can have both without the need to partition your hard drive.
+VirtualBox - Setup multiple operating systems running concurrently on your computer.
+Misc:
+A new site I've made to let children control a robotic bug.
+ 

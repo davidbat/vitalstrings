@@ -1,0 +1,38 @@
+Boston Apartments - Compound Interest Calculations
+COMPOUND INTEREST CALCULATIONS
+The power of compound interest!
+Most of us would like to have a million dollars cash at some point in our life.  Most of us also work 40+ hours a week at our job (or jobs, whatever the case may be).  What little amount we save can and will accumulate over the years, but the odds of reaching the $1 million mark is relatively small.
+However, if we take the power of compound interest, then we can begin to realize our $1 million goal:
+For instance, let's say you decide to invest $100.00 per month in an investment that yields 6% interest compounded monthly, for the next 30 years.  In 30 years, you would have $100,451.50!  That's not too bad, considering you made $64,451.50 in interest (money you didn't have to begin with).  Now, let's say you kept that up another 10 years.  You would then have $199,149.06.  In 10 years, you almost double the value of your investment.
+I find that teachers don't emphasize this enough in school.  If they illustrated this concept, then we may have more millionaires at 60 than we do now.  Think about it.  You're 18 years old.  You decide to invest $67.00 per month in an annuity (ex: a mutual fund) that yields 12% compounded monthly.  You would have $1 million by the time you are 60.  Imagine retiring at 60 with $1 million in cash!  Even better.  Let's say you continued with the plan for just 5 more years.  Incredibly, you'd have $1,822,097.00!  In 5 years, you almost make another million!
+I was recently on a quest to find certain formulas that would solve for the different variables in investments.  This discussion gets a little technical.  You'll need to have some advanced Algebra skills to fully comprehend the formulas:
+First, the variables:
+A = one-time investment (not for annuities)
+p = investment per compound period
+i = interest rate
+c = # of compound periods per year
+n = # of compound periods
+To get p, I simply take the amount I want to invest per month, multiply it by 12 to get a yearly investment amount, then divide by c to get the investment per compound period.  To get n, I take the number of years I wish to invest and multiply it by c to get the number of compound periods.
+First, let's deal with simple compound interest with one-time investments.  Here's the formula that will let us know the future value (FV) of our investment after n years if we invest A at i interest compounded c times per year:
+FV = A (1 + i/c)(n)
+OK, now let's say we want to find out what we have to invest today (A) to have FV in the future if we get i interest compounded c times per year for n years:
+           FV
+A = -----------
+       (1 + i/c)n
+Finally, I want to find out how long it will take me (n) to have FV in the future if I invest A initially at i interest compounded c times per year:
+       ln(FV) - ln(A)
+       ln(c + i) - ln(c)
+NOTE: ln is the natural logarithm function.
+Now, let's put this into practice.  The forms below allow you to input your own amounts:
+Finding the future value of a one-time investment
+Investment:
+# of times compounded each year:
+# of years:
+Finding the one-time investment needed
+to reach a desired future value
+Desired future value:
+# of times compounded each year:
+# of years:
+Finding the # of years it will take to
+reach a desired future value
+Desired future value:

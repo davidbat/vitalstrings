@@ -1,0 +1,11 @@
+Top
+What does an IP Address look like?
+IP numbers take the form of four groups of a maximum of three digits each (called octets) separated by periods (full stops). The periods are usually verbalized as "dot".
+Example: 199.045.145.123
+Top
+What is the difference between static and dynamic IP Addresses?
+There are actually two ways of assigning IP numbers, static and dynamic. Static IP numbers are permanently assigned to a computer. Dynamic IP numbers are only assigned to a computer at the time it connects with the Internet. Dynamic IP numbers can change every time the computer reconnects to the Internet. Dynamic IP numbers are used to maximize the use of the numbers available to an organization or an Internet Provider.
+Top
+What are private and public IP Addresses?
+A computer on the Internet is identified by its IP Address. In order to avoid Address conflicts, IP Addresses are publicly registered with the Network Information Centre (NIC). An IP Address can be private, for use on a LAN, or public, for use on the Internet or other WAN. Computers on private TCP/IP LANs however do not need public Addresses, since they do not need to be accessed by the public. For this reason, the NIC has reserved certain Addresses that will never be registered publicly. These are known as private IP Addresses, and are found in the following ranges:
+From 10.0.0.0 to 10.255.255.255

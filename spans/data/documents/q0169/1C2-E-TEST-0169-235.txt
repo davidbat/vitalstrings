@@ -1,0 +1,5 @@
+Posted 09 September 2007 - 05:35 AM
+PennyBoki, on 8 Sep, 2007 - 10:23 AM, said:
+try to represent the sparse matrices with linked lists then just check the coordinates of the values if they match the do the addition if not just copy the value of the one to the value with the same coordinates of the new sum matrix which is also uses linked list. I haven't done this yet, but that is what I get from searching one minute on the google.
+thanks for that!!now i can start working on it...
+Was This Post Helpful? 0

@@ -1,0 +1,6 @@
+It is much easier to integrate MATLAB with Java than with C++.
+The libraries, I gave you links for, are optimised for performance.
+The guys at CERN do pretty much high performance computing stuff and they are not crazy. No need to use C++ __only__ for performance reasons. Probably this is the reason you cannot find good libraries for sparse matrix for C++. Many scientists that do HPC professionaly (and would be able to write such a library) switched from C++ to Java, Fortress, Erlang, Scala etc. These languages are fast enough and do not have problems with pointer aliasing or multithreading - things that make getting top-notch performance in C/C++ difficult (albeit, not impossible).
+Scientific and technical computing, as, for example, carried out at CERN, is characterized by demanding problem sizes and a need for high performance at reasonably small memory footprint. There is a perception by many that the Java language is unsuited for such work. However, recent trends in its evolution suggest that it may soon be a major player in performance sensitive scientific and technical computing. For example, IBM Watson's Ninja project showed that Java can indeed perform BLAS matrix computations up to 90% as fast as optimized Fortran.
+... and optimized Fortran is faster than C++. ;)
+Last edited on

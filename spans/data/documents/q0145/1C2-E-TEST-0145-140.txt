@@ -1,0 +1,14 @@
+Interest Compounded Daily vs. Monthly: Does It Matter?
+Short answer: No, not really, unless you are talking amounts over six figures.
+I’ve seen so many people get hung up on this, I think it deserves a post.  The easiest way to explain it is with an example.  Let’s say ‘DaBank’ compounds interest daily on their accounts, and ‘MoBank’ compounds interest monthly.  Let’s say you have a $10,000, 1-Year CD with both of them at the same 5% APR interest rate, and compare how much interest you have at the end of the year.  Both credit interest monthly.
+MoBank:
+Since MoBank compounds monthly, you are getting 5%/12 = .4166% every month.  So, at the end of the first month, you will have 10,000 x 1.004166 = $10041.67.  During the second month, you will be earning .4166% on $10041.67, not just $10,000.  So at the end of the 2nd month you’ll have $10083.51, not $10083.34.  This goes on for twelve months:
+$10,000 x (1 + .05/12)12 = $10511.62.
+DaBank:
+Since DaBank compounds daily, you are getting 5%/365 = .0137% every day.  So, at the end of the first day, you will have 10,000 x 1.000137 = $10001.37.  Using the same basic formula as above for 365 days:
+$10,000 x (1 + .05/365)365 = $10,512.67.
+So over the course of a year you’ve only earned $1.05 more by compounding daily versus compounding monthly!
+The easy way to not even worry about this is to just compare APY instead of APR.
+If you compare APYs, or annual percentage yield, the compounding effect is already taken into account, whether it be daily, monthly, or every 6.374 seconds.
+In our example above, MoBank would advertise a 5.12% APY and DaBank could advertise a 5.13% APY, with the same 5% APR. I hope that clears things up for some!
+Find more in Banking | 9/3/05, 1:12pm | Trackback

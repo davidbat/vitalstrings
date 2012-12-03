@@ -1,0 +1,29 @@
+Slightly more frequent insights into the day job.
+Sunday, 23 December 2007
+Storing Data in a Sparse Matrix
+One of the problems of storing data in a matrix (a two-dimensional Cartesian structure) is that if not all of the elements are used, there might be quite a waste of space. In order to handle this, we can use a construct called a "sparse matrix", where only the active elements appear. Each such element is accompanied by its two indexes (the row and the column). Discuss in what ways such a structure is similar to and/or different than a list.
+A Linked List and a Sparse Matrix are two different data storage formats. "Many numerical problems in real life
+applications such as engineering, scientific computing and economics use huge matrices with very few non-zero
+elements, referred to as sparse matrices" (Smailbegovic, Gaydadjiev & Vassiliadis, n.d.). The most obvious way to
+store a sparse matrix would be in a multi - dimensional array. However this is extremely wasteful because the
+majority amount of zero elements that will never get accessed must still have memory allocated to them. "With a
+little extra effort, the size of the array can be deferred until the array is created at runtime, but after that
+it remains fixed" (Parlante, 2001). When an array is created the memory used by it is all stored in one chunk.
+In contrast, a Linked List consists of a series of nodes that have their own independent memory allocation. These
+nodes are 'linked' through pointers - each node in the Linked List usually contains two fields, one of which
+stores the data for the node, the second of which contains a pointer to the next node in the chain.
+The Linked List holds a number of advantages over the Sparse Matrix implemented as a multi - dimensional array.
+The first is the fact that the Linked List is much more dynamic. Dynamically changing the size of an array is hard
+work for the programmer, whereas a Linked List can be easily grown as required by simply chaining more nodes
+together. Also, because an array allocates all its memory in one block, making changes to the array requires
+making changes to all its elements. A Linked List is not constrained in this way.
+An array does outperform a linked list, however, when thinking about the time taken to access a node - this is
+always constant in an array of any size, whereas accessing a node lower down the chain in a linked list sees
+increasingly degraded performance. But implementing a sparse matrix using a Linked List rather than a
+multi-dimensional array does give benefits to the programmer in terms of performance and ease of implementation.
+Refs:
+Smailbegovic, F., Gaydadjiev, N. G., Vassiliadi, S. (n.d.) Sparse Matrix Storage Format [Online] Delft, Netherlands: Delft University of Technology
+Available from http://ce.et.tudelft.nl/publicationfiles/1106_547_smailbegovic.pdf (Accessed 23rd Dec 2007)
+Parlante, N (2001) Linked List Basics [Online] Stanford, USA: University of Stanford
+Available from http://cslibrary.stanford.edu/103/LinkedListBasics.pdf (Accessed 23rd Dec 2007)
+Posted by Mark Perry at 16:56

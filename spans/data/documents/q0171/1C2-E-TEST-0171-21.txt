@@ -1,0 +1,11 @@
+::
+0:0:0:0:0:0:0:0
+Note: For compression format you can use two colons (::) only once in an IPv6 address to represent hexadecimal fields of consecutive zeros.
+How many ip addresses is already in use for internet protocol version 4 (IPv4)?
+Total number of IP addresses: 3,327,351,481
+Total number of IP Blocks on the country level: 132,163
+Total number of countries: 242
+There are two kinds of IP address's Static and Dynamic.
+A dynamic IP address changes each time you connect to your Internet Service Provider (ISP). This allows ISPs to keep a pool of addresses available.
+A static IP address is fixed, much like a telephone number. If your ISP gives you a static address, you will always use the same address.
+Geoip database are provide by Maxmind .

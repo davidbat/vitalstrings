@@ -1,0 +1,36 @@
+SPARSKIT2
+ 
+SPARSKIT is a package of FORTRAN subroutines for working with sparse matrices. It includes general sparse matrix manipulation routines as well as a few iterative solvers, see detailed description of contents below.
+Submitted: Dec 09, 1998
+GMRES
+ 
+We propose an implementation of the flexible GMRES (FGMRES) (Saad, 1993) algorithm for both real and complex, single and double precision arithmetics suitable for serial, shared memory and distributed memory computers. FGMRES is a variant of the GMRES method with right preconditioning that enables the use of a different preconditioner at each step of the Arnoldi process. In particular, a few steps of GMRES can be used as a preconditioner for FGMRES.
+Submitted: Jul 01, 1998
+y12m
+ 
+Y12MA solves sparse systems of linear algebraic equations by Gaussian elimination. The subroutine is a "black box subroutine" designed to solve efficiently problems which contain only one system with a single right hand side.
+Submitted: Jul 04, 1999
+ARPACK - Arnoldi Package
+ 
+ARPACK is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems. This site is the ARPACK Homepage, and includes sections such as Overview, How to get the software, ARPACK User's Guide, and others.
+Submitted: Oct 25, 1997
+UMFPACK/MA38
+ 
+The Unsymmetric-pattern MultiFrontal Package (UMFPACK, Version 2.2.1) solves the linear system Ax=b using LU factorization, where A is a general unsymmetric sparse matrix. The method relies on dense matrix kernels (the BLAS, also see below) to factorize rectangular frontal matrices, which are dense submatrices of the sparse matrix being factorized.
+Submitted: Jul 04, 1999
+Laso
+ 
+The LASO package is a set of FORTRAN IV subroutines for computing a few eigenvalues of a large (sparse) symmetric matrix. DILASO Finds all the eigenvalues and eigenvectors of a large sparse symmetric matrix outside a user defined excluded interval. DNLASO Finds a few eigenvalues and eigenvectors at either end of the spectrum of a large sparse symmetric matrix.
+Submitted: Jul 04, 1999
+RISOLV
+ 
+RISOLV is a Robust Iterative SOLVer for large scale linear systems. The algorithm is based on polynomial approximation in the complex plane. RISOLV DOES NOT STAGNATE OR BREAKDOWN. Whenever a theoretical polynomial algorithm can reach a solution, so does RISOLV with number of iterations close to optimal. Compared to leading iterative methods(e.g. GMRES ), RISOLV reduces the computation time of large industrial problems by orders of magnitude. Its main advantages:
+Submitted: Feb 18, 2006
+MT1: A Sparse Compiler
+ 
+The Fortran compiler MT1 is a sparse compiler, i.e. a special kind of source-to-source restructuring compiler that can automatically transform a dense program (in which all operations on matrices are simply implemented using two-dimensional arrays) into a semantically equivalent sparse program (operating on more complicated sparse data structures), thereby reducing storage requirements and computational time of the original application.
+Submitted: Apr 15, 2003
+Aztec
+ 
+Many important scientific and engineering applications require the use of linear solvers. The Aztec iterative solver package grew out of a specific application: modeling reacting flows (MPSalsa). Our primary goal has been to provide state-of-the-art iterative methods that perform well on parallel computers (applications of over 200 Gflops have been achieved on the Sandia-Intel TFlop Computer) and at the same time are easy to use for application engineers. In addition to providing standard iterative methods to engineers, the Aztec library is also used in our research on preconditioners. At present, we are working closely with a couple of specific applications in developing some new multilevel preconditioners.
+Submitted: Mar 03, 1998

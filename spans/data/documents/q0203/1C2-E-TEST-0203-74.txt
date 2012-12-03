@@ -1,0 +1,42 @@
+Points : 15
+These articles explains you the concept of Garbage Collection in .net framework starting from Programming level and will take you to the system level.
+Introduction
+I have read various articles on garbage collection in .net, but all those were explaining the process at the core level. It was very tough time for me to understand exactly the process at that level, so I changed my plan of learning and started learning from the programming level and advanced to the system level. During this process I had prepared these articles. These articles explains you the concept of Garbage Collection in .net framework starting from Programming level and will take you to the system level. Get ready to taste the first bit of this series.
+Before we understand the process of garbage collection we need to know the methods/classes used for this purpose. Here we get to know the methods of Garbage Collection (Destructors and Finalizers) by understanding the difference between them.
+Differences between Destructor and Finalize
+Destructor is a C# terminology, where a destructor will be written in a class to clean the memory used by the instances of that class. A destructor is written in C# as how we write in c++ i.e. place a ~ (tilde) before the name of the class.
+NOTE: To understand this write a class with a destructor and compile it to a dll. Now open the compiled dll in ILDASM and verify the metadata. You will find that the constructor you wrote in the class is now available as a finalize method in IL. So at the IL level a destructor will also be converted as a Finalize method.
+Finalize is a VB.NET terminology. In finalize we write the code to clean up the memory used by the class. Finalize methods will have the name Finalize.
+A destructor cannot be explicitly called in C#. It will be called by GC process while collecting the garbage.
+A finalize method can be called explicitly by using the objectname.Finalize() syntax
+So this point onwards we will use only the word Finalize (People using C# must immediately translate it as a destructor).
+Now I presume that you understand that to release memory allocated to an object we need to write the code in a Finalize method.
+But in general, you should avoid writing a Finalize method (destructor) unless your object controls some unmanaged resource (such as file handles, window handles, or database connections) other than managed memory. If your object merely has references to other managed code objects, garbage collector will take care of freeing all the memory and other objects correctly.
+The reason to avoid finalizers, unless you absolutely need them, is
+• Objects with finalizers take much longer to garbage collected (why it takes long time, we will see in the upcoming articles) than do objects without, so don't override Finalize “just to be safe.”
+• Before the object that has a finalize method can be garbage collected, CLR will do a lot of time consuming work on this. So think twice before you use the finalize method, as finalizing objects can needlessly hurt your program's performance.
+• We cannot really predict when the finalize method will be called. It will be called during garbage collection, and time to collect the garbage is decided by the .net runtime by using optimization algorithms.
+To surpass the disadvantage of finalizers another method is provided in .net framework i.e. Dispose. Using Dispose will not hurt your programs performance or kill the runtime time.
+Differences between finalize and Dispose Methods.
+Finalize method cannot be called explicitly, dotnet runtime calls this method implicitly to destruct the object. (In C#) Dispose method Must be called explicitly at any time just like any other method. Contains the code to clean up the Unmanaged code accessed by the object.
+No guarantee is provided with when the runtime executes the Fianlize method to destruct the object, though the object goes out of scope.
+Dispose method will be executed as soon as we call the method explicitly.As we cannot predict when the Finalize method is called, this type of collecting garbage is called non-deterministic finalization.
+Since we dictate exactly when to collect garbage using Dispose method, this method is called deterministic finalization.
+For a class to write the functionality of the Dispose method, the class must implement IDisposable interface. So “why do we need finalize method when we have the Dispose method, which functions as good as a finalize method”? Assume that you have written a class in .net framework. This class uses a lot of unmanaged code and to clear the memory you have written a well functioning dispose method. So you will assume that everything is in place and will give the class to your friend to access. Your friend in turn will access it. But he forgets to call the dispose method in the end. Then what?……Memory Leakage.
+Why so? Your friend has used a lot of unmanaged code from your class and forgot to call the Dispose method and .net framework doesn’t know how to clean the unmanaged code.
+To overcome such a case you will write your class with both dispose and finalize methods (finalize method will act as a backup method). In finalize method you will do nothing more than calling the dispose() method. In this case if your friend calls the dispose method, it will be well and good. If he forgets to call the dispose method, .net framework will call the finalize method while destructing the object. Eventually no memory leakage will be there.
+Design Patterns for Garbage Collection
+There is always confusion on how to implement GC in our classes. This article tells a simple rule of how to implement GC functionality for some simple scenarios
+1. If your Class is not using any unmanaged code:
+Simply don’t write any method to collect the garbage. Leave the headache to CLR. It will take care of destructing your object.
+2. If your Class is using Managed Code.
+Write a Finalize method (in C# a destructor) and a Dispose method in your class implementing the clean out of the managed code.
+The idea behind this pattern is that the client decides when the resources are no longer required and calls the Dispose or Close method on the class. This method then cleans up the resources and ensures that the object can no longer be used. However, adding a Dispose or Close method is not sufficient in and of itself since if the client forgets to call it, the resource may not then be released causing a leak in your application. To ensure that resources are cleaned up, your classes can implement a destructor (Finalize method in VB.NET) that gets called automatically by the CLR when the GC process finally cleans up the instance. As a result, in your classes you’ll want to implement a Dispose or Close method along with a destructor.
+Summary
+• When an object is accessing managed code then you might want to provide programmers with the ability to explicitly and implicitly release these external resources before the garbage collector frees the object.
+• If an external resource is scarce or expensive, better performance can be achieved if the programmer explicitly releases resources when they are no longer being used. To provide explicit control, implement the Dispose method provided by the IDisposable Interface. The consumer of the object should call this method when it is done using the object. Dispose can be called even if other references to the object are alive.
+• Provide implicit control by implementing the protected Finalize Method on an object. The garbage collector calls this method at some point after there are no longer any valid references to the object.
+• Note that even when you provide explicit control by way of Dispose, you should provide implicit cleanup using the Finalize method. Finalize provides a backup to prevent resources from permanently leaking if the programmer fails to call Dispose.
+Keep watching www.dotnetspider.com for next articles of this series.
+In the next article we will look at the care to be taken while writing Finalize and Dispose methods in a polymorphic scenario.
+Did you like this resource? Share it with your friends and show your love!

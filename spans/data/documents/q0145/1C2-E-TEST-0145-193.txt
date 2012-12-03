@@ -1,0 +1,5 @@
+Double-click the Calculate button and implement its Click event as     follows:
+ 
+Private Sub cmdCalculate_Click()     Dim Principal As Currency     Dim InterestRate As Double     Dim InterestEarned As Currency     Dim FutureValue As Currency     Dim RatePerPeriod As Double     Dim Periods As Integer     Dim CompoundType As Integer     Dim i As Double     Dim n As Integer          Principal = CCur(txtPrincipal.Text)     InterestRate = CDbl(txtInterestRate.Text) / 100          If optMonthly.Value = True Then         CompoundType = 12     ElseIf optQuarterly.Value = True Then         CompoundType = 4     ElseIf optSemiannually.Value = True Then         CompoundType = 2     Else         CompoundType = 1     End If          Periods = CInt(txtPeriods.Text)     i = InterestRate / CompoundType     n = CompoundType * Periods     RatePerPeriod = InterestRate / Periods     FutureValue = Principal * ((1 + i) ^ n)     InterestEarned = FutureValue - Principal          txtInterestEarned.Text = FormatCurrency(InterestEarned)     txtAmountEarned.Text = FormatCurrency(FutureValue) End Sub
+Press F5 to test the form
+ 

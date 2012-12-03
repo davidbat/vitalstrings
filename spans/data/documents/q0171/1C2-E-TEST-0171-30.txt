@@ -1,0 +1,8 @@
+IP address definition
+networking
+(Internet address) The 32-bit number uniquely identifying a node on a network using Internet Protocol , as defined in STD 5, RFC 791. An IP address is normally displayed in dotted decimal notation , e.g. 128.121.4.5.
+The address can be split into a network number (or network address) and a host number unique to each host on the network and sometimes also a subnet address .
+The way the address is split depends on its "class", A, B or C (but see also CIDR ). The class is determined by the high address bits:
+Class A - high bit 0, 7-bit network number, 24-bit host number. n1.a.a.a 0 <= n1 <= 127
+Class B - high 2 bits 10, 14-bit network number, 16-bit host number. n1.n2.a.a 128 <= n1 <= 191
+Class C - high 3 bits 110, 21-bit network number, 8-bit host number. n1.n2.n3.a 192 <= n1 <= 223

@@ -1,0 +1,31 @@
+Re: SVD for a large sparse matrix
+Re: SVD for a large sparse matrix
+From: "John D'Errico" < woodchips@xxxxxxxxxxxxxxxx >
+Date: Fri, 24 Feb 2006 01:34:03 -0500
+vivek wrote:
+I would like to know if there is a way to calculate the singular
+value decomposition (SVD) of a large matrix.
+The matrix dimension is of the size 17640 x 254016. It's currently
+a
+When i use the matlab's SVD function its gives "out of memory"
+error
+as it tries to convert the sparse matrix into a full one.
+Then i tried using SVDS which is svd for sparse matrices, but the
+problem with that one is that if matrix A is of size m by n then
+U is of m by k
+S is of k by k
+V is of n by k
+where k is an integer that you specify.
+So if i do [U,S,V] = svds(A,10);
+I'll get U = 17640 by 10, s = 10 by 10 and V = 254016 by 10 where
+as
+in a real SVD, if A is m by n,
+U will be m by m
+S will be m by n
+V will be n by n
+Can anyone help me ?
+What is wrong with that?
+So how will you expect to store a full version
+of U and V? Remember they will be dense matrices
+even if A was sparse.
+HTH,

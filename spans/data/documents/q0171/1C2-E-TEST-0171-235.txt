@@ -1,0 +1,19 @@
+Select Network Control Panel
+Now, set the Show drop down menu to Built in Ethernet.
+Then click on the Ethernet tab at the right. The Ethernet ID is the NIC address.
+To get the NIC address for an AirPort card set the Show drop down menu to AirPort
+On the AirPort tab, the first tab, the AirPort ID is the NIC address.
+ 
+Mac   10.3 users (not pictured)
+This opens the Apple System Profiler. Once open, look   for "Network" in the left     hand column and lcik   on it. Ethernet Address field and IP Field   entry.
+Under the Apple Menu Item select "About This Mac"
+From the newly opened window click the "More Info" button.
+This opens       the Apple System Profiler. Once open, look for "Network       Overview" drop down arrow. Under the "Built in" drop       down arrow, look for
+- Ethernet       address field entry
+- IP field entry
+Mac OS 10.2X (pictured below)
+This opens the Apple System Profiler. Once open, look for "Network    Overview" drop down arrow. Under the "Built in" drop down   arrow, look for
+- Ethernet address field entry
+ 
+Last modified: Tuesday, 25-Sep-2007 14:47:57 EDT. (jj)
+All users of Yale University computing and networking facilities are expected to read and abide by the Information Technology Appropriate Use Policy . Copyright 2011, Yale University, New Haven, Connecticut, USA. All rights reserved. Comments or suggestions to our site editor .  Certifying authority: Leonard Peters , Associate Vice President and Chief Information Officer.   Privacy Policy.

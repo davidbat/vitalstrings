@@ -1,0 +1,8 @@
+printf("\n\n\n\t\t FIRST MATRIX");
+printf("\n\nENTER THE VALUE FOR ROW = ");
+scanf("%d",&m1);
+printf("\n\nENTER THE VALUE FOR COLUMN= ");
+scanf("%d",&n1); clrscr();
+printf("\n\nENTER THE VALUE FOR (%d*%d) MATRIX= ",m1,n1); for(i=0;inz1) printf("\n\n\nIT CAN CONVERT INTO SPARSE MATRIX\n"); else { printf("\n\nCAN'T CONVERT INTO SPARSE MATRIX\n"); exit(1); } //converting into sparse matrix printf("\n\nCONVERSION OF SPARSE MATRIX\n\n"); sm1[0][0]=m1; sm1[0][1]=n1; sm1[0][2]=nz1; k=1; for(i=0;inz2) printf("\n\n\nIT CAN CONVERT INTO SPARSE MATRIX\n"); else { printf("\n\nCAN'T CONVERT INTO SPARSE MATRIX\n"); exit(1); } //converting into sparse matrix printf("\n\nCONVERSION OF SPARSE MATRIX\n\n"); sm2[0][0]=m2; sm2[0][1]=n2; sm2[0][2]=nz2; l=1; for(i=0;i=m2&&n2) { sm3[0][0]=m1; sm3[0][1]=n1; sm3[0][2]=nz1+nz2; } else { sm3[0][0]=m2; sm3[0][1]=n2; sm3[0][2]=nz1+nz2; } k=1,l=1,m=1; while(nz1!=0&&nz2!=0) { if(sm1[k][0]==sm2[l][0]&&sm1[k][1]==sm2[l][1]) { sm3[k][0]=sm1[k][0]; sm3[k][1]=sm1[k][1]; sm3[k][2]=sm1[k][2]+sm2[k][2]; k++; l++; m++; nz1++; nz2++; } //printing of addition OS sparse matrix printf("\n\n\t\tADDTION OF SPARSE MATRIX IS\n\n"); for(i=0;i
+First answer by ID2088519465 . Last edit by Veenasakumar4u . Contributor trust : 0               [ recommend contributor recommended]. Question popularity : 5 [Recommended].
+user-generated content

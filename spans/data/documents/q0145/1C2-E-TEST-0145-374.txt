@@ -1,0 +1,8 @@
+Long                    Term Time Value of Money Practice Questions 2
+In our tutorial on long term time value of money , we explained compound interest in            the form of annually compounded interest. What happens if the interest            is not compounded annually (once a year), but quarterly (4 times a year)            or monthly (12 times a year)? In these circumstances, our money would            grow much faster at monthly compounding, as opposed to annual compounding.            Let's take a look:
+C/Y = Compounding Periods Per Year
+If investment interest rate is compounded            monthly, then C/Y = 12
+If investment interest rate is compounded quarterly,            then C/Y = 4
+If investment interest rate is compounded semi-annually,            then C/Y = 2
+If investment interest rate is compounded annually,            then C/Y = 1
+Year

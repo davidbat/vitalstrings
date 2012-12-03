@@ -1,0 +1,7 @@
+support free documentation
+20.1.4  Sparse Matrix Types
+When solving linear equations involving sparse matrices Octave determines the appropriate algorithm from the properties of the matrix, as discussed in section 20.2 Linear Algebra on Sparse Matrices . Octave probes the matrix type when the div (/) or ldiv (\) operators are first used and caches the type.  The matrix_type function can also be used to determine the type of the sparse matrix prior to use of the div or ldiv operators. For example
+a = tril (sprandn(1024, 1024, 0.02), -1) ...     + speye(1024);  matrix_type (a); ans = Lower
+The result shows that Octave correctly determines the matrix type, a lower triangular matrix. The function matrix_type can also be used to force the type of a matrix to a particular value. For example
+a = matrix_type (tril (sprandn (1024, ...    1024, 0.02), -1) + speye(1024), 'Lower');
+This allows the cost of determining the matrix type to be avoided. However, incorrectly defining the matrix type will result in incorrect results from solutions of linear equations, and so it is entirely the responsibility of the user to correctly identify the matrix type.

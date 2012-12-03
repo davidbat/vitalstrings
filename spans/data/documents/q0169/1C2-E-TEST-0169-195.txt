@@ -1,0 +1,99 @@
+Sparse Model Matrices
+Introduction
+Model matrices in the very widely used (generalized) linear models of  statistics, (typically t via lm() or
+glm() in R) are often practically sparse | whenever categorical predictors , factors in R , are used.
+We show for a few classes of such linear models how to construct sparse model  matrices using sparse
+matrix (S4) objects from the Matrix package, and typically without using dense  matrices in in termediate
+steps.
+1 One factor: y ~ f1
+Let's start with an arti cal small example:
+> (ff <- factor(strsplit("statistics_is_a_task", "")[[1]],  levels=c("_",letters)))
+[1] s t a t i s t i c s _ i s _ a _ t a s k
+Levels: _ a b c d e f g h i j k l m n o p q r s t u v w x y z
+> factor(ff) # drops the levels that do not occur
+[1] s t a t i s t i c s _ i s _ a _ t a s k
+Levels: _ a c i k s t
+> f1 <- ff[, drop=TRUE] # the same, more transparently
+and now as sume a model
+for i = 1; : : : ; n = length(f1)= 20, and
+with a constraint such as
+("sum") or
+("treatment") and
+=as. numeric (f1[i]) being the level number of the i -th observation. For such a
+"design", the model is only estimable if the levels c and k are merged, and
+> levels(f1)[match(c("c","k"), levels(f1))] <- "ck"
+> Matrix(contrasts(f1)) # "treatment" contrasts by default -- level "_" =  baseline
+6 x 5 sparse Matrix of class "dgCMatrix"
+> Matrix(contrasts(C(f1, sum)))
+6 x 5 sparse Matrix of class "dgCMatrix"
+> Matrix(contrasts(C(f1, helmert)), sparse=TRUE) # S-plus default; much less  sparse
+6 x 5 sparse Matrix of class "dgCMatrix"
+where contrasts() is (conceptually) just one major  ingredient in the well-known model.matrix() function
+to build the linear model matrix X of so-called \ dummy variables ". Since  2007, the Matrix package has
+been providing coercion from a factor object to a sparseMatrix one to produce  the transpose of the model
+matrix corresponding to a model with that factor as predictor (and no  intercept):
+> as(f1, "sparseMatrix")
+6 x 20 sparse Matrix of class "dgCMatrix"
+which is really almost the transpose of using the above sparsi cation of  contrasts() (and arranging for nice
+printing),
+> printSpMatrix( t( Matrix(contrasts(f1))[as.character(f1)  ,] ),
++ col.names=TRUE)
+and that is the same as the "sparsi cation" of model.matrix(), apart from the  column names (here trans-
+posed),
+> t( Matrix(model.matrix(~ 0+ f1))) # model with*OUT* intercept
+6 x 20 sparse Matrix of class "dgCMatrix"
+A more realistic small example is the chickwts data set,
+> str(chickwts)# a standard R data set, 71 x 2
+'data.frame': 71 obs. of 2 variables:
+$ weight: num 179 160 136 227 217 168 108 124 143 140 ...
+$ feed : Factor w/ 6 levels "casein","horsebean",..: 2 2 2 2 2 2 2 2 2 2 ...
+> x.feed <- as(chickwts$feed, "sparseMatrix")
+> x.feed[ , (1:72)[c(TRUE,FALSE,FALSE)]] ## every 3rd column:
+6 x 24 sparse Matrix of class "dgCMatrix"
+casein . . . . . . . . . . . . . . . . . . . . 1 1 1 1
+horsebean 1 1 1 1 . . . . . . . . . . . . . . . . . . . .
+linseed . . . . 1 1 1 1 . . . . . . . . . . . . . . . .
+meatmeal . . . . . . . . . . . . . . . . 1 1 1 1 . . . .
+soybean . . . . . . . . 1 1 1 1 . . . . . . . . . . . .
+sunflower . . . . . . . . . . . . 1 1 1 1 . . . . . . . .
+> ## Provisional (hence unexported) sparse lm.fit():
+> Matrix:::lm.fit.sparse(x = t(x.feed), y = chickwts[,1])
+[1] 323.5833 160.2000 218.7500 276.9091 246.4286 328.9167
+2 One factor, one continuous: y ~ f1 + x
+To create the model matrix for the case of one factor and  one continuous predictor---called \analysis of
+covariance" in the historical literature--- we can adopt the fol lowing simple scheme:
+- FIXME -
+The nal model matrix is the catenation of
+1) create the sparse 0-1 matrix m1 from the factor - == f1 main-e ect
+2) the single row/column 'x' == 'x' main-e ect
+3) replacing the values 1 in m 1@x (the x-slot of the factor model matrix), by  the values of x (our continuous
+predictor)
+3 Two (or more) factors, main e ects only: y ~ f1 + f2
+Let us consider the warpbreaks data set of 54  observations,
+> data(warpbreaks)# a standard R data set
+> str(warpbreaks) # 2 x 3 (x 9) balanced two-way with 9 replicates:
+'data.frame': 54 obs. of 3 variables:
+$ breaks : num 26 30 54 25 70 52 51 26 67 18 ...
+$ wool : Factor w/ 2 levels "A","B": 1 1 1 1 1 1 1 1 1 1 ...
+$ tension: Factor w/ 3 levels "L","M","H": 1 1 1 1 1 1 1 1 1 2 ...
+> xtabs(~ wool + tension, data = warpbreaks)
+It is not statistically sensible to assume that Run is a  xed e ect, however the example is handy to depict
+how a model matrix would be built for the model Speed Expt + Run. Since this is  a main e ects model
+(no interactions), the desired model matrix is simply the concatenation of the  model matrices of the main
+e ects. There are two here, but the principle applies to general main e ects of  factors.
+The most sparse matrix is reached by not using an  intercept, (which would give an all-1-column) but
+rather have one factor fully coded (aka\swallow"the intercept), and all others  being at "treatment" contrast,
+i.e., here, the transposed model matrix, tmm, is
+> tmm <- with(warpbreaks,
++ as(wool, "sparseMatrix")[-1,,drop=FALSE]))
+> print( image(tmm) ) # print(.) the lattice object
+The matrices are even sparser when the factors have more  than just two or three levels, e.g., for the morley
+data set,
+> data(morley) # a standard R data set
+> morley$Expt <- factor(morley$Expt)
+> str(morley)
+'data.frame': 100 obs. of 3 variables:
+$ Expt : Factor w/ 5 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
+$ Run : Factor w/ 20 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
+$ Speed: int 850 740 900 1070 930 850 950 980 980 880 ...
+> t.mm <- with(morley,

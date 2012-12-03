@@ -1,0 +1,12 @@
+Definition: A private IP address is any IP address that falls within three IP address ranges reserved for private network use:
+10.0.0.0 to 10.255.255.255
+172.16.0.0 to 172.31.255.255
+192.168.0.0 to 192.168.255.255
+Devices with private IP addresses can communicate with other hardware within the same network that also have private IP addresses but not directly with devices with public IP addresses . A router is required for private and public networks to exchange information.
+Any IP address inside of a home or business network, like the IP address assigned to one of your personal computers, is a private IP address, not a public IP address.
+The IP address that your home or business router receives from your ISP is a public IP address, as are the IP addresses of other devices on the Internet like the servers that host websites.
+Note: Another range of private IP addresses is 169.254.0.0 to 169.254.255.255 but is for Automatic Private IP Addressing use only.
+Also Known As: local IP address
+Examples:
+"My router's private IP address is 10.1.0.1 and my two computers have private IP addresses assigned 10.1.0.2 and 10.1.0.3."
+Related Articles

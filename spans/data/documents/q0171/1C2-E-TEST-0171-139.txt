@@ -1,0 +1,6 @@
+Internet Protocol address
+(pronounced: I-P address)
+A numeric address that is given to servers and users connected to the Internet. For servers , it is translated into a domain name , by a Domain Name Server ( DNS ). For users , it is assigned by the Internet Service Provider ( ISP ) when the user goes online. This IP address might be the same number each time you log on (called a static IP ), or it might be a newly assigned number each time you connect , based on what's available. Most Internet users prefer the static IP because some Internet telephony programs, for example, such as CUSeeMe , need your current IP address to make a connection.
+An IP address can be traced back to the user. This is a method used in gathering evidence in cases of cyberfraud , and often times can lead to a criminal conviction.
+Update: A lack of IP addresses by 2010-2011 could mean some computers and other devices won't be able to get online. Vinton Cerf has warned that the number of IP address is finite and Internet service providers should quickly switch to a new system.
+NetLingo Classification: Technical Terms

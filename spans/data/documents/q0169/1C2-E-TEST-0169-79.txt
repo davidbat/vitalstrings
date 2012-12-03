@@ -1,0 +1,43 @@
+February 13, 2011 at 12:51 am
+Write a program to represent sparse integer matrices (that is, most entries are zero) using linked
+lists. For an m  n matrix Amn, let A(i; j), where 0  i  m and 0  j  n, denote the entry at
+ith row and jth column. Your program should store only non-zero entries of A using linked lists as
+described in the following.
+Corresponding to each non-zero entry A(i; j), your program should create a record containing
+the following seven  elds:
+2. j
+3. A(i; j) value
+4. `Up’ pointer pointing to A(k; j), where k i and A(k; j) 6= 0, which is the next element
+in column j. That is, A(l; j) = 0 for all l 2 fi + 1; : : : ; k 􀀀 1g.
+6. `Left’ pointer pointing to A(i; k), where k  j and A(i; k) 6= 0, which is the next element in
+row j. That is, A(i; l) = 0 for all l 2 fj + 1; : : : ; k 􀀀 1g.
+For each input matrix Amn, in addition to its non-zero entries, your program should also store
+two pointer arrays R and C of size m and n respectively, where R[i] and C[j] store pointer to the
+rst non-zero element in row i and column j respectively.
+Matrix input format
+To read a matrix A as input, your program should read m and n followed by each row of A.
+Consecutive row elements are tab (`nt’) separated.
+Matrix operations::
+Implement the following  ve operations on matrices stored in the above fashion.
+1. Matrix transpose: For a matrix Amn, output AT . Your implementation should not make a
+copy of the matrix elements in memory.
+2. Matrix addition: For two matrices Amn and Bmn, output A + B.
+3. Matrix multiplication: For two matrices Amn and Bnk, output A  B.
+4. Row permutation: The input to your program is a matrix Amn and a permutation of its row
+numbers given by the ordered sequence fp0; : : : ; pm􀀀1g, where pi denotes the new position of
+row i. Your program should output Bmn such that B(pi; j) = A(i; j) for all i 2 f0; : : : ;m􀀀1g
+and j 2 f0; : : : ; n 􀀀 1g. Your implementation should not make a copy of the matrix elements
+in memory.
+5. Column permutation: The input to your program is a matrix Amn and a permutation of
+its column numbers given by the ordered sequence fp0; : : : ; pn􀀀1g, where pj denotes the new
+position of column j. Your program should output Bmn such that B(i; pj) = A(i; j) for all
+i 2 f0; : : : ;m 􀀀 1g and j 2 f0; : : : ; n 􀀀 1g. Your implementation should not make a copy of
+the matrix elements in memory.
+Ensure that the output of addition and multiplication follows the same representation scheme
+where only the non-zero elements are stored in memory.
+Output format::
+Implement a print method to print a matrix and use the same procedure to print the output
+for the above operations. The print method should print the number of rows and columns of the
+matrix in separate lines followed by all its elements (including the zeroes) in row-wise manner.
+Each row should be printed in a separate line and the row elements should be tab separated. Your
+program should not print anything to the output except the output matrix.

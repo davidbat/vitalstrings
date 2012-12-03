@@ -1,0 +1,48 @@
+Find Out Host Name and Domain Name
+Overview
+Every computer connected to the Internet has a unique identity. You can refer to any Internet-connected machine in either of two ways:
+by its IP address (a four-part number string such as "18.72.0.3"), in which the first part(s) identify the specific network to which the machine is connected (e.g., "18" refers to the main MIT network).
+by its host name (a text string such as "bitsy.mit.edu") which consists of the machine name (e.g., "bitsy") and the domain name (e.g., "mit.edu" refers to the main MIT network).
+The Internet Domain Name Service (DNS) can translate host names into equivalent IP addresses and vice versa, as needed by various Internet programs.
+This document explains these identifiers, and describes how to find out the IP address and how to find out the host name and domain name of a specific computer.
+IP Addresses
+Every computer connected to the Internet is identified by a unique four-part string, known as its Internet Protocol (IP) address. An IP address consists of four numbers (each between 0 and 255) separated by periods. For example, one machine at MIT has the IP address, e.g., 18.72.0.3.
+At MIT, most machines have IP addresses beginning with "18". The "18" signifies the main MIT network, whereas the later numbers identify the specific machine. (At other sites, the first two parts of the IP address identify the network, while the last two parts identify the computer within that network.)
+While we tend to think of the IP address as four numbers separated by periods, the whole string actually forms a single 32-bit "dotted decimal" number. This is why each part can only go up to 255: each part - or "octet" - is the decimal representation of an 8-bit binary number.
+Host Names and Domain Names
+Since IP addresses are rather difficult to remember (and are not particularly descriptive), the Internet also allows you to specify a computer by a name rather than a number string. For example, the machine at MIT with the IP address 18.72.0.3 can also be referred to as: bitsy.mit.edu.
+This whole string is known as the computer's host name. In this string, the first part ("bitsy") is the name of the machine itself, while everything else ("mit.edu") is the domain name.
+The domain name is the name of a network associated with an organization. For sites in the United States, domain names typically take the form: org-name.org-type
+The org-type is usually one of the following:
+com indicates a commercial organization (e.g., a company)
+edu indicates an educational organization
+org indicates a general (often non-commercial) organization
+gov indicates a U.S. government agency
+mil indicates a U.S. military site
+For example, the hostname www.toyota.com refers to a World Wide Web server named "www" in the toyota.com domain (the network associated with the Toyota automotive company). The hostname ftp.stanford.edu refers to an FTP server named "ftp" on Stanford University's local network (the domain stanford.edu).
+MIT actually has several separate networks in operation, so several domain names are associated with MIT. In addition to the main mit.edu domain, there is, for example, a domain associated with the Artificial Intelligence Laboratory at MIT, called ai.mit.edu. (These two domain names at MIT are not interchangeable "aliases": the machine with the host name www.ai.mit.edu is not the same machine -- nor even in the same Internet domain -- as the machine with the host name www.mit.edu; rather, www.ai.mit.edu is a machine named "www" in the domain ai.mit.edu, while www.mit.edu is a machine named "www" in the different domain mit.edu.)
+For sites outside the United States, domain names typically take the form: org-name.country-id (E.g., ca for Canada, de for Germany/Deutschland)
+Although every machine has only one IP address at any given time, a machine may have several host names (the additional host names are known as "aliases"). For example, MIT's official web service is run on a machine with the host name "arachnophobia.mit.edu" (IP address 18.69.0.27), but users refer to the machine by the alias host name "web.mit.edu".
+The use of host name aliases makes it easier for service providers to migrate services to new machines without interrupting service. For example, if the maintainers of the MIT web service moved it to a new faster machine, the host name "web.mit.edu" could be changed to point to the new machine, and removed as an alias for 18.69.0.27 ("arachnophobia.mit.edu" could remain as the host name of the old machine); users would not be burdened with having to learn the new IP address or host name, since the alias points to the new machine.
+Domain Name Service (DNS)
+On the Internet, many communications programs deal only with IP addresses, yet allow their users to specify machines in terms of their host names (or alias host names). Or a program which already knows the IP address must determine the domain name for the network to which the machine is connected. Such programs must somehow convert the host names into IP addresses (or vice versa) behind the scenes. How do they achieve this translation between IP addresses and host names?
+The mapping of host names to IP addresses is handled through a service called Domain Name Service (DNS). Rather than require individual machines, applications, or users to keep up with the constant changes in host names and IP addresses, a series of special DNS servers across the world (known as "name servers") keep track of the name/address information for all the computers on the Internet. Applications that need to determine an IP address from a host name (or vice versa) contact the local "name server" to supply this information.
+For instance, if you use a web browser to check out the site "web.mit.edu", the program actually first contacts your local DNS machine to obtain the IP-address that matches the host name you provided; then the program uses that IP address to complete your request.
+DNS is used much more frequently than is usually supposed: virtually every activity that moves information across the network (getting web documents, transferring files, sending or receiving electronic mail) relies on DNS.
+Find Out an IP Address
+There are several ways to find out what IP address is assigned to a specific computer at MIT:
+Ask someone. There are several possibilities:
+the local network administrator (who probably configured the machine).
+the person in the department who pays the bills (the IP address will show up on the Information Services and Technology bill).
+the Service Desk, 617.253.1101.
+If you are replacing an existing machine, the new machine may use the old IP address, which you may have recorded. For instance: If you copied your .cfg files to a floppy before installing Windows 95, you will have preserved your IP address and can find it on the floppy.
+If you have access to Athena and you know the host and domain name of the machine, you can use the hostinfo command to determine the corresponding IP address. For example, to find the IP address for a machine with the host name "bitsy" and the domain name "mit.edu", you could log into Athena, and at the athena% prompt, enter the following:
+athena% hostinfo bitsy.mit.edu Desired host:    bitsy.mit.edu Official name:   bitsy.mit.edu Host address:    18.72.0.3 Host info:       DEC/DECSTATION-5000.25/ULTRIX
+The line labeled "Host address" provides the IP address.
+Find Out a Host Name and Domain Name
+If you already know the IP address of a computer connected to MITnet, you can find out the host name and domain name of the machine in any of several ways:
+Fill out the SIPB machine webform .
+If you have access to Athena , you can also determine the host name corresponding to a given IP address by using the hostinfo command. For example, to find the host and domain name for 18.72.0.3, you could log into Athena, and at the athena% prompt, enter the following:
+athena% hostinfo 18.72.0.3 Desired host:        18.72.0.3 Official name:       BITSY.MIT.EDU Host address:        18.72.0.3
+In the line labeled "Official name", BITSY is the host name, MIT.EDU is the domain name.
+Related Pages and How To

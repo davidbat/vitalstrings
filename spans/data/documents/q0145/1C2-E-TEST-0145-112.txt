@@ -1,0 +1,19 @@
+Effective Annual Yield
+If you leave $500 in the bank at 4% interest for a year, you will have $520 at the end of that year by the simple interest formula.  Therefore if you leave the money in the bank for a second year, you should earn interest on the $20 interest as well as the $500 original principal; $500×1.04 = $540.80, where the $.80 is the interrest on $20 interest for the first year.  This process of paying interest on interest as well as principal is called compounding.
+If interest is compounded annually, the formula for the amount to be repaid is:
+A = P(1 + r)^t
+where r is the annual interest rate and t is the number of years.  Sometimes interest is compounded more often than annually,  For example, if 6% interest is compounded four time per year (quarterly), then one receives 1.5% interest every three months.  The more general formula for the future value of a deposit with compound intrest is:
+A = P(1 + r/m)^(mt)
+where m is the number of times the interest is compounded each year.
+How much will $300 be worth in 2.5 years if the interest rate is 3% compounded quarterly?  A = $300×(1 + .03/4)^(4×2.5) = $323.27.
+It is more difficult to solve for the interest rate that will produce a given increase than in the case of simple interst.  It is also more difficult to solve for the time required for a given increase, although this may be easily attained by trial and error.
+Exercise:  How much will $250 dollars be worth in 5 years at 6% interest compounded monthly?  How long will be required for $250 to double to $500?
+The formula A = P(1 + r/m)^(mt) can be rewritten as:
+P = A/((1 + r/m)^mt)
+to get the present value, or how much you need to put in the bank now to have a specified amount in the future.  For example, if you want to give $200,000 to your nephew in 21 years, how much must you deposit in the bank now at 5% compounded quarterly?  P = $200,000/((1 + .05/4)^(4×21)) = $70,444.54.
+Effective Annual Yield
+Compounding increases the amount of interest one earns.  Because the standard way to express interest rates is with the annual interest rate, the amount of interest which one earns with compounding is quantified as the Effective Annual Yield, which is the simple interest rate which produces the same yield for a one year period.  This is computed as (1 + r/m)^m - 1.  For example, 5% interest with quarterly compounding has an effective annual yield of (1 + .05/4)^4 - 1 = .0509 or 5.09%.  18% compounded monthly has an effective annual yield of (1 + .18/12)^12 - 1 = .1956 = 19.56%.
+CompetencyHow much money will one have in 7 years if he deposits $2000 in the bank at 8% interest compounded monthly?
+How much money must one deposit in the bank at 8% interest compounded monthly in order to have $2000 seven years from now?
+What is the effective annual yield of 8% interest compounded monthly?
+Reflection:

@@ -1,0 +1,33 @@
+Support Home  > What is an IP Address? (Static IP, Dynamic IP)
+ 
+What is an IP Address? (Static IP, Dynamic IP)
+An IP address identifies a computer or other device to a network. The basic concept is simple: every device on a network needs to have its own address. that way, data is sent to the right place. There are IP addresses are used by the whole Internet, and others, only used by locally, for example in your home.
+Why isn't there One Set of IP Addresses for the Whole World?
+It might be nice if every computer had its own IP address. Unfortunately, computers come and go frequently — millions are added, removed, or rearranged every day. It would be impossible for everyone in the world to keep up with the changes. Another reason that local networks use their own addresses is that the Internet ran out of "regular" IP addresses long ago.
+To avoid these problems the Internet community does a number of things:
+They use one set of addresses for the whole world. However each local network uses its own addresses. You and your neighbors probably use some of the same IP addresses, but your network doesn't talk directly to your neighbor's without "translating" the addresses, so it's ok.
+Some addresses are used only temporarily. When the computer is turned off, the address is given to someone else.
+They create a secondary address called a subnet mask which changes the way the main IP address is read. (People with simple networks don't need to know much about this.)
+Whether for the whole world, or just for your home, an IP address always looks like this (four numbers separated by three periods):
+192.168.0.1
+The subnet mask has the same format. The subnet masks on your own home network will almost always have exactly these numbers:
+255.255.255.0
+Don't change the subnet mask without being sure what it does!
+You need to keep a record of these IP addresses:
+The one your ISP gives you. This one is used by the whole world to access your network.
+The address of your router on your own network. By default NETGEAR sets the router address to 192.168.0.1 or to 192.168.1.1. That's the IP address you type in an Internet browser to log in your router.
+There are situations where you will need to know IP addresses of other devices in your network.
+What's the Difference Between a Static and a Dynamic IP Address?
+The IP address from your ISP is assigned one of two ways:
+Set to an IP address which is unchanged for months or years at a time. This is a static IP address.
+Set to an IP which is only good for a limited time, and which is changed according to the policy set by your ISP's DHCP server. This is a dynamic IP address.
+Because a static IP can be relied on for an indefinite period, some networking software requires a static IP. ISPs usually charge extra for static IPs. Your ISP may not be willing to give their customers static IP addresses at all.
+Dynamic IPs are used in large networks where computers are frequently reconfigured, or where a limited number of IP address are available to share between many computers.
+If All the Public Computers have an IP Address, how do Addresses like www.netgear.com Work?
+Many computers have a name that matches an IP address. These names must be applied for with companies that maintain them for the public. If other people will be frequently accessing your network, it might be convenient for them to use such a name. This article describes how you can buy your own computer name What is Dynamic DNS?
+ 
+Doc: N100048.asp Dec. 3, 2003
+Document Type:
+Knowledge Base > Manage your Device/Network
+Published 12/08/2008 06:03 PM   |   Updated 06/20/2012 09:08 PM
+Is this article accurate?

@@ -1,0 +1,11 @@
+﻿
+SparseLib++
+SparseLib++ is a C++ class library for efficient sparse matrix computations across various computational platforms. The software package consists of matrix classes encompassing several sparse storage formats (e.g.  compressed row, compressed column and coordinate formats), and providing basic functionality for managing sparse matrices.  The Sparse BLAS Toolkit is used to for efficient  kernel mathematical operations (e.g. sparse matrix-vector multiply) and to enhance portability and performance across a wide range of computer architectures. Included in the package are various preconditioners commonly used in iterative solvers for linear  systems of equations.  The focus is on computational support for iterative methods (for example, see IML++ ), but the sparse matrix objects presented here can be used in their own right.
+SparseLib++ matrices can be built out of nearly any C++  matrix/vector classes; it is shipped with the MV++ classes by default.
+Sparselib++ authors are Roldan Pozo , Karin Remington , and Andrew Lumsdaine .
+Documentation
+A Sparse Matrix Library in C++ for High Performance Architectures , (38K, compressed postscript.) Proceedings of the Second Object Oriented Numerics Conference, pp. 214-218, 1994.
+J. Dongarra, A. Lumsdaine, R. Pozo, K. Remington.
+SparseLib++ Sparse Matrix Class Library, User's Guide, gzip postscript , pdf
+R. Pozo, K. Remington,  A. Lumsdaine
+Software

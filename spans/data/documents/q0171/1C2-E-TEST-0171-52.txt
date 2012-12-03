@@ -1,0 +1,40 @@
+Reverse IP address lookup
+IP address
+Each machine, which is connected to the Internet, has its own IP address. The IP address is used to identify it to the world and plays an important part in the TCP/IP protocol. Usually, an IP address is displayed as a group of numbers, separated by dots:
+IP address structure and classification
+A typical IPv4 address
+216.65.1.250
+The numbers in the IP address are called octets. The name "octets" derives from the positions the numbers can have in the binary form of the IP address, which is actually used by computers. The "216.65.1.250" type of address is used for human understanding. Here is how the IP address of the above example will look in binary format:
+An IP address in binary format
+001100100011000100110110001011100011011000110101
+001011100011000100101110001100100011010100110000
+Classes of IPv4 addresses
+The octets in the IP address play another important role - they divide the IP addresses into classes. They are split into two sections - net and host . The Net section always starts with the first octet and is used to define the network the machine belongs to. The Host section defines the actual machine in the network and always contains the last octet.
+Class A IP addresses
+The class A IP addresses have a first or Net octet in the range of 1 and 126. The other three octets define the hosts. The A class network allows for a total of 2,147,483,648 unique IP addresses and is mainly used for the network of a very large corporation.
+A class A IP address
+Net                  Host
+123.                 23.41.88
+Class B IP addresses
+The class B IP addresses use the first two octets as network identifiers, and the last two as host identifiers. The first octet in the class B IP addresses is in the 128 to 191 range. IPs from this class are most commonly used by mid-sized networks, such as college campuses
+A class B IP address
+Net                  Host
+133.23.            41.88
+Class C IP addresses
+For this class, the Net identifier is composed of the first 3 octets and the first octet is in the 192 to 223 range. The last octet is used to identify the host. With a limited number of hosts, this IP class is suitable for small to mid-sized networks.
+A class C IP address
+Net                  Host
+196.23.41.       88
+Class D IP addresses
+IP addresses from this class are mostly used for multicasting. They are in the 224.0.0.0 to 239.255.255.255 range. The 224.0.0.0 to 224.0.0.255 range is used only for local area network (LAN) multicasting.
+Class E IP addresses
+IP addresses in this class have the first octet in the 240-255 range. They are reserved for experimental usage and computers, trying to use them will not be able to communicate properly online.
+IPv6 addresses
+When looking at a standard IPv4 address, one can easily see that it has a finite number of combinations for unique IP addresses and that at some point, they will be over. This is why the IPv6 IP address was created.
+A sample IPv6 address
+2001:0db8:3c4d:0015:0000:0000:abcd:ef12
+The IPv6 address is expected to launch worldwide in late 2010 or 2011, when the IPv4 addresses will reach their limit. The new address is of 128 bits (IPv4 is 32bit), which will be enough for at least 100 years in the future, even if the growth of the Internet users increases.
+Reverse IP address lookup
+It is possible for any user to find which IP address is associated with a certain domain name/hostname and vice versa with the help of an online DNS lookup tool. How does such a search tool work? When a DNS lookup request is sent by typing a certain domain name in the tool's search field, the DNS server searches the DNS database to locate the IP address that the domain is associated with and then returns the desired result back to you.
+An example of a DNS resolve & a reverse DNS resolve in Linux
+host www.ntchosting.com

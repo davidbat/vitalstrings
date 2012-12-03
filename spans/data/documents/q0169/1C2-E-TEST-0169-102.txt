@@ -1,0 +1,13 @@
+You can also use the rule syntax
+with Mathematica patterns to create structured sparse matrices. This example makes a tridiagonal matrix:
+In[5]:=
+Out[6]//MatrixForm=
+More complicated matrices can be made with Band . In this example a band is created along the antidiagonal:
+In[7]:=
+Out[8]//MatrixForm=
+You can also create sparse matrices by importing one of the sparse matrix formats such as Harwell-Boeing or Matrix Market.
+This imports a sample 961×961 matrix that has 10591 nonzero elements:
+Out[9]=
+    
+Functions that work with dense matrices typically work with sparse matrices. Often they will use special sparse matrix techniques that are faster and work without ever converting to a dense matrix. This leads to large savings of time and memory.
+This creates a banded sparse matrix:

@@ -1,0 +1,10 @@
+Text size:
+What is an IP address?
+Your IP address is your computer's unique address on the Internet. An IPv4 address consists of four numeric segments separated by periods (e.g., 64.236.16.116), and is different from the MAC address of your Ethernet card.
+If you have IPv6 enabled, you will also have an IPv6 address. Your IPv6 address will look different from the IPv4 "dotted decimal" format. It will be longer, and will also be in hexadecimal notation. For example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+These are two separate addresses for your computer. Because IPv4 and IPv6 currently exist side-by-side, most computers will have either an IPv4 address or both an IPv4 and IPv6 one. In rare cases, if you connect to an IPv6-only network, you will receive only an IPv6 address; this will become increasingly common until eventually IPv6 replaces IPv4.
+Note: Because Indiana University services such as OneStart and Oncourse currently use only IPv4, both it and IPv6 will exist side-by-side for the near future. Only IPv4, however, will be necessary.
+IP addresses can be static, meaning a permanent number is assigned to your computer (by your network or DNS administrator); or they can be dynamic, meaning a temporary number is assigned each time you connect to the network. At Indiana University, most computers have dynamic IP addresses assigned by DHCP. At IUB or IUPUI, if you need a static (i.e., permanent) IP address, see At IUB or IUPUI, how do I request a static IP address?
+For instructions on how to determine your IP address, see How do I determine my computer's IP address? For more information about IPv6, see What is IPv6, and how do I disable it?
+This is document aakl in domain all.
+Last modified on April 29, 2011.

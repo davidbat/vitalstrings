@@ -1,0 +1,10 @@
+By Edmond Woychowsky
+April 13, 2010, 6:33 AM PDT
+Takeaway: MapForce lets developers who aren’t heavyweights in XPath, XSLT, and XQuery be productive when mapping data to and from XML.
+ 
+Altova MapForce is a data mapping tool that is used to rearrange one form of data into a different form; it’s along the lines of Star Trek’s Project Genesis without the negative connotations. Data can be mapped to or from any of the following: XML using DTD or schema, flat files, EDI (Electronic Data Interchange) documents, Excel 2007 or higher, and XBRL (eXtensible Business Reporting Language).
+On the surface, this might sound somewhat like Microsoft’s BizTalk , but there is a major difference: Unlike BizTalk, MapForce does not have a server component; this eliminates the need for configuration in order to get you maps to execute. Instead, MapForce allows developers to generate the mapping code in any of these languages: XSLT version 1.0 , XSLT version 2.0 , XQuery , Java , C# , and C++ . A language in this list should fit in almost any development shop on the planet. If your preferred language isn’t on the list, odds are, there is an XSLT parser that would fit right in. However, as Figure A shows, being a C++ guru isn’t necessary.
+Figure A
+A sample Mapping. (Click the image to enlarge.)
+In addition, MapForce has a number of built-in functions grouped into libraries that are used to modify data when a straight move just won’t do. These libraries, their groupings, and their functions are outlined in Table B.
+Table B

@@ -1,0 +1,21 @@
+> Does scipy have an equivalent to Matlab's 'find' function, to list the
+> indices of all nonzero elements in a sparse matrix?
+You will want to ask scipy questions on the scipy list.
+There is no explicit interface on sparse matrix objects to expose the indices of
+the nonzero elements. A different implementation would have to be written for
+each type of sparse matrix format. However, if one can spare the memory, one can
+convert to the coordinate list format and read the row and column indices from
+that object.
+In [1]: from scipy.sparse import lil_matrix
+In [2]: A = lil_matrix((3,3))
+In [3]: A[1,2] = 10
+In [4]: A[2,0] = -10
+In [5]: Acoo = A.tocoo()
+Out[6]: array([2, 1])
+In [7]: Acoo.col
+Out[7]: array([0, 2])
+--
+Robert Kern
+"I have come to believe that the whole world is an enigma, a harmless enigma
+that is made terrible by our own mad attempt to interpret it as though it had
+an underlying truth."

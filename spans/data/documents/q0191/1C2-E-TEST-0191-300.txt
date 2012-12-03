@@ -1,0 +1,56 @@
+When starting CCSM, I get an error about: ImportError: No module named compizconfig
+What is Compiz Fusion? What is Compiz? What is the difference between the two?
+Compiz Fusion is an extension to Compiz, which is a composite window manager that supports having your graphics card render your screen and windows, providing some new usability features and effects. For more information about Compiz Fusion and Compiz, see
+Compiz Fusion and Compiz
+Which Operating System does Compiz Support?
+At the moment, Compiz will only run on Unix-Like operating systems that run an X Server that provides the GLX_EXT_texture_from_pixmap extension. It currently does not run on any version of Microsoft Windows, or Apple Mac OS X.
+Where can I find instructions on how to set up and install Compiz Fusion?
+Because setup can vary on different distributions, we recommend that you check out the Distributions guide to see if your distribution's wiki already has setup instructions tailored to your distribution. If not, you can always check out our Installation guide for installation from source and our Hardware guide for a reference on setting up your hardware for Compiz Fusion.
+What is the keyboard shortcut for _____ ?
+After installation most new users want to know how to do all the cool things Compiz and Compiz-Fusion can do. The more common things are turned on by default and require specific keyboard short cuts to activate. The Common Keyboard Shortcuts page has been set up to answer just that question.
+How do I use the desktop cube?
+In the current version of Compiz, the desktop cube is only visible when it is rotating.
+By default, the cube can be rotated left by pressing <Control><Alt>Left and right with <Control><Alt>Right. You can also grab the cube for free rotation with the mouse by pressing and holding <Control><Alt>Button1.
+Enabling the Viewport Switcher plugin will allow you to rotate the cube left and right by scrolling your mouse wheel over an empty spot on the desktop, as well as grab the cube by middle-clicking on the desktop.
+If your cube shows up as a flat sheet instead of a cube, check to ensure that Horizontal Virtual Size is set to 4 under General Options .
+If you want the cube to zoom out as your rotate it, set Zoom to something higher than 0 under the Rotate Cube plugin. If you've enabled the Cube Reflection plugin, you can also tell it to calculate how far out it needs to zoom to show both the cube and the reflection by enabling Auto zoom option.
+What is all this 0.6 / Master Compiz stuff?
+At the moment, there are two major working versions of Compiz, Compiz-Master and Compiz-0.6. The reason for this split is that Compiz-Master is essentially an unstable branch and does contain a dependency (libX11-XCB) which most distributions do not provide. This dependency is also very difficult to install, and is certainly not recommended for users not experienced in compiling critical parts of their graphical user interface (GUI). That being said, there is a version of Compiz that does not have this dependency, and that is the Compiz-0.6 branch. Most distribution's packages will feature the 0.6 version, however if you wish to compile from the bleeding edge GIT source tree, you must checkout the 0.6 branches by hand.
+It is also important to note that because Compiz-0.6 is a stable branch of compiz, Compiz-0.6 and any Compiz-Fusion 0.6 component do not contain some of the more sought after unstable features that Compiz-Master provides. Also, plugins between Compiz-Master and Compiz-0.6 are ABI incompatible, and should be written for both versions.
+Hardware Problems
+Intel
+White borders around certain window types when using AiGLX (Applies to the GTK-Window-Decorator, KDE-Window-Decorator)
+This is because the i810 driver does not support 32 pixel shadows properly. To avoid this, you will need to change your CCSM backend to GConf temporarily, under Decoration change Shadow Radius to something other than 7.5 to 8.5. A similar problem can happen with some ATI cards (9200SE using the open source radeon drivers).
+Graphics chipset supports GL_ARB_fragment_program, however some effects don't work in AiGLX
+This is currently a driver issue, where the Intel Driver will not support fragment environment programs in indirect rendering. The following plugins will enable, but fail to work properly
+Blur
+Reflection
+Depending on your graphics card, you may be able to work around this limitation by enabling the AIGLX Fragment Parameter Fix option in the Workarounds plugin.
+NVIDIA
+After a while, windows begin to go black
+This is the infamous Black-Window Bug with the NVIDIA driver. It is caused by the graphics card running out of texture memory, and therefore all remaining windows (which are textures) will be black. If you have less than 128MB of video memory, disabling blur, and launching Compiz with --indirect-rendering will reduce the appearance of the bug.
+The desktop is slow and unresponsive overall
+You will need to launch Compiz with --loose-binding. This may break VSync and cause tearing.
+Compiz Fails to start, displaying one of the following error messages
+GLX_EXT_texture_from_pixmap is missing on Display X.Y
+This error message indicates that the GLX_EXT_texture_from_pixmap extension is not exposed by your X server. Compiz Fusion requires the GLX_EXT_texture_from_pixmap extension in order to function. To obtain this extension, you will need to configure your X server and hardware to expose this. To do this, see the Hardware guide.
+GLX_EXT_texture_from_pixmap is missing in direct rendering context, trying indirect context instead
+This error message indicates that GLX_EXT_texture_from_pixmap is not exposed in the direct rendering context. This usually happens on AIGLX setups. It is OK, it just means that you will need to launch compiz with the LIBGL_ALWAYS_INDIRECT=1 environment variable.
+GLX_SGIX_fbconfig is missing
+Root window is larger than maximum texture size
+This error message indicates that the desktop window is larger than the maximum texture size that your graphics card can handle. Currently there is no workaround, and you will have to use a smaller screen resolution or output size. See our Hardware guide for more information.
+GL_ARB_fragment_program is missing
+This means that your graphics card, or graphics card driver does not support the GL_ARB_fragment_program extension. This error is non-fatal, it only means that you will not be able to use plugins that require this extension.
+No composite extension found on display X.Y
+This means that the Composite extension is not loaded. Xgl provides it automatically, but for all other X server setups, you will need to add:
+Section "Extensions" Option "Composite" "Enable" EndSection
+to your /etc/X11/xorg.conf
+Compiz won't start on KDE
+Starting compiz from the command line generates the following errors:
+compiz (core) - Error: Another window manager is already running on screen: 0 compiz (core) - Fatal: No manageable screens found on display :0.0
+Be sure 'Show icons on desktop' is checked in System Settings | Desktop | Behavior.  There appears to be a bug either with compiz or KDE which requires this setting to be enabled in order for compiz to work on KDE.
+CCSM Issues
+When starting CCSM, I get an error about: ImportError: No module named compizconfig
+You need to make sure that you have installed the python bindings to libcompizconfig. In most packages, it is called compizconfig-python
+FAQ  (last edited 2008-08-21 18:19:07 by mzanfardino )
+Immutable Page

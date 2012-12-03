@@ -1,0 +1,10 @@
+IP Chicken - Learn about IP Addresses
+ 
+Q:                What is an IP Address?
+A: Every computer that communicates over the Internet is                  assigned an IP address that uniquely identifies the device and distinguishes                  it from other computers on the Internet. An IP address consists                  of four parts. For example :
+206.13.28.12
+Think of your IP address as what your phone number is to you. Every                device on a TCP/IP network has an address.
+Q: What are ports?
+In TCP/IP networking ports are the endpoint to a logical                connection. When you type in a web site address your computer is                opening up a connection on a remote port and asking for the web                pages to be sent to your computer. There are a total of 65535 ports                total.
+Here is a list of common ports and how they are typically used :
+Port                        Number

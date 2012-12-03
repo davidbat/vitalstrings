@@ -1,0 +1,5 @@
+A module to mount/umount/open/ volumes managed by hal. The module provide a gadget for the desktop and a main menu augmentation.
+You can find more info at http://code.google.com/p/e17mods/wiki/Places
+Penguins
+Penguins is a module that brings life on your desktop, populating it with fancy penguins.
+You can choose the number and the size of the penguins, and also change the population type. They walk over y...

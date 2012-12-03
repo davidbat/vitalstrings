@@ -1,0 +1,43 @@
+Returns a const_iterator1 pointing to the beginning of the compressed_matrix.
+const_iterator1 end1 () const
+Returns a const_iterator1 pointing to the end of the compressed_matrix.
+iterator1 begin1 ()
+Returns a iterator1 pointing to the beginning of the compressed_matrix.
+iterator1 end1 ()
+Returns a iterator1 pointing to the end of the compressed_matrix.
+const_iterator2 begin2 () const
+Returns a const_iterator2 pointing to the beginning of the compressed_matrix.
+const_iterator2 end2 () const
+Returns a const_iterator2 pointing to the end of the compressed_matrix.
+iterator2 begin2 ()
+Returns a iterator2 pointing to the beginning of the compressed_matrix.
+iterator2 end2 ()
+Returns a iterator2 pointing to the end of the compressed_matrix.
+const_reverse_iterator1 rbegin1 () const
+Returns a const_reverse_iterator1 pointing to the beginning of the reversed compressed_matrix.
+const_reverse_iterator1 rend1 () const
+Returns a const_reverse_iterator1 pointing to the end of the reversed compressed_matrix.
+reverse_iterator1 rbegin1 ()
+Returns a reverse_iterator1 pointing to the beginning of the reversed compressed_matrix.
+reverse_iterator1 rend1 ()
+Returns a reverse_iterator1 pointing to the end of the reversed compressed_matrix.
+const_reverse_iterator2 rbegin2 () const
+Returns a const_reverse_iterator2 pointing to the beginning of the reversed compressed_matrix.
+const_reverse_iterator2 rend2 () const
+Returns a const_reverse_iterator2 pointing to the end of the reversed compressed_matrix.
+reverse_iterator2 rbegin2 ()
+Returns a reverse_iterator2 pointing to the beginning of the reversed compressed_matrix.
+reverse_iterator2 rend2 ()
+Returns a reverse_iterator2 pointing to the end of the reversed compressed_matrix.
+Notes
+[1] Supported parameters for the storage organization are row_major and column_major.
+[2] Supported parameters for the index base are 0 and 1 at least.
+[3] Supported parameters for the adapted array are unbounded_array<> , bounded_array<> and std::vector<> .
+Coordinate Matrix
+Description
+The templated class coordinate_matrix<T, F, IB, IA, TA> is the base container adaptor for compressed matrices. For a (m x n )-dimensional sorted coordinate matrix and 0 <= i < m, 0 <= j < n the non-zero elements mi, j are mapped via (i x n + j) for row major orientation or via (i + j x m) for column major orientation to consecutive elements of the index and value containers, i.e. for elements k = mi1 ,j1and k + 1 = mi2 ,j2of the container holds i1 < i2 or (i1 = i2 and j1 < j2) with row major orientation or j1 < j2 or (j1 = j2 and i1 < i2) with column major orientation.
+Example
+#include <boost/numeric/ublas/matrix_sparse.hpp> #include <boost/numeric/ublas/io.hpp> int main () {     using namespace boost::numeric::ublas;     coordinate_matrix<double> m (3, 3, 3 * 3);     for (unsigned i = 0; i < m.size1 (); ++ i)         for (unsigned j = 0; j < m.size2 (); ++ j)             m (i, j) = 3 * i + j;     std::cout << m << std::endl; }
+Definition
+Defined in the header matrix_sparse.hpp.
+Template parameters

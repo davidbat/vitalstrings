@@ -1,0 +1,3 @@
+Related Article: Solve Linear programming Sparse matrix
+My bachelour thesis theme is "Parallel algorithms for solving linear programming problems". I am using the revised simplex method with LU decomposition. I don't know how to exploit the sparsity of the restrictions matrix other than tridiagonal systems. In the attachments I have plotted some matrices I use. Do you ...
+This article has been dead for over three months

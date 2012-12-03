@@ -1,0 +1,27 @@
+SPAMS (SPArse Modeling Software) is an optimization toolbox for solving various sparse estimation problems.
+Dictionary learning and matrix factorization (NMF, sparse PCA, ...)
+Solving sparse decomposition problems with LARS, coordinate descent, OMP, SOMP, proximal methods
+Solving structured sparse decomposition problems (l1/l2, l1/linf, sparse group lasso, tree-structured regularization, structured sparsity with overlapping groups,...).
+See the documentation for all the features.
+It is developped by Julien Mairal , with the collaboration of Francis Bach (INRIA), Jean Ponce ( Ecole Normale Supérieure ), Guillermo Sapiro ( University of Minnesota ), Rodolphe Jenatton (INRIA) and Guillaume Obozinski (INRIA).  It is coded in C++ with a Matlab interface. Recently, interfaces for R and Python have been developed by Jean-Paul Chieze (INRIA).
+License
+Version 2.1 and later are open-source under licence GPLv3 .
+It is therefore possible to redistribute the sources with any other software, as long as it under GPL licence.
+For other usage, please contact the authors.
+Related publications
+You can find here some publications at the origin of this software.
+The "matrix factorization" and "sparse decomposition" modules were developed for the following papers:
+J. Mairal, F. Bach, J. Ponce and G. Sapiro. Online Learning for Matrix Factorization and Sparse Coding . Journal of Machine Learning Research, volume 11, pages 19-60. 2010.
+J. Mairal, F. Bach, J. Ponce and G. Sapiro. Online Dictionary Learning for Sparse Coding. International Conference on Machine Learning, Montreal, Canada, 2009
+The "proximal" module was developed for the following papers:
+J. Mairal, R. Jenatton, G. Obozinski and F. Bach. Network Flow Algorithms for Structured Sparsity . Adv. Neural Information Processing Systems (NIPS). 2010.
+R. Jenatton, J. Mairal, G. Obozinski and F. Bach. Proximal Methods for Sparse Hierarchical Dictionary Learning . International Conference on Machine Learning. 2010.
+The feature selection tools for graphs were developed for"
+News
+05/23/2012: SPAMS v2.3 is released.
+03/24/2012: SPAMS v2.2 is released with a Python and R interface, and new compilation scripts for a better Windows/Mac OS compatibility.
+06/30/2011: SPAMS v2.1 goes open-source!
+11/04/2010: SPAMS v2.0 is out for Linux and Mac OS!
+02/23/2010: Windows 32 bits version available! Elastic-Net is implemented.
+10/26/2009: Mac OS, 64 bits version available!
+Last modification:   2012-05-25 08:29:19.046899945 -0700

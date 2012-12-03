@@ -1,0 +1,35 @@
+iOS 4: Understanding Location Services
+iOS 4: Understanding Location Services
+Summary
+This article gives an overview of the different location services an iPhone, iPad, or iPod touch can use to determine your location.
+Products Affected
+iPad, iPhone, iPod touch
+For information on using Location Services to track your location in Maps and other applications, see the User Guide .
+Location Services allows applications such as Maps, Camera, and Compass to use information from cellular, Wi-Fi1, and Global Positioning System (GPS)2 networks to determine your approximate location. This information is collected anonymously and in a form that does not personally identify you.
+Note: For information on Location Services in iOS 5, see  this article .
+About location precision or accuracy
+Depending on your device and available services, Location Services uses a combination of cellular, Wi-Fi, and GPS to determine your location. If you're not within a clear line of sight to GPS satellites, your device can determine your location using Wi-Fi3. If you're not in range of any Wi-Fi, your device can determine your location using cellular towers.
+Applications that can display your location on the screen, including Maps, indicate your current (approximate) location using a blue marker. If your location can’t be determined precisely, a blue circle also appears around the marker. The size of the circle depends on how precisely your location can be determined—the smaller the circle, the greater the precision.
+Note: When Location Services is active, a purple arrow icon appears in the status bar.
+Maps, directions, and location-based apps depend on data services. These data services are subject to change and may not be available in all geographic areas, resulting in maps, directions, or location-based information that may be unavailable, inaccurate, or incomplete. Compare the information provided on the device to your surroundings, and defer to posted signs to resolve any discrepancies.
+Additional Information
+Turning Location Services on or off
+Location Services can be turned on or off at Settings > Location Services.  Location Services is on by default, but you can turn it off if you don't want to use this feature or to conserve battery life.  You can also individually control which applications have access to Location Services data.
+If you turn Location Services off, you’ll be prompted to turn it on again the next time an application tries to use this feature. 
+Resetting location warnings
+Location warnings are the requests made by applications (such as Camera, Compass, and Maps as well as location-dependent third-party apps) to use Location Services with those applications. An application will present a location warning the first time it needs to access Location Services data.  Tapping OK will give that app permission to use Location Services as needed.  Tapping Don't Allow will prevent an app from accessing Location Services data from then on.
+If you want to change whether an app can or cannot access Location Services data, you can either change the individual setting for that app at Settings > Location Services, or you can force all apps to prompt you with the location warning again using Settings > General > Reset > Reset Location Warnings.
+Improving GPS Accuracy (iPhone and iPad Wi-Fi + 3G Only)2
+GPS accuracy varies depending on the number of visible GPS satellites. Locating all visible satellites can take several minutes, with accuracy gradually increasing over time. Use these tips to improve GPS accuracy:
+Ensure the date, time, and timezone are correctly set on the device in Settings > General > Date & Time. If possible, use "Set Automatically".
+Important: Incorrect settings on your computer can sync to your device. Verify the date, time, and timezone on any computer that syncs with your device.
+Verify that you have a cellular or Wi-Fi network connection. This allows the Assisted GPS (A-GPS) on the device to locate visible GPS satellites faster, in addition to providing initial location information using the Wi-Fi or cellular networks.
+Note: Microcells (sometimes called Femtocells) are not supported with Location Services.
+Maintain a clear view of the horizon in several directions. Keep in mind that walls, vehicle roofs, tall buildings, mountains, and other obstructions can block line of sight to GPS satellites. When this occurs, your device will automatically use Wi-Fi or cellular networks to determine your position, until the GPS satellites are visible again.
+Notes:
+iPod touch only uses Wi-Fi for Location Services (if a Wi-Fi network is available).
+GPS is not available on original iPhone or iPad Wi-Fi.
+iOS devices sold in China may use the term Wireless LAN (WLAN) instead of Wi-Fi. Not all China iPhone models support WLAN; see this article for more information.
+ 
+Important: Information about products not manufactured by Apple is provided for information purposes only and does not constitute Apple’s recommendation or endorsement. Please contact the vendor for additional information.
+Rate this article:

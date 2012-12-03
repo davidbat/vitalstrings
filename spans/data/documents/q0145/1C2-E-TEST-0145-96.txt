@@ -1,0 +1,26 @@
+r = Interest Rate in Decimal Form
+n = Number of Compounding Periods per Year
+t = Number of Years Invested
+    For an example, let us say that a bank is offering a CD (Certificate of Deposit) that has a 6.45% interest rate and is compounded quarterly (4 times a year) for 3 years. You decide to invest $5500 into this CD and want to know how much money you will have at the end of the 3 years?  First plug all the numbers into the formula, and then simplify it until you can solve for F.
+    Example 1
+F = $5500 (1 + 0.0645/4)4*3
+F = $5500 (1 + 0.016125)12
+F = $5500 * 1.2111617783
+F = $6663.90
+    So once the CD matures (in 3 years), you will have $6663.90.  To determine how much interest you will have made, take this future value and subtract the initial amount:
+    Example 2
+Interest Made (IM) = F - D
+IM = $6663.90 - $5500
+IM = $1163.90
+    So if you were to deposit $5500 into this CD, after 3 years you will have earned $1163.90 in interest.  At this point you may be saying, "Wait!, my bank doesn't tell me how many compounding periods there are each year, they only give the percentage as APY (Annual Percent Yield)".  New laws require banks to provide you with the APY figure because it makes it easier to shop around and find the best interest rate.  The APY is the interest rate stated as if there was only one compounding period per year.  In case you are curious, the formula to calculate APY from a normal interest rate and the compounding periods per year is:
+APY = (1+r/n)n - 1
+    So in our example the bank stated that it has an interest rate of 6.45% compounded quarterly, and you want to calculate the APY (although they should give it to you), just plug the numbers into the formula and solve.
+    Example 3
+APY = (1 + 0.0645 / 4)4 - 1
+APY = (1 + 0.016125)4 - 1
+APY = 1.066076 - 1
+APY = 0.066076 or 6.608%
+    When a bank gives you an APY, you can re-write the compounding interest formula to make it simpler to solve:
+F = D(1+r)t
+    If we use this formula and the APY to calculate how much interest we will make using the same numbers as in example 1, we should come out with the same amount.
+    Example 4

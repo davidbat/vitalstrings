@@ -1,0 +1,11 @@
+Large and Sparse Matrix Problems
+Large and Sparse Matrix Problems (ENM and GU)
+7.5 credit points
+Examiner and Lecturer: Ivar Gustafsson
+- See you at the course start on Wednesday January 19, time 13.15 in room MVF32 at Mathematical Sciences - Physics building.
+Some words about the course
+Large and sparse matrix problems arise for instance in numerical approximation of differential equations, network problems and optimisation. In this course we study numerical techniques for solution of systems of linear equations and eigenvalue problems with this type of matrices.
+For systems of linear equations we present two classes of methods: iterative and direct. Among the iterative methods we study basic stationary methods like Jacobi and SOR methods, orthogonalising methods like conjugate gradients and multigrid methods. The direct methods are based on Gaussian elimination with different renumberings of the unknowns in order to keep computing time and memory requirement small.
+The eigenvalue routines presented are based on Lanczos and Arnoldi algorithms with or without spectral transformations. When solving the homework assignments (inlämningsuppgifter) and experimental assignments (laborationer), the students get experiences in implementation and evaluation of different algorithms for sparse problems.
+For some learning outcomes of this course, see outcomes .
+Course Literature

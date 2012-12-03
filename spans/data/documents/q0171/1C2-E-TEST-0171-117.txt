@@ -1,0 +1,17 @@
+﻿
+myIPaddress.com: What is an IP address?  Where do I get an IP address?  How can I find my IP address?
+About myIPaddress.com
+What is myIPaddress.com?
+myIPaddress.com is a web site that automatically detects and displays your computer's IP address.  This can be helpful for configuring a computer on a network, setting up communications software, or troubleshooting an Internet connection.  Your Internet Service Provider or IT help desk may ask you to visit this site when you're having problems with your Internet connection.
+What is an IP address?
+Just as telephones are identified by unique telephone numbers, computers on the Internet are identified by unique series of numbers called "IP addresses".  Each IP address consists of four numbers separated by three periods; for example, "192.168.1.1".  Whenever your computer talks to another computer on the Internet -- such as when you visit a web site -- the name of the other computer must be converted into an IP address before communication can take place.  (Incidentally, "IP" stands for "Internet Protocol".)
+Where do I get an IP address?
+Most computers automatically get their IP addresses from the network; that is, they are "dynamically assigned" by an Internet Service Provider or IT department.  The technologies that make this possible are "DHCP" ("Dynamic Host Configuration Protocol") and "PPP" ("Point to Point Protocol").  Fortunately, most modern operating systems handle DHCP and PPP without much effort on the part of the user.
+The only disadvantage of a dynamically-assigned IP address is that it can change each time you connect to the Internet.  (This can also be viewed as an advantage, of course, as it makes it more difficult for hackers to track you down.)  If you are using software that requires you to know your IP address, you may wish to visit myIPaddress.com whenever you reconnect to the Internet.
+If you have a continuous connection to the Internet, your Internet Service Provider may assign you a "static IP address".  A static IP address  identifies your computer on the Internet using the same address as long as you remain with the same ISP.  This is necessary if your computer is to provide services on the Internet, such as e-mail or web hosting.
+My IP address is wrong!  How can that be?
+If your computer is located behind a firewall, the firewall may be hiding your computer's actual IP address from myIPaddress.com.  In which case the IP address displayed is actually the IP address of the firewall, not your computer.
+Similarly, if your computer is behind a "proxy server" or "web cache" (i.e., a computer that intercepts requests for web pages in order to speed up frequently-requested pages), the IP address displayed is probably the IP address of the proxy server or web cache -- not your computer.
+Note that your computer may be behind a proxy server or web cache without your knowledge! A number of companies and Internet Service Providers use "transparent web caches", which intercept requests for web pages without any special configuration of your computer.
+Is it okay to write a program that polls myIPaddress.com?
+No.  This site is not designed to be automatically polled by software.  If you are writing a program that needs to detect your computer's IP address, you should use a web page that supports this type of activity, such as http://www.whatismyip.com/faq/automation.asp .

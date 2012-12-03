@@ -1,0 +1,17 @@
+Wimbledon google map link options
+link to us:
+There are several options how to link to our maps — including no elsewhere to find free google maps gazetteer search, ready to use on your website. Please choose in the list below and simply copy & paste mentioned HTML code into your page source code. Thank you for all links!
+Wimbledon google map text link
+<a href="http://www.maplandia.com/united-kingdom/england/south-east/merton/wimbledon/" title="google satellite map of Wimbledon">Wimbledon google map</a>
+Wimbledon google map image button link
+<a href="http://www.maplandia.com/united-kingdom/england/south-east/merton/wimbledon/" title="google satellite map of Wimbledon"><img src="http://www.maplandia.com/images/icon.gif" width="88" height="31" border="0" alt="Wimbledon google map"/></a>
+map search
+<!-- maplandia.com search-box 1.0 beginning --> <div style="margin:0px;text-align:center;border:1px solid #111;width:135px;padding:8px 4px;background: #FFF;"> <form action="http://www.maplandia.com/search/" target="_top" style="padding:0;margin:0;" method="post"><a href="http://www.maplandia.com/" style="background:none;"><img src="http://www.maplandia.com/images/logo-small.gif" width="125" height="21" alt="google maps gazetteer" border="0"/></a><br/> <input type="text" name="h[2][1]" value="" size="16"/><br/><input type="submit" value=" find map " size="16" style="margin-top:4px;width:125px;"/><br/> <input type="hidden" name="action[2]" value="special"/></form></div> <!-- maplandia.com search-box 1.0 end -->
+IMPORTANT NOTE: The map search box code must be pasted directly into web pages without modification. You are not allowed to alter any portion of the link code or change the layout or targeting for any reason.
+small Wimbledon google map image link
+<a href="http://www.maplandia.com/united-kingdom/england/south-east/merton/wimbledon/" title="google satellite map of Wimbledon"><img src="http://maps.google.com/maps/api/staticmap?center=51.4333333,-0.2166667&amp;zoom=12&amp;markers=size:small%7Ccolor:0xF35834%7C51.4333333,-0.2166667&amp;size=180x150&amp;maptype=hybrid&amp;sensor=false" width="180" height="150" border="0" alt="Wimbledon google map" style="border:1px solid #000;"/></a>
+medium Wimbledon google map image link
+<a href="http://www.maplandia.com/united-kingdom/england/south-east/merton/wimbledon/" title="google satellite map of Wimbledon"><img src="http://maps.google.com/maps/api/staticmap?center=51.4333333,-0.2166667&amp;zoom=12&amp;markers=size:small%7Ccolor:0xF35834%7C51.4333333,-0.2166667&amp;size=300x250&amp;maptype=hybrid&amp;sensor=false" width="300" height="250" border="0" alt="Wimbledon google map" style="border:1px solid #000;"/></a>
+large Wimbledon google map image link
+<a href="http://www.maplandia.com/united-kingdom/england/south-east/merton/wimbledon/" title="google satellite map of Wimbledon"><img src="http://maps.google.com/maps/api/staticmap?center=51.4333333,-0.2166667&amp;zoom=12&amp;markers=size:small%7Ccolor:0xF35834%7C51.4333333,-0.2166667&amp;size=336x280&amp;maptype=hybrid&amp;sensor=false" width="336" height="280" border="0" alt="Wimbledon google map" style="border:1px solid #000;"/></a>
+latest placemarks

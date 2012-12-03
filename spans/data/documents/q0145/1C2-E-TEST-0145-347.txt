@@ -1,0 +1,16 @@
+FinKit Help
+Compound Interest Factors
+The Compound Interest Factors    calculation lets you calculate any of the eight common compound interest factors    for a given rate and number of periods and lets you easily set up a compound    interest factor table.
+FinKit uses these factors    internally in many of the calculations.
+Factor notation
+The convention used to denote    factors is in the form (F/P, i %, n). This factor indicates that we are trying    to compute the future value F, of a present value P, with an interest rate of    i % per period for n periods. In the example below, P is $20,000, i is 12 %,    and n is 15 periods.  When the present value is multiplied by this factor    the result is the future value at the end of 15 periods.
+Discrete compounding
+When interest periods coincide with payment periods, it's possible to make direct use of the interest factors:    just enter the effective periodic rate and the total number of interest periods.
+When interest periods are smaller than payment periods, interest may be compounded multiple    times per payment periods. A convenient method is to convert the nominal interest    rate to an equivalent effective interest rate for the given payment period.
+When interest periods are larger than payment periods, some payments may not have been deposited for an entire interest period. It may be that such payments do not    earn interest at all, or that they only generate a fraction in proportion to    the elapsed time. In these situations FinKit also calculates using an equivalent    effective interest rate.
+Continuous compounding
+When the interest periods    become infinitesimally small, then compounding is said to be    continuous. In the case of continuous compounding, the nominal annual rate is    stated instead of the effective periodic rate.
+Note: FinKit    displays factors based on discrete compounding between normal brackets "(" and ")", and uses square brackets "[" and "]" to indicate continuous compounding.
+Input
+ effective periodic rate or nominal annual rate
+ compounding type

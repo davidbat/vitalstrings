@@ -1,0 +1,10 @@
+How IP Addresses, Computers and Routers Work
+The special IP address 127.0.0.1, also called localhost, refers to your own computer.
+If your ISP (internet service provider) has given you a static IP address, it should be the same each time you connect to the internet.        If you have a dynamic IP address it should change when you disconnect and connect the router to the internet.
+If you use a router between your computer and the internet, your public IP address is the same as the public ip address of your router.        Whether your router is cable, wireless, linksys, netgear or whatever does not matter.
+You can connect multiple systems to your router, e.g. laptops, xbox 360, play station, media center and other computers.
+Your router can make all connected systems share the same IP address.        The router handles this by tracking outgoing and incoming TCP and UDP packets.        It can do so by assigning port numbers to all outgoing traffic and compare these to incoming traffic port numbers.
+Website Development and IP Addresses
+Some websites try change the website content and language depending on which country your IP address originates from.
+(This is sometimes referred to as geographic location based targeting and similar terms.)
+It is often useful to perform crawler based website audits on localhost to lessen the bandwitdh usage on your public website.

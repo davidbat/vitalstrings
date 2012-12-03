@@ -1,0 +1,17 @@
+Open the message you'd like to view headers for.
+Click the down arrow next to Reply, at the top of the message pane.
+Select Show Original.
+Geo-location of an IP Address
+1
+Use the methods described above to obtain the IP number you wish to check.
+2
+Go to a website that will allow you to look up IP address information. Google "IP Lookup" or "IP Geolcation" for a large list of sites that will freely offer this service.
+3
+Understand what you can and cannot learn from the IP address:
+Which internet service provider (ISP) the user is using. In some cases this may be the user's company (e.g. Ford.com). In other cases it may be just one of the large ISPs such as ATT or Comcast.
+The approximate physical location of the user (e.g. Palo Alto, California.)
+Recognize that usually you will not learn the actual name of the person doing at that IP address (e.g. Joe Smith). ISPs will typically only release such information under a court order.
+Edit Tips
+Another way--if you are using a Windows computer--to find out some information about someone is to go to Command Prompt (if you do not know how to do that, go to the Start menu, Run, and type "cmd" and press OK) and type in tracert <IP address>. On UNIX (including Linux and OS X), open a shell and use the command traceroute <IP address>
+Tracing an IP isn't foolproof. People can take extreme measures to remain anonymous (even forging e-mails ).
+Edit Things You'll Need

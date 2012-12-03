@@ -1,0 +1,30 @@
+How to find printer ip address
+Last Updated 6/28/2012
+How to find IP address of a printer?
+Installation is a snap. Plug the printer in to the computer running Windows XP, and the system automatically recognized it. Windows XP briefly displayed a balloon in the taskbar that said, "Found New Hardware," followed by the name of the printer. A full minute won’t pass between the time you plugged the printer in to the computer and the time you will be printing.
+First step is to make sure you have the correct printer IP address, most printers will give you an information page with the IP address on it. Usually there is a button or a sequence of buttons to push to print this page. Once you have the correct IP address you are ready to go.
+How to find IP address of a network printer?
+A network printer with built-in Ethernet port usually provides a menu button that will allow you to display IP address assigned to it.
+If you can't find an IP address of a network printer from the menu display perform the following:
+1. Choose Start, Settings, Printers and Faxes, or Start, Control Panel, Printers and Faxes.
+2. Right-click the printer name Properties.
+3. Ports tab
+If your networked printer uses DHCP, you may connect to your router and find the IP address of the printer from DHCP status page. The router displays all host machines that are assigned dynamic IP addresses.
+In order to install a network printer, you must know your printer's Manufacturer, Model Name, and IP Address.
+Setting Up a Network Printer
+1. Click on the Start button, Control Panel, Printers and Faxes, Add Printer.
+2. A new Add Printer Wizard window opens.
+3. Select Local printer attached to this computer. Make sure automatically detect and install my Plug and Play printer is NOT checked.
+4. Click Next to continue.
+5. Create a new port for your network printer. Select Create a new port.
+6. Beside Type of Port, click on the down arrow - Standard TCP/IP Port.
+7. You must now type your printer's IP Address in the Printer Name or IP Address field.
+8. The Port Name will automatically be filled when you enter the IP Address. Do not change the Port Name.
+9. Windows XP will scan the network to find your printer's IP Address. This may take a few seconds. Select Finish to continue.
+10. You must now select the printer's manufacturer and model. Windows XP will automatically select the detected manufacturer and printer driver. Usually you will not have to change this selection.
+11. If your network printer is NOT automatically detected, select the Windows Update button to find the proper software drivers.
+12. You will be prompted to confirm the selected printer driver. Make sure Keep existing driver is selected, then click Next to continue.
+13. Assign a printer name.
+14. Print a test page.
+15. Finish button to complete the Add Printer Wizard.
+The new printer will appear in your Printers and Faxes screen and you’re ready to print!

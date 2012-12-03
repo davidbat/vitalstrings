@@ -1,0 +1,15 @@
+Joined 10 years ago
+Hi,
+You can not create an instance of an interface, hou have to create an instance of an object that implements the interface. With an interface you just define what an object can/must be able to do. You will use Interfaces when you want to use various objects in the same way.
+Sample:
+Create an interface for a vehicle called IVehicle
+This interface will have the property Wheels.
+Create an object Car which implements the interface Ivehicle.
+Car.Wheels will alwais return 4
+2Create an object Bike with implements the interface Ivehicle.
+Bike.Wheels will alwais return 2
+What you can then do is:
+IVehicle vehicle = new Car();
+if you use vehicle.Wheels then it will return 4
+If you then do a:
+vehicle = new Bike();

@@ -1,0 +1,23 @@
+2 SWS, 3 ECTS
+Intended Audience:
+Students of the Bavarian Graduate School in Computational Engineering If space is available also other students from related fields are welcome. Background on iterative solvers and linear algebra is useful.
+Annotation:
+The number of participants is limited. Register now via email to haraldk@immd10.informatik.uni-erlangen.de !
+Place and time:
+Lectures and exercises will be at room 0.111, Cauerstrasse 6.
+Preliminary schedule: 26.03.07-30.03.07, lecture 9:00-12:00, exercises: 13:00-15:00.
+Overview:
+Support preconditioning is a method for solving large sparse linear systems of equations. The method is based on sophisticated graph algorithms that drop entries from a matrix to make it sparser. The sparsified matrix, called a preconditioner, is then factored into triangular factors and is used to accelerate an iterative linear solver. The behavior of the resulting solver can often be analyzed rigorously; for certain classes of matrices (those that are symmetric and close to diagonal dominance), the number of operations that the solver performs is only linear or almost linear in the number of unknowns. The course will cover the basic ideas of support preconditioning, algorithmic tools that are required for constructing and using them, the theory of support preconditioning, as well as extensions and applications. The course requires familiarity with basic linear algebra (linear systems of equations, eigen-decompositions), but no prior background in numerical linear algebra. We will cover the necessary tools (iterative linear solvers, sparse factorization, etc.) in the course.
+Outline:
+Motivation: resistive circuits, dense factorizations, sparse factorizations, iterative solvers, preconditioners.
+Sparse Cholesky factorizations, reordering for sparsity, bounding the cost of factorizations using separators.
+Iterative linear solvers, MINRES and Conjugate Gradients, convergence theory and Chebychev solvers, preconditioning.
+Symmetric diagonally dominant matrices (Laplacians) the isomorphism between them and weighted/signed graphs. Factor width, gain graphs, and H matrices.
+Subset preconditioners (those of Vaidya, of Spielman and Teng, and others)
+Support-tree preconditioners (those of Gremban, Miller, and others); preconditioning in a larger space.
+Recursive application of support precondioners.
+Beyond Laplacians I: signed graphs, matroids, and maximum-weight bases.
+Beyond Laplacians II: element-by-element diagonally-dominant approximations.
+Beyond Laplacians III: Fretsaw preconditioners, linear elasticity.
+Accurate iterative solution of highly ill-conditioned linear systems.
+Literature

@@ -1,0 +1,6 @@
+internet connection problems
+Question: How Do I Find the Default Gateway IP Address?
+Knowing the IP address of the default gateway on your home or business network is important information if you want to successfully troubleshoot a network problem.
+In most cases, the default gateway IP address is the private IP address assigned to your router . This is the IP address that your router uses to communicate with your local home network.
+Answer: You can see the default gateway IP address in Windows from the network settings in Control Panel .
+The specific way you go about accessing the area in Control Panel where you can view the default gateway IP address depends on which operating system you happen to be running:

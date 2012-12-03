@@ -1,0 +1,33 @@
+To navigate to the different directories
+alias ..='cd ..' alias ...='cd ../..'
+Refer this article for more cd command aliases .
+Alias examples that should be modified for your environment
+The alias examples provided in this section should be modified according to your environment before using them.
+Remove the firefox lock
+alias rm_fire_lock='/bin/rm .mozilla/firefox/NAME.default/.parentlock' # edit NAME
+To login to the remote machine through ssh with loginname
+alias server_name='ssh 192.168.1.1 -l tom' # change the ip & user name alias ser2='ssh www.dbserver.com -l kgf' # create as many alias as required.
+To login to remote cvs server
+export CVS_RSH=/usr/local/bin/ssh alias cvl='cvs -d :ext:username@cvs.server.com:/usr/local/cvsroot'  # change required.
+Unmounting the cdrom
+alias umnt='umount /mnt/cdrom'  # cdrom / thumb drive.
+How to view all the aliases
+Execute alias without arguments to view list of aliases set in a shell.
+$ alias alias ..='cd ..' alias ...='cd ../..' alias mnt='mount /mnt/cdrom' alias umnt='umount /mnt/cdrom' alias dus='df -h'
+To view a particular alias, enter the command the format “alias aliasname” as shown below.
+$ alias dus alias dus='df -h'
+How to temporarily stop using aliases
+When you want to call the command instead of the alias, then you have to escape it and call.
+$ \aliasname
+For Example, alias cp=”cp -iv”, will ask you confirmation if you are about to overwrite a file. This can be annoying when you are copying lot of files that you already know you are going to overwrite. Probably you might want to temporarily use the regular cp command instead of the cp-alias.
+So, if an alias cp exists, but you want to use the cp-command instead, escape the alias temporarily as shown below:
+\cp * /backup/files/
+How to remove an alias
+unalias is a shell built-in to remove an alias. To remove a particular alias:
+$ unalias hcl  where unalias is a shell built-in.  mnt is an alias name. $ hcl -bash: hcl: command not found
+How to remove all aliases
+unalias with -a option, removes all the aliases.
+$ unalias -a $ alias
+NOTE: Shell functions are faster. Aliases are looked up after functions and thus resolving is slower. While aliases are easier to understand, shell functions are preferred over aliases for almost every purpose. You should be very careful replacing a standard command with an alias or a function.
+The aliases shown in this article are available in this sample bash aliases files , which you can copy/paste and use it on your bash startup file.
+Aliases are very useful things, but I hope that you will find bash functions at least as interesting and even more useful which we will discuss in our next bash article.

@@ -1,0 +1,17 @@
+Home > Guides > Find Routers IP
+Each router has 2 IP addresses: an internal IP address and an external IP address.
+Your router's internal IP address is what you use to talk to your router. Use this IP address to login to your router and configure it for things like port forwarding.
+Your router's external IP address is what the rest of the world uses to find you on the Internet. Tell this IP address to people who are trying to connect to you if you are hosting a game or other kind of server.
+Notice the dashed line in the image below. The dashed line represents the division of two different IP addresses in your router.
+How To Find Your Routers Internal IP Address
+You have 2 options here. You can either:
+Download our Free Static IP Software , which will tell you your routers internal IP address (it will be called "gateway address"), or
+Use the Windows command prompt
+To find your routers internal IP address the easiest method is with a little command line tool called ipconfig that comes with Windows. First you need to click Start and find the Run command. You should see a little run dialog box that looks something like this.
+In the run dialog box type in cmd and either press enter or click the Ok button. You should see a black window with white text, referred to as a command prompt.
+At the command prompt type in ipconfig and press enter. You should see results that look like the following image.
+I have circled the routers IP address in red in the above image. Notice that windows lists it under the title Default Gateway.
+REMEMBER: This is the IP address that you use to configure your router for port forwarding.
+How To Find Your Routers External IP Address
+The easiest way to determine your routers external IP address is to visit a website that reports it back to you. We do that for you. Below is your real external IP address as of right now.
+Your external IP is 65.52.108.147

@@ -1,0 +1,398 @@
+Backslashes, such as those in filesystem paths, must be
+escaped as double slashes (\\) in Registry entry files.
+Note that the contexts entry here ends with 2, which means the entry will
+appear only when the user has clicked an image. Other values you could use
+here include 1 (for anywhere), 20 (for text links), or 10 (for text
+selections).
+Save the file, double-click it, and confirm that you want to add the new
+Registry information. You'll now have a right-click menu entry called "Add
+to My Yahoo!" whenever you right-click an image.
+2.15.2. Running the Hack
+Once the code and Registry settings are in place, restart Internet
+Explorer. Browse to a site with a feed URL link and take the new context
+menu entry for a spin. When you right-click an image, you should see "Add
+to My Yahoo!," as shown in Figure 2-41.
+When you click the "Add to My Yahoo!" menu entry, a window like the one
+shown in Figure 2-42 should appear with the My Yahoo! feed preview page.
+Keep in mind that the "Add to My Yahoo!" context menu entry will be
+available for every image on a web page, regardless of whether or not it
+links to an RSS feed. So you'll have to use your best judgment about when
+to use the feature. If the image turns out not to be linked to an RSS
+feed, the Yahoo! feed preview page will let you know quickly. If you don't
+see posts in the preview box on the right side of the page, you'll know
+that a feed won't be added to My Yahoo! if you click the Add button.
+Figure 2-41. "Add to My Yahoo!" context menu entry
+Once you're finished adding the feed, you can simply close the pop-up
+window and go back to reading the site.
+Hack 37. Build Your Own News Crawler
+The My Yahoo! Ticker can provide a nonstop stream of news, weather, and
+stock quotes in your Windows toolbar.
+When you watch any of the 24-hour news channels such as CNN or MSNBC, you
+see the ever-present crawling news ticker running along the bottom of the
+screen. While the news anchor reads a story about the latest celebrity
+court case or natural disaster, you can read completely unrelated
+information in the news crawler about other stories that are breaking. On
+the financial news channels, the news crawler across the bottom gives
+stock quote information that lets you keep up with how the market is
+faring.
+Figure 2-42. "Add to My Yahoo!" preview page in new window
+Thanks to the My Yahoo! Ticker (in beta testing at the time of this
+writing), you can create your own endlessly crawling news ticker in your
+Windows taskbar that will keep you up to date with headlines, stock
+quotes, and weather while you're working.
+2.16.1. Installing the Ticker
+To use the ticker, you'll need Windows 98 or higher and a recent version
+of Internet Explorer. If you meet these requirements, browse to
+http://ticker.yahoo.com/ and click the Download button. Follow the
+installation instructions and enable the toolbar by clicking an empty area
+in your Windows taskbar and choosing Toolbars  My Yahoo! Ticker Beta, as
+shown in Figure 2-43.
+Once enabled, the ticker will add a scrolling list of stock quotes,
+weather, and news headlines on the right side of your Windows taskbar,
+similar to those shown in Figure 2-44.
+Figure 2-43. Enabling the My Yahoo! Ticker toolbar
+Figure 2-44. My Yahoo! Ticker showing news headlines
+You could use the ticker like this without changing any of the settings,
+but making the ticker your own means you'll get more relevant news and
+stock quotes.
+To edit your ticker preferences, click the small down arrow at the far
+right of the ticker and then click the top choice, My Yahoo! Ticker Beta
+Preferences. You should see a preferences window like the one shown in
+Figure 2-45.
+Figure 2-45. My Yahoo! Ticker preferences
+If you already have a set of customized news sources set up at My Yahoo!
+[Hack #34], you can enter your Yahoo! ID and password to show your My
+Yahoo! news sources in the ticker. Once you are logged in, any Yahoo!
+modules or RSS feeds you've added to My Yahoo! will scroll through the
+ticker.
+Alternately, you can choose the "Use as Guest" option and click the Edit
+News and Edit Stocks buttons to set up your ticker information. Even if
+you have a My Yahoo! page, you might want to see different news sources
+scrolling by, and the Guest account will do the trick.
+Clicking the Edit News button will give you the preferences window, as
+shown in Figure 2-46.
+Figure 2-46. My Yahoo! Ticker Guest News preferences
+You can choose from a number of news categories and set specific colors
+for each. You can also set some specific Zip Codes for weather
+information. Clicking Edit Stocks will take you to a similar preferences
+window, where you can enter a number of stock symbols to watch throughout
+the day. They'll scroll by in your ticker, as shown in Figure 2-47.
+Figure 2-47. Stock symbols in My Yahoo! Ticker
+2.16.3. Using the Ticker
+As information crawls by, you can stop the ticker or move it backward and
+forward by clicking and dragging with your mouse. You can also click any
+headline to read the full story in your web browser, or click any stock
+quote to see that stock's detail page at Yahoo! Finance.
+Clicking the Y! icon on the right side of the ticker turns the ticker into
+a Yahoo! search form. You can enter any search query into the field, click
+Enter, and the results for the query will appear in a special browser
+window. If you'd rather see queries and links in your default web browser,
+you can check the Default Browser option in the Search tab of the ticker
+preferences. To get back to the crawling ticker at any point, click the
+newspaper icon on the left side of the taskbar.
+If you ever feel you're cramped for space in your Windows
+taskbar, right-click the newspaper icon to minimize the My
+Yahoo! Ticker. And if you want more space for the ticker, grab
+the bar to the left of the newspaper icon and pull down. This
+will put the My Yahoo! Ticker on its own row of your taskbar,
+stretching the full width of your screen.
+You can also navigate to a number of different Yahoo! properties with the
+ticker by clicking the arrow at the far right to bring up a menu like the
+one shown in Figure 2-48.
+Figure 2-48. My Yahoo! Ticker menu
+The menu has links to a dozen different Yahoo! properties, including
+Yahoo! Maps, a dictionary at Yahoo! Reference, and showtimes from Yahoo!
+Movies. You can also click Refresh My Yahoo! Ticker Beta Now to get the
+latest news and headlines.
+The My Yahoo! Ticker is simple to set up and customize, and with a little
+work, you can create a news crawler to rival CNN's.
+Hack 38. Replace Your Phone Book with Yahoo!
+Throw out the giant book of numbers, and find everything from business
+information to personal phone numbers by searching at Yahoo!.
+In the days before the Web, the local telephone directory was probably the
+most used book in the house. Getting in touch with friends, finding a
+place for dinner, and reaching local government agencies was accomplished
+by flipping through the pages of your phone book. Even the maps printed in
+the book could help you locate hard-to-find addresses.
+Now, every home that has an Internet connection can get the same local
+information with Yahoo!. And with Yahoo!, you not only have access to
+local listings and business, but you are also able to browse virtually
+every phone book from every city across the United States.
+2.17.1. Finding Businesses
+Finding a business address and phone number on Yahoo! is similar to
+finding the information in a traditional phone book. Say you want to get a
+haircut in Sebastopol, California. You'd find a local directory, flip
+through the Yellow Pages until you find the Barbers categoryor maybe
+Salon, Hairdresser, or Hair Stylistand look through the listings.
+On the Web, you can browse to http://local.yahoo.com/ and type in barbers
+and a locationin this case, 1005 Gravenstein Hwy N Sebastopol, CA. Yahoo!
+will come back with a list of phone numbers and addresses, as shown in
+Figure 2-49.
+Figure 2-49. Yahoo! Local results for "barbers" near a Sebastopol,
+California, address
+The listing of phone numbers and addresses is where the similarity with
+the phone book ends. In addition to the standard listings, Yahoo! offers
+many improvements that the phone book can't compete with.
+2.17.1.1. Mapping and directions.
+Depending on how specific your initial query is, Yahoo! can know something
+about you the phone book could never know: your exact location. Then along
+with the phone and address, Yahoo! provides a distance to your location.
+And if you provide an exact address with your querysay, 1005 Gravenstein
+Highway North, Sebastopol, CAYahoo! can sort the entries by how far away
+they are, giving you a good guess at how long it would take you to get
+there.
+This knowledge of geography also lets Yahoo! show the results of any
+search on a map. Click the View Results on Map button at the top of any
+search results page to see each entry in relation to your current location
+and in relation to the other entries, as shown with the barbershops in
+Figure 2-50.
+Figure 2-50. Yahoo! Local results for barbershops in Sebastopol,
+California, plotted on a map
+The star in the center of the map represents your current location, and
+each numbered square is an entry from the results page. You can click any
+of the squares or the titles on the right side of the page to see more
+information about that particular business.
+Yahoo! can also give you detailed directions to any business in the
+results. Click Drive To next to any entry on the results page, and you'll
+be asked to verify the start address and destination. From here, click Get
+Directions to display a map like the one shown in Figure 2-51, with a
+highlighted route and detailed information about where to turn along the
+way.
+Figure 2-51. Yahoo! Local directions to a barbershop in Sebastopol,
+California
+From here, you have the option to print the directions so you can take
+them with you, email them to someone else, or send them to your cell
+phone.
+2.17.1.2. Sending to cell phone.
+Where a pencil and paper might have once been used to jot down an address
+from the phone book, you can now use the multi million dollar wireless
+networks all around us to send detailed information from Yahoo! Local to a
+mobile device. When you click "Send to Phone" next to any entry on a
+Yahoo! Local search results page, you'll see a form into which you can
+type a cell phone number. You can also check the "Add link to map and
+driving directions" option. When you click Send, Yahoo! sends an SMS (
+Short Message Service) message to the number. SMS is a protocol cell
+phones use to send and receive text messages.
+The SMS message will contain the name, address, and phone number of the
+business. Many phones let users highlight the number so they can simply
+click a button to call the business. Optionally, the SMS message can
+include a link to a map or driving directions to the business. As with
+phone numbers, many phones allow you to highlight the link and bring up a
+smaller version of the map you'd see on the Yahoo! web site.
+2.17.1.3. Ratings.
+Another insight the standard phone book can't provide is how other users
+of the phone book feel about a particular business. Yahoo! lets any user
+rate any business in its listing on a scale from one to five stars. If you
+feel like you need to voice more than a rating, you can also add a review
+of the business. You can browse ratings and reviews for any business by
+clicking the business name in the search results. The business detail page
+contains the average rating by Yahoo! users and links to any reviews that
+have been added.
+Yahoo! provides a service called Yahoo! People Search
+(http://people.yahoo.com/) for finding residential phone numbers. You can
+search for phone numbers by name and city, or for email addresses by name.
+The difference between the Yahoo! People Search and your local phone book
+is scale: you can use Yahoo! to search across the United States. Try
+searching for just your last name, leaving the city blank and Entire USA
+(the default) selected for the state. The list might include some
+long-lost relatives.
+In addition to the name, address, and telephone number, each entry
+includes shortcuts to add the address to your Yahoo! Address Book or show
+the address on a map.
+Look carefully on results pages for boxes or columns labeled
+ADVERTISEMENT or Sponsored Results. Even though you might see
+what look like official Yahoo! links, be aware that any site
+within one of these boxes or columns will take you to another
+domain that Yahoo! doesn't control.
+If you find your own information listed in Yahoo! People Search and you'd
+rather not be included, you can request to be removed. To remove your
+email address, go to http://people.yahoo.com/py/psEmailSupp.py and enter
+your name and email address. Yahoo! will remove the listing within five
+days. To remove your address and phone listing, go to
+http://people.yahoo.com/py/psPhoneSupp.py and enter your information.
+Keep in mind that filling out these forms removes your information only
+from the Yahoo! People Search database; you'll need to contact your phone
+company and any other services to keep your information out of other
+directories. The data for the Yahoo! People Search is supplied by a
+company called Acxiom, and you might want to read their privacy policy and
+opt-out provisions at
+While you won't be able to use Yahoo! Local or Yahoo! People Search as a
+booster seat for your toddler, the added features and convenience will let
+you finally say goodbye to your old phone book.
+Hack 39. Monitor Your Commute
+Let Yahoo! Local point out construction, accidents, and other potential
+slow spots on your route.
+If you've ever been stuck in an inexplicable traffic jam, you know how
+important information can be. Just knowing the reason behind a slowdown
+can help you estimate how much longer you'll be stuck and make some sense
+of the sea of cars surrounding you. With a little planning and research,
+you might be able to avoid those trouble spots entirely.
+2.18.1. Scout Your Route
+To get a general sense of traffic in your area before you leave the house,
+try looking up your city at Yahoo! Maps. Browse to
+http://maps.yahoo.com/traffic and plug in your city. You'll see a map that
+includes any known construction areas and traffic incidents, along with
+the general speed of the routes. Figure 2-52 shows the traffic around San
+Francisco and southern Marin County.
+Figure 2-52. San Francisco Bay area traffic
+The squares on the map indicate areas with construction and triangles with
+exclamation points indicate a traffic incident. You can get more detail by
+hovering over these icons. Clicking the icon gives you even more
+information, as shown in Figure 2-53.
+Figure 2-53. Traffic incident detail
+As you can see from Figure 2-53, the information won't always tell you
+when an incident will be over, but at least you'll know that the route
+could be slow.
+In addition to the general overview of your city, you can look for
+problems along a specific route. Any driving directions provided by Yahoo!
+Maps also include traffic information. Point your browser to
+http://maps.yahoo.com/, click Driving Directions (toward the top of the
+page), and enter a starting and ending location. The map you get by
+clicking Get Directions will show you traffic incidents along the route.
+This is great for routes you might not be familiar with, but if you have a
+regular commute, there are a few other ways to work this information into
+your daily routine.
+2.18.2. Add Incidents to Your Dashboard
+If you're a commuter, you probably know your route by heart and won't need
+the map. Instead, you'll want the traffic incident information in a handy
+spot, such as your dashboardthat is, your Mac OS X Dashboard. In Mac OS X
+Tiger (Version 10.4), Apple introduced a feature called Dashboard, which
+contains a series of widgets that can provide information or control
+applications.
+The Yahoo! Local Traffic widget for Dashboard lets you specify a city,
+state, or Zip Code and receive traffic incidents within a radius of 4, 10,
+or 40 miles from the center of the area. You can also set the severity
+threshold to Minor, Moderate, or Major to filter out smaller incidents.
+Figure 2-54 shows the widget with traffic data for San Francisco.
+Clicking on any of these incidents will open a web browser to a page that
+shows the incident on a map at Yahoo! Maps. You can change the location or
+other settings by clicking the i icon in the upper-right corner. You can
+also run multiple instances of the widget to track several locations.
+Figure 2-54. Yahoo! Local Traffic widget for Mac OS X
+To install the Yahoo! Local Traffic widget, go to
+http://www.apple.com/downloads/dashboard/transportation/yahoolocaltraffic.html
+and click Download. Double-click the .zip file to decompress it and then
+open the file YahooTraffic.wdgt to add the widget to your Dashboard.
+2.18.3. Subscribe to Your Commute
+Dashboard is great for Tiger users, but if you're on Windows (or if you're
+a Mac user who simply hasn't upgraded yet), there's still a way to
+subscribe to information about your commute with RSS.
+Studying the data behind the Yahoo! Local Traffic widget, intrepid
+developer John Resig found that the widget was getting its data from
+Yahoo! in the popular RSS format; he posted his findings to his web site:
+http://ejohn.org/blog/traffic-conditions-data. This means you can create
+your own specially formatted URL to create an RSS feed of traffic
+incidents in your area.
+Here's a look at the format of the URL:
+http://maps.yahoo.com/traffic.rss? csz=94101& mag=4& minsev=2
+The three variables correspond to the preferences you can set in the
+dashboard widget:
+The Zip Code, city, or state.
+mag
+The magnification of the areathat is, the radius of traffic data from the
+center of the specified location. Possible values are 3, 4,or 5, which
+correspond to 4 miles, 10 miles, and 40 miles respectively.
+minsev
+The minimum severity that should be shown in the feed. A value of 1 sets
+the minimum to Minor, 2 is Moderate, and 3 is Major.
+So, putting all of the variables together, you can set a feed of moderate
+traffic incidents within 40 miles of San Francisco, like so:
+http://maps.yahoo.com/traffic.rss?csz=94101&mag=5&minsev=2
+Now you can add this URL to your favorite RSS newsreader to keep up with
+any traffic problems in the area. This also means you can add the data to
+My Yahoo! by visiting http://my.yahoo.com/ and choosing Add Content from
+the top of the page. Then click "Add RSS by URL" and plug in your newly
+created traffic feed. You'll find the new module on your My Yahoo! page,
+as shown in Figure 2-55.
+Figure 2-55. Yahoo! Traffic data in My Yahoo!
+Another nice feature is that once this traffic data is available in My
+Yahoo!, you can view these incidents with your cell phone's browser. So,
+not only will you be able to check your commute from home or office, but
+you'll also have something to check when you're stuck in your car dealing
+with one of these incidents!
+Hack 40. Get the Facts at Yahoo! Reference
+Yahoo! has collected several reference books into one site for easy
+research and fact-checking.
+The Yahoo! Education site (http://education.yahoo.com/) contains
+information about schools of every level across the United States. You can
+look up local elementary and high schools, read reviews by parents and
+students, or find degree programs at universities. As part of the mix,
+Yahoo! has put together a collection of publicly available reference
+sources called Yahoo! Research to help students with their own research.
+Yahoo! Reference is available directly at http://reference.yahoo.com/, or
+by typing reference! into any Yahoo! search form. At this site, you'll
+find a collection of reference books, from a dictionary and thesaurus to
+classics such as Bartlett's Familiar Quotations and The Columbia
+Encyclopedia. Yahoo! makes these books available online for free, saving
+you the cost of purchasing each of these books yourself. But be aware that
+Yahoo! includes advertising on each page. Luckily, the advertising is
+clearly marked with the word Advertising, so you won't confuse a
+Shakespeare sonnet with an ad for The Gap.
+2.19.1. The Collection
+Yahoo! Reference provides a single entry point for a collection of
+publicly available resources. Here's a look at the reference sources
+available:
+The American Heritage® Dictionary, Fourth Edition
+The dictionary gives you more than just a definition. It also provides an
+audio (WAV file) pronunciation guide and a link to a thesaurus entry for
+the defined word.
+The American Heritage® Spanish Dictionary, Second Edition
+The Spanish dictionary lets you type in either English or Spanish words
+and returns the appropriate translation. It does not, however, provide an
+audio pronunciation guide.
+Roget's II: The New Thesaurus
+The thesaurus provides a list of related words. But, since this is a web
+thesaurus, it also links each related word to that word's own thesaurus
+entry, letting you drill deeply in the population of related terms.
+Columbia Encyclopedia
+The encyclopedia is based on the single-volume reference book that was
+once the staple for many students, who used it for quick fact lookups.
+Although it does not have the depth or breadth of for-fee products such as
+MSN Encarta, it is a good starting point for research.
+Bartlett's Familiar Quotations
+The quotes are from the 10th edition, published in 1919. It has indexes
+alphabetized by authors and quotations, and searchable by keyword.
+Gray's Anatomy of the Human Body
+This electronic version is based on the 1918 edition. It provides
+descriptions of anatomical structures and 1,247 illustrations.
+The Oxford Shakespeare
+This electronic version of the complete works of William Shakespeare is
+based on the edition published in 1914. A complete text search of the
+works is available and returns the location of the search text, down to
+the line number of a specific play, sonnet, or other work.
+World Factbook
+The World Factbook is maintained by the U.S. Government and placed in the
+public domain. The Factbook provides facts about the countries of the
+world as well as flag drawings and 267 color maps. The audio pronunciation
+guide requires the Apple Quicktime plugin.
+Conversion Calculator
+This easy-to-use unit conversion tool lets you quickly convert values for
+area, length, volume, and mass.
+By combining these sources into one site, Yahoo! has made it easy to
+search all of these sources at once. If you're putting together a paper
+about the planet Saturn, for instance, you can browse to
+http://reference.yahoo.com/, type Saturn into the search form, choose All
+Reference from the drop-down menu, and click Search. You'll find a page of
+search results from these specific sources, as shown in Figure 2-56.
+Figure 2-56. Search Results for "Saturn" at Yahoo! Reference
+If you're doing academic work, these results can be more manageable than
+what you get from typing Saturn into the web search form at Yahoo!, and
+you'll know the information you find is from established reference books
+that have been used in the classroom for decades.
+2.19.2. Programmatic Access
+Yahoo! doesn't provide access to these reference books through its web
+services API, but with some attention to URLs and a look at the HTML, you
+can screen scrape any information you need from one of these sources. For
+example, searching the Yahoo! Bartlett's Familiar Quotations returns a
+list of quotes with the search word or phrase in a bulleted list. And a
+simple Python script can take advantage of the fixed web presentation
+style to create a quick list of results.
+2.19.2.1. The code.
+This script lets you retrieve a list of encyclopedia entries related to a
+search word argument passed to the script. The script builds a Yahoo!
+Research URL with the incoming term, downloads the HTML, separates the
+contents by HTML tag, and then prints out the results. The results can be
+collected in a text file to provide you with a number of quotations with a
+specific word or phrase.
+Save the following code to a file called YahooQuotations.py:
+#!/usr/bin/python

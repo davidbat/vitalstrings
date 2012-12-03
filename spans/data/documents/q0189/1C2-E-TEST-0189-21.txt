@@ -1,0 +1,101 @@
+Update 2: Heard about the Navizon GPS for the iPhone? Check out our initial thoughts .
+Now that we have seen what appear to be legitimate scans of documentation from AT&T, we know that the iPhone will not have GPS. Note these statements.
+Q. Why doesn’t the iPhone have GPS capabilities? A. GPS is not part of the iPhone feature set.
+And this tidbit about TeleNav, although that doesn’t eliminate the possibility that it could be in development.
+Google Maps on iPhone differs from current AT&T location tracking services in the following ways: … iPhone will not support the TeleNav solutions currently offered for other AT&T devices.
+Original Post
+We’ve been getting lots of questions lately surrounding the new Apple iPhone from people wondering if there will be GPS in the iPhone. The one word answer is no, there will not be GPS in the iPhone. No, you won’t be able to connect a Bluetooth GPS receiver to it. And finally, No, you won’t be able to install (fill in the blank) type of GPS software. But…. that is only the short of the story.
+But doesn’t the FCC now require that all new phones come with GPS?
+Not really…. Not the GPS that readers here are probably most familiar with. While it has been awhile since I read exactly what the requirement is, the purpose of the requirement is that if you call 911 emergency personnel will have a way to approximate your location. This can be done with and without GPS technology.
+Okay, so maybe the iPhone doesn’t have a full fledged GPS in it, but it has Bluetooth so I should be able to connect a Bluetooth GPS receiver to it, right?
+Not necessarily. While Apple says the iPhone runs OS X, it really isn’t the OS X people use on a daily basis in their computers. Having Bluetooth doesn’t necessarily mean that you can pair it with any other Bluetooth device. For example the TomTom ONE has Bluetooth, but it cannot pair with mobile phones for hands free calling. It can only pair with mobile phones for a data connection. So just because two devices have Bluetooth doesn’t mean that they can communicate and work together… they must share a “profile”.
+In the case of the iPhone it has been said that the iPhone will work to pair with a hands free Bluetooth accessory through the Bluetooth audio/hands-free profile. However it was also mentioned that you will not be able to wirelessly sync via Bluetooth. This indicates that the serial profile for data connections isn’t likely included. Bluetooth GPS devices use the serial profile for communications and therefore connecting a Bluetooth GPS would be impossible.
+Well, what if something changes and you could use the location system setup for 911 to get your location, use wifi location technology, or connect a Bluetooth GPS…. Problem solved, right?
+Sadly, no… problem not solved. Let’s assume one of those scenarios did work and your iPhone does know your location. Then what? You need some sort of application that is aware of and is constantly being fed your location. As it turns out, Steve Jobs has said that the iPhone will not support third party applications. So there would be no way to install any of the existing Mac GPS applications on your iPhone based on the information available today.
+So am I like totally out of luck?
+Not necessarily. First of all Cingular and Apple have said that they are jointly working on new applications for the iPhone that will be available in the months/years after the iPhone has become available. Second, since the iPhone won’t be available for another six months specifications can change… it wouldn’t be the first time Apple changed the specs for the better when a product was finally released although we have no information that will actually happen here. Third, I believe Apple must eventually allow third party developers access to make applications for the iPhone. After all, you can do that with competing smartphones running Windows Mobile and Palm.
+Okay, okay… I get it…. but didn’t the iPhone Steve had during the Keynote, know where he was? It automatically showed his location in San Francisco.
+Actually, it didn’t. ( watch the video ) He selected the location from a list of previously saved locations.
+So what is our prediction? I believe the Apple iPhone will ship without any means to dynamically acquire your location. You will get what was demoed… Google maps. However in the future it is likely that the partnership between Apple and Cingular will offer an application, possibly as a monthly subscription, featuring turn by turn directions. Cingular already has a partnership with TeleNav and offers their product on certain phones. Therefore if I had to make a wild guess I would say that a TeleNav application for the iPhone via Cingular is a good possibility. This type of solution would also address the the small storage space on the iPhone since the maps would be dynamically downloaded over the Cingular network.
+Located in GPS , Mac GPS on Jan 15, 2007
+28 Responses
+RE: Automatically showing the location of the phone/user
+If you have WiFi enabled, your location can be approximated via the closest WAP in the same way that Streets/Mappoint does this.
+Daniel Gullo - March 29th, 2007
+Steve said in his keynote that google maps will give you directions, and the screenshot he showed for a moment had a button for directions on it. The only bad thing is it would be useless if you were in the middle of nowhere and didn’t know where you were.
+Bootlessjam - April 25th, 2007
+This looks like the perfect PDA/phone although short of a GPS.  does anyone know why company’s cant make a phone that has a true GPS internally in the phone? (there are exceptions e.g. Blackberry 8800 which is 500 dollars). And as I have been told even this phone needs service to direct you. And then there is verizon’s GPS which is limited to the networks range and cannot update fast enough for driving sometimes.  So my question is, does anyone know of a Phone/PDA/GPS that works?
+Austin - May 1st, 2007
+Austin, I suspect in the past the reason has been the cost of a full-fledged GPS chipset in the phone as well as the physical space and power requirements. I’d expect that to change rapidly over the next few years and we will see more phones with built in GPS (not just A-GPS). There are phones in Asia and Europe like you describe, but they are only slowly making it across the pond(s).
+Tim - May 2nd, 2007
+Thanks Tim, if i do not want to get a full GPS and i want a phone in one unit, what is a good GPS service through a carrier. or should i say what carrier has the best GPS service?
+Austin - May 3rd, 2007
+I haven’t spent a ton of time with many of the services, but I’d look at TeleNav. The application is supported on a variety of devices and carriers.
+Tim - May 4th, 2007
+In the Calamari advertisement the phone knows, which restaurant is the closest. How does it do that? If you check out maps at http://www.apple.com/iphone/internet/ then you do not see a bluetooth icon visible at the right top corner. However on the Calamari advertisement you do see a bluetooth icon in the top right hand corner. http://www.apple.com/iphone/ads/ad3/
+Does this mean that we can use bluetooth gps hardware to go with the iPhone???
+Yours sincerely Greenworm
+Greenworm - June 8th, 2007
+Greenworm, we won’t know for sure until it is released, but I doubt it. The video doesn’t rule out the possibility of having selected from a list of locations just like Steve did in the Keynote (see last three paragraphs of the post for what I’m describing).
+Tim - June 8th, 2007
+Austin,
+If you want a Phone/PDA/GPS that works, look at the ETEN Glofiish. I’ve had one for a few weeks now, and it has very capable built in GPS (though you need to buy Tom Tom to use with it). It does have some software bugs (as all Windows Mobile device do) but overall it’s a good solution.
+David - June 13th, 2007
+Austin, check out Helio. I just oredered one over the weekend. It supposedly has GPS enabled google maps. I’m sure the UI won’t be as slick as the Iphone’s is, but it’s really what I want. Also, they’re running a special on the phones this week. Like 40-50% off!
+Jonathon - June 16th, 2007
+I have always been amazed at why cell phone companies don’t enable full bluetooth. especially if the phone must have a data plan. why not just open it up for bluetooth GPS. and sync wirelessly. these are things i would consider in this day and age as a must. with cars having bluetooth in them and GPS. it would be nice to have the phone connect wirelessly and the car could also get “updates” threw the phone. multi-millon dollar companies always leave out a feature that we would expect.
+Peter - July 8th, 2007
+I wonder what the charge will be to turn your old Iphone in for the new GPS Iphone is if comes out.
+Darek - July 25th, 2007
+GPS would rock.  Then I would know where I was at all times.
+Eric Monse - October 19th, 2007
+According to one of the kids who cracked the iphone, a software GPS is actually a quite reasonable proposition. Since the mobile towers and their locations are readily available information, and that information is readily accessed from within the phone, you can potentially triangulate your position on a map. I wouldn’t be surprised to see Apple go this route instead of wasting money on GPS hardware you probably don’t need. (At least in theory.)
+Jonathan - October 22nd, 2007
+Jonathan, I saw that too. And I agree it is possible in theory. You would need a good deal of back data about the location of each tower. Not that the information is impossible to obtain. However having used “GPS” systems based only on cell phone triangulation, the accuracy is not always fantastic and there are tons of areas I travel in that my phone doesn’t get a cell signal in which case there is no fall back. A cell site triangulation application would be better than what we have now, but not as good as a true GPS chipset inside.
+Tim - October 22nd, 2007
+>the accuracy is not always fantastic
+Isn’t that more a function of mapping and computation? It’s not like Google/NavTeq always provides the best location detection based on an address anyway, I can’t imagine most GPS units unless they’re satellite driven being that much more exact. After all, isn’t Geocaching a sport because it takes some time to actually find what you’re looking for? ;D
+If you’re within a few thousand feet by triangulation (or multiple tower reads beyond three which should make it more accurate) you should be fine — maybe I’m making some huge assumptions here… but I’m just not seeing how there can be that much of a difference.
+>and there are tons of areas I travel in that my
+> phone doesnâ€™t get a cell signal in which
+>case there is no fall back.
+Are you saying that a phone with a GPS but happens to have no signal has a fall back? I’m not sure it does. I was under the impression that the GPS within let’s say a Verizon phone relies on the mobile towers to provide positioning information.
+Also, I happened to notice this on Wikipedia on the topic of GPS(obviously not always the best source, but…) “The ability to determine the receiver’s absolute location allows GPS receivers to perform as a surveying tool or as an aid to navigation. The capacity to determine relative movement enables a receiver to calculate local velocity and orientation, useful in vessels or observations of the Earth. Being able to synchronize clocks to exacting standards enables time transfer, which is critical in large communication and observation systems. An example is CDMA digital cellular. Each base station has a GPS timing receiver to synchronize its spreading codes with other base stations to facilitate inter-cell hand off and support hybrid GPS/CDMA positioning of mobiles for emergency calls and other applications.”
+If this is so, I doubt having a GPS chip in a phone will make any real difference if don’t actually have a mobile signal — as you suggest. That is especially so if they’re dependent on using a CDMA or GSM tower.
+Jonathan - October 22nd, 2007
+I guess it all comes down to how you define things. This is a website about GPS, so when we think of GPS we think of receiving signals from the Global Positioning System set of satellites. So in other words in my definition there is no such thing as a GPS system that doesn’t use the GPS satellites.
+I don’t find accuracy with a few thousand feet to be acceptable. I’d want to see accuracy to within 100 feet or less. Even with true GPS having an accuracy to within 10 meters you occasionally run into issues not related to mapping.
+Yes, a phone with a real GPS chipset that has no cell signal has a fall back to derive its location. In fact it isn’t a fall back at all since a phone with a real GPS chipset doesn’t need the cell signal at all to process its location.
+You are correct that most phones sold by Verizon that say they have GPS do rely on the cell network to assist in finding their location. But those are not “true” GPS chipsets but rather what is called “A-GPS” or “Assisted GPS”.
+Don’t forget too that on this site, being a GPS site, we are weighed on the focus of GPS and navigation. Having your navigation system go down if the cell signal is dropped is not an acceptable solution, neither is having accuracy of only 1,000 feet.
+I agree with much of what you are saying, but our differences come down to quality of service expectations and probably how we would utilize the service. A system like you are describing won’t be able to replace the GPS in my car which is what most of our readers here would expect from “GPS”.
+Tim - October 22nd, 2007
+Thanks Tim, that’s a great definition and clarification. I appreciate your response. I was overstating what I would consider acceptable too — I’d be thinking within a few hundred feet, considering most typical consumer applications. I’d be interested in some examples of what your  needs are in your vehicle, and why you feel a triangulation (or multiple vector) system wouldn’t suit in comparison to a GPS. If the typical user was to open up their iphone, enter the Google Maps application and asked for directions from their current location to somewhere 5 blocks away, how could a software application fail where a GPS-chip enabled phone would not? Also, what’s your opinion on the Apple claim that they couldn’t add the GPS chip because it ran too hot in the phone? Do you believe that? Are there really size issues, or heat issues?
+Again,  I appreciate the responses and  consideration.
+Jonathan - October 22nd, 2007
+In the example you provided where you open up Google Maps and it defaults to your current position, I think a cell site triangulation method would work fine… provided you are in an area where you can get a cell signal.
+As to why Apple didn’t include GPS in the first place, I can agree with what they have said. I’m sure there were space considerations, a GPS chipset would also draw more battery power, and it would produce additional heat. After-all most GPS devices with the same size screen are much larger and have a shorter battery life than the iPhone. And of course it would have added additional component costs to build. I think it will come though as battery technology improves, GPS chipset designs become more efficient in power usage, etc. Hopefully sooner than later.
+As for vehicle needs for accuracy, often roads are very, very close together which requires the GPS to be as accurate as possible to determine exactly which road you are on to provide accurate instructions. For example of you get off on the wrong exit the GPS needs to recognize ASAP that you took the wrong exit so that it can reroute you before you get to the end of the exit. An “A-GPS” solution is accurate enough for that if it can connect to a cell site. However I’m uncertain if a system based on cell site triangulation alone would be accurate enough.
+But for what you are talking about (open up Google Maps and have it default to your position) a software based solution like you originally mentioned would probably work just fine.
+Tim - October 22nd, 2007
+Thanks for the constructive and detailed analysis. It is a welcome example given all the irrational M$ vs iphone garbage being thrown around.
+Nate - March 2nd, 2008
+HTC has a phone called Kaiser that has 3G and GPS and is about the same size as the iPhone (a little thicker, but not as long). It is possible to fit the components and appropriate battery in the iPhone with only a slight increase in size. AT&T sells this phone as the Tilt can it can be bought for $399 with a new 2 year contract.
+So the technology is there, the price is there, the next thing is to get the iPhone 2.0 out with these features. Summer/Fall is most likely time we will see it. At this point there is no reason not too.
+Chris - April 17th, 2008
+Actually the Kaiser is very different from the Iphone. It has a totally different OS, and is much thicker then the iphone. In order to fit a gps in the iphone it would be so thick that it won’t anylonger fit in your pocket.
+They will also need to develop a brand new solution if they are going to make TomTom aviable to the phone, as TomTom only fits Windows Mobile. (which Iphone never will get)
+Eirik - June 11th, 2008
+Eirik – You might have missed the news, but the new iPhone has GPS and is a little slimmer and lighter than the original.
+TomTom’s PND devices run on Linux, which would make porting a bit easier, and in fact they might have done it already .
+Tim - June 11th, 2008
+Iphone sucks. Windows Mobile is the real answer for those who want REAL GPS on their phones.
+Denis - June 6th, 2009
+The operating system (Windows Mobile vs the iPhone GPS) doesn’t have anything to do with GPS quality. I’ve recorded tracklogs with an iPhone and they are just as good as those created with a Garmin handheld GPS.
+Tim - June 6th, 2009
+What I meant is that you dont need a stupid data plan to get GPS ….
+Khyron - June 7th, 2009
+True, but the iPhone would be pretty pointless without a data plan.
+Tim - June 7th, 2009
+We’ve updated our TomTom iPhone App page (not this page, follow the link) with new info about the TomTom application.
+Tim - June 11th, 2009

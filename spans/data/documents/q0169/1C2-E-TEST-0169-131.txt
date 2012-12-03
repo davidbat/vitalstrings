@@ -1,0 +1,25 @@
+Submit New Article
+June 22, 2009 8:30 AM PDT
+Intel® MKL v.10.2 onwards, matrix converter auxiliary routines are provided that convert sparse matrix from one storage format to another. These routines are declared in mkl_spblas.fi for FORTRAN 77 interface and in mkl_spblas.h for C interface.
+See below the list of the Matrix Converter Routines available:
+mkl_ddnscsr:
+Stores a sparse matrix in the CSR format (3-array variation).
+mkl_dcsrcoo:
+Converts a sparse matrix in the CSR format (3-array variation) to the coordinate format and vice versa.
+mkl_dcsrbsr:
+Converts a sparse matrix in the CSR format to the BSR format (3-array variations) and vice versa.
+mkl_dcsrcsc:
+Converts a sparse matrix in the CSR format to the CSC and vice versa (3-array variations).
+mkl_dcsrdia:
+Converts a sparse matrix in the CSR format (3-array variation) to the diagonal format and vice versa.
+ mkl_dcsrsky:
+Converts a sparse matrix in the CSR format (3-array variation) to the sky line format and vice versa.
+User can also refer to the MKL Manual ( mklman.pdf ) document, Chapter 2: "BLAS and Sparce BLAS Routines" for further information.
+Comment 1:
+There are 2 examples program for using MKL Sparse format converters. You can find these files into directory: MKLROOT\examples\spblas\source\ and you can find there two "C" and "Fortran" based examples: converters_c.c and converters_f.f
+Comment 2:
+know restriction for this topic: the current implementation supports only double precision data types for such functionality
+by another words single complex, double complex and single precition data types are not supported currently
+Comment 3:
+if somebody are interested in supporting another data types (mentioned into comment 2), we are encourage you submit the issue against MKL to Premier support ( https://premier.intel.com/ )
+For more complete information about compiler optimizations, see our Optimization Notice .

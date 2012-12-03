@@ -1,0 +1,25 @@
+I was assigned a project on Nuclear Reactors and am wondering if there is a difference between the two? There is deffiantly more info on power plants ...
+3 Responses to “What is the average efficiency of a nuclear fission power plant?”
+PeteR said:
+July 27th, 2010 at 11:39 am
+Well, any steam cycle power system is going to seem “inefficient” – I believe that that theoretical maximum efficiency of any steam cycle power system is somewhere between 40% and 50%.
+This will be the case for any fusion reactor that operates by heating water to operate a steam turbine.
+All systems have some parasitic loads – such as powering pumps and such – that would reduce the efficiency further.
+The problem with fusion reactions is that they require more energy to create the reaction than they release from the fusion reaction – in other words, any fusion reactor built currently has a negative efficiency.
+Fusion bombs work because the energy release does not have to be controlled – so they create the energy to start the fusion reaction with a nuclear fission explosive.
+For electrical energy purposes – that would be undesirable.
+The benefits of fusion in the long run – if it is possible to create a reactor – is not so much in whatever efficiency benefits it would have – but in clean reaction without hazardous radioactive byproducts – and in the cheapness and plentifulness of the fuel (hydrogen or helium – instead of mining for uranium).
+Michael said:
+When speaking of efficiency – i get the impression that you mean how much energy is released by the reaction relative to how much energy could be released by the entire mass. (given by E = mc^2)
+According to wikipedia – 202.5 MeV is released as heat from a uranium fission (on average).
+We can also see that with a mass of 235 u (1 u = 235 g/mol = 235 / 6.022 * 10^23 g)
+E = (3.9*10^-25 kg) * (3.00*10^8 m/s)^2 = 219 GeV
+So basically – we see that the percentage given off is less than 0.1% of the total potential
+Fusion, as I recall, releases over 1% – I had to do some of these calculations for a class awhile back
+Industry observer said:
+July 28th, 2010 at 8:05 am
+Power plant thermal efficiency is the amount of electricity produced divided by the heat input (whether from combustion of fossil fuels or from fission).  This is usually in the 30% to 40% range for steam electric Rankine Cycle power plants (including nuclear) and may be as high as 60% for combined cycle gas turbine (a Brayton Cycle turbine with a Rankine Cycle heat recovery boiler and steam turbine on the back end).
+Comparing the theoretical energy content of U235 (based on E=MC^2) to the actual heat output of a fission reactor is a very different thing.  One might as well compare the energy content of natural gas (based on E=MC^2) to the heat generated in combustion.
+Name
+E-Mail (will not be published)
+Website (optional)

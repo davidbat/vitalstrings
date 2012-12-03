@@ -1,0 +1,98 @@
+Sparse matrix, data compression, memory bandwidth, high-
+performance computing
+Sparse matrices play an important role in the numeri-
+cal solution of many scientific problems. The finite element
+method for partial differential equations, for example, uses
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise, to
+republish, to post on servers or to redistribute to lists, requires prior specific
+permission and/or a fee.
+ICS ’06 June 28–30, Cairns, Queensland, Australia
+Copyright c© 2006 ACM 1-59593-282-8/06/0006 ...$5.00.
+sparse matrices to represent interactions between elements.
+Algorithms for these problems often use matrix-vector mul-
+tiplication as a principal operation, usually involving sparse
+matrices and dense vectors. This paper describes two imple-
+mentations of a technique, matrix pattern compression, for
+improving the performance of matrix-vector multiplication
+using large matrices on standard, modern microprocessors.
+As has been shown by Gropp and others, the main perfor-
+mance bottleneck for matrix-vector multiplication for large
+matrices on modern architectures is memory bandwidth [13].
+In a matrix-vector multiplication, each element of the matrix
+is only used once. If the matrix is larger than the system’s
+caches, none of the matrix can be cached, and so the band-
+width of main memory becomes the main performance lim-
+itation. No possible implementation of matrix-vector mul-
+tiplication using standard data structures can exceed this
+limit for large matrices, as memory bandwidth is an ar-
+chitectural limitation of the computer system. In modern
+computers, the rate at which floating point operations can
+be conducted exceeds the memory bandwidth by a factor
+of ten or more. Thus, reducing the required memory traffic
+for matrix-vector multiplication could improve performance
+overall, even if some additional computation is required.
+This work presents a technique to increase the perfor-
+mance of repeated multiplications of a large sparse matrix
+by a dense vector. The technique is to compress the in-
+dex data of the matrix, in order to reduce the memory
+bandwidth used for matrix-vector multiplication, thereby
+improving performance. Because numerical methods using
+sparse matrices, such as iterative solvers for systems of lin-
+ear equations, multiply the same matrix by many vectors
+in sequence, the time needed to compress the matrix can be
+amortized over the time savings from several multiplications.
+Compression does not change the number of floating-point
+arithmetic operations performed in matrix-vector multipli-
+cation, but it can cause some local rearrangement of those
+operations, and it increases the number of integer opera-
+tions and possibly the number of branches relative to using
+previous sparse matrix formats. Using compressed matrices
+also trades off efficient random access to the elements within
+each row for matrix-vector multiplication performance.
+The main data structure currently used for sparse matrix
+index data is compressed sparse row (CSR); this structure
+is explained, for example, in [3]. Nonzero elements in this
+format are stored in order by row, then by column within
+each row. An integer array contains the column index of
+each nonzero matrix element. A second integer array con-
+tains the index within the column array of the first element
+307
+in each row, plus an extra element containing the number
+of nonzero elements in the whole matrix. Thus, the total
+index data for a matrix of size m × n with nnz elements
+in CSR format is 4(m+ 1+ nnz ) bytes, assuming four-byte
+integers; the numerical data is 8nnz bytes for double pre-
+cision. An example of a matrix in CSR format, along with
+its structure, is shown in Figure 1. As the elements within
+each row are sorted by column index, and matrices tend to
+have locality between elements in the same row, the CSR
+representation contains substantial redundant information.
+Thus, using four bytes to represent each column number is
+highly inefficient, as the first three of those bytes are often
+the same between several adjacent elements. Similar redun-
+dancy occurs between column indices in nearby rows.
+We predict matrix-vector multiplication performance us-
+ing the model of [13]. In this model, memory traffic is as-
+sumed to be the main limitation on performance, and so
+other factors are ignored. It is assumed that any data loaded
+into the processor’s caches can be accessed again without
+memory traffic, and that computation is free. In matrix-
+vector multiplication, one vector of length n must be read
+from memory, and a vector of length m must be both read
+and written, assuming the product is being added to an ex-
+isting vector. Thus, the vectors account for 8(n+2m) bytes
+of memory traffic. The total memory traffic in bytes for
+CSR matrix-vector multiplication is then:
+trafficcsr = 20m + 8n + 12nnz + 4.
+Compressing the index data with a ratio of 1− r (so one
+byte of uncompressed data becomes r bytes of compressed
+data) reduces the memory traffic to:
+trafficcmp = (4r + 16)m + 8n + (4r + 8)nnz + 4r.
+By dividing the amounts of memory traffic, we can predict
+the maximum possible speedup (in multiplications per unit
+time) when compression is applied as trafficcsr/trafficcmp ,
+resulting in the following predicted speedup based matrix’s
+compression ratio:

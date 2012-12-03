@@ -1,0 +1,6 @@
+Alternatives to the numeric bindings for uBLAS could be to rely on:
+Some user contributions . This contains code for Cholesky decomposition, GMRES method, etc.
+ublasJama a public domain port of JAMA (Java Matrix Package) for uBLAS
+ARPACK++
+C++ Template API for sparse matrix containers and API to ARPACK FORTRAN library solvers
+License: BSD

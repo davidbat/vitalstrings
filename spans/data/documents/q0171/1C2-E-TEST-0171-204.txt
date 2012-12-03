@@ -1,0 +1,16 @@
+IP address
+broadcast (IP; Default: 255.255.255.255)
+roadcasting IP address, calculated by default from an IP address and a network mask. Starting from v5RC6 this parameter is removed
+interface (name; Default: )
+Interface name the IP address is assigned to
+netmask (IP; Default: 0.0.0.0)
+Delimits network address part of the IP address from the host part
+network (IP; Default: 0.0.0.0)
+IP address for the network. For point-to-point links it should be the address of the remote end. Starting from v5RC6 this parameter is configurable only for addresses with /32 netmask (point to point links)
+Read only properties
+Description
+actual-interface (name)
+Name of the actual interface the logical one is bound to. For example, if the physical interface you assigned the address to, is included in a bridge, the actual interface will show that bridge
+Two IP addresses from the same network assigned to routers different interfaces are not valid unless VRF is used. For example, the combination of IP address 10.0.0.1/24 on the ether1 interface and IP address 10.0.0.132/24 on the ether2 interface is invalid, because both addresses belong to the same network 10.0.0.0/24. Use addresses from different networks on different interfaces, or enable proxy-arp on ether1 or ether2.
+Example
+[admin@MikroTik] ip address> add address=10.10.10.1/24 interface=ether2 [admin@MikroTik] ip address> print Flags: X - disabled, I - invalid, D - dynamic   #   ADDRESS            NETWORK         BROADCAST       INTERFACE   0   2.2.2.1/24         2.2.2.0         2.2.2.255       ether2   1   10.5.7.244/24      10.5.7.0        10.5.7.255      ether1   2   10.10.10.1/24      10.10.10.0      10.10.10.255    ether2  [admin@MikroTik] ip address>

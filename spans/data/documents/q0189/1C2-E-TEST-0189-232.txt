@@ -1,0 +1,62 @@
+DHCP
+The FreeRADIUS Project
+FreeRADIUS includes a RADIUS server , a BSD licensed client library , a PAM library, and an Apache module .  In most cases, the word FreeRADIUS refers to the RADIUS server.
+FreeRADIUS is the most widely deployed RADIUS server in the world.  It is the basis for multiple commercial offerings.  It supplies the AAA needs of many Fortune-500 companies and Tier 1 ISPs.  It is also widely used in the academic community, including eduroam . The server is fast , feature-rich , modular , and scalable .
+The server has reached a stable Version 2.1.12 (sig) , with incremental improvements added in every release.
+Recent News
+2012.04.19 OpenSSL vulnerability may affect FreeRADIUS.
+We recommend all administrators using certificates with FreeRADIUS upgrade their OpenSSL to a secure version.  For details, see the OpenSSL notification
+We emphasize that this is not a bug in FreeRADIUS.  FreeRADIUS uses OpenSSL for many of it's cryptographic operations, and as such, is at the mercy of any problems in OpenSSL.
+2011.09.30 Version 2.1.12 (sig) has been released.  The focus of this release is stability.
+Feature improvements
+Updates to dictionary.erx, dictionary.siemens, dictionary.starent, dictionary.starent.vsa1, dictionary.zyxel, added dictionary.symbol
+Added support for PCRE from Phil Mayers
+Configurable file permission in rlm_linelog
+Added "relaxed" option to rlm_attr_filter.  This copies attributes if at least one match occurred.
+Added documentation on dynamic clients. See raddb/modules/dynamic_clients.
+Added support for elliptical curve cryptography. See ecdh_curve in raddb/eap.conf.
+Added support for 802.1X MIBs in checkrad
+Added support for %{rand:...}, which generates a uniformly distributed number between 0 and the number you specify.
+Created "man" pages for all installed commands, and documented options for all commands.  Patch from John Dennis.
+Allow radsniff to decode encrypted VSAs and CoA packets. Patch from Bjorn Mork.
+Always send Message-Authenticator in radtest. Patch from John Dennis. radclient continues to be more flexible.
+Updated Oracle schema and queries
+Added SecurID module.  See src/modules/rlm_securid/README
+Bug fixes
+Fix memory leak in rlm_detail
+Fix "failed to insert event"
+Allow virtual servers to be reloaded on HUP. It no longer complains about duplicate virtual servers.
+Fix %{string:...} expansion
+Fix "server closed socket" loop in radmin
+Set ownership of control socket when starting up
+Always allow root to connect to control socket, even if "uid" is set.  They're root.  They can already do anything.
+Save all attributes in Access-Accept when proxying inner-tunnel EAP-MSCHAPv2
+Fixes for DHCP relaying.
+Check certificate validity when using OCSP.
+Updated Oracle "configure" script
+WARNING on potential proxy loop.
+Be more aggressive about clearing old requests from the internal queue
+Don't open network sockets when using -C
+2010.05.21 - A Development Roadmap is announced
+As part of the continued growth of the server, we are actively looking for sponsors for new features.  New projects include support for 3GPP2, Windows ports, etc.
+2009.09.09 Version 1.1.8 (sig) has been released.  The focus of this release is security.
+Feature Improvements
+Bug Fixes
+Fix crash (memcpy with length -1) when invalid Tunnel-Password attributes are received.
+2009.07.20 We have worked with MySQL to create two white papers on MySQL scalability and MySQL cluster.  They are now available:
+Delivering Scalable & Highly Available AAA Services
+This white paper discusses the concepts of current data storage solutions for Authentication, Authorization and Accounting (AAA) environments and their potential limitations as network use grows and services become more dynamic.
+The paper then presents an alternative deployment scenario based on the FreeRADIUS Server and MySQL Cluster serving as the back-end AAA database, providing an infrastructure for high growth and availability, with low complexity. A sizing study and user case study are presented to demonstrate how the solution performs in real-world FreeRADIUS environments
+Read the whitepaper, posted here:
+http://www.mysql.com/why-mysql/white-papers/mysql_wp_ha_auth_account.php
+Deployment Guide: FreeRADIUS with the MySQL Cluster Database
+This Guide documents a best-practice approach to configuring and testing a FreeRADIUS server deployed with the MySQL Cluster database storage engine serving as the back-end data store for user and accounting data. Deployment topologies and configurations are presented, enabling users to quickly and simply replicate the solution in their own environment.
+Read the guide, posted here:
+2008.03.05 FreeRADIUS Client Version 1.1.6 (sig) has been released.  The focus of this release is stability.
+Added dead_time functionality / configuration.
+Merge in fixes and enhancements from 'radiusclient-ng'.
+Improved functionality for embedded operation.  In use in FreeSWITCH and OpenSER projects.
+Wrap gethostby*() family of calls with threadsafe variants.
+Change UINT4 to uint32_t, int to size_t, etc.
+Fixed wrong usage of strncat function in several places.
+Copyright 2010 The FreeRADIUS Server Project | Last modified Thursday, 19-Apr-2012 17:26:55 CEST

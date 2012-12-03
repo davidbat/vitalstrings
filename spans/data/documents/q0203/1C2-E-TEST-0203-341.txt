@@ -1,0 +1,38 @@
+ 
+Re: Garbage Collection and PowerShell
+I have 1 GB of physical memory in my system.  If I have 1.8 GB committed,
+memory usage is growing, my system is dirt slow from swapping, and garbage
+collection still isn't needed; then I have no clue what would trigger it on
+its own.  The cost of garbage collection is almost nothing compared to the
+cost of it not freeing memory.  I don't know why this happens, but it does
+and I've seen it on other peoples systems as well.  I understand the idea of
+garbage collection not running immediately and I agree that it normally
+shouldn't.  I just believe it should be a little more consistent/aggressive
+with freeing memory.
+"Thomas Tomiczek" <t.tomiczek@nettecture.com> wrote in message
+news:54108F9F-6AB0-4867-92AC-F9B3E33F5172@microsoft.com...
+That is exactly what happens.
+To quote the original poster:
+> I thought it would increase until
+> garbage collection runs, but it never seems to stabilize.
+And that happens. The GC just does not run. Why SHOULD it? The memory is not
+needed :-) GC costs time.
+"Marcel J. Ortiz [MSFT]" <mosoto@online.microsoft.com> wrote in message
+news:7EC4F61A-B635-4233-B353-B626CF671E60@microsoft.com...
+> What you are seeing is just that the Garbage collector doesn't run unless
+> it has to (memory pressure).  There's quite a few articles around
+> explaining how it works if youre interested.  Anyway I don't think you'll
+> see any issues from the [GC]::Collect() in your prompt function (other
+> than some performance degradation from running the garbage collector all
+> the time) but you really shouldn't need it.
+>
+> "SQL Guru" <myjunk_abcd at hotmail dot com> wrote in message
+> news:elBqkXpWHHA.496@TK2MSFTNGP06.phx.gbl...
+>> I've noticed that Powershell likes to eat LOTS of memory.  I think it has
+>> to
+>> do with .net and garbage collection.  I've done a test with wmi and then
+>> removing the variable.  It seems that memory will continually increase
+>> without ever going to a stable level.  I thought it would increase until
+>> garbage collection runs, but it never seems to stabilize.  My thought is
+>> that the heap gets fragmented and therefore can't release all of the
+>> freed

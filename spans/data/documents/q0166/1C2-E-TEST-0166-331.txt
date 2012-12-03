@@ -1,0 +1,40 @@
+1 Get Rebar from Github
+git clone https://github.com/basho/rebar.git
+2 Build Rebar
+cd rebar ./bootstrap ....(lots goin' on here) ==> rebar (compile) Congratulations! You now have a self-contained script called "rebar" in your current working directory. Place this script anywhere in your path and you can use rebar to build OTP-compliant apps.
+3 Create project directory and copy rebar script to it
+cd .. mkdir testing-rebar cd testing-rebar/ cp ../rebar/rebar .
+4 Create OTP application files
+./rebar create-app ==> testing-rebar (create-app) Writing src/myapp.app.src Writing src/myapp_app.erl Writing src/myapp_sup.erl
+At this point, you’ve got the sources for a rudimentary OTP application including the basis for the all-important ‘app’ file. Notice the ‘myapp.app.src‘ file?  This will end up as ‘myapp.app‘ in the ebin directory and is the lifeblood of an OTP application’s configuration.
+5 Compile
+Let’s try a test compile
+./rebar compile ==> testing-rebar (compile) Compiled src/myapp_app.erl Compiled src/myapp_sup.erl ... ls ebin myapp.app       myapp_app.beam  myapp_sup.beam
+and then cleanup to make sure everything’s working so far…
+./rebar clean ==> testing-rebar (clean) ls ebin
+6 Create apps directory and move files
+Let’s pretend the project consists of more than one OTP application.  We will move the application we created into a subdirectory where it will rest next to future siblings.
+mkdir -p apps/myapp mv src apps/myapp
+7 Edit rebar.config
+If you compile now, you’ll see that nothing happens.  rebar can’t find an app file and we have not edited rebar’s own configuration in ‘rebar.config’.  Let’s do that, and we’ll see how one rebar project can contain multiple apps.  We’ll eventually build a release containing an embedded erlang runtime and our compiled code.  That’s the reason for the ‘rel’ directory entry in the rebar.config file. We’ll get to that in the next step.  First, create the ‘rebar.config’ file with the line below:
+{sub_dirs, ["apps/myapp", "rel"]}.
+Compile again and you’ll see the app ‘myapp’ sources in the apps/myapp/src being compiled into the apps/myapp/ebin directory. There’s nothing else to compile, hence the testing-rebar (compile) empty step.
+./rebar compile ==> myapp (compile) Compiled src/myapp_app.erl Compiled src/myapp_sup.erl ==> testing-rebar (compile)
+8 Create release directory and files
+mkdir rel cd rel ../rebar create-node ==> rel (create-node) Writing reltool.config Writing files/erl Writing files/nodetool Writing files/mynode Writing files/app.config Writing files/vm.args cd ..
+9 Edit reltool.config
+Edit the ‘reltool.config’ file found In the release directory. Put “../apps” in the “lib_dirs” section, and “myapp” in the list of applications in rel “mynode” as below:
+{sys, [        {lib_dirs, ["../apps"]},        {rel, "mynode", "1",         [ myapp, kernel,          stdlib,          sasl         ]},        {rel, "start_clean", "",         [          kernel,          stdlib         ]},        {boot_rel, "mynode"},        {profile, embedded},        {excl_sys_filters, ["^bin/.*",                            "^erts.*/bin/(dialyzer|typer)"]},        {app, sasl, [{incl_cond, include}]}       ]}.  {target_dir, "mynode"}.  {overlay, [            {mkdir, "log/sasl"},            {copy, "files/erl", "{{erts_vsn}}/bin/erl"},            {copy, "files/nodetool", "{{erts_vsn}}/bin/nodetool"},            {copy, "files/mynode", "bin/mynode"},            {copy, "files/app.config", "etc/app.config"},            {copy, "files/vm.args", "etc/vm.args"}            ]}.
+10 Build Release
+From the root directory of the project, run the ‘rebar generate’ command to set up the full Erlang embedded node and files necessary to manage releases.
+./rebar -v generate DEBUG:Rebar location: "/Users/cb/Projects/document-rebar/rebar" DEBUG:/Users/cb/Projects/document-rebar: Using deps dir: /Users/cb/Projects/document-rebar/deps DEBUG:/Users/cb/Projects/document-rebar subdirs: ["/Users/cb/Projects/document-rebar/apps/myapp", "/Users/cb/Projects/document-rebar/rel"] DEBUG:/Users/cb/Projects/document-rebar/apps/myapp: Using deps dir: /Users/cb/Projects/document-rebar/deps DEBUG:/Users/cb/Projects/document-rebar/apps/myapp subdirs: [] DEBUG:/Users/cb/Projects/document-rebar/rel: Using deps dir: /Users/cb/Projects/document-rebar/deps DEBUG:/Users/cb/Projects/document-rebar/rel subdirs: [] ==> rel (generate)
+11 Startup script
+Now you’ve got an embedded Erlang node with one OTP application. Rebar creates a startup script for you, which you can execute as below to start and stop the application.
+sh rel/mynode/bin/mynode start sh rel/mynode/bin/mynode stop
+Of course, you could make it directly executable as well:
+chmod aog+x ./rel/mynode/bin/mynode
+12 Test
+After cleaning, compiling, and generating, Start the Erlang node console, and at the prompt run “application:which_applications().” Notice your application ‘myapp’ is running.  It’s been auto-started as part of this running node.
+sh ./rel/mynode/bin/mynode console
+Exec: /Users/cbrown/Projects/testing-rebar/rel/mynode/erts-5.8.1/bin/erlexec -boot /Users/cbrown/Projects/testing-rebar/rel/mynode/releases/1/mynode -embedded -config /Users/cbrown/Projects/testing-rebar/rel/mynode/etc/app.config -args_file /Users/cbrown/Projects/testing-rebar/rel/mynode/etc/vm.args -- console  Root: /Users/cbrown/Projects/testing-rebar/rel/mynode Erlang R14B (erts-5.8.1) [source] [64-bit] [smp:4:4] [rq:4] [async-threads:5] [hipe] [kernel-poll:true]  Eshell V5.8.1  (abort with ^G) (mynode@127.0.0.1)1> application:which_applications(). [{myapp,[],[]}, {sasl,"SASL  CXC 138 11","2.1.9.2"}, {stdlib,"ERTS  CXC 138 10","1.17.1"}, {kernel,"ERTS  CXC 138 10","2.14.1"}] (mynode@127.0.0.1)2>
+This entry was posted in erlang . Bookmark the permalink .

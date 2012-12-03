@@ -1,0 +1,15 @@
+Dense binary
+-t
+Transposes the input matrix.  Can be used when computing the SVD or converting the format with -c.
+-v
+verbosity
+Default is 1.  Use 0 for no feedback, 2 to list singular values, and 3 for the vectors too.
+-w
+format
+Output matrix file format.  Options are same as for -r, but default is dense text.
+If the -o option is used, the resulting U' and V' matrices will be stored in files whose name is the specified file_root with "-Ut" or "-Vt" appended to the end.  The matrices stored in these files are actually the transposes of the traditionally defined U and V matrices, so that the rows of the "-Ut" matrix are the left singular vectors and the rows of the "-Vt" matrix are the right singular vectors, which is generally more convenient.  The "-S" file contains an array of the singular values, the first line of which holds the number of values.
+C Library Interface
+The interface to the SVDLIBC library is defined in svdlib.h , which should be fairly self-explanatory.
+The library defines three structures.  An SMat is a pointer to a struct smat, which is a sparse matrix.  A DMat is a pointer to a struct dmat, which holds a dense matrix.  Finally, a SVDRec is a pointer to a struct svdrec, which holds the results of an SVD: the dimensionality (d), the left- and right- singular matrices (Ut and Vt), and file types (such as SVD_F_ST). Any file type can be loaded to or written from either a sparse or dense matrix.
+Finally, the svdLAS2 function actually computes the SVD.  It takes a sparse matrix and some parameters and returns an SVDRec containing the components of the SVD. svdLAS2A is a simpler version that attempts to automatically choose reasonable parameter values and requires only a matrix and the desired number of dimensions (or 0 for all).
+Matrix File Formats

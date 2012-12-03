@@ -1,0 +1,10 @@
+The Easiest Way To View Your IP Address - ViewMyIP.com
+Your IP Address is:
+207.46.13.160
+What Is An Internet Protocol Address
+An Internet Protocol (IP) address is a numberical label that is assigned to devices participating in a computer network that uses the Internet Protocol for communication between its nodes. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterized as follows: a name indicates what we seek, an address indicates where it is, and a route indicates how to get there.
+Every machine on the Internet has a unique identifying number, called an IP Address. To make it easier for people to remember, IP addresses are normally expressed in decimal format as a dotted decimal number.
+The four numbers in an IP address are called octets, because they each have eight positions when viewed in binary form. If you add all the positions together, you get 32, which is why IP addresses are considered 32-bit numbers. Since each of the eight positions can have two different states (1 or 0) the total number of possible combinations per octet is 28 or 256. So each octet can contain any value between 0 and 255. Combine the four octets and you get 232 or a possible 4,294,967,296 unique values!
+Out of the almost 4.3 billion possible combinations, certain values are restricted from use as typical IP addresses. For example, the IP address 0.0.0.0 is reserved for the default network and the address 255.255.255.255 is used for broadcasts.
+The octets serve a purpose other than simply separating the numbers. They are used to create classes of IP addresses that can be assigned to a particular business, government or other entity based on size and need. The octets are split into two sections: Net and Host. The Net section always contains the first octet. It is used to identify the network that a computer belongs to. Host (sometimes referred to as Node) identifies the actual computer on the network. The Host section always contains the last octet.
+Articles + Tools

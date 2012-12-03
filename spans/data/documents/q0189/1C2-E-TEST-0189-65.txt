@@ -1,0 +1,66 @@
+694 Comments
+Advertisement
+As Web developers, we never stop hearing about the Mac. A lot of people love to talk about their Macs, but despite the “elite” status of the Apple computer, is there any need for a Web developer to splash money on one? A few weeks ago, Mark Nutter wrote here on Smashing Magazine in favor of swapping your PC for a Mac , and while some of his reasons are good, there are plenty of reasons to stick with (or switch back to!) Windows.
+This article explores the best aspects of the Windows PC and, more importantly, the different apps that Web developers can use to become more efficient in their work. Every piece of software mentioned here is free to use.
+Developer Tools
+Notepad++ (code editor)
+After looking at many text editors, Notepad++ is by far the best I’ve found. On top of the standard features you would expect from a great text editor, you can extend its functionality by installing any of the free plug-ins that suit you.
+Some of the things that really make Notepad++ shine:
+FTP Synchronize
+Allows you to connect to a server by FTP and edit files in Notepad++. Then when you save the file, it is automatically uploaded back to the server. No more saving files in an editor and then firing up a separate FTP client! Bonus: the FTP sync has “Keep Alive,” which pings the server at regular intervals to stop the connection from being closed.
+Document Compare
+Open two versions of the same document and the differences between them are automatically highlighted. Great for finding out where a coding change has gone wrong!
+Code auto-completion
+Auto-completion is a fairly standard feature, but with Notepad++ the code libraries can be downloaded from the website and updated manually. Keeping up to date with changes in the languages is easy then, and you can even write your own library file.
+Panel Views
+Allows you to see two files at once, side by side. Hugely useful if you have a large monitor and want to make better use of all the space.
+Ctrl + D to duplicate a line
+It may sound simple but is surprisingly useful. As an example, it took two seconds to write out all the <li></li> tags for this list!
+Texter (text expander)
+Texter is a free app from Lifehacker. It allows you to type a few characters, then hit Tab and have those characters replaced with a string of text. This is great for a lot of computer tasks (answering email most of all!), but the real advantage for developers is that Texter lets you specify key presses. For example, {HOME} is interpreted as pressing the Home button.
+Take the following hot string:
+{BACKSPACE}{HOME}<p>{END}</p>
+When coding, I type the text of my paragraph, then add a space, press “p” and hit tab. Texter automatically puts the <p> at the start of the line and </p> at the end.
+That’s just one example. I have about 35 different strings saved for use in coding, so the number of possible uses is huge.
+WampServer (Apache, PHP and MySQL)
+Installing a Web server on your local PC is great for development because you can test everything easily and instantly. No waiting on Web servers and dodgy Internet connections. WampServer packs an Apache, PHP and MySQl install all into one simple executable file, so your server will be up and running in five minutes tops.
+Clipboard Manager
+Clipboard Manager is a sidebar widget for Vista. It displays a snippet of the most recent items that you’ve copied. If you click one of the snippets, it is brought to the top of the clipboard, so when you hit Ctrl + V, you’ll paste that instead of what you copied last.
+This is extremely useful when you are working on a document or script for re-arranging chunks of the page or copying properties from one object to another. Clipboard Manager cuts down drastically on the amount of time spent re-copying the same snippet again and again.
+AutoHotkey (write your own shortcuts)
+AutoHotkey allows you to create your own hot keys or remap existing ones. The scripts can be either extremely simple or quite complex. The Quickstart Guide walks you through everything you need to know.
+One of the hot keys I use most is simple: pressing Caps Lock + W to close the current window. Anyone who is used to using Ctrl + W to close a tab in FireFox will find this very handy!
+; Close Active Window Capslock & w:: WinClose, A return
+Syncback (automatic back-ups)
+Everyone’s hard drive fails eventually. Online tools like Mozy and Dropbox are ideal for backing up critical files that you’re currently working on, but backing up everything on your hard drive to one of these tools just isn’t feasible for most people.
+Syncback is a free tool from 2BrightSparks that automatically backs up all your files to an external drive. (A paid version is available as well, but the freeware is more than enough.)
+You select which folders to back up, set when you want back-ups to take place and let Syncback do the work. Back-ups can be done manually or automatically, and only files that have changed will be copied, so it is very efficient after the first run. It will even email you a report if any errors occur during the backup, such as certain files not being able to be copied.
+Windows Live Writer (blog posting)
+Not every developer needs this, but many of us have our own blogs now. Windows Live Writer is a free tool to help you write blog posts.
+The main advantage of this is that it accesses your website and re-creates your design in the program. You can then write your post directly onto the website background, so you can see everything about your post’s presentation and fix it easily.
+Is that image too big? Or that paragraph too long? Seeing it for yourself is the best way to catch these flaws.
+The Best Parts Of The Mac
+OS X does some things very nicely. Thankfully, the best bits can all be re-created in Windows free of charge.
+The Dock → RocketDock
+The Dock is probably the most distinctive Mac feature. The large icons and easy access to them appeal to a lot of people
+RocketDock brings the Dock to Windows beautifully. Drag and drop to re-arrange, position on any side of the monitor, minimize windows to the dock and more. The demo video from its website below shows RocketDock in action:
+Quicksilver → Launchy
+Launching applications from your keyboard is an extremely fast way to work. Mac users use Quicksilver for this, but Windows users can use Launchy . Launchy can be set to index only programs or include files as well. You also choose which directories it indexes. One of the best uses for it is to set up a directory of utility scripts that you can execute from a few quick keystrokes in Launchy.
+For example, iTuny is a set of free scripts to control iTunes from Launchy. Now, if I want to skip to the next song, I hit Alt + Space to bring up Launchy and type “inext” to launch the iTunes Next script from iTuny. You can set up scripts for whatever you like, including shutting down and locking your machine.
+Leopard Stacks → Stand-Alone Stack
+Image source
+Standalone Stack allows you to create your own stacks in Windows, either in the taskbar or on your desktop. And you can display the files in either a list or a grid, just like in Leopard. For anyone using Rocketdock, you can install the Stacks Docklet from Matonga to get stacks into your dock.
+More Control Of Your Machine
+Custom Visual Styles
+VistaGlazz allows you to control the appearance of your Vista installation. You can create your own custom styles or download them for free. One of the best sources of styles is DeviantArt (which has some OS X styles , though they’re not as polished as the Vista versions!).
+Another popular application for theming is WindowBlinds from Stardock, but you need to pay for it. You’ll find plenty of themes for it on DeviantArt as well.
+More Hardware Options
+Macs come with very few variations in hardware. You have a small selection and just have to choose whichever one is closest to what you need. Because anyone can develop hardware for Windows, the selection is much greater. And because of this competition between manufacturers, companies are forced to offer good value for your money.
+That doesn’t just mean better specs for about half the price. Check out this new multi-touch HP laptop , which comes in under the cost of any MacBook. Search around and you will find the perfect machine for your needs.
+Huge Range of Devices
+On top of the core hardware, you have thousands of peripherals to choose from. For graphics designers, that means a massive selection of tablets . But there are a lot of other devices as well, right down to your mouse. I have a five-button mouse and just hit the extra buttons on either side for small tasks like going backward and forward in a Web browser and Windows Explorer. For developers who have to give regular presentations to clients, this nifty wireless mouse/remote control is ideal.
+Conclusion
+There are a lot of good things about the Mac, and it’s hard not to get a little excited about them each time you watch one of Apple’s big developer conferences.
+What you have to remember is that at the end of the day, the operating system is a means to an end, not the end itself. Whichever system you choose should make your daily work (and play!) easier and more efficient. Windows combined with the great free software and tips I’ve found online allows me to work exactly the way I want. I wouldn’t dream of going back to a default Vista installation with no extras: the customized installation is worth so much more to me than either Windows or OS X on its own.
+We would love to hear what aspects of your operating system made you choose it (but not the flaws in the other one that made you not choose it!) and how you use it to work at your best.
+(al)

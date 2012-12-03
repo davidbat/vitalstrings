@@ -1,0 +1,19 @@
+By waveboy2u Android , smartphone
+Difference Between Android 2.2 (Froyo) and Android 2.3 (Gingerbread)
+Android 2.2 (Froyo) and Android 2.3 (Gingerbread) are two versions of the Smartphone operating system developed by Google. Android 2.3 is the latest edition. In comparison between Android 2.2 and Android 2.3, Android 2.3 is a major release and there are number of differences between Android 2.2 and Android 2.3. Android platform was initially developed by Android Inc. Google, the internet giant acquired Android in year 2005. Basically Android did not start from scratch; it was developed from the versions of Linux kernel.
+Android 2.2 though mostly a stable system, had two revisions. Android 2.2 (Froyo) Rev 1.0 was released in May 2010 and Rev. 2.0 was released in July 2010. Android 2.3 (Gingerbread) was released on 6th Dec 2010. There are a lot of improvements and new features included in Gingerbread. Of course Android 2.3 is a major release. However Android 2.2 was a minor release, speed improvement was brought in with the integration of Chrome V8 JavaScript engine and JIT optimization, Wi-Fi hotspot feature was added and a new clean UI with tip widget and app market widget was introduced and some of the other app widgets were given a facelift.
+A considerable number of new features were introduced in Android 2.3 (Gingerbread), that include new UI themes, redesigned keyboards, new copy and paste functionality, improved power management, better application management, new download manager, NFC (Near Field Communication), support for VoIP/SIP calls, new Camera application for accessing multiple cameras and supports extra large screens.
+Update: The latest version of Android platform is 2.3.3 (see Table_ 03 for additional features).
+Kernel:
+Android 2.2 – Linux Kernel 2.6.32
+Android 2.3 – Linux Kernel 2.6.35
+Networking:
+Android 2.2 supports Bluetooth as well as Wi-Fi. On top of these, Android 2.2 supports Wi-Fi hotspot functionality that can connect 6 devices. In the sense, you can use Android 2.2 phone as a wireless broadband router.
+Android 2.3(Gingerbread), in addition to all existing features, supports for NFC (Near Field Communication) which is a high speed data communication mechanism operates in high frequency within a short range (10 cm).
+Communication:
+In addition to standard voice calling, Android 2.3 supports for SIP audio and video calling. If you have a good 3G or Wi-Fi connection and a SIP account you can make internet calling. It breaks the boundary of regionalist concept and flies in the global domain.
+Power Management:
+Power Management is one the critical tasks in these kind of Mobile operating systems.  Even if you have all these fancy features, if the battery life of the device is couple of hours, then there is no use in the added features. Android 2.3 handles it in a better way than Android 2.2. Here in 2.3 the OS manages the applications and daemon application which are running at the background and closes the unnecessary applications.
+Android 2.2 (Froyo) supports the following features:
+Integration of Chrome’s V8 JavaScript engine into the Browser application
+Advanced Microsoft Exchange support

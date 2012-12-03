@@ -1,0 +1,17 @@
+Post a comment
+In a perfect world, every subnet would have its own interface or vlan, but this is far from a perfect world. Most routers start out that way, but networks change or get merged and things get a little messier.
+Secondary IP addresses are a great way to extend the network without readdressing every workstation and printer. At the very least, secondary IP addresses on Cisco routers can make things smoother during an IP migration.
+For example, configuring an IP address on a Cisco interface is simple.
+router(config)# int vlan 1
+router(config-if)# ip address 10.1.1.1 255.255.255.0
+This will configure the vlan 1 interface with the IP address of 10.1.1.1.
+By adding the following statement, we can place two addresses on the same interface.
+router(config)#int vlan 1
+router(config-if)# ip address 10.1.1.1 255.255.255.0
+router(config-if)# ip address 10.1.2.1 255.255.255.0 secondary
+Be sure not to miss the word secondary or the primary IP address will be overwritten and traffic to that address will stop working. This is bad for users that are connected to that the primary interface of 10.1.1.1 for their network gateway and especially bad if you are connected via telnet to the router because you will lose access and have to console directly into the router to recover.
+Now, the router will respond to the addresses of 10.1.1.1 and 10.1.2.1.
+Users on each of the two subnets will never know that they are using the same interface.
+The router will use the primary IP address to ping and traceroute unless you specify an address with an extended ping or traceroute command.
+Secondary address can also be used in conjuction with DHCP superscopes. For instance, a DHCP server can be configured to assign addresses from a superscope which will pull available addresses from a pool in the 10.1.1.0 subnet and then when that is depleted go on to use addresses from the 10.1.2.0 subnet as long as both address are configured on the same router interface as explained earlier. Note that the primary IP address of the router has to match the first range of the DHCP superscope configured on the DHCP server or the server will not know which superscope to use and will not reply with an address.
+The main negative in using secondary addresses is that it does not contain broadcasts and multicasts on that network. In most cases, the router and workstations can handle broadcasts from two or three subnets, but it is not a good idea to stack several subnets together on a single interface or the network will seem to slow down.

@@ -1,0 +1,6 @@
+TWEAKBENCH - free VST plugins for windows. free VST instruments and free VST effects
+rebar
+step synthesizer v1.4
+rebar is a drawn waveform monosynth using mark andrews' step oscillator. simply draw your waveform using the sliders, create your envelope, and adjust the effects. both warp and delay effects have handy x/y based panels for live tweaking and automation crazyness. version 1.2 adds a truly drawable waveform panel (just drag your mouse across it), improved cpu performance, new patches, and better stability.
+accolades: featured in Estrada i Studio - Jan 2005
+version: 1.4 / released: 06.28.08 / cpu load: 3-10% @ 2ghz / size: 1MB

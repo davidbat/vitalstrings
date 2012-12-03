@@ -1,0 +1,42 @@
+IP Reputation Investigation
+IP Reputation Investigation
+An IP address earns a negative reputation when Symantec detects         suspicious activity, such as spam or viruses originating from that address.  Symantec strongly recommends that you perform a         security audit on any of your systems that correspond to an         IP address with a negative reputation, as those systems may have         been compromised.
+If you believe that your IP address has been given a negative         reputation erroneously, you may request an investigation of that         address.
+IP Address Investigation Request
+To request investigation of an IP address, enter that address in the IP Address field provided below.  Confirm the         security image text in the Image Text field and         click Submit.
+IP Address:
+SUBMIT
+Symantec Mail Security Reputation
+Symantec uses various methods and data sources to create lists of             IP addresses that are suspected of being untrustworthy. These IP             addresses may include:
+Compromised machines ("zombies") that send out spam.
+Open proxies that allow untrusted e-mail to pass through them.
+Systems that are observed sending spam on the Internet.
+Frequently Asked Questions
+General Questions:
+Q: Why is my IP address assigned a negative reputation?
+A: IP addresses are assigned a negative reputation when they are                 found to be open proxies or when they send high levels of spam                 or viruses to spam traps and users. These IP addresses are                 analyzed to see if they belong to machines that should not be                 sending mail.
+Please remove viruses, open proxies or any potentially                 mis-configured applications or bad software from your server.
+Q: What is an open proxy?
+A: An open proxy is a computer that allows e-mail to be                 sent from arbitrary users (or machines). Modern mail hosts                 only allow mail to be delivered locally to their own users or                 transferred remotely from their own authenticated users. Open                 proxies are often old or improperly configured servers, but                 they can also be compromised personal computers. Open proxies                 can occur on both personal computers and UNIX systems.
+Q: What is a zombie?
+A: A zombie computer, or zombie for short, is a computer                 attached to the Internet that has been compromised by a                 computer virus or worm. Such a machine can be controlled from                 a central location, without the knowledge of the machine's                 owner, and can be made to perform various malicious tasks                 including, but not limited to, sending spam. Millions of such                 zombie computers are known to exist, linked up into a number                 of "zombie networks" (sometimes referred to as botnets) to                 form a massive distributed server farm for the purpose of                 delivering spam simultaneously from origins distributed across                 the entire Internet.
+Zombies are now the most common delivery method of spam,                 accounting for a majority of all spam worldwide.
+Q: What does it mean to be observed sending spam?
+A: Symantec maintains a proprietary intelligence network that                 monitors e-mail activity across a large portion of the                 Internet. When Symantec observes a host/server/computer                 sending spam, it means that e-mail specifically identified as                 spam was registered as originating from the                 host/server/computer in question.
+Q: I've requested that Symantec clear the reputation of my IP                 address, but I still receive bounce messages when I try to                 send e-mail. What should I do?
+A: First, be sure that your e-mail program is set up properly: if                 your connection is through dial-up, cable, or DSL, your                 Internet service provider will most likely require you to send                 all mail through the mail server they provide. Second, ensure                 that your system is free of security threats by scanning it                 with a virus scanner that has up-to-date virus definitions.                 Symantec offers a free virus detection tool, available here ,                 and a 15-day free trial for Norton AntiVirus. Other major                 vendors have similar offerings. Remove any viruses or malware                 that are found.
+If you still find that your IP address has been assigned a                 negative reputaiton, provide additional information in the                 provided form to help us further diagnose problems.
+Q: What does it mean to be unauthorized to send email                 directly to email servers?
+A: IPs such as dynamic IPs may be listed because they                 generally should not be sending email directly to                 email servers. For most home users, this listing                 should not impact you. This listing does not prevent                 you sending email unless your email program is not                 authenticating properly when it connects to your ISP                 or company's mail server.
+Verify that your mail program is using SMTP                 authentication, if it is not enabled you should enable                 it. If you are attempting to send mail to an ISP other                 than your provider you should verify that you are                 authenticating through your ISP's outbound SMTP                 server. You should verify that your username and                 password are up to date. Additionally you should                 verify that you are using the specified port for                 sending using authentication; for authentication this                 should be port 587. If you are using port 25 you are                 most likely not authenticating and could be blocked.
+For Server Administrators:
+Q: My mailer is professionally hosted with a static IP address,                 not a residential dial-up or broadband address. Why was it                 identified as a zombie?
+A: Make sure that your machine's DNS records don't look like a                 residential IP address. You may need to contact your hosting                 provider to resolve these issues. Verify that PTR records                 exist for all IP addresses that the machine uses to send mail.                 This is known as having RDNS (Reverse DNS).
+If you do not have any RDNS records, you will encounter                 delivery problems to many major ISPs. Verify that the RDNS                 records are visible from an outside source, such as http://www.dnsstuff.com/ and make sure that these PTR records are not "generic RDNS"                 records, e.g. 201-137-58-21-srv.example.com. Such records are                 common for new machines, and are virtually indistinguishable                 from residential broadband addresses.
+Q: My host does not relay on port 25. Why am I listed as an open                 proxy?
+A: Open proxies are not limited to using port 25 and can often be                 found in relation to other applications that have been badly                 configured such as web servers or http proxies.
+Make sure that your machine is not accepting non-authenticated                 SMTP relay connections on any port. Also check for compromises                 to your machine, the existence of an open proxy often                 indicates a machine has been successfully attacked.
+If the machine is professionally hosted, please contact your                 system administrator for help with these tasks. Never run port                 scanning software without explicit authorization from the                 network owner.
+Q: What if my server is behind a NAT?
+A: Being behind a NAT alone does not prevent spam and viruses.                 Please remove viruses, open proxies or any other                 mis-configured applications of bad software from the server in                 question.
+Firewall rules or other ACLs restricting servers from                 connecting to the internet except through specified servers, -                 usually mail server on port 25 - is one way of limiting                 infected computers from getting spam and viruses out of a network.

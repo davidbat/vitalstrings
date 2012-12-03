@@ -1,0 +1,38 @@
+[ edit ] Finding Your Local IP Address (broadband) or Global IP Address (dialup)
+[ edit ] Windows 98 And Above
+Go to Start
+Type cmd and hit enter (use command in Win98)
+Type ipconfig and hit enter
+It will say something like
+Windows IP Configuration  Ethernet adapter Local Area Connection Network Connection:  Connection-specific DNS Suffix . :  IP Address. . . . . . . . . . . . : 192.168.0.102 <-your IP address  Subnet Mask . . . . . . . . . . . : 255.255.255.0  Default Gateway . . . . . . . . . : 192.168.0.1 <-your system Gateway
+If you are on broadband, or use a network modem or your internet connection is not through your current PC, that IP is a local ip. Meaning, that is the IP my router gave me, not the IP the world sees. This means that the address is only specific to me in my local network.
+If you use dialup with a modem on your current computer, that will be your external IP.
+[ edit ] Windows XP
+You can double click on the two computers on the task bar at the lower right hand corner also known as your Local Area Connection. Once that opens you can see the status of your local area connection as well as the activity of it. The status referring to whether or not it's connected, how long it has been connected, and the speed of the connection. The activity referring to the number of packets sent and received. Then you click the Support tab. The support tab shows you your IP address, the address type, subnet mask and default gateway if you have one. You can also click details. Details shows you your Physical (MAC) address, IP address, the subnet mask address, the address for your DHCP server, your DNS server as well as when you obtained the lease for your IP address and when it expires.
+Click Start --> Control Panel--> Network and Internet--> Network snd Sharing Center
+In the left side pane select the fifth option Manage Network Connections.
+In the new window right click Local Area Connection (or Wireless Network connection in case your connected to the net via wireless).
+Select the second option Status and in the Local Area Connection Status dialog click the Details button.
+The Network Connection Details window will appears with Property and Value.
+In that you can find the fifth propperty as IPv4 Address and a value similar to this format 192.168.1.2.
+Thats the IP address.
+Click on Windows Logo -->Control Panel --> Network and Internet --> Network and Sharing Center.
+In the left side pane select the second option "Change Adapter Settings".
+In the new window right click "Local Area Connection" (or Wireless Network connection in case your connected to the net via wireless).
+Right click on the appropriate connection and select the third option Status.
+In the new "Local Area Connection Status" dialog click the "Details" button.
+The "Network Connection Details" window will appears with Property and Value.
+In that you can find the fifth propperty as IPv4 Address and a value similar to this format 192.168.1.2.
+Thats the IP address.
+[ edit ] MAC OS X LION
+Click the Apple icon that is located on the top left hand side.
+From the menu select the option "System Preferences..."
+Select Network under the heading Internet & Wireless (Internet & Network in 10.5).
+WIRELESS
+If Connected via Wi-Fi(Airport in 10.5) select that option from the left.
+In the right u can find a message reading something similiar to this
+"Wi-Fi is connected to NETWORK1 and has the IP address 192.168. 1.2"
+Where NETWORK1 is the network you are currently connected to and the 192.168.1.2 is the "IP ADDRESS".
+WIRED
+Select the Ethernet option from the left.
+In the right you can find IP Address : 192.168.1.2

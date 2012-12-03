@@ -1,0 +1,5 @@
+Hassan2
+Posts: 360
+I have a large sparse symmetric matrix and I'd like to know the number of its negative eigenvalues. To this end, I should perform an LDLT decomposition of the matrix and count the number of negative diagonal entries of the D matrix. This would be equal to the number of negative eigenvalues.
+Since I need the diagonal matrix D only, is  there an efficient way to acquire D without saving L ? My matrix is large and only the nonzero entries are stored. I can't  store the dense lower matrix L.
+Your help is appreciated.

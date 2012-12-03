@@ -1,0 +1,24 @@
+.NET Garbage Collection Visualizations
+.NET Garbage Collection
+You want to learn more about garbage collection in .NET and get some insight into the platform. There is no specific bug to fix here, but you want an idea of how GC works over time. Here we examine garbage collection in .NET and look at a real-world visualization.
+Introduction
+There are several tools I want to show here. First, I will show my custom application called Memory Watcher, which continually polls Windows for information about a process's working set. Then I will touch on CLRProfier and Process Monitor, both provided by Microsoft.
+Visualize system numbers
+My .NET program "Memory Watcher" can observe GC over time, as well. It can also give you an idea of the proportions of the collections. Collections that are frequent or big could be seen in this chart. The following chart shows the memory usage of a program that runs in the background.
+The sawtooth line shows peaks where the garbage collection is triggered, and then dips where it has already run and the memory is lower. We can see that this program doesn't consume too much memory over time. For more about this, see my article about Memory Watcher and how I used it on web browsers.
+Firefox 3 Memory Benchmarks and Comparison
+CLRProfiler
+You should definitely have CLRProfiler on your system, as it is not only free but useful. It can help you visualize memory usage of a process. Note that this only works for .NET processes.
+MSDN reference
+Open CLRProfiler binary (x86). Start the exe and then click on Start Application. Next, select a .NET application you want to observe.
+Use your application for a few seconds. Now, use your Windows Forms application for a few seconds—around 15 or 20 would be fine. Your program will likely enter garbage collection (silently) in this time period.
+And then Exit it. Exit your custom application and then you will return to CLRProfiler. Now, look at the panel that says "Garbage Collection Statistics" and click on the button.
+The colorful lines, representing memory, keep building up, until they are flushed away and then the process starts again. The peaks are right before the garbage collections, and the dips are right after the collections. This is a good way to visualize the collections in .NET applications.
+Process Explorer
+Open Process Explorer (procexp.exe) as administrator, and you should see columns called "Methods Jitted" and "Gen 0 Collections". When a method is compiled in your .NET program, the "Methods Jitted" column cell will increase. This can give you a rough idea of how big and complex your .NET application is.
+Process Explorer and w3wp.exe in ASP.NET
+Select a .NET process in the list. Your .NET application will be in the list in Process Explorer. Right click on it and then select properties. You will see another dialog box.
+Click on .NET tab. Process Explorer keeps .NET runtime information in a separate tab. Click on that tab, and then you will see a ".NET Performance Objects" drop-down.
+Select "Memory". Select the memory menu item in the drop down menu. You will see lots of information about .NET performance. This can be useful for debugging or as a general picture.
+Summary
+Here we looked at some tools that can help you keep track of memory usage and understand how garbage collection works in your application better. We can use tools like those provided by Microsoft, or custom tools. Garbage collection is powerful and efficient, but it needs to be kept in check.

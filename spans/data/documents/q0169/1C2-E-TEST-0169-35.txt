@@ -1,0 +1,25 @@
+arg1, shape=None, dtype=None, copy=False
+)
+A sparse matrix in COOrdinate format.
+Also known as the ‘ijv’ or ‘triplet’ format.
+This can be instantiated in several ways:
+coo_matrix(D)
+with a dense matrix D
+coo_matrix(S)
+with another sparse matrix S (equivalent to S.tocoo())
+coo_matrix((M, N), [dtype])
+to construct an empty matrix with shape (M, N) dtype is optional, defaulting to dtype=’d’.
+coo_matrix((data, (i, j)), [shape=(M, N)])
+to construct from three arrays:
+data[:]   the entries of the matrix, in any order
+i[:]      the row indices of the matrix entries
+j[:]      the column indices of the matrix entries
+Where A[i[k], j[k]] = data[k].  When shape is not specified, it is inferred from the index arrays
+Notes
+Sparse matrices can be used in arithmetic operations: they support addition, subtraction, multiplication, division, and matrix power.
+Advantages of the COO format
+facilitates fast conversion among sparse formats
+permits duplicate entries (see example)
+very fast conversion to and from CSR/CSC formats
+Disadvantages of the COO format
+does not directly support:

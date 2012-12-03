@@ -1,0 +1,52 @@
+coo_matrix: Coordinate
+dia_matrix: Diagonal
+If you've handled sparse matrices before, then some of these formats will be familiar to you.  If not, don't be overwhelmed by the abundance of sparse matrix formats!
+Each sparse format has certain advantages and disadvantages.  For instance, adding new non-zero entries to a lil_matrix is fast, however changing the sparsity pattern of a csr_matrix requires a significant amount of work.  On the other hand, operations such as matrix-vector multiplication and matrix-matrix arithmetic are much faster with csr_matrix than lil_matrix.  A good strategy is to construct matrices using one format and then convert them to another that is better suited for efficient computation.
+Constructing Sparse Matrices
+sparse from dense
+There are several ways to construct a sparse matrices in SciPy .  The simplest method is to pass a dense NumPy matrix or two-dimensional ndarray to the desired sparse matrix constructor:
+>>> from numpy import array, matrix >>> from scipy.sparse import csr_matrix, lil_matrix >>> A = array([[1,0,2],[0,3,0]]) >>> csr_matrix(A) <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in Compressed Sparse Row format> >>> M = matrix([[1.0,0.0],[0.0,2.0]]) >>> lil_matrix(M) <2x2 sparse matrix of type '<type 'numpy.float64'>' with 2 stored elements in LInked List format>
+You can also construct matrices directly from lists,
+>>> csr_matrix([[1,0,2],[0,3,0]]) <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in Compressed Sparse Row format>
+and empty matrices are created as follows
+>>> lil_matrix((3,4)) <3x4 sparse matrix of type '<type 'numpy.float64'>' with 0 stored elements in LInked List format> >>> csr_matrix((3,4), dtype='int8') <3x4 sparse matrix of type '<type 'numpy.int8'>' with 0 stored elements in Compressed Sparse Row format>
+As you can see, the sparse formats store only the non-zero entries of a matrix.  This value is stored in the nnz attribute,
+>>> from scipy.sparse import * >>> A = csr_matrix([[1,0,2],[0,3,0]]) >>> A.nnz 3
+However, some sparse formats (e.g. dia_matrix, csr_matrix) can contain explicit zero entries. In this situation A.nnz overestimates the true number of non-zero values in the matrix.
+scipy.sparse now supports most NumPy data types (e.g. unit8, int32, complex128, etc.) with the exception of the object and bool dtypes.
+sparse to dense
+As you might expect, you can also convert sparse matrices to the dense format.
+>>> from scipy.sparse import csr_matrix >>> A = csr_matrix([[1,0,2],[0,3,0]]) >>> A <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in Compressed Sparse Row format> >>> A.todense() matrix([[1, 0, 2], [0, 3, 0]]) >>> A.toarray() array([[1, 0, 2], [0, 3, 0]])
+This feature is useful for debugging and for using functions in NumPy and SciPy that don't support sparse matrices directly.
+sparse to sparse conversions
+Since the whole purpose of sparse matrices is to avoid the dense format, there are several other methods.  Another way is to convert one sparse format to another:
+>>> from scipy.sparse import csr_matrix, coo_matrix >>> A = csr_matrix([[1,0,2],[0,3,0]]) >>> coo_matrix(A) <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in COOrdinate format> >>> A.tolil() <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in LInked List format> >>> A.asformat('dok') <2x3 sparse matrix of type '<type 'numpy.int64'>' with 3 stored elements in Dictionary Of Keys format>
+Any sparse format in scipy.sparse can be converted to any other using any of the previous methods.  Since formats like dia_matrix are inappropriate for certain sparsity patterns, some caution must be exercised.  However, in general conversions among sparse formats are implemented efficiently so that you choose the best format for your application.
+constructing from scratch
+So far, we've shown how to construct sparse matrices from dense matrices and from other sparse matrices.  Clearly we also need a way to construct matrices from scratch.  Since the lil_matrix (recommended) and dok_matrix allow new entries to be entered into the matrix, they are a convenient way to build sparse matrices.
+>>> from scipy.sparse import lil_matrix >>> A = lil_matrix((4,3), dtype='float32') >>> A[1,0] = 3.0 >>> A[2,2] = 7.0 >>> A[3,1] = -2.0 >>> A <4x3 sparse matrix of type '<type 'numpy.float32'>' with 3 stored elements in LInked List format> >>> A.todense() matrix([[ 0., 0., 0.], [ 3., 0., 0.], [ 0., 0., 7.], [ 0., -2., 0.]], dtype=float32)
+As expected, explicitly setting an entry to zero removes it from the matrix structure:
+>>> A[2,2] = 0 >>> A <4x3 sparse matrix of type '<type 'numpy.float32'>' with 2 stored elements in LInked List format> >>> A.todense() matrix([[ 0., 0., 0.], [ 3., 0., 0.], [ 0., 0., 0.], [ 0., -2., 0.]], dtype=float32)
+For the sake of efficiency, this same behavior does not hold for other formats (e.g. csr_matrix).
+implementation considerations
+As the name suggests, the underlying data structure of lil_matrix is a list (actually an ndarray) of Python lists.  Each row of the matrix is stored in a separate (sorted) list, so adding new elements requires a relatively small number of operations.  Similarly, dok_matrix is a Python dictionary that maps (row,column) keys to their nonzero values.  While the precise details of these data structures are subject to change, you can rely on the fact that changes to the sparsity structure of these formats will be handled efficiently.
+sparsity structure changes can be expensive
+It is very inefficient to change the sparsity structure of other formats in scipy.sparse!  Indeed, most sparse formats in SciPy do not even support setting matrix entries.  Notable exceptions are csr_matrix and csc_matrix which do permit such modifications. Nevertheless, don't do it!  If you do, you'll be greeted with a SparseEfficiencyWarning the first time you try.
+>>> from scipy.sparse import csr_matrix >>> A = csr_matrix((4,3), dtype='float32') >>> A[1,0] = 3.0 /usr/lib/python2.5/site-packages/scipy/sparse/compressed.py:623: SparseEfficiencyWarning: changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient. SparseEfficiencyWarning) >>> A[2,2] = 7.0 >>> A[3,1] = -2.0 ERROR: EOF in multi-line statement
+You have been warned.  If you insist on abusing csr_matrix and csc_matrix in this way, and don't want to be warned, the warnings module permits filtering,
+>>> from scipy.sparse import csr_matrix, SparseEfficiencyWarning >>> import warnings >>> warnings.simplefilter('ignore',SparseEfficiencyWarning) >>> A = csr_matrix((4,3), dtype='float32') >>> A[1,0] = 3.0 >>> A[2,2] = 7.0 >>> A[3,1] = -2.0
+but you should still feel guilty.
+The justification for the warning is that, in general, changes to the structure of a csr_matrix require the entire data structure to be altered.  The cost of such alterations is proportional to the number of non-zero entries in the matrix.  In contrast, the cost of adding a new value to a lil_matrix is proportional to the number of non-zero values in that row, while a dok_matrix typically does the update in constant time.
+constructing from scratch faster, with coo_matrix
+As discussed in the previous section lil_matrix and dok_matrix can be used to insert elements into a matrix efficiently.  However, when dealing with sparse matrices with millions of non-zeros, a faster method is required.  Behold, the coordinate matrix format.
+The coordinate matrix format is arguably the simplest of all sparse formats: it consists of three arrays row, col, and data which record the row index, column index, and value of each entry in the matrix respectively.  Using these three arrays, the coo_matrix is constructed as follows:
+>>> from scipy.sparse import coo_matrix >>> from numpy import array >>> row = array([1,2,3]) >>> col = array([0,2,1]) >>> data = array([3.0,7.0,-2.0]) >>> A = coo_matrix((data,(row,col)), shape=(4,3)) >>> A <4x3 sparse matrix of type '<type 'numpy.float64'>' with 3 stored elements in COOrdinate format> >>> A.todense() matrix([[ 0., 0., 0.], [ 3., 0., 0.], [ 0., 0., 7.], [ 0., -2., 0.]])
+Here we have used the shape parameter of the constructor to inform coo_matrix of the matrix dimension.  If shape is not defined, then coo_matrix will attempt to infer the matrix dimensions from row and col arrays.  Therefore, in this particular example, the shape parameter is not necessary.  However, if the last row or column contains no values, then it is necessary to supply a shape parameter.  If you happen to forget any of this information, you can always use the help command within Python to retrieve the documentation
+At this point, you might be questioning the utility of the humble coo_matrix: you will be forgiven for that prejudice.  As a simple test, suppose we want a function that returns an identity matrix of a given size.  Consider the three functions in the code sample below which construct identity matrices using the COO, LIL, and DOK formats.
+from time import clock from numpy import arange, ones from scipy.sparse import coo_matrix, dok_matrix, lil_matrix def identity_coo(N): row = arange(N, dtype='intc') col = arange(N, dtype='intc') data = ones(N) I = coo_matrix((data,(row,col)), shape=(N,N)) return I def identity_lil(N): I = lil_matrix((N,N)) for i in range(N): I[i,i] = 1.0 return I def identity_dok(N): I = dok_matrix((N,N)) for i in range(N): I[i,i] = 1.0 return I N = 1000 * 1000 start = clock(); I = identity_coo(N); end = clock(); print "COO: %6.3f seconds" % (end - start) start = clock(); I = identity_lil(N); end = clock() print "LIL: %6.3f seconds" % (end - start) start = clock(); I = identity_dok(N); end = clock() print "DOK: %6.3f seconds" % (end - start)
+Here's the result
+COO:  0.030 seconds LIL: 19.870 seconds DOK: 15.790 seconds
+The coo_matrix method is clearly the fastest, beating the others by a factor of 500.  Interestingly, constructing a matrix in COO first, and then converting to LIL or DOK is still faster than using those formats directly:
+start = clock(); I = identity_coo(N); I = I.tolil(); end = clock() print "COO->LIL: %6.3f seconds" % (end - start) start = clock(); I = identity_coo(N); I = I.todok(); end = clock() print "COO->DOK: %6.3f seconds" % (end - start)
+COO->LIL:  7.990 seconds COO->DOK:  4.390 seconds
+construction utilities

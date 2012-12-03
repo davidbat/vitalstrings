@@ -1,0 +1,17 @@
+MatView
+MatView: Scalable Sparse Matrix Viewer
+MatView is a handy tool for viewing and exploring large sparse matrices. Using MatView, a sparse matrix with millions of elements can be reduced to a graphically viewable size for overviews of the high-level structure, or a detailed view can be obtained by zooming in and navigating through small regions of the matrix.
+MatView provides:
+Scalability: Efficient Viewing of Very Large Matrices  (including new huge matrix file support!).
+Easy Thumbnail Navigation, and Zooming In & Out of Matrix Details.
+A Variety of Data Reduction Functions  (Avg, Min/Max, Sum, Std, Var).
+Custom Color Adjustments, or Greyscale Rendering.
+Viewing of Matrix Pattern Only, If Desired.
+Filtering of Matrix Values Outside the Color Map Range, if desired.
+Printing of Matrix Views, or Saving Views as PostScript / PPM.
+Compatibility with Matrix Market Format, Harwell-Boeing Format,  and Matlab MAT Files.
+Loading of Compressed or Gzipped Matrix Files.
+The MatView 1.0 Beta 6 Software (no longer Alpha, complete with new "configure" installation!) is available for FREE DOWNLOAD (gzipped tar format - you can also download uuencoded and zipped distributions).
+Now Works with Tcl/Tk 8.4! :-D  (12/3/2008)
+(Now with smaller example matrices! :-)
+Interface Samples:

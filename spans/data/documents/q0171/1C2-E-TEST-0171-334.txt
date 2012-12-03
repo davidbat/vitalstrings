@@ -1,0 +1,11 @@
+Find Your Router IP Address
+Finding your routers local IP address under normal circumstances is easy and  straight forward.
+In these 3 quick steps I will show you how to get your routers local IP.
+Step 1.
+Open the run command, this is normally under your start menu, if it isn't  hold down the 'Windows' key on your keyboard and hit 'r'
+Inside the run command type cmd and hit ok
+Step 2.
+Once inside the command window type in ipconfig and hit enter.
+Step 3.
+Your local network info will show up, normally your gateway is your router.  So the gateway IP is your router IP.
+All done!

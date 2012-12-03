@@ -1,0 +1,21 @@
+keeping track of and sending SWIP/RIPE/APNIC registrar information
+DNS administration (forward and reverse zones, import existing zones via zone transfer)
+template system to extend IPplan to contain site specific information like circuit data, host configuration data, asset information
+device configuration file management
+link addresses together via pointers - ideal for NAT
+external stylesheet to change display look
+triggers - every user event can call a user defined function - useful to execute backend DNS scripts
+external poller - scan subnets for active addresses to gather usage statistics
+IP address request system - allows users to request static IP addresses from the database
+Two authentication methods are available - either IPplan’s own internal authentication scheme, or alternatively make use of any external Apache authentication module. This includes single sign on systems like SiteMinder or your own scheme based on LDAP, or any other Apache compatible system.
+Looking for a whois server that works with IPplan - you will find one in the IPplanAPI package. Using the API you can build DHCP configs, and build all kinds of custom applications for your site by reading data out of the IPplan database.
+Documentation
+Online, browsable documentation for the IP address management suite can be found here . Looking for a single page printable version?  Detailed installation instructions are included as INSTALL files with the downloaded package.  Before installing, review the application requirements .
+A screenshot based tutorial can be found here .
+Screenshots
+See the screenshots page for more.
+Frequently asked questions (FAQ)
+See the faq page for more.
+ 
+  ipplan.txt · Last modified: 2010/04/05 02:54
+ 

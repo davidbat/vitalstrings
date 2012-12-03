@@ -1,0 +1,16 @@
+ 
+Introduction
+This article shall address the easiest way possible to get your external IP address (and local/internal IP address).
+Figure 1:  Showing the Local and External IP Addresses
+There is no particular magic to getting your external IP address; the easiest way I have found is to use the automation service provided by http://whatismyip.com/automation/n09230945.asp , the good folks at whatismyip.com are nice enough to provide a free service to return the external IP address.  All that the ask in return is that you do not beat them up with too many requests; they suggest about one every five minutes as being within their comfort zone; however, they also offer to provide additional services upon request so if you need something more than that, give them a call and talk to them about it.
+Now, if you have a public site and are interested in getting the user's IP address that is really not an issue.  You can still just request the REMOTE_ADDR or HTTP_X_FORWARDED_FOR server variable to get that.
+Code
+There is not much code to address in this one.  There are three examples to show:  the local IP address, the external IP address (for when you might need to see that locally), and the remote IP address.
+The first example shows how to collect the local IP address; here we use an instance of the IPHostEntry container class to capture the host entry and then we display the first item in the host entry's address list as the local IP address.
+// Local IP Address (returns your internal IP address)
+String hostName = System.Net.Dns.GetHostName();
+ 
+Response.Write("<em>Your Local IP Address is:  " + localIpAddresses.AddressList[0].ToString() + "</em><br />");
+The next example uses the whatismyip.com automation service to capture the external IP address locally.  This value is displayed as the external IP address.  If you just need to find out your external IP address, you can use a browser to navigate to the whatismyip.com website and you will see your external IP address displayed on the page; alternatively, you can use another service such as IPChicken.com to perform the same function.  If you want to programmatically capture the external IP address locally, this code will do the job.
+// External IP Address (get your external IP locally)
+UTF8Encoding utf8 = new UTF8Encoding();

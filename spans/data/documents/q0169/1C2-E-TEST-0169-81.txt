@@ -1,0 +1,201 @@
+Our mathematical modeling of the parallel algorithms in Section 3 is an average-
+case analysis assuming independent uniform random distribution of nonzeros, which
+translates into the Erdo˝s-Re´nyi random graph model. More realistic models should
+assume skewed nonzero distributions, such as power-law distributions. Ultimately,
+average case analysis has its limitations because it needs to assume an underlying dis-
+tribution. On the other hand, worst case analysis does not make a lot of sense for our
+problem, because there are certain sparse matrix pairs that will create a dense output
+when multiplied. Therefore, a smoothed analysis [56] of the sparse matrix multiplica-
+tion algorithms, both sequentially and in parallel, would be a significant advancement,
+although it is far from clear how to apply the principles of smoothed analysis to an
+algorithm with discrete inputs.
+Load imbalance is not severe for sufficiently large matrices, even in the absence
+of asynchronous progress. Our one-sided communication approach was based on re-
+mote get operations in order to avoid fence synchronization. Given the acceptable load
+balance for large matrices, it is worth exploring an option with fence synchronization
+and remote put operations. This proposed implementation will still use one-sided com-
+munication but all processors in the processor row/column will need to synchronize
+after the put operation. We expect better performance because it only takes one trip to
+complete a remote put operation whereas remote get requires a roundtrip.
+Our SpGEMM routine might be extended to handle matrix chain products. In par-
+ticular, the sparse matrix triple product (RAP) is heavily used in the coarsening phase of
+the algebraic multigrid method [57]. Sparse matrix indexing and parallel graph contrac-
+tion also require sparse matrix triple product [6]. The support for sparse matrix chain
+products eliminates temporary intermediate products and allows more optimizations,
+such as performing structure prediction [25] and finding the optimal parenthesization
+based on the sparsity of the inputs.
+Finally, there is a need for hierarchical parallelism due to vast differences in the
+costs of inter-node and intra-node communication. The flat parallelism model does not
+only lose the opportunity to exploit the faster on-chip network, but it also increases
+the contention on the off-chip links. We observed that the inter-node communication
+becomes slower as the number of cores per node increases because more processes
+are competing for the same network link. According to our preliminary experiments
+on 1024 cores, Sparse GEMM runs more than 80% faster if we use only 4 cores per
+node, compared to utilizing all 16 available cores per node. Therefore, designing a
+hierarchically parallel Sparse GEMM algorithm is an important future direction.
+Page 40
+[1] A. Lumsdaine, D. Gregor, B. Hendrickson, J. Berry, Challenges in parallel graph
+processing, Parallel Processing Letters 17 (1) (2007) 5–20.
+[2] A. Yoo, E. Chow, K. Henderson, W. McLendon, B. Hendrickson, U. Catalyurek,
+A scalable distributed parallel breadth-first search algorithm on bluegene/L, in:
+SC ’05: Proceedings of the 2005 ACM/IEEE conference on Supercomputing,
+IEEE Computer Society, Washington, DC, USA, 2005, p. 25.
+[3] A. V. Aho, J. E. Hopcroft, J. D. Ullman, The Design and Analysis of Computer
+Algorithms, Addison-Wesley Longman, Boston, MA, USA, 1974.
+[4] B. M. Maggs, S. A. Poltkin, Minimum-cost spanning tree as a path-finding prob-
+lem, Information Processing Letters 26 (6) (1988) 291–293.
+[5] R. E. Tarjan, A unified approach to path problems, Journal of the ACM 28 (3)
+(1981) 577–593.
+[6] J. R. Gilbert, S. Reinhardt, V. B. Shah, A unified framework for numerical and
+combinatorial computing, Computing in Science and Engineering 10 (2) (2008)
+20–25.
+[7] V. B. Shah, An interactive system for combinatorial scientific computing with
+an emphasis on programmer productivity, Ph.D. thesis, University of California,
+Santa Barbara (June 2007).
+[8] P. D’Alberto, A. Nicolau, R-Kleene: A high-performance divide-and-conquer al-
+gorithm for the all-pair shortest path for densely connected networks, Algorith-
+mica 47 (2) (2007) 203–213.
+[9] M. O. Rabin, V. V. Vazirani, Maximum matchings in general graphs through ran-
+domization, Journal of Algorithms 10 (4) (1989) 557–567.
+[10] R. Yuster, U. Zwick, Detecting short directed cycles using rectangular matrix
+multiplication and dynamic programming, in: SODA ’04: Proceedings of the
+fifteenth annual ACM-SIAM symposium on Discrete algorithms, Society for In-
+dustrial and Applied Mathematics, Philadelphia, PA, USA, 2004, pp. 254–260.
+[11] W. L. Briggs, V. E. Henson, S. F. McCormick, A multigrid tutorial: second edi-
+tion, Society for Industrial and Applied Mathematics, Philadelphia, PA, USA,
+2000.
+[12] G. Penn, Efficient transitive closure of sparse matrices over closed semirings,
+Theoretical Computer Science 354 (1) (2006) 72–81.
+[13] D. Coppersmith, S. Winograd, Matrix multiplication via arithmetic progressions,
+in: STOC ’87: Proceedings of the Nineteenth Annual ACM Conference on The-
+ory of Computing, ACM Press, New York, NY, USA, 1987, pp. 1–6.
+Page 41
+[14] R. Seidel, On the all-pairs-shortest-path problem in unweighted undirected
+graphs, Journal of Computer and System Sciences 51 (3) (1995) 400–403.
+[15] U. Zwick, Exact and approximate distances in graphs - a survey, in: ESA ’01:
+Proceedings of the 9th Annual European Symposium on Algorithms, Springer-
+Verlag, 2001, pp. 33–48.
+[16] Y. Saad, Iterative Methods for Sparse Linear Systems, 2nd Edition, SIAM,
+Philadelpha, PA, 2003.
+[17] A. Buluc¸, Linear algebraic primitives for parallel computing on large graphs,
+Ph.D. thesis, University of California, Santa Barbara (March 2010).
+[18] R. Yuster, U. Zwick, Fast sparse matrix multiplication, ACM Transactions on
+Algorithms 1 (1) (2005) 2–13.
+[19] S. C. Park, J. P. Draayer, S.-Q. Zheng, Fast sparse matrix multiplication, Com-
+puter Physics Communications 70 (1992) 557–568.
+[20] P. Sulatycke, K. Ghose, Caching-efficient multithreaded fast multiplication of
+sparse matrices, in: IPPS ’98: Proceedings of the 12th. International Parallel
+Processing Symposium on International Parallel Processing Symposium, IEEE
+Computer Society, Washington, DC, USA, 1998, p. 117.
+[21] F. G. Gustavson, Two fast algorithms for sparse matrices: Multiplication and per-
+muted transposition, ACM Transactions on Mathematical Software 4 (3) (1978)
+250–269.
+[22] J. R. Gilbert, C. Moler, R. Schreiber, Sparse matrices in Matlab: Design and
+implementation, SIAM Journal of Matrix Analysis and Applications 13 (1) (1992)
+333–356.
+[23] T. A. Davis, Direct Methods for Sparse Linear Systems, Society for Industrial and
+Applied Mathematics, Philadelphia, PA, USA, 2006.
+[24] D. Irony, S. Toledo, A. Tiskin, Communication lower bounds for distributed-
+memory matrix multiplication, Journal of Parallel and Distributed Computing
+64 (9) (2004) 1017–1026.
+[25] E. Cohen, Structure prediction and computation of sparse matrix products., Jour-
+nal of Combinatorial Optimization 2 (4) (1998) 307–332.
+[26] A. Buluc¸, J. R. Gilbert, On the representation and multiplication of hypersparse
+matrices, in: IPDPS, IEEE, 2008, pp. 1–11.
+[27] D. E. Knuth, The art of computer programming, volume 1 (3rd ed.): Fundamental
+algorithms, Addison Wesley Longman Publishing Co., Inc., Redwood City, CA,
+USA, 1997.
+[28] L. E. Cannon, A cellular computer to implement the kalman filter algorithm,
+Ph.D. thesis, Montana State University (1969).
+Page 42
+[29] R. A. V. D. Geijn, J. Watts, SUMMA: Scalable universal matrix multiplication
+algorithm, Concurrency: Practice and Experience 9 (4) (1997) 255–274.
+[30] A. Chtchelkanova, J. Gunnels, G. Morrow, J. Overfelt, R. A. van de Geijn, Parallel
+implementation of BLAS: General techniques for Level 3 BLAS, Concurrency:
+Practice and Experience 9 (9) (1997) 837–857.
+[31] A. Buluc¸, J. R. Gilbert, Challenges and advances in parallel sparse matrix-matrix
+multiplication, in: ICPP ’08: Proc. of the Intl. Conf. on Parallel Processing, Port-
+land, Oregon, USA, 2008, pp. 503–510.
+[32] M. R. Brown, R. E. Tarjan, A fast merging algorithm, Journal of the ACM 26 (2)
+(1979) 211–226.
+[33] T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, Introduction to Algorithms,
+2nd Edition, The MIT Press, 2001, pp. 168–170.
+[34] D. Chakrabarti, Y. Zhan, C. Faloutsos, R-MAT: A recursive model for graph min-
+ing, in: M. W. Berry, U. Dayal, C. Kamath, D. B. Skillicorn (Eds.), SDM, SIAM,
+2004.
+[35] J. Leskovec, D. Chakrabarti, J. M. Kleinberg, C. Faloutsos, Realistic, mathemat-
+ically tractable graph generation and evolution, using kronecker multiplication.,
+in: PKDD, 2005, pp. 133–145.
+[36] D. Bader, J. Feo, J. Gilbert, J. Kepner, D. Koester, E. Loh, K. Madduri, B. Mann,
+T. Meuse, HPCS scalable synthetic compact applications #2, version 1.1.
+[37] P. Erdo˝s, A. Re´nyi, On random graphs, Publicationes Mathematicae 6 (1) (1959)
+290–297.
+[38] J. R. Gilbert, G. L. Miller, S.-H. Teng, Geometric mesh partitioning: Implemen-
+tation and experiments, SIAM Journal on Scientific Computing 19 (6) (1998)
+2091–2110.
+[39] M. Krishnan, J. Nieplocha, Srumma: A matrix multiplication algorithm suitable
+for clusters and scalable shared memory systems, in: IPDPS, IEEE Computer
+Society, Los Alamitos, CA, USA, 2004.
+[40] P. Sanders, Fast priority queues for cached memory, Journal of Experimental Al-
+gorithmics 5 (2000) 7.
+[41] S. V. Dongen, Graph clustering via a discrete uncoupling process, SIAM Journal
+on Matrix Analysis and Applications 30 (1) (2008) 121–141.
+[42] S.-H. Teng, Coarsening, sampling, and smoothing: Elements of the multilevel
+method, in: Parallel Processing, no. 105 in The IMA Volumes in Mathematics
+and its Applications, Springer-Verlag, Germany, 1999, pp. 247–276.
+Page 43
+[43] B. Hendrickson, R. Leland, A multilevel algorithm for partitioning graphs, in:
+Supercomputing ’95: Proceedings of the 1995 ACM/IEEE conference on Super-
+computing, ACM, New York, NY, USA, 1995, p. 28.
+[44] C. Chevalier, I. Safro, Comparison of coarsening schemes for multilevel graph
+partitioning, in: Learning and Intelligent Optimization: Third International Con-
+ference, LION 3. Selected Papers, Springer-Verlag, Berlin, Heidelberg, 2009, pp.
+191–205.
+[45] U. Catalyurek, C. Aykanat, A fine-grain hypergraph model for 2D decomposition
+of sparse matrices, in: IPDPS ’01: Proceedings of the 15th International Parallel
+& Distributed Processing Symposium, IEEE Computer Society, Washington, DC,
+USA, 2001, p. 118.
+[46] U. V. Catalyurek, C. Aykanat, Hypergraph-partitioning based decomposition for
+parallel sparse-matrix vector multiplication, IEEE Trans. on Parallel and Dis-
+tributed Computing 10 673–693.
+[47] B. Vastenhouw, R. H. Bisseling, A two-dimensional data distribution method for
+parallel sparse matrix-vector multiplication, SIAM Rev. 47 (1) (2005) 67–95.
+[48] D. Bonachea, Gasnet specification, v1.1, Tech. Rep. CSD-02-1207, University of
+California at Berkeley, Berkeley, CA, USA (2002).
+[49] J. Nieplocha, J. Nieplocha, M. Krishnan, M. Krishnan, High performance remote
+memory access comunications: The ARMCI approach, International Journal of
+High Performance Computing and Applications 20 (2005) 2006.
+[50] MPI Forum, MPI: A Message-Passing Interface Standard. Version 2.2, available
+at: http://www.mpi-forum.org (Dec. 2009) (September 4th 2009).
+[51] T. Saif, M. Parashar, Understanding the behavior and performance of non-
+blocking communications in MPI, in: M. Danelutto, M. Vanneschi, D. Laforenza
+(Eds.), Euro-Par, Vol. 3149 of Lecture Notes in Computer Science, Springer,
+2004, pp. 173–182.
+[52] G. Shipman, T. Woodall, R. Graham, A. Maccabe, P. Bridges, Infiniband scala-
+bility in open mpi, Parallel and Distributed Processing Symposium, International
+0 (2006) 78.
+[53] C. E. Leiserson, Z. S. Abuhamdeh, D. C. Douglas, C. R. Feynman, M. N. Gan-
+mukhi, J. V. Hill, D. Hillis, B. C. Kuszmaul, M. A. St. Pierre, D. S. Wells, M. C.
+Wong, S.-W. Yang, R. Zak, The network architecture of the connection machine
+cm-5 (extended abstract), in: SPAA ’92: Proceedings of the fourth annual ACM
+symposium on Parallel algorithms and architectures, ACM, New York, NY, USA,
+1992, pp. 272–285.
+[54] E. A. Brewer, B. C. Kuszmaul, How to get good performance from the cm-5
+data network, in: Proceedings of the 8th International Symposium on Parallel
+Processing, IEEE Computer Society, Washington, DC, USA, 1994, pp. 858–867.
+Page 44
+[55] C. E. Leiserson, Fat-trees: universal networks for hardware-efficient supercom-
+puting, IEEE Transactions on Computers 34 (10) (1985) 892–901.
+[56] D. A. Spielman, S.-H. Teng, Smoothed analysis: An attempt to explain the be-
+havior of algorithms in practice, Communications of the ACM 52 (10) (2009)
+76–84.
+[57] M. Adams, J. W. Demmel, Parallel multigrid solver for 3d unstructured finite
+element problems, in: Supercomputing ’99: Proceedings of the 1999 ACM/IEEE
+conference on Supercomputing, ACM, New York, NY, USA, 1999, p. 27.
+Related Full-Text Papers for Free
+Sign up to download and organize them across all your devices with Mendeley, for free.
+Sign up today - FREE
+Mendeley saves you time finding and organizing research. Learn more
+All your research in one place
+Add and import papers easily
+Access it anywhere, anytime

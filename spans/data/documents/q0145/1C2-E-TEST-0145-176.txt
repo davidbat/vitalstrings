@@ -1,0 +1,41 @@
+[Translate]
+In this chapter we shall be looking at compound interest. We shall explore how to calculate the compound interest and future value of an investment using several methods. You must have some prior knowledge of working with percentages. It would be also be a good idea to go through the simple Interest page.
+In simple interest the amount of interest stays the same each year. In compound interest the amount increases each year, for example;
+Let’s say you invest £1000 for 2 years and receive a 10% interest each year;
+Interest for the first year;
+At the end of the first year you would have £1000 plus the £100 interest which would amount to £1100.
+At the end of the second year the compound interest will be based on the previous year final amount.
+After the second year the total would be £1100 plus £100 which is equal to £1200. So the second year interest is £10 more that the first year interest.  The total interest over these two years is;
+Each year the investment increases by 10% of the previous year, for example;
+Find the compound interest and total investment value is £1000 earns compound interest for 4 years at a rate of 11% p.a.
+So;
+First year increase £10000 by 11%.
+Second year increase £11100 by 11%.
+Third year increase £12321 by 11%.
+Fourth year increase £13676.31 by 11%.
+So £10000 increases to £15180.70 in 4 years at the compound interest rate of 11% p.a
+Let’s find the total compound interest below;
+If you have been observing hot the compound interest increases over time you might have noted a formula from which we can form a general formula to find compound interest.
+Compound interest formula
+A simplified way to find the compound interest is by using the following formula;
+…where;
+V is the future value.
+P is initial amount invested.
+r is compound interest rate p.a.
+n is number of applications, usually years.
+In the following examples we shall evaluate the compound interest using the above formula.
+Example
+Evaluate the compound interest on£1200 invested for 6 years at 7% p.a
+The future value after 6 years is £18008.76, which means the compound interest is;
+Example 2
+£20000 increases to £291812.85 in 6 years find the compound interest.
+Using the formula we get;
+We multiply this by 100 to find the compound interest rate, so;
+The compound interest rate is 6.5%.
+Note we can rearrange the formula to find any required value when others are known as we have just done in the last example.
+VN:F [1.9.18_1163]
+Rating: 9.3/10 (3 votes cast)
+VN:F [1.9.18_1163]
+Rating: +2 (from 2 votes)
+Compound Interest, 9.3 out of 10 based on 3 ratings
+ 

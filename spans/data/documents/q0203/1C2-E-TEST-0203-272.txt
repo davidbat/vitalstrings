@@ -1,0 +1,10 @@
+Active Directory Garbage Collection Causes DCs to Run Slow or Stop Responding
+Microsoft has acknowledged an issue with the Active Directory garbage collection process, which may cause a domain controller to run slow or stop responding.
+Garbage collection is a housekeeping process that is designed to free space within the Active Directory database. This process runs on every domain controller in the enterprise with a default lifetime interval of 12 hours. When an object is deleted, it is not removed from the Active Directory database. Instead, the object is instead marked for deletion at a later date. This mark is then replicated to other domain controllers. Therefore, the garbage collection process starts by removing the remains of previously deleted objects from the database. These objects are known as tombstones. Next, the garbage collection process deletes unnecessary log files. Finally, the process starts a defragmentation thread to claim additional free space.
+Domain controllers running Windows Server 2003, Windows Server 2008, and Windows Server 2008 R2 may exhibit the following symptoms:
+The DC runs slower than expected every several hours
+The DC stops responding every several hours
+During this issue, CPU usage and disk I/O are very high on the DC.
+This issue lasts for several minutes and then disappears.
+Lastly, this issue will log one or more of the following events in the Directory Services log:
+Event Type: Error

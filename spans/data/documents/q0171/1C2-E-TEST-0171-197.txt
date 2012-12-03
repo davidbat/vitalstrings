@@ -1,0 +1,49 @@
+How can I check IP location (detect IP address location)?
+What is an IP address?
+IP Address (Internet Protocol Address) is an unique string of numbers that identifies a computer or a server on a network. When you connect to the Internet, either via your ISP (Internet service provider - AOL, NTL, etc.), or your office LAN connection, you are assigned an IP Address. This address identifies your computer from the other computers. An IP Address can be private, for use on a LAN, or public, for use on the Internet or other WAN. IP Address can be either static, meaning it never changes, or dynamic, meaning each time you dial-in or login you are assigned a new address for that session. IP Addresses are usually expressed as four decimal numbers, each ranging from 0 to 255, separated by periods. For example, 127.0.0.1.
+What is my IP address (whats my real IP)?
+To check IP Address you can use Privacy Test that allows you to check IP, detect IP location (detect IP country, check IP state/city).
+Why should I hide or change IP address?
+You could have different reasons to change IP address:
+- prevent your ISP,  boss and other third parties from spying on youand stay anonymous when you visit web sites, download files, send emails, etc
+- bypass websites restrictions for users from certain countries or geographical regions
+- bypass your local restrictions to visit certain websites
+- keep your computer safe from hacker attacks based on your IP address
+- avoid your personal information being used for tracking your browsing habits
+If someone knows your IP address, he knows your ISP, can detect your country, city and even street address. When you surf the web, your IP address is left in logs all around the Internet (ISP logs, logs of all sites you visit), so anyone who has access to the logs can see what sites you've visited, what files you've downloaded, what videos you've watched. Hackers and identity thieves can use this information to infiltrate your system and steal personal information, use it in a Distributed Denial of Service (DDoS) attack, spy upon you or cause damage to your PC.
+How can I hide or change IP address?
+The most common method to change or hide IP address is to use proxy servers. A proxy server is a kind of buffer between your computer and the Internet resource you access. A user connects to the proxy server and then requests Internet service available on a different server. If the proxy server is also a cache server, it can use its local cache of previously downloaded web pages to provide the page without forwarding the request to the Internet. If the page is not in the cache, the proxy server uses one of its own IP addresses to request the page from the server on the Internet. When the page is returned, the proxy server relates it to the original request and forwards it to the user.
+There are several implementations of proxy servers that you can use to hide your IP address:
+Proxy servers configured in your browser
+You may configure your browser to transmit your browser traffic through proxy servers
+Web proxy servers A web proxy is a web site which allows you to access other sites through it. You visit a web proxy site and enter the url of a web site you want to visit anonymously. Web proxy sends request to the necessary web site, receives "answer" and returns it to the user. Web proxies allow you to be anonymous and access web sites that may be restricted for users from certain countries or geographical regions, access web sites blocked by corporate or school proxies.
+How do I hide or change IP address using proxy servers?
+To hide IP addres with proxy servers, you need to find an anonymous or high anonymous proxy server and set it in your browser.
+To change IP address with proxy sever in Internet Explorer
+Select Tools -> Internet Options.
+Select Connections tab.
+If you are using LAN, click LAN Settings button.
+If you are using Dial-up or Virtual Private Network connection, select necessary connection and click Settings button.
+In 'Proxy Server' area, click the check box next to Use a proxy server ....
+Set Proxy Server address and port.
+Click 'OK'
+Also see how to configure proxy settings in different browsers and applications
+To check IP Address you can use Privacy Test
+If your IP address is not changed, try to use another proxy server.
+If you don't want to set up your browser every time to change or hide IP address, you may use hide IP address/change IP address software.
+Proxy software lets you easily change your real IP address or hide your real IP from the web sites you visit.
+Change IP freeware
+- You can use proxy software with browsers and different applications to provide anonymous surfing - so you may change IP address and stay anonymous when you visit web sites, download files, send emails, etc
+- Using proxy software you may filter proxies by location so that you appear to be located in the certain country
+- change IP on the fly (per time, per request)
+- change IP address manually
+How does proxy software hide IP address?
+Using proxy software you can surf through proxy chains with any number of proxy servers in the chain to change IP address on the fly and provide IP address security and tunnel Internet activity through proxy servers.
+What is a static IP Address?
+Static IP address is permanently assigned to a computer - it never changes.
+What is a dynamic IP Address?
+Dynamic IP addresses are only assigned to a computer at the time it connects with the Internet. Dynamic IP addresses can change every time the computer reconnects to the Internet. If you receive a dynamic IP Address from your internet provider, it will likely be different on your next session. So if you need your IP Address for later use, you need to check it when you log on for that session.
+How can I check IP Address? Whats my IP?
+You can check IP Address using free Privacy Test
+How can I detect IP address location (check IP location)?
+2Privacy.com offers free IP check (checking IP) tests that help you check IP address location (detect IP address location):

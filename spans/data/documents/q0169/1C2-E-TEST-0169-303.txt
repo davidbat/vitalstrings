@@ -1,0 +1,10 @@
+Session 4: Iterative Solvers and why it is so cool to implement your own matrix type.
+In this session I will show you:
+generic implementation of the cg and pcg method,
+how to implement you own matrix types and why you want to do this,
+generic implementation of the multigrid method and
+some very nice pictures!
+Have a look at the famous A Multigrid Tutorial, Second Edition .
+On the multigrid home page you also can find these excellent slides giving you a quick head start.
+The examples are kept very simple.  E.g. there are now template parameters for element types.  Such     generalizations are left as exercise to the alerted user ;-)
+So here we go:

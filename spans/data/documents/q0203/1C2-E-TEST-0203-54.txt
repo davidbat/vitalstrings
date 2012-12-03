@@ -1,0 +1,14 @@
+Hi,
+ 
+allocation of objects uses a pool (heap). If the free space within this pool falls below a threshold the garbage collection starts to free up unused memory. It will run as a separate thread with lower priority. That's a simplistic view of what really happens.
+ 
+What consequences can we draw from this?
+1. If you increase the size of free memory you decrease the frequency of garbage collections.
+2. If you don't fall below the threshold no garbage collection will occur.
+3. Your performance will only be hurt if garbage collection is running.
+ 
+From my experience there is no influence (and last you don't notice it) for client side only applications. For long running batch jobs it can greatly impact your runtime if you allocate and deallocate a lot of objects. I don't think that this is caused by Garbage Collection, I guess it has more to do with the overhead introduced by short living objects (constructing costs time too). I don't measured this jobs but I saw that after a while it takes longer to process a record and maybe this is caused by the garbage collection.
+I'm not sure if there are real application server available for .Net as they are for Java. But from the java sites i know that the intention of application servers are to keep object alive even if they are not used any more by the current web transaction. The next transaction can reuse the object and that saves time. These application allows you to monitor the free space usage of the pool and you can start garbage collection by command.
+ 
+If you want to find out more about the garbage collections on your system you can start dotnet performance indicators on your system.
+ 

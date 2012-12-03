@@ -1,0 +1,8 @@
+Hi,
+ 
+"I have try using garbage collection but from what i know garbage collection is able to reclaim only memory that is not managed and not reclaim all the memory use"
+ 
+The GC will not collect your unmanaged memory, it knows nothing about that memory, hence it is unmanaged :-)  This memory will only be reclaimed as a side effect of a GC occurring if you have an object that explicitly cleans up the unmanaged memory in its finalizer.
+ 
+Why exactly do you have to decrease the memory usage?  If the CLR feels that there is memory pressure in the system then it will run a garbage collection.  If you want to clean up unmanaged resources deterministically (Rather than waiting until an unknown time for the GC to kick in) then you can implement the IDispose pattern and put the resource cleanup code in the associated Dispose() method.
+ 
