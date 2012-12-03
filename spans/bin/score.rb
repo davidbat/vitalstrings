@@ -23,21 +23,24 @@ class Score < Thor
 			@vs_dont_match[qid][vs] = {}
 		end
 
-		# Vital strings that match some summaries
+		# Vital strings that match some summaries and summary coverage
 		out.split('\n').each do |line|
 			sum, st, ed, len = line.split(' ')
 			@vs_match[qid] ||= {}
 			@vs_match[qid][vs] ||= {}
 			@vs_match[qid][vs][sum] ||= {}
 			@vs_match[qid][vs][sum][all] ||= []
+
+			@sum_cover[qid] ||= {}
+			@sum_cover[qid][sum] ||= []
+
 			if !@vs_match[qid][vs][sum][smallest].nil? && @vs_match[qid][vs][sum][smallest].last > len.to_i
 				@vs_match[qid][vs][sum][smallest] = [st.to_i, len.to_i]
 			end
 			@vs_match[qid][vs][sum][all] << [[st.to_i, len.to_i]]
+			@sum_cover << [[st.to_i, len.to_i]]
 		end
 
-		# Summary coverage
-		
 	end
 
 	@global_hash = {}
