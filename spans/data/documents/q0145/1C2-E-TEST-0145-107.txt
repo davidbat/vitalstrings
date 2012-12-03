@@ -1,0 +1,74 @@
+See also logarithmic or continuously compounded return .
+Force of interest
+In mathematics, the accumulation functions are often expressed in terms of e , the base of the natural logarithm . This facilitates the use of calculus methods in manipulation of interest formulae.
+For any continuously differentiable accumulation function a(t) the force of interest, or more generally the logarithmic or continuously compounded return is a function of time defined as follows:
+which is the rate of change with time of the natural logarithm of the accumulation function.
+Conversely:
+(since a(0) = 1 )
+When the above formula is written in differential equation format, the force of interest is simply the coefficient of amount of change.
+For compound interest with a constant annual interest rate r the force of interest is a constant, and the accumulation function of compounding interest in terms of force of interest is a simple power of e:
+The force of interest is less than the annual effective interest rate, but more than the annual effective discount rate . It is the reciprocal of the e-folding time. See also notation of interest rates .
+Compounding basis
+See Day count convention
+To convert an interest rate from one compounding basis to another compounding basis, the following formula applies:
+where r1 is the stated interest rate with compounding frequency n1 and r2 is the stated interest rate with compounding frequency n2.
+When interest is continuously compounded :
+where R is the interest rate on a continuous compounding basis and r is the stated interest rate with a compounding frequency n.
+Monthly mortgage payments
+The interest on mortgages is often compounded monthly. The formula for payments is found from the following argument.
+Notation
+i = Monthly percentage rate = I/12 (so that the APR = (1+i)^12 - 1)
+T = Term in years
+X = ½ I•T = ½ Y
+n = 12•T = term in months
+L = Principal or amount of loan
+P = monthly payment
+If the term were only one month then clearly
+(1 + i)L = P so that
+. If the term were two months then (1 + i)((1 + i)L − P) = P , where (1 + i)L − P represents how much of the loan is left after one month. Thus,
+. For a term of n months then
+.
+This can be simplified by noting that
+and taking the difference:
+so that
+This formula for the monthly payment on a U.S. mortgage is exact and is what banks use.
+Approximate formula for P
+A formula that is accurate to within a few percent can be found by noting that for typical U.S. note rates ( I < 8% and terms T=10-30 years), the monthly note rate is small compared to 1: i < < 1 so that the
+which yields a simplification so that
+which suggests defining auxiliary variables
+.
+P0 is the monthly payment required for a zero interest loan paid off in n installments. In terms of these variables the approximation can be written
+The function
+is even: f(Y) = f( − Y) implying that it can be expanded in even powers of Y .
+It follows immediately that
+can be expanded in even powers of Y plus the single term: Y / 2
+It will prove convenient then to define
+so that
+which can be expanded:
+where the ellipses indicate terms that are higher order in even powers of X . The expansion
+is valid to better than 1% provided
+.
+Example
+For a mortgage with a term of 30 years and a note rate of 4.5% we find:
+T = 30
+I = .045
+which suggests that the approximation
+is accurate to better than one percent for typical U.S. mortgage terms in January 2009. The formula becomes less accurate for higher rates and longer terms.
+For a 30-year term on a loan of $120,000 and a 4.5% note rate we find:
+L = 120000
+so that
+The exact payment amount is P = $608.02 so the approximation is an overestimate of about a sixth of a percent.
+Other approximations
+The approximate formula
+yields View formula on Wikipedia which is a slight underestimate of the exact result. This underestimate results from the approximation
+. Keeping the next correction in the expansion of
+results in an approximate formula
+which is off by two tenths of a cent. The simplest approximation discussed
+is good to within better than a percent for typical US mortgages in early 2009. The approximation
+is an underestimate of around 10% for such mortgage payments.
+History
+Compound interest was once regarded as the worst kind of usury , and was severely condemned by Roman law , as well as the common laws of many other countries. [2]
+In one passage, the Bible addresses the charging of interest in the following manner:
+“
+Take no usury or interest from him; but fear your God, that your brother may live with you. You shall not lend him your money for usury, nor lend him your food at a profit.
+”

@@ -1,0 +1,19 @@
+Author:
+Stefan Batanov
+One thing any Internet user should know is how to change IP Address. In this tutorial I will explain how this can be done in Windows XP/ Server 2003. I will not go to explain when you are going to need to change IP address or what value you should set the new IP to be. I only want to show the steps to do it. Please note that onlinehowto.net cannot be held responsible for any changes you have done in your network by following the instructions below.
+Before proceeding I recommend that you check what your current IP address is and write it down. Here is how you can do that.
+First step is to open up your control panel. Do that by clicking on Start-> Settings -> Control Panel. If you are in Category View go to Network and Internet Connections-> Network Connections . If you are in Classic view go straight to Network Connections .
+The screen that you should see will look close to this.
+For the purposes of this tutorial I will change the IP on my Local Area Connection . This is a wired connection. In case you need to change the IP of you wireless you need to click on Wireless Network Connection . Right click on the icon and select Properties
+In the General tab of the window that will open, click once the Internet Protocol (TCP/IP) item, and click Properties .
+This will open the Internet Protocol (TCP/IP) Properties window.
+In the General tab, click Use the following IP address , and enter:
+– IP address. The static IP address you want to assign to this computer.
+– Subnet mask. Subnet mask used by your router.
+– Default gateway. IP address of your router”s default gateway.
+In Use the following DNS server addresses , enter all the IP addresses for the DNS servers your router uses.
+Click OK. Click OK on the other windows also and you are done.
+VN:F [1.9.18_1163]
+please wait...
+Rating: 9.0/10 (4 votes cast)
+How to change my IP address in Windows XP, 9.0 out of 10 based on 4 ratings

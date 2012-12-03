@@ -1,0 +1,29 @@
+ 
+How to Use the Concrete Calculator
+Calculating how many cubic yards of concrete to order can be                    difficult since we usually think in feet and inches and not                    yards. Also, areas to be filled with concrete are not always                    perfect rectangles. Often they are irregular shapes with angled                    sides,. Most areas to be filled with concrete can be divided                    into rectangles, triangles, and pier holes (circles or columns).                    The drawing at the bottom of this page shows a driveway, walkway,                    and stepping stone as an example. This calculator provides entries                    for each of these three main shapes. Each shape needs certain                    dimensions and a depth. You may enter your dimensions in feet,                    inches, or both feet and inches. The calculator computes the                    volume of each shape and converts it to cubic yards.
+The calculator provides rows for you to enter the information                    for each of your shapes. Enter the dimensions in feet, inches,                    or both. When you select the calculate button, each area will                    have the cubic yards calculated and the totals for all areas                    will be shown at the bottom of the form.
+Shapes:
+Rectangles are defined by width, length, and depth
+Triangles are defined by the length of each of the three sides                      (A, B, C) and depth
+Pier holes (columns or circles) are defined by diameter and                      depth
+Totals:
+Cubic Yards = The number of cubic yards computed for the                      shape entered
+Total Yards = The actual number of yards computed
+Add for error = Apercentage to add (default 5%) to the total to allow for computational error and uneven excavation
+Adjusted Yards = The Total Yards +computed error adjustment
+Yards to order = Adjusted yards rounded up to next yard (Concrete                      is sold in whole yards.)
+Buttons:
+Calculate - Calculates Cubic Yards for each area and totals                      at the bottom
+Clear - Clears all values including the "add for error" field
+Help - Brings you to this screen
+An example:
+Let's assume that you have a driveway that is 9 feet wider at                    the street than at the garage door, a circular stepping stone                    between the driveway and a rectangular walkway. You subdivide                    the driveway to get one rectangle and two triangles. All the                    areas will be 4 inches deep.
+Rectangle 1 Sidewalk
+29'    x   2' 6"          x 4"
+Rectangle 2 Drive
+29'    x  17'             x 4"
+Triangle 1 Drive
+29'    x   4' 5" x 29' 4" x 4"
+Triangle 2 Drive
+29'    x   4' 5" x 29' 4" x 4"
+Column Circle

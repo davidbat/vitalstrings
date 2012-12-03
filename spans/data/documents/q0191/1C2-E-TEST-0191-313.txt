@@ -1,0 +1,17 @@
+7
+N
+Gamma Radiation (γ) involves the emission of electromagnetic energy (similar to light energy) from an atom's nucleus.  No particles are emitted during gamma radiation, and thus gamma radiation does not itself cause the transmutation of atoms, however γ radiation is often emitted during, and simultaneous to, α or β radioactive decay.  X-rays, emitted during the beta decay of cobalt-60, are a common example of gamma radiation.
+Half-life
+Radioactive decay proceeds according to a principal called the half-life .  The half-life (T½) is the amount of time necessary for one-half of the radioactive material to decay.  For example, the radioactive element bismuth (210Bi)  can undergo alpha decay to form the element thallium (206Tl) with a  reaction half-life equal to five days.  If we begin an experiment starting with 100 g of bismuth in a sealed lead container, after five days we will have 50 g of bismuth and 50 g of thallium in the jar.  After another five days (ten from the starting point), one-half of the remaining bismuth will decay and we will be left with 25 g of bismuth and 75 g of thallium in the jar.  As illustrated, the reaction proceeds in halfs, with half of whatever is left of the radioactive element decaying every half-life period.
+Radioactive Decay of Bismuth-210 (T½ = 5 days)
+The fraction of parent material that remains after radioactive decay can be calculated using the equation:
+Fraction remaining = 
+2n
+(where n = # half-lives elapsed)
+The amount of a radioactive material that remains after a given number of half-lives is therefore:
+Amount remaining = Original amount * Fraction                remaining
+The decay reaction and T½ of a substance are specific to the isotope of the element undergoing radioactive decay.  For example,      Bi210 can undergo a decay to Tl206 with a T½ of five days.  Bi215, by comparison, undergoes b decay to Po215 with a T½ of 7.6 minutes, and Bi208      undergoes yet another mode of radioactive decay (called electron capture)      with a T½ of 368,000 years!
+Stimulated nuclear reactions
+While many elements undergo radioactive decay naturally, nuclear reactions can also be stimulated artificially. Although these reactions also occur naturally, we are most familiar with them as stimulated reactions. There are two such types of nuclear reactions:
+1. Nuclear fission: reactions in which an atom's nucleus splits into smaller parts, releasing a large amount of energy in the process. Most commonly this is done by "firing" a neutron at the nucleus of an atom . The energy of the neutron "bullet" causes the target element to split into two (or more) elements that are lighter than the parent atom.
+The Fission Reaction of Uranium-235

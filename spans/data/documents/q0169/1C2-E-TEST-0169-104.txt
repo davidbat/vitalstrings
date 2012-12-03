@@ -1,0 +1,8 @@
+Fast sparse matrix vector product description
+Fast sparse matrix vector product - sparse matrix vector product
+This is a dedicated mex-file to efficiently compute the Sparse-Matrix-Vector-Product (smvp).
+x = smvp(A,b);
+This is generally 4 times faster than x = A*b for large A (On my machine).
+Type "help smvp" and "smvp_demo" for more information.
+NOTE: You will need either windows or the MATLAB compiler to use this function. A pre-compiled version is included, but you can re-compile via:
+mex -O smvp.c

@@ -1,0 +1,5 @@
+** Rounded to the nearest tenth of a yard and includes no allowance
+for compaction. This rounding may result in the "with compaction" and
+"without compaction" answers being identical for small quantities.
+Material quantities less than a tenth of a yard will appear as 0.0 yards.
+ 

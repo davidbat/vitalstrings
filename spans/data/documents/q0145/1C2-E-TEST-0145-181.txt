@@ -1,0 +1,37 @@
+$1648.33$
+$1648.66$
+The added savings from earning interest on interest is perhaps not quite as much as you'd hope.
+For example, in one year you'd earn an additional $\,\$1051.27 - \$1050 = \$1.27\,$ over simple annual interest, by adding in interest daily.
+In ten years, you'd earn an additional $\,\$1648.66 - \$1628.89 = \$19.77\,$ over simple annual interest, by adding in interest daily.
+As the length of time and the amount of money invested increase, though, the savings do go upand every little bit helps!
+DERIVATION OF THE COMPOUND INTEREST FORMULA
+The compound interest formula results from using variables to represent a general investing situation,
+writing down several computations, and seeing a pattern emerge.
+In a nutshell, you're going to invest $\,P\,$ dollars at annual interest rate $\,r\,$,
+add in interest $\,n\,$ times per year, and see how much you have after $\,t\,$ years.
+Here are the details:
+You are investing [beautiful math coming... please be patient] $\,P\,$ dollars.
+You will start the clock at the moment you make this initial investment;
+i.e., let $\,t=0\,$ correspond to the initial investment time.
+Let $\,r\,$ denote the (simple) annual interest rate for this investment.
+Express $\,r\,$ as a decimal. For example,  $\,5\%\,$ corresponds to $\,r=0.05\,$.
+Assume that interest is added in at regular intervals, $\,n\,$ times per year.
+For monthly compounding, $\,n=12\,$.
+For weekly compounding, $\,n=52\,$.
+For daily compounding, $\,n=365\,$.
+Thus, $\,n\,$ represents the number of compounding periods per year.
+Let $\,A\,$ represent the total amount of money (principal plus interest) after $\,t\,$ years.
+The table below shows the accumulations after various numbers of compounding periods:
+after this time...
+you'll have this much money...
+NOTE:
+$1\,$ compounding period
+[beautiful math coming... please be patient] $P+\frac{r}{n}\cdot P=P(1+\frac{r}{n})=P{(1+\frac{r}{n})}^1$
+factor out $\,P\,$
+$2\,$ compounding periods
+[beautiful math coming... please be patient] $P(1+\frac{r}{n})+\frac{r}{n}\cdot P(1+\frac{r}{n})=P(1+\frac{r}{n})(1+\frac{r}{n}) =P{(1+\frac{r}{n})}^2$
+factor out $\,P(1+\frac{r}{n})$
+$3\,$ compounding periods
+[beautiful math coming... please be patient] $P{(1+\frac{r}{n})}^2+\frac{r}{n}\cdot P{(1+\frac{r}{n})}^2 =P{(1+\frac{r}{n})}^2(1+\frac{r}{n}) =P{(1+\frac{r}{n})}^3$
+factor out $\,P{(1+\frac{r}{n})}^2$
+...

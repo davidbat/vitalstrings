@@ -1,0 +1,24 @@
+ANSWER: 
+You       must enter values in 3 out of the 4 textboxes.
+If you get NaN       in the answer box , check your input values.  F should be more       than P .  Interest rate should be between 0 and 1.  Years can       be partial years i.e. 1 and a half years = 1.5
+Annuities or       Amortization
+The present       value P and the rent  R of a decreasing annuity of n  payments (rent) compounded       at a rate i  per interest period.
+Also called       amortization when the payments are equal and at a regular time interval.       (car loans and home mortgages )
+ 
+James buys a house for $90,000.  He puts $10,000 down and then finances the rest at 9% interest compounded monthly for 25 years.
+Find his monthly payments
+This is a Present Value of     an Annuity problem. We need to find the Rent R
+Formula from book where 
+i = r ÷ t  and n = t × c
+Note: n = 12(25) = 300 , i = .09/12 = .0075         and P = 90,000 - 10,000 = 80,000
+The monthly payments are $671.36
+Find the total amounts he pays for the house.
+You pay $10,000 down and $671.36 a month for 25 years
+10,000 + 671.36 × 12 × 25 = 10,000 + 201,408 = 211,408
+You pay $211,408 for the house with interest.
+Try the calculator       below.  Use P = present value = 80000
+r = rate = .09, t =years = 25, c = compound periods =       12
+Leave the F  blank.
+This is a Annuity - Amortization calculator. 
+ Do not use commas or dollars signs in textboxes.
+R  = 

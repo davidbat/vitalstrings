@@ -1,0 +1,8 @@
+Site Info
+In a slight change from simple interest, it is common practice to call the rate of interest per year (as a percentage), i, and the length of time the money is deposited for, n in years.
+With simple interest, the interest is only calculated on the amount of capital. Should another time period go by, the amount of interest, again, is only calculated from the initial capital. Interest paid on the original capital as well as the interest left on deposit is called compound interest
+The interest earned during the first year is found with the formula for simple interest. At the end of one year the amount on deposit will be the sum of the original capital and the interest earned. If the deposit earns compound interest, the interest earned in the second year is calculated from the total amount on deposit at the end of the first year.
+Therefore the total amount on deposit at the end of the second year will be the sum of the total amount on deposit at the end of the first year and the interest earned in the second year given by:
+P(1 + i) + P(1 + i)i = P(1 + i)(1 + i) .
+Experiment with the example below to compare the difference between simple and compound interest...
+Capital (any currency)

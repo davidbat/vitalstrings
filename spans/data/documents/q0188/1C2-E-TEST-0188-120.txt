@@ -1,0 +1,40 @@
+Modeling Climate
+What           is climate and why do we model it?
+Climate refers to the average of weather conditions. It varies on timescales ranging from seasonal to centennial. Fluctuations result naturally from interactions between the ocean, the atmosphere, the land,     cryosphere (frozen portion of the Earth's surface), and changes in the Earth's energy balance resulting from volcanic eruptions and variations in the sun's intensity. Since the Industrial Revolution significant changes in     radiative forcing (Earth's heat energy balance)   have resulted from the build up of greenhouse gases and trace constituents. The impacts on the planet of these anthropogenically-induced    or man-made   changes to the energy budget have been detected and are projected to become increasingly more important during the next century.
+Computer models of the coupled atmosphere-land surface-ocean-sea ice system are essential scientific tools for understanding and predicting natural and human-caused changes in Earth's climate.
+How do we model climate?
+Climate models are systems of differential equations derived from the basic laws of physics, fluid motion, and chemistry formulated to be solved on supercomputers. For the solution the planet is covered by a 3-dimensional grid
+to which the basic equations are applied and evaluated. At each grid point, e.g. for the atmosphere, the motion of the air (winds), heat transfer (thermodynamics), radiation (solar and terrestrial), moisture content (relative humidity) and surface hydrology (precipitation, evaporation, snow melt and runoff) are calculated as well as the interactions of these processes among neighboring points. The computations are stepped forward in time from seasons to centuries depending on the study.
+State-of-the-art climate models now include interactive representations of the ocean, the atmosphere, the land, hydrologic and cryospheric processes, terrestrial and oceanic carbon cycles, and atmospheric chemistry.
+The accuracy of climate models is limited by grid resolution and our ability to describe the complicated atmospheric, oceanic, and chemical processes mathematically. Much of the research in OAR is directed at improving the representation of these processes. Despite some imperfections, models simulate remarkably well current climate and its variability. More capable supercomputers enable significant model improvements by allowing for more accurate representation of currently unresolved physics.
+Phenomena of interest
+Climate Variability
+Models are an essential tool for understanding current climate, e.g. the annual cycle, El Niño, and other forms of natural variability. Improved understanding and better models translate directly into better operational seasonal forecasting at the Climate Prediction Center of the National Weather Service and the International Research Institute for Climate Prediction. Hovmoeller Model (Figure 1)
+Greenhouse Warming
+Climate models are the only means to estimate the effects of increasing greenhouse gases on future global climate. The Administration's climate program will use model studies to examine the impacts of technological mitigation scenarios on reducing the impacts of climate change. Sea Ice Thickness (Figure 2)
+Atmospheric Chemistry
+Models are being used to investigate the atmospheric circulation and associated chemical interactions which result in global warming and air pollution. For example, recent research with general circulation models has shown that pollution produced over Asia can be transported across the Pacific into North America. Maximum Asian Impact On Ozone (Figure 3)
+Paleoclimates
+A credibility test for models is their ability to simulate past climatic periods, e.g. Cretaceous and the Last Glacial Maximum which represent abnormally warm and cold climates respectively. Models are also run to simulate the effects of recent volcanic eruptions to test atmospheric chemistry circulation interactions. Volcanic eruptions are a significant factor in current and past climate variability. Climate Model Projection (Figure 4)
+Ocean Circulation
+Oceanic models are used for investigations into the dynamics of the large-scale ocean general circulation in order to gain a fundamental understanding of the ocean's role in the earth's climate system, global biogeochemical cycles and ecosystem dynamics. Ocean Circulation (Figure 5a) and Surface Height (Eddies) (Figure 5b)
+Climate and Extreme Events
+High resolution models are being used to investigate mesoscale storms (Figure 6a), the links between these and mean storm tracks, hurricanes (Figure 6b) and the impacts of climate on these. The same hurricane model used at GFDL for climate studies is being utilized by the NWS and the Navy for operational hurricane forecasting.
+Figure 1: Climate Variability: Hovmoeller Model.
+A new global coupled climate model can predict seasonal to interannual variability over the Pacific. Observations are on the left, and predictions with the coupled model are on the right.
+Figure 2: Sea Ice Thickness (10 year average)
+Sea Ice thickness (in centimeters) over the Arctic. A model projection of the pack ice for the 2050s (right) shows a substantial decrease in sea ice thickness over present era (left).
+Figure 3: Maximum Ozone Concentration near the surface produced by Asian Pollution
+Figure 4: Simulation of Ice Age Climate
+Climate models can simulate temperature changes not only over the last century but also for climate during an Ice Age.
+Figure 5a: Ocean Circulation
+Surface ocean currents in a model of the ocean circulation in the southern hemisphere. High horizontal resolution (1/6 degree, right) simulates ocean eddies more realistically than low resolution (1 degree, left).
+FLC               animation (63               Mb)
+Figure 5b: Eddies
+Eddies have a profound effect on ocean mixing processes. Models here at GFDL have improved model resolution to resolve smaller eddies, which previous models could not do.
+AVI Animation (29 Mb)
+Figure 6a: Global Mesoscale Circulation at GFDL
+Simulation of weather systems in a global model with explicit convection and a horizontal resolution of 10-12 km.
+Figure 6b: Hurricane
+Hurricane model imbedded within a global forecast model. In a climate with enhanced CO2 emissions, elevated temperatures and humidity provide additional energy for storms to strengthen. Wind speeds increase by about 10% in the strongest storms, and there is up to a 28% increase in near-storm rainfall.
+ 

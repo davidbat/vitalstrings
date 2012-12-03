@@ -1,0 +1,19 @@
+Michael Stum
+50.2k34158300
+Are you sure that you need this? The GC will collect if it needs memory, even if your code is not idle. –  Konrad Rudolph Oct 24 '08 at 13:56
+Not sure how it is in .net 3.5 SP1 now, but previously (1.1 and i believe i tested against 2.0) it did make a difference in memory usage. The GC will of course always collect when needed, but you might still end up wasting 100 Megs of RAM when you only need 20. Would need a few´more tests though –  Michael Stum Oct 24 '08 at 14:06
+GC is triggered on memory allocation when generation 0 reaches a certain threshold (for example 1MB), not when "something is idle". Otherwise you could end up with OutOfMemoryException in a loop by simply allocating and immediately discarding objects. –  liggett78 Oct 24 '08 at 14:11
+2
+ 
+the 100megs of RAM isn't wasted if no other processes needed it. It's giving you a nice performance boost :-P –  Orion Edwards Nov 2 '08 at 2:40
+feedback
+up vote 2 down vote
+There are few general guidelines in programming that are absolute. Half the time, when somebody says 'you're doing it wrong', they're just spouting a certain amount of dogma. In C, it used to be fear of things like self-modifying code or threads, in GC languages it is forcing the GC or alternatively preventing the GC from running.
+As is the case with most guidelines and good rules of thumb (and good design practices), there are rare occasions where it does make sense to work around the established norm. You do have to be very sure you understand the case, that your case really requires the abrogation of common practice, and that you understand the risks and side-effects you can cause. But there are such cases.
+Programming problems are widely varied and require a flexible approach. I have seen cases where it makes sense to block GC in garbage collected languages and places where it makes sense to trigger it rather than waiting for it to occur naturally. 95% of the time, either of these would be a signpost of not having approached the problem right. But 1 time in 20, there probably is a valid case to be made for it.
+answered Nov 6 '08 at 4:25
+TomB
+up vote 1 down vote
+Large objects are allocated on LOH (large object heap), not on gen 0. If you're saying that they don't get garbage-collected with gen 0, you're right. I believe they are collected only when the full GC cycle (generations 0, 1 and 2) happens.
+That being said, I believe on the other side GC will adjust and collect memory more aggressively when you work with large objects and the memory pressure is going up.
+It is hard to say whether to collect or not and in which circumstances. I used to do GC.Collect() after disposing of dialog windows/forms with numerous controls etc. (because by the time the form and its controls end up in gen 2 due to creating many instances of business objects/loading much data - no large objects obviously), but actually didn't notice any positive or negative effects in the long term by doing so.

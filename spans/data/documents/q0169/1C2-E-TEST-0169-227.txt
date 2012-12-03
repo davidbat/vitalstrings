@@ -1,0 +1,29 @@
+Performance Benchmarks
+Customer Comments:
+"I really love the .NET Matrix Library interface. You did a wonderful job of wrapping up the mess of the Intel MKL into something useful, thank you very much for that. "
+Thomas Dresel
+High performance matrix algebra for .NET programming!
+Perform fast and accurate matrix operations in your .NET application.
+Whether you are developing in VB.NET, C#, C++, J#, or Delphi and you need to         solve systems of simultaneous equations, find least squares solutions of linear         systems, multivariate regressions, solve singular value decompositions, eigenvalues         and eigenvectors problems, let  .NET Matrix Library (NML™)         do the job for you.
+Download .NET Matrix Library now!
+Get the best of two worlds
+While exposing an easy to use and powerful interface, NML does not sacrifice         any performance. Highly optimized BLAS and the standard LAPACK routines         are used within the library and provide fast execution and accurate calculations.
+NML has been developed as a mixed mode C++ project, combining together         managed and unmanaged code and delivering the best of both worlds; the speed of         native C++ code and the feature-rich and easy to use environment of the .NET Framework.
+Internally it uses highly optimized code at processor level. This means that the         processor type is detected at runtime and different brunches of code are executed         in order to achieve optimal performance.
+Download software brochure and performance benchmarks
+Sparse Matrices
+Starting from version 5.0, NML contains classes for sparse matrices which          can be used in combination with the dense matrix and vector classes.
+Additionally NML contains high performance sparse solver classes for          solving large sparse symmetric and unsymmetric linear systems of equations.
+Parallelism
+NML makes full use of the capabilities of modern processors. It achieves         impressive performance gains through parallelism provided by the newest multi-core         architectures. Applications using NML can benefit from its multithreading         capabilities in either of the following ways:
+On single threaded applications, NML is by default configured to distribute             the computational workload on all physical cores of the machine, dramatically reducing             the execution time especially when it comes to operations on large matrices.
+Being thread safe, NML allows its use in threaded applications. Threads defined             in client applications can use objects of the library and execute methods independently             of other threads.
+Starting from version 4.1, new static methods have been introduced allowing         a more precise control of the threading behavior of the library.
+Native 64-bit support
+NML is available in separate builds each one targeting either 32-bit or 64-bit         platforms.
+The 32-bit version of NML will run on 32-bit versions of Windows             and also will run as a 32-bit process on 64-bit Windows
+he 64-bit version of NML will run as a native 64-bit process on 64-bit             Windows offering an additional 10 to 30% performance boost especially             on large matrices.
+Technical support
+With the purchase of .NET Matrix Library you will receive six months of priority         email technical support. Our support team responds to emails in less than 24 hours         Monday to Friday. During this period you will also receive free product upgrades         to the latest version.
+Download a free trial now
+Visit the download area of our site and download NML         now. You will be able to use the fully functional version of NML for a period of         30 days. Even during the evaluation period we will be happy to assist you in using         our software and reply to your queries.

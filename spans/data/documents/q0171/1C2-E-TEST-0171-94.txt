@@ -1,0 +1,11 @@
+Google IP address ranges
+Google IP address ranges
+When you are configuring email handling for your domain, you might need to know the IP addresses of the Google Apps mail servers, to help prevent Google messages from being marked as spam.
+Google maintains a global infrastructure, which grows dynamically to accommodate increasing demand. As a result, Google Apps mail servers use a large range of IP addresses, and the addresses often change. The most effective means of finding the current range of Google IP addresses is to query Google's SPF record.
+To create an SPF record for your domain, you can simply have the record refer to the Google SPF record for the current list of IP addresses:
+v=spf1 include:_spf.google.com ~all
+With this method, your domain automatically inherits changes to the Google IP addresses as they happen.
+When you need the literal IP addresses for Google Apps mail servers, use one of the tools available on the Internet to look up the SPF records for the domains google.com and _netblocks.google.com. These records list the current range of addresses. The IP ranges of Google services can be found at any given time by running the following command:
+nslookup -q=TXT _netblocks.google.com 8.8.8.8
+If you activate the Postini features in Google Apps for Business, you may also need the IP addresses for the Postini servers .
+Find more apps for Google Apps on the Google Apps Marketplace

@@ -1,0 +1,8 @@
+You can also do compound interest calculations using the Excel functions:
+RATE(nper,pmt,pv,fv,type,guess)
+PV(rate,nper,pmt,fv,type)
+NPER(rate,pmt,pv,fv,type)
+The Excel functions are useful when you want to calculate  compound interest when making regular payments as in a mortgage or annuity. They  are powerful but slightly complex to  use. Click here to see an Excel Compound Interest Calculator,  together with a   worked example of paying off a debt. (Press cancel if asked for  authentication)
+Calculating Compound Interest in your Head
+In you are a financial advisor or financial professional you can impress clients by performing compound interest calculations in your head. The trick is to us  the Rule of 72. Divide 72 by the interest rate to see how long it takes to double. For example, $1 invested at 10% would take 7.2 years ((72/10) = 7.2) to turn into $2. This holds pretty much true for all percentages under 20%.
+*please note that the compound interest calculator may           not work under some versions of Netscape and Opera.

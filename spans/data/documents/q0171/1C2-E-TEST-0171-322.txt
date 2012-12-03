@@ -1,0 +1,31 @@
+General Info Updater Clients Technical Details
+Why do I care?
+You may use OpenDNS as is without ever reading this page.  This information is for those who want to change some of the OpenDNS  default settings or view statistics about your DNS usage. For instance,  using web content filtering requires a network, which requires an IP address. Knowing  more about dynamic IP addresses is useful, especially for home users.
+Quick steps
+Create a free account , and confirm the email  address.
+Go to the Settings tab.
+Add a network using your current IP address (displayed on the page).
+Click your new networks's IP address to access its settings.
+Click "Advanced Settings" on the left.
+Check the box to "Enable dynamic IP update." Be sure to apply your settings at the bottom of the page.
+Learn how to keep your address updated . If  you don't keep the IP updated, your preferences will not be applied, and  your statistics will not be collected — though you will still be using  OpenDNS.
+Multiple networks with dynamic IP addresses in a single network are  supported. Learn more .
+General information about Internet Protocol (IP) addresses
+What is an Internet Protocol (IP) address?
+An IP address is a number which computers use to identify a location on  the network, whether the public Internet or a private network. The number  is in the format #.#.#.# where the # may be any number from 0 to 255. For  example, 123.12.1.0. Learn more technical details .
+Do I have an IP address?
+Yes, everyone on the Internet has an IP address, whether you know it or not!
+How does OpenDNS use IP addresses?
+OpenDNS uses IP addresses to know that a DNS request is coming from you.  With a free OpenDNS account, you establish and verify an IP address or  range of IP addresses as under your management as a network. A network may  be a single IP address on up to many thousands of addresses. OpenDNS  delivers custom DNS preferences and statistics based on the network  association, which you establish and verify with a free OpenDNS account in  the Dashboard.
+Note: OpenDNS does not provide IP addresses. Those come  from your Internet provider.
+What is a dynamic IP address?
+Simply, a dynamic IP address is one that changes periodically. The ISP  (Internet Service Provider) or network provider makes the change, not the  individual user.
+Note: Static IP addresses are easier for the individual, but a static IP  address may cost more or not be available from your ISP. Ask your  provider.
+How do I know my IP address?
+On the OpenDNS Dashboard, your current IP address is displayed at the top  right of the page. (screenshot)
+You may also confirm at www.whatismyip.com — you're shown your  public IP address, nothing more.
+How do I know if my IP address is dynamic?
+If you don't know, then your IP is probably dynamic.
+Public versus private IP address
+OpenDNS, like all public Internet services, only sees your "public" IP  address when you make a DNS request. At an office or school or behind a  router at home, your individual computer may have a different, private IP  address, visible only to those inside your network. If an IP address  starts with 192.168 or 10.10, for example, that is a private network IP  address, not available to the public Internet.
+IP address:

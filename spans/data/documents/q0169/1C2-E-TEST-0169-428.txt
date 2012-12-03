@@ -1,0 +1,33 @@
+Gmm++ Documentation is here (html version)
+Download Gmm++
+The last stable release of the standalone Gmm++ library can be found in the download page of GetFEM++.
+What is Gmm++
+Gmm++ is a       generic C++ template library for sparse, dense and skyline       matrices. It is a set of generic algorithms (mult, add,       copy, sub-matrices, dense and sparse solvers ...) for any       interfaced vector type or matrix type. It can be view as a glue       library allowing cooperation between several vector and matrix       types. However, basic sparse, dense and skyline matrix/vector types are built       in Gmm++, hence it can be used as a standalone linear algebra       library.        Interfacing a vector or matrix type means writing "traits" objects called       "linalg_traits", which describe their properties. The library       offers predefined dense, sparse and skyline matrix types.
+The goal is to create a general, adaptable and easy to use       framework of pre-defined methods for matrix computation. When a       vector or a matrix type has been interfaced (i.e. its linalg_traits has been filled), all generic algorithms works on       it. However, it is always possible (and easy) to specialize some       generic algorithms for efficiency reason. Major generic       algorithms are
+A set of miscellaneous generic commands (clear, clean,  scalar product, scale, norms, ...)
+Vector-Vector addition with the possibility to mix  formats (sparse, dense, skyline)
+Matrix-Vector mult for any format.
+Matrix-Matrix mult with the possibility to mix formats  (sparse, dense, skyline, row major, column major, ...)
+Generic linear solvers ( cg , bicgstag , qmr , gmres ...) with preconditioners for sparse matrices  ( ILUT , ILUTP , ILDLT , ...). Some of them are imported form ITL (eventually corrected and optimized), some of them are new.
+Reference to sub-matrices (with sub-interval, sub-slice  or sub-index) for any sparse dense or skyline matrix for read  or write operations.
+LU and QR factorizations for dense matrices.
+Eigenvalues computation for dense matrices.
+The structure of Gmm++ is largely inspired from MTL . The major       differences are : simpler use, built as an interface for existing       matrix types, sub-matrices for any matrix types. The efficiency       is comparable (see http://grh.mur.at/misc/sparselib_benchmark/ for instance).
+NOTE : For performance reason, an interface with LAPACK or ATLAS is provided       for dense matrices. See the documentation (if you make some       benchmarks, do not forget to use optimization compiler options,       at least -O3 and you should disable checks with       -dNDEBUG).
+A small interface to SuperLU 3.0 (sparse matrix direct solver) is also proposed for sparse       matrices.
+Gmm++ has been tested with QD an       efficient library for double double and quadruple double       precision. See on the documentation how to link QD. This means       that Gmm++ should work with any reasonable arbitrary precision       floating point library.
+Licence
+Gmm++ is freely distributed under the terms of the Gnu Lesser General Public License, either version 2.1 of the license or any later version .
+Contribute to Gmm++
+Gmm++ offers a framework to develop efficient methods for linear algebra. This library is and will remain open-source. Here are some examples of possible extensions:
+Specialize some algorithms to optimize them for particular matrix implementation.
+New solvers and preconditioners.
+Eigenvalues computation for sparse matrices.
+...
+Gmm++ contributors
+Yves Renard, Julien Pommier, Michel Fournie (Additive Schwarz), Benjamin Schleimer (least square CG).
+Many thanks to Jeremy G. Siek and Lie-Quan Lee for their nice work developing MTL-ITL on which Gmm++ is greatly inspired.
+Random test procedures
+A problem with generic programming is to be sure that every       configuration has been fully tested. This is why there is now       a random generator of       tests. This means that a number of test procedures will       be called with random parameters, i.e. random type of vector,       sub-vector, matrix or sub-matrix types, with random base type       (float, double, long double, std::complex<float>,       std::complex<double>, dd_real ...) and random size and filling, testing all       the possibilities of mixing formats in operations such as mult,       add ...
+You are encouraged to test them, runing a "make       check" on the distribution of Gmm++ and sending us a bug report       if it fails. We will also appreciate if you send us new test       procedures.
+Download

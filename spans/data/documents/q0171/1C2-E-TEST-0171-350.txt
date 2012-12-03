@@ -1,0 +1,16 @@
+ »   Home  »   Internet  »  Renew IP address
+Renew IP address
+By  Super Admin  |    Published  02/24/2005    | Internet | Rating:
+Renew IP address
+Releasing and Renewing an IP address on Windows NT/2000/XP
+Click the Start menu in the lower left hand part of the screen.
+Click Run.
+In the space provided type "ipconfig /release" and click OK. Note that there is a space between ipconfig and the /release.
+To renew the IP address from the DOS prompt, type "ipconfig /renew". Note that there is a space between ipconfig and the /renew.
+Releasing and Renewing an IP address on Windows XP
+Click the Start menu in the lower left hand part of the screen.
+Click Run.
+In the space provided type "ipconfig /release" and click OK. Note that there is a space between ipconfig and the /release.
+Type "ipconfig /renew". Note that there is a space between ipconfig and the /renew.
+How would you rate the quality of this article?
+1

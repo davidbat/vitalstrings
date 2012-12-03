@@ -1,0 +1,112 @@
+Try reading more slowly, not skimming. ;o) Cor
+Elavarasu - 01.03.12 9:49 am
+hi,
+i have 16MBps Broadband connection and i apply static IP to ISP(bsnl), they told IP was alloted and the same was active.
+How to check my Static IP.
+Thanks in advnce
+ISP bad not allow, do local okay works yeah, only inside is, unless paid for. ;o) Cor
+William james - 02.03.12 12:58 pm
+It is a great way to explain.
+tim - 15.03.12 10:31 am
+Pain in the bum networking. I have a public ip address but cannot ping it from the web. It's ok on my internal network on my side of the router but not the other side. Router is Thomson TG585v7. All was ok until I replaced the computer recently. I have made the computer static (192.168.1.66) and set the router for VNC on that IP address but although I can use VNC on the public ip number from my local network, nothing works externally. It's simple but just eludes me at the moment. Any pointers would be appreciated..
+Best Regards,
+tim
+Firstly, I assume you are trying to connect, from outside, to your external address (currently 217.207.*.*) and not your internal address (192.168.1.66). If not, that's your problem.
+Secondly, I assume you don't mean an actual "ping", which most routers/firewalls will not allow on the external interface. If you are attempting an actual "ping", then that is your problem. If you really need to ping your external interface, you will need to enable ICMP connexions for that interface (which are on port 7).
+Finally, I assume you have setup port-forwarding for whatever port your VNC server is using. If not, that is your problem.
+;o) Cor
+ps. get a no-ip.com address.
+tim - 15.03.12 11:14 am
+Hi,
+Firstly, I assume you are trying to connect, from outside, to your external address (currently 217.207.*.*) and not your internal address (192.168.1.66). If not, that's your problem.
+The Computer and network in question is my home setup. I write this from my work location. Incidentally, we have 6 public ip addresses here and I have set them all for various tasks including the ability to sort out network problems while on holiday using VNC. All works 100%. I was trying to use my VNC connection from here to home. Something that I do quite often without any problems till the recent Computer change. The ip address always used to respond to a ping so I presume this has been allowed in the router setup.
+Second dealt with in above..
+Finally, I assume you have setup port-forwarding for whatever port your VNC server is using. If not, that is your problem.
+The router setup allows (and has been set) to forward requests using typical VNC ports to the chosen computer name / ip address (192.168.1.66).
+Stumped me so far. I have to remember to save the current router .ini file and reboot the router for any changes to take place.
+Thanks for you help..
+Regards,
+Tim
+If the only thing that has changed is your computer, it stands to reason that the problem is there, either in the firewall or VNC server setup. If you want to mail me the IP used for VNC, I could take a look for you (I'm having a quiet morning!)
+By the way, if possible, setup your local static IP addresses from the router (with fixed DHCP leases), saves work and headaches later on.
+;o) Cor
+tim - 15.03.12 11:50 am
+Hi cor,
+Thanks again, I like quiet mornings but they tend to end abruptly. The calm before the storm. I shut down the firewall and anything else I could find that might cause the problem. I have also used various sites to check the public ip address with no success. I would be better conversing with you from the home setup if only you get another quiet morning. I will try one or two more idea's including your suggestions and get back to you. I really don't want to spend too much time in front of computers at home unless it's 'relaxing'. I look after 30 + here at work and that's enough by the time I go home.
+Thanks again for your help and advice, either way I will let you know the outcome.
+I trust you and yours are well,
+Regards,
+SUNNY KURUVILLA - 19.03.12 12:11 pm
+Len - 20.03.12 11:17 pm
+I have an interesting question.
+I have Charter for my ISP and all of their IPs they issue are on 2 Blacklist.
+SORBS
+Spamhaus
+Charter told me in so many words that they do this because they consider "Residential" accounts as Entertainment and they recommend I upgrade to a Business account, and of course that could cost $100 or more a month.
+So my question I have, is there anyway to obtain an IP address that is static and not on a Blacklist without having to upgrade to a business ISP or change ISP's?
+I found this all out when I noticed a lot of my emails I send using Thunderbird where going into spam folders and my sites IPs are clean and no blacklist. But my ISP issued IP is blacklisted.
+I did try and change IPs and after 25 different IPs with Charter they all were blacklisted.
+So, What can a guy do?
+Thanks
+Use your web site's mail server, presumably hosted at a regular web host (sans blacklisting). Sending mails from a residential server is always problematic. ;o) Cor
+farhan - 28.03.12 5:28 pm
+Stephen Alberten - 08.04.12 8:03 pm
+Talking about getting a static IP for the whole internet,
+, aka external IP, aka WAN IP.
+Things like dyndns and no-ip.com only work if your provider gives you a public IP *and* they allow you to configure the public ip on one of your computers (or change the modem / router configuration to do NAT or forwarding).
+Unfortunately, my provider does not allow that unless I upgrade to a business line.
+I think you have been misinformed. ;o) Cor
+<ad snipped>
+Tom - 28.04.12 11:57 pm
+Hi Cor,
+Thanks for the article, and its content is getting me closer to an answer but I don't think it applies to my question just yet (and the problem is I don't really know how to ask the right question - i.e. the right google keywords - to get the answers, so am left with the only option of writing to you, so please forgive..)
+I would like to know a) if the following is possible, and b) What this is called so I can search for it...
+I have an old PC tower under my desk, with Ubuntu on it (semi irrelevant coz I intend on putting various Linux distros on it). I have a keyboard or monitor for it, but I don't want them permanently (too much actual desktop real-estate when added to my further equipment below). It does have a plug-in USB wifi 'stick' - (antenna?)
+On my desk I have a clunky laptop running Windows 7 (writing to you on it now), internal wifi. This is my 'main' computer.
+I would like to use my main computer to connect to my old computer _without_ using a router (don't have one). I'm foggily gathering the notion that to do this, I need to set-up the 'old' computer as a "bridge", which I'm guessing involves static IPs to some degree (how I got here), but I _don't_ want to connect to the Internet. I want this as direct and private as possible... is that possible? Can the PC tower 'broadcast' an IP address that my laptop can connect to?
+Thanks for any help you can provide, and thanks for your time...
+Kind regards,
+Tom
+The best, most private way to connect your two computers is via a CAT-5 (even a "crossover") cable. You simply plug it into the CAT-5 ports (which each inevitably has) and put them into the same Windows/Samba (on Linux) network.
+Failing that, using WiFi, you need to get a WiFi router. You can pick up an old V1.0 BT Home hub for 50p these days, and transforming it into a LAN-only WiFi router is a piece of cake (v1.5 has better WiFi, and can be had just as cheap). Most of the (FREE) broadband routers kicking around second hand shops, car-boot sales and skips can be transformed into a local Wi-Fi "Hot-Spot" with minimal effort. Some not - Google that.
+Technically, you can connect two machines directly, but these sorrts of ad-hoc networks lack the security features required to keep things "private". Get a broadband router and WPA-2.
+Then you setup a permanent lease for your Linux box, when it comes "online" (locally). it gets its same IP address and Network "name", other local computers can share with it easily, but nothing outside your LAN. Inside your Samba shares config [section] you can do..
+hosts deny = 0.0.0.0/0
+hosts allow = 192.168.0.
+..to ensure only clients from the LAN have access to the shared resources. With a current samba setup, decent block lines (above), and WPA-2, you can share root resources locally, securely over WiFi.
+;o) Cor
+Tom - 29.04.12 1:02 am
+Thank you Cor!
+I'm hoping you have moderator privileges to delete this after you've read it - no point taking up extra space, just wanted to thank you for your answer
+Tom
+btw, I came to the conclusions also: ad hoc for the time being, but eventually gonna buy a crossover cable I think... trying to avoid as much extra hw as possible (you should SEE the mess of equipment on/under my desk! sheesh!)
+If you connecting machines with CAT-5, consider getting a network switch. A crossover can be unreliable when machines go on and offline. A switch takes all the hassle out of connecting computers via cables, and can be tiny in physical size, and you can use any old CAT-5 cable. eBay will get you for the price of a cup of coffee.
+;o) Cor
+chris - 02.06.12 5:30 am
+I have learned a lot in the last week enough to be dangerous but not quite enough to fix the "impossible" as I was told. I have a situation that probably needs a pro like yourself to come out and whip it into shape....... I recently installed a car wash in a little town called Giddings, Tx. and set them up using credit cards. A long story short is I am using a router to run multiple pieces of equipment. One piece of equipment was port forwarded to 2500 and works great, this is a data access network that stays constantly online to accept credit cards. This is a windows computer. This computer relays 6 bays all using cat 5 cables each one used for credit card swipes. All pieces of equipment including bill changers are connected and have an internal ip address that identifies each piece of equipment and names them for monitoring purposes. All this is done with one External IP address. There is one computer (program unknown) that is being left out of the fun. This odd ball piece of equipment is the automatic's computer that is plugged into the router and can go online or at least email fault codes, it also has its own special little internal ip address but its capabilities are limited and this is where the problem lies...... I would like to use a real vnc viewer to monitor and program this computer remotely. This device was port forwarded to 5900. My vnc viewer works with other sites but not this one. The factory that built the automatic car wash says that this computer has to have its own external ip address to achieve this vnc viewer thing but i believe that they are just lazy and do not want to work around the multitude of other devices on this external ip.  I guess the real question is can something like this work while another device is on the internet?  To me it seems possible because it would be like two home computers working at the same time. Its the incoming request or handshake of the real vnc viewer that is in question mostly. Any suggestions? If a pro like you available then how do I find one locally?
+This device was port forwarded to 5900.
+On what device is the "odd-ball" device port-forwarded? That's most likely where the trouble lies. Or else your VNC server is incorrectly setup.
+Between the local devices and the internet connexion is some device doing NAT or similar. Is it the "odd-ball" device doing that? Or more likely, the "router" (whatever it is, you didn't say). Wherever the firewall is anyway, that is where the port-forwarding errors need to be addressed. Sadly, you didn't say what errors you are getting.
+So long as some other device isn't set to use port 5900, and the router is correctly forwarding port 5900 to the odd-ball device, and the odd-ball device has VNC server running and listening on that same port, it should work fine. You can test port-forwarding here . VNC works great (though as usual, quite slowly) over NAT.
+Your verdict of Lazy sounds about right - there are tens of thousands of ports available for traffic, you only have six bays, that leaves plenty room!
+Lastly, I would not recommend VNC for Windows machines. RDC is not only superior, it's built-in!
+;o) Cor
+ps. I also do remote work. Feel free to get in touch if you need more help.
+pps. Try paragraphs!
+Chris - 02.06.12 4:45 pm
+Thanks for your advice. I also believe it to be a problem in the "odd ball" device or the Router. I am a rookie at this and went to real Vnc "how to port a router" and done this myself.
+I do not use the VNC viewer for windows. I use Real Vnc viewer on a Belanger computer that uses a touch screen. Vnc was recommended by Belanger (the manufacture of the automatic wash).
+The Vnc viewer was tested and works on a different machine. The router was port forwarded to only the one device at 5900 and another computer at 2500. The Belanger computer is limited on what I can program on it. It is kind of fill in the blank. It is my understanding that the vnc program is built into this odd ball.
+Next time i am out there at the sight i will send you a line telling you so. If you can get me up and running I will pay you otherwise no harm no foul.
+i like your snap. ttyl
+chris
+Jack handa - 11.06.12 6:40 pm
+excellent very useful information
+dee - 24.06.12 12:23 am
+Hi Cor, when I read your article, I start to understand that I can get them by myself. In my case I use my Iphone and my laptop to view my Qsee cameras thr dynamic IP, it works well but I have to trace my IP all the time, sometime the IP change everyday. My problem is I don't understand much about the computer terms, and English is not my mother language. Qwest is my internet provider. the laptop use windows Vista. Would you please kindly to show me how to get static IP in easy way for person like me have no computer background. Thanks.
+ 
+Leave a comment, become part of this site!
+First, confirm that you are human by entering the code you see..
+(if you find it difficult to read, refresh the page for a new code)
+Enter the 5-digit code this text sounds like : lower-case gee, Upper-Case Bee, fore, lower-case ess, Upper-Case Tee
+ 

@@ -1,0 +1,12 @@
+P = principal amount                 (initial investment)
+r = annual interest rate (as a decimal)
+t = number of years
+A = amount after time t
+ 
+ 
+Example Problem
+An amount of $2,340.00 is deposited in a         bank paying an annual interest rate of 3.1%, compounded         continuously. Find the balance after 3 years.
+Solution
+Use the continuous         compound interest formula, A = Pe rt, with P = 2340, r = 3.1/100 = 0.031, t = 3. Recall that e stands for the Napier's         number (base of the natural logarithm) which is         approximately 2.7183. However, one does not have to plug         this value in the formula, as the calculator has a         built-in key for e. Therefore,
+So, the balance after 3 years is         approximately $2,568.06.
+Test Yourself (Click HERE )

@@ -1,0 +1,19 @@
+sparse matrix of class spam or a Cholesky factor  of class spam.chol.NgPeyton.
+logarithm
+logical; if TRUE (default) return the logarithm of the modulus of the determinant.
+...
+Optional arguments. Examples include method argument and additional parameters used by the method.
+Details
+If the matrix is not positive definite, the function issues a warning and returns NA.
+The determinant is based on the product of the diagonal entries of a Cholesky factor, i.e. internally, a Cholesky decomposition is performed. By default, the NgPeyton algorithm with minimal degree ordering us used. To change the methods or supply additonal parameters to the Cholesky factorization function, see the help for chol .
+The determinant of a Cholesky factor is also defined.
+Value
+For det, the determinant of x.  For determinant, a list with components
+modulus
+a numeric value.  The modulus (absolute value) of the determinant if logarithm is FALSE; otherwise the logarithm of the modulus.
+sign integer; either +1 or -1 according to whether the determinant is positive or negative.
+Author(s)
+Reinhard Furrer
+References
+Ng, E. G. and B. W. Peyton (1993) Block sparse Cholesky algorithms on advanced uniprocessor computers, SIAM J. Sci. Comput., 14, 1034–1056.
+See Also

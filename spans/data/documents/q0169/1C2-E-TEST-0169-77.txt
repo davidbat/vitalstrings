@@ -1,0 +1,14 @@
+In spite of the title of the paper
+Uses QR storage to statically accommodate any LU fill-in
+Abbreviations used in the table: SPD = symmetric and positive definite; Sym = symmetric and may be indefinite; Sym-pat = symmetric nonzero pattern but unsymmetric values; Unsym = unsymmetric; HSL = Harwell Subroutine Library: http://www.cse.clrc.ac.uk/Activity/HSL
+There is no single algorithm or software that is best for all types of linear systems.  Some software is targeted for special matrices such as symmetric and positive definite, some is targeted for the most general cases. This is reflected in column 3 of the table, ``Scope.'' Even for the same scope, the software may decide to use a particular algorithm or implementation technique, which is better for certain applications but not for others. In column 2, ``Technique,'' we give a high-level algorithmic description. For a review of the distinctions between left-looking, right-looking, and multifrontal and their implications on performance, we refer the reader to the papers by Heath, Ng, and Peyton [ 219 ] and Rothberg [ 370 ]. Sometimes the best (or only) software is not in the public domain, but available commercially or in research prototypes. This is reflected in column 4, ``Contact,'' which could be the name of a company or the name of the author of the research code.
+Another complication is due to the diverse applications ... Old code like SPARSE, distinctive advantage ...
+In the context of shift-and-invert spectral transformation (SI) for eigensystem analysis,  we need to factorize
+, where
+is fixed. Therefore, the nonzero structure of
+is fixed. Furthermore, for the same shift
+, it is common to solve many systems with the same matrix and different right-hand sides (in which case the solve cost can be comparable to factorization cost). It is reasonable to spend a little more time in steps 1 and 2 to speed up steps 3 and 4. That is, one can try different ordering schemes and estimate the costs of numerical factorization and solutions based on symbolic factorization, and use the best ordering. For instance, in computing the SVD, one has the choice between shift-and-invert on
+,
+, and
+, all of which can have rather different factorization costs, as discussed in Chapter  6 .
+Some solvers have the ordering schemes built in, but others do not. It is also possible that the built-in ordering schemes are not the best for the target applications. It is sometimes better to substitute an external ordering scheme for the built-in one. Many solvers provide well-defined interfaces so that the user can make this substitution easily. One should read the solver documentation to see how to do this, as well as to find out the recommended ordering methods.

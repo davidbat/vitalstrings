@@ -1,0 +1,70 @@
+Largest Algebraic (valid only for real symmetric problems).
+'sa'
+Smallest Algebraic (valid only for real symmetric problems).
+'be'
+Both Ends, with one more from the high-end if k is odd (valid only for real symmetric problems).
+'lr'
+Largest Real part (valid only for complex or unsymmetric problems).
+'sr'
+Smallest Real part (valid only for complex or unsymmetric problems).
+'li'
+Largest Imaginary part (valid only for complex or unsymmetric problems).
+'si'
+Smallest Imaginary part (valid only for complex or unsymmetric problems).
+If opts is given, it is a structure defining possible options that eigs should use.  The fields of the opts structure are:
+issym
+If af is given, then flags whether the function af defines a symmetric problem.  It is ignored if A is given.  The default is false.
+isreal
+If af is given, then flags whether the function af defines a real problem.  It is ignored if A is given.  The default is true.
+tol
+Defines the required convergence tolerance, calculated as tol * norm (A).  The default is eps.
+maxit
+The maximum number of iterations.  The default is 300.
+p
+The number of Lanzcos basis vectors to use.  More vectors will result in faster convergence, but a greater use of memory.  The optimal value of p is problem dependent and should be in the range k to n.  The default value is 2 * k.
+v0
+The starting vector for the algorithm.  An initial vector close to the final vector will speed up convergence.  The default is for arpack to randomly generate a starting vector.  If specified, v0 must be an n-by-1 vector where n = rows (A)
+disp
+The level of diagnostic printout (0|1|2).  If disp is 0 then diagnostics are disabled.  The default value is 0.
+cholB
+Flag if chol (B) is passed rather than B.  The default is false.
+permB
+The permutation vector of the Cholesky factorization of B if cholB is true.  That is chol (B(permB, permB)).  The default is 1:n.
+It is also possible to represent A by a function denoted af. af must be followed by a scalar argument n defining the length of the vector argument accepted by af. af can be a function handle, an inline function, or a string.  When af is a string it holds the name of the function to use.
+af is a function of the form y = af (x) where the required return value of af is determined by the value of sigma.  The four possible forms are
+A * x
+if sigma is not given or is a string other than 'sm'.
+A \ x
+if sigma is 0 or 'sm'.
+(A - sigma * I) \ x
+for the standard eigenvalue problem, where I is the identity matrix of the same size as A.
+(A - sigma * B) \ x
+for the general eigenvalue problem.
+The return arguments of eigs depend on the number of return arguments requested.  With a single return argument, a vector d of length k is returned containing the k eigenvalues that have been found.  With two return arguments, V is a n-by-k matrix whose columns are the k eigenvectors corresponding to the returned eigenvalues.  The eigenvalues themselves are returned in d in the form of a n-by-k matrix, where the elements on the diagonal are the eigenvalues.
+Given a third return argument flag, eigs returns the status of the convergence.  If flag is 0 then all eigenvalues have converged.  Any other value indicates a failure to converge.
+This function is based on the arpack package, written by R. Lehoucq, K. Maschhoff, D. Sorensen, and C. Yang.  For more information see http://www.caam.rice.edu/software/ARPACK/ .
+— Function File: s = svds (A)
+— Function File: s = svds (A, k)
+— Function File: s = svds (A, k, sigma)
+— Function File: s = svds (A, k, sigma, opts)
+— Function File: [u, s, v] = svds (
+...
+— Function File: [u, s, v, flag] = svds (
+...
+Find a few singular values of the matrix A.  The singular values are calculated using
+[m, n] = size (A); s = eigs ([sparse(m, m), A; A', sparse(n, n)])
+The eigenvalues returned by eigs correspond to the singular values of A.  The number of singular values to calculate is given by k and defaults to 6.
+The argument sigma specifies which singular values to find.  When sigma is the string 'L', the default, the largest singular values of A are found.  Otherwise, sigma must be a real scalar and the singular values closest to sigma are found.  As a corollary, sigma = 0 finds the smallest singular values.  Note that for relatively small values of sigma, there is a chance that the requested number of singular values will not be found.  In that case sigma should be increased.
+opts is a structure defining options that svds will pass to eigs.  The possible fields of this structure are documented in eigs.  By default, svds sets the following three fields:
+tol
+The required convergence tolerance for the singular values.  The default value is 1e-10. eigs is passed tol / sqrt(2).
+maxit
+The maximum number of iterations.  The default is 300.
+disp
+The level of diagnostic printout (0|1|2).  If disp is 0 then diagnostics are disabled.  The default value is 0.
+If more than one output is requested then svds will return an approximation of the singular value decomposition of A
+A_approx = u*s*v'
+where A_approx is a matrix of size A but only rank k.
+flag returns 0 if the algorithm has succesfully converged, and 1 otherwise.  The test for convergence is
+norm (A*v - u*s, 1) <= tol * norm (A, 1)
+svds is best for finding only a few singular values from a large sparse matrix.  Otherwise, svd (full(A)) will likely be more efficient.

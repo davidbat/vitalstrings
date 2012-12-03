@@ -1,0 +1,98 @@
+Discuss this article » | Share this article »
+Unless you’ve been hiding in a cave with Osama bin Laden, you know that Apple is selling an iPhone and that it’s a hit. Apple is well on its way to selling ten million mobile Internet devices by the end of 2008. Besides being a great phone, the iPhone also includes a sophisticated new Safari browser. This version is touted as “the most advanced web browser on a portable device” and from what I’ve seen, it deserves this accolade.
+So what does this mean for you? Millions of visitors accessing your content on a small display with very high resolution. At some point in the near future, you’re going to want to take a look at your current site design to make sure that it looks good and works well on this new device and its Mobile Safari browser.
+(Note: For the remainder of this article, I’ll refer to this new browser as Mobile Safari to avoid confusion with its desktop sibling.)
+In this first of two articles on bringing your content to the iPhone, I’ll explain what your options are and give you some guidance for tuning your site and making changes that enhance your users’ experience. In the second part of this series, I’ll examine some of the pitfalls and problems with this new web development environment.
+While these articles are specifically targeted at the iPhone, many of the ideas and concepts I’m presenting can be useful and effective with other mobile devices. The processing power of these devices will continue to increase, bringing an end to the “dumbed down” mobile web, and it’s likely that the iPhone is just the beginning of an exciting new chapter in the storied life of HTML.
+Time to clean up
+The iPhone developers did a really smart thing—they designed the iPhone so that you really don’t need to do anything with your site for it to display correctly. So why am I writing this article? Well, you don’t really need to bathe periodically, either. But dealing with a clean person is much more palatable than one who hasn’t touched a bar of soap for several months. So it is with the iPhone: clean up a few things and your visitors will love you for it.
+The first thing you’ll want to do is check your site for compatibility. After that, you can begin to make some simple changes that adapt your content to the iPhone. Finally, you may wish to make a version of your site that is targeted directly at the iPhone: a site fully optimized for the device.
+Keep in mind that, like most things on the web, adding support for the iPhone is an evolutionary endeavor: you don’t need to completely change your site overnight. Many of these changes can be done incrementally without adversely affecting the other parts of your site.
+Compatibility
+First, you’ll want to make sure that your site is accessible by the iPhone. As I said earlier, it’s likely that you won’t need to do much—for the most part, compatibility just happens.
+If you’ve been using web standards to develop your site, you’ll find that Mobile Safari works just as you’d expect. Because it uses the same Web Kit rendering engine as Safari on the desktop, it supports—with a few exceptions—the latest versions of HTML/XHTML, CSS, JavaScript, and the W3C DOM. (While Part I of this series will provide an overview of iPhone-friendly development, Part II will detail the iPhone’s deficiencies and limitations, including those exceptions.) Many of the AJAX technologies, including getElementById and XMLHttpRequest, work just like their counterparts on the desktop.
+Still, there are some areas in which Mobile Safari will work differently or not at all.
+Trouble with the plug-in
+The omission causing the most grief for developers is that the Flash plug-in is not supported. If your site relies on Flash, all iPhone visitors will see is a blue Lego-style brick with question marks.
+If you rely on Flash for navigation or multimedia, you have a few options, only one of which is truly compelling:
+Wait, possibly in vain, for Apple to add Flash support. It is likely that Flash is not being included due to performance and battery life problems.
+Use browser detection. Those of us who remember the halcyon days of the late 90s, and a web before standards, will know that maintaining different site versions based on browser type is more trouble than it’s worth.
+Rely on web standards. If actions speak louder than words, note that Apple has replaced Flash with web standards on its own corporate website.
+Safari for everyone
+Developers on both Mac and Windows can use the Safari browser as a proxy for web development on the iPhone. For the most part, the way Safari renders content is identical to the way it’s rendered on the phone. There are some differences and caveats, which I’ll cover in the second article of this series.
+Apple also has a website dedicated to web development on the iPhone. The Apple site is a great place to look for the latest news and information: if I’m having a problem with some aspect of iPhone web development, their “Web Development Guidelines” are the first place I look.
+The iPhone works well with non-Flash multimedia content—a special version of the QuickTime plug-in is available using normal <object> and <embed> tags. Mobile Safari, however, behaves differently than Safari on the desktop. Embedded movies or audio only display a “play” button which opens the media in a separate window that overlays your content (referred to as “playback mode”). Additionally, you don’t have any control over this playback mode with JavaScript.
+Because of these differences, Apple recommends that you add a poster image when you embed multimedia content (Line wraps marked » —Ed.):
+<embed src="poster.jpg" href="movie.mov" » width="456" height="123" ...>
+The poster image is displayed until the user clicks on it to play the multimedia content. This gives a consistent user experience for both mobile and desktop visitors.
+Adapting
+After you’ve verified that your site is compatible with the iPhone, you’ll want to focus on some simple changes that give your visitors the best possible experience.
+In my opinion, you’ll need to have an iPhone for this type of development. As noted above, you can use the desktop version of Safari to preview content, but the types of changes I’m going to talk about now consist of fine-tuning that content. Unless you are holding a phone in your hand, you can’t tell whether or not your changes are effective. Remind yourself (or your boss) that the IRS would consider the iPhone a valid business expense and pick one up.
+The iPhone makes prominent a little-discussed web development concept: the viewport. To deal with the problem of fitting a relatively large web page onto a small phone display, the iPhone’s developers use a viewport to select the part of the page you are viewing.
+Conceptually, the viewport is like a loupe whose magnification is adjustable. When you open a page in Mobile Safari, it will render a 980-pixel-wide section of your website (Apple chose this size to accommodate the largest number of websites). The magnification of the loupe, or scaling factor, is set to shrink these 980 pixels to the iPhone’s 320-pixel-wide screen.
+As you pinch or spread your fingers, you are effectively changing the magnification of the loupe (and adjusting the scaling factor). Likewise, double-tapping on a page element, such as a <div>, will adjust the scaling factor so that the viewport is optimized for viewing the element.
+Thanks to a new <meta> tag recognized by the iPhone, you can control the behavior of the viewport. Imagine a site whose <body> content is exactly 808 pixels wide. By specifying the following <meta> tag, we can tell Mobile Safari how big to make the initial viewport:
+<meta name="viewport" content="width=808" />
+This cuts the number of pixels the iPhone has to squeeze onto its screen from 980 to 808. It may not seem like much, but when you consider that the phone’s display width is just 320 pixels, it makes a big difference. In the case of my personal site , it makes the title of each posting readable on the first view—a huge usability improvement.
+You also need to be aware that the iPhone adjusts text sizes as the viewport changes. The font size increases automatically to make text as readable as possible. Sometimes this negatively affects elements that use absolute positioning or fixed sizes (especially when using pixels to specify page coordinates). If you find that this causes overflow or other unsightly results, you can easily turn it off using the following CSS rule:
+-webkit-text-size-adjust: none;
+Alternatively, you can use ems to specify coordinates. Sizes specified this way will increase along with the text size.
+In some cases, you may want to use this feature to increase font size for important information on your page. As an example, you could increase type size  in a header tag used for a weblog title with a rule like this:
+h1 {     -webkit-text-size-adjust: 200%;   }
+Styling for the iPhone
+Before pursuing further adaptions, consider the hardware we’re dealing with—that of both the phone and our bodies. The screen on the iPhone squeezes 160 pixels into every inch of display space—and you’re using your finger to access that display. If you press your finger against the edge of a ruler, you’ll see it uses somewhere between 1/4” and 1/2” at the point of contact. That corresponds to anywhere between 40 and 80 pixels of display space.
+Now, look at your web page. How many pixels are between the items on your navbar? If you answer less than 40, then you’re effectively asking your visitor to play Russian roulette: their 40-80 pixel finger isn’t going to hit your 20 pixel link effectively.
+When you use iPhone specific styles, it improves accessibility for someone working on a high-density mobile device. My rule of thumb is to double important elements: bumping a font-size from 18px to 36px, for example. You’ll want to focus both on interactive elements (such as <a> and <input>) and navigational indicators (such as section titles and bread crumb trails).
+So how do you use styling rules that apply only to the iPhone? The answer is to use a media query on a <link> tag. The following rule is recommended by Apple:
+<link media="only screen and (max-device-width: 480px)"      href="iPhone.css" type="text/css" rel="stylesheet" />
+Other browsers will ignore iPhone.css since they have a maximum device width greater than 480px.
+Integrating your site with the rest of the iWorld
+As you continue to adapt your site to the iPhone, you’ll want to think about how Mobile Safari integrates with other services on the phone. It’s easy to have your page pass information to the Mail, Maps, and Phone applications—all you need to do is craft special hrefs for your links.
+A link with a mailto: in the href works as expected—it opens the iPhone Mail application using the specified parameters. You can specify some HTML markup in the body, but I’d advise against it since not all mail clients will handle it correctly. For example, the following will work fine on the iPhone (Line wraps marked » —Ed.):
+<a href="mailto:zippy@example.com?subject=Sarcasm&body=I » <b>love</b> %26lt;html%26gt; mail!">Hi!</a>
+And create a message that looks like this:
+To: zippy@example.com Subject: Sarcasm  I love <html> mail!
+However, most other mail clients will create a message with a body that looks like this:
+I <b>love</b> &lt;html&gt; mail!
+Mobile Safari handles links to Google Maps differently than other browsers, too. It checks to see if a link href begins with “http://maps.google.com/maps” and will automatically load the remaining part of the URL into the Maps application instead of a new web page. The normal ?q=location and ?saddr=start&daddr=destination map queries will be handed by Maps from that point on. Note that since you’re switching applications, the user will have to click the Home button, then the Safari icon to return to your web page from the Maps application. Be judicious when using map links as this can be a disruptive context switch for the user—in most cases it would be wise to provide a map preview on the link so the user can get basic directions without loading the interactive Maps.
+The sexiest links ever
+Now to the newest and most interesting linking feature on the iPhone: clicking on a link to make a call.
+Say you have the following hCard microformat on your contact page:
+<div id="hcard-Ernestine" class="vcard"> <span class="fn">Ernestine</span> <div class="tel">555-1212</div> </div>
+By default, the iPhone will turn the 555-1212 into a clickable link. It will take whatever styling has been specified for the parent (i.e. there isn’t any way to specify an id or class for the automatically generated link).
+If you’d like more control over the link that is generated, you can use markup like this:
+<a class="call" href="tel:555-1212">Call Me</a>
+When the user clicks on the link, it will initiate a call to the number specified. You need to be careful with these links. Many browsers will display an error message because they don’t recognize the tel: protocol. You’ll probably want to hide these links in your site-wide CSS.
+a.call {     display: none;     }
+And then use your iPhone-specific CSS, to show them with the following:
+a.call {     display: inline;     }
+Going deeper: designing for the iPhone
+After taking care of the structural and presentational aspects of your page, you may want to examine some of your design decisions.
+One thing that’s important to remember when working with Mobile Safari web pages is that they will often be served over the EDGE network. This network, based on cell phone technology, is much slower than broadband networks. It also has higher latency—it takes longer for your HTTP requests to reach a server and for the responses for the request to arrive back at the phone.
+The feeling is very similar to the days when the 56K modem reigned supreme. And like those days, it’s important to keep an eye on the size of what’s on your server:
+HTML—Leverage web standards to keep markup and page size to a minimum.
+CSS—Use media queries to ensure that a minimum number of rules are loaded and parsed.
+Multimedia—Use QuickTime H.264 encoding and pay attention to bit rates. Reference movies allow you to serve up different sized content using the same HTML.
+Images—Use iPhone-specific CSS to load lower resolution images.
+JavaScript—Be careful about including large JavaScript frameworks—loading hundreds of KB of scripts to show and hide a <div> doesn’t make sense.
+Finally, remember the width of the iPhone screen: 320 pixels (for portrait) and 480 pixels (for landscape). Content that fits naturally within these sizes works best and will require less scrolling by the user. Likewise, content that does not span across multiple columns will be easier for the iPhone user to access.
+Targeting
+Now let’s talk about taking the big plunge: creating a separate part of your website that is dedicated to iPhone users.
+Why would you want to do this?
+Again, before we can answer this question, we need to take a high-level look at the surroundings for our web designs. We’re all familiar with the current desktop and the browsers that run in this environment—so much so that we take its high density for granted.
+The desktop allows us to do many things at once: browsing, e-mail, multimedia, chat, etc. There’s enough space for us to move our attention between many disparate tasks.
+Now look at your iPhone. Typically, you’re only doing one thing at a time—making a call, finding a restaurant, or checking your appointments. The interfaces for these tasks are much simpler, making it much easier for you to focus on the work at hand.
+Your website probably has functionality for many different use cases. Some of that functionality may be inappropriate for someone who’s on the go, and this is a great reason to make a site targeted towards the iPhone. If you have e-commerce or other transactional functionality, you may find that your current interface makes transactions cumbersome on the iPhone—and making it easy for people to give you money can be a direct benefit, even if that means streamlining your existing site or creating an iPhone-specific site. Other types of sites, like blogs, with their low information density, don’t need this kind of special treatment.
+Once you’ve decided that you want to customize your site for the iPhone, there are things you need to keep in mind:
+Simplify—On the iPhone, less is more. Let the user focus on your content. Use one column layouts instead of two or three columns.
+Size—Bigger is better. Make it easy for the user to manipulate your content. Element sizes should start at 40 pixels and go up from there.
+Emulate—Designs that mimic the iPhone user interface will be more successful. The user doesn’t have to learn new conventions when dealing with your content.
+Emulation and frameworks
+Let’s take a quick look at some of the tools you can use to help emulate the iPhone UI. Since you’re only worried about this working in Mobile Safari, you can utilize features that aren’t available in other browsers. You don’t have to worry about how a design looks in Internet Explorer—dreams do come true!
+Use the -webkit-border-radius CSS rule to create elements with rounded corners.
+Apply the -webkit-border-image CSS rule to use images for nice looking backgrounds on links.
+Use the <canvas> tag for drawing dynamic images and graphics.
+There are also JavaScript-based frameworks being developed to ease the development of iPhone-specific interfaces. One of the more advanced and popular ones is Joe Hewitt’s iUI . If you’ve used the iPhone, you already know how to use his examples.
+One final thing to keep in mind when you start this kind of development: make it an addition to your existing site. Don’t force an iPhone to use this special section of your site—it’s an enhancement, not a jail. Likewise, if a user without an iPhone wants to look at this part of your site, don’t block them with some “for iPhone only” nonsense. Remember that the web always works best when it’s open and developers don’t try to outsmart their visitors.
+Summary
+I realize that a lot of information has been presented in this article—there’s a lot to learn about this new device. But don’t be overwhelmed: much of what I’ve presented can be done incrementally. Start by setting up the <meta> tag with the viewport information and then experiment and test your ideas and changes. In the end you’ll end up with a site whose content is much more accessible from the iPhone. I, and millions of other visitors, will thank you.

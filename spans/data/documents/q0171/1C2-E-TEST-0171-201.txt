@@ -1,0 +1,26 @@
+  Proxy Judge - Proxy Test
+What does an IP Address look like?
+IP numbers take the form of four groups of a maximum of three digits each (called octets) separated by periods (full stops). The periods are usually verbalized as "dot".
+Example: 199.045.145.123
+What is the difference between static and dynamic IP Addresses?
+There are actually two ways of assigning IP numbers, static and dynamic. Static IP numbers are permanently assigned to a computer. Dynamic IP numbers are only assigned to a computer at the time it connects with the Internet. Dynamic IP numbers can change every time the computer reconnects to the Internet. Dynamic IP numbers are used to maximize the use of the numbers available to an organization or an Internet Provider.
+What are private and public IP Addresses?
+A computer on the Internet is identified by its IP Address. In order to avoid Address conflicts, IP Addresses are publicly registered with the Network Information Centre (NIC). An IP Address can be private, for use on a LAN, or public, for use on the Internet or other WAN. Computers on private TCP/IP LANs however do not need public Addresses, since they do not need to be accessed by the public. For this reason, the NIC has reserved certain Addresses that will never be registered publicly. These are known as private IP Addresses, and are found in the following ranges:
+From 10.0.0.0 to 10.255.255.255
+From 192.168.0.0 to 192.168.255.255
+How can I check IP Address?
+2Privacy offers free IP check tests that allow you to check IP address, get IP Whois information, find IP or Domain geographic location (geographical IP Address Location including Country, State/Province,City, etc.).
+Top
+How can I hide or change IP Address?
+Want to Hide IP address free ? Proxy software allows you to change or hide your real IP from the web sites you visit. Using the program you can create proxy services with any number of proxy servers in the chain (supports HTTP, HTTPS, SOCKS4 and SOCKS5) to provide IP Address security and tunnel Internet activity through proxy servers.     Proxy software lets you change proxy services per time, per connection to ensure the absolute security; automatically stop or change service if the current service is marked as bad/slow; automatically determine and remove bad proxy servers, specify proxies to be used in proxy chains and much more...
+Why should I concern about anonymous surfing?
+IP Address (Internet Protocol Address) is your Internet identification number. Everyone has an IP Address to communicate on the Internet. Your computer's IP Address is comparable to your home Address or your Social Security number. If someone can match your IP Address to your ISP's customer list, they can use the information to identify your country, city, internet provider and even physical address. When you surf the web, your IP Address is left in logs all around the Internet: in the logs at your ISP, at the routers of your requests and finally the destination of your request. Hackers and identity thieves can use this information to infiltrate your system and steal personal information, use it in a Distributed Denial of Service (DDoS) attack, spy upon you or cause damage to your PC. It is possible to restrict accessing any information or provide customized content to specific IP.
+What information can I get from an IP address?
+It is possible to determine your country, city, internet provider and even physical address.
+What's my IP Address?
+2Privacy offers free IP tests that allow you to check IP address, get IP Whois information, find IP or Domain geographic location (geographical IP Address Location including Country, State/Province,City, etc.).
+How can I find IP address location?
+2Privacy.com offers you free IP tests that help you find IP address location information:
+ Find IP Address Location
+Whether you have cable high speed internet or DSL high speed internet or simply a dialup connection, 2privacy.com is your source to check IP address, get IP (domain, host) Whois information, determine IP location, check if the proxy you are using is truly anonymous, detect how private you are while surfing.
+Full list of 2 Privacy.com Tests

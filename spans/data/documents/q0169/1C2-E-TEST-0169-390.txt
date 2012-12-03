@@ -1,0 +1,8 @@
+I think Matlab code probably uses sparse-matrix techniques that you will find
+in the "Numerical Recipes" books. So I am not certain you will gain any better
+accuracy in the computation itself from writing your own program.
+I am sure there will be some overhead in this computation by running Matlab
+instead of running your own program from a command line, for instance.
+I would suggest that you try Matlab, or even the linux clone Octave
+and see what the computation time really is.
+Best regards,

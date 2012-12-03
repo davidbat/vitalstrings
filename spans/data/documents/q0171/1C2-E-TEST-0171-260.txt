@@ -1,0 +1,9 @@
+Enter an ip address and hit submit to perform an ip address trace.
+e.g. 198.162.0.1
+If the result is the IP address, then unfortunately, the IP address couldn't be traced.
+Disclaimer: The validity of the result cannot be guaranteed.
+As a double check you could try www.arin.net/whois/ who used to come out tops on Google for the search term how can i trace an ip address
+Speed up your PC with a few clicks of the mouse
+IP stands for Internet Protocol which is how computers handle addresses on the internet. Each IP address is unique and each computer connected to the web is assigned an IP address. With dial-up modems the IP address changes each time you connect to the net. But persistent internet connections usually have a fixed IP address.
+There are four IP numbers seperated by dots. These represent 8-bit numbers in decimal so the range is from 0 to 255. The leftmost numbers define the class of ip address in the order of A, B, C e.g. C = X.X.X.*
+Organizations and big corporations control number ranges within the various classes so it is possible to trace who is hosting a spammer or hacker and report it to the hosting organisation.

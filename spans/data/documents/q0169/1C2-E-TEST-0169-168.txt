@@ -1,0 +1,6 @@
+Sparse Matrix Functions
+Overview
+It is not uncommon to have matrices with a large number of zero-valued elements and, because MATLAB stores zeros in the same way it stores any other numeric value, these elements can use memory space unnecessarily and can sometimes require extra computing time.
+Sparse matrices provide a way to store data that has a large percentage of zero elements more efficiently. While full matrices internally store every element in memory regardless of value, sparse matrices store only the nonzero elements and their row indices. Using sparse matrices can significantly reduce the amount of memory required for data storage.
+You can create sparse matrices for the double and logical data types. All MATLAB built-in arithmetic, logical, and indexing operations can be applied to sparse matrices, or to mixtures of sparse and full matrices. Operations on sparse matrices return sparse matrices and operations on full matrices return full matrices.
+See the section on Sparse Matrices in the MATLAB Mathematics documentation for more information on working with sparse matrices.

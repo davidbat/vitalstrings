@@ -1,0 +1,24 @@
+Consumer Mathematics with FREE Online Calculator
+ 
+Compound interest is when interest is     calculated on principal and any previously earned interest.
+Let's     consider an example.  You invest $500 at a 5% annual interest     rate.   After the first year, the account would earn     interest of:
+I = Prt = 500 * .05 * 1 = $25
+If     you re-invest this $25 in earned interest, then at the beginning of     the 2nd year, the account would have $525 as principal.  During     the 2nd year, the account would earn interest of:
+I = Prt = 525 * .05 * 1 = $26.25
+which     is $1.25 more than what was earned in the first year.  Compound     interest has the property that earned interest is automatically     reinvested to earn additional interest.
+The     formula for calculating the accumulated value via compound interest     is as follows:
+A = P(1 + r/m)n
+where A is     the accumulated value, P is Principal, r is the annual interest rate, m is compounding frequency, and n is the total number of periods.
+Example 1  Calculate the interest earned from a $4,500 loan compounded     quarterly at 5% for     6 years.
+Here,     P = $4,500, r = 5% = .05, and m = 4 (quarterly).  Over 6-years,     there are n = 4*6 = 24 quarters.  The accumulated value is:
+A = (4500)[1 + .05/4]24 = 6063.08
+I = A - P =     6063.08 - 4500 = 1563.08
+Example 2  A savings account pays 4% interest and is compounded daily (365     days).  When will the accumulated value be twice the original     principal?
+We     are solving for n:
+2P = P( 1 + .04/365 )n
+log 2     = n log (1 + .04/365)
+n =     log 2 / log (1 + .04/365) = 6325.32
+n is the number of periods which for     this example, is in days.  It will take 6325 days to double the     principal, which is roughly 6325/365 = 17.32 years.
+The online calculator below calculates simple interest.
+Change the loan amount         to the right and then click Calculate.
+ 

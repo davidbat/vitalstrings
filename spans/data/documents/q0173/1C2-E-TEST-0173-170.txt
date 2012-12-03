@@ -1,0 +1,9 @@
+Printing circuits on your ink jet printer
+By Phil Windley | April 21, 2007, 6:11pm PDT
+Scientists in Britain have succeeded in printing electronic circuits using a standard ink jet printer.  This article from New Scientist describes the feat and includes pictures of some of the circuits produced including cell phone antennas and RFID chips.
+This isn't the first process that allows printable circuits, but it's the first such process that uses water soluble agents and is consequently more environmentally friendly.  To print the circuits, PhD student Seyed Bidoki  loaded two different ink chambers of a standard ink jet printer with a silver nitrate solution and vitamin C (ascorbic acid).  The circuits are printed with the silver nitrate solution and then the vitamin C is used as a reducing agent to fix the pattern as solid silver.
+Because ink jet printers rely on ink bleed to form solid images from ink dots, the circuits worked best when they were printed several times to increase the connectivity, and thus the conductivity, between separate silver dots.  Even with this, the process doesn't yet produce circuits that provide as low a resistance as traditional processes.
+Currently circuit boards are created by chemically etching metal away, leaving the designed circuit, a subtractive process that creates substantial waste and can be energy intensive.  Printing the circuit, on the other hand, just puts the metal where it's needed.
+With the environmental and energy benefits of the circuit printing process, however, the search for an industrial scale version will undoubtedly continue.  I wonder how long it will take for a hobbyist kit to come out with ink cartridges for printing circuits and software to manage the process.
+Kick off your day with ZDNet's daily e-mail newsletter . It's the freshest tech news and opinion, served hot. Get it.
+More from “Between the Lines”

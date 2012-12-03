@@ -1,0 +1,28 @@
+Share This Website
+Compound Interest
+In this lesson we will learn how to solve compound interest math problems. Click the play button to start the video.
+Compound Interest Calculator
+To quickly find out the balance and the compound interest for any principal, interest rate, and time period, use this free compound interest calculator provided on this website.
+Important Facts
+Unlike the simple interest, the compound interest pays interest on both the principal and the interest already earned. To find the final balance after a certain number of years, use the following important formula:
+B = p (1 + r)^t
+B is the final balance
+p is the initial principal
+r is the interest rate per year
+t is the time in years
+Example:
+If you deposit $5000, in an account that earns 8% compounded annually, find the compound interest at the end of the second year and find the final balance.
+Solution
+At the end of the first year, the interest will be
+Interest year 1 = 5000 x 8% x 1 =  5000 x 0.08 x 1 = $400
+Add $400 to the initial principal ($5000) to find the new principal for the second year: $5400
+The interest at the end of the second year will be:
+Interest year 2 = 5400 x 8% x 1 = 5400 x 0.08 x 1 = $432
+Therefore, the total compound interest at the end of the year two will be
+$400 + $432 = $832
+To find the final balance you can use the formula B = p (1 + r)^t :
+B = p (1 + r)^t  =  5000 (1 +  0.08)^2 = 5000 x (1.08)^2 = 5000 x 1.1664 = $5832
+If you do not want to use the above formula, you can also find the final balance by adding the compound interest earned at the end of the year two ($432), to the second year principal ($5400).
+$432 + $5400 = $5832
+Return from the Compound Interest page to Money Math
+Copyright © 2007 Doina Popovici

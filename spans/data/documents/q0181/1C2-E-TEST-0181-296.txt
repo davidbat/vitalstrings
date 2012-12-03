@@ -1,0 +1,31 @@
+Or even a trusty Regular Expression :
+Do any of these pass "The Turkey Test?"
+Not a chance!
+Reason: You've been hit with the "Turkish I" problem.
+As discussed by lots and lots of people , the "I" in Turkish behaves differently than in most languages. Per the Unicode standard , our lowercase "i" becomes "İ" (U+0130 "Latin Capital Letter I With Dot Above") when it moves to uppercase. Similarly, our uppercase "I" becomes "ı" (U+0131 "Latin Small Letter Dotless I") when it moves to lowercase.
+Fix: Again, use an ordinal (raw byte) comparer , or invariant culture for comparisons unless you absolutely need culturally based linguistic comparisons (which give you uppercase I's with dots in Turkey)
+Or
+Or
+And finally, a fix to our Regex friend:
+My final example is especially embarrassing. I was actually smug when I wrote something like this (note the comment):
+Does this simple program pass "The Turkey Test?"
+You're probably hesitant to say "yes" ... and rightly so. Because this too fails the test.
+Reason: As Raymond Chen points out , there are more than 10 digits out there. Here, I use real Arabic digits (see page 4 of this code table ):
+Fix: A CultureInvariant won't help you here. The only option is to explicitly specify the character range you mean:
+Or use the RegexOptions.ECMAScript option. In Java ECMAScript , "\d" means [0-9] which gives us:
+"The Turkey Test" poses a very simple question, but yet is full of surprises for guys like me who didn't realize all the little details. Turkey, as we saw above, is sort of like "New York, New York" in the classic Frank Sinatra song :
+"These little town blues, are melting away
+I'll make a brand new start of it - in old New York
+If I can make it there, I'll make it anywhere
+Its up to you - New York, New York"
+If your code properly runs in Turkey, it'll probably work anywhere.
+This brings us to the logo program:
+"Turkey Test" Logo Program Requirements:
+Read Joel Spolsky's basic introduction to Unicode to understand the absolute minimum about it.
+Read Microsoft's " New Recommendations for Using Strings in Microsoft .NET 2.0 " article and this post by the BCL team.
+Always specify culture and number formatter for all string, parsing, and regular expression you use.
+If you read data from the user and want to process it in a language sensitive matter (e.g. sorting), use the CurrentCulture . If none of that matters, really try to use use Ordinal comparisons.
+Run FxCop on your code and make sure you have no CA1304 (SpecifyCultureInfo) or CA1305 (SpecifyIFormatProvider) warnings.
+Unit test string comparing operations in the " tr-TR " culture as well as your local culture (unless you actually live in Turkey, then use a culture like "en-US").
+Having successfully passed the above requirements, your software will finally be able to wear "Passed 'The Turkey Test'" logo with pride.
+Note: Special thanks to my coworker, Evan, for calling the 3rd type of error "Turkeys." Also, thanks to Chip and Dan Heath for the "Sinatra Test" idea.

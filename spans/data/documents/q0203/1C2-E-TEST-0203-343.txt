@@ -1,0 +1,56 @@
+is eMLC the true successor to SLC in enterprise flash SSD?
+.
+SSD Write Amplification - is a term popularized  by SiliconSystems in various flash SSD related articles and press releases.
+Gary Drossel , a VP at SiliconSystems defines it as follows. "Write Amplification -  is a measure of the efficiency of the SSD controller. Write amplification defines the number of writes the controller makes to the NAND for every write from the host system.   Long, continuous writes map over this mismatch, but most embedded/ enterprise applications do not stream data. Instead, they transfer data in a series of shorter, more random transactions."
+It's the difference in ratio between the number of theoretical  writes you think  that your application does to a flash SSD - compared to what actually happens - due to OS or other software - which is often outside your control. Write Amplification can be a serious problem - because it can invalidate calculations related to endurance .  SiliconSystems says - the best thing to do is measure it - rather than estimate it. Their SSDs can be used as tools to do this - because they perform real-time internal logs of write cycles.
+.
+SSD Write Attenuation - is a term coined by the editor of  STORAGEsearch.com.
+It is the opposite effect of  Write Amplification - and reduces the amount of writes done to the SSD compared to what you expect. This kind of out-of-sequence  recognition, and reordering of  packets before writes usually requires a non volatile RAM or similar  memory inside the SSD controller.
+Beneficial side effects of Write Attenuation are:-
+lower wear-out of the flash SSD, and
+(often) faster random IOPS - because the nv cache doesn't have to be flushed out as inefficiently - as in the case of  unprotected RAM caches.
+.
+Skinny, Regular and Fat flash SSDs
+These are new terms (July 2009)  proposed in an article called - RAM Architectures in flash SSDs to describe RAM/flash ratios in  flash SSDs.
+.
+ASAPs (Auto-tuning SSD Accelerated Pools of storage )
+This is a new term (November 2009) coined by StorageSearch.com to describe a product category which includes products like the following:-
+FXT Series - from Avere Systems
+MaxIQ SSD - from Adaptec
+XcelaSAN - from Dataram
+SP5000 Application-Aware cache - from Storspeed
+Although aimed at different markets, and having different interfaces, what they all  have in common is their ability to self-tune.
+In effect - "ASAPs eliminate waits for the SSD Hot-Shot / Hot-Spot Engineer .. ."
+.
+11 key symmetries in  SSD design - defines 11 new SSD jargon terms and provides a unified  overview of    SSD    architecture.
+.
+Legacy SSD and New Dynasty SSD - are ways of classifying enterprise acceleration SSDs by the architecture of the storage environment they were designed to go into.
+This nomenclature -  was introduced in  in September 2010  in this article - A new way of looking at the Enterprise SSD market .
+.....
+.....
+New Improved SSD Formula!
+news flash:- XLC Disk has launched a new fast-enough  fat cache eMLC SSD ASAP on a PCIe form factor  with 200K  (truly symmetric)  R/W  IOPS. High endurance and data integrity are  achieved by using DSP adaptive flash management  with  3 levels of  wear-leveling despite  light  over-provisioning. The new SSD has   industry leading write attenuation  and fast garbage collection, has UBER better than 1 sector in 1019 eliminating the risk of silent errors. The no SPOF SSD  has  internal FT features such as   RAID, plane failure management and  chipkill - and can fail-over the entire  flash array to an alternate PCIe host without loss of data. Designed for mission critical server apps - the SSD has strong protection against sudden power loss which doesn't rely on supercaps....
+.....
+do you understand the list of ingredients in the solid state drive news headlines?
+What are the factors holding back faster adoption in  the SSD market?
+That's been a constantly recurring topic in my discussions with SSD designers and oems in the past 10 years.
+Now, if you're a manufacturer of hard disk drives you may think that the SSD market is racing along fast enough already - and doesn't need any more help from me.
+But User Education has always come up as the most important SSD market accelerant.
+Back in  1998 when we published the 1st real-time  updated directory of SSD oems - the most important part of the education mix seemed to be - What were the benefits of application speedup - if you could afford SSDs ?
+Later, when I published my definition - What's a Solid State Disk? - in 2000 - I didn't think there was much more I could  say on this subject.
+But in the decade which followed - I  told users
+they couldn't use flash SSDs in any  server apps (RAM SSDs were uniquely reliable),  and then we said
+they  could use some  flash SSDs in server apps (if they were SLC and had high endurance and good wear-leveling), and then we said
+they should be extremely  cautious  when  choosing server  apps for  MLC SSDs . Then some types of MLC were better than others. Or exactly  the same MLC - when used  with  different controllers was more  or less reliable.
+Confusing, isn't it?
+Along the way users have had to learn the differences between RAM SSDs, MLC and SLC flash SSDs - and also hybrids.
+In some ways this resembles consumer education about what foods to eat (or not to eat) to maintain a healthy lifestyle. But in the case of SSDs - the foods have been evolving fast and are now forming a bigger part of everyone's diet.
+So you need to know more about the ingredients listed on the carton.
+Even if you already know all you need to know  about endurance, MLC, SLC and wear-leveling - here are 3 new concepts I think you'd benefit from following up in your future reading ...
+SSD - Write Amplification and Attenuation
+SSD - Garbage Collection
+SSD - Over-Provisioning
+I never thought users would need   to know so much  stuff about SSDs. But you do.
+You can't rely on your SSD  vendors to tell you. Just as you wouldn't  base a healthy diet    on things chosen randomly from a    supermarket  shelf - or buy a car just because it's got the right number of wheels.  You have to choose your own risk / reward comfort zones in the SSD market too.
+I've included an explanation of   7  important  SSD  terms in the table on the left.
+.

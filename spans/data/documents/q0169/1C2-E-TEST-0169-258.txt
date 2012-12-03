@@ -1,0 +1,102 @@
+On Sep 7, 2:09 pm, Jared Ahern <jared.ah ... @gmail.com> wrote:
+> > ... but I need to know the number of nonzeros in the matrix first.
+> Two points:
+> 1) I assume that you are assembling the stiffness matrix on an element-
+> by-element basis; inserting each element matrix into the global matrix
+> in a loop.  If so, you would like to directly insert into a global
+> sparse matrix, correct?  (Since the alternative would be to make a
+> full dense matrix and then copy it into a sparse duplicate...)  This
+> was not entirely clear in your original post.
+Yes that is correct.
+> It is possible to calculate this
+> exactly for node "A", but it may be more efficient just to estimate
+> that you will have a max of, say, 10 elements intersecting at any
+> node, so the max number of nonzeros per row would be approximately
+> 2*(10*(3-2)+1)=22. Note that the (3-2) term accounts for nodes
+> duplicated by adjacent elements.  This assumption could be false, as
+> it is mesh-dependent, but you could just estimate slightly more, too.
+I dont think this is a good approach because
+- Memory is wasted and for large 3D meshes it can be substantial
+- There really is no upper limit on the number of elements a node can
+be in (specially in unstructured meshes). Think of a circle with 1000
+sides and all nodes directly connected to the center node giving you
+1000 triangular elements (though aspect ratios will be bad).
+I think finding the exact number of nnzs is also recommended in the
+PETSc manual.
+Since this is such a common operation I was hoping that there are many
+such routines out there but I cant seem to find any.
+ 
+You must Sign in before you can post messages.
+To post a message you must first join this group .
+Please update your nickname on the subscription settings page before posting.
+You do not have the permission required to post.
+Jared Ahern  
+ More options Sep 7 2010, 5:45 pm
+Newsgroups: comp.lang.fortran
+From: Jared Ahern <jared.ah ... @gmail.com>
+Date: Tue, 7 Sep 2010 14:45:25 -0700 (PDT)
+Local: Tues, Sep 7 2010 5:45 pm
+Subject: Re: Code for sparse stiffness matrix assembly
+> I dont think this is a good approach because
+> - Memory is wasted and for large 3D meshes it can be substantial
+> - There really is no upper limit on the number of elements a node can
+> be in (specially in unstructured meshes). Think of a circle with 1000
+> sides and all nodes directly connected to the center node giving you
+> 1000 triangular elements (though aspect ratios will be bad).
+Well, as I mentioned, you can calculate the number of nonzeros exactly
+for each node if you desire. Just loop through the nodes; for each
+node, loop over each element and append the node numbers to a running
+list.  This approach uses little memory, but a relatively large amount
+of computation. You could alternatively create a logical (or bit)
+matrix (or sparse matrix), and loop over the elements marking off the
+entries used.  Then just count up the true values for each row at the
+end.  This takes more memory, but little processing.  There are other
+approaches, but these are the simple methods that come to mind.  If
+you generate the mesh (not read in from an external program), you may
+be able to couple the generation to the nonzero calculation.
+And yes, there would be some wasted space for the simple approach, but
+if you end up with 100+ elements touching a corner node you'll
+probably have major mesh problems anyways.
+ 
+You must Sign in before you can post messages.
+To post a message you must first join this group .
+Please update your nickname on the subscription settings page before posting.
+You do not have the permission required to post.
+rusi_pathan  
+ More options Sep 8 2010, 4:33 am
+Newsgroups: comp.lang.fortran
+Date: Wed, 8 Sep 2010 01:33:41 -0700 (PDT)
+Local: Wed, Sep 8 2010 4:33 am
+Subject: Re: Code for sparse stiffness matrix assembly
+On Sep 7, 4:45 pm, Jared Ahern <jared.ah ... @gmail.com> wrote:
+- Hide quoted text -
+> > I dont think this is a good approach because
+> > - Memory is wasted and for large 3D meshes it can be substantial
+> > - There really is no upper limit on the number of elements a node can
+> > be in (specially in unstructured meshes). Think of a circle with 1000
+> > sides and all nodes directly connected to the center node giving you
+> > 1000 triangular elements (though aspect ratios will be bad).
+> Well, as I mentioned, you can calculate the number of nonzeros exactly
+> for each node if you desire. Just loop through the nodes; for each
+> node, loop over each element and append the node numbers to a running
+> list.  This approach uses little memory, but a relatively large amount
+> of computation. You could alternatively create a logical (or bit)
+> matrix (or sparse matrix), and loop over the elements marking off the
+> entries used.  Then just count up the true values for each row at the
+> end.  This takes more memory, but little processing.  There are other
+> approaches, but these are the simple methods that come to mind.  If
+> you generate the mesh (not read in from an external program), you may
+> be able to couple the generation to the nonzero calculation.
+Thanks for your note. I think I will have to write my own routine
+using a running list as I cant find much on this online.
+> And yes, there would be some wasted space for the simple approach, but
+> if you end up with 100+ elements touching a corner node you'll
+> probably have major mesh problems anyways.
+Actually this code will also be used by other people so I cannot make
+any assumptions about the element quality.
+ 
+You must Sign in before you can post messages.
+To post a message you must first join this group .
+Please update your nickname on the subscription settings page before posting.
+You do not have the permission required to post.
+End of messages

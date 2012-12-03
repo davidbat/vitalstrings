@@ -1,0 +1,21 @@
+// 4. get the column indices and values
+let colsA,valsA =
+let colsAcc = new ResizeArray<_>(!count)
+let valsAcc = new ResizeArray<_>(!count)
+for i = 0 to maxi-1 do
+match tab.[i] with
+| tab2 -> tab2 |> Seq.toArray |> Array.sortBy (fun kvp -> kvp.Key) |> Array.iter (fun kvp -> colsAcc.Add(kvp.Key); valsAcc.Add(kvp.Value));
+colsAcc.ToArray(), valsAcc.ToArray()
+// 5. call the SparseMatrix constructor
+SparseMatrix(opsData=ops, sparseValues=valsA, sparseRowOffsets=offsA, ncols=maxj, columnValues=colsA)
+As noted in the code, one possible optimization is to use SortedMap for table, rather than an array. But this SortedMap has more overhead, the current implementation is already good. The other possible way is to sort the (i,j,val) sequence, which avoids the overhead in using a Dictionary structure.
+Only a few matrix operations are implemented for sparse matrices, e.g. +, – and * are supported. However, map, columns and rows are not supported. This does not quite matter as when we need sparse matrices, we will be usually dealing with large datasets. For large datasets, calling a specialized library or writing the code ourselves is a better solution, as we will see the SVD example blow:
+PInvoke SVDLIBC
+In a previous post , We already know how to write a simple matrix multiplication in C, and call it from F# using P/Invoke. Here we move to a more useful one, a large scale SVD library , SVDLIBC. For a small dense SVD, using lapack’s svd is just fine. However, for a 10000-by-10000 sparse matrix, we need a more powerful one. ( ARPACK project is dedicated to this kind of decompositions. SVDLIBC is a C translation of a small part ARPACK.)
+The SVDLIBC is a very good svd solver. It also provides a command line tool to do SVD for sparse or dense matrices. However, it uses some non-standard headers for I/O. To make it compile, we need to delete some code for IO. The main svd solver (in las2.c) is:
+SVDRec svdLAS2A(SMat A, longdimensions)
+A wrapper with a clear interface is need for this solver:
+#define CHECK(ptr) if (!(ptr)) return 0;
+__declspec(dllexport)
+int svds(int nrow, int ncol, int nval, double *val, int *row, int *offset,
+int dim,

@@ -1,0 +1,36 @@
+Sparse Matrix Libraries in C++ for High Performance Architectures ( PDF )
+Benchmark of C++ Libraries for Sparse Matrix
+Sparse Matrix - Dense Vector Multiplication http://my.fit.edu/beowulf/student_projects/basset.doc
+Sparse Matrix Implementation http://www.cplusplus.com/forum/general/8352/
+A flexible C++ Library for Adaptive Numerical Methods Matrix- and   Vector-Module ( PDF ).
+sparse matrix class implementation http://bytes.com/groups/cpp/499317-sparse-matrix-class-implementation
+Sparse Matrix Solvers on the GPU: Conjugate Gradients and Multigrid http://www.multires.caltech.edu/pubs/GPUSim.pdf
+Sparse Matrix Factorization on Massively Parallel Computers http://www-users.cs.umn.edu/~agupta/doc/sc09.pdf
+Sparse Solver for Delphi and Borland-like Pascals http://www.monash.edu.au/policy/spartext.htm
+C# In-Depth Harness the Features of C# to Power Your Scientific Computing   Projects http://msdn.microsoft.com/en-us/magazine/cc163995.aspx
+Represent sparse matrices by some appropriate form of linked lists http://www.codeproject.com/KB/architecture/sparse_matrices.aspx
+Sparse Matrix implemented as a doubly-linked list http://coding.derkeiler.com/Archive/C_CPP/comp.lang.c/2007-06/msg03396.html
+2.2. Example 2: Sparse Matrices (Section 6.4) http://www.cs.ualberta.ca/~holte/T26/mlinked-lists.html
+Sparse MatrixA Case Study in Layered Abstraction http://www.citidel.org/bitstream/10117/14/1/Sparse.htm
+Sparse Matrix Formats http://pysparse.sourceforge.net/formats.html
+Survey of Sparse Matrix Storage Formats http://netlib.org/linalg/html_templates/node90.html
+Sparse Matrices and Their Data Structures ( PDF ).
+SPARSE MATRIX ADDITION http://ds4beginners.wordpress.com/2006/12/21/sparse-matrix-addition/
+Fast sparse matrix-vector multiplication by exploiting variable block   structure ( PDF ).
+On Efficient Storage of Sparse Matrices ( PDF ).
+CSCE 3110 Data Structures & Algorithm Analysis ( PPT )
+A Hierarchical Sparse Matrix Storage Format for Vector Processors ( PPT )
+NAG-sparse Matrix storage format in Maple (10.6.02) http://www.math.rwth-aachen.de/mapleAnswers/html/1565.html
+Vectorized sparse matrix multiply for compressed row storage format ( PDF ).
+Matrix Storage Mode http://www.vni.com/products/imsl/documentation/PyIMSL/stat/NetHelp/default.htm?turl=WordDocuments%2Fmatrixstoragemodes.htm
+A Vectorized Sparse Matrix Multiply for Compressed Row Storage Format http://www.ornl.gov/~webworks/cppr/y2001/pres/124184.pdf
+Webnucleo Technical Report: Sparse Matrix Storage Schemes http://nucleo.ces.clemson.edu/home/publications/technical_reports/data/2008-04-07-2.pdf
+Performance Evaluation of Parallel Sparse MatrixVector Products on SGI   Altix3700 http://www.nic.uoregon.edu/iwomp2005/Papers/f27.pdf
+Multi-dimensional Sparse Matrix Storage http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-98/paper14.pdf
+Research and software development in sparse matrix algorithms http://www.cise.ufl.edu/research/sparse/
+Sparse Matrix Algorithms and Support Preconditioning http://www10.informatik.uni-erlangen.de/Teaching/Courses/SpaMA/
+CS 290H: Sparse Matrix Algorithms http://www.cs.ucsb.edu/~gilbert/talks/AllClassSlides.ppt
+Sparse Matrix Algorithms http://support.sas.com/documentation/cdl/en/imlug/59656/HTML/default/sma.htm
+The Sparse Matrix ADT http://www.cs.miami.edu/~geoff/Courses/MTH517-00S/Content/ArrayBasedADTs/SparseMatrixADT.html
+Computational methods for large sparse power systems analysis By S. A.   Soman, S. A. Khaparde, Shubha Pandit
+ 

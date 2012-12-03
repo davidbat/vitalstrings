@@ -1,0 +1,21 @@
+Cannot empty trash because item is in use
+Authored by: kevans on Jan 20, '11 08:08:59AM
+My problem is that frequently the file said to be in use is NOT in use, and the related app is closed. Secure empty trash works in this case. Why does the sys think such files are still in use?
+Cannot empty trash because item is in use
+Authored by: joeyblades on Jan 20, '11 08:26:19AM
+Of course, first make sure that the file is not actually in use by an application.
+Perhaps force quitting the Locum process is more elegant, but my solution has always been to open a terminal window and delete the file directly (i.e. type 'rm ' in the terminal window and drag the file in question to the terminal window, then hit return. However, this may leave the Locum process hanging... I haven't checked.
+Cannot empty trash because item is in use
+Authored by: CHM on Jan 20, '11 08:28:16AM
+For me, this problem occurs with any file I mail as an attachment with Mail.app.  It's been this way since 10.6.0 and I've filed a bug with Apple (as have many according to the Apple discussion forums) but it's still an issues.  Overall, just kind of annoying but I wish they'd fix it!
+One more thing: if you have a LOT of items in your trash that take up a lot of disk space, it's best to use a regular "empty trash" first and tell it to continue when you get the error about not being able to remove certain items. Then follow up with the secure-empty trash.  Otherwise it can take a long time to securely erase all those files.
+Cannot empty trash because item is in use
+Authored by: alansky on Jan 20, '11 01:18:47PM
+My solution to Mail attachments that cannot be deleted from the Trash is simply to quit and relaunch the Mail app. Takes 2-3 seconds and works every time.
+Cannot empty trash because item is in use
+Authored by: Quatch on Jan 20, '11 08:48:25AM
+Will doing this invoke the secure delete bug where the temporary file is left in place and forgotten? (thus taking up disk space forever/manually deleted)
+Cannot empty trash because item is in use
+Authored by: bloodnok on Jan 20, '11 09:22:21AM
+if you know the file that can't be trashed is harmless, just
+cd ~/.Trash; rm -rf *

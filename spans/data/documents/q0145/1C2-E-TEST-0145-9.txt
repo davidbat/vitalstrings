@@ -1,0 +1,133 @@
+8 External links
+[ edit ] History of interest
+According to historian Paul Johnson , the lending of "food money" was commonplace in Middle East civilizations as far back as 5000BC. They regarded interest as legitimate since acquired seeds and animals could "reproduce themselves"; whilst the ancient Jewish religious prohibitions against usury were a "different view". [3] .
+In the Roman Empire interest rates were usually calculated on a monthly basis and set as multiples of 12, apparently for expedient calculation by the wealthy private individuals that did most of the moneylending. [4]
+The First Council of Nicaea , in 325, forbade clergy from engaging in usury [5] which was defined as lending on interest above 1 percent per month (12.7% APR ). Later ecumenical councils applied this regulation to the laity . [5] [6] Catholic Church opposition to interest hardened in the era of scholastics, when even defending it was considered a heresy . St. Thomas Aquinas , the leading theologian of the Catholic Church , argued that the charging of interest is wrong because it amounts to " double charging ", charging for both the thing and the use of the thing.
+In the medieval economy , loans were entirely a consequence of necessity (bad harvests, fire in a workplace) and, under those conditions, it was considered morally reproachable to charge interest.[ citation needed ] It was also considered morally dubious, since no goods were produced through the lending of money, and thus it should not be compensated, unlike other activities with direct physical output such as blacksmithing or farming. [7] For the same reason, interest has often been looked down upon in Islamic civilization , with most scholars agreeing that the Qur'an explicitly forbids charging interest.
+Medieval jurists developed several financial instruments to encourage responsible lending and circumvent prohibitions on ursury, such as the Contractum trinius
+Of Usury, from Brant's Stultifera Navis ( the Ship of Fools ); woodcut attributed to Albrecht Dürer
+In the Renaissance era, greater mobility of people facilitated an increase in commerce and the appearance of appropriate conditions for entrepreneurs to start new, lucrative businesses. Given that borrowed money was no longer strictly for consumption but for production as well, interest was no longer viewed in the same manner. The School of Salamanca elaborated on various reasons that justified the charging of interest: the person who received a loan benefited, and one could consider interest as a premium paid for the risk taken by the loaning party.
+There was also the question of opportunity cost , in that the loaning party lost other possibilities of using the loaned money. Finally and perhaps most originally was the consideration of money itself as merchandise, and the use of one's money as something for which one should receive a benefit in the form of interest. Martín de Azpilcueta also considered the effect of time. Other things being equal, one would prefer to receive a given good now rather than in the future. This preference indicates greater value. Interest, under this theory, is the payment for the time the loaning individual is deprived of the money.
+Economically, the interest rate is the cost of capital and is subject to the laws of supply and demand of the money supply . The first attempt to control interest rates through manipulation of the money supply was made by the French Central Bank in 1847 .
+The first formal studies of interest rates and their impact on society were conducted by Adam Smith , Jeremy Bentham and Mirabeau during the birth of classic economic thought.[ citation needed ] In the late 19th century leading Swedish economist Knut Wicksell in his 1898 Interest and Prices elaborated a comprehensive theory of economic crises based upon a distinction between natural and nominal interest rates. In the early 20th century, Irving Fisher made a major breakthrough in the economic analysis of interest rates by distinguishing nominal interest from real interest. Several perspectives on the nature and impact of interest rates have arisen since then.
+The latter half of the 20th century saw the rise of interest-free Islamic banking and finance, a movement that attempts to apply religious law developed in the medieval period to the modern economy. Some entire countries, including Iran, Sudan, and Pakistan, have taken steps to eradicate interest from their financial systems altogether.[ citation needed ] Rather than charging interest, the interest-free lender shares the risk by investing as a partner in profit loss sharing scheme, because predetermined loan repayment as interest is prohibited, as well as making money out of money is unacceptable. All financial transactions must be asset-backed and it does not charge any "fee" for the service of lending.
+[ edit ] Types of interest
+[ edit ] Simple interest
+Simple interest is calculated only on the principal amount, or on that portion of the principal amount that remains unpaid.
+The amount of simple interest is calculated according to the following formula:
+where r is the period interest rate (I/m), B0 the initial balance and mt the number of time periods elapsed.
+To calculate the period interest rate r, one divides the interest rate I by the number of periods mt.
+For example, imagine that a credit card holder has an outstanding balance of $2500 and that the simple interest rate is 12.99% per annum. The interest added at the end of 3 months would be,
+and they would have to pay $2581.19 to pay off the balance at this point.
+If instead they make interest-only payments for each of those 3 months at the period rate r, the amount of interest paid would be,
+Their balance at the end of 3 months would still be $2500.
+In this case, the time value of money is not factored in. The steady payments have an additional cost that needs to be considered when comparing loans. For example, given a $100 principal:
+Credit card debt where $1/day is charged: 1/100 = 1%/day = 7%/week = 365%/year.
+Corporate bond where the first $3 are due after six months, and the second $3 are due at the year's end: (3+3)/100 = 6%/year.
+Certificate of deposit ( GIC ) where $6 is paid at the year's end: 6/100 = 6%/year.
+There are two complications involved when comparing different simple interest bearing offers.
+When rates are the same but the periods are different a direct comparison is inaccurate because of the time value of money . Paying $3 every six months costs more than $6 paid at year end so, the 6% bond cannot be 'equated' to the 6% GIC.
+When interest is due, but not paid, does it remain 'interest payable', like the bond's $3 payment after six months or, will it be added to the balance due? In the latter case it is no longer simple interest, but compound interest.
+A bank account that offers only simple interest, that money can freely be withdrawn from is unlikely, since withdrawing money and immediately depositing it again would be advantageous.
+[ edit ] Composition of interest rates
+In economics, interest is considered the price of credit, therefore, it is also subject to distortions due to inflation . The nominal interest rate, which refers to the price before adjustment to inflation, is the one visible to the consumer (i.e., the interest tagged in a loan contract, credit card statement, etc.). Nominal interest is composed of the real interest rate plus inflation, among other factors. A simple formula for the nominal interest is:
+Where i is the nominal interest, r is the real interest and
+is inflation.
+This formula attempts to measure the value of the interest in units of stable purchasing power. However, if this statement were true, it would imply at least two misconceptions. First, that all interest rates within an area that shares the same inflation (that is, the same country) should be the same. Second, that the lenders know the inflation for the period of time that they are going to lend the money.
+One reason behind the difference between the interest that yields a treasury bond and the interest that yields a mortgage loan is the risk that the lender takes from lending money to an economic agent. In this particular case, a government is more likely to pay than a private citizen. Therefore, the interest rate charged to a private citizen is larger than the rate charged to the government.
+To take into account the information asymmetry aforementioned, both the value of inflation and the real price of money are changed to their expected values resulting in the following equation:
+Here,
+is the nominal interest at the time of the loan,
+is the real interest expected over the period of the loan,
+is the inflation expected over the period of the loan and
+is the representative value for the risk engaged in the operation.
+[ edit ] Cumulative interest or return
+This section requires expansion .
+The calculation for cumulative interest is (FV/PV)-1. It ignores the 'per year' convention and assumes compounding at every payment date. It is usually used to compare two long term opportunities.[ citation needed ]
+[ edit ] Other conventions and uses
+Exceptions:
+US and Canadian T-Bills (short term Government debt) have a different calculation for interest. Their interest is calculated as (100-P)/P where 'P' is the price paid. Instead of normalizing it to a year, the interest is prorated by the number of days 't': (365/t)*100. (See also: Day count convention ). The total calculation is ((100-P)/P)*((365/t)*100). This is equivalent to calculating the price by a process called discounting at a simple interest rate.
+Corporate Bonds are most frequently payable twice yearly. The amount of interest paid is the simple interest disclosed divided by two (multiplied by the face value of debt).
+Flat Rate Loans and the Rule of .78s: Some consumer loans have been structured as flat rate loans, with the loan outstanding determined by allocating the total interest across the term of the loan by using the " Rule of 78s " or "Sum of digits" method. Seventy-eight is the sum of the numbers 1 through 12, inclusive. The practice enabled quick calculations of interest in the pre-computer days. In a loan with interest calculated per the Rule of 78s, the total interest over the life of the loan is calculated as either simple or compound interest and amounts to the same as either of the above methods. Payments remain constant over the life of the loan; however, payments are allocated to interest in progressively smaller amounts. In a one-year loan, in the first month, 12/78 of all interest owed over the life of the loan is due; in the second month, 11/78; progressing to the twelfth month where only 1/78 of all interest is due. The practical effect of the Rule of 78s is to make early pay-offs of term loans more expensive. For a one year loan, approximately 3/4 of all interest due is collected by the sixth month, and pay-off of the principal then will cause the effective interest rate to be much higher than the APY used to calculate the payments. [8]
+In 1992, the United States outlawed the use of "Rule of 78s" interest in connection with mortgage refinancing and other consumer loans over five years in term. [9] Certain other jurisdictions have outlawed application of the Rule of 78s in certain types of loans, particularly consumer loans. [8]
+Rule of 72: The " Rule of 72 " is a "quick and dirty" method for finding out how fast money doubles for a given interest rate. For example, if you have an interest rate of 6%, it will take 72/6 or 12 years for your money to double, compounding at 6%. This is an approximation that starts to break down above 10%.
+[ edit ] Market interest rates
+This unreferenced section requires citations to ensure verifiability .
+There are markets for investments (which include the money market, bond market, as well as retail financial institutions like banks) set interest rates . Each specific debt takes into account the following factors in determining its interest rate:
+[ edit ] Opportunity cost
+Opportunity cost encompasses any other use to which the money could be put, including lending to others, investing elsewhere, holding cash (for safety, for example), and simply spending the funds.
+[ edit ] Inflation
+Since the lender is deferring consumption, they will wish, as a bare minimum, to recover enough to pay the increased cost of goods due to inflation . Because future inflation is unknown, there are three ways this might be achieved:
+Charge X% interest 'plus inflation' Many governments issue 'real-return' or 'inflation indexed' bonds. The principal amount or the interest payments are continually increased by the rate of inflation. See the discussion at real interest rate .
+Decide on the 'expected' inflation rate. This still leaves the lender exposed to the risk of 'unexpected' inflation.
+Allow the interest rate to be periodically changed. While a 'fixed interest rate' remains the same throughout the life of the debt, 'variable' or 'floating' rates can be reset. There are derivative products that allow for hedging and swaps between the two.
+However interest rates are set by the market, and it happens frequently that they are insufficient to compensate for inflation: for example at times of high inflation during e.g. the oil crisis; and currently (2011) when real yields on many inflation-linked government stocks are negative.
+[ edit ] Default
+There is always the risk the borrower will become bankrupt , abscond or otherwise default on the loan. The risk premium attempts to measure the integrity of the borrower, the risk of his enterprise succeeding and the security of any collateral pledged. For example, loans to developing countries have higher risk premiums than those to the US government due to the difference in creditworthiness. An operating line of credit to a business will have a higher rate than a mortgage loan .
+The creditworthiness of businesses is measured by bond rating services and individual's credit scores by credit bureaus . The risks of an individual debt may have a large standard deviation of possibilities. The lender may want to cover his maximum risk, but lenders with portfolios of debt can lower the risk premium to cover just the most probable outcome.
+[ edit ] Default Interest
+Default interest is the interest that a borrower would pay if the borrower will not fulfill the loan covenants. The default interest is usually much higher than the original interest since it is reflecting the aggravation in the financial risk of the borrower. The default interest compensates the lender for the added risk.
+Banks tend to add default interest to the loan agreements in order to separate between different scenarios.
+[ edit ] Deferred consumption
+Charging interest equal only to inflation will leave the lender with the same purchasing power, but they would prefer their own consumption sooner rather than later. There will be an interest premium of the delay. They may not want to consume, but instead would invest in another product. The possible return they could realize in competing investments will determine what interest they charge.
+[ edit ] Length of time
+Shorter terms often have less risk of default and exposure to inflation because the near future is easier to predict. In these circumstances, short term interest rates are lower than longer term interest rates (an upward sloping yield curve).
+[ edit ] Government intervention
+Interest rates are generally determined by the market, but government intervention - usually by a central bank - may strongly influence short-term interest rates, and is one of the main tools of monetary policy . The central bank offers to borrow (or lend) large quantities of money at a rate which they determine (sometimes this is money that they have created ex nihilo, i.e. printed) which has a major influence on supply and demand and hence on market interest rates.
+[ edit ] Open market operations in the United States
+The effective federal funds rate charted over more than fifty years.[ citation needed ]
+The Federal Reserve (Fed) implements monetary policy largely by targeting the federal funds rate . This is the rate that banks charge each other for overnight loans of federal funds . Federal funds are the reserves held by banks at the Fed.
+Open market operations are one tool within monetary policy implemented by the Federal Reserve to steer short-term interest rates. Using the power to buy and sell treasury securities , the Open Market Desk at the Federal Reserve Bank of New York can supply the market with dollars by purchasing T-notes , hence increasing the nation's money supply. By increasing the money supply or Aggregate Supply of Funding (ASF), interest rates will fall due to the excess of dollars banks will end up with in their reserves. Excess reserves may be lent in the Fed funds market to other banks, thus driving down rates.
+[ edit ] Interest rates and credit risk
+It is increasingly recognized that the business cycle, interest rates and credit risk are tightly interrelated. The Jarrow-Turnbull model was the first model of credit risk that explicitly had random interest rates at its core. Lando (2004), Darrell Duffie and Singleton (2003), and van Deventer and Imai (2003) discuss interest rates when the issuer of the interest-bearing instrument can default.
+[ edit ] Money and inflation
+Loans and bonds have some of the characteristics of money and are included in the broad money supply.
+National governments (provided, of course, that the country has retained its own currency) can influence interest rates and thus the supply and demand for such loans, thus altering the total of loans and bonds issued. Generally speaking, a higher real interest rate reduces the broad money supply.
+Through the quantity theory of money , increases in the money supply lead to inflation. This means that interest rates can affect inflation in the future.[ citation needed ]
+[ edit ] Interest in mathematics
+It is thought that Jacob Bernoulli discovered the mathematical constant e by studying a question about compound interest. [10] He realized that if an account that starts with $1.00 and pays say 100% interest per year, at the end of the year, the value is $2.00; but if the interest is computed and added twice in the year, the $1 is multiplied by 1.5 twice, yielding $1.00×1.5² = $2.25. Compounding quarterly yields $1.00×1.254 = $2.4414…, and so on.
+Bernoulli noticed that if the frequency of compounding is increased without limit, this sequence can be modeled as follows:
+,
+[ edit ] Formulae
+The balance of a loan with regular monthly payments is augmented by the monthly interest charge and decreased by the payment so
+,
+where
+i = loan rate/100 = annual rate in decimal form (e.g. 10% = 0.10 The loan rate is the rate used to compute payments and balances.)
+r = period rate = i/12 for monthly payments (customary usage for convenience) [1]
+B0 = initial balance (loan principal )
+Bk = balance after k payments
+k = balance index
+p = period (monthly) payment
+By repeated substitution one obtains expressions for Bk, which are linearly proportional to B0 and p and use of the formula for the partial sum of a geometric series results in
+A solution of this expression for p in terms of B0 and Bn reduces to
+To find the payment if the loan is to be finished in n payments one sets Bn = 0.
+The PMT function found in spreadsheet programs can be used to calculate the monthly payment of a loan:
+An interest-only payment on the current balance would be
+.
+The total interest, IT, paid on the loan is
+.
+The formulas for a regular savings program are similar but the payments are added to the balances instead of being subtracted and the formula for the payment is the negative of the one above. These formulas are only approximate since actual loan balances are affected by rounding. To avoid an underpayment at the end of the loan, the payment must be rounded up to the next cent. The final payment would then be (1+r)Bn-1.
+Consider a similar loan but with a new period equal to k periods of the problem above. If rk and pk are the new rate and payment, we now have
+.
+Comparing this with the expression for Bk above we note that
+and
+.
+The last equation allows us to define a constant that is the same for both problems,
+and Bk can be written as
+.
+Solving for rk we find a formula for rk involving known quantities and Bk, the balance after k periods,
+Since B0 could be any balance in the loan, the formula works for any two balances separate by k periods and can be used to compute a value for the annual interest rate.
+B* is a scale invariant since it does not change with changes in the length of the period.
+Rearranging the equation for B* one gets a transformation coefficient ( scale factor ),
+and we see that r and p transform in the same manner,
+The change in the balance transforms likewise,
+which gives an insight into the meaning of some of the coefficients found in the formulas above. The annual rate, r12, assumes only one payment per year and is not an "effective" rate for monthly payments. With monthly payments the monthly interest is paid out of each payment and so should not be compounded and an annual rate of 12·r would make more sense. If one just made interest-only payments the amount paid for the year would be 12·r·B0.
+Substituting pk = rk B* into the equation for the Bk we get,
+Since Bn = 0 we can solve for B*,
+.
+Substituting back into the formula for the Bk shows that they are a linear function of the rk and therefore the λk,
+This is the easiest way of estimating the balances if the λk are known. Substituting into the first formula for Bk above and solving for λk+1 we get,
+λ0 and λn can be found using the formula for λk above or computing the λk recursively from λ0 = 0 to λn.
+Since p=rB* the formula for the payment reduces to,
+and the average interest rate over the period of the loan is
+,

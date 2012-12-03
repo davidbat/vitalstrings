@@ -1,0 +1,50 @@
+4D Compound Interest
+4D  Compound Interest
+When you deposit money in a bank, you are in effect loaning money to the bank. Most banks pay compound interest on deposits rather than simple interest. Under compound interest, interest is paid not only on your original deposit but also on interest already accumulated. To point out the difference between simple and compound interest, we look at a hypothetical example.
+Let us suppose that Phoebe, having earned $100 selling fresh milk, deposits this amount in a bank paying a 6% annual interest rate on savings. If this interest is simple, then each year the interest her deposit earns is
+I = P · r · t = $100 · .06 · 1  = $6  .
+Therefore, after one year her savings will have grown to $106, after two years to $112, after three years to $118, and so on. But when you think about it, this arrangement is not totally fair because as the years go by her bank is keeping all the interest that she has earned, but it is paying new interest based only on her original deposit - the bank is enjoying free use of the money she has earned as interest!
+Of course no one wants to be unfair to a little girl, so banks offer also compound interest savings plans. Under these plans, every once in a while, on a regular basis, the interest earned on an account is added to the principal to arrive at a new principal - and henceforth interest is based on the new principal instead of on the original amount deposited. If interest is compounded annually, then interest is added to the principal once a year. If it is compounded semiannually, then interest is added to the principal every six months, if compounded quarterly, then it is added every three months, etc. Interest compounded daily is added to the principal every day.
+Now let us do some calculations on Phoebe's account assuming that her interest is compounded annually. After one year she has earned 6% of $100 as interest, or $6, so her new principal for the second year is 106% of $100, or $100 + $6 = $106. We can do this calculation in one step with the multiplication
+106% · $100 = 1.06 · $100 = $106  .
+During the second year Phoebe earns interest on her new principal of $106. She earns 6% of $106, so after two years she will have 106% of $106, or
+106% · $106 = 1.06 · $106 = $112.36  .
+During the third year Phoebe earns interest on the new principal of $112. 36, so after three years she will have 106% of $112.36, or
+106% · $112.36 = 1.06 · $112.36 ≈ $119.10  .
+Our conclusion after all these calculations is that each year Phoebe's money is multiplied by 1.06. The factor 1.06 comes from adding the annual interest rate 6% to 100%, to arrive at 106%. Alternatively, we could add 1 + .06 = 1.06. So if we want to know how much Phoebe has in her account say after 5 years, we begin with her original deposit of $100 and multiply by 1.06 a total of 5 times; the result is
+$100 · 1.06 · 1.06 · 1.06 · 1.06 · 1.06 = $100 · 1.065 ≈ $133.82  .
+(Such calculations are more easily done on a scientific calculator having a separate button for powers - first you compute 1.06 to the power 5, and then you multiply by 100.)
+ 
+Huh?
+ 
+Next let us suppose that Phoebe's interest is compounded semiannually, so that now her interest is added to her principal every six months instead of every year. After the first six months, or 1/2 year, the amount of interest she has earned is
+I = P · r · t = $100 · .06 · ½ = $100 · .03 = $3  ,
+and so her new principal after six months is $100 + $3 = $103. We can look at it also this way - for a half-year period her interest percentage is cut in half, from 6% to 3%, so that the interest she earns is 3% of $100. Thus her new principal after six months is 103% of $100, or
+103% · $100 = 1.03 · $100 = $103  .
+The same reasoning shows that Phoebe's principal gets multiplied by the factor 1.03 every half-year. After one year, two half-year periods have passed, so Phoebe's money has been multiplied by 1.03 twice; her amount after one year is
+$100 · 1.03 · 1.03 = $100 · 1.032 = $106.09  .
+After two years, 4 half-year time periods have passed, so after two years Phoebe has
+$100 · 1.034 ≈ $112.55  .
+The interest rate 3% is called the periodic interest rate for Phoebe's loan; it represents the percentage of the principal her money earns over the time period between compoundings. We see that, for interest compounded semiannually, the periodic interest rate is half the annual interest rate.
+If Phoebe's interest is compounded quarterly, then interest is compounded four times a year, so her periodic interest rate is 6%/4 = 1.5% = .015. Consequently, every three months her principal is multiplied by the factor 1 + .015 = 1.015. For instance, after two years, eight quarter-year time periods have passed, so her money has grown to
+$100 · 1.0158 ≈ $112.65  .
+Now let us consider the formula for the general situation. Suppose you deposit a principal P, at a certain annual interest rate, but compounded after every time period of some specified length. How much is your new amount A after N time periods? We let R denote the periodic interest rate - that is, R is the percentage interest your money earns each time period. Then after each time period your money is multiplied by (1 + R) (where R is first expressed as a decimal). After N compoundings, your money has been multiplied by (1 + R) a total of N times, and your amount is
+A = P · (1 + R)N  .
+example 1
+A paperboy, saving for his education, deposited $500 at an annual interest rate of 8%, compounded quarterly. What will his investment be worth in 7½ years, when he enters college at U.H.?
+The principal is P = $500. As interest is compounded four times a year, the periodic interest rate is R = 8% ÷ 4 = 2%. The number of compoundings in 7½ years is  N = 4 · 7½ = 30. At that time the paperboy's investment will be worth
+A = P · (1 + R)N = $500 · (1 + .02)30 = $500 · 1.0230 ≈ $905.68  .
+Note that to compute the periodic interest rate you divide the annual interest rate by the number of compoundings each year. However, to compute the number of time periods you multiply the number of years by the number of compoundings each year. If we let
+n = # of compoundings per year,
+r = annual interest rate,
+t = # of years of the loan,
+N = # of compoundings of the loan,
+then we have the relations
+R = r/n      ,      N = n · t  .
+Here is the equation for the amount A after t years with beginning principal P:
+COMPOUND INTEREST      FORMULA
+A = P · (1 + R)N = P · (1 + r/n)n·t  .
+The formula is not hard to remember if you understand how it is derived - at each compounding the amount is multiplied by (1 + R), so that after N compoundings the original principal P has been multiplied by (1 + R)N.
+example 2
+The Teradas, upon their marriage 40 years ago, invested $10,000 at an annual interest rate of 5%. We compute the amount in their account today, assuming that interest in the account has been compounded
+annually,

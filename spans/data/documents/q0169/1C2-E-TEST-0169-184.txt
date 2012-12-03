@@ -1,0 +1,11 @@
+Log In
+Sparse Matrix Design
+CPSC2190 Assignment 05 Due date: November 13, 2008 Naoya Makino: 100106040 Purpose: Design an ADT sparse_matrix that operates on sparse matrices (to store only the non-zero entries). Definitions: In the mathematical subfield of numerical analysis a sparse matrix is a matrix populated primarily with zeros. en.wikipedia.org/wiki/Sparse matrix Compressed Row Storage: it only stores non-zero elements in a Matirx
+How to store data using CRS method Example: 10 0 0 12 0 values       = {10,12,11,13,16,11,13} 0 0 11 0 13 col_index    = {1,4,3,5,2,3,5} A =  0 16 0 0 0 then, row_pointer  = {0,2,4,5,7} 0 0 11 0 13 Reference Boost C++ Libraries - Sparse Matrix, http://www.boost.org/doc/libs/1_36_0/libs/numeric/ublas/doc/matrix_sparse.htm, November 06, 2008. http://www.personal.psu.edu/jhm/ME540/lectures/templates/node91.html, November 12, 2008 http://de.wikipedia.org/wiki/Compressed_Row_Storage, November 12, 2008
+Leave a Comment
+Comment must not be empty.
+You must be logged in to leave a comment.
+Submit
+Comment must not be empty.
+You must be logged in to leave a comment.
+Submit

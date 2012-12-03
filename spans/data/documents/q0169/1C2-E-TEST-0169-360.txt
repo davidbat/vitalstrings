@@ -1,0 +1,43 @@
+Re: inverse of sparse matrix
+Re: inverse of sparse matrix
+From: "Gulcin M Muslu" < gulcinmuslu@xxxxxxxxx >
+Date: Fri, 4 Jul 2008 13:06:02 +0000 (UTC)
+Dear Prof. Davis,
+Thank you for your suggestions.
+To find the inverse of large sparse matrix A which is
+360000*360000,  I use the command
+B= A \speye(360000)
+But I get the error message
+??? Error using ==> mldivide
+Out of memory. Type HELP MEMORY for your options.
+How can I solve this problem?
+Thanks.
+"Tim Davis" <davis@xxxxxxxxxxxx> wrote in message <g4jcu6
+$jnl$1@xxxxxxxxxxxxxxxxxx>...
+"Gulcin M Muslu" <gulcinmuslu@xxxxxxxxx> wrote in message
+<g4i09d$aki$1@xxxxxxxxxxxxxxxxxx>...
+I need to find the inverse of a very large sparse
+matrix.
+The size of the matrix is 360000.
+The problem is that Matlab yields : "Out of
+memory" ,when I
+I tried to find the inverse of A by using the command
+C=A\speye(360000). But C*A is not equal to identity
+matrix.
+Why it is not working?
+If somebody knows how to I find the inverse of sparse
+large matrix simply, please help me.
+Thanks.
+The solution is to never ever to compute the inverse of a
+sparse matrix.
+If dmperm reports that the matrix is a single block
+(nblocks
+= length(r)-1 from the r output of dmperm) then your
+inverse
+will be completely nonzero.  The largest block of size
+max(diff(r)) will be dense, if nblocks > 1.  If that is
+large, then it's hopeless trying to invert your sparse
+matrix.
+If you are wanting to multiply by the inverse of a sparse
+matrix, then use backslash instead.
+.

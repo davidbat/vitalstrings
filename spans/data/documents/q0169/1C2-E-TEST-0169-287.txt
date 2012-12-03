@@ -1,0 +1,337 @@
+Figure 3: Overview of sparse matrices used in evaluation study.
+4    SpMV Optimizations
+In this section, we discuss the SpMV tuning optimizations that we considered, in the order in which they are applied
+during auto-tuning. These tuning routines are designed to be effective on both conventional cache-based multicores
+as well as the Cell architecture; as a result, several optimizations were restricted to facilitate Cell programming.
+The complete set of optimizations can be classiﬁed into three areas: low-level code optimizations, data structure
+10
+Code Optimization                     Data Structure Optimization    Parallelization Optimization
+x86 VF Cell                       x86 VF Cell                    x86 VF Cell
+4   4    5
+SIMDization                    N/A              BCSR                      Row Threading
+6   8    7
+Software Pipelining                                BCOO                      Process Afﬁnity
+10                                                               6   8    7
+Branchless                                  16-bit indices Memory Afﬁnity
+10
+PF/DMA1 Values & Indices                         Register Blocking            9
+PF/DMA1 Pointers/Vectors                          Cache Blocking     2   2    3
+inter-SpMV data structure caching                     TLB Blocking
+Table 2: Overview of SpMV optimizations attempted in our study for the x86 (Santa Rosa, Barcelona and Clover-
+town), Victoria Falls, and Cell architectures. Notes: 1 PF/DMA (Prefetching or Direct Memory Access), 2 sparse cache
+blocking, 3 sparse cache blocking for DMA, 4 Pthreads, 5 libspe 2.0, 6 via Linux scheduler, 7 via libnuma, 8 via Solaris
+bind, 9 2x1 and larger, 10 implemented but resulted in no signiﬁcant speedup.
+optimizations (including the requisite code transformations), and parallelization optimizations. The ﬁrst two largely
+address single-core performance, while the third examines techniques to maximize multicore performance in a both
+single- and multi-socket environments. We examine a wide variety of optimizations including software pipelining,
+branch elimination, SIMD intrinsics, pointer arithmetic, numerous prefetching approaches, register blocking, cache
+blocking, TLB blocking, block-coordinate (BCOO) storage, smaller indices, threading, row parallelization, NUMA-
+aware mapping, process afﬁnity, and memory afﬁnity. A summary of these optimizations appears in Table 2.
+Most of these optimizations complement those available in OSKI. In particular, OSKI includes register blocking
+and single-level cache or TLB blocking, but not with reduced index sizes. OSKI also contains optimizations for
+symmetry, variable block size and splitting, and reordering optimizations, which we do not exploit in this paper. Except
+for unrolling and use of pointer arithmetic, OSKI does not explicitly control low-level instruction scheduling and
+selection details (e.g., software pipelining, branch elimination, SIMD intrinsics), relying instead on the compiler back-
+end. Finally, we apply the optimizations in a slightly different order to facilitate parallelization and Cell development.
+Explicit low-level code optimizations, including SIMD intrinsics, can be very beneﬁcial on each architecture.
+Applying these optimizations helps ensure that the cores are bound by memory bandwidth, rather than by instruction
+latency and throughput. Unfortunately, implementing them can be extremely tedious and time-consuming. We thus
+implemented a Perl-based code generator that produces the innermost SpMV kernels using the subset of optimizations
+appropriate for each underlying system. Our generators helped us explore the large optimization space effectively and
+productively — less than 500 lines of generators produced more than 30,000 lines of optimized kernels.
+11
+4.1     Thread Blocking
+The ﬁrst phase in the optimization process is exploiting thread-level parallelism. The matrix is partitioned into
+NThreads thread blocks, which may in turn be individually optimized. There are three approaches to partition-
+ing the matrix: by row blocks, by column blocks, and into segments. An implementation could use any or all of
+these, e.g., 3 row thread blocks each of 2 column thread blocks each of 2 thread segments. In both row and column
+parallelization, the matrix is explicitly blocked to exploit NUMA systems. To facilitate implementation on Cell, the
+granularity for partitioning is a cache line.
+Our implementation attempts to statically load balance SpMV by dividing the number of nonzeros among threads
+approximately equally, as the transfer of this data accounts for the majority of time on matrices whose vector working
+sets ﬁt in cache. It is possible to provide feedback and repartition the matrix to achieve better load balance, and a
+thread-based segmented scan could achieve some beneﬁt without reblocking the matrix. In this paper, we only exploit
+row partitioning, as column partitioning showed little potential beneﬁt; future work will examine segmented scan.
+To ensure a fair comparison, we explored a variety of barrier implementations and used the fastest implementation
+on each architecture. For example, the emulated Pthreads barrier (with mutexes and broadcasts) scaled poorly beyond
+32 threads and was therefore replaced with a simpler version where only thread 0 is capable of unlocking the other
+threads.
+Finally, for the NUMA architectures in our study (all but Clovertown), we apply NUMA-aware optimizations in
+which we explicitly assign each thread block to a speciﬁc core and node. To ensure that both the process and its
+associated thread block are mapped to a core (process afﬁnity) and the DRAM (memory afﬁnity) proximal to it, we
+used the NUMA routines that are most appropriate for a particular architecture and OS. The libnuma library was
+used on the Cell. We implemented x86 afﬁnity via the Linux scheduler, and native Solaris scheduling routines were
+used on Victoria Falls. We highlight that benchmarking with the OS schedulers must be handled carefully, as the
+mapping between processor ID and physical ID is unique to each machine. For instance, the socket ID is speciﬁed by
+the least-signiﬁcant bit on the evaluated Clovertown system and the most-signiﬁcant bit on the others.
+The SpMV optimizations discussed in subsequent subsections are performed on thread blocks individually.
+12
+4.2      Padding
+In many of the architectures used in this study, multiple threads share a single L2 cache. Normally, the associativity
+per thread is sufﬁciently high that conﬂict misses are unlikely. However, on machines such as Victoria Falls, the L2
+associativity (16-way) is so low compared with the number of threads sharing it (64) that conﬂict misses are likely.
+To avoid conﬂict misses, we pad the ﬁrst element of each submatrix to a unique set of the cache determined by the
+corresponding thread’s rank. Thus, the ﬁrst element of each array of each thread is equidistant in the cache. We
+apply a second level of padding to avoid L2 bank conﬂicts. This technique can substantially improve performance and
+scalability and is thus an essential ﬁrst step.
+4.3      Cache and Local Store Blocking
+For sufﬁciently large matrices, it is not possible to keep the source and destination vectors in cache, potentially causing
+numerous capacity misses. Prior work shows that explicitly cache blocking the nonzeros into tiles (≈ 1K × 1K)
+can improve SpMV performance [11, 16]. We extend this idea by accounting for cache utilization, rather than only
+spanning a ﬁxed number of columns. Speciﬁcally, we ﬁrst quantify the number of cache lines available for blocking,
+and span enough columns such that the number of source vector cache lines touched is equal to those available for
+cache blocking. Using this approach allows each cache block to touch the same number of cache lines, even though
+they span vastly different numbers of columns. We refer to this optimization as sparse cache blocking, in contrast to
+the classical dense cache blocking approach. Unlike OSKI, where the block size must be speciﬁed or searched for, we
+use a heuristic to cache block.
+Given the total number of cache lines available, we specify one of three possible blocking strategies: block neither
+the source nor the destination vector, block only the source vector, or block both the source and destination vectors.
+In the second case, all cache lines can be allocated to blocking the source vector. However, when implementing the
+third strategy, the cache needs to store the potential row pointers as well as the source and destination vectors; we thus
+allocated 40%, 40%, and 20% of the cache lines to the source, destination, and row pointers respectively.
+Although these three options are explored for cache-based systems, the Cell architecture always requires cache
+blocking (i.e., blocking for the local store) for both the source and destination vector — this Cell variant requires
+cache blocking for DMA. To facilitate the process, a DMA list of all source vector cache lines touched in a cache block
+is created.
+13
+This list is used to gather the stanzas of the source vector and pack them contiguously in the local store via the
+DMA get list command. This command has two constraints: each stanza must be less than 16KB, and there can
+be no more than 2K stanzas. Thus, the sparsest possible cache block cannot touch more than 2K cache lines, and
+in the densest case, multiple contiguous stanzas are required. (We unify the code base of the cache-based and Cell
+implementations by treating cache-based machines as having large numbers of stanzas and cache lines.) Finally, since
+the DMA get list packs stanzas together into the disjoint address space of the local store, the addresses of the source
+vector block when accessed from an SPE are different than when accessed from DRAM. As a result, the column
+indices must be re-encoded to be local store relative.
+4.4      TLB Blocking
+Prior work showed that TLB misses can vary by an order of magnitude depending on the blocking strategy, highlighting
+the importance of TLB blocking [16]. Thus, on the three evaluation platforms running Linux with 4KB pages for heap
+allocation (Victoria Falls running Solaris uses 4MB pages), we heuristically limit the number of source vector cache
+lines touched in a cache block by the number of unique pages touched by the source vector. Rather than searching for
+the TLB block size, which would require costly re-encoding of the matrix, we explore two tuning settings: no TLB
+blocking and using the heuristic. Note that for the x86 machines we found it beneﬁcial to block for the L1 TLB (each
+cache block is limited to touching 32 4KB pages of the source vector).
+4.5      Register Blocking and Format Selection
+The next optimization phase is to transform the matrix data structure to shrink its memory footprint. Intuitively, im-
+proving performance by reducing memory bandwidth requirements should be more effective than improving single
+thread performance, since it is easier and cheaper to double the number of cores rather than double the DRAM band-
+ı
+width [1]. In a na¨ve coordinate approach, 16 bytes of storage are required for each matrix nonzero: 8 bytes for the
+double-precision nonzero, plus 4 bytes each for row and column coordinates. Our data structure transformations can,
+for some matrices, cut these storage requirements nearly in half. A possible future optimization, exploiting symmetry,
+could cut the storage in half again.
+Register blocking groups adjacent nonzeros into rectangular tiles, with only one coordinate index per tile [11].
+Since not every value has an adjacent nonzero, it is possible to store zeros explicitly in the hope that the 8 byte deﬁcit
+14
+is offset by index storage savings on many other tiles. For this paper we limit ourselves to power-of-two block sizes up
+to 8×8, to facilitate SIMDization, minimize register pressure, and allow a footprint minimizing heuristic to be applied.
+Instead of searching for the best register block, we implement a two-step heuristic. First, we implicitly register block
+each cache block using 8 × 8 tiles. Then, for each cache block, we inspect each 8 × 8 tile hierarchically in powers of
+two and determine how many tiles are required for each 2k × 2l blocking, i.e., we count the number of tiles for 8 × 4
+tiles, then for 8 × 2 tiles, then for 8 × 1 tiles, and so on.
+For cache block encoding, we consider block coordinate (BCOO) and block compressed sparse row (BCSR; Sec-
+tion 2) formats. BCSR requires a pointer for every register blocked row in the cache block and a single column
+index for each register block, whereas BCOO requires 2 indices (row and column) for each register block, but no row
+pointers. The BCSR can be further accelerated either by specifying the ﬁrst and last non-empty row, or by using a
+generalized BCSR format that stores only non-empty rows while associating explicit indices with either each row or
+with groups of consecutive rows (both available in OSKI). We choose a register block format for each cache block
+(not just each thread) separately.
+As Cell is a SIMD architecture, it is expensive to implement 1x1 blocking, especially in double precision. In
+addition, since Cell streams nonzeros into buffers [30], it is far easier to implement BCOO than BCSR. Thus to
+maximize our productivity, for each architecture we specify the minimum and maximum block size, as well as a mask
+that enables each format. On Cell, this combination of conﬁguration variables requires block sizes of at least 2 × 1,
+which will tend to increase memory trafﬁc requirements and thereby potentially degrade Cell performance, while
+facilitating productivity.
+4.6     Index Size Selection
+As a cache block may span fewer than 64K columns, it is possible to use memory efﬁcient indices for the columns
+(and rows) using 16b integers. Doing so provides a 20% reduction in memory trafﬁc for some matrices, which could
+translate up to a 20% increase in performance. On Cell, no more than 32K unique doubles can reside in the local
+store at any one time, and unlike caches, this address space is disjoint and contiguous. Thus, on Cell we can always
+use 16b indices within a cache block, even if the entire matrix in DRAM spans 1 million columns. This is the ﬁrst
+advantage our implementation conferred on the Cell. Note that our technique is less general but simpler than a recent
+index compression approach [28].
+15
+4.7     Architecture-speciﬁc Kernels
+The SpMV multithreaded framework is designed to be modular. A conﬁguration ﬁle speciﬁes which of the previously
+described optimizations to apply for a particular architecture and matrix. At run-time, an optimization routine trans-
+forms the matrix data structure accordingly, and an execution routine dispatches the appropriate kernel for that data
+structure. To maximize productivity, a single Perl script generates all kernel implementations as well as the unique con-
+ﬁguration ﬁle for each architecture. Each kernel implements a sparse cache block matrix multiplication for the given
+encoding (register blocking, index size, format). There is no restriction on how this functionality is implemented; thus
+the generator may be tailored for each architecture.
+4.8     SIMDization
+The Cell SPE instruction set architecture is rather restrictive compared to that of a conventional RISC processor. All
+operations are on 128 bits (quadword) of data, all loads are of 16 bytes and must be 16 byte aligned. There are no
+double, word, half or byte loads. When a scalar is required it must be moved from its position within the quadword to
+a so-called preferred slot. Thus, the number of instructions required to implement a given kernel on Cell far exceeds
+that of other architectures, despite the computational advantage of SIMD. To overcome certain limitations in the
+compiler’s (xlc’s) code generation, our Cell kernel generator explicitly produces SIMDization intrinsics. The xlc static
+timing analyzer provides information on whether cycles are spent in instruction issue, double-precision issue stalls, or
+stalls for data hazards, thus simplifying the process of kernel optimization.
+In addition, we explicitly implement SSE instructions on the x86 kernels. Use of SSE made no performance
+difference on the Opterons, but resulted in signiﬁcant improvements on the Clovertown. However, when the optimal
+gcc tuning options are applied, SSE optimized code was only slightly faster than straight C code. Programs produced
+by the Intel compiler (icc 9.1) saw little beneﬁt from SSE instructions or compiler tuning options.
+4.9     Loop Optimizations
+A conventional CSR-based SpMV (Figure 1) consists of a nested loop, where the outer loop iterates across all rows
+and the inner loop iterates across the nonzeros of each row via a start and end pointer. However, in CSR storage, the
+end of one row is immediately followed by the beginning of the next, meaning that the column and value arrays are
+accessed in a streaming (unit-stride) fashion. Thus, it is possible to simplify the loop structure by iterating from the
+16
+ﬁrst nonzero to the last. This approach still requires a nested loop, but includes only a single loop variable and often
+results in higher performance.
+Additionally, since our format uses a single loop variable coupled with nonzeros that are processed in-order, we
+can explicitly software pipeline the code to hide any further instruction latency. In our experience, this technique is
+useful on in-order architectures like Cell, but is of little value on the out-of-order superscalars.
+Finally, the code can be further optimized using a branchless implementation, which is in effect a segmented scan
+of vector-length equal to one [4]. On Cell, we implement this technique using the select bits instruction. A
+branchless BCOO implementation simply requires resetting the running sum (selecting between the last sum or next
+value of Y ). Once again, we attempted this branchless implementations via SSE, cmov, and jumps, but without the
+equivalent of Cell’s XL/C static timing analyzer, could not determine why no performance improvements were seen.
+4.10    Software Prefetching
+We also consider explicit prefetching, using our code generator to tune the prefetch distance from 0 (no prefetching)
+to 1024 bytes. The x86 architectures rely on hardware prefetchers to overcome memory latency, but prefetched data is
+placed in the L2 cache, so L2 latency must still be hidden. Although Clovertown has a hardware prefetcher to transfer
+data from the L2 to the L1, software prefetch via intrinsics provides an effective way of not only placing data directly
+into the L1 cache, but also tagging it with the appropriate temporal locality. Doing so reduces L2 cache pollution,
+since nonzero values or indices that are no longer useful will be evicted. The Victoria Falls platform, on the other
+hand, supports prefetch but only into the L2 cache. As a result the L2 latency can only be hidden via multithreading.
+Despite this, Victoria Falls still showed beneﬁts from software prefetching.
+4.11    Autotuning Framework
+For each threading model, we implement an autotuning framework to produce architecture-optimized kernels. We
+attempt three cases: no cache and no TLB blocking, cache blocking with no TLB blocking, as well as cache and
+TLB blocking. For each of these, heuristics optimize the appropriate block size, register blocking, format, and index
+size. Additionally, we exhaustively search for the best prefetch distance on each architecture; this process is relatively
+fast as it does not require data structure changes. The Cell version does not require a search for the optimal prefetch
+distance searching due to the ﬁxed size of the DMA buffer. We report the peak performance for each tuning option.
+17
+Sustained Memory Bandwidth in GB/s (% of conﬁguration peak bandwidth)
+Sustained Performance in GFlop/s (% of conﬁguration peak computation)
+one socket,            one socket,            one socket,            all sockets,
+one core,              one core,               all cores,            all cores,
+Machine             one thread             all threads             all threads           all threads
+5.32 GB/s (49.9%) 5.32 GB/s (49.9%) 7.44 GB/s (69.8%) 14.88 GB/s (69.8%)
+Santa Rosa
+1.33 GF/s (30.2%) 1.33 GF/s (30.2%) 1.86 GF/s (21.2%) 3.72 GF/s (21.1%)
+5.40 GB/s (50.6%) 5.40 GB/s (50.6%) 9.32 GB/s (87.4%) 18.56 GB/s (87.0%)
+Barcelona
+1.35 GF/s (14.7%) 1.35 GF/s (14.7%) 2.33 GF/s (6.3%) 4.64 GF/s (6.3%)
+2.36 GB/s (22.1%) 2.36 GB/s (22.1%) 5.28 GB/s (56.3%) 11.12 GB/s (52.1%)
+Clovertown
+0.59 GF/s (6.3%) 0.59 GF/s (6.3%) 1.32 GF/s (3.5%) 2.78 GF/s (3.7%)
+0.20 GB/s (0.9%) 2.96 GB/s (13.9%) 15.80 GB/s (74.1%) 29.08 GB/s (68.1%)
+Victoria Falls
+0.05 GF/s (4.3%) 0.74 GF/s (63.4%) 3.95 GF/s (42.3%) 7.27 GF/s (38.9%)
+4.75 GB/s (18.6%) 4.75 GB/s (18.6%) 24.73 GB/s (96.6%) 47.29 GB/s (92.4%)
+Cell Blade
+1.15 GF/s (62.9%) 1.15 GF/s (62.9%) 5.96 GF/s (40.7%) 11.35 GF/s (38.8%)
+Table 3: Sustained bandwidth and computational rate for a dense matrix stored in sparse format, in GB/s (and percent-
+age of conﬁguration’s peak bandwidth) and GFlop/s (and percentage of conﬁguration’s peak performance).
+5      SPMV Performance Results
+In this section, we present SpMV performance on our sparse matrices and multicore systems. We compare our imple-
+mentations to serial OSKI and parallel (MPI) PETSc with OSKI. PETSc was run with up to 8 tasks on Santa Rosa,
+Barcelona, and Clovertown; and up to 256 tasks on Victoria Falls. We present the fastest results for the case where
+fewer tasks achieved higher performance. OSKI was compiled with both gcc and icc, with the best results shown.
+For our SpMV code we used gcc 4.1.2 on the Opterons and Clovertown (icc was no faster), gcc 4.0.4 on
+Victoria Falls, and xlc on the Cell.
+For clarity, we present the performance of each optimization condensed into a stacked bar format as seen in
+Figure 4. Each bar segment corresponds to an individual trial rather than to components of a total. In addition, we
+provide median performance (half perform better/worse) our matrix set for each optimization. Readers interested in a
+speciﬁc area (e.g., ﬁnite element meshes or linear programming) should focus on those matrices rather than median.
+5.1      Performance Impact of Matrix Structure
+Before presenting experimental results, we ﬁrst explore the structure and characteristics of several matrices in our
+test suite, and consider their expected effect on runtime performance. In particular, we examine the impact that few
+nonzero entries per row have on the CSR format and the ﬂop:byte ratio (the upper limit is 0.25, two ﬂops for eight
+bytes), as well as the ramiﬁcations of cache blocking on certain types of matrices.
+Note that all of our CSR implementations use a nested loop structure. As such, matrices with few nonzeros per row
+18
+(inner loop length) cannot amortize the loop startup overhead. This cost, including a potential branch mispredict, can
+be more expensive than processing a nonzero tile. Thus, even if the source/destination vectors ﬁt in cache, we expect
+matrices like Webbase, Epidemiology, Circuit, and Economics to perform poorly across all architectures. Since the
+Cell version successfully implements a branchless BCOO format it will not suffer from the loop overhead problem,
+but may suffer from poor register blocking and an inherent low ﬂop:byte ratio.
+Matrices like Epidemiology, although structurally nearly diagonal, have very large vectors and few non-zeros per
+row. As such, the number of compulsory misses to load and store the vectors is high compared to that of reading
+the matrix, thereby making the ﬂop:byte ratio relatively small. For instance, assume a cache line ﬁll is required on a
+write miss so that the destination vector generates 16 bytes of trafﬁc per element. Then, the Epidemiology matrix has a
+ﬂop:byte ratio of about 2∗2.1M/(12∗2.1M +8∗526K +16∗526K) or 0.11. Given the Barcelona’s and Clovertown’s
+peak sustained memory bandwidths are 18.56 GB/s and 11.12 GB/s respectively, we do not expect the performance of
+Epidemiology to exceed 2.04 GFlop/s and 1.22 GFlop/s (respectively), regardless of CSR performance. The results of
+Figure 4 (discussed in detail in Section 5) conﬁrm this prediction.
+Aside from Cell, we ﬂush neither the matrix nor the vectors from the cache between SpMVs. Thus, matrices such
+as QCD and Economics, having fewer than 2M nonzeros and a footprint as little as 10 bytes per nonzero, may nearly
+ﬁt in the Clovertown’s collective 16MB cache. On these and other small matrices, the snoop ﬁlter in the memory
+controller hub will likely be effective in eliminating snoop trafﬁc that would normally clog the FSB.
+Finally, we examine the class of matrices represented by Linear Programming (LP). Our LP example matrix is very
+large, containing (on average) nearly three thousand nonzeros per row; however, this does not necessarily assure high
+performance. Our LP matrix has a dramatic aspect ratio with over a million columns, for only four thousand rows, and
+is structured in a highly irregular fashion. As a result, each processor must maintain a large working set of the source
+vector (between 6MB–8MB). Since no single core, or even pair of cores, in our study has this much available cache,
+we expect performance will suffer greatly due to source vector cache misses. Nevertheless, this matrix structure is
+amenable to effective cache and TLB blocking since there are plenty of nonzeros per row. In particular, LP should
+beneﬁt from cache blocking on both the Opterons and the Clovertown. Figure 4 conﬁrms this prediction. Note that this
+is the only matrix that showed any beneﬁt for column threading; thus we only implemented cache and TLB blocking
+as it improves LP as well as most other matrices.
+19
+5.2      Peak Effective Bandwidth
+On any balanced modern machine, SpMV should be limited by memory throughput; we thus analyze the best case for
+the memory system, which is a dense matrix in sparse format. This dense matrix is likely to provide an upper-bound on
+performance because it supports arbitrary register blocks without adding zeros, loops are long-running, and accesses
+to the source vector are contiguous and have high re-use. As the optimization routines result in a matrix storage format
+with a ﬂop:byte ratio of nearly 0.25, one can easily compute best-case GFlop/s or GB/s from time. Since all the
+multicore systems in our study have a ﬂop:byte ratio greater than 0.25, we expect these platforms to be memory bound
+on this kernel — if the deliverable streaming bandwidth is close to the advertised peak bandwidth. A summary of the
+results for the dense matrix experiments are shown in Table 3.
+Table 3 shows that the systems achieve a wide range of the available memory bandwidth, with only the Cell Blade
+and Barcelona come close to fully saturating the socket bandwidth. On Cell, this is due in part to the explicit local
+store architecture, in which double-buffered DMAs hide most of the memory latency. On Barcelona, we are observing
+the effectiveness of the architecture’s second (DRAM) prefetcher. High memory bandwidth utilization translates to
+high sustained performance, leading to over 11 GFlop/s (92% of theoretical bandwidth) on the dual-socket Cell blade.
+The Victoria Falls system represents an interesting contrast to the other systems. The data in Table 3 shows that the
+Victoria Falls system sustains only 1% of its memory bandwidth when using a single thread on a single core. There
+are numerous reasons for this poor performance. First, Victoria Falls has more single socket bandwidth than the other
+systems. Secondly, each SpMV iteration for a single thread has a high latency on Victoria Falls, as we explain next.
+The Victoria Falls architecture cannot deliver a 64-bit operand in less than 14 cycles (on average) for a single thread
+because the L1 line size is only 16 bytes with a latency of three cycles, while the L2 latency is about 22 cycles. Since
+each SpMV nonzero requires two unit-stride accesses and one indexed load, this results in between 23 and 48 cycles of
+memory latency per nonzero. Then, an additional eight cycles for instruction execution explains why a single thread on
+the Victoria Falls’ strictly in-order cores only sustains between 50 and 90 Mﬂop/s for 1 × 1 CSR (assuming a sufﬁcient
+number of nonzeros per row). With as much as 48 cycles of latency and 11 instructions per thread, performance should
+scale well and consume the resources of a single thread group. As an additional thread group and cores are added,
+performance is expected to continue scaling. However, since the machine ﬂop:byte ratio is only slightly larger than the
+ratio in the best case (dense matrix), it is unlikely this low frequency Victoria Falls can saturate its available memory
+bandwidth for the SpMV computation. This departure from our memory-bound multicore assumption suggests that
+20
+search-based auto-tuning is likely necessary for Victoria Falls.
+In contrast to the Cell and Victoria Falls in-order architectures, the performance behavior of the out-of-order su-
+perscalar Opteron and Clovertown are more difﬁcult to understand. For instance, the full Santa Rosa socket does not
+come close to saturating its available 10.6 GB/s bandwidth, even though a single core can use 5.3 GB/s. We believe
+the core prefetcher on the Opteron is insufﬁcient. It is even less obvious why the extremely powerful Clovertown core
+can only utilize 2.4 GB/s (22%) of its memory bandwidth, when the FSB can theoretically deliver 10.6 GB/s. Intel’s
+analysis of SpMV on Clovertown [7] suggested the coherency trafﬁc for the snoopy FSB protocol is comparable in
+volume to read trafﬁc. As a result, the effective FSB performance is cut in half. The other architectures examined here
+perform snoop-based coherency over a separate network. Performance results in Table 3 also show that, for this mem-
+ory bandwidth-limited application, Barcelona is 76% faster than a Clovertown for a full socket, despite comparable
+peak ﬂop rates. As a sanity check, we also ran tests (not shown) on a small matrix amenable to register blocking that
+ﬁt in the cache, and found that, as expected, the performance is very high — 29 GFlop/s on the Clovertown. Thus,
+performance is limited by the memory system but not by bandwidth per se, even though accesses are almost entirely
+unit-stride reads and are prefetched in both hardware and software.
+5.3      AMD Opteron (Santa Rosa) Performance
+Figure 4(a) presents SpMV performance of the Santa Rosa platform, showing increasing degrees of optimizations —
+ı             ı
+na¨ve serial, na¨ve fully parallel, NUMA, prefetching, register blocking, and cache blocking. Additionally, comparative
+results are shown for both serial OSKI and parallel (MPI) OSKI-PETSc.
+The effectiveness of optimization on Santa Rosa depends on the matrix structure. For example, the FEM-Ship
+matrix sees signiﬁcant improvement from register blocking (due to its natural block structure) but little beneﬁt from
+cache blocking, while the opposite effect holds true for the LP matrix. Generally, Santa Rosa performance is tied
+closely with the optimized ﬂop:byte ratio of the matrix, and suffers from short average inner loop lengths. The best
+performing matrices sustain a memory bandwidth of 10–14 GB/s, which corresponds to a high computational rate of
+2–3.3 GFlop/s. Conversely, matrices with low ﬂop:byte ratios show poor parallelization and cache behavior, sustaining
+a bandwidth signiﬁcantly less than 8 GB/s, and thus achieving performance of only 0.5–1 GFlop/s.
+ı
+Looking at overall SpMV behavior, parallelization sped up na¨ve runtime by a factor of 2.3× in the median case.
+ı
+Autotuning provided an additional 3.2× speedup over na¨ve parallel. Fully-tuned serial was about 1.6× faster than
+OSKI. More impressively, our fully-tuned parallel performance was about 4.2× faster than OSKI-PETSc. Clearly,
+21
+4.0                        Santa Rosa                                                                              +$/TLB Block                                           5.0                                                                                                   +$/TLB Block
+Barcelona

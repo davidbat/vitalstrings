@@ -1,0 +1,61 @@
+[ edit ] Terminology
+The effect of compounding depends on the frequency with which interest is compounded and the periodic interest rate which is applied. Therefore, in order to define accurately the amount to be paid under a legal contract with interest, the frequency of compounding (yearly, half-yearly, quarterly, monthly, daily, etc.) and the interest rate must be specified. Different conventions may be used from country to country, but in finance and economics the following usages are common:
+Periodic rate: the interest that is charged (and subsequently compounded) for each period, divided by the amount of the principal. The periodic rate is used primarily for calculations, and is rarely used for comparison. The nominal annual rate or nominal interest rate is defined as the periodic rate multiplied by the number of compounding periods per year. For example, a monthly rate of 1% is equivalent to an annual nominal interest of 12%.
+Effective annual rate : this reflects the effective rate as if annual compounding were applied: in other words it is the total accumulated interest that would be payable up to the end of one year, divided by the principal.
+Economists generally prefer to use effective annual rates to allow for comparability. In finance and commerce, the nominal annual rate may however be the one quoted instead. When quoted together with the compounding frequency, a loan with a given nominal annual rate is fully specified (the effect of interest for a given loan scenario can be precisely determined), but the nominal rate cannot be directly compared with loans that have a different compounding frequency.
+Loans and finance may have other "non-interest" charges, and the terms above do not attempt to capture these differences. Other terms such as annual percentage rate and annual percentage yield may have specific legal definitions and may or may not be comparable, depending on the jurisdiction.
+The use of the terms above (and other similar terms) may be inconsistent, and vary according to local custom or marketing demands, for simplicity or for other reasons.
+[ edit ] Exceptions
+US and Canadian T-Bills (short term Government debt) have a different convention. Their interest is calculated as (100 − P)/Pbnm, where P is the price paid. Instead of normalizing it to a year, the interest is prorated by the number of days t: (365/t)×100. (See day count convention ).
+The interest on corporate bonds and government bonds is usually payable twice yearly. The amount of interest paid (each six months) is the disclosed interest rate divided by two (multiplied by the principal). The yearly compounded rate is higher than the disclosed rate.
+Canadian mortgage loans are generally semi-annual compounding with monthly (or more frequent) payments. [1]
+U.S. mortgages use an amortizing loan , not compound interest. With these loans, an amortization schedule is used to determine how to apply payments toward principal and interest. Interest generated on these loans is not added to the principal, but rather is paid off monthly as the payments are applied.
+It is sometimes mathematically simpler, e.g. in the valuation of derivatives to use continuous compounding, which is the limit as the compounding period approaches zero. Continuous compounding in pricing these instruments is a natural consequence of Itō calculus , where derivatives are valued at ever increasing frequency, until the limit is approached and the derivative is valued in continuous time.
+[ edit ] Mathematics of interest rates
+Formulae are presented in greater detail at time value of money .
+In the formula below, i is the effective interest rate per period. FV and PV represent the future and present value of a sum. n represents the number of periods.
+These are the most basic formulas:
+The above calculates the future value (FV) of an investment's present value (PV) accruing at a fixed interest rate (i) for n periods.
+The above calculates what present value (PV) would be needed to produce a certain future value (FV) if interest (i) accrues for n periods.
+The above calculates the compound interest rate achieved if an initial investment of PV returns a value of FV after n accrual periods.
+The above formula calculates the number of periods required to get FV given the PV and the interest rate (i). The log function can be in any base, e.g. natural log (ln), as long as consistent bases are used all throughout calculation.
+A formula for calculating annual compound interest is
+Where,
+P = principal amount (initial investment)
+r = annual nominal interest rate (as a decimal, not in percentage)
+n = number of times the interest is compounded per year
+t = number of years
+Example usage: An amount of 1500.00 is deposited in a bank paying an annual interest rate of 4.3%, compounded quarterly. Find the balance after 6 years.
+A. Using the formula above, with P = 1500, r = 4.3/100 = 0.043, n = 4, and t = 6:
+So, the balance after 6 years is approximately 1,938.84.
+The amount function for compound interest is an exponential function in terms of time.
+= Total time in years
+= Number of compounding periods per year (note that the total number of compounding periods is
+)
+= Nominal annual interest rate expressed as a decimal. e.g.: 6% = 0.06
+means that nt is rounded down to the nearest integer.
+As
+increases, the rate approaches an upper limit of
+. This rate is called continuous compounding, see below.
+Since the principal A(0) is simply a coefficient, it is often dropped for simplicity, and the resulting accumulation function is used in interest theory instead. Accumulation functions for simple and compound interest are listed below:
+Note: A(t) is the amount function and a(t) is the accumulation function.
+[ edit ] Continuous compounding
+Continuous compounding can be thought of as making the compounding period infinitesimally small; therefore achieved by taking the limit of n to infinity . One should consult definitions of the exponential function for the mathematical proof of this limit.
+or
+[ edit ] Force of interest
+In mathematics, the accumulation functions are often expressed in terms of e , the base of the natural logarithm . This facilitates the use of calculus methods in manipulation of interest formulae.
+For any continuously differentiable accumulation function a(t) the force of interest, or more generally the logarithmic or continuously compounded return is a function of time defined as follows:
+which is the rate of change with time of the natural logarithm of the accumulation function.
+Conversely:
+(since
+)
+When the above formula is written in differential equation format, the force of interest is simply the coefficient of amount of change.
+For compound interest with a constant annual interest rate r the force of interest is a constant, and the accumulation function of compounding interest in terms of force of interest is a simple power of e:
+The force of interest is less than the annual effective interest rate, but more than the annual effective discount rate . It is the reciprocal of the e-folding time. See also notation of interest rates .
+See Day count convention
+To convert an interest rate from one compounding basis to another compounding basis, the following formula applies:
+where r1 is the stated interest rate with compounding frequency n1 and r2 is the stated interest rate with compounding frequency n2.
+When interest is continuously compounded :
+where R is the interest rate on a continuous compounding basis and r is the stated interest rate with a compounding frequency n.
+[ edit ] Monthly mortgage payments
+The interest on mortgages is often compounded monthly. The formula for payments is found from the following argument.

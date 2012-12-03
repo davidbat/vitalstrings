@@ -1,0 +1,28 @@
+Mathematica/C Version
+Interest Tutorial
+In this tutorial we will explore the interest models that are discussed in Chapter 6.  The tutorial will help you understand the concepts of simple, compound, and continuous interest.
+Simulation
+We will be using a graphical simulation of bank interest throughout this tutorial.  You can start it by clicking on the following button.
+When the simulation starts up, you will see an empty graph at the top and some controls at the bottom.  You can use the controls to set up the parameters for up to three investments.  For each investment, you can specify the type of interest (simple, compound, or continuous), the initial balance, the interest rate, and (for compound investments) the number of compounding intervals.
+As you specify investments, their performance over time is plotted. You can specify the number of years over which the investments are to be plotted.  By using this simulation, you can better understand the three forms of interest and visualize the differences among them.
+Simple Interest
+To get started with understanding simple interest, click below
+and an investment will be plotted.  The red curve shows the result of investing $100 at 5% simple interest for a period of ten years. Notice that the balance begins at $100, and each year it steps up a bit until it reaches approximately $162 after ten years.  If you look closely, you will notice that the steps gets larger as time goes on. This is because the height of each step is 5% of the current balance, and the balance increases with time.
+There are three buttons in the bottom left-hand corner of the display. Notice that one of them is labeled in red with the details of the investment graphed with the red curve.  If you click on that button, controls that will allow you to specify those details will appear.
+Using the controls that appear, you can change the type of the investment, the size of the initial balance, and the interest rate. Experiment with using the controls to change the interest rate both higher and lower, and notice how the value of the investment changes. (The shape of the curve itself will not vary much, but the scale of the vertical axis will change.)  Also experiment with changing the initial balance.
+When you are done, reset the balance to $100 and the rate to 5%.  (Or click the button at the beginning of this section and it will be done automatically.)
+Compound Interest
+Now let's examine compound interest.  Click below
+and a blue curve will be superimposed over the red curve.  The blue curve shows the result of investing $100 at 5% interest compounded quarterly. The balance begins at $100, but it ratchets up four times a year.  Each step up reflects the payment of 1.25% interest. (1.25% is one-quarter of 5%.)
+The balance of the compound investment grows slightly faster than the balance of the simple investment.  Because the interest payments are made more frequently, old interest begins accumulating new interest sooner under compound interest than under simple interest.  The difference is subtle, but after ten years the compound investment has reached a value of approximately $164, two dollars more than the simple investment's $162.
+Click on the button next to the blue description of the compound investment to reveal the controls for the compound investment. Experiment by reducing the number of compounding intervals from four to one.  When you do this, you will notice that the simple and compound curves become identical.  Interest compounded once per year is the same as simple interest.
+Continuous Interest
+To investigate continuous interest, click below
+and a black curve that shows the result of investing $100 at 5% continuous interest will appear.  The balance begins at $100 and increases smoothly until it reaches approximately $164 after ten years.
+We have already seen that simple interest is nothing more than compound interest when the number of compounding intervals reaches one.  Continuous interest, in contrast, is what results from compound interest when the number of compounding intervals approaches infinity. To see this, display the controls for the blue compound investment, and watch what happens to the blue curve as you increase the number of compounding intervals.  Eventually, the blue and black lines should exactly overlap.
+Exercises
+Experiment with the interest simulator to answer the following questions.  You have probably noticed that a control is provided to change the number of years over which investments are charted.  You have probably not noticed that if you point and click the mouse inside of the plot region, the coordinates of that point will be displayed. (The horizontal coordinate is a number of years, and the vertical coordinate is a number of dollars.)
+What is the better way to invest $100 for ten years: at 5% simple interest, 4.8% interest compounded monthly, or 4.6% interest compounded continuously?  Does your answer change if the investment lasts 100 years?
+If you invest some money at 8% continuous interest for five years and end up with approximately $223, how much (to the nearest $10) did you originally invest?
+What is the difference between investing $1000 for five years at 6% simple interest, 6% interest compounded quarterly, and 6% interest compounded continuously?
+Last modified 15Oct96.

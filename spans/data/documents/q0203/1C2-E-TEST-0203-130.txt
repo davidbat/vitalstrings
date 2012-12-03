@@ -1,0 +1,20 @@
+> >I've got another questing about the garbage collector.
+> >The application (a windows service app) I created runs fine on my
+> >development system (Xp), consumes ~50Mb ram and seems to collect garbage
+> >just fine. Running the same app on a production server (W2000 Server) the
+> >process keeps consuming more and more memory. I made sure there is no[/color][/color]
+memory[color=blue][color=green]
+> >leak in the application. After running a memory profiler I found out gen2
+> >garbage collection is not happening (enough). The application continues[/color][/color]
+to[color=blue][color=green]
+> >consume memory until system resources are empty and the server slows down
+> >tremendously.
+> >The app in question is an network management application and is searching
+> >the network for devices/components. The development system uses the same
+> >network for testing (=same environment).
+> >Both systems have the same amount of physical memory. Development server
+> >shows ~50mb memory and 50Mb virtual memory usage. Production server[/color][/color]
+~800Mb[color=blue][color=green]
+> >memory, 500-1000Mb virtual.
+> >Any tips/hints on how to solve this issue?
+> >

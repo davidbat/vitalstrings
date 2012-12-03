@@ -1,0 +1,10 @@
+Support new FF10 formats of National Emissions Inventory
+Area inventory: FF10_NONPOINT
+Daily/hourly inventories: FF10_[HOURLY|DAILY]_[NONPOINT|POINT]
+Mobile source processing using SMOKE-MOVES Integration Tool
+(1) Met4moves prepares spatially and temporally averaged temperature and relative humidity data for use by MOVES and SMOKE
+(2) MOVES model processing scripts: (1) MOVES driver script creates importer files and the MOVES input file (runspec), which specifies the characteristics of the particular scenario to be modeled. (2) MOVES post-processing script formats the MOVES emission lookup tables by SCC for SMOKE
+(3) Movesmrg processes emissions from both on-road and off-road mobile sources based on MOVES-based emission rate lookup tables and  meteorology data from Met4moves to create hourly gridded speciated air quality model-ready input files
+SMOKE version 3.0 release
+The Institute for the Environment, in cooperation with                            the U.S. EPA, is pleased to announce the release of SMOKE version                            3.0
+SMOKEv3.0 includes SMOKE-MOVES Integration Tool for MOVES2010a.

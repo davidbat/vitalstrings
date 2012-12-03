@@ -1,0 +1,17 @@
+Originally Posted by Ethan Winer
+This is from a post I made elsewhere last year:
+Quote:
+The biggest problem with curved surfaces hasn't been mentioned yet, so I'll do that now. In a small room, which is what most of my posts address, it's not practical to have a single huge piece of bent plywood. Let's say 6 feet high by 12 feet wide, bent so the center sticks out at least two feet from the wall. Even two feet is probably not enough to reduce comb filtering by very much, but let's say it is enough for the sake of this discussion.
+So instead of building one huge curved piece you instead have to build a series of smaller "modular" sections. Here's a lame ASCI drawing looking down from the top:
+UUUUU
+Each outer "U" section is curved, so let's say it deflects adequately. But in between each curved section is a concave area that focuses the sound. This not only negates any benefit from the convex portions, it creates new focusing and resonant areas. Try it, as I've done, and you'll clearly hear the nasal quality imparted by each concave section's resonances.
+I have been trying to understand this for a couple of hours now, with no luck.  Diffusers are not effective below the (take your pic: Davis, Shroeder #1, Schroeder #2, 3 modes/Hz) cutoff frequency of a room.  Huge polys would not be used in a small room to begin with, if the room is designed by someone who knows what they are doing.  For small rooms, such as we are discussing in this forum, this typically is around 200 Hz where modes become dominant in the room response.  Working with test results from Schroeder diffusers, the effectiveness of diffusers is about an octave below the theoretical frequency.
+For a poly diffuser the low end cut off is defined by length of the chord.  Taking 300 Hertz as the design criteria gives a chord length of 3'.  A 120° dispersion angle poly with a chord of 3' has a depth of approximately 5".
+Your (and as you clearly wrote poor) ASCII diagram also shows the diffusers adjacent to one another.  In a properly designed room, they would be spaced out, similar to what I show in post #7 in this thread.  Ignoring that, attached is a drawing of 4 diffusors right against one another.  Where are these concave surfaces?
+Clarification is requested please!
+Note: References to properly design are meant for people reading this thread who are not familiar with acoustics, not directed at Ethan in any way, shape or form.
+Andre
+Attached Thumbnails
+ 
+Last edited by avare; 31st July 2008 at 04:50 PM..                   Reason: Added "in post #7" to remove ambiguity in what I am referring to.
+ 

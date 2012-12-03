@@ -1,0 +1,57 @@
+> > By "real memory usage", I meant the actual usage in virtual memory and
+> > also in resident memory. This is mainly because I am basing my
+> > monitoring on VmRSS and VmSize.
+>
+> > However, I'm thinking that monitoring VmRSS is probably an incorrect
+> > thing to do since what's inside a process' resident set is not managed
+> > by the process itself - after all, it doesn't decide by itself when
+> > things need to get swapped.
+>
+> > What I want to accomplish is to prove that my application's total
+> > memory footprint (by "total", I mean both in RAM and elsewhere)
+> > doesn't change after having successfully done its garbage collection.For the purposes of monitoring for program leaks, you probably want to
+> watch the VmData and VmStk values in /proc/xxx/status
+>
+> VmData will tell you how big your process' data segment is, and VmStk
+> will tell you how big the process stack is.
+>
+> If I understand it correctly, VmData will increase as memory is
+> allocated from the heap, and VmStk will increase as the stack
+> increases. These are the two memory segments that your dynamic memory
+> allocations will affect.
+> Remember, it is rare that memory will be returned to the heap from your
+> data segment. It /can/ be coded into programs (see brk(2)/sbrk(2) for
+> details), but most memory management facilities (i.e. C++ object
+> management/garbage collection and/or C malloc(3)/free(3) ) have
+> sophisticated data segment reclamation rules that often prevent or
+> avoid the use of brk(2)/sbrk(2). Thus, you often see memory use
+> increase as you dynamically allocate data, but you rarely see memory
+> use decrease when you perform garbage collection/memory reclamation.
+Re: How to get real memory usage of a process
+Francis wrote:
+> By "real memory usage", I meant the actual usage in virtual memory and
+> also in resident memory. This is mainly because I am basing my
+> monitoring on VmRSS and VmSize.
+Virtual memory is not normally considered a scarce resource. I can't
+see why you would be concerned about how much virtual memory you are
+using.
+Resident set size can be grown and is garbage collected when physical
+memory is scarce. If physical memory is not scarce, RSS can grow and it
+doesn't mean anything. If you don't want your computer to use memory,
+take it out and put it on a shelf. If it's in the machine, the machine
+will use it.
+> However, I'm thinking that monitoring VmRSS is probably an incorrect
+> thing to do since what's inside a process' resident set is not managed
+> by the process itself - after all, it doesn't decide by itself when
+> things need to get swapped.
+>
+> What I want to accomplish is to prove that my application's total
+> memory footprint (by "total", I mean both in RAM and elsewhere)
+> doesn't change after having successfully done its garbage collection.
+Then what you want to do is heavily load the process and wait for it to
+stabilize and garbage collect. Then watch its vm size as you hit it
+with load less than the previous heavy load. You should little if any
+vm growth.
+You can also repeat the same load burst, resting after each time. After
+a few cycles of the load burst and rest, you should stop seeing growth
+on each burst.

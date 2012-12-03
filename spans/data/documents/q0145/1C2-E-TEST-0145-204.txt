@@ -1,0 +1,36 @@
+Compound Interest: The future value (FV)    of an investment of present value (PV) dollars earning interest at an annual    rate of r compounded m times per year for a period of t years is:
+FV = PV(1 + r/m)mt
+or
+FV = PV(1 + i)n
+where i = r/m is the interest per compounding period and n = mt is the    number of compounding periods.
+One may solve for the present value PV to obtain:
+PV = FV/(1 + r/m)mt
+Numerical Example: For 4-year investment of $20,000 earning 8.5% per    year, with interest re-invested each month, the future value is
+FV = PV(1 + r/m)mt   = 20,000(1 +    0.085/12)(12)(4)   = $28,065.30
+Notice that the interest earned is $28,065.30 - $20,000 = $8,065.30 --    considerably more than the corresponding simple interest.
+Effective Interest Rate: If money is    invested at an annual rate r, compounded m times per year, the effective    interest rate is:
+reff = (1 + r/m)m - 1.
+This is the interest rate that would give the same yield if compounded only    once per year. In this context r is also called the nominal rate, and    is often denoted as rnom.
+Numerical Example: A CD paying 9.8% compounded monthly has a nominal    rate of rnom = 0.098, and an effective rate of:
+r eff =(1 + rnom /m)m   =   (1 + 0.098/12)12 - 1   =  0.1025.
+Thus, we get an effective interest rate of 10.25%, since the compounding    makes the CD paying 9.8% compounded monthly really pay 10.25% interest over    the course of the year.
+Mortgage Payments Components: Let where P    = principal, r = interest rate per period, n = number of periods, k = number    of payments, R = monthly payment, and D = debt balance after K payments, then
+R = P × r / [1 - (1 + r)-n]
+and
+D = P × (1 + r)k - R × [(1 + r)k - 1)/r]
+Accelerating Mortgage Payments    Components: Suppose one decides to pay more than the monthly    payment, the question is how many months will it take until the mortgage is    paid off? The answer is, the rounded-up, where:
+n = log[x / (x – P × r)] / log (1 + r)
+where Log is the logarithm in any base, say 10, or e.
+Future Value (FV) of an Annuity    Components: Ler where R = payment, r = rate of interest, and n =    number of payments, then
+FV = [ R(1 + r)n - 1 ] / r
+Future Value for an Increasing Annuity: It is an increasing annuity is an investment that is earning interest,    and into which regular payments of a fixed amount are made. Suppose one makes    a payment of R at the end of each compounding period into an investment with a    present value of PV, paying interest at an annual rate of r compounded m times    per year, then the future value after t years will be
+FV =  PV(1 + i)n + [ R ( (1 + i)n - 1 ) ] / i
+where i = r/m is the interest paid each period and n = m × t is the total number of periods.
+Numerical Example: You deposit $100 per month into an account that    now contains $5,000 and earns 5% interest per year compounded monthly. After    10 years, the amount of money in the account is:
+FV =  PV(1 + i)n + [ R(1 + i)n - 1 ] / i =
+5,000(1+0.05/12)120 + [100(1+0.05/12)120 - 1 ] /    (0.05/12) = $23,763.28
+Value of a Bond: Let N = number of year    to maturity, I = the interest rate, D = the dividend, and F = the face-value    at the end of N years, then the value of the bond is V, where
+V = (D/i) + (F - D/i)/(1 + i)N
+V is the sum of the value of the dividends and the final payment.
+You may like to perform some sensitivity analysis for the "what-if"    scenarios by entering different numerical value(s), to make your "good"    strategic decision.
+MENU:

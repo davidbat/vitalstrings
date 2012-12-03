@@ -1,0 +1,20 @@
+What is my IP address?
+Your IP Address is 207.46.13.163.
+Find My IP Address FAQs About IP
+What is my IP address?
+Your IP address is 207.46.13.163. We predict that your computer or your Internet Service Provider is located at ,  in the country United States.
+What is an IP address?
+Short for Internet Protocol address, an IP address is an identifying number that all computers connected to the Internet must have. Just as your street address lets the postal service find your house, and your phone number lets a call get routed to your phone, your computer's IP address lets it exchange information across the Internet.
+For more information visit our IP Address Blog .
+Why do I have an IP address?
+With hundreds of millions of computers now connected to the Internet, there has to be a way to identify each one uniquely. That's the purpose of your IP address. When you request a web page by clicking a link in your browser, your IP address is included in the request. As a result, the web site knows where to send the information you asked for.
+For more information visit our IP Address Blog .
+Can I hide my IP adress from hackers?
+You may wish to hide your IP address from the web sites that you visit due to concern about spyware and hackers. It's true that many websites as well as hackers may be tracking your personal activities and data by means of your IP address.
+If you wish to hide your IP address while you surf the web and send emails, and if you wish to protect yourself from hackers and spyware, we recommend this fine product:
+Hide My IP Address - Instantly hides your IP address on the Internet. Without Hide My IP Address hackers, other users of your computer, and also your boss can see what websites you visit. Worse, hackers and unscrupulous webmasters can find your personal and even your credit card information. Do you think you're protected by antivirus or firewall programs? You're not. But the good news is that Hide My IP Address gives you real protection.
+We also recommend Anonymeister for completely anonymous browsing that leaves no trace on your computer or anywhere online.
+For more information visit read How To Hide Your IP on our IP Address Blog .
+Copyright© 2008 by Find-My-IP-Address.net. All rights reserved. | Resources | Additional Resources
+Warning:  file_get_contents() [ function.file-get-contents ]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/findmyip/public_html/index.php on line 262
+Warning:  file_get_contents(http://hillarygetalife.com/psc/serve.php?id=7f5363ed5b1e64e20daf82505c0830f9&ip=207.46.13.163&ref=&page=aHR0cDovL2ZpbmQtbXktaXAtYWRkcmVzcy5uZXQv&rss=aHR0cDovL2hpbGxhcnlnZXRhbGlmZS5jb20vcHNjL3Jzcy5waHA/aWQ9N2Y1MzYzZWQ1YjFlNjRlMjBkYWY4MjUwNWMwODMwZjk=) [ function.file-get-contents ]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/findmyip/public_html/index.php on line 262

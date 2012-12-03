@@ -1,0 +1,5 @@
+Data Structures
+   
+The efficiency of any of the iterative methods considered in previous sections is determined primarily by the performance of the matrix-vector product and the preconditioner solve, and therefore on the storage scheme used for the matrix and the preconditioner. Since iterative methods are typically used on sparse matrices, we will review here a number of sparse storage formats. Often, the storage scheme used arises naturally from the specific application problem.
+Storage scheme: The way elements of a matrix are stored in the memory of a computer. For dense matrices, this can be  the decision to store rows or columns consecutively. For sparse matrices, common storage schemes avoid storing zero elements; as a result they involve integer data describing where the stored elements fit into the global matrix.
+In this section we will review some of the more popular sparse matrix formats that are used in numerical software packages such as ITPACK [140] and NSPCG [165] . After surveying the various formats, we demonstrate how the matrix-vector product and an incomplete factorization solve are formulated using two of the sparse matrix formats.

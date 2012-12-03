@@ -1,0 +1,17 @@
+Reprints
+This definition is based on Internet Protocol Version 4. See Internet Protocol Version 6 ( IPv6 ) for a description of the newer 128-bit IP address. Note that the system of IP address classes described here, while forming the basis for IP address assignment, is generally bypassed today by use of Classless Inter-Domain Routing ( CIDR ) addressing.
+In the most widely installed level of the Internet Protocol ( IP ) today, an IP address is a 32- bit number that identifies each sender or receiver of information that is sent in packet s across the Internet. When you request an HTML page or send e-mail, the Internet Protocol part of TCP/IP includes your IP address in the message (actually, in each of the packets if more than one is required) and sends it to the IP address that is obtained by looking up the domain name in the Uniform Resource Locator you requested or in the e-mail address you're sending a note to. At the other end, the recipient can see the IP address of the Web page requestor or the e-mail sender and can respond by sending another message using the IP address it received.
+An IP address has two parts: the identifier of a particular network on the Internet and an identifier of the particular device (which can be a server or a workstation) within that network. On the Internet itself - that is, between the router that move packets from one point to another along the route - only the network part of the address is looked at.
+The Network Part of the IP Address
+The Internet is really the interconnection of many individual networks (it's sometimes referred to as an internetwork). So the Internet Protocol ( IP ) is basically the set of rules for one network communicating with any other (or occasionally, for broadcast messages, all other networks). Each network must know its own address on the Internet and that of any other networks with which it communicates. To be part of the Internet, an organization needs an Internet network number, which it can request from the Network Information Center (NIC). This unique network number is included in any packet sent out of the network onto the Internet.
+The Local or Host Part of the IP Address
+In addition to the network address or number, information is needed about which specific machine or host in a network is sending or receiving a message. So the IP address needs both the unique network number and a host number (which is unique within the network). (The host number is sometimes called a local or machine address.)
+Part of the local address can identify a subnetwork or subnet address, which makes it easier for a network that is divided into several physical subnetworks (for examples, several different local area networks or ) to handle many devices.
+IP Address Classes and Their Formats
+Since networks vary in size, there are four different address formats or classes to consider when applying to NIC for a network number:
+Class A addresses are for large networks with many devices.
+Class B addresses are for medium-sized networks.
+Class C addresses are for small networks (fewer than 256 devices).
+Class D addresses are multicast addresses.
+The first few bits of each IP address indicate which of the address class formats it is using. The address structures look like this:
+Class A

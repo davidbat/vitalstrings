@@ -1,0 +1,6 @@
+    r = interest rate (expressed as a fraction: eg. 0.06)
+    n = # of times per year interest in compounded
+    t = number of years invested
+When interest is only compounded once per yer (n=1), the equation simplifies to:
+P = C (1 + r) t
+Years

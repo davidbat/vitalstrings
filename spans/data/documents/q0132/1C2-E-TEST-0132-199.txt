@@ -1,0 +1,9 @@
+I got some info from DanG on getting better search results (I had asked why my search brought up every single wiki at epicski) that may be helpful:
+ 
+Quote:
+The reason that all the wikis came up is because your query had the word "ski" in it, and so do all the results. What's happening is that it's displaying results based on total keyword density...I'm not 100% sure, but with the query "ski resort college university" it would display an article with 100 instances of the word "ski" preferentially over something that had each of those terms once. Naturally, the word that exaggerates this the most is "ski".
+ 
+If you just search "resort college university"
+( http://www.epicski.com/search.php?search=resort+college+university ) the results are better, and you can also try using quotations so that the words must appear together, e.g. "resorts near" university
+ 
+Also, you can search only titles which may help, or also use the new search individual posts (both options are drop downs in the advanced search menu) e.g.

@@ -1,0 +1,31 @@
+The above example leads to a general formula for computing the effects of compound interest. Suppose
+we are given an interest rate of r% per year and
+we compound the interest n times per year.
+Then the year is divided into n equal time periods during which we earn r/n percent interest.  If you start one of these time periods with a balance of B dollars, you will end it with a balance of
+(1 + r/n)
+B
+dollars, so if you leave your money in the bank for one year, your balance will grow to
+(1 + r/n)n
+B
+dollars. If you leave the same money in for y years, then the number of compounding periods is n
+y, so
+If you deposit B dollars for y years at an interest rate of r compounded n times per year, then your ending balance is
+(1 + r/n)(y
+n)
+times B dollars.
+Example. Suppose you deposit $1000 in a bank which pays 5% interest compounded daily, meaning 365 times per year. How much more do you earn as opposed to simple interest of 5% if you leave your money in the bank for 1 year? For 5 years?
+Solution. Referring to the formula above, the interest rate r is 5% or .05 and the number of equal time periods, n, is 365.  Thus at the end of 1 year your balance is
+(1 + .05/365)365
+$1000
+, or (using a calculator) $1051.27.  The interest you earned is $51.27.  Simple interest would have paid $50 in interest, so you earn $1.27 more.
+If you leave the money in the bank for 5 years, then the formula becomes
+(1 + .05/365)5
+365
+$1000
+, which works out to be $1284. This means you received $284 in interest. Simple interest would have paid .05
+5
+$1000 = $250 in interest, so your gain is $34.
+Try it yourself!
+The following is the same as the table from the page on simple interest, except we have added a column for compounding.  The number you select in this column determines how many times per year the interest is compounded.
+You will be best off using your own calculator for this, but we have supplied a clumsy one which you can use as an aid.  To use it, type numbers into the first two slots, select an operation (addition (+), multiplication (X), division (/), or raising to a power (^)) and click on the "equals" button.  You can cut and paste results into the first two slots as needed.
+Select

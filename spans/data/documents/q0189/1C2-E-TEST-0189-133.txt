@@ -1,0 +1,11 @@
+AirFoil 4.7.1 ($25)
+Airfoil is a software utility that can send audio files to AirPort Express units and Apple TVs, as well as other Macs and PCs. In v4.7.1 the software's Menu Bar Mode now includes a source selector, and full support has been added for the new dual-band AirPort Express. Additionally, the Instant On feature has been updated with improvements to System Audio capture.
+KeyCue 6.2 ($28)
+KeyCue helps users make use of keyboard shortcuts provided by various applications. After holding down the Command key for a set period of time KeyCue opens and displays a table of all currently available menu shortcuts. The latest release introduces a new hands-free mode that allows users to keep the shortcut table open without needing to press any modifier keys. New shadowless themes have also been added, along with improved transparent adjustment options.
+DaisyDisk 2.1.2 ($10)
+DaisyDisk is a tool that can help free up disk space by finding large and useless files. The software scans a user's disk and then reports on what is taking up the most space. Version 2.1.2 is a minor maintenance release that adds support for Gatekeeper in OS X Mountain Lion.
+Pacifist 3.0.4 ($20)
+Pacifist allows users to extract or install individual files from installer packages, disk images, and archives. The v3.0.4 update fixes a bug that could cause packages from versions of OS X older than 10.2 not to load. Additionally, an issue that caused an error message when extracting an entire mpkg archive has been addressed.
+Shimo 3.0.5 ($40)
+Shimo is a VPN client that includes support for numerous protocols, including CiscoVPN, AnyConnect, IPSec, OpenVPN, and Juniper. The software is also capable of automatically establishing connections when a user changes their network location, as well as executing AppleScripts when specified events occur. Version 3.0.8 includes an updated AnyConnect backend and has reduced overall memory usage. The update also adds support for split DNS, and now allows users to set the maximum number of reconnection retries to 10.
+ 

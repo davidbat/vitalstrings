@@ -1,0 +1,54 @@
+10 
+The population in the area of this earthquake if 0  people/km².
+The earthquake occurred at 9h local time.   At this time a day, more people are at work and therefore more  vulnerable to collapsing office buildings.  During traffic hours, people can be affected by collapsing bridges and other  road infrastructure.
+About the data
+Population data: derived from the LandScan 2002 dataset provided by Oak Ridge National Laboratory ,  which disaggregated census data into pixels of ~1km2 (or 30 arc  seconds).
+Damage
+In general, earthquakes of magnitude 7 to 8  are classified as Major earthquakes. They can cause serious damage over areas greater than 100 kilometers across.
+For more information on the intensity of the earthquake around the epicentre, please refer to the USGS ShakeMap product ( http://earthquake.usgs.gov/shakemap/global/shake/index.html )
+About the data
+Land use data from GLC2000 .  This data is specific to this earthquake.
+This damage assessment is based on the  average damage of earthquakes over a 100 year period as compiled by USGS. The  information is not specific to this earthquake.
+Resilience and Vulnerability
+Resilience is the capacity of the population to cope with a hazard. Since  much of investments in earthquake preparedness and available funds for quick  response is related to household income, the GDP per capita can be used as a  rough indicator of resilience.
+Japan has a GDP per capita of 42317 PPP$ (Parity  Purchasing Power Dollar, about 1 Euro) and is therefore part of the high  level income countries. Therefore, the earthquake happened in an area of high  resilience.
+Based on the combination of 9 indicators, ECHO attributes Japan a low  vulnerability.
+About the data
+ 
+Exposure
+Both conditions for survival and conditions for delivering aid strongly  depend on the current weather and temperature. The following graphs show the  current and forecast weather.
+Current weather conditions and forecasts at earthquake location (lat: 42.08  - long: 143.73)
+More detailed observations at closest weather station (Tokachi): WeatherByWeb - NOAA
+About the data
+Source: www.calle.com/world .  The data is not very reliable, but it gives an indication for remote regions  where more detailed information is not available. The data is interpolated for  the given latitude and longitude from the closest airport weather stations.
+Secondary  effects
+Probability of secondary effects:
+Landslides: The maximum slope in the area of the earthquake is 35.265%    and the maximum altitude is 1627 m. Since this is a medium    slope, the risk of earthquake induced landslides is medium.    Note, however, that the slope data is not reliable on a local scale, while    landslides depend very much on local topography, soil and meteorological    conditions.
+Tsunami:    the JRC tsunami wave propagation models indicated a low likelihood for a destructive tsunami.    However, this probability must be confirmed by oceanographic measurements or    observations. See report.
+ 
+The following critical infrastructure is nearby and could be affected by the earthquake:
+Nuclear power plants:        There are no nuclear facilities nearby the epicenter.
+Hydrodams:        There are no hydrodam facilities nearby the epicenter.
+About the data
+Landslides: slope and altitude are derived from the gtopo30 dataset provided  by USGS. The thresholds used for landslide related slope classes are: 0-30% -  low risk (green), 30-60% medium risk (orange), 60-100% high risk (red).
+Nuclear radiation: the distance to nuclear installations is evaluated based  on a 1999 UN dataset containing the location of nuclear plants in the world. If  plants are near and the earthquake magnitude is above 6.5, the alert is set to orange. Note that the location of  plants is approximate with errors of up to 100km.
+Tsunami: The JRC Tsunami model ( http://tsunami.jrc.it/model )  includes a full wave propagation calculation and estimates the wave height in  all major cities affected by a tsunami.
+Location
+The earthquake happened in Japan. The nearest populated  places are [None].
+It is a mountainous  region with a maximum altitude of 1627 m.
+About the data
+Maps and description of location are      based on Global Discovery data, provided by Europa Technology . The dataset is based on      VMAP0 and is at scale 1:1.000.000.
+ 
+Getting there and away
+The nearest civilian airport (Tokachi) is at 102km from the epicenter.  The  airfield of Obihiro is located  at 84km from the epicenter.  Other airports are: Obihiro (84km), Sapporo-new Chitose (184km), Sappora / Chitose (187km), Tokachi (102km), Sado Shima (134km), Kushiro (113km), Nakashibetsu (194km)
+Ports nearby are: Samani (67km), Tokachi (39km), Tomakomai (184km), Otsu (69km), Kushiro (112km), Akkeshi (141km)
+The estimated geographical coordinates of the earthquake are: 42.08 North  and 143.73 East.
+Dynamic Maps
+Interactive Country map: http://dmaweb2.jrc.it/services/dmaexplorer/?Country=Japan
+Interactive Event map: click on maps below
+image area: approx. 130x90km2
+Legend of symbols in this page:
+Accuracy of information (move mouse over symbol to see value)
+Disclaimer
+While we try everything to ensure accuracy, this information is purely  indicative and should not be used for any decision making without alternate  sources of information. The JRC is not responsible for any damage or loss  resulting from the use of the information presented on this website.
+ 

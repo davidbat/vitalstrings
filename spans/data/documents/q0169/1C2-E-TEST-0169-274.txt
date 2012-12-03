@@ -1,0 +1,73 @@
+CSR Compressed Sparse Row format
+CSC Compressed Sparse Column format
+COO Coordinate format
+ELL Ellpack-Itpack generalized diagonal format
+DIA Diagonal format
+BSR Block Sparse Row format
+MSR Modiﬁed Compressed Sparse Row format
+SSK Symmetric Skyline format
+LNK Linked list storage format
+JAD The Jagged Diagonal format
+SSS The Symmetric Sparse Skyline format
+USS The Unsymmetric Sparse Skyline format
+VBR Variable Block Row format
+In the following sections we denote by A the matrix under consideration and
+by N its row dimension and N N Z the number of its nonzero elements.
+2
+2.1.1   Compressed Sparse Row and related formats (CSR, CSC and
+MSR)
+The Compressed Sparse Row format is the basic format used in SPARSKIT. Its
+data structure consists of three arrays.
+• A real array A containing the real values aij is stored row by row, from
+row 1 to N as a vector AV . The length of AV is N N Z.
+• An integer array JCN A containing the column indices of the elements aij
+as stored in the array A. The length of JCN A is N N Z.
+• An integer array IP T R containing the pointers to the beginning of each
+row in the arrays A and JCN A. Thus the content of IP T R(i) is the
+position in arrays A and JCN A where the i-th row starts. The length of
+IP T R is N + 1 with IP T R(N + 1) containing the number IP T R(1) +
+N N Z, i.e., the address in A and JCN A of the beginning of a ﬁctitious
+row N + 1.
+The order of the nonzero elements within the same row are not important. A
+variation to this scheme is to sort the elements in each row in such a way that
+their column positions are in increasing order. When this sorting in enforced,
+it is often possible to make substantial savings in the number of operations
+of some well-known algorithms. The Compressed Sparse Column format is
+identical with the Compressed Sparse Row format except that the columns of A
+are stored instead of the rows. In other words the Compressed Sparse Column
+format is simply the Compressed Sparse Row format for the matrix AT .
+The Modiﬁed Sparse Row (MSR) format is a rather common variation of the
+Compressed Sparse Row format which consists of keeping the main diagonal of
+A separately. The corresponding data structure consists of a real array A and an
+integer array JCN A. The ﬁrst N positions in A contain the diagonal elements
+of the matrix, in order. The position N + 1 of the array A is not used. Starting
+from position N + 2, the nonzero elements of A, excluding its diagonal elements,
+are stored row-wise. Corresponding to each element A(k) the integer JCN A(k)
+is the column index of the element A(k) in the matrix A. The N + 1 ﬁrst
+positions of JCN A contain the pointer to the beginning of each row in A and
+JCN A. The advantage of this storage mode is that many matrices have a full
+main diagonal, i.e., aii = 0, i = 1, . . . , N , and this diagonal is best represented
+by an array of length N . This storage mode is particularly useful for triangular
+matrices with non-unit diagonals. Often the diagonal is then stored in inverted
+form (i.e. 1/aii is stored in place of aii ) because triangular systems are often
+solved repeatedly with the same matrix many times, as is the case for example in
+preconditioned Conjugate Gradient methods. The column oriented analogue of
+the MSR format, called MSC format, is also used in some of the other modules,
+but no transformation to/from it to the CSC format is necessary: for example
+to pass from CSC to MSC one can use the routine to pass from the CSR to the
+MSR formats, since the data structures are identical. The above three storage
+modes are used in many well-known packages.
+3
+Compressed Sparse Row Storage Scheme
+Most common sparse data structure: used in most general purpose codes
+I.S. Duﬀ, G.R. Grimes, J.G. Lewis, Sparse matrix test problems, ACM Trans.
+Math. Software, pp 15:1-14, 1989.
+Solving Linear Systems on vector and shared memory computers, J. J. Don-
+garra, I.S. Duﬀ, D.C. Sorensen, H.A. van der Vorst, SIAM 1991.
+Matrix entries are stored in a row-wise fashion in a vector AV
+The column indices of the matrix entries are stored in a vector JCN A
+The lengths of each row (i.e. no. of non-zero entries) are stored in a vector
+LEN
+Pointers locating the ﬁrst entries of each row in the vectors JCN A or AV
+are stored in a vector IPTR
+e.g.                                                  

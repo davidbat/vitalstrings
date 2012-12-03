@@ -1,0 +1,47 @@
+8 External links
+[ edit ] Storing a sparse matrix
+The native data structure for a matrix is a two-dimensional array. Each entry in the array represents an element ai,j of the matrix and can be accessed by the two indices i and j. For an m×n matrix, enough memory to store up to (m×n) entries to represent the matrix is needed.
+Substantial memory requirement reductions can be realized by storing only the non-zero entries. Depending on the number and distribution of the non-zero entries, different data structures can be used and yield huge savings in memory when compared to a native approach.
+Formats can be divided into two groups: (1) those that support efficient modification, and (2) those that support efficient matrix operations. The efficient modification group includes DOK (Dictionary of keys), LIL (List of lists), and COO (Coordinate list) and is typically used to construct the matrix. Once the matrix is constructed, it is typically converted to a format, such as CSR (Compressed Sparse Row) or CSC (Compressed Sparse Column), which is more efficient for matrix operations.
+[ edit ] Dictionary of keys (DOK)
+DOK represents non-zero values as a dictionary mapping (row, column)- tuples to values. This format is good for incrementally constructing a sparse array, but poor for iterating over non-zero values in sorted order. One typically creates the matrix with this format, then converts to another format for processing
+[ edit ] List of lists (LIL)
+LIL stores one list per row, where each entry stores a column index and value. Typically, these entries are kept sorted by column index for faster lookup. This is another format which is good for incremental matrix construction. See scipy.sparse.lil_matrix .
+[ edit ] Coordinate list (COO)
+COO stores a list of (row, column, value) tuples. Ideally, the entries are sorted (by row index, then column index) to improve random access times. This is another format which is good for incremental matrix construction. See scipy.sparse.coo_matrix .
+[ edit ] Yale format
+The Yale Sparse Matrix Format stores an initial sparse m×n matrix, M, in row form using three one-dimensional arrays. Let NNZ denote the number of nonzero entries of M. The first array is A, which is of length NNZ, and holds all nonzero entries of M in left-to-right top-to-bottom (row-major) order. The second array is IA, which is of length
+(i.e., one entry per row, plus one). IA(i) contains the index in A of the first nonzero element of row i. Row i of the original matrix extends from A(IA(i)) to A(IA(i+1)-1), i.e. from the start of one row to the last index before the start of the next. The third array, JA, contains the column index of each element of A, so it also is of length NNZ.
+For example, the matrix
+[ 1 2 0 0 ] [ 0 3 9 0 ] [ 0 1 4 0 ]
+is a three-by-four matrix with six nonzero elements, so
+A  = [ 1 2 3 9 1 4 ]  IA = [ 0 2 4 6 ]      JA = [ 0 1 1 2 1 2 ]
+In this case the Yale representation contains 16 entries, compared to only 12 in the original matrix. The Yale format saves on memory only when
+.
+Another example, the matrix
+[ 10 20  0  0  0  0 ] [  0 30  0 40  0  0 ] [  0  0 50 60 70  0 ] [  0  0  0  0  0 80 ]
+is a four-by-six matrix (24 entries) with eight nonzero elements, so (spacing elements to be aligned with concerned data)
+A  = [ 10 20 30 40 50 60 70 80 ] IA = [  0     2     4        7  8 ] JA = [  0  1  1  3  2  3  4  5 ]
+The whole is stored as 21 entries.
+IA splits the array A into rows: (10,20)(30,40)(50,60,70)(80);
+JA aligns values in columns: (10,20,...)(0,30,0,40,...)(0,0,50,60,70,0)(0,0,0,0,0,80).
+(Note that in this format, the first value of IA will always be zero and the last will always be NNZ: these two cells may not be useful.)
+[ edit ] Compressed sparse row (CSR or CRS)
+CSR is effectively identical to the Yale Sparse Matrix format, except that the column array is normally stored ahead of the row index array. I.e. CSR is (val, col_ind, row_ptr), where val is an array of the (left-to-right, then top-to-bottom) non-zero values of the matrix; col_ind is the column indices corresponding to the values; and, row_ptr is the list of value indexes where each row starts. The name is based on the fact that row index information is compressed relative to the COO format. One typically uses another format (LIL, DOK, COO) for construction. This format is efficient for arithmetic operations, row slicing, and matrix-vector products. See scipy.sparse.csr_matrix .
+[ edit ] Compressed sparse column (CSC or CCS)
+CSC is similar to CSR except that values are read first by column, a row index is stored for each value, and column pointers are stored. I.e. CSC is (val, row_ind, col_ptr), where val is an array of the (top-to-bottom, then left-to-right-bottom) non-zero values of the matrix; row_ind is the row indices corresponding to the values; and, col_ptr is the list of val indexes where each column starts. The name is based on the fact that column index information is compressed relative to the COO format. One typically uses another format (LIL, DOK, COO) for construction. This format is efficient for arithmetic operations, column slicing, and matrix-vector products. See scipy.sparse.csc_matrix . This is the traditional format for specifying a sparse matrix in MATLAB (via the sparse function).
+[ edit ] Example
+A bitmap image having only 2 colors, with one of them dominant (say a file that stores a handwritten signature ) can be encoded as a sparse matrix that contains only row and column numbers for pixels with the non-dominant color.
+Main article: Band matrix
+An important special type of sparse matrices is band matrix , defined as follows. The lower bandwidth of a matrix A is the smallest number p such that the entry aij vanishes whenever i > j + p. Similarly, the upper bandwidth is the smallest p such that aij = 0 whenever i < j − p ( Golub & Van Loan 1996 , §1.2.1). For example, a tridiagonal matrix has lower bandwidth 1 and upper bandwidth 1. As another example, the following sparse matrix has lower and upper bandwidth both equal to 3. Notice that zeros are represented with dots.
+Matrices with reasonably small upper and lower bandwidth are known as band matrices and often lend themselves to simpler algorithms than general sparse matrices; or one can sometimes apply dense matrix algorithms and gain efficiency simply by looping over a reduced number of indices.
+By rearranging the rows and columns of a matrix A it may be possible to obtain a matrix A’ with a lower bandwidth. A number of algorithms are designed for bandwidth minimization .
+[ edit ] Diagonal matrix
+A very efficient structure for an extreme case of band matrices, the diagonal matrix , is to store just the entries in the main diagonal as a one-dimensional array, so a diagonal n×n matrix requires only n entries.
+[ edit ] Reducing fill-in
+The fill-in of a matrix are those entries which change from an initial zero to a non-zero value during the execution of an algorithm. To reduce the memory requirements and the number of arithmetic operations used during an algorithm it is useful to minimize the fill-in by switching rows and columns in the matrix. The symbolic Cholesky decomposition can be used to calculate the worst possible fill-in before doing the actual Cholesky decomposition .
+There are other methods than the Cholesky decomposition in use. Orthogonalization methods (such as QR factorization) are common, for example, when solving problems by least squares methods. While the theoretical fill-in is still the same, in practical terms the "false non-zeros" can be different for different methods. And symbolic versions of those algorithms can be used in the same manner as the symbolic Cholesky to compute worst case fill-in.
+[ edit ] Solving sparse matrix equations
+Both iterative and direct methods exist for sparse matrix solving.
+Iterative methods, such as conjugate gradient method and GMRES utilize fast computations of matrix-vector products
+, where matrix

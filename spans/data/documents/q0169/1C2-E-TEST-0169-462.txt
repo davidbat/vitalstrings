@@ -1,0 +1,240 @@
+Secret sharing, Secret Splitting, Key Splitting, M of N algorithms.
+Shamir's secret sharing scheme. This is a formula based            on polynomial interpolation.
+Blakley's secret sharing scheme. Is geometric in nature,            the secret is a point in an m-dimensional space.
+Other techniques and decryption
+Subset sum. Given a set of integers, does any subset sum            equal zero? Used in cryptography.
+Shor's algorithm . Quantum algorithm able to decrypt a code based  on asymetric functions such as RSA.
+Geometry
+Gift wrapping. Determining the convex hull of a set of            points.
+Gilbert-Johnson-Keerthi distance. Determining the smallest            distance between two convex shapes.
+Graham scan. Determining the convex hull of a set of points            in the plane.
+Line segment intersection. Finding whether lines intersect            with a sweep line algorithm.
+Point in polygon. Tests whether a given point lies within            a given.
+Line/Triangle intersection. Particular case of Ray/Plane intersection.
+Polygonization of implicit surfaces. Approximate an  implicit surface with a  polygonal representation.
+Triangulation. Method to evaluate the distance to a point from angles to other points, whose distance is known.
+Graphs
+3D Surface Tracker Technology . Process to add images on walls in a video while hidden surfaces are taken into account.
+Bellman-Ford. Computes shortest paths in a weighted graph            (where some of the edge weights may be negative).
+Graph canonization. Find a canonical form of a graph that is isomorphic to another graph. Used in cheminformatics.
+Dijkstra's algorithm. Computes shortest paths in a graph            with non-negative edge weights.
+Perturbation methods. An algorithm that computes a locally            shortest paths in a graph.
+Floyd-Warshall. Solves the all pairs shortest path problem            in a weighted, directed graph.
+Floyd's cycle-finding. Finds cycles in iterations.
+Johnson. All pairs shortest path algorithm in sparse weighted            directed graph.
+Hopcroft–Karp algorithm. From a bipartite graph, returns the  maximum number of edges with no common endpoints. Alternatives are    breadth-first and depth-first algos.
+Kruskal. Finds a minimum spanning tree for a graph.
+Prim's. Finds a minimum spanning tree for a graph. Also called DJP ,  Jarník or Prim–Jarník algorithm.
+Boruvka. Finds a minimum spanning tree for a graph.
+Ford-Fulkerson. Computes the maximum flow in a graph.
+Edmonds-Karp. Implementation of Ford-Fulkerson.
+Nonblocking Minimal Spanning Switch. For a telephone exchange.
+Woodhouse-Sharp. Finds a minimum spanning tree for a graph.
+Spring based. Algorithm for graph drawing.
+Hungarian. Algorithm for finding a perfect matching.
+Coloring algorithm. Graph coloring algorithm.
+Nearest neighbour. Find nearest neighbour.
+Topological sort. Sort a directed acyclic graph in such            a manner that each node comes before all nodes to which it has edges            (according to directions).
+Tarjan's off-line least common ancestors algorithm. Compute lowest common ancestors for pairs of nodes in a tree.
+Graphics
+Bresenham's line algorithm .            Uses decision variables to plots a straight line between 2 specified            points.
+Colorization . A process for coloring a picture or video in black and white, with a few strokes to mark the colors. Examples .
+Depixelizing Pixel Art . Smoothing algorithm that converts an image in coarse pixels into a realistic picture. (Johannes Kopf and Dani Lischinski). Demonstration . Archive of demos .
+Landscape Draw a 3D scenery.
+DDA line algorithm. Uses floating-point math to plots a            straight line between 2 specified points.
+Flood fill. Fills a connected region with a color.
+Image            Restoring . Restore photo, improve images.
+Xiaolin Wu's line algorithm. Line antialiasing.
+Painter's algorithm. Detects visible parts of a 3-dimensional            scenery.
+Ray tracing. Realistic image rendering.
+Phong shading. An illumination model and an interpolation            method in 3D computer graphics.
+Gouraud shading. Simulate the differing effects of light            and colour across the surface of a 3D object.
+Scanline rendering. Constructs an image by moving an imaginary            line.
+Global illumination. Considers direct illumination and            reflection from other objects.
+Interpolation. Constructing new data points such as in            digital zoom.
+Resynthesizer . Remove an object on a  photo and rebuild the background Used by  Photoshop and The Gimp. Resynthesizer tutorial .
+Slope-intercept            algorithm . It is an implementation of the slope-intercept            formula for drawing a line.
+Spline interpolation. Reduces error with Runge's phenomenon.
+3D Surface Tracker Technology . Adding images or vidéo on walls in a vidéo, hidden surfaces being taken into account.
+Lists, arrays and trees
+Dictionary search. See predictive search.
+Selection algorithm. Finds the kth largest item            in a list.
+Binary search            algorithm . Locates an item in a sorted list.
+Breadth-first search. Traverses a graph level by level.
+Depth-first search. Traverses a graph branch by branch.
+Disjoint-set data structure and algorithm. With for application, building a maze .
+Best-first search. Traverses a graph in the order of likely            importance using a priority queue.
+A* tree search. Special case of best-first search that            uses heuristics to improve speed.
+Uniform-cost search. A tree search that finds the lowest            cost route where costs vary.
+Predictive search. Binary like search which factors in            magnitude of search term versus the high and low values in the search.
+Hash table. Associate keys to items in an unsorted collection,            to retrieve them in a linear time.
+Interpolated search. See predictive search.
+Skip list . Structure composed of linked lists for a quicker access, and algorithm or search/insertion.
+Sorting
+Binary tree sort. Sort of a binary tree, incremental, similar            to insertion sort.
+Bogosort. Inefficient random sort of a desk card.
+Bubble sort . For            each pair of indices, swap the items if out of order.
+Bucket sort. Split a list in buckets and sort them individually.            Generalizes pigeonhole sort.
+Cocktail            sort (or bidirectional bubble, shaker, ripple, shuttle, happy            hour sort). Variation of bubble sort that sorts in both directions            each pass through the list.
+Comb sort . Efficient variation of bubble sort that eliminates "turtles",            the small values near the end of the list and makes use of gaps            bewteen values.
+Counting sort. It uses the range of numbers in the list            A to create an array B of this length. Indexes in B are used to            count how many elements in A have a value less than i.
+Gnome sort . Similar to insertion sort except that moving an element to its            proper place is accomplished by a series of swaps, as in bubble            sort.
+Heapsort. Convert the list into a heap, keep removing the            largest element from the heap and adding it to the end of the list.
+Insertion            sort . Determine where the current item belongs in the list of            sorted ones, and insert it there.
+Introsort. Or introspective sort. It begins in quicksort and switches to heapsort at certain recursion level.
+Merge sort. Sort the first and second half of the list            separately, then merge the sorted lists.
+Pancake sort. Reverse elements of some prefix of a sequence.
+Pigeonhole sort. Fill an empty array with all elements            of an array to be sorted, in order.
+Postman sort. Hierarchical variant of bucket sort, used            by post offices.
+Quicksort .            Divide list into two, with all items on the first list coming before            all items on the second list.; then sort the two lists. Often the            method of choice.
+Radix sort . Sorts keys associated to items,  or integer by processing digits.
+Selection sort. Pick the smallest of the remaining elements,            add it to the end of the sorted list.
+Shell sort. Improves insertion sort with use of gaps between            values.
+Smoothsort. See heapsort.
+Stochastic sort. See bogosort.
+Merging
+Simple Merge. Merge n sorted streams into one output stream.            All the stream heads are compared, and the head with the least key            is removed and written to the output.
+k-way Merge sort (or p-way. A merge sort that sorts a data            stream using repeated merges.
+Logic programming
+Davis–Putnam algorithm. Checks the validity of a first-order formula.
+Mathematics
+Buchberger's algorithm. Finds a Gräbner basis.
+Extended Euclidean algorithm. Solves the equation ax+by=            c.
+Fourier transform multiplication. For very big numbers,            computing the fast Fourier transforms for two numbers, and multiplying            the two results entry by entry.
+Gram-Schmidt process. Orthogonalizes a set of vectors.
+Gauss-Jordan elimination. Solves systems of linear equations.
+Karatsuba multiplication. Recursive algorithm efficient            for big numbers. Derived from the Toom-Cook method.
+Knuth-Bendix completion. For rewriting rule systems.
+Multivariate division. For polynomials in several indeterminates.
+Risch algorithm. Translates indefinite integral to algebraic            problem.
+Toom-Cook (Toom3). Splits each number to be multiplied            into multiple parts.
+Eigenvalue algorithm
+Algorithms to find the Eigenvalue and/or Eigenvector of a matrix.
+QR algorithm. A popular method based on the QR decomposition.
+Inverse iteration. Iterative eigenvalue algorithm.
+Rayleigh quotient iteration. Extends the principle of the inverse            iteration by using the Rayleigh quotient to obtain increasingly accurate            eigenvalue estimates.
+Arnoldi iteration. Compute the eigenvalues of the orthogonal            projection of A onto the Krylov subspace.
+Lanczos iteration. Method to find a zero vector in the process            of the quadratic sieve.
+Jacobi method. Numerical procedure for the calculation of all            eigenvalues and eigenvectors of a real symmetric. matrix
+Bisection.
+Divide-and-conquer. Apply to real symmetric matrices.
+Eigenvector algorithms
+Max-Plus. Eigenvector algorithm for nonlinear H 1 control.
+Abrams and Lloyd eigenvector algorithm.
+Arithmetic
+Binary GCD algorithm .            Efficient way of calculating greatest common divisor.
+Booth's multiplication. Multiply two signed numbers in            two's complement notation.
+Euclidean algorithm. Computes the greatest common divisor.
+Binary multiplication (Peasant or Egyptian multiplication).            Decomposes the larger multiplicand into a sum of powers of two and            creates a table of doublings of the second multiplicand.
+Discrete logarithm in group theory
+Baby-step giant-step. This is a series of well defined            steps to compute the discrete logarithm.
+Pollard's rho algorithm for logarithms. Analogous to Pollard's            rho algorithm for integer factorization but solves the discrete            logarithm problem.
+Pohlig-Hellman algorithm. Solves the problem for a multiplicative            group whose order is a smooth integer. Based on the Chinese remainder            theorem and runs in polynomial time.
+Index calculus algorithm. Best known algorithm for certain            groups, as the multiplicative group modulo m.
+Integer factorization
+Breaking an integer into its prime factors . Also named prime factorization.
+Fermat's factorization method. A representation of an odd            integer as the difference of two squares.
+Trial division. The simplest of the integer factorization            algorithms. Try to divide the integer n by every prime number.
+Lenstra elliptic curve factorization or elliptic curve            factorization method (ECM). Fast, sub-exponential running time,            employs elliptic curves.
+Pollard's rho . Variation of Pollard's p-1 that is effective            at splitting composite numbers with small factors.
+Pollard's p-1. A special-purpose algorithm, that is only            suitable for integers with specific types of factors.
+Congruence of squares. Finding a congruence of squares            modulo n is a mean to to factor the integer n.
+Quadratic sieve. Uses the idea of Dixon's method. It is            a general-purpose algorithm that is simpler than the number field            sieve and the fastest for integers under 100 decimal digits.
+Dixon's factorization method. General-purpose integer factorization            algorithm.
+Special number field sieve. Special-purpose algorithm ideal            for Fermat numbers.
+General number field sieve (GNS). Derived from special            number field sieve. Efficient algorithm known for factoring big            integers. Uses steps to factor the integer.
+Prime test
+Determining whether a given number is prime.
+AKS primality test (Agrawal-Kayal-Saxena). The first published            algorithm to be simultaneously polynomial, deterministic, and unconditional.            Generalization of Fermat's theorem, extended to polynomials.
+Fermat primality test. Rely on an equality or set of equalities            that hold true for prime values, and then see whether or not they            hold for the number to test.
+Miller-Rabin primality test. Similar to the Fermat primality            test. Unconditional probabilistic algorithm.
+Sieve of Eratosthenes . Ancient algorithm for finding all prime numbers up to a specified integer.
+Sieve of Atkin. Optimized version of the sieve of Eratosthenes.
+Solovay-Strassen primality test. Same principle as the            Fermat test.
+Numerical
+Fibonacci .            Calculating the sequence of Fibonacci.
+Biconjugate gradient method. Solves systems of linear equations.
+Dancing Links. Finds all solutions to the exact cover problem.
+De Boor algorithm. Computes splines.
+De Casteljau's algorithm. Computes Bezier curves.
+False position method. Approximates roots of a function.
+Gauss-Legendre. Computes the digits of pi.
+Kahan summation. A more accurate method of summing floating-point            numbers.
+MISER. Monte Carlo simulation, numerical integration.
+Newton's method. Finds zeros of functions with calculus.
+Rounding functions. The classic ways to round numbers.
+Secant method. Approximates roots of a function.
+Shifting nth-root. Digit by digit root extraction.
+Square root. Approximates the square root of a number.
+Borwein's algorithm. Calculates the value of 1/e.
+Metropolis-Hastings. Generate a sequence of samples from            the probability distribution of one or more variables.
+Matrix processing
+Exponentiating by squaring. Quickly computes powers of            numbers and matrices.
+Rutishauser. Algorithm for tridiagonalizing banded matrices.            Uses the standard chasing step.
+Strassen algorithm. Faster matrix multiplication.
+Symbolic Cholesky decomposition. Efficient way of storing            sparse matrix.
+Zha's algorithm. For tridiagonalizing arrowhead matrices,            improves Rutishauser.
+Matrix chain multiplication. Given a sequence of matrices,            we want to find the most efficient way to multiply these matrices            together using dynamic programming (not to perform the multiplication).
+Optic
+Gerchberg Saxton. algorithm for the determination of the            phase from image and diffraction plane pictures.
+Optimization
+Ant colony optimization. Probabilistic technique for solving            problems which can be reduced to finding good paths through graphs.
+BFGS (Broyden-Fletcher-Goldfarb-Shanno method). Solves            a unconstrained nonlinear optimization problem.
+Branch and bound. Method to find optimal solutions of discrete            and combinatorial optimization problems.
+Conjugate gradient method. Iterative algorithm for the            numerical solution of systems of linear equations, whose matrix            is symmetric and positive definite.
+Evolution strategy. Technique based on ideas of adaptation            and evolution. Operators are. mating selection, recombination, mutation,            fitness function evaluation, and environmental selection.
+Gauss-Newton. An algorithm for solving nonlinear least            squares problems.
+Gradient descent. Approaches a local minimum of a function            by taking steps proportional to the negative of the gradient (or            the approximate gradient) of the function at the current point.
+Gradient ascent. Approaches a local maximum of a function,            as gradient descent but one takes steps proportional to the gradient.
+Levenberg-Marquardt. Numerical solution to the problem            of minimizing a sum of squares of several, generally nonlinear functions            that depend on a common set of parameters.
+Line search. Iterative approaches to find a local minimum            of an objective function in unconstrained optimization.
+Local search. Metaheuristic for solving hard optimization            problems as maximizing a criterion among a number of candidate solutions.
+Nelder-Mead method (downhill simplex method). A nonlinear            optimization algorithm.
+Newton's method in optimization. The same algorithm to            find roots of equations in one or more dimensions can also be used            to find local maxima and local minima of functions.
+PSO, Particle swarm optimization. Swarm intelligence modeled            by particles in multidimensional space that have a position and            a velocity.
+Random-restart hill climbing. Meta-algorithm built on top            of the hill climbing optimization algorithm.
+Simplex algorithm. An algorithm for solving the linear            programming problem
+Simulated annealing. Generic probabilistic meta-algorithm            for the global optimization problem, inspirated by annealing in            metallurgy.
+Steepest descent. see gradient descent.
+Stochastic tunneling. Approach to minimize a function based            on the Monte Carlo method-sampling.
+Tabu search. optimization method of search algorithm by            using memory structures.
+Trust search. Another iterative approaches to find a local            minimum of an objective function in unconstrained optimization.
+Parsing
+CYK (Cocke-Younger-Kasami). An efficient O(n3)            algorithm for parsing any CNF context-free grammar.
+Earley's algorithm. A chart parser, O(n3) algorithm            for parsing any context-free grammar.
+Inside-outside. An O(n3) algorithm for re-estimating            production probabilities in probabilistic context-free grammars.
+LL Parsers
+Parse a LL context-free grammar top-down from left to right.
+Such as ANTLR that is LL(*).
+LR Parsers
+Bottom-up parsers for context-free grammars.
+Dijkstra's shunting yard algorithm is commonly used to            implement operator precedence parsers which convert from infix notation            to Reverse Polish notation (RPN).
+LALR (Look-ahead LR). With a one-token look-ahead. Yacc/Bison            use LALR(1)
+SLR (Simple LR) parser. An LR(0) modified to prevent shift-reduce            and reduce-reduce conflits. Remains inferior to LR(1).
+Canonical LR parser or LR(1) parser. Has a look-ahead of            one token.
+GLR. (Generalyzed LR parser) by Masaru Tomita. An extension            of an LR to handle nondeterministic or ambiguous grammars. It is            efficient to parse natural language.
+Recursive Descent Parsers
+Top-down parsers built from a set of mutually-recursive procedures          that represent the production rules of the grammar.
+Packrat parser. A linear time parsing algorithm supporting            context-free LL(k) grammars. Use backup and memoization (remembering            its choices) to avoid non-termination.
+Prediction (statistics)
+Baum-Welch. Finds the unknown parameters of a Hidden Markov            Model (HMM). It makes use of the forward-backward algorithm.
+Viterbi. Calculates the Viterbi path, a sequence            of states that is most luckily to appear in a sequence of event.
+Quantum
+Application of quantum computation to various categories          of problems
+Grover's algorithm. Provides quadratic speedup for many            search problems.
+Shor's algorithm. Provides exponential speedup for factorizing            a number.
+Deutsch-Jozsa. Criterion of balance for Boolean function.
+(Pseudo) Random number generators
+Blum Blum Shub. Based on a formula on prime numbers.
+Mersenne twister. By Matsumoto Nishimura, fast and with high            period.
+Lagged Fibonacci generator. Improvement of Linear congruential            generator, uses the Fibonacci sequence.
+Linear congruential generator. One of oldest, not the best, use            three numbers to generate a sequence.
+Yarrow algorithm. By Bruce Schneier, John Kelsey, and Niels Ferguson.            Cryptographically secure pseudorandom numbers generator, can also be used            as a real random number generator, accepting random inputs from analog            random sources.
+Fortuna. Allegedly an improvement on Yarrow algorithm.
+Linear feedback shift register. A shift register whose input            bit is a linear function of its previous state. The first state is the            seed.
+Sciences
+Ephemerides.
+Positions of Moon or other celestial objects.
+Julian day. Number of days that have elapsed since Monday,            January 1, 4713 BC in the proleptic Julian calendar. The algorithm            is a formula. Variations are: heliocentric, chronological, modified,            reduced, truncated, Dublin Lilian julian day.
+Julian date. The Julian day, not rounded, decimal fraction.
+Medical

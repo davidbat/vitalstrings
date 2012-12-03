@@ -1,0 +1,7 @@
+Value of investment after t years:
+S = Pert
+Where e is the transcendental number 2.7182818285...
+Notice that the output, S, is an exponential function of t. That is, if we consider the final  value of the investment as a function of the length of time for the investment, then t, the length of time for  the investment, is in the exponent position, and this makes S an exponential function of t.
+Example calculation
+If $4000 is invested at an annual rate of 6.0% compounded continuously, what will be the final  value of the investment after 10 years?
+S = Pert

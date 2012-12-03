@@ -1,0 +1,9 @@
+Post/ZIP code:   
+Know IP address - What it is? 
+The Internet Protocol address or simply an IP Address is an unique and universal identification number of all devices connected to the internet. Internet Service Providers (ISP) assign these IP addresses. It can be of two types- Static IP and Dynamic IP. Static IP addresses are assigned by ISP or system administrator and these don't change with time. Dynamic IP address are assigned by DHCP (Dynamic Host Configuration Protocol) servers, these addresses changes every time, when users connects to internet.
+An IP Address can be represented in two forms-  Dotted Decimal form and Binary form. In Dotted Decimal form it can be represented like 127.200.10.01 and in Binary form the same IP address can be represented like 01111111 11001000 00001010 00000001.
+The IP address can be classified into different classes like Class A, Class B, Class C etc. An IP address contains basically two parts Network ID and Host ID. From Network ID the computer's network can be identified and from Host ID the computer can be identified with in a network.
+ 
+How to know IP address?
+You can easily know IP address as well as all other related information by just visiting our site. Alternatively, you can check your IP details by using 'ipconfig' command in Windows operating system and 'ifconfig' command in Linux operating system.
+ 

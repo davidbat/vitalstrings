@@ -1,0 +1,32 @@
+Re: Code for sparse stiffness matrix assembly
+> ... but I need to know the number of nonzeros in the matrix first.
+Two points:
+1) I assume that you are assembling the stiffness matrix on an element-
+by-element basis; inserting each element matrix into the global matrix
+in a loop.  If so, you would like to directly insert into a global
+sparse matrix, correct?  (Since the alternative would be to make a
+full dense matrix and then copy it into a sparse duplicate...)  This
+was not entirely clear in your original post.
+2) Your global stiffness matrices likely contains rows that correspond
+to nodal equations (possibly displacement or velocity) or elemental
+equations (possibly pressure).  For nodal equations, the number of
+nonzeros often corresponds to the number of variables employed,
+multiplied by the number of nodes or element points connected to the
+node in question.  It is similar for non-nodal equations.
+For example, if you had a 2D mesh consisting of 3-node triangular
+elements, to get the number of nonzeros for an equation at node "A",
+you could multiply the number of nodal variables per node (say 2: u_x
+and u_y) by the total number of unique nodes contained by elements
+which themselves contain "A".  It is possible to calculate this
+exactly for node "A", but it may be more efficient just to estimate
+that you will have a max of, say, 10 elements intersecting at any
+node, so the max number of nonzeros per row would be approximately
+2*(10*(3-2)+1)=22. Note that the (3-2) term accounts for nodes
+duplicated by adjacent elements.  This assumption could be false, as
+it is mesh-dependent, but you could just estimate slightly more, too.
+Remember, you can always set the number of nonzeros in each row to to
+be up to the length of the entire row itself; you just end up with a
+"sparse" matrix that is much slower (and larger) than a simple dense
+rank-2 array.  So eliminate as many as you can, but you can generally
+have some extra zero entries floating around without too much cause
+for concern.

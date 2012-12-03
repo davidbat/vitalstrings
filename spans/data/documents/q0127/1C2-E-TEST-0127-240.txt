@@ -1,0 +1,47 @@
+CloudMade downloads - weekly updated extracts in .osm format, various shapefile formats, and Garmin img files.
+Garmin IMG files with contours for Sendai (64Mb) and Honshu by Ralph Kleineisel
+Other Garmin img downloads are listed at OSM Map On Garmin/Download#Asia
+High Resolution PDF/PNG of latest OSM at http://eqjp.dbsgeo.com/prints/
+Map overlay (WMS, can be used with OpenLayers) showing the road status (passable/impassable).
+POI-Maps by Lübeck updated daily hopefully - wms-layer barrier and road-status added
+danger zone around the nuclare-factory Fukushima [1]
+Realtime situational mapping
+sinsai.info Ushahidi Site - Current status/hazards/needs on a map. Various reporting channels including text messages (using OpenStreetMap!)
+ESRI's latest news map - Similar idea. Geoloacted YouTube movies, tweets, and photos on esri's platform.
+Contact
+The OSM Japan community is also coordinating through the OpenStreetMap Japan - Crisis Mapping Project .
+Outside Japan
+For help using OpenStreetMap, or other requests/information:
+Check the wikipage of HOT (the Humanitarian OSM Team), or send a email to the official HOT contact address: hotosm [AT] gmail.com
+HOT mailing list - for public discussion
+IRC chatrooms include a #osm-ja channel ( logged ) and a #hot channel (though the general #osm channel is always busier)
+See Contact for other OpenStreetMap channels
+Ways to help mapping
+Note:This is a brief overview. See mapping coordination and data sources for details.
+Help mapping from afar
+There are several ways you can help from a remote place.  If there is anything you can do, please help.  However, please note that OpenStreetMap is operated under an open data license, so you cannot incorporate data from incompatible licensing.
+Tracing imagery
+Satellite imagery are used as source data from which roads and buildings are traced (digitized, by clicking on the image) and incorporated into the digital map.
+Importing data
+Public data, and data provided for OpenStreetMap are imported into the OpenStreetMap database.  This will import data for a vast area in a large batch, so this requires coordination among mappers and communication to discuss tagging.
+Copying coordinate data
+If there are data that comes with coordinate information, that can be written to OpenStreetMap. Make sure that the license scheme of the data source is compatible. Data sources confirmed to be compatible are follows:
+emergency shelter map by Miyagi Prefecture local government(Japanese) . Incorporation work is coordinated with this spreadsheet(Japanese) . See here for tagging information.
+Mapping on the ground
+To avoid confusion, at the time of this writing (Mar. 21, 2011), gathering data and mapping on the ground (e.g. moving around with a GPS device) by people other than rescue professionals or people living in the area, is not recommended.
+What to map
+Note:This is a brief overview. See mapping coordination and data sources for details.
+Base map
+Base map information, such as road and buildings, has not been mapped sufficiently in the north-eastern area of Japan.  Please consider helping data entry in the base map.  Much traceable imagery is available.
+Importable (digital) data is also provided.  Please consider helping with this activity if possible.
+Post disaster map
+Damage caused by the earthquake and tsunami has to be mapped.  If you have experience in crisis mapping, please help mapping things that should be mapped, based on your experience.
+However, situation is changing rapidly and the kind of information that is required must be considered with experts in the field.  The japanese OpenStreetMap community is discussing with HOT to set up policies.  Please wait for a while.
+Other Ways to Help
+Translations
+We are currently recruiting translators. There are many documents that need translating. Even translating one of them would be a big contribution.
+2011 Sendai earthquake and tsunami/Translation Request
+Mapping Applications
+Developing means to utilize OpenStreetMap (such as creating applications, etc.) or localizing(translating) existing applications, are very helpful.  Applications well thought for the use on the ground are especially appreciated.  At this time, the following forms of applications are being created, or planned. For any other ideas, your imagination is the limit.
+Offline Maps (i.e. map data for use in Garmin)
+Paper Maps

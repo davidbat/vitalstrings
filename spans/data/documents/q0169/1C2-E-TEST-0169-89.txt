@@ -1,0 +1,28 @@
+First Prev [ 1  2  ]  Next   Last
+In the mathematical subfield of numerical analysis a sparse matrix is a matrix populated primarily with zeros. A sparse graph is a graph with a sparse adjacency matrix .
+Sparsity is a concept, useful in combinatorial mathematics and application areas such as network theory , of a low density of significant data or connections. This concept is amenable to quantitative reasoning. It is also noticeable in everyday life.
+Huge sparse matrices often appear in science or engineering when solving problems for linear models.
+When storing and manipulating sparse matrices on the computer it is often neccessary to modify the standard algorithms and take advantage of the sparse structure of the matrix. Sparse data is by its nature more easily compressed which can yield enormous savings in memory usage. And more importantly manipulating huge sparse matrices with the standard algorithms may be impossible due to their sheer size. The definition of huge depends on the hardware and the computer program s available to manipulate the matrix.
+1 Definitions
+Given a sparse N×M matrix A the row bandwidth for the n-th row is defined as
+The bandwidth for the matrix is defined as
+2 Example
+A BMP image having only 2 colors, with one of them dominant (say a file that stores signature) can be encoded as a sparse matrix that contains only row no and col no of non-dominant color.
+3 Storing a sparse matrix
+The naive data structure for a matrix is a two dimensional array. Each entry in the array represents an element ai,j of the matrix and can be accessed by the two indices i and j. For a n×m matrix we need at least (n*m) / 8 bytes to represent the matrix when assuming 1 bit for each entry.
+A sparse matrix contains many zero entries. The basic idea when storing sparse matrices is to only store the non-zero entries as opposed to storing all entries. Depending on the number and distribution of the non-zero entries, different data structure s can be used and yield huge savings in memory when compared to a naive approach.
+3.1 Diagonal matrix
+A very efficient structure for a diagonal matrix is to store just the entries in the main diagonal as a one dimensional array. For n×n matrix we need only n / 8 bytes when assuming 1 bit for each entry.
+4 Reducing the bandwidth
+The Cuthill-McKee_algorithm In the mathematical subfield of matrix theory the Cuthill-McKee algorithm is an algorithm to reduce the bandwidth of sparse symmetric matrices. Algorithm Given a symmetric n ''n matrix we visualize the matrix as the adjacency matrix of a graph. The Cuthil can be used to reduce the bandwith of a sparse symmetric matrix In linear algebra, a symmetric matrix is a matrix that is its own transpose. Thus A is symmetric if: : which implies that A is a square matrix. Examples The entries of a symmetric matrix are symmetric with respect to the main diagonal (top left to bottom.
+5 Reducing the fill-in
+The fill-in of a matrix are those entries which change from an initial zero to a non-zero value during the execution of an algorithm. To reduce the memory requirements and the number of arithmetic operations used during an algorithm it is useful to minimize the fill-in by switching rows and columns in the matrix. The symbolic Cholesky decomposition In the mathematical subfield of numerical analysis the symbolic Cholesky decomposition is an algorithm used estimate the worst possible fill-in for a symmetric sparse matrix when applying the Cholesky decomposition. Algorithm Let : be a symmetric positive can be used to calculate the worst possible fill-in before doing the actual Cholesky decomposition In mathematics, the Cholesky decomposition named after Andre-Louis Cholesky, is a matrix decomposition of a positive-definite matrix into a lower triangular matrix and the conjugate transpose of the lower triangular matrix. It can be considered as a speci.
+Politics
+Finance
+Topics: Sparse Matrix Entries Fill-in Storing Data Huge Matrices Array...
+Sparse matrix In the mathematical subfield of numerical analysis a sparse matrix is a matrix populated primarily with zeros. A sparse graph is a graph with a sparse adjacency matrix. Sparsity is a concept, useful in combinatorial mathematics and application areas such
+Sparse multicast Sparse mode multicast is one mode which multicast can use to construct a tree for sending packets to the multicast subscribers. Its opposite is dense multicast. Sparse mode is ideal for groups where a very low percentage of the nodes (and their routers) w
+Sparse graph code A Sparse graph code is a code which is represented by a sparse graph. Any linear code can be represented as a graph, where there are two sets of nodes a set representing the transmitted bits and another set representing the constraints that the transmitte
+Sparse grid Sparse grids are a numerical technique to represent, integrate or interpolate high dimensional functions. They were originally found by the Russian mathematician Symolyak. Computer algorithms for efficient implementations of such grids were later develope
+Sparse array A sparse array in computing is an array where only very few indices are in practice used. Arrays are data structures used in programming languages. They map integer positions, or indices, less than the array's length, to values. A typical implementation a
+Sparse binary polynomial hashing Sparse Binary Polynomial Hashing is a special case of the Baysian filter. External links .

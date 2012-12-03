@@ -1,0 +1,24 @@
+Networking Products > Wireless > Wireless G Router
+Wireless G Router
+Configure a static IP address
+Summary
+This article describes how to configure a static IP address.
+More Info
+1. Double-click My Computer, then double-click Control Panel.
+2. Double-click the Network icon.
+3. Double-click the TCP/IP protocol bound to the network adapter you want to manually assign.
+4. From the IP Address Tab, Select Specify An IP Address, and then type a unique IP address for each client computer using the range between 192.168.2.2 to 192.168.2.254
+5. In the Subnet Mask box, type 255.255.255.0
+6. On the DNS Configuration tab, click Enable DNS, and then type the client computer's name in the Host box.
+Note: The computer name is case-sensitive, and unique to each computer.
+7. On the Gateway tab, type 192.168.2.1 in the New Gateway box, and then click Add.
+8. Under DNS Server Search Order, type 192.168.2.1, and then click Add.
+9. Click OK, and restart your computer when prompted.
+Windows 2000
+1. Click on the Start menu, select Settings, and double-click Network and Dial-up Connections
+2. Double-click on the Local Area Connection of the adapter you want to manually assign, select properties
+3. Double-click on Internet Protocol TCP/IP, Select use the following IP address, and then type a unique IP address for each client computer using the range between 192.168.2.2 to 192.168.2.254
+4. In the Subnet Mask section, type 255.255.255.0
+5. In the Gateway section, type 192.168.2.1
+6. Select Use the following DNS Server Addresses, type 192.
+Was this information helpful?

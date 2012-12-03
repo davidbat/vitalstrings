@@ -1,0 +1,8 @@
+Tweet
+An identifier for a computer or device on a TCP/IP network . Networks using the TCP/IP protocol route messages based on the IP address of the destination. The format of an IP address is a 32-bit numeric address written as four numbers separated by periods. Each number can be zero to 255. For example, 1.160.10.240 could be an IP address.
+Within an isolated network, you can assign IP addresses at random as long as each one is unique. However, connecting a private network to the Internet requires using registered IP addresses (called Internet addresses) to avoid duplicates.
+The four numbers in an IP address are used in different ways to identify a particular network and a host on that network. Four regional Internet registries -- ARIN , RIPE NCC , LACNIC and APNIC -- assign Internet addresses from the following three classes.
+Class A - supports 16 million hosts on each of 126 networks
+Class B - supports 65,000 hosts on each of 16,000 networks
+Class C - supports 254 hosts on each of 2 million networks
+The number of unassigned Internet addresses is running out, so a new classless scheme called CIDR is gradually replacing the system based on classes A, B, and C and is tied to adoption of IPv6 .

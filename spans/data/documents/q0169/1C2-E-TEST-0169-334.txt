@@ -1,0 +1,3 @@
+2.7.1 Sparse Matrix Package
+As you might already know, sparse matrices are those in which most of the elements are zero (that is, the number of non-zero elements is very small).  Linked lists are very useful in  representing sparse matrices, since they eliminate the need to represent zero entries in the matrix. Implement a package that facilitates efficient addition, subtraction, multiplication, and other important arithmetic operations on sparse matrices, using linked list representation of those.
+eEL,CSA_Dept,IISc,Bangalore

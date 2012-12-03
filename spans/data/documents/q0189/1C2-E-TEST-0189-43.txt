@@ -1,0 +1,527 @@
+GSM/ EDGE (2G)
+850, 900, 1800, 1900 MHz
+UMTS service is available in Europe, Asia, Oceania, Brazil, North America (AT&T in the US, Rogers in Canada), and "Americas" (we're not clear what exactly that last covers).
+Like the iPhone 3GS, the iPad's hardware supports HSDPA, which enables data speeds up to 7.2 Mbit/sec (download), but in the U.S., AT&T's network hardware tops out at 3.6 Mbit/sec.
+Does the 3G model fall back to EDGE if no 3G is available?
+Yes (confirmed). It also has been found to work on T-Mobile's EDGE network in the US.
+What cellular data carriers does it work with?
+Any GSM carrier - the iPad is not locked to any carrier (in contrast to most iPhones).
+What data network does iPad use?
+Any GSM data network. In the US, GSM 3G speeds on iPad are available only from AT&T. The iPad is compatible with T-Mobile's network but will only achieve 2G speeds there. (Typical 2G speeds on the original iPhone were 140-220 kbit/sec, or 17-26 kByte/sec. This may have been limited by the iPhone itself, as EDGE can deliver up to 400 Kbit/sec in ideal circumstances.)
+Can I make phone calls with the iPad?
+No, there is no telephone built in. However, VOIP ("Voice-Over-Internet Protocol") applications such as Fring work on the iPad 3G network, and Skype works on WiFi. Skype does not work on AT&T's 3G network, citing "contractual" reasons. (This FAQ previously reported that all VOIP apps were banned from 3G; this was incorrect.)
+(In the US, AT&T originally prohibited VOIP applications from using the cellular network, but in October 2009 AT&T announced iPhone VOIP applications were now acceptable on its network.)
+Can I put in my iPhone SIM?
+No, the iPad uses a physically different size SIM card — a Micro SIM . You can physically cut a standard SIM down to Micro SIM dimensions, though it then won't stay in place in the iPhone SIM tray.
+How easy or hard is it to access the SIM?
+The iPad has a SIM slot and tray like the iPhone does. The slot is on the iPad's left side (rather than top, like iPhone).
+Is a 3G data plan necessary to use on WiFi?
+No.
+Is a 3G data plan necessary to use WiFi hotspots (e.g. Starbucks)?
+In the US (see below for more), AT&T offers free WiFi at its hotspots for iPhones and iPads with active data accounts. Non-AT&T wifi hotspots do not require any 3G data plan but may have their own fees for use.
+US-specific 3G Service Information
+What 3G data options are available?
+In the US, AT&T offers two plans:
+$14.99/month for 250 MB
+$29.99/month for "unlimited" data
+The service automatically renews every 30 days, unless you cancel it. Cancellation is not immediate, rather it takes effect at the end of the current period, or when you've used up your data quota, whichever comes first.
+AT&T's typical fine print defines "unlimited" as 5 GB; we do not know if this applies to iPad.
+This does not include international data roaming; AT&T offers several "Global Data" plans:
+$24.99/month: 20 MB Data Global Add-On
+$59.99/month: 50 MB Data Global Add-On
+$119.99/month: 100 MB Data Global Add-On
+$199.99/month: 200 MB Data Global Add-On
+Unlike US service, AT&T's Global Data Add-On does not automatically renew.
+What about 3G outside the US?
+Pricing and carriers have not been announced outside the US yet.
+Is a contract required?
+No, you can cancel at any time.
+Do I have to activate the iPad from a computer using iTunes, like the iPhone?
+Yes and no. iPad must be activated using iTunes, and iTunes does some sort of initial provisioning with AT&T. However, once iTunes has activated the iPad 3G, starting and canceling data service is done on the iPad itself.
+Do you pay AT&T directly on iPad, or is payment through the iTunes Store?
+In the US, payment is via credit card directly to AT&T.
+Can I monitor my data usage to avoid exceeding my quota?
+Yes, the iPad 3G monitors your data use and warns you as you approach the quota. It provides alerts at 20%, 10% and 0% remaining.
+What if I exceed my 250 MB?
+If you hit your quota, you can buy another 250 MB for $15 (which starts a new 30-day period), or switch to the $30/month plan.
+Does adding another 250 MB start a new 30-day period?
+Yes.
+Can I get a refund for unused data in a month?
+No.
+Can I use AT&T hotspots (e.g, at Starbucks and Barnes and Noble) for free with iPad 3G, like I can iPhone?
+Yes, but our reading of Apple's 3G info page is that you must have an active AT&T data plan to do so.
+We already have two data plans for our iPhones. To use iPad on 3G, is another data plan necessary?
+Yes.
+[See also Apple's iPad 3G page]
+Features
+Which way is up?
+Any direction. The iPad has a rotation sensor and turns the screen to keep it upright as you turn it. Unlike iPhone and iPod Touch, even the home screen rotates.
+But what if I don't want it to rotate? Say, I'm reading in bed on my side?
+A hardware switch by the volume buttons locks the screen orientation. (This originally was a mute switch, like the iPhone's.)
+Where are the buttons and keyboard?
+The iPad, like the iPhone and iPod Touch, uses a touch-screen instead of a physical keypad or keyboard. The iPad, however, does have several buttons on the sides and top, including  silence/volume and iPad wake/sleep buttons.
+I really want a physical keyboard. Can I use one?
+The Apple Wireless Keyboard , a Bluetooth device, will work with iPad, and we have reports that a number of non-Apple Bluetooth keyboards work too, including the Stowaway folding keyboard. Apple also sells iPad Keyboard Dock .
+Does the keyboard include arrow keys, tab between fields, and similar keyboard shortcuts?
+The keyboard includes all the standard keys, but support for tabbing between fields varies from app to app. The email app supports tab and shift-tab to navigate between address and subject fields and the message body, but you cannot use the arrows to pick from the email address selection list that appears as you type. Most apps with text selection support Command+Arrows to move the cursor to the beginning and end of line (left/right) or document (up/down), and Command-X/C/V are nearly universal for cut, copy and paste.
+What other Bluetooth devices does it support?
+The iPad should support all Bluetooth two-way headsets and stereo headphones. Based on iPhone experience, we do not expect Bluetooth printing or OBEX (OBject EXchange) support.
+Will it work with Apple's wireless mice?
+No, iPad is designed for a touch interface, not a mouse interface. (We've spent some time with the development kit software simulators in the past, and mice are very sub-optimal for using the iPhone interface.)
+Does the iPad's Dock connector work with my existing iPod accessories?
+Some of them. Apple's Composite AV and Component AV cables will work, as will USB/Dock cables. Due to iPad's size, it will not fit into most iPod speaker docks or the Apple Universal Dock.
+Charging is a problem area. The iPad comes with a 10-watt charger.  The USB specification only requires 2.5 watts be supplied, but the iPad's huge battery charges at peak speeds only using the 10-watt charger or what Apple terms a "High power USB port", available only on late model Macs. When connected to a standard USB port, iPad does not charge when in use, but does charge, slowly, while asleep.
+So far our charge testing has included the following:
+Fastest: iPad 10-watt wall charger
+Works: 13" MacBook Pro 2.26 GHz (MacBookPro5,5); iPhone 3GS wall charger
+Charges only while iPad is asleep: 2008 24" iMac 3.06 GHz (iMac8,1); 2006 Mac Pro 2.66 GHz (MacPro1,1); Power Mac G5.
+Does not appear to work: DLO PowerPair dual-USB wall charger; an Apple-certified third-party iPhone car charger.
+Does the iPad have a camera?
+No — like the iPod Touch, but in contrast to the iPhone (and iPod Nano), the iPad lacks a camera. (This may be better for high-security environments and in some other circumstances, and it's one less expense in Apple's bill of materials.)
+Does the iPad have a GPS?
+The 3G model includes GPS. As in the iPhone, it is "Assisted GPS", which means it gets some satellite data from the cellular data network, so it can lock into GPS within a few seconds, instead of the minute or two required by unassisted GPS devices.
+Will the GPS work without an active 3G data plan?
+It should, although acquiring a location will take longer without the A-GPS servers available on the 3G cellular network.
+Can the iPad sync contacts and calendars with my Mac or PC?
+Yes; there are two ways to do this:
+iTunes can sync your contacts and calend ars when iPad is connected with a USB cable. iTunes provides sync with iCal, MobileMe, Google, Microsoft Outlook, and AOL. (Apple's Calendar description also says "and more", but no details are provided. iCal and Address Book can sync with Yahoo calendar and contacts on Mac, so we assume they provide a bridge for iTunes and the iPad calendar and contact apps.)
+Wireless sync is available with Microsoft Exchange or Apple's MobileMe subscription service. Google has implemented partial Exchange ActiveSync support into its Gmail and Google Calendar services, which enables iPhones and iPod Touches to sync calendars and contacts wirelessly; this should work with the iPad too.
+Can it play music and videos?
+Yes, and also podcasts, iTunes U, and most other iTunes content.
+Does it support "iTunes LP" enhanced albums?
+Unknown. We would be very surprised if iPad failed to support the iTunes LP format (which is also used by some iTunes movies!), but Apple's detailed iPad feature pages make no mention of it.
+Can iPad multitask?
+iPad is designed to focus on one task at a time. iPhone and iPod Touch apps (at least the good ones) work hard to maintain the user's state when they quit and launch, which makes task switching feel like multitasking. Apple hasn't announced any plans to let non-Apple apps perform "true" multitasking (in other words, run in the background invisible to the user). This means streaming internet radio apps such as Pandora will only run as long as they are visible.
+A few days after iPad went on sale, Apple introduced iPhone OS 4.0, which features "Fast App Switching" and several related APIs for developers which will enable apps to multitask. Specific examples shown were Pandora streaming music in the background, Skype maintaining a VOIP phone call session, and a "tray" of running apps somewhat similar to the Mac OS X Dock.
+OS 4 will be available for iPad in the fall, free for all iPad owners. (It will be available for iPhone and iPod Touch a month or two earlier.)
+Does it support Microsoft Exchange Server's contact and calendar sync?
+Yes, iPad supports Exchange ActiveSync wireless sync and "push" email, calendar and contact updates.
+How about Exchange delegation and resource reservations?
+Unknown.
+Yes, the iPad supports MobileMe wireless sync and "push" email, calendar and contact updates.
+Does it have any accessibility tools for the blind or visually impaired?
+Yes, iPad includes the VoiceOver screen reader, screen zoom and color inversion, and speaking text in popup dialogs, like iPhone OS 3.0. We don't know whether the iPad supports Mac OS X Leopard's highly realistic "Alex" voice or if it uses the lower-quality voice used by the iPhone today.
+Does it have any accessibility tools for the deaf or hearing-impaired?
+Yes, the iPad supports closed-captioning for video, and mono audio output.
+Does the iPad include tools for the motor-impaired, i.e., those with Parkinson's Disease, MS, etc?
+No, it does not have features equivalent to Mac OS X's "Slow Keys" (key acceptance delays) or "Mouse Keys" (numeric keypad for mouse cursor control) accessibility aids.
+Migrating from iPhone or iPod Touch
+There have been a number of questions asked about how iPad will work for those who currently own an iPhone or iPod Touch.
+Is there a way to import settings from my iPhone?
+Yes. When setting up your iPad, iTunes offers to use any existing iPhone or iPod Touch backups it has to "restore" the iPad. (We haven't yet tested this, because we're a little wary of restoring settings from one device to an untested new model!)
+Will the apps I've already bought work on iPad?
+Yes.
+What will my existing apps look like on iPad?
+They will run in a small window in the middle of the screen on a black field. You can use a "2x" button in the lower right corner to double the apps's size for easier viewing. This looks slightly blocky and blurry. Occsionally, we have noticed apps have a few elements that appear sharp; perhaps higher quality underlying art scales up well? For example, Tap Tap Revenge NIN Edition (screenshot) has a sharp, crisp logo with fine detailing; compare to the pixel-doubled content beside and below it.
+Will I have to buy new new copies of apps I already own?
+No, you won't. You can load them onto your iPad using iTunes, or re-download them from the App Store at no charge. Apple's FairPlay DRM for apps is structured much like it is for movies and TV shows: once you have purchased them, you can put them on all of your iPods or iPhones.
+I've read that I can only authorize a total of 5 devices. What if I have more than 5 total Macs, PCs, iPhones and iPads?
+FairPlay-protected content, including iTunes Store videos, movies, and apps for iPhone and iPad, have the following permissions:
+May be played on up to five Macs or PCs (typically using iTunes, Front Row or QuickTime Player), and
+May be played on any number of iPods, including iPhones, and
+For music, an unchanged iTunes playlist may be burned to CD up to 7 times, and
+A music track may be burned to CD any number of times.
+Each iPod, iPad or iPhone is limited to using five iTunes accounts to decrypt this protected content.
+In summary: Your iPad and iPhones do not count against the five-PC quota, but they are limited to the protected content of five distinct iTunes Store users. (AppleTV units, too, do not count against the five-PC quota.)
+For more detail, see Apple's iTunes Authorization FAQ and Wikipedia's FairPlay restrictions notes.
+How can I transfer my iPhone/iPod Touch apps to my new iPad?
+iTunes will sync your existing apps to iPad.
+Can I upgrade to iPad native versions that are designed for full size?
+This depends on each developer. Some are providing updates to their app that include optimized views for both iPhone and iPad; for example, the developer of Instapaper has decided to provide this as a free update. Others may release specific iPad versions; for example, a number of popular games will be available in iPad versions under a different name and presumably as a new purchase (sources: Apple leaks approved iPad apps , New apps discovered ).
+Software
+Will my iPhone/iPod Touch apps work on iPad?
+Yes, Apple states most Apps will work at their native small size, or in a "pixel doubled" mode that expands them to most of the iPad screen.
+What apps will NOT work with the iPad?
+Apps that require hardware specific to the iPhone (e.g., camera, compass, etc.) that is not available on the iPad will likely not work on the iPad without an update from the Developer.
+Safari (Web Browser)
+What is the web browser?
+The iPad uses a version of the same Mobile Safari browser as the iPhone and iPod Touch. All browser controls are at the top of the screen, though, rather than being split between top and bottom, as on the iPhone and iPod Touch.
+Does the iPad support Flash and Java?
+No.
+What's the deal with this Apple vs Adobe Flash debate? Who's right and how does it affect me?
+We recommend Stephen Shankland's The Flash fracas between Adobe and Apple FAQ , which provides a fairly nuanced description of the issues involved.
+Without Flash, how can I watch web video?
+Content producers can provide direct links to H.264 or MPEG-4 encoded downloads, use HTTP live streaming , or use HTML5 video . HTML5 video has already been implemented by YouTube and Vimeo , among others.
+What about Flash-based web games?
+They won't work on iPad.
+Can I sync my Mac or PC's bookmarks?
+Yes, iTunes provides sync for Safari on the Mac and Safari or Internet Explore on Windows XP, Vista and 7.  Apple's MobileMe subscription service also provides over-the-air bookmark sync with your Mac or Windows PC.
+What about Firefox? Camino? Chrome? Opera? iCab?
+Apple doesn't support browsers other than Safari and Internet Explorer, but we've explored some options:
+All browsers: Export your Firefox bookmarks to Safari or Internet Explorer from time to time. Inelegant but functional.
+Firefox: Use the free Xmarks Firefox extension and the Xmarks mobile site on your iPad. On Windows, you can sync Firefox to IE bookmarks with Zinkmo .
+Camino: No solution available other than exporting bookmarks to Safari.
+Chrome: Use the free Xmarks Chrome Extension and the Xmarks mobile site on your iPad. Or use Chrome's Google Bookmark sync, and the Google Bookmarks site on your iPad.
+Opera: No solution available other than exporting bookmarks to Safari.
+iCab: No solution available other than exporting bookmarks to Safari.
+Does the iPad browser support tabs?
+Instead of tabs, as with the iPhone's browser, you can open separate pages by tapping the multi-square icon in the toolbar. This accesses a grid view of your open pages (similar to iPhoto's view of pictures). Tap one to zoom it to full screen.
+Does the iPad have a popup blocker?
+Yes. (Thanks to MacInTouch reader Bud Lande for this correction.)
+Does it have an ad blocker?
+No. (Third party browsers might support this.)
+Why can't I use me.com on iPad?
+The web applications on me.com are designed for desktop web browsers, so Apple has blocked iPad, iPhone and iPod Touch from accessing them. Instead, Apple supplies links to setup instructions for using MobileMe services on iPad, and links to the iDisk and Gallery apps on the App Store. (See Apple support article TS1673 .)
+The me.com web apps do work with browsers other than Safari, though some mouse-specific features such as drag-and-drop do not work. (We have confirmed that iCabMobile works.)
+Any web browser can view published galleries (gallery.me.com) and sites you've created in iWeb (or other HTML authoring tools).
+Mail
+What email software is used?
+The iPad's email is similar to the iPhone and iPod Touch mail app.
+Does it have a junk mail filter?
+No (confirmed).
+What email services/servers does it support?
+The iPad will support any standard POP or IMAP internet mail server, including Gmail, Yahoo Mail, MobileMe, and Mac OS X Server.
+What about Microsoft Exchange?
+Yes, the iPad will work with Exchange the same way iPhone and iPod Touch do, using Microsoft's ActiveSync protocol.
+Can iPad email view attachments?
+Apple says iPad can view the following document types: .jpg, .tiff, .gif (images); .doc and .docx (Microsoft Word); .htm and .html (web pages); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview and Adobe Acrobat); .ppt and .pptx (Microsoft PowerPoint); .txt (text); .rtf (rich text format); .vcf (contact information); .xls and .xlsx (Microsoft Excel). Based on iPhone experience, we also expect support for .png images.
+Can I save attachments?
+The iPad probably will allow saving picture attachments, like the iPhone and iPod Touch, but since the iPad does not expose the file system to the user, we don't think it will be able to save other kinds of attachments the way Mac and PC mail applications do.
+Is it limited to just 200 messages per mailbox like the iPhone is?
+Yes (confirmed). As on iPhone and iPod Touch, server-side search is available for IMAP and Exchange servers, to enable you to locate older messages.
+Can it sync multiple folders without having to manually navigate to each one?
+No (confirmed).
+Can I create new mailboxes or mail folders?
+No. If you are using an IMAP account (including MobileMe and Gmail) you can create folders using your desktop email application, and iPad will be able to use them.
+Does it have a unified inbox view, like Apple's Mac OS X Mail does?
+No, but Apple says this is part of the next major software update, iPhone OS 4, coming for free this fall.
+Does it support composing styled text? (i.e., bold, italics, font sizes)
+No (confirmed), aside from any formatting carried over by copy-and-paste from Safari or other apps. (It definitely supports displaying HTML/rich text messages.)
+Can you change the message display font size?
+Yes (confirmed). Like iPhone and iPod Touch, you can set a minimum font size; which defaults to "Medium". (Other options are Small, Large, Extra Large and Giant.)
+iPod
+Can I connect a big USB drive with music/media files to the iPad and use iTunes to play from the drive?
+No.  But, Wearable's Airstash is a wireless flash drive with a built-in, web-based media server that works with iPhone Safari to stream music and movies. The Airstash creates its own Wifi network and stores media on an SD flash card.
+Calendar
+Can I add events to the iPad's calendar?
+Yes.
+Can I invite people to events?
+Yes (confirmed). We have set up an iPad with Google Apps Premier Exchange service, and it can add invitees to events and send invitations.
+Notes
+Can I sync Notes back to my Mac or PC?
+Yes, using iTunes. (This is the same as iPhone and iPod Touch Notes sync.)
+Can I use some font other than Marker Felt?
+Two MacInTouch readers have contributed tips for iPhone, which may also work with the iPad:
+Lawson Culver:
+"If you have a non-US keyboard installed, type and then delete one non-US character. The font for that note file will always be plain (i.e. not Marker Felt.)"
+William Perez:
+" you sync your notes to your Mac (requires 10.5 or higher), open Mail and check Notes. You can change the font per note. I've changed all my notes to the more legible Helvetica font and it stays that way on the iPhone."
+(Neither of these techniques appears to change the Notes' default Marker Felt for new notes.)
+Maps
+Is this Google Maps?
+It uses Google Maps data and map tile images, but as on iPhone and iPod Touch, the Maps application itself is designed and developed by Apple. Maps uses the same map and satellite views, routing algorithms and traffic data overlays, as Google Maps on the web, as well as the same local business and Points Of Interest database. Some Google Maps web site features, such as the terrain view, are available via a subtle flap at the bottom-right of the screen.
+Can I get directions with the iPad's maps?
+Yes. After finding a location, you can get directions to it.  These directions include turn-by-turn (but not live) map directions. You can add locations to your address book (new or existing contact).
+Can I get live, turn-by-turn navigation as I drive?
+Not using the built-in Maps application, but many apps that do this are available for the iPhone on the App Store; they should work on an iPad. (We advise reading customer reviews carefully, as the quality of these navigation apps varies immensely and there are no refunds from the App Store!)
+Is GPS required to find my location?
+Yes and no. A GPS will enable iPad to locate itself anywhere on earth. WiFi-only models can use nearby WiFi networks to approximate their location. (Apple uses Skyhook Wireless's "WPS" service for this; it's completely transparent to the user. A coverage map is available.)
+Photos
+Is the Photos app just a viewer, like on the iPhone and iPod Touch, or is it a photo manager/editor like iPhoto on Mac OS X?
+Photos is a viewer only, not an organizer and editor like iPhoto. Apple says it can import pictures from a camera using the $29 Camera Connection Kit, which includes an SD card reader and a USB cable connector. We believe imported photos go into the "Saved Photos" album, which is similar to iPhone's "Camera Roll".
+Can I play slideshows on a TV screen? Computer display?
+Yes (confirmed). Only the Dissolve transition is supported on the external display; music is supported. The iPad can output both NTSC and PAL signals using Composite Video and Component Video adapter cables, and will use the VGA Adapter to output video at 1024x768 resolution (tested with a Dell display).
+Does the Photos app support videos, like the iPhone 3GS's camera roll does?
+Yes, although there is a separate "Videos" app but it appears designed to play iTunes Store content. Videos saved from mail attachments are in the "Saved Photos" album of Photos, so we expect videos saved from digital cameras will go here too (and not in the Videos app).
+Are images synced by iTunes from iPhoto/Aperture downsampled in quality, as on the iPod and iPhone?
+No, they are full size (confirmed). iTunes does convert camera RAW images to JPEG format before copying images to iPad.
+Are images photos imported from the SD card reader downsampled?
+Images appear to be copied at full size onto iPad, with EXIF metadata intact, and RAW files are converted to JPEG for display. However, when you email one of these images, iPad appears to downsample it to 2048 pixels (largest dimension).
+iPad can import pictures and movies from cameras and flash cards using the Camera Connection Kit. Does it support RAW files? RAW+JPEG? What video formats?
+Yes; it will import any images or videos stored in DCIM folders on a flash card, or on a PTP-compatible camera. Some formats, such as high-bitrate HD video from the Flip HD and Kodak Zi6 camcorders, cannot be played on iPad, but they are stored and can be imported to a Mac or PC.
+Does iPad uses DCIM or PTP to get images from cameras?
+Both are supported.
+Will a USB hard drive look like a really big Flash card to iPad, enabling me to import lots of photos?
+Yes, if the drive in question is FAT-formatted and uses the DCIM folder structure.
+Is there any limit to how many photos I can import from a camera?
+We believe this is limited only by available storage on iPad, just like taking photos and videos with an iPhone.
+Can I edit images (e.g., adjust colors, exposure, and saturation, crop, rotate, etc)
+No (confirmed). This functionality is available in some App Store applications, which can import images from your Photo library and send changes back as new images.
+Videos
+Why is there a dedicated app for this, instead of using the iTunes app like on the iPhone?
+We're not sure. It might be to call out the feature to new users, or it might be intended to give Apple more independence from Google-owned YouTube, as Google and Apple become direct competitors in the phone, tablet and mobile search markets.
+How do I get videos onto an iPad?
+iTunes syncs your videos onto your iPad.
+Can I play non-iTunes store video?
+Yes, any video encoded in the correct format will work. We tested using RipIt with a concert DVD and it plays fine on iPad.
+Can I buy and rent videos directly from iTunes on the iPad without using my Mac or PC?
+Yes.
+Can I download and save video from the Internet?
+Not using Safari. However, you can save videos received in email to the Photos "Saved Photos" album.
+Does the iPad support HD video?
+The iPad supports: H.264-encoded video up to 720p at 30fps, in .m4v, mp4 and .mov formats; MPEG-4 up to 640x480, 2.5 Mbps (roughly SD quality); and avi-wrapped Motion JPEG (M-JPEG) up to 1280x720, 35 Mbps, 30fps, μlaw PCM stereo audio (commonly used by digital cameras). It does not support 1080 HD video.
+Can I play video on a TV screen? Computer display?
+Yes (confirmed). The iPad can output both NTSC and PAL signals using Composite Video and Component Video adapter cables, and will use the VGA Adapter to output video at 1024x768 resolution (tested with a Dell display).
+YouTube
+Can I login to get my YouTube favorites?
+Yes.
+Can I upload videos from my iPad directly to YouTube?
+Yes (confirmed). Videos in the Photos app can be sent to YouTube or MobileMe.
+How about HD?
+Yes, iPad supports playing HD videos from YouTube, when available (and bandwidth permitting). (It looks fantastic.)
+iTunes
+If I buy from iTunes, can I copy my purchases to my Mac or PC?
+Yes, just as with the iPhone and iPod Touch, iTunes will import your purchases to your desktop iTunes content library
+App Store
+Can I re-download my iPhone/iPod Touch apps onto my iPad?
+Yes. After you tap the "buy" button in the store, iPad will notify you if you have already purchased the app, and begin downloading it. You will not be charged for an app you have already purchased. (We do not know how "in-app" purchases such as additional content or features are handled.)
+iBooks
+What is iBooks?
+iBooks is an app that functions as both an e-book reader and an e-book store (cf. Amazon's Kindle).
+This is an obvious Kindle competitor. Will the iPhone Kindle app work on an iPad?
+Yes, it does. It offers most of the same features as the Kindle device, including annotation, highlighting, and WhisperSync.
+Will authors be able to self-publish through the iBooks Store?
+Yes. Two options are available so far, Lulu and Smashwords. Both say their catalogs of ebooks will be available via iBooks on April 3rd.
+According to an article in Venturebeat, ebook publisher Lulu has added iBooks to their existing distribution service for Amazon Kindle, Sony Reader, iPhone, Stanza, Mac and PC ebooks. Lulu has not yet published a clear guide to how much of the selling price is taken by the iBooks and Lulu service and how much goes to the author.
+Another Venturebeat article reports that ebook publisher Smashwords has signed a deal with Apple to enable self-publishing to the iBooks store. Smashwords distributes ebooks on several major platforms, including Amazon Kindle, Sony Reader, Barnes & Noble, Stanza (for iPhone), and Aldiko (for Android, Blackberry and Palm). Authors receive 85% of net proceeds from Smashwords, or 70.5% from affiliate referral sales. Since publishers receive 70% of retail from Apple, this works out to 59.5% for authors (or 49.35% for affiliate sales).
+Indie authors can, of course, distribute unprotected ePub books through other channels, and readers can load them using iTunes (much as musicians were free to distribute unprotected MP3s prior to the iTunes Store doing business with them directly).
+Will iBooks be compatible with the iPhone and iPod touch?
+Yes, Apple says iBooks is coming to iPhone and iPod Touch in the summer of 2010. (Summer lasts until September 20th.)
+How many books will be available in iBooks? Will I be able to find popular books?
+iBooks will carry titles from Penguin, Harper Collins, Simon & Schuster, Macmillan, Hachette Book Group and Random House. Apple reportedly is negotiating with other publishers as well.
+In addition, the AppAdvice blog reports that 30,000 books from Project Gutenburg will be available for free.
+How do I buy books?
+iBooks includes a book store within the app. You browse books, and purchase them just like you buy songs, videos and apps in the iTunes Store.
+I don't see iBooks on the iPad's Home Screen. How do I get it?
+You can download iBooks from Apple's App Store, in the US only. It is not pre-loaded on iPad.
+What format e-book does it use? Is there DRM (anti-copying technology)?
+iBooks uses the ePub format. Ars Technica reports iBooks uses FairPlay, the same DRM Apple created to protect music and videos sold through the iTunes store.
+Can iBooks read non-Apple ePub books?
+Yes (confirmed). Using iTunes, you can add any unprotected EPUB book to iPad. All embedded images come through fine, and they act just like books purchased from the iBooks Store.
+Even Sony Reader Store titles? I heard they switched to ePub!
+No. Sony has converted to the ePub format, but uses Adobe Content Server 4 DRM to control access. ACS4 is not compatible with iBooks.
+How about Google Books?
+Many Google Books (including all that are in the public domain, i.e., copyright-free) are available for download in ePub format, and they should work with iBooks.
+Can I use iBooks to read ebooks I check out from my public library?
+Probably not. Most US public libraries use a DRM system (such as Adobe Content Server) to control access to ebooks. These copy protection systems are not compatible with iBooks.
+Can I share my books, or loan them out?
+Unknown. If (and that's a big "if") Apple uses the same DRM permissions as they do for iPhone Apps and iTunes video — up to 5 Mac or Windows computers with iTunes and unlimited iPod use — family members would be able to share them using iTunes Home Sharing. However, the terms Apple has agreed upon with book publishers are not public, so this may not turn out to be the case.
+How big are e-book files? Will it take all my storage space?
+Text-only novels are typically well under a megabyte. Books with pictures and video could get quite large.
+Do I have to drag e-book pages to turn them? That's what the demo video shows.
+No, you can tap the page to flip it over quickly. The page drag is just a fun interaction option (and makes a great demo).
+Does the iPad iBook app allow notes or highlights to be entered in the text as with a physical book?
+The iBooks info page does not mention this, so we assume not. (Amazon's Kindle lets you both highlight text and add notes; you also can export these to your computer as a text file. See the MacInTouch Kindle 2 Review to learn more about this ebook reader.)
+Can I bookmark pages?
+Yes (confirmed). To bookmark a page, select a word on a page by pressing and holding for a moment. A popup menu will appear; "Bookmark" is one of the options. (Thanks to MacInTouch reader Philippe Duhamel for this tip.) iBooks also automatically bookmarks where you left off a book.
+What about the blind and visually impaired?
+iBooks works with the iPad's VoiceOver screen reader software and can read any book aloud.
+Could this be used for textbooks?
+Absolutely, and we think that would be a great use of the iPad's technology.
+iWork
+[See also: iPad iWork Apps Review .]
+What is iWork for the iPad?
+iWork is the group name for three applications Apple created for Mac OS X, and then rewrote in app versions for the iPad: Keynote, a presentation app; Pages, a word processor; and Numbers, a spreadsheet app.
+How much will iWork apps cost?
+$9.99 each. They are sold individually (unlike iWork for Mac, which includes all three).
+How do I print?
+The iWork apps cannot print directly from iPad. You can print using a PC or Mac by:
+1. Emailing the document to yourself at a PC or Mac. (You can email in PDF format.)
+2. Uploading the document to iWork.com Public Beta .
+Can Keynote run a projector from an iPad?
+Yes, Apple sells a VGA-out adapter that plugs into the 30-pin Dock port. Keynote uses the VGA output as a separate display, not a mirror. Keynote does not provide presenter notes like the Mac version does, but does provide a vertical "film strip" view of thumbnails to allow you to jump to another slide. They are very small, though, and not like the "slide preview" mode available in Mac Keynote and PowerPoint. You also can press-and-hold on the display to create a "laser pointer" effect on the external display.
+Can it run a TV screen too?
+Yes (confirmed). Keynote supports VGA at 1024x768, Component Video at 480p/576p and Composite Video at 480i/ 576i. It does not support HD formats. VGA provides the best image quality.
+Can I run a Keynote presentation on the external video, and take notes in Pages on the built-in screen?
+No. iPad's one-thing-at-a-time application model prevents this.
+Can I project other apps, like Safari?
+No, with three exceptions: Photos, Videos and YouTube all work with external displays too.
+Will Keynote work with Keynote Remote on an iPhone or iPod Touch?
+No, we haven't been able to make it work.
+Can I add my own themes to Keynote? Such as my company's standard theme?
+No, but you can import PowerPoint or Keynote presentations and duplicate them to create new, branded presentations.
+Does it support presenter notes, like Keynote on Mac and PowerPoint?
+No (confirmed).
+How do I exchange files with my desktop Mac's iWork application?
+There are several methods, including a just discovered iTunes method:
+iTunes: iTunes provides a "File Sharing" feature to import and export files to and from the iWork apps. (This is available to third party apps as well.)
+Email: Email files to yourself, then save them from Mail to Pages/Numbers/Keynote. Email them back out.
+iWork.com: From your Mac, send a file to iWork.com. From your iPad, go to iWork.com, login, and download the file to Pages/Numbers/Keynote.
+What about iDisk?
+No (confirmed), despite the obvious value it would add to Apple's MobileMe service.  The iDisk app can view iWork documents, but not open them for editing, or save them.
+Can I use the fonts from my Mac or PC?
+No (confirmed). It seems basic, but this is missing!
+Can iWork read Microsoft Office documents?
+Yes, but only Pages also export to MS Office (confirmed).
+Do I have to own iWork for Mac to use iWork on the iPad?
+The iPad iWork apps are independent from the Mac OS X iWork apps. However, if you wish to edit any Numbers or Keynote documents you create on iPad, you do need iWork on Mac (probably the '09 version).
+Will iWork run on iPhone or iPod Touch?
+No (confirmed).
+Technical Specifications
+What's in the box?
+iPad includes a Dock-to-USB cable, a 10 Watt USB power adapter, very skimpy documentation, and two large white Apple stickers. (Unlike iPods and iPhone, earphones are not included.)
+How much RAM does the iPad have?
+256 MB, like iPhone 3GS. About 55 MB is reserved for video hardware and other functions; 200.5 is available to the operating system and user applications.
+What are the iPad's dimensions?
+9.56 x 7.47 x 0.5 inches (243 x 189 x 13.4 mm)
+How heavy is it?
+1.5 lbs (about 0.68 kg). The 3G model is adds another tenth of a pound.
+How big is the screen?
+The glossy screen is 9.7" across the diagonal. Its pixel dimensions are 1024 by 768 pixels, with a resolution of 132 pixels per inch. (For comparison, the iPhone's display is about 165 dpi.)
+Is there an anti-glare/matte screen option from Apple?
+No, the iPad has a glossy display, like the iPhone and iPod Touch and Apple's MacBooks. Anti-glare films, such as the Photodon anti-glare film we tested in our Aluminum MacBook review, should work with the iPad's capacitive touch-screen.
+Does it adjust the screen brightness like the iPhone does?
+Yes. Like iPhone (and many of Apple's laptops), it has an ambient light sensor. It is on the opposite end of the front face from the Home button; the sensor's recess in the internal frame lead to (incorrect) early speculation that there might be an iSight-style camera there.
+What kind of display is used?
+iPad's 9.7" display is an LCD panel. The LCD is of the more expensive IPS ( in-plane switching ) type, which has a very wide angle of view with minimal color shift and full 24-bit color support. This should ensure good color fidelity.
+(According to Wikipedia, iPad is the first use of IPS in handheld consumer electronics.)
+What is the back made from?
+iPad's back is a single piece of aluminum, with a satin finish, much like Apple's "unibody" MacBooks and the original iPhone.
+Is the screen plastic or glass?
+Glass.
+Does the screen fingerprint badly?
+It has the same oleophobic coating as iPhone 3GS, which makes it easier to remove fingerprints and smudges.
+Can I use a stylus with the touch screen?
+No, because it senses electrical capacitance in your finger(s), not pressure at a point. However, Dr Bott's capacitive Ten One Design Pogo Stylus should work with the iPad.
+Does it have stereo speakers?
+Yes, but they emit audio through the same opening, so there is no stereo effect. (The headphone jack is stereo.) Earphones are not included.
+Does it work with Apple's remote earphones?
+Yes (confirmed).
+What are the requirements for Mac or PC?
+You must have a Mac running Mac OS X 10.5.8 or later, or a Windows PC running Windows XP SP3 or later (Vista and Windows 7), and iTunes 9.0 or later. USB 2.0 is listed as a requirement but we suspect USB 1.1 will work as well (although syncing would take much, much longer).
+What if I'm using Mac OS X 10.4 Tiger?
+You will have to upgrade to Leopard, or perhaps set up a Windows XP PC. (The irony of Apple supporting a ten-year old Windows OS while not supporting a five-year old Mac OS is not lost upon us.)
+Battery
+How long does an iPad battery charge last?
+Apple says "up to 10 hours" of WiFi web surfing, watching video, or listening to music.  Apple CEO Steve Jobs told an interviewer that playing music with the screen off, iPad lasts about 140 hours (nearly 6 days). Reviewers to whom Apple granted early access to hardware report that iPad's battery life is even better than claimed, getting 11 to 12 hours of video playback at default brightness (50%).
+Apple describes its battery test as follows:
+full battery discharge while performing each of the following tasks: video playback, audio playback, and Internet browsing using Wi-Fi. Video content was a repeated 2-hour 23-minute movie purchased from the iTunes Store. Audio content was a playlist of 358 unique songs, consisting of a combination of songs imported from CDs using iTunes (128-Kbps AAC encoding) and songs purchased from the iTunes Store (256-Kbps AAC encoding). Internet over Wi-Fi tests were conducted using a closed network and dedicated web and mail servers, browsing snapshot versions of 20 popular web pages, and receiving mail once an hour. All settings were default except: Wi-Fi was associated with a network; the Wi-Fi feature Ask to Join Networks and Auto-Brightness were turned off.
+Is the battery removable?
+No, the iPad has a built-in, inaccessible battery like iPhones and iPods.
+Is the battery replaceable?
+Apple will provide an iPad battery replacement service at $105.95 (including shipping) through its stores, authorized service providers and online support. The service takes about a week.
+Note that, according to Apple,
+"You will receive a replacement iPad that will not contain any of your personal data"
+(emphasis ours).  This means you may not get back the same iPad you sent in for service.
+Does the warranty cover battery replacement?
+Only if defective. If you purchase AppleCare, Apple will replace the battery if its capacity drops below 50% of original capacity during the 2-year coverage period (which begins on the purchase date).
+How long should the battery last before I have to replace it?
+We don't know yet. iPhone batteries are rated to retain 80% of their original capacity for 400 charge cycles, while Apple's newest MacBook Pro batteries are rated for 1000 charge cycles!
+Accessories
+What accessories will be available for the iPad?
+Apple will sell an iPad-specific Dock, a Keyboard Dock (which combines keyboard and Dock into a single unit), a VGA output adapter, a Camera Connection Kit, a 10-Watt AC power adapter, and a case that folds to position the iPad upright for viewing, or at a slight angle from horizontal for typing.
+Does the VGA adapter provide video mirroring?
+No.  Apple's own iPad intro event used live video mirroring, as has every iPhone introduction, but despite this evidence of feasibility, Apple has yet to provide this to the rest of the world. (The inevitable iPad jailbreak may offer options. Today, ScreenSplitr provides slow but real video mirroring for jailbroken iPhones and iPod Touches.)
+What is the Camera Connection Kit?
+The $29 kit includes two Dock adapters; one has an SD card reader, and the other has a USB "A" connector to use to connect a camera. (We presume it also will work with a typical USB card reader.) The kit is not yet available for purchase.
+Is the USB connector the same thing Apple used to sell for iPods?
+We don't know. (We tested photo import with this in our 2005 iPod Video review .)
+Can I use the USB adapter in the Camera Connection Kit to connect devices like keyboards?
+Yes, if the keyboard is sufficiently low power. We have found that Apple's aluminum keyboards draw too much power, and some Microsoft keyboards we tried result in a "device not supported" message on iPad, but MacInTouch Reader Antony Gravett reports success with other keyboards, including the original iMac G3 keyboard, Logitech diNovo Keyboard Mac Edition , and a $7 roll-up keyboard .
+Can I use my Apple Remote with video and music playback, like I can on a Mac?
+No. Apple has not announced any sort of remote for iPad, and it doesn't appear to have the IR port required by the Apple Remote.
+Can apps other than Keynote use the VGA adapter?
+Yes: Photos, Videos and YouTube all can use the VGA output. The API for the video output is public, so App Store developers could use it too.
+Does the VGA adapter output 1024x768 (aka XGA) or 640x480 (original VGA)?
+1024x768. VGA refers to the physical connector (which is not compatible with digital DVI or DisplayPort connectors).
+Does the power adapter support both 110- and 220-volts?
+Yes (confirmed)
+Will my existing iPod/iPhone chargers work with iPad?
+Yes, if they supply USB power. They will not charge iPad as fast as the 10 Watt charger included with it; for example, the iPhone charger provides just 5 Watts. Firewire chargers and older car connection kits will not work with iPad.
+It appears that the VGA adapter will not permit simultaneous charging of the iPad, because both use the Dock port. Any solution for this?
+Not that we're aware of. There are some products that provide charging while passing through other Dock connectors; for example, the Scoche PassPort converts 12V charging to newer iPods 5V-only requirement while passing through all other signals. In theory, one could design a pass-through Dock connector that provides power while enabling Apple's VGA adapter, but no such products have been announced yet.
+Security
+Is a security cable available to guard against theft?
+No. Unlike Apple's laptops, it has no Kensington Microsaver Security Slot.  Physically tethering an iPad while remaining usable will probably require an adhesive-based approach, such as the Kensington Microsaver Universal kit or Kensington Perma Dome Anchor .
+MacInTouch reader Lyman Taylor contributes:
+"From leaked pictures seen on web [developers with iPads on loan from Apple] have built custom metal frames with borders wide enough to drive several screws into  table and/or larger platform to secure the iPad.  That isn't as much tethered as it is mounted."
+.
+Can I lock iPad with a security code, like iPhone?
+Yes (confirmed).
+Is it possible to completely and securely remove all personal data from an iPad?
+We're not sure. iPhone 3GS uses hardware encryption on all data on the device (this cannot be disabled). Wiping out data is as simple as erasing the encryption key. This can be triggered by remote management software (specifically, MobileMe, certain versions of Exchange, and paid Google Apps Premier accounts), or after a number of failed passcode attempts on a locked iPhone (by default, 10).  In theory, all of these should be possible with iPad, but we don't know if Apple has enabled these features.
+Can iPad wipe its data if it's out of network contact for a period of time, like the Blackberry can?
+No. (This would enable the iPad to wipe itself even if an administrator can't remotely wipe it.)
+Can the user block unwanted outgoing network access?
+No, like iPhone, there is no way to do this using Apple's software. (On Mac OS X, Little Snitch and other outbound firewall tools enable a high degree of control over applications' network use.) There are applications for jailbroken iPhones that provide this functionality; perhaps they will come to iPad eventually.
+Can I jailbreak iPad?
+No. (But we're sure the jailbreak community will get to work as soon as iPad hits the street.)
+For more about the iPhone platform security, see Apple's iPhone Security Overview iPhone_Security_Overview.pdf .
+Miscellaneous
+Alternative input methods and displays
+Is the hardware on the current iPad capable of supporting an external webcam via the 30 pin connector or bluetooth?
+In theory, yes; Apple provides a developers API for devices attached to the Dock port or connected via Bluetooth. In practice, no; no such webcams with software exist.
+Will the speech recognition function from Dragon Naturally Speaking work with the iPad, as it does with the iPhone?
+Yes (confirmed).
+Does it have Voice Command, like iPhone 3GS?
+No.
+Does it have handwriting recognition?
+No. (But the third-party WritePad app promises this capability.)
+Can I use an iPad as a secondary display on my Mac?
+MacInTouch Reader Scott Bayes suggests that using a VNC client with the Mac software ScreenRecycler may offer this capability. A second option is iDisplay , which appears to do the same thing in a streamlined fashion, but only works with Mac OS X 10.6 Snow Leopard.
+Is there any way to screenshare from an Apple Computer to the new iPad?
+iPad VNC clients should be able to access a Mac's screen if "Screen Sharing" is enabled in System Preferences. We don't know of any way to screen share in the other direction.
+Can I use iPad as a touch-tablet for my Mac?
+Not out of the box, but there are several apps on the App Store that provide some of this functionality (see Touchpad search results and Mouse search results ).
+Users, Data and Apps
+Does the iPad support multiple users?
+No, like the iPhone and iPod Touch, it has only one set of apps, data and preferences.
+Can I upload a disk image to an iPad and access data on it?
+No. Since the iPad (like an iPhone) does not expose the file system to the user, it neither supports loading arbitrary files nor mounting disk images.
+Will Kindle software work on an iPad?
+Yes (confirmed).
+Are there other e-book readers or stores for iPad?
+Yes. Barnes and Noble has announced an ebook reader app for iPad that will work with the Barnes & Noble eBookstore , and the popular Stanza reader for iPhone, which also has a web-based e-bookstore, is expected to be optimized for iPad too.
+Can it display PDFs?
+Yes. iPad has a PDF viewer used by Mail, Safari, and many apps in the App Store. Like iPhone and iPod Touch, it simply shows all the pages, vertically scrolling. There is no thumbnail view like Preview on Mac OS X
+Can the PDF viewer handle really long documents?
+It should work at least as well as the iPhone 3GS. However, the current iPhone OS 3.1 has known problems with documents hundreds of pages long. MacInTouch reader Wilhelm Fitzpatrick recommends GoodReader for iPhone/iPod Touch, noting that GoodReader
+"implements its own PDF rendering engine, handles such large documents with ease, even on the iPhone. And GoodReader has announced they are working on an iPad version."
+Can I annotate PDFs, like in Preview on Mac OS X or in Acrobat Pro?
+No. At least one third party app, Aji Annotate ( iTunes Store , website ), provides this. (Thanks to MacInTouch reader Mathieu Besson for this tip.)
+Is it possible to completely backup and restore an iPad from a Mac or PC?
+Yes (confirmed). It's based on the iPhone platform, which has always featured complete backup and restore using iTunes on Mac or Windows.
+Can I get files onto/off of my iPad using iDisk, AirSharing, Dropbox, or similar apps/services?
+Not yet. Although the mechanisms are in place, no Apple or third-party apps provide general purpose file exchange yet. (Mail can save images and videos to  the Photos app; Safari can save same as well as save Office or iWork documents to Pages, Numbers or Keynote; Tweetie can send a draft tweet to Birdhouse; apps can register URL handlers to receive links from Safari and Mail; etc.)
+How about apps like iFiles and Documents To Go ?
+Yes, these stand-alone file managers work fine (confirmed).
+I read that the iPad would have a shared folder which would be accessible via USB. Is this true?
+Sort of! iTunes, in the iPad's "Apps" tab, provides an interface to exchange files with some iPad apps. This enables you to send documents to the iWork apps; other apps can use this too, as shown by OmniGraffle, which can exchange files with its desktop counterpart with no muss or fuss! But, while you can send any file to an iPad app this way, they only will open the kinds of files they know about.
+What is the maximum number of apps you can load on the iPad?
+226, counting the built-in (non-removable) apps. You can create up to 11 home screens, each of which has five rows of four icons, and the "Dock" can hold up to six icons. (Remember that any web shortcuts you add to your home screen takes a slot.)
+(A MacInTouch reader notes that iPhone OS actually does allow the user to store more apps than the Home screens can display; you must use Spotlight search to find and launch them. Most users, we think, would not find this to be intuitive — they'd merely see that their new app isn't present. Thus for practical purposes, 226 remains the limit for non-"power users".)
+Since it can run iPhone apps, does this mean it uses that resolution independence feature that Mac OS X has been promising developers for years (but not delivering)?
+No.  It's just pixel doubling; the apps are not actually designed to scale up and down like the Mac's stillborn resolution independence feature was to do.
+Other
+Will OS updates be free, like iPhone, or for fee, like iPod Touch?
+All updates to OS 3.x and to 4.x will be free for iPad buyers. Future major versions (v5 and later) may not be free (or even available, given Apple's penchant for abandoning old hardware).
+Will the iPad work with Airtunes to play music wirelessly via an Airport Express?
+No, iPad cannot stream music directly to an AirPort Express (this feature has yet to make it into iPhone). Apple's Remote app should work for controlling AirTunes streams between a Mac (or PC) and an AirPort Express.
+What languages are supported? Does it support non-Latin languages?
+According to Apple, iPad supports the following:
+Language Support for English, French, German, Japanese, Dutch, Italian, Spanish, Simplified Chinese, Russian.
+Keyboard support for English (U.S.), English (UK), French (France, Canada), German, Japanese (QWERTY), Dutch, Flemish, Spanish, Italian, Simplified Chinese (Handwriting and Pinyin), Russian.
+Dictionary support for English (U.S.), English (UK), French, French (Canadian), French (Swiss), German, Japanese, Dutch, Flemish, Spanish, Italian, Simplified Chinese (Handwriting and Pinyin), Russian.
+These lists are considerably shorter than the iPhone language lists. We speculate this list may be limited by Apple's software QA/testing capacity, and they are focusing on the biggest markets first, and will add other languages later.
+Can I tether the iPad to my jailbroken iPhone using Bluetooth or USB?
+We would be very, very surprised if this is possible. iPad can join the kind of ad-hoc WiFi network created by "mobile hotspot" devices, and Sprint is even advertising its Overdrive 4G portable hotspot for use with iPhones.
+Is AppleCare available for iPads? How much does it cost? What does it cover?
+Yes, the AppleCare Protection Plan is available for $99 in the US (with certain exceptions). For two years from purchase, it covers defects and failures not caused by damage or abuse, and covers the battery if its capacity drops to less than 50% of original capacity. It includes unlimited telephone technical support for the period. Apple excludes certain items from technical support and repair service, including damage (even if accidental), jailbreaking, and even running other Apple operating systems. For details, see Apple's APP terms and conditions .
+Okay, what are those AppleCare availability exceptions?
+AppleCare for iPad is not yet available for purchase in Florida, Kentucky, Nevada, Texas, Wisconsin and Wyoming. The "fine print" in the Apple Store description of it says availability is "pending regulatory approval" of its terms and conditions .
+Can I get real insurance instead of AppleCare?
+Not from Apple, but there are vendors that specialize in selling mobile device insurance. MacInTouch reader Greg Stewart reports
+"Squaretrade now has a iPad specific warranty that covers repairs and other "normal" issues, plus drops and spills. During the "launch special", its $96 for 2 years (1 extra over Apple's warranty) or $136 for 3 years."
+(We note that Squaretrade's iPad insurance does not cover battery failure.)
+MacInTouch reader Peter Fine reminds you to examine the fine print of any insurance policy for exactly what is and is not covered. For example, does it reimburse for replacement cost of an equivalent new unit, or for the market value of your older device? If the service offers repair, is it Apple Authorized, and how long is the repair timeframe? Does the company have a track record, and do they have Better Business Bureau complaints?
+How rugged is it? What if I drop it?
+Good question. Let us know what happens.
+ 
+Document History
+March 13, 2010:  First version edited.
+March 14, 2010:  Clarified sync options; retail availability; GSM/HSDPA notes; screen rotation; added unsupported browser bookmark sync options; removed duplicate iWork item; battery replacement and warranty; ad-hoc WiFi tethering possibility; minor updates and typo fixes.
+March 15, 2010:  Typo corrected.
+March 16, 2010: bezel; international availability, pricing and wireless support; lack of education or military discounts; AT&T hotspots; Bluetooth mice; lack of assistance access for the motor-impaired; video formats; TV output; EPUB options and interoperability; iWork video output, iWork Mac and MS Office compatibility; Motion-JPEG video support; 220-volt question; alternative input notes; screen sharing; data exchange notes; AppleCare notes; typo corrections.
+March 17, 2010: new Security section; Education discount; ad blockers; Marker Felt; iBook notes; oleophobic screen; VGA vs power; PDF display and annotation; backup/restore; OS updates; AirTunes; language support.
+March 18, 2010: Clarified AirTunes item.
+March 19, 2010: upgradability; 5GHz support; no data plan required for WiFi; keyboard shortcuts; popup blocker; iPod vs USB drive; Marker Felt workarounds in Notes; iWork file import/export options; mono speaker; battery life expectancy; Camera Connection Kit questions; VGA vs charging; general file import/export discussion; maximum number of apps; AirTunes; insurance vs AppleCare;  system requirements.
+March 21, 2010: storage expansion options; GPS without 3G; Skyhook Wireless; Camera Connection Kit vs USB hard drives; photo import limits; image editing; Kindle vs iBooks; Keynote remote question; earphones not included; VGA vs XGA; existing iPod chargers; no security tether options; breaking the 226 app limit; insurance fine print
+March 25, 2010: Speakers & mic added to Basics; iPhone/iPod Touch apps compatibility; Airstash product for external media storage; iBooks currently US-only; ambient light sensor; oleophobic screen coating; confirmed Apple earphone remote controls; possible slow charging from existing iPhone chargers; security cable options; PIN lock; Kindle for iPad; Barnes & Noble e-reader for iPad; PDF viewer options.
+March 29, 2010: Added iPhone migration section to aggregate common questions; iPad pre-orders sold out; available through Apple and Best Buy only; 3G service payment method; web video clarification; unified inbox coming in a future update; Maps uses Google data; iBooks publishers and Project Gutenburg; iBooks for iPhone and iPod Touch; public library DRM vs iPad; printing from iWork; anti-glare films; video output notes.
+March 30, 2010: Best Buy inventory; HSDPA support; no junk mail filters; Lulu and Smashwords provide self-publishing to iBooks store; Keynote themes and presenter notes; iWork file exchange; MobileMe iDisk app limitations.
+March 31, 2010: Device authorization; iBooks bookmarks; Keynote projector clarifications; TV-out support and resolutions; Numbers may export Excel.
+April 5, 2010: Stereo speakers; OS version; iPhone app compatibility notes; processor and speed; inventory and resale prices; Bluetooth keyboards; physical keyboard notes; charging issues; importing settings from iPhone; unusual iPhone app scaling; re-using previously purchased apps OK; various mail feature confirmations; Calendar invitation confirmed; Photos functionality, slideshows, videos, iTunes import, SD card reader, no image editing; Video compatibility, downloads, TV & VGA output; YouTube upload & HD; Kindle software; iBooks free EPUB books, bookmarks; iWork presentation features, TV, remote, presenter notes, file exchange, fonts, more; box contents; RAM; screen brightness; remote earphone compatibility; battery life; video mirroring and output notes; charging; security PIN lock; Dragon Naturally Speaking; iPad as secondary display; PDF viewer; backup/restore to PC/Mac; file exchange tools, iTunes File Sharing; free OS updates to 3.x and 4.x; AirTunes; tethering and mobile hotspot devices.
+April 20 2010: Geographic store restrictions, multitasking, unified inbox, camera connector kit ships, 3G release date and shipping status, international availability.
+May 03 2010: Official and grey market availability; 5GHz WiFi networking; EDGE support; VOIP denied over 3G; SIM-to-Micro SIM conversion; SIM tray; additional info on AT&T domestic and international rates; iTunes activation; Adobe vs Apple on Flash; MobileMe me.com lockout and workarounds; photo import and downsampling; DCIM & USB hard drive support; re-downloading purchased apps; USB keyboards; 110/220 volt power; mail folders; webcams; USB keyboard compatibility.
+May 04 2010: VOIP on 3G correction and Skype clarification. Added iWork apps review link.
+May 05 2010: Maps and handwriting updates; added iWork iPad Apps review link; corrected bad link to Apple 3G page.

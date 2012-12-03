@@ -1,0 +1,26 @@
+Posted 12 January 2009 - 06:59 PM
+Dominik G�ddeke, on Jan 7 2009, 06:08 PM, said:
+Nathan, Michael and whoever is interested,
+I finally found time to digest your paper completely. I basically have two new comments:
+[private]
+Your structured grid results for DIA are pretty much the same as I achieve with a code specifically expoiting the fact that I always have nine bands in my apps. My format is different, but after applying a caching/padding technique, the access pattern is pretty much the same as yours. Do I understand correctly that your 9pt Laplacian is in fact a 2D operator (table 3 in your paper)? If so, then my Q1 FEM discretisation on a topologically 2D-structured grid is fundamentally the same as your 2nd order FD in terms of matrix structure.
+That's right, it's basically a Q1 FEM discretization.
+Quote
+If so, here's my question: I am achieving identical perf results as you report. For CUDA 2.1 on a GTX 280 that I received through nvdeveloper for this NVISION report:
+http://www.mathemati...dprecision.html
+Back when I did the timings for this NVISION paper with CUDA 2.0 and the associated driver, I outperformed your numbers quite a bit (35 vs 40 GFLOP/s). Can you repro if you run your code on older installations? I unfortunately deleted the blazing fast beta drivers I had installed back in the days :(
+I have noticed some variation between CUDA/driver releases.  For me, the CUDA 2.1 Beta was often 5% faster than CUDA 2.0.
+I know of another person who has observed 40+ GFLOP/s performance with a slightly different implementation, so it's definitely possible to do better.
+Quote
+[public]
+This paper needs to be published properly. It is way too valuable to "get lost" in future releases of the CUDA SDK. I won't dive into review mode too much since you basically say so yourself in section 5.2: Your paper is essentially the GPU extension to the work by Williams et al. at SC (reference [19] in your writeup) from a "results" point of view. Which, since you describe unprecendented generality and performance, means a conference proceedings is what you should aim at. Try computingfrontiers.org or http://samos.et.tudelft.nl/samos_ix/ or PARA'09 or the usual suspects like GH09.
+We'll definitely follow up with conference version.  This tech report was meant to be more "hands on" and detailed than a conference or journal paper would permit.
+Quote
+If you decide to submit, you might want to check these comments and decide if you ignore them:
+A proper submission needs to
+- cite and discuss earlier work as I mentioned previously in this thread (the block-CSR stuff)
+- weight your motivational comment in sec 5 on ignoring transfer times: You are absolutely correct for simple linear solvers for (elliptic) problems on a single device. For reasonably interesting problem sizes and Krylov subspace solvers, approximately one SpMV is needed per iteration, and thousands of iters are needed until convergence. For multigrid, this relation changes unfavourably and transfer times do become relevant. On clusters, you might need one global MPI communication per SpMV, and the time spent in PCIe will be your bottleneck. Your line of argument is more than correct, but my point is that "negligible" is not the kind of language you should use.
+Sorry for the rant-y commenting, publish this paper!!!
+dom
+Block formats and multiple vectors are at the top of our todo list.  I agree with your point about transfer overhead, we'll provide some measurements for context.
+Thanks for your comments.

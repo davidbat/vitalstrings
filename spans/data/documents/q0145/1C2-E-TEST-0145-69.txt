@@ -1,0 +1,62 @@
+A(t) is the amount after t years
+t is the time, in years
+P is the principal, or initial amount
+r is the interest rate, in decimal form
+n is the number of times interest is compounded each year
+2  Examples
+NOTE!
+To work some of the following examples the use of logarithms is required.  If necessary, refer to the Logarithms chapter for help.
+The following examples exist only in "Math World."  Do not expect to see interest rates this nice in the real world!
+2.1  Finding Amount
+As a high school graduation present, Alice has just been given $500 to put in an interest bearing account for the next 4 years.  She goes to her local bank and asks what options she has.  She is told the following three options are available:
+A:  interest rate of 6% compounded monthly
+B:  interest rate of 5.75% compounded weekly
+C:  interest rate of 6.25% compounded quarterly
+Into which account should Alice place her money?  And, how much money will she have at the end of the 4 years?
+2.1.1  Work
+For any of the options, we know that the following are in place:
+A(4) is what we are trying to find.
+P = 500, since our starting, or initial, amount is $500.
+t = 4, since we are looking for the amount in the account after 4 years.
+Option A
+Additionally, we know that:
+r = 0.06, since our interest rate is 6% (and to get from a percent to a decimal equivalent, we divide by 100)
+n = 12, since interest is compounded monthly and there are 12 months in one year.
+   
+Option B
+Additionally, we know that:
+r = 0.0575, since our interest rate is 5.75% (and to get from a percent to a decimal equivalent, we divide by 100)
+n = 52, since interest is compounded weekly and there are 52 weeks in one year.
+   
+Option C
+Additionally, we know that:
+r = 0.0625, since our interest rate is 6.25% (and to get from a percent to a decimal equivalent, we divide by 100)
+n = 4, since interest is compounded quarterly and there are 4 quarters in one year.
+   
+2.1.2  Solution
+Thus, it is clear that Alice should choose account C, which will have a value of $640.77 in 4 years.
+File:Pencast
+2.2  Finding Time (and doubling time)
+Bob has $800 to invest in an interest bearing account that will compound interest monthly at a 6% interest rate.  How long will Bob have to leave his money invested for it to double?
+2.2.1  Work
+What do we know?
+A(t) = 1600, since we are looking for the time it takes for our initial amount to double.
+P = 800 is the initial amount Bob has to invest.
+r = 0.06, since the interest rate is 6% (and to get from a percent to a decimal equivalent, we divide by 100)
+n = 12, since interest is compounded monthly and there are 12 months in a year.
+t is what we are trying to find.
+Plugging these values into the compound interest formula and solving for t yields:
+   
+2.2.2  Solution
+So, it will take Bob 11.58 years (about 11 years and 7 months) for his money to double in this account.  Note that we can use natural logarithms to get the same answer.
+File:Pencast
+2.3  Finding Principal
+Sam is willing to invest money into an interest bearing account that compounds interest quarterly at 8%.  After 5 years, he would like to buy a nice new car valued at $23,000.  How much money does Sam need to invest to meet this goal?
+2.3.1  Work
+A(5) = 23000, since we want to have $23,000 in 5 years.
+P is the initial amount we are trying to find.
+r = 0.08, since the interest rate is 8% (and to get from a percent to a decimal equivalent, we divide by 100)
+n = 4, since interest is compounded quarterly and there are 4 quarters in a year.
+t = 5, since we want to have our money in 5 years.
+Plugging these values into the compound interest formula and solving for P yields:
+   

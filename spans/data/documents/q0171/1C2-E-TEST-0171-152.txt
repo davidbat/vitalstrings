@@ -1,0 +1,15 @@
+Every guest can make maximum 20 queries per day. Your daily credit: 0/20.
+Sign up now for your FREE Demo Account to get 200 queries per day.
+IP Address
+Information Box (Frame: 400x80) Horizontal HTML
+<iframe src="http://tools.ip2location.com/ib1" width="404" height="86" marginwidth="1" scrolling="no" frameborder="0"></iframe>
+ 
+Information Box (Frame: 200x160) Square HTML
+<iframe src="http://tools.ip2location.com/ib2" width="204" height="162" marginwidth="1" scrolling="no" frameborder="0"></iframe>
+ 
+Information Box (PNG 400x80) Horizontal Image
+<a href="http://www.ip2location.com" target="_blank"><img src="http://tools.ip2location.com/ip2location.png" border="0" width="400" height="80" /></a>
+ 
+Information Box (PNG 200x160) Square Image
+<a href="http://www.ip2location.com" target="_blank"><img src="http://tools.ip2location.com/ip2locationbig.png" border="0" width="200" height="160" /></a>
+ 

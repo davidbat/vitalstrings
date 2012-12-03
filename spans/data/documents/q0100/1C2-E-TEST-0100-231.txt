@@ -1,0 +1,18 @@
+   
+Posted by  ngon nguyen on October 03, 2001 at 13:41:05:
+In Reply to:  Re: WTC Twin Towers - viscoelastic dampers illustrations posted by Alex Smith on October 01, 2001 at 23:46:15:
+In response to the question of the action of viscoelastic dampers, I wrote:
+Viscoelastic (VE) dampers are dependent on both relative velocity and displacement to dissipate energy. VE damping system in Twin Towers is a double-layer shear damper using a 3M material, which is a rubber derivative, glued to steel plate and angle irons. This material will carry some load (which is temperature-dependent and would be less than the two-bolt connection as shown) as it displaces. As installed it has several functions:
+1. It develops continuity moment at the end of joist girder, that is, the joist girders will behave as partial continuous members under Dead and Live load. It is partially restrained under Wind load.
+2. It restrained the lower chord of the joist girder (in the direction perpendicular to the plane of the joist). Therefore it stabilizes the concrete diaphragm. Note that for a 4-inch thick concrete slab spanning 60 feet, it would buckle if there were no joist girder. It also transfers compression load through bottom chord.
+3. Joist girder-column connection is a moment connection.
+4. It reduces the energy to be absorbed by the joist girder and the columns under Wind load.
+As the temperature rises, 3M materials would loose its load carrying capacity, i.e. its energy-dissipating capacity. This is equivalent as loosing the two-bolt connection because it will act as though there is gaps between the steel plate and the angle irons. As a result, several things would occur:
+1. The joist girder is no longer a continuous member. Therefore, even under Dead and Live load, its top chord would rotate more relatively to its supporting column.
+2. All the compression or tension force to the diaphragm would go through the top chords only.
+3. More rotation between the top chord and its respective column under Wind load.
+4. No more lateral restraint for the bottom chord and the joist girder could buckle laterally and the slab diaphragm would follow.
+And the result is a tremendous demand on the connection between the top chord and its supporting column.
+Let be clear that the VE damping system is a novelty design. First of its kind in the World. First of its kind implemented in a skyscraper. The reason I still think it is a design flaw is that:
+In the 60’s and beginning 70’s there are many literatures about plastic design in steel including ASCE manual No 41. From J Heyman to Beedle, they all emphasize the importance of collapse mechanism in Limit Analysis. And in dealing with inelastic behavior such as VE damping system is engaging in Limit Analysis whether you want it or not because you have to think what will happen beyond the device limit.
+ 

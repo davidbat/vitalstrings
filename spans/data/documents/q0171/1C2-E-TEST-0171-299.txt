@@ -1,0 +1,41 @@
+Longitude:
+Postal Code:
+Internet Protocol address (My IP address) which is  a number tag, that is tagged on the device connected over the computer network.
+To communicate with nodes, computers use Internet Protocol addresses.
+An   Internet Protocol address definition comprise of  two major elements of networking:
+network interface identification or host and position addressing.
+My IP Address Definition
+The IP Address definition of  Internet Protocol is:
+"a unique string of numbers separated by periods that identifies each computer attached to the Internet.
+It also usually has a version containing words separated by periods."
+Versions of My IP Address
+Internet Protocol version 4, IP version 4 (IPV4)
+If you look  deeper at TCP/IP, you will come to know that an  Internet Protocol  is actually a 32-bit numeric digit and this system, called as Ipv4 or Internet Protocol Version 4, is today also utilized by everyone.
+Internet Protocol version 6, IP version 6 (IPV6)
+However, because of wonderful growth of the Internet, we can see a newer version i.e., Ipv6, with 128 bits number.
+Nevertheless, a binary number are used to save an  Internet Protocol addresses, generally, they are viewed in human-readable notations, like 192.168.1.1 (in case of IPv4), and 1982:db8:0:5678:0:567:1:1 (for IPv6).
+The main functionality of  Internet Protocol  is to route the data packets among the networks.
+Internet Protocol TERMS - MY IP ADDRESS Definition
+Bit:
+A bit contains single digit only, either 0 or 1.
+Byte:
+7 or 8 bits bring together a byte.
+Octet:
+octet and byte are quite exchangeable. An octet is composed of 8 bits as just a normal 8 bit binary number.
+Network address:
+To send the data packets to any remote network you will need this address.
+An example 192.0.0.0, 172.18.0.0, and 10.168.10.0 are IP network addresses.
+Broadcast address:
+The broadcast address is the address, which is used by hosts and applications to drive the information to all devices across the network.
+An example 255.255.255.255 that is all nodes, all networks; 172.16.255.255 that is all hosts and subnet across the network 172.16.0.0.
+Internet Protocol ADDRESSING SYSTEM  (My IP Address System)
+An  Internet Protocol  has 32 bits of particulars (IPV4). IPV6, a latest edition of  Internet Protocol contains 128 bits of information. The 32 bits  Internet Protocol is alienated into four parts pointed to as bytes or octet each having 1 byte only (8bits).
+Three Techniques Examples.
+Binary, like 10101100.00010000.00011110.00111000
+Hexadecimal, like AD.10.1C.38
+All these instances show the equivalent Internet Protocol. However, most commonly utilized is the dotted decimal.
+The machine’s Internet Protocol address in hex is stored in Windows Registry.
+RANGE OF NETWORK ADDRESS -  My IP Address Range
+Each network is actually identified by the network address. Computer available from the equivalent network share that  Internet Protocol address  or network address. For example, in the Internet Protocol  of 172.16.30.56, the network address is 172.16.
+This node number can be pointed to as host address. In 172.16.30.56, the node address is 30.56. If you are going to plan a small network but with a large number of nodes then you will need Class A network. When you want to design the many networks with a few numbers of nodes then you will need of class C network.
+To find out more about  your IP address, hostname, your browser details and browser header click below.

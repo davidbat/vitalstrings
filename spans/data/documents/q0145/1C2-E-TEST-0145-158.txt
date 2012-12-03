@@ -1,0 +1,15 @@
+Buttons
+When you deposit money in a savings account, your       money earns interest that is calculated every month or quarter, etc.       Because this is not money you need right away, the amount accrued can be       reinvested, thus boosting your interest so the next calculation would be       based on the original amount plus the new added value. This is the basis       of compound interest.
+The compound interest can be       calculated monthly or quarterly, etc based on the original amount you       deposited, the interest rate, and the period you and the institution agreed       upon.
+Creating the Application
+This application uses a dialog box equipped with the       necessary controls used to perform the type or related calculated. The       formula we will use to perform the calculations is as follows:
+P = Principal
+m = Number of Compounding Periods per Year
+n = Total Number of Compounding Periods
+A = Amount Earned After n periods
+ 
+Practical Learning: Starting the Exercise
+Start Microsoft Visual C# .Net or Visual Studio .Net
+Create a new Windows Application named CompoundInterest1
+Design the form as follows:
+ 

@@ -1,0 +1,20 @@
+Subject:  Calculus: Compound Interest
+Question:  Hello,
+I am taking a beginning calculus class and I have a questions concerning determining the annual % rate of interest that an investment, compounded continuously, would earn. The questions is as follows:
+An investor buys shares of a stock for $3000 and sells them 5 years later for $5000. If interest is compounded continuously, determine the annual percentage rate of interest that the original $3000 investment earned, leaving your answer in logarithmic form.
+The answer that I submitted turned up incorrect and I am having a hard time figuring out the correct answer. Can you please help me?
+===================================================
+The basic (business-school) formula for C.I. is:
+A = P(1 + r/n)^yn, where:
+P is the original principAL
+A is the final amount
+r is the A.P.R., where 5% would be 0.05
+n is the number of compounding intervals in a year.  Quarterly would be n=4
+y is the number of years.
+Now what if we let  n -> infinity, for continuous compounding.  We use this fact:
+lim  (1 + 1/k)^k = e, the base of natural logs.
+k->inf
+So lets work the  (1 + r/n)^yn  part into that form:
+(1 + r/n)^yn
+Let  1/k = r/n, then n = kr, and
+(1 + r/n)^yn =

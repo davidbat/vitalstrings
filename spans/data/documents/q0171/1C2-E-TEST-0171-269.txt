@@ -1,0 +1,2 @@
+go to start, run, cmd and type tracert www.facebook.com to get the IP. If your typing in the IP though I'm guessing DNS has failed in which case this will not work, the IP is:
+204.15.20.80

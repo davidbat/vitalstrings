@@ -1,0 +1,243 @@
+Spatial Verifcation Methods Inter-comparison Project - comparison of newly proposed spatial methods to give the user information about which methods are appropriate for which types of data, forecasts and desired forecast utility.
+References and further reading
+Books, technical reports, and journal special issues
+Katz, R.W. and A.H. Murphy (eds), 1997: Economic Value of Weather and Climate Forecasts. Cambridge University Press, Cambridge.
+Jolliffe, I.T., and D.B. Stephenson, 2012: Forecast Verification: A Practitioner's Guide in Atmospheric Science. 2nd Edition.  Wiley and Sons Ltd, 274 pp.
+Murphy, A.H. and R.W. Katz, ed., 1985: Probability, Statistics, and Decision Making in the Atmospheric Sciences. Westview Press, Boulder, CO.
+Nurmi, P., 2003: Recommendations on the verification of local weather forecasts (at ECWMF member states). ECMWF Operations Department, October 2003. Click here to access a PDF version (464 kB).
+Stanski, H.R., L.J. Wilson, and W.R. Burrows, 1989: Survey of common verification methods in meteorology. World Weather Watch Tech. Rept. No.8, WMO/TD No.358, WMO, Geneva, 114 pp. Click here to access a PDF version.
+von Storch, H. and F.W. Zwiers, 1999: Statistical Analysis in Climate Research. Cambridge University Press, Cambridge.
+Wilks, D.S., 2005: Statistical Methods in the Atmospheric Sciences. 2nd Edition.  Elsevier, 627 pp.
+Special issue of Meteorological Applications (2008) on Forecast Verification
+Journal articles and conference preprints
+Accadia, C., S. Mariani, M. Casaioli, A. Lavagnini, and A. Speranza, 2005: Verification  of precipitation forecasts from two limited-area models over Italy and comparison with  ECMWF forecasts using a resampling technique. Wea. Forecasting, 20, 276-300.
+Ahijevych, D., E. Gilleland, B.G. Brown, E.E. Ebert, 2009: Application of spatial  verification methods to idealized and NWP-gridded precipitation forecasts. Wea.  Forecasting, 24, 1485-1497.
+Amodei, M. and J. Stein, 2009: Deterministic and fuzzy verification methods  for a hierarchy of numerical models. Met. Appl., 16, 191-203.
+Atger, F., 2001: Verification of intense precipitation forecasts from single models and ensemble prediction systems. Nonlin. Proc. Geophys., 8, 401-417. Click here to see the abstract and get the PDF (295 Kb).
+Atger, F., 2003: Spatial and interannual variability of the reliability of ensemble-based probabilistic forecasts: Consequences for calibrations. Mon. Wea. Rev., 131, 1509-1523.
+Atger, F., 2004: Relative impact of model quality and ensemble deficiencies on the performance of ensemble based probabilistic forecasts evaluated through the Brier score. Nonlin. Proc. Geophys., 11, 399-409.
+Atger, F., 2004: Estimation of the expected reliability of ensemble-based probabilistic forecasts. Q. J. R. Meteorol. Soc., 130, 627-646.
+Baldwin, M.E. and J.S. Kain, 2006: Sensitivity of several performance measures to displacement error, bias, and event frequency. Wea. Forecasting, 21, 636-648.
+Barnes, L.R., E.C. Gruntfest, M.H. Hayden, D.M. Schultz, C. Benight, 2007:  False alarms and close calls: A conceptual model of warning accuracy. Wea.  Forecasting, 22, 1140-1147.
+Barnes, L.R., D.M. Schultz, E.C. Gruntfest, M.H. Hayden and C.C. Benight, 2009:  CORRIGENDUM: False alarm rate or false alarm ratio? Wea. Forecasting, 24, 1452-1454.
+Barnston, A.G., S. Li, S.J. Mason, D. G. DeWitt, L. Goddard, and X. Gong, 2010:  Verification of the first 11 years of IRI's seasonal climate forecasts. J. Appl.  Meteor. Climatol., 49, 493-520.
+Barnston, A.G. and S.J. Mason, 2011: Evaluation of IRI�s seasonal climate forecasts  for the extreme 15% tails. Wea. Forecasting, 26, 545-554.
+Bieringer, P., and P. S. Ray, 1996: A comparison of tornado warning lead times with  and without NEXRAD Doppler radar. Wea. Forecasting, 11, 41-46.
+Bland, J.M. and D.G. Altman, 1986: Statistical methods for assessing agreement between two methods of clinical measurement. Lancet, i, 307-310.
+Blattenberger, G., and F. Lad, 1985: Separating the Brier score into calibration  and refinement components: A graphical exposition. The American Statistician, 39, 26-32.
+Boer, G.J and S. J. Lambert, 2001: Second-order space-time climate difference statistics. Climate Dynamics, 17, 213-218.
+Bowler, N.E., 2008: Accounting for the effect of observation errors on verification of MOGREPS. Meteorol. Appl., 15.
+Bradley, A.A., T. Hashino, and S.S. Schwartz, 2003: Distributions-oriented verification of probability forecasts for small data samples. Wea. Forecasting, 18, 903-917.
+Bradley, A.A., S.S. Schwartz, and T. Hashino, 2008: Sampling uncertainty and  confidence intervals for the Brier score and Brier skill score. Wea. Forecasting, 23, 992-1006.
+Brier, G. W., 1950: Verification of forecasts expressed in terms of probability. Mon. Wea. Rev., 78, 1-3.
+Briggs, W.M. and R.A. Levine, 1997: Wavelets and field forecast verification. Mon. Wea. Rev., 125, 1329-1341.
+Bröcker, J. and L.A. Smith, 2007: Increasing the reliability of reliability diagrams. Wea. Forecasting, 22, 651-661.
+Bröcker, J. and L.A. Smith, 2007: Scoring probabilistic forecasts: the  importance of being proper. Wea. Forecasting, 22, 382-388.
+Brooks, H.E. and C.A. Doswell III, 1996: A comparison of measures-oriented and distributions-oriented approaches to forecast verification. Wea. Forecasting, 11, 288-303.
+Brooks, H.E., M. Kay and J.A. Hart, 1998: Objective limits on forecasting skill of rare events. 19th Conf. Severe Local Storms, AMS, 552-555.
+Brown, B.G., R.R. Bullock, C.A. David, J.H. Gotway, M.B. Chapman, A. Takacs, E. Gilleland, K. Manning, J. Mahoney, 2004: New verification approaches for convective weather forecasts. 11th Conf. Aviation, Range, and Aerospace Meteorology, 4-8 Oct 2004, Hyannis, MA.
+Brown, B.G. and A.H. Murphy, 1987: Quantification of uncertainty in fire-weather forecasts: Some results of operational and experimental forecasting programs. Wea. Forecasting, 2, 190-205.
+Brown, B.G., G. Thompson, R.T. Bruintjes, R. Bullock, and T. Kane, 1997: Intercomparison of in-flight icing algorithms: Part II: Statistical verification results. Wea. Forecasting, 12, 890-914.
+Brown J.D., Demargne J., Seo D-J., and Liu Y., 2010: The Ensemble Verification  System (EVS): a software tool for verifying ensemble forecasts of hydrometeorological  and hydrologic variables at discrete locations. Environmental Modelling and Software, 25, 854-872.
+Candille, G., C. Côté, P. L. Houtekamer and G. Pellerin, 2007: Verification of an ensemble prediction system against observations. Mon. Wea. Rev., 135, 1140-1147.
+Casati, B., Ross, D.B. Stephenson, 2004: A new intensity-scale approach for the verification of spatial precipitation forecasts, Meteorol. Appl., 11, 141-154.
+Casati, B., 2010: New developments of the intensity-scale technique within the  Spatial Verification Methods Intercomparison Project. Wea. Forecasting, 25, 113-143.
+Casati, B., and L.J. Wilson, 2007:  A New spatial-scale decomposition of the Brier score:  Application to the verification of pightning probability forecasts. Mon. Wea. Rev., 135, 3052-3069.
+Casati, B., L.J. Wilson, D.B. Stephenson, P. Nurmi, A. Ghelli, M. Pocernich, U. Damrath, E.E. Ebert, B.G. Brown and S. Mason, 2008: Forecast verification: current status and future directions. Meteorol. Appl., 15, 3-18.
+Case, J.L., J. Manobianco, J. E. Lane, C.D. Immer, and F.J. Merceret, 2004: An objective technique for verifying sea breezes in high-resolution numerical weather prediction models. Wea. Forecasting, 19, 690-705.
+Clemen, R.T., A.H. Murphy, and R.L. Winkler, 1995: Screening probability forecasts:  Contrasts between choosing and combining. Int. J. Forecasting, 11, 133-146.
+Cloke, H.L. and F. Pappenberger, 2008: Evaluating forecasts of extreme events for hydrological applications: an approach for screening unfamiliar performance measures. Meteorol. Appl., 15, 181-197.
+Damrath, U., 2004: Verification against precipitation observations of a high density network - what did we learn? Intl. Verification Methods Workshop, 15-17 September 2004, Montreal, Canada. Click here to download the PDF (980 Kb).
+Davis, C. and F. Carr, 2000: Summary of the 1998 Workshop on Mesoscale Model Verification. Bull. Amer. Met. Soc., 81, 809-819.
+Davis, C., B. Brown, and R. Bullock, 2006a: Object-based verification of precipitation forecasts. Part I: Methods and application to mesoscale rain areas. Mon. Wea. Rev., 134, 1772-1784.
+Davis C.A., B.G. Brown, and R.G. Bullock, 2006b. Object-based verification of precipitation forecasts, Part II: Application to convective rain systems. Mon. Wea. Rev. 134, 1785-1795.
+Davis, C.A., B.G. Brown, R. Bullock, and J. Halley-Gotway, 2009: The Method for  Object-Based Diagnostic Evaluation (MODE) applied to numerical forecasts from the  2005 NSSL/SPC Spring Program. Wea. Forecasting, 24, 1252-1267.
+de Elia, R., R. Laprise, and B. Denis, 2002: Forecasting skill limits of nested, limited-area models: A perfect-model approach. Mon. Wea. Rev., 130, 2006-2023.
+de Elia, R. and R. Laprise, 2003: Distribution-oriented verification of limited-area model forecasts in a perfect-model framework. Mon. Wea. Rev., 131, 2492-2509.
+DeGroot, M.H., and S.E. Fienberg, 1983: The comparison and evaluation of  forecasters. The Statistician, 32, 14-22.
+Demargne, J., M. Mullusky, K. Werner, T. Adams, S. Lindsey, N. Schwein, W. Marosi, and E. Welles, 2009: Application of forecast verification science to operational river forecasting in the U.S. National Weather Service. Bull. Amer. Meteorol. Soc., 90, 779-784.
+Demargne J., J.D. Brown, Y. Liu Y., D-J. Seo, L. Wu, Z. Toth, and Y. Zhu, 2010:  Diagnostic verification of hydrometeorological and hydrologic ensembles. Atmos. Sci. Lett., 11, 114-122.
+Denis, B., J. Côté and R. Laprise, 2002a: Spectral decomposition of two-dimensional atmospheric fields on limited-area domains using the discrete cosine transform (DCT). Mon. Wea. Rev., 130, 1812-1829.
+Denis, B., R. Laprise, D. Caya, and J. Côté, 2002b: Downscaling ability of one-way nested regional climate models: the Big-Brother Experiment. Climate Dynamics, 18, 627-646.
+Doblas-Reyes,, F.J., C. A. S. Coelho, D. B. Stephenson, 2008: How much does simplification of probability forecasts reduce forecast quality? Meteorol. Appl., 15.
+Doswell, C.A. III, R. Davies-Jones, and D.L. Keller, 1990: On summary measures of skill in rare event forecasting based on contingency tables. Wea. Forecasting, 5, 576-585.
+Ebert, E.E., 2008: Fuzzy verification of high resolution gridded forecasts: A review and proposed framework. Meteorol. Appl., 15, 51-64.
+Ebert, E.E., 2009: Neighborhood verification: a strategy for rewarding close forecasts. Wea. Forecasting, 24, 1498-1510.
+Ebert, E.E. and W.A. Gallus, 2009: Toward better understanding of the contiguous  rain area (CRA) method for spatial forecast verification. Wea. Forecasting, 24, 1401-1415.
+Ebert, E.E. and J.L. McBride, 2000: Verification of precipitation in weather systems: Determination of systematic errors. J. Hydrology, 239, 179-202.
+Efron, B. and R. Tibshirani, 1986: Bootstrap methods for standard errors, confidence intervals, and other measures of statistical accuracy. Statistical Science, 1, 54-77.
+Ehrendorfer, M., and A.H. Murphy, 1988: Comparative evaluation of weather forecasting  systems: Sufficiency, quality, and accuracy. Mon. Wea. Rev., 116, 1757-1770.
+Elmore, K.L., 2005: Alternatives to the chi-square test for evaluating rank histograms  from ensemble forecasts. Wea. Forecasting, 20, 789-795.
+Elmore, K.L., M.E. Baldwin and D.M. Schultz, 2006: Field significance revisited: Spatial bias errors in forecasts as applied to the Eta model. Mon. Wea. Rev., 134, 519-531.
+Elsner, J.B. and C.P. Schmertmann, 1994: Assessing forecast skill through cross validation. Wea. Forecasting, 9, 619-624.
+Fawcett, R., 2008: Verification techniques and simple theoretical forecast models. Wea. Forecasting, 23, 1049-1068.
+Ferro C.A.T., 2007: A probability model for verifying deterministic forecasts of extreme events. Wea. Forecasting, 22, 1089-1100.
+Ferro, C.A.T., D.S. Richardson, A.P. Weigel, 2008: On the effect of ensemble size on the discrete and continuous ranked probability scores. Meteorol. Appl., 15, 19-24.
+Finley, J.P., 1884: Tornado predictions. Amer. Meteor. J., 1, 85-88.
+Gallus, W.A., Jr., 2002: Impact of verification grid-box size on warm-season QPF skill measures. Wea. Forecasting, 17, 1296-1302.
+Gallus, W.A., Jr., 2010: Application of object-based verification  techniques to ensemble precipitation forecasts. Wea. Forecasting, 25, 144-158.
+Gerrity, J.P., 1992:  A note on Gandin and Murphy's equitable skill score. Mon. Wea. Rev., 120, 2709-2712.
+Gerstensarbe, F.-W., M. Kucken and P.C. Werner, 2005: A new validation scheme for  the evaluation of multiparameter fields. Tellus, 57A, 35-42.
+Ghelli, A. and C. Primo, 2009: On the use of the extreme dependency  score to investigate the perfromance of an NWP model for rare events. Met. Appl., 16, 537-544.
+Gilleland, E., 2011: Spatial forecast verification: Baddeley�s delta metric applied  to the ICP test cases. Wea. Forecasting, 26, 409-415.
+Gilleland, E., J. Lindstrom and F. Lindgren, 2010: Analyzing the image warp forecast  verification method on precipitation fields from the ICP. Wea. Forecasting, 25, 1249-1262.
+Gilleland, E., D. Ahijevych, B.G. Brown, B. Casati, and E.E. Ebert, 2009: Intercomparison of spatial forecast verification methods. Wea. Forecasting, 24, 1416-1430.
+Gilleland, E., D. Ahijevych, B.G. Brown, and E.E. Ebert, 2010: Verifying forecasts spatially. Bull. Amer. Meteorol. Soc., 91, 1365-1373.
+Göber, M., E. Zsoter and D.S. Richardson, 2008: Could a perfect model ever satisfy a naive forecaster? On grid box mean versus point verification. Meteorol. Appl., 15, 359-365.
+Golding, B.W., 1998: Nimrod: A system for generating automated very short range forecasts. Meteorol. Appl., 5, 1-16.
+Gringorten, I. I., 1967: Verification to determine and measure forecasting skill. J. Appl. Meteor. , 6, 742-747.
+Guillermo J.B., P.L. Antico and L. Goddard, 2005: Evaluation of the climate outlook  forums'  seasonal precipitation forecasts of southeast South America during 1998-2002. Int. J. Climatol., 25, 365-377
+Hagedorn, R. and L.A. Smith, 2009: Communicating the value of  probabilistic forecasts with weather roulette, Met. Appl., 16, 143-155.
+Hamill, T.M., 1997: Reliability diagrams for multicategory probabilistic forecasts. Wea. Forecasting, 12, 736-741.
+Hamill, T.M., 1999: Hypothesis tests for evaluating numerical precipitation forecasts. Wea. Forecasting, 14, 155-167.
+Hamill, T.M., 2001: Interpretation of rank histograms for verifying ensemble forecasts. Mon. Wea. Rev., 129, 550-560.
+Hamill, T.M., and J. Juras, 2006: Measuring forecast skill: is it real skill or is it the varying climatology? Q. J. Royal Met. Soc., 132, 2905-2923. Click here to download the PDF (1.6 Mb).
+Hamill, T.M. and S.J. Colucci, 1998: Verification of eta-RSM short-range ensemble forecasts. Mon. Wea. Rev., 126, 711-724.
+Harris, D., E. Foufoula-Georgiou, K.K. Droegemeier and J.J. Levit, 2001: Multiscale statistical properties of a high-resolution precipitation forecast. J. Hydromet., 2, 406-418.
+Hartmann, H.C., T.C. Pagano, S. Sorooshian, and R. Bales, 2002: Confidence builders. Evaluating seasonal climate forecasts from user perspectives. Bull. Amer. Met. Soc., 83, 683-698.
+Harvey, L.O., Jr., K.R. Hammond, C.M. Lusk, and E.F. Mross, 1992: The application of signal detection theory to weather forecasting behavior. Mon. Wea. Rev., 120, 863-883.
+Hersbach, H., 2000: Decomposition of the continuous ranked probability score for ensemble prediction systems. Wea. Forecasting, 15, 559-570.
+Hewson, T., 2007: The concept of 'Deterministic limit'. 3rd Intl. Verification Methods Workshop, 31 January-2 February 2007, Reading, UK. Click here to download the PDF (788 Kb).
+Hoffman, R.N., Z. Liu, J.-F. Louis, and C. Grassotti, 1995: Distortion representation of forecast errors. Mon. Wea. Rev., 123, 2758-2770.
+Hogan, R.J., C.A.T. Ferro, I.T. Jolliffe and D.B. Stephenson, 2010: Equitability revisited:  Why the "equitable threat score" is not equitable. Wea. Forecasting, 25, 710-726.
+Hsu, W.-R. and A.H. Murphy, 1986: The attributes diagram: A geometrical framework for assessing the quality of probability forecasts. Int. J. Forecasting, 2, 285-293.
+Jenkner, J., C. Frei and C. Schwierz, 2008: Quantile-based short-range QPF evaluation over Switzerland. Meteorologische Zeitschrift, 17, 827-848. Click here to download the PDF (1.9 MB).
+Jewson, S., 2003: Use of the likelihood for measuring the skill of probabilistic forecasts. http://arxiv.org/PS_cache/physics/pdf/0308/0308046v2.pdf
+Jewson, S., 2004: The problem with the Brier score. http://arxiv.org/PS_cache/physics/pdf/0401/0401046v1.pdf
+Jewson, S. and C. Ziehmann, 2003: Five guidelines for the evaluation of site-specific medium range probabilistic temperature forecasts. http://arxiv.org/PS_cache/physics/pdf/0310/0310021v1.pdf
+Jolliffe, I.T., 2007: Uncertainty and inference for verification measures. Wea. Forecasting, 22, 637-650.
+Jolliffe, I.T., 2008: The impenetrable hedge: a note on propriety, equatability, and consistency. Meteorol. Appl., 15.
+Jolliffe, I.T. and Stephenson, D.B., 2008: Proper scores for probability forecasts can never be equitable. Mon. Wea. Rev., 136, 1505-1510.
+Jung, T. and M. Leutbecher, 2008: Scale-dependent verification of ensemble  forecasts. Quart. J. Royal Meteorol. Soc., 132, 2905-2923.
+Kain, J.S., M.E. Baldwin, P.R. Janish, S.J. Weiss, M.P. Kay and G.W. Carbin, 2003: Subjective verification of numerical models as a component of a broader interaction between research and operations. Wea. Forecasting, 18, 847-860.
+Kane, T.L. and B.G. Brown, 2000: Confidence intervals for some verification measures - a survey of several methods.15th Conference on Probability and Statistics in the Atmospheric Sciences, Amer. Met. Soc., 8-11 May 2000, Asheville, North Carolina.
+Kessler, E. and B. Neas, 1994: On correlation, with applications to the radar and raingage measurement of rainfall. Atmos. Research, 34, 217-229.
+Keil, C. and G.C. Craig, 2007: A displacement-based error measure applied in a regional ensemble forecasting system. Mon. Wea. Rev., 135, 3248-3259.
+Keil, C. and G.C. Craig, 2009: A displacement and amplitude score employing an optical flow technique. Wea. Forecasting, 24, 1297-1308.
+Koh, T. Y. and J. S. Ng, 2009: Improved diagnostics for NWP verification in the tropics. J. Geophys. Res., 114, D12102, doi:10.1029/2008JD011179.
+Krzysztofowicz, R., 1992: Bayesian correlation score: A utilitarian measure of  forecast skill. Mon. Wea. Rev., 120, 208-219.
+Lack, S., G.L. Limpert, and N.I. Fox, 2010: An object-oriented multiscale verification scheme. Wea. Forecasting, 25, 79-92.
+Laio, F. and S. Tamea, 2007: Verification tools for probabilistic forecasts of continuous hydrological variables. Hydrol. Earth Syst. Sci., 11, 1267-1277.
+Lakshmanan, V. and J.S. Kain, 2010: A Gaussian mixture model approach to forecast  verification. Wea. Forecasting, 25, 908-920.
+Lakshmanan, V. and T. Smith, 2010: An objective method of evaluating and devising  storm-tracking algorithms. Wea. Forecasting, 25, 701-709.
+Legates, D.R. and G. J. McCabe Jr., 1999: Evaluating the use of "goodness-of-fit" measures in hydrologic and hydroclimatic model validation. Water Resour. Res., 35, 233-241.
+Livezey, R.E., 1995: Evaluation of forecasts. Analysis of Climate Variability (ed. H. von Storch and A. Navarra). Springer-Verlag, pp. 177-196.
+Loughe, A.F., J.K Henderson, J.L. Mahoney and E.I. Tollerud, 2001: A verification approach suitable for assessing the quality of model-based precipitation forecasts during extreme precipitation events. Symposium on Precipitation Extremes: Prediction, Impacts, and Responses, Amer. Met. Soc., 13-18 January 2001, Albuquerque, New Mexico, 77-81.
+Manzato, A., 2005: An odds ratio parameterization for ROC diagram and skill score indices. Wea. Forecasting, 20, 918-930.
+Manzato, A., 2007: A note on the maximum Peirce skill score. Wea. Forecasting, 22, 1148-1154.
+Marchok, T., R. Rogers, and R. Tuleya, 2007: Validation schemes for tropical cyclone  quantitative precipitation forecasts: Evaluation of operational models for U.S. landfalling cases. Wea. Forecasting, 22, 726-746.
+Marshall, K.T., and R.M. Oliver, 1995: Decision Making and Forecasting.  McGraw-Hill, 407 pp. See Chapter 8 (pp. 303-341).
+Marsigli, C., F. Boccanera, A. Montani, and T. Paccagnella, 2005: The COSMO-LEPS ensemble system: validation of the methodology and verification. Nonlinear Processes in Geophysics, 12, 527-536.
+Marzban, C., 1998: Scalar measures of performance in rare-event situations. Wea. Forecasting, 13, 753-763.
+Marzban, C. and S. Sandgathe, 2006: Cluster analysis for verification of precipitation fields, Wea. Forecasting, 21, 824-838.
+Marzban, C. and S. Sandgathe, 2008: Cluster analysis for object-oriented verification of fields: A variation. Mon. Wea. Rev., 136, 1013-1025.
+Marzban, C. and S. Sandgathe, 2009: Verification with variograms. Wea.  Forecasting, 24, 1102-1120.
+Marzban, C., S. Sandgathe, H. Lyons and N. Lederer, 2009: Three spatial verification  techniques: Cluster analysis, variogram, and optical flow. Wea. Forecasting, 24, 1457-1471.
+Mason, I., 1982: A model for assessment of weather forecasts. Aust. Met. Mag., 30, 291-303.
+Mason, S.J., 2004: On using "climatology" as a reference strategy in the Brier and ranked probability skill scores. Mon. Wea. Rev., 1891-1895.
+Mason, S.J., 2008: Understanding forecast verification statistics. Meteorol. Appl., 15.
+Mason, S.J., J.S. Galpin, L. Goddard, N.E. Graham, and B. Rajartnam, 2007: Conditional exceedance probabilities. Mon. Wea. Rev., 135, 363-372.
+Mason, S.J. and N.E. Graham, 1999: Conditional probabilities, relative operating characteristics, and relative operating levels. Wea. Forecasting, 14, 713-725.
+Mason, S.J. and G.M. Mimmack, 1992: The use of bootstrap confidence intervals for the correlation coefficient in climatology. Theor. Appl. Climatol., 45, 229-233.
+Mason, S.J., and A.P. Weigel, 2009: A generic forecast verification framework for  administrative purposes. Mon. Wea. Rev., 137, 331-349.
+Mass, C.F., D.Ovens, K. Westrick and B.A. Colle, 2002: Does increasing horizontal resolution produce more skillful forecasts? Bull. Amer. Met. Soc., 83, 407-430.
+May, P.T., and T.P. Lane, 2009: A method for using radar data to test  cloud resolving models. Met. Apps., 16, 425-432.
+Michaes, A.C., N.I. Fox, S.A. Lack and C.K. Wikle, 2007: Cell identification and verification of QPF ensembles using shape analysis techniques. J. Hydrol., 343, 105-116.
+Mielke, P.W., 1991: The application of multivariate permutation methods based on distance  functions in the earth sciences. Earth Sciences Review, 31, 55-71.
+Mittermaier, M.P., 2008: The potential impact of using persistence as a reference  forecast on perceived forecast skill. Wea. Forecasting, 23, 1022-1031.
+Mittermaier, M. and N. Roberts, 2010: Intercomparison of spatial forecast verification methods: identifying skillful spatial scales using the fractions skill score. Wea. Forecasting, 25, 343-354.
+Murphy, A.H., 1973: A new vector partition of the probability score. J. Appl. Meteor., 12, 595-600.
+Murphy, A.H., 1988: Skill scores based on the mean square error and their relationships to the correlation coefficient. Mon. Wea. Rev., 116, 2417-2424.
+Murphy, A.H., 1991: Probabilities, odds, and forecasts of rare events. Wea. Forecasting, 6, 302-308.
+Murphy, A.H., 1991: Forecast verification: Its complexity and dimensionality. Mon. Wea. Rev., 119, 1590-1601.
+Murphy, A.H., 1993: What is a good forecast? An essay on the nature of goodness in weather forecasting. Wea. Forecasting, 8, 281-293.
+Murphy, A.H., 1995: The coefficients of correlation and determination as measures of performance in forecast verification. Wea. Forecasting, 10, 681-688.
+Murphy, A.H., 1995: A coherent method of stratification within a general framework for forecast verification. Mon. Wea. Rev., 123, 1582-1588.
+Murphy, A.H., 1996: The Finley affair: A signal event in the history of forecast verification. Wea. Forecasting, 11, 3-20.
+Murphy, A.H., 1996: General decompositions of MSE-based skill scores: Measures of  some basic aspects of forecast quality. Mon. Wea. Rev., 124, 2353-2369.
+Murphy, A.H., 1997: Forecast verification. Economic Value of Weather and Climate  Forecasts (R.W. Katz and A.H. Murphy, Editors). Cambridge Univ. Press, ch. 7 (pp. 19-74).
+Murphy, A.H., B.G. Brown, and Y.-S. Chen, 1989: Diagnostic verification of temperature forecasts. Wea. Forecasting, 4, 485-501.
+Murphy, A.H., and H. Daan, 1985: Forecast evaluation. Probability,  Statistics, and Decision Making in the Atmospheric Sciences (ed. A.H. Murphy and R.W. Katz).  Westview Press, pp. 379-437.
+Murphy, A.H. and E.S. Epstein, 1989: Skill scores and correlation coefficients in model verification. Mon. Wea. Rev., 117, 572-581.
+Murphy, A.H. and D.S. Wilks, 1998: A case study of the use of statistical models in forecast verification: Precipitation probability forecasts. Wea. Forecasting, 13, 795-810.
+Murphy, A.H. and R.L. Winkler, 1987: A general framework for forecast verification. Mon. Wea. Rev., 115, 1330-1338.
+Murphy, A.H. and R.L. Winkler, 1992: Diagnostic verification of probability forecasts. Int. J. Forecasting, 7, 435-455.
+Nachamkin, J.E., 2004: Mesoscale verification using meteorological composites. Mon. Wea. Rev., 132, 941-955.
+Nachamkin, J.E., 2009: Application of the composite method to the Spatial Forecast  Verification Methods Intercomparison dataset. Wea. Forecasting, 24, 1390-1400.
+Nash, J.E. and J.V. Sutcliffe, 1970: River flow forecasting through conceptual models part I : A discussion of principles. J. Hydrology, 10, 282-290.
+Nehrkorn, T., R.N. Hoffman, C.Grassotti and J.-F. Louis, 2003: Feature calibration and alignment to represent model forecast errors: Empirical regularization. Q. J. R. Meteorol. Soc., 129, 195-218.
+Nigro, M.A., J.J. Cassano and M.W. Seefeldt, 2011: A weather-pattern-based approach  to evaluate the Antarctic Mesoscale Prediction System (AMPS) forecasts: Comparison to  automatic weather station observations. Wea. Forecasting, 26, 184-198.
+Pappenberger, F., A. Ghelli, R. Buizza, K. B�dis, 2009: The skill of probabilistic  prediction forecasts under observational uncertainties within the Generalized Likelihood  Uncertainty Estimation framework for hydrological applications. J. Hydromet., 10, 807-819.
+Petrik, R., M. Baldauf, H. Schlunzen and A. Gassmann, 2011: Validation of a mesoscale  weather prediction model using subdomain budgets. Tellus, 63A, 707-726.
+Potts, J.M., C.K. Folland, I.T. Jolliffe, and D. Sexton, 1996: Revised "LEPS" scores  for assessing climate model simulations and long-range forecasts. J. Climate, 9, 34-53.
+Primo, C and A. Ghelli, 2009: The affect of the base rate on the  extreme dependency score. Met. Appl., 16, 533-535.
+Renner, M., M.G.F. Werner, S. Rademacher, E. Sprokkereef, 2009:  Verification of ensemble flow forecasts for the River Rhine. J. Hydrol., 376, 463-475.
+Richardson, D.S., 2000: Skill and relative economic value of the ECMWF ensemble prediction system. Quart. J. Royal Met. Soc., 126, 649-667.
+Rife, D.L., and C.A. Davis, 2005: Verification of temporal   variations in mesoscale numerical wind forecasts. Mon. Wea. Rev., 133, 3368-3381.
+Rife, D.L., C.A. Davis, and J.C. Knievel, 2009: Temporal changes in wind as objects for evaluating mesoscale numerical weather prediction. Wea. Forecasting, 24, 1374-1389.
+Roberts, N.M. and H.W. Lean, 2008: Scale-selective verification of rainfall accumulations from high-resolution forecasts of convective events. Mon. Wea. Rev., 136, 78-97.
+Rodwell, M.J., D.S. Richardson, T.D. Hewson  and T. Haiden, 2010: A new equitable score suitable for verifying precipitation in numerical weather prediction. Q. J. R. Meteorol. Soc., 136, 1344-1363.
+Roebber, P.J., 2009: Visualizing multiple measures of forecast quality. Wea. Forecasting, 24, 601-608.
+Roebber, P.J., and L.F. Bosart, 1996: The contributions of education and  experience to forecast skill. Wea. Forecasting, 11, 21-40.
+Roulston, M.S. and L.A. Smith, 2002: Evaluating probabilistic forecasts using information theory. Mon. Wea. Rev., 130, 1653-1660.
+Saetra, O., H. Hersbach, J.-R. Bidlot and D. S. Richardson, 2004: Effects of observation errors on the statistics for ensemble spread and reliability. Mon. Wea. Rev., 132, 1487-1501.
+Schervish, M.J., 1989: A general method for comparing probability assessors. Annals of Statistics, 17, 1856-1879.
+Seaman, R., I. Mason, and F. Woodcock, 1996: Confidence intervals for some performance measures of yes-no forecasts.Aust. Met. Mag., 45, 49-53.
+Smith, L.A. and J.A. Hansen, 2005: Extending the limits of ensemble forecast verification with the minimum spanning tree. Mon. Wea. Rev., 132, 1522-1528.
+Smith, P.L., 1999: Effects of imperfect storm reporting on the verification of weather warnings. Bull. Amer. Met. Soc., 80, 1099-1105.
+Smith, T.M., S.A. Myers and K.L. Elmore, 2000: An evaluation methodology applied to the damaging downburst prediction and detection algorithm.  20th Conference on Severe Local Storms, Amer. Met. Soc., 11-16 September 2000, Orlando, Florida, 374-377.
+Stensrud, D.J., and J.A. Skindlov, 1996: Gridpoint predictions of high temperature from  a mesoscale model. Wea. Forecasting, 11, 103-110.
+Stensrud, D.J. and M.S. Wandishin, 2000: The correspondence ratio in forecast evaluation. Wea. Forecasting, 15, 593-602.
+Stephenson, D.B., 2000: Use of the "odds ratio" for diagnosing forecast skill. Wea. Forecasting, 15, 221-232.
+Stephenson, D.B. and F. J. Doblas-Reyes, 2000: Statistical methods for interpreting Monte Carlo ensemble forecasts. Tellus, 52A, 300-322.
+Stephenson D.B., B. Casati, C.A.T. Ferro and C.A. Wilson, 2008: The extreme dependency score: a non-vanishing measure for forecasts of rare events. Meteorol. Appl., 15, 41-50.
+Stephenson, D.B., C.A.S. Coelho, I.T. and Jolliffe, 2008: Two extra components in the Brier Score Decomposition, Wea. Forecasting, 23, pp 752-757.
+Stewart, T.R., 1990: A decomposition of the correlation coefficient and its use in analyzing forecast skill. Wea. Forecasting, 5, 661-666.
+Talagrand, O., R. Vautard and B.  Strauss, 1997: Evaluation of probabilistic prediction  systems. Proceedings, ECMWF Workshop on Predictability.
+Tartaglione, N., 2010: Relationship between precipitation forecast errors and skill  scores of dichotomous forecasts. Wea. Forecasting, 25, 355-365.
+Taylor, K.E., 2001: Summarizing multiple aspects of model performance in a single diagram. J. Geophys. Res., 106 (D7), 7183-7192.
+Theis, S.E., A. Hense and U. Damrath, 2005: Probabilistic precipitation forecasts from a deterministic model: a pragmatic approach. Meteorol. Appl., 12, 257-268.
+Thornes, J.E. and D.B. Stephenson, 2001: How to judge the quality and value of weather forecast products. Meteorol. Appl., 8, 307-314. Click here to download a PDF of this paper (79 KB).
+Tremblay, A., S.G. Cober, A. Glazer, G. Isaac, and J. Mailhot, 1996: An intercomparison of mesoscale forecasts of aircraft icing using SSM/I retrievals. Wea. Forecasting, 11, 66-77.
+Tustison, B., E. Foufoula-Georgiou, and D. Harris, 2003: Scale-recursive estimation for multisensor quantitative  precipitation forecast verification: A preliminary assessment. J. Geophys. Res., 108, D8, 8377.
+Tustison, B., D. Harris, and E. Foufoula-Georgiou, 2001: Scale issues in verification of precipitation forecasts. J. Geophys. Res., 106 (D11), 11,775-11,784.
+Van Galen, J., 1970: A new method for verifying deterministic predictions of meteorological scalar fields. Tellus, 22, 32-42.
+Venugopal, V., S. Basu and E. Foufoula-Georgiou, 2005:  A new metric for comparing precipitation patterns with an application  to ensemble forecasts. J. Geophys. Res., 110, D08111.
+Wandishin, M.S. and S.J. Mullen, 2009: Multiclass ROC analysis. Wea. Forecasting, 24, 530-547.
+Warner, S., N. Platt and J.F. Heagy, 2004: User-oriented two-dimensional measure  of effectiveness for the evaluation of transport and dispersion models. J. Appl. Meteorol., 43, 58-73.
+Watterson, I.G., 1996: Non-dimensional measures of climate model performance. Int. J. Climatol., 16, 379-391.
+Wernli H., M. Paulat, M. Hagen and C. Frei, 2008: SAL - a novel quality measure for the verification of  quantitative precipitation forecasts. Mon. Wea. Rev.,, 136, 4470-4487.
+Wei, M. and Z. Toth, 2003: A new measure of ensemble performance: Perturbation versus error correlation analysis (PECA). Mon. Wea. Rev., 131, 1549-1565.
+Weigel, A.P. and S.J. Mason, 2011: The generalized discrimination Score for  ensemble forecasts. Mon. Wea. Rev.,, 139, 3069-3074.
+Weisheimer, A., L.A. Smith and K. Judd, 2005: A new view of seasonal forecast skill:  bounding boxes from the DEMETER ensemble forecasts. Tellus, 57A, 265-279.
+Weygandt, S.S. and N.L. Seaman, 1994: Quantification of predictive skill for mesoscale and synoptic-scale meteorological features as a function of horizontal grid resolution. Mon. Wea. Rev., 122, 57-71.
+Weygandt, S.S., A.F. Loughe, S.G. Benjamin and J.L. Mahoney, 2004: Scale sensitivities in model precipitation skill scores during IHOP. 22nd Conf. Severe Local Storms, Amer. Met. Soc., 4-8 October 2004, Hyannis, MA.
+Wilks D.S., 2000: Diagnostic verification of the climate prediction center  long-lead outlooks, 1995-98. J. Climate, 13, 2389-2403.
+Wilks, D.S., 2001: A skill score based on economic value for probability forecasts. Meteorol. Appl., 8, 209-219.
+Wilson, L.J., W.R. Burrows, and A. Lanzinger, 1999: A strategy for verification of weather element forecasts from an ensemble prediction system. Mon. Wea. Rev., 127, 956-970.
+Winkler, R.L., 1994: Evaluating probabilities: Asymmetric scoring rules. Management Science, 40, 1395-1405.
+Winkler, R.L., 1996: Scoring rules and the evaluation of probabilities. Test, 5, 1-60.
+Woodcock, F., 1976: The evaluation of yes/no forecasts for scientific and administrative  purposes. Mon.  Wea. Rev., 104, 1209-1214.
+Yates, E., S. Anquetin, V. Ducrocq, J.-D. Creutin, D. Ricard and K. Chancibault, 2006: Point and areal validation of forecast precipitation fields. Meteorol. Appl., 13, 1-20.
+Yates, J.F., 1994: Subjective probability accuracy analysis. Subjective Probability (ed. G. Wright and P. Ayton). Wiley, pp. 381-410.
+Zepeda-Arce, J., E. Foufoula-Georgiou, and K.K. Droegemeier, 2000: Space-time rainfall organization and its role in validating quantitative precipitation forecasts. J. Geophys. Res., 105 (D8), 10,129-10,146.
+Zingerle, C. and P. Nurmi, 2008: Monitoring and verifying cloud foreacsts  originating from numerical models. Met. Appl., 15, 325-330.
+Contributors to this site
+, Purdue University, West Lafayette, Indiana, USA
+, NOAA/NWS Hydrometeorological Prediction Center, Washington DC, USA
+Harold Brooks , National Severe Storms Laboratory, Norman, Oklahoma, USA
+Barb Brown , NCAR, Boulder, Colorado, USA
+, Ouranos, Montreal, Quebec, Canada
+Beth Ebert , Bureau of Meteorology, Melbourne, Australia
+Chris Ferro , University of Exeter, Exeter, UK
+,  ECMWF, Reading, UK
+Johannes Jenkner, University of British Columbia, Vancouver, BC, Canada
+Ian Jolliffe , University of Exeter, Exeter, UK
+, University of Munich, Munich, Germany
+Tieh-Yong Koh , Nanyang Technological University, Singapore
+, Finnish Meteorological Institute, Hensinki, Finland
+Paul Roebber , University of Wisconsin, Milwaukee, Wisconsin, USA
+David Stephenson , University of Exeter, Exeter, UK
+, The Met Office, Exeter, UK
+, Research en Prévision Numérique, Dorval, Canada
+Verification and art

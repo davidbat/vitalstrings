@@ -1,0 +1,10 @@
+up vote 3 down vote favorite
+I'm new to boost::fusion and boost::mpl libraries. Could anyone please tell me the main difference between these two libraries?
+Until now I used only fusion::vector and few other simple things. Now I want to use fusion::map or MPL::map but I don't know how to choose the right one.
+I need map simple type to complicated type (type alisa). Currently I have following snippets and both works exactly I need to.
+boost::fusion:
+typedef boost::fusion::map< boost::fusion::pair<AliasNames::test1,int>,     boost::fusion::pair<AliasNames::test2,double>,     boost::fusion::pair<AliasNames::test3,float> > TmapAssociations1;  typedef boost::fusion::result_of::value_at_key<TmapAssociations,AliasNames::test1>::type t;
+boost::MPL:
+typedef boost::mpl::map< boost::mpl::pair<AliasNames::test1,int>,     boost::mpl::pair<AliasNames::test2,double>,     boost::mpl::pair<AliasNames::test3,float> > TmapAssociations2;  boost::mpl::at<TmapAssociations2,AliasNames::test1>::type t2;
+Is there any difference between MPL and fusion? Are there any scenarios where one library is preferred over another one?
+Thanks for reply.

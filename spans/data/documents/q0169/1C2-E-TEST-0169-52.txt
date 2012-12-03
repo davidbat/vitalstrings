@@ -1,0 +1,20 @@
+Matlab Software for SMT-LASSO Regression (ICASSP 2010)
+Journal Publications:
+pdf Guangzhi Cao, Leonardo R. Bachega, and Charles A. Bouman, ``The Sparse Matrix Transform for Covariance Estimation and Analysis of High Dimensional Signals,'' pp. 625-640, vol. 20, no. 3, {\em IEEE Trans. on Image Processing,} March 2011.
+pdf James Theiler, Gaungzhi Cao, Leonardo R. Bachega, Charles A. Bouman, ``Sparse Matrix Transform for Hyperspectral Image Processing,'' vol. 5, no. 3, {\em IEEE Selected Topics in Signal Process,} June 2011.
+Conference Publications:
+paper and slides Leonardo R. Bachega, Srikanth Hariharan, Charles A. Bouman, and Ness Shroff, ``Distributed Signal Decorrelation in Wireless Sensor Networks using the Sparse Matrix Transform,'' Proceedings of {\em SPIE Conference on Independent Component Analysis, Wavelets, Neural Networks, Biosystems, and Nanoengineering IX}, vol. 8058, April 27-29, 2011.
+pdf Srikanth Hariharan, Leonardo R. Bachega, Ness B. Shroff, and Charles A. Bouman, ``Communication efficient signal detection in correlated clutter for wireless sensor networks,'' {\em Asilomar Conference on Signals, Systems and Computers,}  pp. 1427-1431, 2010.
+pdf J. Theiler, G. Cao, and C. A. Bouman. "Sparse matrix transform for  fast projection to reduced dimension,"  p 4362-5, Proc. IGARSS (2010) 4362-4365.
+pdf Leonardo R. Bachega, Guangzhi Cao, and Charles A. Bouman,  ``Fast Signal Analysis and Decomposition on Graphs using the Sparse Matrix Transform,'' in the Proceedings of the {\em International Conference on Acoustic, Speech, and Signal Processing (ICASSP)},  March 14-19, 2010.
+pdf Guangzhi Cao, Yandong Guo, and Charles A. Bouman,  ``High Dimensional Regression using the Sparse Matrix Transform (SMT),'' in the Proceedings of the {\em International Conference on Acoustic, Speech, and Signal Processing (ICASSP)},  March 14-19, 2010.
+pdf Guangzhi Cao, Charles A. Bouman, and James Theiler ``Weak Signal Detection in Hyperspectral Imagery Using Sparse Matrix Transform (SMT) Covariance Estimation,'' {\em Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing, 2009, WHISPERS '09,} Grenoble France, August 26 - August 28, 2009.
+pdf Guangzhi Cao and Charles A. Bouman, ``Covariance Estimation for High Dimensional Data Vectors Using the Sparse Matrix Transform,'' Proceedings of {\em Neural Information Processing Systems Conference}, December, 2008.
+pdf Guangzhi Cao and Charles A. Bouman, ``Covariance Estimation for High Dimensional Data Vectors Using the Sparse Matrix Transform,'' Technical Report TR-ECE-08-05, School of Electrical and Computer Engineering, Purdue University, April 2008.
+Fast Non-Iterative MAP Reconstruction
+pdf Guangzhi Cao, Charles A. Bouman, and Kevin J. Webb, ``Non-Iterative MAP Reconstruction Using Sparse Matrix Representations'' {\em IEEE Transactions on Image Processing,} pp. 2085-2099, vol. 18, no. 9, September 2009.
+pdf Jianing Wei, Guangzhi Cao, Charles A. Bouman, and Jan P. Allebach, ``Fast Space-varying Convolution and Its Application in Stray Light Reduction'' {\em Proceedings of the SPIE/IS\&T Conf. on Computational Imaging VII,} January 19-20, 2009.
+pdf Guangzhi Cao, Charles A. Bouman, Kevin J. Webb, ``Fast Reconstruction Algorithms for Optical Tomography using Sparse Matrix Representation'' {\bf (invited paper)}, {\em International Symposium on Biomedical Imaging,} April 14, 2007.
+pdf G. Cao, C. A. Bouman, and K. J. Webb, ``Fast and Efficient Stored Matrix Techniques for Optical Tomography,'' {\bf (invited paper)}, {\em Fortieth Asilomar Conference on Signals, Systems and Computers,} pp. 156-160, Pacific Grove CA, Oct. 29 - Nov. 1, 2006.
+Acknowledgment of Support
+This work was supported by the Army Research Office under Proposal 56541-CI and the National Science Foundation under Contract CCR-0431024.

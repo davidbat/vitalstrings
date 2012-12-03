@@ -1,0 +1,16 @@
+Originally Posted by pixellany
+What is a "sparse matrix" and how would that affect the algorithm for inverting?
+A "sparse matrix" is stored differently than a "dense matrix".  In a dense matrix you store the value of each position.  In a sparse matrix, a more complicated data structure is used to identify which positions hold nonzero values and to store only the values and positions of the nonzero positions.  Typically you need to store one index and value for each nonzero plus N extra indexes for an NxN sparse matrix.  You don't need to store two indexes for each nonzero.
+The complexity of identifying which positions are non zero typically makes each non zero almost twice as expensive to store as in a dense matrix and much more than twice as expensive to process.  But then the zeroes are entirely free, neither stored nor processed.  So if the whole matrix has almost all positions zero, the sparse matrix will be overwhelmingly less expensive to store and process.
+Any algorithm for operating on a sparse matrix is more complex than an analogous algorithm on a dense matrix simply because of the extra complexity of the storage.  In addition, many algorithms on sparse matrices are done with major extra complexity beyond the above in order to preserve the low ratio of non zero to zero positions through various intermediate steps.
+Matlab includes a very powerful collection of functions for operating on sparse matrices.  These are far more efficient, reliable and numerically stable than anything an amateur might code.  I don't have experience with Octave, but I trust various claims I have read online that Octave is an acceptable substitute for Matlab.
+Quote:
+Originally Posted by smp
+At present, I need algorithm to invert only one sparse matrix.
+We know that not every matrix is invertible. So do I need to check first that whether my sparse matrix is invertible? If yes, what I have to check actually ? One theorem from Linear Algebra says that if the matrix is invertible, then the columns of that matrix form a linearly independent set. Is it helpful for such check? Is there easy way to check it?
+If you want to invert a sparse matrix, or you want to know whether a sparse matrix can be correctly inverted and if not, why not or any similar operations or questions, the obvious approach is to use a tool such as Octave.
+The algorithms are difficult.  I wouldn't have the patience to explain even the simplest of them here even if I didn't have an extra constraint (it could get close to topics I can't post about without violating intellectual property rights).
+If you don't explain a good reason to attempt these algorithms yourself, rather than using Octave, I assume you are just ignoring the best advice.
+If you do have a good reason, and especially if you expect to do any aspect of it better than Octave does, I think you have a very difficult project in front of you.
+Last edited by johnsfine; 06-25-2010 at 07:22 AM.                   Reason: fixed minor typo
+ 

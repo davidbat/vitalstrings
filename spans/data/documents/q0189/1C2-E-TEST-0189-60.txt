@@ -1,0 +1,20 @@
+Here are some  common uses    for each of the Bluetooth profiles listed above.
+Hands-Free Profile (HFP   1.5)
+Hands-Free Profile allows Bluetooth headsets and car hands-free kits to communicate with mobile phones.
+Phone Book Access Profile (PBAP)
+Phone Book Access Profile allows the exchange of Phone Book Objects between iPhone and other Bluetooth devices.
+It is often used between a car kit and a mobile phone to:
+Allow the car kit to display the name of the incoming caller
+Allow the car kit to download the phone book so the user can initiate a call from the car display
+Advanced Audio Distribution Profile (A2DP)
+Advanced Audio Distribution Profile allows high quality audio (stereo or mono)   to be streamed from one device to another over a Bluetooth connection. This is commonly used to play music wirelessly from iOS   to a wireless headset or a compatible car audio system.
+Audio/Video Remote Control Profile (AVRCP)
+Audio/Video Remote Control Profile allows remote control of playback functions on the iOS   device from compatible devices (commonly Bluetooth devices that use the A2DP   profile). iOS supports the following commands: pause, play, stop, next track, and previous track.
+Personal Area Network Profile (PAN)
+Personal Area Network Profile provides network connectivity over Bluetooth. With iOS this is  common with multiplayer games and Personal Hotspot on iPhone. See this article for additional information.
+iPod touch and iPad with iOS 4.3 or later support Internet tethering from an iPhone with iOS 4.2.6 or later, through PAN.
+Human Interface Device Profile (HID)
+Human Interface Device Profile allows communication between iOS   and Bluetooth keyboards.
+ 
+Note: iOS requires that the remote Bluetooth device support an encrypted connection. When establishing a pairing record between your iOS device and a Bluetooth device, you are also setting up encryption between the two devices.
+Rate this article:

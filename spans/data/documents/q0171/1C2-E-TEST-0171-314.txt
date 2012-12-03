@@ -1,0 +1,33 @@
+Hide My IP Address »
+Change My IP Address
+“How do I change my IP address?” and “Can I change my IP address?” are probably the most commonly asked questions. Please attempt the following then, if that does not work, visit our Forum.
+Before trying any other methods to change your IP address, try turning off (or unplugging the power of) your Cable/DSL modem for five minutes. In many cases this will change your IP address. However, if that does not change your IP address, repeat the process for 8 hours (overnight works well) instead of 5 minutes. Hopefully this will result in an IP change.
+If the above does not result in your IP address changing, please look through the below for the situation that best matches yours and attempt to change your IP address that way. Unfortunately you are not able to get your IP address to change in all cases, as it is ultimate determined by your ISP’s DHCP configuration (when you’ve got a dynamically assigned IP address, that is.)
+Windows – Computer connected directly to the modem
+1. Get to a command prompt. (START, run, cmd).
+2. Type “ipconfig /release” (without the quotes, on the command line by itself).
+3. Type “ipconfig /renew” (without the quotes, on the command line by itself).
+Windows (second option) – Computer connected directly to the modem
+1. Get to a command prompt. (START, run, cmd).
+2. Type “ipconfig /release” (without the quotes).
+3. Shut down computer.
+5. Turn off all ethernet hubs/switches.
+6. Turn off cable/DSL modem.
+7. Leave off overnight.
+8. Turn everything back on.
+Network with Router
+1. Log into the router’s admin console. (Often http://192.168.1.1/)
+2. Release the IP address. (Method varies by router manufacturer)
+3. Turn off router, ethernet hubs/switches, and the cable/DSL modem.
+4. Leave off overnight.
+5. Turn everything back on.
+If you are using a cable/DSL modem and a router, you may wish to connect your computer directly to the cable/DSL modem. Please note that this could significantly impact your system security. This allows your ISP’s DHCP to issue you a new (hopefully changed) IP address based of the (hardware) MAC address of your computer’s ethernet card.
+If all the above has not worked to change your IP address and you have a router, check and see if there is a “Clone MAC Address” option. Using it should change your IP address; however, you’ll only be able to do it once (in most cases).
+These will not work in all cases. If all else fails contact your internet service provider (ISP) and ask them if they are able to change your IP address or how long your connection needs to be off for your IP address to change.
+If you are trying to change your IP address because you are just trying to access web based forums you may wish to attempt to configure your internet browser to use a proxy server.
+FAQ: What is a proxy server?
+FAQ: How do I use a proxy server?
+If this does not answer your question, please visit our Forum.
+We’ve heard about IP Changer programs, but have not seen any that work in a reliable manner. If you have seen an IP address changer program that works, please let us know.
+This entry was posted             on Thursday, January 13th, 2011 at 1:02 pm      and is filed under Uncategorized .       You can follow any responses to this entry through the RSS 2.0 feed.               Both comments and pings are currently closed.
+GetMyIPAddress is proudly powered by WordPress

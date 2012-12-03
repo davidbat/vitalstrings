@@ -1,0 +1,9 @@
+Underlying  theory
+Compound Interest Example
+As an example, an analyst investigates the investment of $1000 for 7 years.  Each year the investment will generate a return that is uniformly and independently distributed between 0% and 20%.  The analyst wants to answer the following questions.  What is the value of the investment after each year?  What is the probability the investment increases less than 50% overall in 7 years? Is there an equivalent investment that applies a fixed but unknown interest rate every year for 7 years? VariateTools would help answer these questions in the following way.
+Figure 1 shows the growth in the investment, as a sequence of cumulative distribution functions (cdfs) and probability density functions (pdfs) evaluated by VariateTools with successive multiplications.  Note that the pdfs range in shape from the original rectangular uniform distribution to a normal-looking curve after 7 years. The Central Limit Theorem says that the distribution should approach the shape of a lognormal as the number of years increases. VariateTools can manage all of these distributions with equal ease, whether or not they are well-known named distributions.
+FIGURE 1: Distributions of future value of investment after one to seven years
+The mean and standard deviation for each pdf are tabulated below.  They were calculated from the internal representation of each distribution.  The means should be powers of the mean of the uniform distribution, $1000×1.10n.  The values calculated by VariateTools have a maximum error of 2 cents after 7 years.  The standard deviations are correct to within 10 cents.
+After year ...
+Standard deviation of future value
+1

@@ -1,0 +1,6 @@
+﻿
+Deprecated:  Function set_magic_quotes_runtime() is deprecated in /home/surefunk/public_html/gig-guide/textpattern/lib/txplib_db.php on line 14
+A problem occured while loading the plugin: ign_password_protect -> Warning: Cannot modify header information - headers already sent by (output started at /home/surefunk/public_html/gig-guide/textpattern/lib/txplib_db.php:14) on line 120
+Warning:  Cannot modify header information - headers already sent by (output started at /home/surefunk/public_html/gig-guide/textpattern/lib/txplib_db.php:14) in /home/surefunk/public_html/gig-guide/textpattern/lib/txplib_misc.php on line 1492
+Warning:  Cannot modify header information - headers already sent by (output started at /home/surefunk/public_html/gig-guide/textpattern/lib/txplib_db.php:14) in /home/surefunk/public_html/gig-guide/textpattern/publish.php on line 464
+Barcelona Night Clubs

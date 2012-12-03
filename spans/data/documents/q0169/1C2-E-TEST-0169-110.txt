@@ -1,0 +1,9 @@
+turbozedd (153)
+No... but how would you execute a fast MatVec multiply with std::map<std::pair<size_t,size_t>,T>? I need to have pointers to each row for mine to work.
+And how can I determine the amount of memory being used, during execution that is. I tried doing some sizof() things but it only gives the size of the pointer. Is there a recursive sizeof() ? I do not really want to do a memory analysis by hand.
+helios (9458)
+Hmm... Well, if you need to rapidly access the elements of a single column/row, then your approach is indeed faster.
+You can use a system monitor to check how much memory the program is using. For Windows, the best one I know of is Process Explorer.
+Last edited on
+I was hoping for something a bit more specific (yes indeed that was a pun). But I suppose if I have a big enough matrix it will dominate the memory slot.
+Topic archived. No new replies allowed.

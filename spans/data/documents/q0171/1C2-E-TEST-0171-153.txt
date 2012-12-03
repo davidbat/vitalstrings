@@ -1,0 +1,16 @@
+Is your mail server blacklisted?    Get notified and act instantly the same day.
+ 
+Find IP address of this host
+Hostname:  
+Find hostname of this IP address
+IP address:  
+e.g. 66.107.54.3     
+What is an IP Address?
+Every computer connected to the Internet is assigned a unique number known as an Internet Protocol Address.  IP addresses consist of four or six numbers separated by periods and look something like 66.216.95.41. A computer may have either a permanent (static) address or one that is dynamically assigned to it each session.
+As it is rather complicated to memorize IP addresses, most people use Domain Names instead. Domain name looks like www.company.com.The resolution between domain names and IP addresses is handled by the Domain Name Servers (DNS).
+If you want to see your settings, in Windows 2000/XP use ipconfig command (go to DOS prompt first). Please note that IP address reported by your computer may not match the one reported by IP Address Report service. This happens if you are connected to the Internet via proxy server or reside behind a firewall.
+If your IP address as reported by your computer falls into one of the following ranges
+10.0.0.0 to 10.255.255.255
+172.16.0.0 to 172.31.255.255
+192.168.0.0 to 192.168.255.255
+you are using internal address and your computer may not be accessed directly from Internet. This may affect behavior of certain software.

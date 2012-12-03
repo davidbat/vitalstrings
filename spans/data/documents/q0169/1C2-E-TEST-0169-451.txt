@@ -1,0 +1,21 @@
+Comments 15
+Sparse Columns are another new feature of SQL Server 2008 and are included in the February CTP (CTP6). They pretty much do what they say on the tin; offering a trade-off between taking more space to hold data, but none at all when they are empty.  They don't get you over the 1024 column limit, but could mean you can squeeze more columns into the 8,060 byte row limit for SQL Server.
+Like everything in SQL Server you need to know when they add value and when to avoid them like the plague. Fortunately one of the non-sparse areas of Books On-Line is the section covering sparse columns here . 
+So the good news first:
+Storing a null in a sparse column takes up no space at all.
+To any external application the column will behave the same
+Sparse columns work really well with filtered indexes as you will only want to create an index to deal with the non-empty attributes in the column.
+You can create a column set over the sparse columns that returns an xml clip of all of the non-null data from columns covered by the set.  The column set behaves like a column itself. Note: you can only have one column set per table.
+Change Data Capture and Transactional replication both work, but not the column sets feature.
+And the downsides.
+If a sparse column has data in it it will take 4 more bytes than a normal column e.g. even a bit (0.125 bytes normally) is 4.125 bytes and unique identifier rises form 16 bytes to 20 bytes.
+Not all data type can be sparse: text, ntext, image, timestamp, user-defined data type, geometry, or geography or varbinray (max) with the FILESTREAM attribute cannot be sparse. (Changed17/5/2009 thanks Alex for spotting the typo)
+computed columns can't be sparse (although sparse columns can take part in a calculation in another computed column)
+You can't apply rules or have default values.
+Sparse columns cannot form part of a clustered index.  If you need to do that use a computed column based on the sparse column and create the clustered index on that (which sort of defeats the object).
+Merge replication doesn't work.
+Data compression doesn't work.
+Access (read and write) to sparse columns is more expensive, but I haven't been able to find any exact figures on this.
+As you can see from Books On-Line there is a really useful guide to when to use them for a particular data type e.g. if more than 64% of your values are null in an int column then use sparse columns, and basically the longer the data type the lower the threshold for using sparse columns.
+So how does it work? Just put the keyword SPARSE into a create table statement:
+CREATE TABLE CustomerDemographics

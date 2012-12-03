@@ -1,0 +1,26 @@
+Articles: FAQ , Proxy Definition , IP Commands , Proxy List , IEEE LAN/MAN  Standards valuemyass.com
+Why IP address finder | Track IP address location | Locator?
+IP Address Finder online locator tool will provides the main functionality of find IP addresses ( Tracking location ) and track its map location and show it using satellite map. This tool (tracking location) always find an accurate output to the user. As well as tracking proxy servers, showing network details are key features of this tracking location tool. An IP address ( Internet Protocol ) is use for unique identification of node or host connection on a TCP/IP network. IP addresses are managed and created by the Internet Assigned Numbers Authority ( IANA ) and it is a 32 bit binary number usually represented as 4 decimal values, each representing 8 bits, in the range 0 to 255 separated by decimal points. IANA allocate addresses according to locations. When user visits this web, it will show map location.
+     IP Address Finder online locator tool will provide the main functionality of find IP addresses (Tracking location) and track its map location and show it using satellite map. This public IP address finder tool (tracking location) always find an accurate output to the user. As well as tracking proxy servers, showing network details are key features of this tracking location tool. An IP address (Internet Protocol) is use for unique identification of node or host connection on a TCP/IP network. IP addresses are managed and  created by the Internet Assigned Numbers Authority ( IANA ) and it is a 32 bit  binary number usually represented as 4 decimal values, each representing 8  bits, in the range 0 to 255 separated by decimal points. IANA allocate addresses according to locations. When user visits this web, it will show map location.
+   Example :- IP address finder  result 154.25.20.152
+       The IP address acts as a locator for one IP device to find another and interact with it. ISPs typically assign dial-up users a dynamic IP  each time they sign on because it reduces the number of addresses they must register.Three blocks of  addresses are reserved for private networks and will never be officially assigned. Therefore, if you must make up an unofficial Internet Protocols, you should choose it from one of these blocks. Some of them are intended to be unique within the scope of the global Internet, while others need to be unique only within the scope of an enterprise.
+IP Address Classes
+There are 5 different classes. You can determine which class any IP address is in by examining the first 4 bits of the IP.
+Class A :-  begin with 0xxx, or 1 to 126 decimal.
+Class B :-  begin with 10xx, or 128 to 191 decimal.
+Class C:- begin with 110x, or 192 to 223 decimal.
+Class D:- begin with 1110, or 224 to 239 decimal.
+Class E:- begin with 1111, or 240 to 254 decimal.
+Find more..
+Static and Dynamic IP Addresses
+Static addresses are uses the same address every time. But Dynamic addresses changes frequently. Some infrastructure situations have to use static addressing, such as when finding the Domain Name System host that will translate domain names to addresses. In some situations having a static address is an advantage. For example, people who game online with remote players often prefer this. When they return to a game, the hosting server recognizes them, restoring score, placement in the game, and other settings accordingly. A static IP is more reliable than a computer cookie that can be deleted.
+Find more..
+Static IP address
+The  addressing system was originally designed for very logical condition in  which each computer is preconfigured with an IP address.
+The principal shortcomings of static IP addressing are
+More configuration-Each client must be configured individually. A change to the address space or to some other parameter (such as the DNS server addresses) means that each client must be reconfigured      separately,
+More addresses-Each computer use an IP address whether it is currently on the network or not.
+Reduced flexibility-A computer must be manually reconfigured if it is assigned to a different sub network.
+Find more..
+Dynamic IP
+Make a connection to the internet through any connection like dial-up access or other temporary connection, Internet Service Provider will assign a temporary IP address to user. The protocol which is use for dynamic addresses is DHCP.DHCP stands for Dynamic Host Configuration Protocol. DHCP servers maintain connection and temporary issued IP address (dynamic) details till user goes offline. It is not possible of using dynamic IP for web servers, email servers and etc. DHCP servers will assign addresses randomly or according to predefined policy. When user receives an IP address, it will send that address to Dynamic DNS server.

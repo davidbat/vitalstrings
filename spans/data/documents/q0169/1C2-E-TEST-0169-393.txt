@@ -1,0 +1,7 @@
+Single-Channel Speech Separation using Sparse Non-Negative Matrix Factorization
+ 
+ 
+Mikkel N. Schmidt and Rasmus K. Olsson
+Abstract: We apply machine learning techniques to the problem of separating multiple speech sources from a single microphone recording. The method of choice is a sparse non-negative matrix factorization algorithm, which in an unsupervised manner can learn sparse representations of the data. This is applied to the learning of personalized dictionaries from a speech corpus, which in turn are used to separate the audio stream into its components. We show that computational savings can be achieved by segmenting the training data on a phoneme level. To split the data, a conventional speech recognizer is used. The performance of the unsupervised and supervised adaptation schemes result in significant improvements in terms of the target-to-masker ratio.
+Demonstration: Here are a few audio demonstrations of the method described in the paper. The mixtures are at 0dB.
+Mixture

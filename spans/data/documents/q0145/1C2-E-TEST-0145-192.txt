@@ -1,0 +1,10 @@
+of an amount that can be paid off by making
+payments of amount
+.
+For example, the
+factor for 30 years at 5% is 15.3725, so payments of $12,000 a year would pay off a loan of 12000×15.3725 = $184,470 at that rate over that period. The
+factor of 66.4388 means that the same $12,000 a year contributed to, for example, a retirement savings account earning 5% would grow in 30 years to $797,265.60.
+The arithmetic gradient series shows accumulations and amortizations possible by using increasing (rather than level) payments, where the amount of the payment starts at zero, but changes by
+dollars per year. Otherwise, this part of the Demonstration should be interpreted like the level payment accumulation and amortization factor series. Note that series of payments or contributions that start above zero and then increase at a fixed rate can be calculated as the sum of two terms—a level payment series for the initial amount and a gradient series for the increases.
+Reference: T. G. Eschenbach, D. G. Newnan, and J. P. Lavelle, Engineering Economic Analysis, New York: Oxford Univ. Press, 2004.
+RELATED LINKS

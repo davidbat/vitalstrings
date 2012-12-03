@@ -1,0 +1,10 @@
+Garbage collection process in java
+1 Answer(s)      a year and 8 months ago
+Name the process used for Garbage collection in Java?
+Thanks
+October 5, 2010 at 2:27 PM
+<b>Garbage collection process</b>
+In Java the Garbage collection process is known as Garbage Collector.
+The Garbage collector is responsible for freeing the Objects which are no longer referenced.
+Program can call the System.gc() method to call the Garbage Collector.
+Thanks

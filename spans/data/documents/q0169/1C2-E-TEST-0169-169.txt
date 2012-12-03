@@ -1,0 +1,8 @@
+>>>where r is the value in location A[i,j] for some imaginary matrix A.
+>>>
+>>>I need to build this matrix A, but given the sizes of i and j, I believe
+>>>that using a sparse format would be most adequate.
+>>>
+>>>Hopefully this will allow me to perform some basic matrix manipulation
+>>>such as multiplication, addition, rowsums,  transpositions, subsetting
+>>>etc etc.

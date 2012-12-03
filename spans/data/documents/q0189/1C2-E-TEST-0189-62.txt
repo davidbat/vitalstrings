@@ -1,0 +1,23 @@
+FAQ Forums Contact
+Introducing the iOS and Android Maps API
+It's here! We're excited to announce the release of our Android Maps API to production and our iOS Maps API to beta.
+These APIs are designed as "drop in" replacements for the native APIs.  We used the same object model as the native API, while of course extending it to add great features such as integrated driving directions plus the ability to use OpenStreetMap data or our licensed datasets.
+And just like all of our APIs, our native mobile APIs feature no preset limits on maps with our free Community Edition license.
+Read more »
+New Free Map API Transaction Limits
+With all the recent discussion regarding transactional limits among free map APIs, we have announced a few changes to our licensing terms . For starters, there will be NO PRESET LIMIT on maps using our free Community Edition license!
+Unlike our competitors, we're happy to let you pull up a chair to the map buffet and gorge away!
+How about web service calls (like geocodes)?  5,000 per day, double that of Google.  Just to top it off, we've loosened the restrictions on the types of apps you can build. A paid mobile app? Sure. SSL? Go for it!
+Read more »
+Easy Native Mobile Mapping Apps
+With the latest Adobe Flash Builder 4.6 (using Flex 4.6 or ActionScript) and the MapQuest Mobile Flash Maps API , you can code once and deploy to iOS, Android and Blackberry Tablet!
+In addition to the impressive cross-platform mobile capability, the Mobile Flash Maps API offers geocoding, routing, search and current traffic conditions. The API also supports multi-touch gestures and features touch-friendly icons and controls.
+Licensed Data vs. Open Data
+The MapQuest Platform offers two data solutions: Licensed and Open Data.
+LICENSED DATA - Referring to the default data set that's also used by MapQuest.com , Licensed Data comes from the latest high-quality commercial data sources. This industry-leading platform offers premium support to help you build rich and engaging mapping applications.
+OPEN DATA - Taking advantage of OpenStreetMap (OSM) and other open data sources, MapQuest offers a unique set of Open Data APIs. OSM is editable by anyone (add missing streets, restaurants, etc) and also allows for customization of the map tiles via our Mapnik Style Files .
+Choose what's right for you!
+Read more »
+Easy Mobile Mapping Solutions
+MapQuest has a long history of making our tools mobile-friendly, including free turn-by-turn, voice guided navigation on your iPhone or Android .
+Now you can harness our mobile mapping technology for your own native applications and mobile websites. For the mobile web, you can use the same JavaScript Maps API that powers the MapQuest mobile website. For native applications, options include the newly released Flash/Flex Mapping API , Android Maps API and the iOS Maps API . Get the complete scoop by checking out our mobile development overview .

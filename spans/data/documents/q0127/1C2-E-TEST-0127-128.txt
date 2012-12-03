@@ -1,0 +1,46 @@
+I haven't seen a change on my end neither.
+--
+Login or register to post comments
+Tue, 03/22/2011 - 6:32pm
+neoneo
+even if there is a change,
+even if there is a change, shouldn't the gps be able to traingulate the correct location by calculating data from the satellites?
+Login or register to post comments
+Tue, 03/22/2011 - 10:59pm
+desi
+4 inches
+the accuracy on these GPS is around 6 meters in the best of times, so 4/18 inches will not make any difference.
+Login or register to post comments
+Wed, 03/23/2011 - 12:09am
+Exactly...
+neoneo wrote:
+even if there is a change, shouldn't the gps be able to traingulate the correct location by calculating data from the satellites?
+Yeah this makes sense, any comment on this you scientist out there...
+Login or register to post comments
+Wed, 03/23/2011 - 12:42am
+BobDee
+can you say cruise missiles? Relax you won't get lost
+With three different war fronts going on as I write this, you can bet the Department of Defense (through the Air Force)has already made alterations to GPS space craft orbits. there is no room for error on the military side of the birds, when your trying to destroy Moammar Gadhafi's command and control and other targets with a GPS guided cruise missiles from many miles away.
+The orbiting paths of the satellites are monitord by US Air Force monitoring stations in Hawaii, Kwajalein, Ascension Island, Diego Garcia, and Colorado Springs, Colorado, along with monitor stations operated by the National Geospatial-Intelligence Agency (NGA) These mmonitoring stations are the eyes and ears of GPS and monitor satellites as they pass overhead by measuring distances to them every 1.5 seconds. This data is then smoothed using ionospheric and meteorological information and sent to Master Control Station at Colorado Springs. The ionospheric and meteorological data is needed to get more accurate delay measurements, which in turn improve location estimation. Master control station estimates parameters describing satellites' orbit and clock performance. It also assesses health status of the satellites and determines if any re-positioning may be required. This information is then returned to three uplink stations (stationed at the Ascension Island, Diego Garcia and Kwajalein monitor stations) which transmits the information to satellites.
+The initial data suggests northeast Japan's Friday (March 11) earthquake moved the main island about 8 feet, according to Kenneth Hudnut of the U.S. Geological Survey. The earthquake also shifted Earth’s figure axis by about 6 1/2 inches (17 centimeters)“This shift in the position of the figure axis will cause the Earth to wobble a bit differently as it rotates, but will not cause a shift of the Earth’s axis in space – only external forces like the gravitational attraction of the sun, moon, and planets can do that,”
+--
+Using Android Based GPS.The above post and my sig reflects my own opinions, expressed for the purpose of informing or inspiring, not commanding. Naturally, you are free to reject or embrace whatever you read.
+Login or register to post comments
+Wed, 03/23/2011 - 9:33am
+Maps would have to be updated
+puchasr wrote:
+neoneo wrote:
+even if there is a change, shouldn't the gps be able to traingulate the correct location by calculating data from the satellites?
+Yeah this makes sense, any comment on this you scientist out there...
+I have a Master of Science degree but I am an engineer, not a scientist. However, I will give you my two cents worth anyway.
+Yes the gps receiver such as a Garmin can determine the correct latitude and longitude relative to the reference globe it uses by triangulation calculations relative to three or more satellites.
+But until the map is updated in the gpsr, it those coordinates would place you at the wrong point on the map ( i.e. it would place you where on the map you would have been had the land had not shifted).
+For example suppose you were standing by a radio tower in Japan when the land shifted relative to the rest of the world. After the shift your gpsr would calculate your new coordinates and place you on the map it has stored in it. But now it would show you away from the radio tower instead of standing right beside it.  You could see the difference provided the shift was enough to be noticeable within the accuracy of the calculations.
+This "error" would remain until the map in your gpsr is updated to account for the new placement of the land with respect to the reference globe.
+Login or register to post comments
+Wed, 03/23/2011 - 10:10am
+jonny5
+Agree with immediately previous post, maps need update
+I agree with the post directly above me.  It will have an impact until the Japan maps are updated.  But as stated previously and mentioned regarding the location calculation, the accuracy of typical civilian GPS units will affect how big of a deal that is in practice.
+Login or register to post comments
+Wed, 03/23/2011 - 10:13am

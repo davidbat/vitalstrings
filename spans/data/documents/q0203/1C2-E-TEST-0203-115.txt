@@ -1,0 +1,9 @@
+News
+Inside Garbage collection process of Active Directory
+This article explains about the garbage collection process used by AD to clear out orphaned objects from AD Data (ntds.dit).
+Windows 2000/2003 deletes all tombstone objects after 60 days after their original status. AD sets isDeleted attribute to TRUE after the 60 days automatically or when you delete an object manually. This is because a tombstore should be replicated to all domain controllers in the domain (The domain partition). Otherwise objects will be re-created in AD.
+You can also change the default time.
+If you want to change the default time you can modify the tombstonelifetime setting under cd=DirectoryServices,cn=WindowsNT,cn=Services,cn=Configuration,dc=DomainName parameter which i don't recommend.
+Each directory partition holds a container called Deleted Object except Schema partition because you can't delete objects from this partition. After deleting an object or setting isDeleted attribute to TRUE AD moves these records to Deleted Object container in the partition that contained the object.
+AD hides these Deleted Objects containers by default, so to view them you must enable the Return Deleted Objects Lightweight Directory Access Protocol (LDAP) control as part of a search operation.
+You can search Tombstone objects using LDP found in Windows 2000 and Windows 2003.

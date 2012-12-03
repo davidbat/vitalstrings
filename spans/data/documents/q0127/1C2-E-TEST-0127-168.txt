@@ -1,0 +1,6 @@
+Following the incidents at nuclear power plants in Japan after the earthquake I was wondering which power stations around the world are near active earthquake zones.
+With this in mind, I’ve created a map combining two sets of information:
+A heatmap of every 4.5+ magnitude earthquake since to 1973 – around 174,000 in total
+The location of 248 atomic energy plants, including numbers of reactors. Represented by blue markers.
+The seismic data are from the United States Geological Survey and the nuclear power station information the International Atomic Energy Agency . The map is built from two Google Fusion tables, here and here .
+To see the actual locations of the earthquakes you can toggle the heatmap off and display markers instead.

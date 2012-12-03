@@ -1,0 +1,15 @@
+Tiếng Việt
+I've found a quite good sparse matrix implementation for c# over http://www.blackbeltcoder.com/Articles/algorithms/creating-a-sparse-matrix-in-net .
+But as i work in 3d coordinate-system, i need a sparse-matrix implementation that i can use to map the 3d-coordinate system.
+Details: I'm storing large amounts of primitive shapes data in memory like cubes. I do have large amounts of them (around 30 million) and i've lots of null (zero) entries around. Given that my each entry costs 1-bytes of entry, i'd like to implement a sparse-matrix so that i can fairly save memory space.
+Note: Fast access to matrix cells is a fairly important factor for me, so i'd be trading speed over memory consumption.
+This question and answers originated from www.stackoverflow.com
+Question by HuseyinUslu (3/31/2011 10:59:36 AM)
+Answer
+A very simple solution which I just made is this:
+public class Sparse3DMatrix<T> {     Dictionary<Tuple<int,int,int>, T> values = new Dictionary<Tuple<int, int, int>, T>();      public T this[int x, int y, int z]     {         get { return values[new Tuple<int, int, int>(x, y, z)]; }         set { values[new Tuple<int, int, int>(x, y, z)] = value; }     }      public bool ContainsKey(int x, int y, int z)     {         return values.ContainsKey(new Tuple<int, int, int>(x, y, z));     } }
+usage:
+var test = new Sparse3DMatrix<float>(); test[1, 1, 1] = 1f; Console.WriteLine(test[1, 1, 1]);
+It could be extended with methods like those his version have, and with checks for x, y, z values etc.
+I'm sure someone have something to say about its performance. It will be a decent implementation unless you really need something it for high-performance. It depends on the hash-code implementation of Tuple and your specific usage. If we assume the hashes are good, we will have O(1) lookup time. If you know you will have a lot of elements, you could use new Dictionary<...>(initial capacity) to avoid unnecessary resizing when added items.
+Unlike his, this only have a single Dictionary with all the items. His version have dictionaries of dictionaries. The benefit of his, is if you have to scan over an entire row, you can just iterate the second-level dictionary (this will not help you is you want to scan over columns) which is faster than individual lookup of the items. But having a single dictionary means smaller memory usage - especially when you have few items per row.

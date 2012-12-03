@@ -1,0 +1,5 @@
+  Re: What is Garbage Collection in .Net? Garbage collection process?
+Answer
+# 1
+The process of transitively tracing through all pointers to actively used objects in order to locate all objects that can be referenced, and then arranging to reuse any heap memory that was not found during this trace. The common language runtime garbage collector also compacts the memory that is in use to reduce the working space needed for the heap.
+ 

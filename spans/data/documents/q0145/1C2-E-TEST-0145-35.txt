@@ -1,0 +1,17 @@
+1. choose one variable to be computed;
+2. fill in the textbox for the other three variables;
+3. press the Submit button.
+ 
+Compound Interest
+The most important concept about understanding     any investment is the time value of money. Invested money increases in value     over time  because of the growth generated from the use of production     factors such as machines, land and labor. Interest is the measure of value     of money when in use, usually expressed as annual percentage rate, or interest     rate.   Discount rate is the rate     used to calculate the present value of future cash flows; also called the "capitalization     rate."  
+Time value of money must be considered for timberland     investment analyses.  Costs for managing timberland may be spread out over the     growing period and revenue from timber sales may occur 10 or     20 years after the initial investment. In timberland investment     analyses, all costs and revenues need to be discounted to their present     value to take into account the time value of money. Discount rates     used in this situation should reflect the real borrowing cost of the project or     the opportunity cost of money, i.e. the rate of return for the alternative     best investment project. 
+Interest from invested capital when reinvested will in turn become a part of capital and earn interest, such a process is called compounding. There are four variables involved in compounding. They are the Present Value (PV) and Future Value (FV) of invested capital, Interest or Discount Rate (r) and Length of Investment (n). Their relationship can be expressed as:  
+FV = PV(1 + r)n
+ 
+From this       relationship, any one variable can be solved from the other three       variables, as shown in the above calculator.
+Internal Rate of Return (IRR) is     the discount rate which sets the NPV of a series of cash flows equal to     zero. It tells us what our compound rate of interest is on our investment.
+Net Present Value (NPV) is the summation of all positive and negative     present values for an investment project. 
+NPV Criterion: an     investment project is feasible if its NPV is positive. For two or more     exclusive investment projects, the one with the highest NPV is the best     choice. This is called the NPV criterion.     The NPV criterion is a better criterion than the Internal Rate of     Return for ranking investment decisions.
+ 
+An example: assuming that you invest $1500 at an annual interest rate of 5% compounded annually for n=20 years. The value of this investment 20 years from now will be $1500*(1+0.05)20 = $3979.95, using the above calculator.
+ 

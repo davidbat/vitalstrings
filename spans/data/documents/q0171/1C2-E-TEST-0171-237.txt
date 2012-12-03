@@ -1,0 +1,8 @@
+Posts: 7
+Fixed it!
+The solution was simple in the end and didn't require messing with all the settings under the sun that I had been doing. I had many problems including not being able to allocate an IP address, not seeing the server name, DNS error you name it I had it.
+The way we sorted it was a process of elimination - ie is it your ISP, your hardware or you settings. If 1 and 2 are in shape the Ps3 should automatically detect everything.
+My problem was my gateway (ie I had a 3Com ADSL modem / router in one) which was about 3 years old. I got hold of a new device - a Netgear DG834PN and replaced the 3Com one. I set up the router but changed the internet settings on the router from PPPoPE to PPPoPA and entered all the login credentials as normal. I disabled wireless security and then rebooted everything.
+Powered up the Ps3 and it worked first time. Then I enabled WPA wireless security and away we go.
+In summary, check your router and use PPPoPA. I'm on AOL. My brother has Sky Broadband and it worked on that too using a Netgear Modem/Router and PPPoPA
+ 

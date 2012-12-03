@@ -1,0 +1,18 @@
+/* creates an array that stores information about non-zero elements */
+void create_tuple ( struct sparse *p, struct sparse s )
+{
+int r = 0 , c = -1, l = -1, i ;
+/* get the total number of non-zero elements */
+p -> row = count ( s ) + 1 ;
+/* allocate memory */
+p -> sp = ( int * ) malloc ( p -> row * 3 * sizeof ( int ) ) ;
+/* store information about    total no. of rows, cols, and non-zero values */
+* ( p -> sp + 0 ) = MAX1 ;
+* ( p -> sp + 2 ) = p -> row - 1 ;
+l = 2 ;
+/* scan the array and store info. about non-zero values     in the 3-tuple */
+for ( i = 0 ; i< MAX1 * MAX2 ; i++ )
+{
+/* sets the row and column values */
+if ( ( ( i % 3 ) == 0 ) && ( i != 0 ) )
+{

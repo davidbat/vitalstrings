@@ -1,0 +1,12 @@
+Widows Vista
+If you’ve had the opportunity to play around with a beta version of Windows Vista you’ve probably noticed that many of the day to day admin tasks have slightly changed or have been moved from where you’ve been accustomed to.
+It’s been over 5 years now since Windows XP was was released and that’s a lot of time for habits to form on how to access things. Well, it’s time to retrain our brains to the intricacies of Windows Vista. Today I’m going to cover how to statically configure a network card’s IP by using the windows GUI.
+Configuring a Static IP in Vista
+Click on the start orb to open a list of programs and content. The start menu has been replaced by the “start orb” which still gives you the same functionality as the start button from previous OS versions, but consumes less screen real estate.
+Right click on “Network” and go to properties. That opens the “Network and Sharing Center” which is your central office for anything pertaining to (just as it says) networking or sharing resources.
+On the left hand column you want to click on “Manage Network Connections.” This opens the Network Connections Window which you will find familiar to Windows 2000/XP. It will list all of your NICs or Wireless Connections.
+Right click and go to properties of the connection you would like to statically assign. You will now be prompted for an administrative password. This is part of Microsoft’s new User Account Control (UAC) which will help unauthorized changes to your systems.
+Once you have authenticated you will see the properties of the selected network connection. The properties screen is very similar to what you’ve seen in the past, but one thing you will likely notice is by default Windows Vista supports IPv6. If you’re on a corporate or government network that is running IPv6 you can fill in your IP information there.
+Otherwise, you will select Internet Protocol Version 4 (IPv4) and click properties. Now you will be able to enter in your IP, Subnet Mask, Default Gateway, and DNS addresses and click OK.
+Close the Network Connections Window and you’re running with your new IP.
+More Related Posts

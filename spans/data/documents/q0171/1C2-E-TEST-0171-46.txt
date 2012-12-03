@@ -1,0 +1,19 @@
+By Bradley Mitchell , About.com Guide
+See More About:
+home network setup
+IP addresses are the fundamental method for computers to identify themselves on most computer networks. Every computer (or other network device) connected to the Internet has an IP address. This tutorial explains the basics of finding, changing, and hiding (your) my IP addresses.
+Inside IP Addresses
+IP addresses are written in a notation using numbers separated by dots. This is called "dotted-decimal" notation. Examples of IP addresses in dotted-decimal notation are 10.0.0.1 and 192.168.0.1 although many millions of different IP addresses exist.
+How IP Addresses Work
+Finding IP Addresses
+Everyone who needs to use a computer network should understand how to  look up their own IP addresses. The exact procedure to follow depends on the kind of computer you use. Additionally, in some situations you may need to find the IP address of someone else's computer.
+How to Find IP Addresses
+Fixing IP Address Problems
+When a computer network is functioning properly, IP addresses stay in the background and don't require any specific attention. However, some common problems you may encounter when setting up or joining a computer network include:
+A computer has no IP address
+Two computers have the same IP address
+A computer has a "bad" IP address that won't allow it to "talk" on the network
+To solve these problems, several techniques can be applied including IP address release / renew , setting static IP addresses , and updating the subnet ccnfiguration
+Hiding IP Addresses
+Your public IP addresses are shared with others over the Internet, and this raises privacy concerns in the minds of some people. IP addresses allow your Internet usage to be tracked and give some rough information about your geographic location.
+While there is no simple solution to ths problem, some techniques do help hide your IP address and increase your Internet privacy:

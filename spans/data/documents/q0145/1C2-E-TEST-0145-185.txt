@@ -1,0 +1,34 @@
+Alternatively, to generate £1100 in a year's time, I must invest C today, where
+1100 = C(1+0.1)    Þ C =
+1100
+1+0.1
+= 1000.
+Thus, £1100 in a year's time is worth £1000 now: we say that its present value is £1000.
+In general, the PRESENT VALUE of A at time n is the amount of money invested today that would accumulate to A by time n.
+EXAMPLE 1: What is the present value of £12000 in six year's time, if there is an interest rate of 10% per annum?
+SOLUTION:
+· This is equivalent to asking:
+``What amount invested today will have an accumulation of £12000 in six year's time?''
+· We can answer this question using the compound interest formula with A = 12000, n = 6, i = 0.1 and yearly compounding: thus
+C = 12000(1+0.1)-6 = 12000(1.1)-6 = £6773.69.
+COMPARING INVESTMENTS
+· Present values can be used to compare the value of different amounts of money at different times by calculating their value at a single time.
+EXAMPLE 2: Based on an interest rate of 10% p.a. compounded continuously, which is better:
+(a) £15000 now or
+(b) £30000 in seven year's time?
+SOLUTION:
+To make a comparison, we work out what the deals are worth in seven year's time.
+Deal (a): C = 15000 accumulates to A in n = 7 year's time at an interest rate of i = 0.1 according to
+A = 15000e0.1×7 = £30206.29
+Deal (b): has value £30000 in 7 year's time. Thus choose Deal (a).
+The same answer is arrived at if we value the amounts at time 0 (present value).
+Deal (a): has value £15000 at time 0.
+Deal (b): The value of (b) at time 0 is the amount of money C needed at time 0 to produce an accumulation of A = 30000 in n = 7 year's time:  30000 = Ce^70.1
+C=30000e^-70.1 = £14897.56.
+Thus Deal (a) is worth more at time 0 than Deal (b).
+VALUING INVESTMENTS AT DIFFERENT TIMES
+· If we know the value of a sum of money at one time, we can find its value at any other date using an accumulation formula, once the time gap between the two dates is known.
+EXAMPLE 3: An investor is promised £1000 on 1 May 2001. What is this worth on 1 June 2000, based on a yearly interest rate of 6%?
+SOLUTION:
+The time gap between 1 June 2000 and 1 May 2001 is
+11 months =

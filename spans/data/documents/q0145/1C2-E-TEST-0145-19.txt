@@ -1,0 +1,36 @@
+     The interest charged according to formula (1) is called basic interest.
+ 
+     Compound interest, on the other hand, is interest paid on previously earned interest. Suppose, instead of paying 10% interest when the money is given back, you have your friend pay you 10% on the money he still has every year. If he doesn’t pay you back for two years, then you will get 10% on $100 the first year, which is $110 and you will get 10% on $110, which is $121 at the end of the second year. Instead of getting $20, you will get $21. Another example might help explain this concept.
+ 
+Example 1:
+ 
+     Suppose a bank offers an interest rate of 6% per annum (yearly) on a savings account that is compounded quarterly (four times a year). A person deposits $4,000 in the bank. How much money will be in his account at the end of one year?
+ 
+ 
+     Since the interest is compounded quarterly, we can use the formula for basic interest,
+, four times. The principal amount P is $4,000, the interest rate r is 6% (r = 0.06), and t =
+ of a year. (Recall that t is measured in years.)
+ 
+     So, the amount of interest earned on the savings account is:
+ 
+ 
+ 
+     Now, as we start the second quarter, the principal is no longer $4,000. Since we have accumulated interest, the new principal is $4,000 + $60 = $4,060. Using that new principal, the interest gained in the second quarter is:
+ 
+ 
+ 
+     The interest paid at the end of the third quarter on the principal of $6,060 + $60.90 = $6,120.90 is:
+ 
+ 
+     The final amount of interest paid, at the end of the fourth quarter, will be equal to:
+ 
+.
+ 
+     Adding that interest amount to the principal going into that period ($4,182.71), we get the balance in the account after one year. It will be $4,182.71 + $62.74 = $4,245.45.
+ 
+     We can use the process above to obtain a general formula for computing compound interest. To do this, notice that we started with a principal, P, and an interest rate r per annum. Let n be the number of times the principal is compounded. Then the interest earned at the end of each compounding period will be the principal amount times the interest rate times the fraction
+, ie
+. The amount A in the account after one compounding period will be:
+ 
+     After two compounding periods, the amount A, based on the new principal of
+ will be:

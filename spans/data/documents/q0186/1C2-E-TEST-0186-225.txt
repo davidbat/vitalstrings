@@ -1,0 +1,148 @@
+Step 1 sets up the map and allows you to plot your own        markers
+Zoom in to the required part of the world:
+  
+Click on Regional Quicklinks to jump to regions and countries        quickly.
+  
+To centre the map, double click on it (very handy before zooming).
+  
+Zooming is done using the zoom ladder on the left or the +/-        signs on the top/bottom.
+Optionally plot your own marker icons        on the map:
+    
+Zoom in fairly close then click once on the map to add the marker.
+    
+Zoom in closer and drag the marker to the appropriate point.
+    
+Alternatively, the "Add by postal code" and "Add        by co-ordinates" can be used to add markers.
+Details can be added to each marker by clicking on it & filling in any of the boxes (all are optional).
+  
+To keep the updated text, click the "Save the text" button, otherwise click the X on the bubble.
+  
+Please remember to use line breaks for long sentences to        make it more readable.
+Step 1 Help
+[Close            help]
+The help for step 1 is very verbose so it has been            split into sections to make finding the appropriate            part easier. You probably won't need to read this entire            section, although if you haven't used Google Maps before,            the main controls section might hold some handy tips.
+Click the appropriate Show/Hide link beside the section            of interest to open or close it.
+ Main Controls:
+Zooming In / Out:
+  
+Use the zoom ladder on the side of the map to zoom in            and out by small or large amount.
+    
+Tip: Try double clicking the map to centre it            as the map always zooms to the central point.
+    
+Tip: Some areas of the world have little or no            normal data, but often have good satellite images.
+Basic Moving Around:
+Click and dragging the map around is often the most            efficient method.
+  
+Using the arrow buttons on the top left of the map moves            by steady amounts.
+    
+Tip: To drag long distances, it's often a good            idea to zoom out a little first.
+Regional Quicklinks Jump:
+The Regional Quicklinks menus allow quick navigation            to a continent or country.
+    
+Just select your continent and then the region or country            and click the "Jump to >>" button.
+    
+The map will then move and zoom to show the selected            region/country.
+    
+You can then drag the map around and zoom in as normal.
+Custom icons:
+  
+You can plot your own icons onto the map, label them            and even provide a link to a web site if
+     required which can pinpoint            pretty much anything, eg: office location, wedding venues,            start of
+     your favourite walk etc.
+See "Adding a custom icon" for more details.
+ 
+Misc Notes:
+  
+The final saved map will be virtually identical to what            is shown here including zoom level and map
+     type (normal, satellite or            hybrid).
+  
+If you wish to use the extra content overlays in step            2, these will only work when the map is
+    zoomed to level 5 or greater            (zoom level shows just below the map).
+  
+The extra content overlays set in step 2 won't show            on the map below, but will on the public version.
+ 
+ Adding a Custom Icon:
+Show / Hide
+1) Firstly zoom into the appropriate part of the world            where you want the icon to appear.
+2) Click once on the map to place the icon. Exact positioning            isn't important at this stage.
+3) The map will appear with a speech bubble above it:
+   
+All the fields are optional here and you can edit the            bubbles by clicking on any of the icons.
+   
+After editing, remember to click the "Save the            text" button to update the bubble details.
+   
+More details are available under the "Icon Details" help section.
+4) Zoom in as close to the map as you can and drag the            icon to the most appropriate location.
+   
+You may find the satellite button (top right) helps            with this process.
+   
+Some countries especially outside Europe the North America            may only have satellite details.
+ 
+ Adding an Icon via a Postcode:
+Show / Hide
+The postal code option provides an easy way to plot            a location from an address, although there are currently            only a limited number of countries with postal code            details available.
+1) Enter the postcode and select the appropriate country            for that code:
+   
+For best results, enter the code in the standard format,            eg: for the UK enter them as ZJ1 2LW
+   
+Our system will attempt to understand other formats            such as ZJ12LW, but may not be as reliable.
+2) Click the "Plot with Postcode" button and            after a couple of seconds, the map will update:
+   
+If the system was unable to find a matching postcode,            it will alert you with an error
+3) Most postcodes cover an area of varying size so the            icon might not be 100% accurate:
+   
+UK postcodes tend to be the best and are often within            1/4 mile or less of the exact location
+   
+If the postal code is not accurate, you will see a note            to warn you of this
+   
+To move the icon, simply zoom in and drag it to the            most appropriate location
+   
+Once added, the icon can be treated exactly the same            as any other icon
+ 
+ Adding an icon using co-ordinates:
+Show / Hide
+If you know the exact latitude and longitude of the            point you want to plot then this is the ideal option:
+1) Enter the latitude and longitude into the relevent            boxes:
+2) Click the "Plot by Co-ordinates" button            and in a second the map will update with a new point
+ Adding an icon using a grid reference:
+Show / Hide
+If you have the grid reference of a point, then this            can plot an icon to that point:
+1) Enter the 8 character grid reference into the relevent            box
+2) Select the type of grid reference for the most accurate            pointing
+2) Click the "Plot by Grid Reference" button            and in a second the map will update with a new point
+   
+OS references are generally only used in the UK
+   
+WSG84 is the most common for the rest of the world
+ Icon Details (Speech Bubbles):
+Show / Hide
+1) Click on an icon to get the speech bubble.
+2) Each icon can store a few details including a name,            web site link and short description.
+   
+Name is like a label, eg: "My House", "Wedding            Venue", "Concert Venue".
+   
+URL lets you link the name above to an external web            site.
+   
+Desc is for a short description such as "Bride            due to arrive at 3pm" or the address of the church.
+     
+All these details are optional
+     
+Web address must be in the full format, eg: http://www.example.com/
+     
+Description can be longer, but more than 5 lines will            be extremely messy on the final page.
+       
+Please remember to include line breaks usually every            5 - 10 words.
+3) To save any details about the icon, click the "Save            the text" button.
+    To cancel changes, click the "X" on the top right of the bubble.
+ 
+ Removing an Icon:
+Show / Hide
+To remove an icon, simply click on it to display the            speech bubble and click the "Remove Icon" link.
+   
+Please note, this can not be undone and will remove            any details entered about the icon.
+   
+This won't affect any previously stored or in-use maps.
+ 
+ Repositioning an Icon:
+Show / Hide
+If the icon has been dragged, it can be reset back to          it's original position by clicking this link.

@@ -1,0 +1,25 @@
+While fast and stable, this is really memory inefficient for large grids
+(i.e. larger than 1E7 rows and columns), so that I am looking into dicts
+and sparse matrices.
+The dict that I tried out is of the type:
+{(1,2,3): "2323", (1,2,545): "2324234", ... }
+It is too slow for my application when it grows. One slicing operation
+with list comprehensions takes about 1/2 s on my computer for 1E6
+elements.
+Therefore, I looked into sparse matrices and found scipy.sparse and
+pysparse. I tried out both lil_matrix objects. (I wrote a wrapper that
+turns them into Python object arrays.)
+scipy.sparse.lil_matrix allowed __getitem__ slicing only for one of the
+dimensions and used much memory when increasing the number of
+columns above 1E7.
+pysparse.spmatrix.ll_mat was faster, uses less space and allows slicing
+for both dimensions. However, its methods are not documented well and
+I am not able to compile it in Debian testing due to some g77
+dependencies. Even though the deb package works well, I am concerned
+about having a dependency to a problematic package.
+Now my questions:
+Is there a better suited / maintained module for such sparse matrices
+(or multi-dim arrays)?
+Should I use another type of matrix in scipy.sparse? If yes which?
+Does a different data-structure suit my above-stated needs better?
+Best Regards

@@ -1,0 +1,28 @@
+Description
+The sparse function generates matrices in MATLAB's sparse storage organization.
+S = sparse(A) converts a full matrix to sparse form by squeezing out any zero elements. If S is already sparse, sparse(S) returns S.
+S = sparse(i,j,s,m,n,nzmax) uses vectors i, j, and s to generate an m-by-n sparse matrix with space allocated for nzmax nonzeros. Any elements of s that are zero are ignored, along with the corresponding values of i and j. Vectors i, j, and s are all the same length. Any elements of s that have duplicate values of i and j are added together.
+To simplify this six-argument call, you can pass scalars for the argument s and one of the arguments i or j--in which case they are expanded so that i, j, and s all have the same length.
+S = sparse(i,j,s,m,n) uses nzmax = length(s).
+S = sparse(i,j,s) uses m = max(i) and n = max(j). The maxima are computed before any zeros in s are removed, so one of the rows of [i j s] might be [m n 0].
+S = sparse(m,n) abbreviates sparse([],[],[],m,n,0). This generates the ultimate sparse matrix, an m-by-n all zero matrix.
+Remarks
+All of MATLAB's built-in arithmetic, logical, and indexing operations can be applied to sparse matrices, or to mixtures of sparse and full matrices. Operations on sparse matrices return sparse matrices and operations on full matrices return full matrices.
+In most cases, operations on mixtures of sparse and full matrices return full matrices. The exceptions include situations where the result of a mixed operation is structurally sparse, for example, A.*S is at least as sparse as S.
+Examples
+S = sparse(1:n,1:n,1) generates a sparse representation of the n-by-n identity matrix. The same S results from S = sparse(eye(n,n)), but this would also temporarily generate a full n-by-n matrix with most of its elements equal to zero.
+B = sparse(10000,10000,pi) is probably not very useful, but is legal and works; it sets up a 10000-by-10000 matrix with only one nonzero element. Don't try full(B); it requires 800 megabytes of storage.
+This dissects and then reassembles a sparse matrix:
+[i,j,s] = find(S); [m,n] = size(S); S = sparse(i,j,s,m,n);
+So does this, if the last row and column have nonzero entries:
+[i,j,s] = find(S); S = sparse(i,j,s);
+The sparfun directory, and: diag         Diagonal matrices and diagonals of a matrix
+find         Find indices and values of nonzero elements
+full         Convert sparse matrix to full matrix
+nnz          Number of nonzero matrix elements
+nonzeros     Nonzero matrix elements
+nzmax        Amount of storage allocated for nonzero matrix  elements
+spones       Replace nonzero sparse matrix elements with ones
+sprandn      Sparse normally distributed random matrix
+sprandsym    Sparse symmetric random matrix
+spy          Visualize sparsity pattern

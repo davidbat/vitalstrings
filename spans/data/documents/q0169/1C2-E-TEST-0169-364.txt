@@ -1,0 +1,4 @@
+The author assumes absolutely no responsibility for any harm caused by bugs in the code.
+How to multiply Sparse Matrix in 3-Tuple Notation
+Sample code: A sample Program to multiply Sparse Matrix in 3-Tuple Form. It does not free memory it will be freed after completeness of execution.
+#include<iostream>

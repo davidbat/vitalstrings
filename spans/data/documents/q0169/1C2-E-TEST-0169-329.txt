@@ -1,0 +1,45 @@
+5.1.10
+of SCOTCH breaks the « 32-bit barrier » in parallel
+Revision 5.1.10 is the first to be able to handle in parallel graphs of more than two billion vertices (limit of representation for 32-bit wide signed integers). PT-SCOTCH has been able to bipartition, in 76 seconds, a 3D graph of more than 2.4 billion vertices and 7.3 billion edges, distributed across 2048 processors of machine platine at CCRT .
+The sequential SCOTCH library is also fully capable of handling 64-bit values, since revision 5.1.8 for all of its routines.
+8 September 2008
+Version 5.1 of SCOTCH is available as free/libre software under the CeCILL-C license
+Version 5.1 is the first one to provide parallel graph partitioning features in PT-SCOTCH.
+8 August 2007
+Version 5.0 of SCOTCH is available as free/libre software under the CeCILL-C license
+Version 5.0 is the first one to include PT-SCOTCH, the parallel version of SCOTCH. Its new features comprise:
+a distributed graph structure, which allows users to handle dynamically very large graphs, by means of either compact or disjoint edge arrays. Disjoint edge arrays are useful for handling adaptive graphs, as they allow for the updating of graph structures without copying the whole vertex and edge arrays;
+a set of routines that enable users to distribute centralized SCOTCH graphs, or to centralize distributed graphs;
+parallel graph ordering routines for distributed graphs;
+new sequential graph partitioning methods, comprising a diffusion method yielding smoother interfaces;
+a compatibility library which provides stubs for the main routines of the MeTiS library, to allow MeTiS users to try Scotch without having to modify their source code.
+1st February 2006
+Version 4.0 of SCOTCH is available as LGPL'ed free/libre software
+Version 4.0 is the first free/libre release of SCOTCH. It is a major rewriting of version 3.4, which comprises many new features:
+an improved graph structure, which allows users to use either compact or disjoint edge arrays, at no additional cost;
+a native mesh structure, which allows to handle meshes that would not fit into memory on the form of nodal graphs;
+efficient memory usage, to process larger graphs and meshes without incurring out-of-memory faults;
+an improved strategy interpreter, for dynamically evaluating arithmetic expressions on graph properties.
+What SCOTCH is
+SCOTCH is a project carried out within the Satanas team of the Laboratoire Bordelais de Recherche en Informatique ( LaBRI ). It is part of the ScAlApplix project of INRIA Bordeaux - Sud-Ouest .
+Its purpose is to apply graph theory, with a divide and conquer approach, to scientific computing problems such as graph and mesh partitioning, static mapping, and sparse matrix ordering, in application domains ranging from structural mechanics to operating systems or bio-chemistry.
+The SCOTCH distribution is a set of programs and libraries which implement the static mapping and sparse matrix reordering algorithms developed within the SCOTCH project.
+SCOTCH has many interesting features:
+Its capabilities can be used through a set of stand-alone programs as well as through the libSCOTCH library, which offers both C and Fortran interfaces.
+It provides algorithms to partition graph structures, as well as mesh structures defined as node-element bipartite graphs and which can also represent hypergraphs.
+It can map any weighted source graph onto any weighted target graph. The source and target graphs may have any topology, and their vertices and edges may be weighted. Moreover, both source and target graphs may be disconnected. This feature allows for the mapping of programs onto disconnected subparts of a parallel architecture made up of heterogeneous processors and communication links.
+It computes amalgamated block orderings of sparse matrices, for efficient solving using BLAS routines.
+Its running time is linear in the number of edges of the source graph, and logarithmic in the number of vertices of the target graph for mapping computations.
+It can handle indifferently graph and mesh data structures created within C or Fortran programs, with array indices starting from 0 or 1.
+It offers extended support for adaptive graphs and meshes through the handling of disjoint edge arrays.
+It is dynamically parametrizable thanks to strategy strings that are interpreted at run-time.
+It uses system memory efficiently, to process large graphs and meshes without incurring out-of-memory faults;
+It is highly modular and documented. Since it has been released under the CeCILL-C free/libre software license , it can be used as a testbed for the easy and quick development and testing of new partitioning and ordering methods.
+It can be easily interfaced to other programs. The programs comprising the SCOTCH project have been designed to run in command-line mode without any interactive prompting, so that they can be called easily from other programs by means of system() or popen() calls, or piped together on a single command line. Moreover, vertex labeling capabilities allow for easy renumbering of vertices.
+It provides many tools to build, check, and display graphs, meshes and matrix patterns.
+It is written in C and uses the POSIX interface, which makes it highly portable. PT-SCOTCH uses the MPI interface, and optionally the POSIX threads.
+Version 5.0 of SCOTCH is distributed as free/libre software, under the terms of the
+CeCILL-C license. Please refer to the Resources section below to see how to download the newest revisions of the sources of SCOTCH and of its documentation.
+SCOTCH can also be distributed under other types of licenses and conditions to parties willing to embed it into closed, proprietary software. Please contact us if you are considering this option.
+Resources
+To ease the development, the diffusion, and the circulation of information regarding the SCOTCH project, most of its resources are now hosted on the InriaGforge platform provided by INRIA . This forge provides many services to people interested in the project.

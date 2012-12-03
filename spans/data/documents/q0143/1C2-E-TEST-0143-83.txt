@@ -1,0 +1,28 @@
+Home  >  Software  > ewok
+ewok
+NOTE: ewok is no longer under active development.  Although the code will remain available indefinitely, users are  advised to look at migrating to alternative solutions.
+Introduction
+ewok is a web content management system (CMS), written in Perl (Embperl), and released under the GNU GPL (see "Licence":#licence). It attempts  to significantly lower the bar for content creation by non-technical users,  while simultaneously offering web gurus the kind of extensibility and  flexibility they need to create serious content. Using Embperl, it allows  (properly permissioned) pages to execute arbitrary perl code, allowing  integration with just about anything. It is suitable for use in intranet  environments, internet website content creation, and ISP contexts.
+ewok is considered BETA code. See the "README":README.html for details.
+Features
+ewok features include:
+a browser-based file manager allowing directory navigation, file uploads, and in-browser editing of files
+component-based templating, allowing standard style, header, and footer  components to be applied to all pages in a site without any work by  content authors
+template inheritance, so that style, header, and footer components are  inherited by lower-level directories and can be individually overridden at any point in a tree
+arbitrary metadata attached to both files and and directories  (e.g. owner, title, status, version, next page, etc.), accessible  within components and pages (headers, footers, sidebars etc.)
+a staging/publishing model that allows flat HTML files to be  generated to a publishing area, allowing the power of dynamic component-based pages for document creation and editing, but the  performance benefits of static HTML for published use
+text markup features that allow text pages (this page, for instance) to be converted to HTML on the fly, allowing fairly sophisticated  content creation without any knowledge of HTML
+a user model that supports view, edit, and publish privileges, and allows authorisation to be delegated for whole document subtrees  without having to modify webserver configurations
+written in Perl (Embperl + Embperl::Object), allowing templates and (permitted) pages to embed and execute arbitrary perl code
+filesystem-based (no database required), allowing content to be change-controlled using standard source management tools (CVS et al)
+Requirements
+a Unix-based Apache (developed on Linux) with mod_perl support
+root access, or at least write access to the apache configuration  files
+apache authentication on ewok staging directories (any  basic-authentication-compatible apache module should work)
+the following perl modules installed:
+HTML::Embperl (1.3.6 recommended; 2.0 to be supported soon)
+URI::Escape
+Config::Directory
+HTML::Breadcrumbs
+Note that the current requirement for root access is not typically a huge limitation, since there's usually no real need to have ewok on your (ISP's) webserver machine. Install it on a private machine  instead and mirror the published content to your actual webserver.  All the benefits of dynamic authoring with the performance of static content!
+Download

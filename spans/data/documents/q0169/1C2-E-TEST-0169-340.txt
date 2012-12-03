@@ -1,0 +1,7 @@
+Re: Solving equations with Sparse Matrices
+Thu Nov 12, 2009 8:25 am
+Indeed, currently that's not possible, however instead of directly using Cholmod I'd like to suggest you 2 options:
+1 - Use Eigen's SparseMatrix with all its advantages and when you need special Cholmod features, you can use the CholmodSupport features to see a Eigen::SparseMatrix as a Cholmod matrix.
+2 - Extend the Cholmod backend for SparseLLT to allow fast updates, and then I'd please to add it upstream. I don't know how does the cholmod_sparse_updown work but I guess that's only a matter of a very few lines of code to extend SparseLLT for it. If you go for that option, have a look at the src/Sparse/CholmodSupport.h file. The is a specialization of the SparseLLT class for Cholmod. The implementation of the compute() method will give you an idea how the cholmod functions are called on Eigen's sparse matrices. Then you could add an update() function doing exactly what you want. And also feel free to improve this backend as you like. E.g., by default the reordering is disabled while it is probably better to make it uses AMD by default...
+Oh, in case you wonder how to use the SparseLLT class with Cholmod, have a look at the test/sparse_solvers.cpp file. There is one example per currently supported solver.
+Mes

@@ -1,0 +1,7 @@
+IP Address Privacy
+Posted by admin on February 22, 2009     in ip
+The Internet Protocol Address, or IP address, is an address everyone must have when they connect to the Internet.  It is like the post office, if they didn’t have an address they could not deliver any mail. 
+IP addresses are allocated to Internet Service providers around the world.  Users who connect to the Internet, web sites, or any computer connected to the Internet must have an address so they can receive messages. 
+Is you IP address private?  The answer can be complicated.  Normally an Internet Service Provider (ISP) like AOL or Comcast has a record of all customers and what IP address was assigned.  If the information is requested by the Police or the courts it is normally available.  It depends on where you live whether this information is private.  Court cases in New Jersey say it is private, in Toronto courts say it is not.  The identity of subscriber can normally be traced back to the subscriber much like a phone number can be traced.
+A user can go through a “proxy” to hide their IP address.  A proxy sits between the user and the Internet and makes all the request for the user.  This hides the user’s IP address much like a PO box hides a street address.  A proxy can also be used to circumvent web filters.
+See the Privacy.net Analyzer  to investigate your IP or Network-Tools.com to run tests on any IP address.

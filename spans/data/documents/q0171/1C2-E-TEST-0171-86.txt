@@ -1,0 +1,18 @@
+( Click Here )
+IP Address Locator
+This Geo Ip Location service (IP Address Map lookup service) is provided for FREE by Geobytes,       inc  to assist you in locating the geographical location of an IP       Address. Click here to  checkout our other       FREE localization services.
+Did you know that you can use this service programmatically?
+For example, in PHP you would access this service as shown in this sample:
+$tags = get_meta_tags('http://www.geobytes.com/IpLocator.htm?GetLocation&template=php3.txt&IpAddress=65.52.108.25');
+print $tags['city'];  // city name
+There is more info here , but  basically you get the first 20 lookups per hour for free and then only pay 1 Mapbyte  (@ 1 tenth of a cent) per look up after that. Click here to purchase 10,000 Mapbytes for $10 (Or click here to purchase via PayPal). Alternatively you can get some Mapbytes for free by linking to us - click here for details.
+Another option to consider is our GeoDirection service.
+Findout Who Owns' An Email Address!
+Email:
+Tried Local Search yet?
+Hint: Try searching this 'Paris' search engine for your name, your friend's name,  or on keywords like TV, Radio, News, Weather, Movies, Coupons, Fuel.
+It is like having having all of your local services bookmarked, but easier to access.
+IP Address to locate:
+ 
+Did you know that you can get some Mapbytes for free by linking to us - click here for details.
+Link to these results:

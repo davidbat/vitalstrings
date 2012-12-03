@@ -1,0 +1,12 @@
+-> This programm is to implement sparse matrix
+   addition , with out using pointers to store
+   the matrix
+-> This programm works for matrices which have
+   less than 100 elements (U can just change)
+-> This program works in microsoft vc++ 6.0 in
+   windows xp
+-> For simplicity it is assumed that there
+   are no duplicates (U should not enter two
+   elements with same row no. and column no. ie the
+   the program can not detect the error)
+****************************************************/

@@ -1,0 +1,35 @@
+Think of the colors you see in the sky. On a clear day, when the Sun is out, the sky may appear blue.
+Take the "Why is the sky blue?" quiz (multiple choice)
+Why is the sky blue?
+a. It isn't colored blue--it only looks blue.
+b. Because it isn't red.
+c. The sky is colorless--that blue light is from the Sun.
+d. all of the above.
+The correct answer is "d. All of the above".
+The light of the Sun is white (it glows "white hot", emitting lots of radiation over the whole range of wavelengths our eyes can respond to). But when you glance at the Sun it appears yellow. (Don't look too long at the Sun--the UV radiation will hurt your eyes. And never ever look at the Sun with a telescope or binoculars. That could damage your eyes instantly.)
+So we really have two questions:
+Why does the disc of the Sun appear yellow (rather than white, as it does from space)?
+Why does the sky only appear blue when the Sun is out (rather than black as the Moon's sky appears if you are on the Moon, or the Earth's sky when the Sun is down)?
+The answer to both questions is the same: The light from the Sun is broken up as it passes through the atmosphere. The blue you see is just part of the sunlight that took a roundabout route.
+What breaks the Sun's light into yellow and blue light and sends these colors on different paths?
+Most of the atmospheric gases are transparent to visible light. They don't filter the Sun's light and make it yellow, as a yellow filter would. Besides, if colored gases made the Sun appear yellow, where does the blue come from? The part of the atmosphere that changes the Sun's light is the molecules and tiny particles that are floating in it.
+There are particles of water--tiny droplets too small to be seen as clouds. There are particles of organic material--smog or haze, condensed from volatile organic chemicals that have gotten into the air. There are particles of sulfuric acid from volcanoes and power plants. There are molecules of gases in the atmosphere.
+These tiny particles, much smaller than the wavelengths of sunlight, scatter the sunlight as photons from the Sun interact with the particles. This is called Rayleigh scattering after the British physicist who described how it works. (Larger particles, like the water droplets in clouds, are closer to the wavelengths of sunlight, and they scatter it differently. This is why clouds are not blue.)
+You can see the effects of Rayleigh scattering by tiny particles floating in a liquid by trying the following demonstration. Particles in a gas (like the atmosphere) work the same way.
+Fill a tall jar or beaker with water. Shine a bright light through it. (An overhead projector works well. You want the bright light to take a long path through the water.) If you look at the light that goes straight through the water (and is projected on the screen if you use an overhead projector) it will appear about the same color that it would appear without the water in the way. If you look at the sides of the jar, at right angles to the beam of bright light, you won't see much of that light. The beam of light goes right through. (Water is transparent and colorless.)
+Now add a small amount of milk (about 1/8 teaspoon or less per quart of water). The water will become cloudy as the milk disperses. The tiny particles of fat and protein in homogenized milk will disperse in the water in what is called a colloidal suspension. They float in the water like aerosol particles float in the air.
+Now put the suspension in the light beam again. If you look at the light through the suspension (or look at the screen) the light will appear to have a reddish color, different from the color it had when viewed through clear water. If you look at the sides of the jar the cloudy contents may have a bluish tinge. The blue light from the light source is being scattered more than the red light. So some of the blue light emerges from the sides of the jar, leaving a reddish (blue taken away) color in the transmitted light that wasn't scattered.
+Here is a description of a similar demonstration. Here is another.
+This scattering by suspended particles much smaller than the wavelength of the radiation being scattered makes the sky blue, sunsets red, and the Sun yellow. But how?
+When you look at the sky during the day you only see the Sun in one spot, and it appears yellow. But light from the Sun that is not heading directly toward you is being scattered to the sides of the direct path to those other locations, with more blue light being scattered. Any place in the sky where the Sun isn't, as seen from your location, you can see some of this side-scattered blue light. In the sunlight coming directly from the Sun to your eye there has been side-scattering of some of the blue wavelengths, so the Sun is left looking yellow.
+If you look toward the Sun at sunset or sunrise, you are seeing the light that has not been scattered, the longer wavelengths. And since at sunset and sunrise the light takes a longer path through the atmosphere to your eye the Sun appears orange or red, not just yellow.
+Why is blue light scattered more and red light less?
+In 1859 John Tyndall discovered that when light passes through a clear fluid holding small particles in suspension, the shorter blue wavelengths are scattered more strongly than the red (as in the demonstration above). Later John William Strutt, 3rd Baron Rayleigh , developed equations which approximately describe the behavior of light scattered by small particles and molecules, objects with dimensions much smaller than the wavelength of the radiation in question. Rayleigh's equations predict scattering in terms of the object's size relative to the light's wavelength, and the object's refractive index.
+The probability that light will be scattered is proportional to 1/λ4. The wavelength of the light ( λ ) has a very pronounced effect when raised to the fourth power like this. The probability that blue light (wavelength 460 nm, 460 nanometers ) will be scattered is four times the probability that red light of wavelength 650 nm will be scattered. Stated alternatively, Iα=1/λ4 where Iα is the intensity of the scattered radiation.
+The shorter the wavelength of the incident light, the more the light is scattered.
+for larger particles one would use the equations of Mie theory , of which the Rayleigh equations are a special case. In Mie scattering the wavelength of the incident light has much less effect on the amount and direction of scattering.
+Further reading:
+http://math.ucr.edu/home/baez/physics/General/BlueSky/blue_sky.html
+http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html#c2
+demonstration cribbed from Earth Under Siege by Richard P. Turco, 1997 edition, Oxford U. Press, pages 500-501.
+David Wheat's Science In Action site has articles about science and math in the real world, weird science, science news, unexpected connections, and other cool science stuff. There is an index of the articles by topic here .

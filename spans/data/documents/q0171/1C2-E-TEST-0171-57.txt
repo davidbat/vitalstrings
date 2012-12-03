@@ -1,0 +1,11 @@
+Go to Start > All Programs > Accessories > Command Prompt.
+Alternatively, go to Start > Run, type cmd, and press OK.
+2
+In the Command Prompt window, type ipconfig and press Enter. This will bring up your IP address, DNS address, and other information about your internet connection.
+3
+Find your IP address among the information provided. It will be identified as “IP Address,” “IPv4 Address,” or something similar and is usually the second number provided.
+Edit Tips
+Note that an IP address is not the same thing as the physical, permanent address of your network adapter, which is called a MAC address. Read How to Find the MAC Address of Your Computer for further instructions.
+If you use Win95/98, go to Start > Run > winipcfg.
+Edit Warnings
+If you are behind a router, the IP shown will be your private IP. To get your external IP, search google for what is my ip.

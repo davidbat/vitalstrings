@@ -1,0 +1,4 @@
+March 14th, 2012
+Abstract:
+A new format for storing sparse matrices is suggested. It is designed to perform well mainly on GPU devices. Its implementation in CUDA is presented. Its performance is tested on 1600 different types of matrices. This format is compared in detail with a hybrid format, and strong and weak points of both formats are shown.
+(Oberhuber T., Suzuki A., Vacata J.: “New Row-grouped CSR format for storing the sparse matrices on GPU with implementation in CUDA”, Acta Technica 56: 447-466, 2011 [ PDF ])

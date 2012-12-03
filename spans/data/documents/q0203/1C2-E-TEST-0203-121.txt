@@ -1,0 +1,14 @@
+Java : Garbage Collection
+Garbage collection is the process of automatically finding memory blacks that are no longer being used ("garbage"), and making them available again. In contrast to manual deallocation that is used by many languages, eg C and C++, Java automates this error-prone process.
+Manual deallocation
+The area of memory where blocks are dynamically allocated is called the heap. In many programming languages (eg, C++) the programmer generally has to keep track of allocations and deallocations.   Manually managing the allocation and deallocation (freeing) of memory is not only difficult to code, it is also the source of a large number of extremely difficult to find bugs.  It is estimated that a very large percentage, I've seen estimates as high as 50%, of the bugs in  delivered, shrink-wrapped, software are related to memory allocation/deallocation errors. There are two common bugs.
+Dangling references.  When memory is deallocated, but not all pointers     to it are removed, the pointers are called dangling references --      they point to memory that is no longer valid and which will be reallocated     when there is a new memory request, but the pointers will be used as tho     they still pointed to the original memory.
+Memory leaks.  When there is no longer a way to reach an allocated memory block, but it was never deallocated, this memory will sit there.   If this error of not deleting the block occurs many times, eg, in a loop, the program may actually crash from running out of memory.
+Automatic garbage collection
+When there are no longer any references to a memory block (a Java object),  that memory can be reclaimed (collected).  Automatic garbage collection is the process of figuring out how to detect when an object in no longer referenced, and how to make that unused memory available for future allocations.
+There are a number of garbage collection techniques (eg, reference counts and mark and sweep); Different versions of Java use different algorithms, but recent  versions use generational garbage collection, which often proves to be quite efficient.
+The reference below describes some of these techniques and provides further references.
+What you can do to improve garbage collection performance
+Garbage consists of objects that can't be referenced by anyone -- there are no static, instance, or local variables that references them either directly or indirectly.
+Assign null to variables that you are no longer using.  This will, if there are no other references, allow this memory to be recycled (garbage collected).   Because local variables are deallocated when a method returns, they are less of a problem.  Variables with the longest lifetime are static variables, you should be careful to assign null to any that are no longer used, especially if they reference large data structures.
+References

@@ -1,0 +1,43 @@
+R: Virtual Class "sparseMatrix" - Mother of Sparse Matrices
+sparseMatrix-class {Matrix}
+Virtual Class "sparseMatrix" — Mother of Sparse Matrices
+Description
+Virtual Mother Class of All Sparse Matrices
+Slots
+Dim:
+Object of class "integer" - the dimensions of the matrix - must be an integer vector with exactly two non-negative values.
+Dimnames:
+a list of length two - inherited from class Matrix, see Matrix .
+Extends
+Methods
+show
+(object = "sparseMatrix"): The show method for sparse matrices prints “structural” zeroes as "." using printSpMatrix () which allows further customization.
+print
+signature(x = "sparseMatrix"), ....
+The print method for sparse matrices by default is the same as show() but can be called with extra optional arguments, see printSpMatrix ().
+format
+signature(x = "sparseMatrix"), ....
+The format method for sparse matrices, see formatSpMatrix () for details such as the extra optional arguments.
+summary
+(object = "sparseMatrix"): Returns an object of S3 class "sparseSummary" which is basically a data.frame with columns (i,j,x) (or just (i,j) for nsparseMatrix class objects) with the stored (typically non-zero) entries.  The print method resembles Matlab's way of printing sparse matrices, and also the MatrixMarket format, see writeMM .
+cbind2
+(x = *, y = *): several methods for binding matrices together, column-wise, see the basic cbind and rbind functions.
+Note that the result will typically be sparse, even when one argument is dense and larger than the sparse one.
+rbind2
+(x = *, y = *): binding matrices together row-wise, see cbind2 above.
+determinant
+(x = "sparseMatrix", logarithm=TRUE): determinant () methods for sparse matrices typically work via Cholesky or lu decompositions.
+diag
+(x = "sparseMatrix"): extracts the diagonal of a sparse matrix.
+dim<-
+signature(x = "sparseMatrix", value = "ANY"): allows to reshape a sparse matrix to a sparse matrix with the same entries but different dimensions. value must be of length two and fulfill prod(value) == prod(dim(x)).
+coerce
+signature(from = "factor", to = "sparseMatrix"): Coercion of a factor to "sparseMatrix" produces the matrix of indicator rows stored as an object of class "dgCMatrix".  To obtain columns representing the interaction of the factor and a numeric covariate, replace the "x" slot of the result by the numeric covariate then take the transpose. Missing values ( NA ) from the factor are translated to columns of all 0s.
+See also colSums , norm , ...  for methods with separate help pages.
+Note
+In method selection for multiplication operations (i.e. %*% and the two-argument form of crossprod ) the sparseMatrix class takes precedence in the sense that if one operand is a sparse matrix and the other is any type of dense matrix then the dense matrix is coerced to a dgeMatrix and the appropriate sparse matrix method is used.
+See Also
+sparseMatrix , and its references, such as xtabs (*, sparse=TRUE), or sparse.model.matrix (), for constructing sparse matrices.
+Examples
+showClass("sparseMatrix") ## and look at the help() of its subclasses M <- Matrix(0, 10000, 100) M[1,1] <- M[2,3] <- 3.14 M  ## show(.) method suppresses printing of the majority of rows  data(CAex); dim(CAex) # 72 x 72 matrix determinant(CAex) # works via sparse lu(.)  ## factor -> t( <sparse design matrix> ) : (fact <- gl(5, 3, 30, labels = LETTERS[1:5])) (Xt <- as(fact, "sparseMatrix"))  # indicator rows  ## missing values --> all-0 columns: f.mis <- fact i.mis <- c(3:5, 17) is.na(f.mis) <- i.mis Xt != (X. <- as(f.mis, "sparseMatrix")) # differ only in columns 3:5,17 stopifnot(all(X.[,i.mis] == 0), all(Xt[,-i.mis] == X.[,-i.mis]))
+[Package Matrix version 1.0-6 Index ]

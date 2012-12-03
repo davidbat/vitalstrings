@@ -1,0 +1,9 @@
+About Shruti_Mishra: I am a maths graduate from India and am currently persuing masters in Operations Research.
+Compound Interest
+Compound interest is the money  charged by the lender on the principal and the interests which is accumulated  till that time period. In the case of Compound interest there is a provision of  the interest on interest.
+The formula for the calculation of Compound Interest is
+Example:  We deposit money with the bank. The bank not  only pay us back our initial deposit but also provide us with some kind of cash  benefits (in the form of interest) for keeping the money with them. Suppose  that you deposit the sum of $100 with the bank for the period of 5 yrs and the  bank agrees to pay you the interest at the rate of 10%.
+At the end of the first year you  will get the interest of Rs 10 deposited in your account. In the second apart  from getting the fixed interest of Rs 10, you will also get the interest on the  accumulated interest till that time period i.e.  10% * $10 = 0.1 * $10 = $1
+So the final amount in the second year will be 100 + 10 + 11  = 121
+In case of Compound Interest the interest itself earns  interest. The working for above example:
+Year

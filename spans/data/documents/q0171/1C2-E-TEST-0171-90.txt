@@ -1,0 +1,2 @@
+Sent when the user changes a field in the control or moves from one field to another. This notification code is sent in the form of a WM_NOTIFY message.
+ 

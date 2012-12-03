@@ -1,0 +1,8 @@
+DOI Bookmark: http://doi.ieeecomputersociety.org/10.1109/PDP.2008.41
+In this paper we revisit the performance issues of the widely used sparse matrix-vector multiplication??kernel on modern microarchitectures. Previous scientific work reports a number of different factors that may significantly reduce performance. However, the interaction of these factors with the underlying architectural characteristics is not clearly understood, a fact that may lead to misguided and thus unsuccessful attempts for optimization. In order to gain an insight on the details of??performance, we conduct a suite of experiments on a rich set of matrices for three different commodity hardware platforms. Based on our experiments we extractuseful conclusions that can serve as guidelines for the subsequent optimization process of the kernel.
+Index Terms:
+sparse computations, matrix-vector, performance evaluation
+Citation:
+Georgios Goumas, Kornilios Kourtis, Nikos Anastopoulos, Vasileios Karakasis, Nectarios Koziris,  "Understanding the Performance of Sparse Matrix-Vector Multiplication,"  pdp, pp.283-292, 16th Euromicro Conference on Parallel, Distributed and Network-Based Processing (PDP 2008), 2008
+Usage of this product signifies your acceptance of the Terms of Use .
+Open

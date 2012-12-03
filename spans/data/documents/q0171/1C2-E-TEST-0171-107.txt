@@ -1,0 +1,53 @@
+TCP/IP basics: IP address, Netmask, Network
+The IP address
+An IP address in the most common format (named "IPv4") is a four bytes expression dot-divided.
+In an IP address the 4 bytes are represented by their value, there are 4 numbers from 0 to 255 in a format like: «192.168.183.15»
+An IP address must be unique in a network, and the Internet is a network.
+The IP address can be read from left to right, defining the address like in Country, Town, Street, Street Number.
+The Netmask
+Bundled with an IP address there is always a "Netmask" value. The Netmask, together with the IP address, defines the network the computer belongs to, that is which other IP addresses the computer can touch directly in the same LAN.
+In order to understand the Netmask we will always remember that the 4 bytes defining both the IP address and the Netmask could be represented in binary format.
+The netmask is -by definition- a sequence of "1" from the left to the right, followed by some number of "0" (the network range). Because of this rule the netmask is often represented with decimal values, that sound like one or more "255" followed by one or more "0".
+By representing in binary format the current IP address we can actually "mask" the bits corresponding to a "1" in the netmask, and understand that all other bits unmasked (corresponding to "0") are valid addresses in the same physical network.
+Network
+Given the IP address and the netmask, a range of addresses that are considered "local" is then given, and this range is named "network".
+All the IP addresses in the same network have the same trailing bits in the address value (that ones masked by "1" in the netmask), and different leading bits that will be unique across the network (that ones masked by "0").
+Because of its definition a netmask is a sequence of 1 followed by a sequence of 0, then sometimes instead of writing "255.255.255.0" (in order to indicate a netmask of 24 "1" followed by 8 "0") it is exactly the same thing if we simply report the number of "1". In this case an address like "192.168.183.15/255.255.255.0" becomes "192.168.183.15/24".
+Following the given example (192.168.183.15/24) we have a network where "192.168.183" is fixed, while the last byte can vary between 0 and 255.
+The very first available address in the range (with 0-valued bits where the netmask is 0) is named "network address", while the very last address in the range (with 1-valued bits where the netmask is 1) is named "broadcast address".
+In our example we have:
+• address: 192.168.183.15/24
+• network: 192.168.183.0/24
+• broadcast: 192.168.183.255
+By using the IP calculator (linked in the right column of this page) it is easy enough to locate network and broadcast addresses for the given network, depending on IP address and netmask.
+Network address and Broadcast address can not be used in the network for computers and/or other networ devices: they are reserved.
+In the following picture the example examined above:
+Network classes
+The numeric values for IP and netmask define perfectly the network, by the way it is easier for humans to have a more comfortable way to indicate "a network class where only the first byte is fixed" rather than "/8" or "/255.0.0.0": a class like this is named "class A".
+✔ class A
+netmask is 255.0.0.0 ⇒ /8 ⇒ 16,777,216 (16M) available IP values
+✔ class B
+netmask is 255.255.0.0 ⇒ /16 ⇒ 65,536 (64K) available IP values
+✔ class C
+netmask is 255.255.255.0 ⇒ /24 ⇒ 256 available IP values
+Obviously in the total number of available values are also included network and broadcast addresses, and this reduces by 2 the total number of IP addresses actually available in the class.
+Reserved IP classes
+The Internet is a unique network, then some agreement is needed in order to spread the same logic across the world. One of them is about reserved IP classes.
+There are several IP classess that are reserved for various purposes, including private use (to be used within a LAN) and more.
+A list of reserved IP classes follows:
+✗ 127.0.0.0/8 ⇒ Loopback class
+the entire class A beginning with 127. is reserved for loopback, then every machine will solve in itself every address starting with 127.
+✗ 10.0.0.0/8 ⇒ Private
+the entire class A beginning with 10. is private, to be used in LANs
+✗ 172.16.0.0/12 ⇒ Private
+16 contiguos Class B, from 172.16.0.0/16 through 172.31.0.0/16, are also private.
+✗ 192.168.0.0/16 ⇒ Private
+256 contiguos Class C, from 192.168.0.0/24 through 192.168.255.0/24, are also private.
+The network class we used in the above examples (192.168.183.0/24) is then a private class, to be used only in a LAN.
+When choosing an IP class for our LAN (our own private network) we should consider that the network must have an IP class different from any other network it will be connected to.
+A tipycal error is to use the 10.0.0.0/8 network, unfortunately there is only one class A private network available, then probably someone we will be connected to is already using it, and furthermore we probably do not need 16 millions of IP addresses.
+A good choice for an home LAN is ine of the 256 available 192.168.0.0/16 C classes, i.e.: 192.168.47.0/24
+Avoid the 192.168.0.0/24 class, because it is the first choice in the most part of home LANs, and for the same reason avoid both the 192.168.47 and the 192.168.183 examples we used here.
+© and credits
+Original material produced for faqintosh.com by Marco Balestra
+Network related resources

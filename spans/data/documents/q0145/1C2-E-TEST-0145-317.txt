@@ -1,0 +1,16 @@
+Rule of 72
+ 
+The rule of 72 is used to figure out when your money will double. If you divide 72 by the interest rate you are earning (or paying) the answer will give you the number of years until your money doubles. This rule only works on interest that is compounded once a year.
+ 
+If we divided 72 by the interest rate that Jack is receiving we should be able to find out when his money will double.
+72/8 = 9
+Let's use our spread sheet to see if this works.
+  
+Notice that Jack's principle did double after 9 years, but look at Sarah's ending amount after 9 years. She is almost $300.00 behind Jack. So, after our investigation, would you rather earn compounded interest or simple interest? Would you rather pay compounded interest or simple interest?
+ 
+We can also use excel spreadsheets to graph our information. Look at the different types of graphs that excel can generate.
+Here is a simple xy graph. Notice that excel has plotted the balances after each year. We can easily see that Jack started with $1000.00 and ended year 9 with $2000.00.
+ 
+ 
+Here is another type of graph construced by excel. This is a bar graph. From this graph we can also see Jack's beginning balance as well as his ending balance.
+ 

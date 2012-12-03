@@ -1,0 +1,35 @@
+Hello:
+Can you explain the compound interest formula?
+Let's say that an investor has $1000.00 to invest for 1 year at rate of 5% compound interest.
+How was this formula M = P( 1 + i )^n created?
+This formula P( 1 + i )^n is a factored version from something like (1000 + 1000 X 5%) or maybe (1000 + 5%). I do not know which one or maybe even a different calculation.
+I thank you for your reply.
+Answer
+For this derivation, let P be the principal, r be the interest.
+(If interest is R%, r=R/100)
+Write A(n) for the amount accumulated after n instalments.
+Assuming interest is compounded annually, after n=1 year,
+A(1)=P+P*r, where P*r is the interest earned.
+We can factorize this as A(1)=P(1+r).
+By the end of the second year,
+A(2)=A(1)+A(1)*r
+   =P(1+r)+P(1+r)*r
+   =P(1+2r+r^2)
+By the end of the third year,
+A(3)=A(2)+A(2)*r
+   =P(1+r)^2+P(1+r)^2*r
+   =P(1+2r+r^2)+P(1+2r+r^2)*r
+   =P(1+3r+3r^2+r^3)
+   =P(1+r)^3
+FORMAL PROOF: (This is not easy to understand)
+Assuming that A(k)=P(1+r)^k, ......[#1]
+A(k+1)=A(k)+A(k)*r
+    =P(1+r)^k + P(1+r)^k*r
+    =P[1+C(k,1)*r+C(k,2)*r^2+...+r^k]
+     + P[1+C(k,1)*r+C(k,2)*r^2+...+r^k]*r
+    =P[1+C(k,1)*r+C(k,2)*r^2+...+r^k]
+     + P[r+C(k,1)*r^2+C(k,2)*r^3+...+r^(k+1)]
+     P[1+{C(k,0)+C(k,1)}*r+{C(k,1)+C(k,2)}*r^2+{C(k,2)+C(k,3)}*r^3+...+r^(k+1)] ...Note 1
+    =P(1+r)^(k+1) for all integer k>=0
+Hence, by the process of mathematical induction, the formula is proven for all non-negative integer k.
+Note 1: Here, we applied the formula for binomial expansion, where C(n,k)=n!/[(n-k)!*k!] represents the kth coefficient in row n of the Pascal triangle. Don't worry too much if you don't follow this.

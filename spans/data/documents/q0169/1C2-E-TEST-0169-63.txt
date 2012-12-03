@@ -1,0 +1,38 @@
+Project 4, UMBC CMSC 202, Spring 1998
+UMBC CMSC202, Computer Science II, Spring 1998,   Sections 0101, 0102, 0103, 0104 and Honors
+Project 4: Another Sparse Matrix ADT
+Due: Wednesday, April 22, 1998
+Objective
+The objective of the project is to learn how to work with linked lists and  to gain some insight into the issues associated with code reuse.
+Assignment
+The basic assignment for this project is to re-implement the Sparse Matrix  ADT, this time using linked lists. The data structure and the function  prototypes of the matrix operations that you must implement are stored in  the header file:
+~chang/pub/cs202/proj4/sparse2.h
+As before, you should copy this file, but you should not modify it in any  way.  The new data structure for sparse matrices is described by the  following type definitions:
+typedef struct entry {        int      column_index ;  /* column index of the entry */        double   value ;         /* value of the entry */        struct entry *next ;     /* next node in the linked list */     } entry ;               /* Type for a row of a sparse matrix */          typedef struct {        entry    header ; /* header for a singly linked list */        int      count ;  /* number of non-zero entries in the row  */        entry    *last ;  /* pointer to last item of the linked list  */     } list_record ;          typedef list_record *list ;               /* Type for a sparse matrix */          typedef struct {        int    rows ;      /* number of rows in the matrix */        int    columns ;   /* number of columns */        list   *lists ;    /* array of lists */     } matrix ;          typedef matrix *matrix_ptr ;
+The main difference between this data structure and the one used in Project  3 is that the non-zero entries in each row are stored in a singly-linked  list instead of a dynamically allocated array. Note that the type  definition of the linked list is very similar to the one used in lecture.  This is deliberate. You may (in fact, you should) take the source code for  linked lists from the lecture notes and modify it for this project. You can  then combine this with the modifications you make to your code from Project  3. As you do this, think about the decisions you made in coding Project 3  and also the decisions that were made for the original linked list  implementation. Which decisions helped you reuse the code successfully?  Which decisions hampered code reuse? Since much of a programmer's job turns  out to be modifying previously written code (instead of writing brand new  code), you should learn that the decisions you make in programming can  greatly help or greatly hamper future modifications to your code.
+The functions you must implement for this Sparse Matrix ADT are identical  to the ones from Project 3. Please refer to Project 3 for a description of  each function.
+Implementation Issues
+As in Project 3, efficiency in terms of storage space and running time are  important considerations. Inefficient implementations will have points  deducted. The following are some efficiency issues applicable to Project 4.  Some of these are the same as the issues from Project 3, but are worth  repeating.
+In LoadMatrix, you should read through the file only once.
+When you build a matrix, it is faster to insert all the elements in   a row and sort the entire row after all the entries have been added.
+The amount of storage you use for a sparse matrix should be roughly   proportional to the number of non-zero entries in the matrix.
+You should implement matrix multiplication using the strategy   described below to avoid having to repeatedly use linear search on a   linked list.
+The directory ~chang/pub/cs202/proj3/ contains test files from  Project 3 which you can use for this project. You should also use the  program for generating random sparse matrices.
+Efficient Matrix Multiplication
+Suppose you want to multiply a p x q matrix A and a q x r matrix B to  obtain a p x r matrix C. Let the notation xij stand for the  entry in matrix X in row i and column j . One approach to matrix  multiplication is to compute each entry cij of C individually.  The formula for this is:
+cij = ai1 b1j + ai2 b2j + ai3 b3j + . . .     + aiq bqj
+In our linked list implementation, it could take as long as  O(n2) time to calculate each entry of C, where n is the maximum  of p, q and r. Thus, the simple matrix multiplication algorithm takes  O(n4) time. This running time can be reduced to O(n3)  if we consider the time savings that can be achieved by calculating an  entire row of matrix C at a time (instead of one entry at a time). Suppose  that we want to calculate the second row of matrix C. We will store this  row in a temporary array. Since we only need one such array for the entire  multiplication algorithm, this does not violate the requirement for  efficient use of memory. We ask the question: which entries in A affect the  values in the second row of C? Answer: only the second row of A. Now,  suppose that a23 is the first non-zero entry in the second row  of A. So, a23 might make a contribution to certain entries in  the second row of C. Which ones? Well, for each non-zero entry  b3k in the third row of B, a23b3k makes a  non-zero contribution to the entry c2k . Thus, we can compute  all the contributions made by the entry a23 by running down the  third row of B (which can be done efficiently in a linked list). If we  repeat this for every entry in the second row of A, we will have computed  the second row of C. We can visualize this algorithm by looking at the  following formulas for each entry in the second row of C.
+c21 = a21 b11 + a22 b21 +  a23 b31 + . . . + a2q bq1
+c22 = a21 b12 + a22 b22 +  a23 b32 + . . . + a2q bq2
+c23 = a21 b13 + a22 b23 +  a23 b33 + . . . + a2q bq3
+...
+Instead of computing the entries of C by iterating across each row, we do  the same calculations, iterating down each column. Finally, since it takes  O(n2) time to calculate each row of C, the total time for matrix  multiplication is O(n3).
+Turning in your program
+As in Project 3, you should follow these explicit directions for submitting  your program. You are also reminded to submit at least one version of your  project well before the midnight deadline. You can submit updates of your  submission as the deadline approaches. You must submit the following 4  files with the following contents. The names of these files must be exact.
+A file called sparse2.c which contains the implementations of all   of the sparse matrix operations. It is important that this file does   not contain a function called main.
+A file called main.c which contains a main function that tests the   sparse matrix operations and reports the results of the tests. This   file should contain only the main function and no other functions. In   particular, the functions implemented in sparse2.c should not depend on   anything in main.c.
+A file called typescript which contains sample runs of your   project.
+A file called README which describes which functions you have   implemented and any note that you would like to pass along to the   grader.
+You should not submit the sparse2.h header file. Since you are not allowed  to change this file, your project should compile just fine if the graders  use my copy. You may submit other header files or other .c files. Of  course, none of these should have names that conflict with the above. As  before, submissions that do not follow these instructions will have a 10%  deduction.
+Last Modified:  24 Apr 1998 13:41:57 EDT by Richard Chang
+Back up to Spring 1998 CMSC 202 Section Homepage

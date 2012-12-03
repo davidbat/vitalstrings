@@ -1,0 +1,16 @@
+Partial factorization and Schur complement matrix (centralized or 2D block-cyclic);
+Interfaces to MUMPS: Fortran, C, Matlab and Scilab;
+Several orderings interfaced: AMD, AMF, PORD, METIS, PARMETIS, SCOTCH, PT-SCOTCH.
+Recent features
+Detection of null pivots, null space basis estimate;
+Symmetric indefinite matrices:   preprocesssing and 2-by-2 pivots
+Hybrid scheduling;
+Computation of the determinant (with an option to discard factors);
+Sparse multiple right-hand side, distributed solution;
+A fully asynchronous distributed solver (VAMPIR trace)
+Implementation
+Distributed Multifrontal Solver (F90, MPI based);
+Dynamic Distributed Scheduling to accomodate both numerical fill-in and    multi-user environment;
+Use of BLAS, BLACS, ScaLAPACK.
+Partially funded by CEC ESPRIT IV long  term research project   -- No. 20160 (PARASOL)
+Last update: 2011-06-07

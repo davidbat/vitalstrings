@@ -1,0 +1,12 @@
+This is LIFO (Last-in-first-out) structure.
+The insertion of element into stack is called push
+The deletion of element from stack is called pop.
+OVERFLOW:
+This situation will come when the stack is implemented using an array.
+If an element is pushed into the stack when the size of the stack greater than or equal to maximum size of the array, then we say that the stack is overflowing.
+Underflow:
+If deletion operation is performed on the stack with no elements then the stack is said to be underflowing .This occurs in both types of implementations of stack.
+Algorithm for push operation:
+1)If(top>=maximum size of the stack)
+  i)Then print “Stack is overflowing”
+2)Else

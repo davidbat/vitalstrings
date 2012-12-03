@@ -1,0 +1,42 @@
+SecurePlus Savers Select
+Compound Interest
+Compound interest is the concept of adding accumulated interest back to the principal, so that interest is earned on interest from that moment on. The act of declaring interest to be principal is called compounding (i.e. interest is compounded). A loan, for example, may have its interest compounded every month: in this case, a loan with $1000 principal and 1% interest per month would have a balance of $1010 at the end of the first month.
+Interest rates must be comparable in order to be useful, and in order to be comparable, the interest rate and the compounding frequency must be disclosed. Since most people think of rates as a yearly percentage, many governments require financial institutions to disclose a (notionally) comparable yearly interest rate on deposits or advances. Compound interest rates may be referred to as Annual Percentage Rate, Effective interest rate, Effective Annual Rate, and by other terms. When a fee is charged up front to obtain a loan, APR usually counts that cost as well as the compound interest in converting to the equivalent rate.
+These government requirements assist consumers to more easily compare the actual cost of borrowing.  Compound interest rates may be converted to allow for comparison: for any given interest rate and compounding frequency, an "equivalent" rate for a different compounding frequency exists. 
+Compound interest may be contrasted with simple interest, where interest is not added to the principal (there is no compounding). Compound interest predominates in finance and economics, and simple interest is used infrequently (although certain financial products may contain elements of simple interest).
+The effect of compounding depends on the frequency with which interest is compounded and the periodic interest rate which is applied. Therefore, in order to define accurately the amount to be paid under a legal contract with interest, the frequency of compounding (yearly, half-yearly, quarterly, monthly, daily, etc.) and the interest rate must be specified. Different conventions may be used from country to country, but in finance and economics the following usages are common:
+Periodic rate: the interest that is charged (and subsequently compounded) for each period. The periodic rate is used primarily for calculations, and is rarely used for comparison. The periodic rate is defined as the annual nominal rate divided by the number of compounding periods per year.
+Nominal interest rate or nominal annual rate: the annual rate, unadjusted for compounding. For example, 12% annual nominal interest compounded monthly has a periodic (monthly) rate of 1%.  Effective annual rate: the nominal annual rate "adjusted" to allow comparisons; the nominal rate is restated to reflect the effective rate as if annual compounding were applied.
+Economists generally prefer to use effective annual rates to allow for comparability. In finance and commerce, the nominal annual rate may be the most frequently used. When quoted with the compounding frequency, a loan with a given nominal annual rate is fully specified (the effect of interest for a given loan scenario can be precisely determined), but cannot be compared to loans with different compounding frequency.
+Loans and finance may have other "non-interest" charges, and the terms above do not attempt to capture these differences. Other terms such as annual percentage rate and annual percentage yield may have specific legal definitions and may or may not be comparable, depending on the jurisdiction.  The use of the terms above (and other similar terms) may be inconsistent, and vary according to local custom, marketing demands, simplicity or for other reasons.
+Exceptions
+    * US and Canadian T-Bills (short term Government debt) have a different convention. Their interest is calculated as (100-P)/P where 'P' is the price paid. Instead of normalizing it to a year, the interest is prorated by the number of days 't': (365/t)*100. (See day count convention).
+    * Corporate Bonds are most frequently payable twice yearly. The amount of interest paid (each six months) is the disclosed interest rate divided by two (multiplied by the principal). The yearly compounded rate is higher than the disclosed rate.
+    * Canadian mortgage loans are generally semi-annual compounding with monthly (or more frequent) payments.[1]
+    * U.S. mortgages generally use monthly compounding (with corresponding payment periods).
+    * Certain techniques for, e.g., valuation of derivatives may use continuous compounding, which is the limit as the compounding period approaches zero. Continuous compounding in pricing these instruments is a natural consequence of Ito Calculus, where derivatives are valued at ever increasing frequency, until the limit is approached and the derivative is valued in continuous time.
+Mathematics of interest rates simple formula are presented in greater detail at time value of money. In the formulae below, i or r are the interest rate, expressed as a true percentage (i.e. 10% = 10/100 = 0.10). FV and PV represent the future and present value of a sum. n represents the number of periods.
+These are the most basic formulae: The above calculates the future value of FV of an investment's present value of PV accruing at a fixed interest rate of i for n periods.
+The above calculates what present value of PV would be needed to produce a certain future value of FV if interest of i accrues for n periods.
+The above two formula are the same and calculate the compound interest rate achieved if an initial investment of PV returns a value of FV after n accrual periods.
+The above formula calculates the number of periods required to get FV given the PV and the interest rate i. The log function can be in any base, for e.g. natural log (ln)
+Translating different compounding periods
+Each time unpaid interest is compounded and added to the principal, the resulting principal is grossed up to equal P(1+i%).
+A) You are told the interest rate is 8% per year, compounded quarterly. What is the equivalent effective annual rate?
+The 8% is a nominal rate. It implies an effective quarterly interest rate of 8%/4 = 2%. Start with $100. At the end of one year it will have accumulated to:
+    
+    $100 (1+ .02) (1+ .02) (1+ .02) (1+ .02) = $108.24
+We know that $100 invested at 8.24% will give you $108.24 at year end. So the equivalent rate is 8.24%. Using a financial calculator or a table is simpler still. Using the Future Value of a currency function, input
+    * PV = 100
+    * i = .02
+    * solve for FV = 108.24
+B) You know the equivalent annual interest rate is 4%, but it will be compounded quarterly. You need to find the interest rate that will be applied each quarter.
+    $100 (1+ .009853) (1+ .009853) (1+ .009853) (1+ .009853) = $104
+The mathematics to find the 0.9853% is discussed at Time value of money, but using a financial calculator or table is easier. Input
+    * PV = 100
+    * FV = 104
+    * solve for interest = 0.9853%
+C) You sold your house for a 60% profit. What was the annual return? You owned the house for 4 years, paid $100,000 originally, and sold it for $160,000.
+$100,000 (1+ .1247) (1+ .1247) (1+ .1247) (1+ .1247) = $160,000
+Find the 12.47% annual rate the same way as B.) above, using a financial calculator or table. Input
+    * PV = 100,000

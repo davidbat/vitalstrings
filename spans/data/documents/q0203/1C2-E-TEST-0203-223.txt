@@ -1,0 +1,13 @@
+LO53662: WHEN FILE UPLOADING PROCESS FAILS, SOME GARBAGE FILES REMAIN FOR A LONG TIME.
+Subscribe
+You can track all active APARs for this component.
+ 
+Closed as Permanent restriction.
+Error description
+When file uploading process fails, some garbage files remain for a long time.  Steps to reproduce. --------------------------- 1. Create a discussion database in your server. 2. Open the database from Web browser. 3. Create a document. 4. Enter some characters in subject field and body field. 5. Attach a very large file (for example: very large NTF or NSF file) 6. Save the document. 7. While processing file uploading, run "tell http refresh" command in Server console some times. <- This is only executed to cause the error intentionally. 8. The following file remains in /tmp/notesxxxxxx/xspupload directory for a long time.    _xspxxxtmp (xxx is numerical value of three digits) ---------------------------  As other methods. If the size of temporary directory in your environment is smaller than the attachment file, the file uploading fails and the garbage file remains for a long time.
+Local fix
+Problem summary
+A programming error was found but will not be corrected. It  will be a permanent restriction.
+Problem conclusion
+A programming error was found but will not be corrected. It  will be a permanent restriction.
+Temporary fix

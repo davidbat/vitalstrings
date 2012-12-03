@@ -1,0 +1,48 @@
+reset may have to be done
+Posted by: belzoid  (IP Logged)
+Date: July 26, 2006 01:12PM
+I may have to reset the router, using a bookmark for the netgear router URL from another machine on the network and via a different browser i still could not access the router.
+Re: reset may have to be done
+Posted by: notcarsondaly  (IP Logged)
+Date: July 26, 2006 01:21PM
+RTFM :)
+Re: how do i access netgear router? What is the IP address?
+Posted by: glenstorm  (IP Logged)
+Date: July 26, 2006 05:40PM
+FWIW:  My Router has it's default address printed on the bottom of it, along with default login and password.
+Re: how do i access netgear router? What is the IP address?
+Posted by: creativeguy  (IP Logged)
+Date: July 26, 2006 06:24PM
+You can download the manual for most routers on the manufacturer's web site. That manual will tell you the default IP and default username/password. I've used this method a few times to poke around my neighbor's unprotected, default IP, default password routers. It's fun to see where they've been surfing.
+Re: how do i access netgear router? What is the IP address?
+Posted by: Hechtman  (IP Logged)
+Date: July 27, 2006 11:09AM
+The Netgear model is RP614v2.
+I have a RP614.  Its IP address is 192.168.2.1
+Re: how do i access netgear router? What is the IP address?
+Posted by: zo219  (IP Logged)
+Date: July 27, 2006 11:38PM
+The default page—meaning, the page where you configure your router, and, it is to be hoped, put some constraints on incoming traffic—is, for most routers, 192.168.1.1.
+Most of the time, when an address cannot be reached, a simple process can't be completed—when you know it's *supposed* to work—the solution lies in such simple fixes as, Trash all related preferences and Restart. Repair permissions, (download MainMenu, free) and perhaps run a Deep Clean of your all your caches (see MM) as well . . . and Restart.
+Whoa, another choice:  download Applejack (also free, though a donation would be nice) and when you do Restart, hold down the Command (Apple) Key and the S key (also known as a Safe Boot) ... and when the command line comes up, type in applejack (no caps) and let it run through all of these steps for you. Takes longer than MM, but it's automatic and will even restart again when it's done.
+It just seems too bad to go through the more technical steps when you haven't cleaned your machine.
+Just One More Thing: I've had complicated network problems vanish by using a new account. Always create two, Admin-level. And have the second waiting in your menubar, via Fast User Switching (which is in Accounts/System Preferences, as are way too many other things). Face it, some things can go wrong, in a Unix-based system, which builds itself anew each time, that no one is ever going to find.
+Or do an Archive and (Re)Install, which is rather the opposite: first your User Account is isolated, and then a whole new system is installed. Of course, then you gotta run Software Update and not all at once and you better be on broadband and repair permissions between applied downloads and ... crikies, see  humorlessbitch.com for the rest of this post ...
+Re: how do i access netgear router? What is the IP address?
+Posted by: ccwilli3  (IP Logged)
+Date: July 28, 2006 11:31AM
+Open 'network' in system preferences...  When you view your 'built-in Ethernet' settings, the router IP will be the AP's IP and where you'll need to go to configure it.  This is sometimes listed as the 'gateway' on some systems.
+I changed my router IP to a more discrete number so if you've ever changed the settings around, it may not be the standard 192.168.1.1...
+how do i access netgear router? What is the IP address?
+Posted by: ronmicha  (IP Logged)
+Date: July 29, 2006 04:14AM
+Is this what you mean?
+Check this URL and see if it answers your questions.
+The default login is: admin
+The deafult PW is: password
+Re: how do i access netgear router? What is the IP address?
+Posted by: zo219  (IP Logged)
+Date: July 30, 2006 12:22AM
+correction:
+Netgear and Linksys routers are found at 192.168.1.1.; DLink at 192.168.0.1; Beklin at 192.168.2.1; GTFW for the rest.
+And there are pages such as [ www.phenoelit.de ]" listing the default password to every router on earth ... Which you will change to something clever the minute you log in.

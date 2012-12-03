@@ -1,0 +1,13 @@
+Sorry, looks like I sent this unfinished 1st message unwittingly...
+I am currently in my final year at University, and my personal project
+involves sparse computing on multicore processors. We may skip the
+"multicore" part because I first need to get a good grasp on the basic
+of sparse matrices...
+I am trying to write a class that will generate a sparse matrix
+(having nature of a continuous-time Markov chain). Is there any
+example of such class available on the internet?
+I still haven't found anything relevant. Could you please help me out?
+There is quite a bit, including code, on the subject in _Applying C++_ by
+Scott Robert Ladd.  I would expect a decent University library to have that
+book or at least access to it.
+Dec 4 '07                                                                 # 4

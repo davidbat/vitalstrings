@@ -1,0 +1,52 @@
+Here is the debug message I have at the top of the Theme Settings page:  
+Invalid get_string() identifier: 'configtitle' or component 'theme_universite'
+line 5863 of /lib/moodlelib.php: call to debugging()
+line 6418 of /lib/moodlelib.php: call to core_string_manager->get_string()
+line 6 of /theme/universite/settings.php: call to get_string()
+line 29 of /admin/settings/appearance.php: call to include()
+line 5615 of /lib/adminlib.php: call to require()
+line 18 of /admin/settings.php: call to admin_get_root()
+Invalid get_string() identifier: 'configtitle' or component 'theme_universite'
+line 5863 of /lib/moodlelib.php: call to debugging()
+line 6418 of /lib/moodlelib.php: call to core_string_manager->get_string()
+line 6 of /theme/universite/settings.php: call to get_string()
+line 29 of /admin/settings/appearance.php: call to include()
+line 5615 of /lib/adminlib.php: call to require()
+line 5716 of /lib/adminlib.php: call to admin_get_root()
+line 38 of /admin/settings.php: call to admin_write_settings()
+Invalid get_string() identifier: 'configtitle' or component 'theme_universite'
+line 5863 of /lib/moodlelib.php: call to debugging()
+line 6418 of /lib/moodlelib.php: call to core_string_manager->get_string()
+line 6 of /theme/universite/settings.php: call to get_string()
+line 29 of /admin/settings/appearance.php: call to include()
+line 5615 of /lib/adminlib.php: call to require()
+line 52 of /admin/settings.php: call to admin_get_root()
+And I get this when I go to the Universite Theme page (The page itself looks all right):
+Invalid get_string() identifier: 'configtitle' or component 'theme_universite'
+line 5863 of /lib/moodlelib.php: call to debugging()
+line 6418 of /lib/moodlelib.php: call to core_string_manager->get_string()
+line 6 of /theme/universite/settings.php: call to get_string()
+line 29 of /admin/settings/appearance.php: call to include()
+line 5615 of /lib/adminlib.php: call to require()
+line 18 of /admin/settings.php: call to admin_get_root()
+When I clicked on where the standard theme should be (but of course what I see is [ [ CONFIGTITLE ] ] ) I got the same message about "Universite" Theme: 
+Invalid get_string() identifier: 'configtitle' or component 'theme_universite'
+line 5863 of /lib/moodlelib.php: call to debugging()
+line 6418 of /lib/moodlelib.php: call to core_string_manager->get_string()
+line 6 of /theme/universite/settings.php: call to get_string()
+line 29 of /admin/settings/appearance.php: call to include()
+line 5615 of /lib/adminlib.php: call to require()
+line 18 of /admin/settings.php: call to admin_get_root()
+The website in general runs all right on the Dark Blue Theme, so I still don't understand:
+Why certain themes (to be exact: aardvark_lite, anomaly, arctic, base, binarius, boxxie, cavnas, creatif, formfactor, leatherbound, serenity, ) are not seen in the themes list while they are present in the Themes folder on the server. 
+Why the website goes all blank (If I am logged in but not if I am not logged in) as soon as I upload Ardvark Postit. 
+What do you suggest I do now?  
+Thanks again for following this up. 
+P. H.
+P.S. New things to report: 
+I removed the universite theme, uploaded Aardvark Postit again and:
+With me logged in as admin (obviously) the site went blank on refreshing the page with this message:
+Parse error: syntax error, unexpected T_VARIABLE in ...theme/aardvark_postit/lang/en/theme_aardvark_postit.php on line 1 
+On another browser, the site displayed normally and I could log in as a student too, but not as admin. I got the same parse error message. 
+I deleted Aardvark Postit and everything is back to normal now. 
+ 

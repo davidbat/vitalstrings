@@ -1,0 +1,9 @@
+Introduction into the PARDISO Project (Version 4.1.2)
+   
+The package PARDISO is a thread-safe, high-performance, robust,      memory efficient and easy to use software for solving large      sparse symmetric and unsymmetric linear systems of equations on      shared-memory and distributed-memory multiprocessors.  The solver has       has been licensed to thousands of      researchers at international scientific laboratories and      universities since its first release in 2004.
+Features of the library version: Unsymmetric,       structurally symmetric or symmetric systems, real or complex,       positive definite or indefinite, hermitian. LU with complete       pivoting. Parallel on SMPs and Cluster of SMPs. Automatic combination of iterative       and direct solver algorithms to accelerate the solution process       for very large three-dimensional systems.
+Publications related to PARDISO are available here .
+Jennifer Scott and Yifan Hu provide an independent review and study of the excellent performance  of PARDISO and other sparse solvers.
+The PARDISO Version 4.1.2 has been released (April 2011). It contains support for distributed-memory architectures.              The MPI-based numerical factorization and parallel forward/backward substitution on  distributed-memory  architectures               is available for  symmetric indefinite matrices. PARDISO 4.1.2 has the unique feature among all             solvers  that  it  can compute  the  exact  bit-identical  solution             on multicores and cluster of multicores.
+Contents: ©Copyright 2007, 2008, 2009, 2010, 2011, 2012 - Prof. Dr. Olaf Schenk
+Layout: ©Copyright 2009 - SourceForge

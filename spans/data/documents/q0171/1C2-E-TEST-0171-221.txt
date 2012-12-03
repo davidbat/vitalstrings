@@ -1,0 +1,21 @@
+To find the IP address of a Mac OS X computer:
+OS X 10.5 and later
+From the Apple menu, select System Preferences... . In System Preferences, from the View menu, select Network.
+In the Network preference window, click a network port (e.g., Ethernet, AirPort, Wi-Fi). If you are connected, you'll see its IP address under "Status:".
+OS X 10.4 or 10.3
+From the Apple menu, select Location, and then Network Preferences... .
+In the Network Preference window, next to "Show:", select Network Status.  You'll see your network status and your IP address displayed.
+Back to top
+Unix-like OS
+In many Unix-like operating systems (e.g. Ubuntu, RHEL, OS X, BSD), a shared system administration utility known as ifconfig is available to configure, control, and query TCP/IP network interface parameters from a command line interface (CLI). Typically, ifconfig can only be used under a superuser account in your terminal.
+To obtain your IP Address from ifconfig, enter the following command:
+ifconfig
+A list of all your network interfaces will appear. Following the heading of the interface whose IP address you're searching for, you will see a "inet addr:" section containing your IP address.
+More information can usually be obtained through initiating the command:
+man ifconfig
+Back to top
+Via the web
+If you are connected to the Internet, visit WhatIsMyIP.com . The site will display your IP address and other information about your system. If the page does not appear, you may not have a working Internet connection and should try one of the above methods.
+Note: This IP address is known as your external IP address; it may differ from those mentioned in different sections of this article.
+This is document aapa in domain all.
+Last modified on October 18, 2011.

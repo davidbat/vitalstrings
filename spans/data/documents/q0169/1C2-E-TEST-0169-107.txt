@@ -1,0 +1,3 @@
+April 9, 2012 at 11:06 am
+I was trying to make an app for my website using web view. Am almost done, but the problem is when I try to download songs, the music player opens and starts playing. I want it to download files rather than playing. I can’t change the file streaming settings on the server side, I must make the app to download files by itself, is that possible?? thanks in advance.
+my site is http://www.songsdl.in

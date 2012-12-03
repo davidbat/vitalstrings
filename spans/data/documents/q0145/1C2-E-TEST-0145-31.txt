@@ -1,0 +1,16 @@
+Interest paid on previously earned interest as well as on the principal .
+Compound Interest
+The interest on a loan or other fixed-income instrument where interest previously paid is included in the calculation of future interest. For example, if one has a certificate of deposit for $1,000 that pays 3% in interest each month, The interest paid in the first month is $30 (3% of $1,000), in the second month it is $30.90 (3% of $1,030), and so forth. The more frequently interest is compounded, the higher the yield will be on the instrument. See also: Amortization .
+compound interest
+Interest paid both on principal and on interest earned during previous compounding periods. Essentially, compounding involves adding interest to the sum of principal and any previous interest in order to calculate interest in the next period. Compare simple interest . See also frequency of compounding .
+Compound interest. When the interest you earn on an investment is added to form the new base on which future interest accumulates, it is compound interest.
+For example, say you earn 5% compound interest on $100 every year for five years. You'll have $105 after one year, $110.25 after two years, $115.76 after three years, and $127.63 after five years.
+Without compounding, you earn simple interest, and your investment doesn't grow as quickly. For example, if you earned 5% simple interest on $100 for five years, you would have $125. A larger base or a higher rate provide even more pronounced differences.
+Compound interest earnings are reported as annual percentage yield (APY), though the compounding can occur annually, monthly, or daily.
+compound interest
+The process of charging, or earning, interest on interest. Interest accrued in prior periods is added to the principal,and then interest in the current period is calculated on the total.
+Example: If you saved $100 per month, starting at age 25, at an earnings rate of 5 percent per annum, you would have $144,959 by age 65, only $48,000 of which would be money you contributed. To perform your own calculations, use the following formula to create a Microsoft Excel spreadsheet:
+FV(Interest Rate, Number of Years, Savings per Year)*-1
+For Interest Rate enter the cell address where you will note the interest rate you expect to earn; for Number of Years enter the cell address where you enter the number of years you expect to save the same amount each year; and for Savings per Year enter the cell address where you will enter the amount you expect to save each year.
+Want to thank TFD for its existence? Tell a friend about us , add a link to this page, add the site to iGoogle , or visit the webmaster's page for free fun content .
+? Page tools

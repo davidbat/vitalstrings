@@ -1,0 +1,10 @@
+[ edit ]
+Description
+Sparse matrix algorithms are used when input matrices have such a large number of zero entries that it becomes advantageous, for storage or efficiency reasons,  to “squeeze” them out of the matrix representation.   Compressed data structures, keeping only the non-zero entries and their indices, are the norm here.  As an example, consider sparse matrix-vector multiplication.  In the standard compressed row format, the code is
+do i=1,n   do j=row_start(i),row_start(i+1)-1     y(i) = y(i) + val(j)*x(col_index(j))   enddo enddo
+[ edit ]
+Uniprocessor Mapping
+The codes are quite complex with graph algorithm  components that attempt to exploit the structure of the non-zeros.  In addition there are a high number of integer operations and indexed accesses.  Modern algorithms on cache-based machines also attempt to take advantage of dense blocks so that the high-performing Level 3 operations can be used.
+[ edit ]
+Parallel Mapping
+The dependence structure of many algorithms is extremely intricate because of the desire to only compute on non-zero entries.

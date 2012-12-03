@@ -1,0 +1,61 @@
+(6) Approximate Message Passing (AMP) [6] 
+(7) Bayesian Compressive Sensing (BCS)[7]
+(8) Magic-L1[8]
+(9) Hard Thresholding Pursuit (HTP) [9]
+(10) Fast Bayesian Matching Pursuit (FBMP)[10]
+(11) FOCUSS[11]
+(12) Smooth L0 (SL0) [12]
+Some of the algorithms needed to know some a priori information, and we fed these algorithms with the required a priori information. Details are given in the following list:
+T-MSBL: did not require any a priori information
+EM-SBL: did not require any a priori information
+ExCov: did not require any a priori information
+CoSaMP: fed with the number of nonzero elements
+Subspace Pursuit: fed with the number of nonzero elements
+AMP: did not require any a priori information
+BCS: did not require any a priori information
+Magic-L1: needed to know the SNR to calculate the regularization parameter
+FBMP: fed with the true SNR value, and the number of nonzero elements (used to calculate the activity probability of elements)
+FOCUSS: fed with the true SNR value
+HTP: noise was removed, since it can only be used in noiseless cases; in the noisy case it completely failed
+Smooth L0: noise was removed, since it can only be used in noiseless cases; in the noisy case it completely failed
+The experiment was repeated 1000 trials. In each trial, the number of nonzero elements in the source vector x was 3, i.e.K=3. These nonzero elements had the unit amplitude. Their indexes in x were randomly chosen. SNR was 25dB. The measurement indexes are Failure Rate and MSE.
+The comparison result in terms of Failure Rate is given below:
+The result in terms of MSE is given below, where I only show the MSE's of 8 algorithms, since other algorithms completely failed.
+We can clearly see T-MSBL has the best performance. In many applications such as neuroelectromagnetic source localization, Direction-of-Arrival estimation, radar detection, under-water sonar processing, power spectrum estimation, the ability of algorithms to handle the cases when dictionary matrices are highly coherent is very important (especially in the presence of noise). The simple experiment shows the advantage of T-MSBL in these cases.
+All the codes and the demo to reproduce the above results can be downloaded at: http://dsp.ucsd.edu/~zhilin/papers/Experiment.rar
+Details about the experiment can be found in the short note: http://dsp.ucsd.edu/~zhilin/papers/comparison.pdf
+Reference:
+[1] Z. Zhang and B. D. Rao, “Sparse signal recovery with temporally
+correlated source vectors using sparse Bayesian learning,” IEEE Journal
+of Selected Topics in Signal Processing, vol. 5, no. 5, pp. 912–926, 2011.
+[2] D. P. Wipf and B. D. Rao, “Sparse Bayesian learning for basis selection,”
+IEEE Trans. on Signal Processing, vol. 52, no. 8, pp. 2153–2164, 2004.
+[3] K. Qiu and A. Dogandzic, “Variance-component based sparse signal
+reconstruction and model selection,” IEEE Trans. on Signal Processing,
+vol. 58, no. 6, pp. 2935–2952, 2010.
+[4] D. Needell and J. A. Tropp, “CoSaMP: Iterative signal recovery from
+incomplete and inaccurate samples,” Applied and Computational Harmonic
+Analysis, vol. 26, no. 3, pp. 301–321, 2009.
+[5] W. Dai, O. Milenkovic,  “Subspace pursuit for compressive sensing signal reconstruction,”
+IEEE Trans. Information Theory, vol. 55, no. 5, pp. 2230–2249, 2009.
+[6] D. L. Donoho, A. Maleki, and A. Montanari, “Message-passing algorithms
+for compressed sensing,” PNAS, vol. 106, no. 45, pp. 18 914–
+18 919, 2009.
+[7] S. Ji, Y. Xue, and L. Carin, “Bayesian compressive sensing,” IEEE Trans.
+on Signal Processing, vol. 56, no. 6, pp. 2346–2356, 2008.
+[8] E. Candes, J. Romberg, and T. Tao, “Stable signal recovery from
+incomplete and inaccurate measurements,” Communications on Pure and
+Applied Mathematics, vol. 59, no. 8, pp. 1207–1223, 2006.
+[9] S. FOUCART, “Hard thresholding pursuit: an algorithm for compressive
+sensing,” preprint, 2011. [Online]. Available: http://www.math.drexel.
+edu/»foucart/HTP Rev.pdf
+[10] P. Schniter, L. C. Potter, and J. Ziniel, “Fast bayesian matching pursuit:
+Model uncertainty and parameter estimation for sparse linear models,”
+preprint. [Online]. Available: http://www2.ece.ohio-state.edu/»schniter/
+pdf/tsp09 fbmp.pdf
+[11] I. F. Gorodnitsky and B. D. Rao, “Sparse signal reconstruction from
+limited data using FOCUSS: a re-weighted minimum norm algorithm,”
+IEEE Trans. on Signal Processing, vol. 45, no. 3, pp. 600–616, 1997.
+[12] H. Mohimani, M. Babaie-Zadeh, and C. Jutten, “A fast approach for
+overcomplete sparse decomposition based on smoothed l0 norm,” IEEE
+Trans. on Signal Processing, vol. 57, no. 1, pp. 289–301, 2009.

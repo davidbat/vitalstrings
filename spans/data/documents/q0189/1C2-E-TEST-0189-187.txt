@@ -1,0 +1,15 @@
+Paul B's Eclipse Whiteboard
+I love my whiteboards that cover my office, and scribble often into them with designs and dreams that last for months or minutes. This blog is a place to share what my team has access to for the amusement and amazement of a broader community. I plan to keep it mostly to Eclipse topics, but it may have tips or rants on other issues from time to time.
+08 December 2010
+Zest Type Hierarchy View
+Sometimes the built-in JDT "Type Hierarchy" view is just not sufficient. Most of the time it gets the questions answered that I am looking for, but certain hierarchies do not display well and some things are not shown that I would like to see. For example, "What interfaces does my type/hierarchy implement?" Also, a type may appear multiple times in the tree viewer due to its hierarchy of interfaces, and it is not immediately clear where it "belongs".
+So I used  Zest  and reworked the demo PDE bundle hierarchy visualization view to be a type hierarchy visualization view.
+In particular, the project I'm working on now has a split hierarchy of interfaces with a base class that implements none of them but subclasses that implement one or more. Here's a screen shot of the hierarchy in both views.
+Type Hierarchy View + Graph Type Hierarchy View
+This view gives me not only the ancestor and descendant types for the type focused, but also all ancestor types and implemented interfaces for anything displayed. To get the same information about interfaces implemented using the Type Hierarchy view, I would need to focus on multiple types and look at both the normal and inverted hierarchies.
+I've also been doing some work learning GEF  lately, so here are some more hierarchies visualized. I had the shape and logic examples in my workspace at the time, so the extensions from those also show up.
+org.eclipse.draw2d.Border hierarchy
+org.eclipse.gef.NodeEditPart hierarchy
+Notice in the hierarchy for NodeEditPart that PropertyChangeListener and LayoutConstants also show up, which would be a difficult thing to find in the Type Hierarchy view.
+I find the built-in Type Hierarchy view sufficient for most purposes, but sometimes it just falls short. The graph view fills in the gaps for me.
+As for hacking on it, I can post the code if anyone is interested in it for use or further development/refinement, which it certainly could use. It does not tie in to the IDE, so you currently have to manually focus on an element and cannot open the editor from a type displayed. I planned to also have the sash with the list of fields and methods for the selected type within the view, but that is not there yet. It doesn't remember any history, either. It still has a few bugs I'm sure, too, but it's in a working-enough state to be helpful.

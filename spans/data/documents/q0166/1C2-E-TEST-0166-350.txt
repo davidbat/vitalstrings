@@ -1,0 +1,38 @@
+src/mysample_sup.erl – Supervisor callback module
+-module(mysample_sup). -behaviour(supervisor). -export([start_link/0]). -export([init/1]). -define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}). start_link() -> supervisor:start_link({local, ?MODULE}, ?MODULE, []). init([]) -> {ok, { {one_for_one, 5, 10}, []} }.
+The generated code is almost a fully working simple application, but there is one thing missing, a Generic Server ! So the next step is to create one. I’ll create a generic server called mysample_server.erl.
+Place this code in src/mysample_server.erl:
+-module(mysample_server). -behaviour(gen_server). -export([start_link/0, say_hello/0]). -export([init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]). start_link() -> gen_server:start_link({local, ?MODULE}, ?MODULE, [], []). init([]) -> {ok, []}. say_hello() -> gen_server:call(?MODULE, hello). %% callbacks handle_call(hello, _From, State) -> io:format("Hello from server!~n", []), {reply, ok, State}; handle_call(_Request, _From, State) -> Reply = ok, {reply, Reply, State}. handle_cast(_Msg, State) -> {noreply, State}. handle_info(_Info, State) -> {noreply, State}. terminate(_Reason, _State) -> ok. code_change(_OldVsn, State, _Extra) -> {ok, State}.
+The next step is make the generic server part of the application, this is done by doing the following steps:
+Add mysample_server into ebin/mysample.app under the modules tuple.
+Make mysample_server a child of mysample supervisor.
+So by making this changes we have the following new codes:
+ebin/mysample.app:
+{application, mysample, [ {description, ""}, {vsn, "1"}, {modules, [ mysample_app, mysample_sup, mysample_server ]}, {registered, []}, {applications, [ kernel, stdlib ]}, {mod, { mysample_app, []}}, {env, []} ]}.
+src/mysample_sup.erl:
+-module(mysample_sup). -behaviour(supervisor). -export([start_link/0]). -export([init/1]). -define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}). start_link() -> supervisor:start_link({local, ?MODULE}, ?MODULE, []). init([]) -> MySampleServer = ?CHILD(mysample_server, worker), {ok, { {one_for_one, 5, 10}, [MySampleServer]} }.
+Now that we’ve made every change, let’s compile the project:
+$ ./rebar compile ==> mysample (compile) Compiled src/mysample_app.erl Compiled src/mysample_sup.erl Compiled src/mysample_server.erl
+Now take a look at your ebin directory and check if each module has a beam file placed there.
+What about now? We’ve got an application module, a supervisor, and a simple generic server, but what do we do with it? Well, wouldn’t be great to make your application work as a service that you can start, stop, and restart whenever you want? You can create this using some Erlang tools, but with Rebar you can do this in a very very easy way.  Summarizing what I’ve just said: “Rebar can help you create an Erlang Release ”.
+To create a release we have to create a new directory in the root of our project called rel and create a node in it. A node is kind of a standalone Erlang VM for our application to run on.
+$ mkdir rel $ cd rel $ ../rebar create-node nodeid=mysample ==> rel (create-node) Writing reltool.config Writing overlay/erts-vsn/bin/erl Writing overlay/erts-vsn/bin/nodetool Writing overlay/bin/mysample Writing overlay/etc/app.config Writing overlay/etc/vm.args $ cd -
+We’ve just created a node for our application to run on, this node is created using a template just like the one used in the application creation. You can see it at Rebar’s source code: http://bitbucket.org/basho/rebar/src/ and then head to priv/templates/simplenode.template.
+Now we’re almost done. We only need to make some changes to the rel/reltool.config, file that contains the release configuration, so it can be compatible with our application’s modules.
+Here is the changed version of the generated file, I will put * around the lines I changed, notice that they don’t belong to the real code.
+{sys, [ *{lib_dirs, ["../../"]}*, {rel, "mysample", "1", [ kernel, stdlib, sasl, *mysample* ]}, {rel, "start_clean", "", [ kernel, stdlib ]}, {boot_rel, "mysample"}, {profile, embedded}, {excl_sys_filters, ["^bin/.*", "^erts.*/bin/(dialyzer|typer)"]}, *{app, mysample, [{incl_cond, include}]}*, {app, sasl, [{incl_cond, include}]} ]}. {rebar, [ {empty_dirs, [ "log/sasl" ]}, {overlay, "overlay"} ]}.
+If you want to know the meaning of each of this tuple’s options, look at Reltool Manual .
+Now lets make this directory visible for rebar, for that we create rebar.config file in the root directory of our project.
+rebar.config:
+Configuration is now over! Lets generate our release:
+$ ./rebar generate
+This command creates a release of your application. Take a look at yours rel/mysample folder and you’ll be able to see something like this:
+$ ls rel/mysample bin  erts-5.7.4  etc  lib  log  releases
+Now let’s run our release service, see the step by step below:
+$ chmod u+x rel/mysample/bin/mysample $ ./rel/mysample/bin/mysample Usage: mysample {start|stop|restart|reboot|ping|console|attach}
+Seems that everything is alright. To make sure your application was packed in the release, run your service with console ./rel/mysample/bin/mysample console and execute application:which_applications().. Check if you got something like this:
+(mysample@127.0.0.1)1> application:which_applications(). [{mysample,[],"1"}, {sasl,"SASL  CXC 138 11","2.1.8"}, {stdlib,"ERTS  CXC 138 10","1.16.4"}, {kernel,"ERTS  CXC 138 10","2.13.4"}] (mysample@127.0.0.1)2> mysample_server:say_hello(). Hello from server!
+If yes, you’ve done it! If not, make sure you’ve followed everything correctly.
+Conclusions
+The purpose of this tutorial was to give an introduction to a tool that helps we manage our Erlang applications. I think Rebar has a long way to go from here, but it is on the right track. It’s a great tool and if there were more documentation available there would have more people using it. I’ve talked about some of it’s most important features here, but in the beggining I showed that there is a lot more to it than just than compile and generate functions. So get Rebar and start using it on your next project.
+Feel free to put your comments below and thank you for reading this post.

@@ -1,0 +1,4 @@
+Published February 5, 2008 matlab Leave a Comment
+Remember that in Matlab sparse matrices are stored column-wise. Hence it is much more efficient to do column operations than to do row operations on a sparse matrix. When possible, always have two copies of the matrix A: A and AT=A’. This is important for time critical experiments.
+Now let’s restrict to column operations. How do we find zero columns of a sparse matrix? There are two (or many more?) possible ways: (1) Use the A(:,i) == 0 test; (2) Use the length(find(A(:,i))) == 0 test. It turns out that the former method is way slower than the latter. Try it! Use the following codes:
+m = 10000;

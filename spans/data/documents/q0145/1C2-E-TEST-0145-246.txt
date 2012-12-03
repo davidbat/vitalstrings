@@ -1,0 +1,40 @@
+Indirect Proof
+Let's begin with the definition of "interest".
+Interest is a fee paid for a loan or an amount of money borrowed from a bank or other financial institution. Banks pay interest on money deposited by customers.
+There are two types of interest, simple interest and compound interest.
+Simple Interest
+Simple interest is the interest paid only on the original principal. Simple interestis quite easy tocalculate.
+The simple interest formula is I = PRT
+Where
+P – Principal or the initial amount of money that was invested or borrowed
+R – Rate of interest as a decimal
+T – Time
+Compound Interest
+Compound interest involves paying interest upon interest. That is, compound interest is the interest calculated on the accrued unpaid interest and on the original principal.
+Compound Interest is a bit more complicated than Simple Interest.
+The compound interest formula is:
+A = P (1 + R) ^T, if the interest is compounded once a year
+A = P [1 + (R/N)] ^NT, if the interest is compounded ‘N' times a year
+Where
+P – Principal or the initial amount of money that was invested or borrowed
+R – Rate of interest as a decimal
+T – Time
+When you deposit money in the bank, always choose the account that offers you compound interest. You would make a little more money with the compound interest account than the simple interest account.
+Albert Einstein, the great scientist once quoted: "Compound interest is the eighth wonder of the world. He, who understands it, earns it ... he who doesn't ... pays it".
+Let's look at a couple of examples:
+Mrs. Green deposited $5000 for 5 years at 4% simple interest. Calculate the amount of interest Mrs. Green will get back at the end of 5 years.
+Let's use the simple interest formula: I = PRT
+Here: P = $5000, R = 4% = 0.04, T = 5 years
+I = PRT = 5000 × 0.04 × 5 = 1000
+So, Mrs. Green will receive $1000 at the end of 5 years.
+Mrs. Green deposited $5000 for 5 years at 4% compounded quarterly. Calculate the amount of interest Mrs. Green will get back at the end of 5 years.
+There are 4 quarters in a year. So, the interest is compounded 4 times a year.
+Let's use the compound interest formula: A = P[1 + (R/N)]^NT
+Here: P = $5000, R = 4% = 0.04, N = 4, T = 5 years
+A = P [1 + (R/N)] ^NT = 5000[1 + (0.04/4)] ^ (4×5) = 5000(1 + 0.01)^20 = 5000(1.01)^20 = 6100.95
+So, Mrs. Green will receive $6100.95 – $5000 = $1100.95 at the end of 5 years.
+Notice that Mrs. Green makes a little more money with compound interest.
+Banks and other financial institutions use compound interest to calculate how much interest to be charged on a loan amount and how much interest to be paid on money deposited by customers.
+The more frequent the compounding, the more money you can make.
+The longer you allow your money to remain in the account, the greater is the final amount you receive.
+About the Author

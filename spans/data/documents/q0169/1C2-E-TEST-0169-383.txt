@@ -1,0 +1,17 @@
+Version 1.1 (March 2004): PROPACK_1.1_Matlab.tar.gz
+Version 1.0 (1998): PROPACK.tar.gz
+An overview of the Matlab toolbox is given here . The Matlab routines come with detailed on-line documentation, which can be read by typing "help
+" at the Matlab prompt.  The online documentation for the 4 main routines can be reached via the links below:
+lanbpro.m: Lanczos bidiagonalization with partial reorthogonalization: here .
+lansvd.m: Singular value decomposition: here .
+lanpro.m: Hermitian Lanczos with partial reorthogonalization: here .
+laneig.m: Eigenvalues and eigenvectors of a hermitian matrix: here .
+Test matrices from MatrixMarket : TESTMATRICES.tar.gz .
+Documentation
+R. M. Larsen, Lanczos bidiagonalization   with partial reorthogonalization, Department of Computer Science,    Aarhus University, Technical report, DAIMI PB-357, September 1998.    This report describes the initial work that lead to PROPACK.
+Download here in gzipped postscript or pdf format.
+R. M. Larsen, Computing the SVD for Large and Sparse Matrices, SCCM, Stanford University, June 16, 2000. A presentation of PROPACK given on June 16, 2000 at Lawrence Berkeley National Laboratory.
+Download here in gzipped postscript or pdf format.
+R. M. Larsen, Combining implicit restart and partial reorthogonalization in Lanczos bidiagnalization, SCCM, Stanford University, April 2001. A presentation of the implicitly restarted SVD algorithm available in PROPACK version 1.0. This talk was given on April 18, 2001 at UC Berkeley. It includes performance measurements of the Fortran version of PROPACK and comparisons with PLANSO and ARPACK .
+Download here in gzipped postscript or pdf format.
+License

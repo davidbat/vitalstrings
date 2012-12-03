@@ -1,0 +1,23 @@
+The following formula typed into a cell on a worksheet, returns the correct value of $1,259.71:
+=1000*(1+.08)^3
+However, all of the information is 'hard-coded' into the formula and you must manually change the formula any time the figures change.
+Back to the top
+Create a Function Macro to Determine Compound Interest
+Microsoft provides programming examples for illustration only, without warranty either expressed or implied. This includes, but is not limited to, the implied warranties of merchantability or fitness for a particular purpose. This article assumes that you are familiar with the programming language that is being demonstrated and with the tools that are used to create and to debug procedures. Microsoft support engineers can help explain the functionality of a particular procedure, but they will not modify these examples to provide added functionality or construct procedures to meet your specific requirements.
+A custom function is more flexible because none of the actual raw data is 'hard-coded' into the function; the user just types the data for the calculation instead of the actual calculation. To create this custom function, follow these steps:
+Start Microsoft Excel.
+Press ALT+F11 to start the Visual Basic Editor.
+On the Insert menu, click Module.
+Type the following code in the new module:
+Function Yearly_Rate(PV As Double, R As Double, N As Double) As Double       Yearly_Rate = PV*(1+R)^N    'Performs computation   End Function
+To use the custom function, follow these steps:
+Type the following values in your worksheet:
+Cell     Value        --------------        A1     1000.00        A2         .08        A3        3.00
+These values represent the following:
+A1: Present value of the investment
+A2: Interest rate
+A3: Number of investment periods
+In any blank cell, type the following formula
+=Yearly_Rate(A1,A2,A3)
+where A1, A2, and A3 are the cells that contain the present value, interest rate, and number of investment periods respectively.
+The cell in which you typed the formula displays $1,259.71. This is the amount your original investment of $1000.00 is worth after three investment periods at 8 percent compound interest.

@@ -1,0 +1,28 @@
+1-based position of the band.  Set to 0 add the band to the end (default).
+Band styles
+The band is on a new line.
+childedge
+The band has an edge at the top and bottom of the child window.
+fixedbmp
+The background bitmap does not move when the band is resized.
+fixedsize
+The band can’t be sized.  With this style, the sizing grip is not displayed on the band.
+gripperalways
+The band will always have a sizing grip, even if it is the only band in the rebar.
+hidden
+The band will not be visible.  Don’t use this flag in Insert function.  Instead, insert the band without this flag, then use SetBand to hide it.  To restore it afterwards, use SetBand with “S show” parameter.
+nogripper
+The band will never have a sizing grip, even if there is more than one band in the rebar.
+usechevron
+Show a chevron button if the band is smaller than ideal.
+novert
+Don’t show when vertical.
+hidetitle
+Keep band title hidden.
+*
+Default styles for the band.  For instance “* break” will set band style to default plus “break” style.
+Returns
+ID of the newly created band or 0 if it fails.
+Remarks
+For some reason, using the Gui, Font to change font size before adding ComboBox child to the band will make it buggy in a sense that ComboBox list will not be able to show (although you can still select items using arrows).
+Lock

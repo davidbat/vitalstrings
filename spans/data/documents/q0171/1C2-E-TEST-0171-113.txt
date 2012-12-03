@@ -1,0 +1,55 @@
+Looking for IP only? Please, use our simple text version .
+Question-Answer
+What is an IP-address?
+IP-address (Internet Protocol Address) — is a unique identifier (address) of a   device (usually computer), connected to the Internet.
+Each device (computer, laptop, dedicated server, mobile phone, etc.) on the Internet has its own IP-address.   Since you are currently connected to the Internet - it means that your computer also has its own unique address   on the network. But you can be connected to the Internet through a router or gateway in your local network.   In this case, your computer from the Internet seen with the same IP address, which has your router or gateway.
+IP addresses can be static (when provider assigned a permanent address to the user) and dynamic (if the   provider gives you the IP address from the pool of free addresses on DHCP when you are connecting).
+In addition built on the basis of virtual hosts comuter can act as a multiple devices with the multiple   IP addresses and sites. For example, web hosting services on the Internet.
+Knowledge of your IP address allows to provide you access to services and programms on your computer   (games, chat rooms, FTP, remote access to desktop, etc.)
+There are two types of IP-addresses - IPv4 и IPv6.
+Difference between IPv4 and IPv6
+The main difference from the usual IPv4 to IPv6 is a significant increase of address space.   Thus, the length of the IPv4 addresses are 32 bits, which gives a total of 232 of possible addresses   (just over 4 billion addresses). At the same time length of an IPv6 address is 128 bits, which gives 2128 of possible addresses (generally is more than 4.8×1028 addresses for each of the 7 billion people   on Earth). That is, IPv6 once and forever solve the problem of exhausting of Internet address space.
+In terms of syntax, writing both IPv4 and IPv6 addresses are also different. IPv4 addresses are written as   four blocks of numbers from 0 to 255 separated by dots, eg 192.168.254.123. IPv6 addresses are written as   eight blocks of hexadecimal digits separated by colons, such as fe80:dead:beef:0:0:0:0:2012. Often, writing   IPv6 addresses can be simplified by replacing the sequence of zeros with the double colon (but this can be done   only at one place). So the address shown in the previous example can be written as fe80:dead:beef::2012.
+There are also many differences at the protocols level of IPv4 and IPv6, but for the end Internet-user   it is a negligible value. However, for anyone interested, we present a short comparison of the differences in   protocols below.
+Brief comparison of IPv4 and IPv6 protocols
+IPv4
+Addresses are 32 bits (4 bytes) in length
+Addresses are 128 bits (16 bytes) in length
+Address (A) resource records in DNS to map host names to IPv4 addresses
+Address (AAAA) resource records in DNS to map host names to IPv6 addresses
+Pointer (PTR) resource records in the IN-ADDR.ARPA DNS domain to map IPv4 addresses to host names
+Pointer (PTR) resource records in the IP6.ARPA DNS domain to map IPv6 addresses to host names
+IPSec is optional and should be supported externally
+IPSec support is not optional
+Header does not identify packet flow for QoS handling by routers
+Header contains Traffic Class field, which identifies packet flow priority for QoS handling by router
+Both routers and the sending host fragment packets
+Routers do not support packet fragmentation. Sending host fragments packets
+Header includes a checksum
+Header does not include a checksum
+Header includes options
+Optional data is supported as extension headers
+ARP uses broadcast ARP request to resolve IP to MAC/Hardware address
+Multicast Neighbor Solicitation messages resolve IP addresses to MAC addresses
+Internet Group Management Protocol (IGMP) manages membership in local subnet groups
+Multicast Listener Discovery (MLD) messages manage membership in local subnet groups
+Broadcast addresses are used to send traffic to all nodes on a subnet
+IPv6 uses a link-local scope all-nodes multicast address
+Configured either manually or through DHCP
+Does not require manual configuration or DHCP
+Must support a 576-byte packet size (possibly fragmented)
+Must support a 1280-byte packet size (without fragmentation)
+Used TTL (Time to Live) header field for packets
+TTL renamed to Hop Limit
+Header size is 20 bytes
+Header size is 40 bytes
+Max packet size is 65535 bytes (216 - 1)
+Supporting jumbograms - huge packets up to 4 Gb (4294967295 = 232 - 1)
+Is It Possible to Hide My IP?
+Generally speaking, - yes, it's possible. To hide your actual IP-address which was assigned to you by your Internet   Service Provider there are several ways:
+Use free anonymous proxy for your Internet connection.     You can easily find free anonymous proxy right at this website.    Usually free proxies are not stable and are the property of to disappear    unexpectedly. Be carewful when choosing a free proxy from the lists, it could be stated as anonymous,    but in reality could be transparent at the moment of use by you. After you set up one - you can     revisit current web-page and check if it could be detected or not.
+Use secure pre-paid anonymous SOCKS proxy. There are various companies over the world which can propose    a good stable anonymous proxy for some amount of money. This is good choise for those who need to use    the proxy permanently and require stability of it's work.
+Please, note that good proxy can protect your information online. As Reputation.com has spoken on,    your information can easily be used against you, whether that's in a minor or major sense really depends    on the person and how big of a profile they have. So a safe bet for sure, is to use an online proxy.
+Use web-based anonymizers. It's a specific web-sites which are working like a proxy. You just visit    a website, put the Internet address (link) which you want to open into the field, press a button and    open it. It's good solution for those who need to open 1 or 2 pages anonymously and don't want to    make any configurations on their PC.
+And finally, the best choise for your security and anonymity is to use a VPN service. By using a VPN you not    only hide your IP, but also make all the traffic from/to your PC encrypted and it means that your data will    be highly secured. A lot of people look into VPN solutions or similar software to protect themselves and their businesses online, and, probably, this is your best choise also.
+Latest Free Proxies

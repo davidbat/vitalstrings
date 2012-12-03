@@ -1,0 +1,27 @@
+6 External links
+More detail
+The Internet Protocol (IP) knows each logical host interface by a number, the so-called IP address. On any given network, this number must be unique among all the host interfaces that communicate through this network. Users of the Internet are sometimes given a host name in addition to their numerical IP address by their ISP.
+The IP addresses of users browsing the world wide web are used to enable communications with the server of the web site. Also, it is usually in the header of email messages one sends. Depending on one's Internet connection the IP address can be the same every time one connects, a static IP address, or different per session (but the first part being the same each time): a dynamic IP address.
+Internet addresses are needed not only for unique enumeration of host interfaces, but also for routing purposes, therefore a high fraction of them are always unused or reserved.
+IP version 4
+Addressing
+In IPv4 , the current standard protocol for the Internet, IP addresses consist of 32 bits , which makes for 4,294,967,296 (over 4 billion) unique host interface addresses in theory. In practice the address space is sparsely populated due to routing issues, so that there is some pressure to extend the address range via IP version 6 (see below).
+IPv4 addresses are commonly expressed as a dotted quad, four octets (8 bits) separated by periods. The host known as www.wikipedia.org currently has the number 3482223596, written as 207.142.131.236 due to base -256 conversion: 3482223596 equals 207×2563 + 142×2562 + 131×2561 + 236×2560. (Resolving the name "www.wikipedia.org" to its associated number is handled by Domain Name System servers.)
+Historically, IPv4 addresses originally had only two parts . A later change increased that to three parts: the network part, the subnetwork part, and the host part, in that order. However, with the advent of CIDR , this is no longer true, and the address can have an arbitrary number of levels of hierarchy . (Technically, this was already true any time after the advent of subnets, since a site could elect to have more than one level of subnetting inside a network number .)
+Assignment
+The actual assignment of an address is not arbitrary.  An organization, typically an Internet service provider, requests an assignment of a netblock from a registry such as ARIN (American Registry for Internet Numbers). The network number comprises a range of addresses which the organization is free to allocate as they wish. An organization that has exhausted a significant part of its allocated address space can request another netblock.
+For example, ARIN has allocated the addresses 64.78.200.0 through 64.78.207.255 to Verado, Inc.  In turn, Verado has allocated the addresses 64.78.205.0 through 64.78.205.15 to Bomis.  Bomis, in turn, has assigned the specific address 64.78.205.6 to the host interface that is named www.wikipedia.com.
+Exhaustion
+Some private IP address space has been allocated via RFC 1918 . This means the addresses are available for any use by anyone and therefore the same RFC 1918 IP addresses can be reused. However they are not routeable on the Internet. They are used extensively due to the shortage of registerable addresses. Network address translation (NAT) is required to connect those networks to the Internet.
+While a number of measures have been taken to conserve the limited existing IPv4 address space (such as the use of NAT and Private Addressing ), the number of 32-bit IP addresses is not sufficient to accommodate the long-term growth of the Internet. For this reason, there is a general consensus that the Internet 128-bit IPv6 addressing scheme will be adopted over the next 5 to 15 years.
+See also: IPv4 address exhaustion
+IP version 5
+What would be considered as IPv5 existed only as an experimental non-IP real time streaming protocol called ST2 described in RFC 1819 .  This protocol was abandoned in favour of RSVP .
+IP version 6
+In IPv6 , the new (but not yet widely deployed) standard protocol for the Internet, addresses are 128 bits wide, which, even with generous assignment of netblocks, should suffice for the foreseeable future. In theory, there would be exactly 2128, or about 3.403 × 1038 unique host interface addresses. This large address space will be sparsely populated, which makes it possible to again encode more routing information into the addresses themselves.
+A version 6 address is written as eight 4-digit (16-bit) hexadecimal numbers separated by colons. One string of zeros per address may be left out, so that 1080::800:0:417A is the same as 1080:0:0:0:0:800:0:417A
+Global unicast IPv6 addresses are constructed as two parts: a 64-bit routing part followed by a 64-bit host identifier.
+Netblocks are specified as in the modern alternative for IPv4: network number, followed by a slash, and the number of relevant bits of the network number (in decimal). Example: 12AB::CD30:0:0:0:0/60 includes all addresses starting with 12AB00000000CD3.
+IPv6 has many improvements over IPv4 other than just bigger address space, including autorenumbering and mandatory use of IPsec .
+Further reading: Internet RFCs including RFC 791  (http://www.rfc-editor.org/rfc/rfc791.txt), RFC 1519  (http://www.rfc-editor.org/rfc/rfc1591.txt) (IPv4 addresses), and RFC 2373  (http://www.rfc-editor.org/rfc/rfc2373.txt) (IPv6 addresses).
+See also

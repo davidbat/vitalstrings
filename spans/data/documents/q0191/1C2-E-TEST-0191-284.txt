@@ -1,0 +1,19 @@
+Mark this reply as the best answer?
+(Choose carefully, this can't be changed)
+Eric G. replied Mar 2, 2008
+Sak,
+Oracle offers many presentations by module or solution (example: Order To Cash) on the differences between EBS 11i and Release 12.
+EBS Release 12 is available today. It's been available for over a year.
+Fusion is not yet available. Fusion will be Oracle's future ERP focus, containing elements of EBS, Peoplesoft, and possibly even JD Edwards. It's sort of a best-of-breed merge into someone new that will rely heavily upon the integration of modules via web services. Fusion might be available by the end of 2008.
+Oracle will continue to support and enhance EBS R12, Peoplesoft, and JDE for the foreseeable future (perhaps the next 5 or 6 years?).
+What is unknown to me is: Since we have EBS 11i or R12, if we wanted to migrate to equivalent modules in Fusion, will we have to pay Mr. Ellison and Mr. Philips and the rest of Oracle ANY MONEY? In other words, can we migrate to Fusion for free?
+One note: Fusion Middleware gets a lot of publicity. Fusion Middleware is here now. It's a collection of technologies. Parts of it are in later versions of EBS 11i. More parts are in Release 12. And, of course, even more will be in Fusion.
+Fusion Middleware includes: XML Publisher. Forms Personalization. APIs wrapped as web services / SOA. An integration management tool. Maybe even Portal and Single Sign-On (not sure if its under the Fusion Middleware umbrella).
+Hope this helps. Others, please correct where I am wrong.
+Eric
+For discussions on Oracle Fusion please visit the Oracle Applications group.  The Oracle Fusion group is no longer active.
+1718709
+X
+Get Answers - It's Free
+If you're looking for Oracle Fusion help, sign up and take advantage of 789 Oracle professionals who are here to help you.
+Related

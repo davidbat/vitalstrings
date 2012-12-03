@@ -1,0 +1,27 @@
+This article explains about the garbage collection process used by Active Directory to clear out orphaned objects from Active Directory Database file (ntds.dit).
+ 
+Windows 2000/2003 Servers delete all tombstone objects after 60 days after their original status. Active Directory sets isDeleted attribute to TRUE after the 60 days automatically or when you delete an object manually. This is because a tombstone object should be replicated to all domain controllers in the domain (The domain partition). Otherwise objects will be re-created in Active Directory.
+ 
+You can also change the default time.
+ 
+If you want to change the default time you can modify the tombstonelifetime setting under cd=DirectoryServices,cn=WindowsNT,cn=Services,cn=Configuration,dc=DomainName parameter which Microsoft does not recommend.
+ 
+Each directory partition holds a container called Deleted Object except Schema partition because you can not delete objects from this partition. After deleting an object or setting isDeleted attribute to TRUE Active Directory moves these records to Deleted Object container in the partition that contained the object.
+ 
+Active Directory hides these Deleted Objects containers by default, so to view them you must enable the Return Deleted ObjectsLightweight Directory Access Protocol (LDAP) control as part of a search operation.
+ 
+You can search Tombstone objects using LDP found in Windows 2000 and Windows 2003.
+ 
+Article ID: 555994 - Last Review: September 21, 2007 - Revision: 1.0
+APPLIES TO
+Microsoft Windows 2000 Standard Edition
+Microsoft Windows Server 2003, Enterprise Edition (32-bit x86)
+Microsoft Windows Server 2003, Standard Edition (32-bit x86)
+Microsoft Windows Server 2003, Web Edition
+Microsoft Windows 2000 Enterprise Edition
+Microsoft Windows 2000 Professional Edition
+Microsoft Windows 2000 Service Pack 4
+Keywords: 
+kbpubmvp kbpubtypecca kbhowto KB555994
+COMMUNITY SOLUTIONS CONTENT DISCLAIMER
+MICROSOFT CORPORATION AND/OR ITS RESPECTIVE SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, OR ACCURACY OF THE INFORMATION AND RELATED GRAPHICS CONTAINED HEREIN. ALL SUCH INFORMATION AND RELATED GRAPHICS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. MICROSOFT AND/OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION AND RELATED GRAPHICS, INCLUDING ALL IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, WORKMANLIKE EFFORT, TITLE AND NON-INFRINGEMENT.  YOU SPECIFICALLY AGREE THAT IN NO EVENT SHALL MICROSOFT AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, DATA OR PROFITS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF OR INABILITY TO USE THE INFORMATION AND RELATED GRAPHICS CONTAINED HEREIN, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF MICROSOFT OR ANY OF ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES.

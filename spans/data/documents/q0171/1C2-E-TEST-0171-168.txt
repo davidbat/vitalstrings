@@ -1,0 +1,20 @@
+How to fix “Cannot renew IP address” in Windows
+November 5th, 2008 by Aseem | File in: Networking
+Recently, I was working on a clients machine and after logging in realized that for some reason I was not able to connect to the server. I went to the command prompt and type in IPCONFIG and pressed Enter.
+The IP address for the computer was 169.254.x.x and the subnet mask was 255.255.255.0. The 169.254 address is an APIPA (Automatic Private IP Addressing) address that is assigned when no DHCP server is available or reachable.
+So I decided to run the IPCONFIG /RENEW command to renew the computers’ IP address. Unfortunately, that didn’t work either and I got the following error:
+An error occurred while renewing interface Local Area Connection : An operation was attempted on something that is not a socket.
+If you get this error when trying to renew your IP address, you have a problem with the WinSock configuration on your computer. Luckily, you can read my post from Online Tech Tips on how to repair Winsock errors in Windows .
+However, that may not be the only reason why an ipconfig /renew would not work. You may also get an error like this:
+Limited or no connectivity
+You might not be able to access the Internet or some network resources. This problem occurred because the network did not assign a network address to the computer.
+For example, if you have a static IP address, then renewing will never work. You can tell if you have a static IP address by typing in IPCONFIG by itself and making sure it’s something other than 169.254. If it is, then someone may have manually set your IP address.
+This means that even if there is a DHCP server on the network, it won’t get a new IP address. You can set your computer to obtain an IP address from a DHCP server automatically by going to Start, Control Panel, Network Connections. Right-click on the Local Area Connection and choose Properties.
+On the General tab, scroll down in the list box till you see Internet Protocol (TCP/IP) and highlight it. Then click on Properties.
+Now make sure that both Obtain an IP address automatically and Obtain DNS server address automatically are selected.
+ 
+Now try to renew your IP address and see if you can connect to the Internet or network. If this does not work, you have to make sure there is not some kind of software on your computer that could be blocking all the ports on your computer.
+Disable any firewall software and remove or disable programs like Zone Alarm and Norton Internet Security as they can get in the way sometimes.
+Finally, the problem of not being able to renew your IP address could be because of the network interface card (NIC) itself. It could be with the drivers, so download the latest drivers and update them.
+You can also test out whether it is a problem with your network card by connecting the computer to another device such as a cable modem or another router and seeing if it can connect to the Internet. If so, it could be a problem with the router assigning IP addresses and it would be easiest to reset the router.
+Hope this hepls! If not, post a comment with your error and I’ll try to help! Enjoy!

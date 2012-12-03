@@ -1,0 +1,39 @@
+discussion
+See also the web pages of Emmanuel Candes and Justin Romberg for slides and other material related to these papers.
+In order to clarify what is proved where, I have decided to make a little table of results.  All of the above results concern a measurement matrix A, of which we isolate five particular classes of interest:
+Random Fourier Ensemble: The signal is a      discrete function f on Z/NZ, and the measurements are the Fourier      coefficients at a randomly selected set Omega of frequencies of size M (M < N).  Thus A is an M x N matrix.
+Gaussian ensemble: A is an M x N matrix (M < N) whose coefficients      are iid Gaussian variables.
+Bernoulli ensemble: A is an M x N matrix (M < N) whose coefficients      are iid Bernoulli variables. 
+Adjoint Gaussian ensemble: A is an m x n matrix      (m > n) whose measurement coefficients are iid Gaussian variables. 
+These matrices can enjoy the following properties:
+Exact reconstruction principle (ERP): for almost all      S-sparse data f, one can recover f from Af by l^1      minimization of f.
+Deterministic ERP: The same as in ERP but for all S-sparse data f      rather than almost all.
+Noisy ERP: For all s-sparse data and for Gaussian error e, one      can with overwhelming probability recover f from Af+e by constrained l^1 minimization of f.
+Noisy deterministic ERP: For all S-sparse data      f and all small errors e, one can approximately recover f from Af+e by constrained l^1      minimization of f.
+Compressible reconstruction principle (CRP): For almost all      compressible (i.e. well approximated by sparse) data, the l^1 minimizer approximates the original solution.
+Deterministic CRP: The same as in CRP but for all compressible      data.
+Noisy deterministic CRP: For all compressible      data f and all small errors e, one can approximately recover f from Af+e by constrained l^1      minimization of f.
+Uniform uncertainty principle (UUP): for all S-sparse sets T, the columns of the matrix corresponding to T are almost      orthogonal.
+Adjoint UUP: There exists a      left-annihilator F of A (thus FA=0) which obeys the UUP.
+Deterministic adjoint ERP: One can recover x from Ax+e by l^1 minimization of e for all S-sparse e      and arbitrary x.
+One has the following results as to which matrices obey which properties, in rough chronological order:
+[Robust Uncertainty Principles…] The random      Fourier ensemble obeys the ERP with overwhelming probability if M >> S log N.  (A new proof of this has been given by Kunis and Rauhut, who also establish the same result      for OMP (orthogonal matching pursuit), and also permit the frequencies to      be sampled continuously rather than discretely.)
+[Near Optimal Signal Recovery …] The random      Fourier ensemble obeys the UUP with overwhelming probability if M >> S log^6 N.  (This has since been superseded by the results of Rudelson and Vershynin..  An earlier bound of M >> S log^3 N was      announced by us but the argument was incorrect.)
+[Near Optimal Signal Recovery …] The Gaussian      and Bernoulli ensembles obey the ERP and UUP with overwhelming probability      if M >> S log N.  (Gaussian results are superceded by Donoho’s work.  The arguments actually      only prove a weakened form of the UUP for the Bernoulli ensemble, but this      has been fixed by a later paper of Mendelson, Pajor, and Tomczak-Jaegermann.)
+[Near Optimal Signal Recovery …] ERP and UUP      together imply CRP.  (This result is superseded by the results of the      decoding paper.)
+[Donoho, For most      large … sparsest solution] The Gaussian ensemble obeys ERP and UUP      with high probability if M >> S log(N/S).
+[Donoho, For most      large … sparsest near-solution] The Gaussian ensemble obeys the CRP with      high probability if M >> S log(N/S).  (This is superseded by the decoding paper.)
+[Decoding by linear programming] UUP implies      deterministic ERP (and hence ERP).  UUP also implies deterministic      CRP (and hence CRP).  (This result is superseded by the results of      the stable signal recovery paper.)
+[Decoding by linear programming] The adjoint UUP implies deterministic adjoint ERP.
+[Decoding by linear programming] The adjoint Gaussian ensemble obeys the adjoint UUP with overwhelming probability if (m-n) >> S log(n/S).
+[Error correcting by linear programming] The adjoint Gaussian ensemble obeys deterministic adjoint ERP if (m-n) >> S log(n/S).  (Same result as in the decoding paper, but two new proofs and some      auxiliary results.)
+[Stable Signal Recovery …] UUP implies noisy      deterministic ERP (hence deterministic ERP and ERP) and noisy      deterministic CRP (hence deterministic CRP and CRP).
+[Dantzig selector] UUP implies noisy ERP      in which the risk is within a logarithmic factor of the ideal risk.  (This does not quite supersede the stable signal recovery paper because      the noise is Gaussian rather than adversarial.)
+[Rudelson-Vershynin,      Sparse reconstruction…] The Fourier ensemble obeys UUP if M >> S      log^5 N. The Gaussian ensemble obeys ERP if M > 12 S (1.5 + log N/S)      for N large.
+[Mendelson-Pajor-Tomczak-Jaegermann,      Uniform uncertainty principle…] The Bernoulli ensemble (or more      generally any sub-Gaussian ensemble) obeys the UUP with overwhelming      probability if M >> S log (N/S).   Two proofs are given,      one of which is slightly weaker quantitatively but is surprisingly      elementary.  Some refinements concerning deterministic CRP are then      given.
+[Dwork-McSherry-Talwar,      The price of privacy…]  The adjoint Gaussian ensemble implies noisy deterministic ERP if S < 0.239… m and      m/n is large.  Conversely, if S > 0.239… m then noisy      deterministic ERP fails no matter how large m/n is.  Similarly for      the adjoint Bernoulli ensemble (with slightly      different threshold).
+[Rauhut-Schnass-Vandergheynst,      Compressed sensing and redundant dictionaries] The UUP holds for      certain redundant dictionaries, in particular for compositions of a      deterministic matrix with a random one.  If the deterministic      measurements are recoverable by thresholding then the composed measurements are likely to be so also.
+Results similar to the ERP and CRP in the Fourier ensemble (but with semi-random measurements rather than random, and with a much faster algorithm) have also been obtained by Gilbert, Muthukrishnan, Strauss, et al.
+Short stories
+These are generally very short, toy versions of real results due to other people, and are not publication-quality.  Caveat emptor.  All files other than figures are in dvi format.  Unlike the preprints, these articles are fluid and subject to new developments.  Please let me know if you have any comments, references, etc. on any of them.
+Disclaimer: Many of the notes here are based on papers written by other people.  My intention here is not to try to "beat" these authors' work in any way, but rather to isolate the main ingredients of the argument, which are often very beautiful, and try to present them in as simple and brief a context as possible (often sacrificing generality, rigour, and/or details in order to do this).  Certainly I do not view these notes as worthy of publication in a refereed journal, and are definitely inferior to the original article in every single aspect, with the possible exception of brevity.

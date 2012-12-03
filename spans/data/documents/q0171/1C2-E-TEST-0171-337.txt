@@ -1,0 +1,2 @@
+This C# code snippet allows the user to retrieve the IP address of the Host PC.
+using System.Net; ... String strHostName  = Dns.GetHostName(); IPHostEntry ipEntry = Dns.GetHostEntry(strHostName); IPAddress[] addr    = ipEntry.AddressList;

@@ -1,0 +1,16 @@
+I think this implementation makes the most sense because I need to
+traverse the matrix both across rows and down columns -- the i-j-th
+cell of one matrix is calculated as the matrix-product of the i-th row
+by the j-th column of the other matrix.
+>
+First, does this sound like the right approach?  Any thoughts or other
+ideas would be most appreciated.
+It sounds reasonable if you access in the order you describe.
+I suggest separating the access routines so that the application code
+doesn't care what structure is being used for the sparse array.
+Following is an example of a header file that I would define if I were
+implementing such a 2D sparse array.  The interface doesn't rely on the
+structure used to implement the sparse array.  You could try different
+techniques for implementing the array without changing your application.
+Someone here has been known to provide links to a hash table library
+that could provide the basis for one implementation.  ;-)

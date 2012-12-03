@@ -1,0 +1,17 @@
+External Links
+Introduction
+Enlightenment, also known simply as E, is a free software/open source graphical interface system. It can provide an X Window System window manager for use with GNOME or KDE, or it can also be deployed as a substitute for a full desktop environment. Enlightenment has a rich feature set - extensive support for themes and advanced graphics without sacrificing good performance.
+The latest stable release of the software is version 0.16.8.5 . Version 0.17, also called DR17, is currently in development and is designed to be a full-fledged desktop shell based on the new Enlightenment Foundation Libraries (EFL). DR17 is a complete rewrite from DR16, targeted toward a range of platforms from embedded systems and mobile devices (including phones) to workstations.
+Installation
+It is relatively easy to install DR16 on Ubuntu as you can simply apt-get it.
+sudo apt-get install e16
+Go to the top right of your screen and in the User Switcher select Log Out. At Login Manger window choose: Options/Session > choose: Enlightenment.
+Enlightenment DR17
+sh -c 'echo "## Enlightenment e17 deb http://packages.enlightenment.org/ubuntu jaunty main extras" >> /etc/apt/sources.list'
+Download & import the key.
+wget -q http://packages.enlightenment.org/repo.key -O- | sudo apt-key add -
+Update the source list
+install E17
+sudo apt-get install e17
+Go to the top right of your screen and in the User Switcher select Log Out. At Login Manger window choose: Options/Session > choose: Enlightenment.
+Usage

@@ -1,0 +1,19 @@
+Finding the IP Address on Your Mac
+Using the Terminal
+Open the Terminal application, located at /Applications/Utilities/Terminal, and type “ipconfig getifaddr en0” for an ethernet connection, or "ipconfig getifaddr en1" for wireless, and press Return.
+Using the Network Utility
+Start the Network Utility application, located at /Applications/Utilities/Network Utility. Your local IP address can be found on the first page.
+If you are part of more than one local network, additional IP addresses can be found by selecting the appropriate Network Interface.
+[ edit ]
+Finding the IP Address on Your PC
+Click Start, then Run, and enter "cmd", and click OK. In the DOS-like window that appears, type "ipconfig” and press Enter.
+[ edit ]
+Finding Your External IP Address
+Each connection to the internet is assigned its own unique IP address which defines it as a part of the global network.
+Websites such as WhatisMyIP , myIPddress.com and IP Chicken provide a quick and easy way to determine your external IP address.
+[ edit ]
+Troubleshooting IP Addresses
+If you're behind a network, your IP address will probably begin with 192 or 10. These are valid numbers. However, if it begins with 169, or is 0.0.0.0, then there is a problem with your network configuration.
+[ edit ]
+Routers
+If you connect through a router, you often need to connect directly to the router itself. Routers usually have IP addresses of 192.168.1.1 or 192.168.0.1.

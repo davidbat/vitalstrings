@@ -1,0 +1,19 @@
+GPSSerial got an update
+June 24th, 2009
+Just a small post that we have released an update of GPSSerial which should fix some issues found on certain AppStore software and especially those issues which were stopping updating the GPS position and then making GPSSerial to crash. So now everything should work a lot smoother and your battery should not be drained anymore by GPSSerial when it is not used. We are aware that there is still a bug with the speedometer (which, sometimes, show 0 for the speed), especially with xGPS. We are working on this. In the mean time you can run your Cydia or Icy to fetch the latest GPSSerial number 1.1.
+Oh and by the way, don’t buy any costly GPS softwares that you can found now on the AppStore. The next gen. xGPS will certainly be better and even cheaper. More information about that soon.
+Thanks a lot for your support.
+External GPS become internal
+June 10th, 2009
+After some months of silence here is a small update of the project and a good news for external GPS holders.
+First let’s talk about the new software which will come out in some hours on Cydia: GPSSerial. The goal of this software is to allow external GPS to be used in any AppStore applications. After having installed the software, your external GPS will be seen as if it is the iPhone 3G internal GPS. It will thus allow you to use any AppStore applications that require GPS along with your external GPS. With the GPSSerial package comes a little utility, called with the same name, which allow you to configure which GPS is attached to your device (like in xGPS). You have also the possibility to select the iPhone GPS, which, in this case, use the normal iPhone 3G GPS or cell-towers triangulation if it is unavailable. Please note that if you want to use xGPS along with GPSSerial, you have to select “iPhone 3G GPS” in xGPS. Also the Maps application is not affected by GPSSerial and thus still use the iPhone 3G GPS if available.
+You must know that this application is still in its early stage and thus many bugs can still be found. You must also know that this software works best on firmware 2.2.1. We haven’t tested it on all the firmware but if you encounter any problem ,please upgrade to this firmware. We have set up a new forum in order to discuss problems you may found in the package. It can be accessed here:
+If you find that an application is not compatible with GPSSerial, please do the following:
+Using Cydia, install the package named “syslogd to /var/log/syslog“
+Set up the correct GPS using the GPSSerial utility, plug in your GPS.
+Start the incriminated application and wait for the problem to appear (i.e. crash or no position)
+Post the file /var/log/syslog on the aforementioned forum with the application name, the iTunes AppStore link and the firmware version you are runnin on.
+We will then try to debug our application to make it run with more and more AppStore products.
+Now, concerning xGPS itself. The project is not dead
+. However we haven’t had a lot of time these last months to work on it. That’s why you haven’t heard a lot about it. However we have made some progress for the 2.0 release. Vectorial map drawing now work, we have even offline routing working. It is still in a early test stage and nothing is yet fully functional but as soon we get something stable and usefull we will keep you updated. One thing you must know is that the next version of xGPS will be published on the AppStore only. As we will not have the maps constraint anymore, we are then fully agreeing to the Apple’s conditions. We haven’t yet decided about the price of such an application. However we would like to make two versions, where one would be free.
+Thank you all for your support and keep reading this blog in the following weeks. Great things will come.

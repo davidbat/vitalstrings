@@ -1,0 +1,34 @@
+Change your IP Address to the U.S.
+How to get an American IP address   (by iPrivacyTools )
+WHY WOULD YOU WANT TO CHANGE TO AN IP ADDRESS IN THE UNITED STATES?   Well, perhaps:
+You are an American citizen wishing to access American websites as if              you're at home.
+You are an Internet entrepreneur wanting to review your marketing              campaigns in the US.
+You are learning English and desire to surf the Internet as if you              are located in the United States.
+You are an American traveler and your bank only allows online access from            within the US.
+Etc, etc, etc.
+First, a legal note:
+We are not lawyers, and we do not have the resources to answer questions            about whether any method on this page will allow you access to a particular            website. There are many "grey" areas (e.g. Does an American            citizen with a physical server located in their own country have the            right to access otherwise restricted services? Or does an American            soldier have the right to view their online bank account, or watch a            sporting event in his or her home country, while stationed overseas?).            These issues will vary from website to website, and country to country.            The fact is that if a website is absolutely serious about blocking all            and every non-local visitor, they'll be able to do so. Given the plethora            of websites that restrict geographic access to some degree, it is up            to you to get permission, read the terms of use, consult with a legal            advisor, or do whatever else it takes to determine whether or not you            are acting within a website's acceptable use policy by utilizing any            of the information or options listed on this page.
+OPTION #1 to change IP address to the US: Web Proxies
+Web proxies are simply websites that relay your Internet requests.            You will typically go to the website that hosts the web proxy, enter            the URL that you want to access, and the website will then display the            requested page in a frame. If effective, the website visited will only            see the IP address of the web proxy, and not your own.
+POSITIVE: They're usually free, and            their speed is usually tolerable.
+NEGATIVE: They are often ad supported,            so you'll encounter a lot of popups; They may not be compatible with            certain protocols, such as video or SSL; Relay of your personal/private            information is usually not secure, so you should not enter any passwords            or financial info; They are easily broken (meaning your IP may be exposed            via popups, etc)            .
+To give it a try, do a Google search for "US            web proxy".
+OPTION #2: Free HTTP Proxy Servers
+HTTP Proxies are also a type of relay service, but they are accessed            by configuring your web browser rather than by typing a URL into a website.            If setup to be "anonymous", the websites you visit will only            see the IP address of the HTTP proxy, and not yours.
+POSITIVE: They're not as easy to break            as web proxies, because even popups that appear in your browser will            have to go through the relay; No ads will appear.
+NEGATIVE: They are often not compatible with SSL, so they're not safe for logging into membership            sites, accessing email, or making purchases; They often run very slowly            (perhaps due to overuse); It's difficult to know who is operating the            relays and whether they might want to intercept your             data. Read more
+To give it a try, check out our tutorials for Internet            Explorer , Firefox , and Safari .
+OPTION #3 to Get an IP address in the United States: Paid Proxies
+If you need a reliable Internet connection through an IP address in            the U.S., you're probably going to end up spending at least a little money.            While there are some free options, mentioned above, subscribing to a            fee-based service will give you an incredibly more convenient and secure            means of accomplishing your objective.
+As with the previous options, a paid proxy will also route your web            requests through a server in the US (that's the only practical way to            appear that you're surfing with an American IP address). However, the few            advantages mentioned below make the process a lot more logical for most            purposes.
+POSITIVE: Faster and more reliable than free options; SSL compatible,            so you can safely access membership sites, email, shopping sites, and            more.
+NEGATIVE: They are only compatible with            your web browser (but of course that is what most people need to change            their IP address for); They cost money.
+If you'd like to give it a try, just visit this page .
+OPTION #4 for getting an American IP address: VPN Service
+VPN, which means "Virtual Private Network", is a secure method            of connecting to a remote network, such as logging into an office server            from your home. If the VPN is setup to do so, it can also act as a relay            for web requests (not unlike a proxy), and be your virtual IP address            in the United States. There are some distinct advantages that a VPN has over a            proxy, most notably the ability to relay data for most Internet applications            without special configuration.
+POSITIVE: Works with most programs that            access the Internet (browsers, chat programs, email clients); Can be            configured to encrypt your Internet traffic (which makes activities            like public WiFi connections more secure).
+NEGATIVE: Typically a little higher            priced than proxy services.
+If you're interested in VPN, we currently feature two services:
+Standard VPN service on shared IP addresses              in the U.K. or U.S. for $10 per month.
+Deluxe VPN service on a private IP address              in the U.K., U.S., Australia, Canada, France, Germany, Netherlands,    Spain, or Switzerland for around $15 per month. Please inquire for pricing in other countries.
+ 

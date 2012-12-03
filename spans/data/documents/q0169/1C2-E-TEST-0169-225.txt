@@ -1,0 +1,17 @@
+: Sparse (15)
+Open Directory - Computers: Programming: Languages: Fortran: Source Code: Linear Algebra: Sparse
+BILUM - Code by Yousef Saad and Jun Zhang to solve general sparse linear systems by using Krylov subspace methods preconditioned by some multi-level block ILU (BILUM) preconditioning techniques.
+DarkStar Software Spinoff - Includes a block-band matrix solver and a Fortran 90 makefile with corresponding dependency generator. By Udo Grabowski.
+ITPACK - Collection of Fortran 77 subroutines for solving large sparse linear systems by adaptive accelerated iterative algorithms.
+MINRES: Sparse Symmetic Equations - Solves sparse linear equations using a conjugate-gradient type method.
+MUMPS: A Multifrontal Massively Parallel Sparse Direct Solver - Fortran 90 package for solving linear systems of equations of the form A*x = b, where the matrix A is sparse and can be either unsymmetric, symmetric positive definite, or general symmetric. Released in the public domain. Includes documentation, related publications, and an FAQ.
+NIST Fortran Sparse BLAS - Provides computational kernels for fundamental sparse matrix operations.
+NSPCG - Fortran 77 subroutines for solving large sparse linear systems by adaptive accelerated iterative algorithms.
+OptimQR - The optimqr program will read a description of the sparsity pattern of some system matrix for system of linear equations. It will then apply heuristic branch and bound search to find a near-optimal ordering of the rows and columns of the system matrix. The ordering is written to disk. The codegen.pl program can then read the system ordering, and create a solver written in Fortran 77, that will solve the system using sparse QR factorization (using Givens rotations).
+PROPACK - Software by Rasmus Munk Larsen for large and sparse SVD calculations, with versions in Fortran and Matlab.
+SMLIB - Fortran 90 modules by Ernst Meese for the compressed sparse row (CSR) and the modified sparse row (MSR) data storage formats, a very general incomplete LU factorisation routine, the Krylov subspace solvers CGS, BiCGSTAB and GMRES.
+SMMP - Fortran 77 code for sparse matrix multiplication, transposition, and format conversion.
+SVDPACK - Comprised of four numerical (iterative) methods for computing the singular value decomposition (SVD) of large sparse matrices using double precision Fortran 77.
+SYMMLQ: Sparse Symmetic Equations - Solves a set of sparse, symmetric linear equations using a conjugate gradient type method.
+Systems Optimization Laboratory - Code for sparse linear equations (symmetric or general) and sparse least squares, and updating a dense square factorization L C = U.
+Y12m - Fortran 77 code that solves sparse  systems  of  linear  algebraic equations by Gaussian elimination.

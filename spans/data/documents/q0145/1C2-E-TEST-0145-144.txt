@@ -1,0 +1,66 @@
+Annual Percentage Rate
+APR can be defined as "the yearly cost of a loan"  expressed as a percentage."
+The APR includes, as a percent of the principal, not  only the interest that has to be paid  on a loan, but also some other costs.
+Mortgage loans - The APR usually includes the "points" and may include title fees, escrow fees.  For more information, on mortgages and related fees, click here.
+Credit card debt - The APR is the annual interest rate  you will be expected to pay if you carry over a balance,  take out a cash advance, or transfer a balance from another card. For more information, on credit cards and related fees, click here.
+Periodic Rate
+Because “APR” is the abbreviation for annual percentage rate,  and because credit card issuers send out their bills monthly,  they do not use the APR to calculate the finance charges you  owe in a given billing cycle.
+Instead, they use what’s called the periodic rate. This is the APR  divided by 12 (as in 12 months). So if your card has an APR  of 12 percent, the periodic rate would be 1 percent.
+That explains why you’ll see periodic rate for new charges  on your credit card bills, along with the APR for your  outstanding balance.
+APY
+Annual Percentage Yield
+APY is defined as "the effective annual return. The APY is  calculated by taking one plus the periodic rate raised to the  number of periods in a year. For example, a 1%-per-month rate  would offer an APY of 12.68%."
+Most interest compounds much more often than once a year.  Typically, it's more like monthly, weekly, or daily.
+More information about compounding interest , below.
+Simply put, the difference between APR and APY is that APR is the annual rate of interest without taking into account the effects of compounding.
+APR Formula:   APR = Periodic Rate x Number of Periods in a Year
+Example: A credit card company charges 1% interest each month.  What is the APR?
+1% x 12 months = 12% - Answer
+EXPLANATION:
+As mentioned above the APR differs from APY, which takes into account compound interest.  The APY for a 1% rate of interest compounded monthly would be  [(1 + 0.01) / 12 – 1 = 12.68%] 12.68% a year. If a credit card borrower only carries a balance  on their credit card for one month's period they will be charged the equivalent yearly  rate of 12%. However if they carry that balance for the year, the effective interest  rate becomes 12.68% as a result of the compounding each month.
+APY Formula:   APY = (1 + APR / n) n – 1
+n = the number of compounding periods
+Example: You open a savings account with $1.000  at a bank that pays 5% APR.  (You do not add or subtract any money from that account.) How much would you have at the end of one year?
+APY = (1 + .05 / 365) 365 – 1
+APY = (1 + .00137) 365 – 1
+APY = 1.00137365 – 1
+APY = 1.051267 – 1
+APY = 051267 or 5.1267% - Answer
+Banks prefer to quote APY to individuals who want to open savings accounts or CD's since it looks better.
+APR and APY - Converting Back and Forth Using a Spreadsheet
+It’s very simple to do with the aid of Microsoft Excel or Open Office Calc, the very fine freebie spreadsheet software program.  The Open Office software is available here .
+Converting APR To APY
+Useful for evaluating how much you’re actually paying on credit card debt.
+In cell A1, type APR
+In cell A2, type # times a year
+In cell A3, type APY
+In cell B3, type =(1+B1/B2)^B2-1
+... Or as an alternative: Use the "Power" function.  Type =POWER((1+(B1/B2));B2)-1
+Next,
+Type the desired APR value into cell B1.
+Type the number of times a year the interest is compounded into B2.
+(Usually, it's daily for a credit card.  If so, type in 365).
+The APY will appear in B3.
+Format cell B3 as a "percentage".
+(To accomplish that, just right click on B3, click the "Format Menu",
+then "Cell" and then select "Percentage".)
+Converting APY To APR
+Useful for figuring out how much a savings account is really paying you.
+In cell A1, type APY
+In cell A2, type # times a year
+In cell A3, type APR
+In cell B3, type =((1+B1)^(1/B2)-1)*B2
+Next,
+Type the desired APY value into cell B1.
+Type the number of times a year the interest is compounded into B2.
+(Usually, it’s monthly.  If so, type in 12).
+The APR will appear in B3.
+Format cell B3 as a "percentage".
+(To accomplish that, just right click on B3, click the "Format Menu",
+then "Cell" and then select "Percentage".)
+TOP
+Compound Interest
+Compound interest is interest which for each successive interest period is figured on a base that represents the original principal plus all the interest that has accrued in previous interest periods.  In other words, compounding interest means that, in addition to the principle in an account, the interest earns interest.
+To compute compound interest add the interest for each period to the principal before figuring the interest for the next period.
+Example: What is the compound interest on $5000 for 4 years at 6% compounded annually?
+$5000

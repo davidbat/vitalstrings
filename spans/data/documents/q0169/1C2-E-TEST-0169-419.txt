@@ -1,0 +1,59 @@
+C++ Solvers for Sparse Systems of Linear Equations
+C++ Solvers for Sparse Systems of Linear Equations
+Purpose
+Solve a n-dimensional problem Ax=b up to a residual of  |Ax-b| < eps*|b|  (A matrix; x,b vectors).
+General
+This package contains easy-to-use functions for approximately solving sparse systems of linear equations by implicit methods, written in C++. For making most efficient use of the sparsity pattern and the spirit of implicit solvers, the user has to provide the application of the matrix to vectors; he is absolutely free in designing his matrix.
+For performance reasons, the (highly optimized) BLAS (Basic Linear Algebra Subroutines, levels 1 and 2) are used. So you have to link the appropriate lib's, e.g. under IRIX this means adding '-lblas -lftn' to your linker line (-lftn is needed for linking the Fortran lib, since the BLAS is written in Fortran).
+Note: Usually, the solver is dominated by the matrix-vector product, so optimizing the (user-provided) matrix-vector multiplication is much more important than optimizing the solver itself.
+Implemented Functions
+CG method by Hestenes and Stiefel (function name: cghs)
+CGS (also called BICGsq) by Sonneveld (function name: bicgsq)
+BICGstab (function name: bicgstab)
+GMRES(m) by Saad and Schultz (function name: gmres)
+Note: cghs can only be applied to spd problems, whereas bicgsq, bicgstab, and gmres(m) can also be applied to non-symmetric or indefinite problems.
+Include Files
+Each solver has its own header file:
+cghs:          #include "lsolver/cghs.h"
+bicgstab:    #include "lsolver/bicgstab.h"
+gmres(m):   #include "lsolver/gmres.h"
+So, you only have to #include the appropriate header file and additionally link the BLAS (and possibly the Fortran-lib if that is needed for the BLAS-lib). Note that no lib is needed for the solvers themselves - they are defined inline in the header files.
+Function Call
+The implemented functions are used for solving Ax=b, where A,x,b have the dimension n. The iteration stops  when the residual satisfies |Ax-b| < eps*|b|, where by |...| we mean the norm induced by the standard scalar product in Rn. The number of iterations is returned.
+There are different versions of cghs, bicgsq, and bicgstab:
+cghs(n,A,b,x,eps)            --   without preconditioner
+cghs(n,A,b,x,eps,true)       --   without preconditioner, show residual after each iteration
+cghs(n,A,C,b,x,eps)          --   with preconditioner
+cghs(n,A,C,b,x,eps,true)     --   with preconditioner, show residual after each iteration
+Corresponding calls are applicable for bicgsq and bicgstab. For gmres there is no preconditioned version implemented, so there are just the calls:
+gmres(m,n,A,b,x,eps);
+gmres(m,n,A,b,x,eps,true);   -- show residual after each iteration
+int m:       number of (inner) iterations until restart (only for gmres)
+int n:       dimension
+A:           user-supplied matrix, of arbitrary type
+C:           user-supplied preconditioning matrix, of arbitrary type (only for preconditioned version)
+double *b:   vector being solved
+double *x:   before call: start vector for iterations, after call: approximate solution of Ax=b
+double eps:  stopping criterion (see above)
+m, n, A, C, b, eps are not changed
+What you have to define
+The matrices A and C (C is the preconditioning matrix) can be of arbitrary type, but a matrix-vector multiplication w=Av must be implemented by the user:
+struct MyMatrix {
+    /* ... your implementation of the matrix ...            */
+};
+void mult( const MyMatrix &A, const double *v, double *w ) {
+    /* ... your implementation of the multiplication ...    */
+}
+E.g. for a tridiagonal matrix, you can define:
+// first the struct for the matrix
+struct TriDiagMatrix {
+    double *b, *a, *c;       // the three diagonals
+};
+// then we need the multiplication to a vector
+void mult( const TriDiagMatrix &T, const double *v, double *w ) {
+    //  disregarding the special cases for w[0], w[n-1]
+    for ( int i=1; i<n-1; ++i )
+        w[i] = T.b[i]*v[i-1] + T.a[i]*v[i] + T.c[i]*v[i+1];
+}
+// now the call is very easy ...
+#include <cghs.h>

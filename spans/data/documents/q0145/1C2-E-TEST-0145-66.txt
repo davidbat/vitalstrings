@@ -1,0 +1,23 @@
+   
+Code to add this calci to your website
+Just copy and paste the below code to your webpage where you want to display this calculator.
+<iframe src="http://www.easycalculation.com/embedded_compound-interest.php" width="400" height="500" frameborder="0"></iframe>
+Formula:
+Total Amount = Principal + CI (Compound Interest)
+a. Formula for Interest Compounded Annually
+         Total Amount = P(1+(R/100))n
+b. Formula for Interest Compounded Half Yearly
+         Total Amount = P(1+(R/200))2n
+c. Formulae for Interest Compounded Quarterly
+         Total Amount = P(1+(R/400))4n
+d. Formulae for Interest Compounded Annually with fractional years (e.g 2.5 years)
+         Total Amount = P(1+(R/100))a×(1+(bR/100))
+         here if year is 2.5 then a =2 and b=0.5
+e. With different interest rates for different years
+Say x% for year 1, y% for year2, z% for year3
+         Total Amount = P(1+(x/100))*(1+(y/100))*(1+(z/100))
+where CI = Compound Interest, P = Principal or Sum of amount, R = % Rate per annum, n = Time Span in years
+Online Compound Interest Calculation. Calculating Compound Interest, Principal, different Rate of Interest for annual, half yearly, quartely and for fractional years are made much easier.
+About Easy calculation
+FREE Online Mathematics tools (convertor or calculater) are intended to make the calculation and conversion of math or logical or arithmetic problems and give simple solutions.   These mathematics tools will also help you in learning and creating math problems. These are free tools, tutorials and are copyright materials.     If you find any error or issue in calculating maths or converting things, please get in touch with us @ support@easycalculation.com
+Convert and Calculate - Maths Calculation and Conversion - An easy learning curve.

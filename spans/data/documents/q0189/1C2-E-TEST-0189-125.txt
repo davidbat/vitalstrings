@@ -1,0 +1,38 @@
+[self alertNotice:@"" withMSG:[NSString stringWithFormat:@"devToken=%@",deviceToken] cancleButtonTitle:@”Ok” otherButtonTitle:@”"];
+}
+NSLog(@”Error in registration. Error: %@”, err);
+[self alertNotice:@"" withMSG:[NSString stringWithFormat:@"Error in registration. Error: %@", err] cancleButtonTitle:@”Ok” otherButtonTitle:@”"];
+}
+-(void)alertNotice:(NSString *)title withMSG:(NSString *)msg cancleButtonTitle:(NSString *)cancleTitle otherButtonTitle:(NSString *)otherTitle{
+UIAlertView *alert;
+alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:self cancelButtonTitle:cancleTitle otherButtonTitles:nil,nil];
+else
+alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:self cancelButtonTitle:cancleTitle otherButtonTitles:otherTitle,nil];
+[alert show];
+[alert release];
+}
+Please be careful with the error reporting part in the code as error tell a lot about the development state.
+Right click on the application in target in the left and click Get Info to configure the application. Click on property tab and paste your App ID in the identifier text-field.
+Click build tab, select debug and select your new provisioning profile.
+Click Device 3.0 and Build Go to distribute binary to your connected device.
+Starting the application it should first alert and message that it registering for notification. Followed by and alert the application is registering for notification allow or deny. Followed by an alert that displays the device token ID. Note this token as this will be used by your server code to communicate with your device. If the second message is error then either something has gone wrong with the certificate and your application cannot register your certificate start over again.
+Getting ready with Notification service provider.
+Download an stand alone MAC application ( PushMeBaby http://stefan.hafeneger.name/download/PushMeBabySource.zip ) to test. There are two  modification in the application to get started.
+Place an copy of the aps_developer_identity.p12 file in the application folder. Import the file in the application by right clicking and Add > Existing File.
+Set the following in the application’s delegate file as shown below
+self.deviceToken = @”XXXXX XXXXX XXXXX XXXXXX XXXXXX”;
+//First your device id token.
+self.payload = @”{\”aps\” : { \”alert\” : \”You got your emails.\”,\”badge\” : 9,\”sound\” : \”bingbong.aiff\”},\”acme1\” : \”bar\”,\”acme2\” : 42}”;
+//The pay load
+self.certificate = [[NSBundle mainBundle] pathForResource:@”aps_developer_identity” ofType:@”cer”]; //The certificate file.
+Don’t depend on the application’s text-field as it doesn’t work.
+Start the application and you will get a message the application is trying to access your key , click ‘Allow’. Click Push in the application window. Wait for a 20 seconds and you should immediately get an notification on your iPhone / iTouch.
+Getting ready with test code for actual provider sever (PHP).
+For server on linux environment you will require different kind of certificate. Following are the steps to create it. Use MAC console to fire the following commands.
+openssl pkcs12 -clcerts -nokeys -out cert.pem -in Certificate.p12
+provide new password if asked.
+openssl pkcs12 -nocerts -out key.pem -in Certificate.p12
+provide new password if asked.
+cat cert.pem key.unencrypted.pem > ck.pem
+Create an PHP file provide.php
+$message);

@@ -1,0 +1,14 @@
+i = Interest Rate per Period n
+n = Number of Periods
+Compound Interest Calculations:
+The basic calculation for this calculator  finds A, the final Investment Value,  using the basic compound interest formula: A = P(1 + i)n where P is the Principal amount of money to be invested at an Interest Rate i% per period for n Number of Time Periods.
+Be sure to enter the interest rate per period. For example, if the stated annual rate is 5% and you are compounding monthly then the rate per period is 5% / 12 = 0.417% per period. (the effective interest rate is 5.12%)
+Compound Interest Formulas:
+Find Final Investment Value given Principal, Interest and Number of Periods
+A = P(1 + i)n
+Find Interest given Principal, Final Investment Value and Number of Periods
+i = (A / P)1/n - 1
+Find Principal given Final Investment Value, Interest and Number of Periods
+P = A / (1 + i)n
+Pop up Compound Interest Calculator
+Get this free online  calculator for my website! Try it: Compound Interest Calculator .

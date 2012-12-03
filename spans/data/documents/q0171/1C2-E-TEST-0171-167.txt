@@ -1,0 +1,11 @@
+Re^2: Generate Random IP Addresses
+by fizbin (Chaplain) on Sep 07, 2004 at 14:03 UTC
+If you need to make sure the address has certain properties (like "class-B, private address space"), then your task is harder.
+But not really by much.  Any common address space allocation can be described by a netmask and a sample address.  So, then, you just do this:
+# for 192.168.*.* my @netmask_a = qw ( 255 255 0 0 ); my @sample_a  = qw ( 192 168 0 0 ); my $netmask = unpack("N", pack("C*", @netmask_a)); my $sample = unpack("N", pack("C*", @sample_a)); my $addr = int rand(2**32); $addr &= ~ $netmask; $addr ^= $sample; # Dotted quad form: my $dottedaddr = join(".", unpack("C*", pack("N", $addr)));
+[download]
+If you wanted to be a bit more efficient, you might adjust the "32" in the rand line based on how many bits of randomness you actually need, but I'm not actually sure that buys you anything, and it hurts maintainability when you forget to switch it back when you're looking through a larger address range.  If you're really hurting for efficiency, and have this in a tight loop, compute $netmask and $sample from the arrays outside the tight loop, and pass both in, as in:
+sub rand_addr ($$) {   my ($netmask, $code) = @_;   my $addr = int rand(2**32);   $addr &= ~ $netmask;   $addr ^= $sample;   $addr; }  # for 192.168.*.* my @netmask_a = qw ( 255 255 0 0 ); my @sample_a  = qw ( 192 168 0 0 ); my $netmask = unpack("N", pack("C*", @netmask_a)); my $sample = unpack("N", pack("C*", @sample_a));  my @newaddrlist =   map { join(".", unpack("C*", pack("N",$_))) }   map { rand_addr($netmask,$sample); } ( 1 .. 5678 );
+but for anything other than intrusion test systems, I can't imagine why efficiency would be important.
+Note that none of this code has been tested, but it all looks vaguely right.
+-- @/=map{[/./g]}qw/.h_nJ Xapou cets krht ele_ r_ra/; map{y/X_/\n /;print}map{pop@$_}@/for@/

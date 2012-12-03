@@ -1,0 +1,14 @@
+SPARSKIT-CCA at Masha Sosonkina's homepage
+SPARSKIT-CCA: A suite of sparse matrix computations  as  components of Common Component Architecture
+SPARSKIT,  developed in the 90s by Yousef Saad at the University of Minnesota, is a basic toolkit for sequential sparse matrix  computations  and is widely used in scientific community. Written in Fortran 77 and having a cumbersome interface, it is considered, a legacy code. Our objective is to enable its wider usage in modern applications and to facilitate further development of SPARSKIT. By applying an object-oriented style of design, we have created a package that can be accessed by many different object-oriented programming languages. There is also the possibility of writing extensions in these languages. The interoperability problem has been addressed using Babel tool from LLNL, which enables the specification of SPARSKIT interfaces in an Interface Definition Language called SIDL.  The component interfaces (called Ports) are defined according to Common Component Architecture (CCA) specification.
+Acknowledgments
+The work is supported by the Department of Energy.
+Project Team
+Masha Sosonkina, Scientist, Ames Laboratory
+Dane Coffey, student, Department of Electrical and Computer Engineering, Iowa State University
+Papers and Presentations
+M. Sosonkina, F. Liu, and R. Bramley, Usability levels sparse linear algebra components , Concurrency and Computation: Practice and Experience, 20 (2008), pages 1439--1454.
+J. Jones, L.Liu, and M. Sosonkina Granularity of Component Interfaces for Iterative Linear Algebra , HPC-GECO/CompFrame 2006 Workshop, June 19-20, Paris, France, 2006.
+J. Jones, M. Sosonkina, and Y. Saad Component-based iterative methods for sparse linear systems , Concurrency and Computation: Practice and Experience, 19 (2007), pages 625--635.
+J. Jones and M. Sosonkina SPARSKIT CCA Component , Compframe 2005 Workshop, June 22-23, Atlanta GA, 2005.
+Downloads and links

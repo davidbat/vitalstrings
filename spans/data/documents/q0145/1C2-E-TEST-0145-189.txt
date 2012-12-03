@@ -1,0 +1,14 @@
+Simple Interest and Compound Interest
+In this lesson you will learn about simple interest and compound interest.
+Whenever you want to borrow money from a bank, you have to pay interest at a certain percent rate. The main difference between compound and simple interest is the fact that the simple interest is paid only on the principal, while the compound interest is paid on both the principal and the accumulated interest The simple interest is given by the following formula:
+I=PRT
+where P is the principal (the initial amount of money), T is the time in years, I is the interest earned, and R is the interest rate per year.
+For instance, if you borrow $2000 at 6% interest for 2 years, you have to pay the following simple interest:
+I= PRT=2000 x 6% x 2 = $240
+If you borrow the same amount of money ($2000), at the same rate (6%), and for the same length of time (2 years), this is how you can find the compound interest:
+At the end of the first year, the interest will be
+Interest year 1 = 2000 x 6% x 1 = $120
+Add $120 to the initial principal ($2000), to find the new principal for the second year: $2120
+The interest at the end of the second year will be:
+Interest year 2 = 2120 x 6% x 1 = $127.20
+Therefore, the total compound interest at the end of the two years is $120 + $127.20 = $247.20

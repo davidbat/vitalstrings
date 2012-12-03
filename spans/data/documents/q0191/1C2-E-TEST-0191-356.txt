@@ -1,0 +1,64 @@
+−
+4
+of the total inventory (see AVR Quarterly Progress Reports 1987 and 1988 in [ 15 ]). Even the Cs-releases of VII-03 and VII-04 at 700
+∘
+C
+can be explained by defect particles and uranium contamination only, if a complete Cs release out of these fractions is assumed, which is unlikely. Accordingly, diffusion through intact coatings has contributed here, too. Mainly unintentional high core temperatures (see Section 6.2 ) have caused these high rates [ 6 ].
+Absolute activity values of the cold-gas filter are also assumed to be too low due to deposition along a 30 m pipe guiding to the filter. Comparison of cold-gas filter data with those of the dust filter (10 m pipe length) indicates an average underestimation by a factor of 2 with a large uncertainty scatter.
+Activities deposited in the cold-gas filter were mainly found in dust except of iodine. The dust filters in AVR cannot distinguish between molecular activities sorbed on dust present in the filters, or already reach the filter bound on dust. However, the dust concentration in these filters is so small (some mg) that a large sorption effect of molecular activities on dust has not to be expected. Most probably Cs occurs in molecular form in AVR hot gas but dust borne in the cold gas.
+3.3. Deposition of Nuclides per Pass in Normal Operation
+On basis of the data shown in Figure 4 , the deposition degree
+𝛼
+of Cs in the steam generator region was calculated.
+𝛼
+is shown in Figure 5 depending on hot gas temperature. There is some tendency of
+𝛼
+-increase with increasing hot gas temperatures; one reason for that might be that at higher hot gas temperatures, the flow velocities are smaller and therefore the residence times of the coolant in the deposition range are larger. An average deposition degree of about 0.85 is found. However, consideration of experimental errors as estimated in Section 3.2 for VAMPYR-I and for the cold-gas filter will enlarge average
+𝛼
+-values to about 0.95. Table 3 contains some estimates on
+𝛼
+for relevant nuclides as found in AVR 1982 to 1984 [ 7 ].
+Figure 5: Deposition degree
+of gas borne Cs-137 activity (
+𝐴
+) per pass of coolant.
+Computer simulations based on laboratory scale plate out measurements on metals with codes like SPATRA [ 14 ] lead to much higher Cs-deposition degrees (
+𝛼
+greater than 0.99), if no bypasses are considered. The deposition rate is controlled by mass transfer in the boundary layer, except for the hottest part of the steam generator, where an ad/desorption equilibrium is reached. Similar results are obtained, even if very low deposition parameters—as derived in Section 4.2 from VAMPYR-II-data—are taken into account. This discrepancy can only partly be explained by steam generator bypass flows. A similar overestimation of
+𝛼
+in deposition calculations was found for several other nuclides in AVR and also in other HTR-reactors like DRAGON. Here, experimental
+𝛼
+-values for I-131 as low as 0.25 are reported [ 16 ], whereas the Cs-deposition was similar to AVR. A very low
+𝛼
+for I-131 was observed also in the COMEDIE loop [ 17 ]. This indicates that fission product chemistry (i.e., the chemical form of the nuclides is not the elemental one) and/or particularly in case of pebble-bed reactors the nuclide interaction with dust may play a relevant role in the overall deposition behavior , as is discussed in Sections 4 and 5 . Overestimation of
+𝛼
+underestimates the steady-state gas-borne activities.
+The
+𝛼
+-value of Sr-90 in AVR (1973-1974) was estimated to less than 0.5. This may be due to the very strong affinity of Sr to dust. However, Sr-90 measurements in VAMPYR-I are not available from mid of 1974 when Sr-90 measurements were replaced by those of Eu-154, which creates some errors. In addition, as will be discussed in Section 5, the dust sampled by the cold-gas filter and by the dust filter contains not only the activities released in the sampling phase but to some extent also activities from prior release periods. This holds particularly for Sr-90.
+4. AVR Experiments on Plate out of Condensable Nuclides on Metals
+4.1. Experimental Results
+The main facility for generation of fission product plate out data in AVR was VAMPYR-II (Figure 1 ), which contained an annular plate out section. The inner slab consisted of Inconel617, whereas the tube was made from Incolloy800H. The total length of the plate out section was about 3.5 m, the diameter of the slab was 9 mm and the inner diameter of the tube was 16 mm. Gas heating allowed operation at similar temperature conditions. Nevertheless, the gas inlet temperature of individual experiments (see Figure 9 ) varied slightly from 765 to 810
+∘
+C
+depending on the average hot gas temperature which is given in Table 2 . Maximum wall temperatures of the plate out section were between 660 and 725
+∘
+C
+. A temperature gradient along the length of the plate out section of about 100 K/m was maintained by heaters. In contrast to VAMPYR-I, VAMPYR-II was installed in a range without strong activation by neutrons. There were 4 plate out experiments performed in VAMPYR-II; their duration was between 1 and 2 months. Main nuclides examined in VAMPYR-II were Cs-134, Cs-137, Ag-110 m, and Co-60. Some limited data on I-131 are available for the first VAMPYR-II experiment. Two of the VAMPYR-II experiments (2 and 4) were equipped with a dust filter upflow of the plate out section. Experiments 3 and 4 contained a dust filter downflow. Also, all experiments contained a so-called fission product filter behind the plate out section or the second dust filter, which however did not work properly [ 14 ].
+A general result of all VAMPYR-II experiments was that Ag-110 m behaves as expected from classic plate out theory, which means ad/desorption equilibrium at high temperatures and mass transfer-controlled plate out at low temperatures which means that the plate out section acts at low temperatures as a perfect sink [ 14 , 18 ]. Figure 6 contains as an example the deposition profile of Ag-110 m in Experiment 4 on Inconel617 together with postcalculations. A physical explanation of the plate out model, used, for example, in the SPATRA plate out code, is discussed in ANNEX I of [ 2 ].
+Figure 6: Measured and calculated plate-out profile for Ag-110 m on Inconel617 (VAMPYR-II).
+Model calculations with a desorption energy of 240 kJ/mol easily fit the measured profile. An upper limit of a “penetration coefficient" of
+1
+−
+6
+(see [ 14 ] and annex I of [ 2 ]) was extracted from these experiments too. The penetration coefficient takes volume effects as absorption in the metal bulk into account. Profiles of similar shape were obtained in the other three VAMPYR-II experiments. Additional post examinations on the removal of plated out Ag-110 m by water leaching were performed and are presented in Figure 6 too. Only a few percent of the plated out activity can be removed by water leaching, that is, decontaminations are not easy to perform. This is a relevant finding particularly for maintenance and repair work in direct cycle facilities, where plated out Ag-110 m belongs to the dose-determining nuclides (see Section 4.3 ).
+The more surprising output of VAMPYR-II is connected to cesium: in all VAMPYR-II experiments, virtually flat (temperature independent) deposition profiles were observed, connected to a very low deposition degree in the plate out section as shown in Figure 7 . This deposition behavior  can be interpreted by a low desorption energy in conjunction with a penetration coefficient of
+1
+−
+5
+, but one has to bear in mind that laboratory scale experiments on Cs-plate out like LAMINAR-Loop [ 19 ] led to completely different results. Figure 7 also contains a postcalculation of Cs-plate out using parameters measured in laboratory scale experiments, which obviously do not fit to the VAMPYR-II results. This also may be taken as an indication that Cs does not occur in elemental gaseous form in the AVR. Taking that into account, there are two explanations on this deviating Cs-behavior:
+Figure 7: Cs plate out in VAMPYR-II compared to calculations.
+Figure 8: Activity distribution in VAMPYR-II-04.
+Figure 9: Cs distribution in VAMPYR-II experiments.
+(i)Cs is already dust borne in the hot gas;(ii)Cs occurs as a chemical compound, which has a smaller desorption energy than elemental Cs. Comparing VAMPYR-II experiments with and without dust filter upflow of the plate out section, however, does not lead to different results concerning Cs plate out, because Cs passes this dust filter. This is taken as additional indication that Cs is not mainly dust borne in the AVR hot gas. As also seen in Figure 8 , Co-60 is retained with high efficiency already in the first dust filter in front of the plate out section. Co-60 is known to be dust borne. However, as seen from Figure 8 , most of the Cs in Experiment 4 is retained in the second dust filter, which is situated downflow of the plate out section. The main difference between the 2 dust filters is the temperature, so condensation of a Cs-compound (CsOH) may be the dominating deposition mechanism. Formation of CsOH was found to be possible in AVR normal operation from kinetic and chemical thermodynamic point of view. Similar holds for future reactors because a conservation of a protecting oxide layer on metals requires a sufficient oxidation potential, which is supplied by sufficiently high
+H

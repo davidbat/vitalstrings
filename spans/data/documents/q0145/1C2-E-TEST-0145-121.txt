@@ -1,0 +1,38 @@
+In order to solve compound interest problems, you should be able to:
+ 
+solve exponential equations
+ 
+There are several types of interest problems. This lesson deals with solving problems where interest is compounded. There are two other types of interest word problems that are dealt with in other word problem lessons: simple interest and continuously compounded interest .
+ 
+For working with compound interest problems, we will be using a formula that involves five variables in an exponential equation. Four of the variables will always be given to you in the problem. Your job will be to find the fifth variable. The level of difficulty in solving for that variable will depend on whether it is located in the exponent or not. We’ll look at several different types of problems that all use the same formula.
+ 
+The formula for interest that is compounded is
+ 
+A represents the amount of money after a certain amount of time
+P represents the principle or the amount of money you start with
+r represents the interest rate and is always represented as a decimal
+t represents the amount of time in years
+n is the number of times interest is compounded in one year, for example:
+if interest is compounded annually then n = 1
+if interest is compounded quarterly then n = 4
+if interest is compounded monthly then n = 12
+ 
+Suppose Karen has $1000 that she invests in an account that pays 3.5% interest compounded quarterly. How much money does Karen have at the end of 5 years?
+ 
+Let’s look at our formula and see how many values for the variables we are given in the problem.
+ 
+ 
+The $1000 is the amount being invested or P. The interest rate is 3.5% which must be changed into a decimal and becomes r = 0.035. The interest is compounded quarterly, or four times per years, which tells us that n = 4. The money will stay in the account for 5 years so t = 5. We have values for four of the variables. We can use this information to solve for A.
+ 
+ 
+So after 5 years, the account is worth $1190.34. Because we are dealing with money in these problems, it makes sense to round to two decimal places. Notice that the formula gives us the total value of the account at the end of the five years. This is not just the interest amount, it is the total amount. Since there are many variables in the equations, there are several ways that problems can be presented. Let’s look at some other examples.
+ 
+Let's Practice
+Question #1
+ William wants to have a total of $4000 in two years so that he can put a hot tub on his deck. He finds an account that pays 5% interest compounded monthly. How much should William put into this account so that he’ll have $4000 at the end of two years?
+Question #2
+Suppose William, from our last example, only has $3500 to invest but still wants $4000 for a hot tub. He finds a bank offering 5.25% interest compounded quarterly. How long will he have to leave his money in the account to have $4000.
+Try These
+Question #1
+ Kelly plans to put her graduation money into an account and leave it there for 4 years while she goes to college. She receives $750 in graduation money that she puts it into an account that earns 4.25% interest compounded semi-annually. How much will be in Kelly’s account at the end of four years?
+A. $4.09

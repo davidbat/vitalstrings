@@ -1,0 +1,11 @@
+2
+ 
+Well, for banded (Toeplitz) matrices, are you sure you want all the singular values? Usually a variant of Lanczos can be used for computing the first few singular values of a sparse matrix, see sun.stanford.edu/~rmunk/PROPACK for instance. –  J. M. Sep 18 2010 at 1:12
+Very useful link, thanks J. M. –  Portland Sep 19 2010 at 12:57
+1
+ 
+Maybe in your application you might also benefit from an approximation to block Toeplitz matrices via Kronecker products, as discussed in: citeseerx.ist.psu.edu/viewdoc/… –  Suvrit Oct 5 2010 at 13:25
+1 Answer
+oldest newest votes
+1
+It depends on how small $k$ is. If $k^2 \ll n,$ the simple method of computing $M^t M$ (sparsely), then the Cholesky decomposition, then the eigenvalues, works very well. Perhaps less work is using

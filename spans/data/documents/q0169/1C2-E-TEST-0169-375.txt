@@ -1,0 +1,52 @@
+R: Class “itemMatrix” — Sparse Binary Incidence Matrix to Represent Sets of Items
+itemMatrix-class {arules}
+Class “itemMatrix” — Sparse Binary Incidence Matrix to Represent Sets of Items
+Description
+The itemMatrix class is the basic building block for transactions, itemsets and rules in package arules.  The class contains a sparse Matrix representation of items (a set of itemsets or transactions) and the corresponding item labels.
+Objects from the Class
+Objects can be created by calls of the form new("itemMatrix",     ...). However, most of the time objects will be created by coercion from a matrix, list or data.frame.
+Slots
+data:
+Object of class ngCMatrix (from package Matrix) which stores  item occurrences in sparse representation.  Note that the ngCMatrix is column-oriented and itemMatrix is row-oriented with each row representing an element (an itemset, a transaction, etc.).  As a result, the ngCMatrix in this slot is always a transposed version of the binary incidence matrix in itemMatrix.
+itemInfo:
+a data.frame which contains named vectors of the length equal to the number of elements in the set.  If the slot is not empty (contains no item labels), the first element in the data.frame must have the name "labels" and contain a character vector with the item labels used for representing an item.  In addition to the item labels, the data.frame can contain arbitrary named vectors (of the same length) to represent, e.g., variable names and values which were used to create the binary items or hierarchical category information associated with each item label.
+itemsetInfo:
+a data.frame which may contain additional  information for the rows (mostly representing itemsets) in the matrix.
+Methods
+coerce
+signature(from = "matrix", to = "itemMatrix"); expects from to be a binary matrix only containing 0s and 1s.
+coerce
+signature(from = "list", to = "itemMatrix"); from is a list of vectors. Each vector contains one  set/transaction/....
+coerce
+signature(from = "itemMatrix", to = "ngCMatrix"); access the sparse matrix representation. Note, the ngCMatrix contains a transposed from of the itemMatrix.
+coerce
+signature(from = "itemMatrix", to = "dgCMatrix"); access the sparse matrix representation. Note, the dgCMatrix contains a transposed from of the itemMatrix.
+coerce
+signature(from = "itemMatrix", to = "matrix"); coerces to a dense 0-1 matrix of storage.mode "integer" instead of "double" to save memory.
+coerce
+signature(from = "itemMatrix", to = "list"); see also the methods for LIST.
+dim
+signature(x = "itemMatrix"); returns the dimensions of the itemMatrix.
+%in%
+signature(x = "itemMatrix", table = "character"); matches the strings in table against the item labels  in x and returns a logical vector indicating if a row (itemset) in x contains any of the items specified in table. Note that there is a %in% method with signature(x = "itemMatrix", table = "character"). This method is described in together with match .
+%ain%
+signature(x = "itemMatrix", table = "character");  matches the strings in table against the item labels  in x and returns a logical vector indicating if a row (itemset) in x contains all of the items specified in table.
+%pin%
+signature(x = "itemMatrix", table = "character");  matches the strings in table against the item labels  in x (using partial matching) and returns a  logical vector indicating if a row (itemset) in x contains any of the items specified in table.
+itemLabels
+signature(object = "itemMatrix"); returns the item labels used for encoding as a character vector.
+itemLabels<-
+signature(object = "itemMatrix"); replaces the item labels used for encoding.
+itemInfo
+signature(object = "itemMatrix"); returns the whole item/column information data.frame including labels.
+itemInfo<-
+signature(object = "itemMatrix"); replaces the item/column info by a data.frame.
+itemsetInfo
+signature(object = "itemMatrix"); returns the item set/row information data.frame.
+itemsetInfo<-
+signature(object = "itemMatrix"); replaces the item set/row info by a data.frame.
+labels
+signature(x = "transactions"); returns the labels (item labels and element names)  for the matrix as a list of two vectors named items and elements. The following arguments can be used to customize the representation of the elements: itemSep, setStart and setEnd.
+nitems
+signature(x = "itemMatrix"); returns the number  of items (number in columns) in the itemMatrix.
+show

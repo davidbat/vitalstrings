@@ -1,0 +1,33 @@
+If the downloaded file cannot be moved to the Trash, try the procedure in the AppleCare® Knowledge Base document "Mac OS X 10.2: Cannot Delete an Incomplete Copy or Download." In particular, try the TextEdit tip.
+Files dragged to the Trash "will be deleted immediately" alert
+When dragging files to the Trash from removable media or a shared network volume, it is common for Trash to inform you that the files will be deleted immediately. This appears to have been a design choice due to every writable volume having its own hidden Trash folder. If you ejected the removable media or shared network volume before emptying the Trash, the files you thought were deleted would still be in .Trashes folder at the root (top) level of that volume.  Hence Mac OS X immediately deletes files moved to the Trash from removable media and shared network volumes. This also depends upon the firmware of the device informing Mac OS X that it is a removable media device. Some removable storage devices identify themselves as hard drives, meaning that items remain in the .Trashes folder if the removable storage device is ejected before the Trash is emptied and will reappear in the Trash when the device is again connected to your Mac.
+If you are not dragging files from removable media or shared network volumes to the Trash and are informed that files dragged to the Trash "will be deleted immediately," there are three possible causes:
+You are either no longer the Owner of your Home folder, do not have Access of Read & Write to such, or both.
+Your account's Trash, i.e. your ~/.Trash directory, has been deleted.
+You no longer are the owner of your account's Trash.
+To resolve this problem, proceed as follows:
+Assure you are the Owner (Mac OS X 10.4 and earlier) and have Access (Mac OS X 10.4 and earlier) or Privilege (Mac OS X 10.5 and later) of Read & Write on your Home folder:
+In Finder, press the Command-Shift-H keyboard shortcut. A Finder window opens showing the contents of your Home folder.
+Press the Command+I keyboard shortcut. The Info window for your Home folder opens.
+Select the Info window.
+Open the disclosure triangle for the Ownership & Permissions panel (Mac OS X 10.4 and earlier) or the Sharing & Permissions panel (Mac OS X 10.5 and later) in the Info window.
+If using Mac OS X 10.4 or earlier, open the disclosure triangle for the Details panel within the Ownership & Permissions panel.
+If you are not listed as Owner (Mac OS X 10.4 and earlier) or under Name (Mac OS X 10.5 or later) or do not have either Access (Mac OS X 10.4 and earlier) or Privilege (Mac OS X 10.5 and later) of Read & Write, then correct these issues using the instructions in the "Setting Permissions" Mac Help document corresponding to the version of Mac OS X you are using.
+Warning: When using the instructions in the Mac Help document, do not use the Apply to enclosed items option, if available.
+Note: Users of Mac OS X 10.5 or later can start up from their Mac OS X  Install DVD and use the Reset Home Directory Permissions and ACLs function of the Reset Password function of the Utilities menu.
+Close the Info window.
+Try to place objects in the Trash. If so, the problem is solved: stop here. Otherwise, proceed to the next step.
+Verify that your ~/.Trash directory exists:
+Open Terminal, located in the Macintosh HD > Applications > Utilities folder.
+At the Terminal prompt, type the following command exactly as written:
+ls ~/.Trash
+If the response contains "No such file or directory" then:
+Either log out of your account or restart your Mac.
+Log in to your account. You should now be able to add objects to the Trash: stop here.
+Otherwise, proceed to the next step.
+Empty and recreate your account's Trash .
+Immutable files
+There are rare issues which can inhibit emptying the Trash. These include immutable files and files on which the system immutable bit has been set. If an object cannot be deleted using any of the preceding methods, you may have encountered this rare situation. Dealing with immutable flags is covered in our "Immutable flags" FAQ.
+Did you find this FAQ helpful? You will find a wealth of additional advice for preventing or resolving Mac OS X problems in Dr. Smoke's book, Troubleshooting Mac® OS X .
+Use of this site signifies your agreement to the terms of use .
+Copyright © 2003-2012 The X Lab. All rights reserved.

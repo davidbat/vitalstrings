@@ -1,0 +1,40 @@
+Word Problems: Continuously Compounded Interest
+In order to solve problems where interest is compounded continuously, you should:
+ 
+be able to solve exponential equations
+ 
+There are several types of interest word problems. One type is simple interest . Another is interest that is compounded a certain number of times during a year . This lesson deals with interest that is compounded continuously.
+ 
+Interest that is compounded continuously seldom occurs at banks that you might deal with on a regular basis. However it is very useful for finding the maximum amount of money that can be earned at a particular interest rate. It is a very effective way to demonstrate how powerful compounding interest can be.
+ 
+In working with interest that is compounded continuously, the same formula is always used. You should be careful to note that for interest compounded for any amount of time other than continuously, there is a different formula. The following applies only to interest compounded continuously.
+ 
+The formula for interest that is compounded is
+ 
+A represents the amount of money after a certain amount of time
+P represents the principle or the amount of money you start with
+r represents the interest rate and is always represented as a decimal
+t represents the amount of time in years
+ 
+The letter e is not a variable. It has a numeric value (approximately 2.718) although we do not usually use the value. We simply solve the problem using the “e” button on the calculator. So there are four variables in the equation and the problem will give us values for three of those variables and we will need to solve for the fourth.
+ 
+Suppose $5000 is put into an account that pays 4% compounded continuously. How much will be in the account after 3 years?
+ 
+We know the original amount (P) to be $5000. We know the interest rate (r) is 4% which is 0.04 in decimal form. The amount of time (t) is 3. Since this is interest compounded continuously, we will use the formula . Substituting the values we know into the equation and then solving gives
+ 
+ 
+So after 3 years, the account is worth $6107.01. Because we are dealing with money in these problems, it makes sense to round to two decimal places. Notice that the formula gives us the total value of the account at the end of the three years. This is not just the interest amount, it is the total amount. The calculations should be done on the calculator by using the “e” button and not the decimal approximation for e. One way to think of this answer is that the most money that will be in an account after three years at 4% interest will be $6107.01
+ 
+Let's Practice
+Question #1
+If interest is compounded continuously at 4.5% for 7 years, how much will a $2000 investment be worth at the end of 7 years?
+Question #2
+How long will it take $3000 to double if it is invested in an account that pays 3% compounded continuously?
+Try These
+Question #1
+If $8000 is invested in an account that pays 4% interest compounded continuously, how much is in the account at the end of 10 years?
+A. $11,934.60
+C. This problem cannot be solved with the information given.
+Question #2
+How long will it take $4000 to triple if it is invested at 5% compounded continuously?
+A. 2.85 years

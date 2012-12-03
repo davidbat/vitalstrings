@@ -1,0 +1,19 @@
+)
+¶
+Performs a numeric LU factorization of a sparse, possibly rectangular, matrix A.   The argument F is the symbolic factorization computed by symbolic applied to the matrix A, or another sparse matrix with the same sparsity pattern, dimensions, and type.  The numeric factorization is returned as an opaque C object that that can be passed on to solve .  Raises an ArithmeticError if the matrix is singular.
+cvxopt.umfpack.solve
+A, F, B[, trans = 'N']
+)
+Solves a set of linear equations
+where
+is a sparse matrix and
+is a dense matrix. The arguments A and B must have the same type.  The argument F is a numeric factorization computed by numeric . On exit B is overwritten by the solution.
+These separate functions are useful for solving several sets of linear equations with the same coefficient matrix and different right-hand sides, or with coefficient matrices that share the same sparsity pattern. The symbolic factorization depends only on the sparsity pattern of the matrix, and not on the numerical values of the nonzero coefficients. The numerical factorization on the other hand depends on the sparsity pattern of the matrix and on its the numerical values.
+As an example, suppose
+is the matrix (1) and
+which differs from
+in its first and last entries.  The following code computes
+>>> from cvxopt import spmatrix, matrix, umfpack >>> VA = [2, 3, 3, -1, 4, 4, -3, 1, 2, 2, 6, 1] >>> VB = [4, 3, 3, -1, 4, 4, -3, 1, 2, 2, 6, 2] >>> I = [0, 1, 0, 2, 4, 1, 2, 3, 4, 2, 1, 4] >>> J = [0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4] >>> A = spmatrix(VA, I, J) >>> B = spmatrix(VB, I, J) >>> x = matrix(1.0, (5,1)) >>> Fs = umfpack.symbolic(A) >>> FA = umfpack.numeric(A, Fs) >>> FB = umfpack.numeric(B, Fs) >>> umfpack.solve(A, FA, x) >>> umfpack.solve(B, FB, x) >>> umfpack.solve(A, FA, x, trans='T') >>> print(x) [ 5.81e-01] [-2.37e-01] [ 1.63e+00] [ 8.07e+00] [-1.31e-01]
+Positive Definite Linear Equations ¶
+cvxopt.cholmod is an interface to the Cholesky factorization routines of the CHOLMOD package.  It includes functions for Cholesky factorization of sparse positive definite matrices, and for solving sparse sets of linear equations with positive definite matrices. The routines can also be used for computing LDL
+T

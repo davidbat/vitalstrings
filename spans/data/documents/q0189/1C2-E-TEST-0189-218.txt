@@ -1,0 +1,15 @@
+MySQL 5.6 Replication - Enabling the Next Generation of Web & Cloud Services
+By Mat Keep | April 10, 2012
+The new MySQL 5.6.5 Development Milestone Release (DMR) introduces a much anticipated feature - Global Transaction Identifiers (GTIDs) for MySQL replication. GTIDs make it simple to track and compare replication progress between the master and slave servers. This enables much simpler recovery from failures of the master, while also introducing great flexibility in the provisioning and on-going management of multi-tier or ring (circular) replication topologies.
+MySQL Cluster 7.2 GA Released, Delivers 1 BILLION Queries per Minute
+By Mat Keep | February 15, 2012
+Oracle is delighted to announce the immediate availability of the production-ready, GA release of MySQL Cluster 7.2, available for download under the GPL, and as part of the commercial MySQL Cluster Carrier Grade Edition, including management tools, product certifications and 24x7 global support.  New benchmarks demonstrate MySQL Cluster's ability to support the most demanding web and telecoms workloads, while maintaining 99.999% availability. MySQL Cluster delivered 1 billion queries per minute (17.6 million queries per second), scaled-out across 8 x commodity Intel x86 server nodes, accessed by the NoSQL C++ NDB API.
+MySQL's latest InnoDB engine can now do extensive, high-performance, full text search. (Dr. Dobb's)
+By Jimmy Yang & John Russell | November  8, 2011
+Oracle recently provided access to many new MySQL 5.6 features through http://labs.mysql.com for the user community to test and comment on. One notable feature is the InnoDB Full-Text Search (FTS) engine. It lets users build FULLTEXT indexes on InnoDB tables to represent text-based content and speed up searches for words and phrases.
+MySQL Cluster 7.2 (DMR2): NoSQL, Key/Value, Memcached
+By Mat Keep | October  3, 2011
+MySQL Cluster is one of the fastest growing technologies available from MySQL today. To build on this momentum, we are announcing the second Development Milestone Release (DMR) at Oracle Open World 2011. The MySQL Cluster 7.2.1 builds upon the first DMR (7.2.0) announced in April 2011 with a range of new capabilities designed to enable next generation web services, enhance cross data center scalability and simplify provisioning.
+MySQL 5.6 - (Early Access Features) - InnoDB and Replication!
+By Rob Young | July 27, 2011
+MySQL 5.5 has been widely acknowledged to be the best release in the history of MySQL. And, in April 2011, we raised the bar again with Development Milestone Release (DMR) and Early Access (Labs) releases of MySQL 5.6. John Russell did an excellent job of summarizing the features in the "What's New in 5.6" devzone article he posted in April.  At OSCON 2011, we are delivering more early access (labs) features for InnoDB and Replication features. These features are focused on better scalability, performance and flexibility. We look forward to community testing and feedback.

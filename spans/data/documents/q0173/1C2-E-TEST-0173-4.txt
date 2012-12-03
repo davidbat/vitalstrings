@@ -1,0 +1,39 @@
+[ edit ] Other technologies
+Other research efforts into e-paper have involved using organic transistors embedded into flexible substrates , [29] [30] including attempts to build them into conventional paper. [31] Simple color e-paper [32] consists of a thin colored optical filter added to the monochrome technology described above. The array of pixels is divided into triads , typically consisting of the standard cyan, magenta and yellow, in the same way as CRT monitors (although using subtractive primary colors as opposed to additive primary colors). The display is then controlled like any other electronic color display.
+[ edit ] Disadvantages
+Electronic paper technologies have a very low refresh rate compared to other low-power display technologies, such as LCD. This prevents producers from implementing sophisticated interactive applications (using fast moving menus, mouse pointers or scrolling) like those which are possible on mobile devices . An example of this limit is that a document cannot be smoothly zoomed without either extreme blurring during the transition or a very slow zoom.
+An e-ink screen showing the "ghost" of a prior image
+Another limit is that a shadow of an image may be visible after refreshing parts of the screen. Such shadows are termed "ghost images", and the effect is termed "ghosting". This effect is reminiscent of screen burn-in but, unlike it, is solved after the screen is refreshed several times. Turning every pixel white, then black, then white, helps normalize the contrast of the pixels. This is why several devices with this technology "flash" the entire screen white and black when loading a new image.[ citation needed ]
+Electronic paper is still a topic in the R&D community and remains under development for manufacturability, marketability, and reliability considerations.[ citation needed ]
+[ edit ] Applications
+This article's factual accuracy may be compromised due to out-of-date information. Please help improve the article by updating it. There may be additional information on the talk page .
+(October 2011)
+An e-paper display on a watch refreshes to remove ghosts.
+Several companies are simultaneously developing electronic paper and ink. While the technologies used by each company provide many of the same features, each has its own distinct technological advantages. All electronic paper technologies face the following general challenges:
+A method for encapsulation
+An ink or active material to fill the encapsulation
+Electronics to activate the ink
+Electronic ink can be applied to flexible or rigid materials. For flexible displays, the base requires a thin, flexible material tough enough to withstand considerable wear, such as extremely thin plastic. The method of how the inks are encapsulated and then applied to the substrate is what distinguishes each company from others. These processes are complex and are carefully guarded industry secrets. Nevertheless, making electronic paper promises to be less complex and costly than making traditional LCDs.
+There are many approaches to electronic paper, with many companies developing technology in this area. Other technologies being applied to electronic paper include modifications of liquid crystal displays , electrochromic displays, and the electronic equivalent of an Etch A Sketch at Kyushu University. Advantages of electronic paper includes low power usage (power is only drawn when the display is updated), flexibility and better readability than most displays. Electronic ink can be printed on any surface, including walls, billboards, product labels and T-shirts. The ink's flexibility would also make it possible to develop rollable displays for electronic devices.
+The Motorola F3 uses an e-paper display instead of an LCD.
+[ edit ] Wristwatches
+In December 2005 Seiko released the first electronic ink based watch called the Spectrum SVRD001 wristwatch, which has a flexible electrophoretic display [37] and in March 2010 Seiko released a second generation of this famous e-ink watch with an active matrix display. [38]
+Main article: List of e-book readers
+In 2004 Sony released Librié EBR-1000EP in Japan, the first e-book reader with an electronic paper display. In September 2006 Sony released the PRS-500 Sony Reader e-book reader in the USA. On October 2, 2007, Sony announced the PRS-505, an updated version of the Reader. In November 2008, Sony released the PRS-700BC which incorporated a backlight and a touchscreen.
+In late 2007, Amazon began producing and marketing the Amazon Kindle , an e-book reader with an e-paper display. In February 2009, Amazon released the Kindle 2 and in May 2009 the larger Kindle DX was announced. In July 2010 the third generation Kindle was announced. [39]
+In November 2009 Barnes and Noble launched the Barnes & Noble Nook , running an Android operating system. It differs from other big name readers in having a replaceable battery, and a separate touch-screen color LCD below the main electronic paper reading screen.
+[ edit ] Newspapers
+In February 2006, the Flemish daily De Tijd distributed an electronic version of the paper to select subscribers in a limited marketing study, using a pre-release version of the iRex iLiad . This was the first recorded application of electronic ink to newspaper publishing.
+In September 2007, the French daily Les Échos announced the official launch of an electronic version of the paper on a subscription basis. Two offers are available, combining a one year subscription and a reading device. One interesting point of the offer is the choice of a light (176g) reading device (adapted for Les Echos by Ganaxa) or the iRex iLiad . Two different processing platforms are used to deliver readable information of the daily, one based on the newly developed GPP electronic ink platform from Ganaxa , and the other one developed internally by Les Echos.
+[ edit ] Displays embedded in smart cards
+Flexible display cards enable financial payment cardholders to generate a one-time password to reduce online banking and transaction fraud. Electronic paper could offer a flat and thin alternative to existing key fob tokens for data security. The world’s first ISO compliant smart card with an embedded display was developed by Innovative Card Technologies and nCryptone in 2005. The cards were manufactured by Nagra ID.
+[ edit ] Status displays
+USB flash drive with E Ink capacity meter
+Some devices, like USB flash drives , have used electronic paper to display status information, such as available storage space. [40] This tends to be better than an LED display, for example, because once the image on the electronic paper has been set, it requires no power to maintain, so the readout can be seen even when the flash drive is not plugged in.
+[ edit ] Mobile phones
+Motorola's low-cost mobile phone, the Motorola F3 , also uses an alphanumeric black/white electrophoretic display.
+The Samsung Alias 2 mobile phone incorporates electronic ink from E Ink into the keypad, which allows the keypad to change character sets and orientation while in different display modes.
+[ edit ] Electronic shelf labels
+E-Paper based electronic shelf labels (ESL) are used to digitally show the prices at retail stores. Electronic paper based labels are updated via two-way infrared or radio technology. The DotMatrix range of labels from Pricer use e-paper technology. [41] Labels from MariSense use E-Ink display technology. [42]
+[ edit ] Other
+Other proposed applications include clothes, digital photo frames, information boards and simply keyboards (useful for less represented languages or special non alphabetical applications like video editing or games).

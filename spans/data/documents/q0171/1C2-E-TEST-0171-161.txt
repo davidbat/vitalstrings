@@ -1,0 +1,12 @@
+﻿
+IP Address for Web Cameras
+home school hospital cctv live webcam web camera network lan digital wireless hidden mini miniature dome infrared spy video security camera lcd monitor observation system pelican pelikan
+Home | Checklist | Technical Notes | Glossary | Question?
+About IP Address
+IP, Internet Protocol, Address works as a website address on the network. When it is assigned to a Network DVR, a Video Server, or a Web Camera,  you can open it over the network.
+Public IP Address and Private IP Address
+Public IP Address is for the Internet like 65.104.93.35. It's like a public phone number that you can call from any phones connected to the telephone service. Private IP Address, like an intercom numbers inside an organization, works only within a limited area such as LAN or WAN system. If you assign a private IP address to a Web Camera, you can see it in the LAN or WAN system, but not on the Internet. It is a Public IP Address that works on the Internet. There are two types in Public IP Address; Static and Dynamic.
+Static IP Address and Dynamic IP Address
+Static IP Address is an independent address that you can own  yourself.  Dynamic IP Address, or Floating IP Address is not an independent address and you have to share it with other subscribers.  This also works on the Internet, but unlike Static IP Address, the address changes every time you log in. When you want to open the camera assigned with a  Dynamic IP Address, you should go to the web site of the web camera's manufacturer where they have a list of all the web camera users who have Dynamic IP  Address. Though it works, Dynamic address is not as convenient as Static IP Address. So, you'd better get a Static IP Address when you install a DSL for a  web camera.
+This site is constructed and sponsored by PelikanCam
+555-A W. Lambert Rd, Brea, CA 92821 Tel: 714-672-0333

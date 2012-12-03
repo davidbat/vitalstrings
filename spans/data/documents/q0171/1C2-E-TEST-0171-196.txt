@@ -1,0 +1,7 @@
+Hi John,
+ 
+If you could access the Cisco router you would see there are various things to be changed than its IP address only. The old one routes 192.168.1.0 network while the new one routes 10.10.10.0.
+The ISP seems to have locked the configuration. There is a way of removing the privileged-mode password but I wouldn't recommend it if the ISP has locked the configuration on purpose.
+On the other hand, changing the DHCP server configuration will force you to change IP settings on clients as well. If a client connected to the old router used the old LAN, now it needs to use the new one.
+There are two ways to solve the problem. Change the router or the network configuration. Since you can't access the router configuration, you have to deal with the network itself. You have to change the DHCP scope and any static IP address used by any kind of network device.
+ 

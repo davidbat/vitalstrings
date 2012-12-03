@@ -1,0 +1,9 @@
+ Privacy & Legal Notice
+ParaSails is a parallel sparse approximate inverse preconditioner for the iterative solution of large, sparse systems of linear equations.  It is a self-contained module in the HYPRE preconditioner library currently being developed at the Center for Applied Scientific Computing .
+ParaSails has been used to solve finite element elasticity problems inside an LLNL simulation code with more than 4 million equations on 1000 processors of ASCI Blue-Pacific (IBM SP). It has also been demonstrated  on anisotropic diffusion problems with 216 million equations.
+ParaSails uses least-squares (Frobenius norm) minimization to compute a sparse approximate inverse. The sparsity pattern used is the pattern of a power of a sparsified matrix. ParaSails also uses a post-filtering technique to reduce the cost of applying the preconditioner. The pattern of the preconditioner can be reused to generate preconditioners for different matrices in a sequence of linear solves.
+ParaSails solves symmetric positive definite (SPD) problems using a factorized SPD preconditioner. ParaSails can also solve general (nonsymmetric and/or indefinite) problems with a nonfactorized preconditioner. The software available to be downloaded includes parallel CG and GMRES solvers, a parallel matrix class and a test driver.
+Click here to look at the documentation before downloading.
+For further information contact:
+Last modified on May 25, 2000.
+UCRL-MI-138682

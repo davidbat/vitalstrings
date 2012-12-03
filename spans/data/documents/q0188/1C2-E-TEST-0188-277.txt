@@ -1,0 +1,80 @@
+How can I convert degrees Celsius (°C) to degrees Fahrenheit (°F) or vice versa?
+A.
+Conversion from Celsius to Fahrenheit can be accomplished by clicking on the underlined "°C" symbol next to the large temperature value in the "Current Conditions" box.  It can also be found in the "Text only" mode at the bottom left of the page under "Imperial Units". The conversion formula is °F = °C x 9/5 + 32 or, in reverse, °C = (°F - 32) X 5/9.
+ 
+For any Current Conditions and Forecast page, in the Forecast section, why is there an asterisk next to the temperature value in the icon summary?
+A.
+Generally, temperatures rise through the day and fall through the night and a forecast for a day or night period will include the highest or lowest temperature expected.  However, the sudden arrival of warm air at night or cold air during the day can trigger different temperature trends. An asterisk (*) is posted next to the temperature value when there is an "abnormal temperature trend" for the affected forecast period.  An abnormal temperature trend is defined as a temperature drop of at least 3°C during daytime or a temperature rise of at least 3°C during night time.
+The presence of an asterisk is intended to alert the reader to the fact that an "abnormal temperature trend" is expected during the forecast period. A complete description of the temperature trend can be found in the forecast details located below the icon summary.
+ 
+What does Yesterday's Precip mean? Does it include snowfall?
+A.
+"Yesterday's Precip", in the "Historical Data" table on the "Current Conditions and Forecasts" page, is a total of all the types of precipitation that may have fallen on the previous day including: rain, drizzle, freezing drizzle, freezing rain, hail and snow.
+The unit used to express "Yesterday's Precip" is millimetres. Therefore any snow that has fallen is melted and this amount of liquid water is recorded in millimetres and added to any other amounts from other forms of precipitation (i.e. rain). Even if snow was the only type of precipitation to fall on the previous day, the snow is melted and the water equivalent is reported in millimetres.
+ 
+How is rain measured?
+A.
+Rain, drizzle, freezing rain, freezing drizzle and hail are usually measured using the standard Canadian rain gauge, a cylindrical container 40 cm high and 11.3 cm in diameter. The precipitation is funnelled into a plastic graduate which serves as the measuring device.  The liquid precipitation is normally measured in millimetres.
+ 
+How is snow measured?
+A.
+Usually, the snow amount or the depth of accumulated snow is measured using a snow ruler. The measurements are made at several points which appear representative of the immediate area, and then averaged. Snow is normally measured in "centimetres".
+ 
+How do you calculate the water equivalent of snow ?
+A.
+To calculate the water equivalent of snow, we melt the snow captured in snow gauges like the Nipher snow gauge. This Nipher gauge is designed to diminish the turbulence around the opening of the gauge and positioned high enough above ground to prevent most of the blowing snow from entering the gauge.
+In many snow events a ratio of 10 to 1 can be applied to the amount of snow to determine its water equivalent. In other words, 1 centimetre of snow is equivalent to about 1 millimetre of water once the snow is melted.  This means that in many snowfall situations (on days when only snow fell), you can simply change the units from millimetres to centimetres on the "Yesterday's Precip. Total" on a specific location's weather page to get a reasonably good idea of how much snow fell.
+However, this 10 to 1 snow to liquid ratio is not exact. Exceptions include very fluffy snow (snow that has less water once melted) where the snow to liquid ratio could be 15 to 1 or higher (i.e. 1.5 centimetres of snow would melt to provide 1 millimetre of water).  At the other extreme, the snow can be heavy and wet resulting in a snow to liquid ratio of around 5 to 1 (i.e. 0.5 cm of snow would melt to provide 1 mm of water).
+We also have a map giving snow depths (snow on the ground). It is available from http://weatheroffice.gc.ca/analysis/index_e.html .
+ 
+Why is the precipitation amount for yesterday so high or so low?  What are common sources of errors in measuring precipitation?
+A.
+Environment Canada employs manned and automated weather stations located across Canada to collect temperature, rain and snow fall amounts, wind direction and speed and barometric pressure.  As precipitation rates constantly change with time and because weather systems are moving, measurements may differ considerably when taken at different times and/or at different locations. Consequently, precipitation amounts can vary throughout a city or region, and may be significantly different at your location compared to the weather station report.
+Main error sources in precipitation estimates include the presence of tall objects (like trees and buildings) exposed to the wind direction which could either increase or decrease the amounts collected in the gauge. The nature of the terrain and immediate surroundings could also have some effects on accumulation on the ground (partial melting, precipitation soaking into the ground). Thus, the position of the instrument is very important in order to get the most accurate reading. In the case of snow for instance multiple samples even over a small area must be averaged.
+Despite all the precautions and a precise calibration there are always errors related to instrument design and limitations.  For example, trace amounts of precipitation, less than 0.2 mm, are not recorded by the instruments.  Wind shaking the gauges can cause a false reading, including giving a precipitation measure when none has been received.  Strong winds can prevent rain or snow from entering the gauge, thus giving inaccurate readings.  Computer system malfunctions can also occur and affect data transmission.
+ 
+What is wind chill? What is the wind chill index?
+A.
+Wind chill is the cooling effect of the wind in combination with low temperatures.  When it is windy, we feel colder because our skin temperature is lower. This sensation of cold is what the wind chill index quantifies: as such, the index is not a real temperature and is expressed without units, even though it is calibrated according to the Celsius temperature scale.
+Environment Canada's wind chill index gives you a good idea of the temperature which, with a quasi calm wind, would give your face a sensation of cold similar to that caused by the actual temperature and wind. Wind chill also estimates the risk of your getting frostbite (a severe injury caused by cold).  You will find more details in our wind chill Web site .
+ 
+I heard that Environment Canada had modified the way it determines wind chill.  Where can I go to know more about it?
+A.
+Please visit our new wind chill Web site . It contains a wealth of information on wind chill and our new program.
+ 
+Why is wind chill not always indicated in the current conditions or in the forecast?
+A.
+Wind chill is indicated in current conditions only when the temperature is 0°C or lower, with a wind speed of 2 km/h or more. In general, wind chill is mentioned in a forecast only if it is expected to be significant, that is to say, if wind chill is expected to be -25 or colder, with a forecast wind speed greater than 10 km/h.
+ 
+You don't add a degree sign (or any other unit) after the number used for wind chill or for the humidex.  Why is that?
+A.
+This is because the wind chill and the humidex are indices and not physical quantities. In other words, these quantities are calculated, not measured. Even though these two indices are calibrated according to the Celsius temperature scale, we do not put °C after their values to emphasize the fact that they are not temperatures.
+Note: In imperial units, the wind chill and the humidex indices have different values because, in these units, they are calibrated according to the Fahrenheit temperature scale.
+ 
+What is the dew point?
+A.
+The dew point is a measure of the humidity content in the air. Dew point is short for dew point temperature. It indicates the amount of moisture in the air. It is the       temperature to which the air must be cooled, keeping pressure constant, to become       saturated. When the difference between the air temperature and the dew point temperature       is large, the air is dry and the relative humidity is low.  As the air temperature is       cooled to the dew point the relative humidity increases and reaches 100% when the two       temperatures coincide.
+The best way to understand the dew point notion is to visualise how dew is formed on      a clear fall morning, for example.  Dew occurs as a result of the air gradually cooling       overnight. In the late afternoon, the air holds a certain quantity of water vapour       (humidity). During a clear night, however, the earth's surface loses radiational heat       rapidly and cools; consequently, air in contact with the earth's surface is forced to       cool while the atmospheric pressure remains the same.  After a certain period of cooling       off, the air reaches its saturation point and if it cools any further, we witness an       excess of humidity that condenses and forms dew.  The temperature at which condensation       starts occurring is what we call the dew point.
+ 
+What is the "relative humidity"?
+A.
+The percentage of humidity or relative humidity is the quantity of water vapour   the air contains compared to the maximum amount it can hold at that particular       temperature.  It is expressed as a fraction of the maximum moisture the air can hold,       at the same pressure and temperature, before water droplets start forming clouds or dew       (if close to the ground).  For example, a relative humidity of 60% means that the air       contains 60% of the maximum moisture it could contain at the present temperature. Note       that the warmer the air, the more moisture the air can hold.  A relative humidity of 60%       feels comfortable when it is 20 degrees, but a lot less comfortable when the temperature       reaches 30 degrees.  Because the air can contain a lot more moisture in 30-degree       weather than in 20-degree weather, we feel the effect of humidity a lot more when the       temperature reads 30 degrees even though the relative humidity (percentage) is the       same.
+For more information regarding the relative humidity and the humidex, consult the Summer Hazard page.
+ 
+What is the "humidex"?
+A.
+The humidex is an index (a computed value as opposed to something measured) devised to describe how hot or humid weather feels to the average person. The humidex combines the temperature and humidity into one number to reflect the perceived temperature. It takes into account these two important factors that affect summer comfort. It is therefore a better measure of how stifling the air feels than either temperature or  humidity alone.  A humidex of 40 with, for example, a temperature of 30 degrees means  that the sensation of heat when it is 30 degrees and the air is humid is more or less  the same as when it is 40 degrees and the air is dry. We must be careful not to depend   on this interpretation alone: it is a mere indication of physiological reactions, not    an absolute measure
+For more information regarding the relative humidity and the humidex, consult our fact sheet on humidity .
+ 
+Sometimes you report the humidex, and sometimes you don't.  Why?
+A.
+The humidex is particularly significant when its value is greater than 30.   We only display humidex values of  25 or higher for a location which reports a       dew point temperature above zero (0°C) and an air temperature of 20°C or more.        Below this value, the humidex is too close to the air temperature to be considered significant.
+ 
+How is the humidex calculated?
+A.
+The Humidex formula is based on the work of J.M. Masterton and F.A. Richardson at the Atmospheric Environment Service (now MSC) of Environment Canada in 1979. It is a standard for Canada, but variations are used around the world. The dew point temperature should be given in kelvins (temperature in K = temperature in °C + 273.16) for the formula to work. The magic number 5417.7530 is a rounded constant; it's based on the molecular weight of water, latent heat of evaporation, and the universal gas constant.
+e = vapour pressure in hPa (mbar), given by:
+e = 6.11 * exp [5417.7530 * ( (1/273.16) - (1/dewpoint) ) ]
+h = (0.5555)*(e - 10.0);
+humidex = (air temperature) + h
+Note that the values associated with the discomfort of the humidex are generally for the outdoors. The Canadian Centre for Occupational Health and Safety recommends another index for indoors. For more information, visit:

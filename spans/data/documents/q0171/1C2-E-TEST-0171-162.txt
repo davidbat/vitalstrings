@@ -1,0 +1,19 @@
+August 4th, 2009 by akishore | File in: Computer Tips
+Ever get the following message when turning on your computer or taking it out of sleep mode?
+There is an IP address conflict with another system on the network
+You may also see a different error message for the same problem:
+This IP address is already in use on the network. Please reconfigure a different IP address.
+This occurs when two computers on the same LAN network end up with the same IP address. When this occurs, both computers end up not being able to connect to network resources or perform other network operations.
+This problem, though rare, can occur because of the following reasons:
+Two computers are assigned the same static IP addresses
+One computer is assigned a static IP address that falls into the DHCP range for the local network and the same address is assigned to a computer by the DHCP server
+A laptop is put into sleep mode and then turned on while connected to another network that uses the same IP address
+If you have multiple network adapters, it is possible for a to have an IP address conflict with itself
+How to resolve an IP address conflict
+There are a few ways you can go about fixing this problem. I’ll start with the simplest and move on.
+1. Renew IP Address – You can release and renew the IP address for your computer using the command prompt. Read my previous post on how to renew an IP address .
+2. Reconfigure Static IP Address – If your computer is using a static IP address, it is best to try and use a different one in the same subnet. One way to check to make sure the one you are picking is not already being used is to simple ping the IP addresss (ping x.x.x.x).
+You can read my previous post on how to change your IP address using the command prompt.
+3. Use DHCP – If you don’t need to use a static IP address, it’s best to simply choose DHCP instead of manually configuring the IP address. The server will know which addresses are free and which are taken.
+4. Update firmware – In some rare instances, the actual DHCP server can malfunction and assign more than one computer the same IP. In this case, it is best to try and update the firmware on your router.
+If you’re still having an IP address conflict, post your problem here and I’ll try to help you out! Enjoy!

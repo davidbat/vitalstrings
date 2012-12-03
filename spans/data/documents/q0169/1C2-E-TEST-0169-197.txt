@@ -1,0 +1,19 @@
+Parallel Preconditioners for Sparse Iterative Methods
+Known Bugs and Issues
+Please refer to the section titled "Recent Changes and Other Important  Notes" in the Users' Guide before upgrading to a newer version of the  software.
+On AIX, setting the environment variable RT_GRQ to ON if smt_threads are enabled can result in performance degradation.  RT_GRQ must be set to OFF if smt_threads are enabled and ON if smt_threads are disabled.
+The new serial/multithreaded symmetric solvers are more memory efficient than the older ones, but may be slower for matrices whose factors are fairly sparse.  If you notice a slowdown in your application and if memory is not a constraint, you may switch to the older solvers by setting IPARM(31) = 5 or 6.
+On Linux, setting the environment variables MALLOC_TRIM_THRESHOLD_ and MALLOC_MMAP_MAX_ to -1 and 0, respectively, yields the best performance,  especially for the unsymmetric and symmetric indefinite solvers.  However,  setting MALLOC_TRIM_THRESHOLD_ to -1 can lead to memory problems when multiple processes are running on the same node/machine.   In such cases, a reasonable value between 1000000 and 100000000 could be used.
+On AIX, the environment variables SPINLOOPTIME and YIELDLOOPTIME must be set to 200, AIXTHREAD_COND_DEBUG and AIXTHREAD_MUTEX_DEBUG must be set to OFF.
+The distributed-memory parallel  unsymmetric solver requires MPI_THREAD_MULTIPLE functionality.  If your MPICH/MPI implementation is not thread-safe, then WSETMAXTHRDS function must be used to set the number of  threads to 1.
+Linux and Altix on IA64, HP-UX on PA-RISC, Tru64 on HP/Compaq/DEC Alpha,  and SunOS on Opteron are not supported any more. Older versions of the  libraries for these platforms can be requested by e-mail.  The latest version of WSMP can also be built for these platforms if access to the hardware can be arranged.
+Example Programs
+memchk.c (to check the amount of stack and heap space available to you)
+triplet2cs.c (to convert a sparse matrix from triplet to CSC/CSR format)
+wgsmp_ex1.f , wgsmp_ex2.f (small tests for the unsymmetric solver)
+wssmp_ex1.f , wssmp_ex2.f (small tests for the symmetric solver)
+pwssmp_ex1.f , pwssmp_ex2.f , pwssmp_ex3.f (tests for message-passing symmetric solver)
+pwgsmp_ex1.f (test for the distributed-memory parallel unsymmetric solver)
+zgsmp_ex1.f (test for the complex unsymmetric interface)
+zssmp_ex1.f , pzssmp_ex1.f , pzssmp_ex2.f , pzssmp_ex3.f (tests for serial and parallel symmetric complex interface)
+Other Links

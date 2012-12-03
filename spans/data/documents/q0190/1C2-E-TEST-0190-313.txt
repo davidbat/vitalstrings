@@ -1,0 +1,34 @@
+WXTide32 - a free Windows tide and current prediction program.
+Predicts tides from 1970 through 2037.
+More than 9,500 stations worldwide ( list ) with 160 in England, Ireland and Scotland.
+More than 300 tidal current stations, all in North America.
+User station manager to easily add custom tide and current subordinate stations.
+Text outputs: daily tide list, monthly calendar, incremental tide.
+Graphic modes: tide clock, realtime graph, scrolling graph, overview.
+Each graphic mode has separate display options and window settings.
+Supports legacy ASCII text and new binary TCD harmonic constituent files.
+Supports user-installed World Vector Shoreline (WVS) map files.
+Can play user-installed ship's bells sound files on the half hour.
+Designed for interactive use but can also be used from other programs.
+Generates BMP graphics and text tide CSV spreadsheet files.
+Worldwide timezones, solar/lunar events, recent stations, realtime tide state icon.
+Low resource usage typically 4 MB disk, 5 MB RAM active, 1 MB as icon.
+Tested on Windows 9x, NT4, 2000, ME, XP.
+Self-contained, nothing else needed.
+Context sensitive help and all "C" source code included.
+Do not rely on the output of this program for decisions that can result in harm to any person or property.  There is no way to provide certified data on a zero budget so if you need guaranteed results then WXTide32 is not for you.
+This is free software; you can redistribute it and modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or at your option any later version.  While the software is free, it is protected under copyright and no rights are given for others to profit from my efforts.
+WXTide32 is based on the UNIX program XTide version 1.6.2 written by Dave Flater.
+News
+February 2010: Finally restored the WXTide32 forums using freeforums.org.  I have had little time to answer email to this will serve as a user-to-user forum.
+February 2007: Released version 4.7 to implement new U.S. timezones and a couple bug fixes (see change list ).
+July 2006: It has come to our attention that there is at least one person selling WXTide32 on eBay.  Selling WXTide32 is in direct violation of the GNU license under which the software is released and I have notified eBay of the violation.
+June 2006: Release version 4.6 adds mostly bug fixes.
+May 2006:We have added the ability to download files directly from this web site.  See the download page.
+May 2006:We are on our new web host and busy making sure most of the sites are still working.  AffordableHost, our previous (and never again) provider, just could not keep the server they put us on going for more than a few hours at a time.  Not only were we unable to send email for the past 3 weeks, but the web sites were up and down like the tides.  Being able to respond to email will be a relief.  We thank you for your patience.
+Errata and reported anomalies
+The reference station Norwegian Bay, W. Coast, Australia has been found to be totally inaccurate.  To get correct tides for that location generate a User Station with Carnarvon, Australia as the reference station and use time offsets of -8 minutes to both the low and high tide times.
+WXTide32 revision history
+Changed: Implemented new U.S. timezones.
+Changed: Multiple pop-ups when config file not writable.  Now only 2 show.
+Fixed: Tooltray icon showed incorrect time to next tide when using mark level.

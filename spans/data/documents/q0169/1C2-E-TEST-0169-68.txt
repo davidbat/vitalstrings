@@ -1,0 +1,21 @@
+5 References
+Intro
+This page contains the Matlab/C toolkit we used to get experimental results for sparse recovery using sparse matrices, reported in BGIKS08 , BIR08 and BI08 . The code provides the following functionality: (i) given an n-dimensional vector x, compute its m-dimensional sketch Ax, where A is an mxn sketch matrix, m << n, and (ii) given a sketch Ax, recover a k-sparse approximation x* of x. In addition, the code provides subroutines for generating test vectors x and sparse matrices A.
+The toolkit supports the following recovery algorithms: Sparse Matching Pursuit (SMP), Countmin and L1 minimization (although one needs to download either l1-magic or GPSR to use the last option).
+Code
+The archive can be found here [1] . See the "Readme" file for instructions and descriptions of files and key functions.
+Benchmark
+The running times of the different recovery algorithms vs. signal length (n) are depicted below. The signal sparsity was set to k = 0.002n, the sketch size was set to m=0.1n. All methods used sparse 0-1 matrices A. Unless specified otherwise, the number d of ones per column was set to 10.
+Sparse Recovery Experiments
+Exact recovery plots show the empirical sketch sizes necessary to recover a sparse vector exactly. The plots are created by dividing the plot space into datapoints. For each datapoint, a matrix is randomly generated, and a number of experiments are carried out with this matrix. In each experiment, a sparse signal is generated, measured, and recovered. If the recovered vector is identical to the original vector, the experiment is deemed successful. The fraction of experiments which are successful for a datapoint is indicative of the probability that one can recover sparse vector exactly from a sketch with the corresponding parameters. The resulting data is used to create a contour plot, which shows the level curves.
+The plot titles show some information about the plot: the type of measurement matrices, the type of test signals, and the method/algorithm for recovery. A description of the "codenames" for these is given below. The title also shows the resolution of the plot: the number of datapoints per each axis, and the number of experiments (trials) per datapoint.
+Signal types:
+plus_minus_one_peaks: truly sparse signal; the non-zero components are chosen randomly to be either +1 or -1.
+Matrices:
+countmin<d>: random Count-Min matrix (the kind of matrices used by the Count-Min algorithm CM04 ). It is a binary sparse matrix, which (with the right parameters) is with high probability an expander of degree d. The m rows are divided into d "row sections", and for each column there is one 1 placed randomly inside each section of each column)
+Methods:
+smp(<it>,<r>): SMP BIR04 recovery algorithm; it is the number of iterations, and r is a sparsity multiplier (SMP recovery sparsity is set to Kr, where K is the real sparsity)
+countmin: CountMin CM04 recovery algorithm for general signals (using median)
+gpsr: L1 minimization using GPSR FNW07 , with a small tau value.
+lp: L1 minimization using l1-Magic CR05 .
+SMP

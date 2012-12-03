@@ -1,0 +1,9 @@
+Advertisement
+Advertisement
+This page contains an archived post to the Java Answers Forum made prior to February 25, 2002. If you wish to participate in discussions, please visit the new Artima Forums .
+2D-Sparse Matrix
+Posted by Poritosh Mazumder on June 02, 2001 at 6:42 PM
+> Hi, does anybody know a link or a sourse for informaion about the following this subject. (It's jsut a school assignment)
+> i need to implement a class to deal with a large 2D arrays(matriicies) called sparse matrix, we use to LinkedLists to save the object's in it (not array , because array taked alot of memory)
+> the class should have methods, to add, remove, set value, to the matrix, also get value for Row,column element....
+> thank you

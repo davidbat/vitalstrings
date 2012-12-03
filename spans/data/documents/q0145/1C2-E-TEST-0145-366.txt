@@ -1,0 +1,21 @@
+How To » Computers & Internet » Software » Financial » Calculating Compound Interest in a Microsoft Excel Spreadsheet
+Calculating Compound Interest in a Microsoft Excel Spreadsheet
+Learn the Formula for Compound Interest in Excel
+There isn't a quick one- or two-click way to learn how to calculate compound interest in Excel.  However, it's not really all that hard.  Here's what you need to know about calculating compound interest in a Microsoft Excel spreadsheet.
+The basic Excel formula for compound interest is this:  =PV*(1+R)^N
+PV is the present value.  R is the interest rate.  N is the number of investment periods, for example 36 months, 3 years, etc.  So let's use a simple calculation to see if it works.  (By the way, if you are REALLY new to this, that little symbol that looks like a mini upside down "v" between the " ) "and the "N" can be found by using the SHFT+6 keys)
+Your present value is 2,000
+Your annual interest rate is 7%
+Your number of investment periods is 5 years
+Your formula will look like this.  =2000*(1+.07)^5
+Your answer should be $2,805.10
+You can play with any of those numbers to see what a new result would be.  Unfortunately, this is what Microsoft calls a "fixed formula".  In other words, you'll have to manually change the individual data in the formula for calculating compound interest to get a different result. 
+There is a way around that.  It's a little more difficult, but can save you quite a bit of time if you're doing some comparisons: you create a Function Macro.
+Open a new Excel spreadsheet.  Then you want to open Visual Basic by pressing ALT+F11.  This software will allow you to create your own formula to use.  Once Visual Basic is open, use the drop down INSERT menu and click MODULE.  This will open a new window.  You need to type the following code into that window:
+Function Yearly_Rate(PV As Double, R As Double, N As Double) As Double
+Yearly_Rate=PV*(1+R)^N  ‘Performs Computation
+End Function
+You don't need to capitalize the words, but punctuation is very important.   When you get to the end of the first line and hit enter, it will automatically drop you down a line and fill in the last line - the End Function line.  That's ok.  Just continue to type the second line in between. 
+Now, let's try it out.  Go back to your Excel page.  Type in 2000 in cell A1.  Type .07 in cell B1.  Type 5 in cell C1.  Go to a blank cell and type the following formula:  =yearly rate (a1, b1, c1).  In that new cell where you put the formula, it should come up with that same $2,805.10.  But now, you can go back to cells A1, B1, or C1 and change them and it will automatically change the answer.  You can even copy and paste the formulas.  Do that like you normally would in Excel.  Once you've moved your data, make sure your cells inside the parentheses reference the cells you are using as your facts.  Once you've got the formula working, you won't need to keep the Visual Basic program open. 
+Compound interest is very powerful.  Being able to compare what different rates can do for you over your investment period can be a real eye opener.  Hopefully this will help you make more informed financial decisions.
+ 

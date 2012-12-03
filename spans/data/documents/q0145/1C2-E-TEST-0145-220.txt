@@ -1,0 +1,34 @@
+Introduction
+"Neither a borrower nor a lender be."
+Today, nobody heeds the advice of Polonius to his student son Laertes. Everybody borrows and lends all the time.
+Children put their pocket money into a bank account to save up to buy a bicycle.
+Students take out loans to finance their studies.
+Credit cards are widely used for short-term borrowing.
+Young couples buy houses on mortgages of 20 to 30 years, and save for their retirement.
+Understanding lending and borrowing means understanding compound interest. For a career in the world of finance, that understanding has to be broad and thorough.
+In this article we will not attempt a comprehensive coverage of all the intricate details of the subject, but will try to show that compound interest
+is an essential component of numeracy,
+involves some interesting maths,
+throws up some surprising, even paradoxical results from time to time.
+A slice of history
+Figure 1: The real purpose of the ziggurat?
+The application of mathematics to trade and financial affairs is as old as mathematics itself. History shows that as soon as a civilisation develops writing, including the writing of numbers, the new technology is used in financial transactions and the appropriate mathematical ideas develop rapidly.
+Over 4000 years ago the Sumerian merchants of Babylon and Nineveh recorded bills, receipts and promissory notes in cuneiform script on clay tablets. They drew up multiplication tables and tables of reciprocals, squares, cubes and exponentials, and used them to calculate compound interest and mortgage repayments. A clay tablet now in the Louvre tackles the problem of finding how long it will take a sum of money to double at an interest rate of 20%.
+Hindu mathematicians of 500-1000 A.D. knew how to sum arithmetic and geometric series, and could solve problems involving discount and interest calculations.
+There is a record of a loan agreement in London in 1183. The interest levied was 2d. in the pound per week, amounting to 43% per annum. An even higher rate was charged in 1235 by London merchants who lent money to a priory, demanding "every two months one mark for every ten marks as a recompense for losses" - an annual interest rate of 60%.
+Figure 2: The 9 times table in Babylonian cuneiform
+In 15th century Italy there was a tremendous increase in commercial activity. Double-entry book keeping was introduced, and textbooks in arithmetic were published: in Latin for the classical scholars in church schools, and in the vernacular for preparing students for commercial careers.
+Logarithms (invented by John Napier in 1614) revolutionised financial mathematics. Only in the 20th century were they replaced by mechanical, and later electronic calculators.
+Time is money
+Figure 3: Time is money?
+When you borrow money from a lender such as a bank, you pay the lender interest - a fee for the use of the money. Interest is charged as a percentage of the principle (the amount of the loan) for an agreed period, usually a year.
+If the principle is
+and the interest rate is
+, then the interest is
+. At the end of the year the loan plus the interest must be repaid: a total of
+.
+If you make no repayment, your debt is now
+, which must be repaid at the end of the second year with interest of
+: a total of
+After three years you will owe
+, and after

@@ -1,0 +1,38 @@
+R: Construct Sparse Design / Model Matrices
+sparse.model.matrix {Matrix}
+Construct Sparse Design / Model Matrices
+Description
+Construct a Model or “Design” Matrix
+Usage
+sparse.model.matrix(object, data = environment(object),                     contrasts.arg = NULL, xlev = NULL, transpose = FALSE,                     drop.unused.levels = FALSE, row.names = TRUE,                     verbose = FALSE, ...)
+Arguments
+object
+an object of an appropriate class.  For the default method, a model formula or terms object.
+data
+a data frame created with model.frame .  If another sort of object, model.frame is called first.
+contrasts.arg
+A list, whose entries are contrasts suitable for input to the contrasts replacement function and whose names are the names of columns of data containing factor s.
+xlev
+to be used as argument of model.frame if data has no "terms" attribute.
+transpose
+logical indicating if the transpose should be returned; if the transposed is used anyway, setting transpose = TRUE is more efficient.
+drop.unused.levels
+should factors have unused levels dropped? (This used to be true, implicitly in versions of Matrix up to July 2010; the default has been changed for compatibility with R's standard (dense) model.matrix ().
+row.names
+logical indicating if row names should be used.
+verbose
+logical or integer indicating if (and how much) progress output should be printed.
+...
+further arguments passed to or from other methods.
+Value
+a sparse matrix extending CsparseMatrix .
+Note that model.Matrix (*, sparse=TRUE) from package MatrixModels may be often be preferable to sparse.model.matrix() nowadays, as model.Matrix() returns modelMatrix objects with additional slots assign and contrasts which relate back to the variables used.
+Author(s)
+Doug Bates and Martin Maechler, with initial suggestions from Tim Hesterberg.
+See Also
+model.matrix in standard R's package stats.
+model.Matrix which calls sparse.model.matrix or model.matrix depending on its sparse argument may be preferred to sparse.model.matrix.
+as(f, "sparseMatrix") (see coerce(from = "factor", ..) in the class doc sparseMatrix ) produces the transposed sparse model matrix for a single factor f (and no contrasts).
+Examples
+dd <- data.frame(a = gl(3,4), b = gl(4,1,12))# balanced 2-way options("contrasts") # the default:  "contr.treatment" sparse.model.matrix(~ a + b, dd) sparse.model.matrix(~ -1+ a + b, dd)# no intercept --> even sparser sparse.model.matrix(~ a + b, dd, contrasts = list(a="contr.sum")) sparse.model.matrix(~ a + b, dd, contrasts = list(b="contr.SAS"))  ## Sparse method is equivalent to the traditional one : stopifnot(all(sparse.model.matrix(~ a + b, dd) ==        Matrix(model.matrix(~ a + b, dd), sparse=TRUE)),           all(sparse.model.matrix(~ 0+ a + b, dd) ==        Matrix(model.matrix(~ 0+ a + b, dd), sparse=TRUE)))
+[Package Matrix version 1.0-6 Index ]

@@ -1,0 +1,15 @@
+If you would like to share your code, or ideas for using our code involving IP addresses, please share it with other readers!  Please do not post advertisements, they will not be approved. Let us know!
+Alternate Syntax
+This can be also done with   This way works on all browsers and on all new php versions.
+—Guest Shingetsu
+Prevent Hacker to login user's e-mail ac
+When create an e-mail account or any other account, the server can ask to the user to record/save the IP address. So that, if someone/hacker try to login to that account by any other computer then server can prevent the hacker or ask the security question to ensure.
+—Guest Shoaib
+Security reasons...
+If you have a contact form, you may get spam. So, you can get sure that in the spam you will get also the IP of spammer, so you can block it from future unsolicited messages.
+—gxgpet
+Latitude and Longitude
+You can also use the tools at hostip.info to determine someone's approximate latitude and longitude based on their IP address.
+—HealingRooms
+Detecting a User's IP Address
+Guest Name*

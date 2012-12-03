@@ -1,0 +1,13 @@
+Compound Interest Calculator with jQuery
+Photo credit: 
+Building compound interest calculator has both practical and didactic aspects. The skills to learn include:
+HTML or Hyper Text Mark-Up Language
+CSS or Cascading Style Sheets
+jQuery , which is a simplified version of popular scripting language: Javascript .
+In order to learn the corresponding programming technique, just follow the steps outlined below:
+Create a text file. Users of Microsoft Windows could accomplish this task with popular Notepad program
+Copy the following source code and save the file with any valid name (up to user discretion) and .htm extension
+Delete the first and last lines (containing key word "textarea") and save the file again
+Double-click on this file and it should open in your default web browser, so you could read the instruction and practice with interest calculation. You could also modify the source code up to your discretion.
+The fully functioning demo of interest calculator is available at: http://webinfocentral.com/RESOURCES/InterestCalculator.htm
+Copyright © 2010 Alexander Bell

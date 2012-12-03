@@ -1,0 +1,4 @@
+User Agent
+What are private and public IP addresses?
+A computer on the Internet is identified by its IP address. In order to avoid address conflicts, IP addresses are publicly registered with the Network Information Centre (NIC). Computers on private TCP/IP LANs however do not need public addresses, since they do not need to be accessed by the public. For this reason, the NIC has reserved certain addresses that will never be registered publicly. These are known as private IP addresses, and are found in the following ranges:
+From 10.0.0.0 to 10.255.255.255

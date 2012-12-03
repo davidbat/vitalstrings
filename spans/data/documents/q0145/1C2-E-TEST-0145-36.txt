@@ -1,0 +1,29 @@
+Was this article helpful? 0 0
+How to Calculate Compound Interest
+By Alan Cameron
+Compound interest is the process of adding interest to the initial amount of an investment, and from then on earning further interest on this new amount. This is distinct from simple interest, in which the rate is applied once to the initial amount and then multiplied by the term of the investment.
+The vast majority of investment vehicles offer compound interest.
+Calculating compound interest is not as straight forward as simple interest, although it is not particularly difficult once the underlying formula is known. The remainder of this article outlines the method to use.
+In order to make the calculation it is necessary to know both the periodic rate of interest and the compounding period. Given these two facts it is possible to determine the return on investment over a given period, as well as a nominal annual rate and annual percentage rate (APR), two means of comparing investments offering different compounding periods.
+Compounding periods will generally be one of daily, monthly, quarterly or yearly, although technically any fixed period is possible.
+For instance a compounding period of monthly and periodic rate of 1% means every month interest is calculated at 1% and added to the principal (initial amount). This is the same as an account that has a monthly compounding period with a 12% nominal annual interest rate (12% / 12 months = 1%).
+Definition of terms:
+PV = present value of a sum (initial investment, or principal)
+FV = future value of a sum (the total balance at the end of a given period)
+i = the periodic rate of interest
+n = the number of compounding periods in a sum
+The formula to calculate the future value of an initial investment is then:
+FV = PV(1 + i)^n
+In the formula ^ means to the power of. For instance 2^3 is 2 to the power of 3, which is 8.
+For example what is the future value of investing $1,000 for 10 years at a nominal annual rate of 12% given a compounding period of monthly?
+PV, the present value is $1,000
+i, the periodic interest rate is 12% / 12 months = 0.12 / 12 = 0.01
+n, the number of compounding periods, is 10 years 12 months = 120 months
+So plugging in the numbers:
+FV = 1000 (1 + 0.01)^120 = $3,300.39
+In other words, the investment returns $2,300.39 in interest over the ten years.
+Although it is straight forward to calculate compound interest this way it is also possible to use an online calculator.
+Alan Cameron lives in Adelaide, South Australia. He is a full-time mathematician and part-time investor.
+To make compound interest calculations even easier you can use an online compound interest calculator .
+Did you find this article helpful? 0 0
+Get Involved

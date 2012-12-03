@@ -1,0 +1,8 @@
+By Bradley Mitchell , About.com Guide
+See More About:
+tcpip
+Definition: An IP address is a logical address for a network adapter . The IP address uniquely identifies computers on a TCP/IP network.
+An IP address can be private - for use on a local area network (LAN) - or public - for use on the Internet or other wide area network (WAN) . IP addresses can be determined statically (assigned to a computer by a system administrator) or dynamically (assigned by another device on the network on demand).
+Two IP addressing standards are in use today. The IPv4 standard is most familar to people and supported everywhere on the Internet, but the newer IPv6 standard is planned to replace it and starting to be deployed.
+IPv4 addresses consist of four bytes (32 bits). Each byte of an IP address is known as an octet . Octets can take any value between 0 and 255. Various conventions exist for the numbering and use of IP addresses.
+Common IP (IPv4) Addresses -

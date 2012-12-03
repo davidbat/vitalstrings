@@ -1,0 +1,8 @@
+DOI Bookmark: http://doi.ieeecomputersociety.org/10.1109/MC.2007.103
+Using a high-level-language to hardware-description-language compiler and some novel architectures and algorithms to map two  well-known double-precision floating-point sparse matrix iterative-linear-equation solvers--the Jacobi and conjugate gradient methods--onto a reconfigurable computer achieves more than a twofold speedup over software.
+Index Terms:
+reconfigurable computing, Jacobi method, Conjugate gradient method, FPGAs
+Citation:
+Gerald R. Morris, Viktor K. Prasanna,  "Sparse Matrix Computations on Reconfigurable Hardware," Computer, vol. 40, no. 3, pp. 58-64, March 2007, doi:10.1109/MC.2007.103
+Usage of this product signifies your acceptance of the Terms of Use .
+Open

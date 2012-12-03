@@ -1,0 +1,14 @@
+Compound Interest Simulator
+  
+This applet will allow you to investigate savings account earnings, credit card debt, and a stock market simulation.
+Instructions
+ 
+You can use the tabs along the top of the applet to investigate savings account earnings, credit card debt, or a stock market simulation. All of these situations involve compound interest.
+For Savings, the green line in the graph shows the amount that you contributed (the sum of the principal and monthly contributions), and the blue line shows the amount you contributed plus interest.
+For Credit Card, the red line shows the initial balance, and the blue line shows the current balance. The green line shows the total amount paid. The difference between the red line and the green line is the "cost of credit," which is the cost of using a credit card instead of paying cash.
+For Stock Market, you can set your investment risk to high, moderate, or low. The potential for return is greatest when the risk is high, but the potential for loss is also extremely likely. The green line shows the amount invested, and the blue line shows the amount you contributed plus earnings. If multiple simulations are run using the "Generate New Values" button, the previous high and low results are displayed. To clear the graph, change the principal, monthly contribution, or length of investment, or click the "Reset and Start Again" button.
+Exploration
+ 
+For Savings and Stock Market, investigate the result that occurs when each parameter is changed. In particular, which parameter causes the results to change most dramatically?
+For Credit Card, change the parameters for a monthly payment of 2% and a minimum payment of $20. How long will it take to pay off a $1,000 balance at that rate? What is the cost of credit for this situation?
+  

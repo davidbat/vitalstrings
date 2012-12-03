@@ -1,0 +1,24 @@
+.......o  eigenvector/eigenvalue routines -- symmetric, real Schur
+decomposition, SVD, extract eigenvector....."
+"A2.  Why not use C versions of LINPACK, EISPACK or LAPACK?.......
+......
+As well, none of the above packages has anything to do with sparse
+matrices.  There are, of course, sparse matrix packages that are
+freely
+available, but even there, they do not seem to handle, in an
+integrated
+way, both sparse and dense matrices.  Meschach has not only sparse
+matrix
+data structures and the routines to make use of them, but as the
+sparse
+matrices are self-contained data structures, use of sparse and dense
+matrices can be intermixed...."
+But, when I look for svd function, I only get in matrix2.h/svd.c,
+svd.c:VEC       *svd(MAT *A, MAT *U, MAT *V, VEC *d)
+MAT (dense matrix) implementation but not the SPMAT (sparse matrix)
+It seems that don't have svd functionality for SPMAT, I've seen
+samples in tutorial.c, torture.c and ztorture.c. Only has used SPMAT
+in tutorial.c /* discrete laplacian */ SPMAT *laplacian(A) SPMAT *A
+function.
+Anyone has used meschach for svd on a sparse matrix? other package?
+suggestions?

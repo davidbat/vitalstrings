@@ -1,0 +1,27 @@
+How to Track the Original Location of an Email via its IP Address
+October 9th, 2007 by akishore | File in: Computer Tips
+Here’s a quick how-to guide on how you can track email to it’s originating location by figuring out the email’s IP address and looking it up. I have found this to be quite useful on many occasions for verification purposes since I receive lots of emails daily due to my blog. Tracking the IP address of an email sender does require looking at some technical details, so be ready to dig your heels in!
+There are basically two steps involved in the process of tracking an email: find the IP address in the email header section and then look up the location of the IP address.
+Finding the IP address of an email sender in GMail, Yahoo Mail, and Outlook
+Let’s go ahead and take a look at how you would do this for Google, Yahoo and Outlook since those are the most popular email clients.
+Google’s Gmail
+1. Log into your account and open the email in question.
+2. Click on the down arrow that’s to the right of the Reply link. Choose Show Original from the list.
+Now here’s the technical part that I was telling you about earlier! You need to look for the lines of text that start with “Received: from“. It might be easier to simply press Cntrl + F and perform a search for that phase. You’ll notice that there are several Received From’s in the message header. This is because the message header contains the IP addresses of all of servers involved in routing that email to you.
+To find the first computer that originally sent the email, you’ll have to find the Received From that’s farthest DOWN. As you can see from the above image, the first one is from a computer called “aseem” with the IP address 72.204.154.191. Then it was routed to my ISP’s server at eastrmmtao104.cox.net and so on and so forth till it got to your email server.
+The computer aseem is my personal home computer and that’s my public IP address for my house! I’ll go through Yahoo and Outlook before talking about tracking the location of that IP address.
+Yahoo Mail Beta
+1. Log into your account and open the email (if you’re using Yahoo Mail Beta with the new preview interface, make sure you double-click on the email so that it opens in a new tab)
+2. At the top right, you’ll see there is a drop-down option where Standard Header is selected by default.
+3. Click on it and choose Full Header.
+Again, you’ll see the same information as before, just in a different window:
+Microsoft Outlook
+1. Open the email in Outlook by double-clicking on it
+2. Go to View at the top menu (the menu options for the email, not the main Outlook window) and choose Options.
+You’ll get a dialog box where you can set the message options and at the bottom you’ll see the Internet Headers box. For some silly reason, the box is very small and you have to scroll a lot, so it’s best to simply copy and paste the text into Notepad to view it more easily.
+Tracking the location of an IP address
+Now that we have our originating IP address of 72.204.154.191, let’s find out where that is! You can do this by perform a location lookup on the IP address. My favorites are IP2Location and GeoBytes IP Locator .
+GeoBytes gave me a big map of New Orleans, LA along with a bunch of other information about the location itself.
+IP2Location also gave me the same information pretty much, including the ISP (Cox Communications). Of course, this is correct since I live in New Orleans!
+If you want more information, you can do a WHOIS database search also. My favorite one is the Network Solutions . This will give you information on who hosts that IP address and their registration information. You can always contact them to try and find more information on that particular IP address.
+Have fun tracking down those emails! Questions, comments, or suggestions? Post a comment!

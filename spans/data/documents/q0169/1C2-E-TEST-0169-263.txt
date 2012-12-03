@@ -1,0 +1,23 @@
+Copy: Create a copy of an existing vector with a specified target sparsity.
+Vector v = Vector.Copy(v1); // Dense target by default
+Vector v = Vector.Copy(v1, Sparsity.Dense);
+Vector v = Vector.Copy(v1, Sparsity.Sparse);
+Vector v = Vector.Copy(v1, Sparsity.ApproximateWithTolerance(0.001));
+There are many categories of functions on Vector instances which allow efficient processing. These are summarised below; for full details, see the code documentation for the Vector class ..
+Indexing
+Indexing allows the getting and setting of individual elements of the vector. This is only recommended in exceptional circumstances as it is typically an inefficient way to process vectors. Other methods relating to indexing are IndexOfAll, IndexOf, IndexOfMin, and IndexOfMax..
+Appending
+Vectors can be created by appending one vector or scalar to another vector by means of the Append method. A static version of this, Concat, is also available.
+SetTo
+An existing Vector instance can be modified by setting its values to a set of given values. Instance methods SetTo, SetToSubarray, and SetAllElements provide this functionality. The CopyTo method provides the reverse functionality, allowing the current instance to be copied to another specified Vector iinstance.
+SetToFunction
+The Vector class has some methods to set the current instance to a combination of one or two other vectors. One general such method is SetToFunction which takes one or two vectors along with a delegate giving the element-wise calculation. Specific such methods include SetToSum, SetToDifference, SetToProduct, SetToRatio and SetToPower.
+Operators
+Operators +, - (unary and binary), *, / and ^ are all overridden to provide addition, subtraction/negation, product, division, and raising to a power. >, >=, <, <= are all overridden to provide vector comparison. These comparison operators make use of two general methods All and Any which take a condition delegate.
+Reduce
+This category of methods allows one or more vectors to be reduced to a scalar by means of a combining function. The most general method is Reduce which takes a general combining delegate as an argument. Specific versions include Sum, SumI, SumISq, Max, Min, and Inner.
+Operations involving matrices
+Methods such as SetToProduct (with a Matrix and Vector argument), PredivideBy, Outer, and SetToDiagonal are provided to support some fundamental operations involving vectors and matrices. Although these will work with any type of vector (sparse or dense), they will be quite inefficient for sparse vectors, and there is no support for sparse matrices in Infer.NET.
+The PositiveDefiniteMatrix type
+The PostiveDefiniteMatrix class is used to represent a positive definite matrix which is the domain type for a Wishart distribution. Wishart distributions are used to represent uncertainty in the precision matrix of a VectorGaussian distribution, and many of the methods in the PostiveDefiniteMatrix class are geared towards this usage. For full details see the code documentation for the PositiveDefiniteMatrix class .
+Last modified at 10/19/2010 9:06 AM  by
