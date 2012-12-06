@@ -26,6 +26,37 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 		# Vital strings that are not present in any summary
 		if out.empty?
 			@vs_dont_match[qid] ||= {}
+			@vs_dont_match[qid][vid] = {}
+		end
+
+		# Vital strings that match some summaries and summary coverage
+		out.split('\n').each do |line|
+			sum, st, ed, len = line.split(' ')
+			@vs_match[qid] ||= {}
+			@vs_match[qid][vid] ||= {}
+			@vs_match[qid][vid][sum] ||= {}
+			@vs_match[qid][vid][sum]['all'] ||= []
+
+			@sum_cover[qid] ||= {}
+			@sum_cover[qid][sum] ||= []
+
+			if !@vs_match[qid][vid][sum]['smallest'].nil? && @vs_match[qid][vs][sum]['smallest'].last > len.to_i
+				@vs_match[qid][vid][sum]['smallest'] = [st.to_i, len.to_i]
+			end
+			@vs_match[qid][vid][sum]['all'] << [[st.to_i, len.to_i]]
+			@sum_cover[qid][sum] << [[st.to_i, len.to_i]]
+		end
+
+	end
+
+	def spans2(qid, vs, vid)
+		puts "processing #{qid}, #{vid} - #{vs}"
+		vital_str = vs.last.join(' ')
+		out = `./spans.pl -a -s #{qid} #{vital_str}`
+
+		# Vital strings that are not present in any summary
+		if out.empty?
+			@vs_dont_match[qid] ||= {}
 			@vs_dont_match[qid][vs] = {}
 		end
 
@@ -89,6 +120,12 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 				end
 			end
 		end
+		@global_hash.each do |qid, query|
+		query.each do |nid, nugget|
+			nugget.each do |vs|
+				spans(qid, vs)
+			end
+		end
 	else
 		full_file_path = Dir.glob("#{vitalstrings_path}/*#{arg1}*")
 		if full_file_path.length != 1 
@@ -106,23 +143,24 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 			length = line_array.length
 			# vital strings contain / in the first column
 			if vitalstring?(line_array.first)
-				puts "here oh oh"
-				vitalstring_id = line_array.first.split('-').last
+				puts "Vital string is #{line}"
+				vitalstring_id = line_array.first
 				vitalstring_id_1, vitalstring_id_2 = vitalstring_id.split("/")
-				@global_hash[query_id][vitalstring_id_1] ||= {}
-				@global_hash[query_id][vitalstring_id_1][vitalstring_id_2] = line_array[1..length].inject([]) {|obj,ell| obj << ell unless ell[/^DEP/];obj}
+				#@global_hash[query_id][vitalstring_id] ||= []
+				# check here for duplicates
+				puts line_array[1..length].inject([]) {|obj,ell| obj << ell unless ell[/^DEP/];obj}
+				@global_hash[query_id][vitalstring_id] = line_array[1..length].inject([]) {|obj,ell| obj << ell unless ell[/^DEP/];obj}
 			end
 		end
-	end
-
-
-	@global_hash.each do |qid, query|
-		query.each do |nid, nugget|
-			nugget.each do |vs|
-				spans(qid, vs)
-			end
+		@global_hash.each do |qid, query|
+		query.each do |vid, vs|
+			spans2(qid, vs, vid)
 		end
 	end
+end
+
+
+	
 
 pp @vs_match
 #end
