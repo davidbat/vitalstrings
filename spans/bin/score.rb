@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 
 #require 'thor'
+require 'pp'
 
 
 
@@ -89,12 +90,17 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 			end
 		end
 	else
-		full_file_path = Dir.glob("#{vitalstrings_path}/*#{argv1}*")
-		if full_file_path.length > 1
-			puts "Query id needs to be unique. Incorrect query id provided."
+		full_file_path = Dir.glob("#{vitalstrings_path}/*#{arg1}*")
+		if full_file_path.length != 1 
+			puts "Query id needs to exist be unique. Incorrect query id provided."
 			exit 1
 		end
-		open(full_file_path).readlines.each do |line|
+		puts "here #{full_file_path}"
+		full_file_name = full_file_path.first.split("/").last
+		file_name = full_file_name.split(".").first
+		query_id = full_file_name.split("-").last.split(".").first
+		@global_hash[query_id] = {}
+		open(full_file_path.first).readlines.each do |line|
 			line_array = line.split
 			puts line_array.inspect
 			length = line_array.length
@@ -118,5 +124,5 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 		end
 	end
 
-puts @vs_match.inspect
+pp @vs_match
 #end
