@@ -48,24 +48,52 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 
 	end
 
+	if ARGV.length == 0 
+		puts "No arguments supplied. Pass at least query id"
+		exit 1
+	end
+
+	arg1 = ARGV.first
+
 	@global_hash = {}
 	@vs_match = {}
 	@vs_dont_match = {}
 	@sum_cover = {}
 	puts vitalstrings_path
-	Dir.glob("#{vitalstrings_path}/*").each do |full_file_path|
-		puts "here"
-		# 1C2-E-TEST-0001.out
-		full_file_name = full_file_path.split("/").last
+	if (arg1 == "-a")
+		Dir.glob("#{vitalstrings_path}/*").each do |full_file_path|
+			puts "here"
+			# 1C2-E-TEST-0001.out
+			full_file_name = full_file_path.split("/").last
 
-		# file_name and query_id are equivalent (when used as keys in a hash). We dont use file_name
-		# 1C2-E-TEST-0001
-		file_name = full_file_name.split(".").first
+			# file_name and query_id are equivalent (when used as keys in a hash). We dont use file_name
+			# 1C2-E-TEST-0001
+			file_name = full_file_name.split(".").first
 
-		# get 0001 out of the file name
-		query_id = full_file_name.split("-").last.split(".").first
+			# get 0001 out of the file name
+			query_id = full_file_name.split("-").last.split(".").first
 
-		@global_hash[query_id] = {}
+			@global_hash[query_id] = {}
+			open(full_file_path).readlines.each do |line|
+				line_array = line.split
+				puts line_array.inspect
+				length = line_array.length
+				# vital strings contain / in the first column
+				if vitalstring?(line_array.first)
+					puts "here oh oh"
+					vitalstring_id = line_array.first.split('-').last
+					vitalstring_id_1, vitalstring_id_2 = vitalstring_id.split("/")
+					@global_hash[query_id][vitalstring_id_1] ||= {}
+					@global_hash[query_id][vitalstring_id_1][vitalstring_id_2] = line_array[1..length].inject([]) {|obj,ell| obj << ell unless ell[/^DEP/];obj}
+				end
+			end
+		end
+	else
+		full_file_path = Dir.glob("#{vitalstrings_path}/*#{argv1}*")
+		if full_file_path.length > 1
+			puts "Query id needs to be unique. Incorrect query id provided."
+			exit 1
+		end
 		open(full_file_path).readlines.each do |line|
 			line_array = line.split
 			puts line_array.inspect
