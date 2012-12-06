@@ -121,9 +121,10 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 			end
 		end
 		@global_hash.each do |qid, query|
-		query.each do |nid, nugget|
-			nugget.each do |vs|
-				spans(qid, vs)
+			query.each do |nid, nugget|
+				nugget.each do |vs|
+					spans(qid, vs)
+				end
 			end
 		end
 	else
