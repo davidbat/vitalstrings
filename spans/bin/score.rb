@@ -157,7 +157,6 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 			spans2(qid, vs, vid)
 		end
 	end
-end
 
 
 	
