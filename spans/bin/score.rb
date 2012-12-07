@@ -154,8 +154,9 @@ spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 			end
 		end
 		@global_hash.each do |qid, query|
-		query.each do |vid, vs|
-			spans2(qid, vs, vid)
+			query.each do |vid, vs|
+				spans2(qid, vs, vid)
+			end
 		end
 	end
 
