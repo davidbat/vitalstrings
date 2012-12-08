@@ -15,6 +15,7 @@ vitalstrings_path = File.expand_path("../../../", __FILE__) + "/1CLICK/vitalstri
 spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
 out_path = File.expand_path("../", __FILE__) + "/../out/"
 @span_cutoff = 20
+@score_cutoff = 0.3
   def vitalstring?(str)
     str.include?("/")
   end
@@ -167,6 +168,34 @@ out_path = File.expand_path("../", __FILE__) + "/../out/"
 
   
 fd = open(out_path + "#{query_id}", "w")
-#@vs_match.each do |
+@vs_match.each do |sid, sum|
+	sum.each do |vid, vs|
+		fd.write("#{sid} #{vid} #{vs['smallest'].join(' ')} #{vs['all'].flatten.join(' ')}\n")
+	end
+end
+
+@sum_cover.each do |sum, coverage|
+	length = 200
+	summary = Array.new(length) {0}
+	coverage.each do |st, len|
+		summary[st..st+len-1] = summary[st..st+len-1].map {|score| score += 1/len}
+	end
+	st = -1
+	ed  = 0
+	cur = 0
+	summary.each do |score|
+		st = cur if score < @score_cutoff && st == -1
+		if score < @score_cutoff
+			ed += 1
+		else
+			fd.write("#{sum} -999 #{st} #{ed}\n") unless ed == 0
+			st = -1
+			ed = 0
+		end
+		cur += 1
+	end
+end
+
+fd.close
 pp @vs_match
 #end
