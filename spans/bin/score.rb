@@ -8,8 +8,8 @@ require 'pp'
 #class Score < Thor
 #class Score
 
-default_date = 20121116
-#default_date = 'processed'
+#default_date = 20121116
+default_date = 'processed'
 summary_path =  File.expand_path("../../", __FILE__) + "/data/summarydocuments/"
 vitalstrings_path = File.expand_path("../../../", __FILE__) + "/1CLICK/vitalstringscode/out/1C2-E-TEST/#{default_date}/output/STANFORD"
 spans_path = File.expand_path("../", __FILE__) + "/spans.pl"
