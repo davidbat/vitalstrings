@@ -28,8 +28,11 @@ out_path = File.expand_path("../", __FILE__) + "/../out/"
     # Vital strings that are not present in any summary
     if out.empty?
       @vs_dont_match ||= {}
+      @vs_match["-999"] ||= {}
       @vs_dont_match[vid] = {}
-      @vs_match["-999"][vid] = [ "-999", "-999" ]
+      @vs_match["-999"][vid] ||= {}
+      @vs_match["-999"][vid]['smallest'] = [ "-999", "-999" ]
+      @vs_match["-999"][vid]['all'] = []
     end
 
     # Vital strings that match some summaries and summary coverage
@@ -37,8 +40,8 @@ out_path = File.expand_path("../", __FILE__) + "/../out/"
       sum, len, st, ed = line.split(' ')
       next if len.to_i > @span_cutoff 
       @vs_match[sum] ||= {}
-      @vs_match[sum]['vs'] = vs
       @vs_match[sum][vid] ||= {}
+      @vs_match[sum][vid]['vs'] = vs
       @vs_match[sum][vid]['all'] ||= []
 
       @sum_cover ||= {}
@@ -168,34 +171,36 @@ out_path = File.expand_path("../", __FILE__) + "/../out/"
 
   
 fd = open(out_path + "#{query_id}", "w")
+#fd.write(pp(@vs_match))
+#fd.close
+#fd = open(out_path + "#{query_id}", "a")
 @vs_match.each do |sid, sum|
-	sum.each do |vid, vs|
-		fd.write("#{sid} #{vid} #{vs['smallest'].join(' ')} #{vs['all'].flatten.join(' ')}\n")
-	end
+  sum.each do |vid, vs|
+    pp vs
+    fd.write("#{sid} #{vid} #{vs['smallest'].join(' ')} #{vs['all'].flatten.join(' ')}\n")
+  end
 end
 
 @sum_cover.each do |sum, coverage|
-	length = 200
-	summary = Array.new(length) {0}
-	coverage.each do |st, len|
-		summary[st..st+len-1] = summary[st..st+len-1].map {|score| score += 1/len}
-	end
-	st = -1
-	ed  = 0
-	cur = 0
-	summary.each do |score|
-		st = cur if score < @score_cutoff && st == -1
-		if score < @score_cutoff
-			ed += 1
-		else
-			fd.write("#{sum} -999 #{st} #{ed}\n") unless ed == 0
-			st = -1
-			ed = 0
-		end
-		cur += 1
-	end
+  length = 800
+  summary = Array.new(length) {0}
+  coverage.each do |st, len|
+    summary[st..st+len-1] = summary[st..st+len-1].map {|score| score += 1/len}
+  end
+  st = -1
+  ed  = 0
+  cur = 0
+  summary.each do |score|
+    # dont need ed
+    st = cur if score < @score_cutoff && st == -1
+    if score >= @score_cutoff
+      # ed or ed - 1?
+      fd.write("#{sum} -999 #{st} #{cur - st}\n") unless st == -1
+      st = -1
+    end
+    cur += 1
+  end
 end
 
 fd.close
-pp @vs_match
 #end
