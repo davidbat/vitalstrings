@@ -120,6 +120,8 @@ end
   coverage.each do |st, len|
     summary[st..st+len-1] = summary[st..st+len-1].map {|score| score += 1/len}
   end
+  # Mark the last block
+  summary[length] = @score_cutoff
   st = -1
   ed  = 0
   cur = 0
