@@ -3,7 +3,13 @@
 #require 'thor'
 require 'pp'
 
+# lambda = .67?
+# (lambda)^((s-k)/k)
+# s = span length
+# k = vital string length
+# 0.3 - 0.4 threshold
 
+# 1 - (1 - a) * (1 - b)...
 
 #class Score < Thor
 #class Score
